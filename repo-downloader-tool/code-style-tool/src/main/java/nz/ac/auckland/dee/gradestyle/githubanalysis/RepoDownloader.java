@@ -17,7 +17,8 @@ import org.kohsuke.github.GitHubBuilder;
 import org.kohsuke.github.PagedIterator;
 
 public class RepoDownloader {
-  private static final int maxRepoSize = 2000000;
+  // limit to 
+  private static final int maxRepoSize = 10000000;
 
   private GitHub github;
   private Config config;
@@ -52,7 +53,7 @@ public class RepoDownloader {
     GHRepositorySearchBuilder searchBuilder =
         github
             .searchRepositories()
-            .q("language:java created:<2021-01-01") // Only repositories created before 2021
+            .q("language:java")
             .order(GHDirection.DESC);
 
     for (Sort sort : sortCriteria) {
@@ -75,14 +76,6 @@ public class RepoDownloader {
       System.out.println("Count: " + count);
       GHRepository repo = iterator.next();
 
-      if (repo.getName().equals("curator")) {
-        seenRepo = true;
-      }
-
-      if (!seenRepo) {
-        continue;
-      }
-
       if (repo.getSize() > maxRepoSize) {
         System.out.println("Skipping: " + repo.getName() + " due to large size: " + repo.getSize());
         continue;
@@ -94,16 +87,6 @@ public class RepoDownloader {
       if (repoPath.exists()) {
         System.out.println("Skipping " + repo.getName() + " (already downloaded).");
         continue;
-      }
-
-      // Check if the repo name exists in the failed_repos directory
-      File failedReposDir = new File("D:/failed_repos");
-      if (failedReposDir.exists() && failedReposDir.isDirectory()) {
-        File failedRepo = new File(failedReposDir, repo.getName());
-        if (failedRepo.exists()) {
-          System.out.println("Skipping: " + repo.getName() + " (found in failed repos directory).");
-          continue;
-        }
       }
 
       // Repository's clone URL
@@ -128,15 +111,18 @@ public class RepoDownloader {
         int exitCode = process.waitFor();
 
         if (exitCode == 0) {
-          // Validate repo and make sure it is good for processing
-          validator = new RepoValidator(repoPath);
+          //success
+
+          // check if passes checks
+          RepoValidator validator = new RepoValidator(repoPath);
           boolean success = validator.validate();
 
           if (success) {
-            System.out.println("All checks passed: " + repo.getName());
             count++;
-            continue;
+          continue;
           }
+
+          System.out.println("Failed a check during validation");
         } else {
           System.err.println("Failed to clone repository: " + repo.getName());
         }
@@ -167,61 +153,4 @@ public class RepoDownloader {
     directory.delete();
   }
 
-  public void copyUniqueRepos(String sourceDir, String targetDir) {
-    File source = new File(sourceDir);
-    File target = new File(targetDir);
-
-    // Ensure source and target directories exist
-    if (!source.exists() || !source.isDirectory()) {
-      System.err.println("Source directory does not exist or is not a directory: " + sourceDir);
-      return;
-    }
-    if (!target.exists()) {
-      target.mkdirs(); // Create target directory if it doesn't exist
-    }
-
-    File[] sourceRepos = source.listFiles(File::isDirectory); // Only directories
-    if (sourceRepos == null) {
-      System.err.println("No repositories found in source directory: " + sourceDir);
-      return;
-    }
-
-    for (File repo : sourceRepos) {
-      File targetRepo = new File(target, repo.getName());
-
-      // Check if the repository already exists in the target directory
-      if (targetRepo.exists()) {
-        System.out.println(
-            "Skipping: " + repo.getName() + " (already exists in target directory).");
-        continue;
-      }
-
-      // Copy the repository to the target directory
-      try {
-        System.out.println("Copying: " + repo.getName() + " to " + targetRepo.getAbsolutePath());
-        copyDirectory(repo.toPath(), targetRepo.toPath());
-      } catch (IOException e) {
-        System.err.println(
-            "Failed to copy repository: " + repo.getName() + ". Error: " + e.getMessage());
-      }
-    }
-
-    // Calculate total repositories in the target directory
-    String[] targetRepos = target.list((current, name) -> new File(current, name).isDirectory());
-    int totalRepos = targetRepos == null ? 0 : targetRepos.length;
-    System.out.println("Total repositories in " + targetDir + ": " + totalRepos);
-  }
-
-  private void copyDirectory(Path source, Path target) throws IOException {
-    Files.walk(source)
-        .forEach(
-            sourcePath -> {
-              Path targetPath = target.resolve(source.relativize(sourcePath));
-              try {
-                Files.copy(sourcePath, targetPath, StandardCopyOption.REPLACE_EXISTING);
-              } catch (IOException e) {
-                System.err.println("Error copying file: " + sourcePath + " to " + targetPath);
-              }
-            });
-  }
 }

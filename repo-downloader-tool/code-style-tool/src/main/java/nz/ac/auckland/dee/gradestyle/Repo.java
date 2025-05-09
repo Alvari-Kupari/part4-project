@@ -12,64 +12,7 @@ import org.eclipse.jgit.api.errors.GitAPIException;
 import org.eclipse.jgit.lib.Constants;
 
 public class Repo {
-  public static List<Repo> getRepos(Github github) {
-    if (github.getConfig().getGithub()) {
-      try {
-        return github.cloneAssignment();
-      } catch (GitAPIException | IOException e) {
-        e.printStackTrace();
-        System.err.println("Unable to clone assignment from GitHub.");
-      }
-    }
-
-    List<Repo> repos = new ArrayList<>();
-
-    Iterable<Path> paths;
-
-    if (github.getConfig().getRepos() == null) {
-      paths = List.of(Paths.get("").toAbsolutePath());
-    } else {
-      try {
-        paths =
-            Files.newDirectoryStream(
-                github.getConfig().getRepos(),
-                new DirectoryStream.Filter<Path>() {
-                  @Override
-                  public boolean accept(Path path) {
-                    return !path.equals(github.getConfig().getTemplateRepo());
-                  }
-                });
-      } catch (IOException e) {
-        System.err.println("Unable to read local repos.");
-
-        return repos;
-      }
-    }
-
-    for (Path path : paths) {
-      if (!Files.isDirectory(path)) {
-        continue;
-      }
-
-      String hash = null;
-
-      try {
-        hash =
-            Git.open(path.toFile())
-                .getRepository()
-                .exactRef(Constants.HEAD)
-                .getObjectId()
-                .getName();
-      } catch (IOException e) {
-      }
-
-      repos.add(
-          new Repo(
-              path, github.getConfig().getGithubClassroom(), path.getFileName().toString(), hash));
-    }
-
-    return repos;
-  }
+ 
 
   private Path dir;
 
