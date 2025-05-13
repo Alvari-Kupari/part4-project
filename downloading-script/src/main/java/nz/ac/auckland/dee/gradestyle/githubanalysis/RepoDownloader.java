@@ -18,7 +18,7 @@ import org.kohsuke.github.PagedIterator;
 
 public class RepoDownloader {
   // limit to 
-  private static final int maxRepoSize = 10000000;
+  private static final int maxRepoSize = 20000;
 
   private GitHub github;
   private Config config;

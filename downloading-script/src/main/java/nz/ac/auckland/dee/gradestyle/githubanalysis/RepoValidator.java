@@ -42,7 +42,7 @@ public class RepoValidator {
   }
 
   private boolean hasSingleRootPom(File repoDir) {
-    try (Stream<Path> paths = Files.walk(repoDir.toPath(), 1)) {
+    try (Stream<Path> paths = Files.walk(repoDir.toPath())) {
       long pomCount =
           paths
               .filter(Files::isRegularFile)
