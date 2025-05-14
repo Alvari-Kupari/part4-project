@@ -20,18 +20,24 @@ public class RepoValidator {
     this.repoDir = repoDir;
   }
 
-  public boolean validate() {
+  public List<Path> getValidProjects() {
+
+    try (Stream<Path> paths = Files.walk(repoDir.toPath())) {
+      return paths.filter(path -> validate(path)).collect(Collectors.toList());
+    } catch (IOException e) {
+      System.out.println("Failed to navigate repo directories: " + e.getMessage());
+      return null;
+    }
+
+  }
+
+  private boolean validate(Path moduleDir) {
     try {
-      List<Path> sourceFiles = FileUtils.getJavaSrcFiles(repoDir.toPath()).toList();
-      int numJavaFiles = sourceFiles.size();
 
-      if (numJavaFiles < minJavaFiles || numJavaFiles > maxJavaFiles) {
-        System.out.println("Invalid number of java files. Number of files: " + numJavaFiles);
+      if (!hasSingleRootBuildFile(moduleDir))
         return false;
-      }
-
-      if (!hasSingleRootPom(repoDir)) return false;
-      if (!hasSingleSrcMainJava(repoDir)) return false;
+      if (!hasSingleValidSrcMainJava(moduleDir))
+        return false;
 
     } catch (Exception e) {
       e.printStackTrace();
@@ -41,55 +47,58 @@ public class RepoValidator {
     return true;
   }
 
-  private boolean hasSingleRootPom(File repoDir) {
-    try (Stream<Path> paths = Files.walk(repoDir.toPath())) {
-      long pomCount =
-          paths
-              .filter(Files::isRegularFile)
-              .filter(path -> path.getFileName().toString().equals("pom.xml"))
-              .count();
+  private boolean hasSingleRootBuildFile(Path projectDir) {
+    try (Stream<Path> paths = Files.walk(projectDir, 1)) {
+      long buildFileCount = paths
+          .filter(Files::isRegularFile)
+          .filter(this::isBuildFile)
+          .count();
 
-      if (pomCount != 1) {
-        System.out.println("POM FILE CHECK FAILED. Found " + pomCount + " pom.xml files in root.");
+      if (buildFileCount != 1) {
         return false;
       }
     } catch (IOException e) {
-      System.err.println("Error checking pom.xml: " + e.getMessage());
+      System.err.println("Error checking build file: " + e.getMessage());
       return false;
     }
 
     return true;
   }
 
-  private boolean hasSingleSrcMainJava(File repoDir) {
-    try (Stream<Path> paths = Files.walk(repoDir.toPath())) {
-      List<Path> srcMainJavaDirs =
-          paths
-              .filter(Files::isDirectory)
-              .filter(path -> path.endsWith("src/main/java"))
-              .filter(
-                  path -> {
-                    try (Stream<Path> files = Files.walk(path)) {
-                      return files.anyMatch(p -> p.toString().endsWith(".java"));
-                    } catch (IOException e) {
-                      return false;
-                    }
-                  })
-              .collect(Collectors.toList());
+  private boolean hasSingleValidSrcMainJava(Path projectDir) {
+    try (Stream<Path> paths = Files.walk(projectDir)) {
+      List<Path> srcMainJavaDirs = paths
+          .filter(Files::isDirectory)
+          .filter(path -> path.endsWith("src/main/java"))
+          .collect(Collectors.toList());
 
       if (srcMainJavaDirs.size() != 1) {
-        System.out.println(
-            "SRC CHECK FAILED. Found "
-                + srcMainJavaDirs.size()
-                + " src/main/java directories with Java files.");
         return false;
       }
 
+      // Check Java file count in the single src/main/java
+      Path srcDir = srcMainJavaDirs.get(0);
+      try (Stream<Path> javaFiles = Files.walk(srcDir)) {
+        long javaFileCount = javaFiles
+            .filter(Files::isRegularFile)
+            .filter(p -> p.toString().endsWith(".java"))
+            .count();
+
+        if (javaFileCount < minJavaFiles || javaFileCount > maxJavaFiles) {
+          return false;
+        }
+      }
     } catch (IOException e) {
       System.err.println("Error checking src/main/java: " + e.getMessage());
       return false;
     }
 
     return true;
+  }
+
+  private boolean isBuildFile(Path path) {
+    return path.getFileName().toString().equals("pom.xml") || path.getFileName().toString().equals("build.gradle")
+        || path.getFileName().toString().equals("build.gradle.kts");
+
   }
 }

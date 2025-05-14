@@ -2,9 +2,7 @@ package nz.ac.auckland.dee.gradestyle.githubanalysis;
 
 import java.io.File;
 import java.io.IOException;
-import java.nio.file.Files;
 import java.nio.file.Path;
-import java.nio.file.StandardCopyOption;
 import java.util.List;
 import nz.ac.auckland.dee.gradestyle.config.Config;
 import org.kohsuke.github.GHDirection;
@@ -17,8 +15,8 @@ import org.kohsuke.github.GitHubBuilder;
 import org.kohsuke.github.PagedIterator;
 
 public class RepoDownloader {
-  // limit to 
-  private static final int maxRepoSize = 20000;
+  // limit to
+  private static final int maxRepoSize = 50000; // KB
 
   private GitHub github;
   private Config config;
@@ -50,11 +48,10 @@ public class RepoDownloader {
     }
 
     // Search repositories and sort by the specified criteria
-    GHRepositorySearchBuilder searchBuilder =
-        github
-            .searchRepositories()
-            .q("language:java")
-            .order(GHDirection.DESC);
+    GHRepositorySearchBuilder searchBuilder = github
+        .searchRepositories()
+        .q("language:java")
+        .order(GHDirection.DESC);
 
     for (Sort sort : sortCriteria) {
       searchBuilder.sort(sort);
@@ -76,8 +73,15 @@ public class RepoDownloader {
       System.out.println("Count: " + count);
       GHRepository repo = iterator.next();
 
+      System.out.println("Inspecting repo: " + repo.getName() + " with stars: " + repo.getStargazersCount());
+
       if (repo.getSize() > maxRepoSize) {
         System.out.println("Skipping: " + repo.getName() + " due to large size: " + repo.getSize());
+        continue;
+      }
+
+      if (!CommitChecker.hasRecentCommit(repo)) {
+        System.out.println("Skipping " + repo.getName() + " (no recent commits in last 30 days).");
         continue;
       }
 
@@ -96,33 +100,38 @@ public class RepoDownloader {
         System.out.println("Cloning " + repo.getName() + " into " + repoPath.getAbsolutePath());
 
         // Use Git CLI for shallow clone
-        ProcessBuilder builder =
-            new ProcessBuilder(
-                "git",
-                "clone",
-                "--depth=1",
-                "--config",
-                "core.longpaths=true",
-                cloneUrl,
-                repoPath.getAbsolutePath());
+        ProcessBuilder builder = new ProcessBuilder(
+            "git",
+            "clone",
+            "--depth=1",
+            "--config",
+            "core.longpaths=true",
+            cloneUrl,
+            repoPath.getAbsolutePath());
 
         builder.inheritIO(); // Redirect output to console
         Process process = builder.start();
         int exitCode = process.waitFor();
 
         if (exitCode == 0) {
-          //success
+          // success
 
           // check if passes checks
-          RepoValidator validator = new RepoValidator(repoPath);
-          boolean success = validator.validate();
+          validator = new RepoValidator(repoPath);
 
-          if (success) {
+          List<Path> validPaths = validator.getValidProjects();
+
+          if (validPaths != null && validPaths.size() > 0) {
             count++;
-          continue;
+            continue;
           }
 
-          System.out.println("Failed a check during validation");
+          else if (validPaths != null) {
+            System.out.println("NO valid projects found in repo: " + validPaths.size() + " found");
+          } else {
+            System.out.println("Failed a check during validation");
+          }
+
         } else {
           System.err.println("Failed to clone repository: " + repo.getName());
         }
