@@ -131,7 +131,9 @@ public class RepoDownloader {
 
           List<Path> validPaths = validator.getValidProjects();
 
-          if (validPaths != null && validPaths.size() > 0) {
+          if (validPaths != null && validPaths.size() > 50) {
+            tracker.tooManyProjects++;
+          } else if (validPaths != null && validPaths.size() > 0) {
             tracker.totalKept++;
             keptRepoLog.add(repo.getName() + ": " + validPaths.size());
             count++;

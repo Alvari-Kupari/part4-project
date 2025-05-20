@@ -12,6 +12,7 @@ public class FilterTracker {
   public int totalConsidered = 0;
   public int totalKept = 0;
   public int tooLarge = 0;
+  public int tooManyProjects = 0;
 
   public void logToFile(List<String> keptRepoLogs) {
     String timestamp = java.time.LocalDateTime.now().toString().replace(":", "-").replace("T", "_");
@@ -26,6 +27,7 @@ public class FilterTracker {
       out.println("- No recent commits: " + noRecentCommits);
       out.println("- No valid projects: " + noValidProjects);
       out.println("- Too large size: " + tooLarge);
+      out.println("- Too many submodules: " + tooManyProjects);
       out.println("- Exception thrown: " + exceptionThrown);
       out.println();
       out.println("Accepted repos (with valid project counts):");
