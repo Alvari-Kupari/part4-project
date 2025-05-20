@@ -7,7 +7,6 @@ import java.nio.file.Path;
 import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
-import nz.ac.auckland.dee.gradestyle.util.FileUtils;
 
 public class RepoValidator {
 
@@ -28,16 +27,13 @@ public class RepoValidator {
       System.out.println("Failed to navigate repo directories: " + e.getMessage());
       return null;
     }
-
   }
 
   private boolean validate(Path moduleDir) {
     try {
 
-      if (!hasSingleRootBuildFile(moduleDir))
-        return false;
-      if (!hasSingleValidSrcMainJava(moduleDir))
-        return false;
+      if (!hasSingleRootBuildFile(moduleDir)) return false;
+      if (!hasSingleValidSrcMainJava(moduleDir)) return false;
 
     } catch (Exception e) {
       e.printStackTrace();
@@ -48,57 +44,33 @@ public class RepoValidator {
   }
 
   private boolean hasSingleRootBuildFile(Path projectDir) {
-    try (Stream<Path> paths = Files.walk(projectDir, 1)) {
-      long buildFileCount = paths
-          .filter(Files::isRegularFile)
-          .filter(this::isBuildFile)
-          .count();
+    int count = 0;
 
-      if (buildFileCount != 1) {
-        return false;
-      }
-    } catch (IOException e) {
-      System.err.println("Error checking build file: " + e.getMessage());
-      return false;
-    }
+    if (Files.isRegularFile(projectDir.resolve("pom.xml"))) count++;
+    if (Files.isRegularFile(projectDir.resolve("build.gradle"))) count++;
+    if (Files.isRegularFile(projectDir.resolve("build.gradle.kts"))) count++;
 
-    return true;
+    return count == 1;
   }
 
   private boolean hasSingleValidSrcMainJava(Path projectDir) {
-    try (Stream<Path> paths = Files.walk(projectDir)) {
-      List<Path> srcMainJavaDirs = paths
-          .filter(Files::isDirectory)
-          .filter(path -> path.endsWith("src/main/java"))
-          .collect(Collectors.toList());
+    Path srcMainJava = projectDir.resolve("src/main/java");
 
-      if (srcMainJavaDirs.size() != 1) {
-        return false;
-      }
+    if (!Files.isDirectory(srcMainJava)) {
+      return false;
+    }
 
-      // Check Java file count in the single src/main/java
-      Path srcDir = srcMainJavaDirs.get(0);
-      try (Stream<Path> javaFiles = Files.walk(srcDir)) {
-        long javaFileCount = javaFiles
-            .filter(Files::isRegularFile)
-            .filter(p -> p.toString().endsWith(".java"))
-            .count();
+    try (Stream<Path> javaFiles = Files.walk(srcMainJava)) {
+      long javaFileCount =
+          javaFiles
+              .filter(Files::isRegularFile)
+              .filter(p -> p.toString().endsWith(".java"))
+              .count();
 
-        if (javaFileCount < minJavaFiles || javaFileCount > maxJavaFiles) {
-          return false;
-        }
-      }
+      return javaFileCount >= minJavaFiles && javaFileCount <= maxJavaFiles;
     } catch (IOException e) {
       System.err.println("Error checking src/main/java: " + e.getMessage());
       return false;
     }
-
-    return true;
-  }
-
-  private boolean isBuildFile(Path path) {
-    return path.getFileName().toString().equals("pom.xml") || path.getFileName().toString().equals("build.gradle")
-        || path.getFileName().toString().equals("build.gradle.kts");
-
   }
 }
