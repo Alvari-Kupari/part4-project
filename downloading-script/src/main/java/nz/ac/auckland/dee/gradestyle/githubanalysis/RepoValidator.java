@@ -32,7 +32,7 @@ public class RepoValidator {
   private boolean validate(Path moduleDir) {
     try {
 
-      if (!hasSingleRootBuildFile(moduleDir)) return false;
+      if (!hasSingleRootPom(moduleDir)) return false;
       if (!hasSingleValidSrcMainJava(moduleDir)) return false;
 
     } catch (Exception e) {
@@ -43,14 +43,8 @@ public class RepoValidator {
     return true;
   }
 
-  private boolean hasSingleRootBuildFile(Path projectDir) {
-    int count = 0;
-
-    if (Files.isRegularFile(projectDir.resolve("pom.xml"))) count++;
-    if (Files.isRegularFile(projectDir.resolve("build.gradle"))) count++;
-    if (Files.isRegularFile(projectDir.resolve("build.gradle.kts"))) count++;
-
-    return count == 1;
+  private boolean hasSingleRootPom(Path projectDir) {
+    return Files.isRegularFile(projectDir.resolve("pom.xml"));
   }
 
   private boolean hasSingleValidSrcMainJava(Path projectDir) {
