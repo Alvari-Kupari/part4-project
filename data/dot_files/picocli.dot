@@ -1,0 +1,15 @@
+digraph picocli {
+}
+digraph example-maven-project-shading {
+	"org.myorg.myproject:myapp:jar:1.0-SNAPSHOT" -> "info.picocli:picocli:jar:4.7.7:compile" ; 
+}
+digraph example-maven-project-simple {
+	"org.myorg.myproject:myapp:jar:1.0-SNAPSHOT" -> "info.picocli:picocli:jar:4.7.7:compile" ; 
+	"org.myorg.myproject:myapp:jar:1.0-SNAPSHOT" -> "info.picocli:picocli-codegen:jar:4.7.7:provided" ; 
+	"info.picocli:picocli-codegen:jar:4.7.7:provided" -> "(info.picocli:picocli:jar:4.7.7:provided - omitted for duplicate)" ; 
+}
+digraph example-maven-project {
+	"org.myorg.myproject:myapp:jar:1.0-SNAPSHOT" -> "info.picocli:picocli:jar:4.7.7:compile" ; 
+	"org.myorg.myproject:myapp:jar:1.0-SNAPSHOT" -> "info.picocli:picocli-codegen:jar:4.7.7:provided" ; 
+	"info.picocli:picocli-codegen:jar:4.7.7:provided" -> "(info.picocli:picocli:jar:4.7.7:provided - omitted for duplicate)" ; 
+}

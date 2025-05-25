@@ -34,7 +34,7 @@ def find_valid_projects(repo_path):
 
 
 # Example usage
-projects = find_valid_projects("D:/test/cryptomator")
+projects = find_valid_projects("D:/test/Activiti")
 print(projects)
 
 
