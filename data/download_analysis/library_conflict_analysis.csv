@@ -1,0 +1,469 @@
+library_name,projects_affected,unique_selected_versions,unique_conflicting_versions,conflict_type_breakdown,avg_selected_depth,min_selected_depth,max_selected_depth,avg_conflicting_depth,min_conflicting_depth,max_conflicting_depth,total_conflicts
+org.slf4j:slf4j-api,42,19,32,"{'omitted_conflict': 409, 'version_managed': 139}",1.97,0,5,2.76,0,6,548
+net.bytebuddy:byte-buddy,31,20,21,"{'version_managed': 201, 'omitted_conflict': 80}",2.59,1,4,2.8,2,5,281
+net.bytebuddy:byte-buddy-agent,22,10,10,"{'version_managed': 188, 'omitted_conflict': 22}",2.82,1,4,2.95,2,5,210
+com.google.guava:guava,26,18,41,"{'omitted_conflict': 107, 'version_managed': 92}",2.09,0,5,2.99,0,9,199
+org.springframework:spring-core,11,10,25,"{'omitted_conflict': 156, 'version_managed': 32}",2.03,1,3,2.76,2,4,188
+com.google.errorprone:error_prone_annotations,24,17,19,"{'omitted_conflict': 160, 'version_managed': 18}",2.74,0,6,3.58,0,8,178
+org.hamcrest:hamcrest-core,19,4,3,"{'version_managed': 108, 'omitted_conflict': 22}",2.11,1,5,2.15,2,5,130
+com.fasterxml.jackson.core:jackson-databind,29,17,37,"{'version_managed': 93, 'omitted_conflict': 25}",2.13,0,6,2.51,0,6,118
+com.fasterxml.jackson.core:jackson-annotations,22,14,19,"{'version_managed': 99, 'omitted_conflict': 14}",2.91,0,6,3.07,0,6,113
+org.jboss.logging:jboss-logging,20,6,8,"{'version_managed': 86, 'omitted_conflict': 17}",3.05,0,6,3.24,0,6,103
+commons-codec:commons-codec,29,9,12,"{'version_managed': 72, 'omitted_conflict': 20}",2.59,0,5,2.79,0,5,92
+org.apache.commons:commons-lang3,22,8,13,"{'version_managed': 70, 'omitted_conflict': 18}",2.45,0,6,2.66,0,6,88
+io.micrometer:micrometer-observation,18,15,12,"{'version_managed': 77, 'omitted_conflict': 4}",3.44,2,6,3.49,2,6,81
+org.yaml:snakeyaml,12,5,6,"{'version_managed': 56, 'omitted_conflict': 15}",2.82,0,4,2.9,0,5,71
+io.netty:netty-common,20,13,13,"{'omitted_conflict': 42, 'version_managed': 22}",2.47,0,6,3.31,0,6,64
+org.jetbrains.kotlin:kotlin-stdlib-jdk8,19,9,11,"{'version_managed': 35, 'omitted_conflict': 28}",2.4,0,5,3.43,0,6,63
+net.minidev:json-smart,9,5,2,"{'version_managed': 60, 'omitted_conflict': 3}",2.89,2,3,2.94,2,3,63
+com.fasterxml.jackson.core:jackson-core,20,11,29,"{'version_managed': 40, 'omitted_conflict': 17}",2.14,0,6,2.61,0,6,57
+org.springframework:spring-context,11,10,12,"{'version_managed': 39, 'omitted_conflict': 17}",2.82,1,4,2.88,2,4,56
+com.google.code.gson:gson,16,8,9,"{'version_managed': 51, 'omitted_conflict': 4}",2.89,1,7,2.96,2,7,55
+org.junit.jupiter:junit-jupiter-api,8,4,8,"{'version_managed': 33, 'omitted_conflict': 19}",1.73,0,3,1.92,0,3,52
+com.fasterxml.jackson.dataformat:jackson-dataformat-yaml,15,10,12,{'version_managed': 51},2.96,2,6,2.96,2,6,51
+org.objenesis:objenesis,11,7,8,"{'omitted_conflict': 46, 'version_managed': 4}",1.84,1,5,2.84,2,5,50
+org.ow2.asm:asm,10,9,10,"{'omitted_conflict': 26, 'version_managed': 22}",3.35,1,6,3.9,2,6,48
+commons-io:commons-io,22,12,11,"{'version_managed': 26, 'omitted_conflict': 21}",1.96,0,5,2.62,0,6,47
+io.netty:netty-transport,22,12,12,"{'version_managed': 30, 'omitted_conflict': 15}",2.84,0,6,3.11,0,6,45
+io.netty:netty-handler,24,14,14,"{'version_managed': 32, 'omitted_conflict': 11}",3.07,0,7,3.33,0,7,43
+net.java.dev.jna:jna,5,4,5,"{'version_managed': 34, 'omitted_conflict': 9}",2.98,0,4,3.14,0,4,43
+io.netty:netty-buffer,15,10,14,"{'omitted_conflict': 30, 'version_managed': 12}",2.52,0,6,3.6,0,6,42
+commons-logging:commons-logging,12,7,7,"{'omitted_conflict': 29, 'version_managed': 13}",2.62,1,5,3.24,2,7,42
+org.junit.platform:junit-platform-engine,5,7,6,"{'version_managed': 38, 'omitted_conflict': 4}",1.93,0,4,2.07,0,4,42
+org.apache.httpcomponents:httpclient,16,5,8,"{'version_managed': 21, 'omitted_conflict': 20}",2.15,0,5,2.46,0,6,41
+junit:junit,11,5,6,"{'omitted_conflict': 37, 'version_managed': 4}",1.29,1,4,2.59,2,4,41
+org.jetbrains.kotlin:kotlin-stdlib-common,17,7,7,"{'version_managed': 22, 'omitted_conflict': 18}",3.95,2,7,4.3,2,7,40
+org.checkerframework:checker-qual,14,11,14,"{'omitted_conflict': 29, 'version_managed': 11}",2.48,2,4,3.22,2,6,40
+com.fasterxml.jackson.datatype:jackson-datatype-jsr310,12,9,13,"{'version_managed': 35, 'omitted_conflict': 1}",3.36,1,6,3.44,2,6,36
+com.google.code.findbugs:jsr305,11,3,4,"{'omitted_conflict': 33, 'version_managed': 3}",2.33,1,7,4.06,2,8,36
+org.apache.httpcomponents:httpcore,17,6,8,"{'version_managed': 24, 'omitted_conflict': 11}",2.66,0,5,2.94,0,6,35
+org.springframework:spring-test,2,2,3,"{'version_managed': 32, 'omitted_conflict': 3}",1.91,1,2,2.0,2,2,35
+org.springframework:spring-web,5,6,8,"{'version_managed': 26, 'omitted_conflict': 9}",2.49,1,3,2.71,2,4,35
+org.opentest4j:opentest4j,2,2,2,{'omitted_conflict': 34},3.06,3,4,2.65,0,3,34
+org.jetbrains.kotlin:kotlin-stdlib,12,10,12,"{'omitted_conflict': 18, 'version_managed': 16}",2.32,0,4,2.65,0,5,34
+io.projectreactor:reactor-core,15,13,14,"{'version_managed': 26, 'omitted_conflict': 8}",2.74,1,4,3.06,2,4,34
+org.apache.logging.log4j:log4j-to-slf4j,1,1,1,{'version_managed': 32},3.97,3,4,3.97,3,4,32
+io.sundr:sundr-codegen-apt,1,1,1,{'omitted_conflict': 30},2.8,2,3,3.0,3,3,30
+org.springframework:spring-tx,6,6,6,{'version_managed': 29},2.69,2,3,2.69,2,3,29
+org.apache.commons:commons-compress,8,5,7,"{'omitted_conflict': 17, 'version_managed': 11}",1.82,0,3,2.57,0,4,28
+com.fasterxml:classmate,11,2,2,{'version_managed': 27},3.56,2,6,3.56,2,6,27
+org.mockito:mockito-core,6,6,5,"{'version_managed': 20, 'omitted_conflict': 6}",1.88,1,3,2.19,2,3,26
+org.junit.platform:junit-platform-launcher,4,3,4,{'version_managed': 25},2.16,2,4,2.16,2,4,25
+org.springframework:spring-aspects,1,1,1,{'version_managed': 25},2.8,2,4,2.8,2,4,25
+io.swagger.core.v3:swagger-annotations,2,2,2,"{'version_managed': 24, 'omitted_conflict': 1}",2.48,2,4,2.6,2,5,25
+io.netty:netty-handler-proxy,11,6,8,"{'version_managed': 22, 'omitted_conflict': 2}",3.0,0,6,3.17,0,6,24
+io.netty:netty-transport-native-unix-common,9,6,6,"{'version_managed': 18, 'omitted_conflict': 4}",2.55,2,4,2.86,2,7,22
+org.jetbrains.kotlin:kotlin-reflect,4,3,6,"{'version_managed': 20, 'omitted_conflict': 2}",2.23,2,5,2.5,2,6,22
+org.jctools:jctools-core,1,2,2,{'omitted_conflict': 22},2.36,2,3,3.05,3,4,22
+io.netty:netty-codec-http2,12,7,8,"{'version_managed': 20, 'omitted_conflict': 2}",3.09,0,6,3.18,0,6,22
+io.opentelemetry:opentelemetry-api,3,3,3,"{'version_managed': 20, 'omitted_conflict': 1}",2.43,2,3,2.48,2,4,21
+jakarta.xml.bind:jakarta.xml.bind-api,9,4,5,"{'version_managed': 12, 'omitted_conflict': 9}",2.9,1,6,3.62,2,6,21
+org.jetbrains:annotations,13,6,6,"{'omitted_conflict': 17, 'version_managed': 4}",2.71,0,4,3.76,0,6,21
+org.junit.platform:junit-platform-suite-api,2,2,2,{'version_managed': 20},2.0,2,2,2.0,2,2,20
+org.mockito:mockito-junit-jupiter,2,2,2,"{'version_managed': 18, 'omitted_conflict': 2}",1.9,1,2,2.0,2,2,20
+com.google.protobuf:protobuf-java,10,6,16,"{'omitted_conflict': 14, 'version_managed': 6}",1.45,1,2,2.9,2,7,20
+cglib:cglib-nodep,1,1,1,{'omitted_conflict': 20},1.0,1,1,2.0,2,2,20
+io.netty:netty-transport-native-epoll,8,6,6,"{'version_managed': 16, 'omitted_conflict': 4}",3.6,2,7,3.8,2,7,20
+org.springframework:spring-beans,8,8,8,"{'omitted_conflict': 16, 'version_managed': 4}",2.35,1,4,3.1,2,6,20
+org.codehaus.plexus:plexus-utils,5,4,9,"{'omitted_conflict': 13, 'version_managed': 6}",2.74,0,5,3.21,0,5,19
+io.netty:netty-resolver-dns,7,7,6,"{'version_managed': 17, 'omitted_conflict': 2}",2.95,0,6,3.0,0,6,19
+jakarta.activation:jakarta.activation-api,8,7,5,"{'version_managed': 10, 'omitted_conflict': 8}",2.94,0,6,3.39,0,6,18
+io.netty:netty-codec-http,11,7,11,"{'version_managed': 15, 'omitted_conflict': 3}",3.28,0,6,3.44,0,6,18
+io.micronaut:micronaut-inject,1,3,6,{'omitted_conflict': 18},1.22,1,2,2.33,2,4,18
+org.springframework:spring-aop,7,7,7,"{'version_managed': 10, 'omitted_conflict': 7}",2.0,1,4,2.41,2,5,17
+io.netty:netty-codec,12,7,10,"{'version_managed': 9, 'omitted_conflict': 7}",2.69,2,4,3.38,2,6,16
+org.junit.jupiter:junit-jupiter-params,4,2,9,{'version_managed': 16},1.62,0,3,1.62,0,3,16
+io.netty:netty-resolver,10,7,9,"{'version_managed': 10, 'omitted_conflict': 5}",3.0,0,6,3.33,0,6,15
+org.springframework.boot:spring-boot-starter-jdbc,5,4,5,{'version_managed': 15},2.07,2,3,2.07,2,3,15
+org.springframework.boot:spring-boot-starter,5,4,5,"{'version_managed': 13, 'omitted_conflict': 1}",2.21,2,3,2.29,2,3,14
+io.projectreactor.netty:reactor-netty,2,2,2,{'version_managed': 14},2.43,2,3,2.43,2,3,14
+io.rsocket:rsocket-core,1,1,1,{'version_managed': 14},3.43,3,4,3.43,3,4,14
+io.rsocket:rsocket-transport-netty,1,1,1,{'version_managed': 14},3.43,3,4,3.43,3,4,14
+com.fasterxml.jackson.datatype:jackson-datatype-jdk8,7,4,7,{'version_managed': 14},2.93,2,4,2.93,2,4,14
+io.netty:netty-all,3,3,7,{'version_managed': 14},3.0,2,5,3.0,2,5,14
+org.awaitility:awaitility,2,2,3,{'version_managed': 12},1.83,0,2,1.83,0,2,12
+io.dropwizard.metrics:metrics-core,2,2,7,"{'omitted_conflict': 7, 'version_managed': 5}",1.58,1,3,2.17,2,3,12
+ch.qos.logback:logback-classic,4,3,5,"{'version_managed': 11, 'omitted_conflict': 1}",2.67,0,4,2.83,0,4,12
+org.hamcrest:hamcrest,7,3,2,"{'omitted_conflict': 7, 'version_managed': 5}",2.08,1,3,2.83,2,4,12
+joda-time:joda-time,6,6,6,"{'omitted_conflict': 9, 'version_managed': 3}",3.0,2,6,3.75,2,7,12
+com.google.auto.value:auto-value-annotations,4,3,4,{'omitted_conflict': 12},1.42,1,4,2.33,2,6,12
+org.osgi:org.osgi.core,2,2,2,{'omitted_conflict': 12},2.08,2,3,3.08,3,4,12
+org.junit.jupiter:junit-jupiter,4,3,4,{'version_managed': 11},2.27,2,3,2.27,2,3,11
+org.javassist:javassist,5,4,5,"{'omitted_conflict': 6, 'version_managed': 5}",2.0,1,4,2.55,2,4,11
+org.junit.jupiter:junit-jupiter-engine,2,2,6,"{'version_managed': 10, 'omitted_conflict': 1}",1.36,0,3,1.55,0,3,11
+io.netty:netty-resolver-dns-native-macos,3,3,3,{'version_managed': 11},3.36,2,5,3.36,2,5,11
+io.github.classgraph:classgraph,3,3,3,{'omitted_conflict': 11},2.0,2,2,3.27,2,5,11
+org.apache.commons:commons-text,3,2,2,"{'version_managed': 9, 'omitted_conflict': 2}",3.18,2,5,3.27,2,5,11
+com.google.guava:failureaccess,4,2,2,"{'omitted_conflict': 7, 'version_managed': 4}",3.09,2,5,2.55,0,5,11
+org.reactivestreams:reactive-streams,6,2,4,"{'omitted_conflict': 6, 'version_managed': 5}",1.82,0,4,2.09,0,4,11
+org.slf4j:jcl-over-slf4j,4,3,2,{'version_managed': 11},2.91,2,4,2.91,2,4,11
+org.springframework.security:spring-security-crypto,5,3,4,{'version_managed': 11},3.09,2,4,3.09,2,4,11
+io.sundr:sundr-model,1,1,1,{'omitted_conflict': 10},3.8,3,4,5.0,5,5,10
+org.glassfish.jaxb:jaxb-runtime,6,3,3,{'version_managed': 10},2.8,2,4,2.8,2,4,10
+org.springframework.boot:spring-boot-autoconfigure,8,5,7,"{'version_managed': 7, 'omitted_conflict': 3}",2.5,2,5,2.5,2,5,10
+io.sundr:sundr-core,1,1,1,{'omitted_conflict': 10},4.5,1,5,5.0,5,5,10
+io.sundr:sundr-adapter-api,1,1,1,{'omitted_conflict': 10},3.8,3,4,5.0,5,5,10
+io.sundr:sundr-model-repo,1,1,1,{'omitted_conflict': 10},4.8,4,5,5.0,5,5,10
+io.sundr:sundr-codegen-api,1,1,1,{'omitted_conflict': 10},3.8,3,4,4.0,4,4,10
+io.sundr:sundr-model-utils,1,1,1,{'omitted_conflict': 10},4.0,4,4,4.8,4,5,10
+org.apache.logging.log4j:log4j-api,9,7,7,"{'version_managed': 6, 'omitted_conflict': 4}",2.4,1,4,2.7,2,5,10
+org.hswebframework:hsweb-easy-orm-core,1,1,1,{'version_managed': 10},2.9,2,4,2.9,2,4,10
+com.google.j2objc:j2objc-annotations,5,3,3,{'omitted_conflict': 10},2.0,2,2,2.5,2,3,10
+com.squareup.okhttp3:okhttp,6,4,7,"{'version_managed': 7, 'omitted_conflict': 3}",1.9,1,2,2.1,2,3,10
+org.junit.platform:junit-platform-commons,1,4,1,"{'version_managed': 8, 'omitted_conflict': 1}",1.78,0,4,1.89,0,4,9
+jakarta.transaction:jakarta.transaction-api,5,1,3,"{'version_managed': 5, 'omitted_conflict': 4}",2.67,2,7,3.33,2,7,9
+io.smallrye.common:smallrye-common-annotation,1,3,4,{'version_managed': 9},1.78,0,4,1.78,0,4,9
+io.smallrye.common:smallrye-common-expression,1,2,3,{'version_managed': 9},2.22,0,4,2.22,0,4,9
+com.carrotsearch:hppc,2,1,2,{'version_managed': 9},3.0,2,4,3.0,2,4,9
+io.smallrye.common:smallrye-common-classloader,1,2,2,{'version_managed': 9},3.33,0,5,3.33,0,5,9
+com.fasterxml.jackson.module:jackson-module-parameter-names,4,3,4,{'version_managed': 9},2.89,2,3,2.89,2,3,9
+io.projectreactor.addons:reactor-pool,2,1,1,{'version_managed': 9},2.89,2,3,2.89,2,3,9
+org.jspecify:jspecify,2,2,2,{'omitted_conflict': 8},1.75,1,2,2.0,2,2,8
+org.apache.httpcomponents.core5:httpcore5,5,4,3,"{'version_managed': 7, 'omitted_conflict': 1}",3.25,2,7,3.38,2,7,8
+org.apiguardian:apiguardian-api,3,1,3,{'omitted_conflict': 8},2.75,2,4,1.5,0,3,8
+io.micronaut:micronaut-runtime,1,2,4,{'omitted_conflict': 8},2.0,2,2,2.0,2,2,8
+org.eclipse.jetty:jetty-io,4,4,4,"{'version_managed': 4, 'omitted_conflict': 4}",3.12,2,4,3.5,2,5,8
+com.h2database:h2,2,2,1,{'version_managed': 8},2.0,2,2,2.0,2,2,8
+org.apache.httpcomponents.client5:httpclient5,4,3,2,{'version_managed': 8},3.25,2,7,3.25,2,7,8
+org.apache.commons:commons-configuration2,1,1,2,{'version_managed': 8},2.88,2,4,2.88,2,4,8
+javax.xml.bind:jaxb-api,6,2,4,"{'version_managed': 5, 'omitted_conflict': 3}",2.5,1,3,2.75,2,3,8
+org.springframework:spring-expression,3,3,2,"{'omitted_conflict': 4, 'version_managed': 4}",2.25,2,3,2.25,2,3,8
+com.github.ben-manes.caffeine:caffeine,3,2,2,{'version_managed': 8},3.12,2,5,3.12,2,5,8
+org.springframework:spring-oxm,4,4,4,{'version_managed': 7},2.43,2,3,2.43,2,3,7
+javax.servlet:javax.servlet-api,4,2,2,{'version_managed': 7},2.57,2,4,2.57,2,4,7
+io.micrometer:micrometer-commons,2,2,2,"{'version_managed': 6, 'omitted_conflict': 1}",2.14,0,3,2.29,0,3,7
+org.springframework:spring-context-support,4,4,4,{'version_managed': 7},2.43,2,3,2.43,2,3,7
+com.fasterxml.woodstox:woodstox-core,4,3,3,"{'version_managed': 4, 'omitted_conflict': 3}",3.14,2,4,3.29,2,5,7
+org.apache.maven:maven-model,2,1,2,"{'version_managed': 4, 'omitted_conflict': 3}",4.14,3,5,4.14,3,5,7
+jakarta.el:jakarta.el-api,1,2,2,"{'version_managed': 6, 'omitted_conflict': 1}",2.86,2,4,3.0,2,4,7
+org.apache.maven:maven-artifact,3,2,3,"{'version_managed': 4, 'omitted_conflict': 3}",4.0,2,5,4.0,2,5,7
+com.google.protobuf:protobuf-java-util,4,4,2,"{'omitted_conflict': 5, 'version_managed': 2}",1.86,1,4,2.29,2,4,7
+com.sun.activation:jakarta.activation,2,1,2,"{'omitted_conflict': 6, 'version_managed': 1}",2.0,2,2,2.0,2,2,7
+io.smallrye.common:smallrye-common-constraint,1,2,2,{'version_managed': 7},1.71,0,4,1.71,0,4,7
+org.springframework:spring-webflux,4,4,4,"{'version_managed': 6, 'omitted_conflict': 1}",2.43,1,4,2.57,2,4,7
+org.springframework.boot:spring-boot-starter-cache,2,2,2,{'version_managed': 7},3.0,3,3,3.0,3,3,7
+org.bouncycastle:bcprov-jdk18on,3,2,3,{'omitted_conflict': 6},2.33,1,3,3.83,2,6,6
+io.netty:netty-transport-native-kqueue,1,1,1,{'version_managed': 6},2.67,2,3,2.67,2,3,6
+io.reactivex:rxjava,2,1,2,{'omitted_conflict': 6},1.0,1,1,2.0,2,2,6
+io.smallrye.common:smallrye-common-ref,1,1,2,{'version_managed': 6},3.33,0,4,3.33,0,4,6
+org.codehaus.plexus:plexus-classworlds,3,2,2,"{'version_managed': 4, 'omitted_conflict': 2}",4.17,2,5,4.5,3,5,6
+com.fasterxml.jackson.dataformat:jackson-dataformat-xml,4,4,4,{'version_managed': 6},2.83,2,3,2.83,2,3,6
+io.smallrye.common:smallrye-common-cpu,1,1,2,{'version_managed': 6},3.33,0,4,3.33,0,4,6
+jakarta.validation:jakarta.validation-api,4,2,3,"{'version_managed': 4, 'omitted_conflict': 2}",3.83,1,6,4.17,2,6,6
+io.smallrye.common:smallrye-common-function,1,1,1,{'version_managed': 6},4.0,4,4,4.0,4,4,6
+com.google.inject:guice,3,2,3,"{'version_managed': 5, 'omitted_conflict': 1}",2.83,1,4,3.0,2,4,6
+com.alibaba:fastjson,2,1,4,{'version_managed': 6},3.5,2,5,3.5,2,5,6
+org.eclipse.parsson:parsson,1,1,1,{'version_managed': 6},4.0,4,4,4.0,4,4,6
+org.glassfish.jaxb:txw2,2,1,2,{'version_managed': 6},2.67,2,4,2.67,2,4,6
+jakarta.enterprise:jakarta.enterprise.cdi-api,1,2,2,{'omitted_conflict': 6},1.0,1,1,2.33,2,3,6
+io.fabric8:zjsonpatch,1,1,1,{'version_managed': 6},2.0,2,2,2.0,2,2,6
+org.hswebframework:hsweb-utils,2,1,1,{'version_managed': 6},2.33,2,3,2.33,2,3,6
+io.smallrye.common:smallrye-common-net,1,1,2,{'version_managed': 6},3.33,0,4,3.33,0,4,6
+org.apache.logging.log4j:log4j-core,5,5,5,"{'version_managed': 4, 'omitted_conflict': 2}",1.83,1,3,2.17,2,3,6
+org.eclipse.jetty:jetty-util,4,4,4,"{'version_managed': 5, 'omitted_conflict': 1}",3.33,2,4,3.67,2,5,6
+org.apache.commons:commons-pool2,4,3,3,{'version_managed': 5},2.0,2,2,2.0,2,2,5
+org.codehaus.plexus:plexus-component-annotations,1,1,1,{'omitted_conflict': 5},1.0,1,1,2.0,2,2,5
+org.hamcrest:hamcrest-library,2,1,2,"{'version_managed': 4, 'omitted_conflict': 1}",1.8,1,2,2.0,2,2,5
+io.projectreactor:reactor-tools,1,1,1,{'version_managed': 5},2.0,2,2,2.0,2,2,5
+com.google.truth:truth,2,2,2,{'omitted_conflict': 5},1.0,1,1,2.0,2,2,5
+org.jetbrains.kotlinx:kotlinx-coroutines-core,1,1,1,{'version_managed': 5},2.0,2,2,2.0,2,2,5
+io.grpc:grpc-context,3,3,4,"{'omitted_conflict': 4, 'version_managed': 1}",2.0,2,2,2.2,2,3,5
+jakarta.annotation:jakarta.annotation-api,4,3,4,"{'omitted_conflict': 3, 'version_managed': 2}",2.0,2,2,2.4,2,3,5
+org.jetbrains.kotlinx:kotlinx-coroutines-debug,1,1,1,{'version_managed': 5},3.0,3,3,3.0,3,3,5
+org.jetbrains.kotlinx:kotlinx-coroutines-jdk8,1,1,1,{'version_managed': 5},2.0,2,2,2.0,2,2,5
+com.google.api.grpc:proto-google-common-protos,2,2,5,"{'omitted_conflict': 4, 'version_managed': 1}",2.0,2,2,2.6,2,4,5
+io.grpc:grpc-netty-shaded,3,3,5,"{'omitted_conflict': 3, 'version_managed': 2}",2.0,2,2,2.0,2,2,5
+io.netty:netty-tcnative-boringssl-static,4,2,3,{'version_managed': 5},5.0,3,7,5.0,3,7,5
+jakarta.ws.rs:jakarta.ws.rs-api,3,1,1,"{'version_managed': 3, 'omitted_conflict': 2}",2.4,2,3,2.8,2,3,5
+io.vertx:vertx-codegen,1,2,2,{'version_managed': 5},2.8,0,7,2.8,0,7,5
+org.springframework.boot:spring-boot-starter-validation,4,3,3,{'version_managed': 5},2.8,2,4,2.8,2,4,5
+org.projectlombok:lombok,3,3,3,{'version_managed': 5},2.0,2,2,2.0,2,2,5
+org.jetbrains.kotlinx:kotlinx-coroutines-test-jvm,1,1,1,{'version_managed': 5},3.0,3,3,3.0,3,3,5
+org.ow2.asm:asm-util,2,2,2,"{'version_managed': 4, 'omitted_conflict': 1}",4.0,2,5,4.6,4,5,5
+org.assertj:assertj-core,1,1,3,{'omitted_conflict': 5},1.0,1,1,2.2,2,3,5
+org.easymock:easymock,1,1,1,{'omitted_conflict': 5},1.0,1,1,2.0,2,2,5
+io.micronaut:micronaut-http,1,3,3,{'omitted_conflict': 5},2.0,2,2,2.2,2,3,5
+org.apache.maven.resolver:maven-resolver-api,1,1,1,{'version_managed': 4},5.0,5,5,5.0,5,5,4
+org.apache.maven.resolver:maven-resolver-impl,1,1,1,{'version_managed': 4},5.0,5,5,5.0,5,5,4
+org.springframework:spring-jdbc,4,4,4,"{'version_managed': 3, 'omitted_conflict': 1}",2.5,2,4,2.5,2,4,4
+org.apache.maven.resolver:maven-resolver-util,1,1,1,{'version_managed': 4},5.0,5,5,5.0,5,5,4
+org.apache.httpcomponents:httpcore-nio,3,1,3,{'version_managed': 4},2.75,2,3,2.75,2,3,4
+org.testcontainers:testcontainers,2,2,2,"{'version_managed': 3, 'omitted_conflict': 1}",1.75,1,2,2.0,2,2,4
+com.fasterxml.jackson.dataformat:jackson-dataformat-cbor,4,2,3,{'version_managed': 4},4.5,3,6,4.5,3,6,4
+org.apache.maven.resolver:maven-resolver-spi,1,1,1,{'version_managed': 4},5.0,5,5,5.0,5,5,4
+org.apache.httpcomponents:httpmime,1,2,2,{'version_managed': 4},1.5,0,2,1.5,0,2,4
+org.apache.avro:avro,2,2,3,"{'omitted_conflict': 2, 'version_managed': 2}",1.75,1,3,2.25,2,3,4
+org.springframework:spring-jcl,3,4,4,"{'version_managed': 3, 'omitted_conflict': 1}",2.0,2,2,2.0,2,2,4
+org.apache.maven:maven-builder-support,1,1,1,{'version_managed': 4},5.0,5,5,5.0,5,5,4
+com.nimbusds:nimbus-jose-jwt,2,2,4,"{'version_managed': 3, 'omitted_conflict': 1}",3.0,2,4,3.0,2,4,4
+org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm,1,1,1,{'version_managed': 4},2.0,2,2,2.0,2,2,4
+com.thoughtworks.xstream:xstream,2,1,2,{'version_managed': 4},4.0,3,5,4.0,3,5,4
+commons-cli:commons-cli,2,1,2,"{'version_managed': 3, 'omitted_conflict': 1}",2.25,1,3,2.75,2,3,4
+org.hswebframework:hsweb-easy-orm-rdb,1,1,1,{'version_managed': 4},2.25,2,3,2.25,2,3,4
+com.google.auto:auto-common,2,2,1,{'omitted_conflict': 4},1.25,1,2,2.0,2,2,4
+org.glassfish.jersey.connectors:jersey-apache-connector,3,2,2,{'version_managed': 4},2.5,2,4,2.5,2,4,4
+io.grpc:grpc-core,2,2,4,"{'omitted_conflict': 3, 'version_managed': 1}",2.25,2,3,2.25,2,3,4
+org.eclipse.microprofile.config:microprofile-config-api,1,2,2,"{'omitted_conflict': 3, 'version_managed': 1}",0.75,0,1,2.0,0,3,4
+io.grpc:grpc-protobuf,3,3,4,"{'omitted_conflict': 2, 'version_managed': 2}",2.0,2,2,2.0,2,2,4
+io.grpc:grpc-stub,2,2,4,"{'omitted_conflict': 3, 'version_managed': 1}",2.0,2,2,2.0,2,2,4
+org.eclipse.jetty:jetty-server,4,4,4,"{'version_managed': 3, 'omitted_conflict': 1}",1.75,1,2,2.25,2,3,4
+org.eclipse.jetty:jetty-client,2,2,2,{'version_managed': 4},3.5,2,4,3.5,2,4,4
+io.micrometer:micrometer-core,4,3,3,{'version_managed': 4},3.75,2,5,3.75,2,5,4
+io.micronaut:micronaut-aop,1,3,3,{'omitted_conflict': 4},2.0,2,2,2.5,2,3,4
+io.micronaut:micronaut-core,1,2,2,{'omitted_conflict': 4},2.0,2,2,3.0,3,3,4
+com.amazonaws:aws-java-sdk-core,1,1,2,{'omitted_conflict': 4},1.0,1,1,2.0,2,2,4
+org.springframework.boot:spring-boot,3,3,3,"{'omitted_conflict': 3, 'version_managed': 1}",3.25,2,4,3.75,2,5,4
+org.codehaus.plexus:plexus-interpolation,1,1,1,{'version_managed': 4},5.0,5,5,5.0,5,5,4
+org.apache.maven:maven-model-builder,1,1,1,{'version_managed': 4},5.0,5,5,5.0,5,5,4
+org.apache.maven:maven-repository-metadata,1,1,1,{'version_managed': 4},5.0,5,5,5.0,5,5,4
+org.apache.maven:maven-settings,1,1,1,{'version_managed': 4},5.0,5,5,5.0,5,5,4
+org.apache.zookeeper:zookeeper,2,2,3,"{'version_managed': 3, 'omitted_conflict': 1}",1.75,1,2,2.0,2,2,4
+com.google.auth:google-auth-library-credentials,1,1,4,{'omitted_conflict': 4},2.0,2,2,2.5,2,4,4
+org.codehaus.plexus:plexus-cipher,1,1,1,{'version_managed': 4},5.0,5,5,5.0,5,5,4
+redis.clients:jedis,2,2,2,"{'omitted_conflict': 2, 'version_managed': 1}",1.33,1,2,2.0,2,2,3
+org.apache.calcite.avatica:avatica-core,1,1,1,{'omitted_conflict': 3},2.0,2,2,2.0,2,2,3
+org.testcontainers:toxiproxy,1,1,1,{'version_managed': 3},2.0,2,2,2.0,2,2,3
+org.apache.commons:commons-dbcp2,2,3,1,"{'version_managed': 2, 'omitted_conflict': 1}",4.33,1,6,4.67,2,6,3
+org.thymeleaf:thymeleaf,2,2,2,{'version_managed': 3},2.0,2,2,2.0,2,2,3
+org.xerial.snappy:snappy-java,1,1,3,{'version_managed': 3},2.33,2,3,2.33,2,3,3
+org.json:json,2,2,3,{'omitted_conflict': 3},1.67,1,2,2.67,2,4,3
+org.springframework.data:spring-data-redis,3,3,3,"{'version_managed': 2, 'omitted_conflict': 1}",2.67,2,4,2.67,2,4,3
+org.apache.commons:commons-math3,2,1,2,"{'omitted_conflict': 2, 'version_managed': 1}",2.67,2,3,2.67,2,3,3
+org.apache.httpcomponents:httpasyncclient,2,1,2,{'version_managed': 3},2.67,2,3,2.67,2,3,3
+org.springframework:spring-r2dbc,1,1,1,{'version_managed': 3},2.67,2,3,2.67,2,3,3
+org.codehaus.groovy:groovy,1,1,1,{'version_managed': 3},2.0,2,2,2.0,2,2,3
+org.springframework.cloud:spring-cloud-starter-loadbalancer,1,1,1,{'version_managed': 3},2.0,2,2,2.0,2,2,3
+org.springframework.cloud:spring-cloud-starter,1,1,1,{'version_managed': 3},2.0,2,2,2.0,2,2,3
+org.springframework.boot:spring-boot-starter-web,2,2,2,{'version_managed': 3},3.0,3,3,3.0,3,3,3
+org.springframework.boot:spring-boot-starter-freemarker,2,2,2,{'version_managed': 3},3.0,3,3,3.0,3,3,3
+org.springframework.boot:spring-boot-starter-actuator,2,2,2,{'version_managed': 3},3.0,3,3,3.0,3,3,3
+org.codehaus.woodstox:stax2-api,1,1,1,{'version_managed': 3},2.33,2,3,2.33,2,3,3
+org.eclipse.jetty:jetty-servlet,1,1,1,{'version_managed': 3},2.67,2,3,2.67,2,3,3
+org.ehcache:ehcache,2,1,1,{'version_managed': 3},3.0,3,3,3.0,3,3,3
+org.hdrhistogram:HdrHistogram,2,1,2,"{'version_managed': 2, 'omitted_conflict': 1}",1.67,1,2,2.0,2,2,3
+org.freemarker:freemarker,1,1,1,{'version_managed': 3},2.0,2,2,2.0,2,2,3
+javax.cache:cache-api,2,1,1,{'version_managed': 3},4.0,4,4,4.0,4,4,3
+com.rabbitmq:amqp-client,2,2,2,{'version_managed': 3},4.33,3,5,4.33,3,5,3
+commons-beanutils:commons-beanutils,2,1,1,{'omitted_conflict': 3},3.33,3,4,4.33,4,5,3
+com.jayway.jsonpath:json-path,2,1,2,{'version_managed': 3},2.0,2,2,2.0,2,2,3
+com.microsoft.azure:msal4j,3,2,1,{'omitted_conflict': 3},2.0,2,2,3.67,3,4,3
+com.netflix.servo:servo-core,1,1,1,{'omitted_conflict': 3},3.67,3,4,4.67,4,5,3
+io.vertx:vertx-uri-template,1,2,2,{'version_managed': 3},4.0,0,6,4.0,0,6,3
+io.sundr:builder-annotations,1,1,1,{'version_managed': 3},2.0,2,2,2.0,2,2,3
+io.smallrye.reactive:mutiny,1,2,2,{'version_managed': 3},0.0,0,0,0.0,0,0,3
+io.projectreactor.addons:reactor-extra,1,1,1,{'version_managed': 3},4.0,4,4,4.0,4,4,3
+com.google.api:api-common,1,1,3,{'omitted_conflict': 3},2.0,2,2,2.67,2,4,3
+commons-lang:commons-lang,3,1,2,"{'omitted_conflict': 2, 'version_managed': 1}",2.0,2,2,4.0,2,7,3
+io.grpc:grpc-api,2,2,3,"{'omitted_conflict': 2, 'version_managed': 1}",2.33,2,3,2.33,2,3,3
+io.grpc:grpc-auth,1,1,3,{'omitted_conflict': 3},2.0,2,2,2.0,2,2,3
+io.netty:netty-codec-haproxy,1,1,1,{'version_managed': 3},2.67,2,3,2.67,2,3,3
+io.opencensus:opencensus-api,1,1,1,{'omitted_conflict': 3},1.0,1,1,2.0,2,2,3
+io.netty:netty-codec-socks,2,2,2,{'version_managed': 3},2.33,2,3,2.33,2,3,3
+com.google.api:gax-grpc,1,1,3,{'omitted_conflict': 3},2.0,2,2,2.67,2,4,3
+io.netty:netty-transport-classes-epoll,2,2,2,{'version_managed': 3},2.67,2,3,2.67,2,3,3
+com.fasterxml.jackson.dataformat:jackson-dataformat-smile,2,2,1,{'version_managed': 3},4.33,4,5,4.33,4,5,3
+javax.servlet:servlet-api,1,1,2,{'omitted_conflict': 3},2.0,2,2,3.33,2,4,3
+com.aayushatharva.brotli4j:brotli4j,1,1,1,{'version_managed': 3},0.0,0,0,0.0,0,0,3
+com.github.docker-java:docker-java-api,1,1,1,{'version_managed': 3},2.0,2,2,2.0,2,2,3
+com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider,1,1,1,{'version_managed': 3},2.0,2,2,2.0,2,2,3
+jakarta.interceptor:jakarta.interceptor-api,1,2,2,{'omitted_conflict': 3},2.0,2,2,3.0,3,3,3
+io.grpc:grpc-alts,1,1,2,{'omitted_conflict': 2},2.0,2,2,2.0,2,2,2
+com.fasterxml.jackson.dataformat:jackson-dataformat-csv,2,1,2,{'version_managed': 2},2.5,2,3,2.5,2,3,2
+commons-pool:commons-pool,1,1,1,{'version_managed': 2},2.0,2,2,2.0,2,2,2
+io.dropwizard.metrics:metrics-graphite,1,1,2,{'version_managed': 2},2.5,2,3,2.5,2,3,2
+io.dropwizard.metrics:metrics-jmx,1,1,2,{'version_managed': 2},2.5,2,3,2.5,2,3,2
+io.dropwizard.metrics:metrics-jvm,1,1,2,{'version_managed': 2},2.5,2,3,2.5,2,3,2
+org.glassfish:jakarta.el,2,1,1,{'version_managed': 2},2.5,2,3,2.5,2,3,2
+org.glassfish.jersey.media:jersey-media-multipart,1,1,1,{'version_managed': 2},2.0,2,2,2.0,2,2,2
+org.glassfish.jersey.inject:jersey-hk2,1,1,1,{'version_managed': 2},2.0,2,2,2.0,2,2,2
+io.github.openfeign:feign-slf4j,1,1,2,{'version_managed': 2},2.0,2,2,2.0,2,2,2
+org.springframework.retry:spring-retry,2,2,2,{'version_managed': 2},4.0,4,4,4.0,4,4,2
+org.glassfish.hk2:hk2-api,2,1,1,{'omitted_conflict': 2},3.0,2,4,4.0,3,5,2
+commons-collections:commons-collections,2,2,2,{'omitted_conflict': 2},3.5,2,5,5.0,4,6,2
+org.threeten:threetenbp,1,1,1,{'omitted_conflict': 2},2.0,2,2,2.0,2,2,2
+io.grpc:grpc-googleapis,1,1,2,{'omitted_conflict': 2},2.0,2,2,2.0,2,2,2
+io.grpc:grpc-grpclb,1,1,2,{'omitted_conflict': 2},2.0,2,2,2.0,2,2,2
+io.grpc:grpc-protobuf-lite,1,1,2,{'omitted_conflict': 2},2.0,2,2,2.0,2,2,2
+org.eclipse.jetty:jetty-http,2,2,2,"{'version_managed': 1, 'omitted_conflict': 1}",2.0,2,2,3.5,2,5,2
+io.micrometer:context-propagation,2,2,2,{'version_managed': 2},3.0,2,4,3.0,2,4,2
+io.micronaut:micronaut-context,1,1,1,{'omitted_conflict': 2},2.0,2,2,3.0,3,3,2
+org.conscrypt:conscrypt-openjdk-uber,1,1,1,{'omitted_conflict': 2},2.0,2,2,2.0,2,2,2
+org.wildfly.client:wildfly-client-config,1,1,1,{'omitted_conflict': 2},4.0,4,4,4.0,4,4,2
+org.springframework:spring-webmvc,2,2,2,"{'omitted_conflict': 1, 'version_managed': 1}",2.5,1,4,3.0,2,4,2
+org.springframework:spring-messaging,2,2,1,{'version_managed': 2},4.0,4,4,4.0,4,4,2
+com.fasterxml.jackson.dataformat:jackson-dataformat-toml,2,2,1,{'version_managed': 2},2.0,2,2,2.0,2,2,2
+org.springframework.integration:spring-integration-jmx,1,1,1,{'version_managed': 2},2.0,2,2,2.0,2,2,2
+org.springframework.integration:spring-integration-core,1,1,1,{'version_managed': 2},2.0,2,2,2.0,2,2,2
+org.springframework.boot:spring-boot-starter-aop,1,1,1,{'version_managed': 2},2.0,2,2,2.0,2,2,2
+com.google.api.grpc:proto-google-iam-v1,1,1,2,{'omitted_conflict': 2},2.0,2,2,2.0,2,2,2
+org.springframework.boot:spring-boot-actuator-autoconfigure,2,1,2,"{'version_managed': 1, 'omitted_conflict': 1}",2.0,2,2,2.0,2,2,2
+com.google.api:gax,1,1,2,{'omitted_conflict': 2},2.0,2,2,2.0,2,2,2
+com.fasterxml.jackson.module:jackson-module-jsonSchema,2,2,1,{'version_managed': 2},4.0,4,4,4.0,4,4,2
+com.google.auth:google-auth-library-oauth2-http,1,1,2,{'omitted_conflict': 2},2.0,2,2,2.0,2,2,2
+org.ow2.asm:asm-commons,2,2,2,"{'omitted_conflict': 1, 'version_managed': 1}",2.0,2,2,3.5,2,5,2
+com.google.auto.value:auto-value,1,1,1,{'omitted_conflict': 2},1.0,1,1,2.0,2,2,2
+com.google.cloud:google-cloud-core,1,1,2,{'omitted_conflict': 2},2.0,2,2,3.0,2,4,2
+com.google.http-client:google-http-client,1,1,2,{'omitted_conflict': 2},2.0,2,2,2.0,2,2,2
+com.google.http-client:google-http-client-gson,1,1,2,{'omitted_conflict': 2},2.0,2,2,2.0,2,2,2
+com.fasterxml.jackson.module:jackson-module-blackbird,1,1,1,{'version_managed': 2},3.0,3,3,3.0,3,3,2
+org.jetbrains.kotlinx:kotlinx-serialization-core-jvm,1,1,2,{'omitted_conflict': 2},3.0,3,3,4.5,4,5,2
+org.codehaus.mojo:animal-sniffer-annotations,1,1,1,{'omitted_conflict': 2},2.0,2,2,2.0,2,2,2
+com.squareup.okhttp3:logging-interceptor,2,2,2,{'version_managed': 2},2.0,2,2,2.0,2,2,2
+com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-json-provider,1,1,2,{'version_managed': 2},2.0,2,2,2.0,2,2,2
+com.squareup.okio:okio-jvm,1,1,1,{'omitted_conflict': 2},3.0,3,3,4.0,4,4,2
+com.sun.jersey:jersey-client,1,1,1,{'omitted_conflict': 2},2.0,2,2,4.0,4,4,2
+com.sun.jersey:jersey-core,1,1,1,{'omitted_conflict': 2},3.0,3,3,4.0,4,4,2
+org.jboss.logging:jboss-logging-processor,2,1,1,{'omitted_conflict': 2},2.5,2,3,5.5,5,6,2
+org.jboss.logging:jboss-logging-annotations,2,1,1,{'omitted_conflict': 2},2.5,2,3,5.5,5,6,2
+com.fasterxml.jackson.datatype:jackson-datatype-guava,1,1,1,{'version_managed': 2},3.0,3,3,3.0,3,3,2
+commons-net:commons-net,1,1,1,{'version_managed': 2},3.0,3,3,3.0,3,3,2
+xml-apis:xml-apis,2,2,2,{'omitted_conflict': 2},3.0,2,4,4.5,3,6,2
+org.codehaus.janino:janino,1,2,1,{'version_managed': 2},6.0,6,6,6.0,6,6,2
+org.apache.groovy:groovy,1,1,1,{'version_managed': 2},4.5,4,5,4.5,4,5,2
+jakarta.json:jakarta.json-api,2,1,2,{'version_managed': 2},2.5,2,3,2.5,2,3,2
+org.apache.poi:poi-ooxml,2,2,2,"{'omitted_conflict': 1, 'version_managed': 1}",2.5,2,3,2.5,2,3,2
+org.apache.poi:poi,2,2,2,"{'omitted_conflict': 1, 'version_managed': 1}",2.0,2,2,2.5,2,3,2
+io.perfmark:perfmark-api,1,1,1,{'omitted_conflict': 2},2.0,2,2,2.0,2,2,2
+io.projectreactor.netty:reactor-netty-http,1,1,1,{'version_managed': 2},3.0,3,3,3.0,3,3,2
+org.apache.curator:curator-recipes,1,1,2,{'version_managed': 2},2.0,2,2,2.0,2,2,2
+org.apache.logging.log4j:log4j-slf4j-impl,2,2,2,{'version_managed': 2},2.0,2,2,2.0,2,2,2
+javax.el:el-api,1,1,1,{'omitted_conflict': 2},4.0,4,4,4.0,4,4,2
+io.zipkin.brave:brave-context-slf4j,2,2,2,{'version_managed': 2},2.0,2,2,2.0,2,2,2
+org.apache.kafka:kafka-clients,2,2,2,"{'omitted_conflict': 1, 'version_managed': 1}",1.5,1,2,2.5,2,3,2
+org.apache.hadoop:hadoop-hdfs-client,1,1,2,{'version_managed': 2},2.0,2,2,2.0,2,2,2
+jakarta.inject:jakarta.inject-api,2,1,2,{'omitted_conflict': 2},1.5,1,2,2.5,2,3,2
+org.apache.httpcomponents.core5:httpcore5-h2,2,2,1,"{'version_managed': 1, 'omitted_conflict': 1}",2.0,2,2,2.5,2,3,2
+io.zipkin.brave:brave-instrumentation-http,2,2,2,{'version_managed': 2},2.0,2,2,2.0,2,2,2
+org.apache.yetus:audience-annotations,1,1,1,{'version_managed': 2},3.0,3,3,3.0,3,3,2
+io.zipkin.brave:brave-tests,2,2,2,{'version_managed': 2},2.0,2,2,2.0,2,2,2
+org.codehaus.janino:commons-compiler,1,2,1,{'version_managed': 2},6.0,6,6,6.0,6,6,2
+javax.servlet.jsp:jsp-api,1,1,1,{'omitted_conflict': 2},3.0,3,3,4.0,4,4,2
+org.antlr:antlr4-runtime,2,2,2,{'omitted_conflict': 2},2.0,2,2,2.0,2,2,2
+com.amazonaws:aws-java-sdk-sts,1,1,1,{'omitted_conflict': 1},1.0,1,1,3.0,3,3,1
+org.springframework.boot:spring-boot-actuator,1,1,1,{'version_managed': 1},2.0,2,2,2.0,2,2,1
+com.google.api.grpc:proto-google-cloud-bigquerystorage-v1beta1,1,1,1,{'omitted_conflict': 1},2.0,2,2,2.0,2,2,1
+org.apache.hadoop:hadoop-annotations,1,1,1,{'version_managed': 1},2.0,2,2,2.0,2,2,1
+com.google.api.grpc:proto-google-cloud-bigquerystorage-v1beta2,1,1,1,{'omitted_conflict': 1},2.0,2,2,2.0,2,2,1
+cn.hutool:hutool-all,1,1,1,{'version_managed': 1},2.0,2,2,2.0,2,2,1
+com.google.api.grpc:proto-google-cloud-monitoring-v3,1,1,1,{'version_managed': 1},2.0,2,2,2.0,2,2,1
+org.springframework.boot:spring-boot-loader-tools,1,1,1,{'version_managed': 1},2.0,2,2,2.0,2,2,1
+org.springframework.boot:spring-boot-loader,1,1,1,{'version_managed': 1},2.0,2,2,2.0,2,2,1
+org.springframework.boot:spring-boot-buildpack-platform,1,1,1,{'version_managed': 1},2.0,2,2,2.0,2,2,1
+software.amazon.awssdk:cognitoidentity,1,1,1,{'version_managed': 1},2.0,2,2,2.0,2,2,1
+org.apache.hadoop:hadoop-distcp,1,1,1,{'version_managed': 1},2.0,2,2,2.0,2,2,1
+software.amazon.awssdk:cognitoidentityprovider,1,1,1,{'version_managed': 1},2.0,2,2,2.0,2,2,1
+org.springframework.batch:spring-batch-infrastructure,1,1,1,{'version_managed': 1},4.0,4,4,4.0,4,4,1
+software.amazon.awssdk:dynamodb-enhanced,1,1,1,{'version_managed': 1},2.0,2,2,2.0,2,2,1
+com.google.api.grpc:grpc-google-cloud-bigquerystorage-v1beta2,1,1,1,{'omitted_conflict': 1},2.0,2,2,2.0,2,2,1
+io.zipkin.zipkin2:zipkin,1,1,1,{'version_managed': 1},2.0,2,2,2.0,2,2,1
+software.amazon.awssdk:pinpoint,1,1,1,{'version_managed': 1},2.0,2,2,2.0,2,2,1
+org.seleniumhq.selenium:selenium-remote-driver,1,1,1,{'omitted_conflict': 1},2.0,2,2,2.0,2,2,1
+org.scala-lang:scala-reflect,1,1,1,{'omitted_conflict': 1},2.0,2,2,3.0,3,3,1
+org.scala-lang:scala-library,1,1,1,{'omitted_conflict': 1},2.0,2,2,3.0,3,3,1
+com.google.api:gax-httpjson,1,1,1,{'omitted_conflict': 1},2.0,2,2,2.0,2,2,1
+io.zipkin.reporter2:zipkin-sender-okhttp3,1,1,1,{'version_managed': 1},2.0,2,2,2.0,2,2,1
+org.postgresql:postgresql,1,1,1,{'version_managed': 1},3.0,3,3,3.0,3,3,1
+com.google.auto.service:auto-service-annotations,1,1,1,{'omitted_conflict': 1},1.0,1,1,2.0,2,2,1
+org.ow2.asm:asm-tree,1,1,1,{'omitted_conflict': 1},2.0,2,2,5.0,5,5,1
+io.zipkin.reporter2:zipkin-reporter,1,1,1,{'version_managed': 1},2.0,2,2,2.0,2,2,1
+com.google.api.grpc:proto-google-cloud-bigquerystorage-v1,1,1,1,{'omitted_conflict': 1},2.0,2,2,2.0,2,2,1
+org.springframework.boot:spring-boot-starter-json,1,1,1,{'version_managed': 1},4.0,4,4,4.0,4,4,1
+com.azure:azure-json,1,1,1,{'omitted_conflict': 1},1.0,1,1,3.0,3,3,1
+com.google.api.grpc:grpc-google-cloud-bigquerystorage-v1beta1,1,1,1,{'omitted_conflict': 1},2.0,2,2,2.0,2,2,1
+com.beust:jcommander,1,1,1,{'omitted_conflict': 1},1.0,1,1,3.0,3,3,1
+com.aliyun.odps:odps-sdk-commons,1,1,1,{'omitted_conflict': 1},2.0,2,2,2.0,2,2,1
+com.clearspring.analytics:stream,1,1,1,{'version_managed': 1},3.0,3,3,3.0,3,3,1
+javax.annotation:javax.annotation-api,1,1,1,{'omitted_conflict': 1},3.0,3,3,6.0,6,6,1
+jakarta.xml.soap:jakarta.xml.soap-api,1,1,1,{'omitted_conflict': 1},1.0,1,1,2.0,2,2,1
+jakarta.websocket:jakarta.websocket-client-api,1,1,1,{'version_managed': 1},3.0,3,3,3.0,3,3,1
+org.apache.commons:commons-csv,1,1,1,{'omitted_conflict': 1},2.0,2,2,3.0,3,3,1
+jakarta.websocket:jakarta.websocket-api,1,1,1,{'version_managed': 1},3.0,3,3,3.0,3,3,1
+jakarta.servlet:jakarta.servlet-api,1,1,1,{'version_managed': 1},5.0,5,5,5.0,5,5,1
+jakarta.persistence:jakarta.persistence-api,1,1,1,{'version_managed': 1},3.0,3,3,3.0,3,3,1
+com.fasterxml.jackson.jr:jackson-jr-objects,1,1,1,{'version_managed': 1},2.0,2,2,2.0,2,2,1
+org.testng:testng,1,1,1,{'omitted_conflict': 1},1.0,1,1,2.0,2,2,1
+com.alipay.sofa:tracer-core,1,1,1,{'version_managed': 1},2.0,2,2,2.0,2,2,1
+com.fasterxml.jackson.module:jackson-module-jaxb-annotations,1,1,1,{'version_managed': 1},3.0,3,3,3.0,3,3,1
+org.apache.curator:curator-client,1,1,1,{'version_managed': 1},2.0,2,2,2.0,2,2,1
+org.apache.curator:curator-framework,1,1,1,{'version_managed': 1},2.0,2,2,2.0,2,2,1
+com.github.houbb:heaven,1,1,1,{'omitted_conflict': 1},2.0,2,2,3.0,3,3,1
+javax.money:money-api,1,1,1,{'version_managed': 1},3.0,3,3,3.0,3,3,1
+org.wildfly.common:wildfly-common,1,1,1,{'omitted_conflict': 1},4.0,4,4,5.0,5,5,1
+org.ow2.asm:asm-analysis,1,1,1,{'omitted_conflict': 1},3.0,3,3,5.0,5,5,1
+com.alipay.sofa.common:sofa-common-tools,1,1,1,{'version_managed': 1},2.0,2,2,2.0,2,2,1
+org.xmlunit:xmlunit-placeholders,1,1,1,{'version_managed': 1},3.0,3,3,3.0,3,3,1
+org.apache.groovy:groovy-json,1,1,1,{'version_managed': 1},4.0,4,4,4.0,4,4,1
+com.github.luben:zstd-jni,1,1,1,{'omitted_conflict': 1},2.0,2,2,2.0,2,2,1
+com.github.spotbugs:spotbugs-annotations,1,1,1,{'version_managed': 1},2.0,2,2,2.0,2,2,1
+com.google.api-client:google-api-client-gson,1,1,1,{'version_managed': 1},2.0,2,2,2.0,2,2,1
+com.google.api.grpc:grpc-google-cloud-bigquerystorage-v1,1,1,1,{'omitted_conflict': 1},2.0,2,2,2.0,2,2,1
+com.github.jsqlparser:jsqlparser,1,1,1,{'omitted_conflict': 1},1.0,1,1,4.0,4,4,1
+com.google.cloud:google-cloud-monitoring,1,1,1,{'version_managed': 1},2.0,2,2,2.0,2,2,1
+org.osgl:osgl-version,1,1,1,{'omitted_conflict': 1},2.0,2,2,3.0,3,3,1
+org.glassfish.jersey.media:jersey-media-json-jackson,1,1,1,{'version_managed': 1},2.0,2,2,2.0,2,2,1
+io.opentelemetry:opentelemetry-sdk-extension-autoconfigure-spi,1,1,1,{'version_managed': 1},3.0,3,3,3.0,3,3,1
+io.grpc:grpc-all,1,1,1,{'version_managed': 1},2.0,2,2,2.0,2,2,1
+org.apache.xmlgraphics:xmlgraphics-commons,1,1,1,{'version_managed': 1},2.0,2,2,2.0,2,2,1
+org.glassfish.jersey.core:jersey-client,1,1,1,{'version_managed': 1},2.0,2,2,2.0,2,2,1
+org.glassfish.jersey.core:jersey-common,1,1,1,{'version_managed': 1},2.0,2,2,2.0,2,2,1
+org.apache.tomcat:tomcat-annotations-api,1,1,1,{'omitted_conflict': 1},1.0,1,1,2.0,2,2,1
+org.apache.tomcat.embed:tomcat-embed-core,1,1,1,{'omitted_conflict': 1},1.0,1,1,2.0,2,2,1
+com.google.cloud:google-cloud-bigquerystorage,1,1,1,{'omitted_conflict': 1},1.0,1,1,2.0,2,2,1
+org.apache.shiro:shiro-core,1,1,1,{'omitted_conflict': 1},1.0,1,1,2.0,2,2,1
+org.graalvm.sdk:graal-sdk,1,1,1,{'version_managed': 1},2.0,2,2,2.0,2,2,1
+io.github.openfeign:feign-core,1,1,1,{'version_managed': 1},2.0,2,2,2.0,2,2,1
+io.opentelemetry:opentelemetry-sdk-trace,1,1,1,{'version_managed': 1},3.0,3,3,3.0,3,3,1
+org.hibernate:hibernate-jpamodelgen,1,1,1,{'version_managed': 1},3.0,3,3,3.0,3,3,1
+io.opentracing:opentracing-impl,1,1,1,{'omitted_conflict': 1},1.0,1,1,2.0,2,2,1
+org.apache.zookeeper:zookeeper-jute,1,1,1,{'version_managed': 1},2.0,2,2,2.0,2,2,1
+io.opentelemetry:opentelemetry-sdk-extension-autoconfigure,1,1,1,{'version_managed': 1},3.0,3,3,3.0,3,3,1
+io.opentelemetry:opentelemetry-sdk-common,1,1,1,{'version_managed': 1},3.0,3,3,3.0,3,3,1
+io.opentelemetry:opentelemetry-sdk,1,1,1,{'version_managed': 1},3.0,3,3,3.0,3,3,1
+io.grpc:grpc-inprocess,1,1,1,{'omitted_conflict': 1},2.0,2,2,2.0,2,2,1
+org.bouncycastle:bcpkix-jdk15on,1,1,1,{'omitted_conflict': 1},3.0,3,3,4.0,4,4,1
+io.grpc:grpc-util,1,1,1,{'omitted_conflict': 1},2.0,2,2,2.0,2,2,1
+io.grpc:protoc-gen-grpc-java,1,1,1,{'version_managed': 1},2.0,2,2,2.0,2,2,1
+org.bouncycastle:bcpkix-jdk18on,1,1,1,{'omitted_conflict': 1},1.0,1,1,2.0,2,2,1
+org.bouncycastle:bcprov-jdk15on,1,1,1,{'omitted_conflict': 1},3.0,3,3,4.0,4,4,1
+org.eclipse.jetty:jetty-alpn-client,1,1,1,{'version_managed': 1},2.0,2,2,2.0,2,2,1
+io.opentelemetry:opentelemetry-exporter-logging,1,1,1,{'version_managed': 1},3.0,3,3,3.0,3,3,1
+org.cryptomator:webdav-nio-adapter-servlet,1,1,1,{'version_managed': 1},2.0,2,2,2.0,2,2,1
+org.checkerframework:checker-compat-qual,1,1,1,{'omitted_conflict': 1},2.0,2,2,2.0,2,2,1
+io.micronaut:micronaut-core-reactive,1,1,1,{'omitted_conflict': 1},3.0,3,3,3.0,3,3,1
+io.netty:netty-codec-dns,1,1,1,{'omitted_conflict': 1},3.0,3,3,3.0,3,3,1
+io.opentelemetry:opentelemetry-context,1,1,1,{'version_managed': 1},3.0,3,3,3.0,3,3,1
+javax.validation:validation-api,1,1,1,{'omitted_conflict': 1},2.0,2,2,4.0,4,4,1
+io.prometheus:simpleclient,1,1,1,{'version_managed': 1},2.0,2,2,2.0,2,2,1
+io.swagger.core.v3:swagger-models-jakarta,1,1,1,{'version_managed': 1},6.0,6,6,6.0,6,6,1
+com.mchange:c3p0,1,1,1,{'omitted_conflict': 1},2.0,2,2,2.0,2,2,1
+org.openjfx:javafx-base,1,1,1,{'omitted_conflict': 1},1.0,1,1,2.0,2,2,1
+io.netty:netty-tcnative-classes,1,1,1,{'version_managed': 1},2.0,2,2,2.0,2,2,1
+org.mybatis.spring.boot:mybatis-spring-boot-starter,1,1,1,{'omitted_conflict': 1},1.0,1,1,2.0,2,2,1
+org.mozilla:rhino,1,1,1,{'version_managed': 1},6.0,6,6,6.0,6,6,1
+com.google.cloud:google-cloud-storage,1,1,1,{'version_managed': 1},2.0,2,2,2.0,2,2,1
+com.google.dagger:dagger,1,1,1,{'omitted_conflict': 1},1.0,1,1,2.0,2,2,1
+org.locationtech.spatial4j:spatial4j,1,1,1,{'version_managed': 1},2.0,2,2,2.0,2,2,1
+io.zipkin.brave:brave-core,1,1,1,{'omitted_conflict': 1},2.0,2,2,2.0,2,2,1
+com.google.http-client:google-http-client-apache-v2,1,1,1,{'version_managed': 1},3.0,3,3,3.0,3,3,1
+org.apache.ibatis:ibatis-sqlmap,1,1,1,{'omitted_conflict': 1},1.0,1,1,2.0,2,2,1
+com.google.inject.extensions:guice-assistedinject,1,1,1,{'omitted_conflict': 1},1.0,1,1,2.0,2,2,1
+com.google.jsinterop:jsinterop-annotations,1,1,1,{'omitted_conflict': 1},2.0,2,2,2.0,2,2,1
+com.google.oauth-client:google-oauth-client,1,1,1,{'version_managed': 1},3.0,3,3,3.0,3,3,1
+com.google.re2j:re2j,1,1,1,{'omitted_conflict': 1},2.0,2,2,4.0,4,4,1
+org.apache.logging.log4j:log4j-1.2-api,1,1,1,{'version_managed': 1},2.0,2,2,2.0,2,2,1
+io.vertx:vertx-core,1,1,1,{'version_managed': 1},0.0,0,0,0.0,0,0,1
+org.jetlinks:jetlinks-core,1,1,1,{'omitted_conflict': 1},1.0,1,1,2.0,2,2,1
+com.netflix.archaius:archaius-core,1,1,1,{'omitted_conflict': 1},1.0,1,1,2.0,2,2,1
+io.zipkin.brave:brave,1,1,1,{'version_managed': 1},2.0,2,2,2.0,2,2,1
+com.samskivert:jmustache,1,1,1,{'version_managed': 1},3.0,3,3,3.0,3,3,1
+org.apache.logging.log4j:log4j-slf4j2-impl,1,1,1,{'version_managed': 1},2.0,2,2,2.0,2,2,1
+com.squareup.okhttp3:okhttp-sse,1,1,1,{'version_managed': 1},2.0,2,2,2.0,2,2,1
+org.apache.lucene:lucene-analyzers-common,1,1,1,{'omitted_conflict': 1},2.0,2,2,2.0,2,2,1
+org.apache.lucene:lucene-core,1,1,1,{'omitted_conflict': 1},2.0,2,2,2.0,2,2,1
+org.apache.lucene:lucene-queryparser,1,1,1,{'omitted_conflict': 1},1.0,1,1,2.0,2,2,1
+org.jetbrains.kotlin:kotlin-scripting-compiler-embeddable,1,1,1,{'omitted_conflict': 1},3.0,3,3,4.0,4,4,1
+com.sun.xml.bind:jaxb-impl,1,1,1,{'version_managed': 1},3.0,3,3,3.0,3,3,1
+org.jdom:jdom2,1,1,1,{'version_managed': 1},2.0,2,2,2.0,2,2,1
+com.zaxxer:HikariCP,1,1,1,{'version_managed': 1},2.0,2,2,2.0,2,2,1
+org.jboss.spec.javax.xml.bind:jboss-jaxb-api_2.3_spec,1,1,1,{'version_managed': 1},0.0,0,0,0.0,0,0,1
+junit:junit-dep,1,1,1,{'omitted_conflict': 1},0.0,0,0,2.0,2,2,1
