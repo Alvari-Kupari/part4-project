@@ -46,18 +46,38 @@ class MavenDependencyAnalyzer:
         """Parse Maven coordinate string into components"""
         parts = coord_string.split(':')
         
-        if len(parts) >= 4:  # groupId:artifactId:type:version:scope (scope optional)
-            group_id = parts[0]
-            artifact_id = parts[1]
-            version = parts[3]
-            scope = parts[4] if len(parts) > 4 else 'compile'
-        elif len(parts) == 3:  # groupId:artifactId:version
-            group_id = parts[0]
-            artifact_id = parts[1]
+        if len(parts) < 3:
+            return None
+            
+        group_id = parts[0]
+        artifact_id = parts[1]
+        
+        # Handle different Maven coordinate formats:
+        # groupId:artifactId:version (3 parts)
+        # groupId:artifactId:packaging:version (4 parts)
+        # groupId:artifactId:packaging:version:scope (5 parts)
+        # groupId:artifactId:packaging:classifier:version:scope (6 parts)
+        
+        if len(parts) == 3:
+            # groupId:artifactId:version
             version = parts[2]
             scope = 'compile'
+        elif len(parts) == 4:
+            # groupId:artifactId:packaging:version
+            version = parts[3]
+            scope = 'compile'
+        elif len(parts) == 5:
+            # groupId:artifactId:packaging:version:scope
+            version = parts[3]
+            scope = parts[4]
+        elif len(parts) == 6:
+            # groupId:artifactId:packaging:classifier:version:scope
+            version = parts[4]
+            scope = parts[5]
         else:
-            return None
+            # For more than 6 parts, assume last is scope and second-to-last is version
+            version = parts[-2]
+            scope = parts[-1]
         
         return {
             'group_id': group_id,
