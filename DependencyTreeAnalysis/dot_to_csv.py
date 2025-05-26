@@ -19,40 +19,66 @@ class MavenDependencyAnalyzer:
         
     def parse_maven_coordinates(self, coord_string):
         """Parse Maven coordinates from the node string"""
-        # Remove any additional information in parentheses first, but keep the base coordinates
-        original = coord_string
+        # Check for omitted conflict pattern (omitted for conflict with ...)
+        omitted_conflict_match = re.search(r'\(([^)]+) - omitted for conflict with ([^)]+)\)', coord_string)
+        if omitted_conflict_match:
+            base_coords = omitted_conflict_match.group(1)
+            conflicting_version = omitted_conflict_match.group(2)
+            return self._parse_coordinates_string(base_coords), conflicting_version, 'omitted_conflict'
         
-        # Handle omitted conflicts like "(com.netflix.servo:servo-core:jar:0.5.3:test - omitted for conflict with 0.12.21)"
-        conflict_match = re.search(r'\(([^)]+) - omitted for conflict with ([^)]+)\)', coord_string)
-        if conflict_match:
-            base_coords = conflict_match.group(1)
-            conflicting_version = conflict_match.group(2)
-            return self._parse_coordinates_string(base_coords), conflicting_version
+        # Check for version managed pattern (version managed from ...)
+        version_managed_match = re.search(r'\(version managed from ([^)]+)\)', coord_string)
+        if version_managed_match:
+            managed_from_text = version_managed_match.group(1)
+            # Extract just the version number, removing any scope information
+            conflicting_version = managed_from_text.split(';')[0].strip()
+            # Remove the "(version managed from ...)" text from string to parse normal coords
+            cleaned_str = re.sub(r'\(version managed from [^)]+\)', '', coord_string).strip()
+            parsed = self._parse_coordinates_string(cleaned_str)
+            return parsed, conflicting_version, 'version_managed'
         
-        # Remove version managed information but keep base coordinates
-        coord_string = re.sub(r'\s*\([^)]*\)', '', coord_string)
+        # Remove any other parentheses content (like (jar), (runtime), etc.)
+        coord_string = re.sub(r'\s*\([^)]*\)', '', coord_string).strip()
         
-        return self._parse_coordinates_string(coord_string), None
-        
+        return self._parse_coordinates_string(coord_string), None, None
+
     def _parse_coordinates_string(self, coord_string):
         """Parse Maven coordinate string into components"""
-        # Split by colon to get Maven coordinates
         parts = coord_string.split(':')
         
-        if len(parts) >= 4:  # groupId:artifactId:type:version:scope
-            group_id = parts[0]
-            artifact_id = parts[1]
-            # Skip type (jar, war, etc.)
-            version = parts[3]
-            scope = parts[4] if len(parts) > 4 else 'compile'
-        elif len(parts) == 3:  # groupId:artifactId:version
-            group_id = parts[0]
-            artifact_id = parts[1]
-            version = parts[2]
-            scope = 'compile'
-        else:
+        if len(parts) < 3:
             return None
             
+        group_id = parts[0]
+        artifact_id = parts[1]
+        
+        # Handle different Maven coordinate formats:
+        # groupId:artifactId:version (3 parts)
+        # groupId:artifactId:packaging:version (4 parts)
+        # groupId:artifactId:packaging:version:scope (5 parts)
+        # groupId:artifactId:packaging:classifier:version:scope (6 parts)
+        
+        if len(parts) == 3:
+            # groupId:artifactId:version
+            version = parts[2]
+            scope = 'compile'
+        elif len(parts) == 4:
+            # groupId:artifactId:packaging:version
+            version = parts[3]
+            scope = 'compile'
+        elif len(parts) == 5:
+            # groupId:artifactId:packaging:version:scope
+            version = parts[3]
+            scope = parts[4]
+        elif len(parts) == 6:
+            # groupId:artifactId:packaging:classifier:version:scope
+            version = parts[4]
+            scope = parts[5]
+        else:
+            # For more than 6 parts, assume last is scope and second-to-last is version
+            version = parts[-2]
+            scope = parts[-1]
+        
         return {
             'group_id': group_id,
             'artifact_id': artifact_id,
@@ -86,7 +112,7 @@ class MavenDependencyAnalyzer:
         return all_dependencies, all_edges, all_conflicts
     
     def _parse_section(self, section_content, submodule_name):
-        """Parse a single digraph section"""
+        """Parse a single digraph section for omitted conflicts and version managed"""
         dependencies = {}
         edges = []
         conflicts = []
@@ -98,26 +124,27 @@ class MavenDependencyAnalyzer:
             child = match.group(2)
             
             # Parse parent dependency
-            parent_parsed, parent_conflict_version = self.parse_maven_coordinates(parent)
+            parent_parsed, parent_version_conflict, parent_conflict_type = self.parse_maven_coordinates(parent)
             if parent_parsed:
                 dependencies[parent] = parent_parsed
                 
             # Parse child dependency and check for conflicts
-            child_parsed, child_conflict_version = self.parse_maven_coordinates(child)
+            child_parsed, child_version_conflict, child_conflict_type = self.parse_maven_coordinates(child)
             if child_parsed:
                 dependencies[child] = child_parsed
                 
-                # If this child has a conflict, record it
-                if child_conflict_version:
+                # If this child has a conflict (either omitted or version managed), record it
+                if child_version_conflict:
                     conflict = {
                         'submodule': submodule_name,
                         'library_name': child_parsed['full_name'],
-                        'version_selected': child_conflict_version,
-                        'conflicting_version': child_parsed['version'],
-                        'depth_selected': 0,  # Will be calculated later
-                        'depth_conflicting': 1,  # Conflicting is deeper
+                        'version_selected': child_parsed['version'],
+                        'conflicting_version': child_version_conflict,
                         'scope_selected': child_parsed['scope'],
-                        'scope_conflicting': child_parsed['scope']
+                        'scope_conflicting': child_parsed['scope'],
+                        'parent_node': parent,  # For depth calculation
+                        'child_node': child,
+                        'conflict_type': child_conflict_type
                     }
                     conflicts.append(conflict)
             
@@ -125,24 +152,28 @@ class MavenDependencyAnalyzer:
             if parent_parsed and child_parsed:
                 edges.append((parent, child))
         
-        return dependencies, edges, conflicts
+        # Filter out version managed conflicts where selected version == conflicting version
+        filtered_conflicts = []
+        for c in conflicts:
+            if c['conflict_type'] == 'version_managed' and c['version_selected'] == c['conflicting_version']:
+                # skip these
+                continue
+            filtered_conflicts.append(c)
+        
+        return dependencies, edges, filtered_conflicts
     
     def calculate_depths(self, dependencies, edges):
         """Calculate the depth of each dependency in the tree"""
         if not edges:
-            # If no edges, all dependencies are at depth 0
             return {dep: 0 for dep in dependencies}
             
-        # Create a directed graph
         G = nx.DiGraph()
         G.add_edges_from(edges)
         
-        # Find root nodes (nodes with no incoming edges)
         root_nodes = [node for node in G.nodes() if G.in_degree(node) == 0]
         
         depths = {}
         for root in root_nodes:
-            # Calculate shortest path from root to all reachable nodes
             try:
                 paths = nx.single_source_shortest_path_length(G, root)
                 for node, depth in paths.items():
@@ -151,68 +182,26 @@ class MavenDependencyAnalyzer:
             except:
                 continue
         
-        # Set depth 0 for any nodes not reachable from roots
         for node in dependencies:
             if node not in depths:
                 depths[node] = 0
         
         return depths
     
-    def find_version_conflicts(self, project_name, dependencies, depths, omitted_conflicts):
-        """Find version conflicts within a single project"""
-        # Group dependencies by library name (groupId:artifactId)
-        library_versions = defaultdict(list)
-        
-        for node_id, dep_info in dependencies.items():
-            library_name = dep_info['full_name']
-            depth = depths.get(node_id, 0)
+    def add_depth_to_conflicts(self, conflicts, depths):
+        """Add depth information to conflicts"""
+        for conflict in conflicts:
+            parent_depth = depths.get(conflict['parent_node'], 0)
+            child_depth = depths.get(conflict['child_node'], 1)
             
-            library_versions[library_name].append({
-                'node_id': node_id,
-                'version': dep_info['version'],
-                'depth': depth,
-                'scope': dep_info['scope']
-            })
+            conflict['depth_selected'] = parent_depth
+            conflict['depth_conflicting'] = child_depth
+            
+            # Remove internal keys
+            del conflict['parent_node']
+            del conflict['child_node']
         
-        # Start with omitted conflicts (these are explicit conflicts)
-        project_conflicts = []
-        for conflict in omitted_conflicts:
-            conflict['project'] = project_name
-            project_conflicts.append(conflict)
-        
-        # Find additional conflicts (same library with different versions)
-        for library_name, versions in library_versions.items():
-            unique_versions = set(v['version'] for v in versions)
-            if len(unique_versions) > 1:
-                # Sort by depth to identify which version is selected (usually the shallowest)
-                versions.sort(key=lambda x: x['depth'])
-                selected_version = versions[0]
-                
-                for conflicting in versions[1:]:
-                    if conflicting['version'] != selected_version['version']:
-                        # Check if this conflict is already recorded from omitted conflicts
-                        already_recorded = any(
-                            c['library_name'] == library_name and 
-                            c['version_selected'] == selected_version['version'] and
-                            c['conflicting_version'] == conflicting['version']
-                            for c in project_conflicts
-                        )
-                        
-                        if not already_recorded:
-                            conflict = {
-                                'project': project_name,
-                                'submodule': 'main',
-                                'library_name': library_name,
-                                'version_selected': selected_version['version'],
-                                'conflicting_version': conflicting['version'],
-                                'depth_selected': selected_version['depth'],
-                                'depth_conflicting': conflicting['depth'],
-                                'scope_selected': selected_version['scope'],
-                                'scope_conflicting': conflicting['scope']
-                            }
-                            project_conflicts.append(conflict)
-        
-        return project_conflicts
+        return conflicts
     
     def export_project_to_csv(self, project_name, conflicts):
         """Export project conflicts to individual CSV file (even if empty)"""
@@ -228,7 +217,8 @@ class MavenDependencyAnalyzer:
             'depth_selected',
             'depth_conflicting',
             'scope_selected',
-            'scope_conflicting'
+            'scope_conflicting',
+            'conflict_type'
         ]
         
         with open(output_path, 'w', newline='', encoding='utf-8') as csvfile:
@@ -239,7 +229,6 @@ class MavenDependencyAnalyzer:
                 writer.writerow(conflict)
     
     def analyze_all_projects(self):
-        """Analyze all dot files in the directory"""
         dot_files = list(self.dot_files_dir.glob('*.dot'))
         
         if not dot_files:
@@ -251,28 +240,28 @@ class MavenDependencyAnalyzer:
             print(f"Analyzing project: {project_name}")
             
             try:
-                dependencies, edges, omitted_conflicts = self.parse_dot_file(dot_file)
+                dependencies, edges, conflicts = self.parse_dot_file(dot_file)
                 print(f"  Found {len(dependencies)} dependencies and {len(edges)} edges")
-                print(f"  Found {len(omitted_conflicts)} omitted conflicts")
+                print(f"  Found {len(conflicts)} version conflicts")
                 
                 depths = self.calculate_depths(dependencies, edges)
-                conflicts = self.find_version_conflicts(project_name, dependencies, depths, omitted_conflicts)
+                conflicts = self.add_depth_to_conflicts(conflicts, depths)
                 
-                # Keep track of all conflicts for summary
+                for conflict in conflicts:
+                    conflict['project'] = project_name
+                
                 self.all_conflicts.extend(conflicts)
                 
-                print(f"  Total conflicts found: {len(conflicts)}")
+                print(f"  Total conflicts found (after filtering): {len(conflicts)}")
                 
-                # Always export CSV (even if empty)
                 self.export_project_to_csv(project_name, conflicts)
                 print(f"  Exported to: {self.output_dir}/{project_name}_version_conflicts.csv")
                 
-                # Debug: Print first few conflicts
                 if conflicts:
                     print(f"  Example conflicts:")
                     for conflict in conflicts[:3]:
                         submodule_info = f" [{conflict.get('submodule', 'main')}]" if conflict.get('submodule') != 'main' else ""
-                        print(f"    {conflict['library_name']}{submodule_info}: {conflict['version_selected']} vs {conflict['conflicting_version']}")
+                        print(f"    {conflict['library_name']}{submodule_info}: {conflict['version_selected']} (depth {conflict['depth_selected']}) vs {conflict['conflicting_version']} (depth {conflict['depth_conflicting']}) [{conflict['conflict_type']}]")
                 else:
                     print(f"  No conflicts detected")
                 
@@ -281,11 +270,9 @@ class MavenDependencyAnalyzer:
                 import traceback
                 traceback.print_exc()
                 
-                # Still create empty CSV for failed analysis
                 self.export_project_to_csv(project_name, [])
     
     def print_summary(self):
-        """Print analysis summary"""
         total_conflicts = len(self.all_conflicts)
         unique_libraries = len(set(c['library_name'] for c in self.all_conflicts))
         projects_with_conflicts = len(set(c['project'] for c in self.all_conflicts))
@@ -305,25 +292,20 @@ class MavenDependencyAnalyzer:
                 print(f"  {library}: {count} conflicts")
 
 def main():
-    # Path to the dot files directory
     dot_files_dir = "../data/dot_files"
     output_dir = "output"
     
-    # Check if directory exists
     if not os.path.exists(dot_files_dir):
         print(f"Error: Directory {dot_files_dir} not found!")
         return
     
-    # Initialize analyzer
     analyzer = MavenDependencyAnalyzer(dot_files_dir, output_dir)
     
-    # Perform analysis
     print("Starting Maven dependency version conflict analysis...")
     analyzer.analyze_all_projects()
     
     print(f"\nIndividual project CSV files exported to: {output_dir}/")
     
-    # Print summary
     analyzer.print_summary()
 
 if __name__ == "__main__":
