@@ -121,7 +121,8 @@ class MavenDependencyAnalyzer:
             submodule_data[submodule_name.strip()] = {
                 'dependencies': dependencies,
                 'edges': edges,
-                'conflicts': conflicts
+                'conflicts': conflicts,
+                'all_nodes': list(dependencies.keys())  # Store all node strings for depth lookup
             }
             
             all_dependencies.update(dependencies)
@@ -166,10 +167,10 @@ class MavenDependencyAnalyzer:
                         'conflict_type': child_conflict_type
                     }
                     conflicts.append(conflict)
-        
-        # Only add edge if both dependencies were successfully parsed
-        if parent_parsed and child_parsed:
-            edges.append((parent, child))
+            
+            # Only add edge if both dependencies were successfully parsed
+            if parent_parsed and child_parsed:
+                edges.append((parent, child))
     
         # Filter out version managed conflicts where selected version == conflicting version
         filtered_conflicts = []
@@ -180,88 +181,95 @@ class MavenDependencyAnalyzer:
         
         return dependencies, edges, filtered_conflicts
 
-    def calculate_depths(self, dependencies, edges):
-        """Calculate the depth of each dependency in the tree"""
+    def calculate_depths_for_submodule(self, dependencies, edges):
+        """Calculate the depth of each dependency node in a single submodule"""
         if not edges:
             return {dep: 0 for dep in dependencies}
             
         G = nx.DiGraph()
         G.add_edges_from(edges)
         
+        # Find root nodes (nodes with no incoming edges)
         root_nodes = [node for node in G.nodes() if G.in_degree(node) == 0]
         
         depths = {}
+        
+        # Calculate depths from each root
         for root in root_nodes:
             try:
                 paths = nx.single_source_shortest_path_length(G, root)
                 for node, depth in paths.items():
+                    # Take minimum depth if node is reachable from multiple roots
                     if node not in depths or depth < depths[node]:
                         depths[node] = depth
-            except:
+            except Exception as e:
+                print(f"Error calculating paths from root {root}: {e}")
                 continue
         
+        # Set depth 0 for any nodes not reached from roots
         for node in dependencies:
             if node not in depths:
                 depths[node] = 0
         
         return depths
     
-    def add_depth_to_conflicts(self, conflicts, depths, submodule_data):
-        """Add depth information to conflicts"""
+    def add_depth_to_conflicts(self, conflicts, submodule_data):
+        """Add depth information to conflicts using correct submodule-specific depths"""
         for conflict in conflicts:
             child_node = conflict['child_node']
             submodule = conflict['submodule']
             
-            # Calculate depths for this specific submodule
-            if submodule in submodule_data:
-                submodule_deps = submodule_data[submodule]['dependencies']
-                submodule_edges = submodule_data[submodule]['edges']
-                submodule_depths = self.calculate_depths(submodule_deps, submodule_edges)
-            else:
-                submodule_depths = depths
+            # Get the submodule-specific data
+            if submodule not in submodule_data:
+                print(f"Warning: Submodule {submodule} not found in data")
+                conflict['depth_selected'] = 0
+                conflict['depth_conflicting'] = 0
+                continue
+                
+            submodule_deps = submodule_data[submodule]['dependencies']
+            submodule_edges = submodule_data[submodule]['edges']
+            all_nodes = submodule_data[submodule]['all_nodes']
             
-            child_depth = submodule_depths.get(child_node, 0)
+            # Calculate depths for this specific submodule
+            submodule_depths = self.calculate_depths_for_submodule(submodule_deps, submodule_edges)
             
             if conflict['conflict_type'] == 'omitted_conflict':
+                # For omitted conflicts:
+                # - conflicting_version depth = depth of the omitted node (child_node)
+                # - selected_version depth = depth of the winning node (same library, selected version, no conflict label)
+                
+                conflict['depth_conflicting'] = submodule_depths.get(child_node, 0)
+                
+                # Find the winning node (same library, selected version, no conflict indicators)
                 selected_library = conflict['library_name']
                 selected_version = conflict['version_selected']
-                
-                # Find the actual winning node in the same submodule first, then globally
                 winning_depth = None
                 
-                # First, look within the same submodule
-                for node, depth in submodule_depths.items():
+                for node in all_nodes:
                     parsed_node, node_selected, node_conflicting, node_conflict_type = self.parse_maven_coordinates(node)
                     if (parsed_node and 
                         parsed_node['full_name'] == selected_library and 
                         parsed_node['version'] == selected_version and
-                        node_conflict_type is None):
-                        if winning_depth is None or depth < winning_depth:
-                            winning_depth = depth
-                
-                # If not found in submodule, look globally
-                if winning_depth is None:
-                    for node, depth in depths.items():
-                        parsed_node, node_selected, node_conflicting, node_conflict_type = self.parse_maven_coordinates(node)
-                        if (parsed_node and 
-                            parsed_node['full_name'] == selected_library and 
-                            parsed_node['version'] == selected_version and
-                            node_conflict_type is None):
-                            if winning_depth is None or depth < winning_depth:
-                                winning_depth = depth
+                        node_conflict_type is None):  # No conflict indicators
+                        node_depth = submodule_depths.get(node, 0)
+                        if winning_depth is None or node_depth < winning_depth:
+                            winning_depth = node_depth
                 
                 conflict['depth_selected'] = winning_depth if winning_depth is not None else 0
-                conflict['depth_conflicting'] = child_depth
                 
             elif conflict['conflict_type'] == 'version_managed':
-                conflict['depth_selected'] = child_depth
-                conflict['depth_conflicting'] = child_depth
+                # For version managed: both depths are the same (same node, just managed version)
+                node_depth = submodule_depths.get(child_node, 0)
+                conflict['depth_selected'] = node_depth
+                conflict['depth_conflicting'] = node_depth
             
             else:
-                conflict['depth_selected'] = child_depth
-                conflict['depth_conflicting'] = child_depth
+                # Fallback for any other conflict types
+                node_depth = submodule_depths.get(child_node, 0)
+                conflict['depth_selected'] = node_depth
+                conflict['depth_conflicting'] = node_depth
             
-            # Remove internal keys
+            # Remove internal keys that we don't need in the final output
             del conflict['parent_node']
             del conflict['child_node']
         
@@ -308,8 +316,8 @@ class MavenDependencyAnalyzer:
                 print(f"  Found {len(dependencies)} dependencies and {len(edges)} edges")
                 print(f"  Found {len(conflicts)} version conflicts")
                 
-                depths = self.calculate_depths(dependencies, edges)
-                conflicts = self.add_depth_to_conflicts(conflicts, depths, submodule_data)
+                # Add depth information using submodule-specific calculations
+                conflicts = self.add_depth_to_conflicts(conflicts, submodule_data)
                 
                 for conflict in conflicts:
                     conflict['project'] = project_name
