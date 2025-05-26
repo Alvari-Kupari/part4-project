@@ -29,17 +29,19 @@ class MavenDependencyAnalyzer:
         # Check for version managed pattern (version managed from ...)
         version_managed_match = re.search(r'\(version managed from ([^)]+)\)', coord_string)
         if version_managed_match:
-            managed_from_version = version_managed_match.group(1)
+            managed_from_text = version_managed_match.group(1)
+            # Extract just the version number, removing any scope information
+            conflicting_version = managed_from_text.split(';')[0].strip()
             # Remove the "(version managed from ...)" text from string to parse normal coords
             cleaned_str = re.sub(r'\(version managed from [^)]+\)', '', coord_string).strip()
             parsed = self._parse_coordinates_string(cleaned_str)
-            return parsed, managed_from_version, 'version_managed'
+            return parsed, conflicting_version, 'version_managed'
         
         # Remove any other parentheses content (like (jar), (runtime), etc.)
         coord_string = re.sub(r'\s*\([^)]*\)', '', coord_string).strip()
         
         return self._parse_coordinates_string(coord_string), None, None
-        
+
     def _parse_coordinates_string(self, coord_string):
         """Parse Maven coordinate string into components"""
         parts = coord_string.split(':')
