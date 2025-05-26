@@ -244,6 +244,7 @@ class MavenDependencyAnalyzer:
                 selected_library = conflict['library_name']
                 selected_version = conflict['version_selected']
                 winning_depth = None
+                winning_scope = None
                 
                 for node in all_nodes:
                     parsed_node, node_selected, node_conflicting, node_conflict_type = self.parse_maven_coordinates(node)
@@ -254,14 +255,17 @@ class MavenDependencyAnalyzer:
                         node_depth = submodule_depths.get(node, 0)
                         if winning_depth is None or node_depth < winning_depth:
                             winning_depth = node_depth
+                            winning_scope = parsed_node['scope']  # Get scope from winning node
                 
                 conflict['depth_selected'] = winning_depth if winning_depth is not None else 0
+                conflict['scope_selected'] = winning_scope if winning_scope is not None else conflict['scope_conflicting']
                 
             elif conflict['conflict_type'] == 'version_managed':
                 # For version managed: both depths are the same (same node, just managed version)
                 node_depth = submodule_depths.get(child_node, 0)
                 conflict['depth_selected'] = node_depth
                 conflict['depth_conflicting'] = node_depth
+                # For version managed, the scope is the same for both (already set correctly)
             
             else:
                 # Fallback for any other conflict types
