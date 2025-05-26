@@ -19,9 +19,6 @@ class MavenDependencyAnalyzer:
         
     def parse_maven_coordinates(self, coord_string):
         """Parse Maven coordinates from the node string"""
-        # Remove any additional information in parentheses first, but keep the base coordinates
-        original = coord_string
-        
         # Handle omitted conflicts like "(com.netflix.servo:servo-core:jar:0.5.3:test - omitted for conflict with 0.12.21)"
         conflict_match = re.search(r'\(([^)]+) - omitted for conflict with ([^)]+)\)', coord_string)
         if conflict_match:
@@ -86,7 +83,7 @@ class MavenDependencyAnalyzer:
         return all_dependencies, all_edges, all_conflicts
     
     def _parse_section(self, section_content, submodule_name):
-        """Parse a single digraph section"""
+        """Parse a single digraph section for omitted conflicts only"""
         dependencies = {}
         edges = []
         conflicts = []
@@ -114,10 +111,10 @@ class MavenDependencyAnalyzer:
                         'library_name': child_parsed['full_name'],
                         'version_selected': child_conflict_version,
                         'conflicting_version': child_parsed['version'],
-                        'depth_selected': 0,  # Will be calculated later
-                        'depth_conflicting': 1,  # Conflicting is deeper
                         'scope_selected': child_parsed['scope'],
-                        'scope_conflicting': child_parsed['scope']
+                        'scope_conflicting': child_parsed['scope'],
+                        'parent_node': parent,  # Keep reference for depth calculation
+                        'child_node': child
                     }
                     conflicts.append(conflict)
             
@@ -158,61 +155,22 @@ class MavenDependencyAnalyzer:
         
         return depths
     
-    def find_version_conflicts(self, project_name, dependencies, depths, omitted_conflicts):
-        """Find version conflicts within a single project"""
-        # Group dependencies by library name (groupId:artifactId)
-        library_versions = defaultdict(list)
-        
-        for node_id, dep_info in dependencies.items():
-            library_name = dep_info['full_name']
-            depth = depths.get(node_id, 0)
+    def add_depth_to_conflicts(self, conflicts, depths):
+        """Add depth information to conflicts"""
+        for conflict in conflicts:
+            # Get depth of the parent (where the selected version would be)
+            parent_depth = depths.get(conflict['parent_node'], 0)
+            # Get depth of the child (where the conflicting version was omitted)
+            child_depth = depths.get(conflict['child_node'], 1)
             
-            library_versions[library_name].append({
-                'node_id': node_id,
-                'version': dep_info['version'],
-                'depth': depth,
-                'scope': dep_info['scope']
-            })
+            conflict['depth_selected'] = parent_depth
+            conflict['depth_conflicting'] = child_depth
+            
+            # Clean up temporary fields
+            del conflict['parent_node']
+            del conflict['child_node']
         
-        # Start with omitted conflicts (these are explicit conflicts)
-        project_conflicts = []
-        for conflict in omitted_conflicts:
-            conflict['project'] = project_name
-            project_conflicts.append(conflict)
-        
-        # Find additional conflicts (same library with different versions)
-        for library_name, versions in library_versions.items():
-            unique_versions = set(v['version'] for v in versions)
-            if len(unique_versions) > 1:
-                # Sort by depth to identify which version is selected (usually the shallowest)
-                versions.sort(key=lambda x: x['depth'])
-                selected_version = versions[0]
-                
-                for conflicting in versions[1:]:
-                    if conflicting['version'] != selected_version['version']:
-                        # Check if this conflict is already recorded from omitted conflicts
-                        already_recorded = any(
-                            c['library_name'] == library_name and 
-                            c['version_selected'] == selected_version['version'] and
-                            c['conflicting_version'] == conflicting['version']
-                            for c in project_conflicts
-                        )
-                        
-                        if not already_recorded:
-                            conflict = {
-                                'project': project_name,
-                                'submodule': 'main',
-                                'library_name': library_name,
-                                'version_selected': selected_version['version'],
-                                'conflicting_version': conflicting['version'],
-                                'depth_selected': selected_version['depth'],
-                                'depth_conflicting': conflicting['depth'],
-                                'scope_selected': selected_version['scope'],
-                                'scope_conflicting': conflicting['scope']
-                            }
-                            project_conflicts.append(conflict)
-        
-        return project_conflicts
+        return conflicts
     
     def export_project_to_csv(self, project_name, conflicts):
         """Export project conflicts to individual CSV file (even if empty)"""
@@ -255,8 +213,15 @@ class MavenDependencyAnalyzer:
                 print(f"  Found {len(dependencies)} dependencies and {len(edges)} edges")
                 print(f"  Found {len(omitted_conflicts)} omitted conflicts")
                 
+                # Calculate depths for all dependencies
                 depths = self.calculate_depths(dependencies, edges)
-                conflicts = self.find_version_conflicts(project_name, dependencies, depths, omitted_conflicts)
+                
+                # Add depth information to conflicts
+                conflicts = self.add_depth_to_conflicts(omitted_conflicts, depths)
+                
+                # Add project name to conflicts
+                for conflict in conflicts:
+                    conflict['project'] = project_name
                 
                 # Keep track of all conflicts for summary
                 self.all_conflicts.extend(conflicts)
@@ -272,7 +237,7 @@ class MavenDependencyAnalyzer:
                     print(f"  Example conflicts:")
                     for conflict in conflicts[:3]:
                         submodule_info = f" [{conflict.get('submodule', 'main')}]" if conflict.get('submodule') != 'main' else ""
-                        print(f"    {conflict['library_name']}{submodule_info}: {conflict['version_selected']} vs {conflict['conflicting_version']}")
+                        print(f"    {conflict['library_name']}{submodule_info}: {conflict['version_selected']} (depth {conflict['depth_selected']}) vs {conflict['conflicting_version']} (depth {conflict['depth_conflicting']})")
                 else:
                     print(f"  No conflicts detected")
                 
