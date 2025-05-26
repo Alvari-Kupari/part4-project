@@ -24,12 +24,20 @@ class MavenDependencyAnalyzer:
         if conflict_match:
             base_coords = conflict_match.group(1)
             conflicting_version = conflict_match.group(2)
-            return self._parse_coordinates_string(base_coords), conflicting_version
+            return self._parse_coordinates_string(base_coords), conflicting_version, 'omitted'
         
-        # Remove version managed information but keep base coordinates
+        # Handle version managed from conflicts, e.g. "(version managed from 1.2.3)"
+        managed_match = re.search(r'\(version managed from ([^)]+)\)', coord_string)
+        if managed_match:
+            managed_version = managed_match.group(1)
+            # Remove the " (version managed from ...)" part to get base coords
+            base_coords = re.sub(r'\s*\(version managed from [^)]+\)', '', coord_string)
+            return self._parse_coordinates_string(base_coords), managed_version, 'version_managed'
+        
+        # Remove other parentheses (like version managed info) but keep base coords
         coord_string = re.sub(r'\s*\([^)]*\)', '', coord_string)
         
-        return self._parse_coordinates_string(coord_string), None
+        return self._parse_coordinates_string(coord_string), None, None
         
     def _parse_coordinates_string(self, coord_string):
         """Parse Maven coordinate string into components"""
@@ -83,7 +91,7 @@ class MavenDependencyAnalyzer:
         return all_dependencies, all_edges, all_conflicts
     
     def _parse_section(self, section_content, submodule_name):
-        """Parse a single digraph section for omitted conflicts only"""
+        """Parse a single digraph section for omitted conflicts and version managed conflicts"""
         dependencies = {}
         edges = []
         conflicts = []
@@ -94,13 +102,13 @@ class MavenDependencyAnalyzer:
             parent = match.group(1)
             child = match.group(2)
             
-            # Parse parent dependency
-            parent_parsed, parent_conflict_version = self.parse_maven_coordinates(parent)
+            # Parse parent dependency (conflict info ignored here)
+            parent_parsed, parent_conflict_version, _ = self.parse_maven_coordinates(parent)
             if parent_parsed:
                 dependencies[parent] = parent_parsed
                 
             # Parse child dependency and check for conflicts
-            child_parsed, child_conflict_version = self.parse_maven_coordinates(child)
+            child_parsed, child_conflict_version, conflict_type = self.parse_maven_coordinates(child)
             if child_parsed:
                 dependencies[child] = child_parsed
                 
@@ -109,13 +117,19 @@ class MavenDependencyAnalyzer:
                     conflict = {
                         'submodule': submodule_name,
                         'library_name': child_parsed['full_name'],
-                        'version_selected': child_conflict_version,
-                        'conflicting_version': child_parsed['version'],
                         'scope_selected': child_parsed['scope'],
                         'scope_conflicting': child_parsed['scope'],
                         'parent_node': parent,  # Keep reference for depth calculation
                         'child_node': child
                     }
+                    if conflict_type == 'omitted':
+                        conflict['version_selected'] = child_conflict_version
+                        conflict['conflicting_version'] = child_parsed['version']
+                        conflict['conflict_type'] = 'omitted'
+                    elif conflict_type == 'version_managed':
+                        conflict['version_selected'] = child_parsed['version']
+                        conflict['conflicting_version'] = child_conflict_version
+                        conflict['conflict_type'] = 'version_managed'
                     conflicts.append(conflict)
             
             # Only add edge if both dependencies were successfully parsed
@@ -160,7 +174,7 @@ class MavenDependencyAnalyzer:
         for conflict in conflicts:
             # Get depth of the parent (where the selected version would be)
             parent_depth = depths.get(conflict['parent_node'], 0)
-            # Get depth of the child (where the conflicting version was omitted)
+            # Get depth of the child (where the conflicting version was omitted or managed)
             child_depth = depths.get(conflict['child_node'], 1)
             
             conflict['depth_selected'] = parent_depth
@@ -186,7 +200,8 @@ class MavenDependencyAnalyzer:
             'depth_selected',
             'depth_conflicting',
             'scope_selected',
-            'scope_conflicting'
+            'scope_conflicting',
+            'conflict_type'
         ]
         
         with open(output_path, 'w', newline='', encoding='utf-8') as csvfile:
@@ -211,7 +226,7 @@ class MavenDependencyAnalyzer:
             try:
                 dependencies, edges, omitted_conflicts = self.parse_dot_file(dot_file)
                 print(f"  Found {len(dependencies)} dependencies and {len(edges)} edges")
-                print(f"  Found {len(omitted_conflicts)} omitted conflicts")
+                print(f"  Found {len(omitted_conflicts)} conflicts (omitted + version managed)")
                 
                 # Calculate depths for all dependencies
                 depths = self.calculate_depths(dependencies, edges)
@@ -237,7 +252,7 @@ class MavenDependencyAnalyzer:
                     print(f"  Example conflicts:")
                     for conflict in conflicts[:3]:
                         submodule_info = f" [{conflict.get('submodule', 'main')}]" if conflict.get('submodule') != 'main' else ""
-                        print(f"    {conflict['library_name']}{submodule_info}: {conflict['version_selected']} (depth {conflict['depth_selected']}) vs {conflict['conflicting_version']} (depth {conflict['depth_conflicting']})")
+                        print(f"    {conflict['library_name']}{submodule_info}: {conflict['version_selected']} (depth {conflict['depth_selected']}) vs {conflict['conflicting_version']} (depth {conflict['depth_conflicting']}) [{conflict['conflict_type']}]")
                 else:
                     print(f"  No conflicts detected")
                 
