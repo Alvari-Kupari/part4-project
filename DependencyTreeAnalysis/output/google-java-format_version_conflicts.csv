@@ -1,3 +1,0 @@
-project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
-google-java-format,core,org.checkerframework:checker-qual,3.37.0,3.42.0,2,2,compile,test,omitted_conflict
-google-java-format,core,org.checkerframework:checker-qual,3.37.0,3.42.0,2,2,compile,test,omitted_conflict

@@ -1,5 +1,0 @@
-project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
-generator,mybatis-generator-maven-plugin,org.slf4j:slf4j-api,2.0.17,1.7.36,2,2,provided,provided,version_managed
-generator,mybatis-generator-maven-plugin,org.codehaus.plexus:plexus-utils,3.5.1,3.4.1,2,4,provided,provided,omitted_conflict
-generator,mybatis-generator-maven-plugin,org.codehaus.plexus:plexus-classworlds,2.8.0,2.6.0,2,3,provided,provided,omitted_conflict
-generator,mybatis-generator-systests-domtests,org.slf4j:slf4j-api,2.0.17,1.7.32,2,2,compile,compile,version_managed

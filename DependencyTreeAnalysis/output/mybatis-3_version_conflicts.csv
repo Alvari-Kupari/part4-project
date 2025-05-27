@@ -1,8 +1,0 @@
-project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
-mybatis-3,mybatis-3,org.junit.jupiter:junit-jupiter-api,5.12.2,5.11.4,2,2,test,test,omitted_conflict
-mybatis-3,mybatis-3,org.slf4j:slf4j-api,2.0.17,1.7.36,1,2,compile,test,omitted_conflict
-mybatis-3,mybatis-3,net.bytebuddy:byte-buddy,1.17.5,1.15.11,1,2,test,test,omitted_conflict
-mybatis-3,mybatis-3,org.checkerframework:checker-qual,3.48.3,3.49.2,2,2,test,test,omitted_conflict
-mybatis-3,mybatis-3,org.slf4j:slf4j-api,2.0.17,1.7.36,1,2,compile,test,omitted_conflict
-mybatis-3,mybatis-3,org.slf4j:slf4j-api,2.0.17,1.7.30,1,4,compile,test,omitted_conflict
-mybatis-3,mybatis-3,org.slf4j:slf4j-api,2.0.17,1.7.25,1,4,compile,test,omitted_conflict

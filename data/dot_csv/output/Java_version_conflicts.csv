@@ -1,0 +1,2 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+Java,Java,net.bytebuddy:byte-buddy,1.15.11,1.17.5,2,2,test,test,omitted_conflict
