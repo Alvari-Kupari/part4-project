@@ -1,33 +1,32 @@
+import pandas as pd
 import matplotlib.pyplot as plt
-import matplotlib.ticker as ticker
-import re
 
-# === CONFIG ===
-LOG_FILE_PATH = "D:/repo-logs/repo-sizes-2025-05-20_22-46-34.853769800.txt"
+df = pd.read_csv("D:/repo-logs/logs-1000-repos.csv")
+repo_sizes_mb = df["Repo Size (KB)"] / 1024
 
-def extract_repo_sizes(filepath):
-    sizes = []
-    with open(filepath, "r", encoding="utf-8") as f:
-        for line in f:
-            match = re.match(r"[^:]+: (\d+)", line.strip())
-            if match:
-                sizes.append(int(match.group(1))/1000)
-    return sizes
+q1 = repo_sizes_mb.quantile(0.25)
+q2 = repo_sizes_mb.quantile(0.50)
+q3 = repo_sizes_mb.quantile(0.75)
+iqr = q3 - q1
+upper_whisker = repo_sizes_mb[repo_sizes_mb <= q3 + 1.5 * iqr].max()
 
-def plot_repo_size_distribution(sizes):
-    plt.figure(figsize=(10, 5))
-    plt.hist(sizes, bins=50, edgecolor='black')
-    plt.xlabel("Repository Size (MB)")
-    plt.ylabel("Number of Repositories")
-    plt.title("Distribution of Repository Sizes")
-    plt.grid(axis='y')
+print(f"Q1 (25%): {q1:.2f} MB")
+print(f"Q2 (Median): {q2:.2f} MB")
+print(f"Q3 (75%): {q3:.2f} MB")
+print(f"Rightmost whisker value: {upper_whisker:.2f} MB")
 
-    # Force plain number formatting on x-axis
-    plt.gca().xaxis.set_major_formatter(ticker.FuncFormatter(lambda x, _: f"{int(x):,}"))
+plt.figure(figsize=(10, 4))
+box = plt.boxplot(repo_sizes_mb, vert=False, patch_artist=False)
 
-    plt.tight_layout()
-    plt.show()
+# Set outline color to red
+for element in ['boxes', 'whiskers', 'caps', 'medians']:
+    for item in box[element]:
+        item.set_color('blue')
 
-if __name__ == "__main__":
-    sizes = extract_repo_sizes(LOG_FILE_PATH)
-    plot_repo_size_distribution(sizes)
+plt.xlabel("Repo Size (MB)")
+plt.title("Boxplot of Repository Sizes")
+#plt.xlim(0, 500)
+plt.grid(True)
+plt.tick_params(axis='y', left=False, labelleft=False)
+
+plt.show()
