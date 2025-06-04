@@ -10,7 +10,7 @@ import java.util.stream.Stream;
 
 public class RepoValidator {
 
-  public static final int maxJavaFiles = 1000;
+  public static final int maxJavaFiles = 5000;
   public static final int minJavaFiles = 1;
 
   private File repoDir;
@@ -32,8 +32,10 @@ public class RepoValidator {
   private boolean validate(Path moduleDir) {
     try {
 
-      if (!hasSingleRootPom(moduleDir)) return false;
-      if (!hasSingleValidSrcMainJava(moduleDir)) return false;
+      if (!hasSingleRootPom(moduleDir))
+        return false;
+      if (!hasSingleValidSrcMainJava(moduleDir))
+        return false;
 
     } catch (Exception e) {
       e.printStackTrace();
@@ -55,11 +57,10 @@ public class RepoValidator {
     }
 
     try (Stream<Path> javaFiles = Files.walk(srcMainJava)) {
-      long javaFileCount =
-          javaFiles
-              .filter(Files::isRegularFile)
-              .filter(p -> p.toString().endsWith(".java"))
-              .count();
+      long javaFileCount = javaFiles
+          .filter(Files::isRegularFile)
+          .filter(p -> p.toString().endsWith(".java"))
+          .count();
 
       return javaFileCount >= minJavaFiles && javaFileCount <= maxJavaFiles;
     } catch (IOException e) {

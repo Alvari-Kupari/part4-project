@@ -1,7 +1,7 @@
 import os
 import subprocess
 
-repos_dir = "/Users/tonyyin/Desktop/Courses/Repos"
+repos_dir = "/Users/tonyyin/Desktop/Projects/Repos/hutool"
 output_dir = "/Users/tonyyin/Desktop/DependencyTrees"
 
 # Ensure the output directory exists
