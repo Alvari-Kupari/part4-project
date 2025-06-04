@@ -10,11 +10,11 @@ import java.util.Map;
 
 public class CommitChecker {
 
-    private static final long DAYS_30_MS = 30L * 24 * 60 * 60 * 1000;
+    private static final long DAYS_1_MS = 24L * 60 * 60 * 1000;
 
-    public static boolean hasRecentCommit(GHRepository repo) {
+    public static boolean hasRecentCommit(GHRepository repo, int numDays) {
         try {
-            Date threshold = new Date(System.currentTimeMillis() - DAYS_30_MS);
+            Date threshold = new Date(System.currentTimeMillis() - DAYS_1_MS * numDays);
 
             Map<String, GHBranch> branches = repo.getBranches();
             for (GHBranch branch : branches.values()) {

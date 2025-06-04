@@ -20,7 +20,12 @@ import org.kohsuke.github.PagedIterator;
 
 public class RepoDownloader {
   // limit to
-  private static final int maxRepoSize = 160000; // KB
+  private static final int maxRepoSize = 85000; // KB
+
+  public static final int maxSubmodules = 31;
+  private static final int lastCommitThreshold = 31; // in days
+  private static final String REPO_SIZES_LOG = "C:\\Users\\akup390\\Documents\\logs\\repo-sizes.csv";
+  private static final String REPO_FILTER_LOG = "C:\\Users\\akup390\\Documents\\logs\\repo-filter.txt";
 
   private GitHub github;
   private Config config;
@@ -32,9 +37,9 @@ public class RepoDownloader {
   }
 
   public void download(int n, List<Sort> sortCriteria) throws Exception {
-    FilterTracker tracker = new FilterTracker();
-    List<String> keptRepoLog = new ArrayList<>();
-    Map<String, Integer> repoSizes = new LinkedHashMap<>(); // maintains order
+    FilterTracker tracker = new FilterTracker(REPO_FILTER_LOG);
+
+    RepoSizeLogger sizeLogger = new RepoSizeLogger(REPO_SIZES_LOG);
 
     // Determine how many repositories are already downloaded
     File repoDir = config.getRepos().toFile();
@@ -53,8 +58,7 @@ public class RepoDownloader {
     }
 
     // Search repositories and sort by the specified criteria
-    GHRepositorySearchBuilder searchBuilder =
-        github.searchRepositories().q("language:java").order(GHDirection.DESC);
+    GHRepositorySearchBuilder searchBuilder = github.searchRepositories().q("language:java").order(GHDirection.DESC);
 
     for (Sort sort : sortCriteria) {
       searchBuilder.sort(sort);
@@ -77,19 +81,19 @@ public class RepoDownloader {
       GHRepository repo = iterator.next();
 
       tracker.totalConsidered++;
-      repoSizes.put(repo.getFullName(), repo.getSize());
+      sizeLogger.log(repo);
 
       System.out.println(
           "Inspecting repo: " + repo.getName() + " with stars: " + repo.getStargazersCount());
 
       if (repo.getSize() > maxRepoSize) {
+        System.out.println("Skipping " + repo.getName() + " (too large size).");
         tracker.tooLarge++;
         continue;
       }
 
-      if (!CommitChecker.hasRecentCommit(repo)) {
-        // System.out.println("Skipping " + repo.getName() + " (no recent commits in last 30
-        // days).");
+      if (!CommitChecker.hasRecentCommit(repo, lastCommitThreshold)) {
+        System.out.println("Skipping " + repo.getName() + " (no recent commits in last 30 days).");
         tracker.noRecentCommits++;
         continue;
       }
@@ -109,15 +113,14 @@ public class RepoDownloader {
         System.out.println("Cloning " + repo.getName() + " into " + repoPath.getAbsolutePath());
 
         // Use Git CLI for shallow clone
-        ProcessBuilder builder =
-            new ProcessBuilder(
-                "git",
-                "clone",
-                "--depth=1",
-                "--config",
-                "core.longpaths=true",
-                cloneUrl,
-                repoPath.getAbsolutePath());
+        ProcessBuilder builder = new ProcessBuilder(
+            "git",
+            "clone",
+            "--depth=1",
+            "--config",
+            "core.longpaths=true",
+            cloneUrl,
+            repoPath.getAbsolutePath());
 
         builder.inheritIO(); // Redirect output to console
         Process process = builder.start();
@@ -131,20 +134,20 @@ public class RepoDownloader {
 
           List<Path> validPaths = validator.getValidProjects();
 
-          if (validPaths != null && validPaths.size() > 50) {
+          if (validPaths != null && validPaths.size() > maxSubmodules) {
+            System.out.println("Failed validation " + repo.getName() + " (too many submodules).");
             tracker.tooManyProjects++;
           } else if (validPaths != null && validPaths.size() > 0) {
+            System.out.println("Succeeded for  " + repo.getName() + " (passed all checks).");
             tracker.totalKept++;
-            keptRepoLog.add(repo.getName() + ": " + validPaths.size());
             count++;
             continue;
           } else if (validPaths != null) {
-            // System.out.println("NO valid projects found in repo: " + validPaths.size() + "
-            // found");
+            System.out.println("Failed validation " + repo.getName() + " (no valid submodules).");
             tracker.noValidProjects++;
           } else {
             tracker.exceptionThrown++;
-            // System.out.println("Failed a check during validation");
+            System.out.println("Failed a check during validation");
           }
 
         } else {
@@ -167,19 +170,10 @@ public class RepoDownloader {
             + " repositories. Total repositories: "
             + (alreadyDownloaded + count));
 
-    tracker.logToFile(keptRepoLog);
+    tracker.logToFile();
 
-    String timestamp = java.time.LocalDateTime.now().toString().replace(":", "-").replace("T", "_");
-    File sizeLog = new File("D:/repo-logs/repo-sizes-" + timestamp + ".txt");
+    sizeLogger.close();
 
-    try (PrintWriter out = new PrintWriter(sizeLog)) {
-      out.println("--- Repo Sizes (in KB) ---");
-      for (Map.Entry<String, Integer> entry : repoSizes.entrySet()) {
-        out.println(entry.getKey() + ": " + entry.getValue());
-      }
-    } catch (IOException e) {
-      System.err.println("Failed to write repo size log: " + e.getMessage());
-    }
   }
 
   private void deleteDirectory(File directory) {

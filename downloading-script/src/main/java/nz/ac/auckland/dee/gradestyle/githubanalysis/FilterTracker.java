@@ -14,14 +14,19 @@ public class FilterTracker {
   public int tooLarge = 0;
   public int tooManyProjects = 0;
 
-  public void logToFile(List<String> keptRepoLogs) {
-    String timestamp = java.time.LocalDateTime.now().toString().replace(":", "-").replace("T", "_");
-    File logFile = new File("D:/repo-logs/filter-log-" + timestamp + ".txt");
+  private File logFile;
+
+  public FilterTracker(String filePath) {
+    logFile = new File(filePath);
+  }
+
+  public void logToFile() {
     try (PrintWriter out = new PrintWriter(logFile)) {
       out.println("--- Repo Filtering Summary ---");
       out.println("Total considered: " + totalConsidered);
       out.println("Total kept: " + totalKept);
-      out.println("Total rejected: " + (totalConsidered - totalKept));
+      out.println(
+          "Total rejected: " + (noRecentCommits + noValidProjects + exceptionThrown + tooLarge + tooManyProjects));
       out.println();
       out.println("Rejection reasons:");
       out.println("- No recent commits: " + noRecentCommits);
@@ -30,10 +35,7 @@ public class FilterTracker {
       out.println("- Too many submodules: " + tooManyProjects);
       out.println("- Exception thrown: " + exceptionThrown);
       out.println();
-      out.println("Accepted repos (with valid project counts):");
-      for (String line : keptRepoLogs) {
-        out.println("- " + line);
-      }
+
     } catch (IOException e) {
       System.err.println("Failed to write filter log: " + e.getMessage());
     }
