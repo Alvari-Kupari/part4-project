@@ -2,12 +2,8 @@ package nz.ac.auckland.dee.gradestyle.githubanalysis;
 
 import java.io.File;
 import java.io.IOException;
-import java.io.PrintWriter;
 import java.nio.file.Path;
-import java.util.ArrayList;
-import java.util.LinkedHashMap;
 import java.util.List;
-import java.util.Map;
 import nz.ac.auckland.dee.gradestyle.config.Config;
 import org.kohsuke.github.GHDirection;
 import org.kohsuke.github.GHRateLimit;
@@ -23,9 +19,14 @@ public class RepoDownloader {
   private static final int maxRepoSize = 85000; // KB
 
   public static final int maxSubmodules = 31;
-  private static final int lastCommitThreshold = 31; // in days
-  private static final String REPO_SIZES_LOG = "C:\\Users\\akup390\\Documents\\logs\\repo-sizes.csv";
-  private static final String REPO_FILTER_LOG = "C:\\Users\\akup390\\Documents\\logs\\repo-filter.txt";
+  private static final int lastCommitThreshold = 31 * 6; // in days
+  // private static final String REPO_SIZES_LOG =
+  // "C:\\Users\\akup390\\Documents\\logs\\repo-sizes.csv";
+  // private static final String REPO_FILTER_LOG =
+  // "C:\\Users\\akup390\\Documents\\logs\\repo-filter.txt";
+
+  private static final String REPO_SIZES_LOG = "D:\\logs\\repo-sizes.csv";
+  private static final String REPO_FILTER_LOG = "D:\\logs\\repo-filter.txt";
 
   private GitHub github;
   private Config config;
@@ -58,7 +59,8 @@ public class RepoDownloader {
     }
 
     // Search repositories and sort by the specified criteria
-    GHRepositorySearchBuilder searchBuilder = github.searchRepositories().q("language:java").order(GHDirection.DESC);
+    GHRepositorySearchBuilder searchBuilder =
+        github.searchRepositories().q("language:java").order(GHDirection.DESC);
 
     for (Sort sort : sortCriteria) {
       searchBuilder.sort(sort);
@@ -113,14 +115,15 @@ public class RepoDownloader {
         System.out.println("Cloning " + repo.getName() + " into " + repoPath.getAbsolutePath());
 
         // Use Git CLI for shallow clone
-        ProcessBuilder builder = new ProcessBuilder(
-            "git",
-            "clone",
-            "--depth=1",
-            "--config",
-            "core.longpaths=true",
-            cloneUrl,
-            repoPath.getAbsolutePath());
+        ProcessBuilder builder =
+            new ProcessBuilder(
+                "git",
+                "clone",
+                "--depth=1",
+                "--config",
+                "core.longpaths=true",
+                cloneUrl,
+                repoPath.getAbsolutePath());
 
         builder.inheritIO(); // Redirect output to console
         Process process = builder.start();
@@ -173,7 +176,6 @@ public class RepoDownloader {
     tracker.logToFile();
 
     sizeLogger.close();
-
   }
 
   private void deleteDirectory(File directory) {
