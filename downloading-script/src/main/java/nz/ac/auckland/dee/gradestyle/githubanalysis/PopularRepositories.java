@@ -11,7 +11,7 @@ public class PopularRepositories {
   public static void main(String[] args) {
     try {
       Config config = Config.parse(args);
-      RepoDownloader downloader = new RepoDownloader(config);
+      DownloadScript downloader = new DownloadScript(config);
 
       List<Sort> criteria = List.of(Sort.STARS);
 
