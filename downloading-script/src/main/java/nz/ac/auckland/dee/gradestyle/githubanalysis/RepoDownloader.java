@@ -20,13 +20,11 @@ public class RepoDownloader {
 
   public static final int maxSubmodules = 31;
   private static final int lastCommitThreshold = 31 * 6; // in days
-  // private static final String REPO_SIZES_LOG =
-  // "C:\\Users\\akup390\\Documents\\logs\\repo-sizes.csv";
-  // private static final String REPO_FILTER_LOG =
-  // "C:\\Users\\akup390\\Documents\\logs\\repo-filter.txt";
+  private static final String REPO_SIZES_LOG = "C:\\Users\\akup390\\Documents\\logs\\repo-sizes.csv";
+  private static final String REPO_FILTER_LOG = "C:\\Users\\akup390\\Documents\\logs\\repo-filter.txt";
 
-  private static final String REPO_SIZES_LOG = "D:\\logs\\repo-sizes.csv";
-  private static final String REPO_FILTER_LOG = "D:\\logs\\repo-filter.txt";
+  // private static final String REPO_SIZES_LOG = "D:\\logs\\repo-sizes.csv";
+  // private static final String REPO_FILTER_LOG = "D:\\logs\\repo-filter.txt";
 
   private GitHub github;
   private Config config;
@@ -59,8 +57,7 @@ public class RepoDownloader {
     }
 
     // Search repositories and sort by the specified criteria
-    GHRepositorySearchBuilder searchBuilder =
-        github.searchRepositories().q("language:java").order(GHDirection.DESC);
+    GHRepositorySearchBuilder searchBuilder = github.searchRepositories().q("language:java").order(GHDirection.DESC);
 
     for (Sort sort : sortCriteria) {
       searchBuilder.sort(sort);
@@ -95,7 +92,7 @@ public class RepoDownloader {
       }
 
       if (!CommitChecker.hasRecentCommit(repo, lastCommitThreshold)) {
-        System.out.println("Skipping " + repo.getName() + " (no recent commits in last 30 days).");
+        System.out.println("Skipping " + repo.getName() + " (no recent commits in last 6 months).");
         tracker.noRecentCommits++;
         continue;
       }
@@ -115,15 +112,14 @@ public class RepoDownloader {
         System.out.println("Cloning " + repo.getName() + " into " + repoPath.getAbsolutePath());
 
         // Use Git CLI for shallow clone
-        ProcessBuilder builder =
-            new ProcessBuilder(
-                "git",
-                "clone",
-                "--depth=1",
-                "--config",
-                "core.longpaths=true",
-                cloneUrl,
-                repoPath.getAbsolutePath());
+        ProcessBuilder builder = new ProcessBuilder(
+            "git",
+            "clone",
+            "--depth=1",
+            "--config",
+            "core.longpaths=true",
+            cloneUrl,
+            repoPath.getAbsolutePath());
 
         builder.inheritIO(); // Redirect output to console
         Process process = builder.start();
@@ -141,16 +137,29 @@ public class RepoDownloader {
             System.out.println("Failed validation " + repo.getName() + " (too many submodules).");
             tracker.tooManyProjects++;
           } else if (validPaths != null && validPaths.size() > 0) {
-            System.out.println("Succeeded for  " + repo.getName() + " (passed all checks).");
-            tracker.totalKept++;
-            count++;
-            continue;
+            boolean preChecksPassed = validator.canLikelyRunDependencyTree();
+            if (preChecksPassed) {
+              boolean successRunningTree = validator.tryRunningTree();
+
+              if (successRunningTree) {
+                System.out.println("Succeeded for  " + repo.getName() + " (passed all checks).");
+                tracker.totalKept++;
+                count++;
+                continue;
+              }
+              System.out.println("Tree command failure!");
+              tracker.errorRunningTree++;
+            } else {
+              System.out.println("precheck failed");
+              tracker.errorRunningTree++;
+            }
+
           } else if (validPaths != null) {
             System.out.println("Failed validation " + repo.getName() + " (no valid submodules).");
             tracker.noValidProjects++;
           } else {
-            tracker.exceptionThrown++;
             System.out.println("Failed a check during validation");
+            tracker.exceptionThrown++;
           }
 
         } else {

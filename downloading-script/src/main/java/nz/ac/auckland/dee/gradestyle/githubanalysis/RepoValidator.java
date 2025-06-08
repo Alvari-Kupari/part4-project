@@ -45,6 +45,71 @@ public class RepoValidator {
     return true;
   }
 
+  public boolean tryRunningTree() {
+    Path repoRoot = repoDir.toPath();
+    try {
+      Path rootPomDir = findTopMostPomDir(repoRoot);
+      if (rootPomDir == null) {
+        System.out.println("No root pom.xml found.");
+        return false;
+      }
+
+      ProcessBuilder builder = new ProcessBuilder(
+          "cmd.exe", "/c", "mvn dependency:tree -DoutputType=dot");
+      builder.directory(rootPomDir.toFile());
+      builder.redirectOutput(ProcessBuilder.Redirect.DISCARD);
+      builder.redirectError(ProcessBuilder.Redirect.DISCARD);
+
+      Process process = builder.start();
+      int exitCode = process.waitFor();
+
+      if (exitCode == 0) {
+
+        return true;
+      }
+
+      return false;
+
+    } catch (IOException | InterruptedException e) {
+      System.err.println("Failed to run mvn dependency:tree: " + e.getMessage());
+      return false;
+    }
+  }
+
+  private Path findTopMostPomDir(Path root) throws IOException {
+    try (Stream<Path> paths = Files.walk(root, 2)) {
+      return paths
+          .filter(p -> Files.isRegularFile(p) && p.getFileName().toString().equals("pom.xml"))
+          .map(Path::getParent)
+          .sorted()
+          .findFirst()
+          .orElse(null);
+    }
+  }
+
+  public boolean canLikelyRunDependencyTree() {
+    Path repoRoot = repoDir.toPath();
+    try {
+      Path rootPomDir = findTopMostPomDir(repoRoot);
+      if (rootPomDir == null) {
+        return false;
+      }
+
+      ProcessBuilder builder = new ProcessBuilder(
+          "cmd.exe", "/c", "mvn validate -q");
+      builder.directory(rootPomDir.toFile());
+      builder.redirectOutput(ProcessBuilder.Redirect.DISCARD);
+      builder.redirectError(ProcessBuilder.Redirect.DISCARD);
+
+      Process process = builder.start();
+      int exitCode = process.waitFor();
+      return exitCode == 0;
+
+    } catch (IOException | InterruptedException e) {
+      return false;
+    }
+  }
+
   private boolean hasSingleRootPom(Path projectDir) {
     return Files.isRegularFile(projectDir.resolve("pom.xml"));
   }

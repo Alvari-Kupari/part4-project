@@ -3,7 +3,6 @@ package nz.ac.auckland.dee.gradestyle.githubanalysis;
 import java.io.File;
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.util.List;
 
 public class FilterTracker {
   public int noRecentCommits = 0;
@@ -13,6 +12,7 @@ public class FilterTracker {
   public int totalKept = 0;
   public int tooLarge = 0;
   public int tooManyProjects = 0;
+  public int errorRunningTree = 0;
 
   private File logFile;
 
@@ -34,6 +34,7 @@ public class FilterTracker {
       out.println("- Too large size: " + tooLarge);
       out.println("- Too many submodules: " + tooManyProjects);
       out.println("- Exception thrown: " + exceptionThrown);
+      out.println("- Error running tree: " + errorRunningTree);
       out.println();
 
     } catch (IOException e) {
