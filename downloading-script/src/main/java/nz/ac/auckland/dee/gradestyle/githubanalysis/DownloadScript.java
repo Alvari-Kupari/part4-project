@@ -53,53 +53,80 @@ public class DownloadScript {
       return;
     }
 
-    // Search repositories and sort by the specified criteria
-    GHRepositorySearchBuilder searchBuilder = github.searchRepositories().q("language:java").order(GHDirection.DESC);
+    // Track the last star count to continue search from
+    int lastStarCount = Integer.MAX_VALUE;
 
-    for (Sort sort : sortCriteria) {
-      searchBuilder.sort(sort);
-    }
+    while (count < needed) {
 
-    // Optimize API usage: set page size to 100
-    PagedIterator<GHRepository> iterator = searchBuilder.list().withPageSize(100).iterator();
-
-    while (iterator.hasNext() && count < needed) {
-
-      // Check and handle rate limits
-      GHRateLimit rateLimit = github.getRateLimit();
-      if (rateLimit.getRemaining() < 10) {
-        System.out.println("Rate limit approaching. Pausing until reset...");
-        Thread.sleep((rateLimit.getResetDate().getTime() - System.currentTimeMillis()) + 1000);
+      // Build search query with star count filter
+      String query = "language:java";
+      if (lastStarCount < Integer.MAX_VALUE) {
+        query += " stars:<" + lastStarCount;
       }
 
-      System.out.println("Count: " + count);
-      GHRepository repo = iterator.next();
+      GHRepositorySearchBuilder searchBuilder = github.searchRepositories().q(query).order(GHDirection.DESC);
 
-      tracker.totalConsidered++;
-      sizeLogger.log(repo);
-
-      RepodownLoader downloader = new RepodownLoader(repo, tracker);
-
-      // Determine the target directory for this repository
-      File repoPath = new File(repoDir, repo.getName());
-
-      boolean preCheck = downloader.preCheck();
-
-      if (!preCheck) {
-        deleteDirectory(repoPath);
-        continue;
+      for (Sort sort : sortCriteria) {
+        searchBuilder.sort(sort);
       }
 
-      boolean success = downloader.downloadSingleRepo(repoPath);
+      // Optimize API usage: set page size to 100
+      PagedIterator<GHRepository> iterator = searchBuilder.list().withPageSize(100).iterator();
 
-      if (!success) {
-        deleteDirectory(repoPath);
-        continue;
+      boolean foundResults = false;
+      int resultsProcessed = 0;
+
+      while (iterator.hasNext() && count < needed) {
+        foundResults = true;
+        resultsProcessed++;
+
+        // Check and handle rate limits
+        GHRateLimit rateLimit = github.getRateLimit();
+        if (rateLimit.getRemaining() < 10) {
+          System.out.println("Rate limit approaching. Pausing until reset...");
+          Thread.sleep((rateLimit.getResetDate().getTime() - System.currentTimeMillis()) + 1000);
+        }
+
+        System.out.println("Count: " + count);
+        GHRepository repo = iterator.next();
+
+        tracker.totalConsidered++;
+        sizeLogger.log(repo);
+
+        // Update the last star count for the next iteration
+        lastStarCount = repo.getStargazersCount();
+
+        RepodownLoader downloader = new RepodownLoader(repo, tracker);
+
+        // Determine the target directory for this repository
+        File repoPath = new File(repoDir, repo.getName());
+
+        boolean preCheck = downloader.preCheck();
+
+        if (!preCheck) {
+          deleteDirectory(repoPath);
+          continue;
+        }
+
+        boolean success = downloader.downloadSingleRepo(repoPath);
+
+        if (!success) {
+          deleteDirectory(repoPath);
+          continue;
+        }
+
+        // all checks passed
+        count++;
       }
 
-      // all checks passed
-      count++;
+      // If no results were found or processed, break to avoid infinite loop
+      if (!foundResults || resultsProcessed == 0) {
+        System.out.println("No more repositories found. Search exhausted.");
+        break;
+      }
 
+      System.out
+          .println("Processed " + resultsProcessed + " results. Continuing search from star count: " + lastStarCount);
     }
 
     System.out.println(
@@ -109,7 +136,6 @@ public class DownloadScript {
             + (alreadyDownloaded + count));
 
     tracker.logToFile();
-
     sizeLogger.close();
   }
 
