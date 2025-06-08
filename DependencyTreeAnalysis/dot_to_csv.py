@@ -279,8 +279,45 @@ class MavenDependencyAnalyzer:
         
         return conflicts
     
-    def export_project_to_csv(self, project_name, conflicts):
-        """Export project conflicts to individual CSV file (even if empty)"""
+    def calculate_project_summary(self, all_dependencies, conflicts):
+        """Calculate summary statistics for a project"""
+        # Get all unique dependencies (by full_name)
+        unique_dependencies = set()
+        for dep_data in all_dependencies.values():
+            unique_dependencies.add(dep_data['full_name'])
+        
+        total_unique_deps = len(unique_dependencies)
+        
+        # Get unique dependencies with version conflicts
+        deps_with_omitted_conflicts = set()
+        deps_with_version_managed = set()
+        
+        for conflict in conflicts:
+            library_name = conflict['library_name']
+            conflict_type = conflict['conflict_type']
+            
+            if conflict_type == 'omitted_conflict':
+                deps_with_omitted_conflicts.add(library_name)
+            elif conflict_type == 'version_managed':
+                deps_with_version_managed.add(library_name)
+        
+        # Calculate counts and percentages
+        omitted_conflicts_count = len(deps_with_omitted_conflicts)
+        version_managed_count = len(deps_with_version_managed)
+        
+        omitted_conflicts_pct = (omitted_conflicts_count / total_unique_deps * 100) if total_unique_deps > 0 else 0
+        version_managed_pct = (version_managed_count / total_unique_deps * 100) if total_unique_deps > 0 else 0
+        
+        return {
+            'total_unique_dependencies': total_unique_deps,
+            'dependencies_with_version_conflicts_count': omitted_conflicts_count,
+            'dependencies_with_version_conflicts_percentage': round(omitted_conflicts_pct, 2),
+            'dependencies_with_version_managed_count': version_managed_count,
+            'dependencies_with_version_managed_percentage': round(version_managed_pct, 2)
+        }
+    
+    def export_project_to_csv(self, project_name, conflicts, all_dependencies):
+        """Export project conflicts to individual CSV file with summary section"""
         output_file = f"{project_name}_version_conflicts.csv"
         output_path = self.output_dir / output_file
         
@@ -297,12 +334,36 @@ class MavenDependencyAnalyzer:
             'conflict_type'
         ]
         
+        # Calculate summary statistics
+        summary_stats = self.calculate_project_summary(all_dependencies, conflicts)
+        
         with open(output_path, 'w', newline='', encoding='utf-8') as csvfile:
             writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
             writer.writeheader()
             
+            # Write conflict data
             for conflict in conflicts:
                 writer.writerow(conflict)
+            
+            # Add empty rows for separation
+            writer.writerow({})
+            writer.writerow({})
+            
+            # Write summary section header
+            writer.writerow({'project': 'PROJECT SUMMARY', 'submodule': 'STATISTICS'})
+            writer.writerow({})
+            
+            # Write summary statistics using the two-column format
+            summary_rows = [
+                ('Total unique dependencies', summary_stats['total_unique_dependencies']),
+                ('Dependencies with version conflicts (count)', summary_stats['dependencies_with_version_conflicts_count']),
+                ('Dependencies with version conflicts (%)', f"{summary_stats['dependencies_with_version_conflicts_percentage']}%"),
+                ('Dependencies with version managed (count)', summary_stats['dependencies_with_version_managed_count']),
+                ('Dependencies with version managed (%)', f"{summary_stats['dependencies_with_version_managed_percentage']}%")
+            ]
+            
+            for metric, value in summary_rows:
+                writer.writerow({'project': metric, 'submodule': str(value)})
     
     def analyze_all_projects(self):
         dot_files = list(self.dot_files_dir.glob('*.dot'))
@@ -330,7 +391,8 @@ class MavenDependencyAnalyzer:
                 
                 print(f"  Total conflicts found (after filtering): {len(conflicts)}")
                 
-                self.export_project_to_csv(project_name, conflicts)
+                # Export with summary statistics
+                self.export_project_to_csv(project_name, conflicts, dependencies)
                 print(f"  Exported to: {self.output_dir}/{project_name}_version_conflicts.csv")
                 
                 if conflicts:
@@ -346,7 +408,7 @@ class MavenDependencyAnalyzer:
                 import traceback
                 traceback.print_exc()
                 
-                self.export_project_to_csv(project_name, [])
+                self.export_project_to_csv(project_name, [], {})
     
     def print_summary(self):
         total_conflicts = len(self.all_conflicts)
