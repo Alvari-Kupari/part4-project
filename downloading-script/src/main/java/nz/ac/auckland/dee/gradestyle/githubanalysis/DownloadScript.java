@@ -96,7 +96,7 @@ public class DownloadScript {
         lastStarCount = repo.getStargazersCount();
 
         // Determine the target directory for this repository
-        File repoPath = new File(repoDir, repo.getName());
+        File repoPath = new File(repoDir, repo.getOwnerName() + "__" + repo.getName());
 
         if (repoPath.exists()) {
           System.out.println("Skipping " + repo.getName() + " (already downloaded).");

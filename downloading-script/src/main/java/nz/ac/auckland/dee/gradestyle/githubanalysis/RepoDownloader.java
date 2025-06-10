@@ -9,10 +9,10 @@ import org.kohsuke.github.GHRepository;
 
 public class RepodownLoader {
     // limit to
-    private static final int maxRepoSize = 85000; // KB
+    private static final int maxRepoSize = 500000; // KB
 
     public static final int maxSubmodules = 31;
-    private static final int lastCommitThreshold = 31 * 6; // in days
+    private static final int lastCommitThreshold = 31 * 2; // in days
 
     private GHRepository repo;
     private RepoValidator validator;
@@ -111,6 +111,12 @@ public class RepodownLoader {
         if (repo.getSize() > maxRepoSize) {
             System.out.println("Skipping " + repo.getName() + " (too large size).");
             filterLogger.log(repo.getName(), FilterLogger.FilterReason.TOO_LARGE);
+            return false;
+        }
+
+        if (repo.isFork()) {
+            System.out.println("Skipping " + repo.getName() + " (is a fork).");
+            filterLogger.log(repo.getName(), FilterLogger.FilterReason.FORKED);
             return false;
         }
 

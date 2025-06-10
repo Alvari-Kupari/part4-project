@@ -35,6 +35,7 @@ public class FilterLogger {
         EXCEPTION_THROWN,
         PASSED_ALL_CHECKS,
         ALREADY_DOWNLOADED,
+        FORKED,
     }
 
 }
