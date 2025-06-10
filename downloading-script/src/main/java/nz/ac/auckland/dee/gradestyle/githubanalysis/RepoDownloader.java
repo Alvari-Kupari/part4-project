@@ -2,6 +2,7 @@ package nz.ac.auckland.dee.gradestyle.githubanalysis;
 
 import java.io.File;
 import java.nio.file.Path;
+import java.nio.file.DirectoryStream.Filter;
 import java.util.List;
 
 import org.kohsuke.github.GHRepository;
@@ -15,19 +16,14 @@ public class RepodownLoader {
 
     private GHRepository repo;
     private RepoValidator validator;
-    private FilterTracker tracker;
+    private FilterLogger filterLogger;
 
-    public RepodownLoader(GHRepository repo, FilterTracker tracker) {
+    public RepodownLoader(GHRepository repo, FilterLogger filterLogger) {
         this.repo = repo;
-        this.tracker = tracker;
+        this.filterLogger = filterLogger;
     }
 
     public boolean downloadSingleRepo(File repoPath) {
-
-        if (repoPath.exists()) {
-            System.out.println("Skipping " + repo.getName() + " (already downloaded).");
-            return false;
-        }
 
         // Repository's clone URL
         String cloneUrl = repo.getHttpTransportUrl();
@@ -52,7 +48,7 @@ public class RepodownLoader {
 
             if (exitCode != 0) {
                 System.err.println("Failed to clone repository: " + repo.getName());
-                tracker.exceptionThrown++;
+                filterLogger.log(repo.getName(), FilterLogger.FilterReason.EXCEPTION_THROWN);
                 return false;
             }
 
@@ -63,19 +59,19 @@ public class RepodownLoader {
 
             if (validPaths == null) {
                 System.out.println("Failed a check during validation");
-                tracker.exceptionThrown++;
+                filterLogger.log(repo.getName(), FilterLogger.FilterReason.EXCEPTION_THROWN);
                 return false;
             }
 
             if (validPaths.isEmpty()) {
                 System.out.println("Failed validation " + repo.getName() + " (no valid submodules).");
-                tracker.noValidProjects++;
+                filterLogger.log(repo.getName(), FilterLogger.FilterReason.NO_VALID_PROJECTS);
                 return false;
             }
 
             if (validPaths.size() > maxSubmodules) {
                 System.out.println("Failed validation " + repo.getName() + " (too many submodules).");
-                tracker.tooManyProjects++;
+                filterLogger.log(repo.getName(), FilterLogger.FilterReason.TOO_MANY_SUBMODULES);
                 return false;
             }
 
@@ -83,7 +79,7 @@ public class RepodownLoader {
 
             if (!preChecksPassed) {
                 System.out.println("Tree command failure!");
-                tracker.errorRunningTree++;
+                filterLogger.log(repo.getName(), FilterLogger.FilterReason.ERROR_RUNNING_TREE);
                 return false;
             }
 
@@ -91,12 +87,12 @@ public class RepodownLoader {
 
             if (!successRunningTree) {
                 System.out.println("Tree command failure!");
-                tracker.errorRunningTree++;
+                filterLogger.log(repo.getName(), FilterLogger.FilterReason.ERROR_RUNNING_TREE);
                 return false;
             }
 
             System.out.println("Succeeded for  " + repo.getName() + " (passed all checks).");
-            tracker.totalKept++;
+            filterLogger.log(repo.getName(), FilterLogger.FilterReason.PASSED_ALL_CHECKS);
             return true;
 
         } catch (Exception e) {
@@ -114,13 +110,13 @@ public class RepodownLoader {
 
         if (repo.getSize() > maxRepoSize) {
             System.out.println("Skipping " + repo.getName() + " (too large size).");
-            tracker.tooLarge++;
+            filterLogger.log(repo.getName(), FilterLogger.FilterReason.TOO_LARGE);
             return false;
         }
 
         if (!CommitChecker.hasRecentCommit(repo, lastCommitThreshold)) {
             System.out.println("Skipping " + repo.getName() + " (no recent commits in last 6 months).");
-            tracker.noRecentCommits++;
+            filterLogger.log(repo.getName(), FilterLogger.FilterReason.NO_RECENT_COMMITS);
             return false;
         }
 

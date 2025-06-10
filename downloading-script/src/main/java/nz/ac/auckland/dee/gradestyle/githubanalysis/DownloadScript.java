@@ -18,7 +18,7 @@ import org.kohsuke.github.PagedIterator;
 public class DownloadScript {
 
   private static final String REPO_SIZES_LOG = "C:\\Users\\akup390\\Documents\\logs\\repo-sizes.csv";
-  private static final String REPO_FILTER_LOG = "C:\\Users\\akup390\\Documents\\logs\\repo-filter.txt";
+  private static final String REPO_FILTER_LOG = "C:\\Users\\akup390\\Documents\\logs\\repo-filter.csv";
 
   // private static final String REPO_SIZES_LOG = "D:\\logs\\repo-sizes.csv";
   // private static final String REPO_FILTER_LOG = "D:\\logs\\repo-filter.txt";
@@ -32,7 +32,7 @@ public class DownloadScript {
   }
 
   public void download(int n, List<Sort> sortCriteria) throws Exception {
-    FilterTracker tracker = new FilterTracker(REPO_FILTER_LOG);
+    FilterLogger filterLogger = new FilterLogger(REPO_FILTER_LOG);
     RepoSizeLogger sizeLogger = new RepoSizeLogger(REPO_SIZES_LOG);
 
     int count = 0;
@@ -90,16 +90,21 @@ public class DownloadScript {
         System.out.println("Count: " + count);
         GHRepository repo = iterator.next();
 
-        tracker.totalConsidered++;
         sizeLogger.log(repo);
 
         // Update the last star count for the next iteration
         lastStarCount = repo.getStargazersCount();
 
-        RepodownLoader downloader = new RepodownLoader(repo, tracker);
-
         // Determine the target directory for this repository
         File repoPath = new File(repoDir, repo.getName());
+
+        if (repoPath.exists()) {
+          System.out.println("Skipping " + repo.getName() + " (already downloaded).");
+          filterLogger.log(repo.getName(), FilterLogger.FilterReason.ALREADY_DOWNLOADED);
+          continue;
+        }
+
+        RepodownLoader downloader = new RepodownLoader(repo, filterLogger);
 
         boolean preCheck = downloader.preCheck();
 
@@ -135,7 +140,6 @@ public class DownloadScript {
             + " repositories. Total repositories: "
             + (alreadyDownloaded + count));
 
-    tracker.logToFile();
     sizeLogger.close();
   }
 

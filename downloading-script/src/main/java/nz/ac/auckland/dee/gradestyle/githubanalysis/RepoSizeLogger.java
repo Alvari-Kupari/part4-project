@@ -13,12 +13,13 @@ public class RepoSizeLogger {
 
         pw = new PrintWriter(new FileWriter(logFile, true));
         if (!exists) {
-            pw.println("Repo Name,Repo Size (KB)");
+            pw.println("Repo Name,Repo Size (KB),Repo Stars");
         }
     }
 
     public void log(GHRepository repo) {
-        pw.println(repo.getFullName() + "," + repo.getSize());
+        pw.println(repo.getFullName() + "," + repo.getSize() + "," + repo.getStargazersCount());
+        pw.flush();
     }
 
     public void close() {

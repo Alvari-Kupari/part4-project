@@ -8,31 +8,31 @@ def generate_dot_file(repo_name, repo_path, dot_output_location, error_log_path)
     projects = find_valid_projects(repo_path)
     temp_dot_files = []
 
-    try:
-        for i, project_path in enumerate(projects):
-            module_name = os.path.basename(project_path)
-            temp_dot = os.path.join(dot_output_location, f"{module_name}_temp_{i}.dot")
+    for i, project_path in enumerate(projects):
+        module_name = os.path.basename(project_path)
+        temp_dot = os.path.join(dot_output_location, f"{module_name}_temp_{i}.dot")
 
-            success = run_maven_dependency_tree(project_path, temp_dot)
-            if not success:
-                raise RuntimeError(f"Maven failed in module: {module_name}")
-
+        success = run_maven_dependency_tree(project_path, temp_dot)
+        if success:
             temp_dot_files.append((temp_dot, module_name))
+        else:
+            print(f"Skipping module {module_name} due to failure.")
+            with open(error_log_path, 'a') as log:
+                log.write(f"{repo_name}/{module_name}: Maven failed\n")
 
+    if temp_dot_files:
         combined_path = os.path.join(dot_output_location, f"{repo_name}.dot")
         combine_dot_files(temp_dot_files, combined_path)
         print(f"Combined dot saved for repo: {repo_name}")
-
-    except Exception as e:
-        print(f"Error in repo {repo_name}: {e}")
+    else:
+        print(f"No successful modules for repo: {repo_name}")
         with open(error_log_path, 'a') as log:
-            log.write(f"{repo_name}: {e}\n")
+            log.write(f"{repo_name}: All modules failed\n")
 
-    finally:
-        # Always clean up temp files
-        for temp_file, _ in temp_dot_files:
-            if os.path.exists(temp_file):
-                os.remove(temp_file)
+    for temp_file, _ in temp_dot_files:
+        if os.path.exists(temp_file):
+            os.remove(temp_file)
+
 
 def run_maven_dependency_tree(project_path, output_file):
     cmd = [
@@ -62,8 +62,8 @@ def combine_dot_files(input_entries, output_path):
                         outfile.write(line)
 
 # Script
-repos_dir = "D:/test"
-dot_output_location = "C:/Users/Alvari/Documents/UNI/softeng_700/part4-project/data/dot_files"
+repos_dir = r"C:\Users\akup390\Documents\repos"
+dot_output_location = r"C:\Users\akup390\Documents\dot_files"
 error_log_path = os.path.join(dot_output_location, "failed_repos.log")
 os.makedirs(dot_output_location, exist_ok=True)
 
