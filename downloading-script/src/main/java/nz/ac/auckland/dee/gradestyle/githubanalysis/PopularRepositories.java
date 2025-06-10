@@ -15,7 +15,7 @@ public class PopularRepositories {
 
       List<Sort> criteria = List.of(Sort.STARS);
 
-      downloader.download(10, criteria);
+      downloader.download(1000, criteria);
 
     } catch (IOException e) {
       System.err.println("Error fetching repositories: " + e.getMessage() + e.getCause());
