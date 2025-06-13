@@ -1,4 +1,4 @@
-package com.example.depanalyzer.analyzer;
+package com.example.depanalyzer.analyzer.collection;
 
 import java.io.File;
 import java.io.FileReader;
@@ -11,11 +11,11 @@ import org.codehaus.plexus.util.xml.pull.XmlPullParserException;
 import org.eclipse.aether.artifact.DefaultArtifact;
 import org.eclipse.aether.graph.Dependency;
 
-public class PomReader {
+public class PomFile {
   private File pomFile;
 
-  public PomReader(File pomFile) {
-    this.pomFile = pomFile;
+  public PomFile(String pomFile) {
+    this.pomFile = new File(pomFile);
   }
 
   public List<Dependency> getDependencies() throws IOException, XmlPullParserException {
