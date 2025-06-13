@@ -1,9 +1,15 @@
 package com.example.depanalyzer;
 
+import com.example.depanalyzer.analyzer.analysis.Parser;
+import com.example.depanalyzer.analyzer.analysis.visitors.TransitiveUsageVisitor;
 import com.example.depanalyzer.analyzer.collection.DependencyTraverser;
 import com.example.depanalyzer.analyzer.collection.DependencyTree;
 import com.example.depanalyzer.analyzer.collection.PomFile;
 import com.example.depanalyzer.analyzer.collection.RepositorySystemFactory;
+import com.example.depanalyzer.analyzer.report.UsageReport;
+import com.github.javaparser.ParseResult;
+import com.github.javaparser.ast.CompilationUnit;
+import java.nio.file.Path;
 import java.util.List;
 import org.eclipse.aether.RepositorySystem;
 import org.eclipse.aether.RepositorySystemSession;
@@ -14,16 +20,16 @@ public class Main {
   public static void main(String[] args) throws Exception {
     System.out.println("Hello World!");
 
-    String pathName =
+    String repoPath =
         "C:\\Users\\Alvari\\Documents\\UNI\\archive\\SOFTENG_206\\r"
-            + "epos\\escaipe-room-beta-and-final-team-27\\pom.xml";
+            + "epos\\escaipe-room-beta-and-final-team-27";
 
     RepositorySystem system = RepositorySystemFactory.newRepositorySystem();
     RepositorySystemSession session = RepositorySystemFactory.newSession(system);
 
-    PomFile reader = new PomFile(pathName);
+    PomFile pom = new PomFile(repoPath);
 
-    List<Dependency> dependencies = reader.getDependencies();
+    List<Dependency> dependencies = pom.getDependencies();
 
     DependencyTree tree = new DependencyTree();
 
@@ -37,5 +43,17 @@ public class Main {
     tree.print();
 
     System.out.println("tree size: " + tree.size());
+
+    Parser parser = new Parser(repoPath);
+    UsageReport report = new UsageReport();
+
+    for (Path javaFile : parser.getJavaFiles()) {
+      ParseResult<CompilationUnit> result = parser.parse(javaFile);
+      TransitiveUsageVisitor visitor = new TransitiveUsageVisitor(javaFile);
+
+      visitor.visit(result.getResult().get(), report);
+    }
+
+    report.print();
   }
 }

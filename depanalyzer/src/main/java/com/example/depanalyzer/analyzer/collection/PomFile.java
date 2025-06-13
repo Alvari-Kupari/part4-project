@@ -3,6 +3,7 @@ package com.example.depanalyzer.analyzer.collection;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
+import java.nio.file.Path;
 import java.util.List;
 import java.util.stream.Collectors;
 import org.apache.maven.model.Model;
@@ -15,7 +16,8 @@ public class PomFile {
   private File pomFile;
 
   public PomFile(String pomFile) {
-    this.pomFile = new File(pomFile);
+    Path path = Path.of(pomFile, "pom.xml");
+    this.pomFile = path.toFile();
   }
 
   public List<Dependency> getDependencies() throws IOException, XmlPullParserException {
