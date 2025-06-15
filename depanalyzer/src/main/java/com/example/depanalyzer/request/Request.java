@@ -22,16 +22,15 @@ public class Request {
 
   private RepositorySystem repoSystem;
   private RepositorySystemSession session;
-  private CollectRequest collectRequest;
 
   public Request(RepositorySystem repoSystem, RepositorySystemSession session) {
 
     this.repoSystem = repoSystem;
     this.session = session;
-    this.collectRequest = new CollectRequest();
   }
 
   public DependencyNode execute(Dependency rootDependency) throws DependencyCollectionException {
+    CollectRequest collectRequest = new CollectRequest();
     collectRequest.setRoot(rootDependency);
     collectRequest.addRepository(MAVEN_REMOTE_REPOSITORY);
 
@@ -40,6 +39,7 @@ public class Request {
   }
 
   public List<File> resolve(Dependency dependency) {
+    CollectRequest collectRequest = new CollectRequest();
     collectRequest.setRoot(dependency);
     collectRequest.addRepository(MAVEN_REMOTE_REPOSITORY);
     DependencyRequest dependencyRequest = new DependencyRequest(collectRequest, null);
@@ -51,6 +51,15 @@ public class Request {
       System.out.println("Unable to resolve dependency: " + dependency + ". " + e.getMessage());
       return List.of();
     }
+
+    result
+        .getArtifactResults()
+        .forEach(
+            artifactResult -> {
+              System.out.println("Artifact: " + artifactResult.getArtifact());
+              System.out.println("  -> File: " + artifactResult.getArtifact().getFile());
+              System.out.println("  -> Repo: " + artifactResult.getRepository());
+            });
 
     return result.getArtifactResults().stream()
         .map(artifact -> artifact.getArtifact().getFile())
