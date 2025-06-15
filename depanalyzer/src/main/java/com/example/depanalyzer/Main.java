@@ -1,15 +1,19 @@
 package com.example.depanalyzer;
 
 import com.example.depanalyzer.analyzer.analysis.Parser;
-import com.example.depanalyzer.analyzer.analysis.visitors.TransitiveUsageVisitor;
+import com.example.depanalyzer.analyzer.analysis.visitors.Visitor;
 import com.example.depanalyzer.analyzer.collection.DependencyTraverser;
 import com.example.depanalyzer.analyzer.collection.DependencyTree;
 import com.example.depanalyzer.analyzer.collection.PomFile;
 import com.example.depanalyzer.analyzer.collection.RepositorySystemFactory;
+import com.example.depanalyzer.analyzer.collection.TransitiveDatabase;
 import com.example.depanalyzer.analyzer.report.UsageReport;
+import com.example.depanalyzer.request.Request;
 import com.github.javaparser.ParseResult;
 import com.github.javaparser.ast.CompilationUnit;
+import java.io.File;
 import java.nio.file.Path;
+import java.util.ArrayList;
 import java.util.List;
 import org.eclipse.aether.RepositorySystem;
 import org.eclipse.aether.RepositorySystemSession;
@@ -44,12 +48,22 @@ public class Main {
 
     System.out.println("tree size: " + tree.size());
 
-    Parser parser = new Parser(repoPath);
+    List<File> jarFiles = new ArrayList<>();
+
+    tree.getAllDependencies()
+        .forEach(
+            dep -> {
+              List<File> files = new Request(system, session).resolve(dep);
+              jarFiles.addAll(files);
+            });
+
+    Parser parser = new Parser(repoPath, jarFiles);
     UsageReport report = new UsageReport();
+    TransitiveDatabase database = new TransitiveDatabase(jarFiles);
 
     for (Path javaFile : parser.getJavaFiles()) {
       ParseResult<CompilationUnit> result = parser.parse(javaFile);
-      TransitiveUsageVisitor visitor = new TransitiveUsageVisitor(javaFile);
+      Visitor visitor = new Visitor(javaFile, database);
 
       visitor.visit(result.getResult().get(), report);
     }

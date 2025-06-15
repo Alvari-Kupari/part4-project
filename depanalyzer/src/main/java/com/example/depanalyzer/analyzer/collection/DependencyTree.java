@@ -55,6 +55,14 @@ public class DependencyTree {
     return levels.get(level).getDependencies();
   }
 
+  public List<Dependency> getAllDependencies() {
+    List<Dependency> deps = new ArrayList<>();
+
+    levels.forEach(level -> deps.addAll(level.getDependencies()));
+
+    return deps;
+  }
+
   public int getMaxDepth() {
     return levels.size();
   }

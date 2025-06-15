@@ -7,11 +7,14 @@ public class Usage {
   private File fileLocation;
   private String msg;
 
-  public Usage(String msg) {
+  public Usage(int lineLocation, File fileLocation, String msg) {
     this.msg = msg;
+    this.fileLocation = fileLocation;
+    this.lineLocation = lineLocation;
   }
 
-  public String getMsg() {
-    return msg;
+  @Override
+  public String toString() {
+    return msg + " at file: " + fileLocation.toString() + ":" + lineLocation;
   }
 }

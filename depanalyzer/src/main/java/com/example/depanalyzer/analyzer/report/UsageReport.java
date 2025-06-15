@@ -11,12 +11,11 @@ public class UsageReport {
   }
 
   public void addUsage(Usage usage) {
+    System.out.println("Adding usage");
     usages.add(usage);
   }
 
   public void print() {
-    for (Usage usage : usages) {
-      System.out.println(usage.getMsg());
-    }
+    System.out.println(usages);
   }
 }

@@ -97,6 +97,7 @@
         <version>3.1.0</version>
         <configuration>
           <mainClass>com.example.depanalyzer.Main</mainClass>
+          <redirectOutput>${project.basedir}/output.txt</redirectOutput>
         </configuration>
       </plugin>
     </plugins>
