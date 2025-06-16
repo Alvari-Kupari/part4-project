@@ -21,27 +21,22 @@ public class DependencyDatabase {
   // key is the library name, value is the set of classes in the library
   private final Map<String, Set<String>> libraries;
 
-  public DependencyDatabase(List<DependencyFile> depFiles) {
+  public DependencyDatabase(List<DependencyFile> depFiles) throws IOException {
     libraries = new HashMap<>();
 
     for (DependencyFile depFile : depFiles) {
       String libraryName = depFile.getLibraryName();
       libraries.computeIfAbsent(libraryName, k -> new HashSet<>());
-
-      try (JarFile jarFile = new JarFile(depFile.getFile())) {
-        jarFile.stream()
-            .filter(e -> e.getName().endsWith(".class"))
-            .forEach(
-                e -> {
-                  String className = normalizeClassName(e.getName());
-                  libraries.get(libraryName).add(className);
-                });
-      } catch (IOException e) {
-        System.out.println("Failed to read jar: " + depFile.getFile().getName());
-      }
+      JarFile jarFile = new JarFile(depFile.getFile());
+      jarFile.stream()
+          .filter(e -> e.getName().endsWith(".class"))
+          .forEach(
+              e -> {
+                String className = normalizeClassName(e.getName());
+                libraries.get(libraryName).add(className);
+              });
+      jarFile.close();
     }
-
-    // transitiveClassNames.forEach(System.out::println);
   }
 
   public Optional<String> checkIfTransitive(ResolvedDeclaration resolvedDecl) {

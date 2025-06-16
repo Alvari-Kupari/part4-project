@@ -39,17 +39,23 @@ public class DependencyTraverser {
 
   private void collectChildren(DependencyNode node, DependencyTree tree, int level) {
 
-    if (alreadyVisited.contains(node.getDependency().toString())) {
-      // return;
+    String id = getDependencyKey(node.getDependency());
+    if (!alreadyVisited.add(id)) {
+      return; // already visited
     }
 
     for (DependencyNode child : node.getChildren()) {
       tree.add(child.getDependency(), level);
-      alreadyVisited.add(child.getDependency().toString());
+      alreadyVisited.add(getDependencyKey(child.getDependency()));
     }
 
     for (DependencyNode child : node.getChildren()) {
       collectChildren(child, tree, level + 1);
     }
+  }
+
+  private String getDependencyKey(Dependency dep) {
+    var artifact = dep.getArtifact();
+    return artifact.getGroupId() + ":" + artifact.getArtifactId() + ":" + artifact.getVersion();
   }
 }

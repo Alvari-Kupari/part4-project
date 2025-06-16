@@ -51,7 +51,7 @@ public class Main {
 
     List<DependencyFile> jarFiles = new ArrayList<>();
 
-    tree.getAllDependencies()
+    tree.getTransitiveDependencies()
         .forEach(
             dep -> {
               List<DependencyFile> files = new Request(system, session).resolve(dep);

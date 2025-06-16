@@ -19,16 +19,6 @@ public class DependencyTree {
     levels = new ArrayList<>();
   }
 
-  public void add(List<Dependency> deps, int level) {
-    if (level > levels.size()) {
-      throw new IllegalStateException(
-          "Cannot be adding a level more than 1 deeper than the trees max depth");
-    } else if (level == levels.size()) {
-      levels.add(new DependencyLevel(level));
-    }
-    levels.get(level).add(deps);
-  }
-
   public void add(Dependency dependency, int level) {
     if (level > levels.size()) {
       throw new IllegalStateException(
