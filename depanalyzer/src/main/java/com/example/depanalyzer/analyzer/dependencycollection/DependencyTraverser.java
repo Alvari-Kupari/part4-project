@@ -1,4 +1,4 @@
-package com.example.depanalyzer.analyzer.collection;
+package com.example.depanalyzer.analyzer.dependencycollection;
 
 import com.example.depanalyzer.request.Request;
 import java.util.HashSet;

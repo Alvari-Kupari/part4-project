@@ -1,4 +1,4 @@
-package com.example.depanalyzer.analyzer.collection;
+package com.example.depanalyzer.analyzer.analysis;
 
 import org.apache.maven.repository.internal.MavenRepositorySystemUtils;
 import org.eclipse.aether.DefaultRepositorySystemSession;

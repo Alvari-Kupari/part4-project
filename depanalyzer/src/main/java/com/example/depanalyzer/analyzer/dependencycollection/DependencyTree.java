@@ -1,4 +1,4 @@
-package com.example.depanalyzer.analyzer.collection;
+package com.example.depanalyzer.analyzer.dependencycollection;
 
 import java.util.ArrayList;
 import java.util.List;

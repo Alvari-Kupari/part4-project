@@ -15,13 +15,21 @@ public class Usage {
 
   private final File fileLocation;
   private final Type type;
+  private final String libraryName;
 
-  public Usage(int lineLocation, File fileLocation, Type type, int columnStart, int columnEnd) {
+  public Usage(
+      int lineLocation,
+      File fileLocation,
+      Type type,
+      int columnStart,
+      int columnEnd,
+      String libraryName) {
     this.lineNumber = lineLocation;
     this.columnStart = columnStart;
     this.columnEnd = columnEnd;
     this.fileLocation = fileLocation;
     this.type = type;
+    this.libraryName = libraryName;
 
     List<String> lines;
     try {
@@ -55,6 +63,7 @@ public class Usage {
     } else {
       sb.append("\n   [multi-line expression — squiggle skipped]");
     }
+    sb.append(String.format("%n   ↳ comes from library: %s", libraryName));
 
     return sb.toString();
   }

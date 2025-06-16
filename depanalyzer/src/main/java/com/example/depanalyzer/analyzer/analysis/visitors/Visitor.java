@@ -1,6 +1,6 @@
 package com.example.depanalyzer.analyzer.analysis.visitors;
 
-import com.example.depanalyzer.analyzer.collection.TransitiveDatabase;
+import com.example.depanalyzer.analyzer.analysis.DependencyDatabase;
 import com.example.depanalyzer.analyzer.report.Usage;
 import com.example.depanalyzer.analyzer.report.UsageReport;
 import com.github.javaparser.ast.Node;
@@ -13,19 +13,21 @@ import com.github.javaparser.ast.type.ClassOrInterfaceType;
 import com.github.javaparser.ast.visitor.VoidVisitorAdapter;
 import com.github.javaparser.resolution.UnsolvedSymbolException;
 import com.github.javaparser.resolution.declarations.ResolvedConstructorDeclaration;
+import com.github.javaparser.resolution.declarations.ResolvedDeclaration;
 import com.github.javaparser.resolution.declarations.ResolvedMethodDeclaration;
 import com.github.javaparser.resolution.declarations.ResolvedReferenceTypeDeclaration;
 import com.github.javaparser.resolution.declarations.ResolvedValueDeclaration;
 import com.github.javaparser.resolution.types.ResolvedReferenceType;
 import java.io.File;
 import java.nio.file.Path;
+import java.util.Optional;
 
 public class Visitor extends VoidVisitorAdapter<UsageReport> {
 
   private File file;
-  private TransitiveDatabase database;
+  private DependencyDatabase database;
 
-  public Visitor(Path file, TransitiveDatabase database) {
+  public Visitor(Path file, DependencyDatabase database) {
     this.file = file.toFile();
     this.database = database;
   }
@@ -46,11 +48,7 @@ public class Visitor extends VoidVisitorAdapter<UsageReport> {
 
     printSolvedSymbol(methodCallExpr.getNameAsString(), getFirstLine(methodCallExpr));
 
-    if (!database.isFromTransitiveJar(method)) {
-      return;
-    }
-
-    addUsage(report, Usage.Type.METHOD_CALL, methodCallExpr);
+    checkIfTransitive(method, methodCallExpr, Usage.Type.METHOD_CALL, report);
   }
 
   @Override
@@ -68,11 +66,7 @@ public class Visitor extends VoidVisitorAdapter<UsageReport> {
 
     printSolvedSymbol(nameExpr.getNameAsString(), getFirstLine(nameExpr));
 
-    if (!database.isFromTransitiveJar(value)) {
-      return;
-    }
-
-    addUsage(report, Usage.Type.NAME_EXPRESSION, nameExpr);
+    checkIfTransitive(value, nameExpr, Usage.Type.NAME_EXPRESSION, report);
   }
 
   @Override
@@ -92,11 +86,7 @@ public class Visitor extends VoidVisitorAdapter<UsageReport> {
 
     printSolvedSymbol(constructor.getClassName(), getFirstLine(creationExpr));
 
-    if (!database.isFromTransitiveJar(constructor)) {
-      return;
-    }
-
-    addUsage(report, Usage.Type.OBJECT_CREATION, creationExpr);
+    checkIfTransitive(constructor, creationExpr, Usage.Type.OBJECT_CREATION, report);
   }
 
   @Override
@@ -113,13 +103,9 @@ public class Visitor extends VoidVisitorAdapter<UsageReport> {
       return;
     }
 
-    if (!database.isFromTransitiveJar(value)) {
-      return;
-    }
-
     printSolvedSymbol(value.getName(), getFirstLine(fieldAccessExpr));
 
-    addUsage(report, Usage.Type.FIELD_ACCESS, fieldAccessExpr);
+    checkIfTransitive(value, fieldAccessExpr, Usage.Type.FIELD_ACCESS, report);
   }
 
   @Override
@@ -139,11 +125,7 @@ public class Visitor extends VoidVisitorAdapter<UsageReport> {
 
     ResolvedReferenceTypeDeclaration decl = type.getTypeDeclaration().get();
 
-    if (!database.isFromTransitiveJar(decl)) {
-      return;
-    }
-
-    addUsage(report, Usage.Type.CLASS_TYPE, classType);
+    checkIfTransitive(decl, classType, Usage.Type.CLASS_TYPE, report);
   }
 
   @Override
@@ -166,11 +148,7 @@ public class Visitor extends VoidVisitorAdapter<UsageReport> {
 
     printSolvedSymbol(typeDecl.getQualifiedName(), getFirstLine(var));
 
-    if (!database.isFromTransitiveJar(typeDecl)) {
-      return;
-    }
-
-    addUsage(report, Usage.Type.VARIABLE_DECLARATION, var);
+    checkIfTransitive(typeDecl, var, Usage.Type.VARIABLE_DECLARATION, report);
   }
 
   private int getFirstLine(Node node) {
@@ -206,11 +184,21 @@ public class Visitor extends VoidVisitorAdapter<UsageReport> {
     // System.out.println("Resolved " + node + " at file: " + file + " at line: " + line);
   }
 
-  private void addUsage(UsageReport report, Usage.Type type, Node node) {
+  private void checkIfTransitive(
+      ResolvedDeclaration resolvedDecl, Node node, Usage.Type type, UsageReport report) {
+
+    Optional<String> result = database.checkIfTransitive(resolvedDecl);
+
+    if (result.isEmpty()) {
+      return;
+    }
+
+    String libName = result.get();
+
     int lineNumber = getFirstLine(node);
     int startColumn = getFirstColumn(node);
     int endColumn = getLastColumn(node);
 
-    report.addUsage(new Usage(lineNumber, file, type, startColumn, endColumn));
+    report.addUsage(new Usage(lineNumber, file, type, startColumn, endColumn, libName));
   }
 }

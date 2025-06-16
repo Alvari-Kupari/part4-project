@@ -1,6 +1,6 @@
 package com.example.depanalyzer.request;
 
-import java.io.File;
+import com.example.depanalyzer.analyzer.dependencycollection.DependencyFile;
 import java.util.List;
 import java.util.stream.Collectors;
 import org.eclipse.aether.RepositorySystem;
@@ -38,7 +38,7 @@ public class Request {
     return collectResult.getRoot();
   }
 
-  public List<File> resolve(Dependency dependency) {
+  public List<DependencyFile> resolve(Dependency dependency) {
     CollectRequest collectRequest = new CollectRequest();
     collectRequest.setRoot(dependency);
     collectRequest.addRepository(MAVEN_REMOTE_REPOSITORY);
@@ -53,7 +53,7 @@ public class Request {
     }
 
     return result.getArtifactResults().stream()
-        .map(artifact -> artifact.getArtifact().getFile())
+        .map(artifact -> new DependencyFile(artifact.getArtifact()))
         .collect(Collectors.toList());
   }
 }

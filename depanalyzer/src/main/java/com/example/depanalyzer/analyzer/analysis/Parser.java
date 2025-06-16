@@ -27,11 +27,12 @@ public class Parser {
     ParserConfiguration config =
         new ParserConfiguration().setLanguageLevel(ParserConfiguration.LanguageLevel.JAVA_21);
 
-    JavaParserTypeSolver javaParserTypeSolver = new JavaParserTypeSolver(srcMainJavaPath);
-
     CombinedTypeSolver typeSolver = new CombinedTypeSolver();
-    typeSolver.add(new ReflectionTypeSolver());
-    typeSolver.add(javaParserTypeSolver);
+    JavaParserTypeSolver javaSolver = new JavaParserTypeSolver(srcMainJavaPath);
+    ReflectionTypeSolver reflectionSolver = new ReflectionTypeSolver();
+
+    typeSolver.add(javaSolver);
+    typeSolver.add(reflectionSolver);
 
     for (File jarFile : jarFiles) {
       JarTypeSolver jarTypeSolver = new JarTypeSolver(jarFile);
