@@ -11,11 +11,23 @@ public class UsageReport {
   }
 
   public void addUsage(Usage usage) {
-    System.out.println("Adding usage");
     usages.add(usage);
   }
 
   public void print() {
-    System.out.println(usages);
+    System.out.println("\n===============================");
+    System.out.println("         USAGE REPORT          ");
+    System.out.println("===============================\n");
+
+    if (usages.isEmpty()) {
+      System.out.println("No usages found.\n");
+      return;
+    }
+
+    for (int i = 0; i < usages.size(); i++) {
+      System.out.println((i + 1) + ". " + usages.get(i));
+    }
+
+    System.out.println("\nTotal usages: " + usages.size() + "\n");
   }
 }

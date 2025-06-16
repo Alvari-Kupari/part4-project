@@ -52,15 +52,6 @@ public class Request {
       return List.of();
     }
 
-    result
-        .getArtifactResults()
-        .forEach(
-            artifactResult -> {
-              System.out.println("Artifact: " + artifactResult.getArtifact());
-              System.out.println("  -> File: " + artifactResult.getArtifact().getFile());
-              System.out.println("  -> Repo: " + artifactResult.getRepository());
-            });
-
     return result.getArtifactResults().stream()
         .map(artifact -> artifact.getArtifact().getFile())
         .collect(Collectors.toList());

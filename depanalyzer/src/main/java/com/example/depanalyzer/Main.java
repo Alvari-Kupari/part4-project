@@ -55,8 +55,6 @@ public class Main {
             dep -> {
               List<File> files = new Request(system, session).resolve(dep);
               jarFiles.addAll(files);
-              System.out.println("levitation");
-              files.forEach(file -> System.out.println(file.getAbsolutePath()));
             });
 
     Parser parser = new Parser(repoPath, jarFiles);

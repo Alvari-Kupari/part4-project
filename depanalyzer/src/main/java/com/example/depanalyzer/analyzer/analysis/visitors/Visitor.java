@@ -50,7 +50,7 @@ public class Visitor extends VoidVisitorAdapter<UsageReport> {
       return;
     }
 
-    report.addUsage(new Usage(getFirstLine(methodCallExpr), file, "method call"));
+    addUsage(report, Usage.Type.METHOD_CALL, methodCallExpr);
   }
 
   @Override
@@ -72,7 +72,7 @@ public class Visitor extends VoidVisitorAdapter<UsageReport> {
       return;
     }
 
-    report.addUsage(new Usage(getFirstLine(nameExpr), file, "name expression"));
+    addUsage(report, Usage.Type.NAME_EXPRESSION, nameExpr);
   }
 
   @Override
@@ -96,7 +96,7 @@ public class Visitor extends VoidVisitorAdapter<UsageReport> {
       return;
     }
 
-    report.addUsage(new Usage(getFirstLine(creationExpr), file, "object creation"));
+    addUsage(report, Usage.Type.OBJECT_CREATION, creationExpr);
   }
 
   @Override
@@ -119,7 +119,7 @@ public class Visitor extends VoidVisitorAdapter<UsageReport> {
 
     printSolvedSymbol(value.getName(), getFirstLine(fieldAccessExpr));
 
-    report.addUsage(new Usage(getFirstLine(fieldAccessExpr), file, "field access"));
+    addUsage(report, Usage.Type.FIELD_ACCESS, fieldAccessExpr);
   }
 
   @Override
@@ -143,16 +143,12 @@ public class Visitor extends VoidVisitorAdapter<UsageReport> {
       return;
     }
 
-    report.addUsage(new Usage(getFirstLine(classType), file, "class type"));
+    addUsage(report, Usage.Type.CLASS_TYPE, classType);
   }
 
   @Override
   public void visit(VariableDeclarator var, UsageReport report) {
     super.visit(var, report);
-
-    System.out.println(
-        "Visiting variable: " + var.getNameAsString() + " at line " + getFirstLine(var));
-    System.out.println("Full variable: " + var);
 
     try {
       var.getType().resolve();
@@ -165,7 +161,6 @@ public class Visitor extends VoidVisitorAdapter<UsageReport> {
     try {
       typeDecl = var.getType().resolve().asReferenceType().getTypeDeclaration().get();
     } catch (Exception e) {
-      System.out.println("magnetic beagle");
       return;
     }
 
@@ -175,7 +170,7 @@ public class Visitor extends VoidVisitorAdapter<UsageReport> {
       return;
     }
 
-    report.addUsage(new Usage(getFirstLine(var), file, "variable declaration"));
+    addUsage(report, Usage.Type.VARIABLE_DECLARATION, var);
   }
 
   private int getFirstLine(Node node) {
@@ -205,5 +200,9 @@ public class Visitor extends VoidVisitorAdapter<UsageReport> {
 
   private void printSolvedSymbol(String node, int line) {
     // System.out.println("Resolved " + node + " at file: " + file + " at line: " + line);
+  }
+
+  private void addUsage(UsageReport report, Usage.Type type, Node node) {
+    report.addUsage(new Usage(getFirstLine(node), file, type));
   }
 }

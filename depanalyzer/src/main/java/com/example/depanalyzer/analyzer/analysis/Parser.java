@@ -34,7 +34,6 @@ public class Parser {
     typeSolver.add(javaParserTypeSolver);
 
     for (File jarFile : jarFiles) {
-      System.out.println("Adding jar to type solver: " + jarFile.getAbsolutePath());
       JarTypeSolver jarTypeSolver = new JarTypeSolver(jarFile);
       typeSolver.add(jarTypeSolver);
     }
