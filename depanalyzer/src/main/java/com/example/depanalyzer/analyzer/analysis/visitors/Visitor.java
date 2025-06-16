@@ -83,7 +83,7 @@ public class Visitor extends VoidVisitorAdapter<UsageReport> {
 
     try {
       constructor = creationExpr.resolve();
-      ;
+
     } catch (UnsolvedSymbolException e) {
       printUnsolvedSymbol(
           e, creationExpr.getTypeAsString(), getFirstLine(creationExpr), "Object creation");
@@ -185,17 +185,21 @@ public class Visitor extends VoidVisitorAdapter<UsageReport> {
     return node.getRange().get().begin.column;
   }
 
+  private int getLastColumn(Node node) {
+    return node.getRange().get().end.column;
+  }
+
   private void printUnsolvedSymbol(UnsolvedSymbolException e, String node, int line, String note) {
-    System.out.println(
-        e.getMessage()
-            + " of type: "
-            + node
-            + " at file: "
-            + file
-            + " at line: "
-            + line
-            + ". "
-            + note);
+    // System.out.println(
+    //     e.getMessage()
+    //         + " of type: "
+    //         + node
+    //         + " at file: "
+    //         + file
+    //         + " at line: "
+    //         + line
+    //         + ". "
+    //         + note);
   }
 
   private void printSolvedSymbol(String node, int line) {
@@ -203,6 +207,10 @@ public class Visitor extends VoidVisitorAdapter<UsageReport> {
   }
 
   private void addUsage(UsageReport report, Usage.Type type, Node node) {
-    report.addUsage(new Usage(getFirstLine(node), file, type));
+    int lineNumber = getFirstLine(node);
+    int startColumn = getFirstColumn(node);
+    int endColumn = getLastColumn(node);
+
+    report.addUsage(new Usage(lineNumber, file, type, startColumn, endColumn));
   }
 }
