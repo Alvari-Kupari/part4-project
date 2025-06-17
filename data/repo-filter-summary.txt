@@ -1,0 +1,13 @@
+--- Repo Filtering Summary ---
+Total considered: 17696
+Total kept: 1250 (7.1%)
+Total rejected: 16446 (92.9%)
+
+Breakdown by reason:
+  NO_RECENT_COMMITS: 14003 (79.1%)
+  NO_VALID_PROJECTS: 1514 (8.6%)
+  PASSED_ALL_CHECKS: 1250 (7.1%)
+  TOO_LARGE: 348 (2.0%)
+  ERROR_RUNNING_TREE: 287 (1.6%)
+  TOO_MANY_SUBMODULES: 279 (1.6%)
+  EXCEPTION_THROWN: 15 (0.1%)
