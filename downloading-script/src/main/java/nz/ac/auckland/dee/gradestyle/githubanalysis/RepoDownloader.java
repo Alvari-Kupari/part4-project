@@ -121,7 +121,7 @@ public class RepodownLoader {
         }
 
         if (!CommitChecker.hasRecentCommit(repo, lastCommitThreshold)) {
-            System.out.println("Skipping " + repo.getName() + " (no recent commits in last 6 months).");
+            System.out.println("Skipping " + repo.getName() + " (no recent commits in last 2 months).");
             filterLogger.log(repo.getName(), FilterLogger.FilterReason.NO_RECENT_COMMITS);
             return false;
         }

@@ -67,6 +67,15 @@ dot_output_location = r"C:\Users\akup390\Documents\dot_files"
 error_log_path = os.path.join(dot_output_location, "failed_repos.log")
 os.makedirs(dot_output_location, exist_ok=True)
 
-for repo in os.listdir(repos_dir):
+repos = sorted(
+    os.listdir(repos_dir),
+    key=lambda r: os.path.getctime(os.path.join(repos_dir, r))
+)
+
+start_from = "kagkarlsson__db-scheduler"
+start_index = repos.index(start_from) + 1
+
+for repo in repos[start_index:]:
     repo_path = os.path.join(repos_dir, repo)
     generate_dot_file(repo, repo_path, dot_output_location, error_log_path)
+
