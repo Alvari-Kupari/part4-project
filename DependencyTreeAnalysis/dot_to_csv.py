@@ -316,7 +316,7 @@ class MavenDependencyAnalyzer:
             'dependencies_with_version_managed_percentage': round(version_managed_pct, 2)
         }
     
-    def export_project_to_csv(self, project_name, conflicts, all_dependencies):
+    def export_project_to_csv(self, project_name, conflicts, all_dependencies, submodule_data=None):
         """Export project conflicts to individual CSV file with summary section"""
         output_file = f"{project_name}_version_conflicts.csv"
         output_path = self.output_dir / output_file
@@ -334,9 +334,6 @@ class MavenDependencyAnalyzer:
             'conflict_type'
         ]
         
-        # Calculate summary statistics
-        summary_stats = self.calculate_project_summary(all_dependencies, conflicts)
-        
         with open(output_path, 'w', newline='', encoding='utf-8') as csvfile:
             writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
             writer.writeheader()
@@ -349,22 +346,17 @@ class MavenDependencyAnalyzer:
             writer.writerow({})
             writer.writerow({})
             
-            # Write summary section header
-            writer.writerow({'project': 'PROJECT SUMMARY', 'submodule': 'STATISTICS'})
-            writer.writerow({})
-            
-            # Write summary statistics using the two-column format
-            summary_rows = [
-                ('Total unique dependencies', summary_stats['total_unique_dependencies']),
-                ('Dependencies with version conflicts (count)', summary_stats['dependencies_with_version_conflicts_count']),
-                ('Dependencies with version conflicts (%)', f"{summary_stats['dependencies_with_version_conflicts_percentage']}%"),
-                ('Dependencies with version managed (count)', summary_stats['dependencies_with_version_managed_count']),
-                ('Dependencies with version managed (%)', f"{summary_stats['dependencies_with_version_managed_percentage']}%")
-            ]
-            
-            for metric, value in summary_rows:
-                writer.writerow({'project': metric, 'submodule': str(value)})
-    
+            # Write total unique dependencies per submodule
+            if submodule_data:
+                writer.writerow({'project': 'SUBMODULE SUMMARY', 'submodule': 'Total Unique Dependencies'})
+                for submodule_name, data in submodule_data.items():
+                    unique_deps = set(dep['full_name'] for dep in data['dependencies'].values())
+                    writer.writerow({'project': submodule_name, 'submodule': str(len(unique_deps))})
+            else:
+                # Fallback: just write total unique dependencies for the whole project
+                unique_deps = set(dep['full_name'] for dep in all_dependencies.values())
+                writer.writerow({'project': 'ALL', 'submodule': str(len(unique_deps))})
+
     def analyze_all_projects(self):
         dot_files = list(self.dot_files_dir.glob('*.dot'))
         
@@ -391,8 +383,8 @@ class MavenDependencyAnalyzer:
                 
                 print(f"  Total conflicts found (after filtering): {len(conflicts)}")
                 
-                # Export with summary statistics
-                self.export_project_to_csv(project_name, conflicts, dependencies)
+                # Export with summary statistics (now only unique deps per submodule)
+                self.export_project_to_csv(project_name, conflicts, dependencies, submodule_data)
                 print(f"  Exported to: {self.output_dir}/{project_name}_version_conflicts.csv")
                 
                 if conflicts:
@@ -408,8 +400,8 @@ class MavenDependencyAnalyzer:
                 import traceback
                 traceback.print_exc()
                 
-                self.export_project_to_csv(project_name, [], {})
-    
+                self.export_project_to_csv(project_name, [], {}, None)
+
     def print_summary(self):
         total_conflicts = len(self.all_conflicts)
         unique_libraries = len(set(c['library_name'] for c in self.all_conflicts))
