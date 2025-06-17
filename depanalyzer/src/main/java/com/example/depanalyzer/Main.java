@@ -22,17 +22,20 @@ import org.eclipse.aether.graph.Dependency;
 
 /** Hello world! */
 public class Main {
+  private static final String laptopRepoPath =
+      "C:\\Users\\Poika\\OneDrive\\Documents\\UNI\\archive\\SOFTENG_206\\r"
+          + "epos\\escaipe-room-beta-and-final-team-27";
+  private static final String pcRepoPath =
+      "C:\\Users\\Alvari\\Documents\\UNI\\archive\\SOFTENG_206\\r"
+          + "epos\\escaipe-room-beta-and-final-team-27";
+
   public static void main(String[] args) throws Exception {
     System.out.println("Hello World!");
-
-    String repoPath =
-        "C:\\Users\\Alvari\\Documents\\UNI\\archive\\SOFTENG_206\\r"
-            + "epos\\escaipe-room-beta-and-final-team-27";
 
     RepositorySystem system = RepositorySystemFactory.newRepositorySystem();
     RepositorySystemSession session = RepositorySystemFactory.newSession(system);
 
-    PomFile pom = new PomFile(repoPath);
+    PomFile pom = new PomFile(laptopRepoPath);
 
     List<Dependency> dependencies = pom.getDependencies();
 
@@ -50,19 +53,28 @@ public class Main {
     System.out.println("tree size: " + tree.size());
 
     List<DependencyFile> jarFiles = new ArrayList<>();
+    List<DependencyFile> transitiveJarFiles = new ArrayList<>();
 
-    tree.getTransitiveDependencies()
+    tree.getAllDependencies()
         .forEach(
             dep -> {
               List<DependencyFile> files = new Request(system, session).resolve(dep);
               jarFiles.addAll(files);
             });
 
+    tree.getTransitiveDependencies()
+        .forEach(
+            dep -> {
+              List<DependencyFile> files = new Request(system, session).resolve(dep);
+              transitiveJarFiles.addAll(files);
+            });
+
     Parser parser =
         new Parser(
-            repoPath, jarFiles.stream().map(DependencyFile::getFile).collect(Collectors.toList()));
+            laptopRepoPath,
+            jarFiles.stream().map(DependencyFile::getFile).collect(Collectors.toList()));
     UsageReport report = new UsageReport();
-    DependencyDatabase database = new DependencyDatabase(jarFiles);
+    DependencyDatabase database = new DependencyDatabase(transitiveJarFiles);
 
     for (Path javaFile : parser.getJavaFiles()) {
       ParseResult<CompilationUnit> result = parser.parse(javaFile);

@@ -39,10 +39,10 @@ public class DependencyTraverser {
 
   private void collectChildren(DependencyNode node, DependencyTree tree, int level) {
 
-    String id = getDependencyKey(node.getDependency());
-    if (!alreadyVisited.add(id)) {
-      return; // already visited
-    }
+    // String id = getDependencyKey(node.getDependency());
+    // if (!alreadyVisited.add(id)) {
+    //   return; // already visited
+    // }
 
     for (DependencyNode child : node.getChildren()) {
       tree.add(child.getDependency(), level);

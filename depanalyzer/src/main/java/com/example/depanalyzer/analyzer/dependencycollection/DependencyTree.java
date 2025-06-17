@@ -1,8 +1,10 @@
 package com.example.depanalyzer.analyzer.dependencycollection;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
+import java.util.stream.Collectors;
 import org.eclipse.aether.graph.Dependency;
 
 public class DependencyTree {
@@ -33,10 +35,29 @@ public class DependencyTree {
     return levels.get(BASE_LEVEL).getDependencies();
   }
 
-  public List<Dependency> getTransitiveDependencies() {
-    List<Dependency> transitive = new ArrayList<>();
+  public Set<Dependency> getTransitiveDependencies() {
+
+    Set<Dependency> transitive = new HashSet<>();
+
+    Set<String> alreadyVisited = new HashSet<>();
+
+    // add root deps
+    alreadyVisited.addAll(
+        levels.get(BASE_LEVEL).getDependencies().stream()
+            .map(dep -> getKey(dep))
+            .collect(Collectors.toList()));
+
+    // now iterate and add all transitive deps not already visited
     for (int i = BASE_LEVEL + 1; i < levels.size(); i++) {
-      transitive.addAll(levels.get(i).getDependencies());
+
+      for (Dependency dep : levels.get(i).getDependencies()) {
+        String key = getKey(dep);
+        if (!alreadyVisited.add(key)) {
+          continue;
+        }
+
+        transitive.add(dep);
+      }
     }
     return transitive;
   }
@@ -69,5 +90,10 @@ public class DependencyTree {
 
   public int size() {
     return levels.stream().mapToInt(level -> level.size()).sum();
+  }
+
+  private String getKey(Dependency dep) {
+    var artifact = dep.getArtifact();
+    return artifact.getGroupId() + ":" + artifact.getArtifactId() + ":" + artifact.getVersion();
   }
 }
