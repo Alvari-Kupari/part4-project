@@ -6,8 +6,8 @@ import com.example.depanalyzer.analyzer.analysis.RepositorySystemFactory;
 import com.example.depanalyzer.analyzer.analysis.visitors.Visitor;
 import com.example.depanalyzer.analyzer.dependencycollection.DependencyFile;
 import com.example.depanalyzer.analyzer.dependencycollection.DependencyTraverser;
-import com.example.depanalyzer.analyzer.dependencycollection.DependencyTree;
 import com.example.depanalyzer.analyzer.dependencycollection.PomFile;
+import com.example.depanalyzer.analyzer.dependencytree.Tree;
 import com.example.depanalyzer.analyzer.report.UsageReport;
 import com.example.depanalyzer.request.Request;
 import com.github.javaparser.ParseResult;
@@ -18,7 +18,6 @@ import java.util.List;
 import java.util.stream.Collectors;
 import org.eclipse.aether.RepositorySystem;
 import org.eclipse.aether.RepositorySystemSession;
-import org.eclipse.aether.graph.Dependency;
 
 /** Hello world! */
 public class Main {
@@ -32,16 +31,18 @@ public class Main {
   public static void main(String[] args) throws Exception {
     System.out.println("Hello World!");
 
+    String repoPath = pcRepoPath;
+
     RepositorySystem system = RepositorySystemFactory.newRepositorySystem();
     RepositorySystemSession session = RepositorySystemFactory.newSession(system);
 
-    PomFile pom = new PomFile(laptopRepoPath);
+    PomFile pom = new PomFile(repoPath);
 
-    List<Dependency> dependencies = pom.getDependencies();
+    List<DependencyFile> dependencies = pom.getDependencies();
 
-    DependencyTree tree = new DependencyTree();
+    Tree<DependencyFile> tree = new Tree<>();
 
-    for (Dependency dep : dependencies) {
+    for (DependencyFile dep : dependencies) {
 
       DependencyTraverser traverser = new DependencyTraverser(dep, system, session);
 
@@ -62,6 +63,12 @@ public class Main {
               jarFiles.addAll(files);
             });
 
+    System.out.println("Direct deps");
+    tree.getAllDependencies().forEach(System.out::println);
+
+    System.out.println("Transitive deps");
+    tree.getTransitiveDependencies().forEach(System.out::println);
+
     tree.getTransitiveDependencies()
         .forEach(
             dep -> {
@@ -71,8 +78,7 @@ public class Main {
 
     Parser parser =
         new Parser(
-            laptopRepoPath,
-            jarFiles.stream().map(DependencyFile::getFile).collect(Collectors.toList()));
+            repoPath, jarFiles.stream().map(DependencyFile::getFile).collect(Collectors.toList()));
     UsageReport report = new UsageReport();
     DependencyDatabase database = new DependencyDatabase(transitiveJarFiles);
 

@@ -1,35 +1,31 @@
 package com.example.depanalyzer.analyzer.dependencycollection;
 
+import com.example.depanalyzer.analyzer.dependencytree.Tree;
 import com.example.depanalyzer.request.Request;
-import java.util.HashSet;
-import java.util.Set;
 import org.eclipse.aether.RepositorySystem;
 import org.eclipse.aether.RepositorySystemSession;
 import org.eclipse.aether.collection.DependencyCollectionException;
-import org.eclipse.aether.graph.Dependency;
 import org.eclipse.aether.graph.DependencyNode;
 
 public class DependencyTraverser {
 
-  private Dependency rootDependency;
+  private DependencyFile rootDependency;
   private RepositorySystem repoSystem;
   private RepositorySystemSession session;
-  private Set<String> alreadyVisited;
 
   public DependencyTraverser(
-      Dependency rootDependency, RepositorySystem repoSystem, RepositorySystemSession session) {
+      DependencyFile rootDependency, RepositorySystem repoSystem, RepositorySystemSession session) {
     this.rootDependency = rootDependency;
     this.repoSystem = repoSystem;
     this.session = session;
-    this.alreadyVisited = new HashSet<>();
   }
 
-  public void traverse(DependencyTree tree) throws DependencyCollectionException {
+  public void traverse(Tree<DependencyFile> tree) throws DependencyCollectionException {
 
     Request request = new Request(repoSystem, session);
     try {
-      DependencyNode root = request.execute(rootDependency);
-      tree.add(rootDependency, 0);
+      DependencyNode root = request.execute(rootDependency.getDependency());
+      add(rootDependency, 0, tree);
       collectChildren(root, tree, 1);
     } catch (DependencyCollectionException e) {
       System.out.println("Unable to collect dependency: " + rootDependency + ". " + e.getMessage());
@@ -37,16 +33,10 @@ public class DependencyTraverser {
     }
   }
 
-  private void collectChildren(DependencyNode node, DependencyTree tree, int level) {
-
-    // String id = getDependencyKey(node.getDependency());
-    // if (!alreadyVisited.add(id)) {
-    //   return; // already visited
-    // }
+  private void collectChildren(DependencyNode node, Tree<DependencyFile> tree, int level) {
 
     for (DependencyNode child : node.getChildren()) {
-      tree.add(child.getDependency(), level);
-      alreadyVisited.add(getDependencyKey(child.getDependency()));
+      add(new DependencyFile(child.getDependency()), level, tree);
     }
 
     for (DependencyNode child : node.getChildren()) {
@@ -54,8 +44,10 @@ public class DependencyTraverser {
     }
   }
 
-  private String getDependencyKey(Dependency dep) {
-    var artifact = dep.getArtifact();
-    return artifact.getGroupId() + ":" + artifact.getArtifactId() + ":" + artifact.getVersion();
+  private void add(DependencyFile dep, int level, Tree<DependencyFile> tree) {
+    // if (tree.containsDirect(dep)) {
+    //   return;
+    // }
+    tree.add(dep, level);
   }
 }

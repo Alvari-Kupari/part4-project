@@ -20,21 +20,22 @@ public class PomFile {
     this.pomFile = path.toFile();
   }
 
-  public List<Dependency> getDependencies() throws IOException, XmlPullParserException {
+  public List<DependencyFile> getDependencies() throws IOException, XmlPullParserException {
     MavenXpp3Reader reader = new MavenXpp3Reader();
     FileReader fileReader = new FileReader(pomFile);
     Model model = reader.read(fileReader);
     return model.getDependencies().stream()
         .map(
             dep ->
-                new Dependency(
-                    new DefaultArtifact(
-                        dep.getGroupId(),
-                        dep.getArtifactId(),
-                        dep.getClassifier(),
-                        dep.getType(),
-                        dep.getVersion()),
-                    dep.getScope()))
+                new DependencyFile(
+                    new Dependency(
+                        new DefaultArtifact(
+                            dep.getGroupId(),
+                            dep.getArtifactId(),
+                            dep.getClassifier(),
+                            dep.getType(),
+                            dep.getVersion()),
+                        dep.getScope())))
         .collect(Collectors.toList());
   }
 }

@@ -38,9 +38,9 @@ public class Request {
     return collectResult.getRoot();
   }
 
-  public List<DependencyFile> resolve(Dependency dependency) {
+  public List<DependencyFile> resolve(DependencyFile dependency) {
     CollectRequest collectRequest = new CollectRequest();
-    collectRequest.setRoot(dependency);
+    collectRequest.setRoot(dependency.getDependency());
     collectRequest.addRepository(MAVEN_REMOTE_REPOSITORY);
     DependencyRequest dependencyRequest = new DependencyRequest(collectRequest, null);
 

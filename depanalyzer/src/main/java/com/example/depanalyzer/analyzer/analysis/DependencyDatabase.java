@@ -8,9 +8,9 @@ import com.github.javaparser.resolution.declarations.ResolvedMethodDeclaration;
 import com.github.javaparser.resolution.declarations.ResolvedReferenceTypeDeclaration;
 import com.github.javaparser.resolution.declarations.ResolvedValueDeclaration;
 import java.io.IOException;
+import java.util.Collection;
 import java.util.HashMap;
 import java.util.HashSet;
-import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Optional;
@@ -21,11 +21,11 @@ public class DependencyDatabase {
   // key is the library name, value is the set of classes in the library
   private final Map<String, Set<String>> libraries;
 
-  public DependencyDatabase(List<DependencyFile> depFiles) throws IOException {
+  public DependencyDatabase(Collection<DependencyFile> depFiles) throws IOException {
     libraries = new HashMap<>();
 
     for (DependencyFile depFile : depFiles) {
-      String libraryName = depFile.getLibraryName();
+      String libraryName = depFile.toString();
       libraries.computeIfAbsent(libraryName, k -> new HashSet<>());
       JarFile jarFile = new JarFile(depFile.getFile());
       jarFile.stream()
