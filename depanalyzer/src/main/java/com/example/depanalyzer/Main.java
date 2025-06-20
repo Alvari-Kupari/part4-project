@@ -3,7 +3,9 @@ package com.example.depanalyzer;
 import com.example.depanalyzer.analyzer.analysis.DependencyDatabase;
 import com.example.depanalyzer.analyzer.analysis.Parser;
 import com.example.depanalyzer.analyzer.analysis.RepositorySystemFactory;
-import com.example.depanalyzer.analyzer.analysis.visitors.Visitor;
+import com.example.depanalyzer.analyzer.analysis.visitors.AnnotationVisitor;
+import com.example.depanalyzer.analyzer.analysis.visitors.ExpressionVisitor;
+import com.example.depanalyzer.analyzer.analysis.visitors.UsageAnalyzer;
 import com.example.depanalyzer.analyzer.dependencycollection.DependencyTraverser;
 import com.example.depanalyzer.analyzer.dependencycollection.PomFile;
 import com.example.depanalyzer.analyzer.dependencytree.Tree;
@@ -85,9 +87,12 @@ public class Main {
 
     for (Path javaFile : parser.getJavaFiles()) {
       ParseResult<CompilationUnit> result = parser.parse(javaFile);
-      Visitor visitor = new Visitor(javaFile, database);
+      UsageAnalyzer helper = new UsageAnalyzer(javaFile, database);
+      ExpressionVisitor visitor = new ExpressionVisitor(helper);
+      AnnotationVisitor annotationVisitor = new AnnotationVisitor(helper);
 
       visitor.visit(result.getResult().get(), report);
+      annotationVisitor.visit(result.getResult().get(), report);
     }
 
     report.print();
