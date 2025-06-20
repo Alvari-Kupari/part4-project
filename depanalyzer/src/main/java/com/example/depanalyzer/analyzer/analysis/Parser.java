@@ -3,6 +3,7 @@ package com.example.depanalyzer.analyzer.analysis;
 import com.github.javaparser.JavaParser;
 import com.github.javaparser.ParseResult;
 import com.github.javaparser.ParserConfiguration;
+import com.github.javaparser.ParserConfiguration.LanguageLevel;
 import com.github.javaparser.ast.CompilationUnit;
 import com.github.javaparser.symbolsolver.JavaSymbolSolver;
 import com.github.javaparser.symbolsolver.resolution.typesolvers.CombinedTypeSolver;
@@ -24,10 +25,11 @@ public class Parser {
   private JavaParser parser;
   private Path srcMainJavaPath;
 
-  public Parser(String repoPath, Set<Artifact> artifacts) throws IOException {
+  public Parser(String repoPath, Set<Artifact> artifacts, LanguageLevel javaVersion)
+      throws IOException {
+    System.out.println("LANGAUGE LEVEL " + javaVersion);
     srcMainJavaPath = Path.of(repoPath, SRC_MAIN_JAVA);
-    ParserConfiguration config =
-        new ParserConfiguration().setLanguageLevel(ParserConfiguration.LanguageLevel.JAVA_21);
+    ParserConfiguration config = new ParserConfiguration().setLanguageLevel(javaVersion);
 
     CombinedTypeSolver typeSolver = new CombinedTypeSolver();
     JavaParserTypeSolver javaSolver = new JavaParserTypeSolver(srcMainJavaPath);

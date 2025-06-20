@@ -81,7 +81,7 @@ public class Main {
               transitiveArtifacts.addAll(artifacts);
             });
 
-    Parser parser = new Parser(repoPath, allArtifacts);
+    Parser parser = new Parser(repoPath, allArtifacts, pom.getJavaVersion());
     UsageReport report = new UsageReport();
     DependencyDatabase database = new DependencyDatabase(transitiveArtifacts);
 

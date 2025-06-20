@@ -32,7 +32,7 @@ public class ExpressionVisitor extends VoidVisitorAdapter<UsageReport> {
       ResolvedMethodDeclaration method = methodCallExpr.resolve();
       helper.printSolvedSymbol(
           methodCallExpr.getNameAsString(), helper.getFirstLine(methodCallExpr));
-      helper.checkIfTransitive(method, methodCallExpr, Usage.Type.METHOD_CALL, report);
+      helper.checkIfTransitive(method, methodCallExpr.getName(), Usage.Type.METHOD_CALL, report);
     } catch (UnsolvedSymbolException e) {
       helper.printUnsolvedSymbol(
           e, methodCallExpr.getNameAsString(), helper.getFirstLine(methodCallExpr), "method call");
