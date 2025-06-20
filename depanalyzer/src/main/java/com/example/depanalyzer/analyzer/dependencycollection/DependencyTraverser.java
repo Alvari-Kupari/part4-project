@@ -1,7 +1,6 @@
 package com.example.depanalyzer.analyzer.dependencycollection;
 
 import com.example.depanalyzer.analyzer.dependencytree.Tree;
-import com.example.depanalyzer.request.Request;
 import org.eclipse.aether.RepositorySystem;
 import org.eclipse.aether.RepositorySystemSession;
 import org.eclipse.aether.collection.DependencyCollectionException;

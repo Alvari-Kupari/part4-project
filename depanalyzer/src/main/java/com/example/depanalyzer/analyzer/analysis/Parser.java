@@ -49,14 +49,6 @@ public class Parser {
     config.setSymbolResolver(symbolSolver);
 
     parser = new JavaParser(config);
-
-    System.out.println("Testing symbol resolution for: java.util.List");
-    System.out.println(typeSolver.tryToSolveType("java.util.List"));
-
-    System.out.println(
-        "Testing symbol resolution for: org.apache.http.impl.client.CloseableHttpClient");
-    System.out.println(
-        typeSolver.tryToSolveType("org.apache.http.impl.client.CloseableHttpClient"));
   }
 
   public List<Path> getJavaFiles() throws IOException {

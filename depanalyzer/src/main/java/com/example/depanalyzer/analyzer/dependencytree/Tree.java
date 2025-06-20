@@ -39,13 +39,6 @@ public class Tree {
     transDeps.removeIf(
         dep -> directDeps.stream().anyMatch(directDep -> DependencyUtils.areEqual(directDep, dep)));
 
-    // remove duplicates and platform/scope specific variants
-    // transDeps.removeIf(
-    //     dep ->
-    //         transDeps.stream()
-    //             .anyMatch(transDep -> dep != transDep && DependencyUtils.areEqual(transDep,
-    // dep)));
-
     return transDeps;
   }
 

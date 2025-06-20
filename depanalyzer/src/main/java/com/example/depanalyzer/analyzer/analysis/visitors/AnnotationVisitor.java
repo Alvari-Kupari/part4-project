@@ -88,6 +88,11 @@ public class AnnotationVisitor extends VoidVisitorAdapter<UsageReport> {
     for (var annotation : annotated.getAnnotations()) {
       try {
         ResolvedAnnotationDeclaration resolved = annotation.resolve();
+
+        if (!resolved.isReferenceType()) {
+          return;
+        }
+
         ResolvedReferenceTypeDeclaration decl = resolved.asReferenceType();
         helper.printSolvedSymbol(
             resolved.getQualifiedName(), helper.getFirstLine((Node) annotation));
@@ -95,8 +100,6 @@ public class AnnotationVisitor extends VoidVisitorAdapter<UsageReport> {
       } catch (UnsolvedSymbolException e) {
         helper.printUnsolvedSymbol(
             e, annotation.getNameAsString(), helper.getFirstLine((Node) annotation), "annotation");
-      } catch (Exception ignored) {
-        System.out.println("Uknown exception: " + ignored.getMessage());
       }
     }
   }

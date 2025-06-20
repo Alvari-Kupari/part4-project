@@ -15,6 +15,7 @@ import com.github.javaparser.resolution.declarations.ResolvedMethodDeclaration;
 import com.github.javaparser.resolution.declarations.ResolvedReferenceTypeDeclaration;
 import com.github.javaparser.resolution.declarations.ResolvedValueDeclaration;
 import com.github.javaparser.resolution.types.ResolvedReferenceType;
+import com.github.javaparser.resolution.types.ResolvedType;
 
 public class ExpressionVisitor extends VoidVisitorAdapter<UsageReport> {
 
@@ -89,7 +90,15 @@ public class ExpressionVisitor extends VoidVisitorAdapter<UsageReport> {
     super.visit(classType, report);
 
     try {
-      ResolvedReferenceType type = classType.resolve().asReferenceType();
+      ResolvedType resolvedType = classType.resolve();
+
+      if (!resolvedType.isReferenceType()) {
+        // primitives and type variables not needed to be checked
+        return;
+      }
+
+      ResolvedReferenceType type = resolvedType.asReferenceType();
+
       helper.printSolvedSymbol(type.getQualifiedName(), helper.getFirstLine(classType));
       ResolvedReferenceTypeDeclaration decl = type.getTypeDeclaration().get();
       helper.checkIfTransitive(decl, classType, Usage.Type.CLASS_TYPE, report);
@@ -104,16 +113,19 @@ public class ExpressionVisitor extends VoidVisitorAdapter<UsageReport> {
     super.visit(var, report);
 
     try {
-      var.getType().resolve();
+      ResolvedType resolved = var.getType().resolve();
+
+      if (!resolved.isReferenceType()) {
+        return;
+      }
+
       ResolvedReferenceTypeDeclaration typeDecl =
-          var.getType().resolve().asReferenceType().getTypeDeclaration().get();
+          resolved.asReferenceType().getTypeDeclaration().get();
       helper.printSolvedSymbol(typeDecl.getQualifiedName(), helper.getFirstLine(var));
       helper.checkIfTransitive(typeDecl, var, Usage.Type.VARIABLE_DECLARATION, report);
     } catch (UnsolvedSymbolException e) {
       helper.printUnsolvedSymbol(
           e, var.getTypeAsString(), helper.getFirstLine(var), "variable type");
-    } catch (Exception ignored) {
-      // Skip invalid type resolution
     }
   }
 }

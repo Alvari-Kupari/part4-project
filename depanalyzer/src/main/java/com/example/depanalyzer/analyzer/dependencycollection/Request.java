@@ -1,4 +1,4 @@
-package com.example.depanalyzer.request;
+package com.example.depanalyzer.analyzer.dependencycollection;
 
 import java.util.Set;
 import java.util.stream.Collectors;

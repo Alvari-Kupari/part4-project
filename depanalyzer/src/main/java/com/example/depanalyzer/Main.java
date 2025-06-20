@@ -8,9 +8,9 @@ import com.example.depanalyzer.analyzer.analysis.visitors.ExpressionVisitor;
 import com.example.depanalyzer.analyzer.analysis.visitors.UsageAnalyzer;
 import com.example.depanalyzer.analyzer.dependencycollection.DependencyTraverser;
 import com.example.depanalyzer.analyzer.dependencycollection.PomFile;
+import com.example.depanalyzer.analyzer.dependencycollection.Request;
 import com.example.depanalyzer.analyzer.dependencytree.Tree;
 import com.example.depanalyzer.analyzer.report.UsageReport;
-import com.example.depanalyzer.request.Request;
 import com.github.javaparser.ParseResult;
 import com.github.javaparser.ast.CompilationUnit;
 import java.nio.file.Path;
@@ -31,10 +31,20 @@ public class Main {
       "C:\\Users\\Alvari\\Documents\\UNI\\archive\\SOFTENG_206\\r"
           + "epos\\escaipe-room-beta-and-final-team-27";
 
-  public static void main(String[] args) throws Exception {
-    System.out.println("Hello World!");
+  private static final String otherPath =
+      "C:\\Users\\Alvari\\Documents\\UNI\\softeng_700\\part4-project\\depanalyzer";
 
-    String repoPath = pcRepoPath;
+  public static void main(String[] args) throws Exception {
+
+    String repoPath = otherPath;
+
+    for (String arg : args) {
+      if (arg.startsWith("--project=")) {
+        repoPath = arg.substring("--project=".length());
+      }
+    }
+
+    System.out.println("Analyzing project at: " + repoPath);
 
     RepositorySystem system = RepositorySystemFactory.newRepositorySystem();
     RepositorySystemSession session = RepositorySystemFactory.newSession(system);
@@ -52,10 +62,6 @@ public class Main {
       traverser.traverse(tree);
     }
 
-    System.out.println(tree.toString());
-
-    System.out.println("tree size: " + tree.size());
-
     Set<Artifact> allArtifacts = new HashSet<>();
     Set<Artifact> transitiveArtifacts = new HashSet<>();
 
@@ -65,14 +71,6 @@ public class Main {
               Set<Artifact> artifacts = new Request(system, session).resolve(dep);
               allArtifacts.addAll(artifacts);
             });
-
-    System.out.println("Direct deps");
-    tree.getDirectDependencies().forEach(System.out::println);
-    System.out.println("Total size of direct deps: " + tree.getDirectDependencies().size());
-
-    System.out.println("Transitive deps");
-    tree.getTransitiveDependencies().forEach(System.out::println);
-    System.out.println("Total size of trans deps: " + tree.getTransitiveDependencies().size());
 
     tree.getTransitiveDependencies()
         .forEach(
