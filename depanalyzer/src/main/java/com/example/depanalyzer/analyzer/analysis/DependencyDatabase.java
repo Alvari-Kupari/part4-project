@@ -1,6 +1,5 @@
 package com.example.depanalyzer.analyzer.analysis;
 
-import com.example.depanalyzer.analyzer.dependencycollection.DependencyFile;
 import com.github.javaparser.resolution.declarations.ResolvedConstructorDeclaration;
 import com.github.javaparser.resolution.declarations.ResolvedDeclaration;
 import com.github.javaparser.resolution.declarations.ResolvedFieldDeclaration;
@@ -16,18 +15,20 @@ import java.util.Map.Entry;
 import java.util.Optional;
 import java.util.Set;
 import java.util.jar.JarFile;
+import org.eclipse.aether.artifact.Artifact;
 
 public class DependencyDatabase {
   // key is the library name, value is the set of classes in the library
   private final Map<String, Set<String>> libraries;
 
-  public DependencyDatabase(Collection<DependencyFile> depFiles) throws IOException {
+  public DependencyDatabase(Collection<Artifact> artifacts) throws IOException {
     libraries = new HashMap<>();
 
-    for (DependencyFile depFile : depFiles) {
-      String libraryName = depFile.toString();
+    for (Artifact artifact : artifacts) {
+
+      String libraryName = getArtifactString(artifact);
       libraries.computeIfAbsent(libraryName, k -> new HashSet<>());
-      JarFile jarFile = new JarFile(depFile.getFile());
+      JarFile jarFile = new JarFile(artifact.getFile());
       jarFile.stream()
           .filter(e -> e.getName().endsWith(".class"))
           .forEach(
@@ -81,5 +82,9 @@ public class DependencyDatabase {
     }
 
     return className;
+  }
+
+  private String getArtifactString(Artifact artifact) {
+    return artifact.toString();
   }
 }

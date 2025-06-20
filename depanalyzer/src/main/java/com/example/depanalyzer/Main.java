@@ -4,7 +4,6 @@ import com.example.depanalyzer.analyzer.analysis.DependencyDatabase;
 import com.example.depanalyzer.analyzer.analysis.Parser;
 import com.example.depanalyzer.analyzer.analysis.RepositorySystemFactory;
 import com.example.depanalyzer.analyzer.analysis.visitors.Visitor;
-import com.example.depanalyzer.analyzer.dependencycollection.DependencyFile;
 import com.example.depanalyzer.analyzer.dependencycollection.DependencyTraverser;
 import com.example.depanalyzer.analyzer.dependencycollection.PomFile;
 import com.example.depanalyzer.analyzer.dependencytree.Tree;
@@ -13,11 +12,13 @@ import com.example.depanalyzer.request.Request;
 import com.github.javaparser.ParseResult;
 import com.github.javaparser.ast.CompilationUnit;
 import java.nio.file.Path;
-import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
-import java.util.stream.Collectors;
+import java.util.Set;
 import org.eclipse.aether.RepositorySystem;
 import org.eclipse.aether.RepositorySystemSession;
+import org.eclipse.aether.artifact.Artifact;
+import org.eclipse.aether.graph.Dependency;
 
 /** Hello world! */
 public class Main {
@@ -38,49 +39,49 @@ public class Main {
 
     PomFile pom = new PomFile(repoPath);
 
-    List<DependencyFile> dependencies = pom.getDependencies();
+    List<Dependency> dependencies = pom.getDependencies();
 
-    Tree<DependencyFile> tree = new Tree<>();
+    Tree tree = new Tree();
 
-    for (DependencyFile dep : dependencies) {
+    for (Dependency dep : dependencies) {
 
       DependencyTraverser traverser = new DependencyTraverser(dep, system, session);
 
       traverser.traverse(tree);
     }
 
-    tree.print();
+    System.out.println(tree.toString());
 
     System.out.println("tree size: " + tree.size());
 
-    List<DependencyFile> jarFiles = new ArrayList<>();
-    List<DependencyFile> transitiveJarFiles = new ArrayList<>();
+    Set<Artifact> allArtifacts = new HashSet<>();
+    Set<Artifact> transitiveArtifacts = new HashSet<>();
 
     tree.getAllDependencies()
         .forEach(
             dep -> {
-              List<DependencyFile> files = new Request(system, session).resolve(dep);
-              jarFiles.addAll(files);
+              Set<Artifact> artifacts = new Request(system, session).resolve(dep);
+              allArtifacts.addAll(artifacts);
             });
 
     System.out.println("Direct deps");
-    tree.getAllDependencies().forEach(System.out::println);
+    tree.getDirectDependencies().forEach(System.out::println);
+    System.out.println("Total size of direct deps: " + tree.getDirectDependencies().size());
 
     System.out.println("Transitive deps");
     tree.getTransitiveDependencies().forEach(System.out::println);
+    System.out.println("Total size of trans deps: " + tree.getTransitiveDependencies().size());
 
     tree.getTransitiveDependencies()
         .forEach(
             dep -> {
-              List<DependencyFile> files = new Request(system, session).resolve(dep);
-              transitiveJarFiles.addAll(files);
+              Set<Artifact> artifacts = new Request(system, session).resolve(dep);
+              transitiveArtifacts.addAll(artifacts);
             });
 
-    Parser parser =
-        new Parser(
-            repoPath, jarFiles.stream().map(DependencyFile::getFile).collect(Collectors.toList()));
+    Parser parser = new Parser(repoPath, allArtifacts);
     UsageReport report = new UsageReport();
-    DependencyDatabase database = new DependencyDatabase(transitiveJarFiles);
+    DependencyDatabase database = new DependencyDatabase(transitiveArtifacts);
 
     for (Path javaFile : parser.getJavaFiles()) {
       ParseResult<CompilationUnit> result = parser.parse(javaFile);

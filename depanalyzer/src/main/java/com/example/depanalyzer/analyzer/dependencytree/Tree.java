@@ -1,96 +1,116 @@
 package com.example.depanalyzer.analyzer.dependencytree;
 
-import com.example.depanalyzer.analyzer.dependencycollection.DependencyFile;
-import com.example.depanalyzer.analyzer.dependencycollection.TreeLevel;
+import com.example.depanalyzer.analyzer.analysis.DependencyUtils;
 import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.LinkedList;
 import java.util.List;
+import java.util.Queue;
 import java.util.Set;
+import java.util.stream.Collectors;
+import org.eclipse.aether.artifact.DefaultArtifact;
+import org.eclipse.aether.graph.DefaultDependencyNode;
+import org.eclipse.aether.graph.Dependency;
+import org.eclipse.aether.graph.DependencyNode;
 
-public class Tree<T> {
-  private static final int BASE_LEVEL = 0;
-  private List<TreeLevel<T>> levels;
-
-  public Tree(T root) {
-    levels = new ArrayList<>();
-    levels.add(new TreeLevel<>(BASE_LEVEL));
-    levels.get(0).add(root);
-  }
+public class Tree {
+  private List<Branch> branches;
 
   public Tree() {
-    levels = new ArrayList<>();
-    levels.add(new TreeLevel<>(BASE_LEVEL));
+    this.branches = new ArrayList<>();
   }
 
-  public void add(T dependency, int level) {
-    // if (level == 0) {
-    //   throw new IllegalArgumentException("Can only add roots after tree is created");
-    // }
-    if (level > levels.size()) {
-      throw new IllegalStateException(
-          "Cannot be adding a level more than 1 deeper than the trees max depth");
-    } else if (level == levels.size()) {
-      levels.add(new TreeLevel<>(level));
+  public void addRoot(DependencyNode root) {
+    this.branches.add(new Branch(root));
+  }
+
+  public Set<Dependency> getDirectDependencies() {
+    return branches.stream()
+        .map(branch -> branch.getRoot().getDependency())
+        .collect(Collectors.toSet());
+  }
+
+  public Set<Dependency> getTransitiveDependencies() {
+
+    Set<Dependency> directDeps = getDirectDependencies();
+
+    Set<Dependency> transDeps = getClosestUniqueDependencies();
+
+    transDeps.removeIf(
+        dep -> directDeps.stream().anyMatch(directDep -> DependencyUtils.areEqual(directDep, dep)));
+
+    // remove duplicates and platform/scope specific variants
+    // transDeps.removeIf(
+    //     dep ->
+    //         transDeps.stream()
+    //             .anyMatch(transDep -> dep != transDep && DependencyUtils.areEqual(transDep,
+    // dep)));
+
+    return transDeps;
+  }
+
+  private Set<Dependency> getClosestUniqueDependencies() {
+    Set<String> alreadyVisited = new HashSet<>();
+
+    List<DependencyNode> roots =
+        branches.stream().map(branch -> branch.getRoot()).collect(Collectors.toList());
+
+    DependencyNode king =
+        new DefaultDependencyNode(
+            new Dependency(
+                new DefaultArtifact(
+                    "beagle-group", "beagle-artifact", "beagle-extension", "beagle-version"),
+                "beagle-scope"));
+
+    king.setChildren(roots);
+
+    return bfs(alreadyVisited, king);
+  }
+
+  private Set<Dependency> bfs(Set<String> alreadyVisited, DependencyNode king) {
+    Queue<DependencyNode> que = new LinkedList<>();
+    que.add(king);
+
+    Set<Dependency> deps = new HashSet<>();
+
+    while (!que.isEmpty()) {
+      DependencyNode next = que.poll();
+
+      for (DependencyNode child : next.getChildren()) {
+        que.add(child);
+
+        boolean doesntContain =
+            alreadyVisited.add(DependencyUtils.getLibraryName(child.getDependency()));
+
+        if (doesntContain) {
+          deps.add(child.getDependency());
+        }
+      }
     }
-    levels.get(level).add(dependency);
-  }
-
-  public Set<T> getDirectDependencies() {
-    return levels.get(BASE_LEVEL).getDependencies();
-  }
-
-  public Set<T> getTransitiveDependencies() {
-    Set<T> direct = getDirectDependencies();
-    Set<T> transitive = getAllDependencies();
-    transitive.removeIf(dep -> direct.contains(dep));
-
-    return transitive;
-  }
-
-  public Set<T> getDependenciesAtlevel(int level) {
-    return levels.get(level).getDependencies();
-  }
-
-  public Set<T> getAllDependencies() {
-    Set<T> deps = new HashSet<>();
-
-    levels.forEach(level -> deps.addAll(level.getDependencies()));
 
     return deps;
   }
 
-  public int getMaxDepth() {
-    return levels.size();
-  }
+  public Set<Dependency> getAllDependencies() {
+    Set<Dependency> deps = new HashSet<>();
 
-  public void print() {
-    for (int i = 0; i < levels.size(); i++) {
-      TreeLevel<T> level = levels.get(i);
-      for (T dep : level.getDependencies()) {
-        String indent = "  ".repeat(i);
-        System.out.println("[" + i + "] " + indent + "- " + dep);
-      }
+    for (Branch branch : branches) {
+      deps.addAll(branch.getAllDeps());
     }
+
+    return deps;
   }
 
-  public int size() {
-    return levels.stream().mapToInt(level -> level.size()).sum();
-  }
-
-  private String getKey(T dep) {
-    return dep.toString();
-    // var artifact = dep.getArtifact();
-    // return artifact.getGroupId() + ":" + artifact.getArtifactId() + ":" + artifact.getVersion();
-  }
-
-  public boolean contains(T dep) {
-    return levels.stream().anyMatch(level -> levels.contains(dep));
-  }
-
-  public boolean containsDirect(DependencyFile dep) {
-    if (levels.isEmpty()) {
-      return false;
+  @Override
+  public String toString() {
+    StringBuilder sb = new StringBuilder();
+    for (Branch branch : branches) {
+      sb.append(branch.toString());
     }
-    return levels.get(BASE_LEVEL).getDependencies().stream().anyMatch(dep2 -> dep2.equals(dep));
+    return sb.toString();
+  }
+
+  public long size() {
+    return branches.stream().mapToLong(Branch::size).sum();
   }
 }

@@ -14,7 +14,9 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.List;
+import java.util.Set;
 import java.util.stream.Collectors;
+import org.eclipse.aether.artifact.Artifact;
 
 public class Parser {
   private static final String SRC_MAIN_JAVA = "src/main/java";
@@ -22,7 +24,7 @@ public class Parser {
   private JavaParser parser;
   private Path srcMainJavaPath;
 
-  public Parser(String repoPath, List<File> jarFiles) throws IOException {
+  public Parser(String repoPath, Set<Artifact> artifacts) throws IOException {
     srcMainJavaPath = Path.of(repoPath, SRC_MAIN_JAVA);
     ParserConfiguration config =
         new ParserConfiguration().setLanguageLevel(ParserConfiguration.LanguageLevel.JAVA_21);
@@ -34,7 +36,8 @@ public class Parser {
     typeSolver.add(javaSolver);
     typeSolver.add(reflectionSolver);
 
-    for (File jarFile : jarFiles) {
+    for (Artifact artifact : artifacts) {
+      File jarFile = artifact.getFile();
       JarTypeSolver jarTypeSolver = new JarTypeSolver(jarFile);
       typeSolver.add(jarTypeSolver);
     }
