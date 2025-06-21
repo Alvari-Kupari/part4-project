@@ -1,0 +1,9 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+merua0oo0__im,im-commom,com.fasterxml.jackson.core:jackson-annotations,2.9.0,2.9.10,2,2,compile,compile,version_managed
+merua0oo0__im,im-commom,com.fasterxml.jackson.core:jackson-core,2.9.6,2.9.10,2,2,compile,compile,version_managed
+merua0oo0__im,im-commom,com.fasterxml.jackson.core:jackson-databind,2.9.6,2.9.10,2,2,compile,compile,version_managed
+merua0oo0__im,im-commom,joda-time:joda-time,2.9.9,2.7,2,2,compile,compile,version_managed
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+im-commom,19,,,,,,,,

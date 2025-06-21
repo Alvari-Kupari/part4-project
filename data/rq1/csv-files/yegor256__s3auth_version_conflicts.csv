@@ -1,0 +1,13 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+yegor256__s3auth,s3auth-hosts,com.fasterxml.jackson.core:jackson-databind,2.12.7.1,2.12.6,2,3,compile,compile,omitted_conflict
+yegor256__s3auth,s3auth-hosts,com.fasterxml.jackson.core:jackson-core,2.12.7,2.12.6,3,3,compile,compile,omitted_conflict
+yegor256__s3auth,s3auth-hosts,commons-logging:commons-logging,1.1.3,1.2,2,2,compile,compile,omitted_conflict
+yegor256__s3auth,s3auth-hosts,com.amazonaws:aws-java-sdk-core,1.12.609,1.12.584,1,2,compile,compile,omitted_conflict
+yegor256__s3auth,s3auth-hosts,com.amazonaws:aws-java-sdk-dynamodb,1.12.609,1.12.584,1,2,compile,compile,omitted_conflict
+yegor256__s3auth,s3auth-hosts,org.slf4j:slf4j-api,2.0.9,1.7.25,2,4,compile,runtime,omitted_conflict
+yegor256__s3auth,s3auth-hosts,org.hamcrest:hamcrest-core,2.2,1.3,1,2,test,test,omitted_conflict
+yegor256__s3auth,s3auth-hosts,org.junit.platform:junit-platform-engine,1.10.1,1.10.2,2,2,test,test,version_managed
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+s3auth-hosts,75,,,,,,,,

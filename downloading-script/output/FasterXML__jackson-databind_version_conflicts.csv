@@ -1,0 +1,10 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+FasterXML__jackson-databind,FasterXML__jackson-databind,net.bytebuddy:byte-buddy,1.15.10,1.15.11,2,2,test,test,version_managed
+FasterXML__jackson-databind,FasterXML__jackson-databind,net.bytebuddy:byte-buddy-agent,1.15.10,1.12.19,2,2,test,test,version_managed
+FasterXML__jackson-databind,FasterXML__jackson-databind,org.junit.platform:junit-platform-engine,1.11.4,1.10.2,2,2,test,test,version_managed
+FasterXML__jackson-databind,FasterXML__jackson-databind,org.junit.platform:junit-platform-suite-api,1.11.4,1.10.2,2,2,test,test,version_managed
+FasterXML__jackson-databind,FasterXML__jackson-databind,org.junit.platform:junit-platform-suite-commons,1.11.4,1.10.2,2,2,test,test,version_managed
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+FasterXML__jackson-databind,39,,,,,,,,

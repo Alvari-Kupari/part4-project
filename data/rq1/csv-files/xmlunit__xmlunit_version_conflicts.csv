@@ -1,0 +1,15 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+xmlunit__xmlunit,xmlunit-assertj3,net.bytebuddy:byte-buddy,1.12.23,1.10.5,2,2,test,test,version_managed
+xmlunit__xmlunit,xmlunit-core,net.bytebuddy:byte-buddy,1.12.23,1.10.5,2,2,test,test,version_managed
+xmlunit__xmlunit,xmlunit-legacy,net.bytebuddy:byte-buddy,1.12.23,1.10.5,2,2,test,test,version_managed
+xmlunit__xmlunit,xmlunit-matchers,net.bytebuddy:byte-buddy,1.12.23,1.10.5,2,2,test,test,version_managed
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+xmlunit-assertj,9,,,,,,,,
+xmlunit-assertj3,9,,,,,,,,
+xmlunit-core,14,,,,,,,,
+xmlunit-jakarta-jaxb-impl,10,,,,,,,,
+xmlunit-legacy,7,,,,,,,,
+xmlunit-matchers,9,,,,,,,,
+xmlunit-placeholders,4,,,,,,,,

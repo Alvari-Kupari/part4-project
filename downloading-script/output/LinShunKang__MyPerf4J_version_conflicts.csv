@@ -1,0 +1,8 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+MyPerf4J-ASM,6,,,,,,,,
+MyPerf4J-Base,3,,,,,,,,
+MyPerf4J-Benchmark,8,,,,,,,,
+MyPerf4J-Core,4,,,,,,,,

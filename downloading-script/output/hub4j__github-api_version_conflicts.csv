@@ -1,0 +1,14 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+hub4j__github-api,hub4j__github-api,com.squareup.okio:okio,3.10.2,3.6.0,1,2,compile,compile,omitted_conflict
+hub4j__github-api,hub4j__github-api,org.jetbrains.kotlin:kotlin-stdlib-jdk8,1.9.25,1.8.21,2,2,compile,compile,version_managed
+hub4j__github-api,hub4j__github-api,org.jspecify:jspecify,0.3.0,1.0.0,2,2,test,test,version_managed
+hub4j__github-api,hub4j__github-api,org.slf4j:slf4j-api,2.0.17,2.0.16,2,2,test,test,version_managed
+hub4j__github-api,hub4j__github-api,net.bytebuddy:byte-buddy,1.14.19,1.15.11,2,2,test,test,version_managed
+hub4j__github-api,hub4j__github-api,net.bytebuddy:byte-buddy-agent,1.14.19,1.15.11,2,2,test,test,version_managed
+hub4j__github-api,hub4j__github-api,org.junit.jupiter:junit-jupiter,5.12.1,5.10.5,2,2,test,test,version_managed
+hub4j__github-api,hub4j__github-api,io.micrometer:micrometer-observation,1.13.6,1.12.11,5,5,test,test,version_managed
+hub4j__github-api,hub4j__github-api,org.slf4j:jul-to-slf4j,2.0.17,2.0.16,4,4,test,test,version_managed
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+hub4j__github-api,85,,,,,,,,

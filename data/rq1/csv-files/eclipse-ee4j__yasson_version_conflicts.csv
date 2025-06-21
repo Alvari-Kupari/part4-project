@@ -1,0 +1,6 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+eclipse-ee4j__yasson,29,,,,,,,,
+yasson-jmh,6,,,,,,,,

@@ -1,0 +1,15 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+AdoptOpenJDK__IcedTea-Web,integration,org.slf4j:slf4j-api,1.7.36,1.7.25,2,3,compile,compile,omitted_conflict
+AdoptOpenJDK__IcedTea-Web,integration,org.hamcrest:hamcrest,2.1,2.2,1,4,compile,compile,omitted_conflict
+AdoptOpenJDK__IcedTea-Web,integration,org.slf4j:slf4j-api,1.7.36,1.7.33,2,3,compile,compile,omitted_conflict
+AdoptOpenJDK__IcedTea-Web,integration,org.slf4j:slf4j-api,1.7.36,1.7.32,2,3,compile,compile,omitted_conflict
+AdoptOpenJDK__IcedTea-Web,integration,org.slf4j:slf4j-api,1.7.36,1.7.27,2,2,compile,compile,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+common,4,,,,,,,,
+core,7,,,,,,,,
+integration,62,,,,,,,,
+jnlp-api,0,,,,,,,,
+test-extensions,6,,,,,,,,
+xml-parser,4,,,,,,,,

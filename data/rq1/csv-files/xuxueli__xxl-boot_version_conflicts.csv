@@ -1,0 +1,9 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+xuxueli__xxl-boot,xxl-boot-admin,net.minidev:json-smart,2.4.11,2.4.7,3,3,test,test,version_managed
+xuxueli__xxl-boot,xxl-boot-admin,net.bytebuddy:byte-buddy,1.12.23,1.12.9,3,3,test,test,version_managed
+xuxueli__xxl-boot,xxl-boot-admin,net.bytebuddy:byte-buddy-agent,1.12.23,1.12.9,3,3,test,test,version_managed
+xuxueli__xxl-boot,xxl-boot-admin,org.slf4j:slf4j-api,1.7.36,2.0.17,2,2,compile,compile,version_managed
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+xxl-boot-admin,85,,,,,,,,

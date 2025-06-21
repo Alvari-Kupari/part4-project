@@ -1,0 +1,8 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+FasterXML__jackson-modules-java8,parameter-names,net.bytebuddy:byte-buddy,1.15.11,1.12.9,2,2,test,test,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+datatypes,12,,,,,,,,
+datetime,12,,,,,,,,
+parameter-names,17,,,,,,,,

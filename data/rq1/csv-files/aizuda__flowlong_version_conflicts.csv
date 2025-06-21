@@ -1,0 +1,17 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+aizuda__flowlong,flowlong-solon-example,com.baomidou:mybatis-plus-extension,3.5.8,3.5.9,2,2,compile,compile,version_managed
+aizuda__flowlong,flowlong-spring-boot-example,org.springframework.boot:spring-boot-autoconfigure,2.7.0,2.7.18,2,2,compile,compile,version_managed
+aizuda__flowlong,flowlong-spring-boot-starter,org.springframework.boot:spring-boot-starter-jdbc,2.7.0,2.7.18,2,2,provided,provided,version_managed
+aizuda__flowlong,flowlong-spring-boot-starter,net.minidev:json-smart,2.4.8,2.4.7,3,3,test,test,version_managed
+aizuda__flowlong,flowlong-spring-boot-starter,net.bytebuddy:byte-buddy,1.12.10,1.12.9,3,3,test,test,version_managed
+aizuda__flowlong,flowlong-spring-boot-starter,net.bytebuddy:byte-buddy-agent,1.12.10,1.12.9,3,3,test,test,version_managed
+aizuda__flowlong,flowlong-spring-boot-starter,org.hamcrest:hamcrest-core,2.2,1.3,2,2,test,test,version_managed
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+flowlong-core,4,,,,,,,,
+flowlong-mybatis-plus,9,,,,,,,,
+flowlong-solon-example,63,,,,,,,,
+flowlong-solon-plugin,24,,,,,,,,
+flowlong-spring-boot-example,52,,,,,,,,
+flowlong-spring-boot-starter,82,,,,,,,,

@@ -1,0 +1,19 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+membrane__api-gateway,annot,org.slf4j:slf4j-api,2.0.17,2.0.16,2,2,compile,compile,version_managed
+membrane__api-gateway,4-xml-session,jakarta.activation:jakarta.activation-api,2.1.3,2.1.0,2,3,compile,compile,omitted_conflict
+membrane__api-gateway,test,commons-codec:commons-codec,1.18.0,1.11,2,2,compile,compile,version_managed
+membrane__api-gateway,test,org.apache.groovy:groovy,4.0.26,4.0.11,2,2,compile,compile,version_managed
+membrane__api-gateway,test,org.apache.commons:commons-lang3,3.13.0,3.11,3,3,compile,compile,version_managed
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+annot,19,,,,,,,,
+custom-interceptor,4,,,,,,,,
+embedding-java,6,,,,,,,,
+4-xml-session,22,,,,,,,,
+add-soap-header,2,,,,,,,,
+embedded,2,,,,,,,,
+standalone,2,,,,,,,,
+basic-xml-interceptor,2,,,,,,,,
+stax-interceptor,2,,,,,,,,
+test,22,,,,,,,,

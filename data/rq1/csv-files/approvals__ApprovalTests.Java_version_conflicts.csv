@@ -1,0 +1,23 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+approvals__ApprovalTests.Java,approvaltests,com.thoughtworks.xstream:xstream,1.4.21,1.4.20,1,2,compile,compile,omitted_conflict
+approvals__ApprovalTests.Java,approvaltests,org.codehaus.jettison:jettison,1.5.4,1.5.3,1,2,compile,compile,omitted_conflict
+approvals__ApprovalTests.Java,approvaltests,jakarta.xml.bind:jakarta.xml.bind-api,4.0.2,2.3.3,2,4,compile,compile,omitted_conflict
+approvals__ApprovalTests.Java,approvaltests,org.slf4j:slf4j-api,1.7.36,2.0.16,2,2,compile,runtime,omitted_conflict
+approvals__ApprovalTests.Java,approvaltests,org.junit.platform:junit-platform-engine,1.13.1,1.7.2,2,2,test,test,omitted_conflict
+approvals__ApprovalTests.Java,approvaltests,org.testng:testng,7.10.2,6.14.3,1,2,compile,test,omitted_conflict
+approvals__ApprovalTests.Java,approvaltests-tests,org.junit.jupiter:junit-jupiter-api,5.13.1,5.10.0,2,2,compile,test,omitted_conflict
+approvals__ApprovalTests.Java,approvaltests-tests,org.slf4j:slf4j-api,2.0.16,1.7.36,2,2,compile,compile,omitted_conflict
+approvals__ApprovalTests.Java,approvaltests-tests,org.slf4j:slf4j-api,2.0.16,1.7.36,2,2,compile,compile,omitted_conflict
+approvals__ApprovalTests.Java,approvaltests-tests,org.slf4j:slf4j-api,2.0.16,1.7.36,2,2,compile,compile,omitted_conflict
+approvals__ApprovalTests.Java,approvaltests-tests,jakarta.xml.bind:jakarta.xml.bind-api,4.0.2,2.3.3,2,4,compile,compile,omitted_conflict
+approvals__ApprovalTests.Java,approvaltests-tests,org.slf4j:slf4j-api,2.0.16,1.7.36,2,2,compile,compile,omitted_conflict
+approvals__ApprovalTests.Java,approvaltests-tests,org.slf4j:slf4j-api,2.0.16,1.7.36,2,2,compile,compile,omitted_conflict
+approvals__ApprovalTests.Java,approvaltests-util,org.slf4j:slf4j-api,1.7.36,2.0.16,2,2,compile,runtime,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+approvaltests,46,,,,,,,,
+approvaltests-tests,57,,,,,,,,
+approvaltests-util,23,,,,,,,,
+counter_display,10,,,,,,,,
+html_locker,12,,,,,,,,

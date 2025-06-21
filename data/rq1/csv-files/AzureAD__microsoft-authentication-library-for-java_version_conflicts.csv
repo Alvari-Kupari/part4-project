@@ -1,0 +1,24 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+AzureAD__microsoft-authentication-library-for-java,msal4j-brokers,com.fasterxml.jackson.core:jackson-annotations,2.12.5,2.13.4,2,3,compile,compile,omitted_conflict
+AzureAD__microsoft-authentication-library-for-java,msal4j-brokers,com.fasterxml.jackson.core:jackson-core,2.12.5,2.13.4,2,3,compile,compile,omitted_conflict
+AzureAD__microsoft-authentication-library-for-java,msal4j-brokers,org.slf4j:slf4j-api,1.7.36,2.0.7,1,2,compile,test,omitted_conflict
+AzureAD__microsoft-authentication-library-for-java,msal4j-brokers,com.google.code.findbugs:jsr305,3.0.1,1.3.9,2,3,test,test,omitted_conflict
+AzureAD__microsoft-authentication-library-for-java,msal4j-brokers,com.squareup.okio:okio,1.14.1,1.14.0,2,3,test,test,omitted_conflict
+AzureAD__microsoft-authentication-library-for-java,msal4j-brokers,com.fasterxml.jackson.core:jackson-databind,2.13.4.2,2.12.5,2,2,compile,test,omitted_conflict
+AzureAD__microsoft-authentication-library-for-java,msal4j-brokers,org.slf4j:slf4j-api,1.7.36,1.7.32,1,2,compile,test,omitted_conflict
+AzureAD__microsoft-authentication-library-for-java,msal4j-brokers,com.fasterxml.jackson.core:jackson-databind,2.13.4.2,2.12.5,2,2,compile,test,omitted_conflict
+AzureAD__microsoft-authentication-library-for-java,msal4j-brokers,com.fasterxml.jackson.core:jackson-databind,2.13.4.2,2.12.5,2,2,compile,test,omitted_conflict
+AzureAD__microsoft-authentication-library-for-java,msal4j-brokers,com.fasterxml.jackson.core:jackson-databind,2.13.4.2,2.12.5,2,2,compile,test,omitted_conflict
+AzureAD__microsoft-authentication-library-for-java,msal4j-persistence-extension,org.slf4j:slf4j-api,1.7.7,1.7.36,1,2,compile,compile,omitted_conflict
+AzureAD__microsoft-authentication-library-for-java,msal4j-persistence-extension,net.minidev:json-smart,2.4.11,2.5.1,2,3,compile,compile,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+msal4j-brokers,73,,,,,,,,
+msal4j-persistence-extension,18,,,,,,,,
+msal4j-sdk,87,,,,,,,,
+msal-b2c-web-sample,75,,,,,,,,
+msal-web-sample,86,,,,,,,,
+msi-sample,28,,,,,,,,
+msi-sample-jar,5,,,,,,,,
+spring-security-web-app,67,,,,,,,,

@@ -1,0 +1,27 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+sofastack__sofa-jraft,jraft-core,org.hamcrest:hamcrest-core,1.3,1.1,2,2,test,test,omitted_conflict
+sofastack__sofa-jraft,jraft-example,com.google.protobuf:protobuf-java,3.25.5,3.5.1,2,2,compile,compile,version_managed
+sofastack__sofa-jraft,jraft-example,com.fasterxml.jackson.core:jackson-databind,2.12.6.1,2.13.4,1,2,compile,compile,omitted_conflict
+sofastack__sofa-jraft,jraft-example,com.fasterxml.jackson.core:jackson-core,2.13.4,2.12.6,2,2,compile,compile,omitted_conflict
+sofastack__sofa-jraft,bdb-log-storage-impl,com.google.protobuf:protobuf-java,3.25.5,3.5.1,2,2,compile,compile,version_managed
+sofastack__sofa-jraft,java-log-storage-impl,com.google.protobuf:protobuf-java,3.25.5,3.5.1,2,2,compile,compile,version_managed
+sofastack__sofa-jraft,java-log-storage-impl,org.hamcrest:hamcrest-core,1.3,1.1,2,2,test,test,omitted_conflict
+sofastack__sofa-jraft,rpc-grpc-impl,com.google.protobuf:protobuf-java,3.25.5,3.5.1,2,2,compile,compile,version_managed
+sofastack__sofa-jraft,rpc-grpc-impl,com.google.errorprone:error_prone_annotations,2.23.0,2.21.1,2,3,compile,compile,omitted_conflict
+sofastack__sofa-jraft,rpc-grpc-impl,org.hamcrest:hamcrest-core,1.3,1.1,2,2,test,test,omitted_conflict
+sofastack__sofa-jraft,rheakv-core,com.google.protobuf:protobuf-java,3.25.5,3.5.1,2,2,compile,compile,version_managed
+sofastack__sofa-jraft,rheakv-core,com.fasterxml.jackson.core:jackson-databind,2.12.6.1,2.12.6,1,2,test,test,omitted_conflict
+sofastack__sofa-jraft,rheakv-pd,com.google.protobuf:protobuf-java,3.25.5,3.5.1,3,3,compile,compile,version_managed
+sofastack__sofa-jraft,rheakv-pd,com.fasterxml.jackson.core:jackson-databind,2.12.6.1,2.12.6,1,2,compile,compile,omitted_conflict
+sofastack__sofa-jraft,jraft-test,com.google.protobuf:protobuf-java,3.25.5,3.5.1,2,2,compile,compile,version_managed
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+jraft-core,37,,,,,,,,
+jraft-example,36,,,,,,,,
+bdb-log-storage-impl,20,,,,,,,,
+java-log-storage-impl,25,,,,,,,,
+rpc-grpc-impl,44,,,,,,,,
+rheakv-core,38,,,,,,,,
+rheakv-pd,35,,,,,,,,
+jraft-test,22,,,,,,,,

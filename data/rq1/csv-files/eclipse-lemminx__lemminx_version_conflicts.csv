@@ -1,0 +1,6 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+eclipse-lemminx__lemminx,org.eclipse.lemminx,org.jsoup:jsoup,1.14.2,1.9.2,1,2,compile,compile,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+org.eclipse.lemminx,28,,,,,,,,

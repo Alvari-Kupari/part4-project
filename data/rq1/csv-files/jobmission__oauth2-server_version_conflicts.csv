@@ -1,0 +1,19 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+jobmission__oauth2-server,jobmission__oauth2-server,com.fasterxml.jackson.core:jackson-databind,2.19.0,2.18.4,2,2,compile,compile,version_managed
+jobmission__oauth2-server,jobmission__oauth2-server,com.nimbusds:nimbus-jose-jwt,9.47,9.37.3,2,3,compile,compile,omitted_conflict
+jobmission__oauth2-server,jobmission__oauth2-server,com.nimbusds:nimbus-jose-jwt,9.47,9.37.3,2,3,compile,compile,omitted_conflict
+jobmission__oauth2-server,jobmission__oauth2-server,org.slf4j:slf4j-api,2.0.17,2.0.16,3,3,compile,compile,version_managed
+jobmission__oauth2-server,jobmission__oauth2-server,org.jboss.logging:jboss-logging,3.6.1.Final,3.5.0.Final,3,3,runtime,runtime,version_managed
+jobmission__oauth2-server,jobmission__oauth2-server,com.fasterxml:classmate,1.7.0,1.5.1,3,3,runtime,runtime,version_managed
+jobmission__oauth2-server,jobmission__oauth2-server,net.bytebuddy:byte-buddy,1.17.5,1.15.11,3,3,runtime,runtime,version_managed
+jobmission__oauth2-server,jobmission__oauth2-server,org.glassfish.jaxb:jaxb-runtime,4.0.5,4.0.2,3,3,runtime,runtime,version_managed
+jobmission__oauth2-server,jobmission__oauth2-server,com.google.code.gson:gson,2.13.1,2.8.6,2,2,compile,compile,version_managed
+jobmission__oauth2-server,jobmission__oauth2-server,org.springframework.boot:spring-boot-autoconfigure,3.5.0,2.2.7.RELEASE,2,2,compile,compile,version_managed
+jobmission__oauth2-server,jobmission__oauth2-server,org.springframework.boot:spring-boot-autoconfigure-processor,3.5.0,2.2.7.RELEASE,2,2,compile,compile,version_managed
+jobmission__oauth2-server,jobmission__oauth2-server,org.springframework.boot:spring-boot-configuration-processor,3.5.0,2.2.7.RELEASE,2,2,compile,compile,version_managed
+jobmission__oauth2-server,jobmission__oauth2-server,com.google.errorprone:error_prone_annotations,2.36.0,2.38.0,2,3,compile,compile,omitted_conflict
+jobmission__oauth2-server,jobmission__oauth2-server,net.bytebuddy:byte-buddy-agent,1.17.5,1.15.11,3,3,test,test,version_managed
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+jobmission__oauth2-server,133,,,,,,,,

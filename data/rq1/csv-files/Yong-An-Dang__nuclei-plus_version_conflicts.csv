@@ -1,0 +1,9 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+Yong-An-Dang__nuclei-plus,nuclei,org.jetbrains:annotations,RELEASE,20.1.0,2,2,compile,compile,version_managed
+Yong-An-Dang__nuclei-plus,nuclei,net.java.dev.jna:jna,5.8.0,5.12.1,2,2,runtime,runtime,version_managed
+Yong-An-Dang__nuclei-plus,nuclei,org.jetbrains.kotlin:kotlin-stdlib-jdk8,1.8.21,1.9.10,2,4,compile,compile,omitted_conflict
+Yong-An-Dang__nuclei-plus,nuclei,org.jetbrains.kotlin:kotlin-stdlib,2.0.0,1.8.21,3,3,compile,compile,version_managed
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+nuclei,44,,,,,,,,

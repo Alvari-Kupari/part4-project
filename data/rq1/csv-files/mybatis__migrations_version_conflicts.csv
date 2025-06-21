@@ -1,0 +1,8 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+mybatis__migrations,mybatis__migrations,net.bytebuddy:byte-buddy,1.17.5,1.17.4,1,3,test,test,omitted_conflict
+mybatis__migrations,mybatis__migrations,net.bytebuddy:byte-buddy-agent,1.17.5,1.17.4,1,3,test,test,omitted_conflict
+mybatis__migrations,mybatis__migrations,net.bytebuddy:byte-buddy,1.17.5,1.15.11,1,2,test,test,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+mybatis__migrations,20,,,,,,,,

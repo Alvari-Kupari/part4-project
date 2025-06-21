@@ -1,0 +1,16 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+apereo__java-cas-client,cas-client-support-distributed-ehcache,com.fasterxml.jackson.core:jackson-databind,2.19.0,2.19.1,2,2,compile,compile,version_managed
+apereo__java-cas-client,cas-client-support-distributed-ehcache,org.slf4j:slf4j-api,2.0.17,1.7.36,1,2,compile,runtime,omitted_conflict
+apereo__java-cas-client,cas-client-support-distributed-memcached,com.fasterxml.jackson.core:jackson-databind,2.19.0,2.19.1,2,2,compile,compile,version_managed
+apereo__java-cas-client,cas-client-support-saml,com.fasterxml.jackson.core:jackson-databind,2.19.0,2.19.1,2,2,compile,compile,version_managed
+apereo__java-cas-client,cas-client-support-springboot,com.fasterxml.jackson.core:jackson-databind,2.19.0,2.19.1,2,2,compile,compile,version_managed
+apereo__java-cas-client,cas-client-support-springboot,io.micrometer:micrometer-observation,1.15.0,1.14.7,2,2,provided,provided,version_managed
+apereo__java-cas-client,cas-client-support-springboot,org.hamcrest:hamcrest-core,3.0,1.3,2,2,test,test,version_managed
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+cas-client-core,27,,,,,,,,
+cas-client-support-distributed-ehcache,23,,,,,,,,
+cas-client-support-distributed-memcached,17,,,,,,,,
+cas-client-support-saml,19,,,,,,,,
+cas-client-support-springboot,41,,,,,,,,

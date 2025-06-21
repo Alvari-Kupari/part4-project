@@ -1,0 +1,7 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+rongcloud__server-sdk-java,rongcloud__server-sdk-java,com.fasterxml.jackson.core:jackson-annotations,2.18.3,2.10.0,1,2,compile,compile,omitted_conflict
+rongcloud__server-sdk-java,rongcloud__server-sdk-java,commons-codec:commons-codec,1.4,1.11,1,2,compile,compile,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+rongcloud__server-sdk-java,17,,,,,,,,

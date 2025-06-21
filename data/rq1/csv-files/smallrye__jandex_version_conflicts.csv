@@ -1,0 +1,18 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+smallrye__jandex,benchmarks,org.junit.jupiter:junit-jupiter,5.13.1,5.10.1,4,4,compile,compile,version_managed
+smallrye__jandex,maven-plugin,org.codehaus.plexus:plexus-component-annotations,2.2.0,2.1.0,2,3,provided,provided,omitted_conflict
+smallrye__jandex,maven-plugin,org.codehaus.plexus:plexus-classworlds,2.9.0,2.6.0,2,3,provided,provided,omitted_conflict
+smallrye__jandex,dependencies,org.jboss:jandex,2.4.0.Final,2.4.1.Final,1,2,compile,compile,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+benchmarks,22,,,,,,,,
+core,13,,,,,,,,
+maven-plugin,43,,,,,,,,
+dependencies,7,,,,,,,,
+indexVersion,0,,,,,,,,
+jar,3,,,,,,,,
+noFileset,0,,,,,,,,
+reproducible,0,,,,,,,,
+smoketest,0,,,,,,,,
+test-data,0,,,,,,,,

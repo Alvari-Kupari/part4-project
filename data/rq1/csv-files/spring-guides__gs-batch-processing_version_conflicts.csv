@@ -1,0 +1,12 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+spring-guides__gs-batch-processing,complete,org.slf4j:slf4j-api,2.0.16,2.0.11,3,3,compile,compile,version_managed
+spring-guides__gs-batch-processing,complete,net.bytebuddy:byte-buddy,1.15.11,1.14.18,3,3,test,test,version_managed
+spring-guides__gs-batch-processing,complete,net.bytebuddy:byte-buddy-agent,1.15.11,1.15.4,3,3,test,test,version_managed
+spring-guides__gs-batch-processing,initial,org.slf4j:slf4j-api,2.0.16,2.0.11,3,3,compile,compile,version_managed
+spring-guides__gs-batch-processing,initial,net.bytebuddy:byte-buddy,1.15.11,1.14.18,3,3,test,test,version_managed
+spring-guides__gs-batch-processing,initial,net.bytebuddy:byte-buddy-agent,1.15.11,1.15.4,3,3,test,test,version_managed
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+complete,64,,,,,,,,
+initial,64,,,,,,,,

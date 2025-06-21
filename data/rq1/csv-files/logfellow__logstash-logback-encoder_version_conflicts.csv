@@ -1,0 +1,7 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+logfellow__logstash-logback-encoder,logfellow__logstash-logback-encoder,ch.qos.logback:logback-core,1.5.18,1.5.16,1,2,provided,compile,omitted_conflict
+logfellow__logstash-logback-encoder,logfellow__logstash-logback-encoder,org.slf4j:slf4j-api,2.0.17,1.7.36,2,2,compile,compile,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+logfellow__logstash-logback-encoder,32,,,,,,,,

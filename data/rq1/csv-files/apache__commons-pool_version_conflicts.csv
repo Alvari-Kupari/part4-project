@@ -1,0 +1,7 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+apache__commons-pool,apache__commons-pool,org.ow2.asm:asm,7.1,9.8,2,2,compile,compile,omitted_conflict
+apache__commons-pool,apache__commons-pool,org.ow2.asm:asm,7.1,9.8,2,2,compile,compile,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+apache__commons-pool,15,,,,,,,,

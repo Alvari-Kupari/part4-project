@@ -1,0 +1,22 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+alibaba__java-dns-cache-manipulator,library,org.junit.platform:junit-platform-engine,1.13.1,1.8.2,2,2,test,test,version_managed
+alibaba__java-dns-cache-manipulator,library,org.junit.platform:junit-platform-suite-api,1.13.1,1.8.2,2,2,test,test,version_managed
+alibaba__java-dns-cache-manipulator,library,org.junit.platform:junit-platform-launcher,1.13.1,1.8.2,2,2,test,test,version_managed
+alibaba__java-dns-cache-manipulator,library,org.junit.jupiter:junit-jupiter-api,5.13.1,5.8.2,2,2,test,test,version_managed
+alibaba__java-dns-cache-manipulator,library,org.jetbrains.kotlin:kotlin-stdlib-jdk8,2.1.21,1.8.10,2,2,test,test,version_managed
+alibaba__java-dns-cache-manipulator,library,org.jetbrains.kotlin:kotlin-reflect,2.1.21,1.8.10,2,2,test,test,version_managed
+alibaba__java-dns-cache-manipulator,library,org.jetbrains.kotlin:kotlin-stdlib-common,1.8.10,1.8.20,2,3,test,test,omitted_conflict
+alibaba__java-dns-cache-manipulator,library,org.jetbrains.kotlin:kotlin-stdlib-common,1.8.10,1.8.20,2,3,test,test,omitted_conflict
+alibaba__java-dns-cache-manipulator,tool,org.junit.platform:junit-platform-engine,1.13.1,1.8.2,2,2,test,test,version_managed
+alibaba__java-dns-cache-manipulator,tool,org.junit.platform:junit-platform-suite-api,1.13.1,1.8.2,2,2,test,test,version_managed
+alibaba__java-dns-cache-manipulator,tool,org.junit.platform:junit-platform-launcher,1.13.1,1.8.2,2,2,test,test,version_managed
+alibaba__java-dns-cache-manipulator,tool,org.junit.jupiter:junit-jupiter-api,5.13.1,5.8.2,2,2,test,test,version_managed
+alibaba__java-dns-cache-manipulator,tool,org.jetbrains.kotlin:kotlin-stdlib-jdk8,2.1.21,1.8.10,2,2,test,test,version_managed
+alibaba__java-dns-cache-manipulator,tool,org.jetbrains.kotlin:kotlin-reflect,2.1.21,1.8.10,2,2,test,test,version_managed
+alibaba__java-dns-cache-manipulator,tool,org.jetbrains.kotlin:kotlin-stdlib-common,1.8.10,1.8.20,2,3,test,test,omitted_conflict
+alibaba__java-dns-cache-manipulator,tool,org.jetbrains.kotlin:kotlin-stdlib-common,1.8.10,1.8.20,2,3,test,test,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+library,42,,,,,,,,
+tool,46,,,,,,,,

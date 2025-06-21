@@ -1,0 +1,11 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+admin-token,6,,,,,,,,
+admin-web,7,,,,,,,,
+blog-web,7,,,,,,,,
+common,11,,,,,,,,
+data,11,,,,,,,,
+service,6,,,,,,,,
+web,7,,,,,,,,

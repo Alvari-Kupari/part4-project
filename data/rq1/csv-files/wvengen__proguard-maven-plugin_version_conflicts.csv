@@ -1,0 +1,27 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+wvengen__proguard-maven-plugin,wvengen__proguard-maven-plugin,org.jetbrains:annotations,26.0.1,13.0,2,3,runtime,runtime,omitted_conflict
+wvengen__proguard-maven-plugin,wvengen__proguard-maven-plugin,org.codehaus.plexus:plexus-utils,1.4.9,1.0.4,2,3,compile,compile,omitted_conflict
+wvengen__proguard-maven-plugin,wvengen__proguard-maven-plugin,org.codehaus.plexus:plexus-utils,1.4.9,1.0.4,2,3,compile,compile,omitted_conflict
+wvengen__proguard-maven-plugin,wvengen__proguard-maven-plugin,org.codehaus.plexus:plexus-utils,1.4.9,1.0.4,2,3,compile,compile,omitted_conflict
+wvengen__proguard-maven-plugin,wvengen__proguard-maven-plugin,org.codehaus.plexus:plexus-utils,1.4.9,1.0.4,2,3,compile,compile,omitted_conflict
+wvengen__proguard-maven-plugin,wvengen__proguard-maven-plugin,org.codehaus.plexus:plexus-utils,1.4.9,1.0.4,2,3,compile,compile,omitted_conflict
+wvengen__proguard-maven-plugin,wvengen__proguard-maven-plugin,org.codehaus.plexus:plexus-utils,1.4.9,1.0.4,2,3,compile,compile,omitted_conflict
+wvengen__proguard-maven-plugin,wvengen__proguard-maven-plugin,org.codehaus.plexus:plexus-utils,1.4.9,1.0.4,2,3,compile,compile,omitted_conflict
+wvengen__proguard-maven-plugin,wvengen__proguard-maven-plugin,org.codehaus.plexus:plexus-utils,1.4.9,1.0.4,2,3,compile,compile,omitted_conflict
+wvengen__proguard-maven-plugin,wvengen__proguard-maven-plugin,junit:junit,4.13.2,3.8.1,1,4,test,compile,omitted_conflict
+wvengen__proguard-maven-plugin,wvengen__proguard-maven-plugin,org.codehaus.plexus:plexus-utils,1.4.9,1.5.1,2,3,compile,compile,omitted_conflict
+wvengen__proguard-maven-plugin,wvengen__proguard-maven-plugin,org.codehaus.plexus:plexus-container-default,1.0-alpha-8,1.0-alpha-15,3,3,compile,compile,omitted_conflict
+wvengen__proguard-maven-plugin,wvengen__proguard-maven-plugin,org.codehaus.plexus:plexus-classworlds,2.9.0,1.2-alpha-6,2,4,compile,compile,omitted_conflict
+wvengen__proguard-maven-plugin,wvengen__proguard-maven-plugin,junit:junit,4.13.2,3.8.1,1,4,test,compile,omitted_conflict
+wvengen__proguard-maven-plugin,wvengen__proguard-maven-plugin,org.codehaus.plexus:plexus-utils,1.4.9,1.5.5,2,4,compile,compile,omitted_conflict
+wvengen__proguard-maven-plugin,wvengen__proguard-maven-plugin,org.codehaus.plexus:plexus-component-api,1.0-alpha-15,1.0-alpha-16,3,4,compile,compile,omitted_conflict
+wvengen__proguard-maven-plugin,wvengen__proguard-maven-plugin,org.apache.maven:maven-model,2.0,3.9.10,2,2,compile,compile,omitted_conflict
+wvengen__proguard-maven-plugin,wvengen__proguard-maven-plugin,org.apache.maven:maven-artifact,2.0,3.9.10,2,2,compile,compile,omitted_conflict
+wvengen__proguard-maven-plugin,wvengen__proguard-maven-plugin,org.codehaus.plexus:plexus-utils,1.4.9,3.6.0,2,2,compile,compile,omitted_conflict
+wvengen__proguard-maven-plugin,wvengen__proguard-maven-plugin,org.codehaus.plexus:plexus-classworlds,2.9.0,2.6.0,2,3,compile,compile,omitted_conflict
+wvengen__proguard-maven-plugin,wvengen__proguard-maven-plugin,org.codehaus.plexus:plexus-utils,1.4.9,3.5.1,2,3,compile,compile,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+wvengen__proguard-maven-plugin,35,,,,,,,,
+simple,0,,,,,,,,

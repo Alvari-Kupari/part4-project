@@ -1,0 +1,11 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+javadev__underscore-java,spring-boot-example,io.micrometer:micrometer-observation,1.15.0,1.14.7,3,3,compile,compile,version_managed
+javadev__underscore-java,spring-boot-example,org.slf4j:slf4j-api,2.0.17,2.0.11,3,3,compile,compile,version_managed
+javadev__underscore-java,spring-boot-example,net.bytebuddy:byte-buddy,1.17.5,1.15.11,3,3,test,test,version_managed
+javadev__underscore-java,spring-boot-example,net.bytebuddy:byte-buddy-agent,1.17.5,1.15.11,3,3,test,test,version_managed
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+javadev__underscore-java,10,,,,,,,,
+examples,5,,,,,,,,
+spring-boot-example,65,,,,,,,,

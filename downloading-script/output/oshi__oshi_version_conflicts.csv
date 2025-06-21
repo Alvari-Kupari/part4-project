@@ -1,0 +1,7 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+oshi-core,12,,,,,,,,
+oshi-core-java11,12,,,,,,,,
+oshi-demo,8,,,,,,,,

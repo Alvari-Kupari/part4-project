@@ -1,0 +1,8 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+bujiio__buji-pac4j,bujiio__buji-pac4j,com.fasterxml.jackson.core:jackson-databind,2.19.0,2.16.1,3,3,compile,test,omitted_conflict
+bujiio__buji-pac4j,bujiio__buji-pac4j,org.slf4j:slf4j-api,2.0.17,2.0.11,2,3,compile,test,omitted_conflict
+bujiio__buji-pac4j,bujiio__buji-pac4j,org.slf4j:slf4j-api,2.0.17,2.0.11,2,3,compile,test,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+bujiio__buji-pac4j,45,,,,,,,,

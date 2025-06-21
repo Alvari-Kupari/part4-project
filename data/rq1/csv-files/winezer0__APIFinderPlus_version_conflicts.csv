@@ -1,0 +1,6 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+winezer0__APIFinderPlus,winezer0__APIFinderPlus,org.slf4j:slf4j-api,1.7.36,1.6.1,2,2,compile,compile,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+winezer0__APIFinderPlus,19,,,,,,,,

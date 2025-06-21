@@ -1,0 +1,18 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+imixs__imixs-workflow,imixs-workflow-core,org.junit.jupiter:junit-jupiter-api,5.9.2,5.10.1,1,2,test,test,omitted_conflict
+imixs__imixs-workflow,imixs-workflow-engine,org.junit.jupiter:junit-jupiter-api,5.9.2,5.10.1,1,2,test,test,omitted_conflict
+imixs__imixs-workflow,imixs-workflow-faces,org.junit.jupiter:junit-jupiter-api,5.9.2,5.10.1,1,2,test,test,omitted_conflict
+imixs__imixs-workflow,imixs-workflow-index-lucene,org.junit.jupiter:junit-jupiter-api,5.9.2,5.10.1,1,2,test,test,omitted_conflict
+imixs__imixs-workflow,imixs-workflow-index-solr,org.junit.jupiter:junit-jupiter-api,5.9.2,5.10.1,1,2,test,test,omitted_conflict
+imixs__imixs-workflow,imixs-workflow-jax-rs,xml-apis:xml-apis,1.4.01,1.3.04,5,7,provided,provided,omitted_conflict
+imixs__imixs-workflow,imixs-workflow-jax-rs,commons-logging:commons-logging,1.0.4,1.2,3,4,provided,provided,omitted_conflict
+imixs__imixs-workflow,imixs-workflow-jax-rs,org.junit.jupiter:junit-jupiter-api,5.9.2,5.10.1,1,2,test,test,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+imixs-workflow-core,67,,,,,,,,
+imixs-workflow-engine,60,,,,,,,,
+imixs-workflow-faces,58,,,,,,,,
+imixs-workflow-index-lucene,66,,,,,,,,
+imixs-workflow-index-solr,59,,,,,,,,
+imixs-workflow-jax-rs,94,,,,,,,,

@@ -1,0 +1,12 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+influxdata__influxdb-client-java,client-test,com.squareup.okio:okio,3.9.0,3.6.0,2,2,compile,compile,version_managed
+influxdata__influxdb-client-java,client-test,org.jetbrains.kotlin:kotlin-stdlib,2.1.10,1.9.21,4,4,compile,compile,version_managed
+influxdata__influxdb-client-java,spring,org.jetbrains.kotlin:kotlin-stdlib,2.1.10,1.9.21,5,5,compile,compile,version_managed
+influxdata__influxdb-client-java,spring,io.micrometer:micrometer-observation,1.13.4,1.12.11,3,4,compile,compile,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+client-test,23,,,,,,,,
+client-utils,10,,,,,,,,
+examples,42,,,,,,,,
+spring,59,,,,,,,,

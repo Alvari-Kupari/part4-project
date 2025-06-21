@@ -1,0 +1,9 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+google__truth,core,commons-io:commons-io,2.4,2.10.0,2,3,test,test,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+core,73,,,,,,,,
+liteproto,11,,,,,,,,
+proto,12,,,,,,,,
+re2j,3,,,,,,,,

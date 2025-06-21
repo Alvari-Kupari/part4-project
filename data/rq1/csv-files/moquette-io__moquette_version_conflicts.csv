@@ -1,0 +1,14 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+moquette-io__moquette,broker,org.slf4j:slf4j-api,1.7.36,1.7.21,1,2,compile,compile,omitted_conflict
+moquette-io__moquette,broker,io.netty:netty-buffer,4.1.118.Final,4.1.99.Final,1,2,compile,test,omitted_conflict
+moquette-io__moquette,broker,io.netty:netty-codec,4.1.118.Final,4.1.99.Final,1,2,compile,test,omitted_conflict
+moquette-io__moquette,broker,io.netty:netty-common,4.1.118.Final,4.1.99.Final,1,2,compile,test,omitted_conflict
+moquette-io__moquette,broker,io.netty:netty-handler,4.1.118.Final,4.1.99.Final,1,2,compile,test,omitted_conflict
+moquette-io__moquette,broker,io.netty:netty-transport,4.1.118.Final,4.1.99.Final,1,2,compile,test,omitted_conflict
+moquette-io__moquette,broker,org.jetbrains:annotations,RELEASE,16.0.3,1,2,test,test,omitted_conflict
+moquette-io__moquette,broker,org.reactivestreams:reactive-streams,1.0.4,1.0.3,2,3,test,test,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+broker,55,,,,,,,,
+embedding_moquette,19,,,,,,,,

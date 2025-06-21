@@ -1,0 +1,22 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+netxms__netxms,ubntlw,org.apache.httpcomponents:httpclient,4.5.13,4.4.1,1,2,compile,compile,omitted_conflict
+netxms__netxms,java,org.apache.commons:commons-lang3,3.17.0,3.14.0,1,0,compile,compile,omitted_conflict
+netxms__netxms,java,org.commonmark:commonmark,0.24.0,0.18.1,0,0,compile,compile,omitted_conflict
+netxms__netxms,java,org.slf4j:slf4j-api,2.0.17,2.0.9,1,0,compile,test,omitted_conflict
+netxms__netxms,java,commons-logging:commons-logging,1.1.1,1.2,2,3,compile,compile,omitted_conflict
+netxms__netxms,java,commons-beanutils:commons-beanutils,1.9.4,1.8.3,2,3,compile,compile,omitted_conflict
+netxms__netxms,java,org.apache.commons:commons-collections4,4.2,4.4,2,2,compile,compile,omitted_conflict
+netxms__netxms,java,commons-io:commons-io,2.19.0,2.16.1,1,2,compile,compile,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+docker,21,,,,,,,,
+java,56,,,,,,,,
+sample,2,,,,,,,,
+jmx,3,,,,,,,,
+opcua,29,,,,,,,,
+ubntlw,13,,,,,,,,
+netxms-client,14,,,,,,,,
+nxtcpproxy,8,,,,,,,,
+netxms-base,14,,,,,,,,
+filter,2,,,,,,,,

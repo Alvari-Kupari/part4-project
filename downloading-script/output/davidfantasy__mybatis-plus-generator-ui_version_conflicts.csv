@@ -1,0 +1,9 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+davidfantasy__mybatis-plus-generator-ui,davidfantasy__mybatis-plus-generator-ui,org.slf4j:slf4j-api,1.7.36,2.0.0-alpha1,3,3,compile,compile,version_managed
+davidfantasy__mybatis-plus-generator-ui,davidfantasy__mybatis-plus-generator-ui,net.minidev:json-smart,2.4.8,2.4.7,3,3,test,test,version_managed
+davidfantasy__mybatis-plus-generator-ui,davidfantasy__mybatis-plus-generator-ui,net.bytebuddy:byte-buddy,1.12.22,1.12.9,3,3,test,test,version_managed
+davidfantasy__mybatis-plus-generator-ui,davidfantasy__mybatis-plus-generator-ui,net.bytebuddy:byte-buddy-agent,1.12.22,1.12.9,3,3,test,test,version_managed
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+davidfantasy__mybatis-plus-generator-ui,91,,,,,,,,

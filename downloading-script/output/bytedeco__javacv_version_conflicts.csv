@@ -1,0 +1,13 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+bytedeco__javacv,bytedeco__javacv,org.bytedeco:javacpp,1.5.12-SNAPSHOT,1.5.9,1,2,compile,compile,omitted_conflict
+bytedeco__javacv,bytedeco__javacv,org.bytedeco:javacpp,1.5.12-SNAPSHOT,1.5.9,1,2,compile,compile,omitted_conflict
+bytedeco__javacv,bytedeco__javacv,org.bytedeco:javacpp,1.5.12-SNAPSHOT,1.5.9,1,2,compile,compile,omitted_conflict
+bytedeco__javacv,bytedeco__javacv,org.bytedeco:javacpp,1.5.12-SNAPSHOT,1.5.9,1,2,compile,compile,omitted_conflict
+bytedeco__javacv,bytedeco__javacv,org.bytedeco:javacpp,1.5.12-SNAPSHOT,1.5.9,1,2,compile,compile,omitted_conflict
+bytedeco__javacv,bytedeco__javacv,org.bytedeco:javacpp,1.5.12-SNAPSHOT,1.5.9,1,2,compile,compile,omitted_conflict
+bytedeco__javacv,bytedeco__javacv,org.bytedeco:javacpp,1.5.12-SNAPSHOT,1.5.9,1,2,compile,compile,omitted_conflict
+bytedeco__javacv,bytedeco__javacv,org.bytedeco:javacpp,1.5.12-SNAPSHOT,1.5.9,1,2,compile,compile,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+bytedeco__javacv,26,,,,,,,,

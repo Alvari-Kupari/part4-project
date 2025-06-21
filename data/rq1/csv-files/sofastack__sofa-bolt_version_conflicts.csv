@@ -1,0 +1,6 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+sofastack__sofa-bolt,sofastack__sofa-bolt,org.slf4j:slf4j-api,1.7.21,1.7.25,1,2,compile,test,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+sofastack__sofa-bolt,32,,,,,,,,

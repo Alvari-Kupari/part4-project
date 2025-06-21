@@ -1,0 +1,8 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+sblantipodi__firefly_luciferin,sblantipodi__firefly_luciferin,net.java.dev.jna:jna,5.17.0,5.10.0,1,2,compile,compile,omitted_conflict
+sblantipodi__firefly_luciferin,sblantipodi__firefly_luciferin,org.slf4j:slf4j-api,2.0.17,2.0.16,1,2,compile,compile,omitted_conflict
+sblantipodi__firefly_luciferin,sblantipodi__firefly_luciferin,org.slf4j:slf4j-api,2.0.17,2.0.16,1,2,compile,compile,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+sblantipodi__firefly_luciferin,34,,,,,,,,

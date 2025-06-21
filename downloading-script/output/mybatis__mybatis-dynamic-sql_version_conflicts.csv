@@ -1,0 +1,25 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+mybatis__mybatis-dynamic-sql,mybatis__mybatis-dynamic-sql,org.jetbrains:annotations,13.0,23.0.0,3,3,provided,test,omitted_conflict
+mybatis__mybatis-dynamic-sql,mybatis__mybatis-dynamic-sql,org.jetbrains.kotlin:kotlin-stdlib,2.1.21,1.9.21,2,3,provided,test,omitted_conflict
+mybatis__mybatis-dynamic-sql,mybatis__mybatis-dynamic-sql,org.springframework:spring-beans,6.2.7,6.2.4,2,2,provided,test,omitted_conflict
+mybatis__mybatis-dynamic-sql,mybatis__mybatis-dynamic-sql,org.springframework:spring-tx,6.2.7,6.2.4,2,2,provided,test,omitted_conflict
+mybatis__mybatis-dynamic-sql,mybatis__mybatis-dynamic-sql,org.springframework:spring-jdbc,6.2.7,6.2.4,1,2,provided,test,omitted_conflict
+mybatis__mybatis-dynamic-sql,mybatis__mybatis-dynamic-sql,org.springframework:spring-core,6.2.7,6.2.4,2,3,provided,test,omitted_conflict
+mybatis__mybatis-dynamic-sql,mybatis__mybatis-dynamic-sql,org.springframework:spring-beans,6.2.7,6.2.4,2,2,provided,test,omitted_conflict
+mybatis__mybatis-dynamic-sql,mybatis__mybatis-dynamic-sql,org.springframework:spring-core,6.2.7,6.2.4,2,3,provided,test,omitted_conflict
+mybatis__mybatis-dynamic-sql,mybatis__mybatis-dynamic-sql,org.springframework:spring-beans,6.2.7,6.2.4,2,2,provided,test,omitted_conflict
+mybatis__mybatis-dynamic-sql,mybatis__mybatis-dynamic-sql,org.springframework:spring-core,6.2.7,6.2.4,2,3,provided,test,omitted_conflict
+mybatis__mybatis-dynamic-sql,mybatis__mybatis-dynamic-sql,org.springframework:spring-core,6.2.7,6.2.4,2,3,provided,test,omitted_conflict
+mybatis__mybatis-dynamic-sql,mybatis__mybatis-dynamic-sql,org.springframework:spring-core,6.2.7,6.2.4,2,3,provided,test,omitted_conflict
+mybatis__mybatis-dynamic-sql,mybatis__mybatis-dynamic-sql,org.springframework:spring-beans,6.2.7,6.2.4,2,2,provided,test,omitted_conflict
+mybatis__mybatis-dynamic-sql,mybatis__mybatis-dynamic-sql,org.slf4j:slf4j-api,2.0.17,2.0.2,2,3,test,test,omitted_conflict
+mybatis__mybatis-dynamic-sql,mybatis__mybatis-dynamic-sql,org.springframework:spring-jdbc,6.2.7,6.2.4,1,2,provided,test,omitted_conflict
+mybatis__mybatis-dynamic-sql,mybatis__mybatis-dynamic-sql,org.springframework:spring-core,6.2.7,6.2.4,2,3,provided,test,omitted_conflict
+mybatis__mybatis-dynamic-sql,mybatis__mybatis-dynamic-sql,org.slf4j:slf4j-api,2.0.17,1.7.36,2,3,test,test,omitted_conflict
+mybatis__mybatis-dynamic-sql,mybatis__mybatis-dynamic-sql,org.jetbrains:annotations,13.0,17.0.0,3,4,provided,test,omitted_conflict
+mybatis__mybatis-dynamic-sql,mybatis__mybatis-dynamic-sql,org.slf4j:slf4j-api,2.0.17,1.7.30,2,4,test,test,omitted_conflict
+mybatis__mybatis-dynamic-sql,mybatis__mybatis-dynamic-sql,org.slf4j:slf4j-api,2.0.17,1.7.25,2,4,test,test,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+mybatis__mybatis-dynamic-sql,66,,,,,,,,

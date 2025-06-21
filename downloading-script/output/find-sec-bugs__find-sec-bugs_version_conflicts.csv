@@ -1,0 +1,8 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+find-sec-bugs__find-sec-bugs,findsecbugs-plugin,org.slf4j:slf4j-api,1.7.26,2.0.17,2,2,test,test,version_managed
+find-sec-bugs__find-sec-bugs,findsecbugs-plugin,org.apache.commons:commons-lang3,3.17.0,3.14.0,2,3,provided,provided,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+findsecbugs-plugin,44,,,,,,,,
+findsecbugs-samples-deps,2,,,,,,,,

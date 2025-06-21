@@ -1,0 +1,17 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+jMetal__jMetal,jmetal-auto,net.bytebuddy:byte-buddy,1.14.15,1.12.10,2,2,test,test,omitted_conflict
+jMetal__jMetal,jmetal-component,net.bytebuddy:byte-buddy,1.14.15,1.12.10,2,2,test,test,omitted_conflict
+jMetal__jMetal,jmetal-core,org.junit.platform:junit-platform-engine,1.7.0,1.6.0,2,2,test,test,omitted_conflict
+jMetal__jMetal,jmetal-core,org.junit.platform:junit-platform-commons,1.7.0,1.6.0,3,3,test,test,omitted_conflict
+jMetal__jMetal,jmetal-core,com.github.fommil.netlib:core,1.1,1.1.2,3,4,compile,compile,omitted_conflict
+jMetal__jMetal,jmetal-lab,org.slf4j:slf4j-api,2.0.12,1.7.5,2,4,compile,compile,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+jmetal-algorithm,18,,,,,,,,
+jmetal-auto,18,,,,,,,,
+jmetal-component,18,,,,,,,,
+jmetal-core,65,,,,,,,,
+jmetal-lab,25,,,,,,,,
+jmetal-parallel,12,,,,,,,,
+jmetal-problem,14,,,,,,,,

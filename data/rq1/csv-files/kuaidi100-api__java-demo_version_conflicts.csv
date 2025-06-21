@@ -1,0 +1,7 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+kuaidi100-api__java-demo,kuaidi100-api__java-demo,org.apache.httpcomponents:httpcore,4.4.10,4.4.13,1,2,compile,compile,omitted_conflict
+kuaidi100-api__java-demo,kuaidi100-api__java-demo,org.apache.httpcomponents:httpclient,4.5.13,4.5.6,1,2,compile,compile,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+kuaidi100-api__java-demo,12,,,,,,,,

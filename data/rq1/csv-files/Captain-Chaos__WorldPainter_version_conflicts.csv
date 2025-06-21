@@ -1,0 +1,11 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+Captain-Chaos__WorldPainter,WPCore,org.pepsoft.utils:Utils,1.1.2,1.0.0,1,2,compile,compile,omitted_conflict
+Captain-Chaos__WorldPainter,WPGUI,org.slf4j:slf4j-api,1.7.36,1.7.32,1,2,compile,compile,omitted_conflict
+Captain-Chaos__WorldPainter,WPGUI,org.slf4j:slf4j-api,1.7.36,1.7.35,1,2,compile,runtime,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+WPCore,24,,,,,,,,
+WPDynmapPreviewer,8,,,,,,,,
+WPGUI,21,,,,,,,,
+WPJava9Support,2,,,,,,,,

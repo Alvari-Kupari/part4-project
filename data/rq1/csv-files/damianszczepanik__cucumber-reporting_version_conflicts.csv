@@ -1,0 +1,13 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+damianszczepanik__cucumber-reporting,damianszczepanik__cucumber-reporting,org.apache.commons:commons-lang3,3.17.0,3.14.0,1,2,compile,compile,omitted_conflict
+damianszczepanik__cucumber-reporting,damianszczepanik__cucumber-reporting,org.apache.commons:commons-text,1.13.0,1.12.0,1,2,compile,compile,omitted_conflict
+damianszczepanik__cucumber-reporting,damianszczepanik__cucumber-reporting,net.bytebuddy:byte-buddy,1.17.5,1.15.11,1,2,test,test,omitted_conflict
+damianszczepanik__cucumber-reporting,damianszczepanik__cucumber-reporting,net.bytebuddy:byte-buddy-agent,1.17.5,1.15.11,1,2,test,test,omitted_conflict
+damianszczepanik__cucumber-reporting,damianszczepanik__cucumber-reporting,org.objenesis:objenesis,3.3,3.0.1,2,2,test,test,omitted_conflict
+damianszczepanik__cucumber-reporting,damianszczepanik__cucumber-reporting,net.bytebuddy:byte-buddy,1.17.5,1.10.14,1,2,test,test,omitted_conflict
+damianszczepanik__cucumber-reporting,damianszczepanik__cucumber-reporting,net.bytebuddy:byte-buddy-agent,1.17.5,1.10.14,1,2,test,test,omitted_conflict
+damianszczepanik__cucumber-reporting,damianszczepanik__cucumber-reporting,net.bytebuddy:byte-buddy,1.17.5,1.15.11,1,2,test,test,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+damianszczepanik__cucumber-reporting,33,,,,,,,,

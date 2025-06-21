@@ -1,0 +1,12 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+FasterXML__jackson-jr,jr-retrofit2,com.squareup.okhttp3:okhttp,4.12.0,3.14.9,1,2,compile,compile,omitted_conflict
+FasterXML__jackson-jr,jr-retrofit2,org.jetbrains.kotlin:kotlin-stdlib-jdk8,1.8.21,1.9.10,2,4,compile,compile,omitted_conflict
+FasterXML__jackson-jr,jr-retrofit2,org.jetbrains.kotlin:kotlin-stdlib-common,1.9.10,1.8.21,4,4,compile,compile,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+jr-annotation-support,12,,,,,,,,
+jr-extension-javatime,10,,,,,,,,
+jr-objects,10,,,,,,,,
+jr-retrofit2,19,,,,,,,,
+jr-stree,11,,,,,,,,

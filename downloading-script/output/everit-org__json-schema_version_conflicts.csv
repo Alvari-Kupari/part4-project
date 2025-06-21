@@ -1,0 +1,8 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+everit-org__json-schema,core,org.objenesis:objenesis,3.2,3.3,2,2,test,test,omitted_conflict
+everit-org__json-schema,core,net.bytebuddy:byte-buddy,1.12.4,1.14.13,2,2,test,test,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+core,32,,,,,,,,
+vanilla,22,,,,,,,,

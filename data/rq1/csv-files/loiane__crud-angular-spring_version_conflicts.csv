@@ -1,0 +1,17 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+loiane__crud-angular-spring,crud-spring,org.jboss.logging:jboss-logging,3.6.1.Final,3.5.0.Final,3,3,compile,compile,version_managed
+loiane__crud-angular-spring,crud-spring,com.fasterxml:classmate,1.7.0,1.5.1,3,3,compile,compile,version_managed
+loiane__crud-angular-spring,crud-spring,org.glassfish.jaxb:jaxb-runtime,4.0.5,4.0.2,3,3,runtime,runtime,version_managed
+loiane__crud-angular-spring,crud-spring,org.springframework:spring-orm,6.2.5,6.2.4,3,3,compile,compile,version_managed
+loiane__crud-angular-spring,crud-spring,org.springframework:spring-context,6.2.5,6.2.4,3,3,compile,compile,version_managed
+loiane__crud-angular-spring,crud-spring,org.springframework:spring-aop,6.2.5,6.2.4,3,3,compile,compile,version_managed
+loiane__crud-angular-spring,crud-spring,org.springframework:spring-tx,6.2.5,6.2.4,3,3,compile,compile,version_managed
+loiane__crud-angular-spring,crud-spring,org.springframework:spring-beans,6.2.5,6.2.4,3,3,compile,compile,version_managed
+loiane__crud-angular-spring,crud-spring,org.slf4j:slf4j-api,2.0.17,2.0.2,3,3,compile,compile,version_managed
+loiane__crud-angular-spring,crud-spring,org.aspectj:aspectjweaver,1.9.23,1.9.22.1,3,3,compile,compile,version_managed
+loiane__crud-angular-spring,crud-spring,com.fasterxml.jackson.dataformat:jackson-dataformat-yaml,2.18.3,2.18.2,5,5,compile,compile,version_managed
+loiane__crud-angular-spring,crud-spring,net.bytebuddy:byte-buddy-agent,1.15.11,1.15.4,3,3,test,test,version_managed
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+crud-spring,112,,,,,,,,

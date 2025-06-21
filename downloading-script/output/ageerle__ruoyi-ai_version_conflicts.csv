@@ -1,0 +1,9 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+ageerle__ruoyi-ai,ruoyi-mcp-server,io.projectreactor:reactor-core,3.7.4,3.7.0,4,4,compile,compile,version_managed
+ageerle__ruoyi-ai,ruoyi-mcp-server,org.slf4j:slf4j-api,2.0.17,2.0.11,3,3,compile,compile,version_managed
+ageerle__ruoyi-ai,ruoyi-mcp-server,net.bytebuddy:byte-buddy,1.15.11,1.14.18,3,3,test,test,version_managed
+ageerle__ruoyi-ai,ruoyi-mcp-server,net.bytebuddy:byte-buddy-agent,1.15.11,1.15.4,3,3,test,test,version_managed
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+ruoyi-mcp-server,90,,,,,,,,

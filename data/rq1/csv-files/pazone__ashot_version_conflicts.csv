@@ -1,0 +1,7 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+pazone__ashot,pazone__ashot,com.google.errorprone:error_prone_annotations,2.38.0,2.36.0,2,3,compile,compile,omitted_conflict
+pazone__ashot,pazone__ashot,org.junit.jupiter:junit-jupiter-api,5.13.1,5.11.4,2,2,test,test,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+pazone__ashot,42,,,,,,,,

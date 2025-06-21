@@ -1,0 +1,10 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+kennycason__kumo,kumo-tokenizers,org.slf4j:slf4j-api,1.7.30,1.7.25,2,2,compile,compile,version_managed
+kennycason__kumo,kumo-tokenizers,commons-lang:commons-lang,2.6,2.4,3,3,compile,compile,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+kumo-api,0,,,,,,,,
+kumo-cli,6,,,,,,,,
+kumo-core,11,,,,,,,,
+kumo-tokenizers,28,,,,,,,,

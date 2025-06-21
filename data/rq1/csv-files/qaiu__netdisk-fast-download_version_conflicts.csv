@@ -1,0 +1,9 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+qaiu__netdisk-fast-download,core,com.fasterxml.jackson.core:jackson-annotations,2.16.1,2.14.2,2,2,compile,compile,version_managed
+qaiu__netdisk-fast-download,core-database,org.slf4j:slf4j-api,2.0.7,2.0.0-alpha1,2,2,compile,compile,version_managed
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+core,37,,,,,,,,
+core-database,31,,,,,,,,
+parser,32,,,,,,,,

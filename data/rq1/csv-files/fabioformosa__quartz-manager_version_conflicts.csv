@@ -1,0 +1,9 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+quartz-manager-common,49,,,,,,,,
+quartz-manager-starter-api,98,,,,,,,,
+quartz-manager-starter-persistence,62,,,,,,,,
+quartz-manager-starter-security,90,,,,,,,,
+quartz-manager-web-showcase,126,,,,,,,,

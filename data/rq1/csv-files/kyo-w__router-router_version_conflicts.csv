@@ -1,0 +1,15 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+kyo-w__router-router,core,org.slf4j:slf4j-api,1.7.36,1.7.32,2,2,provided,provided,version_managed
+kyo-w__router-router,server,org.osgi:org.osgi.core,6.0.0,4.3.1,4,6,provided,provided,omitted_conflict
+kyo-w__router-router,server,org.springframework.boot:spring-boot-starter-jdbc,2.7.12,2.6.3,2,2,compile,compile,version_managed
+kyo-w__router-router,server,com.microsoft.sqlserver:mssql-jdbc,10.2.3.jre8,9.4.1.jre8,3,3,provided,provided,version_managed
+kyo-w__router-router,server,org.springframework.batch:spring-batch-infrastructure,4.3.8,4.3.4,3,3,provided,provided,version_managed
+kyo-w__router-router,server,org.slf4j:slf4j-api,1.7.36,1.7.25,3,3,compile,compile,version_managed
+kyo-w__router-router,server,net.minidev:json-smart,2.4.11,2.4.7,3,3,test,test,version_managed
+kyo-w__router-router,server,net.bytebuddy:byte-buddy,1.12.23,1.12.9,3,3,test,test,version_managed
+kyo-w__router-router,server,net.bytebuddy:byte-buddy-agent,1.12.23,1.12.9,3,3,test,test,version_managed
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+core,4,,,,,,,,
+server,91,,,,,,,,

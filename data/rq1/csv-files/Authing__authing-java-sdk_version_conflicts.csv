@@ -1,0 +1,7 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+Authing__authing-java-sdk,Authing__authing-java-sdk,com.fasterxml.jackson.core:jackson-annotations,2.9.1,2.9.0,1,2,compile,compile,omitted_conflict
+Authing__authing-java-sdk,Authing__authing-java-sdk,com.fasterxml.jackson.core:jackson-databind,2.9.1,2.13.2.2,1,2,compile,runtime,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+Authing__authing-java-sdk,22,,,,,,,,

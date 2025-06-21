@@ -1,0 +1,7 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+usdAG__cstc,usdAG__cstc,com.fasterxml.jackson.core:jackson-core,2.18.3,2.15.4,1,2,compile,compile,omitted_conflict
+usdAG__cstc,usdAG__cstc,com.fasterxml.jackson.core:jackson-databind,2.18.3,2.15.4,1,2,compile,compile,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+usdAG__cstc,17,,,,,,,,

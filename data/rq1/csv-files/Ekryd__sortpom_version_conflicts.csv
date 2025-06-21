@@ -1,0 +1,8 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+Ekryd__sortpom,maven-plugin,org.codehaus.plexus:plexus-classworlds,2.9.0,2.6.0,2,3,provided,provided,omitted_conflict
+Ekryd__sortpom,maven-plugin,org.codehaus.plexus:plexus-utils,3.6.0,3.5.1,2,3,provided,provided,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+maven-plugin,26,,,,,,,,
+sorter,18,,,,,,,,

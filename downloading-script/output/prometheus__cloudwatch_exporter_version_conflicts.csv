@@ -1,0 +1,17 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+prometheus__cloudwatch_exporter,prometheus__cloudwatch_exporter,org.slf4j:slf4j-api,2.0.16,1.7.36,2,3,compile,compile,omitted_conflict
+prometheus__cloudwatch_exporter,prometheus__cloudwatch_exporter,org.slf4j:slf4j-api,2.0.16,1.7.36,2,3,compile,compile,omitted_conflict
+prometheus__cloudwatch_exporter,prometheus__cloudwatch_exporter,org.slf4j:slf4j-api,2.0.16,1.7.36,2,3,compile,compile,omitted_conflict
+prometheus__cloudwatch_exporter,prometheus__cloudwatch_exporter,org.apache.httpcomponents:httpcore,4.4.16,4.4.13,3,4,runtime,runtime,omitted_conflict
+prometheus__cloudwatch_exporter,prometheus__cloudwatch_exporter,commons-codec:commons-codec,1.17.1,1.11,1,4,compile,runtime,omitted_conflict
+prometheus__cloudwatch_exporter,prometheus__cloudwatch_exporter,org.slf4j:slf4j-api,2.0.16,1.7.36,2,3,compile,runtime,omitted_conflict
+prometheus__cloudwatch_exporter,prometheus__cloudwatch_exporter,org.slf4j:slf4j-api,2.0.16,2.0.9,2,2,compile,compile,omitted_conflict
+prometheus__cloudwatch_exporter,prometheus__cloudwatch_exporter,org.slf4j:slf4j-api,2.0.16,2.0.9,2,2,compile,compile,omitted_conflict
+prometheus__cloudwatch_exporter,prometheus__cloudwatch_exporter,org.slf4j:slf4j-api,2.0.16,2.0.9,2,2,compile,compile,omitted_conflict
+prometheus__cloudwatch_exporter,prometheus__cloudwatch_exporter,org.slf4j:slf4j-api,2.0.16,2.0.9,2,2,compile,compile,omitted_conflict
+prometheus__cloudwatch_exporter,prometheus__cloudwatch_exporter,org.slf4j:slf4j-api,2.0.16,2.0.9,2,2,compile,compile,omitted_conflict
+prometheus__cloudwatch_exporter,prometheus__cloudwatch_exporter,org.slf4j:slf4j-api,2.0.16,2.0.9,2,2,compile,compile,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+prometheus__cloudwatch_exporter,74,,,,,,,,

@@ -1,0 +1,12 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+admin-clients,513,,,,,,,,
+jaxrs-app,386,,,,,,,,
+monitor-app,1458,,,,,,,,
+org.wso2.am.thirdparty.km,1295,,,,,,,,
+framework-extensions,383,,,,,,,,
+integration-test-utils,436,,,,,,,,
+ui-pages,382,,,,,,,,
+product,10,,,,,,,,

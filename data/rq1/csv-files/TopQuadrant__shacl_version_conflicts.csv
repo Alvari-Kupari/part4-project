@@ -1,0 +1,10 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+TopQuadrant__shacl,TopQuadrant__shacl,org.slf4j:slf4j-api,2.0.17,2.0.16,1,2,compile,compile,omitted_conflict
+TopQuadrant__shacl,TopQuadrant__shacl,commons-io:commons-io,2.17.0,2.16.1,4,5,compile,compile,omitted_conflict
+TopQuadrant__shacl,TopQuadrant__shacl,org.apache.commons:commons-lang3,3.17.0,3.16.0,2,5,compile,compile,omitted_conflict
+TopQuadrant__shacl,TopQuadrant__shacl,org.slf4j:slf4j-api,2.0.17,2.0.16,1,2,compile,compile,omitted_conflict
+TopQuadrant__shacl,TopQuadrant__shacl,org.slf4j:slf4j-api,2.0.17,2.0.16,1,2,compile,compile,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+TopQuadrant__shacl,27,,,,,,,,

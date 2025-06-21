@@ -1,0 +1,17 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+runelite__runelite,cache,com.google.code.findbugs:jsr305,3.0.2,1.3.9,2,2,compile,compile,version_managed
+runelite__runelite,runelite-client,net.java.dev.jna:jna,5.9.0,4.5.1,1,2,compile,compile,omitted_conflict
+runelite__runelite,runelite-jshell,com.google.guava:guava,23.2-jre,19.0,2,2,compile,compile,version_managed
+runelite__runelite,runelite-maven-plugin,com.google.code.findbugs:jsr305,3.0.2,1.3.9,3,3,compile,compile,version_managed
+runelite__runelite,runelite-maven-plugin,org.codehaus.plexus:plexus-utils,2.0.6,2.1,2,3,compile,compile,omitted_conflict
+runelite__runelite,runelite-maven-plugin,org.apache.maven:maven-artifact,3.0.5,3.0,2,2,compile,compile,omitted_conflict
+runelite__runelite,runelite-maven-plugin,org.codehaus.plexus:plexus-utils,2.0.6,1.5.5,2,3,compile,compile,omitted_conflict
+runelite__runelite,runelite-maven-plugin,org.antlr:antlr4-runtime,4.13.1,4.11.1,2,2,compile,runtime,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+cache,17,,,,,,,,
+runelite-api,8,,,,,,,,
+runelite-client,48,,,,,,,,
+runelite-jshell,16,,,,,,,,
+runelite-maven-plugin,40,,,,,,,,

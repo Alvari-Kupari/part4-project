@@ -422,7 +422,8 @@ class MavenDependencyAnalyzer:
                 print(f"  {library}: {count} conflicts")
 
 def main():
-    dot_files_dir = "../data/dot_files"
+    # dot_files_dir = "../data/dot_files"
+    dot_files_dir = r"C:\Users\akup390\Documents\tony-alvari-part4\part4-project\data\rq1\dot-files"
     output_dir = "output"
     
     if not os.path.exists(dot_files_dir):

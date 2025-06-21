@@ -1,0 +1,21 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+foxinmy__weixin4j,weixin4j-base,commons-codec:commons-codec,1.15,1.2,2,2,compile,compile,version_managed
+foxinmy__weixin4j,weixin4j-base,commons-logging:commons-logging,1.0.4,1.2,2,2,compile,compile,omitted_conflict
+foxinmy__weixin4j,weixin4j-base,org.jetbrains.kotlin:kotlin-stdlib,1.4.10,1.4.0,2,3,compile,compile,omitted_conflict
+foxinmy__weixin4j,weixin4j-base,org.jetbrains.kotlin:kotlin-stdlib-common,1.4.0,1.4.10,3,3,compile,compile,omitted_conflict
+foxinmy__weixin4j,weixin4j-base,com.squareup.okio:okio,2.8.0,1.6.0,2,2,compile,compile,omitted_conflict
+foxinmy__weixin4j,weixin4j-base,org.slf4j:slf4j-api,1.7.30,1.6.4,2,2,compile,compile,omitted_conflict
+foxinmy__weixin4j,weixin4j-example,org.jetbrains.kotlin:kotlin-stdlib,1.4.10,1.4.0,2,3,compile,compile,omitted_conflict
+foxinmy__weixin4j,weixin4j-example,org.jetbrains.kotlin:kotlin-stdlib-common,1.4.0,1.4.10,3,3,compile,compile,omitted_conflict
+foxinmy__weixin4j,weixin4j-server,commons-codec:commons-codec,1.15,1.11,2,2,test,test,version_managed
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+weixin4j-base,24,,,,,,,,
+weixin4j-example,35,,,,,,,,
+weixin4j-mp,8,,,,,,,,
+weixin4j-pay,8,,,,,,,,
+weixin4j-qy,6,,,,,,,,
+weixin4j-server,27,,,,,,,,
+weixin4j-serverX,18,,,,,,,,
+weixin4j-wxa,9,,,,,,,,

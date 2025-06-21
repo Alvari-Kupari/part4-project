@@ -1,0 +1,21 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+yamcs__yamcs,yamcs-core,com.google.code.gson:gson,2.11.0,2.8.9,2,2,compile,compile,version_managed
+yamcs__yamcs,yamcs-core,com.google.errorprone:error_prone_annotations,2.28.0,2.18.0,2,2,compile,compile,omitted_conflict
+yamcs__yamcs,yamcs-core,com.google.j2objc:j2objc-annotations,3.0.0,2.8,2,2,compile,compile,omitted_conflict
+yamcs__yamcs,yamcs-core,com.google.errorprone:error_prone_annotations,2.28.0,2.27.0,2,3,compile,compile,omitted_conflict
+yamcs__yamcs,yamcs-core,org.slf4j:slf4j-api,2.0.16,1.7.36,2,2,compile,compile,version_managed
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+cascading,12,,,,,,,,
+ccsds-frames,13,,,,,,,,
+snippets,10,,,,,,,,
+packet-viewer,17,,,,,,,,
+simulator,11,,,,,,,,
+tests,15,,,,,,,,
+yamcs-api,10,,,,,,,,
+yamcs-client,18,,,,,,,,
+yamcs-core,53,,,,,,,,
+yamcs-tse,11,,,,,,,,
+yamcs-web,10,,,,,,,,
+yamcs-xtce,13,,,,,,,,

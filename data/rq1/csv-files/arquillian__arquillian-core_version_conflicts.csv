@@ -1,0 +1,21 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+arquillian__arquillian-core,container,net.bytebuddy:byte-buddy,1.12.19,1.15.11,0,0,test,test,omitted_conflict
+arquillian__arquillian-core,container,com.beust:jcommander,1.82,1.78,2,2,test,test,version_managed
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+api,4,,,,,,,,
+impl-base,10,,,,,,,,
+spi,7,,,,,,,,
+test-api,5,,,,,,,,
+test-impl-base,17,,,,,,,,
+test-spi,6,,,,,,,,
+container,20,,,,,,,,
+core,15,,,,,,,,
+standalone,8,,,,,,,,
+jmx,5,,,,,,,,
+servlet,21,,,,,,,,
+cdi,25,,,,,,,,
+ejb,9,,,,,,,,
+initialcontext,3,,,,,,,,
+resource,9,,,,,,,,

@@ -1,0 +1,22 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+eclipse-milo__milo,encoding-xml,jakarta.xml.bind:jakarta.xml.bind-api,4.0.2,2.3.3,1,2,compile,test,omitted_conflict
+eclipse-milo__milo,transport,org.slf4j:slf4j-api,2.0.17,2.0.16,2,3,compile,compile,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+client-examples,6,,,,,,,,
+server-examples,6,,,,,,,,
+codec-json,16,,,,,,,,
+dtd-core,19,,,,,,,,
+dtd-manager,4,,,,,,,,
+dtd-reader,14,,,,,,,,
+sdk-client,4,,,,,,,,
+sdk-core,17,,,,,,,,
+sdk-server,18,,,,,,,,
+encoding-json,12,,,,,,,,
+encoding-xml,18,,,,,,,,
+guava-dependencies,5,,,,,,,,
+stack-core,22,,,,,,,,
+transport,21,,,,,,,,
+transport-https,18,,,,,,,,
+transport-websocket,18,,,,,,,,

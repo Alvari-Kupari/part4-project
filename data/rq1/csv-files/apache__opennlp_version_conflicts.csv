@@ -1,0 +1,9 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+opennlp-dl,11,,,,,,,,
+opennlp-morfologik-addon,16,,,,,,,,
+opennlp-tools,17,,,,,,,,
+opennlp-tools-models,15,,,,,,,,
+opennlp-uima,12,,,,,,,,

@@ -1,0 +1,11 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+vassalengine__vassal,vassal-app,org.slf4j:slf4j-api,2.0.17,1.7.36,1,2,compile,compile,omitted_conflict
+vassalengine__vassal,vassal-app,commons-io:commons-io,2.19.0,2.11.0,1,4,compile,compile,omitted_conflict
+vassalengine__vassal,vassal-app,net.bytebuddy:byte-buddy,1.17.5,1.14.1,1,3,test,test,omitted_conflict
+vassalengine__vassal,vassal-app,junit:junit-dep,4.13.2,4.10,0,2,test,test,omitted_conflict
+vassalengine__vassal,vassal-app,junit:junit,4.13.2,4.11-beta-1,2,2,test,test,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+vassal-app,70,,,,,,,,
+vassal-deprecation,0,,,,,,,,

@@ -1,0 +1,23 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+spring-projects__spring-data-redis,spring-projects__spring-data-redis,commons-logging:commons-logging,1.2,1.3.5,2,3,compile,compile,omitted_conflict
+spring-projects__spring-data-redis,spring-projects__spring-data-redis,org.slf4j:slf4j-api,2.0.2,1.7.36,1,2,compile,compile,omitted_conflict
+spring-projects__spring-data-redis,spring-projects__spring-data-redis,org.slf4j:slf4j-api,2.0.2,1.7.36,1,2,compile,compile,omitted_conflict
+spring-projects__spring-data-redis,spring-projects__spring-data-redis,io.netty:netty-common,4.1.121.Final,4.1.118.Final,2,2,compile,compile,version_managed
+spring-projects__spring-data-redis,spring-projects__spring-data-redis,io.netty:netty-handler,4.1.121.Final,4.1.118.Final,2,2,compile,compile,version_managed
+spring-projects__spring-data-redis,spring-projects__spring-data-redis,io.netty:netty-transport,4.1.121.Final,4.1.118.Final,2,2,compile,compile,version_managed
+spring-projects__spring-data-redis,spring-projects__spring-data-redis,org.mockito:mockito-core,5.17.0,4.11.0,1,3,test,test,omitted_conflict
+spring-projects__spring-data-redis,spring-projects__spring-data-redis,org.slf4j:slf4j-api,2.0.2,1.7.36,1,3,compile,test,omitted_conflict
+spring-projects__spring-data-redis,spring-projects__spring-data-redis,io.zipkin.brave:brave,6.2.0,6.1.0,2,3,test,test,omitted_conflict
+spring-projects__spring-data-redis,spring-projects__spring-data-redis,org.slf4j:slf4j-api,2.0.2,1.7.36,1,3,compile,test,omitted_conflict
+spring-projects__spring-data-redis,spring-projects__spring-data-redis,org.jetbrains.kotlin:kotlin-stdlib-jdk8,2.1.20,1.8.21,5,5,test,test,version_managed
+spring-projects__spring-data-redis,spring-projects__spring-data-redis,com.fasterxml.jackson.dataformat:jackson-dataformat-yaml,2.19.0,2.14.1,3,3,test,test,version_managed
+spring-projects__spring-data-redis,spring-projects__spring-data-redis,com.google.errorprone:error_prone_annotations,2.36.0,2.11.0,3,5,compile,test,omitted_conflict
+spring-projects__spring-data-redis,spring-projects__spring-data-redis,org.jetbrains:annotations,13.0,23.0.0,2,3,compile,compile,omitted_conflict
+spring-projects__spring-data-redis,spring-projects__spring-data-redis,org.reactivestreams:reactive-streams,1.0.4,1.0.3,2,3,compile,compile,omitted_conflict
+spring-projects__spring-data-redis,spring-projects__spring-data-redis,net.bytebuddy:byte-buddy,1.15.11,1.14.17,2,3,test,test,omitted_conflict
+spring-projects__spring-data-redis,spring-projects__spring-data-redis,net.bytebuddy:byte-buddy-agent,1.15.11,1.14.17,2,3,test,test,omitted_conflict
+spring-projects__spring-data-redis,spring-projects__spring-data-redis,org.slf4j:slf4j-api,2.0.2,2.0.15,1,2,compile,test,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+spring-projects__spring-data-redis,160,,,,,,,,

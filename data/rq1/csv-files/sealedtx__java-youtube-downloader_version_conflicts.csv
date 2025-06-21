@@ -1,0 +1,6 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+sealedtx__java-youtube-downloader,sealedtx__java-youtube-downloader,org.slf4j:slf4j-api,2.0.9,2.0.15,1,2,compile,compile,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+sealedtx__java-youtube-downloader,15,,,,,,,,

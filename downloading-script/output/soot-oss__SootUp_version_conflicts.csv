@@ -1,0 +1,25 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+soot-oss__SootUp,sootup.analysis.interprocedural,com.google.guava:guava,33.4.8-jre,"[24.1.1,",2,2,compile ),compile ),version_managed
+soot-oss__SootUp,sootup.apk.frontend,com.google.guava:guava,33.4.8-jre,27.1-android,2,2,runtime,runtime,version_managed
+soot-oss__SootUp,sootup.apk.frontend,org.slf4j:slf4j-api,2.0.17,1.7.5,2,2,compile,compile,version_managed
+soot-oss__SootUp,sootup.apk.frontend,org.junit.jupiter:junit-jupiter-api,5.13.1,5.11.4,2,2,test,test,version_managed
+soot-oss__SootUp,sootup.java.bytecode.frontend,com.google.errorprone:error_prone_annotations,2.36.0,2.38.0,2,2,compile,compile,omitted_conflict
+soot-oss__SootUp,sootup.qilin,com.google.guava:guava,33.4.8-jre,"[24.1.1,",2,2,compile ),compile ),version_managed
+soot-oss__SootUp,sootup.spark,org.antlr:antlr4-runtime,4.13.2,4.12.0,2,2,compile,compile,version_managed
+soot-oss__SootUp,sootup.spark,org.apache.commons:commons-text,1.13.1,1.10.0,2,2,compile,compile,version_managed
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+sootup.analysis.interprocedural,17,,,,,,,,
+sootup.analysis.intraprocedural,8,,,,,,,,
+sootup.apk.frontend,24,,,,,,,,
+sootup.callgraph,20,,,,,,,,
+sootup.codepropertygraph,11,,,,,,,,
+sootup.core,18,,,,,,,,
+sootup.examples,15,,,,,,,,
+sootup.interceptors,3,,,,,,,,
+sootup.java.bytecode.frontend,23,,,,,,,,
+sootup.java.core,19,,,,,,,,
+sootup.jimple.frontend,11,,,,,,,,
+sootup.qilin,23,,,,,,,,
+sootup.spark,26,,,,,,,,

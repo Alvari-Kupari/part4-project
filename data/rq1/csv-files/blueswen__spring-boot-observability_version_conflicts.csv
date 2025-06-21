@@ -1,0 +1,24 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+blueswen__spring-boot-observability,app,net.bytebuddy:byte-buddy,1.17.5,1.15.11,3,3,runtime,runtime,version_managed
+blueswen__spring-boot-observability,app,net.bytebuddy:byte-buddy-agent,1.17.5,1.15.11,3,3,test,test,version_managed
+blueswen__spring-boot-observability,app,org.jboss.logging:jboss-logging,3.6.1.Final,3.5.0.Final,3,3,compile,compile,version_managed
+blueswen__spring-boot-observability,app,com.fasterxml:classmate,1.7.0,1.5.1,3,3,compile,compile,version_managed
+blueswen__spring-boot-observability,app,org.glassfish.jaxb:jaxb-runtime,4.0.5,4.0.2,3,3,runtime,runtime,version_managed
+blueswen__spring-boot-observability,app,org.aspectj:aspectjweaver,1.9.24,1.9.22.1,3,3,compile,compile,version_managed
+blueswen__spring-boot-observability,app,io.netty:netty-common,4.1.121.Final,4.1.118.Final,3,3,compile,compile,version_managed
+blueswen__spring-boot-observability,app,io.netty:netty-handler,4.1.121.Final,4.1.118.Final,3,3,compile,compile,version_managed
+blueswen__spring-boot-observability,app,io.netty:netty-transport,4.1.121.Final,4.1.118.Final,3,3,compile,compile,version_managed
+blueswen__spring-boot-observability,app,io.projectreactor:reactor-core,3.7.6,3.6.6,3,3,compile,compile,version_managed
+blueswen__spring-boot-observability,app,org.slf4j:slf4j-api,2.0.17,1.7.36,2,2,compile,compile,version_managed
+blueswen__spring-boot-observability,app,io.opentelemetry:opentelemetry-sdk-common,1.50.0,1.49.0,2,2,compile,compile,version_managed
+blueswen__spring-boot-observability,app,io.opentelemetry:opentelemetry-sdk-trace,1.50.0,1.49.0,2,2,compile,compile,version_managed
+blueswen__spring-boot-observability,app,io.opentelemetry:opentelemetry-sdk,1.50.0,1.49.0,2,2,compile,compile,version_managed
+blueswen__spring-boot-observability,app,io.opentelemetry:opentelemetry-extension-trace-propagators,1.50.0,1.49.0,2,2,compile,compile,version_managed
+blueswen__spring-boot-observability,app,commons-codec:commons-codec,1.18.0,1.11,2,2,compile,compile,version_managed
+blueswen__spring-boot-observability,app,org.webjars:webjars-locator-lite,1.1.0,1.0.1,2,2,compile,compile,version_managed
+blueswen__spring-boot-observability,app,org.springframework.boot:spring-boot-starter-validation,3.5.0,3.4.5,4,4,compile,compile,version_managed
+blueswen__spring-boot-observability,app,com.fasterxml.jackson.dataformat:jackson-dataformat-yaml,2.19.0,2.18.2,5,5,compile,compile,version_managed
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+app,153,,,,,,,,

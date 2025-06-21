@@ -1,0 +1,11 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+opentable__otj-pg-embedded,opentable__otj-pg-embedded,org.apache.commons:commons-lang3,3.14.0,3.12.0,1,2,compile,compile,omitted_conflict
+opentable__otj-pg-embedded,opentable__otj-pg-embedded,org.apache.commons:commons-lang3,3.14.0,3.12.0,1,2,compile,compile,omitted_conflict
+opentable__otj-pg-embedded,opentable__otj-pg-embedded,org.apache.commons:commons-lang3,3.14.0,3.12.0,1,2,compile,compile,omitted_conflict
+opentable__otj-pg-embedded,opentable__otj-pg-embedded,org.apache.commons:commons-compress,1.26.0,1.24.0,1,2,runtime,compile,omitted_conflict
+opentable__otj-pg-embedded,opentable__otj-pg-embedded,org.slf4j:slf4j-api,1.7.36,1.7.30,1,3,compile,compile,omitted_conflict
+opentable__otj-pg-embedded,opentable__otj-pg-embedded,org.slf4j:slf4j-api,1.7.36,1.7.25,1,3,compile,compile,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+opentable__otj-pg-embedded,38,,,,,,,,

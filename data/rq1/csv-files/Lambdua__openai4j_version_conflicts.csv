@@ -1,0 +1,12 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+Lambdua__openai4j,client,org.reactivestreams:reactive-streams,1.0.3,1.0.0,2,3,compile,runtime,omitted_conflict
+Lambdua__openai4j,client,com.fasterxml.jackson.core:jackson-databind,2.14.2,2.10.1,2,2,compile,compile,omitted_conflict
+Lambdua__openai4j,example,org.reactivestreams:reactive-streams,1.0.3,1.0.0,3,4,compile,runtime,omitted_conflict
+Lambdua__openai4j,service,org.reactivestreams:reactive-streams,1.0.3,1.0.0,2,3,compile,runtime,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+api,32,,,,,,,,
+client,37,,,,,,,,
+example,37,,,,,,,,
+service,42,,,,,,,,

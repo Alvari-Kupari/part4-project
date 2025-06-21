@@ -1,0 +1,17 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+decentralized-identity__universal-resolver,driver-http,org.springframework:spring-web,6.2.5,6.2.3,2,2,compile,compile,version_managed
+decentralized-identity__universal-resolver,driver-http,commons-codec:commons-codec,1.11,1.18.0,2,4,compile,compile,omitted_conflict
+decentralized-identity__universal-resolver,uni-resolver-local,org.springframework:spring-web,6.2.5,6.2.3,2,2,compile,compile,version_managed
+decentralized-identity__universal-resolver,uni-resolver-local,commons-codec:commons-codec,1.18.0,1.11,3,3,compile,compile,omitted_conflict
+decentralized-identity__universal-resolver,uni-resolver-web,jakarta.annotation:jakarta.annotation-api,3.0.0,2.1.1,3,3,compile,compile,version_managed
+decentralized-identity__universal-resolver,uni-resolver-web,jakarta.servlet:jakarta.servlet-api,6.1.0,6.0.0,2,2,compile,compile,version_managed
+decentralized-identity__universal-resolver,uni-resolver-web,commons-codec:commons-codec,1.17.2,1.18.0,4,4,compile,compile,version_managed
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+driver,30,,,,,,,,
+driver-http,32,,,,,,,,
+uni-resolver-client,25,,,,,,,,
+uni-resolver-core,22,,,,,,,,
+uni-resolver-local,33,,,,,,,,
+uni-resolver-web,104,,,,,,,,

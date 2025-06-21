@@ -1,0 +1,15 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+eliasnogueira__selenium-java-lean-test-architecture,eliasnogueira__selenium-java-lean-test-architecture,net.bytebuddy:byte-buddy,1.15.11,1.17.5,2,3,compile,compile,omitted_conflict
+eliasnogueira__selenium-java-lean-test-architecture,eliasnogueira__selenium-java-lean-test-architecture,net.bytebuddy:byte-buddy,1.15.11,1.17.5,2,3,compile,compile,omitted_conflict
+eliasnogueira__selenium-java-lean-test-architecture,eliasnogueira__selenium-java-lean-test-architecture,org.slf4j:slf4j-api,2.0.16,1.7.36,2,2,compile,compile,omitted_conflict
+eliasnogueira__selenium-java-lean-test-architecture,eliasnogueira__selenium-java-lean-test-architecture,org.slf4j:slf4j-api,2.0.16,2.0.13,2,3,compile,compile,omitted_conflict
+eliasnogueira__selenium-java-lean-test-architecture,eliasnogueira__selenium-java-lean-test-architecture,org.testng:testng,7.11.0,6.14.3,1,2,compile,compile,omitted_conflict
+eliasnogueira__selenium-java-lean-test-architecture,eliasnogueira__selenium-java-lean-test-architecture,io.qameta.allure:allure-testng,2.29.1,2.8.1,1,2,compile,compile,omitted_conflict
+eliasnogueira__selenium-java-lean-test-architecture,eliasnogueira__selenium-java-lean-test-architecture,org.slf4j:slf4j-api,2.0.16,1.7.36,2,2,compile,compile,omitted_conflict
+eliasnogueira__selenium-java-lean-test-architecture,eliasnogueira__selenium-java-lean-test-architecture,org.slf4j:slf4j-api,2.0.16,1.7.30,2,4,compile,compile,omitted_conflict
+eliasnogueira__selenium-java-lean-test-architecture,eliasnogueira__selenium-java-lean-test-architecture,org.slf4j:slf4j-api,2.0.16,1.7.25,2,4,compile,compile,omitted_conflict
+eliasnogueira__selenium-java-lean-test-architecture,eliasnogueira__selenium-java-lean-test-architecture,org.slf4j:slf4j-api,2.0.16,2.0.17,2,2,compile,test,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+eliasnogueira__selenium-java-lean-test-architecture,73,,,,,,,,

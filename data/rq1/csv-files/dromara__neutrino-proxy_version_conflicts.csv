@@ -1,0 +1,14 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+dromara__neutrino-proxy,neutrino-proxy-client,org.yaml:snakeyaml,1.33,2.2,3,3,compile,compile,version_managed
+dromara__neutrino-proxy,neutrino-proxy-client,junit:junit,4.12,4.13.2,3,3,test,test,version_managed
+dromara__neutrino-proxy,neutrino-proxy-core,junit:junit,4.12,4.13.2,3,3,test,test,version_managed
+dromara__neutrino-proxy,neutrino-proxy-core,org.yaml:snakeyaml,1.33,2.2,5,5,test,test,version_managed
+dromara__neutrino-proxy,neutrino-proxy-server,org.yaml:snakeyaml,1.33,2.2,4,4,compile,compile,version_managed
+dromara__neutrino-proxy,neutrino-proxy-server,org.noear:solon,2.7.6,2.5.10,2,2,compile,compile,version_managed
+dromara__neutrino-proxy,neutrino-proxy-server,junit:junit,4.12,4.13.2,3,3,test,test,version_managed
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+neutrino-proxy-client,51,,,,,,,,
+neutrino-proxy-core,80,,,,,,,,
+neutrino-proxy-server,84,,,,,,,,

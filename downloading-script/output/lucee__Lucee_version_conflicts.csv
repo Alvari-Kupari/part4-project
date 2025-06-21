@@ -1,0 +1,19 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+lucee__Lucee,core,org.ow2.asm:asm-analysis,9.7.1,9.6,1,2,compile,compile,omitted_conflict
+lucee__Lucee,core,org.ow2.asm:asm,9.7.1,9.6,1,3,provided,compile,omitted_conflict
+lucee__Lucee,core,commons-codec:commons-codec,1.15,1.16.1,1,2,provided,compile,omitted_conflict
+lucee__Lucee,core,commons-io:commons-io,2.16.1,2.15.1,1,2,compile,compile,omitted_conflict
+lucee__Lucee,core,org.apache.commons:commons-lang3,3.12.0,3.14.0,1,2,compile,compile,omitted_conflict
+lucee__Lucee,core,commons-io:commons-io,2.16.1,2.11.0,1,2,compile,compile,omitted_conflict
+lucee__Lucee,core,org.ow2.asm:asm-tree,9.6,9.7.1,2,2,compile,provided,omitted_conflict
+lucee__Lucee,core,org.ow2.asm:asm-tree,9.6,9.7.1,2,2,compile,provided,omitted_conflict
+lucee__Lucee,core,org.ow2.asm:asm-tree,9.6,9.7.1,2,2,compile,compile,omitted_conflict
+lucee__Lucee,loader,commons-codec:commons-codec,1.15,1.16.1,1,2,provided,compile,omitted_conflict
+lucee__Lucee,loader,commons-io:commons-io,2.16.1,2.15.1,1,2,compile,compile,omitted_conflict
+lucee__Lucee,loader,org.apache.commons:commons-lang3,3.12.0,3.14.0,1,2,compile,compile,omitted_conflict
+lucee__Lucee,loader,commons-io:commons-io,2.16.1,2.11.0,1,2,compile,compile,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+core,89,,,,,,,,
+loader,89,,,,,,,,

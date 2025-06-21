@@ -1,0 +1,9 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+FusionAuth__java-http,FusionAuth__java-http,com.fasterxml.jackson.core:jackson-core,2.13.3,2.15.2,2,2,test,test,omitted_conflict
+FusionAuth__java-http,FusionAuth__java-http,com.fasterxml.jackson.core:jackson-databind,2.13.3,2.15.2,2,2,test,test,omitted_conflict
+FusionAuth__java-http,FusionAuth__java-http,com.fasterxml.jackson.core:jackson-annotations,2.13.3,2.15.2,2,2,test,test,omitted_conflict
+FusionAuth__java-http,FusionAuth__java-http,org.slf4j:slf4j-api,2.0.16,2.0.17,2,2,test,test,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+FusionAuth__java-http,11,,,,,,,,

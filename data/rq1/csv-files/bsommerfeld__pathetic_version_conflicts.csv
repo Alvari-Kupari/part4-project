@@ -1,0 +1,7 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+bsommerfeld__pathetic,engine,org.junit.jupiter:junit-jupiter-api,5.13.1,5.11.4,1,2,test,test,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+api,0,,,,,,,,
+engine,20,,,,,,,,

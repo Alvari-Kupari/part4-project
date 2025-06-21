@@ -72,7 +72,7 @@ repos = sorted(
     key=lambda r: os.path.getctime(os.path.join(repos_dir, r))
 )
 
-start_from = "kagkarlsson__db-scheduler"
+start_from = "apache__seatunnel-web"
 start_index = repos.index(start_from) + 1
 
 for repo in repos[start_index:]:

@@ -1,0 +1,10 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+86dbs__dbsyncer,dbsyncer-common,org.apache.logging.log4j:log4j-slf4j-impl,2.17.1,2.17.2,2,2,compile,compile,version_managed
+86dbs__dbsyncer,dbsyncer-common,org.apache.logging.log4j:log4j-core,2.17.1,2.17.2,2,2,compile,compile,version_managed
+86dbs__dbsyncer,dbsyncer-common,org.apache.logging.log4j:log4j-jul,2.17.1,2.17.2,2,2,compile,compile,version_managed
+86dbs__dbsyncer,dbsyncer-common,org.slf4j:slf4j-api,1.7.36,1.7.25,3,3,compile,compile,version_managed
+86dbs__dbsyncer,dbsyncer-common,org.apache.logging.log4j:log4j-to-slf4j,2.17.1,2.17.2,4,4,compile,compile,version_managed
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+dbsyncer-common,32,,,,,,,,

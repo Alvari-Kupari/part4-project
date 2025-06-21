@@ -1,0 +1,8 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+martinpaljak__GlobalPlatformPro,tool,org.bouncycastle:bcpkix-jdk18on,1.78.1,1.80,2,2,compile,compile,version_managed
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+library,12,,,,,,,,
+pace,11,,,,,,,,
+tool,24,,,,,,,,

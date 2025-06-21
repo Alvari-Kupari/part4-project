@@ -1,0 +1,13 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+youtongluan__sumk,sumk-rpc,org.slf4j:slf4j-api,1.7.32,1.7.30,2,2,compile,compile,version_managed
+youtongluan__sumk,sumk-rpc-mina,org.slf4j:slf4j-api,1.7.32,1.7.26,2,2,compile,compile,version_managed
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+async-logger,10,,,,,,,,
+sumk-base,7,,,,,,,,
+sumk-db,17,,,,,,,,
+sumk-framework,11,,,,,,,,
+sumk-http,20,,,,,,,,
+sumk-rpc,26,,,,,,,,
+sumk-rpc-mina,32,,,,,,,,

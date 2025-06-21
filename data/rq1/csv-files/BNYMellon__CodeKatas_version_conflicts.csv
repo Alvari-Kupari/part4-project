@@ -1,0 +1,27 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+BNYMellon__CodeKatas,donut-kata,org.jetbrains:annotations,13.0,23.0.0,2,4,compile,provided,omitted_conflict
+BNYMellon__CodeKatas,donut-kata,org.jetbrains.kotlin:kotlin-stdlib,2.1.20,1.9.21,1,4,compile,provided,omitted_conflict
+BNYMellon__CodeKatas,donut-kata,commons-io:commons-io,2.14.0,2.6,4,4,provided,provided,version_managed
+BNYMellon__CodeKatas,donut-kata,org.codehaus.plexus:plexus-component-annotations,1.5.5,2.1.1,4,4,provided,provided,omitted_conflict
+BNYMellon__CodeKatas,donut-kata,org.codehaus.plexus:plexus-component-annotations,1.5.5,2.1.1,4,4,provided,provided,omitted_conflict
+BNYMellon__CodeKatas,donut-kata-solutions,org.jetbrains:annotations,13.0,23.0.0,2,4,compile,provided,omitted_conflict
+BNYMellon__CodeKatas,donut-kata-solutions,org.jetbrains.kotlin:kotlin-stdlib,2.1.20,1.9.21,1,4,compile,provided,omitted_conflict
+BNYMellon__CodeKatas,donut-kata-solutions,org.codehaus.plexus:plexus-component-annotations,1.5.5,2.1.1,4,4,provided,provided,omitted_conflict
+BNYMellon__CodeKatas,donut-kata-solutions,org.codehaus.plexus:plexus-component-annotations,1.5.5,2.1.1,4,4,provided,provided,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+calendar-kata,15,,,,,,,,
+calendar-kata-solutions,15,,,,,,,,
+jdk21,9,,,,,,,,
+jdk8,9,,,,,,,,
+coffee-shop-kata-solutions,9,,,,,,,,
+deck-of-cards-kata,24,,,,,,,,
+deck-of-cards-kata-solutions,24,,,,,,,,
+donut-kata,42,,,,,,,,
+donut-kata-solutions,42,,,,,,,,
+jmh-kata,19,,,,,,,,
+kata-of-katas,14,,,,,,,,
+kata-of-katas-solutions,14,,,,,,,,
+pitest-mutation-kata,14,,,,,,,,
+pitest-mutation-kata-solutions,14,,,,,,,,

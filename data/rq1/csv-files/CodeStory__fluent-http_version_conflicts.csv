@@ -1,0 +1,16 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+CodeStory__fluent-http,CodeStory__fluent-http,commons-io:commons-io,2.7,2.3,1,2,compile,compile,omitted_conflict
+CodeStory__fluent-http,CodeStory__fluent-http,commons-logging:commons-logging,1.2,1.1.1,1,3,compile,compile,omitted_conflict
+CodeStory__fluent-http,CodeStory__fluent-http,org.slf4j:slf4j-api,2.0.12,1.7.30,1,2,compile,compile,omitted_conflict
+CodeStory__fluent-http,CodeStory__fluent-http,com.fasterxml.jackson.core:jackson-databind,2.15.2,2.14.3,1,2,compile,compile,omitted_conflict
+CodeStory__fluent-http,CodeStory__fluent-http,com.google.guava:guava,30.0-android,16.0.1,1,2,compile,compile,omitted_conflict
+CodeStory__fluent-http,CodeStory__fluent-http,junit:junit-dep,4.13.1,4.10,0,2,test,test,omitted_conflict
+CodeStory__fluent-http,CodeStory__fluent-http,junit:junit,4.13.1,4.11-beta-1,1,2,test,test,omitted_conflict
+CodeStory__fluent-http,CodeStory__fluent-http,junit:junit,4.13.1,4.12,1,3,test,test,omitted_conflict
+CodeStory__fluent-http,CodeStory__fluent-http,com.google.code.gson:gson,2.5,2.3.1,2,3,compile,test,omitted_conflict
+CodeStory__fluent-http,CodeStory__fluent-http,com.google.guava:guava,30.0-android,19.0,1,3,compile,test,omitted_conflict
+CodeStory__fluent-http,CodeStory__fluent-http,net.java.dev.jna:jna,4.2.1,4.1.0,1,4,compile,test,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+CodeStory__fluent-http,79,,,,,,,,

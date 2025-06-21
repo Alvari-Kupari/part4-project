@@ -1,0 +1,16 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+rampatra__jbot,jbot,net.minidev:json-smart,2.4.8,2.4.7,3,3,compile,compile,version_managed
+rampatra__jbot,jbot,org.slf4j:slf4j-api,1.7.36,1.7.33,3,3,compile,compile,version_managed
+rampatra__jbot,jbot,net.bytebuddy:byte-buddy,1.12.19,1.12.9,3,3,compile,compile,version_managed
+rampatra__jbot,jbot,net.bytebuddy:byte-buddy-agent,1.12.19,1.12.9,3,3,compile,compile,version_managed
+rampatra__jbot,jbot,org.hamcrest:hamcrest-core,2.2,1.3,2,2,test,test,version_managed
+rampatra__jbot,jbot-example,net.minidev:json-smart,2.4.8,2.4.7,3,3,compile,compile,version_managed
+rampatra__jbot,jbot-example,org.slf4j:slf4j-api,1.7.36,1.7.33,3,3,compile,compile,version_managed
+rampatra__jbot,jbot-example,net.bytebuddy:byte-buddy,1.12.19,1.12.9,3,3,compile,compile,version_managed
+rampatra__jbot,jbot-example,net.bytebuddy:byte-buddy-agent,1.12.19,1.12.9,3,3,compile,compile,version_managed
+rampatra__jbot,jbot-example,org.hamcrest:hamcrest-core,2.2,1.3,2,2,test,test,version_managed
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+jbot,72,,,,,,,,
+jbot-example,56,,,,,,,,

@@ -1,0 +1,6 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+Phoenix616__MineDown,Phoenix616__MineDown,org.jetbrains:annotations,26.0.2,22.0.0,2,3,provided,provided,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+Phoenix616__MineDown,17,,,,,,,,

@@ -1,0 +1,15 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+wmixvideo__nfe,wmixvideo__nfe,org.apache.geronimo.specs:geronimo-activation_1.1_spec,1.0.2,1.1,2,3,compile,compile,omitted_conflict
+wmixvideo__nfe,wmixvideo__nfe,commons-logging:commons-logging,1.1.1,1.2,2,3,compile,compile,omitted_conflict
+wmixvideo__nfe,wmixvideo__nfe,commons-logging:commons-logging,1.1.1,1.2,2,3,compile,runtime,omitted_conflict
+wmixvideo__nfe,wmixvideo__nfe,org.codehaus.woodstox:stax2-api,4.2.2,3.1.1,3,4,runtime,runtime,omitted_conflict
+wmixvideo__nfe,wmixvideo__nfe,commons-io:commons-io,2.1,2.2,2,3,compile,compile,omitted_conflict
+wmixvideo__nfe,wmixvideo__nfe,commons-logging:commons-logging,1.1.1,1.2,2,3,compile,runtime,omitted_conflict
+wmixvideo__nfe,wmixvideo__nfe,commons-logging:commons-logging,1.1.1,1.2,2,3,compile,compile,omitted_conflict
+wmixvideo__nfe,wmixvideo__nfe,commons-codec:commons-codec,1.16.1,1.9,2,3,compile,compile,omitted_conflict
+wmixvideo__nfe,wmixvideo__nfe,commons-logging:commons-logging,1.1.1,1.0.4,2,3,compile,compile,omitted_conflict
+wmixvideo__nfe,wmixvideo__nfe,commons-codec:commons-codec,1.16.1,1.2,2,3,compile,compile,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+wmixvideo__nfe,39,,,,,,,,

@@ -1,0 +1,20 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+dasniko__keycloak-2fa-sms-authenticator,dasniko__keycloak-2fa-sms-authenticator,commons-codec:commons-codec,1.16.1,1.11,3,3,provided,provided,version_managed
+dasniko__keycloak-2fa-sms-authenticator,dasniko__keycloak-2fa-sms-authenticator,jakarta.activation:jakarta.activation-api,2.1.1,2.1.2,3,3,provided,provided,omitted_conflict
+dasniko__keycloak-2fa-sms-authenticator,dasniko__keycloak-2fa-sms-authenticator,jakarta.activation:jakarta.activation-api,2.1.1,2.1.0,3,3,provided,provided,omitted_conflict
+dasniko__keycloak-2fa-sms-authenticator,dasniko__keycloak-2fa-sms-authenticator,com.google.guava:guava,32.0.1-jre,30.1-jre,2,3,provided,provided,omitted_conflict
+dasniko__keycloak-2fa-sms-authenticator,dasniko__keycloak-2fa-sms-authenticator,org.slf4j:slf4j-api,2.0.6,2.0.7,3,3,provided,provided,version_managed
+dasniko__keycloak-2fa-sms-authenticator,dasniko__keycloak-2fa-sms-authenticator,com.fasterxml.jackson.core:jackson-databind,2.16.1,2.15.2,2,3,provided,provided,omitted_conflict
+dasniko__keycloak-2fa-sms-authenticator,dasniko__keycloak-2fa-sms-authenticator,com.fasterxml.jackson.core:jackson-databind,2.16.1,2.15.2,2,3,provided,provided,omitted_conflict
+dasniko__keycloak-2fa-sms-authenticator,dasniko__keycloak-2fa-sms-authenticator,com.fasterxml.jackson.core:jackson-databind,2.16.1,2.15.2,2,3,provided,provided,omitted_conflict
+dasniko__keycloak-2fa-sms-authenticator,dasniko__keycloak-2fa-sms-authenticator,com.fasterxml.jackson.core:jackson-core,2.16.1,2.15.2,2,4,provided,provided,omitted_conflict
+dasniko__keycloak-2fa-sms-authenticator,dasniko__keycloak-2fa-sms-authenticator,org.reactivestreams:reactive-streams,1.0.4,1.0.3,3,3,compile,compile,omitted_conflict
+dasniko__keycloak-2fa-sms-authenticator,dasniko__keycloak-2fa-sms-authenticator,org.reactivestreams:reactive-streams,1.0.4,1.0.3,3,3,compile,compile,omitted_conflict
+dasniko__keycloak-2fa-sms-authenticator,dasniko__keycloak-2fa-sms-authenticator,org.reactivestreams:reactive-streams,1.0.4,1.0.3,3,3,compile,compile,omitted_conflict
+dasniko__keycloak-2fa-sms-authenticator,dasniko__keycloak-2fa-sms-authenticator,org.apache.httpcomponents:httpcore,4.4.16,4.4.13,3,3,runtime,runtime,omitted_conflict
+dasniko__keycloak-2fa-sms-authenticator,dasniko__keycloak-2fa-sms-authenticator,com.google.guava:guava,32.0.1-jre,31.0.1-jre,2,3,provided,provided,omitted_conflict
+dasniko__keycloak-2fa-sms-authenticator,dasniko__keycloak-2fa-sms-authenticator,org.checkerframework:checker-qual,3.36.0,3.33.0,3,3,provided,provided,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+dasniko__keycloak-2fa-sms-authenticator,72,,,,,,,,

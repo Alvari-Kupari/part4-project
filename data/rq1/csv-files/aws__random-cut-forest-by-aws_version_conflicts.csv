@@ -1,0 +1,18 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+aws__random-cut-forest-by-aws,core,org.junit.jupiter:junit-jupiter-api,5.10.1,5.10.0,2,2,test,test,omitted_conflict
+aws__random-cut-forest-by-aws,core,org.objenesis:objenesis,3.3,3.0.1,2,3,test,test,omitted_conflict
+aws__random-cut-forest-by-aws,core,net.bytebuddy:byte-buddy,1.14.9,1.9.10,2,4,test,test,omitted_conflict
+aws__random-cut-forest-by-aws,core,net.bytebuddy:byte-buddy-agent,1.14.9,1.9.10,2,4,test,test,omitted_conflict
+aws__random-cut-forest-by-aws,core,net.bytebuddy:byte-buddy,1.14.9,1.9.10,2,4,test,test,omitted_conflict
+aws__random-cut-forest-by-aws,core,net.bytebuddy:byte-buddy-agent,1.14.9,1.9.10,2,4,test,test,omitted_conflict
+aws__random-cut-forest-by-aws,core,org.objenesis:objenesis,3.3,3.0.1,2,3,test,test,omitted_conflict
+aws__random-cut-forest-by-aws,parkservices,org.junit.jupiter:junit-jupiter-api,5.10.1,5.10.0,2,2,test,test,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+benchmark,16,,,,,,,,
+core,26,,,,,,,,
+examples,12,,,,,,,,
+parkservices,23,,,,,,,,
+serialization,13,,,,,,,,
+testutils,0,,,,,,,,

@@ -1,0 +1,21 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+rabbitmq__rabbitmq-java-client,rabbitmq__rabbitmq-java-client,org.slf4j:slf4j-api,1.7.36,1.7.32,1,2,compile,test,omitted_conflict
+rabbitmq__rabbitmq-java-client,rabbitmq__rabbitmq-java-client,net.bytebuddy:byte-buddy,1.17.5,1.15.11,2,2,test,test,omitted_conflict
+rabbitmq__rabbitmq-java-client,rabbitmq__rabbitmq-java-client,org.slf4j:slf4j-api,1.7.36,1.6.6,1,2,compile,test,omitted_conflict
+rabbitmq__rabbitmq-java-client,rabbitmq__rabbitmq-java-client,org.junit.jupiter:junit-jupiter,5.13.1,5.12.2,2,2,test,test,version_managed
+rabbitmq__rabbitmq-java-client,rabbitmq__rabbitmq-java-client,org.mockito:mockito-core,5.18.0,4.11.0,1,4,test,test,omitted_conflict
+rabbitmq__rabbitmq-java-client,rabbitmq__rabbitmq-java-client,io.zipkin.brave:brave,6.2.0,6.1.0,2,3,test,test,omitted_conflict
+rabbitmq__rabbitmq-java-client,rabbitmq__rabbitmq-java-client,com.fasterxml.jackson.core:jackson-annotations,2.19.0,2.14.1,2,3,compile,test,omitted_conflict
+rabbitmq__rabbitmq-java-client,rabbitmq__rabbitmq-java-client,com.fasterxml.jackson.core:jackson-databind,2.19.0,2.14.1,1,3,compile,test,omitted_conflict
+rabbitmq__rabbitmq-java-client,rabbitmq__rabbitmq-java-client,com.fasterxml.jackson.core:jackson-databind,2.19.0,2.14.1,1,3,compile,test,omitted_conflict
+rabbitmq__rabbitmq-java-client,rabbitmq__rabbitmq-java-client,com.google.errorprone:error_prone_annotations,2.38.0,2.11.0,2,5,test,test,omitted_conflict
+rabbitmq__rabbitmq-java-client,rabbitmq__rabbitmq-java-client,com.fasterxml.jackson.core:jackson-databind,2.19.0,2.14.1,1,3,compile,test,omitted_conflict
+rabbitmq__rabbitmq-java-client,rabbitmq__rabbitmq-java-client,com.fasterxml.jackson.core:jackson-core,2.19.0,2.14.1,2,4,compile,test,omitted_conflict
+rabbitmq__rabbitmq-java-client,rabbitmq__rabbitmq-java-client,io.micrometer:micrometer-observation,1.15.1,1.10.13,2,2,compile,test,omitted_conflict
+rabbitmq__rabbitmq-java-client,rabbitmq__rabbitmq-java-client,io.micrometer:micrometer-core,1.15.1,1.10.13,1,2,compile,test,omitted_conflict
+rabbitmq__rabbitmq-java-client,rabbitmq__rabbitmq-java-client,io.micrometer:micrometer-tracing,1.5.1,1.0.12,2,2,test,test,omitted_conflict
+rabbitmq__rabbitmq-java-client,rabbitmq__rabbitmq-java-client,org.slf4j:slf4j-api,1.7.36,1.7.32,1,2,compile,test,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+rabbitmq__rabbitmq-java-client,97,,,,,,,,

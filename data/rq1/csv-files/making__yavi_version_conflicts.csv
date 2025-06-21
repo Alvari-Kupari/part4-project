@@ -1,0 +1,11 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+making__yavi,making__yavi,org.jetbrains:annotations,13.0,23.0.0,2,3,compile,compile,omitted_conflict
+making__yavi,making__yavi,org.jetbrains.kotlin:kotlin-stdlib,1.9.24,1.9.21,1,3,compile,compile,omitted_conflict
+making__yavi,making__yavi,com.google.guava:guava,30.0-jre,30.0-android,2,3,test,test,omitted_conflict
+making__yavi,making__yavi,org.checkerframework:checker-qual,3.7.0,3.5.0,3,3,test,test,omitted_conflict
+making__yavi,making__yavi,com.google.errorprone:error_prone_annotations,2.4.0,2.3.4,3,3,test,test,omitted_conflict
+making__yavi,making__yavi,com.google.guava:guava,30.0-jre,29.0-jre,2,3,test,test,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+making__yavi,30,,,,,,,,

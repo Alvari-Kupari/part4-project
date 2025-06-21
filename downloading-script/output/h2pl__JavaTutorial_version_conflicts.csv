@@ -1,0 +1,15 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+h2pl__JavaTutorial,h2pl__JavaTutorial,io.micrometer:micrometer-observation,1.10.5,1.10.4,3,3,compile,compile,version_managed
+h2pl__JavaTutorial,h2pl__JavaTutorial,net.minidev:json-smart,2.4.10,2.4.7,3,3,test,test,version_managed
+h2pl__JavaTutorial,h2pl__JavaTutorial,jakarta.activation:jakarta.activation-api,2.1.1,2.1.0,3,3,test,test,version_managed
+h2pl__JavaTutorial,h2pl__JavaTutorial,net.bytebuddy:byte-buddy,1.12.23,1.12.10,3,3,test,test,version_managed
+h2pl__JavaTutorial,h2pl__JavaTutorial,net.bytebuddy:byte-buddy-agent,1.12.23,1.12.16,3,3,test,test,version_managed
+h2pl__JavaTutorial,h2pl__JavaTutorial,org.slf4j:slf4j-api,2.0.7,1.7.21,2,2,compile,compile,version_managed
+h2pl__JavaTutorial,h2pl__JavaTutorial,org.apache.lucene:lucene-core,7.1.0,5.1.0,2,2,compile,provided,omitted_conflict
+h2pl__JavaTutorial,h2pl__JavaTutorial,org.apache.lucene:lucene-queryparser,7.1.0,5.1.0,1,2,compile,provided,omitted_conflict
+h2pl__JavaTutorial,h2pl__JavaTutorial,org.apache.lucene:lucene-analyzers-common,7.1.0,5.1.0,2,2,compile,provided,omitted_conflict
+h2pl__JavaTutorial,h2pl__JavaTutorial,org.projectlombok:lombok,1.18.26,1.16.10,2,2,provided,provided,version_managed
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+h2pl__JavaTutorial,82,,,,,,,,

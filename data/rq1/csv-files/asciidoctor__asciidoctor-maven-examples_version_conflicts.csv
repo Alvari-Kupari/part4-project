@@ -1,0 +1,12 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+asciidoc-multiple-inputs-example,0,,,,,,,,
+asciidoc-to-html-example,0,,,,,,,,
+asciidoc-to-html-multipage-example,2,,,,,,,,
+asciidoc-to-revealjs-example,2,,,,,,,,
+asciidoctor-epub-example,0,,,,,,,,
+asciidoctor-pdf-example,0,,,,,,,,
+docbook-pipeline-docbkx-example,0,,,,,,,,
+asciidoctorj-twitter-extension,29,,,,,,,,

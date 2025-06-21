@@ -1,0 +1,10 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+java-wrapper,0,,,,,,,,
+jnigen,5,,,,,,,,
+gdx,3,,,,,,,,
+lwjgl3,3,,,,,,,,
+server,2,,,,,,,,
+tests,7,,,,,,,,

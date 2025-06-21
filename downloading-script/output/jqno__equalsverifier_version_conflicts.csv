@@ -1,0 +1,13 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+jqno__equalsverifier,equalsverifier-core,org.objenesis:objenesis,3.4,3.3,1,2,compile,runtime,omitted_conflict
+jqno__equalsverifier,equalsverifier-core,net.bytebuddy:byte-buddy,1.17.5,1.15.11,1,2,compile,test,omitted_conflict
+jqno__equalsverifier,equalsverifier-core,org.junit.platform:junit-platform-engine,1.13.1,1.12.2,3,4,test,test,omitted_conflict
+jqno__equalsverifier,equalsverifier-test-jpms,net.bytebuddy:byte-buddy,1.15.11,1.17.5,2,2,test,test,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+equalsverifier-21,10,,,,,,,,
+equalsverifier-core,22,,,,,,,,
+equalsverifier-release-nodep,7,,,,,,,,
+equalsverifier-test-jpms,16,,,,,,,,
+equalsverifier-testhelpers,2,,,,,,,,

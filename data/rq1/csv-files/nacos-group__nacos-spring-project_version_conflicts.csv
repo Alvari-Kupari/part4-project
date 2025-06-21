@@ -1,0 +1,14 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+nacos-group__nacos-spring-project,nacos-spring-context,commons-codec:commons-codec,1.15,1.9,2,4,compile,compile,omitted_conflict
+nacos-group__nacos-spring-project,nacos-spring-context-aot,commons-codec:commons-codec,1.15,1.9,3,5,compile,compile,omitted_conflict
+nacos-group__nacos-spring-project,nacos-embedded-webserver,com.fasterxml.jackson.core:jackson-core,2.13.4,2.12.6,2,2,compile,compile,version_managed
+nacos-group__nacos-spring-project,nacos-embedded-webserver,org.yaml:snakeyaml,1.29,2.0,2,2,compile,compile,version_managed
+nacos-group__nacos-spring-project,nacos-embedded-webserver,commons-codec:commons-codec,1.15,1.9,2,4,compile,compile,omitted_conflict
+nacos-group__nacos-spring-project,nacos-spring-webmvc-sample,commons-codec:commons-codec,1.15,1.9,3,5,compile,compile,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+nacos-spring-context,45,,,,,,,,
+nacos-spring-context-aot,32,,,,,,,,
+nacos-embedded-webserver,23,,,,,,,,
+nacos-spring-webmvc-sample,40,,,,,,,,

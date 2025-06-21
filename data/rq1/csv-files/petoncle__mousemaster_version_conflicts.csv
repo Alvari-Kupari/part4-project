@@ -1,0 +1,6 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+petoncle__mousemaster,petoncle__mousemaster,org.slf4j:slf4j-api,2.0.15,2.0.13,2,2,compile,compile,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+petoncle__mousemaster,12,,,,,,,,

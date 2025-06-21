@@ -1,0 +1,280 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+apache__storm,storm-hdfs-examples,org.bouncycastle:bcprov-jdk18on,1.81,"[1.81,1.82",4,4,provided ),provided ),version_managed
+apache__storm,storm-hdfs-examples,commons-codec:commons-codec,1.18.0,1.15,4,4,compile,compile,version_managed
+apache__storm,storm-hdfs-examples,commons-io:commons-io,2.19.0,2.18.0,4,4,compile,compile,version_managed
+apache__storm,storm-hdfs-examples,org.apache.commons:commons-lang3,3.17.0,3.9,4,4,compile,compile,version_managed
+apache__storm,storm-hdfs-examples,org.xerial.snappy:snappy-java,1.1.10.7,1.1.10.4,3,3,compile,compile,version_managed
+apache__storm,storm-hdfs-examples,com.fasterxml.jackson.core:jackson-core,2.19.0,2.17.2,3,3,compile,compile,version_managed
+apache__storm,storm-hdfs-examples,com.fasterxml.jackson.core:jackson-databind,2.19.0,2.17.2,3,3,compile,compile,version_managed
+apache__storm,storm-hdfs-examples,org.apache.commons:commons-compress,1.27.1,1.26.2,3,3,compile,compile,version_managed
+apache__storm,storm-hdfs-examples,com.google.errorprone:error_prone_annotations,2.38.0,2.36.0,2,2,compile,compile,version_managed
+apache__storm,storm-jdbc-examples,org.bouncycastle:bcprov-jdk18on,1.81,"[1.81,1.82",4,4,provided ),provided ),version_managed
+apache__storm,storm-jdbc-examples,com.google.errorprone:error_prone_annotations,2.38.0,2.36.0,3,3,compile,compile,version_managed
+apache__storm,storm-jms-examples,org.bouncycastle:bcprov-jdk18on,1.81,"[1.81,1.82",4,4,provided ),provided ),version_managed
+apache__storm,storm-kafka-client-examples,org.bouncycastle:bcprov-jdk18on,1.81,"[1.81,1.82",4,4,provided ),provided ),version_managed
+apache__storm,storm-kafka-client-examples,com.google.errorprone:error_prone_annotations,2.38.0,2.36.0,3,3,compile,compile,version_managed
+apache__storm,storm-kafka-client-examples,org.xerial.snappy:snappy-java,1.1.10.7,1.1.10.5,2,2,runtime,runtime,version_managed
+apache__storm,storm-kafka-client-examples,commons-codec:commons-codec,1.18.0,1.17.1,3,3,test,test,version_managed
+apache__storm,storm-kafka-client-examples,org.apache.commons:commons-lang3,3.17.0,3.16.0,3,3,test,test,version_managed
+apache__storm,storm-kafka-client-examples,org.ow2.asm:asm,9.8,9.7.1,4,4,test,test,version_managed
+apache__storm,storm-loadgen,org.bouncycastle:bcprov-jdk18on,1.81,"[1.81,1.82",4,4,provided ),provided ),version_managed
+apache__storm,storm-loadgen,com.google.errorprone:error_prone_annotations,2.38.0,2.36.0,2,2,compile,compile,version_managed
+apache__storm,storm-loadgen,org.ow2.asm:asm,9.8,9.7.1,3,3,compile,compile,version_managed
+apache__storm,storm-perf,org.bouncycastle:bcprov-jdk18on,1.81,"[1.81,1.82",4,4,provided ),provided ),version_managed
+apache__storm,storm-perf,commons-codec:commons-codec,1.18.0,1.15,4,4,compile,compile,version_managed
+apache__storm,storm-perf,commons-io:commons-io,2.19.0,2.18.0,4,4,compile,compile,version_managed
+apache__storm,storm-perf,org.apache.commons:commons-lang3,3.17.0,3.9,4,4,compile,compile,version_managed
+apache__storm,storm-perf,com.fasterxml.jackson.core:jackson-core,2.19.0,2.17.2,3,3,compile,compile,version_managed
+apache__storm,storm-perf,org.apache.commons:commons-compress,1.27.1,1.26.2,3,3,compile,compile,version_managed
+apache__storm,storm-perf,com.google.errorprone:error_prone_annotations,2.38.0,2.36.0,3,3,compile,compile,version_managed
+apache__storm,storm-perf,org.xerial.snappy:snappy-java,1.1.10.7,1.1.10.5,2,2,compile,compile,version_managed
+apache__storm,storm-redis-examples,org.bouncycastle:bcprov-jdk18on,1.81,"[1.81,1.82",4,4,provided ),provided ),version_managed
+apache__storm,storm-redis-examples,com.google.code.gson:gson,2.13.1,2.11.0,3,3,compile,compile,version_managed
+apache__storm,storm-redis-examples,com.google.errorprone:error_prone_annotations,2.38.0,2.36.0,3,3,compile,compile,version_managed
+apache__storm,storm-autocreds,commons-codec:commons-codec,1.18.0,1.15,2,2,compile,compile,version_managed
+apache__storm,storm-autocreds,org.apache.httpcomponents:httpclient,4.5.14,4.5.13,2,2,compile,compile,version_managed
+apache__storm,storm-autocreds,commons-io:commons-io,2.19.0,2.18.0,2,2,compile,compile,version_managed
+apache__storm,storm-autocreds,org.apache.commons:commons-lang3,3.17.0,3.9,2,2,compile,compile,version_managed
+apache__storm,storm-autocreds,com.google.errorprone:error_prone_annotations,2.38.0,2.36.0,3,3,compile,compile,version_managed
+apache__storm,storm-autocreds,com.google.guava:guava,33.4.8-jre,27.0-jre,3,3,compile,compile,version_managed
+apache__storm,storm-autocreds,commons-cli:commons-cli,1.9.0,1.5.0,3,3,compile,compile,version_managed
+apache__storm,storm-autocreds,org.apache.commons:commons-configuration2,2.12.0,2.10.1,3,3,compile,compile,version_managed
+apache__storm,storm-autocreds,org.apache.commons:commons-text,1.13.1,1.10.0,3,3,compile,compile,version_managed
+apache__storm,storm-autocreds,org.apache.avro:avro,1.12.0,1.9.2,3,3,compile,compile,version_managed
+apache__storm,storm-autocreds,com.google.code.gson:gson,2.13.1,2.9.0,3,3,compile,compile,version_managed
+apache__storm,storm-autocreds,org.apache.curator:curator-client,5.8.0,5.2.0,3,3,compile,compile,version_managed
+apache__storm,storm-autocreds,org.apache.curator:curator-recipes,5.8.0,5.2.0,3,3,compile,compile,version_managed
+apache__storm,storm-autocreds,io.netty:netty-handler,4.2.2.Final,4.1.100.Final,3,3,compile,compile,version_managed
+apache__storm,storm-autocreds,io.netty:netty-transport-native-epoll,4.2.2.Final,4.1.100.Final,3,3,compile,compile,version_managed
+apache__storm,storm-autocreds,org.apache.commons:commons-compress,1.27.1,1.26.1,3,3,compile,compile,version_managed
+apache__storm,storm-autocreds,org.bouncycastle:bcprov-jdk18on,1.81,1.78.1,3,3,compile,compile,version_managed
+apache__storm,storm-autocreds,com.fasterxml.jackson.core:jackson-databind,2.19.0,2.12.7.1,3,3,compile,compile,version_managed
+apache__storm,storm-autocreds,org.codehaus.woodstox:stax2-api,4.2.2,4.2.1,3,3,compile,compile,version_managed
+apache__storm,storm-autocreds,com.fasterxml.woodstox:woodstox-core,7.1.1,5.4.0,3,3,compile,compile,version_managed
+apache__storm,storm-autocreds,org.xerial.snappy:snappy-java,1.1.10.7,1.1.10.4,3,3,compile,compile,version_managed
+apache__storm,storm-autocreds,commons-logging:commons-logging,1.2,1.3.5,3,4,compile,compile,omitted_conflict
+apache__storm,storm-autocreds,com.fasterxml.jackson.core:jackson-core,2.19.0,2.17.2,4,4,compile,compile,version_managed
+apache__storm,storm-blobstore-migration,org.bouncycastle:bcprov-jdk18on,1.81,"[1.81,1.82",5,5,compile ),compile ),version_managed
+apache__storm,storm-blobstore-migration,org.ow2.asm:asm,9.8,9.7.1,4,4,compile,compile,version_managed
+apache__storm,storm-blobstore-migration,commons-logging:commons-logging,1.3.5,1.2,2,3,compile,compile,omitted_conflict
+apache__storm,storm-blobstore-migration,org.xerial.snappy:snappy-java,1.1.10.7,1.1.10.4,3,3,compile,compile,version_managed
+apache__storm,storm-blobstore-migration,commons-logging:commons-logging,1.3.5,1.2,2,3,compile,runtime,omitted_conflict
+apache__storm,storm-blobstore-migration,com.fasterxml.jackson.core:jackson-core,2.19.0,2.17.2,2,2,compile,compile,version_managed
+apache__storm,storm-blobstore-migration,com.google.errorprone:error_prone_annotations,2.38.0,2.36.0,2,2,compile,compile,version_managed
+apache__storm,storm-hdfs,org.bouncycastle:bcprov-jdk18on,1.81,"[1.81,1.82",4,4,provided ),provided ),version_managed
+apache__storm,storm-hdfs,commons-codec:commons-codec,1.18.0,1.15,3,3,compile,compile,version_managed
+apache__storm,storm-hdfs,commons-io:commons-io,2.19.0,2.18.0,3,3,compile,compile,version_managed
+apache__storm,storm-hdfs,org.apache.commons:commons-lang3,3.17.0,3.9,3,3,compile,compile,version_managed
+apache__storm,storm-hdfs,org.xerial.snappy:snappy-java,1.1.10.7,1.1.10.4,2,2,compile,compile,version_managed
+apache__storm,storm-hdfs,com.fasterxml.jackson.core:jackson-core,2.19.0,2.17.2,2,2,compile,compile,version_managed
+apache__storm,storm-hdfs,com.fasterxml.jackson.core:jackson-databind,2.19.0,2.17.2,2,2,compile,compile,version_managed
+apache__storm,storm-hdfs,org.apache.commons:commons-compress,1.27.1,1.26.2,2,2,compile,compile,version_managed
+apache__storm,storm-hdfs,com.google.errorprone:error_prone_annotations,2.38.0,2.36.0,2,2,compile,compile,version_managed
+apache__storm,storm-hdfs,net.bytebuddy:byte-buddy,1.17.5,1.15.4,2,2,test,test,version_managed
+apache__storm,storm-hdfs,net.bytebuddy:byte-buddy-agent,1.17.5,1.15.4,2,2,test,test,version_managed
+apache__storm,storm-hdfs,org.objenesis:objenesis,3.4,3.3,2,2,provided,provided,version_managed
+apache__storm,storm-hdfs,org.junit.jupiter:junit-jupiter-api,5.13.1,5.11.2,2,2,test,test,version_managed
+apache__storm,storm-hdfs-blobstore,org.bouncycastle:bcprov-jdk18on,1.81,"[1.81,1.82",4,4,provided ),provided ),version_managed
+apache__storm,storm-hdfs-blobstore,commons-codec:commons-codec,1.18.0,1.15,3,3,compile,compile,version_managed
+apache__storm,storm-hdfs-blobstore,org.apache.commons:commons-lang3,3.17.0,3.9,3,3,compile,compile,version_managed
+apache__storm,storm-hdfs-blobstore,org.xerial.snappy:snappy-java,1.1.10.7,1.1.10.4,2,2,compile,compile,version_managed
+apache__storm,storm-hdfs-blobstore,com.google.errorprone:error_prone_annotations,2.38.0,2.36.0,2,2,compile,compile,version_managed
+apache__storm,storm-hdfs-blobstore,net.bytebuddy:byte-buddy,1.17.5,1.15.4,2,2,test,test,version_managed
+apache__storm,storm-hdfs-blobstore,net.bytebuddy:byte-buddy-agent,1.17.5,1.15.4,2,2,test,test,version_managed
+apache__storm,storm-hdfs-blobstore,org.objenesis:objenesis,3.4,3.3,2,2,provided,provided,version_managed
+apache__storm,storm-hdfs-oci,org.bouncycastle:bcprov-jdk18on,1.81,"[1.81,1.82",5,5,provided ),provided ),version_managed
+apache__storm,storm-hdfs-oci,commons-codec:commons-codec,1.18.0,1.17.1,3,3,provided,provided,version_managed
+apache__storm,storm-hdfs-oci,org.apache.commons:commons-lang3,3.17.0,3.16.0,3,3,provided,provided,version_managed
+apache__storm,storm-hdfs-oci,org.ow2.asm:asm,9.8,9.7.1,4,4,provided,provided,version_managed
+apache__storm,storm-hdfs-oci,org.xerial.snappy:snappy-java,1.1.10.7,1.1.10.4,2,2,compile,compile,version_managed
+apache__storm,storm-hdfs-oci,com.google.errorprone:error_prone_annotations,2.38.0,2.36.0,2,2,compile,compile,version_managed
+apache__storm,storm-jdbc,org.bouncycastle:bcprov-jdk18on,1.81,"[1.81,1.82",4,4,provided ),provided ),version_managed
+apache__storm,storm-jdbc,com.google.errorprone:error_prone_annotations,2.38.0,2.36.0,2,2,compile,compile,version_managed
+apache__storm,storm-jms,org.bouncycastle:bcprov-jdk18on,1.81,"[1.81,1.82",4,4,provided ),provided ),version_managed
+apache__storm,storm-kafka-client,org.bouncycastle:bcprov-jdk18on,1.81,"[1.81,1.82",4,4,provided ),provided ),version_managed
+apache__storm,storm-kafka-client,commons-codec:commons-codec,1.18.0,1.17.1,3,3,test,test,version_managed
+apache__storm,storm-kafka-client,org.apache.commons:commons-lang3,3.17.0,3.16.0,3,3,test,test,version_managed
+apache__storm,storm-kafka-client,org.ow2.asm:asm,9.8,9.7.1,4,4,test,test,version_managed
+apache__storm,storm-kafka-client,org.xerial.snappy:snappy-java,1.1.10.7,1.1.10.5,2,2,provided,provided,version_managed
+apache__storm,storm-kafka-client,com.google.errorprone:error_prone_annotations,2.38.0,2.36.0,2,2,compile,compile,version_managed
+apache__storm,storm-kafka-client,net.bytebuddy:byte-buddy,1.17.5,1.15.4,2,2,test,test,version_managed
+apache__storm,storm-kafka-client,net.bytebuddy:byte-buddy-agent,1.17.5,1.15.4,2,2,test,test,version_managed
+apache__storm,storm-kafka-client,org.objenesis:objenesis,3.4,3.3,2,2,provided,provided,version_managed
+apache__storm,storm-kafka-client,org.junit.jupiter:junit-jupiter-api,5.13.1,5.11.2,2,2,test,test,version_managed
+apache__storm,storm-kafka-client,com.fasterxml.jackson.module:jackson-module-scala_2.13,2.19.0,2.16.2,2,2,test,test,version_managed
+apache__storm,storm-kafka-client,com.fasterxml.jackson.dataformat:jackson-dataformat-csv,2.19.0,2.16.2,2,2,test,test,version_managed
+apache__storm,storm-kafka-client,com.fasterxml.jackson.datatype:jackson-datatype-jdk8,2.19.0,2.16.2,2,2,test,test,version_managed
+apache__storm,storm-kafka-client,org.apache.zookeeper:zookeeper,3.9.3,3.8.4,2,2,test,test,version_managed
+apache__storm,storm-kafka-client,commons-cli:commons-cli,1.9.0,1.4,2,2,test,test,version_managed
+apache__storm,storm-kafka-client,com.github.ben-manes.caffeine:caffeine,3.2.1,2.9.3,3,3,test,test,version_managed
+apache__storm,storm-kafka-client,org.scala-lang:scala-library,2.13.14,2.13.16,2,3,test,test,omitted_conflict
+apache__storm,storm-kafka-client,org.scala-lang:scala-library,2.13.14,2.13.10,2,3,test,test,omitted_conflict
+apache__storm,storm-kafka-client,org.scala-lang:scala-library,2.13.14,2.13.6,2,3,test,test,omitted_conflict
+apache__storm,storm-kafka-client,org.scala-lang:scala-library,2.13.14,2.13.8,2,3,test,test,omitted_conflict
+apache__storm,storm-kafka-client,org.scala-lang:scala-reflect,2.13.14,2.13.8,2,3,test,test,omitted_conflict
+apache__storm,storm-kafka-client,io.netty:netty-handler,4.2.2.Final,4.1.113.Final,3,3,test,test,version_managed
+apache__storm,storm-kafka-client,io.netty:netty-transport-native-epoll,4.2.2.Final,4.1.113.Final,3,3,runtime,runtime,version_managed
+apache__storm,storm-kafka-client,io.netty:netty-tcnative-boringssl-static,2.0.72.Final,2.0.66.Final,3,3,test,test,version_managed
+apache__storm,storm-kafka-migration,org.bouncycastle:bcprov-jdk18on,1.81,"[1.81,1.82",4,4,provided ),provided ),version_managed
+apache__storm,storm-kafka-migration,org.xerial.snappy:snappy-java,1.1.10.7,1.1.10.5,2,2,provided,provided,version_managed
+apache__storm,storm-kafka-migration,com.google.guava:guava,33.4.8-jre,32.0.0-jre,3,3,compile,compile,version_managed
+apache__storm,storm-kafka-migration,com.google.errorprone:error_prone_annotations,2.38.0,2.36.0,4,4,compile,compile,version_managed
+apache__storm,storm-kafka-migration,io.netty:netty-handler,4.2.2.Final,4.1.113.Final,2,2,compile,compile,version_managed
+apache__storm,storm-kafka-migration,io.netty:netty-transport-native-epoll,4.2.2.Final,4.1.113.Final,2,2,runtime,runtime,version_managed
+apache__storm,storm-kafka-migration,io.netty:netty-tcnative-boringssl-static,2.0.72.Final,2.0.66.Final,2,2,compile,compile,version_managed
+apache__storm,storm-kafka-migration,commons-io:commons-io,2.19.0,2.17.0,2,2,compile,compile,version_managed
+apache__storm,storm-kafka-monitor,org.xerial.snappy:snappy-java,1.1.10.7,1.1.10.5,2,2,runtime,runtime,version_managed
+apache__storm,storm-kafka-monitor,org.slf4j:slf4j-api,2.0.17,1.7.36,2,2,compile,compile,version_managed
+apache__storm,storm-kafka-monitor,com.google.guava:guava,33.4.8-jre,32.0.0-jre,3,3,compile,compile,version_managed
+apache__storm,storm-kafka-monitor,com.google.errorprone:error_prone_annotations,2.38.0,2.36.0,4,4,compile,compile,version_managed
+apache__storm,storm-kafka-monitor,io.netty:netty-handler,4.2.2.Final,4.1.113.Final,2,2,compile,compile,version_managed
+apache__storm,storm-kafka-monitor,io.netty:netty-transport-native-epoll,4.2.2.Final,4.1.113.Final,2,2,runtime,runtime,version_managed
+apache__storm,storm-kafka-monitor,io.netty:netty-tcnative-boringssl-static,2.0.72.Final,2.0.66.Final,2,2,compile,compile,version_managed
+apache__storm,storm-kafka-monitor,commons-io:commons-io,2.19.0,2.17.0,2,2,compile,compile,version_managed
+apache__storm,storm-kafka-monitor,org.ow2.asm:asm,9.8,9.7.1,3,3,compile,compile,version_managed
+apache__storm,storm-metrics,org.bouncycastle:bcprov-jdk18on,1.81,"[1.81,1.82",4,4,provided ),provided ),version_managed
+apache__storm,storm-metrics-prometheus,org.bouncycastle:bcprov-jdk18on,1.81,"[1.81,1.82",5,5,provided ),provided ),version_managed
+apache__storm,storm-metrics-prometheus,commons-codec:commons-codec,1.18.0,1.17.1,3,3,provided,provided,version_managed
+apache__storm,storm-metrics-prometheus,org.apache.commons:commons-lang3,3.17.0,3.16.0,3,3,provided,provided,version_managed
+apache__storm,storm-metrics-prometheus,org.ow2.asm:asm,9.8,9.7.1,4,4,provided,provided,version_managed
+apache__storm,storm-metrics-prometheus,org.slf4j:slf4j-api,2.0.17,1.7.36,2,2,provided,provided,version_managed
+apache__storm,storm-redis,org.bouncycastle:bcprov-jdk18on,1.81,"[1.81,1.82",4,4,provided ),provided ),version_managed
+apache__storm,storm-redis,com.google.code.gson:gson,2.13.1,2.11.0,2,2,compile,compile,version_managed
+apache__storm,storm-redis,com.google.errorprone:error_prone_annotations,2.38.0,2.36.0,2,2,compile,compile,version_managed
+apache__storm,storm-redis,net.bytebuddy:byte-buddy,1.17.5,1.12.19,2,2,test,test,version_managed
+apache__storm,storm-redis,net.bytebuddy:byte-buddy-agent,1.17.5,1.12.19,2,2,test,test,version_managed
+apache__storm,storm-redis,org.objenesis:objenesis,3.4,3.3,2,2,provided,provided,version_managed
+apache__storm,storm-redis,org.apache.commons:commons-compress,1.27.1,1.24.0,2,2,test,test,version_managed
+apache__storm,storm-redis,commons-io:commons-io,2.19.0,2.16.1,3,3,test,test,version_managed
+apache__storm,storm-redis,org.apache.commons:commons-lang3,3.17.0,3.16.0,3,3,test,test,version_managed
+apache__storm,flux-core,com.google.errorprone:error_prone_annotations,2.38.0,2.36.0,3,3,test,test,version_managed
+apache__storm,flux-core,org.xerial.snappy:snappy-java,1.1.10.7,1.1.10.5,2,2,test,test,version_managed
+apache__storm,flux-core,commons-codec:commons-codec,1.18.0,1.15,4,4,test,test,version_managed
+apache__storm,flux-core,commons-io:commons-io,2.19.0,2.18.0,4,4,test,test,version_managed
+apache__storm,flux-core,org.apache.commons:commons-lang3,3.17.0,3.9,4,4,test,test,version_managed
+apache__storm,flux-core,org.apache.commons:commons-compress,1.27.1,1.26.2,3,3,test,test,version_managed
+apache__storm,flux-core,org.bouncycastle:bcprov-jdk18on,1.81,"[1.81,1.82",4,4,provided ),provided ),version_managed
+apache__storm,flux-examples,commons-codec:commons-codec,1.18.0,1.15,4,4,compile,compile,version_managed
+apache__storm,flux-examples,commons-io:commons-io,2.19.0,2.18.0,4,4,compile,compile,version_managed
+apache__storm,flux-examples,org.apache.commons:commons-lang3,3.17.0,3.9,4,4,compile,compile,version_managed
+apache__storm,flux-examples,com.fasterxml.jackson.core:jackson-core,2.19.0,2.17.2,3,3,compile,compile,version_managed
+apache__storm,flux-examples,org.apache.commons:commons-compress,1.27.1,1.26.2,3,3,compile,compile,version_managed
+apache__storm,flux-examples,com.google.errorprone:error_prone_annotations,2.38.0,2.36.0,3,3,compile,compile,version_managed
+apache__storm,flux-examples,org.xerial.snappy:snappy-java,1.1.10.7,1.1.10.5,2,2,compile,compile,version_managed
+apache__storm,flux-examples,org.bouncycastle:bcprov-jdk18on,1.81,"[1.81,1.82",4,4,provided ),provided ),version_managed
+apache__storm,flux-wrappers,org.bouncycastle:bcprov-jdk18on,1.81,"[1.81,1.82",4,4,provided ),provided ),version_managed
+apache__storm,integration-test,org.slf4j:slf4j-api,2.0.17,2.0.16,2,2,provided,provided,version_managed
+apache__storm,integration-test,org.bouncycastle:bcprov-jdk18on,1.81,"[1.81,1.82",4,4,provided ),provided ),version_managed
+apache__storm,integration-test,com.google.errorprone:error_prone_annotations,2.38.0,2.36.0,2,2,compile,compile,version_managed
+apache__storm,maven-shade-clojure-transformer,org.slf4j:slf4j-api,2.0.17,1.7.36,2,2,provided,provided,version_managed
+apache__storm,maven-shade-clojure-transformer,org.ow2.asm:asm,9.8,9.7,2,2,provided,provided,version_managed
+apache__storm,maven-shade-clojure-transformer,org.ow2.asm:asm-commons,9.8,9.7,2,2,provided,provided,version_managed
+apache__storm,maven-shade-clojure-transformer,org.apache.commons:commons-compress,1.27.1,1.26.2,2,2,provided,provided,version_managed
+apache__storm,maven-shade-clojure-transformer,commons-io:commons-io,2.19.0,2.16.1,2,2,provided,provided,version_managed
+apache__storm,maven-shade-clojure-transformer,commons-codec:commons-codec,1.18.0,1.17.1,3,3,provided,provided,version_managed
+apache__storm,maven-shade-clojure-transformer,org.apache.commons:commons-lang3,3.17.0,3.16.0,3,3,provided,provided,version_managed
+apache__storm,storm-maven-plugins,org.codehaus.plexus:plexus-component-annotations,2.1.0,1.5.5,2,3,compile,compile,omitted_conflict
+apache__storm,storm-maven-plugins,org.codehaus.plexus:plexus-classworlds,2.6.0,2.5.2,2,3,compile,compile,omitted_conflict
+apache__storm,storm-maven-plugins,org.codehaus.plexus:plexus-utils,3.2.1,3.0.17,2,3,compile,compile,omitted_conflict
+apache__storm,storm-maven-plugins,org.apache.commons:commons-lang3,3.17.0,3.8.1,2,2,compile,compile,version_managed
+apache__storm,storm-maven-plugins,org.codehaus.plexus:plexus-utils,3.2.1,1.5.5,2,4,compile,compile,omitted_conflict
+apache__storm,storm-maven-plugins,org.slf4j:slf4j-api,2.0.17,1.7.29,3,3,compile,compile,version_managed
+apache__storm,storm-maven-plugins,commons-io:commons-io,2.19.0,2.5,3,3,compile,compile,version_managed
+apache__storm,storm-maven-plugins,com.google.guava:guava,33.4.8-jre,25.1-android,3,3,compile,compile,version_managed
+apache__storm,storm-maven-plugins,com.google.errorprone:error_prone_annotations,2.38.0,2.36.0,4,4,compile,compile,version_managed
+apache__storm,storm-clojure,org.bouncycastle:bcprov-jdk18on,1.81,"[1.81,1.82",4,4,provided ),provided ),version_managed
+apache__storm,storm-clojure,org.clojure:clojure,1.12.1,1.10.3,2,2,compile,compile,version_managed
+apache__storm,storm-clojure,org.ow2.asm:asm,9.8,9.7.1,3,3,compile,compile,version_managed
+apache__storm,storm-clojure,commons-codec:commons-codec,1.18.0,1.17.1,3,3,test,test,version_managed
+apache__storm,storm-clojure,org.apache.commons:commons-lang3,3.17.0,3.16.0,3,3,test,test,version_managed
+apache__storm,storm-server,org.bouncycastle:bcprov-jdk18on,1.81,"[1.81,1.82",4,4,compile ),compile ),version_managed
+apache__storm,storm-server,commons-codec:commons-codec,1.18.0,1.17.1,2,2,compile,compile,version_managed
+apache__storm,storm-server,org.apache.commons:commons-lang3,3.17.0,3.16.0,2,2,compile,compile,version_managed
+apache__storm,storm-server,com.google.guava:guava,33.4.8-jre,32.0.1-jre,2,2,compile,compile,version_managed
+apache__storm,storm-server,com.google.errorprone:error_prone_annotations,2.38.0,2.36.0,3,3,compile,compile,version_managed
+apache__storm,storm-server,org.apache.zookeeper:zookeeper,3.9.3,3.9.2,2,2,test,test,version_managed
+apache__storm,storm-server,org.xerial.snappy:snappy-java,1.1.10.7,1.1.10.4,2,2,test,test,version_managed
+apache__storm,storm-server,org.junit.jupiter:junit-jupiter-api,5.13.1,5.6.2,2,2,test,test,version_managed
+apache__storm,storm-server,io.netty:netty-handler,4.2.2.Final,4.1.113.Final,3,3,test,test,version_managed
+apache__storm,storm-server,io.netty:netty-transport-native-epoll,4.2.2.Final,4.1.113.Final,3,3,runtime,runtime,version_managed
+apache__storm,storm-server,io.netty:netty-tcnative-boringssl-static,2.0.72.Final,2.0.66.Final,3,3,test,test,version_managed
+apache__storm,storm-server,net.bytebuddy:byte-buddy,1.17.5,1.15.4,2,2,test,test,version_managed
+apache__storm,storm-server,net.bytebuddy:byte-buddy-agent,1.17.5,1.15.4,2,2,test,test,version_managed
+apache__storm,storm-server,org.objenesis:objenesis,3.4,3.3,2,2,compile,compile,version_managed
+apache__storm,storm-server,org.ow2.asm:asm,9.8,9.7.1,3,3,compile,compile,version_managed
+apache__storm,storm-submit-tools,org.ow2.asm:asm,9.8,9.7.1,3,3,compile,compile,version_managed
+apache__storm,storm-submit-tools,com.google.errorprone:error_prone_annotations,2.38.0,2.36.0,2,2,compile,compile,version_managed
+apache__storm,storm-submit-tools,org.slf4j:slf4j-api,2.0.17,1.7.36,2,2,compile,compile,version_managed
+apache__storm,storm-submit-tools,org.slf4j:jcl-over-slf4j,2.0.17,1.7.36,2,2,runtime,runtime,version_managed
+apache__storm,storm-submit-tools,org.bouncycastle:bcprov-jdk18on,1.81,"[1.81,1.82",4,4,test ),test ),version_managed
+apache__storm,storm-webapp,org.clojure:clojure,1.12.1,1.10.3,4,4,provided,provided,version_managed
+apache__storm,storm-webapp,org.bouncycastle:bcprov-jdk18on,1.81,"[1.81,1.82",6,6,provided ),provided ),version_managed
+apache__storm,storm-webapp,org.apache.commons:commons-lang3,3.17.0,3.16.0,4,4,compile,compile,version_managed
+apache__storm,storm-webapp,com.google.errorprone:error_prone_annotations,2.38.0,2.36.0,3,3,compile,compile,version_managed
+apache__storm,storm-webapp,org.apache.zookeeper:zookeeper,3.9.3,3.8.4,3,3,provided,provided,version_managed
+apache__storm,storm-webapp,org.apache.curator:curator-framework,5.8.0,5.2.0,3,3,provided,provided,version_managed
+apache__storm,storm-webapp,org.ow2.asm:asm,9.8,9.7.1,3,3,compile,compile,version_managed
+apache__storm,storm-webapp,net.bytebuddy:byte-buddy,1.17.5,1.15.4,2,2,test,test,version_managed
+apache__storm,storm-webapp,net.bytebuddy:byte-buddy-agent,1.17.5,1.15.4,2,2,test,test,version_managed
+apache__storm,storm-webapp,org.objenesis:objenesis,3.4,3.3,2,2,provided,provided,version_managed
+apache__storm,storm-webapp,org.checkerframework:checker-qual,3.49.4,3.49.3,2,2,compile,compile,version_managed
+apache__storm,storm-webapp,org.glassfish.jersey.core:jersey-common,3.1.10,3.0.17,2,2,compile,compile,version_managed
+apache__storm,storm-webapp,org.glassfish.jersey.ext:jersey-bean-validation,3.1.10,3.0.17,2,2,compile,compile,version_managed
+apache__storm,storm-webapp,com.github.ben-manes.caffeine:caffeine,3.2.1,3.2.0,3,3,compile,compile,version_managed
+apache__storm,storm-webapp,jakarta.validation:jakarta.validation-api,3.0.2,3.0.0,2,4,compile,compile,omitted_conflict
+apache__storm,storm-webapp,org.jboss.logging:jboss-logging,3.6.0.Final,3.4.1.Final,3,4,compile,compile,omitted_conflict
+apache__storm,storm-webapp,com.fasterxml:classmate,1.7.0,1.5.1,3,4,compile,compile,omitted_conflict
+apache__storm,storm-webapp,org.glassfish.jersey.ext:jersey-metainf-services,3.1.10,3.0.17,3,3,runtime,runtime,version_managed
+apache__storm,storm-webapp,jakarta.annotation:jakarta.annotation-api,2.0.0,2.1.1,3,3,compile,compile,omitted_conflict
+apache__storm,storm-webapp,jakarta.inject:jakarta.inject-api,2.0.1.MR,2.0.1,2,2,compile,compile,omitted_conflict
+apache__storm,storm-webapp,jakarta.inject:jakarta.inject-api,2.0.1.MR,2.0.1,2,2,compile,compile,omitted_conflict
+apache__storm,storm-webapp,org.hibernate.validator:hibernate-validator,7.0.5.Final,8.0.1.Final,3,3,compile,compile,omitted_conflict
+apache__storm,storm-webapp,org.glassfish.jersey.containers:jersey-container-servlet-core,3.1.10,3.0.17,2,2,compile,compile,version_managed
+apache__storm,storm-webapp,org.glassfish.jersey.connectors:jersey-apache5-connector,3.1.10,3.0.17,2,2,test,test,version_managed
+apache__storm,storm-webapp,org.glassfish.jersey.core:jersey-client,3.1.10,3.0.17,2,2,compile,compile,version_managed
+apache__storm,storm-webapp,org.glassfish.jersey.core:jersey-server,3.1.10,3.0.17,2,2,compile,compile,version_managed
+apache__storm,storm-webapp,org.glassfish.jersey.test-framework:jersey-test-framework-core,3.1.10,3.0.17,2,2,test,test,version_managed
+apache__storm,storm-webapp,org.glassfish.jersey.test-framework.providers:jersey-test-framework-provider-inmemory,3.1.10,3.0.17,2,2,test,test,version_managed
+apache__storm,storm-webapp,jakarta.activation:jakarta.activation-api,1.2.1,2.0.1,2,2,compile,compile,version_managed
+apache__storm,storm-webapp,jakarta.xml.bind:jakarta.xml.bind-api,2.3.2,3.0.1,2,2,compile,compile,version_managed
+apache__storm,storm-webapp,jakarta.inject:jakarta.inject-api,2.0.1.MR,2.0.1,2,2,compile,compile,omitted_conflict
+apache__storm,storm-webapp,org.apache.httpcomponents.client5:httpclient5,5.5,5.3.1,2,3,test,test,omitted_conflict
+apache__storm,storm-webapp,jakarta.inject:jakarta.inject-api,2.0.1.MR,2.0.1,2,2,compile,compile,omitted_conflict
+apache__storm,storm-webapp,jakarta.annotation:jakarta.annotation-api,2.0.0,2.1.1,3,3,compile,compile,omitted_conflict
+apache__storm,storm-webapp,jakarta.inject:jakarta.inject-api,2.0.1.MR,2.0.1,2,2,compile,compile,omitted_conflict
+apache__storm,storm-webapp,org.junit.jupiter:junit-jupiter,5.13.1,5.11.4,3,3,test,test,version_managed
+apache__storm,storm-webapp,jakarta.inject:jakarta.inject-api,2.0.1.MR,2.0.1,2,4,compile,test,omitted_conflict
+apache__storm,storm-webapp,jakarta.inject:jakarta.inject-api,2.0.1.MR,2.0.1,2,2,compile,compile,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+storm-hdfs-examples,76,,,,,,,,
+storm-jdbc-examples,39,,,,,,,,
+storm-jms-examples,47,,,,,,,,
+storm-kafka-client-examples,62,,,,,,,,
+storm-loadgen,52,,,,,,,,
+storm-perf,81,,,,,,,,
+storm-redis-examples,46,,,,,,,,
+storm-autocreds,116,,,,,,,,
+storm-blobstore-migration,93,,,,,,,,
+storm-hdfs,90,,,,,,,,
+storm-hdfs-blobstore,86,,,,,,,,
+storm-hdfs-oci,60,,,,,,,,
+storm-jdbc,39,,,,,,,,
+storm-jms,33,,,,,,,,
+storm-kafka-client,113,,,,,,,,
+storm-kafka-migration,61,,,,,,,,
+storm-kafka-monitor,41,,,,,,,,
+storm-metrics,32,,,,,,,,
+storm-metrics-prometheus,76,,,,,,,,
+storm-redis,61,,,,,,,,
+flux-core,87,,,,,,,,
+flux-examples,86,,,,,,,,
+flux-wrappers,34,,,,,,,,
+integration-test,43,,,,,,,,
+maven-shade-clojure-transformer,19,,,,,,,,
+storm-maven-plugins,45,,,,,,,,
+storm-clojure,57,,,,,,,,
+storm-server,81,,,,,,,,
+storm-submit-tools,64,,,,,,,,
+storm-webapp,180,,,,,,,,

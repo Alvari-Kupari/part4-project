@@ -1,0 +1,23 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+cool-team-official__cool-admin-java,cool-team-official__cool-admin-java,net.bytebuddy:byte-buddy,1.14.13,1.12.21,3,3,test,test,version_managed
+cool-team-official__cool-admin-java,cool-team-official__cool-admin-java,net.bytebuddy:byte-buddy-agent,1.14.13,1.14.9,3,3,test,test,version_managed
+cool-team-official__cool-admin-java,cool-team-official__cool-admin-java,io.netty:netty-common,4.1.109.Final,4.1.107.Final,3,3,compile,compile,version_managed
+cool-team-official__cool-admin-java,cool-team-official__cool-admin-java,io.netty:netty-handler,4.1.109.Final,4.1.107.Final,3,3,compile,compile,version_managed
+cool-team-official__cool-admin-java,cool-team-official__cool-admin-java,io.netty:netty-transport,4.1.109.Final,4.1.107.Final,3,3,compile,compile,version_managed
+cool-team-official__cool-admin-java,cool-team-official__cool-admin-java,io.projectreactor:reactor-core,3.6.5,3.6.4,3,3,compile,compile,version_managed
+cool-team-official__cool-admin-java,cool-team-official__cool-admin-java,org.checkerframework:checker-qual,3.37.0,3.31.0,2,2,compile,runtime,omitted_conflict
+cool-team-official__cool-admin-java,cool-team-official__cool-admin-java,org.slf4j:slf4j-api,2.0.13,2.0.0-alpha1,2,2,compile,compile,version_managed
+cool-team-official__cool-admin-java,cool-team-official__cool-admin-java,org.springframework:spring-jdbc,6.1.6,5.3.27,5,5,compile,compile,version_managed
+cool-team-official__cool-admin-java,cool-team-official__cool-admin-java,com.fasterxml.jackson.dataformat:jackson-dataformat-yaml,2.15.4,2.16.2,5,5,compile,compile,version_managed
+cool-team-official__cool-admin-java,cool-team-official__cool-admin-java,org.slf4j:jcl-over-slf4j,2.0.13,1.7.36,3,3,compile,compile,version_managed
+cool-team-official__cool-admin-java,cool-team-official__cool-admin-java,commons-codec:commons-codec,1.16.1,1.13,3,3,compile,compile,version_managed
+cool-team-official__cool-admin-java,cool-team-official__cool-admin-java,org.apache.httpcomponents:httpcore,4.4.16,4.4.13,4,4,compile,compile,version_managed
+cool-team-official__cool-admin-java,cool-team-official__cool-admin-java,org.checkerframework:checker-qual,3.37.0,3.33.0,2,4,compile,compile,omitted_conflict
+cool-team-official__cool-admin-java,cool-team-official__cool-admin-java,com.google.errorprone:error_prone_annotations,2.21.1,2.18.0,2,4,compile,compile,omitted_conflict
+cool-team-official__cool-admin-java,cool-team-official__cool-admin-java,org.apache.commons:commons-lang3,3.13.0,3.10,2,2,compile,compile,version_managed
+cool-team-official__cool-admin-java,cool-team-official__cool-admin-java,commons-io:commons-io,2.14.0,2.11.0,3,3,compile,compile,omitted_conflict
+cool-team-official__cool-admin-java,cool-team-official__cool-admin-java,com.google.guava:guava,32.1.2-jre,31.1-jre,3,3,compile,compile,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+cool-team-official__cool-admin-java,170,,,,,,,,

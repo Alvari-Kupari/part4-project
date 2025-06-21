@@ -1,0 +1,12 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+uniVocity__csv-parsers-comparison,uniVocity__csv-parsers-comparison,commons-logging:commons-logging,1.1.3,1.1.1,2,3,compile,compile,omitted_conflict
+uniVocity__csv-parsers-comparison,uniVocity__csv-parsers-comparison,cglib:cglib-nodep,3.1,2.2,2,2,compile,compile,omitted_conflict
+uniVocity__csv-parsers-comparison,uniVocity__csv-parsers-comparison,org.slf4j:jcl-over-slf4j,1.7.21,1.7.7,2,3,compile,compile,omitted_conflict
+uniVocity__csv-parsers-comparison,uniVocity__csv-parsers-comparison,org.slf4j:slf4j-api,1.7.21,1.7.7,2,4,compile,compile,omitted_conflict
+uniVocity__csv-parsers-comparison,uniVocity__csv-parsers-comparison,org.slf4j:slf4j-api,1.7.21,1.6.1,2,4,compile,compile,omitted_conflict
+uniVocity__csv-parsers-comparison,uniVocity__csv-parsers-comparison,commons-beanutils:commons-beanutils,1.8.0,1.9.3,2,2,compile,compile,omitted_conflict
+uniVocity__csv-parsers-comparison,uniVocity__csv-parsers-comparison,org.apache.commons:commons-lang3,3.6,3.5,2,3,compile,compile,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+uniVocity__csv-parsers-comparison,62,,,,,,,,

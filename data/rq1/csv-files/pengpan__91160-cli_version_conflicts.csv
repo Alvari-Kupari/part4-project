@@ -1,0 +1,7 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+pengpan__91160-cli,pengpan__91160-cli,com.fasterxml.jackson.core:jackson-databind,2.17.0,2.13.2.2,2,3,compile,compile,omitted_conflict
+pengpan__91160-cli,pengpan__91160-cli,org.slf4j:slf4j-api,1.7.33,1.7.25,2,2,compile,compile,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+pengpan__91160-cli,43,,,,,,,,

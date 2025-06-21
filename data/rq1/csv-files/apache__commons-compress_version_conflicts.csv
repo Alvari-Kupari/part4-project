@@ -1,0 +1,12 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+apache__commons-compress,apache__commons-compress,org.slf4j:slf4j-api,1.7.25,1.5.11,3,3,test,test,omitted_conflict
+apache__commons-compress,apache__commons-compress,org.slf4j:slf4j-api,1.7.25,1.5.11,3,3,test,test,omitted_conflict
+apache__commons-compress,apache__commons-compress,org.ops4j.base:ops4j-base-store,1.5.1,1.5.0,3,4,test,test,omitted_conflict
+apache__commons-compress,apache__commons-compress,org.slf4j:slf4j-api,1.7.25,1.5.11,3,3,test,test,omitted_conflict
+apache__commons-compress,apache__commons-compress,org.slf4j:slf4j-api,1.7.25,1.6.6,3,4,test,test,omitted_conflict
+apache__commons-compress,apache__commons-compress,org.slf4j:slf4j-api,1.7.25,1.6.6,3,4,test,test,omitted_conflict
+apache__commons-compress,apache__commons-compress,org.junit.platform:junit-platform-launcher,1.12.2,1.9.0,2,2,test,test,version_managed
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+apache__commons-compress,61,,,,,,,,

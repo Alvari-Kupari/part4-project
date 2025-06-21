@@ -1,0 +1,24 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+Hakky54__sslcontext-kickstart,sslcontext-kickstart,net.bytebuddy:byte-buddy-agent,1.17.5,1.14.12,3,3,test,test,version_managed
+Hakky54__sslcontext-kickstart,sslcontext-kickstart,net.bytebuddy:byte-buddy,1.17.5,1.15.11,2,2,test,test,version_managed
+Hakky54__sslcontext-kickstart,sslcontext-kickstart-for-apache4,net.bytebuddy:byte-buddy,1.17.5,1.15.11,2,2,test,test,version_managed
+Hakky54__sslcontext-kickstart,sslcontext-kickstart-for-apache5,org.slf4j:slf4j-api,2.0.17,1.7.36,2,2,provided,provided,version_managed
+Hakky54__sslcontext-kickstart,sslcontext-kickstart-for-apache5,net.bytebuddy:byte-buddy,1.17.5,1.15.11,2,2,test,test,version_managed
+Hakky54__sslcontext-kickstart,sslcontext-kickstart-for-jetty,net.bytebuddy:byte-buddy,1.17.5,1.15.11,2,2,test,test,version_managed
+Hakky54__sslcontext-kickstart,sslcontext-kickstart-for-jetty,org.eclipse.jetty:jetty-http,9.4.57.v20241219,9.4.56.v20240826,2,3,test,test,omitted_conflict
+Hakky54__sslcontext-kickstart,sslcontext-kickstart-for-jetty,org.eclipse.jetty:jetty-io,9.4.57.v20241219,9.4.56.v20240826,2,3,test,test,omitted_conflict
+Hakky54__sslcontext-kickstart,sslcontext-kickstart-for-netty,net.bytebuddy:byte-buddy,1.17.5,1.15.11,2,2,test,test,version_managed
+Hakky54__sslcontext-kickstart,sslcontext-kickstart-for-netty,io.netty:netty-codec,4.2.2.Final,4.1.106.Final,3,3,test,test,version_managed
+Hakky54__sslcontext-kickstart,sslcontext-kickstart-for-netty,io.netty:netty-handler,4.2.2.Final,4.1.106.Final,1,3,provided,test,omitted_conflict
+Hakky54__sslcontext-kickstart,sslcontext-kickstart-for-netty,io.netty:netty-codec-http,4.1.106.Final,4.2.2.Final,2,2,test,test,omitted_conflict
+Hakky54__sslcontext-kickstart,sslcontext-kickstart-for-pem,net.bytebuddy:byte-buddy-agent,1.17.5,1.14.12,3,3,test,test,version_managed
+Hakky54__sslcontext-kickstart,sslcontext-kickstart-for-pem,net.bytebuddy:byte-buddy,1.17.5,1.15.11,2,2,test,test,version_managed
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+sslcontext-kickstart,30,,,,,,,,
+sslcontext-kickstart-for-apache4,25,,,,,,,,
+sslcontext-kickstart-for-apache5,24,,,,,,,,
+sslcontext-kickstart-for-jetty,32,,,,,,,,
+sslcontext-kickstart-for-netty,38,,,,,,,,
+sslcontext-kickstart-for-pem,28,,,,,,,,

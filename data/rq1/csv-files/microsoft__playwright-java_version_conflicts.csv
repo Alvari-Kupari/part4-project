@@ -1,0 +1,13 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+microsoft__playwright-java,playwright,org.slf4j:slf4j-api,2.0.13,2.0.17,2,2,test,test,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+driver,7,,,,,,,,
+driver-bundle,8,,,,,,,,
+examples,7,,,,,,,,
+playwright,15,,,,,,,,
+api-generator,2,,,,,,,,
+test-cli-fatjar,3,,,,,,,,
+test-cli-version,2,,,,,,,,
+update-docs-version,2,,,,,,,,

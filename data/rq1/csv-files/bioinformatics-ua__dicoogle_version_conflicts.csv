@@ -1,0 +1,12 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+bioinformatics-ua__dicoogle,sdk,com.fasterxml.jackson.core:jackson-annotations,2.9.5,2.9.0,1,2,provided,compile,omitted_conflict
+bioinformatics-ua__dicoogle,sdk,com.fasterxml.jackson.core:jackson-annotations,2.9.5,2.9.0,1,2,provided,compile,omitted_conflict
+bioinformatics-ua__dicoogle,sdk,com.fasterxml.jackson.core:jackson-annotations,2.9.5,2.9.0,1,2,provided,compile,omitted_conflict
+bioinformatics-ua__dicoogle,sdk,org.slf4j:slf4j-api,1.7.36,1.6.1,1,2,compile,compile,omitted_conflict
+bioinformatics-ua__dicoogle,sdk,org.slf4j:slf4j-api,1.7.36,1.6.1,1,2,compile,compile,omitted_conflict
+bioinformatics-ua__dicoogle,sdk,commons-lang:commons-lang,2.6,2.5,2,2,compile,compile,omitted_conflict
+bioinformatics-ua__dicoogle,sdk,commons-lang:commons-lang,2.6,2.3,2,3,compile,compile,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+sdk,33,,,,,,,,

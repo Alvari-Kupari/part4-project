@@ -1,0 +1,6 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+restfb__restfb,restfb__restfb,org.junit.jupiter:junit-jupiter-api,5.12.2,5.11.4,1,2,test,test,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+restfb__restfb,17,,,,,,,,

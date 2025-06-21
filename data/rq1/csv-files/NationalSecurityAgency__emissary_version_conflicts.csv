@@ -1,0 +1,8 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+NationalSecurityAgency__emissary,NationalSecurityAgency__emissary,com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations,2.18.3,2.14.1,2,2,compile,compile,version_managed
+NationalSecurityAgency__emissary,NationalSecurityAgency__emissary,io.grpc:grpc-core,1.45.1,[1.45.1],2,2,runtime,runtime,version_managed
+NationalSecurityAgency__emissary,NationalSecurityAgency__emissary,org.junit.jupiter:junit-jupiter,5.12.2,5.9.3,2,2,test,test,version_managed
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+NationalSecurityAgency__emissary,100,,,,,,,,

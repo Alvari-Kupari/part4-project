@@ -1,0 +1,16 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+narumii__Deobfuscator,deobfuscator-api,org.ow2.asm:asm,9.8,9.5,1,2,compile,compile,omitted_conflict
+narumii__Deobfuscator,deobfuscator-api,org.ow2.asm:asm-commons,9.8,9.5,1,2,compile,compile,omitted_conflict
+narumii__Deobfuscator,deobfuscator-api,org.ow2.asm:asm-tree,9.8,9.5,1,2,compile,compile,omitted_conflict
+narumii__Deobfuscator,deobfuscator-api,org.slf4j:slf4j-api,2.0.16,1.7.36,1,2,compile,compile,omitted_conflict
+narumii__Deobfuscator,deobfuscator-api,com.github.Col-E:CAFED00D,2.2.0,2.1.1,1,2,compile,compile,omitted_conflict
+narumii__Deobfuscator,deobfuscator-api,com.github.xxDark:jlinker,205d8eaa1f,1.0.7,1,2,compile,compile,omitted_conflict
+narumii__Deobfuscator,deobfuscator-api,org.slf4j:slf4j-api,2.0.16,2.0.9,1,2,compile,compile,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+deobfuscator-api,19,,,,,,,,
+deobfuscator-impl,13,,,,,,,,
+deobfuscator-transformers,3,,,,,,,,
+reverse-engineering,2,,,,,,,,
+java,2,,,,,,,,

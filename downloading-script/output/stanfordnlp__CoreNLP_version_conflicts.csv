@@ -1,0 +1,7 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+stanfordnlp__CoreNLP,sample-maven-project,joda-time:joda-time,2.13.0,2.4,2,3,compile,compile,omitted_conflict
+stanfordnlp__CoreNLP,sample-maven-project,javax.xml.bind:jaxb-api,2.4.0-b180830.0359,2.2.7,2,3,compile,compile,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+sample-maven-project,30,,,,,,,,

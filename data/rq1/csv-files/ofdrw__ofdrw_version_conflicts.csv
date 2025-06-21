@@ -1,0 +1,24 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+ofdrw__ofdrw,ofdrw-converter,org.slf4j:slf4j-api,1.7.25,1.7.36,2,2,compile,compile,omitted_conflict
+ofdrw__ofdrw,ofdrw-converter,org.slf4j:slf4j-api,1.7.25,1.7.36,2,2,compile,compile,omitted_conflict
+ofdrw__ofdrw,ofdrw-converter,org.slf4j:slf4j-api,1.7.25,1.7.36,2,2,compile,compile,omitted_conflict
+ofdrw__ofdrw,ofdrw-converter,org.slf4j:slf4j-api,1.7.25,1.7.36,2,2,compile,compile,omitted_conflict
+ofdrw__ofdrw,ofdrw-converter,org.slf4j:slf4j-api,1.7.25,1.7.36,2,2,compile,compile,omitted_conflict
+ofdrw__ofdrw,ofdrw-converter,commons-logging:commons-logging,1.2,1.0.4,2,4,compile,compile,omitted_conflict
+ofdrw__ofdrw,ofdrw-full,commons-logging:commons-logging,1.2,1.0.4,3,5,compile,compile,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+ofdrw-converter,68,,,,,,,,
+ofdrw-core,10,,,,,,,,
+ofdrw-crypto,22,,,,,,,,
+ofdrw-font,7,,,,,,,,
+ofdrw-full,64,,,,,,,,
+ofdrw-gm,10,,,,,,,,
+ofdrw-graphics2d,14,,,,,,,,
+ofdrw-gv,0,,,,,,,,
+ofdrw-layout,29,,,,,,,,
+ofdrw-pkg,13,,,,,,,,
+ofdrw-reader,21,,,,,,,,
+ofdrw-sign,22,,,,,,,,
+ofdrw-tool,30,,,,,,,,

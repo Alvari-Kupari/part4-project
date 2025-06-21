@@ -1,0 +1,8 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+record-builder-core,0,,,,,,,,
+record-builder-processor,3,,,,,,,,
+record-builder-test,19,,,,,,,,
+record-builder-validator,0,,,,,,,,

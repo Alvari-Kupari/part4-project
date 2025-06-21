@@ -1,0 +1,9 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+jitsi__libjitsi,jitsi__libjitsi,net.java.dev.jna:jna,5.13.0,5.9.0,1,2,compile,compile,omitted_conflict
+jitsi__libjitsi,jitsi__libjitsi,org.jetbrains:annotations,24.0.1,13.0,1,3,provided,compile,omitted_conflict
+jitsi__libjitsi,jitsi__libjitsi,org.jitsi:jitsi-utils,1.0-126-g02b0c86,1.0-114-g43815ed,1,2,compile,compile,omitted_conflict
+jitsi__libjitsi,jitsi__libjitsi,org.bouncycastle:bcprov-jdk18on,1.77,1.71,1,2,compile,compile,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+jitsi__libjitsi,37,,,,,,,,

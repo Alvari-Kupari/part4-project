@@ -1,0 +1,7 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+authlete__java-oauth-server,authlete__java-oauth-server,com.google.code.gson:gson,2.10.1,2.8.9,1,2,compile,compile,omitted_conflict
+authlete__java-oauth-server,authlete__java-oauth-server,com.nimbusds:nimbus-jose-jwt,9.31,9.15.2,2,2,compile,compile,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+authlete__java-oauth-server,78,,,,,,,,

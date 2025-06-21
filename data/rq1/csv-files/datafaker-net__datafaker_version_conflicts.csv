@@ -1,0 +1,7 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+datafaker-net__datafaker,datafaker-net__datafaker,commons-logging:commons-logging,1.3.2,1.2,2,3,test,test,omitted_conflict
+datafaker-net__datafaker,datafaker-net__datafaker,org.javassist:javassist,3.28.0-GA,3.30.2-GA,2,2,test,test,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+datafaker-net__datafaker,41,,,,,,,,

@@ -1,0 +1,13 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+funkygao__cp-ddd-framework,dddplus-maven-plugin,org.codehaus.plexus:plexus-classworlds,2.6.0,2.5.2,2,3,provided,provided,omitted_conflict
+funkygao__cp-ddd-framework,dddplus-maven-plugin,org.codehaus.plexus:plexus-utils,3.2.1,3.0.17,2,3,provided,provided,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+dddplus-enforce,5,,,,,,,,
+dddplus-maven-plugin,18,,,,,,,,
+dddplus-mybatis,9,,,,,,,,
+dddplus-plugin,4,,,,,,,,
+dddplus-runtime,10,,,,,,,,
+dddplus-spec,2,,,,,,,,
+dddplus-visualization,20,,,,,,,,

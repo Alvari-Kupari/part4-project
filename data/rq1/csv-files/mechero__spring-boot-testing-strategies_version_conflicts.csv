@@ -1,0 +1,9 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+mechero__spring-boot-testing-strategies,mechero__spring-boot-testing-strategies,io.micrometer:micrometer-observation,1.14.6,1.14.5,3,3,compile,compile,version_managed
+mechero__spring-boot-testing-strategies,mechero__spring-boot-testing-strategies,org.slf4j:slf4j-api,2.0.17,2.0.11,3,3,compile,compile,version_managed
+mechero__spring-boot-testing-strategies,mechero__spring-boot-testing-strategies,net.bytebuddy:byte-buddy,1.15.11,1.14.18,3,3,test,test,version_managed
+mechero__spring-boot-testing-strategies,mechero__spring-boot-testing-strategies,net.bytebuddy:byte-buddy-agent,1.15.11,1.15.4,3,3,test,test,version_managed
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+mechero__spring-boot-testing-strategies,64,,,,,,,,

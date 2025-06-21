@@ -1,0 +1,12 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+catalog-service,213,,,,,,,,
+config-server,76,,,,,,,,
+hystrix-dashboard,162,,,,,,,,
+inventory-service,208,,,,,,,,
+oauth2-server,93,,,,,,,,
+order-service,165,,,,,,,,
+service-registry,149,,,,,,,,
+shoppingcart-ui,158,,,,,,,,

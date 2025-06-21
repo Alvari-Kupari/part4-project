@@ -1,0 +1,23 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+BroadleafCommerce__BroadleafCommerce,broadleaf-admin-module,commons-beanutils:commons-beanutils,1.11.0,1.9.4,4,4,compile,compile,version_managed
+BroadleafCommerce__BroadleafCommerce,broadleaf-contentmanagement-module,commons-beanutils:commons-beanutils,1.11.0,1.9.4,3,3,compile,compile,version_managed
+BroadleafCommerce__BroadleafCommerce,broadleaf-open-admin-platform,commons-beanutils:commons-beanutils,1.11.0,1.9.4,3,3,compile,compile,version_managed
+BroadleafCommerce__BroadleafCommerce,common,commons-beanutils:commons-beanutils,1.11.0,1.9.4,2,2,compile,compile,version_managed
+BroadleafCommerce__BroadleafCommerce,broadleaf-framework,commons-beanutils:commons-beanutils,1.11.0,1.9.4,3,3,compile,compile,version_managed
+BroadleafCommerce__BroadleafCommerce,broadleaf-framework-web,commons-beanutils:commons-beanutils,1.11.0,1.9.4,3,3,compile,compile,version_managed
+BroadleafCommerce__BroadleafCommerce,broadleaf-profile,commons-beanutils:commons-beanutils,1.11.0,1.9.4,2,2,compile,compile,version_managed
+BroadleafCommerce__BroadleafCommerce,broadleaf-profile-web,commons-beanutils:commons-beanutils,1.11.0,1.9.4,3,3,compile,compile,version_managed
+BroadleafCommerce__BroadleafCommerce,integration,commons-beanutils:commons-beanutils,1.11.0,1.9.4,3,3,compile,compile,version_managed
+BroadleafCommerce__BroadleafCommerce,integration,net.bytebuddy:byte-buddy,1.14.7,1.12.21,3,3,runtime,test,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+broadleaf-admin-module,172,,,,,,,,
+broadleaf-contentmanagement-module,144,,,,,,,,
+broadleaf-open-admin-platform,186,,,,,,,,
+common,186,,,,,,,,
+broadleaf-framework,214,,,,,,,,
+broadleaf-framework-web,174,,,,,,,,
+broadleaf-profile,131,,,,,,,,
+broadleaf-profile-web,136,,,,,,,,
+integration,259,,,,,,,,

@@ -1,0 +1,20 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+firebase__firebase-admin-java,firebase__firebase-admin-java,com.google.http-client:google-http-client-gson,1.46.3,1.46.2,2,2,compile,compile,version_managed
+firebase__firebase-admin-java,firebase__firebase-admin-java,com.google.oauth-client:google-oauth-client,1.37.0,1.36.0,2,2,compile,compile,version_managed
+firebase__firebase-admin-java,firebase__firebase-admin-java,com.google.http-client:google-http-client-apache-v2,1.46.3,1.45.2,2,2,compile,compile,version_managed
+firebase__firebase-admin-java,firebase__firebase-admin-java,commons-codec:commons-codec,1.17.1,1.11,2,3,compile,compile,omitted_conflict
+firebase__firebase-admin-java,firebase__firebase-admin-java,commons-codec:commons-codec,1.17.1,1.18.0,2,2,compile,compile,omitted_conflict
+firebase__firebase-admin-java,firebase__firebase-admin-java,com.google.protobuf:protobuf-java,4.29.4,3.25.5,2,2,compile,compile,version_managed
+firebase__firebase-admin-java,firebase__firebase-admin-java,com.google.protobuf:protobuf-java-util,4.29.4,3.25.5,2,2,compile,compile,version_managed
+firebase__firebase-admin-java,firebase__firebase-admin-java,org.slf4j:slf4j-api,2.0.17,2.0.16,1,2,compile,compile,omitted_conflict
+firebase__firebase-admin-java,firebase__firebase-admin-java,com.google.cloud:google-cloud-monitoring,3.61.0,3.52.0,2,2,compile,compile,version_managed
+firebase__firebase-admin-java,firebase__firebase-admin-java,com.google.api.grpc:proto-google-cloud-monitoring-v3,3.61.0,3.52.0,2,2,compile,compile,version_managed
+firebase__firebase-admin-java,firebase__firebase-admin-java,io.opentelemetry.semconv:opentelemetry-semconv,1.27.0-alpha,1.29.0-alpha,2,2,compile,compile,omitted_conflict
+firebase__firebase-admin-java,firebase__firebase-admin-java,org.slf4j:slf4j-api,2.0.17,2.0.16,1,2,compile,compile,omitted_conflict
+firebase__firebase-admin-java,firebase__firebase-admin-java,commons-codec:commons-codec,1.17.1,1.18.0,2,2,compile,compile,omitted_conflict
+firebase__firebase-admin-java,firebase__firebase-admin-java,org.checkerframework:checker-qual,3.49.0,3.43.0,2,2,compile,compile,omitted_conflict
+firebase__firebase-admin-java,firebase__firebase-admin-java,org.slf4j:slf4j-api,2.0.17,1.7.36,1,2,compile,compile,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+firebase__firebase-admin-java,112,,,,,,,,

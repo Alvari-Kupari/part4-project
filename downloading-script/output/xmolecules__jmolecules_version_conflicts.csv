@@ -1,0 +1,11 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+jmolecules-cqrs-architecture,11,,,,,,,,
+jmolecules-hexagonal-architecture,11,,,,,,,,
+jmolecules-layered-architecture,11,,,,,,,,
+jmolecules-onion-architecture,11,,,,,,,,
+jmolecules-ddd,11,,,,,,,,
+jmolecules-events,11,,,,,,,,
+kmolecules-ddd,13,,,,,,,,

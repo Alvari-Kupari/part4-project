@@ -1,0 +1,13 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+LibrePDF__OpenPDF,openpdf,commons-logging:commons-logging,1.3.0,1.3.3,3,4,compile,compile,omitted_conflict
+LibrePDF__OpenPDF,openpdf,commons-logging:commons-logging,1.3.0,1.3.3,3,4,compile,compile,omitted_conflict
+LibrePDF__OpenPDF,openpdf,javax.xml.bind:jaxb-api,2.4.0-b180830.0359,2.3.1,3,3,test,test,omitted_conflict
+LibrePDF__OpenPDF,openpdf-html,net.bytebuddy:byte-buddy,1.17.5,1.15.11,2,2,test,test,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+openpdf,62,,,,,,,,
+openpdf-fonts-extra,6,,,,,,,,
+openpdf-html,17,,,,,,,,
+pdf-swing,4,,,,,,,,
+pdf-toolbox,14,,,,,,,,

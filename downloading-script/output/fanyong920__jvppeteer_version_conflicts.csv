@@ -1,0 +1,7 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+fanyong920__jvppeteer,example,org.slf4j:slf4j-api,2.0.16,2.0.6,2,3,compile,compile,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+fanyong920__jvppeteer,6,,,,,,,,
+example,10,,,,,,,,

@@ -1,0 +1,15 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+orphan-oss__launch4j-maven-plugin,orphan-oss__launch4j-maven-plugin,org.codehaus.plexus:plexus-component-annotations,2.2.0,2.1.0,2,3,provided,provided,omitted_conflict
+orphan-oss__launch4j-maven-plugin,orphan-oss__launch4j-maven-plugin,org.codehaus.plexus:plexus-classworlds,2.9.0,2.6.0,2,3,provided,provided,omitted_conflict
+orphan-oss__launch4j-maven-plugin,orphan-oss__launch4j-maven-plugin,org.codehaus.plexus:plexus-utils,3.6.0,3.5.1,2,3,provided,provided,omitted_conflict
+orphan-oss__launch4j-maven-plugin,orphan-oss__launch4j-maven-plugin,org.codehaus.plexus:plexus-utils,3.6.0,3.4.1,2,4,provided,provided,omitted_conflict
+orphan-oss__launch4j-maven-plugin,orphan-oss__launch4j-maven-plugin,junit:junit,4.13.2,4.12,1,2,test,test,omitted_conflict
+orphan-oss__launch4j-maven-plugin,orphan-oss__launch4j-maven-plugin,org.codehaus.plexus:plexus-utils,3.6.0,3.0.7,2,3,provided,test,omitted_conflict
+orphan-oss__launch4j-maven-plugin,orphan-oss__launch4j-maven-plugin,junit:junit,4.13.2,3.8.1,1,4,test,test,omitted_conflict
+orphan-oss__launch4j-maven-plugin,orphan-oss__launch4j-maven-plugin,org.codehaus.plexus:plexus-utils,3.6.0,1.0.4,2,4,provided,test,omitted_conflict
+orphan-oss__launch4j-maven-plugin,orphan-oss__launch4j-maven-plugin,org.codehaus.plexus:plexus-utils,3.6.0,3.0,2,4,provided,test,omitted_conflict
+orphan-oss__launch4j-maven-plugin,orphan-oss__launch4j-maven-plugin,org.codehaus.plexus:plexus-utils,3.6.0,3.3.1,2,3,provided,test,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+orphan-oss__launch4j-maven-plugin,61,,,,,,,,

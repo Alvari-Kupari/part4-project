@@ -1,0 +1,8 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+davidmoten__rxjava-extras,davidmoten__rxjava-extras,org.objenesis:objenesis,3.3,2.2,2,3,compile,test,omitted_conflict
+davidmoten__rxjava-extras,davidmoten__rxjava-extras,org.objenesis:objenesis,3.3,2.2,2,3,compile,test,omitted_conflict
+davidmoten__rxjava-extras,davidmoten__rxjava-extras,org.objenesis:objenesis,3.3,2.1,2,2,compile,compile,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+davidmoten__rxjava-extras,32,,,,,,,,

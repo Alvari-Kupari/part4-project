@@ -1,0 +1,22 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+MicroRaft__MicroRaft,microraft,net.bytebuddy:byte-buddy,1.11.13,1.12.10,2,2,test,test,omitted_conflict
+MicroRaft__MicroRaft,microraft,org.slf4j:slf4j-api,1.7.36,1.7.25,1,2,compile,test,omitted_conflict
+MicroRaft__MicroRaft,microraft-hocon,net.bytebuddy:byte-buddy,1.11.13,1.12.10,2,2,test,test,omitted_conflict
+MicroRaft__MicroRaft,microraft-hocon,org.slf4j:slf4j-api,1.7.36,1.7.25,1,2,compile,test,omitted_conflict
+MicroRaft__MicroRaft,microraft-metrics,net.bytebuddy:byte-buddy,1.11.13,1.12.10,2,2,test,test,omitted_conflict
+MicroRaft__MicroRaft,microraft-metrics,org.slf4j:slf4j-api,1.7.36,1.7.25,1,2,compile,test,omitted_conflict
+MicroRaft__MicroRaft,microraft-store-sqlite,net.bytebuddy:byte-buddy,1.11.13,1.12.10,2,2,test,test,omitted_conflict
+MicroRaft__MicroRaft,microraft-store-sqlite,org.slf4j:slf4j-api,1.7.36,1.7.25,1,2,compile,test,omitted_conflict
+MicroRaft__MicroRaft,microraft-tutorial,net.bytebuddy:byte-buddy,1.11.13,1.12.10,2,2,test,test,omitted_conflict
+MicroRaft__MicroRaft,microraft-tutorial,org.slf4j:slf4j-api,1.7.36,1.7.25,1,2,compile,test,omitted_conflict
+MicroRaft__MicroRaft,microraft-yaml,net.bytebuddy:byte-buddy,1.11.13,1.12.10,2,2,test,test,omitted_conflict
+MicroRaft__MicroRaft,microraft-yaml,org.slf4j:slf4j-api,1.7.36,1.7.25,1,2,compile,test,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+microraft,15,,,,,,,,
+microraft-hocon,17,,,,,,,,
+microraft-metrics,21,,,,,,,,
+microraft-store-sqlite,25,,,,,,,,
+microraft-tutorial,16,,,,,,,,
+microraft-yaml,17,,,,,,,,

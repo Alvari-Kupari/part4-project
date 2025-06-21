@@ -40,7 +40,7 @@ Thumbs.db
 *.orig
 
 *.env
-*.csv
+# *.csv
 
 # python
 __pycache__/

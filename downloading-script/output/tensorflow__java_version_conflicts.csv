@@ -1,0 +1,10 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+tensorflow__java,tensorflow-core-api,org.checkerframework:checker-qual,3.35.0,3.33.0,2,3,test,test,omitted_conflict
+tensorflow__java,tensorflow-core-api,com.google.errorprone:error_prone_annotations,2.19.1,2.18.0,2,3,test,test,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+tensorflow-core-api,27,,,,,,,,
+tensorflow-core-generator,22,,,,,,,,
+tensorflow-core-native,9,,,,,,,,
+tensorflow-framework,16,,,,,,,,

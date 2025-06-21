@@ -1,0 +1,10 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+leck995__WutheringWavesTool,leck995__WutheringWavesTool,org.openjfx:javafx-controls,23.0.2,20,1,2,compile,compile,omitted_conflict
+leck995__WutheringWavesTool,leck995__WutheringWavesTool,org.openjfx:javafx-controls,23.0.2,21,1,2,compile,compile,omitted_conflict
+leck995__WutheringWavesTool,leck995__WutheringWavesTool,org.openjfx:javafx-fxml,23.0.2,21,1,2,compile,compile,omitted_conflict
+leck995__WutheringWavesTool,leck995__WutheringWavesTool,org.slf4j:slf4j-api,2.1.0-alpha1,2.0.17,1,2,compile,compile,omitted_conflict
+leck995__WutheringWavesTool,leck995__WutheringWavesTool,org.slf4j:slf4j-api,2.1.0-alpha1,1.7.36,1,2,compile,compile,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+leck995__WutheringWavesTool,40,,,,,,,,

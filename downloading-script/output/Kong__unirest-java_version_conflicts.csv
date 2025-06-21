@@ -1,0 +1,13 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+Kong__unirest-java,unirest,org.junit.jupiter:junit-jupiter-api,5.12.2,5.11.4,1,2,test,test,omitted_conflict
+Kong__unirest-java,unirest-modules-gson,org.junit.jupiter:junit-jupiter-api,5.12.2,5.11.4,1,2,test,test,omitted_conflict
+Kong__unirest-java,unirest-modules-gson,com.google.errorprone:error_prone_annotations,2.37.0,2.36.0,2,2,compile,test,omitted_conflict
+Kong__unirest-java,unirest-modules-jackson,org.junit.jupiter:junit-jupiter-api,5.12.2,5.11.4,1,2,test,test,omitted_conflict
+Kong__unirest-java,unirest-modules-mocks,org.junit.jupiter:junit-jupiter-api,5.12.2,5.11.4,1,2,test,test,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+unirest,23,,,,,,,,
+unirest-modules-gson,25,,,,,,,,
+unirest-modules-jackson,28,,,,,,,,
+unirest-modules-mocks,25,,,,,,,,

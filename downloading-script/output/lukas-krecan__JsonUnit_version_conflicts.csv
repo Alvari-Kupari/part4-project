@@ -1,0 +1,22 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+lukas-krecan__JsonUnit,json-unit-assertj,org.jetbrains:annotations,26.0.2,13.0,1,2,provided,provided,omitted_conflict
+lukas-krecan__JsonUnit,json-unit-core,org.jetbrains:annotations,26.0.2,13.0,1,4,provided,compile,omitted_conflict
+lukas-krecan__JsonUnit,json-unit-core,org.jetbrains.kotlin:kotlin-stdlib,1.9.21,1.8.21,3,3,compile,compile,omitted_conflict
+lukas-krecan__JsonUnit,json-unit-core,org.jetbrains.kotlin:kotlin-stdlib,1.9.21,1.8.21,3,3,compile,compile,omitted_conflict
+lukas-krecan__JsonUnit,json-unit-core,org.hamcrest:hamcrest-core,3.0,1.3,1,3,compile,test,omitted_conflict
+lukas-krecan__JsonUnit,json-unit-spring,org.jetbrains:annotations,26.0.2,13.0,1,2,provided,compile,omitted_conflict
+lukas-krecan__JsonUnit,json-unit-spring,net.bytebuddy:byte-buddy,1.17.5,1.15.11,2,2,test,test,omitted_conflict
+lukas-krecan__JsonUnit,test-base,org.jetbrains:annotations,26.0.2,13.0,1,2,provided,compile,omitted_conflict
+lukas-krecan__JsonUnit,test-base,org.jetbrains.kotlin:kotlin-stdlib,2.1.21,1.9.21,1,3,compile,compile,omitted_conflict
+lukas-krecan__JsonUnit,test-base,org.jetbrains.kotlin:kotlin-stdlib,2.1.21,1.8.21,1,3,compile,compile,omitted_conflict
+lukas-krecan__JsonUnit,test-base,org.jetbrains.kotlin:kotlin-stdlib,2.1.21,1.8.21,1,3,compile,compile,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+json-unit,3,,,,,,,,
+json-unit-assertj,16,,,,,,,,
+json-unit-core,31,,,,,,,,
+json-unit-fluent,3,,,,,,,,
+json-unit-json-path,16,,,,,,,,
+json-unit-spring,37,,,,,,,,
+test-base,35,,,,,,,,

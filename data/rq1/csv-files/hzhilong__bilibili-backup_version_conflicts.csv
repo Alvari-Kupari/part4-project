@@ -1,0 +1,7 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+hzhilong__bilibili-backup,hzhilong__bilibili-backup,org.jetbrains.kotlin:kotlin-stdlib-jdk8,1.8.21,1.9.10,2,4,compile,compile,omitted_conflict
+hzhilong__bilibili-backup,hzhilong__bilibili-backup,org.jetbrains.kotlin:kotlin-stdlib-common,1.9.10,1.8.21,4,4,compile,compile,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+hzhilong__bilibili-backup,34,,,,,,,,

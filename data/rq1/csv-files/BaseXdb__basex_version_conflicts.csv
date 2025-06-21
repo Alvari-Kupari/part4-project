@@ -1,0 +1,10 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+BaseXdb__basex,basex-api,org.slf4j:slf4j-api,2.0.17,2.0.16,2,2,compile,compile,omitted_conflict
+BaseXdb__basex,basex-tests,org.slf4j:slf4j-api,2.0.17,2.0.16,2,3,compile,compile,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+basex-api,40,,,,,,,,
+basex-core,17,,,,,,,,
+basex-examples,21,,,,,,,,
+basex-tests,34,,,,,,,,

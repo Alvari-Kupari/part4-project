@@ -1,0 +1,7 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+jdereg__java-util,jdereg__java-util,org.junit.jupiter:junit-jupiter-api,5.11.4,5.9.1,1,2,test,test,omitted_conflict
+jdereg__java-util,jdereg__java-util,net.bytebuddy:byte-buddy,1.15.11,1.12.19,2,3,test,test,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+jdereg__java-util,14,,,,,,,,

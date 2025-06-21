@@ -1,0 +1,19 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+sashirestela__simple-openai,sashirestela__simple-openai,org.jetbrains.kotlin:kotlin-stdlib-jdk8,1.8.21,1.9.10,2,4,compile,compile,omitted_conflict
+sashirestela__simple-openai,sashirestela__simple-openai,org.jetbrains.kotlin:kotlin-stdlib-common,1.9.10,1.8.21,4,4,compile,compile,omitted_conflict
+sashirestela__simple-openai,sashirestela__simple-openai,org.slf4j:slf4j-api,2.0.17,2.0.16,1,2,compile,compile,omitted_conflict
+sashirestela__simple-openai,sashirestela__simple-openai,com.google.errorprone:error_prone_annotations,2.37.0,2.36.0,2,3,compile,compile,omitted_conflict
+sashirestela__simple-openai,sashirestela__simple-openai,com.google.guava:guava,33.4.0-android,30.1.1-android,2,3,compile,compile,omitted_conflict
+sashirestela__simple-openai,sashirestela__simple-openai,io.grpc:grpc-context,1.70.0,1.27.2,3,4,compile,compile,omitted_conflict
+sashirestela__simple-openai,sashirestela__simple-openai,com.google.guava:guava,33.4.0-android,29.0-android,2,4,compile,compile,omitted_conflict
+sashirestela__simple-openai,sashirestela__simple-openai,com.google.code.gson:gson,2.12.1,2.11.0,2,3,compile,compile,omitted_conflict
+sashirestela__simple-openai,sashirestela__simple-openai,com.google.errorprone:error_prone_annotations,2.37.0,2.36.0,2,3,compile,compile,omitted_conflict
+sashirestela__simple-openai,sashirestela__simple-openai,com.google.errorprone:error_prone_annotations,2.37.0,2.36.0,2,3,compile,compile,omitted_conflict
+sashirestela__simple-openai,sashirestela__simple-openai,com.fasterxml.jackson.core:jackson-databind,2.19.0,2.17.2,1,2,compile,compile,omitted_conflict
+sashirestela__simple-openai,sashirestela__simple-openai,org.slf4j:slf4j-api,2.0.17,2.0.16,1,2,compile,compile,omitted_conflict
+sashirestela__simple-openai,sashirestela__simple-openai,org.slf4j:slf4j-api,2.0.17,2.0.16,1,2,compile,compile,omitted_conflict
+sashirestela__simple-openai,sashirestela__simple-openai,org.junit.jupiter:junit-jupiter-api,5.13.1,5.11.4,2,2,test,test,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+sashirestela__simple-openai,53,,,,,,,,

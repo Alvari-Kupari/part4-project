@@ -1,0 +1,27 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+zfoo-project__zfoo,boot,org.slf4j:slf4j-api,2.0.17,2.0.16,3,3,provided,provided,omitted_conflict
+zfoo-project__zfoo,boot,commons-io:commons-io,2.18.0,2.11.0,3,6,compile,compile,omitted_conflict
+zfoo-project__zfoo,boot,commons-codec:commons-codec,1.18.0,1.17.1,3,4,compile,compile,omitted_conflict
+zfoo-project__zfoo,boot,commons-codec:commons-codec,1.18.0,1.17.1,3,4,compile,compile,omitted_conflict
+zfoo-project__zfoo,boot,commons-io:commons-io,2.18.0,2.16.1,3,4,compile,compile,omitted_conflict
+zfoo-project__zfoo,event,org.slf4j:slf4j-api,2.0.17,2.0.16,3,3,compile,compile,omitted_conflict
+zfoo-project__zfoo,hotswap,org.slf4j:slf4j-api,2.0.17,2.0.16,3,3,provided,provided,omitted_conflict
+zfoo-project__zfoo,monitor,org.slf4j:slf4j-api,2.0.17,2.0.16,3,3,provided,provided,omitted_conflict
+zfoo-project__zfoo,net,org.slf4j:slf4j-api,2.0.17,2.0.16,3,3,provided,provided,omitted_conflict
+zfoo-project__zfoo,orm,org.slf4j:slf4j-api,2.0.17,2.0.16,3,3,provided,provided,omitted_conflict
+zfoo-project__zfoo,protocol,org.slf4j:slf4j-api,2.0.17,2.0.16,3,3,provided,provided,omitted_conflict
+zfoo-project__zfoo,scheduler,org.slf4j:slf4j-api,2.0.17,2.0.16,3,3,provided,provided,omitted_conflict
+zfoo-project__zfoo,storage,commons-io:commons-io,2.18.0,2.16.1,2,3,compile,compile,omitted_conflict
+zfoo-project__zfoo,storage,org.slf4j:slf4j-api,2.0.17,2.0.16,3,3,provided,provided,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+boot,81,,,,,,,,
+event,33,,,,,,,,
+hotswap,36,,,,,,,,
+monitor,56,,,,,,,,
+net,52,,,,,,,,
+orm,40,,,,,,,,
+protocol,42,,,,,,,,
+scheduler,33,,,,,,,,
+storage,47,,,,,,,,

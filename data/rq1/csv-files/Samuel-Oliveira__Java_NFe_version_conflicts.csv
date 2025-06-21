@@ -1,0 +1,17 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+Samuel-Oliveira__Java_NFe,Samuel-Oliveira__Java_NFe,commons-logging:commons-logging,1.1.1,1.0.4,2,3,compile,compile,omitted_conflict
+Samuel-Oliveira__Java_NFe,Samuel-Oliveira__Java_NFe,commons-logging:commons-logging,1.1.1,1.2,2,3,compile,runtime,omitted_conflict
+Samuel-Oliveira__Java_NFe,Samuel-Oliveira__Java_NFe,commons-logging:commons-logging,1.1.1,1.2,2,3,compile,runtime,omitted_conflict
+Samuel-Oliveira__Java_NFe,Samuel-Oliveira__Java_NFe,com.sun.xml.bind:jaxb-impl,2.3.1,2.2.6,1,2,compile,compile,omitted_conflict
+Samuel-Oliveira__Java_NFe,Samuel-Oliveira__Java_NFe,com.sun.xml.bind:jaxb-xjc,2.3.1,2.2.6,1,2,compile,compile,omitted_conflict
+Samuel-Oliveira__Java_NFe,Samuel-Oliveira__Java_NFe,com.sun.xml.bind:jaxb-impl,2.3.1,2.2.6,1,2,compile,compile,omitted_conflict
+Samuel-Oliveira__Java_NFe,Samuel-Oliveira__Java_NFe,com.sun.xml.bind:jaxb-xjc,2.3.1,2.2.6,1,2,compile,compile,omitted_conflict
+Samuel-Oliveira__Java_NFe,Samuel-Oliveira__Java_NFe,org.apache.httpcomponents:httpcore,4.4.6,4.4.4,1,3,compile,compile,omitted_conflict
+Samuel-Oliveira__Java_NFe,Samuel-Oliveira__Java_NFe,commons-logging:commons-logging,1.1.1,1.2,2,2,compile,compile,omitted_conflict
+Samuel-Oliveira__Java_NFe,Samuel-Oliveira__Java_NFe,commons-codec:commons-codec,1.2,1.9,3,3,compile,compile,omitted_conflict
+Samuel-Oliveira__Java_NFe,Samuel-Oliveira__Java_NFe,org.apache.geronimo.specs:geronimo-activation_1.1_spec,1.0.2,1.1,2,2,compile,compile,omitted_conflict
+Samuel-Oliveira__Java_NFe,Samuel-Oliveira__Java_NFe,commons-logging:commons-logging,1.1.1,1.2,2,2,compile,compile,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+Samuel-Oliveira__Java_NFe,54,,,,,,,,

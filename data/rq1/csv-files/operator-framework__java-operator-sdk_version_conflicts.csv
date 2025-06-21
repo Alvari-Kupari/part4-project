@@ -1,0 +1,25 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+operator-framework__java-operator-sdk,bootstrapper-maven-plugin,org.codehaus.plexus:plexus-classworlds,2.8.0,2.6.0,2,3,provided,provided,omitted_conflict
+operator-framework__java-operator-sdk,caffeine-bounded-cache-support,org.slf4j:slf4j-api,2.0.17,2.0.16,2,2,test,test,version_managed
+operator-framework__java-operator-sdk,caffeine-bounded-cache-support,org.jetbrains.kotlin:kotlin-stdlib-jdk8,1.8.21,1.9.10,3,5,test,test,omitted_conflict
+operator-framework__java-operator-sdk,caffeine-bounded-cache-support,org.jetbrains.kotlin:kotlin-stdlib-common,1.9.10,1.8.21,5,5,test,test,omitted_conflict
+operator-framework__java-operator-sdk,micrometer-support,com.fasterxml.jackson.core:jackson-core,2.19.0,2.16.1,3,3,test,test,omitted_conflict
+operator-framework__java-operator-sdk,operator-framework,com.google.guava:guava,31.1-jre,30.1.1-android,2,3,test,test,omitted_conflict
+operator-framework__java-operator-sdk,operator-framework,org.checkerframework:checker-qual,3.26.0,3.13.0,2,3,test,test,omitted_conflict
+operator-framework__java-operator-sdk,operator-framework,org.checkerframework:checker-qual,3.26.0,3.12.0,2,3,test,test,omitted_conflict
+operator-framework__java-operator-sdk,operator-framework,com.google.errorprone:error_prone_annotations,2.7.1,2.11.0,3,3,test,test,omitted_conflict
+operator-framework__java-operator-sdk,operator-framework,com.google.guava:guava,31.1-jre,31.0.1-jre,2,3,test,test,omitted_conflict
+operator-framework__java-operator-sdk,operator-framework,commons-io:commons-io,2.19.0,2.16.1,4,4,test,test,version_managed
+operator-framework__java-operator-sdk,operator-framework,com.fasterxml.jackson.core:jackson-core,2.19.0,2.16.1,3,5,compile,test,omitted_conflict
+operator-framework__java-operator-sdk,operator-framework-core,com.fasterxml.jackson.core:jackson-core,2.19.0,2.16.1,3,4,compile,runtime,omitted_conflict
+operator-framework__java-operator-sdk,operator-framework-core,net.bytebuddy:byte-buddy,1.17.5,1.15.11,2,2,test,test,omitted_conflict
+operator-framework__java-operator-sdk,operator-framework-junit5,net.bytebuddy:byte-buddy,1.15.11,1.17.5,2,2,compile,test,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+bootstrapper-maven-plugin,25,,,,,,,,
+caffeine-bounded-cache-support,51,,,,,,,,
+micrometer-support,67,,,,,,,,
+operator-framework,109,,,,,,,,
+operator-framework-core,77,,,,,,,,
+operator-framework-junit5,15,,,,,,,,

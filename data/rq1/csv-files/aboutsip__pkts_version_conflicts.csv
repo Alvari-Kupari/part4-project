@@ -1,0 +1,10 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+pkts-buffers,3,,,,,,,,
+pkts-core,10,,,,,,,,
+pkts-examples,2,,,,,,,,
+pkts-sdp,3,,,,,,,,
+pkts-sip,8,,,,,,,,
+pkts-streams,9,,,,,,,,

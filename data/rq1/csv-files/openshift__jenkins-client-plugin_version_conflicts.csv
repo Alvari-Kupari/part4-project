@@ -1,0 +1,12 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+openshift__jenkins-client-plugin,openshift__jenkins-client-plugin,org.jenkins-ci.plugins:structs,325.vcb_307d2a_2782,324.va_f5d6774f3a_d,2,2,compile,compile,version_managed
+openshift__jenkins-client-plugin,openshift__jenkins-client-plugin,org.jenkins-ci.plugins.workflow:workflow-api,1283.v99c10937efcb_,1261.va_2ff5204f17e,2,2,compile,compile,version_managed
+openshift__jenkins-client-plugin,openshift__jenkins-client-plugin,org.jenkins-ci.plugins.workflow:workflow-support,865.v43e78cc44e0d,848.v5a_383b_d14921,2,2,compile,compile,version_managed
+openshift__jenkins-client-plugin,openshift__jenkins-client-plugin,org.jenkins-ci.plugins:scm-api,683.vb_16722fb_b_80b_,676.v886669a_199a_a_,2,2,compile,compile,version_managed
+openshift__jenkins-client-plugin,openshift__jenkins-client-plugin,com.google.code.findbugs:jsr305,3.0.1,3.0.2,3,3,provided,provided,version_managed
+openshift__jenkins-client-plugin,openshift__jenkins-client-plugin,org.samba.jcifs:jcifs,1.3.18-kohsuke-1,1.2.19,4,4,provided,provided,version_managed
+openshift__jenkins-client-plugin,openshift__jenkins-client-plugin,org.hamcrest:hamcrest-core,2.2,1.3,3,3,test,test,version_managed
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+openshift__jenkins-client-plugin,151,,,,,,,,

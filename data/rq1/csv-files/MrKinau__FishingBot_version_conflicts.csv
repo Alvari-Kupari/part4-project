@@ -1,0 +1,19 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+MrKinau__FishingBot,MrKinau__FishingBot,org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.5.31,3,5,compile,compile,omitted_conflict
+MrKinau__FishingBot,MrKinau__FishingBot,org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.5.31,3,5,compile,compile,omitted_conflict
+MrKinau__FishingBot,MrKinau__FishingBot,org.jetbrains.kotlin:kotlin-stdlib-common,1.5.31,1.6.20,4,4,compile,compile,omitted_conflict
+MrKinau__FishingBot,MrKinau__FishingBot,org.jetbrains:annotations,24.1.0,13.0,1,4,compile,compile,omitted_conflict
+MrKinau__FishingBot,MrKinau__FishingBot,org.slf4j:slf4j-api,1.7.32,1.7.36,2,2,compile,compile,omitted_conflict
+MrKinau__FishingBot,MrKinau__FishingBot,org.jetbrains:annotations,24.1.0,22.0.0,1,2,compile,runtime,omitted_conflict
+MrKinau__FishingBot,MrKinau__FishingBot,org.openjfx:javafx-controls,16-ea+7,21.0.2,1,2,compile,compile,omitted_conflict
+MrKinau__FishingBot,MrKinau__FishingBot,org.openjfx:javafx-graphics,16-ea+7,21.0.2,1,2,compile,compile,omitted_conflict
+MrKinau__FishingBot,MrKinau__FishingBot,org.openjfx:javafx-fxml,16-ea+7,21.0.2,1,2,compile,compile,omitted_conflict
+MrKinau__FishingBot,MrKinau__FishingBot,org.openjfx:javafx-controls,16-ea+7,21.0.2,1,2,compile,compile,omitted_conflict
+MrKinau__FishingBot,MrKinau__FishingBot,org.openjfx:javafx-swing,16-ea+7,21.0.2,1,2,compile,compile,omitted_conflict
+MrKinau__FishingBot,MrKinau__FishingBot,org.openjfx:javafx-graphics,16-ea+7,21.0.2,1,2,compile,compile,omitted_conflict
+MrKinau__FishingBot,MrKinau__FishingBot,org.openjfx:javafx-graphics,16-ea+7,21.0.2,1,2,compile,compile,omitted_conflict
+MrKinau__FishingBot,MrKinau__FishingBot,org.openjfx:javafx-base,16-ea+7,21.0.2,2,2,compile,compile,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+MrKinau__FishingBot,43,,,,,,,,

@@ -1,0 +1,16 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+jcabi__jcabi-aspects,jcabi__jcabi-aspects,ch.qos.reload4j:reload4j,1.2.25,1.2.22,1,2,test,test,omitted_conflict
+jcabi__jcabi-aspects,jcabi__jcabi-aspects,org.junit.platform:junit-platform-commons,1.10.1,1.11.3,2,2,test,test,version_managed
+jcabi__jcabi-aspects,fake-validation,org.junit.platform:junit-platform-commons,1.10.3,1.11.3,2,2,test,test,version_managed
+jcabi__jcabi-aspects,loggable,org.junit.platform:junit-platform-commons,1.10.3,1.11.3,2,2,test,test,version_managed
+jcabi__jcabi-aspects,loggable,org.junit.platform:junit-platform-engine,1.10.3,1.11.3,2,2,test,test,version_managed
+jcabi__jcabi-aspects,weaving,org.junit.platform:junit-platform-commons,1.10.3,1.11.3,2,2,test,test,version_managed
+jcabi__jcabi-aspects,weaving,org.junit.platform:junit-platform-engine,1.10.3,1.11.3,2,2,test,test,version_managed
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+jcabi__jcabi-aspects,25,,,,,,,,
+fake-validation,26,,,,,,,,
+loggable,30,,,,,,,,
+processor,4,,,,,,,,
+weaving,31,,,,,,,,

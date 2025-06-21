@@ -1,0 +1,13 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+forge__roaster,impl,org.eclipse.platform:org.eclipse.equinox.preferences,3.11.400,3.11.200,3,4,compile,compile,omitted_conflict
+forge__roaster,impl,org.eclipse.platform:org.eclipse.equinox.common,3.20.100,3.19.200,3,4,compile,compile,omitted_conflict
+forge__roaster,impl,org.eclipse.platform:org.eclipse.osgi,3.23.100,3.22.0,3,4,compile,compile,omitted_conflict
+forge__roaster,impl,org.eclipse.platform:org.eclipse.equinox.common,3.20.100,3.20.0,3,3,compile,compile,omitted_conflict
+forge__roaster,impl,org.eclipse.platform:org.eclipse.equinox.preferences,3.11.400,3.11.300,3,3,compile,compile,omitted_conflict
+forge__roaster,impl,org.eclipse.platform:org.eclipse.core.runtime,3.33.100,3.33.0,2,3,compile,compile,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+api,0,,,,,,,,
+dist,2,,,,,,,,
+impl,17,,,,,,,,

@@ -1,0 +1,10 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+netfishers-onl__Netshot,netfishers-onl__Netshot,org.bouncycastle:bcprov-jdk18on,1.79,1.78.1,2,5,compile,runtime,omitted_conflict
+netfishers-onl__Netshot,netfishers-onl__Netshot,org.bouncycastle:bcutil-jdk18on,1.79,1.78.1,2,5,compile,runtime,omitted_conflict
+netfishers-onl__Netshot,netfishers-onl__Netshot,org.bouncycastle:bcprov-jdk18on,1.79,1.78.1,2,5,compile,runtime,omitted_conflict
+netfishers-onl__Netshot,netfishers-onl__Netshot,org.bouncycastle:bcutil-jdk18on,1.79,1.78.1,2,5,compile,runtime,omitted_conflict
+netfishers-onl__Netshot,netfishers-onl__Netshot,commons-io:commons-io,2.18.0,2.16.1,2,3,compile,compile,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+netfishers-onl__Netshot,173,,,,,,,,

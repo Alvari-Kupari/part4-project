@@ -1,0 +1,11 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+dynamicreports__dynamicreports,dynamicreports-core,commons-logging:commons-logging,1.1.1,1.2,2,3,compile,compile,omitted_conflict
+dynamicreports__dynamicreports,dynamicreports-core,commons-beanutils:commons-beanutils,1.9.4,1.8.3,2,3,compile,compile,omitted_conflict
+dynamicreports__dynamicreports,dynamicreports-core,commons-logging:commons-logging,1.1.1,1.0,2,3,compile,compile,omitted_conflict
+dynamicreports__dynamicreports,dynamicreports-core,javax.xml.bind:jaxb-api,2.4.0-b180830.0359,2.3.0,1,2,compile,compile,omitted_conflict
+dynamicreports__dynamicreports,dynamicreports-core,commons-logging:commons-logging,1.1.1,1.3.0,2,2,compile,test,omitted_conflict
+dynamicreports__dynamicreports,dynamicreports-core,org.apache.commons:commons-collections4,4.2,4.4,2,2,compile,test,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+dynamicreports-core,66,,,,,,,,

@@ -1,0 +1,11 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+core,31,,,,,,,,
+retry-common,29,,,,,,,,
+retry-custom,31,,,,,,,,
+retry-mysql,30,,,,,,,,
+storage-common,34,,,,,,,,
+storage-custom,35,,,,,,,,
+storage-mysql,41,,,,,,,,

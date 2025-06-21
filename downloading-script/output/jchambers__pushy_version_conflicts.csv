@@ -1,0 +1,11 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+jchambers__pushy,dropwizard-metrics-listener,org.slf4j:slf4j-api,1.7.21,1.7.36,2,2,compile,compile,version_managed
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+benchmark,9,,,,,,,,
+dropwizard-metrics-listener,12,,,,,,,,
+gson-payload-builder,11,,,,,,,,
+jackson-payload-builder,13,,,,,,,,
+micrometer-metrics-listener,15,,,,,,,,
+pushy,29,,,,,,,,

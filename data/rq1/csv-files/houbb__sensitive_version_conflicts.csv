@@ -1,0 +1,11 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+houbb__sensitive,sensitive-core,com.alibaba:fastjson,1.2.83,1.2.70,2,2,compile,compile,version_managed
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+sensitive-annotation,4,,,,,,,,
+sensitive-api,3,,,,,,,,
+sensitive-core,10,,,,,,,,
+sensitive-log4j2,8,,,,,,,,
+sensitive-logback,9,,,,,,,,
+sensitive-test2,12,,,,,,,,

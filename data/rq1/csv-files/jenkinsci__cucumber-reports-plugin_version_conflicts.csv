@@ -1,0 +1,15 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+jenkinsci__cucumber-reports-plugin,jenkinsci__cucumber-reports-plugin,io.jenkins.plugins:json-path-api,2.9.0-148.v22a_7ffe323ce,2.9.0-138.vc943da_d833b_6,2,2,compile,compile,version_managed
+jenkinsci__cucumber-reports-plugin,jenkinsci__cucumber-reports-plugin,org.jenkins-ci.plugins.workflow:workflow-step-api,700.v6e45cb_a_5a_a_21,686.v603d058a_e148,2,2,compile,compile,version_managed
+jenkinsci__cucumber-reports-plugin,jenkinsci__cucumber-reports-plugin,io.jenkins.plugins:asm-api,9.8-135.vb_2239d08ee90,9.7.1-97.v4cc844130d97,3,3,compile,compile,version_managed
+jenkinsci__cucumber-reports-plugin,jenkinsci__cucumber-reports-plugin,net.minidev:json-smart,2.5.2,2.5.0,3,4,compile,runtime,omitted_conflict
+jenkinsci__cucumber-reports-plugin,jenkinsci__cucumber-reports-plugin,org.ow2.asm:asm,9.7.1,9.8,4,4,compile,compile,version_managed
+jenkinsci__cucumber-reports-plugin,jenkinsci__cucumber-reports-plugin,org.apache.commons:commons-lang3,3.17.0,3.14.0,2,3,compile,compile,omitted_conflict
+jenkinsci__cucumber-reports-plugin,jenkinsci__cucumber-reports-plugin,org.apache.commons:commons-lang3,3.17.0,3.14.0,2,3,compile,compile,omitted_conflict
+jenkinsci__cucumber-reports-plugin,jenkinsci__cucumber-reports-plugin,com.google.code.findbugs:jsr305,3.0.1,3.0.2,3,3,provided,provided,version_managed
+jenkinsci__cucumber-reports-plugin,jenkinsci__cucumber-reports-plugin,org.samba.jcifs:jcifs,1.3.18-kohsuke-1,1.2.19,4,4,provided,provided,version_managed
+jenkinsci__cucumber-reports-plugin,jenkinsci__cucumber-reports-plugin,org.hamcrest:hamcrest-core,3.0,1.3,3,3,test,test,version_managed
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+jenkinsci__cucumber-reports-plugin,169,,,,,,,,

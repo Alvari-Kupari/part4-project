@@ -1,0 +1,27 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+kairosdb__kairosdb,kairosdb__kairosdb,com.google.code.findbugs:jsr305,1.3.9,3.0.2,1,2,compile,compile,omitted_conflict
+kairosdb__kairosdb,kairosdb__kairosdb,com.google.code.findbugs:jsr305,1.3.9,2.0.2,1,2,compile,compile,omitted_conflict
+kairosdb__kairosdb,kairosdb__kairosdb,com.google.guava:guava,30.1.1-jre,25.1-android,1,2,compile,compile,omitted_conflict
+kairosdb__kairosdb,kairosdb__kairosdb,org.slf4j:slf4j-api,1.7.36,1.7.26,1,2,compile,compile,omitted_conflict
+kairosdb__kairosdb,kairosdb__kairosdb,org.kairosdb:metrics4j,1.0.2,0.7.0,1,2,compile,compile,omitted_conflict
+kairosdb__kairosdb,kairosdb__kairosdb,org.slf4j:slf4j-api,1.7.36,2.0.15,1,2,compile,compile,omitted_conflict
+kairosdb__kairosdb,kairosdb__kairosdb,org.slf4j:slf4j-api,1.7.36,1.7.30,1,2,compile,compile,omitted_conflict
+kairosdb__kairosdb,kairosdb__kairosdb,com.google.guava:guava,30.1.1-jre,19.0,1,2,compile,compile,omitted_conflict
+kairosdb__kairosdb,kairosdb__kairosdb,org.slf4j:slf4j-api,1.7.36,1.7.25,1,2,compile,compile,omitted_conflict
+kairosdb__kairosdb,kairosdb__kairosdb,org.slf4j:slf4j-api,1.7.36,1.7.22,1,3,compile,compile,omitted_conflict
+kairosdb__kairosdb,kairosdb__kairosdb,com.google.inject:guice,4.2.2,3.0,1,2,compile,compile,omitted_conflict
+kairosdb__kairosdb,kairosdb__kairosdb,com.google.inject.extensions:guice-servlet,4.2.2,3.0,1,2,compile,compile,omitted_conflict
+kairosdb__kairosdb,kairosdb__kairosdb,org.apache.commons:commons-lang3,3.4,3.1,1,2,compile,compile,omitted_conflict
+kairosdb__kairosdb,kairosdb__kairosdb,org.apache.commons:commons-lang3,3.4,3.1,1,2,compile,compile,omitted_conflict
+kairosdb__kairosdb,kairosdb__kairosdb,com.mchange:c3p0,0.9.5.5,0.9.5.4,1,2,compile,compile,omitted_conflict
+kairosdb__kairosdb,kairosdb__kairosdb,com.mchange:mchange-commons-java,0.2.19,0.2.15,2,2,compile,compile,omitted_conflict
+kairosdb__kairosdb,kairosdb__kairosdb,org.slf4j:slf4j-api,1.7.36,1.7.7,1,2,compile,compile,omitted_conflict
+kairosdb__kairosdb,kairosdb__kairosdb,org.slf4j:slf4j-api,1.7.36,1.7.21,1,3,compile,compile,omitted_conflict
+kairosdb__kairosdb,kairosdb__kairosdb,org.slf4j:slf4j-api,1.7.36,1.7.5,1,2,compile,compile,omitted_conflict
+kairosdb__kairosdb,kairosdb__kairosdb,org.slf4j:slf4j-api,1.7.36,1.7.5,1,2,compile,compile,omitted_conflict
+kairosdb__kairosdb,kairosdb__kairosdb,org.slf4j:slf4j-api,1.7.36,1.7.5,1,2,compile,compile,omitted_conflict
+kairosdb__kairosdb,kairosdb__kairosdb,org.slf4j:slf4j-api,1.7.36,2.0.12,1,2,compile,compile,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+kairosdb__kairosdb,110,,,,,,,,

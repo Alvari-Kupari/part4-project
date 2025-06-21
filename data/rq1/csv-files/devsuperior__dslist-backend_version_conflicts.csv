@@ -1,0 +1,12 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+devsuperior__dslist-backend,devsuperior__dslist-backend,org.jboss.logging:jboss-logging,3.6.1.Final,3.5.0.Final,3,3,runtime,runtime,version_managed
+devsuperior__dslist-backend,devsuperior__dslist-backend,com.fasterxml:classmate,1.7.0,1.5.1,3,3,runtime,runtime,version_managed
+devsuperior__dslist-backend,devsuperior__dslist-backend,org.glassfish.jaxb:jaxb-runtime,4.0.5,4.0.2,3,3,runtime,runtime,version_managed
+devsuperior__dslist-backend,devsuperior__dslist-backend,org.slf4j:slf4j-api,2.0.17,2.0.2,3,3,compile,compile,version_managed
+devsuperior__dslist-backend,devsuperior__dslist-backend,org.aspectj:aspectjweaver,1.9.24,1.9.22.1,3,3,compile,compile,version_managed
+devsuperior__dslist-backend,devsuperior__dslist-backend,io.micrometer:micrometer-observation,1.14.6,1.14.5,3,3,compile,compile,version_managed
+devsuperior__dslist-backend,devsuperior__dslist-backend,net.bytebuddy:byte-buddy-agent,1.15.11,1.15.4,3,3,test,test,version_managed
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+devsuperior__dslist-backend,91,,,,,,,,

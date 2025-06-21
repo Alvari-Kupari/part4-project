@@ -1,0 +1,8 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+goxr3plus__XR3Player,goxr3plus__XR3Player,org.json:json,20230618,20150729,1,2,compile,compile,omitted_conflict
+goxr3plus__XR3Player,goxr3plus__XR3Player,commons-io:commons-io,2.14.0,2.6,1,2,compile,compile,omitted_conflict
+goxr3plus__XR3Player,goxr3plus__XR3Player,org.slf4j:slf4j-api,1.7.36,1.6.6,2,2,compile,compile,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+goxr3plus__XR3Player,59,,,,,,,,

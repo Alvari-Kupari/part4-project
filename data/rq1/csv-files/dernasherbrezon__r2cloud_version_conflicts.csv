@@ -1,0 +1,11 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+dernasherbrezon__r2cloud,dernasherbrezon__r2cloud,org.slf4j:slf4j-api,1.7.12,1.7.30,1,2,compile,compile,omitted_conflict
+dernasherbrezon__r2cloud,dernasherbrezon__r2cloud,org.slf4j:slf4j-api,1.7.12,2.0.0,1,2,compile,compile,omitted_conflict
+dernasherbrezon__r2cloud,dernasherbrezon__r2cloud,org.slf4j:slf4j-api,1.7.12,2.0.0,1,2,compile,compile,omitted_conflict
+dernasherbrezon__r2cloud,dernasherbrezon__r2cloud,org.slf4j:slf4j-api,1.7.12,1.7.5,1,2,compile,compile,omitted_conflict
+dernasherbrezon__r2cloud,dernasherbrezon__r2cloud,org.slf4j:slf4j-api,1.7.12,1.7.5,1,2,compile,compile,omitted_conflict
+dernasherbrezon__r2cloud,dernasherbrezon__r2cloud,org.slf4j:slf4j-api,1.7.12,1.7.22,1,3,compile,compile,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+dernasherbrezon__r2cloud,36,,,,,,,,
