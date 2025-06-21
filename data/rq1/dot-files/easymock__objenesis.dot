@@ -1,0 +1,93 @@
+digraph benchmark {
+	"org.objenesis:objenesis-benchmark:jar:3.5-SNAPSHOT" -> "org.objenesis:objenesis:jar:3.5-SNAPSHOT:compile" ; 
+	"org.objenesis:objenesis-benchmark:jar:3.5-SNAPSHOT" -> "org.openjdk.jmh:jmh-core:jar:1.37:compile" ; 
+	"org.objenesis:objenesis-benchmark:jar:3.5-SNAPSHOT" -> "org.openjdk.jmh:jmh-generator-annprocess:jar:1.37:provided" ; 
+	"org.objenesis:objenesis-benchmark:jar:3.5-SNAPSHOT" -> "net.bytebuddy:byte-buddy:jar:1.17.5:compile" ; 
+	"org.objenesis:objenesis-benchmark:jar:3.5-SNAPSHOT" -> "org.junit.jupiter:junit-jupiter-engine:jar:5.13.1:test" ; 
+	"org.openjdk.jmh:jmh-core:jar:1.37:compile" -> "net.sf.jopt-simple:jopt-simple:jar:5.0.4:compile" ; 
+	"org.openjdk.jmh:jmh-core:jar:1.37:compile" -> "org.apache.commons:commons-math3:jar:3.6.1:compile" ; 
+	"org.openjdk.jmh:jmh-generator-annprocess:jar:1.37:provided" -> "(org.openjdk.jmh:jmh-core:jar:1.37:provided - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.13.1:test" -> "org.junit.platform:junit-platform-engine:jar:1.13.1:test (version managed from 1.13.1)" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.13.1:test" -> "org.junit.jupiter:junit-jupiter-api:jar:5.13.1:test (version managed from 5.13.1)" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.13.1:test" -> "org.apiguardian:apiguardian-api:jar:1.1.2:test" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.13.1:test (version managed from 1.13.1)" -> "org.opentest4j:opentest4j:jar:1.3.0:test" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.13.1:test (version managed from 1.13.1)" -> "org.junit.platform:junit-platform-commons:jar:1.13.1:test (version managed from 1.13.1)" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.13.1:test (version managed from 1.13.1)" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:test - omitted for duplicate)" ; 
+	"org.junit.platform:junit-platform-commons:jar:1.13.1:test (version managed from 1.13.1)" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.13.1:test (version managed from 5.13.1)" -> "(org.opentest4j:opentest4j:jar:1.3.0:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.13.1:test (version managed from 5.13.1)" -> "(org.junit.platform:junit-platform-commons:jar:1.13.1:test - version managed from 1.13.1; omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.13.1:test (version managed from 5.13.1)" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:test - omitted for duplicate)" ; 
+}
+digraph exotic {
+	"org.objenesis:objenesis-exotic:jar:3.5-SNAPSHOT" -> "org.objenesis:objenesis:jar:3.5-SNAPSHOT:compile" ; 
+	"org.objenesis:objenesis-exotic:jar:3.5-SNAPSHOT" -> "org.objenesis:objenesis-test:jar:3.5-SNAPSHOT:test" ; 
+	"org.objenesis:objenesis-exotic:jar:3.5-SNAPSHOT" -> "org.junit.jupiter:junit-jupiter-engine:jar:5.13.1:test" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.13.1:test" -> "org.junit.platform:junit-platform-engine:jar:1.13.1:test (version managed from 1.13.1)" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.13.1:test" -> "org.junit.jupiter:junit-jupiter-api:jar:5.13.1:test (version managed from 5.13.1)" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.13.1:test" -> "org.apiguardian:apiguardian-api:jar:1.1.2:test" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.13.1:test (version managed from 1.13.1)" -> "org.opentest4j:opentest4j:jar:1.3.0:test" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.13.1:test (version managed from 1.13.1)" -> "org.junit.platform:junit-platform-commons:jar:1.13.1:test (version managed from 1.13.1)" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.13.1:test (version managed from 1.13.1)" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:test - omitted for duplicate)" ; 
+	"org.junit.platform:junit-platform-commons:jar:1.13.1:test (version managed from 1.13.1)" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.13.1:test (version managed from 5.13.1)" -> "(org.opentest4j:opentest4j:jar:1.3.0:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.13.1:test (version managed from 5.13.1)" -> "(org.junit.platform:junit-platform-commons:jar:1.13.1:test - version managed from 1.13.1; omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.13.1:test (version managed from 5.13.1)" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:test - omitted for duplicate)" ; 
+}
+digraph main {
+	"org.objenesis:objenesis:jar:3.5-SNAPSHOT" -> "org.objenesis:objenesis-test:jar:3.5-SNAPSHOT:test" ; 
+	"org.objenesis:objenesis:jar:3.5-SNAPSHOT" -> "org.junit.jupiter:junit-jupiter-engine:jar:5.13.1:test" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.13.1:test" -> "org.junit.platform:junit-platform-engine:jar:1.13.1:test (version managed from 1.13.1)" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.13.1:test" -> "org.junit.jupiter:junit-jupiter-api:jar:5.13.1:test (version managed from 5.13.1)" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.13.1:test" -> "org.apiguardian:apiguardian-api:jar:1.1.2:test" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.13.1:test (version managed from 1.13.1)" -> "org.opentest4j:opentest4j:jar:1.3.0:test" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.13.1:test (version managed from 1.13.1)" -> "org.junit.platform:junit-platform-commons:jar:1.13.1:test (version managed from 1.13.1)" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.13.1:test (version managed from 1.13.1)" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:test - omitted for duplicate)" ; 
+	"org.junit.platform:junit-platform-commons:jar:1.13.1:test (version managed from 1.13.1)" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.13.1:test (version managed from 5.13.1)" -> "(org.opentest4j:opentest4j:jar:1.3.0:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.13.1:test (version managed from 5.13.1)" -> "(org.junit.platform:junit-platform-commons:jar:1.13.1:test - version managed from 1.13.1; omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.13.1:test (version managed from 5.13.1)" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:test - omitted for duplicate)" ; 
+}
+digraph module-test {
+	"org.objenesis:objenesis-module-test:jar:3.5-SNAPSHOT" -> "org.objenesis:objenesis:jar:3.5-SNAPSHOT:compile" ; 
+	"org.objenesis:objenesis-module-test:jar:3.5-SNAPSHOT" -> "org.junit.jupiter:junit-jupiter-engine:jar:5.13.1:test" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.13.1:test" -> "org.junit.platform:junit-platform-engine:jar:1.13.1:test (version managed from 1.13.1)" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.13.1:test" -> "org.junit.jupiter:junit-jupiter-api:jar:5.13.1:test (version managed from 5.13.1)" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.13.1:test" -> "org.apiguardian:apiguardian-api:jar:1.1.2:test" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.13.1:test (version managed from 1.13.1)" -> "org.opentest4j:opentest4j:jar:1.3.0:test" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.13.1:test (version managed from 1.13.1)" -> "org.junit.platform:junit-platform-commons:jar:1.13.1:test (version managed from 1.13.1)" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.13.1:test (version managed from 1.13.1)" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:test - omitted for duplicate)" ; 
+	"org.junit.platform:junit-platform-commons:jar:1.13.1:test (version managed from 1.13.1)" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.13.1:test (version managed from 5.13.1)" -> "(org.opentest4j:opentest4j:jar:1.3.0:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.13.1:test (version managed from 5.13.1)" -> "(org.junit.platform:junit-platform-commons:jar:1.13.1:test - version managed from 1.13.1; omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.13.1:test (version managed from 5.13.1)" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:test - omitted for duplicate)" ; 
+}
+digraph tck {
+	"org.objenesis:objenesis-tck:jar:3.5-SNAPSHOT" -> "org.objenesis:objenesis:jar:3.5-SNAPSHOT:compile" ; 
+	"org.objenesis:objenesis-tck:jar:3.5-SNAPSHOT" -> "org.objenesis:objenesis-test:jar:3.5-SNAPSHOT:test" ; 
+	"org.objenesis:objenesis-tck:jar:3.5-SNAPSHOT" -> "org.apache.felix:org.apache.felix.framework:jar:7.0.5:test" ; 
+	"org.objenesis:objenesis-tck:jar:3.5-SNAPSHOT" -> "org.junit.jupiter:junit-jupiter-engine:jar:5.13.1:test" ; 
+	"org.apache.felix:org.apache.felix.framework:jar:7.0.5:test" -> "org.codehaus.mojo:animal-sniffer-annotations:jar:1.9:test" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.13.1:test" -> "org.junit.platform:junit-platform-engine:jar:1.13.1:test (version managed from 1.13.1)" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.13.1:test" -> "org.junit.jupiter:junit-jupiter-api:jar:5.13.1:test (version managed from 5.13.1)" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.13.1:test" -> "org.apiguardian:apiguardian-api:jar:1.1.2:test" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.13.1:test (version managed from 1.13.1)" -> "org.opentest4j:opentest4j:jar:1.3.0:test" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.13.1:test (version managed from 1.13.1)" -> "org.junit.platform:junit-platform-commons:jar:1.13.1:test (version managed from 1.13.1)" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.13.1:test (version managed from 1.13.1)" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:test - omitted for duplicate)" ; 
+	"org.junit.platform:junit-platform-commons:jar:1.13.1:test (version managed from 1.13.1)" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.13.1:test (version managed from 5.13.1)" -> "(org.opentest4j:opentest4j:jar:1.3.0:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.13.1:test (version managed from 5.13.1)" -> "(org.junit.platform:junit-platform-commons:jar:1.13.1:test - version managed from 1.13.1; omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.13.1:test (version managed from 5.13.1)" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:test - omitted for duplicate)" ; 
+}
+digraph test {
+	"org.objenesis:objenesis-test:jar:3.5-SNAPSHOT" -> "org.junit.jupiter:junit-jupiter-engine:jar:5.13.1:test" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.13.1:test" -> "org.junit.platform:junit-platform-engine:jar:1.13.1:test (version managed from 1.13.1)" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.13.1:test" -> "org.junit.jupiter:junit-jupiter-api:jar:5.13.1:test (version managed from 5.13.1)" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.13.1:test" -> "org.apiguardian:apiguardian-api:jar:1.1.2:test" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.13.1:test (version managed from 1.13.1)" -> "org.opentest4j:opentest4j:jar:1.3.0:test" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.13.1:test (version managed from 1.13.1)" -> "org.junit.platform:junit-platform-commons:jar:1.13.1:test (version managed from 1.13.1)" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.13.1:test (version managed from 1.13.1)" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:test - omitted for duplicate)" ; 
+	"org.junit.platform:junit-platform-commons:jar:1.13.1:test (version managed from 1.13.1)" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.13.1:test (version managed from 5.13.1)" -> "(org.opentest4j:opentest4j:jar:1.3.0:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.13.1:test (version managed from 5.13.1)" -> "(org.junit.platform:junit-platform-commons:jar:1.13.1:test - version managed from 1.13.1; omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.13.1:test (version managed from 5.13.1)" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:test - omitted for duplicate)" ; 
+}

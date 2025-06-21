@@ -1,0 +1,9 @@
+digraph java-main-maven {
+	"com.example:objectbox-java-main-maven:jar:1.0.0-SNAPSHOT" -> "io.objectbox:objectbox-java:jar:4.3.0:compile" ; 
+	"com.example:objectbox-java-main-maven:jar:1.0.0-SNAPSHOT" -> "io.objectbox:objectbox-linux:jar:4.3.0:compile" ; 
+	"com.example:objectbox-java-main-maven:jar:1.0.0-SNAPSHOT" -> "io.objectbox:objectbox-macos:jar:4.3.0:compile" ; 
+	"com.example:objectbox-java-main-maven:jar:1.0.0-SNAPSHOT" -> "io.objectbox:objectbox-windows:jar:4.3.0:compile" ; 
+	"io.objectbox:objectbox-java:jar:4.3.0:compile" -> "io.objectbox:objectbox-java-api:jar:4.3.0:compile" ; 
+	"io.objectbox:objectbox-java:jar:4.3.0:compile" -> "com.google.code.findbugs:jsr305:jar:3.0.2:compile" ; 
+	"io.objectbox:objectbox-java:jar:4.3.0:compile" -> "org.greenrobot:essentials:jar:3.1.0:runtime" ; 
+}

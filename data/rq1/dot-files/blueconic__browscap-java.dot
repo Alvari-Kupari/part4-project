@@ -1,0 +1,19 @@
+digraph blueconic__browscap-java {
+	"com.blueconic:browscap-java:jar:1.5.1" -> "com.univocity:univocity-parsers:jar:2.9.1:compile" ; 
+	"com.blueconic:browscap-java:jar:1.5.1" -> "org.junit.jupiter:junit-jupiter:jar:5.9.2:test" ; 
+	"org.junit.jupiter:junit-jupiter:jar:5.9.2:test" -> "org.junit.jupiter:junit-jupiter-api:jar:5.9.2:test" ; 
+	"org.junit.jupiter:junit-jupiter:jar:5.9.2:test" -> "org.junit.jupiter:junit-jupiter-params:jar:5.9.2:test" ; 
+	"org.junit.jupiter:junit-jupiter:jar:5.9.2:test" -> "org.junit.jupiter:junit-jupiter-engine:jar:5.9.2:test" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.9.2:test" -> "org.opentest4j:opentest4j:jar:1.2.0:test" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.9.2:test" -> "org.junit.platform:junit-platform-commons:jar:1.9.2:test" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.9.2:test" -> "org.apiguardian:apiguardian-api:jar:1.1.2:test" ; 
+	"org.junit.platform:junit-platform-commons:jar:1.9.2:test" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-params:jar:5.9.2:test" -> "(org.junit.jupiter:junit-jupiter-api:jar:5.9.2:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-params:jar:5.9.2:test" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.9.2:test" -> "org.junit.platform:junit-platform-engine:jar:1.9.2:test" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.9.2:test" -> "(org.junit.jupiter:junit-jupiter-api:jar:5.9.2:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.9.2:test" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:test - omitted for duplicate)" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.9.2:test" -> "(org.opentest4j:opentest4j:jar:1.2.0:test - omitted for duplicate)" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.9.2:test" -> "(org.junit.platform:junit-platform-commons:jar:1.9.2:test - omitted for duplicate)" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.9.2:test" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:test - omitted for duplicate)" ; 
+}

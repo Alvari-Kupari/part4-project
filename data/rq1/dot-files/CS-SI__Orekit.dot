@@ -1,0 +1,38 @@
+digraph CS-SI__Orekit {
+	"org.orekit:orekit:jar:13.1-SNAPSHOT" -> "org.hipparchus:hipparchus-core:jar:4.0.1:compile" ; 
+	"org.orekit:orekit:jar:13.1-SNAPSHOT" -> "org.hipparchus:hipparchus-geometry:jar:4.0.1:compile" ; 
+	"org.orekit:orekit:jar:13.1-SNAPSHOT" -> "org.hipparchus:hipparchus-ode:jar:4.0.1:compile" ; 
+	"org.orekit:orekit:jar:13.1-SNAPSHOT" -> "org.hipparchus:hipparchus-fitting:jar:4.0.1:compile" ; 
+	"org.orekit:orekit:jar:13.1-SNAPSHOT" -> "org.hipparchus:hipparchus-optim:jar:4.0.1:compile" ; 
+	"org.orekit:orekit:jar:13.1-SNAPSHOT" -> "org.hipparchus:hipparchus-filtering:jar:4.0.1:compile" ; 
+	"org.orekit:orekit:jar:13.1-SNAPSHOT" -> "org.hipparchus:hipparchus-stat:jar:4.0.1:compile" ; 
+	"org.orekit:orekit:jar:13.1-SNAPSHOT" -> "org.mockito:mockito-core:jar:4.11.0:test" ; 
+	"org.orekit:orekit:jar:13.1-SNAPSHOT" -> "org.junit.jupiter:junit-jupiter-api:jar:5.11.4:test" ; 
+	"org.orekit:orekit:jar:13.1-SNAPSHOT" -> "org.junit.jupiter:junit-jupiter-engine:jar:5.11.4:test" ; 
+	"org.orekit:orekit:jar:13.1-SNAPSHOT" -> "org.junit.jupiter:junit-jupiter-params:jar:5.11.4:test" ; 
+	"org.orekit:orekit:jar:13.1-SNAPSHOT" -> "org.hamcrest:hamcrest:jar:3.0:test" ; 
+	"org.orekit:orekit:jar:13.1-SNAPSHOT" -> "junit:junit:jar:4.13.2:test" ; 
+	"org.hipparchus:hipparchus-geometry:jar:4.0.1:compile" -> "(org.hipparchus:hipparchus-core:jar:4.0.1:compile - omitted for duplicate)" ; 
+	"org.hipparchus:hipparchus-ode:jar:4.0.1:compile" -> "(org.hipparchus:hipparchus-core:jar:4.0.1:compile - omitted for duplicate)" ; 
+	"org.hipparchus:hipparchus-fitting:jar:4.0.1:compile" -> "(org.hipparchus:hipparchus-core:jar:4.0.1:compile - omitted for duplicate)" ; 
+	"org.hipparchus:hipparchus-fitting:jar:4.0.1:compile" -> "(org.hipparchus:hipparchus-optim:jar:4.0.1:compile - omitted for duplicate)" ; 
+	"org.hipparchus:hipparchus-optim:jar:4.0.1:compile" -> "(org.hipparchus:hipparchus-core:jar:4.0.1:compile - omitted for duplicate)" ; 
+	"org.hipparchus:hipparchus-filtering:jar:4.0.1:compile" -> "(org.hipparchus:hipparchus-core:jar:4.0.1:compile - omitted for duplicate)" ; 
+	"org.hipparchus:hipparchus-stat:jar:4.0.1:compile" -> "(org.hipparchus:hipparchus-core:jar:4.0.1:compile - omitted for duplicate)" ; 
+	"org.mockito:mockito-core:jar:4.11.0:test" -> "net.bytebuddy:byte-buddy:jar:1.12.19:test" ; 
+	"org.mockito:mockito-core:jar:4.11.0:test" -> "net.bytebuddy:byte-buddy-agent:jar:1.12.19:test" ; 
+	"org.mockito:mockito-core:jar:4.11.0:test" -> "org.objenesis:objenesis:jar:3.3:test" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.11.4:test" -> "org.opentest4j:opentest4j:jar:1.3.0:test" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.11.4:test" -> "org.junit.platform:junit-platform-commons:jar:1.11.4:test" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.11.4:test" -> "org.apiguardian:apiguardian-api:jar:1.1.2:test" ; 
+	"org.junit.platform:junit-platform-commons:jar:1.11.4:test" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.11.4:test" -> "org.junit.platform:junit-platform-engine:jar:1.11.4:test" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.11.4:test" -> "(org.junit.jupiter:junit-jupiter-api:jar:5.11.4:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.11.4:test" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:test - omitted for duplicate)" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.11.4:test" -> "(org.opentest4j:opentest4j:jar:1.3.0:test - omitted for duplicate)" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.11.4:test" -> "(org.junit.platform:junit-platform-commons:jar:1.11.4:test - omitted for duplicate)" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.11.4:test" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-params:jar:5.11.4:test" -> "(org.junit.jupiter:junit-jupiter-api:jar:5.11.4:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-params:jar:5.11.4:test" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:test - omitted for duplicate)" ; 
+	"junit:junit:jar:4.13.2:test" -> "org.hamcrest:hamcrest-core:jar:1.3:test" ; 
+}

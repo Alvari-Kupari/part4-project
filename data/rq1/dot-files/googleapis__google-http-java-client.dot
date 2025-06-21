@@ -1,0 +1,245 @@
+digraph google-http-client {
+	"com.google.http-client:google-http-client:jar:1.47.1-SNAPSHOT" -> "org.apache.httpcomponents:httpclient:jar:4.5.14:compile" ; 
+	"com.google.http-client:google-http-client:jar:1.47.1-SNAPSHOT" -> "org.apache.httpcomponents:httpcore:jar:4.4.16:compile" ; 
+	"com.google.http-client:google-http-client:jar:1.47.1-SNAPSHOT" -> "com.google.code.findbugs:jsr305:jar:3.0.2:compile" ; 
+	"com.google.http-client:google-http-client:jar:1.47.1-SNAPSHOT" -> "com.google.errorprone:error_prone_annotations:jar:2.36.0:compile" ; 
+	"com.google.http-client:google-http-client:jar:1.47.1-SNAPSHOT" -> "com.google.guava:guava:jar:30.1.1-android:compile" ; 
+	"com.google.http-client:google-http-client:jar:1.47.1-SNAPSHOT" -> "com.google.j2objc:j2objc-annotations:jar:3.0.0:compile" ; 
+	"com.google.http-client:google-http-client:jar:1.47.1-SNAPSHOT" -> "io.grpc:grpc-context:jar:1.70.0:compile" ; 
+	"com.google.http-client:google-http-client:jar:1.47.1-SNAPSHOT" -> "io.opencensus:opencensus-api:jar:0.31.1:compile" ; 
+	"com.google.http-client:google-http-client:jar:1.47.1-SNAPSHOT" -> "io.opencensus:opencensus-contrib-http-util:jar:0.31.1:compile" ; 
+	"com.google.http-client:google-http-client:jar:1.47.1-SNAPSHOT" -> "com.google.guava:guava-testlib:jar:30.1.1-android:test" ; 
+	"com.google.http-client:google-http-client:jar:1.47.1-SNAPSHOT" -> "junit:junit:jar:4.13.2:test (scope not updated to test)" ; 
+	"com.google.http-client:google-http-client:jar:1.47.1-SNAPSHOT" -> "com.google.truth:truth:jar:1.1.3:test" ; 
+	"com.google.http-client:google-http-client:jar:1.47.1-SNAPSHOT" -> "io.opencensus:opencensus-impl:jar:0.31.1:test" ; 
+	"com.google.http-client:google-http-client:jar:1.47.1-SNAPSHOT" -> "io.opencensus:opencensus-testing:jar:0.31.1:test" ; 
+	"org.apache.httpcomponents:httpclient:jar:4.5.14:compile" -> "(org.apache.httpcomponents:httpcore:jar:4.4.16:compile - version managed from 4.4.16; omitted for duplicate)" ; 
+	"org.apache.httpcomponents:httpclient:jar:4.5.14:compile" -> "commons-codec:commons-codec:jar:1.11:compile" ; 
+	"com.google.guava:guava:jar:30.1.1-android:compile" -> "com.google.guava:failureaccess:jar:1.0.1:compile" ; 
+	"com.google.guava:guava:jar:30.1.1-android:compile" -> "com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:compile" ; 
+	"com.google.guava:guava:jar:30.1.1-android:compile" -> "(com.google.code.findbugs:jsr305:jar:3.0.2:compile - version managed from 3.0.2; omitted for duplicate)" ; 
+	"com.google.guava:guava:jar:30.1.1-android:compile" -> "org.checkerframework:checker-compat-qual:jar:2.5.5:compile" ; 
+	"com.google.guava:guava:jar:30.1.1-android:compile" -> "(com.google.errorprone:error_prone_annotations:jar:2.36.0:compile - version managed from 2.5.1; omitted for duplicate)" ; 
+	"com.google.guava:guava:jar:30.1.1-android:compile" -> "(com.google.j2objc:j2objc-annotations:jar:3.0.0:compile - version managed from 1.3; omitted for duplicate)" ; 
+	"io.grpc:grpc-context:jar:1.70.0:compile" -> "io.grpc:grpc-api:jar:1.70.0:runtime" ; 
+	"io.opencensus:opencensus-api:jar:0.31.1:compile" -> "(io.grpc:grpc-context:jar:1.70.0:compile - version managed from 1.27.2; omitted for duplicate)" ; 
+	"io.opencensus:opencensus-contrib-http-util:jar:0.31.1:compile" -> "(io.opencensus:opencensus-api:jar:0.31.1:compile - version managed from 0.31.1; omitted for duplicate)" ; 
+	"io.opencensus:opencensus-contrib-http-util:jar:0.31.1:compile" -> "(com.google.guava:guava:jar:30.1.1-android:compile - version managed from 29.0-android; omitted for duplicate)" ; 
+	"com.google.guava:guava-testlib:jar:30.1.1-android:test" -> "(com.google.code.findbugs:jsr305:jar:3.0.2:test - version managed from 3.0.2; omitted for duplicate)" ; 
+	"com.google.guava:guava-testlib:jar:30.1.1-android:test" -> "(org.checkerframework:checker-compat-qual:jar:2.5.5:test - omitted for duplicate)" ; 
+	"com.google.guava:guava-testlib:jar:30.1.1-android:test" -> "(com.google.errorprone:error_prone_annotations:jar:2.36.0:test - version managed from 2.5.1; omitted for duplicate)" ; 
+	"com.google.guava:guava-testlib:jar:30.1.1-android:test" -> "(com.google.j2objc:j2objc-annotations:jar:3.0.0:test - version managed from 1.3; omitted for duplicate)" ; 
+	"com.google.guava:guava-testlib:jar:30.1.1-android:test" -> "(com.google.guava:guava:jar:30.1.1-android:test - version managed from 30.1.1-android; omitted for duplicate)" ; 
+	"com.google.guava:guava-testlib:jar:30.1.1-android:test" -> "(junit:junit:jar:4.13.2:test - version managed from 4.13.2; omitted for duplicate)" ; 
+	"junit:junit:jar:4.13.2:test (scope not updated to test)" -> "org.hamcrest:hamcrest-core:jar:1.3:test" ; 
+	"com.google.truth:truth:jar:1.1.3:test" -> "(com.google.guava:guava:jar:30.1.1-android:test - version managed from 30.1.1-android; omitted for duplicate)" ; 
+	"com.google.truth:truth:jar:1.1.3:test" -> "org.checkerframework:checker-qual:jar:3.13.0:test" ; 
+	"com.google.truth:truth:jar:1.1.3:test" -> "(junit:junit:jar:4.13.2:test - version managed from 4.13.2; omitted for duplicate)" ; 
+	"com.google.truth:truth:jar:1.1.3:test" -> "com.google.auto.value:auto-value-annotations:jar:1.8.1:test" ; 
+	"com.google.truth:truth:jar:1.1.3:test" -> "(com.google.errorprone:error_prone_annotations:jar:2.36.0:test - version managed from 2.7.1; omitted for duplicate)" ; 
+	"com.google.truth:truth:jar:1.1.3:test" -> "org.ow2.asm:asm:jar:9.1:test" ; 
+	"io.opencensus:opencensus-impl:jar:0.31.1:test" -> "(io.opencensus:opencensus-api:jar:0.31.1:test - version managed from 0.31.1; omitted for duplicate)" ; 
+	"io.opencensus:opencensus-impl:jar:0.31.1:test" -> "io.opencensus:opencensus-impl-core:jar:0.31.1:test" ; 
+	"io.opencensus:opencensus-impl:jar:0.31.1:test" -> "com.lmax:disruptor:jar:3.4.2:test" ; 
+	"io.opencensus:opencensus-impl-core:jar:0.31.1:test" -> "(io.opencensus:opencensus-api:jar:0.31.1:test - version managed from 0.31.1; omitted for duplicate)" ; 
+	"io.opencensus:opencensus-impl-core:jar:0.31.1:test" -> "(com.google.guava:guava:jar:30.1.1-android:test - version managed from 29.0-android; omitted for duplicate)" ; 
+	"io.opencensus:opencensus-testing:jar:0.31.1:test" -> "(io.opencensus:opencensus-api:jar:0.31.1:test - version managed from 0.31.1; omitted for duplicate)" ; 
+	"io.opencensus:opencensus-testing:jar:0.31.1:test" -> "(com.google.guava:guava:jar:30.1.1-android:test - version managed from 29.0-android; omitted for duplicate)" ; 
+}
+digraph google-http-client-android {
+	"com.google.http-client:google-http-client-android:jar:1.47.1-SNAPSHOT" -> "com.google.http-client:google-http-client:jar:1.47.1-SNAPSHOT:compile" ; 
+	"com.google.http-client:google-http-client-android:jar:1.47.1-SNAPSHOT" -> "com.google.android:android:jar:4.1.1.4:provided" ; 
+	"com.google.android:android:jar:4.1.1.4:provided" -> "commons-logging:commons-logging:jar:1.1.1:provided" ; 
+	"com.google.android:android:jar:4.1.1.4:provided" -> "org.apache.httpcomponents:httpclient:jar:4.5.14:provided (version managed from 4.0.1)" ; 
+	"com.google.android:android:jar:4.1.1.4:provided" -> "org.khronos:opengl-api:jar:gl1.1-android-2.1_r1:provided" ; 
+	"com.google.android:android:jar:4.1.1.4:provided" -> "xerces:xmlParserAPIs:jar:2.6.2:provided" ; 
+	"com.google.android:android:jar:4.1.1.4:provided" -> "xpp3:xpp3:jar:1.1.4c:provided (version managed from 1.1.4c)" ; 
+	"com.google.android:android:jar:4.1.1.4:provided" -> "org.json:json:jar:20080701:provided" ; 
+	"org.apache.httpcomponents:httpclient:jar:4.5.14:provided (version managed from 4.0.1)" -> "org.apache.httpcomponents:httpcore:jar:4.4.16:provided (version managed from 4.4.16)" ; 
+	"org.apache.httpcomponents:httpclient:jar:4.5.14:provided (version managed from 4.0.1)" -> "(commons-logging:commons-logging:jar:1.2:provided - omitted for conflict with 1.1.1)" ; 
+	"org.apache.httpcomponents:httpclient:jar:4.5.14:provided (version managed from 4.0.1)" -> "commons-codec:commons-codec:jar:1.11:provided" ; 
+}
+digraph google-http-client-apache-v2 {
+	"com.google.http-client:google-http-client-apache-v2:jar:1.47.1-SNAPSHOT" -> "com.google.http-client:google-http-client:jar:1.47.1-SNAPSHOT:compile" ; 
+	"com.google.http-client:google-http-client-apache-v2:jar:1.47.1-SNAPSHOT" -> "junit:junit:jar:4.13.2:test" ; 
+	"com.google.http-client:google-http-client-apache-v2:jar:1.47.1-SNAPSHOT" -> "org.apache.httpcomponents:httpclient:jar:4.5.14:compile" ; 
+	"com.google.http-client:google-http-client-apache-v2:jar:1.47.1-SNAPSHOT" -> "org.apache.httpcomponents:httpcore:jar:4.4.16:compile" ; 
+	"junit:junit:jar:4.13.2:test" -> "org.hamcrest:hamcrest-core:jar:1.3:test" ; 
+	"org.apache.httpcomponents:httpclient:jar:4.5.14:compile" -> "(org.apache.httpcomponents:httpcore:jar:4.4.16:compile - version managed from 4.4.16; omitted for duplicate)" ; 
+	"org.apache.httpcomponents:httpclient:jar:4.5.14:compile" -> "commons-logging:commons-logging:jar:1.2:compile" ; 
+	"org.apache.httpcomponents:httpclient:jar:4.5.14:compile" -> "commons-codec:commons-codec:jar:1.11:compile" ; 
+}
+digraph google-http-client-apache-v5 {
+	"com.google.http-client:google-http-client-apache-v5:jar:1.47.1-SNAPSHOT" -> "com.google.http-client:google-http-client:jar:1.47.1-SNAPSHOT:compile" ; 
+	"com.google.http-client:google-http-client-apache-v5:jar:1.47.1-SNAPSHOT" -> "com.google.guava:guava:jar:30.1.1-android:compile" ; 
+	"com.google.http-client:google-http-client-apache-v5:jar:1.47.1-SNAPSHOT" -> "org.apache.httpcomponents.client5:httpclient5:jar:5.3.1:compile" ; 
+	"com.google.http-client:google-http-client-apache-v5:jar:1.47.1-SNAPSHOT" -> "org.apache.httpcomponents.core5:httpcore5:jar:5.2.5:compile" ; 
+	"com.google.http-client:google-http-client-apache-v5:jar:1.47.1-SNAPSHOT" -> "junit:junit:jar:4.13.2:test" ; 
+	"com.google.guava:guava:jar:30.1.1-android:compile" -> "com.google.guava:failureaccess:jar:1.0.1:compile" ; 
+	"com.google.guava:guava:jar:30.1.1-android:compile" -> "com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:compile" ; 
+	"com.google.guava:guava:jar:30.1.1-android:compile" -> "com.google.code.findbugs:jsr305:jar:3.0.2:compile (version managed from 3.0.2)" ; 
+	"com.google.guava:guava:jar:30.1.1-android:compile" -> "org.checkerframework:checker-compat-qual:jar:2.5.5:compile" ; 
+	"com.google.guava:guava:jar:30.1.1-android:compile" -> "com.google.errorprone:error_prone_annotations:jar:2.36.0:compile (version managed from 2.5.1)" ; 
+	"com.google.guava:guava:jar:30.1.1-android:compile" -> "com.google.j2objc:j2objc-annotations:jar:3.0.0:compile (version managed from 1.3)" ; 
+	"org.apache.httpcomponents.client5:httpclient5:jar:5.3.1:compile" -> "(org.apache.httpcomponents.core5:httpcore5:jar:5.2.5:compile - version managed from 5.2.4; omitted for duplicate)" ; 
+	"org.apache.httpcomponents.client5:httpclient5:jar:5.3.1:compile" -> "org.apache.httpcomponents.core5:httpcore5-h2:jar:5.2.4:compile" ; 
+	"org.apache.httpcomponents.client5:httpclient5:jar:5.3.1:compile" -> "org.slf4j:slf4j-api:jar:1.7.36:compile" ; 
+	"org.apache.httpcomponents.core5:httpcore5-h2:jar:5.2.4:compile" -> "(org.apache.httpcomponents.core5:httpcore5:jar:5.2.5:compile - version managed from 5.2.4; omitted for duplicate)" ; 
+	"junit:junit:jar:4.13.2:test" -> "org.hamcrest:hamcrest-core:jar:1.3:test" ; 
+}
+digraph google-http-client-appengine {
+	"com.google.http-client:google-http-client-appengine:jar:1.47.1-SNAPSHOT" -> "com.google.http-client:google-http-client:jar:1.47.1-SNAPSHOT:compile" ; 
+	"com.google.http-client:google-http-client-appengine:jar:1.47.1-SNAPSHOT" -> "com.google.http-client:google-http-client-test:jar:1.47.1-SNAPSHOT:test" ; 
+	"com.google.http-client:google-http-client-appengine:jar:1.47.1-SNAPSHOT" -> "com.google.appengine:appengine-api-1.0-sdk:jar:2.0.32:provided" ; 
+	"com.google.http-client:google-http-client-appengine:jar:1.47.1-SNAPSHOT" -> "com.google.appengine:appengine-testing:jar:2.0.32:test" ; 
+	"com.google.http-client:google-http-client-appengine:jar:1.47.1-SNAPSHOT" -> "com.google.appengine:appengine-api-stubs:jar:2.0.32:test (scope not updated to test)" ; 
+	"com.google.http-client:google-http-client-appengine:jar:1.47.1-SNAPSHOT" -> "junit:junit:jar:4.13.2:test (scope not updated to test)" ; 
+	"com.google.appengine:appengine-testing:jar:2.0.32:test" -> "(com.google.appengine:appengine-api-stubs:jar:2.0.32:test - version managed from 2.0.32; omitted for duplicate)" ; 
+	"com.google.appengine:appengine-testing:jar:2.0.32:test" -> "com.google.appengine:appengine-tools-sdk:jar:2.0.32:test" ; 
+	"com.google.appengine:appengine-testing:jar:2.0.32:test" -> "(junit:junit:jar:4.13.2:test - version managed from 4.13.2; omitted for duplicate)" ; 
+	"com.google.appengine:appengine-tools-sdk:jar:2.0.32:test" -> "com.google.appengine:appengine-remote-api:jar:2.0.32:test" ; 
+	"com.google.appengine:appengine-remote-api:jar:2.0.32:test" -> "(com.google.appengine:appengine-api-1.0-sdk:jar:2.0.32:test - version managed from 2.0.32; omitted for duplicate)" ; 
+	"com.google.appengine:appengine-api-stubs:jar:2.0.32:test (scope not updated to test)" -> "(com.google.appengine:appengine-api-1.0-sdk:jar:2.0.32:test - version managed from 2.0.32; omitted for duplicate)" ; 
+	"junit:junit:jar:4.13.2:test (scope not updated to test)" -> "org.hamcrest:hamcrest-core:jar:1.3:test" ; 
+}
+digraph google-http-client-findbugs {
+	"com.google.http-client:google-http-client-findbugs:jar:1.47.1-SNAPSHOT" -> "com.google.code.findbugs:findbugs:jar:3.0.1:compile" ; 
+	"com.google.http-client:google-http-client-findbugs:jar:1.47.1-SNAPSHOT" -> "com.google.code.findbugs:bcel-findbugs:jar:6.0:compile" ; 
+	"com.google.http-client:google-http-client-findbugs:jar:1.47.1-SNAPSHOT" -> "com.google.http-client:google-http-client:jar:1.47.1-SNAPSHOT:compile" ; 
+	"com.google.code.findbugs:findbugs:jar:3.0.1:compile" -> "net.jcip:jcip-annotations:jar:1.0:compile" ; 
+	"com.google.code.findbugs:findbugs:jar:3.0.1:compile" -> "com.google.code.findbugs:jsr305:jar:3.0.2:compile (version managed from 2.0.1)" ; 
+	"com.google.code.findbugs:findbugs:jar:3.0.1:compile" -> "(com.google.code.findbugs:bcel-findbugs:jar:6.0:compile - omitted for duplicate)" ; 
+	"com.google.code.findbugs:findbugs:jar:3.0.1:compile" -> "com.google.code.findbugs:jFormatString:jar:2.0.1:compile" ; 
+	"com.google.code.findbugs:findbugs:jar:3.0.1:compile" -> "dom4j:dom4j:jar:1.6.1:compile" ; 
+	"com.google.code.findbugs:findbugs:jar:3.0.1:compile" -> "org.ow2.asm:asm-debug-all:jar:5.0.2:compile" ; 
+	"com.google.code.findbugs:findbugs:jar:3.0.1:compile" -> "org.ow2.asm:asm-commons:jar:5.0.2:compile" ; 
+	"com.google.code.findbugs:findbugs:jar:3.0.1:compile" -> "commons-lang:commons-lang:jar:2.6:compile" ; 
+	"com.google.code.findbugs:findbugs:jar:3.0.1:compile" -> "com.apple:AppleJavaExtensions:jar:1.4:compile" ; 
+	"com.google.code.findbugs:findbugs:jar:3.0.1:compile" -> "jaxen:jaxen:jar:1.1.6:compile" ; 
+	"dom4j:dom4j:jar:1.6.1:compile" -> "xml-apis:xml-apis:jar:1.0.b2:compile" ; 
+	"org.ow2.asm:asm-commons:jar:5.0.2:compile" -> "org.ow2.asm:asm-tree:jar:5.0.2:compile" ; 
+	"org.ow2.asm:asm-tree:jar:5.0.2:compile" -> "org.ow2.asm:asm:jar:5.0.2:compile" ; 
+}
+digraph google-http-client-findbugs-test {
+	"com.google.http-client:google-http-client-findbugs-test:jar:1.15.0-rc-SNAPSHOT" -> "com.google.http-client:google-http-client:jar:1.15.0-rc-SNAPSHOT:compile" ; 
+	"com.google.http-client:google-http-client-findbugs-test:jar:1.15.0-rc-SNAPSHOT" -> "com.google.http-client:google-http-client-findbugs:jar:1.15.0-rc-SNAPSHOT:compile" ; 
+}
+digraph google-http-client-gson {
+	"com.google.http-client:google-http-client-gson:jar:1.47.1-SNAPSHOT" -> "com.google.http-client:google-http-client:jar:1.47.1-SNAPSHOT:compile" ; 
+	"com.google.http-client:google-http-client-gson:jar:1.47.1-SNAPSHOT" -> "com.google.http-client:google-http-client-test:jar:1.47.1-SNAPSHOT:test" ; 
+	"com.google.http-client:google-http-client-gson:jar:1.47.1-SNAPSHOT" -> "com.google.code.gson:gson:jar:2.11.0:compile" ; 
+	"com.google.http-client:google-http-client-gson:jar:1.47.1-SNAPSHOT" -> "junit:junit:jar:4.13.2:test" ; 
+	"junit:junit:jar:4.13.2:test" -> "org.hamcrest:hamcrest-core:jar:1.3:test" ; 
+}
+digraph google-http-client-jackson2 {
+	"com.google.http-client:google-http-client-jackson2:jar:1.47.1-SNAPSHOT" -> "com.google.http-client:google-http-client:jar:1.47.1-SNAPSHOT:compile" ; 
+	"com.google.http-client:google-http-client-jackson2:jar:1.47.1-SNAPSHOT" -> "com.google.http-client:google-http-client-test:jar:1.47.1-SNAPSHOT:test" ; 
+	"com.google.http-client:google-http-client-jackson2:jar:1.47.1-SNAPSHOT" -> "com.fasterxml.jackson.core:jackson-core:jar:2.18.2:compile" ; 
+	"com.google.http-client:google-http-client-jackson2:jar:1.47.1-SNAPSHOT" -> "junit:junit:jar:4.13.2:test" ; 
+	"junit:junit:jar:4.13.2:test" -> "org.hamcrest:hamcrest-core:jar:1.3:test" ; 
+}
+digraph google-http-client-protobuf {
+	"com.google.http-client:google-http-client-protobuf:jar:1.47.1-SNAPSHOT" -> "com.google.http-client:google-http-client:jar:1.47.1-SNAPSHOT:compile" ; 
+	"com.google.http-client:google-http-client-protobuf:jar:1.47.1-SNAPSHOT" -> "junit:junit:jar:4.13.2:test" ; 
+	"com.google.http-client:google-http-client-protobuf:jar:1.47.1-SNAPSHOT" -> "com.google.protobuf:protobuf-java:jar:3.21.12:compile" ; 
+	"junit:junit:jar:4.13.2:test" -> "org.hamcrest:hamcrest-core:jar:1.3:test" ; 
+}
+digraph google-http-client-test {
+	"com.google.http-client:google-http-client-test:jar:1.47.1-SNAPSHOT" -> "com.google.http-client:google-http-client:jar:1.47.1-SNAPSHOT:compile" ; 
+	"com.google.http-client:google-http-client-test:jar:1.47.1-SNAPSHOT" -> "junit:junit:jar:4.13.2:compile" ; 
+	"com.google.http-client:google-http-client-test:jar:1.47.1-SNAPSHOT" -> "com.google.guava:guava:jar:30.1.1-android:provided" ; 
+	"junit:junit:jar:4.13.2:compile" -> "org.hamcrest:hamcrest-core:jar:1.3:compile" ; 
+	"com.google.guava:guava:jar:30.1.1-android:provided" -> "com.google.guava:failureaccess:jar:1.0.1:provided" ; 
+	"com.google.guava:guava:jar:30.1.1-android:provided" -> "com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:provided" ; 
+	"com.google.guava:guava:jar:30.1.1-android:provided" -> "com.google.code.findbugs:jsr305:jar:3.0.2:provided (version managed from 3.0.2)" ; 
+	"com.google.guava:guava:jar:30.1.1-android:provided" -> "org.checkerframework:checker-compat-qual:jar:2.5.5:provided" ; 
+	"com.google.guava:guava:jar:30.1.1-android:provided" -> "com.google.errorprone:error_prone_annotations:jar:2.36.0:provided (version managed from 2.5.1)" ; 
+	"com.google.guava:guava:jar:30.1.1-android:provided" -> "com.google.j2objc:j2objc-annotations:jar:3.0.0:provided (version managed from 1.3)" ; 
+}
+digraph google-http-client-xml {
+	"com.google.http-client:google-http-client-xml:jar:1.47.1-SNAPSHOT" -> "com.google.http-client:google-http-client:jar:1.47.1-SNAPSHOT:compile" ; 
+	"com.google.http-client:google-http-client-xml:jar:1.47.1-SNAPSHOT" -> "junit:junit:jar:4.13.2:test" ; 
+	"com.google.http-client:google-http-client-xml:jar:1.47.1-SNAPSHOT" -> "xpp3:xpp3:jar:1.1.4c:compile" ; 
+	"com.google.http-client:google-http-client-xml:jar:1.47.1-SNAPSHOT" -> "com.google.guava:guava:jar:30.1.1-android:test" ; 
+	"junit:junit:jar:4.13.2:test" -> "org.hamcrest:hamcrest-core:jar:1.3:test" ; 
+	"com.google.guava:guava:jar:30.1.1-android:test" -> "com.google.guava:failureaccess:jar:1.0.1:test" ; 
+	"com.google.guava:guava:jar:30.1.1-android:test" -> "com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:test" ; 
+	"com.google.guava:guava:jar:30.1.1-android:test" -> "com.google.code.findbugs:jsr305:jar:3.0.2:test (version managed from 3.0.2)" ; 
+	"com.google.guava:guava:jar:30.1.1-android:test" -> "org.checkerframework:checker-compat-qual:jar:2.5.5:test" ; 
+	"com.google.guava:guava:jar:30.1.1-android:test" -> "com.google.errorprone:error_prone_annotations:jar:2.36.0:test (version managed from 2.5.1)" ; 
+	"com.google.guava:guava:jar:30.1.1-android:test" -> "com.google.j2objc:j2objc-annotations:jar:3.0.0:test (version managed from 1.3)" ; 
+}
+digraph dailymotion-simple-cmdline-sample {
+	"com.google.http-client:dailymotion-simple-cmdline-sample:jar:1.47.1-SNAPSHOT" -> "com.google.http-client:google-http-client:jar:1.47.1-SNAPSHOT:compile" ; 
+	"com.google.http-client:dailymotion-simple-cmdline-sample:jar:1.47.1-SNAPSHOT" -> "com.google.http-client:google-http-client-jackson2:jar:1.47.1-SNAPSHOT:compile" ; 
+}
+digraph snippets {
+	"com.google.cloud:google-http-client-snippets:jar:1.2.2" -> "com.google.http-client:google-http-client:jar:1.45.3:compile" ; 
+	"com.google.cloud:google-http-client-snippets:jar:1.2.2" -> "com.google.http-client:google-http-client-gson:jar:1.45.3:test" ; 
+	"com.google.cloud:google-http-client-snippets:jar:1.2.2" -> "junit:junit:jar:4.13.2:test" ; 
+	"com.google.cloud:google-http-client-snippets:jar:1.2.2" -> "com.google.truth:truth:jar:1.1.3:test" ; 
+	"com.google.cloud:google-http-client-snippets:jar:1.2.2" -> "com.github.spotbugs:spotbugs-annotations:jar:4.7.3:compile" ; 
+	"com.google.cloud:google-http-client-snippets:jar:1.2.2" -> "com.google.cloud:google-cloud-core:jar:tests:2.13.0:test" ; 
+	"com.google.http-client:google-http-client:jar:1.45.3:compile" -> "org.apache.httpcomponents:httpclient:jar:4.5.14:compile" ; 
+	"com.google.http-client:google-http-client:jar:1.45.3:compile" -> "org.apache.httpcomponents:httpcore:jar:4.4.16:compile (scope not updated to compile)" ; 
+	"com.google.http-client:google-http-client:jar:1.45.3:compile" -> "com.google.code.findbugs:jsr305:jar:3.0.2:compile" ; 
+	"com.google.http-client:google-http-client:jar:1.45.3:compile" -> "com.google.errorprone:error_prone_annotations:jar:2.36.0:compile" ; 
+	"com.google.http-client:google-http-client:jar:1.45.3:compile" -> "com.google.guava:guava:jar:33.4.0-jre:compile (version managed from 30.1.1-android)" ; 
+	"com.google.http-client:google-http-client:jar:1.45.3:compile" -> "com.google.j2objc:j2objc-annotations:jar:3.0.0:compile" ; 
+	"com.google.http-client:google-http-client:jar:1.45.3:compile" -> "io.grpc:grpc-context:jar:1.69.0:compile (version managed from 1.69.0)" ; 
+	"com.google.http-client:google-http-client:jar:1.45.3:compile" -> "io.opencensus:opencensus-api:jar:0.31.1:compile" ; 
+	"com.google.http-client:google-http-client:jar:1.45.3:compile" -> "io.opencensus:opencensus-contrib-http-util:jar:0.31.1:compile" ; 
+	"org.apache.httpcomponents:httpclient:jar:4.5.14:compile" -> "(org.apache.httpcomponents:httpcore:jar:4.4.16:compile - omitted for duplicate)" ; 
+	"org.apache.httpcomponents:httpclient:jar:4.5.14:compile" -> "(commons-codec:commons-codec:jar:1.11:compile - omitted for conflict with 1.15)" ; 
+	"com.google.guava:guava:jar:33.4.0-jre:compile (version managed from 30.1.1-android)" -> "(com.google.guava:failureaccess:jar:1.0.2:compile - omitted for conflict with 1.0.1)" ; 
+	"com.google.guava:guava:jar:33.4.0-jre:compile (version managed from 30.1.1-android)" -> "(com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:compile - omitted for duplicate)" ; 
+	"com.google.guava:guava:jar:33.4.0-jre:compile (version managed from 30.1.1-android)" -> "(com.google.code.findbugs:jsr305:jar:3.0.2:compile - omitted for duplicate)" ; 
+	"com.google.guava:guava:jar:33.4.0-jre:compile (version managed from 30.1.1-android)" -> "(org.checkerframework:checker-qual:jar:3.43.0:compile - omitted for conflict with 3.13.0)" ; 
+	"com.google.guava:guava:jar:33.4.0-jre:compile (version managed from 30.1.1-android)" -> "(com.google.errorprone:error_prone_annotations:jar:2.36.0:compile - omitted for duplicate)" ; 
+	"com.google.guava:guava:jar:33.4.0-jre:compile (version managed from 30.1.1-android)" -> "(com.google.j2objc:j2objc-annotations:jar:3.0.0:compile - omitted for duplicate)" ; 
+	"io.grpc:grpc-context:jar:1.69.0:compile (version managed from 1.69.0)" -> "io.grpc:grpc-api:jar:1.69.0:runtime (version managed from 1.69.0)" ; 
+	"io.opencensus:opencensus-api:jar:0.31.1:compile" -> "(io.grpc:grpc-context:jar:1.69.0:compile - version managed from 1.27.2; omitted for duplicate)" ; 
+	"io.opencensus:opencensus-contrib-http-util:jar:0.31.1:compile" -> "(io.opencensus:opencensus-api:jar:0.31.1:compile - omitted for duplicate)" ; 
+	"io.opencensus:opencensus-contrib-http-util:jar:0.31.1:compile" -> "(com.google.guava:guava:jar:33.4.0-jre:compile - version managed from 29.0-android; omitted for duplicate)" ; 
+	"com.google.http-client:google-http-client-gson:jar:1.45.3:test" -> "(com.google.http-client:google-http-client:jar:1.45.3:test - version managed from 1.45.3; omitted for duplicate)" ; 
+	"com.google.http-client:google-http-client-gson:jar:1.45.3:test" -> "com.google.code.gson:gson:jar:2.11.0:test (version managed from 2.11.0)" ; 
+	"junit:junit:jar:4.13.2:test" -> "org.hamcrest:hamcrest-core:jar:1.3:test" ; 
+	"com.google.truth:truth:jar:1.1.3:test" -> "(com.google.guava:guava:jar:33.4.0-jre:test - version managed from 30.1.1-android; omitted for duplicate)" ; 
+	"com.google.truth:truth:jar:1.1.3:test" -> "org.checkerframework:checker-qual:jar:3.13.0:compile" ; 
+	"com.google.truth:truth:jar:1.1.3:test" -> "(junit:junit:jar:4.13.2:test - omitted for duplicate)" ; 
+	"com.google.truth:truth:jar:1.1.3:test" -> "com.google.auto.value:auto-value-annotations:jar:1.11.0:test (version managed from 1.8.1)" ; 
+	"com.google.truth:truth:jar:1.1.3:test" -> "(com.google.errorprone:error_prone_annotations:jar:2.7.1:test - omitted for conflict with 2.36.0)" ; 
+	"com.google.truth:truth:jar:1.1.3:test" -> "org.ow2.asm:asm:jar:9.1:test" ; 
+	"com.github.spotbugs:spotbugs-annotations:jar:4.7.3:compile" -> "(com.google.code.findbugs:jsr305:jar:3.0.2:compile - omitted for duplicate)" ; 
+	"com.google.cloud:google-cloud-core:jar:tests:2.13.0:test" -> "(com.google.guava:guava:jar:33.4.0-jre:test - version managed from 31.1-jre; omitted for duplicate)" ; 
+	"com.google.cloud:google-cloud-core:jar:tests:2.13.0:test" -> "com.google.guava:failureaccess:jar:1.0.1:compile" ; 
+	"com.google.cloud:google-cloud-core:jar:tests:2.13.0:test" -> "com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:compile" ; 
+	"com.google.cloud:google-cloud-core:jar:tests:2.13.0:test" -> "(org.checkerframework:checker-qual:jar:3.32.0:test - omitted for conflict with 3.13.0)" ; 
+	"com.google.cloud:google-cloud-core:jar:tests:2.13.0:test" -> "(com.google.errorprone:error_prone_annotations:jar:2.18.0:test - omitted for conflict with 2.36.0)" ; 
+	"com.google.cloud:google-cloud-core:jar:tests:2.13.0:test" -> "(com.google.j2objc:j2objc-annotations:jar:1.3:test - omitted for conflict with 3.0.0)" ; 
+	"com.google.cloud:google-cloud-core:jar:tests:2.13.0:test" -> "com.google.api:gax:jar:2.60.0:test (version managed from 2.23.3)" ; 
+	"com.google.cloud:google-cloud-core:jar:tests:2.13.0:test" -> "(io.opencensus:opencensus-api:jar:0.31.1:test - omitted for duplicate)" ; 
+	"com.google.cloud:google-cloud-core:jar:tests:2.13.0:test" -> "(io.grpc:grpc-context:jar:1.69.0:test - version managed from 1.53.0; omitted for duplicate)" ; 
+	"com.google.cloud:google-cloud-core:jar:tests:2.13.0:test" -> "(com.google.auto.value:auto-value-annotations:jar:1.11.0:test - version managed from 1.10.1; omitted for duplicate)" ; 
+	"com.google.cloud:google-cloud-core:jar:tests:2.13.0:test" -> "com.google.protobuf:protobuf-java-util:jar:4.29.0:test (version managed from 3.21.12)" ; 
+	"com.google.cloud:google-cloud-core:jar:tests:2.13.0:test" -> "(com.google.code.gson:gson:jar:2.11.0:test - version managed from 2.10.1; omitted for duplicate)" ; 
+	"com.google.cloud:google-cloud-core:jar:tests:2.13.0:test" -> "com.google.api.grpc:proto-google-common-protos:jar:2.51.0:test (version managed from 2.14.3)" ; 
+	"com.google.cloud:google-cloud-core:jar:tests:2.13.0:test" -> "com.google.api.grpc:proto-google-iam-v1:jar:1.46.0:test (version managed from 1.9.3)" ; 
+	"com.google.cloud:google-cloud-core:jar:tests:2.13.0:test" -> "org.threeten:threetenbp:jar:1.6.5:test" ; 
+	"com.google.cloud:google-cloud-core:jar:tests:2.13.0:test" -> "com.google.api:api-common:jar:2.43.0:test (version managed from 2.6.3)" ; 
+	"com.google.cloud:google-cloud-core:jar:tests:2.13.0:test" -> "com.google.auto.value:auto-value:jar:1.10.1:test" ; 
+	"com.google.cloud:google-cloud-core:jar:tests:2.13.0:test" -> "javax.annotation:javax.annotation-api:jar:1.3.2:test" ; 
+	"com.google.cloud:google-cloud-core:jar:tests:2.13.0:test" -> "com.google.auth:google-auth-library-credentials:jar:1.31.0:test (version managed from 1.16.0)" ; 
+	"com.google.cloud:google-cloud-core:jar:tests:2.13.0:test" -> "com.google.auth:google-auth-library-oauth2-http:jar:1.31.0:test (version managed from 1.16.0)" ; 
+	"com.google.cloud:google-cloud-core:jar:tests:2.13.0:test" -> "(com.google.http-client:google-http-client:jar:1.45.3:test - version managed from 1.43.1; omitted for duplicate)" ; 
+	"com.google.cloud:google-cloud-core:jar:tests:2.13.0:test" -> "(org.apache.httpcomponents:httpclient:jar:4.5.14:test - omitted for duplicate)" ; 
+	"com.google.cloud:google-cloud-core:jar:tests:2.13.0:test" -> "commons-logging:commons-logging:jar:1.2:test" ; 
+	"com.google.cloud:google-cloud-core:jar:tests:2.13.0:test" -> "commons-codec:commons-codec:jar:1.15:compile (scope not updated to compile)" ; 
+	"com.google.cloud:google-cloud-core:jar:tests:2.13.0:test" -> "(org.apache.httpcomponents:httpcore:jar:4.4.16:test - omitted for duplicate)" ; 
+	"com.google.cloud:google-cloud-core:jar:tests:2.13.0:test" -> "(io.opencensus:opencensus-contrib-http-util:jar:0.31.1:test - omitted for duplicate)" ; 
+	"com.google.cloud:google-cloud-core:jar:tests:2.13.0:test" -> "(com.google.http-client:google-http-client-gson:jar:1.45.3:test - version managed from 1.43.1; omitted for duplicate)" ; 
+	"com.google.cloud:google-cloud-core:jar:tests:2.13.0:test" -> "com.google.protobuf:protobuf-java:jar:4.29.0:test (version managed from 3.21.12)" ; 
+	"com.google.cloud:google-cloud-core:jar:tests:2.13.0:test" -> "(com.google.code.findbugs:jsr305:jar:3.0.2:test - omitted for duplicate)" ; 
+	"com.google.api:api-common:jar:2.43.0:test (version managed from 2.6.3)" -> "(com.google.j2objc:j2objc-annotations:jar:3.0.0:test - omitted for duplicate)" ; 
+	"com.google.auth:google-auth-library-oauth2-http:jar:1.31.0:test (version managed from 1.16.0)" -> "(com.google.errorprone:error_prone_annotations:jar:2.36.0:test - omitted for duplicate)" ; 
+}

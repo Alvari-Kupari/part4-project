@@ -1,0 +1,30 @@
+digraph apache__commons-net {
+	"commons-net:commons-net:jar:3.12.0-SNAPSHOT" -> "org.junit.jupiter:junit-jupiter-api:jar:5.12.2:test" ; 
+	"commons-net:commons-net:jar:3.12.0-SNAPSHOT" -> "org.junit.vintage:junit-vintage-engine:jar:5.12.2:test" ; 
+	"commons-net:commons-net:jar:3.12.0-SNAPSHOT" -> "org.junit.jupiter:junit-jupiter-engine:jar:5.12.2:test" ; 
+	"commons-net:commons-net:jar:3.12.0-SNAPSHOT" -> "org.junit.jupiter:junit-jupiter-params:jar:5.12.2:test" ; 
+	"commons-net:commons-net:jar:3.12.0-SNAPSHOT" -> "org.apache.ftpserver:ftpserver-core:jar:1.2.1:test" ; 
+	"commons-net:commons-net:jar:3.12.0-SNAPSHOT" -> "commons-io:commons-io:jar:2.19.0:compile" ; 
+	"commons-net:commons-net:jar:3.12.0-SNAPSHOT" -> "org.apache.commons:commons-lang3:jar:3.17.0:test" ; 
+	"commons-net:commons-net:jar:3.12.0-SNAPSHOT" -> "org.apache.commons:commons-collections4:jar:4.5.0:test" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.12.2:test" -> "org.opentest4j:opentest4j:jar:1.3.0:test" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.12.2:test" -> "org.junit.platform:junit-platform-commons:jar:1.12.2:test (version managed from 1.12.2)" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.12.2:test" -> "org.apiguardian:apiguardian-api:jar:1.1.2:test" ; 
+	"org.junit.platform:junit-platform-commons:jar:1.12.2:test (version managed from 1.12.2)" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:test - omitted for duplicate)" ; 
+	"org.junit.vintage:junit-vintage-engine:jar:5.12.2:test" -> "org.junit.platform:junit-platform-engine:jar:1.12.2:test (version managed from 1.12.2)" ; 
+	"org.junit.vintage:junit-vintage-engine:jar:5.12.2:test" -> "junit:junit:jar:4.13.2:test" ; 
+	"org.junit.vintage:junit-vintage-engine:jar:5.12.2:test" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:test - omitted for duplicate)" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.12.2:test (version managed from 1.12.2)" -> "(org.opentest4j:opentest4j:jar:1.3.0:test - omitted for duplicate)" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.12.2:test (version managed from 1.12.2)" -> "(org.junit.platform:junit-platform-commons:jar:1.12.2:test - version managed from 1.12.2; omitted for duplicate)" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.12.2:test (version managed from 1.12.2)" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:test - omitted for duplicate)" ; 
+	"junit:junit:jar:4.13.2:test" -> "org.hamcrest:hamcrest-core:jar:1.3:test" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.12.2:test" -> "(org.junit.platform:junit-platform-engine:jar:1.12.2:test - version managed from 1.12.2; omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.12.2:test" -> "(org.junit.jupiter:junit-jupiter-api:jar:5.12.2:test - version managed from 5.12.2; omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.12.2:test" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-params:jar:5.12.2:test" -> "(org.junit.jupiter:junit-jupiter-api:jar:5.12.2:test - version managed from 5.12.2; omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-params:jar:5.12.2:test" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:test - omitted for duplicate)" ; 
+	"org.apache.ftpserver:ftpserver-core:jar:1.2.1:test" -> "org.apache.ftpserver:ftplet-api:jar:1.2.1:test" ; 
+	"org.apache.ftpserver:ftpserver-core:jar:1.2.1:test" -> "org.slf4j:slf4j-api:jar:1.7.36:test" ; 
+	"org.apache.ftpserver:ftpserver-core:jar:1.2.1:test" -> "org.apache.mina:mina-core:jar:2.2.4:test" ; 
+	"org.apache.mina:mina-core:jar:2.2.4:test" -> "(org.slf4j:slf4j-api:jar:1.7.36:test - omitted for duplicate)" ; 
+}

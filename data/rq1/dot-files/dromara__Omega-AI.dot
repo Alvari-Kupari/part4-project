@@ -1,0 +1,35 @@
+digraph dromara__Omega-AI {
+	"io.gitee.iangellove:omega-engine-v4-gpu:jar:win-cu11.7-v1.0-beta" -> "org.jcuda:jcuda:jar:11.7.0:compile" ; 
+	"io.gitee.iangellove:omega-engine-v4-gpu:jar:win-cu11.7-v1.0-beta" -> "org.jcuda:jcublas:jar:11.7.0:compile" ; 
+	"io.gitee.iangellove:omega-engine-v4-gpu:jar:win-cu11.7-v1.0-beta" -> "org.jcuda:jcufft:jar:11.7.0:compile" ; 
+	"io.gitee.iangellove:omega-engine-v4-gpu:jar:win-cu11.7-v1.0-beta" -> "org.jcuda:jcusparse:jar:11.7.0:compile" ; 
+	"io.gitee.iangellove:omega-engine-v4-gpu:jar:win-cu11.7-v1.0-beta" -> "org.jcuda:jcusolver:jar:11.7.0:compile" ; 
+	"io.gitee.iangellove:omega-engine-v4-gpu:jar:win-cu11.7-v1.0-beta" -> "org.jcuda:jcurand:jar:11.7.0:compile" ; 
+	"io.gitee.iangellove:omega-engine-v4-gpu:jar:win-cu11.7-v1.0-beta" -> "org.jcuda:jcudnn:jar:11.7.0:compile" ; 
+	"io.gitee.iangellove:omega-engine-v4-gpu:jar:win-cu11.7-v1.0-beta" -> "com.google.code.gson:gson:jar:2.10.1:compile" ; 
+	"io.gitee.iangellove:omega-engine-v4-gpu:jar:win-cu11.7-v1.0-beta" -> "com.madgag:animated-gif-lib:jar:1.4:compile" ; 
+	"io.gitee.iangellove:omega-engine-v4-gpu:jar:win-cu11.7-v1.0-beta" -> "ai.djl.sentencepiece:sentencepiece:jar:0.28.0:compile" ; 
+	"io.gitee.iangellove:omega-engine-v4-gpu:jar:win-cu11.7-v1.0-beta" -> "cn.hutool:hutool-all:jar:5.7.16:compile" ; 
+	"org.jcuda:jcuda:jar:11.7.0:compile" -> "org.jcuda:jcuda-natives:jar:windows-x86_64:11.7.0:compile" ; 
+	"org.jcuda:jcublas:jar:11.7.0:compile" -> "(org.jcuda:jcuda:jar:11.7.0:compile - omitted for duplicate)" ; 
+	"org.jcuda:jcublas:jar:11.7.0:compile" -> "org.jcuda:jcublas-natives:jar:windows-x86_64:11.7.0:compile" ; 
+	"org.jcuda:jcufft:jar:11.7.0:compile" -> "(org.jcuda:jcuda:jar:11.7.0:compile - omitted for duplicate)" ; 
+	"org.jcuda:jcufft:jar:11.7.0:compile" -> "org.jcuda:jcufft-natives:jar:windows-x86_64:11.7.0:compile" ; 
+	"org.jcuda:jcusparse:jar:11.7.0:compile" -> "(org.jcuda:jcuda:jar:11.7.0:compile - omitted for duplicate)" ; 
+	"org.jcuda:jcusparse:jar:11.7.0:compile" -> "org.jcuda:jcusparse-natives:jar:windows-x86_64:11.7.0:compile" ; 
+	"org.jcuda:jcusolver:jar:11.7.0:compile" -> "(org.jcuda:jcuda:jar:11.7.0:compile - omitted for duplicate)" ; 
+	"org.jcuda:jcusolver:jar:11.7.0:compile" -> "(org.jcuda:jcusparse:jar:11.7.0:compile - omitted for duplicate)" ; 
+	"org.jcuda:jcusolver:jar:11.7.0:compile" -> "org.jcuda:jcusolver-natives:jar:windows-x86_64:11.7.0:compile" ; 
+	"org.jcuda:jcurand:jar:11.7.0:compile" -> "(org.jcuda:jcuda:jar:11.7.0:compile - omitted for duplicate)" ; 
+	"org.jcuda:jcurand:jar:11.7.0:compile" -> "org.jcuda:jcurand-natives:jar:windows-x86_64:11.7.0:compile" ; 
+	"org.jcuda:jcudnn:jar:11.7.0:compile" -> "(org.jcuda:jcuda:jar:11.7.0:compile - omitted for duplicate)" ; 
+	"org.jcuda:jcudnn:jar:11.7.0:compile" -> "(org.jcuda:jcublas:jar:11.7.0:compile - omitted for duplicate)" ; 
+	"org.jcuda:jcudnn:jar:11.7.0:compile" -> "org.jcuda:jcudnn-natives:jar:windows-x86_64:11.7.0:compile" ; 
+	"ai.djl.sentencepiece:sentencepiece:jar:0.28.0:compile" -> "ai.djl:api:jar:0.28.0:compile" ; 
+	"ai.djl:api:jar:0.28.0:compile" -> "(com.google.code.gson:gson:jar:2.10.1:compile - omitted for duplicate)" ; 
+	"ai.djl:api:jar:0.28.0:compile" -> "net.java.dev.jna:jna:jar:5.14.0:compile" ; 
+	"ai.djl:api:jar:0.28.0:compile" -> "org.apache.commons:commons-compress:jar:1.26.1:compile" ; 
+	"ai.djl:api:jar:0.28.0:compile" -> "org.slf4j:slf4j-api:jar:1.7.36:compile" ; 
+	"org.apache.commons:commons-compress:jar:1.26.1:compile" -> "commons-codec:commons-codec:jar:1.16.1:compile" ; 
+	"org.apache.commons:commons-compress:jar:1.26.1:compile" -> "commons-io:commons-io:jar:2.15.1:compile" ; 
+}

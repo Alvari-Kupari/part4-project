@@ -1,0 +1,12 @@
+digraph codec-classes-quic {
+	"io.netty.incubator:netty-incubator-codec-classes-quic:jar:0.0.73.Final-SNAPSHOT" -> "io.netty:netty-common:jar:4.1.121.Final:compile" ; 
+	"io.netty.incubator:netty-incubator-codec-classes-quic:jar:0.0.73.Final-SNAPSHOT" -> "io.netty:netty-buffer:jar:4.1.121.Final:compile" ; 
+	"io.netty.incubator:netty-incubator-codec-classes-quic:jar:0.0.73.Final-SNAPSHOT" -> "io.netty:netty-codec:jar:4.1.121.Final:compile" ; 
+	"io.netty.incubator:netty-incubator-codec-classes-quic:jar:0.0.73.Final-SNAPSHOT" -> "io.netty:netty-handler:jar:4.1.121.Final:compile" ; 
+	"io.netty.incubator:netty-incubator-codec-classes-quic:jar:0.0.73.Final-SNAPSHOT" -> "io.netty:netty-transport:jar:4.1.121.Final:compile" ; 
+	"io.netty.incubator:netty-incubator-codec-classes-quic:jar:0.0.73.Final-SNAPSHOT" -> "io.netty:netty-transport-classes-epoll:jar:4.1.121.Final:compile (optional) " ; 
+	"io.netty.incubator:netty-incubator-codec-classes-quic:jar:0.0.73.Final-SNAPSHOT" -> "org.jetbrains:annotations:jar:24.1.0:provided" ; 
+	"io.netty.incubator:netty-incubator-codec-classes-quic:jar:0.0.73.Final-SNAPSHOT" -> "com.google.code.findbugs:jsr305:jar:3.0.2:provided" ; 
+	"io.netty:netty-handler:jar:4.1.121.Final:compile" -> "io.netty:netty-resolver:jar:4.1.121.Final:compile" ; 
+	"io.netty:netty-handler:jar:4.1.121.Final:compile" -> "io.netty:netty-transport-native-unix-common:jar:4.1.121.Final:compile" ; 
+}

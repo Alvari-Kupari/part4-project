@@ -1,0 +1,20 @@
+digraph nikoo28__java-solutions {
+	"com.studyalgorithms.javasolutions:java-solutions:jar:1.0-SNAPSHOT" -> "com.google.guava:guava:jar:32.0.0-jre:compile" ; 
+	"com.studyalgorithms.javasolutions:java-solutions:jar:1.0-SNAPSHOT" -> "org.junit.jupiter:junit-jupiter-engine:jar:5.1.0:test" ; 
+	"com.google.guava:guava:jar:32.0.0-jre:compile" -> "com.google.guava:failureaccess:jar:1.0.1:compile" ; 
+	"com.google.guava:guava:jar:32.0.0-jre:compile" -> "com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:compile" ; 
+	"com.google.guava:guava:jar:32.0.0-jre:compile" -> "com.google.code.findbugs:jsr305:jar:3.0.2:compile" ; 
+	"com.google.guava:guava:jar:32.0.0-jre:compile" -> "org.checkerframework:checker-qual:jar:3.33.0:compile" ; 
+	"com.google.guava:guava:jar:32.0.0-jre:compile" -> "com.google.errorprone:error_prone_annotations:jar:2.18.0:compile" ; 
+	"com.google.guava:guava:jar:32.0.0-jre:compile" -> "com.google.j2objc:j2objc-annotations:jar:2.8:compile" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.1.0:test" -> "org.apiguardian:apiguardian-api:jar:1.0.0:test" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.1.0:test" -> "org.junit.platform:junit-platform-engine:jar:1.1.0:test" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.1.0:test" -> "org.junit.jupiter:junit-jupiter-api:jar:5.1.0:test" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.1.0:test" -> "(org.apiguardian:apiguardian-api:jar:1.0.0:test - omitted for duplicate)" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.1.0:test" -> "org.junit.platform:junit-platform-commons:jar:1.1.0:test" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.1.0:test" -> "org.opentest4j:opentest4j:jar:1.0.0:test" ; 
+	"org.junit.platform:junit-platform-commons:jar:1.1.0:test" -> "(org.apiguardian:apiguardian-api:jar:1.0.0:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.1.0:test" -> "(org.apiguardian:apiguardian-api:jar:1.0.0:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.1.0:test" -> "(org.opentest4j:opentest4j:jar:1.0.0:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.1.0:test" -> "(org.junit.platform:junit-platform-commons:jar:1.1.0:test - omitted for duplicate)" ; 
+}

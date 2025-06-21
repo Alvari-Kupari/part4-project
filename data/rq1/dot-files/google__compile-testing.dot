@@ -1,0 +1,24 @@
+digraph google__compile-testing {
+	"com.google.testing.compile:compile-testing:jar:HEAD-SNAPSHOT" -> "junit:junit:jar:4.13.2:compile" ; 
+	"com.google.testing.compile:compile-testing:jar:HEAD-SNAPSHOT" -> "com.google.truth:truth:jar:1.4.4:compile" ; 
+	"com.google.testing.compile:compile-testing:jar:HEAD-SNAPSHOT" -> "com.google.truth.extensions:truth-java8-extension:jar:1.4.4:test" ; 
+	"com.google.testing.compile:compile-testing:jar:HEAD-SNAPSHOT" -> "com.google.guava:guava:jar:33.4.8-jre:compile" ; 
+	"com.google.testing.compile:compile-testing:jar:HEAD-SNAPSHOT" -> "com.google.errorprone:error_prone_annotations:jar:2.38.0:provided (scope not updated to compile)" ; 
+	"com.google.testing.compile:compile-testing:jar:HEAD-SNAPSHOT" -> "com.google.auto.value:auto-value:jar:1.11.0:compile" ; 
+	"com.google.testing.compile:compile-testing:jar:HEAD-SNAPSHOT" -> "com.google.auto:auto-common:jar:1.2.2:compile" ; 
+	"com.google.testing.compile:compile-testing:jar:HEAD-SNAPSHOT" -> "org.jspecify:jspecify:jar:1.0.0:compile" ; 
+	"junit:junit:jar:4.13.2:compile" -> "org.hamcrest:hamcrest-core:jar:1.3:compile" ; 
+	"com.google.truth:truth:jar:1.4.4:compile" -> "(com.google.guava:guava:jar:33.2.1-android:compile - omitted for conflict with 33.4.8-jre)" ; 
+	"com.google.truth:truth:jar:1.4.4:compile" -> "(org.jspecify:jspecify:jar:0.3.0:compile - omitted for conflict with 1.0.0)" ; 
+	"com.google.truth:truth:jar:1.4.4:compile" -> "(junit:junit:jar:4.13.2:compile - omitted for duplicate)" ; 
+	"com.google.truth:truth:jar:1.4.4:compile" -> "com.google.auto.value:auto-value-annotations:jar:1.11.0:compile" ; 
+	"com.google.truth:truth:jar:1.4.4:compile" -> "(com.google.errorprone:error_prone_annotations:jar:2.28.0:compile - omitted for conflict with 2.38.0)" ; 
+	"com.google.truth:truth:jar:1.4.4:compile" -> "org.ow2.asm:asm:jar:9.7:compile" ; 
+	"com.google.truth.extensions:truth-java8-extension:jar:1.4.4:test" -> "(com.google.truth:truth:jar:1.4.4:test - omitted for duplicate)" ; 
+	"com.google.guava:guava:jar:33.4.8-jre:compile" -> "com.google.guava:failureaccess:jar:1.0.3:compile" ; 
+	"com.google.guava:guava:jar:33.4.8-jre:compile" -> "com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:compile" ; 
+	"com.google.guava:guava:jar:33.4.8-jre:compile" -> "(org.jspecify:jspecify:jar:1.0.0:compile - omitted for duplicate)" ; 
+	"com.google.guava:guava:jar:33.4.8-jre:compile" -> "(com.google.errorprone:error_prone_annotations:jar:2.36.0:compile - omitted for conflict with 2.38.0)" ; 
+	"com.google.guava:guava:jar:33.4.8-jre:compile" -> "com.google.j2objc:j2objc-annotations:jar:3.0.0:compile" ; 
+	"com.google.auto:auto-common:jar:1.2.2:compile" -> "(com.google.guava:guava:jar:32.0.1-jre:compile - omitted for conflict with 33.4.8-jre)" ; 
+}

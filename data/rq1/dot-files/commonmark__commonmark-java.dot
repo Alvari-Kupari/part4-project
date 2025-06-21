@@ -1,0 +1,75 @@
+digraph commonmark {
+	"org.commonmark:commonmark:jar:0.24.1-SNAPSHOT" -> "org.commonmark:commonmark-test-util:jar:0.24.1-SNAPSHOT:test" ; 
+	"org.commonmark:commonmark:jar:0.24.1-SNAPSHOT" -> "org.openjdk.jmh:jmh-core:jar:1.37:test" ; 
+	"org.commonmark:commonmark:jar:0.24.1-SNAPSHOT" -> "org.openjdk.jmh:jmh-generator-annprocess:jar:1.37:test" ; 
+	"org.openjdk.jmh:jmh-core:jar:1.37:test" -> "net.sf.jopt-simple:jopt-simple:jar:5.0.4:test" ; 
+	"org.openjdk.jmh:jmh-core:jar:1.37:test" -> "org.apache.commons:commons-math3:jar:3.6.1:test" ; 
+	"org.openjdk.jmh:jmh-generator-annprocess:jar:1.37:test" -> "(org.openjdk.jmh:jmh-core:jar:1.37:test - version managed from 1.37; omitted for duplicate)" ; 
+}
+digraph commonmark-ext-autolink {
+	"org.commonmark:commonmark-ext-autolink:jar:0.24.1-SNAPSHOT" -> "org.commonmark:commonmark:jar:0.24.1-SNAPSHOT:compile" ; 
+	"org.commonmark:commonmark-ext-autolink:jar:0.24.1-SNAPSHOT" -> "org.nibor.autolink:autolink:jar:0.12.0:compile" ; 
+	"org.commonmark:commonmark-ext-autolink:jar:0.24.1-SNAPSHOT" -> "org.commonmark:commonmark-test-util:jar:0.24.1-SNAPSHOT:test" ; 
+}
+digraph commonmark-ext-footnotes {
+	"org.commonmark:commonmark-ext-footnotes:jar:0.24.1-SNAPSHOT" -> "org.commonmark:commonmark:jar:0.24.1-SNAPSHOT:compile" ; 
+	"org.commonmark:commonmark-ext-footnotes:jar:0.24.1-SNAPSHOT" -> "org.commonmark:commonmark-test-util:jar:0.24.1-SNAPSHOT:test" ; 
+}
+digraph commonmark-ext-gfm-strikethrough {
+	"org.commonmark:commonmark-ext-gfm-strikethrough:jar:0.24.1-SNAPSHOT" -> "org.commonmark:commonmark:jar:0.24.1-SNAPSHOT:compile" ; 
+	"org.commonmark:commonmark-ext-gfm-strikethrough:jar:0.24.1-SNAPSHOT" -> "org.commonmark:commonmark-test-util:jar:0.24.1-SNAPSHOT:test" ; 
+}
+digraph commonmark-ext-gfm-tables {
+	"org.commonmark:commonmark-ext-gfm-tables:jar:0.24.1-SNAPSHOT" -> "org.commonmark:commonmark:jar:0.24.1-SNAPSHOT:compile" ; 
+	"org.commonmark:commonmark-ext-gfm-tables:jar:0.24.1-SNAPSHOT" -> "org.commonmark:commonmark-test-util:jar:0.24.1-SNAPSHOT:test" ; 
+}
+digraph commonmark-ext-heading-anchor {
+	"org.commonmark:commonmark-ext-heading-anchor:jar:0.24.1-SNAPSHOT" -> "org.commonmark:commonmark:jar:0.24.1-SNAPSHOT:compile" ; 
+	"org.commonmark:commonmark-ext-heading-anchor:jar:0.24.1-SNAPSHOT" -> "org.commonmark:commonmark-test-util:jar:0.24.1-SNAPSHOT:test" ; 
+}
+digraph commonmark-ext-image-attributes {
+	"org.commonmark:commonmark-ext-image-attributes:jar:0.24.1-SNAPSHOT" -> "org.commonmark:commonmark:jar:0.24.1-SNAPSHOT:compile" ; 
+	"org.commonmark:commonmark-ext-image-attributes:jar:0.24.1-SNAPSHOT" -> "org.commonmark:commonmark-test-util:jar:0.24.1-SNAPSHOT:test" ; 
+}
+digraph commonmark-ext-ins {
+	"org.commonmark:commonmark-ext-ins:jar:0.24.1-SNAPSHOT" -> "org.commonmark:commonmark:jar:0.24.1-SNAPSHOT:compile" ; 
+	"org.commonmark:commonmark-ext-ins:jar:0.24.1-SNAPSHOT" -> "org.commonmark:commonmark-test-util:jar:0.24.1-SNAPSHOT:test" ; 
+}
+digraph commonmark-ext-task-list-items {
+	"org.commonmark:commonmark-ext-task-list-items:jar:0.24.1-SNAPSHOT" -> "org.commonmark:commonmark:jar:0.24.1-SNAPSHOT:compile" ; 
+	"org.commonmark:commonmark-ext-task-list-items:jar:0.24.1-SNAPSHOT" -> "org.commonmark:commonmark-test-util:jar:0.24.1-SNAPSHOT:test" ; 
+}
+digraph commonmark-ext-yaml-front-matter {
+	"org.commonmark:commonmark-ext-yaml-front-matter:jar:0.24.1-SNAPSHOT" -> "org.commonmark:commonmark:jar:0.24.1-SNAPSHOT:compile" ; 
+	"org.commonmark:commonmark-ext-yaml-front-matter:jar:0.24.1-SNAPSHOT" -> "org.commonmark:commonmark-test-util:jar:0.24.1-SNAPSHOT:test" ; 
+}
+digraph commonmark-integration-test {
+	"org.commonmark:commonmark-integration-test:jar:0.24.1-SNAPSHOT" -> "org.commonmark:commonmark:jar:0.24.1-SNAPSHOT:compile" ; 
+	"org.commonmark:commonmark-integration-test:jar:0.24.1-SNAPSHOT" -> "org.commonmark:commonmark-ext-autolink:jar:0.24.1-SNAPSHOT:compile" ; 
+	"org.commonmark:commonmark-integration-test:jar:0.24.1-SNAPSHOT" -> "org.commonmark:commonmark-ext-ins:jar:0.24.1-SNAPSHOT:compile" ; 
+	"org.commonmark:commonmark-integration-test:jar:0.24.1-SNAPSHOT" -> "org.commonmark:commonmark-ext-gfm-strikethrough:jar:0.24.1-SNAPSHOT:compile" ; 
+	"org.commonmark:commonmark-integration-test:jar:0.24.1-SNAPSHOT" -> "org.commonmark:commonmark-ext-gfm-tables:jar:0.24.1-SNAPSHOT:compile" ; 
+	"org.commonmark:commonmark-integration-test:jar:0.24.1-SNAPSHOT" -> "org.commonmark:commonmark-ext-image-attributes:jar:0.24.1-SNAPSHOT:compile" ; 
+	"org.commonmark:commonmark-integration-test:jar:0.24.1-SNAPSHOT" -> "org.commonmark:commonmark-ext-task-list-items:jar:0.24.1-SNAPSHOT:compile" ; 
+	"org.commonmark:commonmark-integration-test:jar:0.24.1-SNAPSHOT" -> "org.commonmark:commonmark-ext-yaml-front-matter:jar:0.24.1-SNAPSHOT:compile" ; 
+	"org.commonmark:commonmark-integration-test:jar:0.24.1-SNAPSHOT" -> "org.pegdown:pegdown:jar:1.6.0:test" ; 
+	"org.commonmark:commonmark-integration-test:jar:0.24.1-SNAPSHOT" -> "org.commonmark:commonmark-test-util:jar:0.24.1-SNAPSHOT:test" ; 
+	"org.commonmark:commonmark-integration-test:jar:0.24.1-SNAPSHOT" -> "org.openjdk.jmh:jmh-core:jar:1.37:test" ; 
+	"org.commonmark:commonmark-integration-test:jar:0.24.1-SNAPSHOT" -> "org.openjdk.jmh:jmh-generator-annprocess:jar:1.37:test" ; 
+	"org.pegdown:pegdown:jar:1.6.0:test" -> "org.parboiled:parboiled-java:jar:1.1.7:test" ; 
+	"org.parboiled:parboiled-java:jar:1.1.7:test" -> "org.parboiled:parboiled-core:jar:1.1.7:test" ; 
+	"org.parboiled:parboiled-java:jar:1.1.7:test" -> "org.ow2.asm:asm:jar:5.0.3:test" ; 
+	"org.parboiled:parboiled-java:jar:1.1.7:test" -> "org.ow2.asm:asm-tree:jar:5.0.3:test" ; 
+	"org.parboiled:parboiled-java:jar:1.1.7:test" -> "org.ow2.asm:asm-analysis:jar:5.0.3:test" ; 
+	"org.parboiled:parboiled-java:jar:1.1.7:test" -> "org.ow2.asm:asm-util:jar:5.0.3:test" ; 
+	"org.ow2.asm:asm-tree:jar:5.0.3:test" -> "(org.ow2.asm:asm:jar:5.0.3:test - omitted for duplicate)" ; 
+	"org.ow2.asm:asm-analysis:jar:5.0.3:test" -> "(org.ow2.asm:asm-tree:jar:5.0.3:test - omitted for duplicate)" ; 
+	"org.ow2.asm:asm-util:jar:5.0.3:test" -> "(org.ow2.asm:asm-tree:jar:5.0.3:test - omitted for duplicate)" ; 
+	"org.openjdk.jmh:jmh-core:jar:1.37:test" -> "net.sf.jopt-simple:jopt-simple:jar:5.0.4:test" ; 
+	"org.openjdk.jmh:jmh-core:jar:1.37:test" -> "org.apache.commons:commons-math3:jar:3.6.1:test" ; 
+	"org.openjdk.jmh:jmh-generator-annprocess:jar:1.37:test" -> "(org.openjdk.jmh:jmh-core:jar:1.37:test - version managed from 1.37; omitted for duplicate)" ; 
+}
+digraph commonmark-test-util {
+	"org.commonmark:commonmark-test-util:jar:0.24.1-SNAPSHOT" -> "junit:junit:jar:4.13.1:compile" ; 
+	"junit:junit:jar:4.13.1:compile" -> "org.hamcrest:hamcrest-core:jar:1.3:compile" ; 
+}

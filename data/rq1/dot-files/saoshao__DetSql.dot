@@ -1,0 +1,7 @@
+digraph saoshao__DetSql {
+	"DetSql:DetSql:jar:2.3" -> "net.portswigger.burp.extensions:montoya-api:jar:LATEST:compile" ; 
+	"DetSql:DetSql:jar:2.3" -> "com.google.code.gson:gson:jar:2.2.4:compile" ; 
+	"DetSql:DetSql:jar:2.3" -> "org.apache.commons:commons-lang3:jar:3.12.0:compile" ; 
+	"DetSql:DetSql:jar:2.3" -> "org.apache.commons:commons-text:jar:1.9:compile" ; 
+	"org.apache.commons:commons-text:jar:1.9:compile" -> "(org.apache.commons:commons-lang3:jar:3.11:compile - omitted for conflict with 3.12.0)" ; 
+}

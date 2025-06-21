@@ -1,0 +1,19 @@
+digraph FusionAuth__java-http {
+	"io.fusionauth:java-http:jar:1.0.0-RC.1" -> "com.inversoft:jackson5:jar:3.0.1:test" ; 
+	"io.fusionauth:java-http:jar:1.0.0-RC.1" -> "com.inversoft:restify:jar:4.2.1:test" ; 
+	"io.fusionauth:java-http:jar:1.0.0-RC.1" -> "org.testng:testng:jar:7.11.0:test" ; 
+	"io.fusionauth:java-http:jar:1.0.0-RC.1" -> "org.slf4j:slf4j-nop:jar:2.0.17:test" ; 
+	"com.inversoft:jackson5:jar:3.0.1:test" -> "com.fasterxml.jackson.core:jackson-core:jar:2.13.3:test" ; 
+	"com.inversoft:jackson5:jar:3.0.1:test" -> "com.fasterxml.jackson.core:jackson-databind:jar:2.13.3:test" ; 
+	"com.inversoft:jackson5:jar:3.0.1:test" -> "com.fasterxml.jackson.core:jackson-annotations:jar:2.13.3:test" ; 
+	"com.fasterxml.jackson.core:jackson-databind:jar:2.13.3:test" -> "(com.fasterxml.jackson.core:jackson-annotations:jar:2.13.3:test - omitted for duplicate)" ; 
+	"com.fasterxml.jackson.core:jackson-databind:jar:2.13.3:test" -> "(com.fasterxml.jackson.core:jackson-core:jar:2.13.3:test - omitted for duplicate)" ; 
+	"com.inversoft:restify:jar:4.2.1:test" -> "(com.fasterxml.jackson.core:jackson-core:jar:2.15.2:test - omitted for conflict with 2.13.3)" ; 
+	"com.inversoft:restify:jar:4.2.1:test" -> "(com.fasterxml.jackson.core:jackson-databind:jar:2.15.2:test - omitted for conflict with 2.13.3)" ; 
+	"com.inversoft:restify:jar:4.2.1:test" -> "(com.fasterxml.jackson.core:jackson-annotations:jar:2.15.2:test - omitted for conflict with 2.13.3)" ; 
+	"com.inversoft:restify:jar:4.2.1:test" -> "(com.inversoft:jackson5:jar:3.0.1:test - omitted for duplicate)" ; 
+	"org.testng:testng:jar:7.11.0:test" -> "org.slf4j:slf4j-api:jar:2.0.16:test" ; 
+	"org.testng:testng:jar:7.11.0:test" -> "org.jcommander:jcommander:jar:1.83:test" ; 
+	"org.testng:testng:jar:7.11.0:test" -> "org.webjars:jquery:jar:3.7.1:test" ; 
+	"org.slf4j:slf4j-nop:jar:2.0.17:test" -> "(org.slf4j:slf4j-api:jar:2.0.17:test - omitted for conflict with 2.0.16)" ; 
+}

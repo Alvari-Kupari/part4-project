@@ -1,0 +1,29 @@
+digraph java-wrapper {
+}
+digraph jnigen {
+	"com.code-disaster.steamworks4j:steamworks4j-jnigen:jar:1.10.0-SNAPSHOT" -> "com.badlogicgames.gdx:gdx-jnigen:jar:2.3.1:compile" ; 
+	"com.code-disaster.steamworks4j:steamworks4j-jnigen:jar:1.10.0-SNAPSHOT" -> "com.code-disaster.steamworks4j:steamworks4j:jar:1.10.0-SNAPSHOT:compile" ; 
+	"com.code-disaster.steamworks4j:steamworks4j-jnigen:jar:1.10.0-SNAPSHOT" -> "com.code-disaster.steamworks4j:steamworks4j-server:jar:1.10.0-SNAPSHOT:compile" ; 
+	"com.badlogicgames.gdx:gdx-jnigen:jar:2.3.1:compile" -> "com.github.javaparser:javaparser-core:jar:3.14.14:runtime" ; 
+}
+digraph gdx {
+	"com.code-disaster.steamworks4j:steamworks4j-gdx:jar:1.10.0-SNAPSHOT" -> "com.code-disaster.steamworks4j:steamworks4j:jar:1.10.0-SNAPSHOT:compile" ; 
+	"com.code-disaster.steamworks4j:steamworks4j-gdx:jar:1.10.0-SNAPSHOT" -> "com.badlogicgames.gdx:gdx-jnigen-loader:jar:2.3.1:provided" ; 
+}
+digraph lwjgl3 {
+	"com.code-disaster.steamworks4j:steamworks4j-lwjgl3:jar:1.10.0-SNAPSHOT" -> "com.code-disaster.steamworks4j:steamworks4j:jar:1.10.0-SNAPSHOT:compile" ; 
+	"com.code-disaster.steamworks4j:steamworks4j-lwjgl3:jar:1.10.0-SNAPSHOT" -> "org.lwjgl:lwjgl:jar:3.3.1:provided" ; 
+	"com.code-disaster.steamworks4j:steamworks4j-lwjgl3:jar:1.10.0-SNAPSHOT" -> "org.lwjgl:lwjgl:jar:natives-windows:3.3.1:provided" ; 
+}
+digraph server {
+	"com.code-disaster.steamworks4j:steamworks4j-server:jar:1.10.0-SNAPSHOT" -> "com.code-disaster.steamworks4j:steamworks4j:jar:1.10.0-SNAPSHOT:compile" ; 
+}
+digraph tests {
+	"com.code-disaster.steamworks4j:steamworks4j-tests:jar:1.10.0-SNAPSHOT" -> "com.code-disaster.steamworks4j:steamworks4j:jar:1.10.0-SNAPSHOT:compile" ; 
+	"com.code-disaster.steamworks4j:steamworks4j-tests:jar:1.10.0-SNAPSHOT" -> "com.code-disaster.steamworks4j:steamworks4j-gdx:jar:1.10.0-SNAPSHOT:compile" ; 
+	"com.code-disaster.steamworks4j:steamworks4j-tests:jar:1.10.0-SNAPSHOT" -> "com.code-disaster.steamworks4j:steamworks4j-lwjgl3:jar:1.10.0-SNAPSHOT:compile" ; 
+	"com.code-disaster.steamworks4j:steamworks4j-tests:jar:1.10.0-SNAPSHOT" -> "com.code-disaster.steamworks4j:steamworks4j-server:jar:1.10.0-SNAPSHOT:compile" ; 
+	"com.code-disaster.steamworks4j:steamworks4j-tests:jar:1.10.0-SNAPSHOT" -> "com.badlogicgames.gdx:gdx-jnigen-loader:jar:2.3.1:compile" ; 
+	"com.code-disaster.steamworks4j:steamworks4j-tests:jar:1.10.0-SNAPSHOT" -> "org.lwjgl:lwjgl:jar:3.3.1:compile" ; 
+	"com.code-disaster.steamworks4j:steamworks4j-tests:jar:1.10.0-SNAPSHOT" -> "org.lwjgl:lwjgl:jar:natives-windows:3.3.1:compile" ; 
+}

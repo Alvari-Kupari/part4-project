@@ -1,0 +1,65 @@
+digraph Leaderboard {
+	"com.github.emilybache:Leaderboard:jar:0.0.1-SNAPSHOT" -> "org.junit.jupiter:junit-jupiter-engine:jar:5.6.2:test" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.6.2:test" -> "org.apiguardian:apiguardian-api:jar:1.1.0:test" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.6.2:test" -> "org.junit.platform:junit-platform-engine:jar:1.6.2:test" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.6.2:test" -> "org.junit.jupiter:junit-jupiter-api:jar:5.6.2:test" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.6.2:test" -> "(org.apiguardian:apiguardian-api:jar:1.1.0:test - omitted for duplicate)" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.6.2:test" -> "org.opentest4j:opentest4j:jar:1.2.0:test" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.6.2:test" -> "org.junit.platform:junit-platform-commons:jar:1.6.2:test" ; 
+	"org.junit.platform:junit-platform-commons:jar:1.6.2:test" -> "(org.apiguardian:apiguardian-api:jar:1.1.0:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.6.2:test" -> "(org.apiguardian:apiguardian-api:jar:1.1.0:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.6.2:test" -> "(org.opentest4j:opentest4j:jar:1.2.0:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.6.2:test" -> "(org.junit.platform:junit-platform-commons:jar:1.6.2:test - omitted for duplicate)" ; 
+}
+digraph TelemetrySystem {
+	"com.github.emilybache:TelemetrySystem:jar:0.0.1-SNAPSHOT" -> "org.junit.jupiter:junit-jupiter-engine:jar:5.6.2:test" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.6.2:test" -> "org.apiguardian:apiguardian-api:jar:1.1.0:test" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.6.2:test" -> "org.junit.platform:junit-platform-engine:jar:1.6.2:test" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.6.2:test" -> "org.junit.jupiter:junit-jupiter-api:jar:5.6.2:test" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.6.2:test" -> "(org.apiguardian:apiguardian-api:jar:1.1.0:test - omitted for duplicate)" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.6.2:test" -> "org.opentest4j:opentest4j:jar:1.2.0:test" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.6.2:test" -> "org.junit.platform:junit-platform-commons:jar:1.6.2:test" ; 
+	"org.junit.platform:junit-platform-commons:jar:1.6.2:test" -> "(org.apiguardian:apiguardian-api:jar:1.1.0:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.6.2:test" -> "(org.apiguardian:apiguardian-api:jar:1.1.0:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.6.2:test" -> "(org.opentest4j:opentest4j:jar:1.2.0:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.6.2:test" -> "(org.junit.platform:junit-platform-commons:jar:1.6.2:test - omitted for duplicate)" ; 
+}
+digraph TextConverter {
+	"com.github.emilybache:TextConverter:jar:0.0.1-SNAPSHOT" -> "org.junit.jupiter:junit-jupiter-engine:jar:5.6.2:test" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.6.2:test" -> "org.apiguardian:apiguardian-api:jar:1.1.0:test" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.6.2:test" -> "org.junit.platform:junit-platform-engine:jar:1.6.2:test" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.6.2:test" -> "org.junit.jupiter:junit-jupiter-api:jar:5.6.2:test" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.6.2:test" -> "(org.apiguardian:apiguardian-api:jar:1.1.0:test - omitted for duplicate)" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.6.2:test" -> "org.opentest4j:opentest4j:jar:1.2.0:test" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.6.2:test" -> "org.junit.platform:junit-platform-commons:jar:1.6.2:test" ; 
+	"org.junit.platform:junit-platform-commons:jar:1.6.2:test" -> "(org.apiguardian:apiguardian-api:jar:1.1.0:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.6.2:test" -> "(org.apiguardian:apiguardian-api:jar:1.1.0:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.6.2:test" -> "(org.opentest4j:opentest4j:jar:1.2.0:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.6.2:test" -> "(org.junit.platform:junit-platform-commons:jar:1.6.2:test - omitted for duplicate)" ; 
+}
+digraph TirePressureMonitoringSystem {
+	"com.github.emilybache:TirePressureMonitoringSystem:jar:0.0.1-SNAPSHOT" -> "org.junit.jupiter:junit-jupiter-engine:jar:5.6.2:test" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.6.2:test" -> "org.apiguardian:apiguardian-api:jar:1.1.0:test" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.6.2:test" -> "org.junit.platform:junit-platform-engine:jar:1.6.2:test" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.6.2:test" -> "org.junit.jupiter:junit-jupiter-api:jar:5.6.2:test" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.6.2:test" -> "(org.apiguardian:apiguardian-api:jar:1.1.0:test - omitted for duplicate)" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.6.2:test" -> "org.opentest4j:opentest4j:jar:1.2.0:test" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.6.2:test" -> "org.junit.platform:junit-platform-commons:jar:1.6.2:test" ; 
+	"org.junit.platform:junit-platform-commons:jar:1.6.2:test" -> "(org.apiguardian:apiguardian-api:jar:1.1.0:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.6.2:test" -> "(org.apiguardian:apiguardian-api:jar:1.1.0:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.6.2:test" -> "(org.opentest4j:opentest4j:jar:1.2.0:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.6.2:test" -> "(org.junit.platform:junit-platform-commons:jar:1.6.2:test - omitted for duplicate)" ; 
+}
+digraph TurnTicketDispenser {
+	"com.github.emilybache:TurnTicketDispenser:jar:0.0.1-SNAPSHOT" -> "org.junit.jupiter:junit-jupiter-engine:jar:5.6.2:test" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.6.2:test" -> "org.apiguardian:apiguardian-api:jar:1.1.0:test" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.6.2:test" -> "org.junit.platform:junit-platform-engine:jar:1.6.2:test" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.6.2:test" -> "org.junit.jupiter:junit-jupiter-api:jar:5.6.2:test" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.6.2:test" -> "(org.apiguardian:apiguardian-api:jar:1.1.0:test - omitted for duplicate)" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.6.2:test" -> "org.opentest4j:opentest4j:jar:1.2.0:test" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.6.2:test" -> "org.junit.platform:junit-platform-commons:jar:1.6.2:test" ; 
+	"org.junit.platform:junit-platform-commons:jar:1.6.2:test" -> "(org.apiguardian:apiguardian-api:jar:1.1.0:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.6.2:test" -> "(org.apiguardian:apiguardian-api:jar:1.1.0:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.6.2:test" -> "(org.opentest4j:opentest4j:jar:1.2.0:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.6.2:test" -> "(org.junit.platform:junit-platform-commons:jar:1.6.2:test - omitted for duplicate)" ; 
+}

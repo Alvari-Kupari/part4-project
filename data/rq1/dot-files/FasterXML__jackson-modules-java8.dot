@@ -1,0 +1,76 @@
+digraph datatypes {
+	"com.fasterxml.jackson.datatype:jackson-datatype-jdk8:bundle:2.20.0-SNAPSHOT" -> "com.fasterxml.jackson.core:jackson-core:jar:2.20.0-SNAPSHOT:compile" ; 
+	"com.fasterxml.jackson.datatype:jackson-datatype-jdk8:bundle:2.20.0-SNAPSHOT" -> "com.fasterxml.jackson.core:jackson-databind:jar:2.20.0-SNAPSHOT:compile" ; 
+	"com.fasterxml.jackson.datatype:jackson-datatype-jdk8:bundle:2.20.0-SNAPSHOT" -> "org.junit.jupiter:junit-jupiter:jar:5.11.4:test" ; 
+	"com.fasterxml.jackson.datatype:jackson-datatype-jdk8:bundle:2.20.0-SNAPSHOT" -> "org.junit.jupiter:junit-jupiter-api:jar:5.11.4:test (scope not updated to test)" ; 
+	"com.fasterxml.jackson.core:jackson-databind:jar:2.20.0-SNAPSHOT:compile" -> "com.fasterxml.jackson.core:jackson-annotations:jar:2.20.0-SNAPSHOT:compile (version managed from 2.20.0-SNAPSHOT)" ; 
+	"com.fasterxml.jackson.core:jackson-databind:jar:2.20.0-SNAPSHOT:compile" -> "(com.fasterxml.jackson.core:jackson-core:jar:2.20.0-SNAPSHOT:compile - version managed from 2.20.0-SNAPSHOT; omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter:jar:5.11.4:test" -> "(org.junit.jupiter:junit-jupiter-api:jar:5.11.4:test - version managed from 5.11.4; omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter:jar:5.11.4:test" -> "org.junit.jupiter:junit-jupiter-params:jar:5.11.4:test (version managed from 5.11.4)" ; 
+	"org.junit.jupiter:junit-jupiter:jar:5.11.4:test" -> "org.junit.jupiter:junit-jupiter-engine:jar:5.11.4:test (version managed from 5.11.4)" ; 
+	"org.junit.jupiter:junit-jupiter-params:jar:5.11.4:test (version managed from 5.11.4)" -> "(org.junit.jupiter:junit-jupiter-api:jar:5.11.4:test - version managed from 5.11.4; omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-params:jar:5.11.4:test (version managed from 5.11.4)" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.11.4:test (version managed from 5.11.4)" -> "org.junit.platform:junit-platform-engine:jar:1.11.4:test (version managed from 1.11.4)" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.11.4:test (version managed from 5.11.4)" -> "(org.junit.jupiter:junit-jupiter-api:jar:5.11.4:test - version managed from 5.11.4; omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.11.4:test (version managed from 5.11.4)" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:test - omitted for duplicate)" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.11.4:test (version managed from 1.11.4)" -> "(org.opentest4j:opentest4j:jar:1.3.0:test - omitted for duplicate)" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.11.4:test (version managed from 1.11.4)" -> "(org.junit.platform:junit-platform-commons:jar:1.11.4:test - version managed from 1.11.4; omitted for duplicate)" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.11.4:test (version managed from 1.11.4)" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.11.4:test (scope not updated to test)" -> "org.opentest4j:opentest4j:jar:1.3.0:test" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.11.4:test (scope not updated to test)" -> "org.junit.platform:junit-platform-commons:jar:1.11.4:test (version managed from 1.11.4)" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.11.4:test (scope not updated to test)" -> "org.apiguardian:apiguardian-api:jar:1.1.2:test" ; 
+	"org.junit.platform:junit-platform-commons:jar:1.11.4:test (version managed from 1.11.4)" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:test - omitted for duplicate)" ; 
+}
+digraph datetime {
+	"com.fasterxml.jackson.datatype:jackson-datatype-jsr310:bundle:2.20.0-SNAPSHOT" -> "com.fasterxml.jackson.core:jackson-annotations:jar:2.20.0-SNAPSHOT:compile" ; 
+	"com.fasterxml.jackson.datatype:jackson-datatype-jsr310:bundle:2.20.0-SNAPSHOT" -> "org.junit.jupiter:junit-jupiter:jar:5.11.4:test" ; 
+	"com.fasterxml.jackson.datatype:jackson-datatype-jsr310:bundle:2.20.0-SNAPSHOT" -> "org.junit.jupiter:junit-jupiter-api:jar:5.11.4:test (scope not updated to test)" ; 
+	"com.fasterxml.jackson.datatype:jackson-datatype-jsr310:bundle:2.20.0-SNAPSHOT" -> "com.fasterxml.jackson.core:jackson-core:jar:2.20.0-SNAPSHOT:compile" ; 
+	"com.fasterxml.jackson.datatype:jackson-datatype-jsr310:bundle:2.20.0-SNAPSHOT" -> "com.fasterxml.jackson.core:jackson-databind:jar:2.20.0-SNAPSHOT:compile" ; 
+	"org.junit.jupiter:junit-jupiter:jar:5.11.4:test" -> "(org.junit.jupiter:junit-jupiter-api:jar:5.11.4:test - version managed from 5.11.4; omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter:jar:5.11.4:test" -> "org.junit.jupiter:junit-jupiter-params:jar:5.11.4:test (version managed from 5.11.4)" ; 
+	"org.junit.jupiter:junit-jupiter:jar:5.11.4:test" -> "org.junit.jupiter:junit-jupiter-engine:jar:5.11.4:test (version managed from 5.11.4)" ; 
+	"org.junit.jupiter:junit-jupiter-params:jar:5.11.4:test (version managed from 5.11.4)" -> "(org.junit.jupiter:junit-jupiter-api:jar:5.11.4:test - version managed from 5.11.4; omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-params:jar:5.11.4:test (version managed from 5.11.4)" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.11.4:test (version managed from 5.11.4)" -> "org.junit.platform:junit-platform-engine:jar:1.11.4:test (version managed from 1.11.4)" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.11.4:test (version managed from 5.11.4)" -> "(org.junit.jupiter:junit-jupiter-api:jar:5.11.4:test - version managed from 5.11.4; omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.11.4:test (version managed from 5.11.4)" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:test - omitted for duplicate)" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.11.4:test (version managed from 1.11.4)" -> "(org.opentest4j:opentest4j:jar:1.3.0:test - omitted for duplicate)" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.11.4:test (version managed from 1.11.4)" -> "(org.junit.platform:junit-platform-commons:jar:1.11.4:test - version managed from 1.11.4; omitted for duplicate)" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.11.4:test (version managed from 1.11.4)" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.11.4:test (scope not updated to test)" -> "org.opentest4j:opentest4j:jar:1.3.0:test" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.11.4:test (scope not updated to test)" -> "org.junit.platform:junit-platform-commons:jar:1.11.4:test (version managed from 1.11.4)" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.11.4:test (scope not updated to test)" -> "org.apiguardian:apiguardian-api:jar:1.1.2:test" ; 
+	"org.junit.platform:junit-platform-commons:jar:1.11.4:test (version managed from 1.11.4)" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:test - omitted for duplicate)" ; 
+	"com.fasterxml.jackson.core:jackson-databind:jar:2.20.0-SNAPSHOT:compile" -> "(com.fasterxml.jackson.core:jackson-annotations:jar:2.20.0-SNAPSHOT:compile - version managed from 2.20.0-SNAPSHOT; omitted for duplicate)" ; 
+	"com.fasterxml.jackson.core:jackson-databind:jar:2.20.0-SNAPSHOT:compile" -> "(com.fasterxml.jackson.core:jackson-core:jar:2.20.0-SNAPSHOT:compile - version managed from 2.20.0-SNAPSHOT; omitted for duplicate)" ; 
+}
+digraph parameter-names {
+	"com.fasterxml.jackson.module:jackson-module-parameter-names:bundle:2.20.0-SNAPSHOT" -> "org.assertj:assertj-core:jar:3.27.2:test" ; 
+	"com.fasterxml.jackson.module:jackson-module-parameter-names:bundle:2.20.0-SNAPSHOT" -> "org.mockito:mockito-core:jar:4.5.0:test" ; 
+	"com.fasterxml.jackson.module:jackson-module-parameter-names:bundle:2.20.0-SNAPSHOT" -> "com.fasterxml.jackson.core:jackson-core:jar:2.20.0-SNAPSHOT:compile" ; 
+	"com.fasterxml.jackson.module:jackson-module-parameter-names:bundle:2.20.0-SNAPSHOT" -> "com.fasterxml.jackson.core:jackson-databind:jar:2.20.0-SNAPSHOT:compile" ; 
+	"com.fasterxml.jackson.module:jackson-module-parameter-names:bundle:2.20.0-SNAPSHOT" -> "org.junit.jupiter:junit-jupiter:jar:5.11.4:test" ; 
+	"com.fasterxml.jackson.module:jackson-module-parameter-names:bundle:2.20.0-SNAPSHOT" -> "org.junit.jupiter:junit-jupiter-api:jar:5.11.4:test (scope not updated to test)" ; 
+	"org.assertj:assertj-core:jar:3.27.2:test" -> "net.bytebuddy:byte-buddy:jar:1.15.11:test" ; 
+	"org.mockito:mockito-core:jar:4.5.0:test" -> "(net.bytebuddy:byte-buddy:jar:1.12.9:test - omitted for conflict with 1.15.11)" ; 
+	"org.mockito:mockito-core:jar:4.5.0:test" -> "net.bytebuddy:byte-buddy-agent:jar:1.12.9:test" ; 
+	"org.mockito:mockito-core:jar:4.5.0:test" -> "org.objenesis:objenesis:jar:3.2:test" ; 
+	"com.fasterxml.jackson.core:jackson-databind:jar:2.20.0-SNAPSHOT:compile" -> "com.fasterxml.jackson.core:jackson-annotations:jar:2.20.0-SNAPSHOT:compile (version managed from 2.20.0-SNAPSHOT)" ; 
+	"com.fasterxml.jackson.core:jackson-databind:jar:2.20.0-SNAPSHOT:compile" -> "(com.fasterxml.jackson.core:jackson-core:jar:2.20.0-SNAPSHOT:compile - version managed from 2.20.0-SNAPSHOT; omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter:jar:5.11.4:test" -> "(org.junit.jupiter:junit-jupiter-api:jar:5.11.4:test - version managed from 5.11.4; omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter:jar:5.11.4:test" -> "org.junit.jupiter:junit-jupiter-params:jar:5.11.4:test (version managed from 5.11.4)" ; 
+	"org.junit.jupiter:junit-jupiter:jar:5.11.4:test" -> "org.junit.jupiter:junit-jupiter-engine:jar:5.11.4:test (version managed from 5.11.4)" ; 
+	"org.junit.jupiter:junit-jupiter-params:jar:5.11.4:test (version managed from 5.11.4)" -> "(org.junit.jupiter:junit-jupiter-api:jar:5.11.4:test - version managed from 5.11.4; omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-params:jar:5.11.4:test (version managed from 5.11.4)" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.11.4:test (version managed from 5.11.4)" -> "org.junit.platform:junit-platform-engine:jar:1.11.4:test (version managed from 1.11.4)" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.11.4:test (version managed from 5.11.4)" -> "(org.junit.jupiter:junit-jupiter-api:jar:5.11.4:test - version managed from 5.11.4; omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.11.4:test (version managed from 5.11.4)" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:test - omitted for duplicate)" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.11.4:test (version managed from 1.11.4)" -> "(org.opentest4j:opentest4j:jar:1.3.0:test - omitted for duplicate)" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.11.4:test (version managed from 1.11.4)" -> "(org.junit.platform:junit-platform-commons:jar:1.11.4:test - version managed from 1.11.4; omitted for duplicate)" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.11.4:test (version managed from 1.11.4)" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.11.4:test (scope not updated to test)" -> "org.opentest4j:opentest4j:jar:1.3.0:test" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.11.4:test (scope not updated to test)" -> "org.junit.platform:junit-platform-commons:jar:1.11.4:test (version managed from 1.11.4)" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.11.4:test (scope not updated to test)" -> "org.apiguardian:apiguardian-api:jar:1.1.2:test" ; 
+	"org.junit.platform:junit-platform-commons:jar:1.11.4:test (version managed from 1.11.4)" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:test - omitted for duplicate)" ; 
+}

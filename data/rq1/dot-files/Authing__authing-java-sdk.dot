@@ -1,0 +1,34 @@
+digraph Authing__authing-java-sdk {
+	"cn.authing:authing-java-sdk:jar:3.1.18" -> "cn.hutool:hutool-http:jar:5.7.11:compile" ; 
+	"cn.authing:authing-java-sdk:jar:3.1.18" -> "cn.hutool:hutool-log:jar:5.7.11:compile" ; 
+	"cn.authing:authing-java-sdk:jar:3.1.18" -> "com.fasterxml.jackson.core:jackson-databind:jar:2.9.1:compile" ; 
+	"cn.authing:authing-java-sdk:jar:3.1.18" -> "com.fasterxml.jackson.core:jackson-annotations:jar:2.9.1:compile" ; 
+	"cn.authing:authing-java-sdk:jar:3.1.18" -> "com.nimbusds:nimbus-jose-jwt:jar:9.23:compile" ; 
+	"cn.authing:authing-java-sdk:jar:3.1.18" -> "com.auth0:java-jwt:jar:3.19.1:compile" ; 
+	"cn.authing:authing-java-sdk:jar:3.1.18" -> "org.freemarker:freemarker:jar:2.3.31:compile" ; 
+	"cn.authing:authing-java-sdk:jar:3.1.18" -> "org.junit.jupiter:junit-jupiter:jar:RELEASE:test" ; 
+	"cn.authing:authing-java-sdk:jar:3.1.18" -> "javax.xml.bind:jaxb-api:jar:2.3.0:compile" ; 
+	"cn.authing:authing-java-sdk:jar:3.1.18" -> "org.java-websocket:Java-WebSocket:jar:1.5.3:compile" ; 
+	"cn.hutool:hutool-http:jar:5.7.11:compile" -> "cn.hutool:hutool-core:jar:5.7.11:compile" ; 
+	"cn.hutool:hutool-log:jar:5.7.11:compile" -> "(cn.hutool:hutool-core:jar:5.7.11:compile - omitted for duplicate)" ; 
+	"com.fasterxml.jackson.core:jackson-databind:jar:2.9.1:compile" -> "(com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile - omitted for conflict with 2.9.1)" ; 
+	"com.fasterxml.jackson.core:jackson-databind:jar:2.9.1:compile" -> "com.fasterxml.jackson.core:jackson-core:jar:2.9.1:compile" ; 
+	"com.nimbusds:nimbus-jose-jwt:jar:9.23:compile" -> "com.github.stephenc.jcip:jcip-annotations:jar:1.0-1:compile" ; 
+	"com.auth0:java-jwt:jar:3.19.1:compile" -> "(com.fasterxml.jackson.core:jackson-databind:jar:2.13.2.2:runtime - omitted for conflict with 2.9.1)" ; 
+	"org.junit.jupiter:junit-jupiter:jar:RELEASE:test" -> "org.junit.jupiter:junit-jupiter-api:jar:5.13.1:test" ; 
+	"org.junit.jupiter:junit-jupiter:jar:RELEASE:test" -> "org.junit.jupiter:junit-jupiter-params:jar:5.13.1:test" ; 
+	"org.junit.jupiter:junit-jupiter:jar:RELEASE:test" -> "org.junit.jupiter:junit-jupiter-engine:jar:5.13.1:test" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.13.1:test" -> "org.opentest4j:opentest4j:jar:1.3.0:test" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.13.1:test" -> "org.junit.platform:junit-platform-commons:jar:1.13.1:test" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.13.1:test" -> "org.apiguardian:apiguardian-api:jar:1.1.2:test" ; 
+	"org.junit.platform:junit-platform-commons:jar:1.13.1:test" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-params:jar:5.13.1:test" -> "(org.junit.jupiter:junit-jupiter-api:jar:5.13.1:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-params:jar:5.13.1:test" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.13.1:test" -> "org.junit.platform:junit-platform-engine:jar:1.13.1:test" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.13.1:test" -> "(org.junit.jupiter:junit-jupiter-api:jar:5.13.1:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.13.1:test" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:test - omitted for duplicate)" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.13.1:test" -> "(org.opentest4j:opentest4j:jar:1.3.0:test - omitted for duplicate)" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.13.1:test" -> "(org.junit.platform:junit-platform-commons:jar:1.13.1:test - omitted for duplicate)" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.13.1:test" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:test - omitted for duplicate)" ; 
+	"org.java-websocket:Java-WebSocket:jar:1.5.3:compile" -> "org.slf4j:slf4j-api:jar:1.7.25:compile" ; 
+}

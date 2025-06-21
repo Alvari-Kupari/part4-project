@@ -1,0 +1,28 @@
+digraph casbin__jcasbin {
+	"org.casbin:jcasbin:jar:1.7.1" -> "org.slf4j:slf4j-api:jar:2.0.16:compile" ; 
+	"org.casbin:jcasbin:jar:1.7.1" -> "org.slf4j:slf4j-simple:jar:2.0.16:test" ; 
+	"org.casbin:jcasbin:jar:1.7.1" -> "junit:junit:jar:4.13.2:test" ; 
+	"org.casbin:jcasbin:jar:1.7.1" -> "org.mockito:mockito-inline:jar:4.11.0:test" ; 
+	"org.casbin:jcasbin:jar:1.7.1" -> "com.googlecode.aviator:aviator:jar:5.4.3:compile" ; 
+	"org.casbin:jcasbin:jar:1.7.1" -> "com.github.seancfoley:ipaddress:jar:5.5.1:compile" ; 
+	"org.casbin:jcasbin:jar:1.7.1" -> "commons-io:commons-io:jar:2.17.0:compile" ; 
+	"org.casbin:jcasbin:jar:1.7.1" -> "org.openjdk.jmh:jmh-core:jar:1.37:test" ; 
+	"org.casbin:jcasbin:jar:1.7.1" -> "org.openjdk.jmh:jmh-generator-annprocess:jar:1.37:test" ; 
+	"org.casbin:jcasbin:jar:1.7.1" -> "org.apache.commons:commons-csv:jar:1.12.0:compile" ; 
+	"org.casbin:jcasbin:jar:1.7.1" -> "com.google.code.gson:gson:jar:2.11.0:compile" ; 
+	"org.casbin:jcasbin:jar:1.7.1" -> "com.fasterxml.jackson.core:jackson-databind:jar:2.18.1:compile" ; 
+	"org.slf4j:slf4j-simple:jar:2.0.16:test" -> "(org.slf4j:slf4j-api:jar:2.0.16:test - omitted for duplicate)" ; 
+	"junit:junit:jar:4.13.2:test" -> "org.hamcrest:hamcrest-core:jar:1.3:test" ; 
+	"org.mockito:mockito-inline:jar:4.11.0:test" -> "org.mockito:mockito-core:jar:4.11.0:test" ; 
+	"org.mockito:mockito-core:jar:4.11.0:test" -> "net.bytebuddy:byte-buddy:jar:1.12.19:test" ; 
+	"org.mockito:mockito-core:jar:4.11.0:test" -> "net.bytebuddy:byte-buddy-agent:jar:1.12.19:test" ; 
+	"org.mockito:mockito-core:jar:4.11.0:test" -> "org.objenesis:objenesis:jar:3.3:test" ; 
+	"org.openjdk.jmh:jmh-core:jar:1.37:test" -> "net.sf.jopt-simple:jopt-simple:jar:5.0.4:test" ; 
+	"org.openjdk.jmh:jmh-core:jar:1.37:test" -> "org.apache.commons:commons-math3:jar:3.6.1:test" ; 
+	"org.openjdk.jmh:jmh-generator-annprocess:jar:1.37:test" -> "(org.openjdk.jmh:jmh-core:jar:1.37:test - omitted for duplicate)" ; 
+	"org.apache.commons:commons-csv:jar:1.12.0:compile" -> "(commons-io:commons-io:jar:2.17.0:compile - omitted for duplicate)" ; 
+	"org.apache.commons:commons-csv:jar:1.12.0:compile" -> "commons-codec:commons-codec:jar:1.17.1:compile" ; 
+	"com.google.code.gson:gson:jar:2.11.0:compile" -> "com.google.errorprone:error_prone_annotations:jar:2.27.0:compile" ; 
+	"com.fasterxml.jackson.core:jackson-databind:jar:2.18.1:compile" -> "com.fasterxml.jackson.core:jackson-annotations:jar:2.18.1:compile" ; 
+	"com.fasterxml.jackson.core:jackson-databind:jar:2.18.1:compile" -> "com.fasterxml.jackson.core:jackson-core:jar:2.18.1:compile" ; 
+}

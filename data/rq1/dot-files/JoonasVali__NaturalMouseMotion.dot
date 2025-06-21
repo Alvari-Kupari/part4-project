@@ -1,0 +1,19 @@
+digraph JoonasVali__NaturalMouseMotion {
+	"com.github.joonasvali.naturalmouse:naturalmouse:jar:2.0.4-SNAPSHOT" -> "org.slf4j:slf4j-api:jar:1.7.25:compile" ; 
+	"com.github.joonasvali.naturalmouse:naturalmouse:jar:2.0.4-SNAPSHOT" -> "org.junit.jupiter:junit-jupiter-engine:jar:5.7.2:test" ; 
+	"com.github.joonasvali.naturalmouse:naturalmouse:jar:2.0.4-SNAPSHOT" -> "org.mockito:mockito-inline:jar:3.12.4:test" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.7.2:test" -> "org.apiguardian:apiguardian-api:jar:1.1.0:test" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.7.2:test" -> "org.junit.platform:junit-platform-engine:jar:1.7.2:test" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.7.2:test" -> "org.junit.jupiter:junit-jupiter-api:jar:5.7.2:test" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.7.2:test" -> "(org.apiguardian:apiguardian-api:jar:1.1.0:test - omitted for duplicate)" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.7.2:test" -> "org.opentest4j:opentest4j:jar:1.2.0:test" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.7.2:test" -> "org.junit.platform:junit-platform-commons:jar:1.7.2:test" ; 
+	"org.junit.platform:junit-platform-commons:jar:1.7.2:test" -> "(org.apiguardian:apiguardian-api:jar:1.1.0:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.7.2:test" -> "(org.apiguardian:apiguardian-api:jar:1.1.0:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.7.2:test" -> "(org.opentest4j:opentest4j:jar:1.2.0:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.7.2:test" -> "(org.junit.platform:junit-platform-commons:jar:1.7.2:test - omitted for duplicate)" ; 
+	"org.mockito:mockito-inline:jar:3.12.4:test" -> "org.mockito:mockito-core:jar:3.12.4:test" ; 
+	"org.mockito:mockito-core:jar:3.12.4:test" -> "net.bytebuddy:byte-buddy:jar:1.11.13:test" ; 
+	"org.mockito:mockito-core:jar:3.12.4:test" -> "net.bytebuddy:byte-buddy-agent:jar:1.11.13:test" ; 
+	"org.mockito:mockito-core:jar:3.12.4:test" -> "org.objenesis:objenesis:jar:3.2:test" ; 
+}

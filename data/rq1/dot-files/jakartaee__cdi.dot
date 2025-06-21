@@ -1,0 +1,16 @@
+digraph api {
+	"jakarta.enterprise:jakarta.enterprise.cdi-api:jar:5.0.0.Alpha1-SNAPSHOT" -> "jakarta.enterprise:jakarta.enterprise.lang-model:jar:5.0.0.Alpha1-SNAPSHOT:compile" ; 
+	"jakarta.enterprise:jakarta.enterprise.cdi-api:jar:5.0.0.Alpha1-SNAPSHOT" -> "jakarta.annotation:jakarta.annotation-api:jar:3.0.0:compile" ; 
+	"jakarta.enterprise:jakarta.enterprise.cdi-api:jar:5.0.0.Alpha1-SNAPSHOT" -> "jakarta.interceptor:jakarta.interceptor-api:jar:2.2.0:compile" ; 
+	"jakarta.enterprise:jakarta.enterprise.cdi-api:jar:5.0.0.Alpha1-SNAPSHOT" -> "jakarta.inject:jakarta.inject-api:jar:2.0.1:compile" ; 
+	"jakarta.enterprise:jakarta.enterprise.cdi-api:jar:5.0.0.Alpha1-SNAPSHOT" -> "org.testng:testng:jar:7.11.0:test" ; 
+	"org.testng:testng:jar:7.11.0:test" -> "org.slf4j:slf4j-api:jar:2.0.16:test" ; 
+	"org.testng:testng:jar:7.11.0:test" -> "org.jcommander:jcommander:jar:1.83:test" ; 
+	"org.testng:testng:jar:7.11.0:test" -> "org.webjars:jquery:jar:3.7.1:test" ; 
+}
+digraph el {
+	"jakarta.enterprise:jakarta.enterprise.cdi-el-api:jar:5.0.0.Alpha1-SNAPSHOT" -> "jakarta.enterprise:jakarta.enterprise.cdi-api:jar:5.0.0.Alpha1-SNAPSHOT:compile" ; 
+	"jakarta.enterprise:jakarta.enterprise.cdi-el-api:jar:5.0.0.Alpha1-SNAPSHOT" -> "jakarta.el:jakarta.el-api:jar:6.0.1:compile" ; 
+}
+digraph lang-model {
+}

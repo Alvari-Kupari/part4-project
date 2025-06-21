@@ -1,0 +1,7 @@
+digraph 864381832__xJavaFxTool {
+	"com.xwintop:xJavaFxTool:jar:0.3.3" -> "junit:junit:jar:4.13.2:test" ; 
+	"com.xwintop:xJavaFxTool:jar:0.3.3" -> "com.gitee.xwintop:xcore:jar:0.0.8:compile" ; 
+	"com.xwintop:xJavaFxTool:jar:0.3.3" -> "org.projectlombok:lombok:jar:1.18.24:provided" ; 
+	"com.xwintop:xJavaFxTool:jar:0.3.3" -> "com.sandec.jpro:jpro-webapi:jar:2022.1.3:compile" ; 
+	"junit:junit:jar:4.13.2:test" -> "org.hamcrest:hamcrest-core:jar:1.3:test" ; 
+}

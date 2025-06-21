@@ -1,0 +1,20 @@
+digraph pan-common {
+	"top.quhailong.pan.common:pan-common:jar:0.0.1-SNAPSHOT" -> "commons-beanutils:commons-beanutils:jar:1.9.4:compile" ; 
+	"top.quhailong.pan.common:pan-common:jar:0.0.1-SNAPSHOT" -> "org.springframework:spring-web:jar:5.2.15.RELEASE:compile" ; 
+	"top.quhailong.pan.common:pan-common:jar:0.0.1-SNAPSHOT" -> "com.fasterxml.jackson.core:jackson-databind:jar:2.11.4:compile" ; 
+	"top.quhailong.pan.common:pan-common:jar:0.0.1-SNAPSHOT" -> "org.apache.httpcomponents:httpclient:jar:4.5.13:compile" ; 
+	"top.quhailong.pan.common:pan-common:jar:0.0.1-SNAPSHOT" -> "javax.servlet:javax.servlet-api:jar:4.0.1:compile" ; 
+	"top.quhailong.pan.common:pan-common:jar:0.0.1-SNAPSHOT" -> "com.google.code.gson:gson:jar:2.8.7:compile" ; 
+	"top.quhailong.pan.common:pan-common:jar:0.0.1-SNAPSHOT" -> "io.jsonwebtoken:jjwt:jar:0.9.1:compile" ; 
+	"top.quhailong.pan.common:pan-common:jar:0.0.1-SNAPSHOT" -> "com.alibaba:fastjson:jar:1.2.83:compile" ; 
+	"top.quhailong.pan.common:pan-common:jar:0.0.1-SNAPSHOT" -> "commons-lang:commons-lang:jar:2.6:compile" ; 
+	"top.quhailong.pan.common:pan-common:jar:0.0.1-SNAPSHOT" -> "commons-logging:commons-logging:jar:1.2:compile" ; 
+	"commons-beanutils:commons-beanutils:jar:1.9.4:compile" -> "commons-collections:commons-collections:jar:3.2.2:compile" ; 
+	"org.springframework:spring-web:jar:5.2.15.RELEASE:compile" -> "org.springframework:spring-beans:jar:5.2.15.RELEASE:compile" ; 
+	"org.springframework:spring-web:jar:5.2.15.RELEASE:compile" -> "org.springframework:spring-core:jar:5.2.15.RELEASE:compile" ; 
+	"org.springframework:spring-core:jar:5.2.15.RELEASE:compile" -> "org.springframework:spring-jcl:jar:5.2.15.RELEASE:compile" ; 
+	"com.fasterxml.jackson.core:jackson-databind:jar:2.11.4:compile" -> "com.fasterxml.jackson.core:jackson-annotations:jar:2.11.4:compile" ; 
+	"com.fasterxml.jackson.core:jackson-databind:jar:2.11.4:compile" -> "com.fasterxml.jackson.core:jackson-core:jar:2.11.4:compile" ; 
+	"org.apache.httpcomponents:httpclient:jar:4.5.13:compile" -> "org.apache.httpcomponents:httpcore:jar:4.4.14:compile" ; 
+	"org.apache.httpcomponents:httpclient:jar:4.5.13:compile" -> "commons-codec:commons-codec:jar:1.14:compile" ; 
+}

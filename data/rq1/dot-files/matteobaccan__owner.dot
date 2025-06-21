@@ -1,0 +1,71 @@
+digraph owner {
+	"org.aeonbits.owner:owner:jar:1.0.13-SNAPSHOT" -> "org.hamcrest:hamcrest-all:jar:1.3:test" ; 
+	"org.aeonbits.owner:owner:jar:1.0.13-SNAPSHOT" -> "junit:junit:jar:4.13.2:test" ; 
+	"org.aeonbits.owner:owner:jar:1.0.13-SNAPSHOT" -> "org.mockito:mockito-core:jar:4.11.0:test" ; 
+	"org.aeonbits.owner:owner:jar:1.0.13-SNAPSHOT" -> "commons-codec:commons-codec:jar:1.18.0:test" ; 
+	"junit:junit:jar:4.13.2:test" -> "org.hamcrest:hamcrest-core:jar:1.3:test" ; 
+	"org.mockito:mockito-core:jar:4.11.0:test" -> "net.bytebuddy:byte-buddy:jar:1.12.19:test" ; 
+	"org.mockito:mockito-core:jar:4.11.0:test" -> "net.bytebuddy:byte-buddy-agent:jar:1.12.19:test" ; 
+	"org.mockito:mockito-core:jar:4.11.0:test" -> "org.objenesis:objenesis:jar:3.3:test" ; 
+}
+digraph owner-examples-hotreload {
+	"org.aeonbits.owner:owner-examples-hotreload:jar:1.0.13-SNAPSHOT" -> "org.aeonbits.owner:owner:jar:1.0.13-SNAPSHOT:compile" ; 
+}
+digraph owner-extras {
+	"org.aeonbits.owner:owner-extras:jar:1.0.13-SNAPSHOT" -> "org.aeonbits.owner:owner:jar:1.0.13-SNAPSHOT:compile" ; 
+	"org.aeonbits.owner:owner-extras:jar:1.0.13-SNAPSHOT" -> "org.apache.curator:curator-framework:jar:4.3.0:compile" ; 
+	"org.aeonbits.owner:owner-extras:jar:1.0.13-SNAPSHOT" -> "org.apache.curator:curator-test:jar:4.3.0:test" ; 
+	"org.aeonbits.owner:owner-extras:jar:1.0.13-SNAPSHOT" -> "junit:junit:jar:4.13.2:test" ; 
+	"org.aeonbits.owner:owner-extras:jar:1.0.13-SNAPSHOT" -> "org.slf4j:slf4j-nop:jar:2.0.17:test" ; 
+	"org.apache.curator:curator-framework:jar:4.3.0:compile" -> "org.apache.curator:curator-client:jar:4.3.0:compile" ; 
+	"org.apache.curator:curator-client:jar:4.3.0:compile" -> "(org.apache.zookeeper:zookeeper:jar:3.5.7:compile - omitted for duplicate)" ; 
+	"org.apache.curator:curator-client:jar:4.3.0:compile" -> "(com.google.guava:guava:jar:27.0.1-jre:compile - omitted for duplicate)" ; 
+	"org.apache.curator:curator-client:jar:4.3.0:compile" -> "(org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for conflict with 2.0.17)" ; 
+	"org.apache.curator:curator-test:jar:4.3.0:test" -> "org.apache.zookeeper:zookeeper:jar:3.5.7:compile" ; 
+	"org.apache.curator:curator-test:jar:4.3.0:test" -> "com.google.guava:guava:jar:27.0.1-jre:compile" ; 
+	"org.apache.zookeeper:zookeeper:jar:3.5.7:compile" -> "org.apache.zookeeper:zookeeper-jute:jar:3.5.7:compile" ; 
+	"org.apache.zookeeper:zookeeper:jar:3.5.7:compile" -> "org.apache.yetus:audience-annotations:jar:0.5.0:compile" ; 
+	"org.apache.zookeeper:zookeeper:jar:3.5.7:compile" -> "io.netty:netty-handler:jar:4.1.45.Final:compile" ; 
+	"org.apache.zookeeper:zookeeper:jar:3.5.7:compile" -> "io.netty:netty-transport-native-epoll:jar:4.1.45.Final:compile" ; 
+	"org.apache.zookeeper:zookeeper:jar:3.5.7:compile" -> "(org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for conflict with 2.0.17)" ; 
+	"org.apache.zookeeper:zookeeper:jar:3.5.7:compile" -> "log4j:log4j:jar:1.2.17:compile" ; 
+	"org.apache.zookeeper:zookeeper-jute:jar:3.5.7:compile" -> "(org.apache.yetus:audience-annotations:jar:0.5.0:compile - omitted for duplicate)" ; 
+	"io.netty:netty-handler:jar:4.1.45.Final:compile" -> "io.netty:netty-common:jar:4.1.45.Final:compile" ; 
+	"io.netty:netty-handler:jar:4.1.45.Final:compile" -> "io.netty:netty-buffer:jar:4.1.45.Final:compile" ; 
+	"io.netty:netty-handler:jar:4.1.45.Final:compile" -> "io.netty:netty-transport:jar:4.1.45.Final:compile" ; 
+	"io.netty:netty-handler:jar:4.1.45.Final:compile" -> "io.netty:netty-codec:jar:4.1.45.Final:compile" ; 
+	"io.netty:netty-buffer:jar:4.1.45.Final:compile" -> "(io.netty:netty-common:jar:4.1.45.Final:compile - omitted for duplicate)" ; 
+	"io.netty:netty-transport:jar:4.1.45.Final:compile" -> "(io.netty:netty-common:jar:4.1.45.Final:compile - omitted for duplicate)" ; 
+	"io.netty:netty-transport:jar:4.1.45.Final:compile" -> "(io.netty:netty-buffer:jar:4.1.45.Final:compile - omitted for duplicate)" ; 
+	"io.netty:netty-transport:jar:4.1.45.Final:compile" -> "io.netty:netty-resolver:jar:4.1.45.Final:compile" ; 
+	"io.netty:netty-resolver:jar:4.1.45.Final:compile" -> "(io.netty:netty-common:jar:4.1.45.Final:compile - omitted for duplicate)" ; 
+	"io.netty:netty-codec:jar:4.1.45.Final:compile" -> "(io.netty:netty-common:jar:4.1.45.Final:compile - omitted for duplicate)" ; 
+	"io.netty:netty-codec:jar:4.1.45.Final:compile" -> "(io.netty:netty-buffer:jar:4.1.45.Final:compile - omitted for duplicate)" ; 
+	"io.netty:netty-codec:jar:4.1.45.Final:compile" -> "(io.netty:netty-transport:jar:4.1.45.Final:compile - omitted for duplicate)" ; 
+	"io.netty:netty-transport-native-epoll:jar:4.1.45.Final:compile" -> "(io.netty:netty-common:jar:4.1.45.Final:compile - omitted for duplicate)" ; 
+	"io.netty:netty-transport-native-epoll:jar:4.1.45.Final:compile" -> "(io.netty:netty-buffer:jar:4.1.45.Final:compile - omitted for duplicate)" ; 
+	"io.netty:netty-transport-native-epoll:jar:4.1.45.Final:compile" -> "(io.netty:netty-transport:jar:4.1.45.Final:compile - omitted for duplicate)" ; 
+	"io.netty:netty-transport-native-epoll:jar:4.1.45.Final:compile" -> "io.netty:netty-transport-native-unix-common:jar:4.1.45.Final:compile" ; 
+	"io.netty:netty-transport-native-unix-common:jar:4.1.45.Final:compile" -> "(io.netty:netty-common:jar:4.1.45.Final:compile - omitted for duplicate)" ; 
+	"io.netty:netty-transport-native-unix-common:jar:4.1.45.Final:compile" -> "(io.netty:netty-buffer:jar:4.1.45.Final:compile - omitted for duplicate)" ; 
+	"io.netty:netty-transport-native-unix-common:jar:4.1.45.Final:compile" -> "(io.netty:netty-transport:jar:4.1.45.Final:compile - omitted for duplicate)" ; 
+	"com.google.guava:guava:jar:27.0.1-jre:compile" -> "com.google.guava:failureaccess:jar:1.0.1:compile" ; 
+	"com.google.guava:guava:jar:27.0.1-jre:compile" -> "com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:compile" ; 
+	"com.google.guava:guava:jar:27.0.1-jre:compile" -> "com.google.code.findbugs:jsr305:jar:3.0.2:compile" ; 
+	"com.google.guava:guava:jar:27.0.1-jre:compile" -> "org.checkerframework:checker-qual:jar:2.5.2:compile" ; 
+	"com.google.guava:guava:jar:27.0.1-jre:compile" -> "com.google.errorprone:error_prone_annotations:jar:2.2.0:compile" ; 
+	"com.google.guava:guava:jar:27.0.1-jre:compile" -> "com.google.j2objc:j2objc-annotations:jar:1.1:compile" ; 
+	"com.google.guava:guava:jar:27.0.1-jre:compile" -> "org.codehaus.mojo:animal-sniffer-annotations:jar:1.17:compile" ; 
+	"junit:junit:jar:4.13.2:test" -> "org.hamcrest:hamcrest-core:jar:1.3:test" ; 
+	"org.slf4j:slf4j-nop:jar:2.0.17:test" -> "org.slf4j:slf4j-api:jar:2.0.17:compile (scope not updated to compile)" ; 
+}
+digraph owner-java8 {
+	"org.aeonbits.owner:owner-java8:jar:1.0.13-SNAPSHOT" -> "org.aeonbits.owner:owner:jar:1.0.13-SNAPSHOT:compile" ; 
+	"org.aeonbits.owner:owner-java8:jar:1.0.13-SNAPSHOT" -> "junit:junit:jar:4.13.2:test" ; 
+	"junit:junit:jar:4.13.2:test" -> "org.hamcrest:hamcrest-core:jar:1.3:test" ; 
+}
+digraph owner-java8-extras {
+	"org.aeonbits.owner:owner-java8-extras:jar:1.0.13-SNAPSHOT" -> "org.aeonbits.owner:owner-java8:jar:1.0.13-SNAPSHOT:compile" ; 
+	"org.aeonbits.owner:owner-java8-extras:jar:1.0.13-SNAPSHOT" -> "junit:junit:jar:4.13.2:test" ; 
+	"junit:junit:jar:4.13.2:test" -> "org.hamcrest:hamcrest-core:jar:1.3:test" ; 
+}

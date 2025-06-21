@@ -1,0 +1,719 @@
+digraph spring {
+	"net.petrikainulainen.spring.batch:spring-dependencies:war:0.1" -> "org.slf4j:slf4j-api:jar:1.7.30:compile" ; 
+	"net.petrikainulainen.spring.batch:spring-dependencies:war:0.1" -> "org.apache.logging.log4j:log4j-api:jar:2.13.3:compile" ; 
+	"net.petrikainulainen.spring.batch:spring-dependencies:war:0.1" -> "org.apache.logging.log4j:log4j-core:jar:2.13.3:compile" ; 
+	"net.petrikainulainen.spring.batch:spring-dependencies:war:0.1" -> "org.apache.logging.log4j:log4j-slf4j-impl:jar:2.13.3:compile" ; 
+	"net.petrikainulainen.spring.batch:spring-dependencies:war:0.1" -> "com.h2database:h2:jar:1.4.200:runtime" ; 
+	"net.petrikainulainen.spring.batch:spring-dependencies:war:0.1" -> "org.liquibase:liquibase-core:jar:3.8.9:compile" ; 
+	"net.petrikainulainen.spring.batch:spring-dependencies:war:0.1" -> "com.zaxxer:HikariCP:jar:3.4.5:compile" ; 
+	"net.petrikainulainen.spring.batch:spring-dependencies:war:0.1" -> "org.springframework:spring-aspects:jar:5.2.7.RELEASE:compile" ; 
+	"net.petrikainulainen.spring.batch:spring-dependencies:war:0.1" -> "org.springframework:spring-context-support:jar:5.2.7.RELEASE:compile" ; 
+	"net.petrikainulainen.spring.batch:spring-dependencies:war:0.1" -> "org.springframework:spring-jdbc:jar:5.2.7.RELEASE:compile" ; 
+	"net.petrikainulainen.spring.batch:spring-dependencies:war:0.1" -> "javax.servlet:javax.servlet-api:jar:4.0.1:provided" ; 
+	"net.petrikainulainen.spring.batch:spring-dependencies:war:0.1" -> "org.springframework:spring-webmvc:jar:5.2.7.RELEASE:compile" ; 
+	"net.petrikainulainen.spring.batch:spring-dependencies:war:0.1" -> "org.springframework.batch:spring-batch-core:jar:4.2.4.RELEASE:compile" ; 
+	"org.liquibase:liquibase-core:jar:3.8.9:compile" -> "javax.xml.bind:jaxb-api:jar:2.3.1:compile" ; 
+	"javax.xml.bind:jaxb-api:jar:2.3.1:compile" -> "javax.activation:javax.activation-api:jar:1.2.0:compile" ; 
+	"org.springframework:spring-aspects:jar:5.2.7.RELEASE:compile" -> "org.aspectj:aspectjweaver:jar:1.9.5:compile" ; 
+	"org.springframework:spring-context-support:jar:5.2.7.RELEASE:compile" -> "org.springframework:spring-beans:jar:5.2.7.RELEASE:compile" ; 
+	"org.springframework:spring-context-support:jar:5.2.7.RELEASE:compile" -> "org.springframework:spring-context:jar:5.2.7.RELEASE:compile" ; 
+	"org.springframework:spring-context-support:jar:5.2.7.RELEASE:compile" -> "org.springframework:spring-core:jar:5.2.7.RELEASE:compile" ; 
+	"org.springframework:spring-core:jar:5.2.7.RELEASE:compile" -> "org.springframework:spring-jcl:jar:5.2.7.RELEASE:compile" ; 
+	"org.springframework:spring-jdbc:jar:5.2.7.RELEASE:compile" -> "org.springframework:spring-tx:jar:5.2.7.RELEASE:compile" ; 
+	"org.springframework:spring-webmvc:jar:5.2.7.RELEASE:compile" -> "org.springframework:spring-aop:jar:5.2.7.RELEASE:compile" ; 
+	"org.springframework:spring-webmvc:jar:5.2.7.RELEASE:compile" -> "org.springframework:spring-expression:jar:5.2.7.RELEASE:compile" ; 
+	"org.springframework:spring-webmvc:jar:5.2.7.RELEASE:compile" -> "org.springframework:spring-web:jar:5.2.7.RELEASE:compile" ; 
+	"org.springframework.batch:spring-batch-core:jar:4.2.4.RELEASE:compile" -> "com.fasterxml.jackson.core:jackson-databind:jar:2.11.0:compile" ; 
+	"org.springframework.batch:spring-batch-core:jar:4.2.4.RELEASE:compile" -> "io.micrometer:micrometer-core:jar:1.5.1:compile" ; 
+	"org.springframework.batch:spring-batch-core:jar:4.2.4.RELEASE:compile" -> "javax.batch:javax.batch-api:jar:1.0:compile" ; 
+	"org.springframework.batch:spring-batch-core:jar:4.2.4.RELEASE:compile" -> "org.codehaus.jettison:jettison:jar:1.2:compile" ; 
+	"org.springframework.batch:spring-batch-core:jar:4.2.4.RELEASE:compile" -> "org.springframework.batch:spring-batch-infrastructure:jar:4.2.4.RELEASE:compile" ; 
+	"com.fasterxml.jackson.core:jackson-databind:jar:2.11.0:compile" -> "com.fasterxml.jackson.core:jackson-annotations:jar:2.11.0:compile" ; 
+	"com.fasterxml.jackson.core:jackson-databind:jar:2.11.0:compile" -> "com.fasterxml.jackson.core:jackson-core:jar:2.11.0:compile" ; 
+	"io.micrometer:micrometer-core:jar:1.5.1:compile" -> "org.hdrhistogram:HdrHistogram:jar:2.1.12:compile" ; 
+	"io.micrometer:micrometer-core:jar:1.5.1:compile" -> "org.latencyutils:LatencyUtils:jar:2.0.3:runtime" ; 
+	"org.springframework.batch:spring-batch-infrastructure:jar:4.2.4.RELEASE:compile" -> "org.springframework.retry:spring-retry:jar:1.2.5.RELEASE:compile" ; 
+}
+digraph spring-boot {
+	"net.petrikainulainen.spring.batch:spring-boot-dependencies:jar:0.1" -> "com.h2database:h2:jar:1.4.200:runtime" ; 
+	"net.petrikainulainen.spring.batch:spring-boot-dependencies:jar:0.1" -> "org.liquibase:liquibase-core:jar:3.8.9:runtime" ; 
+	"net.petrikainulainen.spring.batch:spring-boot-dependencies:jar:0.1" -> "org.springframework.boot:spring-boot-starter-batch:jar:2.3.1.RELEASE:compile" ; 
+	"net.petrikainulainen.spring.batch:spring-boot-dependencies:jar:0.1" -> "org.springframework.boot:spring-boot-starter-jdbc:jar:2.3.1.RELEASE:compile" ; 
+	"net.petrikainulainen.spring.batch:spring-boot-dependencies:jar:0.1" -> "org.springframework.boot:spring-boot-starter-web:jar:2.3.1.RELEASE:compile" ; 
+	"org.liquibase:liquibase-core:jar:3.8.9:runtime" -> "javax.xml.bind:jaxb-api:jar:2.3.1:runtime" ; 
+	"org.liquibase:liquibase-core:jar:3.8.9:runtime" -> "org.slf4j:slf4j-api:jar:1.7.30:compile" ; 
+	"javax.xml.bind:jaxb-api:jar:2.3.1:runtime" -> "javax.activation:javax.activation-api:jar:1.2.0:runtime" ; 
+	"org.springframework.boot:spring-boot-starter-batch:jar:2.3.1.RELEASE:compile" -> "org.springframework.boot:spring-boot-starter:jar:2.3.1.RELEASE:compile" ; 
+	"org.springframework.boot:spring-boot-starter-batch:jar:2.3.1.RELEASE:compile" -> "org.springframework.batch:spring-batch-core:jar:4.2.4.RELEASE:compile" ; 
+	"org.springframework.boot:spring-boot-starter:jar:2.3.1.RELEASE:compile" -> "org.springframework.boot:spring-boot:jar:2.3.1.RELEASE:compile" ; 
+	"org.springframework.boot:spring-boot-starter:jar:2.3.1.RELEASE:compile" -> "org.springframework.boot:spring-boot-autoconfigure:jar:2.3.1.RELEASE:compile" ; 
+	"org.springframework.boot:spring-boot-starter:jar:2.3.1.RELEASE:compile" -> "org.springframework.boot:spring-boot-starter-logging:jar:2.3.1.RELEASE:compile" ; 
+	"org.springframework.boot:spring-boot-starter:jar:2.3.1.RELEASE:compile" -> "jakarta.annotation:jakarta.annotation-api:jar:1.3.5:compile" ; 
+	"org.springframework.boot:spring-boot-starter:jar:2.3.1.RELEASE:compile" -> "org.springframework:spring-core:jar:5.2.7.RELEASE:compile" ; 
+	"org.springframework.boot:spring-boot-starter:jar:2.3.1.RELEASE:compile" -> "org.yaml:snakeyaml:jar:1.26:compile" ; 
+	"org.springframework.boot:spring-boot-starter-logging:jar:2.3.1.RELEASE:compile" -> "ch.qos.logback:logback-classic:jar:1.2.3:compile" ; 
+	"org.springframework.boot:spring-boot-starter-logging:jar:2.3.1.RELEASE:compile" -> "org.apache.logging.log4j:log4j-to-slf4j:jar:2.13.3:compile" ; 
+	"org.springframework.boot:spring-boot-starter-logging:jar:2.3.1.RELEASE:compile" -> "org.slf4j:jul-to-slf4j:jar:1.7.30:compile" ; 
+	"ch.qos.logback:logback-classic:jar:1.2.3:compile" -> "ch.qos.logback:logback-core:jar:1.2.3:compile" ; 
+	"org.apache.logging.log4j:log4j-to-slf4j:jar:2.13.3:compile" -> "org.apache.logging.log4j:log4j-api:jar:2.13.3:compile" ; 
+	"org.springframework:spring-core:jar:5.2.7.RELEASE:compile" -> "org.springframework:spring-jcl:jar:5.2.7.RELEASE:compile" ; 
+	"org.springframework.batch:spring-batch-core:jar:4.2.4.RELEASE:compile" -> "com.fasterxml.jackson.core:jackson-databind:jar:2.11.0:compile" ; 
+	"org.springframework.batch:spring-batch-core:jar:4.2.4.RELEASE:compile" -> "io.micrometer:micrometer-core:jar:1.5.1:compile" ; 
+	"org.springframework.batch:spring-batch-core:jar:4.2.4.RELEASE:compile" -> "javax.batch:javax.batch-api:jar:1.0:compile" ; 
+	"org.springframework.batch:spring-batch-core:jar:4.2.4.RELEASE:compile" -> "org.codehaus.jettison:jettison:jar:1.2:compile" ; 
+	"org.springframework.batch:spring-batch-core:jar:4.2.4.RELEASE:compile" -> "org.springframework.batch:spring-batch-infrastructure:jar:4.2.4.RELEASE:compile" ; 
+	"org.springframework.batch:spring-batch-core:jar:4.2.4.RELEASE:compile" -> "org.springframework:spring-aop:jar:5.2.7.RELEASE:compile" ; 
+	"org.springframework.batch:spring-batch-core:jar:4.2.4.RELEASE:compile" -> "org.springframework:spring-beans:jar:5.2.7.RELEASE:compile" ; 
+	"org.springframework.batch:spring-batch-core:jar:4.2.4.RELEASE:compile" -> "org.springframework:spring-context:jar:5.2.7.RELEASE:compile" ; 
+	"org.springframework.batch:spring-batch-core:jar:4.2.4.RELEASE:compile" -> "org.springframework:spring-tx:jar:5.2.7.RELEASE:compile" ; 
+	"com.fasterxml.jackson.core:jackson-databind:jar:2.11.0:compile" -> "com.fasterxml.jackson.core:jackson-annotations:jar:2.11.0:compile" ; 
+	"com.fasterxml.jackson.core:jackson-databind:jar:2.11.0:compile" -> "com.fasterxml.jackson.core:jackson-core:jar:2.11.0:compile" ; 
+	"io.micrometer:micrometer-core:jar:1.5.1:compile" -> "org.hdrhistogram:HdrHistogram:jar:2.1.12:compile" ; 
+	"io.micrometer:micrometer-core:jar:1.5.1:compile" -> "org.latencyutils:LatencyUtils:jar:2.0.3:runtime" ; 
+	"org.springframework.batch:spring-batch-infrastructure:jar:4.2.4.RELEASE:compile" -> "org.springframework.retry:spring-retry:jar:1.2.5.RELEASE:compile" ; 
+	"org.springframework.boot:spring-boot-starter-jdbc:jar:2.3.1.RELEASE:compile" -> "com.zaxxer:HikariCP:jar:3.4.5:compile" ; 
+	"org.springframework.boot:spring-boot-starter-jdbc:jar:2.3.1.RELEASE:compile" -> "org.springframework:spring-jdbc:jar:5.2.7.RELEASE:compile" ; 
+	"org.springframework.boot:spring-boot-starter-web:jar:2.3.1.RELEASE:compile" -> "org.springframework.boot:spring-boot-starter-json:jar:2.3.1.RELEASE:compile" ; 
+	"org.springframework.boot:spring-boot-starter-web:jar:2.3.1.RELEASE:compile" -> "org.springframework.boot:spring-boot-starter-tomcat:jar:2.3.1.RELEASE:compile" ; 
+	"org.springframework.boot:spring-boot-starter-web:jar:2.3.1.RELEASE:compile" -> "org.springframework:spring-web:jar:5.2.7.RELEASE:compile" ; 
+	"org.springframework.boot:spring-boot-starter-web:jar:2.3.1.RELEASE:compile" -> "org.springframework:spring-webmvc:jar:5.2.7.RELEASE:compile" ; 
+	"org.springframework.boot:spring-boot-starter-json:jar:2.3.1.RELEASE:compile" -> "com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.11.0:compile" ; 
+	"org.springframework.boot:spring-boot-starter-json:jar:2.3.1.RELEASE:compile" -> "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.11.0:compile" ; 
+	"org.springframework.boot:spring-boot-starter-json:jar:2.3.1.RELEASE:compile" -> "com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.11.0:compile" ; 
+	"org.springframework.boot:spring-boot-starter-tomcat:jar:2.3.1.RELEASE:compile" -> "org.apache.tomcat.embed:tomcat-embed-core:jar:9.0.36:compile" ; 
+	"org.springframework.boot:spring-boot-starter-tomcat:jar:2.3.1.RELEASE:compile" -> "org.glassfish:jakarta.el:jar:3.0.3:compile" ; 
+	"org.springframework.boot:spring-boot-starter-tomcat:jar:2.3.1.RELEASE:compile" -> "org.apache.tomcat.embed:tomcat-embed-websocket:jar:9.0.36:compile" ; 
+	"org.springframework:spring-webmvc:jar:5.2.7.RELEASE:compile" -> "org.springframework:spring-expression:jar:5.2.7.RELEASE:compile" ; 
+}
+digraph csv-file {
+	"net.petrikainulainen.spring.batch:read-data-from-csv-file:jar:0.1" -> "com.h2database:h2:jar:1.4.200:runtime" ; 
+	"net.petrikainulainen.spring.batch:read-data-from-csv-file:jar:0.1" -> "org.liquibase:liquibase-core:jar:3.8.9:runtime" ; 
+	"net.petrikainulainen.spring.batch:read-data-from-csv-file:jar:0.1" -> "org.springframework.boot:spring-boot-starter-batch:jar:2.3.1.RELEASE:compile" ; 
+	"net.petrikainulainen.spring.batch:read-data-from-csv-file:jar:0.1" -> "org.springframework.boot:spring-boot-starter-jdbc:jar:2.3.1.RELEASE:compile" ; 
+	"net.petrikainulainen.spring.batch:read-data-from-csv-file:jar:0.1" -> "org.springframework.boot:spring-boot-starter-web:jar:2.3.1.RELEASE:compile" ; 
+	"org.liquibase:liquibase-core:jar:3.8.9:runtime" -> "javax.xml.bind:jaxb-api:jar:2.3.1:runtime" ; 
+	"org.liquibase:liquibase-core:jar:3.8.9:runtime" -> "org.slf4j:slf4j-api:jar:1.7.30:compile" ; 
+	"javax.xml.bind:jaxb-api:jar:2.3.1:runtime" -> "javax.activation:javax.activation-api:jar:1.2.0:runtime" ; 
+	"org.springframework.boot:spring-boot-starter-batch:jar:2.3.1.RELEASE:compile" -> "org.springframework.boot:spring-boot-starter:jar:2.3.1.RELEASE:compile" ; 
+	"org.springframework.boot:spring-boot-starter-batch:jar:2.3.1.RELEASE:compile" -> "org.springframework.batch:spring-batch-core:jar:4.2.4.RELEASE:compile" ; 
+	"org.springframework.boot:spring-boot-starter:jar:2.3.1.RELEASE:compile" -> "org.springframework.boot:spring-boot:jar:2.3.1.RELEASE:compile" ; 
+	"org.springframework.boot:spring-boot-starter:jar:2.3.1.RELEASE:compile" -> "org.springframework.boot:spring-boot-autoconfigure:jar:2.3.1.RELEASE:compile" ; 
+	"org.springframework.boot:spring-boot-starter:jar:2.3.1.RELEASE:compile" -> "org.springframework.boot:spring-boot-starter-logging:jar:2.3.1.RELEASE:compile" ; 
+	"org.springframework.boot:spring-boot-starter:jar:2.3.1.RELEASE:compile" -> "jakarta.annotation:jakarta.annotation-api:jar:1.3.5:compile" ; 
+	"org.springframework.boot:spring-boot-starter:jar:2.3.1.RELEASE:compile" -> "org.springframework:spring-core:jar:5.2.7.RELEASE:compile" ; 
+	"org.springframework.boot:spring-boot-starter:jar:2.3.1.RELEASE:compile" -> "org.yaml:snakeyaml:jar:1.26:compile" ; 
+	"org.springframework.boot:spring-boot-starter-logging:jar:2.3.1.RELEASE:compile" -> "ch.qos.logback:logback-classic:jar:1.2.3:compile" ; 
+	"org.springframework.boot:spring-boot-starter-logging:jar:2.3.1.RELEASE:compile" -> "org.apache.logging.log4j:log4j-to-slf4j:jar:2.13.3:compile" ; 
+	"org.springframework.boot:spring-boot-starter-logging:jar:2.3.1.RELEASE:compile" -> "org.slf4j:jul-to-slf4j:jar:1.7.30:compile" ; 
+	"ch.qos.logback:logback-classic:jar:1.2.3:compile" -> "ch.qos.logback:logback-core:jar:1.2.3:compile" ; 
+	"org.apache.logging.log4j:log4j-to-slf4j:jar:2.13.3:compile" -> "org.apache.logging.log4j:log4j-api:jar:2.13.3:compile" ; 
+	"org.springframework:spring-core:jar:5.2.7.RELEASE:compile" -> "org.springframework:spring-jcl:jar:5.2.7.RELEASE:compile" ; 
+	"org.springframework.batch:spring-batch-core:jar:4.2.4.RELEASE:compile" -> "com.fasterxml.jackson.core:jackson-databind:jar:2.11.0:compile" ; 
+	"org.springframework.batch:spring-batch-core:jar:4.2.4.RELEASE:compile" -> "io.micrometer:micrometer-core:jar:1.5.1:compile" ; 
+	"org.springframework.batch:spring-batch-core:jar:4.2.4.RELEASE:compile" -> "javax.batch:javax.batch-api:jar:1.0:compile" ; 
+	"org.springframework.batch:spring-batch-core:jar:4.2.4.RELEASE:compile" -> "org.codehaus.jettison:jettison:jar:1.2:compile" ; 
+	"org.springframework.batch:spring-batch-core:jar:4.2.4.RELEASE:compile" -> "org.springframework.batch:spring-batch-infrastructure:jar:4.2.4.RELEASE:compile" ; 
+	"org.springframework.batch:spring-batch-core:jar:4.2.4.RELEASE:compile" -> "org.springframework:spring-aop:jar:5.2.7.RELEASE:compile" ; 
+	"org.springframework.batch:spring-batch-core:jar:4.2.4.RELEASE:compile" -> "org.springframework:spring-beans:jar:5.2.7.RELEASE:compile" ; 
+	"org.springframework.batch:spring-batch-core:jar:4.2.4.RELEASE:compile" -> "org.springframework:spring-context:jar:5.2.7.RELEASE:compile" ; 
+	"org.springframework.batch:spring-batch-core:jar:4.2.4.RELEASE:compile" -> "org.springframework:spring-tx:jar:5.2.7.RELEASE:compile" ; 
+	"com.fasterxml.jackson.core:jackson-databind:jar:2.11.0:compile" -> "com.fasterxml.jackson.core:jackson-annotations:jar:2.11.0:compile" ; 
+	"com.fasterxml.jackson.core:jackson-databind:jar:2.11.0:compile" -> "com.fasterxml.jackson.core:jackson-core:jar:2.11.0:compile" ; 
+	"io.micrometer:micrometer-core:jar:1.5.1:compile" -> "org.hdrhistogram:HdrHistogram:jar:2.1.12:compile" ; 
+	"io.micrometer:micrometer-core:jar:1.5.1:compile" -> "org.latencyutils:LatencyUtils:jar:2.0.3:runtime" ; 
+	"org.springframework.batch:spring-batch-infrastructure:jar:4.2.4.RELEASE:compile" -> "org.springframework.retry:spring-retry:jar:1.2.5.RELEASE:compile" ; 
+	"org.springframework.boot:spring-boot-starter-jdbc:jar:2.3.1.RELEASE:compile" -> "com.zaxxer:HikariCP:jar:3.4.5:compile" ; 
+	"org.springframework.boot:spring-boot-starter-jdbc:jar:2.3.1.RELEASE:compile" -> "org.springframework:spring-jdbc:jar:5.2.7.RELEASE:compile" ; 
+	"org.springframework.boot:spring-boot-starter-web:jar:2.3.1.RELEASE:compile" -> "org.springframework.boot:spring-boot-starter-json:jar:2.3.1.RELEASE:compile" ; 
+	"org.springframework.boot:spring-boot-starter-web:jar:2.3.1.RELEASE:compile" -> "org.springframework.boot:spring-boot-starter-tomcat:jar:2.3.1.RELEASE:compile" ; 
+	"org.springframework.boot:spring-boot-starter-web:jar:2.3.1.RELEASE:compile" -> "org.springframework:spring-web:jar:5.2.7.RELEASE:compile" ; 
+	"org.springframework.boot:spring-boot-starter-web:jar:2.3.1.RELEASE:compile" -> "org.springframework:spring-webmvc:jar:5.2.7.RELEASE:compile" ; 
+	"org.springframework.boot:spring-boot-starter-json:jar:2.3.1.RELEASE:compile" -> "com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.11.0:compile" ; 
+	"org.springframework.boot:spring-boot-starter-json:jar:2.3.1.RELEASE:compile" -> "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.11.0:compile" ; 
+	"org.springframework.boot:spring-boot-starter-json:jar:2.3.1.RELEASE:compile" -> "com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.11.0:compile" ; 
+	"org.springframework.boot:spring-boot-starter-tomcat:jar:2.3.1.RELEASE:compile" -> "org.apache.tomcat.embed:tomcat-embed-core:jar:9.0.36:compile" ; 
+	"org.springframework.boot:spring-boot-starter-tomcat:jar:2.3.1.RELEASE:compile" -> "org.glassfish:jakarta.el:jar:3.0.3:compile" ; 
+	"org.springframework.boot:spring-boot-starter-tomcat:jar:2.3.1.RELEASE:compile" -> "org.apache.tomcat.embed:tomcat-embed-websocket:jar:9.0.36:compile" ; 
+	"org.springframework:spring-webmvc:jar:5.2.7.RELEASE:compile" -> "org.springframework:spring-expression:jar:5.2.7.RELEASE:compile" ; 
+}
+digraph custom-item-reader {
+	"net.petrikainulainen.spring.batch:creating-custom-item-reader:jar:0.1" -> "com.h2database:h2:jar:1.4.200:runtime" ; 
+	"net.petrikainulainen.spring.batch:creating-custom-item-reader:jar:0.1" -> "org.liquibase:liquibase-core:jar:3.8.9:runtime" ; 
+	"net.petrikainulainen.spring.batch:creating-custom-item-reader:jar:0.1" -> "org.springframework.boot:spring-boot-starter-batch:jar:2.3.1.RELEASE:compile" ; 
+	"net.petrikainulainen.spring.batch:creating-custom-item-reader:jar:0.1" -> "org.springframework.boot:spring-boot-starter-jdbc:jar:2.3.1.RELEASE:compile" ; 
+	"net.petrikainulainen.spring.batch:creating-custom-item-reader:jar:0.1" -> "org.springframework.boot:spring-boot-starter-web:jar:2.3.1.RELEASE:compile" ; 
+	"org.liquibase:liquibase-core:jar:3.8.9:runtime" -> "javax.xml.bind:jaxb-api:jar:2.3.1:runtime" ; 
+	"org.liquibase:liquibase-core:jar:3.8.9:runtime" -> "org.slf4j:slf4j-api:jar:1.7.30:compile" ; 
+	"javax.xml.bind:jaxb-api:jar:2.3.1:runtime" -> "javax.activation:javax.activation-api:jar:1.2.0:runtime" ; 
+	"org.springframework.boot:spring-boot-starter-batch:jar:2.3.1.RELEASE:compile" -> "org.springframework.boot:spring-boot-starter:jar:2.3.1.RELEASE:compile" ; 
+	"org.springframework.boot:spring-boot-starter-batch:jar:2.3.1.RELEASE:compile" -> "org.springframework.batch:spring-batch-core:jar:4.2.4.RELEASE:compile" ; 
+	"org.springframework.boot:spring-boot-starter:jar:2.3.1.RELEASE:compile" -> "org.springframework.boot:spring-boot:jar:2.3.1.RELEASE:compile" ; 
+	"org.springframework.boot:spring-boot-starter:jar:2.3.1.RELEASE:compile" -> "org.springframework.boot:spring-boot-autoconfigure:jar:2.3.1.RELEASE:compile" ; 
+	"org.springframework.boot:spring-boot-starter:jar:2.3.1.RELEASE:compile" -> "org.springframework.boot:spring-boot-starter-logging:jar:2.3.1.RELEASE:compile" ; 
+	"org.springframework.boot:spring-boot-starter:jar:2.3.1.RELEASE:compile" -> "jakarta.annotation:jakarta.annotation-api:jar:1.3.5:compile" ; 
+	"org.springframework.boot:spring-boot-starter:jar:2.3.1.RELEASE:compile" -> "org.springframework:spring-core:jar:5.2.7.RELEASE:compile" ; 
+	"org.springframework.boot:spring-boot-starter:jar:2.3.1.RELEASE:compile" -> "org.yaml:snakeyaml:jar:1.26:compile" ; 
+	"org.springframework.boot:spring-boot-starter-logging:jar:2.3.1.RELEASE:compile" -> "ch.qos.logback:logback-classic:jar:1.2.3:compile" ; 
+	"org.springframework.boot:spring-boot-starter-logging:jar:2.3.1.RELEASE:compile" -> "org.apache.logging.log4j:log4j-to-slf4j:jar:2.13.3:compile" ; 
+	"org.springframework.boot:spring-boot-starter-logging:jar:2.3.1.RELEASE:compile" -> "org.slf4j:jul-to-slf4j:jar:1.7.30:compile" ; 
+	"ch.qos.logback:logback-classic:jar:1.2.3:compile" -> "ch.qos.logback:logback-core:jar:1.2.3:compile" ; 
+	"org.apache.logging.log4j:log4j-to-slf4j:jar:2.13.3:compile" -> "org.apache.logging.log4j:log4j-api:jar:2.13.3:compile" ; 
+	"org.springframework:spring-core:jar:5.2.7.RELEASE:compile" -> "org.springframework:spring-jcl:jar:5.2.7.RELEASE:compile" ; 
+	"org.springframework.batch:spring-batch-core:jar:4.2.4.RELEASE:compile" -> "com.fasterxml.jackson.core:jackson-databind:jar:2.11.0:compile" ; 
+	"org.springframework.batch:spring-batch-core:jar:4.2.4.RELEASE:compile" -> "io.micrometer:micrometer-core:jar:1.5.1:compile" ; 
+	"org.springframework.batch:spring-batch-core:jar:4.2.4.RELEASE:compile" -> "javax.batch:javax.batch-api:jar:1.0:compile" ; 
+	"org.springframework.batch:spring-batch-core:jar:4.2.4.RELEASE:compile" -> "org.codehaus.jettison:jettison:jar:1.2:compile" ; 
+	"org.springframework.batch:spring-batch-core:jar:4.2.4.RELEASE:compile" -> "org.springframework.batch:spring-batch-infrastructure:jar:4.2.4.RELEASE:compile" ; 
+	"org.springframework.batch:spring-batch-core:jar:4.2.4.RELEASE:compile" -> "org.springframework:spring-aop:jar:5.2.7.RELEASE:compile" ; 
+	"org.springframework.batch:spring-batch-core:jar:4.2.4.RELEASE:compile" -> "org.springframework:spring-beans:jar:5.2.7.RELEASE:compile" ; 
+	"org.springframework.batch:spring-batch-core:jar:4.2.4.RELEASE:compile" -> "org.springframework:spring-context:jar:5.2.7.RELEASE:compile" ; 
+	"org.springframework.batch:spring-batch-core:jar:4.2.4.RELEASE:compile" -> "org.springframework:spring-tx:jar:5.2.7.RELEASE:compile" ; 
+	"com.fasterxml.jackson.core:jackson-databind:jar:2.11.0:compile" -> "com.fasterxml.jackson.core:jackson-annotations:jar:2.11.0:compile" ; 
+	"com.fasterxml.jackson.core:jackson-databind:jar:2.11.0:compile" -> "com.fasterxml.jackson.core:jackson-core:jar:2.11.0:compile" ; 
+	"io.micrometer:micrometer-core:jar:1.5.1:compile" -> "org.hdrhistogram:HdrHistogram:jar:2.1.12:compile" ; 
+	"io.micrometer:micrometer-core:jar:1.5.1:compile" -> "org.latencyutils:LatencyUtils:jar:2.0.3:runtime" ; 
+	"org.springframework.batch:spring-batch-infrastructure:jar:4.2.4.RELEASE:compile" -> "org.springframework.retry:spring-retry:jar:1.2.5.RELEASE:compile" ; 
+	"org.springframework.boot:spring-boot-starter-jdbc:jar:2.3.1.RELEASE:compile" -> "com.zaxxer:HikariCP:jar:3.4.5:compile" ; 
+	"org.springframework.boot:spring-boot-starter-jdbc:jar:2.3.1.RELEASE:compile" -> "org.springframework:spring-jdbc:jar:5.2.7.RELEASE:compile" ; 
+	"org.springframework.boot:spring-boot-starter-web:jar:2.3.1.RELEASE:compile" -> "org.springframework.boot:spring-boot-starter-json:jar:2.3.1.RELEASE:compile" ; 
+	"org.springframework.boot:spring-boot-starter-web:jar:2.3.1.RELEASE:compile" -> "org.springframework.boot:spring-boot-starter-tomcat:jar:2.3.1.RELEASE:compile" ; 
+	"org.springframework.boot:spring-boot-starter-web:jar:2.3.1.RELEASE:compile" -> "org.springframework:spring-web:jar:5.2.7.RELEASE:compile" ; 
+	"org.springframework.boot:spring-boot-starter-web:jar:2.3.1.RELEASE:compile" -> "org.springframework:spring-webmvc:jar:5.2.7.RELEASE:compile" ; 
+	"org.springframework.boot:spring-boot-starter-json:jar:2.3.1.RELEASE:compile" -> "com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.11.0:compile" ; 
+	"org.springframework.boot:spring-boot-starter-json:jar:2.3.1.RELEASE:compile" -> "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.11.0:compile" ; 
+	"org.springframework.boot:spring-boot-starter-json:jar:2.3.1.RELEASE:compile" -> "com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.11.0:compile" ; 
+	"org.springframework.boot:spring-boot-starter-tomcat:jar:2.3.1.RELEASE:compile" -> "org.apache.tomcat.embed:tomcat-embed-core:jar:9.0.36:compile" ; 
+	"org.springframework.boot:spring-boot-starter-tomcat:jar:2.3.1.RELEASE:compile" -> "org.glassfish:jakarta.el:jar:3.0.3:compile" ; 
+	"org.springframework.boot:spring-boot-starter-tomcat:jar:2.3.1.RELEASE:compile" -> "org.apache.tomcat.embed:tomcat-embed-websocket:jar:9.0.36:compile" ; 
+	"org.springframework:spring-webmvc:jar:5.2.7.RELEASE:compile" -> "org.springframework:spring-expression:jar:5.2.7.RELEASE:compile" ; 
+}
+digraph database {
+	"net.petrikainulainen.spring.batch:read-data-from-database:jar:0.1" -> "com.h2database:h2:jar:1.4.200:runtime" ; 
+	"net.petrikainulainen.spring.batch:read-data-from-database:jar:0.1" -> "org.liquibase:liquibase-core:jar:3.8.9:runtime" ; 
+	"net.petrikainulainen.spring.batch:read-data-from-database:jar:0.1" -> "org.springframework.boot:spring-boot-starter-batch:jar:2.3.1.RELEASE:compile" ; 
+	"net.petrikainulainen.spring.batch:read-data-from-database:jar:0.1" -> "org.springframework.boot:spring-boot-starter-jdbc:jar:2.3.1.RELEASE:compile" ; 
+	"net.petrikainulainen.spring.batch:read-data-from-database:jar:0.1" -> "org.springframework.boot:spring-boot-starter-web:jar:2.3.1.RELEASE:compile" ; 
+	"org.liquibase:liquibase-core:jar:3.8.9:runtime" -> "javax.xml.bind:jaxb-api:jar:2.3.1:runtime" ; 
+	"org.liquibase:liquibase-core:jar:3.8.9:runtime" -> "org.slf4j:slf4j-api:jar:1.7.30:compile" ; 
+	"javax.xml.bind:jaxb-api:jar:2.3.1:runtime" -> "javax.activation:javax.activation-api:jar:1.2.0:runtime" ; 
+	"org.springframework.boot:spring-boot-starter-batch:jar:2.3.1.RELEASE:compile" -> "org.springframework.boot:spring-boot-starter:jar:2.3.1.RELEASE:compile" ; 
+	"org.springframework.boot:spring-boot-starter-batch:jar:2.3.1.RELEASE:compile" -> "org.springframework.batch:spring-batch-core:jar:4.2.4.RELEASE:compile" ; 
+	"org.springframework.boot:spring-boot-starter:jar:2.3.1.RELEASE:compile" -> "org.springframework.boot:spring-boot:jar:2.3.1.RELEASE:compile" ; 
+	"org.springframework.boot:spring-boot-starter:jar:2.3.1.RELEASE:compile" -> "org.springframework.boot:spring-boot-autoconfigure:jar:2.3.1.RELEASE:compile" ; 
+	"org.springframework.boot:spring-boot-starter:jar:2.3.1.RELEASE:compile" -> "org.springframework.boot:spring-boot-starter-logging:jar:2.3.1.RELEASE:compile" ; 
+	"org.springframework.boot:spring-boot-starter:jar:2.3.1.RELEASE:compile" -> "jakarta.annotation:jakarta.annotation-api:jar:1.3.5:compile" ; 
+	"org.springframework.boot:spring-boot-starter:jar:2.3.1.RELEASE:compile" -> "org.springframework:spring-core:jar:5.2.7.RELEASE:compile" ; 
+	"org.springframework.boot:spring-boot-starter:jar:2.3.1.RELEASE:compile" -> "org.yaml:snakeyaml:jar:1.26:compile" ; 
+	"org.springframework.boot:spring-boot-starter-logging:jar:2.3.1.RELEASE:compile" -> "ch.qos.logback:logback-classic:jar:1.2.3:compile" ; 
+	"org.springframework.boot:spring-boot-starter-logging:jar:2.3.1.RELEASE:compile" -> "org.apache.logging.log4j:log4j-to-slf4j:jar:2.13.3:compile" ; 
+	"org.springframework.boot:spring-boot-starter-logging:jar:2.3.1.RELEASE:compile" -> "org.slf4j:jul-to-slf4j:jar:1.7.30:compile" ; 
+	"ch.qos.logback:logback-classic:jar:1.2.3:compile" -> "ch.qos.logback:logback-core:jar:1.2.3:compile" ; 
+	"org.apache.logging.log4j:log4j-to-slf4j:jar:2.13.3:compile" -> "org.apache.logging.log4j:log4j-api:jar:2.13.3:compile" ; 
+	"org.springframework:spring-core:jar:5.2.7.RELEASE:compile" -> "org.springframework:spring-jcl:jar:5.2.7.RELEASE:compile" ; 
+	"org.springframework.batch:spring-batch-core:jar:4.2.4.RELEASE:compile" -> "com.fasterxml.jackson.core:jackson-databind:jar:2.11.0:compile" ; 
+	"org.springframework.batch:spring-batch-core:jar:4.2.4.RELEASE:compile" -> "io.micrometer:micrometer-core:jar:1.5.1:compile" ; 
+	"org.springframework.batch:spring-batch-core:jar:4.2.4.RELEASE:compile" -> "javax.batch:javax.batch-api:jar:1.0:compile" ; 
+	"org.springframework.batch:spring-batch-core:jar:4.2.4.RELEASE:compile" -> "org.codehaus.jettison:jettison:jar:1.2:compile" ; 
+	"org.springframework.batch:spring-batch-core:jar:4.2.4.RELEASE:compile" -> "org.springframework.batch:spring-batch-infrastructure:jar:4.2.4.RELEASE:compile" ; 
+	"org.springframework.batch:spring-batch-core:jar:4.2.4.RELEASE:compile" -> "org.springframework:spring-aop:jar:5.2.7.RELEASE:compile" ; 
+	"org.springframework.batch:spring-batch-core:jar:4.2.4.RELEASE:compile" -> "org.springframework:spring-beans:jar:5.2.7.RELEASE:compile" ; 
+	"org.springframework.batch:spring-batch-core:jar:4.2.4.RELEASE:compile" -> "org.springframework:spring-context:jar:5.2.7.RELEASE:compile" ; 
+	"org.springframework.batch:spring-batch-core:jar:4.2.4.RELEASE:compile" -> "org.springframework:spring-tx:jar:5.2.7.RELEASE:compile" ; 
+	"com.fasterxml.jackson.core:jackson-databind:jar:2.11.0:compile" -> "com.fasterxml.jackson.core:jackson-annotations:jar:2.11.0:compile" ; 
+	"com.fasterxml.jackson.core:jackson-databind:jar:2.11.0:compile" -> "com.fasterxml.jackson.core:jackson-core:jar:2.11.0:compile" ; 
+	"io.micrometer:micrometer-core:jar:1.5.1:compile" -> "org.hdrhistogram:HdrHistogram:jar:2.1.12:compile" ; 
+	"io.micrometer:micrometer-core:jar:1.5.1:compile" -> "org.latencyutils:LatencyUtils:jar:2.0.3:runtime" ; 
+	"org.springframework.batch:spring-batch-infrastructure:jar:4.2.4.RELEASE:compile" -> "org.springframework.retry:spring-retry:jar:1.2.5.RELEASE:compile" ; 
+	"org.springframework.boot:spring-boot-starter-jdbc:jar:2.3.1.RELEASE:compile" -> "com.zaxxer:HikariCP:jar:3.4.5:compile" ; 
+	"org.springframework.boot:spring-boot-starter-jdbc:jar:2.3.1.RELEASE:compile" -> "org.springframework:spring-jdbc:jar:5.2.7.RELEASE:compile" ; 
+	"org.springframework.boot:spring-boot-starter-web:jar:2.3.1.RELEASE:compile" -> "org.springframework.boot:spring-boot-starter-json:jar:2.3.1.RELEASE:compile" ; 
+	"org.springframework.boot:spring-boot-starter-web:jar:2.3.1.RELEASE:compile" -> "org.springframework.boot:spring-boot-starter-tomcat:jar:2.3.1.RELEASE:compile" ; 
+	"org.springframework.boot:spring-boot-starter-web:jar:2.3.1.RELEASE:compile" -> "org.springframework:spring-web:jar:5.2.7.RELEASE:compile" ; 
+	"org.springframework.boot:spring-boot-starter-web:jar:2.3.1.RELEASE:compile" -> "org.springframework:spring-webmvc:jar:5.2.7.RELEASE:compile" ; 
+	"org.springframework.boot:spring-boot-starter-json:jar:2.3.1.RELEASE:compile" -> "com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.11.0:compile" ; 
+	"org.springframework.boot:spring-boot-starter-json:jar:2.3.1.RELEASE:compile" -> "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.11.0:compile" ; 
+	"org.springframework.boot:spring-boot-starter-json:jar:2.3.1.RELEASE:compile" -> "com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.11.0:compile" ; 
+	"org.springframework.boot:spring-boot-starter-tomcat:jar:2.3.1.RELEASE:compile" -> "org.apache.tomcat.embed:tomcat-embed-core:jar:9.0.36:compile" ; 
+	"org.springframework.boot:spring-boot-starter-tomcat:jar:2.3.1.RELEASE:compile" -> "org.glassfish:jakarta.el:jar:3.0.3:compile" ; 
+	"org.springframework.boot:spring-boot-starter-tomcat:jar:2.3.1.RELEASE:compile" -> "org.apache.tomcat.embed:tomcat-embed-websocket:jar:9.0.36:compile" ; 
+	"org.springframework:spring-webmvc:jar:5.2.7.RELEASE:compile" -> "org.springframework:spring-expression:jar:5.2.7.RELEASE:compile" ; 
+}
+digraph rest-api {
+	"net.petrikainulainen.spring.batch:read-data-from-rest-api:jar:0.1" -> "com.h2database:h2:jar:1.4.200:runtime" ; 
+	"net.petrikainulainen.spring.batch:read-data-from-rest-api:jar:0.1" -> "org.liquibase:liquibase-core:jar:3.8.9:runtime" ; 
+	"net.petrikainulainen.spring.batch:read-data-from-rest-api:jar:0.1" -> "org.springframework.boot:spring-boot-starter-batch:jar:2.3.1.RELEASE:compile" ; 
+	"net.petrikainulainen.spring.batch:read-data-from-rest-api:jar:0.1" -> "org.springframework.boot:spring-boot-starter-jdbc:jar:2.3.1.RELEASE:compile" ; 
+	"net.petrikainulainen.spring.batch:read-data-from-rest-api:jar:0.1" -> "org.springframework.boot:spring-boot-starter-web:jar:2.3.1.RELEASE:compile" ; 
+	"org.liquibase:liquibase-core:jar:3.8.9:runtime" -> "javax.xml.bind:jaxb-api:jar:2.3.1:runtime" ; 
+	"org.liquibase:liquibase-core:jar:3.8.9:runtime" -> "org.slf4j:slf4j-api:jar:1.7.30:compile" ; 
+	"javax.xml.bind:jaxb-api:jar:2.3.1:runtime" -> "javax.activation:javax.activation-api:jar:1.2.0:runtime" ; 
+	"org.springframework.boot:spring-boot-starter-batch:jar:2.3.1.RELEASE:compile" -> "org.springframework.boot:spring-boot-starter:jar:2.3.1.RELEASE:compile" ; 
+	"org.springframework.boot:spring-boot-starter-batch:jar:2.3.1.RELEASE:compile" -> "org.springframework.batch:spring-batch-core:jar:4.2.4.RELEASE:compile" ; 
+	"org.springframework.boot:spring-boot-starter:jar:2.3.1.RELEASE:compile" -> "org.springframework.boot:spring-boot:jar:2.3.1.RELEASE:compile" ; 
+	"org.springframework.boot:spring-boot-starter:jar:2.3.1.RELEASE:compile" -> "org.springframework.boot:spring-boot-autoconfigure:jar:2.3.1.RELEASE:compile" ; 
+	"org.springframework.boot:spring-boot-starter:jar:2.3.1.RELEASE:compile" -> "org.springframework.boot:spring-boot-starter-logging:jar:2.3.1.RELEASE:compile" ; 
+	"org.springframework.boot:spring-boot-starter:jar:2.3.1.RELEASE:compile" -> "jakarta.annotation:jakarta.annotation-api:jar:1.3.5:compile" ; 
+	"org.springframework.boot:spring-boot-starter:jar:2.3.1.RELEASE:compile" -> "org.springframework:spring-core:jar:5.2.7.RELEASE:compile" ; 
+	"org.springframework.boot:spring-boot-starter:jar:2.3.1.RELEASE:compile" -> "org.yaml:snakeyaml:jar:1.26:compile" ; 
+	"org.springframework.boot:spring-boot-starter-logging:jar:2.3.1.RELEASE:compile" -> "ch.qos.logback:logback-classic:jar:1.2.3:compile" ; 
+	"org.springframework.boot:spring-boot-starter-logging:jar:2.3.1.RELEASE:compile" -> "org.apache.logging.log4j:log4j-to-slf4j:jar:2.13.3:compile" ; 
+	"org.springframework.boot:spring-boot-starter-logging:jar:2.3.1.RELEASE:compile" -> "org.slf4j:jul-to-slf4j:jar:1.7.30:compile" ; 
+	"ch.qos.logback:logback-classic:jar:1.2.3:compile" -> "ch.qos.logback:logback-core:jar:1.2.3:compile" ; 
+	"org.apache.logging.log4j:log4j-to-slf4j:jar:2.13.3:compile" -> "org.apache.logging.log4j:log4j-api:jar:2.13.3:compile" ; 
+	"org.springframework:spring-core:jar:5.2.7.RELEASE:compile" -> "org.springframework:spring-jcl:jar:5.2.7.RELEASE:compile" ; 
+	"org.springframework.batch:spring-batch-core:jar:4.2.4.RELEASE:compile" -> "com.fasterxml.jackson.core:jackson-databind:jar:2.11.0:compile" ; 
+	"org.springframework.batch:spring-batch-core:jar:4.2.4.RELEASE:compile" -> "io.micrometer:micrometer-core:jar:1.5.1:compile" ; 
+	"org.springframework.batch:spring-batch-core:jar:4.2.4.RELEASE:compile" -> "javax.batch:javax.batch-api:jar:1.0:compile" ; 
+	"org.springframework.batch:spring-batch-core:jar:4.2.4.RELEASE:compile" -> "org.codehaus.jettison:jettison:jar:1.2:compile" ; 
+	"org.springframework.batch:spring-batch-core:jar:4.2.4.RELEASE:compile" -> "org.springframework.batch:spring-batch-infrastructure:jar:4.2.4.RELEASE:compile" ; 
+	"org.springframework.batch:spring-batch-core:jar:4.2.4.RELEASE:compile" -> "org.springframework:spring-aop:jar:5.2.7.RELEASE:compile" ; 
+	"org.springframework.batch:spring-batch-core:jar:4.2.4.RELEASE:compile" -> "org.springframework:spring-beans:jar:5.2.7.RELEASE:compile" ; 
+	"org.springframework.batch:spring-batch-core:jar:4.2.4.RELEASE:compile" -> "org.springframework:spring-context:jar:5.2.7.RELEASE:compile" ; 
+	"org.springframework.batch:spring-batch-core:jar:4.2.4.RELEASE:compile" -> "org.springframework:spring-tx:jar:5.2.7.RELEASE:compile" ; 
+	"com.fasterxml.jackson.core:jackson-databind:jar:2.11.0:compile" -> "com.fasterxml.jackson.core:jackson-annotations:jar:2.11.0:compile" ; 
+	"com.fasterxml.jackson.core:jackson-databind:jar:2.11.0:compile" -> "com.fasterxml.jackson.core:jackson-core:jar:2.11.0:compile" ; 
+	"io.micrometer:micrometer-core:jar:1.5.1:compile" -> "org.hdrhistogram:HdrHistogram:jar:2.1.12:compile" ; 
+	"io.micrometer:micrometer-core:jar:1.5.1:compile" -> "org.latencyutils:LatencyUtils:jar:2.0.3:runtime" ; 
+	"org.springframework.batch:spring-batch-infrastructure:jar:4.2.4.RELEASE:compile" -> "org.springframework.retry:spring-retry:jar:1.2.5.RELEASE:compile" ; 
+	"org.springframework.boot:spring-boot-starter-jdbc:jar:2.3.1.RELEASE:compile" -> "com.zaxxer:HikariCP:jar:3.4.5:compile" ; 
+	"org.springframework.boot:spring-boot-starter-jdbc:jar:2.3.1.RELEASE:compile" -> "org.springframework:spring-jdbc:jar:5.2.7.RELEASE:compile" ; 
+	"org.springframework.boot:spring-boot-starter-web:jar:2.3.1.RELEASE:compile" -> "org.springframework.boot:spring-boot-starter-json:jar:2.3.1.RELEASE:compile" ; 
+	"org.springframework.boot:spring-boot-starter-web:jar:2.3.1.RELEASE:compile" -> "org.springframework.boot:spring-boot-starter-tomcat:jar:2.3.1.RELEASE:compile" ; 
+	"org.springframework.boot:spring-boot-starter-web:jar:2.3.1.RELEASE:compile" -> "org.springframework:spring-web:jar:5.2.7.RELEASE:compile" ; 
+	"org.springframework.boot:spring-boot-starter-web:jar:2.3.1.RELEASE:compile" -> "org.springframework:spring-webmvc:jar:5.2.7.RELEASE:compile" ; 
+	"org.springframework.boot:spring-boot-starter-json:jar:2.3.1.RELEASE:compile" -> "com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.11.0:compile" ; 
+	"org.springframework.boot:spring-boot-starter-json:jar:2.3.1.RELEASE:compile" -> "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.11.0:compile" ; 
+	"org.springframework.boot:spring-boot-starter-json:jar:2.3.1.RELEASE:compile" -> "com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.11.0:compile" ; 
+	"org.springframework.boot:spring-boot-starter-tomcat:jar:2.3.1.RELEASE:compile" -> "org.apache.tomcat.embed:tomcat-embed-core:jar:9.0.36:compile" ; 
+	"org.springframework.boot:spring-boot-starter-tomcat:jar:2.3.1.RELEASE:compile" -> "org.glassfish:jakarta.el:jar:3.0.3:compile" ; 
+	"org.springframework.boot:spring-boot-starter-tomcat:jar:2.3.1.RELEASE:compile" -> "org.apache.tomcat.embed:tomcat-embed-websocket:jar:9.0.36:compile" ; 
+	"org.springframework:spring-webmvc:jar:5.2.7.RELEASE:compile" -> "org.springframework:spring-expression:jar:5.2.7.RELEASE:compile" ; 
+}
+digraph xml-file {
+	"net.petrikainulainen.spring.batch:read-data-from-xml-file:jar:0.1" -> "com.h2database:h2:jar:1.4.200:runtime" ; 
+	"net.petrikainulainen.spring.batch:read-data-from-xml-file:jar:0.1" -> "org.liquibase:liquibase-core:jar:3.8.9:runtime" ; 
+	"net.petrikainulainen.spring.batch:read-data-from-xml-file:jar:0.1" -> "javax.xml.bind:jaxb-api:jar:2.3.1:compile" ; 
+	"net.petrikainulainen.spring.batch:read-data-from-xml-file:jar:0.1" -> "org.glassfish.jaxb:jaxb-runtime:jar:2.3.3:runtime" ; 
+	"net.petrikainulainen.spring.batch:read-data-from-xml-file:jar:0.1" -> "org.springframework:spring-oxm:jar:5.2.7.RELEASE:compile" ; 
+	"net.petrikainulainen.spring.batch:read-data-from-xml-file:jar:0.1" -> "org.springframework.boot:spring-boot-starter-batch:jar:2.3.1.RELEASE:compile" ; 
+	"net.petrikainulainen.spring.batch:read-data-from-xml-file:jar:0.1" -> "org.springframework.boot:spring-boot-starter-jdbc:jar:2.3.1.RELEASE:compile" ; 
+	"net.petrikainulainen.spring.batch:read-data-from-xml-file:jar:0.1" -> "org.springframework.boot:spring-boot-starter-web:jar:2.3.1.RELEASE:compile" ; 
+	"org.liquibase:liquibase-core:jar:3.8.9:runtime" -> "org.slf4j:slf4j-api:jar:1.7.30:compile" ; 
+	"javax.xml.bind:jaxb-api:jar:2.3.1:compile" -> "javax.activation:javax.activation-api:jar:1.2.0:compile" ; 
+	"org.glassfish.jaxb:jaxb-runtime:jar:2.3.3:runtime" -> "jakarta.xml.bind:jakarta.xml.bind-api:jar:2.3.3:runtime" ; 
+	"org.glassfish.jaxb:jaxb-runtime:jar:2.3.3:runtime" -> "org.glassfish.jaxb:txw2:jar:2.3.3:runtime" ; 
+	"org.glassfish.jaxb:jaxb-runtime:jar:2.3.3:runtime" -> "com.sun.istack:istack-commons-runtime:jar:3.0.11:runtime" ; 
+	"org.glassfish.jaxb:jaxb-runtime:jar:2.3.3:runtime" -> "com.sun.activation:jakarta.activation:jar:1.2.2:runtime" ; 
+	"org.springframework:spring-oxm:jar:5.2.7.RELEASE:compile" -> "org.springframework:spring-beans:jar:5.2.7.RELEASE:compile" ; 
+	"org.springframework:spring-oxm:jar:5.2.7.RELEASE:compile" -> "org.springframework:spring-core:jar:5.2.7.RELEASE:compile" ; 
+	"org.springframework:spring-core:jar:5.2.7.RELEASE:compile" -> "org.springframework:spring-jcl:jar:5.2.7.RELEASE:compile" ; 
+	"org.springframework.boot:spring-boot-starter-batch:jar:2.3.1.RELEASE:compile" -> "org.springframework.boot:spring-boot-starter:jar:2.3.1.RELEASE:compile" ; 
+	"org.springframework.boot:spring-boot-starter-batch:jar:2.3.1.RELEASE:compile" -> "org.springframework.batch:spring-batch-core:jar:4.2.4.RELEASE:compile" ; 
+	"org.springframework.boot:spring-boot-starter:jar:2.3.1.RELEASE:compile" -> "org.springframework.boot:spring-boot:jar:2.3.1.RELEASE:compile" ; 
+	"org.springframework.boot:spring-boot-starter:jar:2.3.1.RELEASE:compile" -> "org.springframework.boot:spring-boot-autoconfigure:jar:2.3.1.RELEASE:compile" ; 
+	"org.springframework.boot:spring-boot-starter:jar:2.3.1.RELEASE:compile" -> "org.springframework.boot:spring-boot-starter-logging:jar:2.3.1.RELEASE:compile" ; 
+	"org.springframework.boot:spring-boot-starter:jar:2.3.1.RELEASE:compile" -> "jakarta.annotation:jakarta.annotation-api:jar:1.3.5:compile" ; 
+	"org.springframework.boot:spring-boot-starter:jar:2.3.1.RELEASE:compile" -> "org.yaml:snakeyaml:jar:1.26:compile" ; 
+	"org.springframework.boot:spring-boot-starter-logging:jar:2.3.1.RELEASE:compile" -> "ch.qos.logback:logback-classic:jar:1.2.3:compile" ; 
+	"org.springframework.boot:spring-boot-starter-logging:jar:2.3.1.RELEASE:compile" -> "org.apache.logging.log4j:log4j-to-slf4j:jar:2.13.3:compile" ; 
+	"org.springframework.boot:spring-boot-starter-logging:jar:2.3.1.RELEASE:compile" -> "org.slf4j:jul-to-slf4j:jar:1.7.30:compile" ; 
+	"ch.qos.logback:logback-classic:jar:1.2.3:compile" -> "ch.qos.logback:logback-core:jar:1.2.3:compile" ; 
+	"org.apache.logging.log4j:log4j-to-slf4j:jar:2.13.3:compile" -> "org.apache.logging.log4j:log4j-api:jar:2.13.3:compile" ; 
+	"org.springframework.batch:spring-batch-core:jar:4.2.4.RELEASE:compile" -> "com.fasterxml.jackson.core:jackson-databind:jar:2.11.0:compile" ; 
+	"org.springframework.batch:spring-batch-core:jar:4.2.4.RELEASE:compile" -> "io.micrometer:micrometer-core:jar:1.5.1:compile" ; 
+	"org.springframework.batch:spring-batch-core:jar:4.2.4.RELEASE:compile" -> "javax.batch:javax.batch-api:jar:1.0:compile" ; 
+	"org.springframework.batch:spring-batch-core:jar:4.2.4.RELEASE:compile" -> "org.codehaus.jettison:jettison:jar:1.2:compile" ; 
+	"org.springframework.batch:spring-batch-core:jar:4.2.4.RELEASE:compile" -> "org.springframework.batch:spring-batch-infrastructure:jar:4.2.4.RELEASE:compile" ; 
+	"org.springframework.batch:spring-batch-core:jar:4.2.4.RELEASE:compile" -> "org.springframework:spring-aop:jar:5.2.7.RELEASE:compile" ; 
+	"org.springframework.batch:spring-batch-core:jar:4.2.4.RELEASE:compile" -> "org.springframework:spring-context:jar:5.2.7.RELEASE:compile" ; 
+	"org.springframework.batch:spring-batch-core:jar:4.2.4.RELEASE:compile" -> "org.springframework:spring-tx:jar:5.2.7.RELEASE:compile" ; 
+	"com.fasterxml.jackson.core:jackson-databind:jar:2.11.0:compile" -> "com.fasterxml.jackson.core:jackson-annotations:jar:2.11.0:compile" ; 
+	"com.fasterxml.jackson.core:jackson-databind:jar:2.11.0:compile" -> "com.fasterxml.jackson.core:jackson-core:jar:2.11.0:compile" ; 
+	"io.micrometer:micrometer-core:jar:1.5.1:compile" -> "org.hdrhistogram:HdrHistogram:jar:2.1.12:compile" ; 
+	"io.micrometer:micrometer-core:jar:1.5.1:compile" -> "org.latencyutils:LatencyUtils:jar:2.0.3:runtime" ; 
+	"org.springframework.batch:spring-batch-infrastructure:jar:4.2.4.RELEASE:compile" -> "org.springframework.retry:spring-retry:jar:1.2.5.RELEASE:compile" ; 
+	"org.springframework.boot:spring-boot-starter-jdbc:jar:2.3.1.RELEASE:compile" -> "com.zaxxer:HikariCP:jar:3.4.5:compile" ; 
+	"org.springframework.boot:spring-boot-starter-jdbc:jar:2.3.1.RELEASE:compile" -> "org.springframework:spring-jdbc:jar:5.2.7.RELEASE:compile" ; 
+	"org.springframework.boot:spring-boot-starter-web:jar:2.3.1.RELEASE:compile" -> "org.springframework.boot:spring-boot-starter-json:jar:2.3.1.RELEASE:compile" ; 
+	"org.springframework.boot:spring-boot-starter-web:jar:2.3.1.RELEASE:compile" -> "org.springframework.boot:spring-boot-starter-tomcat:jar:2.3.1.RELEASE:compile" ; 
+	"org.springframework.boot:spring-boot-starter-web:jar:2.3.1.RELEASE:compile" -> "org.springframework:spring-web:jar:5.2.7.RELEASE:compile" ; 
+	"org.springframework.boot:spring-boot-starter-web:jar:2.3.1.RELEASE:compile" -> "org.springframework:spring-webmvc:jar:5.2.7.RELEASE:compile" ; 
+	"org.springframework.boot:spring-boot-starter-json:jar:2.3.1.RELEASE:compile" -> "com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.11.0:compile" ; 
+	"org.springframework.boot:spring-boot-starter-json:jar:2.3.1.RELEASE:compile" -> "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.11.0:compile" ; 
+	"org.springframework.boot:spring-boot-starter-json:jar:2.3.1.RELEASE:compile" -> "com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.11.0:compile" ; 
+	"org.springframework.boot:spring-boot-starter-tomcat:jar:2.3.1.RELEASE:compile" -> "org.apache.tomcat.embed:tomcat-embed-core:jar:9.0.36:compile" ; 
+	"org.springframework.boot:spring-boot-starter-tomcat:jar:2.3.1.RELEASE:compile" -> "org.glassfish:jakarta.el:jar:3.0.3:compile" ; 
+	"org.springframework.boot:spring-boot-starter-tomcat:jar:2.3.1.RELEASE:compile" -> "org.apache.tomcat.embed:tomcat-embed-websocket:jar:9.0.36:compile" ; 
+	"org.springframework:spring-webmvc:jar:5.2.7.RELEASE:compile" -> "org.springframework:spring-expression:jar:5.2.7.RELEASE:compile" ; 
+}
+digraph spring {
+	"net.petrikainulainen.spring.batch:spring:jar:0.1" -> "org.apache.commons:commons-lang3:jar:3.3.2:compile" ; 
+	"net.petrikainulainen.spring.batch:spring:jar:0.1" -> "org.slf4j:slf4j-api:jar:1.7.13:compile" ; 
+	"net.petrikainulainen.spring.batch:spring:jar:0.1" -> "log4j:log4j:jar:1.2.17:compile" ; 
+	"net.petrikainulainen.spring.batch:spring:jar:0.1" -> "org.slf4j:slf4j-log4j12:jar:1.7.13:compile" ; 
+	"net.petrikainulainen.spring.batch:spring:jar:0.1" -> "com.h2database:h2:jar:1.4.190:compile" ; 
+	"net.petrikainulainen.spring.batch:spring:jar:0.1" -> "org.liquibase:liquibase-core:jar:3.4.2:compile" ; 
+	"net.petrikainulainen.spring.batch:spring:jar:0.1" -> "com.zaxxer:HikariCP:jar:2.4.3:compile" ; 
+	"net.petrikainulainen.spring.batch:spring:jar:0.1" -> "org.hibernate:hibernate-entitymanager:jar:4.3.11.Final:compile" ; 
+	"net.petrikainulainen.spring.batch:spring:jar:0.1" -> "org.springframework.data:spring-data-jpa:jar:1.9.2.RELEASE:compile" ; 
+	"net.petrikainulainen.spring.batch:spring:jar:0.1" -> "org.springframework:spring-aspects:jar:4.2.4.RELEASE:compile" ; 
+	"net.petrikainulainen.spring.batch:spring:jar:0.1" -> "org.springframework:spring-context-support:jar:4.2.4.RELEASE:compile" ; 
+	"net.petrikainulainen.spring.batch:spring:jar:0.1" -> "javax.servlet:javax.servlet-api:jar:3.1.0:provided" ; 
+	"net.petrikainulainen.spring.batch:spring:jar:0.1" -> "org.springframework:spring-webmvc:jar:4.2.4.RELEASE:compile" ; 
+	"net.petrikainulainen.spring.batch:spring:jar:0.1" -> "com.fasterxml.jackson.core:jackson-core:jar:2.6.4:compile" ; 
+	"net.petrikainulainen.spring.batch:spring:jar:0.1" -> "com.fasterxml.jackson.core:jackson-databind:jar:2.6.4:compile" ; 
+	"net.petrikainulainen.spring.batch:spring:jar:0.1" -> "org.springframework:spring-oxm:jar:4.2.4.RELEASE:compile" ; 
+	"net.petrikainulainen.spring.batch:spring:jar:0.1" -> "org.springframework.batch:spring-batch-core:jar:3.0.6.RELEASE:compile" ; 
+	"net.petrikainulainen.spring.batch:spring:jar:0.1" -> "org.springframework.batch:spring-batch-excel:jar:0.5.0-SNAPSHOT:compile" ; 
+	"net.petrikainulainen.spring.batch:spring:jar:0.1" -> "org.apache.poi:poi:jar:3.11:compile" ; 
+	"net.petrikainulainen.spring.batch:spring:jar:0.1" -> "org.apache.poi:poi-ooxml:jar:3.11:compile" ; 
+	"org.slf4j:slf4j-log4j12:jar:1.7.13:compile" -> "(org.slf4j:slf4j-api:jar:1.7.13:compile - version managed from 1.7.13; omitted for duplicate)" ; 
+	"org.slf4j:slf4j-log4j12:jar:1.7.13:compile" -> "(log4j:log4j:jar:1.2.17:compile - version managed from 1.2.17; omitted for duplicate)" ; 
+	"com.zaxxer:HikariCP:jar:2.4.3:compile" -> "(org.slf4j:slf4j-api:jar:1.7.13:compile - version managed from 1.7.12; omitted for duplicate)" ; 
+	"org.hibernate:hibernate-entitymanager:jar:4.3.11.Final:compile" -> "org.jboss.logging:jboss-logging:jar:3.3.0.Final:compile (version managed from 3.1.3.GA)" ; 
+	"org.hibernate:hibernate-entitymanager:jar:4.3.11.Final:compile" -> "org.jboss.logging:jboss-logging-annotations:jar:1.2.0.Beta1:compile" ; 
+	"org.hibernate:hibernate-entitymanager:jar:4.3.11.Final:compile" -> "org.hibernate:hibernate-core:jar:4.3.11.Final:compile (version managed from 4.3.11.Final)" ; 
+	"org.hibernate:hibernate-entitymanager:jar:4.3.11.Final:compile" -> "dom4j:dom4j:jar:1.6.1:compile (version managed from 1.6.1)" ; 
+	"org.hibernate:hibernate-entitymanager:jar:4.3.11.Final:compile" -> "org.hibernate.common:hibernate-commons-annotations:jar:4.0.5.Final:compile" ; 
+	"org.hibernate:hibernate-entitymanager:jar:4.3.11.Final:compile" -> "org.hibernate.javax.persistence:hibernate-jpa-2.1-api:jar:1.0.0.Final:compile" ; 
+	"org.hibernate:hibernate-entitymanager:jar:4.3.11.Final:compile" -> "org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:jar:1.0.0.Final:compile" ; 
+	"org.hibernate:hibernate-entitymanager:jar:4.3.11.Final:compile" -> "org.javassist:javassist:jar:3.18.1-GA:compile (version managed from 3.18.1-GA)" ; 
+	"org.hibernate:hibernate-core:jar:4.3.11.Final:compile (version managed from 4.3.11.Final)" -> "(org.jboss.logging:jboss-logging:jar:3.3.0.Final:compile - version managed from 3.1.3.GA; omitted for duplicate)" ; 
+	"org.hibernate:hibernate-core:jar:4.3.11.Final:compile (version managed from 4.3.11.Final)" -> "(org.jboss.logging:jboss-logging-annotations:jar:1.2.0.Beta1:compile - omitted for duplicate)" ; 
+	"org.hibernate:hibernate-core:jar:4.3.11.Final:compile (version managed from 4.3.11.Final)" -> "(org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:jar:1.0.0.Final:compile - omitted for duplicate)" ; 
+	"org.hibernate:hibernate-core:jar:4.3.11.Final:compile (version managed from 4.3.11.Final)" -> "(dom4j:dom4j:jar:1.6.1:compile - version managed from 1.6.1; omitted for duplicate)" ; 
+	"org.hibernate:hibernate-core:jar:4.3.11.Final:compile (version managed from 4.3.11.Final)" -> "(org.hibernate.common:hibernate-commons-annotations:jar:4.0.5.Final:compile - omitted for duplicate)" ; 
+	"org.hibernate:hibernate-core:jar:4.3.11.Final:compile (version managed from 4.3.11.Final)" -> "(org.hibernate.javax.persistence:hibernate-jpa-2.1-api:jar:1.0.0.Final:compile - omitted for duplicate)" ; 
+	"org.hibernate:hibernate-core:jar:4.3.11.Final:compile (version managed from 4.3.11.Final)" -> "(org.javassist:javassist:jar:3.18.1-GA:compile - version managed from 3.18.1-GA; omitted for duplicate)" ; 
+	"org.hibernate:hibernate-core:jar:4.3.11.Final:compile (version managed from 4.3.11.Final)" -> "antlr:antlr:jar:2.7.7:compile (version managed from 2.7.7)" ; 
+	"org.hibernate:hibernate-core:jar:4.3.11.Final:compile (version managed from 4.3.11.Final)" -> "org.jboss:jandex:jar:1.1.0.Final:compile" ; 
+	"dom4j:dom4j:jar:1.6.1:compile (version managed from 1.6.1)" -> "xml-apis:xml-apis:jar:1.0.b2:compile" ; 
+	"org.hibernate.common:hibernate-commons-annotations:jar:4.0.5.Final:compile" -> "(org.jboss.logging:jboss-logging:jar:3.3.0.Final:compile - version managed from 3.1.3.GA; omitted for duplicate)" ; 
+	"org.hibernate.common:hibernate-commons-annotations:jar:4.0.5.Final:compile" -> "(org.jboss.logging:jboss-logging-annotations:jar:1.2.0.Beta1:compile - omitted for duplicate)" ; 
+	"org.springframework.data:spring-data-jpa:jar:1.9.2.RELEASE:compile" -> "org.springframework.data:spring-data-commons:jar:1.11.2.RELEASE:compile (version managed from 1.11.2.RELEASE)" ; 
+	"org.springframework.data:spring-data-jpa:jar:1.9.2.RELEASE:compile" -> "org.springframework:spring-orm:jar:4.2.4.RELEASE:compile (version managed from 4.1.9.RELEASE)" ; 
+	"org.springframework.data:spring-data-jpa:jar:1.9.2.RELEASE:compile" -> "org.springframework:spring-context:jar:4.2.4.RELEASE:compile (version managed from 4.1.9.RELEASE)" ; 
+	"org.springframework.data:spring-data-jpa:jar:1.9.2.RELEASE:compile" -> "org.springframework:spring-aop:jar:4.2.4.RELEASE:compile (version managed from 4.1.9.RELEASE)" ; 
+	"org.springframework.data:spring-data-jpa:jar:1.9.2.RELEASE:compile" -> "org.springframework:spring-tx:jar:4.2.4.RELEASE:compile (version managed from 4.1.9.RELEASE)" ; 
+	"org.springframework.data:spring-data-jpa:jar:1.9.2.RELEASE:compile" -> "org.springframework:spring-beans:jar:4.2.4.RELEASE:compile (version managed from 4.1.9.RELEASE)" ; 
+	"org.springframework.data:spring-data-jpa:jar:1.9.2.RELEASE:compile" -> "org.springframework:spring-core:jar:4.2.4.RELEASE:compile (version managed from 4.1.9.RELEASE)" ; 
+	"org.springframework.data:spring-data-jpa:jar:1.9.2.RELEASE:compile" -> "org.aspectj:aspectjrt:jar:1.8.7:compile (version managed from 1.8.7)" ; 
+	"org.springframework.data:spring-data-jpa:jar:1.9.2.RELEASE:compile" -> "(org.slf4j:slf4j-api:jar:1.7.13:compile - version managed from 1.7.13; omitted for duplicate)" ; 
+	"org.springframework.data:spring-data-jpa:jar:1.9.2.RELEASE:compile" -> "org.slf4j:jcl-over-slf4j:jar:1.7.13:runtime (version managed from 1.7.13)" ; 
+	"org.springframework.data:spring-data-commons:jar:1.11.2.RELEASE:compile (version managed from 1.11.2.RELEASE)" -> "(org.springframework:spring-core:jar:4.2.4.RELEASE:compile - version managed from 4.1.9.RELEASE; omitted for duplicate)" ; 
+	"org.springframework.data:spring-data-commons:jar:1.11.2.RELEASE:compile (version managed from 1.11.2.RELEASE)" -> "(org.springframework:spring-beans:jar:4.2.4.RELEASE:compile - version managed from 4.1.9.RELEASE; omitted for duplicate)" ; 
+	"org.springframework.data:spring-data-commons:jar:1.11.2.RELEASE:compile (version managed from 1.11.2.RELEASE)" -> "(org.slf4j:slf4j-api:jar:1.7.13:compile - version managed from 1.7.13; omitted for duplicate)" ; 
+	"org.springframework.data:spring-data-commons:jar:1.11.2.RELEASE:compile (version managed from 1.11.2.RELEASE)" -> "(org.slf4j:jcl-over-slf4j:jar:1.7.13:runtime - version managed from 1.7.13; omitted for duplicate)" ; 
+	"org.springframework:spring-orm:jar:4.2.4.RELEASE:compile (version managed from 4.1.9.RELEASE)" -> "(org.springframework:spring-beans:jar:4.2.4.RELEASE:compile - version managed from 4.2.4.RELEASE; omitted for duplicate)" ; 
+	"org.springframework:spring-orm:jar:4.2.4.RELEASE:compile (version managed from 4.1.9.RELEASE)" -> "(org.springframework:spring-core:jar:4.2.4.RELEASE:compile - version managed from 4.2.4.RELEASE; omitted for duplicate)" ; 
+	"org.springframework:spring-orm:jar:4.2.4.RELEASE:compile (version managed from 4.1.9.RELEASE)" -> "org.springframework:spring-jdbc:jar:4.2.4.RELEASE:compile (version managed from 4.2.4.RELEASE)" ; 
+	"org.springframework:spring-orm:jar:4.2.4.RELEASE:compile (version managed from 4.1.9.RELEASE)" -> "(org.springframework:spring-tx:jar:4.2.4.RELEASE:compile - version managed from 4.2.4.RELEASE; omitted for duplicate)" ; 
+	"org.springframework:spring-jdbc:jar:4.2.4.RELEASE:compile (version managed from 4.2.4.RELEASE)" -> "(org.springframework:spring-beans:jar:4.2.4.RELEASE:compile - version managed from 4.2.4.RELEASE; omitted for duplicate)" ; 
+	"org.springframework:spring-jdbc:jar:4.2.4.RELEASE:compile (version managed from 4.2.4.RELEASE)" -> "(org.springframework:spring-core:jar:4.2.4.RELEASE:compile - version managed from 4.2.4.RELEASE; omitted for duplicate)" ; 
+	"org.springframework:spring-jdbc:jar:4.2.4.RELEASE:compile (version managed from 4.2.4.RELEASE)" -> "(org.springframework:spring-tx:jar:4.2.4.RELEASE:compile - version managed from 4.2.4.RELEASE; omitted for duplicate)" ; 
+	"org.springframework:spring-context:jar:4.2.4.RELEASE:compile (version managed from 4.1.9.RELEASE)" -> "(org.springframework:spring-aop:jar:4.2.4.RELEASE:compile - version managed from 4.2.4.RELEASE; omitted for duplicate)" ; 
+	"org.springframework:spring-context:jar:4.2.4.RELEASE:compile (version managed from 4.1.9.RELEASE)" -> "(org.springframework:spring-beans:jar:4.2.4.RELEASE:compile - version managed from 4.2.4.RELEASE; omitted for duplicate)" ; 
+	"org.springframework:spring-context:jar:4.2.4.RELEASE:compile (version managed from 4.1.9.RELEASE)" -> "(org.springframework:spring-core:jar:4.2.4.RELEASE:compile - version managed from 4.2.4.RELEASE; omitted for duplicate)" ; 
+	"org.springframework:spring-context:jar:4.2.4.RELEASE:compile (version managed from 4.1.9.RELEASE)" -> "(org.springframework:spring-expression:jar:4.2.4.RELEASE:compile - version managed from 4.2.4.RELEASE; omitted for duplicate)" ; 
+	"org.springframework:spring-aop:jar:4.2.4.RELEASE:compile (version managed from 4.1.9.RELEASE)" -> "aopalliance:aopalliance:jar:1.0:compile (version managed from 1.0)" ; 
+	"org.springframework:spring-aop:jar:4.2.4.RELEASE:compile (version managed from 4.1.9.RELEASE)" -> "(org.springframework:spring-beans:jar:4.2.4.RELEASE:compile - version managed from 4.2.4.RELEASE; omitted for duplicate)" ; 
+	"org.springframework:spring-aop:jar:4.2.4.RELEASE:compile (version managed from 4.1.9.RELEASE)" -> "(org.springframework:spring-core:jar:4.2.4.RELEASE:compile - version managed from 4.2.4.RELEASE; omitted for duplicate)" ; 
+	"org.springframework:spring-tx:jar:4.2.4.RELEASE:compile (version managed from 4.1.9.RELEASE)" -> "(org.springframework:spring-beans:jar:4.2.4.RELEASE:compile - version managed from 4.2.4.RELEASE; omitted for duplicate)" ; 
+	"org.springframework:spring-tx:jar:4.2.4.RELEASE:compile (version managed from 4.1.9.RELEASE)" -> "(org.springframework:spring-core:jar:4.2.4.RELEASE:compile - version managed from 4.2.4.RELEASE; omitted for duplicate)" ; 
+	"org.springframework:spring-beans:jar:4.2.4.RELEASE:compile (version managed from 4.1.9.RELEASE)" -> "(org.springframework:spring-core:jar:4.2.4.RELEASE:compile - version managed from 4.2.4.RELEASE; omitted for duplicate)" ; 
+	"org.slf4j:jcl-over-slf4j:jar:1.7.13:runtime (version managed from 1.7.13)" -> "(org.slf4j:slf4j-api:jar:1.7.13:runtime - version managed from 1.7.13; omitted for duplicate)" ; 
+	"org.springframework:spring-aspects:jar:4.2.4.RELEASE:compile" -> "org.aspectj:aspectjweaver:jar:1.8.7:compile (version managed from 1.8.7)" ; 
+	"org.springframework:spring-context-support:jar:4.2.4.RELEASE:compile" -> "(org.springframework:spring-beans:jar:4.2.4.RELEASE:compile - version managed from 4.2.4.RELEASE; omitted for duplicate)" ; 
+	"org.springframework:spring-context-support:jar:4.2.4.RELEASE:compile" -> "(org.springframework:spring-context:jar:4.2.4.RELEASE:compile - version managed from 4.2.4.RELEASE; omitted for duplicate)" ; 
+	"org.springframework:spring-context-support:jar:4.2.4.RELEASE:compile" -> "(org.springframework:spring-core:jar:4.2.4.RELEASE:compile - version managed from 4.2.4.RELEASE; omitted for duplicate)" ; 
+	"org.springframework:spring-webmvc:jar:4.2.4.RELEASE:compile" -> "(org.springframework:spring-beans:jar:4.2.4.RELEASE:compile - version managed from 4.2.4.RELEASE; omitted for duplicate)" ; 
+	"org.springframework:spring-webmvc:jar:4.2.4.RELEASE:compile" -> "(org.springframework:spring-context:jar:4.2.4.RELEASE:compile - version managed from 4.2.4.RELEASE; omitted for duplicate)" ; 
+	"org.springframework:spring-webmvc:jar:4.2.4.RELEASE:compile" -> "(org.springframework:spring-core:jar:4.2.4.RELEASE:compile - version managed from 4.2.4.RELEASE; omitted for duplicate)" ; 
+	"org.springframework:spring-webmvc:jar:4.2.4.RELEASE:compile" -> "org.springframework:spring-expression:jar:4.2.4.RELEASE:compile (version managed from 4.2.4.RELEASE)" ; 
+	"org.springframework:spring-webmvc:jar:4.2.4.RELEASE:compile" -> "org.springframework:spring-web:jar:4.2.4.RELEASE:compile (version managed from 4.2.4.RELEASE)" ; 
+	"org.springframework:spring-expression:jar:4.2.4.RELEASE:compile (version managed from 4.2.4.RELEASE)" -> "(org.springframework:spring-core:jar:4.2.4.RELEASE:compile - version managed from 4.2.4.RELEASE; omitted for duplicate)" ; 
+	"org.springframework:spring-web:jar:4.2.4.RELEASE:compile (version managed from 4.2.4.RELEASE)" -> "(org.springframework:spring-aop:jar:4.2.4.RELEASE:compile - version managed from 4.2.4.RELEASE; omitted for duplicate)" ; 
+	"org.springframework:spring-web:jar:4.2.4.RELEASE:compile (version managed from 4.2.4.RELEASE)" -> "(org.springframework:spring-beans:jar:4.2.4.RELEASE:compile - version managed from 4.2.4.RELEASE; omitted for duplicate)" ; 
+	"org.springframework:spring-web:jar:4.2.4.RELEASE:compile (version managed from 4.2.4.RELEASE)" -> "(org.springframework:spring-context:jar:4.2.4.RELEASE:compile - version managed from 4.2.4.RELEASE; omitted for duplicate)" ; 
+	"org.springframework:spring-web:jar:4.2.4.RELEASE:compile (version managed from 4.2.4.RELEASE)" -> "(org.springframework:spring-core:jar:4.2.4.RELEASE:compile - version managed from 4.2.4.RELEASE; omitted for duplicate)" ; 
+	"com.fasterxml.jackson.core:jackson-databind:jar:2.6.4:compile" -> "com.fasterxml.jackson.core:jackson-annotations:jar:2.6.4:compile (version managed from 2.6.0)" ; 
+	"com.fasterxml.jackson.core:jackson-databind:jar:2.6.4:compile" -> "(com.fasterxml.jackson.core:jackson-core:jar:2.6.4:compile - version managed from 2.6.4; omitted for duplicate)" ; 
+	"org.springframework:spring-oxm:jar:4.2.4.RELEASE:compile" -> "(org.springframework:spring-beans:jar:4.2.4.RELEASE:compile - version managed from 4.2.4.RELEASE; omitted for duplicate)" ; 
+	"org.springframework:spring-oxm:jar:4.2.4.RELEASE:compile" -> "(org.springframework:spring-core:jar:4.2.4.RELEASE:compile - version managed from 4.2.4.RELEASE; omitted for duplicate)" ; 
+	"org.springframework.batch:spring-batch-core:jar:3.0.6.RELEASE:compile" -> "com.ibm.jbatch:com.ibm.jbatch-tck-spi:jar:1.0:compile (version managed from 1.0)" ; 
+	"org.springframework.batch:spring-batch-core:jar:3.0.6.RELEASE:compile" -> "com.thoughtworks.xstream:xstream:jar:1.4.8:compile (version managed from 1.4.7)" ; 
+	"org.springframework.batch:spring-batch-core:jar:3.0.6.RELEASE:compile" -> "org.codehaus.jettison:jettison:jar:1.2:compile (version managed from 1.2)" ; 
+	"org.springframework.batch:spring-batch-core:jar:3.0.6.RELEASE:compile" -> "org.springframework.batch:spring-batch-infrastructure:jar:3.0.6.RELEASE:compile (version managed from 3.0.6.RELEASE)" ; 
+	"org.springframework.batch:spring-batch-core:jar:3.0.6.RELEASE:compile" -> "(org.springframework:spring-aop:jar:4.2.4.RELEASE:compile - version managed from 4.0.5.RELEASE; omitted for duplicate)" ; 
+	"org.springframework.batch:spring-batch-core:jar:3.0.6.RELEASE:compile" -> "(org.springframework:spring-beans:jar:4.2.4.RELEASE:compile - version managed from 4.0.5.RELEASE; omitted for duplicate)" ; 
+	"org.springframework.batch:spring-batch-core:jar:3.0.6.RELEASE:compile" -> "(org.springframework:spring-context:jar:4.2.4.RELEASE:compile - version managed from 4.0.5.RELEASE; omitted for duplicate)" ; 
+	"org.springframework.batch:spring-batch-core:jar:3.0.6.RELEASE:compile" -> "(org.springframework:spring-core:jar:4.2.4.RELEASE:compile - version managed from 4.0.5.RELEASE; omitted for duplicate)" ; 
+	"org.springframework.batch:spring-batch-core:jar:3.0.6.RELEASE:compile" -> "(org.springframework:spring-tx:jar:4.2.4.RELEASE:compile - version managed from 4.0.5.RELEASE; omitted for duplicate)" ; 
+	"com.ibm.jbatch:com.ibm.jbatch-tck-spi:jar:1.0:compile (version managed from 1.0)" -> "javax.batch:javax.batch-api:jar:1.0.1:compile (version managed from 1.0)" ; 
+	"com.thoughtworks.xstream:xstream:jar:1.4.8:compile (version managed from 1.4.7)" -> "xmlpull:xmlpull:jar:1.1.3.1:compile" ; 
+	"com.thoughtworks.xstream:xstream:jar:1.4.8:compile (version managed from 1.4.7)" -> "xpp3:xpp3_min:jar:1.1.4c:compile" ; 
+	"org.springframework.batch:spring-batch-infrastructure:jar:3.0.6.RELEASE:compile (version managed from 3.0.6.RELEASE)" -> "org.springframework.retry:spring-retry:jar:1.1.2.RELEASE:compile (version managed from 1.1.0.RELEASE)" ; 
+	"org.springframework.retry:spring-retry:jar:1.1.2.RELEASE:compile (version managed from 1.1.0.RELEASE)" -> "(org.springframework:spring-core:jar:4.2.4.RELEASE:compile - version managed from 4.0.4.RELEASE; omitted for duplicate)" ; 
+	"org.springframework.batch:spring-batch-excel:jar:0.5.0-SNAPSHOT:compile" -> "(org.springframework.batch:spring-batch-core:jar:3.0.6.RELEASE:compile - version managed from 3.0.3.RELEASE; omitted for duplicate)" ; 
+	"org.springframework.batch:spring-batch-excel:jar:0.5.0-SNAPSHOT:compile" -> "(org.springframework.batch:spring-batch-infrastructure:jar:3.0.6.RELEASE:compile - version managed from 3.0.3.RELEASE; omitted for duplicate)" ; 
+	"org.apache.poi:poi:jar:3.11:compile" -> "commons-codec:commons-codec:jar:1.10:compile (version managed from 1.9)" ; 
+	"org.apache.poi:poi-ooxml:jar:3.11:compile" -> "(org.apache.poi:poi:jar:3.11:compile - version managed from 3.11; omitted for duplicate)" ; 
+	"org.apache.poi:poi-ooxml:jar:3.11:compile" -> "org.apache.poi:poi-ooxml-schemas:jar:3.11:compile" ; 
+	"org.apache.poi:poi-ooxml-schemas:jar:3.11:compile" -> "org.apache.xmlbeans:xmlbeans:jar:2.6.0:compile (version managed from 2.6.0)" ; 
+	"org.apache.xmlbeans:xmlbeans:jar:2.6.0:compile (version managed from 2.6.0)" -> "stax:stax-api:jar:1.0.1:compile" ; 
+}
+net.petrikainulainen.spring.batch:spring-boot:jar:0.1
++- org.springframework.boot:spring-boot-starter-batch:jar:1.3.2.RELEASE:compile
+|  +- org.springframework.boot:spring-boot-starter:jar:1.3.2.RELEASE:compile
+|  |  +- org.springframework.boot:spring-boot:jar:1.3.2.RELEASE:compile
+|  |  |  +- (org.springframework:spring-core:jar:4.2.4.RELEASE:compile - omitted for duplicate)
+|  |  |  \- (org.springframework:spring-context:jar:4.2.4.RELEASE:compile - version managed from 4.0.5.RELEASE; omitted for duplicate)
+|  |  +- org.springframework.boot:spring-boot-autoconfigure:jar:1.3.2.RELEASE:compile
+|  |  |  \- (org.springframework.boot:spring-boot:jar:1.3.2.RELEASE:compile - omitted for duplicate)
+|  |  +- org.springframework.boot:spring-boot-starter-logging:jar:1.3.2.RELEASE:compile
+|  |  |  +- ch.qos.logback:logback-classic:jar:1.1.3:compile
+|  |  |  |  +- ch.qos.logback:logback-core:jar:1.1.3:compile
+|  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.13:compile - version managed from 1.7.7; omitted for duplicate)
+|  |  |  +- org.slf4j:jcl-over-slf4j:jar:1.7.13:compile
+|  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.13:compile - version managed from 1.7.7; omitted for duplicate)
+|  |  |  +- org.slf4j:jul-to-slf4j:jar:1.7.13:compile
+|  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.13:compile - version managed from 1.7.7; omitted for duplicate)
+|  |  |  \- org.slf4j:log4j-over-slf4j:jar:1.7.13:compile
+|  |  |     \- (org.slf4j:slf4j-api:jar:1.7.13:compile - version managed from 1.7.7; omitted for duplicate)
+|  |  +- (org.springframework:spring-core:jar:4.2.4.RELEASE:compile - version managed from 4.1.9.RELEASE; omitted for duplicate)
+|  |  \- org.yaml:snakeyaml:jar:1.16:runtime
+|  +- org.hsqldb:hsqldb:jar:2.3.3:compile
+|  +- org.springframework:spring-jdbc:jar:4.2.4.RELEASE:compile
+|  |  +- (org.springframework:spring-beans:jar:4.2.4.RELEASE:compile - version managed from 4.1.9.RELEASE; omitted for duplicate)
+|  |  +- (org.springframework:spring-core:jar:4.2.4.RELEASE:compile - omitted for duplicate)
+|  |  \- org.springframework:spring-tx:jar:4.2.4.RELEASE:compile
+|  |     +- (org.springframework:spring-beans:jar:4.2.4.RELEASE:compile - omitted for duplicate)
+|  |     \- (org.springframework:spring-core:jar:4.2.4.RELEASE:compile - omitted for duplicate)
+|  \- org.springframework.batch:spring-batch-core:jar:3.0.6.RELEASE:compile
+|     +- com.ibm.jbatch:com.ibm.jbatch-tck-spi:jar:1.0:compile
+|     |  \- javax.batch:javax.batch-api:jar:1.0:compile
+|     +- com.thoughtworks.xstream:xstream:jar:1.4.7:compile
+|     |  +- xmlpull:xmlpull:jar:1.1.3.1:compile
+|     |  \- xpp3:xpp3_min:jar:1.1.4c:compile
+|     +- org.codehaus.jettison:jettison:jar:1.2:compile
+|     +- (org.springframework.batch:spring-batch-infrastructure:jar:3.0.6.RELEASE:compile - version managed from 3.0.3.RELEASE; omitted for duplicate)
+|     +- org.springframework:spring-aop:jar:4.2.4.RELEASE:compile
+|     |  +- aopalliance:aopalliance:jar:1.0:compile
+|     |  +- (org.springframework:spring-beans:jar:4.2.4.RELEASE:compile - omitted for duplicate)
+|     |  \- (org.springframework:spring-core:jar:4.2.4.RELEASE:compile - version managed from 4.0.4.RELEASE; omitted for duplicate)
+|     +- (org.springframework:spring-beans:jar:4.2.4.RELEASE:compile - version managed from 4.0.5.RELEASE; omitted for duplicate)
+|     +- org.springframework:spring-context:jar:4.2.4.RELEASE:compile
+|     |  +- (org.springframework:spring-aop:jar:4.2.4.RELEASE:compile - version managed from 4.0.5.RELEASE; omitted for duplicate)
+|     |  +- (org.springframework:spring-beans:jar:4.2.4.RELEASE:compile - version managed from 4.0.5.RELEASE; omitted for duplicate)
+|     |  +- (org.springframework:spring-core:jar:4.2.4.RELEASE:compile - version managed from 4.0.4.RELEASE; omitted for duplicate)
+|     |  \- (org.springframework:spring-expression:jar:4.2.4.RELEASE:compile - omitted for duplicate)
+|     +- (org.springframework:spring-core:jar:4.2.4.RELEASE:compile - version managed from 4.0.5.RELEASE; omitted for duplicate)
+|     \- (org.springframework:spring-tx:jar:4.2.4.RELEASE:compile - version managed from 4.0.5.RELEASE; omitted for duplicate)
++- org.springframework.batch:spring-batch-excel:jar:0.5.0-SNAPSHOT:compile
+|  +- (org.springframework.batch:spring-batch-core:jar:3.0.6.RELEASE:compile - version managed from 3.0.3.RELEASE; omitted for duplicate)
+|  \- org.springframework.batch:spring-batch-infrastructure:jar:3.0.6.RELEASE:compile
+|     \- org.springframework.retry:spring-retry:jar:1.1.2.RELEASE:compile (version managed from 1.1.0.RELEASE)
+|        \- (org.springframework:spring-core:jar:4.2.4.RELEASE:compile - version managed from 4.0.4.RELEASE; omitted for duplicate)
++- org.apache.poi:poi:jar:3.11:compile
+|  \- commons-codec:commons-codec:jar:1.9:compile
++- org.apache.poi:poi-ooxml:jar:3.11:compile
+|  +- (org.apache.poi:poi:jar:3.11:compile - omitted for duplicate)
+|  \- org.apache.poi:poi-ooxml-schemas:jar:3.11:compile
+|     \- org.apache.xmlbeans:xmlbeans:jar:2.6.0:compile
+|        \- stax:stax-api:jar:1.0.1:compile
++- org.springframework.boot:spring-boot-starter-data-jpa:jar:1.3.2.RELEASE:compile
+|  +- (org.springframework.boot:spring-boot-starter:jar:1.3.2.RELEASE:compile - omitted for duplicate)
+|  +- org.springframework.boot:spring-boot-starter-aop:jar:1.3.2.RELEASE:compile
+|  |  +- (org.springframework.boot:spring-boot-starter:jar:1.3.2.RELEASE:compile - omitted for duplicate)
+|  |  +- (org.springframework:spring-aop:jar:4.2.4.RELEASE:compile - version managed from 4.0.5.RELEASE; omitted for duplicate)
+|  |  \- org.aspectj:aspectjweaver:jar:1.8.8:compile
+|  +- org.springframework.boot:spring-boot-starter-jdbc:jar:1.3.2.RELEASE:compile
+|  |  +- (org.springframework.boot:spring-boot-starter:jar:1.3.2.RELEASE:compile - omitted for duplicate)
+|  |  +- org.apache.tomcat:tomcat-jdbc:jar:8.0.30:compile
+|  |  |  \- org.apache.tomcat:tomcat-juli:jar:8.0.30:compile
+|  |  \- (org.springframework:spring-jdbc:jar:4.2.4.RELEASE:compile - omitted for duplicate)
+|  +- org.hibernate:hibernate-entitymanager:jar:4.3.11.Final:compile
+|  |  +- org.jboss.logging:jboss-logging:jar:3.3.0.Final:compile (version managed from 3.1.3.GA)
+|  |  +- org.jboss.logging:jboss-logging-annotations:jar:1.2.0.Beta1:compile
+|  |  +- org.hibernate:hibernate-core:jar:4.3.11.Final:compile
+|  |  |  +- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:compile - version managed from 3.1.3.GA; omitted for duplicate)
+|  |  |  +- (org.jboss.logging:jboss-logging-annotations:jar:1.2.0.Beta1:compile - omitted for duplicate)
+|  |  |  +- (dom4j:dom4j:jar:1.6.1:compile - omitted for duplicate)
+|  |  |  +- (org.hibernate.common:hibernate-commons-annotations:jar:4.0.5.Final:compile - omitted for duplicate)
+|  |  |  +- (org.hibernate.javax.persistence:hibernate-jpa-2.1-api:jar:1.0.0.Final:compile - omitted for duplicate)
+|  |  |  +- (org.javassist:javassist:jar:3.18.1-GA:compile - omitted for duplicate)
+|  |  |  +- antlr:antlr:jar:2.7.7:compile
+|  |  |  \- org.jboss:jandex:jar:1.1.0.Final:compile
+|  |  +- dom4j:dom4j:jar:1.6.1:compile
+|  |  |  \- xml-apis:xml-apis:jar:1.0.b2:compile
+|  |  +- org.hibernate.common:hibernate-commons-annotations:jar:4.0.5.Final:compile
+|  |  |  +- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:compile - version managed from 3.1.3.GA; omitted for duplicate)
+|  |  |  \- (org.jboss.logging:jboss-logging-annotations:jar:1.2.0.Beta1:compile - omitted for duplicate)
+|  |  +- org.hibernate.javax.persistence:hibernate-jpa-2.1-api:jar:1.0.0.Final:compile
+|  |  \- org.javassist:javassist:jar:3.18.1-GA:compile
+|  +- javax.transaction:javax.transaction-api:jar:1.2:compile
+|  +- org.springframework.data:spring-data-jpa:jar:1.9.2.RELEASE:compile
+|  |  +- org.springframework.data:spring-data-commons:jar:1.11.2.RELEASE:compile
+|  |  |  +- (org.springframework:spring-core:jar:4.2.4.RELEASE:compile - version managed from 4.1.9.RELEASE; omitted for duplicate)
+|  |  |  +- (org.springframework:spring-beans:jar:4.2.4.RELEASE:compile - version managed from 4.1.9.RELEASE; omitted for duplicate)
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.13:compile - version managed from 1.7.7; omitted for duplicate)
+|  |  |  \- (org.slf4j:jcl-over-slf4j:jar:1.7.13:runtime - omitted for duplicate)
+|  |  +- org.springframework:spring-orm:jar:4.2.4.RELEASE:compile (version managed from 4.1.9.RELEASE)
+|  |  |  +- (org.springframework:spring-beans:jar:4.2.4.RELEASE:compile - version managed from 4.1.9.RELEASE; omitted for duplicate)
+|  |  |  +- (org.springframework:spring-core:jar:4.2.4.RELEASE:compile - version managed from 4.1.9.RELEASE; omitted for duplicate)
+|  |  |  +- (org.springframework:spring-jdbc:jar:4.2.4.RELEASE:compile - omitted for duplicate)
+|  |  |  \- (org.springframework:spring-tx:jar:4.2.4.RELEASE:compile - version managed from 4.0.5.RELEASE; omitted for duplicate)
+|  |  +- (org.springframework:spring-context:jar:4.2.4.RELEASE:compile - version managed from 4.1.9.RELEASE; omitted for duplicate)
+|  |  +- (org.springframework:spring-aop:jar:4.2.4.RELEASE:compile - version managed from 4.1.9.RELEASE; omitted for duplicate)
+|  |  +- (org.springframework:spring-tx:jar:4.2.4.RELEASE:compile - version managed from 4.1.9.RELEASE; omitted for duplicate)
+|  |  +- (org.springframework:spring-beans:jar:4.2.4.RELEASE:compile - version managed from 4.1.9.RELEASE; omitted for duplicate)
+|  |  +- (org.springframework:spring-core:jar:4.2.4.RELEASE:compile - version managed from 4.1.9.RELEASE; omitted for duplicate)
+|  |  +- org.slf4j:slf4j-api:jar:1.7.13:compile
+|  |  \- (org.slf4j:jcl-over-slf4j:jar:1.7.13:compile - scope updated from runtime; omitted for duplicate)
+|  \- org.springframework:spring-aspects:jar:4.2.4.RELEASE:compile
+|     \- (org.aspectj:aspectjweaver:jar:1.8.8:compile - version managed from 1.8.7; omitted for duplicate)
++- org.springframework.boot:spring-boot-starter-web:jar:1.3.2.RELEASE:compile
+|  +- (org.springframework.boot:spring-boot-starter:jar:1.3.2.RELEASE:compile - omitted for duplicate)
+|  +- org.springframework.boot:spring-boot-starter-tomcat:jar:1.3.2.RELEASE:compile
+|  |  +- org.apache.tomcat.embed:tomcat-embed-core:jar:8.0.30:compile
+|  |  +- org.apache.tomcat.embed:tomcat-embed-el:jar:8.0.30:compile
+|  |  +- org.apache.tomcat.embed:tomcat-embed-logging-juli:jar:8.0.30:compile
+|  |  \- org.apache.tomcat.embed:tomcat-embed-websocket:jar:8.0.30:compile
+|  |     \- (org.apache.tomcat.embed:tomcat-embed-core:jar:8.0.30:compile - omitted for duplicate)
+|  +- org.springframework.boot:spring-boot-starter-validation:jar:1.3.2.RELEASE:compile
+|  |  +- (org.springframework.boot:spring-boot-starter:jar:1.3.2.RELEASE:compile - omitted for duplicate)
+|  |  +- (org.apache.tomcat.embed:tomcat-embed-el:jar:8.0.30:compile - omitted for duplicate)
+|  |  \- org.hibernate:hibernate-validator:jar:5.2.2.Final:compile
+|  |     +- javax.validation:validation-api:jar:1.1.0.Final:compile
+|  |     +- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:compile - version managed from 3.2.1.Final; omitted for duplicate)
+|  |     \- com.fasterxml:classmate:jar:1.1.0:compile
+|  +- com.fasterxml.jackson.core:jackson-databind:jar:2.6.5:compile
+|  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.6.5:compile (version managed from 2.6.0)
+|  |  \- com.fasterxml.jackson.core:jackson-core:jar:2.6.5:compile
+|  +- org.springframework:spring-web:jar:4.2.4.RELEASE:compile
+|  |  +- (org.springframework:spring-aop:jar:4.2.4.RELEASE:compile - version managed from 4.1.9.RELEASE; omitted for duplicate)
+|  |  +- (org.springframework:spring-beans:jar:4.2.4.RELEASE:compile - version managed from 4.1.9.RELEASE; omitted for duplicate)
+|  |  +- (org.springframework:spring-context:jar:4.2.4.RELEASE:compile - version managed from 4.1.9.RELEASE; omitted for duplicate)
+|  |  \- (org.springframework:spring-core:jar:4.2.4.RELEASE:compile - version managed from 4.1.9.RELEASE; omitted for duplicate)
+|  \- org.springframework:spring-webmvc:jar:4.2.4.RELEASE:compile
+|     +- (org.springframework:spring-beans:jar:4.2.4.RELEASE:compile - version managed from 4.1.9.RELEASE; omitted for duplicate)
+|     +- (org.springframework:spring-context:jar:4.2.4.RELEASE:compile - version managed from 4.1.9.RELEASE; omitted for duplicate)
+|     +- (org.springframework:spring-core:jar:4.2.4.RELEASE:compile - version managed from 4.1.9.RELEASE; omitted for duplicate)
+|     +- org.springframework:spring-expression:jar:4.2.4.RELEASE:compile
+|     |  \- (org.springframework:spring-core:jar:4.2.4.RELEASE:compile - version managed from 4.1.9.RELEASE; omitted for duplicate)
+|     \- (org.springframework:spring-web:jar:4.2.4.RELEASE:compile - omitted for duplicate)
++- org.springframework:spring-oxm:jar:4.2.4.RELEASE:compile
+|  +- org.springframework:spring-beans:jar:4.2.4.RELEASE:compile
+|  |  \- (org.springframework:spring-core:jar:4.2.4.RELEASE:compile - version managed from 4.1.9.RELEASE; omitted for duplicate)
+|  \- org.springframework:spring-core:jar:4.2.4.RELEASE:compile
++- org.apache.commons:commons-lang3:jar:3.4:compile
++- org.liquibase:liquibase-core:jar:3.4.2:compile
+\- com.h2database:h2:jar:1.4.190:compile
+digraph csv-file {
+	"net.petrikainulainen.spring.batch:write-data-to-csv-file:jar:0.1" -> "com.h2database:h2:jar:1.4.200:runtime" ; 
+	"net.petrikainulainen.spring.batch:write-data-to-csv-file:jar:0.1" -> "org.liquibase:liquibase-core:jar:3.10.3:runtime" ; 
+	"net.petrikainulainen.spring.batch:write-data-to-csv-file:jar:0.1" -> "org.springframework.boot:spring-boot-starter-batch:jar:2.4.1:compile" ; 
+	"net.petrikainulainen.spring.batch:write-data-to-csv-file:jar:0.1" -> "org.springframework.boot:spring-boot-starter-jdbc:jar:2.4.1:compile" ; 
+	"net.petrikainulainen.spring.batch:write-data-to-csv-file:jar:0.1" -> "org.springframework.boot:spring-boot-starter-web:jar:2.4.1:compile" ; 
+	"org.liquibase:liquibase-core:jar:3.10.3:runtime" -> "javax.xml.bind:jaxb-api:jar:2.3.1:runtime" ; 
+	"org.liquibase:liquibase-core:jar:3.10.3:runtime" -> "org.slf4j:slf4j-api:jar:1.7.30:compile" ; 
+	"javax.xml.bind:jaxb-api:jar:2.3.1:runtime" -> "javax.activation:javax.activation-api:jar:1.2.0:runtime" ; 
+	"org.springframework.boot:spring-boot-starter-batch:jar:2.4.1:compile" -> "org.springframework.boot:spring-boot-starter:jar:2.4.1:compile" ; 
+	"org.springframework.boot:spring-boot-starter-batch:jar:2.4.1:compile" -> "org.springframework.batch:spring-batch-core:jar:4.3.1:compile" ; 
+	"org.springframework.boot:spring-boot-starter:jar:2.4.1:compile" -> "org.springframework.boot:spring-boot:jar:2.4.1:compile" ; 
+	"org.springframework.boot:spring-boot-starter:jar:2.4.1:compile" -> "org.springframework.boot:spring-boot-autoconfigure:jar:2.4.1:compile" ; 
+	"org.springframework.boot:spring-boot-starter:jar:2.4.1:compile" -> "org.springframework.boot:spring-boot-starter-logging:jar:2.4.1:compile" ; 
+	"org.springframework.boot:spring-boot-starter:jar:2.4.1:compile" -> "jakarta.annotation:jakarta.annotation-api:jar:1.3.5:compile" ; 
+	"org.springframework.boot:spring-boot-starter:jar:2.4.1:compile" -> "org.springframework:spring-core:jar:5.3.2:compile" ; 
+	"org.springframework.boot:spring-boot-starter:jar:2.4.1:compile" -> "org.yaml:snakeyaml:jar:1.27:compile" ; 
+	"org.springframework.boot:spring-boot-starter-logging:jar:2.4.1:compile" -> "ch.qos.logback:logback-classic:jar:1.2.3:compile" ; 
+	"org.springframework.boot:spring-boot-starter-logging:jar:2.4.1:compile" -> "org.apache.logging.log4j:log4j-to-slf4j:jar:2.13.3:compile" ; 
+	"org.springframework.boot:spring-boot-starter-logging:jar:2.4.1:compile" -> "org.slf4j:jul-to-slf4j:jar:1.7.30:compile" ; 
+	"ch.qos.logback:logback-classic:jar:1.2.3:compile" -> "ch.qos.logback:logback-core:jar:1.2.3:compile" ; 
+	"org.apache.logging.log4j:log4j-to-slf4j:jar:2.13.3:compile" -> "org.apache.logging.log4j:log4j-api:jar:2.13.3:compile" ; 
+	"org.springframework:spring-core:jar:5.3.2:compile" -> "org.springframework:spring-jcl:jar:5.3.2:compile" ; 
+	"org.springframework.batch:spring-batch-core:jar:4.3.1:compile" -> "com.fasterxml.jackson.core:jackson-databind:jar:2.11.3:compile" ; 
+	"org.springframework.batch:spring-batch-core:jar:4.3.1:compile" -> "io.micrometer:micrometer-core:jar:1.6.2:compile" ; 
+	"org.springframework.batch:spring-batch-core:jar:4.3.1:compile" -> "javax.batch:javax.batch-api:jar:1.0:compile" ; 
+	"org.springframework.batch:spring-batch-core:jar:4.3.1:compile" -> "org.codehaus.jettison:jettison:jar:1.2:compile" ; 
+	"org.springframework.batch:spring-batch-core:jar:4.3.1:compile" -> "org.springframework.batch:spring-batch-infrastructure:jar:4.3.1:compile" ; 
+	"org.springframework.batch:spring-batch-core:jar:4.3.1:compile" -> "org.springframework:spring-aop:jar:5.3.2:compile" ; 
+	"org.springframework.batch:spring-batch-core:jar:4.3.1:compile" -> "org.springframework:spring-beans:jar:5.3.2:compile" ; 
+	"org.springframework.batch:spring-batch-core:jar:4.3.1:compile" -> "org.springframework:spring-context:jar:5.3.2:compile" ; 
+	"org.springframework.batch:spring-batch-core:jar:4.3.1:compile" -> "org.springframework:spring-tx:jar:5.3.2:compile" ; 
+	"com.fasterxml.jackson.core:jackson-databind:jar:2.11.3:compile" -> "com.fasterxml.jackson.core:jackson-annotations:jar:2.11.3:compile" ; 
+	"com.fasterxml.jackson.core:jackson-databind:jar:2.11.3:compile" -> "com.fasterxml.jackson.core:jackson-core:jar:2.11.3:compile" ; 
+	"io.micrometer:micrometer-core:jar:1.6.2:compile" -> "org.hdrhistogram:HdrHistogram:jar:2.1.12:compile" ; 
+	"io.micrometer:micrometer-core:jar:1.6.2:compile" -> "org.latencyutils:LatencyUtils:jar:2.0.3:runtime" ; 
+	"org.springframework.batch:spring-batch-infrastructure:jar:4.3.1:compile" -> "org.springframework.retry:spring-retry:jar:1.3.0:compile" ; 
+	"org.springframework.retry:spring-retry:jar:1.3.0:compile" -> "javax.annotation:javax.annotation-api:jar:1.3.2:compile" ; 
+	"org.springframework.boot:spring-boot-starter-jdbc:jar:2.4.1:compile" -> "com.zaxxer:HikariCP:jar:3.4.5:compile" ; 
+	"org.springframework.boot:spring-boot-starter-jdbc:jar:2.4.1:compile" -> "org.springframework:spring-jdbc:jar:5.3.2:compile" ; 
+	"org.springframework.boot:spring-boot-starter-web:jar:2.4.1:compile" -> "org.springframework.boot:spring-boot-starter-json:jar:2.4.1:compile" ; 
+	"org.springframework.boot:spring-boot-starter-web:jar:2.4.1:compile" -> "org.springframework.boot:spring-boot-starter-tomcat:jar:2.4.1:compile" ; 
+	"org.springframework.boot:spring-boot-starter-web:jar:2.4.1:compile" -> "org.springframework:spring-web:jar:5.3.2:compile" ; 
+	"org.springframework.boot:spring-boot-starter-web:jar:2.4.1:compile" -> "org.springframework:spring-webmvc:jar:5.3.2:compile" ; 
+	"org.springframework.boot:spring-boot-starter-json:jar:2.4.1:compile" -> "com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.11.3:compile" ; 
+	"org.springframework.boot:spring-boot-starter-json:jar:2.4.1:compile" -> "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.11.3:compile" ; 
+	"org.springframework.boot:spring-boot-starter-json:jar:2.4.1:compile" -> "com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.11.3:compile" ; 
+	"org.springframework.boot:spring-boot-starter-tomcat:jar:2.4.1:compile" -> "org.apache.tomcat.embed:tomcat-embed-core:jar:9.0.41:compile" ; 
+	"org.springframework.boot:spring-boot-starter-tomcat:jar:2.4.1:compile" -> "org.glassfish:jakarta.el:jar:3.0.3:compile" ; 
+	"org.springframework.boot:spring-boot-starter-tomcat:jar:2.4.1:compile" -> "org.apache.tomcat.embed:tomcat-embed-websocket:jar:9.0.41:compile" ; 
+	"org.springframework:spring-webmvc:jar:5.3.2:compile" -> "org.springframework:spring-expression:jar:5.3.2:compile" ; 
+}
+digraph xml-file {
+	"net.petrikainulainen.spring.batch:write-data-to-xml-file:jar:0.1" -> "com.h2database:h2:jar:1.4.200:runtime" ; 
+	"net.petrikainulainen.spring.batch:write-data-to-xml-file:jar:0.1" -> "org.liquibase:liquibase-core:jar:3.10.3:runtime" ; 
+	"net.petrikainulainen.spring.batch:write-data-to-xml-file:jar:0.1" -> "org.springframework:spring-oxm:jar:5.3.2:compile" ; 
+	"net.petrikainulainen.spring.batch:write-data-to-xml-file:jar:0.1" -> "com.thoughtworks.xstream:xstream:jar:1.4.15:compile" ; 
+	"net.petrikainulainen.spring.batch:write-data-to-xml-file:jar:0.1" -> "org.springframework.boot:spring-boot-starter-batch:jar:2.4.1:compile" ; 
+	"net.petrikainulainen.spring.batch:write-data-to-xml-file:jar:0.1" -> "org.springframework.boot:spring-boot-starter-jdbc:jar:2.4.1:compile" ; 
+	"net.petrikainulainen.spring.batch:write-data-to-xml-file:jar:0.1" -> "org.springframework.boot:spring-boot-starter-web:jar:2.4.1:compile" ; 
+	"org.liquibase:liquibase-core:jar:3.10.3:runtime" -> "javax.xml.bind:jaxb-api:jar:2.3.1:runtime" ; 
+	"org.liquibase:liquibase-core:jar:3.10.3:runtime" -> "org.slf4j:slf4j-api:jar:1.7.30:compile" ; 
+	"javax.xml.bind:jaxb-api:jar:2.3.1:runtime" -> "javax.activation:javax.activation-api:jar:1.2.0:runtime" ; 
+	"org.springframework:spring-oxm:jar:5.3.2:compile" -> "org.springframework:spring-beans:jar:5.3.2:compile" ; 
+	"org.springframework:spring-oxm:jar:5.3.2:compile" -> "org.springframework:spring-core:jar:5.3.2:compile" ; 
+	"org.springframework:spring-core:jar:5.3.2:compile" -> "org.springframework:spring-jcl:jar:5.3.2:compile" ; 
+	"com.thoughtworks.xstream:xstream:jar:1.4.15:compile" -> "xmlpull:xmlpull:jar:1.1.3.1:compile" ; 
+	"com.thoughtworks.xstream:xstream:jar:1.4.15:compile" -> "xpp3:xpp3_min:jar:1.1.4c:compile" ; 
+	"org.springframework.boot:spring-boot-starter-batch:jar:2.4.1:compile" -> "org.springframework.boot:spring-boot-starter:jar:2.4.1:compile" ; 
+	"org.springframework.boot:spring-boot-starter-batch:jar:2.4.1:compile" -> "org.springframework.batch:spring-batch-core:jar:4.3.1:compile" ; 
+	"org.springframework.boot:spring-boot-starter:jar:2.4.1:compile" -> "org.springframework.boot:spring-boot:jar:2.4.1:compile" ; 
+	"org.springframework.boot:spring-boot-starter:jar:2.4.1:compile" -> "org.springframework.boot:spring-boot-autoconfigure:jar:2.4.1:compile" ; 
+	"org.springframework.boot:spring-boot-starter:jar:2.4.1:compile" -> "org.springframework.boot:spring-boot-starter-logging:jar:2.4.1:compile" ; 
+	"org.springframework.boot:spring-boot-starter:jar:2.4.1:compile" -> "jakarta.annotation:jakarta.annotation-api:jar:1.3.5:compile" ; 
+	"org.springframework.boot:spring-boot-starter:jar:2.4.1:compile" -> "org.yaml:snakeyaml:jar:1.27:compile" ; 
+	"org.springframework.boot:spring-boot-starter-logging:jar:2.4.1:compile" -> "ch.qos.logback:logback-classic:jar:1.2.3:compile" ; 
+	"org.springframework.boot:spring-boot-starter-logging:jar:2.4.1:compile" -> "org.apache.logging.log4j:log4j-to-slf4j:jar:2.13.3:compile" ; 
+	"org.springframework.boot:spring-boot-starter-logging:jar:2.4.1:compile" -> "org.slf4j:jul-to-slf4j:jar:1.7.30:compile" ; 
+	"ch.qos.logback:logback-classic:jar:1.2.3:compile" -> "ch.qos.logback:logback-core:jar:1.2.3:compile" ; 
+	"org.apache.logging.log4j:log4j-to-slf4j:jar:2.13.3:compile" -> "org.apache.logging.log4j:log4j-api:jar:2.13.3:compile" ; 
+	"org.springframework.batch:spring-batch-core:jar:4.3.1:compile" -> "com.fasterxml.jackson.core:jackson-databind:jar:2.11.3:compile" ; 
+	"org.springframework.batch:spring-batch-core:jar:4.3.1:compile" -> "io.micrometer:micrometer-core:jar:1.6.2:compile" ; 
+	"org.springframework.batch:spring-batch-core:jar:4.3.1:compile" -> "javax.batch:javax.batch-api:jar:1.0:compile" ; 
+	"org.springframework.batch:spring-batch-core:jar:4.3.1:compile" -> "org.codehaus.jettison:jettison:jar:1.2:compile" ; 
+	"org.springframework.batch:spring-batch-core:jar:4.3.1:compile" -> "org.springframework.batch:spring-batch-infrastructure:jar:4.3.1:compile" ; 
+	"org.springframework.batch:spring-batch-core:jar:4.3.1:compile" -> "org.springframework:spring-aop:jar:5.3.2:compile" ; 
+	"org.springframework.batch:spring-batch-core:jar:4.3.1:compile" -> "org.springframework:spring-context:jar:5.3.2:compile" ; 
+	"org.springframework.batch:spring-batch-core:jar:4.3.1:compile" -> "org.springframework:spring-tx:jar:5.3.2:compile" ; 
+	"com.fasterxml.jackson.core:jackson-databind:jar:2.11.3:compile" -> "com.fasterxml.jackson.core:jackson-annotations:jar:2.11.3:compile" ; 
+	"com.fasterxml.jackson.core:jackson-databind:jar:2.11.3:compile" -> "com.fasterxml.jackson.core:jackson-core:jar:2.11.3:compile" ; 
+	"io.micrometer:micrometer-core:jar:1.6.2:compile" -> "org.hdrhistogram:HdrHistogram:jar:2.1.12:compile" ; 
+	"io.micrometer:micrometer-core:jar:1.6.2:compile" -> "org.latencyutils:LatencyUtils:jar:2.0.3:runtime" ; 
+	"org.springframework.batch:spring-batch-infrastructure:jar:4.3.1:compile" -> "org.springframework.retry:spring-retry:jar:1.3.0:compile" ; 
+	"org.springframework.retry:spring-retry:jar:1.3.0:compile" -> "javax.annotation:javax.annotation-api:jar:1.3.2:compile" ; 
+	"org.springframework.boot:spring-boot-starter-jdbc:jar:2.4.1:compile" -> "com.zaxxer:HikariCP:jar:3.4.5:compile" ; 
+	"org.springframework.boot:spring-boot-starter-jdbc:jar:2.4.1:compile" -> "org.springframework:spring-jdbc:jar:5.3.2:compile" ; 
+	"org.springframework.boot:spring-boot-starter-web:jar:2.4.1:compile" -> "org.springframework.boot:spring-boot-starter-json:jar:2.4.1:compile" ; 
+	"org.springframework.boot:spring-boot-starter-web:jar:2.4.1:compile" -> "org.springframework.boot:spring-boot-starter-tomcat:jar:2.4.1:compile" ; 
+	"org.springframework.boot:spring-boot-starter-web:jar:2.4.1:compile" -> "org.springframework:spring-web:jar:5.3.2:compile" ; 
+	"org.springframework.boot:spring-boot-starter-web:jar:2.4.1:compile" -> "org.springframework:spring-webmvc:jar:5.3.2:compile" ; 
+	"org.springframework.boot:spring-boot-starter-json:jar:2.4.1:compile" -> "com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.11.3:compile" ; 
+	"org.springframework.boot:spring-boot-starter-json:jar:2.4.1:compile" -> "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.11.3:compile" ; 
+	"org.springframework.boot:spring-boot-starter-json:jar:2.4.1:compile" -> "com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.11.3:compile" ; 
+	"org.springframework.boot:spring-boot-starter-tomcat:jar:2.4.1:compile" -> "org.apache.tomcat.embed:tomcat-embed-core:jar:9.0.41:compile" ; 
+	"org.springframework.boot:spring-boot-starter-tomcat:jar:2.4.1:compile" -> "org.glassfish:jakarta.el:jar:3.0.3:compile" ; 
+	"org.springframework.boot:spring-boot-starter-tomcat:jar:2.4.1:compile" -> "org.apache.tomcat.embed:tomcat-embed-websocket:jar:9.0.41:compile" ; 
+	"org.springframework:spring-webmvc:jar:5.3.2:compile" -> "org.springframework:spring-expression:jar:5.3.2:compile" ; 
+}

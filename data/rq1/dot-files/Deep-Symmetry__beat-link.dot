@@ -1,0 +1,17 @@
+digraph Deep-Symmetry__beat-link {
+	"org.deepsymmetry:beat-link:jar:8.0.0-SNAPSHOT" -> "org.deepsymmetry:electro:jar:0.1.4:compile" ; 
+	"org.deepsymmetry:beat-link:jar:8.0.0-SNAPSHOT" -> "org.deepsymmetry:crate-digger:jar:0.2.1-SNAPSHOT:compile" ; 
+	"org.deepsymmetry:beat-link:jar:8.0.0-SNAPSHOT" -> "io.github.willena:sqlite-jdbc:jar:3.49.0.0:compile" ; 
+	"org.deepsymmetry:beat-link:jar:8.0.0-SNAPSHOT" -> "io.kaitai:kaitai-struct-runtime:jar:0.10:compile" ; 
+	"org.deepsymmetry:beat-link:jar:8.0.0-SNAPSHOT" -> "org.slf4j:slf4j-api:jar:1.7.36:compile" ; 
+	"org.deepsymmetry:beat-link:jar:8.0.0-SNAPSHOT" -> "org.slf4j:slf4j-simple:jar:1.7.36:test" ; 
+	"org.deepsymmetry:beat-link:jar:8.0.0-SNAPSHOT" -> "org.apiguardian:apiguardian-api:jar:1.1.2:compile" ; 
+	"org.deepsymmetry:beat-link:jar:8.0.0-SNAPSHOT" -> "junit:junit:jar:4.13.2:test" ; 
+	"org.deepsymmetry:electro:jar:0.1.4:compile" -> "org.apache.commons:commons-math3:jar:3.6.1:compile" ; 
+	"org.deepsymmetry:crate-digger:jar:0.2.1-SNAPSHOT:compile" -> "(io.kaitai:kaitai-struct-runtime:jar:0.10:compile - omitted for duplicate)" ; 
+	"org.deepsymmetry:crate-digger:jar:0.2.1-SNAPSHOT:compile" -> "org.acplt.remotetea:remotetea-oncrpc:jar:1.1.4:compile" ; 
+	"org.deepsymmetry:crate-digger:jar:0.2.1-SNAPSHOT:compile" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:compile - omitted for duplicate)" ; 
+	"org.deepsymmetry:crate-digger:jar:0.2.1-SNAPSHOT:compile" -> "(org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for conflict with 1.7.36)" ; 
+	"org.slf4j:slf4j-simple:jar:1.7.36:test" -> "(org.slf4j:slf4j-api:jar:1.7.36:test - omitted for duplicate)" ; 
+	"junit:junit:jar:4.13.2:test" -> "org.hamcrest:hamcrest-core:jar:1.3:test" ; 
+}

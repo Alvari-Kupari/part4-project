@@ -1,0 +1,88 @@
+digraph dddplus-enforce {
+	"io.github.dddplus:dddplus-enforce:jar:2.1.1-SNAPSHOT" -> "com.tngtech.archunit:archunit:jar:0.15.0:compile" ; 
+	"io.github.dddplus:dddplus-enforce:jar:2.1.1-SNAPSHOT" -> "io.github.dddplus:dddplus-runtime:jar:2.1.1-SNAPSHOT:provided" ; 
+	"io.github.dddplus:dddplus-enforce:jar:2.1.1-SNAPSHOT" -> "org.projectlombok:lombok:jar:1.18.8:provided" ; 
+	"com.tngtech.archunit:archunit:jar:0.15.0:compile" -> "org.slf4j:slf4j-api:jar:1.7.25:compile" ; 
+}
+digraph dddplus-maven-plugin {
+	"io.github.dddplus:dddplus-maven-plugin:maven-plugin:2.1.1-SNAPSHOT" -> "io.github.dddplus:dddplus-runtime:jar:2.1.1-SNAPSHOT:compile" ; 
+	"io.github.dddplus:dddplus-maven-plugin:maven-plugin:2.1.1-SNAPSHOT" -> "io.github.dddplus:dddplus-visualization:jar:2.1.1-SNAPSHOT:compile" ; 
+	"io.github.dddplus:dddplus-maven-plugin:maven-plugin:2.1.1-SNAPSHOT" -> "io.github.dddplus:dddplus-enforce:jar:2.1.1-SNAPSHOT:compile" ; 
+	"io.github.dddplus:dddplus-maven-plugin:maven-plugin:2.1.1-SNAPSHOT" -> "org.apache.maven:maven-plugin-api:jar:3.8.1:provided" ; 
+	"io.github.dddplus:dddplus-maven-plugin:maven-plugin:2.1.1-SNAPSHOT" -> "org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.7.0:provided" ; 
+	"io.github.dddplus:dddplus-maven-plugin:maven-plugin:2.1.1-SNAPSHOT" -> "org.projectlombok:lombok:jar:1.18.8:provided" ; 
+	"org.apache.maven:maven-plugin-api:jar:3.8.1:provided" -> "org.apache.maven:maven-model:jar:3.8.1:provided" ; 
+	"org.apache.maven:maven-plugin-api:jar:3.8.1:provided" -> "org.apache.maven:maven-artifact:jar:3.8.1:provided" ; 
+	"org.apache.maven:maven-plugin-api:jar:3.8.1:provided" -> "org.eclipse.sisu:org.eclipse.sisu.plexus:jar:0.3.4:provided" ; 
+	"org.apache.maven:maven-plugin-api:jar:3.8.1:provided" -> "org.codehaus.plexus:plexus-utils:jar:3.2.1:provided" ; 
+	"org.apache.maven:maven-plugin-api:jar:3.8.1:provided" -> "org.codehaus.plexus:plexus-classworlds:jar:2.6.0:provided" ; 
+	"org.apache.maven:maven-model:jar:3.8.1:provided" -> "(org.codehaus.plexus:plexus-utils:jar:3.2.1:provided - omitted for duplicate)" ; 
+	"org.apache.maven:maven-artifact:jar:3.8.1:provided" -> "(org.codehaus.plexus:plexus-utils:jar:3.2.1:provided - omitted for duplicate)" ; 
+	"org.apache.maven:maven-artifact:jar:3.8.1:provided" -> "org.apache.commons:commons-lang3:jar:3.8.1:provided" ; 
+	"org.eclipse.sisu:org.eclipse.sisu.plexus:jar:0.3.4:provided" -> "javax.enterprise:cdi-api:jar:1.0:provided" ; 
+	"org.eclipse.sisu:org.eclipse.sisu.plexus:jar:0.3.4:provided" -> "org.eclipse.sisu:org.eclipse.sisu.inject:jar:0.3.4:provided" ; 
+	"org.eclipse.sisu:org.eclipse.sisu.plexus:jar:0.3.4:provided" -> "org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:provided" ; 
+	"org.eclipse.sisu:org.eclipse.sisu.plexus:jar:0.3.4:provided" -> "(org.codehaus.plexus:plexus-classworlds:jar:2.5.2:provided - omitted for conflict with 2.6.0)" ; 
+	"org.eclipse.sisu:org.eclipse.sisu.plexus:jar:0.3.4:provided" -> "(org.codehaus.plexus:plexus-utils:jar:3.0.17:provided - omitted for conflict with 3.2.1)" ; 
+	"javax.enterprise:cdi-api:jar:1.0:provided" -> "javax.annotation:jsr250-api:jar:1.0:provided" ; 
+	"javax.enterprise:cdi-api:jar:1.0:provided" -> "javax.inject:javax.inject:jar:1:provided" ; 
+}
+digraph dddplus-mybatis {
+	"io.github.dddplus:dddplus-mybatis:jar:2.1.1-SNAPSHOT" -> "org.springframework:spring-context:jar:5.3.19:compile" ; 
+	"io.github.dddplus:dddplus-mybatis:jar:2.1.1-SNAPSHOT" -> "org.mybatis:mybatis:jar:3.5.6:compile" ; 
+	"io.github.dddplus:dddplus-mybatis:jar:2.1.1-SNAPSHOT" -> "org.projectlombok:lombok:jar:1.18.8:provided" ; 
+	"org.springframework:spring-context:jar:5.3.19:compile" -> "org.springframework:spring-aop:jar:5.3.19:compile" ; 
+	"org.springframework:spring-context:jar:5.3.19:compile" -> "org.springframework:spring-beans:jar:5.3.19:compile" ; 
+	"org.springframework:spring-context:jar:5.3.19:compile" -> "org.springframework:spring-core:jar:5.3.19:compile" ; 
+	"org.springframework:spring-context:jar:5.3.19:compile" -> "org.springframework:spring-expression:jar:5.3.19:compile" ; 
+	"org.springframework:spring-aop:jar:5.3.19:compile" -> "(org.springframework:spring-beans:jar:5.3.19:compile - omitted for duplicate)" ; 
+	"org.springframework:spring-aop:jar:5.3.19:compile" -> "(org.springframework:spring-core:jar:5.3.19:compile - omitted for duplicate)" ; 
+	"org.springframework:spring-beans:jar:5.3.19:compile" -> "(org.springframework:spring-core:jar:5.3.19:compile - omitted for duplicate)" ; 
+	"org.springframework:spring-core:jar:5.3.19:compile" -> "org.springframework:spring-jcl:jar:5.3.19:compile" ; 
+	"org.springframework:spring-expression:jar:5.3.19:compile" -> "(org.springframework:spring-core:jar:5.3.19:compile - omitted for duplicate)" ; 
+}
+digraph dddplus-plugin {
+	"io.github.dddplus:dddplus-plugin:jar:2.1.1-SNAPSHOT" -> "io.github.dddplus:dddplus-runtime:jar:2.1.1-SNAPSHOT:compile" ; 
+	"io.github.dddplus:dddplus-plugin:jar:2.1.1-SNAPSHOT" -> "org.slf4j:slf4j-api:jar:1.7.30:provided" ; 
+	"io.github.dddplus:dddplus-plugin:jar:2.1.1-SNAPSHOT" -> "org.projectlombok:lombok:jar:1.18.8:provided" ; 
+}
+digraph dddplus-runtime {
+	"io.github.dddplus:dddplus-runtime:jar:2.1.1-SNAPSHOT" -> "io.github.dddplus:dddplus-spec:jar:2.1.1-SNAPSHOT:compile" ; 
+	"io.github.dddplus:dddplus-runtime:jar:2.1.1-SNAPSHOT" -> "org.slf4j:slf4j-api:jar:1.7.30:provided" ; 
+	"io.github.dddplus:dddplus-runtime:jar:2.1.1-SNAPSHOT" -> "org.springframework:spring-context:jar:5.3.19:compile" ; 
+	"io.github.dddplus:dddplus-runtime:jar:2.1.1-SNAPSHOT" -> "org.springframework:spring-core:jar:5.3.19:compile" ; 
+	"io.github.dddplus:dddplus-runtime:jar:2.1.1-SNAPSHOT" -> "org.projectlombok:lombok:jar:1.18.8:provided" ; 
+	"org.springframework:spring-context:jar:5.3.19:compile" -> "org.springframework:spring-aop:jar:5.3.19:compile" ; 
+	"org.springframework:spring-context:jar:5.3.19:compile" -> "org.springframework:spring-beans:jar:5.3.19:compile" ; 
+	"org.springframework:spring-context:jar:5.3.19:compile" -> "(org.springframework:spring-core:jar:5.3.19:compile - omitted for duplicate)" ; 
+	"org.springframework:spring-context:jar:5.3.19:compile" -> "org.springframework:spring-expression:jar:5.3.19:compile" ; 
+	"org.springframework:spring-aop:jar:5.3.19:compile" -> "(org.springframework:spring-beans:jar:5.3.19:compile - omitted for duplicate)" ; 
+	"org.springframework:spring-aop:jar:5.3.19:compile" -> "(org.springframework:spring-core:jar:5.3.19:compile - omitted for duplicate)" ; 
+	"org.springframework:spring-beans:jar:5.3.19:compile" -> "(org.springframework:spring-core:jar:5.3.19:compile - omitted for duplicate)" ; 
+	"org.springframework:spring-expression:jar:5.3.19:compile" -> "(org.springframework:spring-core:jar:5.3.19:compile - omitted for duplicate)" ; 
+	"org.springframework:spring-core:jar:5.3.19:compile" -> "org.springframework:spring-jcl:jar:5.3.19:compile" ; 
+}
+digraph dddplus-spec {
+	"io.github.dddplus:dddplus-spec:jar:2.1.1-SNAPSHOT" -> "org.projectlombok:lombok:jar:1.18.8:provided" ; 
+}
+digraph dddplus-visualization {
+	"io.github.dddplus:dddplus-visualization:jar:2.1.1-SNAPSHOT" -> "io.github.dddplus:dddplus-spec:jar:2.1.1-SNAPSHOT:compile" ; 
+	"io.github.dddplus:dddplus-visualization:jar:2.1.1-SNAPSHOT" -> "org.slf4j:slf4j-api:jar:1.7.30:provided" ; 
+	"io.github.dddplus:dddplus-visualization:jar:2.1.1-SNAPSHOT" -> "org.apache.commons:commons-math3:jar:3.6.1:compile" ; 
+	"io.github.dddplus:dddplus-visualization:jar:2.1.1-SNAPSHOT" -> "org.apache.bcel:bcel:jar:6.7.0:compile" ; 
+	"io.github.dddplus:dddplus-visualization:jar:2.1.1-SNAPSHOT" -> "com.google.code.gson:gson:jar:2.10.1:compile" ; 
+	"io.github.dddplus:dddplus-visualization:jar:2.1.1-SNAPSHOT" -> "com.github.javaparser:javaparser-symbol-solver-core:jar:3.25.4:compile" ; 
+	"io.github.dddplus:dddplus-visualization:jar:2.1.1-SNAPSHOT" -> "net.sourceforge.plantuml:plantuml:jar:8059:compile" ; 
+	"io.github.dddplus:dddplus-visualization:jar:2.1.1-SNAPSHOT" -> "org.xerial:sqlite-jdbc:jar:3.42.0.0:compile" ; 
+	"io.github.dddplus:dddplus-visualization:jar:2.1.1-SNAPSHOT" -> "org.projectlombok:lombok:jar:1.18.8:provided" ; 
+	"org.apache.bcel:bcel:jar:6.7.0:compile" -> "org.apache.commons:commons-lang3:jar:3.12.0:compile" ; 
+	"com.github.javaparser:javaparser-symbol-solver-core:jar:3.25.4:compile" -> "com.github.javaparser:javaparser-core:jar:3.25.4:compile" ; 
+	"com.github.javaparser:javaparser-symbol-solver-core:jar:3.25.4:compile" -> "org.javassist:javassist:jar:3.29.2-GA:compile" ; 
+	"com.github.javaparser:javaparser-symbol-solver-core:jar:3.25.4:compile" -> "com.google.guava:guava:jar:32.1.1-jre:compile" ; 
+	"com.google.guava:guava:jar:32.1.1-jre:compile" -> "com.google.guava:failureaccess:jar:1.0.1:compile" ; 
+	"com.google.guava:guava:jar:32.1.1-jre:compile" -> "com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:compile" ; 
+	"com.google.guava:guava:jar:32.1.1-jre:compile" -> "com.google.code.findbugs:jsr305:jar:3.0.2:compile" ; 
+	"com.google.guava:guava:jar:32.1.1-jre:compile" -> "org.checkerframework:checker-qual:jar:3.33.0:compile" ; 
+	"com.google.guava:guava:jar:32.1.1-jre:compile" -> "com.google.errorprone:error_prone_annotations:jar:2.18.0:compile" ; 
+	"com.google.guava:guava:jar:32.1.1-jre:compile" -> "com.google.j2objc:j2objc-annotations:jar:2.8:compile" ; 
+}

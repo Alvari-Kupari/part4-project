@@ -1,0 +1,55 @@
+digraph TuxGuitar-compat {
+	"app.tuxguitar:tuxguitar-compat:jar:9.99-SNAPSHOT" -> "app.tuxguitar:tuxguitar-lib:jar:9.99-SNAPSHOT:provided" ; 
+	"app.tuxguitar:tuxguitar-compat:jar:9.99-SNAPSHOT" -> "app.tuxguitar:tuxguitar-gm-utils:jar:9.99-SNAPSHOT:provided" ; 
+	"app.tuxguitar:tuxguitar-compat:jar:9.99-SNAPSHOT" -> "org.junit.jupiter:junit-jupiter-engine:jar:5.9.2:test" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.9.2:test" -> "org.junit.platform:junit-platform-engine:jar:1.9.2:test" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.9.2:test" -> "org.junit.jupiter:junit-jupiter-api:jar:5.9.2:test" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.9.2:test" -> "org.apiguardian:apiguardian-api:jar:1.1.2:test" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.9.2:test" -> "org.opentest4j:opentest4j:jar:1.2.0:test" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.9.2:test" -> "org.junit.platform:junit-platform-commons:jar:1.9.2:test" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.9.2:test" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:test - omitted for duplicate)" ; 
+	"org.junit.platform:junit-platform-commons:jar:1.9.2:test" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.9.2:test" -> "(org.opentest4j:opentest4j:jar:1.2.0:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.9.2:test" -> "(org.junit.platform:junit-platform-commons:jar:1.9.2:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.9.2:test" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:test - omitted for duplicate)" ; 
+}
+digraph TuxGuitar-editor-utils {
+	"app.tuxguitar:tuxguitar-editor-utils:jar:9.99-SNAPSHOT" -> "app.tuxguitar:tuxguitar-lib:jar:9.99-SNAPSHOT:provided" ; 
+	"app.tuxguitar:tuxguitar-editor-utils:jar:9.99-SNAPSHOT" -> "org.junit.jupiter:junit-jupiter-engine:jar:5.9.2:test" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.9.2:test" -> "org.junit.platform:junit-platform-engine:jar:1.9.2:test" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.9.2:test" -> "org.junit.jupiter:junit-jupiter-api:jar:5.9.2:test" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.9.2:test" -> "org.apiguardian:apiguardian-api:jar:1.1.2:test" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.9.2:test" -> "org.opentest4j:opentest4j:jar:1.2.0:test" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.9.2:test" -> "org.junit.platform:junit-platform-commons:jar:1.9.2:test" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.9.2:test" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:test - omitted for duplicate)" ; 
+	"org.junit.platform:junit-platform-commons:jar:1.9.2:test" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.9.2:test" -> "(org.opentest4j:opentest4j:jar:1.2.0:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.9.2:test" -> "(org.junit.platform:junit-platform-commons:jar:1.9.2:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.9.2:test" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:test - omitted for duplicate)" ; 
+}
+digraph TuxGuitar-lib {
+	"app.tuxguitar:tuxguitar-lib:jar:9.99-SNAPSHOT" -> "org.apache.commons:commons-compress:jar:1.26.0:compile" ; 
+	"app.tuxguitar:tuxguitar-lib:jar:9.99-SNAPSHOT" -> "commons-io:commons-io:jar:2.15.1:compile" ; 
+	"app.tuxguitar:tuxguitar-lib:jar:9.99-SNAPSHOT" -> "org.junit.jupiter:junit-jupiter-engine:jar:5.9.2:test" ; 
+	"org.apache.commons:commons-compress:jar:1.26.0:compile" -> "(commons-io:commons-io:jar:2.15.1:compile - omitted for duplicate)" ; 
+	"org.apache.commons:commons-compress:jar:1.26.0:compile" -> "org.apache.commons:commons-lang3:jar:3.14.0:compile" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.9.2:test" -> "org.junit.platform:junit-platform-engine:jar:1.9.2:test" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.9.2:test" -> "org.junit.jupiter:junit-jupiter-api:jar:5.9.2:test" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.9.2:test" -> "org.apiguardian:apiguardian-api:jar:1.1.2:test" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.9.2:test" -> "org.opentest4j:opentest4j:jar:1.2.0:test" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.9.2:test" -> "org.junit.platform:junit-platform-commons:jar:1.9.2:test" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.9.2:test" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:test - omitted for duplicate)" ; 
+	"org.junit.platform:junit-platform-commons:jar:1.9.2:test" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.9.2:test" -> "(org.opentest4j:opentest4j:jar:1.2.0:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.9.2:test" -> "(org.junit.platform:junit-platform-commons:jar:1.9.2:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.9.2:test" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:test - omitted for duplicate)" ; 
+}
+digraph gervill {
+}
+digraph TuxGuitar-synth-lv2 {
+	"app.tuxguitar:tuxguitar-synth-lv2:jar:9.99-SNAPSHOT" -> "app.tuxguitar:tuxguitar-lib:jar:9.99-SNAPSHOT:provided" ; 
+	"app.tuxguitar:tuxguitar-synth-lv2:jar:9.99-SNAPSHOT" -> "app.tuxguitar:tuxguitar-gm-utils:jar:9.99-SNAPSHOT:provided" ; 
+	"app.tuxguitar:tuxguitar-synth-lv2:jar:9.99-SNAPSHOT" -> "app.tuxguitar:tuxguitar-synth:jar:9.99-SNAPSHOT:provided" ; 
+	"app.tuxguitar:tuxguitar-synth-lv2:jar:9.99-SNAPSHOT" -> "app.tuxguitar:tuxguitar:jar:9.99-SNAPSHOT:provided" ; 
+	"app.tuxguitar:tuxguitar-synth-lv2:jar:9.99-SNAPSHOT" -> "app.tuxguitar:tuxguitar-ui-toolkit:jar:9.99-SNAPSHOT:provided" ; 
+}

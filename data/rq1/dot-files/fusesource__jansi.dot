@@ -1,0 +1,21 @@
+digraph fusesource__jansi {
+	"org.fusesource.jansi:jansi:jar:2.4.3-SNAPSHOT" -> "org.junit.jupiter:junit-jupiter:jar:5.7.0:test" ; 
+	"org.fusesource.jansi:jansi:jar:2.4.3-SNAPSHOT" -> "org.junit.jupiter:junit-jupiter-params:jar:5.7.0:test (scope not updated to test)" ; 
+	"org.fusesource.jansi:jansi:jar:2.4.3-SNAPSHOT" -> "info.picocli:picocli-codegen:jar:4.5.2:test" ; 
+	"org.junit.jupiter:junit-jupiter:jar:5.7.0:test" -> "org.junit.jupiter:junit-jupiter-api:jar:5.7.0:test" ; 
+	"org.junit.jupiter:junit-jupiter:jar:5.7.0:test" -> "(org.junit.jupiter:junit-jupiter-params:jar:5.7.0:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter:jar:5.7.0:test" -> "org.junit.jupiter:junit-jupiter-engine:jar:5.7.0:test" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.7.0:test" -> "(org.apiguardian:apiguardian-api:jar:1.1.0:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.7.0:test" -> "org.opentest4j:opentest4j:jar:1.2.0:test" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.7.0:test" -> "org.junit.platform:junit-platform-commons:jar:1.7.0:test" ; 
+	"org.junit.platform:junit-platform-commons:jar:1.7.0:test" -> "(org.apiguardian:apiguardian-api:jar:1.1.0:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.7.0:test" -> "(org.apiguardian:apiguardian-api:jar:1.1.0:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.7.0:test" -> "org.junit.platform:junit-platform-engine:jar:1.7.0:test" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.7.0:test" -> "(org.junit.jupiter:junit-jupiter-api:jar:5.7.0:test - omitted for duplicate)" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.7.0:test" -> "(org.apiguardian:apiguardian-api:jar:1.1.0:test - omitted for duplicate)" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.7.0:test" -> "(org.opentest4j:opentest4j:jar:1.2.0:test - omitted for duplicate)" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.7.0:test" -> "(org.junit.platform:junit-platform-commons:jar:1.7.0:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-params:jar:5.7.0:test (scope not updated to test)" -> "org.apiguardian:apiguardian-api:jar:1.1.0:test" ; 
+	"org.junit.jupiter:junit-jupiter-params:jar:5.7.0:test (scope not updated to test)" -> "(org.junit.jupiter:junit-jupiter-api:jar:5.7.0:test - omitted for duplicate)" ; 
+	"info.picocli:picocli-codegen:jar:4.5.2:test" -> "info.picocli:picocli:jar:4.5.2:test" ; 
+}

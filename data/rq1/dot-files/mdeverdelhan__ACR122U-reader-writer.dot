@@ -1,0 +1,10 @@
+digraph mdeverdelhan__ACR122U-reader-writer {
+	"eu.verdelhan:acr122urw:jar:0.0.1-SNAPSHOT" -> "org.nfctools:nfctools-core:jar:1.0.M8:compile" ; 
+	"eu.verdelhan:acr122urw:jar:0.0.1-SNAPSHOT" -> "ch.qos.logback:logback-classic:jar:0.9.18:compile" ; 
+	"org.nfctools:nfctools-core:jar:1.0.M8:compile" -> "org.nfctools:nfctools-ndef:jar:1.0.M8:compile" ; 
+	"org.nfctools:nfctools-core:jar:1.0.M8:compile" -> "org.nfctools:nfctools-api:jar:1.0.M8:compile" ; 
+	"org.nfctools:nfctools-core:jar:1.0.M8:compile" -> "org.slf4j:slf4j-api:jar:1.5.10:compile" ; 
+	"org.nfctools:nfctools-ndef:jar:1.0.M8:compile" -> "(org.nfctools:nfctools-api:jar:1.0.M8:compile - omitted for duplicate)" ; 
+	"ch.qos.logback:logback-classic:jar:0.9.18:compile" -> "ch.qos.logback:logback-core:jar:0.9.18:compile" ; 
+	"ch.qos.logback:logback-classic:jar:0.9.18:compile" -> "(org.slf4j:slf4j-api:jar:1.5.10:compile - omitted for duplicate)" ; 
+}

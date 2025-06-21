@@ -1,0 +1,36 @@
+digraph api {
+}
+digraph dist {
+	"org.jboss.forge.roaster:roaster-distribution:jar:2.31.0-SNAPSHOT" -> "org.jboss.forge.roaster:roaster-jdt:jar:2.31.0-SNAPSHOT:compile" ; 
+}
+digraph impl {
+	"org.jboss.forge.roaster:roaster-jdt:jar:2.31.0-SNAPSHOT" -> "org.jboss.forge.roaster:roaster-api:jar:2.31.0-SNAPSHOT:compile" ; 
+	"org.jboss.forge.roaster:roaster-jdt:jar:2.31.0-SNAPSHOT" -> "org.eclipse.jdt:org.eclipse.jdt.core:jar:3.42.0:compile" ; 
+	"org.jboss.forge.roaster:roaster-jdt:jar:2.31.0-SNAPSHOT" -> "org.apache.commons:commons-text:jar:1.9:compile" ; 
+	"org.eclipse.jdt:org.eclipse.jdt.core:jar:3.42.0:compile" -> "org.eclipse.platform:org.eclipse.core.resources:jar:3.22.200:compile" ; 
+	"org.eclipse.jdt:org.eclipse.jdt.core:jar:3.42.0:compile" -> "org.eclipse.platform:org.eclipse.core.runtime:jar:3.33.100:compile" ; 
+	"org.eclipse.jdt:org.eclipse.jdt.core:jar:3.42.0:compile" -> "org.eclipse.platform:org.eclipse.text:jar:3.14.300:compile" ; 
+	"org.eclipse.jdt:org.eclipse.jdt.core:jar:3.42.0:compile" -> "org.eclipse.jdt:ecj:jar:3.42.0:compile" ; 
+	"org.eclipse.platform:org.eclipse.core.resources:jar:3.22.200:compile" -> "(org.eclipse.platform:org.eclipse.core.runtime:jar:3.33.100:compile - omitted for duplicate)" ; 
+	"org.eclipse.platform:org.eclipse.core.resources:jar:3.22.200:compile" -> "net.java.dev.jna:jna:jar:5.17.0:compile" ; 
+	"org.eclipse.platform:org.eclipse.core.resources:jar:3.22.200:compile" -> "org.eclipse.platform:org.eclipse.osgi:jar:3.23.100:compile" ; 
+	"org.eclipse.platform:org.eclipse.core.runtime:jar:3.33.100:compile" -> "(org.eclipse.platform:org.eclipse.osgi:jar:3.23.100:compile - omitted for duplicate)" ; 
+	"org.eclipse.platform:org.eclipse.core.runtime:jar:3.33.100:compile" -> "org.eclipse.platform:org.eclipse.equinox.common:jar:3.20.100:compile" ; 
+	"org.eclipse.platform:org.eclipse.core.runtime:jar:3.33.100:compile" -> "org.eclipse.platform:org.eclipse.core.jobs:jar:3.15.600:compile" ; 
+	"org.eclipse.platform:org.eclipse.core.runtime:jar:3.33.100:compile" -> "org.eclipse.platform:org.eclipse.equinox.preferences:jar:3.11.400:compile" ; 
+	"org.eclipse.platform:org.eclipse.core.runtime:jar:3.33.100:compile" -> "org.eclipse.platform:org.eclipse.core.contenttype:jar:3.9.600:compile" ; 
+	"org.eclipse.platform:org.eclipse.equinox.common:jar:3.20.100:compile" -> "(org.eclipse.platform:org.eclipse.osgi:jar:3.23.100:compile - omitted for duplicate)" ; 
+	"org.eclipse.platform:org.eclipse.core.jobs:jar:3.15.600:compile" -> "(org.eclipse.platform:org.eclipse.equinox.common:jar:3.20.100:compile - omitted for duplicate)" ; 
+	"org.eclipse.platform:org.eclipse.core.jobs:jar:3.15.600:compile" -> "(org.eclipse.platform:org.eclipse.osgi:jar:3.23.100:compile - omitted for duplicate)" ; 
+	"org.eclipse.platform:org.eclipse.equinox.preferences:jar:3.11.400:compile" -> "(org.eclipse.platform:org.eclipse.equinox.common:jar:3.20.100:compile - omitted for duplicate)" ; 
+	"org.eclipse.platform:org.eclipse.equinox.preferences:jar:3.11.400:compile" -> "org.osgi:org.osgi.service.prefs:jar:1.1.2:compile" ; 
+	"org.eclipse.platform:org.eclipse.equinox.preferences:jar:3.11.400:compile" -> "(org.eclipse.platform:org.eclipse.osgi:jar:3.23.100:compile - omitted for duplicate)" ; 
+	"org.osgi:org.osgi.service.prefs:jar:1.1.2:compile" -> "org.osgi:osgi.annotation:jar:8.0.1:compile" ; 
+	"org.eclipse.platform:org.eclipse.core.contenttype:jar:3.9.600:compile" -> "(org.eclipse.platform:org.eclipse.equinox.preferences:jar:3.11.200:compile - omitted for conflict with 3.11.400)" ; 
+	"org.eclipse.platform:org.eclipse.core.contenttype:jar:3.9.600:compile" -> "(org.eclipse.platform:org.eclipse.equinox.common:jar:3.19.200:compile - omitted for conflict with 3.20.100)" ; 
+	"org.eclipse.platform:org.eclipse.core.contenttype:jar:3.9.600:compile" -> "(org.eclipse.platform:org.eclipse.osgi:jar:3.22.0:compile - omitted for conflict with 3.23.100)" ; 
+	"org.eclipse.platform:org.eclipse.text:jar:3.14.300:compile" -> "(org.eclipse.platform:org.eclipse.equinox.common:jar:3.20.0:compile - omitted for conflict with 3.20.100)" ; 
+	"org.eclipse.platform:org.eclipse.text:jar:3.14.300:compile" -> "(org.eclipse.platform:org.eclipse.equinox.preferences:jar:3.11.300:compile - omitted for conflict with 3.11.400)" ; 
+	"org.eclipse.platform:org.eclipse.text:jar:3.14.300:compile" -> "(org.eclipse.platform:org.eclipse.core.runtime:jar:3.33.0:compile - omitted for conflict with 3.33.100)" ; 
+	"org.apache.commons:commons-text:jar:1.9:compile" -> "org.apache.commons:commons-lang3:jar:3.11:compile" ; 
+}

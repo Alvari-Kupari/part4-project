@@ -1,0 +1,19 @@
+digraph kN6jq__gatherBurp {
+	"org.xm17:gatherBurp:jar:1.2.0-SNAPSHOT" -> "com.github.bit4woo:burp-api-common:jar:master-SNAPSHOT:compile" ; 
+	"org.xm17:gatherBurp:jar:1.2.0-SNAPSHOT" -> "com.intellij:forms_rt:jar:7.0.3:compile" ; 
+	"org.xm17:gatherBurp:jar:1.2.0-SNAPSHOT" -> "org.xerial:sqlite-jdbc:jar:3.43.2.2:compile" ; 
+	"org.xm17:gatherBurp:jar:1.2.0-SNAPSHOT" -> "com.alibaba:fastjson:jar:1.2.83:compile" ; 
+	"org.xm17:gatherBurp:jar:1.2.0-SNAPSHOT" -> "net.portswigger.burp.extender:burp-extender-api:jar:2.3:compile" ; 
+	"org.xm17:gatherBurp:jar:1.2.0-SNAPSHOT" -> "org.springframework:spring-expression:jar:4.3.22.RELEASE:compile" ; 
+	"com.github.bit4woo:burp-api-common:jar:master-SNAPSHOT:compile" -> "(net.portswigger.burp.extender:burp-extender-api:jar:2.1:compile - omitted for conflict with 2.3)" ; 
+	"com.github.bit4woo:burp-api-common:jar:master-SNAPSHOT:compile" -> "commons-net:commons-net:jar:3.10.0:compile" ; 
+	"com.github.bit4woo:burp-api-common:jar:master-SNAPSHOT:compile" -> "com.github.seancfoley:ipaddress:jar:5.3.3:compile" ; 
+	"com.intellij:forms_rt:jar:7.0.3:compile" -> "asm:asm-commons:jar:3.0:compile" ; 
+	"com.intellij:forms_rt:jar:7.0.3:compile" -> "com.jgoodies:forms:jar:1.1-preview:compile" ; 
+	"com.intellij:forms_rt:jar:7.0.3:compile" -> "jdom:jdom:jar:1.0:compile" ; 
+	"asm:asm-commons:jar:3.0:compile" -> "asm:asm-tree:jar:3.0:compile" ; 
+	"asm:asm-tree:jar:3.0:compile" -> "asm:asm:jar:3.0:compile" ; 
+	"org.xerial:sqlite-jdbc:jar:3.43.2.2:compile" -> "org.slf4j:slf4j-api:jar:1.7.36:compile" ; 
+	"org.springframework:spring-expression:jar:4.3.22.RELEASE:compile" -> "org.springframework:spring-core:jar:4.3.22.RELEASE:compile" ; 
+	"org.springframework:spring-core:jar:4.3.22.RELEASE:compile" -> "commons-logging:commons-logging:jar:1.2:compile" ; 
+}

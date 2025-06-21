@@ -1,0 +1,12 @@
+digraph usb4java__usb4java {
+	"org.usb4java:usb4java:jar:1.3.1-SNAPSHOT" -> "junit:junit:jar:4.12:test" ; 
+	"org.usb4java:usb4java:jar:1.3.1-SNAPSHOT" -> "org.usb4java:libusb4java:jar:linux-x86:1.3.1-SNAPSHOT:compile" ; 
+	"org.usb4java:usb4java:jar:1.3.1-SNAPSHOT" -> "org.usb4java:libusb4java:jar:linux-x86-64:1.3.1-SNAPSHOT:compile" ; 
+	"org.usb4java:usb4java:jar:1.3.1-SNAPSHOT" -> "org.usb4java:libusb4java:jar:win32-x86:1.3.1-SNAPSHOT:compile" ; 
+	"org.usb4java:usb4java:jar:1.3.1-SNAPSHOT" -> "org.usb4java:libusb4java:jar:win32-x86-64:1.3.1-SNAPSHOT:compile" ; 
+	"org.usb4java:usb4java:jar:1.3.1-SNAPSHOT" -> "org.usb4java:libusb4java:jar:darwin-x86-64:1.3.1-SNAPSHOT:compile" ; 
+	"org.usb4java:usb4java:jar:1.3.1-SNAPSHOT" -> "org.usb4java:libusb4java:jar:linux-arm:1.3.1-SNAPSHOT:compile" ; 
+	"org.usb4java:usb4java:jar:1.3.1-SNAPSHOT" -> "org.usb4java:libusb4java:jar:linux-aarch64:1.3.1-SNAPSHOT:compile" ; 
+	"org.usb4java:usb4java:jar:1.3.1-SNAPSHOT" -> "org.apache.commons:commons-lang3:jar:3.8.1:compile" ; 
+	"junit:junit:jar:4.12:test" -> "org.hamcrest:hamcrest-core:jar:1.3:test" ; 
+}

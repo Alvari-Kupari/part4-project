@@ -1,0 +1,95 @@
+digraph equalsverifier-21 {
+	"nl.jqno.equalsverifier:equalsverifier-21:jar:4.0.2-SNAPSHOT" -> "nl.jqno.equalsverifier:equalsverifier-core:jar:4.0.2-SNAPSHOT:compile" ; 
+	"nl.jqno.equalsverifier:equalsverifier-21:jar:4.0.2-SNAPSHOT" -> "org.junit.jupiter:junit-jupiter:jar:5.13.1:test" ; 
+	"org.junit.jupiter:junit-jupiter:jar:5.13.1:test" -> "org.junit.jupiter:junit-jupiter-api:jar:5.13.1:test" ; 
+	"org.junit.jupiter:junit-jupiter:jar:5.13.1:test" -> "org.junit.jupiter:junit-jupiter-params:jar:5.13.1:test" ; 
+	"org.junit.jupiter:junit-jupiter:jar:5.13.1:test" -> "org.junit.jupiter:junit-jupiter-engine:jar:5.13.1:test" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.13.1:test" -> "org.opentest4j:opentest4j:jar:1.3.0:test" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.13.1:test" -> "org.junit.platform:junit-platform-commons:jar:1.13.1:test" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.13.1:test" -> "org.apiguardian:apiguardian-api:jar:1.1.2:test" ; 
+	"org.junit.platform:junit-platform-commons:jar:1.13.1:test" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-params:jar:5.13.1:test" -> "(org.junit.jupiter:junit-jupiter-api:jar:5.13.1:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-params:jar:5.13.1:test" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.13.1:test" -> "org.junit.platform:junit-platform-engine:jar:1.13.1:test" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.13.1:test" -> "(org.junit.jupiter:junit-jupiter-api:jar:5.13.1:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.13.1:test" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:test - omitted for duplicate)" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.13.1:test" -> "(org.opentest4j:opentest4j:jar:1.3.0:test - omitted for duplicate)" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.13.1:test" -> "(org.junit.platform:junit-platform-commons:jar:1.13.1:test - omitted for duplicate)" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.13.1:test" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:test - omitted for duplicate)" ; 
+}
+digraph equalsverifier-core {
+	"nl.jqno.equalsverifier:equalsverifier-core:jar:4.0.2-SNAPSHOT" -> "org.objenesis:objenesis:jar:3.4:compile" ; 
+	"nl.jqno.equalsverifier:equalsverifier-core:jar:4.0.2-SNAPSHOT" -> "net.bytebuddy:byte-buddy:jar:1.17.5:compile" ; 
+	"nl.jqno.equalsverifier:equalsverifier-core:jar:4.0.2-SNAPSHOT" -> "org.mockito:mockito-core:jar:5.18.0:compile" ; 
+	"nl.jqno.equalsverifier:equalsverifier-core:jar:4.0.2-SNAPSHOT" -> "nl.jqno.equalsverifier:equalsverifier-testhelpers:jar:4.0.2-SNAPSHOT:test" ; 
+	"nl.jqno.equalsverifier:equalsverifier-core:jar:4.0.2-SNAPSHOT" -> "org.junit.jupiter:junit-jupiter:jar:5.13.1:test" ; 
+	"nl.jqno.equalsverifier:equalsverifier-core:jar:4.0.2-SNAPSHOT" -> "org.assertj:assertj-core:jar:3.27.3:test" ; 
+	"nl.jqno.equalsverifier:equalsverifier-core:jar:4.0.2-SNAPSHOT" -> "com.tngtech.archunit:archunit-junit5:jar:1.4.1:test" ; 
+	"nl.jqno.equalsverifier:equalsverifier-core:jar:4.0.2-SNAPSHOT" -> "org.slf4j:slf4j-api:jar:2.0.17:test (scope not updated to test)" ; 
+	"nl.jqno.equalsverifier:equalsverifier-core:jar:4.0.2-SNAPSHOT" -> "org.slf4j:slf4j-simple:jar:2.0.17:test" ; 
+	"org.mockito:mockito-core:jar:5.18.0:compile" -> "(net.bytebuddy:byte-buddy:jar:1.17.5:compile - omitted for duplicate)" ; 
+	"org.mockito:mockito-core:jar:5.18.0:compile" -> "net.bytebuddy:byte-buddy-agent:jar:1.17.5:compile" ; 
+	"org.mockito:mockito-core:jar:5.18.0:compile" -> "(org.objenesis:objenesis:jar:3.3:runtime - omitted for conflict with 3.4)" ; 
+	"org.junit.jupiter:junit-jupiter:jar:5.13.1:test" -> "org.junit.jupiter:junit-jupiter-api:jar:5.13.1:test" ; 
+	"org.junit.jupiter:junit-jupiter:jar:5.13.1:test" -> "org.junit.jupiter:junit-jupiter-params:jar:5.13.1:test" ; 
+	"org.junit.jupiter:junit-jupiter:jar:5.13.1:test" -> "org.junit.jupiter:junit-jupiter-engine:jar:5.13.1:test" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.13.1:test" -> "org.opentest4j:opentest4j:jar:1.3.0:test" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.13.1:test" -> "org.junit.platform:junit-platform-commons:jar:1.13.1:test" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.13.1:test" -> "org.apiguardian:apiguardian-api:jar:1.1.2:test" ; 
+	"org.junit.platform:junit-platform-commons:jar:1.13.1:test" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-params:jar:5.13.1:test" -> "(org.junit.jupiter:junit-jupiter-api:jar:5.13.1:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-params:jar:5.13.1:test" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.13.1:test" -> "org.junit.platform:junit-platform-engine:jar:1.13.1:test" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.13.1:test" -> "(org.junit.jupiter:junit-jupiter-api:jar:5.13.1:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.13.1:test" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:test - omitted for duplicate)" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.13.1:test" -> "(org.opentest4j:opentest4j:jar:1.3.0:test - omitted for duplicate)" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.13.1:test" -> "(org.junit.platform:junit-platform-commons:jar:1.13.1:test - omitted for duplicate)" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.13.1:test" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:test - omitted for duplicate)" ; 
+	"org.assertj:assertj-core:jar:3.27.3:test" -> "(net.bytebuddy:byte-buddy:jar:1.15.11:test - omitted for conflict with 1.17.5)" ; 
+	"com.tngtech.archunit:archunit-junit5:jar:1.4.1:test" -> "com.tngtech.archunit:archunit-junit5-api:jar:1.4.1:test" ; 
+	"com.tngtech.archunit:archunit-junit5:jar:1.4.1:test" -> "com.tngtech.archunit:archunit-junit5-engine:jar:1.4.1:test" ; 
+	"com.tngtech.archunit:archunit-junit5-api:jar:1.4.1:test" -> "com.tngtech.archunit:archunit:jar:1.4.1:test" ; 
+	"com.tngtech.archunit:archunit:jar:1.4.1:test" -> "(org.slf4j:slf4j-api:jar:2.0.17:test - omitted for duplicate)" ; 
+	"com.tngtech.archunit:archunit-junit5-engine:jar:1.4.1:test" -> "(com.tngtech.archunit:archunit:jar:1.4.1:test - omitted for duplicate)" ; 
+	"com.tngtech.archunit:archunit-junit5-engine:jar:1.4.1:test" -> "(com.tngtech.archunit:archunit-junit5-api:jar:1.4.1:test - omitted for duplicate)" ; 
+	"com.tngtech.archunit:archunit-junit5-engine:jar:1.4.1:test" -> "com.tngtech.archunit:archunit-junit5-engine-api:jar:1.4.1:test" ; 
+	"com.tngtech.archunit:archunit-junit5-engine-api:jar:1.4.1:test" -> "(org.junit.platform:junit-platform-engine:jar:1.12.2:test - omitted for conflict with 1.13.1)" ; 
+	"org.slf4j:slf4j-simple:jar:2.0.17:test" -> "(org.slf4j:slf4j-api:jar:2.0.17:test - omitted for duplicate)" ; 
+}
+digraph equalsverifier-release-nodep {
+	"nl.jqno.equalsverifier:equalsverifier-nodep:jar:4.0.2-SNAPSHOT" -> "nl.jqno.equalsverifier:equalsverifier-core:jar:4.0.2-SNAPSHOT:provided" ; 
+	"nl.jqno.equalsverifier:equalsverifier-nodep:jar:4.0.2-SNAPSHOT" -> "nl.jqno.equalsverifier:equalsverifier-21:jar:4.0.2-SNAPSHOT:provided" ; 
+	"nl.jqno.equalsverifier:equalsverifier-nodep:jar:4.0.2-SNAPSHOT" -> "org.mockito:mockito-core:jar:5.18.0:compile" ; 
+	"org.mockito:mockito-core:jar:5.18.0:compile" -> "net.bytebuddy:byte-buddy:jar:1.17.5:compile" ; 
+	"org.mockito:mockito-core:jar:5.18.0:compile" -> "net.bytebuddy:byte-buddy-agent:jar:1.17.5:compile" ; 
+	"org.mockito:mockito-core:jar:5.18.0:compile" -> "org.objenesis:objenesis:jar:3.3:runtime" ; 
+}
+digraph equalsverifier-test-jpms {
+	"nl.jqno.equalsverifier:equalsverifier-test-jpms:jar:4.0.2-SNAPSHOT" -> "nl.jqno.equalsverifier:equalsverifier-core:jar:4.0.2-SNAPSHOT:test" ; 
+	"nl.jqno.equalsverifier:equalsverifier-test-jpms:jar:4.0.2-SNAPSHOT" -> "nl.jqno.equalsverifier:equalsverifier-testhelpers:jar:4.0.2-SNAPSHOT:test" ; 
+	"nl.jqno.equalsverifier:equalsverifier-test-jpms:jar:4.0.2-SNAPSHOT" -> "org.junit.jupiter:junit-jupiter:jar:5.13.1:test" ; 
+	"nl.jqno.equalsverifier:equalsverifier-test-jpms:jar:4.0.2-SNAPSHOT" -> "org.assertj:assertj-core:jar:3.27.3:test" ; 
+	"nl.jqno.equalsverifier:equalsverifier-test-jpms:jar:4.0.2-SNAPSHOT" -> "org.mockito:mockito-core:jar:5.18.0:test" ; 
+	"org.junit.jupiter:junit-jupiter:jar:5.13.1:test" -> "org.junit.jupiter:junit-jupiter-api:jar:5.13.1:test" ; 
+	"org.junit.jupiter:junit-jupiter:jar:5.13.1:test" -> "org.junit.jupiter:junit-jupiter-params:jar:5.13.1:test" ; 
+	"org.junit.jupiter:junit-jupiter:jar:5.13.1:test" -> "org.junit.jupiter:junit-jupiter-engine:jar:5.13.1:test" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.13.1:test" -> "org.opentest4j:opentest4j:jar:1.3.0:test" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.13.1:test" -> "org.junit.platform:junit-platform-commons:jar:1.13.1:test" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.13.1:test" -> "org.apiguardian:apiguardian-api:jar:1.1.2:test" ; 
+	"org.junit.platform:junit-platform-commons:jar:1.13.1:test" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-params:jar:5.13.1:test" -> "(org.junit.jupiter:junit-jupiter-api:jar:5.13.1:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-params:jar:5.13.1:test" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.13.1:test" -> "org.junit.platform:junit-platform-engine:jar:1.13.1:test" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.13.1:test" -> "(org.junit.jupiter:junit-jupiter-api:jar:5.13.1:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.13.1:test" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:test - omitted for duplicate)" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.13.1:test" -> "(org.opentest4j:opentest4j:jar:1.3.0:test - omitted for duplicate)" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.13.1:test" -> "(org.junit.platform:junit-platform-commons:jar:1.13.1:test - omitted for duplicate)" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.13.1:test" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:test - omitted for duplicate)" ; 
+	"org.assertj:assertj-core:jar:3.27.3:test" -> "net.bytebuddy:byte-buddy:jar:1.15.11:test" ; 
+	"org.mockito:mockito-core:jar:5.18.0:test" -> "(net.bytebuddy:byte-buddy:jar:1.17.5:test - omitted for conflict with 1.15.11)" ; 
+	"org.mockito:mockito-core:jar:5.18.0:test" -> "net.bytebuddy:byte-buddy-agent:jar:1.17.5:test" ; 
+	"org.mockito:mockito-core:jar:5.18.0:test" -> "org.objenesis:objenesis:jar:3.3:test" ; 
+}
+digraph equalsverifier-testhelpers {
+	"nl.jqno.equalsverifier:equalsverifier-testhelpers:jar:4.0.2-SNAPSHOT" -> "com.google.code.findbugs:jsr305:jar:3.0.2:compile" ; 
+}

@@ -1,0 +1,23 @@
+digraph bengtmartensson__IrScrutinizer {
+	"org.harctoolbox:IrScrutinizer:jar:2.4.3-SNAPSHOT" -> "org.harctoolbox:HarcHardware:jar:2.4.2:compile" ; 
+	"org.harctoolbox:IrScrutinizer:jar:2.4.3-SNAPSHOT" -> "org.harctoolbox:RemoteLocator:jar:1.0.0:compile" ; 
+	"org.harctoolbox:IrScrutinizer:jar:2.4.3-SNAPSHOT" -> "com.mrallen:tonto:jar:1.44:compile" ; 
+	"org.harctoolbox:IrScrutinizer:jar:2.4.3-SNAPSHOT" -> "org.testng:testng:jar:7.9.0:test" ; 
+	"org.harctoolbox:HarcHardware:jar:2.4.2:compile" -> "org.harctoolbox:IrpTransmogrifier:jar:1.2.14:compile" ; 
+	"org.harctoolbox:HarcHardware:jar:2.4.2:compile" -> "org.glassfish:javax.json:jar:1.1.4:compile" ; 
+	"org.harctoolbox:HarcHardware:jar:2.4.2:compile" -> "com.neuronrobotics:nrjavaserial:jar:5.2.1:compile" ; 
+	"org.harctoolbox:HarcHardware:jar:2.4.2:compile" -> "org.harctoolbox:DevSlashLirc:jar:1.0.1:compile" ; 
+	"org.harctoolbox:IrpTransmogrifier:jar:1.2.14:compile" -> "org.antlr:antlr4:jar:4.9.3:compile" ; 
+	"org.harctoolbox:IrpTransmogrifier:jar:1.2.14:compile" -> "org.jcommander:jcommander:jar:1.85:compile" ; 
+	"org.antlr:antlr4:jar:4.9.3:compile" -> "org.antlr:antlr4-runtime:jar:4.9.3:compile" ; 
+	"org.antlr:antlr4:jar:4.9.3:compile" -> "org.antlr:antlr-runtime:jar:3.5.2:compile" ; 
+	"org.antlr:antlr4:jar:4.9.3:compile" -> "org.antlr:ST4:jar:4.3.1:compile" ; 
+	"org.antlr:antlr4:jar:4.9.3:compile" -> "org.abego.treelayout:org.abego.treelayout.core:jar:1.0.3:compile" ; 
+	"org.antlr:ST4:jar:4.3.1:compile" -> "(org.antlr:antlr-runtime:jar:3.5.2:compile - omitted for duplicate)" ; 
+	"com.neuronrobotics:nrjavaserial:jar:5.2.1:compile" -> "commons-net:commons-net:jar:3.3:compile" ; 
+	"org.harctoolbox:RemoteLocator:jar:1.0.0:compile" -> "org.harctoolbox:Jirc:jar:2.2.14:compile" ; 
+	"org.harctoolbox:Jirc:jar:2.2.14:compile" -> "org.harctoolbox:Girr:jar:2.2.14:compile" ; 
+	"org.harctoolbox:Girr:jar:2.2.14:compile" -> "(org.harctoolbox:IrpTransmogrifier:jar:1.2.14:compile - omitted for duplicate)" ; 
+	"org.testng:testng:jar:7.9.0:test" -> "org.slf4j:slf4j-api:jar:1.7.36:test" ; 
+	"org.testng:testng:jar:7.9.0:test" -> "org.webjars:jquery:jar:3.7.1:test" ; 
+}

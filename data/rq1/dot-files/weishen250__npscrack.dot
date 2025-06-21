@@ -1,0 +1,3 @@
+digraph weishen250__npscrack {
+	"net.thekingofduck:NPSauto:jar:1.0" -> "net.portswigger.burp.extender:burp-extender-api:jar:LATEST:compile" ; 
+}

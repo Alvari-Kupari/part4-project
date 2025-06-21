@@ -1,0 +1,83 @@
+digraph WPCore {
+	"org.pepsoft.worldpainter:WPCore:jar:2.24.2-SNAPSHOT" -> "org.pepsoft.utils:Utils:jar:1.1.2:compile" ; 
+	"org.pepsoft.worldpainter:WPCore:jar:2.24.2-SNAPSHOT" -> "org.pepsoft.jnbt:JNBT:jar:1.0.0:compile" ; 
+	"org.pepsoft.worldpainter:WPCore:jar:2.24.2-SNAPSHOT" -> "org.pepsoft.utils:SwingUtils:jar:1.2.3:compile" ; 
+	"org.pepsoft.worldpainter:WPCore:jar:2.24.2-SNAPSHOT" -> "org.pepsoft.worldpainter:WPValueObjects:jar:1.2.0:compile" ; 
+	"org.pepsoft.worldpainter:WPCore:jar:2.24.2-SNAPSHOT" -> "org.jetbrains:annotations:jar:24.0.1:provided" ; 
+	"org.pepsoft.worldpainter:WPCore:jar:2.24.2-SNAPSHOT" -> "java3d:vecmath:jar:1.3.1:compile" ; 
+	"org.pepsoft.worldpainter:WPCore:jar:2.24.2-SNAPSHOT" -> "com.twelvemonkeys.imageio:imageio-tiff:jar:3.8.2:compile" ; 
+	"org.pepsoft.worldpainter:WPCore:jar:2.24.2-SNAPSHOT" -> "org.slf4j:slf4j-api:jar:1.7.36:compile" ; 
+	"org.pepsoft.worldpainter:WPCore:jar:2.24.2-SNAPSHOT" -> "org.openjdk.nashorn:nashorn-core:jar:15.4:runtime" ; 
+	"org.pepsoft.worldpainter:WPCore:jar:2.24.2-SNAPSHOT" -> "org.projectlombok:lombok:jar:1.18.22:provided" ; 
+	"org.pepsoft.worldpainter:WPCore:jar:2.24.2-SNAPSHOT" -> "junit:junit:jar:4.13.2:test" ; 
+	"org.pepsoft.worldpainter:WPCore:jar:2.24.2-SNAPSHOT" -> "org.slf4j:slf4j-simple:jar:1.7.36:test" ; 
+	"org.pepsoft.jnbt:JNBT:jar:1.0.0:compile" -> "(org.pepsoft.utils:Utils:jar:1.0.0:compile - omitted for conflict with 1.1.2)" ; 
+	"com.twelvemonkeys.imageio:imageio-tiff:jar:3.8.2:compile" -> "com.twelvemonkeys.imageio:imageio-core:jar:3.8.2:compile" ; 
+	"com.twelvemonkeys.imageio:imageio-tiff:jar:3.8.2:compile" -> "com.twelvemonkeys.imageio:imageio-metadata:jar:3.8.2:compile" ; 
+	"com.twelvemonkeys.imageio:imageio-tiff:jar:3.8.2:compile" -> "com.twelvemonkeys.common:common-lang:jar:3.8.2:compile" ; 
+	"com.twelvemonkeys.imageio:imageio-tiff:jar:3.8.2:compile" -> "com.twelvemonkeys.common:common-io:jar:3.8.2:compile" ; 
+	"com.twelvemonkeys.imageio:imageio-tiff:jar:3.8.2:compile" -> "com.twelvemonkeys.common:common-image:jar:3.8.2:compile" ; 
+	"com.twelvemonkeys.imageio:imageio-core:jar:3.8.2:compile" -> "(com.twelvemonkeys.common:common-lang:jar:3.8.2:compile - omitted for duplicate)" ; 
+	"com.twelvemonkeys.imageio:imageio-core:jar:3.8.2:compile" -> "(com.twelvemonkeys.common:common-io:jar:3.8.2:compile - omitted for duplicate)" ; 
+	"com.twelvemonkeys.imageio:imageio-core:jar:3.8.2:compile" -> "(com.twelvemonkeys.common:common-image:jar:3.8.2:compile - omitted for duplicate)" ; 
+	"com.twelvemonkeys.imageio:imageio-metadata:jar:3.8.2:compile" -> "(com.twelvemonkeys.imageio:imageio-core:jar:3.8.2:compile - omitted for duplicate)" ; 
+	"com.twelvemonkeys.imageio:imageio-metadata:jar:3.8.2:compile" -> "(com.twelvemonkeys.common:common-lang:jar:3.8.2:compile - omitted for duplicate)" ; 
+	"com.twelvemonkeys.imageio:imageio-metadata:jar:3.8.2:compile" -> "(com.twelvemonkeys.common:common-io:jar:3.8.2:compile - omitted for duplicate)" ; 
+	"com.twelvemonkeys.imageio:imageio-metadata:jar:3.8.2:compile" -> "(com.twelvemonkeys.common:common-image:jar:3.8.2:compile - omitted for duplicate)" ; 
+	"com.twelvemonkeys.common:common-io:jar:3.8.2:compile" -> "(com.twelvemonkeys.common:common-lang:jar:3.8.2:compile - omitted for duplicate)" ; 
+	"com.twelvemonkeys.common:common-image:jar:3.8.2:compile" -> "(com.twelvemonkeys.common:common-lang:jar:3.8.2:compile - omitted for duplicate)" ; 
+	"com.twelvemonkeys.common:common-image:jar:3.8.2:compile" -> "(com.twelvemonkeys.common:common-io:jar:3.8.2:compile - omitted for duplicate)" ; 
+	"org.openjdk.nashorn:nashorn-core:jar:15.4:runtime" -> "org.ow2.asm:asm:jar:7.3.1:runtime" ; 
+	"org.openjdk.nashorn:nashorn-core:jar:15.4:runtime" -> "org.ow2.asm:asm-commons:jar:7.3.1:runtime" ; 
+	"org.openjdk.nashorn:nashorn-core:jar:15.4:runtime" -> "org.ow2.asm:asm-tree:jar:7.3.1:runtime" ; 
+	"org.openjdk.nashorn:nashorn-core:jar:15.4:runtime" -> "org.ow2.asm:asm-util:jar:7.3.1:runtime" ; 
+	"org.ow2.asm:asm-commons:jar:7.3.1:runtime" -> "(org.ow2.asm:asm:jar:7.3.1:runtime - omitted for duplicate)" ; 
+	"org.ow2.asm:asm-commons:jar:7.3.1:runtime" -> "(org.ow2.asm:asm-tree:jar:7.3.1:runtime - omitted for duplicate)" ; 
+	"org.ow2.asm:asm-commons:jar:7.3.1:runtime" -> "org.ow2.asm:asm-analysis:jar:7.3.1:runtime" ; 
+	"org.ow2.asm:asm-analysis:jar:7.3.1:runtime" -> "(org.ow2.asm:asm-tree:jar:7.3.1:runtime - omitted for duplicate)" ; 
+	"org.ow2.asm:asm-tree:jar:7.3.1:runtime" -> "(org.ow2.asm:asm:jar:7.3.1:runtime - omitted for duplicate)" ; 
+	"org.ow2.asm:asm-util:jar:7.3.1:runtime" -> "(org.ow2.asm:asm:jar:7.3.1:runtime - omitted for duplicate)" ; 
+	"org.ow2.asm:asm-util:jar:7.3.1:runtime" -> "(org.ow2.asm:asm-tree:jar:7.3.1:runtime - omitted for duplicate)" ; 
+	"org.ow2.asm:asm-util:jar:7.3.1:runtime" -> "(org.ow2.asm:asm-analysis:jar:7.3.1:runtime - omitted for duplicate)" ; 
+	"junit:junit:jar:4.13.2:test" -> "org.hamcrest:hamcrest-core:jar:1.3:test" ; 
+	"org.slf4j:slf4j-simple:jar:1.7.36:test" -> "(org.slf4j:slf4j-api:jar:1.7.36:test - omitted for duplicate)" ; 
+}
+digraph WPDynmapPreviewer {
+	"org.pepsoft.worldpainter:WPDynmapPreviewer:jar:2.24.2-SNAPSHOT" -> "org.pepsoft.worldpainter:WPCore:jar:2.24.2-SNAPSHOT:compile" ; 
+	"org.pepsoft.worldpainter:WPDynmapPreviewer:jar:2.24.2-SNAPSHOT" -> "us.dynmap:DynmapCore:jar:3.6:compile" ; 
+	"org.pepsoft.worldpainter:WPDynmapPreviewer:jar:2.24.2-SNAPSHOT" -> "org.yaml:snakeyaml:jar:2.0:compile" ; 
+	"org.pepsoft.worldpainter:WPDynmapPreviewer:jar:2.24.2-SNAPSHOT" -> "com.googlecode.json-simple:json-simple:jar:1.1.1:compile" ; 
+	"org.pepsoft.worldpainter:WPDynmapPreviewer:jar:2.24.2-SNAPSHOT" -> "org.slf4j:slf4j-api:jar:1.7.36:compile" ; 
+	"org.pepsoft.worldpainter:WPDynmapPreviewer:jar:2.24.2-SNAPSHOT" -> "org.slf4j:jul-to-slf4j:jar:1.7.36:compile" ; 
+	"us.dynmap:DynmapCore:jar:3.6:compile" -> "us.dynmap:DynmapCoreAPI:jar:3.6:compile" ; 
+	"org.slf4j:jul-to-slf4j:jar:1.7.36:compile" -> "(org.slf4j:slf4j-api:jar:1.7.36:compile - omitted for duplicate)" ; 
+}
+digraph WPGUI {
+	"org.pepsoft.worldpainter:WPGUI:jar:2.24.2-SNAPSHOT" -> "org.pepsoft.worldpainter:WPCore:jar:2.24.2-SNAPSHOT:compile" ; 
+	"org.pepsoft.worldpainter:WPGUI:jar:2.24.2-SNAPSHOT" -> "org.pepsoft.utils:SwingUtils:jar:1.2.3:compile" ; 
+	"org.pepsoft.worldpainter:WPGUI:jar:2.24.2-SNAPSHOT" -> "org.pepsoft.worldpainter:WPDynmapPreviewer:jar:2.24.2-SNAPSHOT:compile" ; 
+	"org.pepsoft.worldpainter:WPGUI:jar:2.24.2-SNAPSHOT" -> "org.pepsoft.worldpainter:WPJava9Support:jar:2.24.2-SNAPSHOT:runtime" ; 
+	"org.pepsoft.worldpainter:WPGUI:jar:2.24.2-SNAPSHOT" -> "org.jetbrains:annotations:jar:24.0.1:provided" ; 
+	"org.pepsoft.worldpainter:WPGUI:jar:2.24.2-SNAPSHOT" -> "net.sourceforge:jpen:jar:2-150301:compile" ; 
+	"org.pepsoft.worldpainter:WPGUI:jar:2.24.2-SNAPSHOT" -> "com.jidesoft:jide-common:jar:3.7.13:compile" ; 
+	"org.pepsoft.worldpainter:WPGUI:jar:2.24.2-SNAPSHOT" -> "com.jidesoft:jide-dock:jar:3.7.13:compile" ; 
+	"org.pepsoft.worldpainter:WPGUI:jar:2.24.2-SNAPSHOT" -> "com.jidesoft:jide-plaf-jdk7:jar:3.7.13:runtime" ; 
+	"org.pepsoft.worldpainter:WPGUI:jar:2.24.2-SNAPSHOT" -> "org.netbeans.swing:laf-dark:jar:201403101706:runtime" ; 
+	"org.pepsoft.worldpainter:WPGUI:jar:2.24.2-SNAPSHOT" -> "com.nativelibs4java:bridj:jar:0.7.0:runtime" ; 
+	"org.pepsoft.worldpainter:WPGUI:jar:2.24.2-SNAPSHOT" -> "org.slf4j:slf4j-api:jar:1.7.36:compile" ; 
+	"org.pepsoft.worldpainter:WPGUI:jar:2.24.2-SNAPSHOT" -> "ch.qos.logback:logback-classic:jar:1.2.11:compile" ; 
+	"org.pepsoft.worldpainter:WPGUI:jar:2.24.2-SNAPSHOT" -> "org.slf4j:jcl-over-slf4j:jar:1.7.36:runtime" ; 
+	"org.pepsoft.worldpainter:WPGUI:jar:2.24.2-SNAPSHOT" -> "org.slf4j:jul-to-slf4j:jar:1.7.36:compile" ; 
+	"org.pepsoft.worldpainter:WPGUI:jar:2.24.2-SNAPSHOT" -> "org.apache.logging.log4j:log4j-to-slf4j:jar:2.17.2:runtime" ; 
+	"org.pepsoft.worldpainter:WPGUI:jar:2.24.2-SNAPSHOT" -> "junit:junit:jar:4.13.2:test" ; 
+	"ch.qos.logback:logback-classic:jar:1.2.11:compile" -> "ch.qos.logback:logback-core:jar:1.2.11:compile" ; 
+	"ch.qos.logback:logback-classic:jar:1.2.11:compile" -> "(org.slf4j:slf4j-api:jar:1.7.32:compile - omitted for conflict with 1.7.36)" ; 
+	"org.slf4j:jcl-over-slf4j:jar:1.7.36:runtime" -> "(org.slf4j:slf4j-api:jar:1.7.36:runtime - omitted for duplicate)" ; 
+	"org.slf4j:jul-to-slf4j:jar:1.7.36:compile" -> "(org.slf4j:slf4j-api:jar:1.7.36:compile - omitted for duplicate)" ; 
+	"org.apache.logging.log4j:log4j-to-slf4j:jar:2.17.2:runtime" -> "(org.slf4j:slf4j-api:jar:1.7.35:runtime - omitted for conflict with 1.7.36)" ; 
+	"org.apache.logging.log4j:log4j-to-slf4j:jar:2.17.2:runtime" -> "org.apache.logging.log4j:log4j-api:jar:2.17.2:runtime" ; 
+	"junit:junit:jar:4.13.2:test" -> "org.hamcrest:hamcrest-core:jar:1.3:test" ; 
+}
+digraph WPJava9Support {
+	"org.pepsoft.worldpainter:WPJava9Support:jar:2.24.2-SNAPSHOT" -> "org.pepsoft.utils:SwingUtils:jar:1.2.3:compile" ; 
+}

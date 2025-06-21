@@ -1,0 +1,36 @@
+digraph pircbotx__pircbotx {
+	"org.pircbotx:pircbotx:jar:2.4-SNAPSHOT" -> "org.projectlombok:lombok:jar:1.18.22:provided" ; 
+	"org.pircbotx:pircbotx:jar:2.4-SNAPSHOT" -> "com.google.code.findbugs:jsr305:jar:3.0.2:provided (scope not updated to compile)" ; 
+	"org.pircbotx:pircbotx:jar:2.4-SNAPSHOT" -> "org.apache.commons:commons-lang3:jar:3.12.0:compile" ; 
+	"org.pircbotx:pircbotx:jar:2.4-SNAPSHOT" -> "org.apache.commons:commons-text:jar:1.10.0:compile" ; 
+	"org.pircbotx:pircbotx:jar:2.4-SNAPSHOT" -> "org.slf4j:slf4j-api:jar:2.0.16:compile" ; 
+	"org.pircbotx:pircbotx:jar:2.4-SNAPSHOT" -> "commons-codec:commons-codec:jar:1.15:compile" ; 
+	"org.pircbotx:pircbotx:jar:2.4-SNAPSHOT" -> "com.google.guava:guava:jar:32.0.0-jre:compile" ; 
+	"org.pircbotx:pircbotx:jar:2.4-SNAPSHOT" -> "org.testng:testng:jar:7.7.0:test" ; 
+	"org.pircbotx:pircbotx:jar:2.4-SNAPSHOT" -> "org.mockito:mockito-core:jar:4.3.1:test" ; 
+	"org.pircbotx:pircbotx:jar:2.4-SNAPSHOT" -> "ch.qos.logback:logback-classic:jar:1.3.12:test" ; 
+	"org.apache.commons:commons-text:jar:1.10.0:compile" -> "(org.apache.commons:commons-lang3:jar:3.12.0:compile - version managed from 3.12.0; omitted for duplicate)" ; 
+	"com.google.guava:guava:jar:32.0.0-jre:compile" -> "com.google.guava:failureaccess:jar:1.0.1:compile" ; 
+	"com.google.guava:guava:jar:32.0.0-jre:compile" -> "com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:compile" ; 
+	"com.google.guava:guava:jar:32.0.0-jre:compile" -> "(com.google.code.findbugs:jsr305:jar:3.0.2:compile - version managed from 3.0.2; omitted for duplicate)" ; 
+	"com.google.guava:guava:jar:32.0.0-jre:compile" -> "org.checkerframework:checker-qual:jar:3.33.0:compile" ; 
+	"com.google.guava:guava:jar:32.0.0-jre:compile" -> "com.google.errorprone:error_prone_annotations:jar:2.18.0:compile" ; 
+	"com.google.guava:guava:jar:32.0.0-jre:compile" -> "com.google.j2objc:j2objc-annotations:jar:2.8:compile" ; 
+	"org.testng:testng:jar:7.7.0:test" -> "(org.slf4j:slf4j-api:jar:2.0.16:test - version managed from 1.7.36; omitted for duplicate)" ; 
+	"org.testng:testng:jar:7.7.0:test" -> "com.beust:jcommander:jar:1.82:test" ; 
+	"org.testng:testng:jar:7.7.0:test" -> "org.webjars:jquery:jar:3.6.1:test" ; 
+	"org.mockito:mockito-core:jar:4.3.1:test" -> "net.bytebuddy:byte-buddy:jar:1.12.7:test" ; 
+	"org.mockito:mockito-core:jar:4.3.1:test" -> "net.bytebuddy:byte-buddy-agent:jar:1.12.7:test" ; 
+	"org.mockito:mockito-core:jar:4.3.1:test" -> "org.objenesis:objenesis:jar:3.2:test" ; 
+	"net.bytebuddy:byte-buddy:jar:1.12.7:test" -> "net.java.dev.jna:jna:jar:5.8.0:test" ; 
+	"net.bytebuddy:byte-buddy:jar:1.12.7:test" -> "net.java.dev.jna:jna-platform:jar:5.8.0:test" ; 
+	"net.bytebuddy:byte-buddy:jar:1.12.7:test" -> "com.google.code.findbugs:findbugs-annotations:jar:3.0.1:test" ; 
+	"net.bytebuddy:byte-buddy:jar:1.12.7:test" -> "(com.google.code.findbugs:jsr305:jar:3.0.2:test - version managed from 3.0.2; omitted for duplicate)" ; 
+	"net.java.dev.jna:jna-platform:jar:5.8.0:test" -> "(net.java.dev.jna:jna:jar:5.8.0:test - omitted for duplicate)" ; 
+	"net.bytebuddy:byte-buddy-agent:jar:1.12.7:test" -> "(net.java.dev.jna:jna:jar:5.8.0:test - omitted for duplicate)" ; 
+	"net.bytebuddy:byte-buddy-agent:jar:1.12.7:test" -> "(net.java.dev.jna:jna-platform:jar:5.8.0:test - omitted for duplicate)" ; 
+	"net.bytebuddy:byte-buddy-agent:jar:1.12.7:test" -> "(com.google.code.findbugs:findbugs-annotations:jar:3.0.1:test - omitted for duplicate)" ; 
+	"net.bytebuddy:byte-buddy-agent:jar:1.12.7:test" -> "(com.google.code.findbugs:jsr305:jar:3.0.2:test - version managed from 3.0.2; omitted for duplicate)" ; 
+	"ch.qos.logback:logback-classic:jar:1.3.12:test" -> "ch.qos.logback:logback-core:jar:1.3.12:test" ; 
+	"ch.qos.logback:logback-classic:jar:1.3.12:test" -> "(org.slf4j:slf4j-api:jar:2.0.16:test - version managed from 2.0.7; omitted for duplicate)" ; 
+}

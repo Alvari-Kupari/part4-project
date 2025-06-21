@@ -1,0 +1,63 @@
+digraph admin-token {
+	"com.zrlog:admin-token:jar:3.1.7-SNAPSHOT" -> "com.zrlog:service:jar:3.1.7-SNAPSHOT:compile" ; 
+	"com.zrlog:admin-token:jar:3.1.7-SNAPSHOT" -> "org.freemarker:freemarker:jar:2.3.32:compile" ; 
+	"com.zrlog:admin-token:jar:3.1.7-SNAPSHOT" -> "com.hibegin:simplewebserver:jar:0.3.175:compile" ; 
+	"com.zrlog:admin-token:jar:3.1.7-SNAPSHOT" -> "junit:junit:jar:4.13.1:test" ; 
+	"junit:junit:jar:4.13.1:test" -> "org.hamcrest:hamcrest-core:jar:1.3:test" ; 
+}
+digraph admin-web {
+	"com.zrlog:admin-web:jar:3.1.7-SNAPSHOT" -> "com.zrlog:service:jar:3.1.7-SNAPSHOT:compile" ; 
+	"com.zrlog:admin-web:jar:3.1.7-SNAPSHOT" -> "com.zrlog:admin-token:jar:3.1.7-SNAPSHOT:compile" ; 
+	"com.zrlog:admin-web:jar:3.1.7-SNAPSHOT" -> "org.freemarker:freemarker:jar:2.3.32:compile" ; 
+	"com.zrlog:admin-web:jar:3.1.7-SNAPSHOT" -> "com.hibegin:simplewebserver:jar:0.3.175:compile" ; 
+	"com.zrlog:admin-web:jar:3.1.7-SNAPSHOT" -> "junit:junit:jar:4.13.1:test" ; 
+	"junit:junit:jar:4.13.1:test" -> "org.hamcrest:hamcrest-core:jar:1.3:test" ; 
+}
+digraph blog-web {
+	"com.zrlog:blog-web:jar:3.1.7-SNAPSHOT" -> "com.zrlog:admin-token:jar:3.1.7-SNAPSHOT:compile" ; 
+	"com.zrlog:blog-web:jar:3.1.7-SNAPSHOT" -> "com.zrlog:service:jar:3.1.7-SNAPSHOT:compile" ; 
+	"com.zrlog:blog-web:jar:3.1.7-SNAPSHOT" -> "org.freemarker:freemarker:jar:2.3.32:compile" ; 
+	"com.zrlog:blog-web:jar:3.1.7-SNAPSHOT" -> "com.hibegin:simplewebserver:jar:0.3.175:compile" ; 
+	"com.zrlog:blog-web:jar:3.1.7-SNAPSHOT" -> "junit:junit:jar:4.13.1:test" ; 
+	"junit:junit:jar:4.13.1:test" -> "org.hamcrest:hamcrest-core:jar:1.3:test" ; 
+}
+digraph common {
+	"com.zrlog:common:jar:3.1.7-SNAPSHOT" -> "com.google.code.gson:gson:jar:2.10.1:compile" ; 
+	"com.zrlog:common:jar:3.1.7-SNAPSHOT" -> "org.jsoup:jsoup:jar:1.17.2:compile" ; 
+	"com.zrlog:common:jar:3.1.7-SNAPSHOT" -> "com.atlassian.commonmark:commonmark:jar:0.11.0:compile" ; 
+	"com.zrlog:common:jar:3.1.7-SNAPSHOT" -> "eu.bitwalker:UserAgentUtils:jar:1.21:compile" ; 
+	"com.zrlog:common:jar:3.1.7-SNAPSHOT" -> "org.slf4j:slf4j-api:jar:2.0.13:compile" ; 
+	"com.zrlog:common:jar:3.1.7-SNAPSHOT" -> "org.slf4j:slf4j-simple:jar:2.0.13:compile" ; 
+	"com.zrlog:common:jar:3.1.7-SNAPSHOT" -> "org.freemarker:freemarker:jar:2.3.32:compile" ; 
+	"com.zrlog:common:jar:3.1.7-SNAPSHOT" -> "com.hibegin:simplewebserver:jar:0.3.175:compile" ; 
+	"com.zrlog:common:jar:3.1.7-SNAPSHOT" -> "junit:junit:jar:4.13.1:test" ; 
+	"org.slf4j:slf4j-simple:jar:2.0.13:compile" -> "(org.slf4j:slf4j-api:jar:2.0.13:compile - omitted for duplicate)" ; 
+	"junit:junit:jar:4.13.1:test" -> "org.hamcrest:hamcrest-core:jar:1.3:test" ; 
+}
+digraph data {
+	"com.zrlog:data:jar:3.1.7-SNAPSHOT" -> "com.zrlog:common:jar:3.1.7-SNAPSHOT:compile" ; 
+	"com.zrlog:data:jar:3.1.7-SNAPSHOT" -> "com.zaxxer:HikariCP:jar:6.3.0:compile" ; 
+	"com.zrlog:data:jar:3.1.7-SNAPSHOT" -> "com.mysql:mysql-connector-j:jar:9.2.0:compile" ; 
+	"com.zrlog:data:jar:3.1.7-SNAPSHOT" -> "commons-dbutils:commons-dbutils:jar:1.8.1:compile" ; 
+	"com.zrlog:data:jar:3.1.7-SNAPSHOT" -> "org.freemarker:freemarker:jar:2.3.32:compile" ; 
+	"com.zrlog:data:jar:3.1.7-SNAPSHOT" -> "com.hibegin:simplewebserver:jar:0.3.175:compile" ; 
+	"com.zrlog:data:jar:3.1.7-SNAPSHOT" -> "junit:junit:jar:4.13.1:test" ; 
+	"com.zaxxer:HikariCP:jar:6.3.0:compile" -> "org.slf4j:slf4j-api:jar:1.7.36:compile" ; 
+	"com.mysql:mysql-connector-j:jar:9.2.0:compile" -> "com.google.protobuf:protobuf-java:jar:4.29.0:compile" ; 
+	"junit:junit:jar:4.13.1:test" -> "org.hamcrest:hamcrest-core:jar:1.3:test" ; 
+}
+digraph service {
+	"com.zrlog:service:jar:3.1.7-SNAPSHOT" -> "com.zrlog:data:jar:3.1.7-SNAPSHOT:compile" ; 
+	"com.zrlog:service:jar:3.1.7-SNAPSHOT" -> "org.freemarker:freemarker:jar:2.3.32:compile" ; 
+	"com.zrlog:service:jar:3.1.7-SNAPSHOT" -> "com.hibegin:simplewebserver:jar:0.3.175:compile" ; 
+	"com.zrlog:service:jar:3.1.7-SNAPSHOT" -> "junit:junit:jar:4.13.1:test" ; 
+	"junit:junit:jar:4.13.1:test" -> "org.hamcrest:hamcrest-core:jar:1.3:test" ; 
+}
+digraph web {
+	"com.zrlog:web:jar:3.1.7-SNAPSHOT" -> "com.zrlog:blog-web:jar:3.1.7-SNAPSHOT:compile" ; 
+	"com.zrlog:web:jar:3.1.7-SNAPSHOT" -> "com.zrlog:admin-web:jar:3.1.7-SNAPSHOT:compile" ; 
+	"com.zrlog:web:jar:3.1.7-SNAPSHOT" -> "org.freemarker:freemarker:jar:2.3.32:compile" ; 
+	"com.zrlog:web:jar:3.1.7-SNAPSHOT" -> "com.hibegin:simplewebserver:jar:0.3.175:compile" ; 
+	"com.zrlog:web:jar:3.1.7-SNAPSHOT" -> "junit:junit:jar:4.13.1:test" ; 
+	"junit:junit:jar:4.13.1:test" -> "org.hamcrest:hamcrest-core:jar:1.3:test" ; 
+}

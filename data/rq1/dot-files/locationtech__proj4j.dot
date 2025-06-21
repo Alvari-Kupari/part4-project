@@ -1,0 +1,19 @@
+digraph core {
+	"org.locationtech.proj4j:proj4j:bundle:0.0.0-SNAPSHOT" -> "org.locationtech.proj4j:proj4j-epsg:jar:0.0.0-SNAPSHOT:test" ; 
+	"org.locationtech.proj4j:proj4j:bundle:0.0.0-SNAPSHOT" -> "junit:junit:jar:4.13.2:test" ; 
+	"junit:junit:jar:4.13.2:test" -> "org.hamcrest:hamcrest-core:jar:1.3:test" ; 
+}
+digraph geoapi {
+	"org.locationtech.proj4j:proj4j-geoapi:jar:0.0.0-SNAPSHOT" -> "org.opengis:geoapi:jar:3.0.2:compile" ; 
+	"org.locationtech.proj4j:proj4j-geoapi:jar:0.0.0-SNAPSHOT" -> "org.opengis:geoapi-conformance:jar:3.0.2:test" ; 
+	"org.locationtech.proj4j:proj4j-geoapi:jar:0.0.0-SNAPSHOT" -> "org.locationtech.proj4j:proj4j:jar:0.0.0-SNAPSHOT:compile" ; 
+	"org.locationtech.proj4j:proj4j-geoapi:jar:0.0.0-SNAPSHOT" -> "org.locationtech.proj4j:proj4j-epsg:jar:0.0.0-SNAPSHOT:test" ; 
+	"org.locationtech.proj4j:proj4j-geoapi:jar:0.0.0-SNAPSHOT" -> "tech.uom:seshat:jar:1.3:test" ; 
+	"org.locationtech.proj4j:proj4j-geoapi:jar:0.0.0-SNAPSHOT" -> "junit:junit:jar:4.13.2:test" ; 
+	"org.opengis:geoapi:jar:3.0.2:compile" -> "javax.measure:unit-api:jar:2.1.3:compile" ; 
+	"org.opengis:geoapi-conformance:jar:3.0.2:test" -> "(org.opengis:geoapi:jar:3.0.2:test - omitted for duplicate)" ; 
+	"org.opengis:geoapi-conformance:jar:3.0.2:test" -> "(junit:junit:jar:4.13.2:test - version managed from 4.13.2; scope managed from compile; omitted for duplicate)" ; 
+	"org.opengis:geoapi-conformance:jar:3.0.2:test" -> "(javax.measure:unit-api:jar:2.1.3:test - omitted for duplicate)" ; 
+	"tech.uom:seshat:jar:1.3:test" -> "(javax.measure:unit-api:jar:2.1.3:test - omitted for duplicate)" ; 
+	"junit:junit:jar:4.13.2:test" -> "org.hamcrest:hamcrest-core:jar:1.3:test" ; 
+}

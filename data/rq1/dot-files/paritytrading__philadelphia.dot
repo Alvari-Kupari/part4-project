@@ -1,0 +1,81 @@
+digraph client {
+	"com.paritytrading.philadelphia:philadelphia-client:jar:2.0.1-SNAPSHOT" -> "com.paritytrading.philadelphia:philadelphia-core:jar:2.0.1-SNAPSHOT:compile" ; 
+	"com.paritytrading.philadelphia:philadelphia-client:jar:2.0.1-SNAPSHOT" -> "com.typesafe:config:jar:1.4.3:compile" ; 
+	"com.paritytrading.philadelphia:philadelphia-client:jar:2.0.1-SNAPSHOT" -> "org.jline:jline-reader:jar:3.30.4:compile" ; 
+	"com.paritytrading.philadelphia:philadelphia-client:jar:2.0.1-SNAPSHOT" -> "org.junit.jupiter:junit-jupiter:jar:5.13.1:test" ; 
+	"org.jline:jline-reader:jar:3.30.4:compile" -> "org.jline:jline-terminal:jar:3.30.4:compile" ; 
+	"org.jline:jline-terminal:jar:3.30.4:compile" -> "org.jline:jline-native:jar:3.30.4:compile" ; 
+	"org.junit.jupiter:junit-jupiter:jar:5.13.1:test" -> "org.junit.jupiter:junit-jupiter-api:jar:5.13.1:test" ; 
+	"org.junit.jupiter:junit-jupiter:jar:5.13.1:test" -> "org.junit.jupiter:junit-jupiter-params:jar:5.13.1:test" ; 
+	"org.junit.jupiter:junit-jupiter:jar:5.13.1:test" -> "org.junit.jupiter:junit-jupiter-engine:jar:5.13.1:test" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.13.1:test" -> "org.opentest4j:opentest4j:jar:1.3.0:test" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.13.1:test" -> "org.junit.platform:junit-platform-commons:jar:1.13.1:test" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.13.1:test" -> "org.apiguardian:apiguardian-api:jar:1.1.2:test" ; 
+	"org.junit.platform:junit-platform-commons:jar:1.13.1:test" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-params:jar:5.13.1:test" -> "(org.junit.jupiter:junit-jupiter-api:jar:5.13.1:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-params:jar:5.13.1:test" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.13.1:test" -> "org.junit.platform:junit-platform-engine:jar:1.13.1:test" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.13.1:test" -> "(org.junit.jupiter:junit-jupiter-api:jar:5.13.1:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.13.1:test" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:test - omitted for duplicate)" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.13.1:test" -> "(org.opentest4j:opentest4j:jar:1.3.0:test - omitted for duplicate)" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.13.1:test" -> "(org.junit.platform:junit-platform-commons:jar:1.13.1:test - omitted for duplicate)" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.13.1:test" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:test - omitted for duplicate)" ; 
+}
+digraph acceptor {
+	"com.paritytrading.philadelphia:philadelphia-acceptor:jar:2.0.1-SNAPSHOT" -> "com.paritytrading.philadelphia:philadelphia-core:jar:2.0.1-SNAPSHOT:compile" ; 
+	"com.paritytrading.philadelphia:philadelphia-acceptor:jar:2.0.1-SNAPSHOT" -> "com.paritytrading.philadelphia:philadelphia-fix42:jar:2.0.1-SNAPSHOT:compile" ; 
+}
+digraph initiator {
+	"com.paritytrading.philadelphia:philadelphia-initiator:jar:2.0.1-SNAPSHOT" -> "com.paritytrading.philadelphia:philadelphia-core:jar:2.0.1-SNAPSHOT:compile" ; 
+	"com.paritytrading.philadelphia:philadelphia-initiator:jar:2.0.1-SNAPSHOT" -> "com.paritytrading.philadelphia:philadelphia-fix42:jar:2.0.1-SNAPSHOT:compile" ; 
+	"com.paritytrading.philadelphia:philadelphia-initiator:jar:2.0.1-SNAPSHOT" -> "org.hdrhistogram:HdrHistogram:jar:2.2.2:compile" ; 
+}
+digraph core {
+	"com.paritytrading.philadelphia:philadelphia-core:jar:2.0.1-SNAPSHOT" -> "com.paritytrading.philadelphia:philadelphia-fix42:jar:2.0.1-SNAPSHOT:test" ; 
+	"com.paritytrading.philadelphia:philadelphia-core:jar:2.0.1-SNAPSHOT" -> "org.apache.commons:commons-lang3:jar:3.17.0:test" ; 
+	"com.paritytrading.philadelphia:philadelphia-core:jar:2.0.1-SNAPSHOT" -> "org.junit.jupiter:junit-jupiter:jar:5.13.1:test" ; 
+	"org.junit.jupiter:junit-jupiter:jar:5.13.1:test" -> "org.junit.jupiter:junit-jupiter-api:jar:5.13.1:test" ; 
+	"org.junit.jupiter:junit-jupiter:jar:5.13.1:test" -> "org.junit.jupiter:junit-jupiter-params:jar:5.13.1:test" ; 
+	"org.junit.jupiter:junit-jupiter:jar:5.13.1:test" -> "org.junit.jupiter:junit-jupiter-engine:jar:5.13.1:test" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.13.1:test" -> "org.opentest4j:opentest4j:jar:1.3.0:test" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.13.1:test" -> "org.junit.platform:junit-platform-commons:jar:1.13.1:test" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.13.1:test" -> "org.apiguardian:apiguardian-api:jar:1.1.2:test" ; 
+	"org.junit.platform:junit-platform-commons:jar:1.13.1:test" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-params:jar:5.13.1:test" -> "(org.junit.jupiter:junit-jupiter-api:jar:5.13.1:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-params:jar:5.13.1:test" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.13.1:test" -> "org.junit.platform:junit-platform-engine:jar:1.13.1:test" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.13.1:test" -> "(org.junit.jupiter:junit-jupiter-api:jar:5.13.1:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.13.1:test" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:test - omitted for duplicate)" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.13.1:test" -> "(org.opentest4j:opentest4j:jar:1.3.0:test - omitted for duplicate)" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.13.1:test" -> "(org.junit.platform:junit-platform-commons:jar:1.13.1:test - omitted for duplicate)" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.13.1:test" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:test - omitted for duplicate)" ; 
+}
+digraph fix40 {
+}
+digraph fix41 {
+}
+digraph fix42 {
+}
+digraph fix43 {
+}
+digraph fix44 {
+}
+digraph fix50 {
+}
+digraph fix50sp1 {
+}
+digraph fix50sp2 {
+}
+digraph fixlatest {
+}
+digraph fixt11 {
+}
+digraph perf-test {
+	"com.paritytrading.philadelphia:philadelphia-perf-test:jar:2.0.1-SNAPSHOT" -> "com.paritytrading.philadelphia:philadelphia-core:jar:2.0.1-SNAPSHOT:compile" ; 
+	"com.paritytrading.philadelphia:philadelphia-perf-test:jar:2.0.1-SNAPSHOT" -> "com.paritytrading.philadelphia:philadelphia-fix42:jar:2.0.1-SNAPSHOT:compile" ; 
+	"com.paritytrading.philadelphia:philadelphia-perf-test:jar:2.0.1-SNAPSHOT" -> "org.openjdk.jmh:jmh-core:jar:1.37:compile" ; 
+	"com.paritytrading.philadelphia:philadelphia-perf-test:jar:2.0.1-SNAPSHOT" -> "org.openjdk.jmh:jmh-generator-annprocess:jar:1.37:provided" ; 
+	"org.openjdk.jmh:jmh-core:jar:1.37:compile" -> "net.sf.jopt-simple:jopt-simple:jar:5.0.4:compile" ; 
+	"org.openjdk.jmh:jmh-core:jar:1.37:compile" -> "org.apache.commons:commons-math3:jar:3.6.1:compile" ; 
+	"org.openjdk.jmh:jmh-generator-annprocess:jar:1.37:provided" -> "(org.openjdk.jmh:jmh-core:jar:1.37:provided - version managed from 1.37; omitted for duplicate)" ; 
+}

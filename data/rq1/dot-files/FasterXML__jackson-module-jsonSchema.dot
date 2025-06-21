@@ -1,0 +1,20 @@
+digraph jakarta {
+	"com.fasterxml.jackson.module:jackson-module-jsonSchema-jakarta:bundle:2.20.0-SNAPSHOT" -> "jakarta.validation:jakarta.validation-api:jar:3.0.2:compile" ; 
+	"com.fasterxml.jackson.module:jackson-module-jsonSchema-jakarta:bundle:2.20.0-SNAPSHOT" -> "com.fasterxml.jackson.core:jackson-annotations:jar:2.20.0-SNAPSHOT:compile" ; 
+	"com.fasterxml.jackson.module:jackson-module-jsonSchema-jakarta:bundle:2.20.0-SNAPSHOT" -> "com.fasterxml.jackson.core:jackson-core:jar:2.20.0-SNAPSHOT:compile" ; 
+	"com.fasterxml.jackson.module:jackson-module-jsonSchema-jakarta:bundle:2.20.0-SNAPSHOT" -> "com.fasterxml.jackson.core:jackson-databind:jar:2.20.0-SNAPSHOT:compile" ; 
+	"com.fasterxml.jackson.module:jackson-module-jsonSchema-jakarta:bundle:2.20.0-SNAPSHOT" -> "junit:junit:jar:4.13.2:test" ; 
+	"com.fasterxml.jackson.core:jackson-databind:jar:2.20.0-SNAPSHOT:compile" -> "(com.fasterxml.jackson.core:jackson-annotations:jar:2.20.0-SNAPSHOT:compile - version managed from 2.20.0-SNAPSHOT; omitted for duplicate)" ; 
+	"com.fasterxml.jackson.core:jackson-databind:jar:2.20.0-SNAPSHOT:compile" -> "(com.fasterxml.jackson.core:jackson-core:jar:2.20.0-SNAPSHOT:compile - version managed from 2.20.0-SNAPSHOT; omitted for duplicate)" ; 
+	"junit:junit:jar:4.13.2:test" -> "org.hamcrest:hamcrest-core:jar:1.3:test" ; 
+}
+digraph javax {
+	"com.fasterxml.jackson.module:jackson-module-jsonSchema:bundle:2.20.0-SNAPSHOT" -> "javax.validation:validation-api:jar:1.1.0.Final:compile" ; 
+	"com.fasterxml.jackson.module:jackson-module-jsonSchema:bundle:2.20.0-SNAPSHOT" -> "com.fasterxml.jackson.core:jackson-annotations:jar:2.20.0-SNAPSHOT:compile" ; 
+	"com.fasterxml.jackson.module:jackson-module-jsonSchema:bundle:2.20.0-SNAPSHOT" -> "com.fasterxml.jackson.core:jackson-core:jar:2.20.0-SNAPSHOT:compile" ; 
+	"com.fasterxml.jackson.module:jackson-module-jsonSchema:bundle:2.20.0-SNAPSHOT" -> "com.fasterxml.jackson.core:jackson-databind:jar:2.20.0-SNAPSHOT:compile" ; 
+	"com.fasterxml.jackson.module:jackson-module-jsonSchema:bundle:2.20.0-SNAPSHOT" -> "junit:junit:jar:4.13.2:test" ; 
+	"com.fasterxml.jackson.core:jackson-databind:jar:2.20.0-SNAPSHOT:compile" -> "(com.fasterxml.jackson.core:jackson-annotations:jar:2.20.0-SNAPSHOT:compile - version managed from 2.20.0-SNAPSHOT; omitted for duplicate)" ; 
+	"com.fasterxml.jackson.core:jackson-databind:jar:2.20.0-SNAPSHOT:compile" -> "(com.fasterxml.jackson.core:jackson-core:jar:2.20.0-SNAPSHOT:compile - version managed from 2.20.0-SNAPSHOT; omitted for duplicate)" ; 
+	"junit:junit:jar:4.13.2:test" -> "org.hamcrest:hamcrest-core:jar:1.3:test" ; 
+}

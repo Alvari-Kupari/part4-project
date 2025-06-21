@@ -1,0 +1,54 @@
+digraph client {
+	"org.example:client:jar:1.0-RELEASE" -> "org.slf4j:slf4j-api:jar:1.7.25:compile" ; 
+	"org.example:client:jar:1.0-RELEASE" -> "org.slf4j:slf4j-log4j12:jar:1.7.21:compile" ; 
+	"org.example:client:jar:1.0-RELEASE" -> "com.alipay.sofa:bolt:jar:1.6.4:compile" ; 
+	"org.example:client:jar:1.0-RELEASE" -> "org.projectlombok:lombok:jar:1.18.2:compile" ; 
+	"org.example:client:jar:1.0-RELEASE" -> "cn.think.in.java:common:jar:1.0-RELEASE:compile" ; 
+	"org.example:client:jar:1.0-RELEASE" -> "com.google.guava:guava:jar:32.0.0-jre:compile" ; 
+	"org.example:client:jar:1.0-RELEASE" -> "junit:junit:jar:4.13.2:test" ; 
+	"org.slf4j:slf4j-log4j12:jar:1.7.21:compile" -> "(org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.21; omitted for duplicate)" ; 
+	"org.slf4j:slf4j-log4j12:jar:1.7.21:compile" -> "log4j:log4j:jar:1.2.17:compile" ; 
+	"com.alipay.sofa:bolt:jar:1.6.4:compile" -> "io.netty:netty-all:jar:4.1.42.Final:compile" ; 
+	"com.alipay.sofa:bolt:jar:1.6.4:compile" -> "com.alipay.sofa.common:sofa-common-tools:jar:1.0.12:compile" ; 
+	"com.google.guava:guava:jar:32.0.0-jre:compile" -> "com.google.guava:failureaccess:jar:1.0.1:compile" ; 
+	"com.google.guava:guava:jar:32.0.0-jre:compile" -> "com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:compile" ; 
+	"com.google.guava:guava:jar:32.0.0-jre:compile" -> "com.google.code.findbugs:jsr305:jar:3.0.2:compile" ; 
+	"com.google.guava:guava:jar:32.0.0-jre:compile" -> "org.checkerframework:checker-qual:jar:3.33.0:compile" ; 
+	"com.google.guava:guava:jar:32.0.0-jre:compile" -> "com.google.errorprone:error_prone_annotations:jar:2.18.0:compile" ; 
+	"com.google.guava:guava:jar:32.0.0-jre:compile" -> "com.google.j2objc:j2objc-annotations:jar:2.8:compile" ; 
+	"junit:junit:jar:4.13.2:test" -> "org.hamcrest:hamcrest-core:jar:1.3:test" ; 
+}
+digraph common {
+	"cn.think.in.java:common:jar:1.0-RELEASE" -> "org.slf4j:slf4j-api:jar:1.7.25:compile" ; 
+	"cn.think.in.java:common:jar:1.0-RELEASE" -> "org.projectlombok:lombok:jar:1.18.2:compile" ; 
+	"cn.think.in.java:common:jar:1.0-RELEASE" -> "com.alipay.sofa:bolt:jar:1.6.4:compile" ; 
+	"cn.think.in.java:common:jar:1.0-RELEASE" -> "junit:junit:jar:4.13.2:test" ; 
+	"com.alipay.sofa:bolt:jar:1.6.4:compile" -> "io.netty:netty-all:jar:4.1.42.Final:compile" ; 
+	"com.alipay.sofa:bolt:jar:1.6.4:compile" -> "com.alipay.sofa.common:sofa-common-tools:jar:1.0.12:compile" ; 
+	"junit:junit:jar:4.13.2:test" -> "org.hamcrest:hamcrest-core:jar:1.3:test" ; 
+}
+digraph server {
+	"cn.think.in.java:server:jar:1.0-RELEASE" -> "cn.think.in.java:common:jar:1.0-RELEASE:compile" ; 
+	"cn.think.in.java:server:jar:1.0-RELEASE" -> "org.slf4j:slf4j-api:jar:1.7.25:compile" ; 
+	"cn.think.in.java:server:jar:1.0-RELEASE" -> "org.slf4j:slf4j-log4j12:jar:1.7.21:compile" ; 
+	"cn.think.in.java:server:jar:1.0-RELEASE" -> "com.alipay.sofa:bolt:jar:1.6.4:compile" ; 
+	"cn.think.in.java:server:jar:1.0-RELEASE" -> "redis.clients:jedis:jar:2.9.0:compile" ; 
+	"cn.think.in.java:server:jar:1.0-RELEASE" -> "com.alibaba:fastjson:jar:1.2.83:compile" ; 
+	"cn.think.in.java:server:jar:1.0-RELEASE" -> "org.projectlombok:lombok:jar:1.18.2:compile" ; 
+	"cn.think.in.java:server:jar:1.0-RELEASE" -> "com.google.guava:guava:jar:32.0.0-jre:compile" ; 
+	"cn.think.in.java:server:jar:1.0-RELEASE" -> "com.alipay.sofa:hessian:jar:3.3.6:compile" ; 
+	"cn.think.in.java:server:jar:1.0-RELEASE" -> "org.rocksdb:rocksdbjni:jar:5.14.3:compile" ; 
+	"cn.think.in.java:server:jar:1.0-RELEASE" -> "junit:junit:jar:4.13.2:test" ; 
+	"org.slf4j:slf4j-log4j12:jar:1.7.21:compile" -> "(org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.21; omitted for duplicate)" ; 
+	"org.slf4j:slf4j-log4j12:jar:1.7.21:compile" -> "log4j:log4j:jar:1.2.17:compile" ; 
+	"com.alipay.sofa:bolt:jar:1.6.4:compile" -> "io.netty:netty-all:jar:4.1.42.Final:compile" ; 
+	"com.alipay.sofa:bolt:jar:1.6.4:compile" -> "com.alipay.sofa.common:sofa-common-tools:jar:1.0.12:compile" ; 
+	"redis.clients:jedis:jar:2.9.0:compile" -> "org.apache.commons:commons-pool2:jar:2.4.2:compile" ; 
+	"com.google.guava:guava:jar:32.0.0-jre:compile" -> "com.google.guava:failureaccess:jar:1.0.1:compile" ; 
+	"com.google.guava:guava:jar:32.0.0-jre:compile" -> "com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:compile" ; 
+	"com.google.guava:guava:jar:32.0.0-jre:compile" -> "com.google.code.findbugs:jsr305:jar:3.0.2:compile" ; 
+	"com.google.guava:guava:jar:32.0.0-jre:compile" -> "org.checkerframework:checker-qual:jar:3.33.0:compile" ; 
+	"com.google.guava:guava:jar:32.0.0-jre:compile" -> "com.google.errorprone:error_prone_annotations:jar:2.18.0:compile" ; 
+	"com.google.guava:guava:jar:32.0.0-jre:compile" -> "com.google.j2objc:j2objc-annotations:jar:2.8:compile" ; 
+	"junit:junit:jar:4.13.2:test" -> "org.hamcrest:hamcrest-core:jar:1.3:test" ; 
+}

@@ -1,0 +1,41 @@
+digraph metadata-store-directory-common {
+	"org.apache.helix:metadata-store-directory-common:bundle:1.4.4-SNAPSHOT" -> "org.apache.httpcomponents:httpclient:jar:4.5.14:compile" ; 
+	"org.apache.helix:metadata-store-directory-common:bundle:1.4.4-SNAPSHOT" -> "com.fasterxml.jackson.core:jackson-databind:jar:2.12.7.1:compile" ; 
+	"org.apache.helix:metadata-store-directory-common:bundle:1.4.4-SNAPSHOT" -> "org.slf4j:slf4j-api:jar:1.7.32:compile" ; 
+	"org.apache.helix:metadata-store-directory-common:bundle:1.4.4-SNAPSHOT" -> "org.apache.logging.log4j:log4j-slf4j-impl:jar:2.17.1:compile" ; 
+	"org.apache.helix:metadata-store-directory-common:bundle:1.4.4-SNAPSHOT" -> "org.apache.commons:commons-lang3:jar:3.8.1:compile" ; 
+	"org.apache.helix:metadata-store-directory-common:bundle:1.4.4-SNAPSHOT" -> "org.testng:testng:jar:6.0.1:test" ; 
+	"org.apache.helix:metadata-store-directory-common:bundle:1.4.4-SNAPSHOT" -> "com.google.guava:guava:jar:32.0.0-jre:compile" ; 
+	"org.apache.helix:metadata-store-directory-common:bundle:1.4.4-SNAPSHOT" -> "org.yaml:snakeyaml:jar:2.0:compile" ; 
+	"org.apache.helix:metadata-store-directory-common:bundle:1.4.4-SNAPSHOT" -> "commons-io:commons-io:jar:2.14.0:test" ; 
+	"org.apache.httpcomponents:httpclient:jar:4.5.14:compile" -> "org.apache.httpcomponents:httpcore:jar:4.4.16:compile" ; 
+	"org.apache.httpcomponents:httpclient:jar:4.5.14:compile" -> "commons-logging:commons-logging:jar:1.2:compile" ; 
+	"org.apache.httpcomponents:httpclient:jar:4.5.14:compile" -> "commons-codec:commons-codec:jar:1.11:compile" ; 
+	"com.fasterxml.jackson.core:jackson-databind:jar:2.12.7.1:compile" -> "com.fasterxml.jackson.core:jackson-annotations:jar:2.12.7:compile" ; 
+	"com.fasterxml.jackson.core:jackson-databind:jar:2.12.7.1:compile" -> "com.fasterxml.jackson.core:jackson-core:jar:2.12.7:compile" ; 
+	"org.apache.logging.log4j:log4j-slf4j-impl:jar:2.17.1:compile" -> "org.apache.logging.log4j:log4j-api:jar:2.17.1:compile" ; 
+	"org.apache.logging.log4j:log4j-slf4j-impl:jar:2.17.1:compile" -> "org.apache.logging.log4j:log4j-core:jar:2.17.1:runtime" ; 
+	"org.testng:testng:jar:6.0.1:test" -> "junit:junit:jar:4.11:test" ; 
+	"org.testng:testng:jar:6.0.1:test" -> "org.beanshell:bsh:jar:2.0b4:test" ; 
+	"org.testng:testng:jar:6.0.1:test" -> "com.beust:jcommander:jar:1.12:test" ; 
+	"junit:junit:jar:4.11:test" -> "org.hamcrest:hamcrest-core:jar:1.3:test" ; 
+	"com.google.guava:guava:jar:32.0.0-jre:compile" -> "com.google.guava:failureaccess:jar:1.0.1:compile" ; 
+	"com.google.guava:guava:jar:32.0.0-jre:compile" -> "com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:compile" ; 
+	"com.google.guava:guava:jar:32.0.0-jre:compile" -> "com.google.code.findbugs:jsr305:jar:3.0.2:compile" ; 
+	"com.google.guava:guava:jar:32.0.0-jre:compile" -> "org.checkerframework:checker-qual:jar:3.33.0:compile" ; 
+	"com.google.guava:guava:jar:32.0.0-jre:compile" -> "com.google.errorprone:error_prone_annotations:jar:2.18.0:compile" ; 
+	"com.google.guava:guava:jar:32.0.0-jre:compile" -> "com.google.j2objc:j2objc-annotations:jar:2.8:compile" ; 
+}
+digraph metrics-common {
+	"org.apache.helix:metrics-common:bundle:1.4.4-SNAPSHOT" -> "io.dropwizard.metrics:metrics-core:jar:4.1.14:compile" ; 
+	"org.apache.helix:metrics-common:bundle:1.4.4-SNAPSHOT" -> "org.slf4j:slf4j-api:jar:1.7.32:compile" ; 
+	"org.apache.helix:metrics-common:bundle:1.4.4-SNAPSHOT" -> "org.apache.logging.log4j:log4j-slf4j-impl:jar:2.17.1:compile" ; 
+	"org.apache.helix:metrics-common:bundle:1.4.4-SNAPSHOT" -> "org.testng:testng:jar:6.0.1:test" ; 
+	"org.apache.logging.log4j:log4j-slf4j-impl:jar:2.17.1:compile" -> "org.apache.logging.log4j:log4j-api:jar:2.17.1:compile" ; 
+	"org.apache.logging.log4j:log4j-slf4j-impl:jar:2.17.1:compile" -> "org.apache.logging.log4j:log4j-core:jar:2.17.1:runtime" ; 
+	"org.testng:testng:jar:6.0.1:test" -> "junit:junit:jar:4.11:test" ; 
+	"org.testng:testng:jar:6.0.1:test" -> "org.beanshell:bsh:jar:2.0b4:test" ; 
+	"org.testng:testng:jar:6.0.1:test" -> "com.beust:jcommander:jar:1.12:test" ; 
+	"org.testng:testng:jar:6.0.1:test" -> "org.yaml:snakeyaml:jar:1.6:test" ; 
+	"junit:junit:jar:4.11:test" -> "org.hamcrest:hamcrest-core:jar:1.3:test" ; 
+}

@@ -1,0 +1,63 @@
+digraph core {
+	"com.google.zxing:core:jar:3.5.4-SNAPSHOT" -> "junit:junit:jar:4.13.2:test" ; 
+	"junit:junit:jar:4.13.2:test" -> "org.hamcrest:hamcrest-core:jar:1.3:test" ; 
+}
+digraph javase {
+	"com.google.zxing:javase:jar:3.5.4-SNAPSHOT" -> "com.google.zxing:core:jar:3.5.4-SNAPSHOT:compile" ; 
+	"com.google.zxing:javase:jar:3.5.4-SNAPSHOT" -> "org.jcommander:jcommander:jar:1.85:compile" ; 
+	"com.google.zxing:javase:jar:3.5.4-SNAPSHOT" -> "com.github.jai-imageio:jai-imageio-core:jar:1.4.0:runtime" ; 
+	"com.google.zxing:javase:jar:3.5.4-SNAPSHOT" -> "junit:junit:jar:4.13.2:test" ; 
+	"junit:junit:jar:4.13.2:test" -> "org.hamcrest:hamcrest-core:jar:1.3:test" ; 
+}
+digraph zxing.appspot.com {
+	"com.google.zxing:zxing.appspot.com:war:3.5.4-SNAPSHOT" -> "org.gwtproject:gwt-user:jar:2.10.0:provided" ; 
+	"org.gwtproject:gwt-user:jar:2.10.0:provided" -> "com.google.jsinterop:jsinterop-annotations:jar:2.0.0:provided" ; 
+	"org.gwtproject:gwt-user:jar:2.10.0:provided" -> "javax.validation:validation-api:jar:1.0.0.GA:provided" ; 
+	"org.gwtproject:gwt-user:jar:2.10.0:provided" -> "javax.validation:validation-api:jar:sources:1.0.0.GA:provided" ; 
+	"org.gwtproject:gwt-user:jar:2.10.0:provided" -> "javax.servlet:javax.servlet-api:jar:3.1.0:provided" ; 
+	"org.gwtproject:gwt-user:jar:2.10.0:provided" -> "org.w3c.css:sac:jar:1.3:provided" ; 
+}
+digraph zxingorg {
+	"com.google.zxing:zxingorg:war:3.5.4-SNAPSHOT" -> "com.google.zxing:core:jar:3.5.4-SNAPSHOT:compile" ; 
+	"com.google.zxing:zxingorg:war:3.5.4-SNAPSHOT" -> "com.google.zxing:javase:jar:3.5.4-SNAPSHOT:compile" ; 
+	"com.google.zxing:zxingorg:war:3.5.4-SNAPSHOT" -> "jakarta.platform:jakarta.jakartaee-web-api:jar:10.0.0:provided" ; 
+	"com.google.zxing:zxingorg:war:3.5.4-SNAPSHOT" -> "com.google.guava:guava:jar:33.3.0-android:compile" ; 
+	"com.google.zxing:zxingorg:war:3.5.4-SNAPSHOT" -> "junit:junit:jar:4.13.2:test" ; 
+	"com.google.zxing:zxingorg:war:3.5.4-SNAPSHOT" -> "org.springframework:spring-test:jar:6.1.12:test" ; 
+	"com.google.zxing:zxingorg:war:3.5.4-SNAPSHOT" -> "org.springframework:spring-web:jar:6.1.12:test" ; 
+	"jakarta.platform:jakarta.jakartaee-web-api:jar:10.0.0:provided" -> "jakarta.servlet:jakarta.servlet-api:jar:6.0.0:provided" ; 
+	"jakarta.platform:jakarta.jakartaee-web-api:jar:10.0.0:provided" -> "jakarta.servlet.jsp:jakarta.servlet.jsp-api:jar:3.1.0:provided" ; 
+	"jakarta.platform:jakarta.jakartaee-web-api:jar:10.0.0:provided" -> "jakarta.el:jakarta.el-api:jar:5.0.1:provided" ; 
+	"jakarta.platform:jakarta.jakartaee-web-api:jar:10.0.0:provided" -> "jakarta.servlet.jsp.jstl:jakarta.servlet.jsp.jstl-api:jar:3.0.0:provided" ; 
+	"jakarta.platform:jakarta.jakartaee-web-api:jar:10.0.0:provided" -> "jakarta.faces:jakarta.faces-api:jar:4.0.1:provided" ; 
+	"jakarta.platform:jakarta.jakartaee-web-api:jar:10.0.0:provided" -> "jakarta.ws.rs:jakarta.ws.rs-api:jar:3.1.0:provided" ; 
+	"jakarta.platform:jakarta.jakartaee-web-api:jar:10.0.0:provided" -> "jakarta.websocket:jakarta.websocket-api:jar:2.1.0:provided" ; 
+	"jakarta.platform:jakarta.jakartaee-web-api:jar:10.0.0:provided" -> "jakarta.websocket:jakarta.websocket-client-api:jar:2.1.0:provided" ; 
+	"jakarta.platform:jakarta.jakartaee-web-api:jar:10.0.0:provided" -> "jakarta.json:jakarta.json-api:jar:2.1.0:provided" ; 
+	"jakarta.platform:jakarta.jakartaee-web-api:jar:10.0.0:provided" -> "jakarta.json.bind:jakarta.json.bind-api:jar:3.0.0:provided" ; 
+	"jakarta.platform:jakarta.jakartaee-web-api:jar:10.0.0:provided" -> "jakarta.annotation:jakarta.annotation-api:jar:2.1.1:provided" ; 
+	"jakarta.platform:jakarta.jakartaee-web-api:jar:10.0.0:provided" -> "jakarta.ejb:jakarta.ejb-api:jar:4.0.1:provided" ; 
+	"jakarta.platform:jakarta.jakartaee-web-api:jar:10.0.0:provided" -> "jakarta.transaction:jakarta.transaction-api:jar:2.0.1:provided" ; 
+	"jakarta.platform:jakarta.jakartaee-web-api:jar:10.0.0:provided" -> "jakarta.persistence:jakarta.persistence-api:jar:3.1.0:provided" ; 
+	"jakarta.platform:jakarta.jakartaee-web-api:jar:10.0.0:provided" -> "jakarta.validation:jakarta.validation-api:jar:3.0.2:provided" ; 
+	"jakarta.platform:jakarta.jakartaee-web-api:jar:10.0.0:provided" -> "jakarta.interceptor:jakarta.interceptor-api:jar:2.1.0:provided" ; 
+	"jakarta.platform:jakarta.jakartaee-web-api:jar:10.0.0:provided" -> "jakarta.enterprise:jakarta.enterprise.cdi-api:jar:4.0.1:provided" ; 
+	"jakarta.platform:jakarta.jakartaee-web-api:jar:10.0.0:provided" -> "jakarta.enterprise:jakarta.enterprise.lang-model:jar:4.0.1:provided" ; 
+	"jakarta.platform:jakarta.jakartaee-web-api:jar:10.0.0:provided" -> "jakarta.inject:jakarta.inject-api:jar:2.0.1:provided" ; 
+	"jakarta.platform:jakarta.jakartaee-web-api:jar:10.0.0:provided" -> "jakarta.authentication:jakarta.authentication-api:jar:3.0.0:provided" ; 
+	"jakarta.platform:jakarta.jakartaee-web-api:jar:10.0.0:provided" -> "jakarta.security.enterprise:jakarta.security.enterprise-api:jar:3.0.0:provided" ; 
+	"com.google.guava:guava:jar:33.3.0-android:compile" -> "com.google.guava:failureaccess:jar:1.0.2:compile" ; 
+	"com.google.guava:guava:jar:33.3.0-android:compile" -> "com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:compile" ; 
+	"com.google.guava:guava:jar:33.3.0-android:compile" -> "com.google.code.findbugs:jsr305:jar:3.0.2:compile" ; 
+	"com.google.guava:guava:jar:33.3.0-android:compile" -> "org.checkerframework:checker-qual:jar:3.43.0:compile" ; 
+	"com.google.guava:guava:jar:33.3.0-android:compile" -> "com.google.errorprone:error_prone_annotations:jar:2.28.0:compile" ; 
+	"com.google.guava:guava:jar:33.3.0-android:compile" -> "com.google.j2objc:j2objc-annotations:jar:3.0.0:compile" ; 
+	"junit:junit:jar:4.13.2:test" -> "org.hamcrest:hamcrest-core:jar:1.3:test" ; 
+	"org.springframework:spring-test:jar:6.1.12:test" -> "org.springframework:spring-core:jar:6.1.12:test" ; 
+	"org.springframework:spring-core:jar:6.1.12:test" -> "org.springframework:spring-jcl:jar:6.1.12:test" ; 
+	"org.springframework:spring-web:jar:6.1.12:test" -> "org.springframework:spring-beans:jar:6.1.12:test" ; 
+	"org.springframework:spring-web:jar:6.1.12:test" -> "(org.springframework:spring-core:jar:6.1.12:test - omitted for duplicate)" ; 
+	"org.springframework:spring-web:jar:6.1.12:test" -> "io.micrometer:micrometer-observation:jar:1.12.9:test" ; 
+	"org.springframework:spring-beans:jar:6.1.12:test" -> "(org.springframework:spring-core:jar:6.1.12:test - omitted for duplicate)" ; 
+	"io.micrometer:micrometer-observation:jar:1.12.9:test" -> "io.micrometer:micrometer-commons:jar:1.12.9:test" ; 
+}

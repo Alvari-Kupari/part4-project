@@ -1,0 +1,5 @@
+digraph byronka__minum {
+	"com.renomad:minum:jar:8.1.1" -> "junit:junit:jar:4.13.2:test" ; 
+	"com.renomad:minum:jar:8.1.1" -> "nl.jqno.equalsverifier:equalsverifier-nodep:jar:3.17.1:test" ; 
+	"junit:junit:jar:4.13.2:test" -> "org.hamcrest:hamcrest-core:jar:1.3:test" ; 
+}

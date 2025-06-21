@@ -1,0 +1,18 @@
+digraph leonchen83__redis-replicator {
+	"com.moilioncircle:redis-replicator:jar:3.9.0" -> "org.slf4j:slf4j-api:jar:2.0.17:compile" ; 
+	"com.moilioncircle:redis-replicator:jar:3.9.0" -> "junit:junit:jar:4.13.2:test" ; 
+	"com.moilioncircle:redis-replicator:jar:3.9.0" -> "org.apache.logging.log4j:log4j-slf4j2-impl:jar:2.24.3:test" ; 
+	"com.moilioncircle:redis-replicator:jar:3.9.0" -> "org.apache.logging.log4j:log4j-core:jar:2.24.3:test (scope not updated to test)" ; 
+	"com.moilioncircle:redis-replicator:jar:3.9.0" -> "redis.clients:jedis:jar:6.0.0:test" ; 
+	"junit:junit:jar:4.13.2:test" -> "org.hamcrest:hamcrest-core:jar:1.3:test" ; 
+	"org.apache.logging.log4j:log4j-slf4j2-impl:jar:2.24.3:test" -> "org.apache.logging.log4j:log4j-api:jar:2.24.3:test" ; 
+	"org.apache.logging.log4j:log4j-slf4j2-impl:jar:2.24.3:test" -> "(org.apache.logging.log4j:log4j-core:jar:2.24.3:test - omitted for duplicate)" ; 
+	"org.apache.logging.log4j:log4j-core:jar:2.24.3:test (scope not updated to test)" -> "(org.apache.logging.log4j:log4j-api:jar:2.24.3:test - omitted for duplicate)" ; 
+	"redis.clients:jedis:jar:6.0.0:test" -> "(org.slf4j:slf4j-api:jar:1.7.36:test - omitted for conflict with 2.0.17)" ; 
+	"redis.clients:jedis:jar:6.0.0:test" -> "org.apache.commons:commons-pool2:jar:2.12.1:test" ; 
+	"redis.clients:jedis:jar:6.0.0:test" -> "org.json:json:jar:20250107:test" ; 
+	"redis.clients:jedis:jar:6.0.0:test" -> "com.google.code.gson:gson:jar:2.12.1:test" ; 
+	"redis.clients:jedis:jar:6.0.0:test" -> "redis.clients.authentication:redis-authx-core:jar:0.1.1-beta2:test" ; 
+	"com.google.code.gson:gson:jar:2.12.1:test" -> "com.google.errorprone:error_prone_annotations:jar:2.36.0:test" ; 
+	"redis.clients.authentication:redis-authx-core:jar:0.1.1-beta2:test" -> "(org.slf4j:slf4j-api:jar:1.7.36:test - omitted for conflict with 2.0.17)" ; 
+}

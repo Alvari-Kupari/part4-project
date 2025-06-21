@@ -1,0 +1,23 @@
+digraph ezylang__EvalEx {
+	"com.ezylang:EvalEx:jar:3.6.0-SNAPSHOT" -> "org.projectlombok:lombok:jar:1.18.24:provided" ; 
+	"com.ezylang:EvalEx:jar:3.6.0-SNAPSHOT" -> "org.junit.jupiter:junit-jupiter-engine:jar:5.9.0:test" ; 
+	"com.ezylang:EvalEx:jar:3.6.0-SNAPSHOT" -> "org.junit.jupiter:junit-jupiter-params:jar:5.9.0:test" ; 
+	"com.ezylang:EvalEx:jar:3.6.0-SNAPSHOT" -> "org.assertj:assertj-core:jar:3.23.1:test" ; 
+	"com.ezylang:EvalEx:jar:3.6.0-SNAPSHOT" -> "org.mockito:mockito-core:jar:4.8.0:test" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.9.0:test" -> "org.junit.platform:junit-platform-engine:jar:1.9.0:test" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.9.0:test" -> "org.junit.jupiter:junit-jupiter-api:jar:5.9.0:test" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.9.0:test" -> "org.apiguardian:apiguardian-api:jar:1.1.2:test" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.9.0:test" -> "org.opentest4j:opentest4j:jar:1.2.0:test" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.9.0:test" -> "org.junit.platform:junit-platform-commons:jar:1.9.0:test" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.9.0:test" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:test - omitted for duplicate)" ; 
+	"org.junit.platform:junit-platform-commons:jar:1.9.0:test" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.9.0:test" -> "(org.opentest4j:opentest4j:jar:1.2.0:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.9.0:test" -> "(org.junit.platform:junit-platform-commons:jar:1.9.0:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.9.0:test" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-params:jar:5.9.0:test" -> "(org.junit.jupiter:junit-jupiter-api:jar:5.9.0:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-params:jar:5.9.0:test" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:test - omitted for duplicate)" ; 
+	"org.assertj:assertj-core:jar:3.23.1:test" -> "net.bytebuddy:byte-buddy:jar:1.12.10:test" ; 
+	"org.mockito:mockito-core:jar:4.8.0:test" -> "(net.bytebuddy:byte-buddy:jar:1.12.14:test - omitted for conflict with 1.12.10)" ; 
+	"org.mockito:mockito-core:jar:4.8.0:test" -> "net.bytebuddy:byte-buddy-agent:jar:1.12.14:test" ; 
+	"org.mockito:mockito-core:jar:4.8.0:test" -> "org.objenesis:objenesis:jar:3.2:test" ; 
+}

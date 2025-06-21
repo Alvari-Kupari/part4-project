@@ -1,0 +1,18 @@
+digraph arturmkrtchyan__iban4j {
+	"org.iban4j:iban4j:jar:3.2.11-RELEASE" -> "org.junit.jupiter:junit-jupiter-engine:jar:5.9.2:test" ; 
+	"org.iban4j:iban4j:jar:3.2.11-RELEASE" -> "org.junit.jupiter:junit-jupiter-params:jar:5.9.2:test" ; 
+	"org.iban4j:iban4j:jar:3.2.11-RELEASE" -> "com.carrotsearch:junit-benchmarks:jar:0.7.2:test" ; 
+	"org.iban4j:iban4j:jar:3.2.11-RELEASE" -> "org.hamcrest:hamcrest:jar:2.2:test" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.9.2:test" -> "org.junit.platform:junit-platform-engine:jar:1.9.2:test" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.9.2:test" -> "org.junit.jupiter:junit-jupiter-api:jar:5.9.2:test" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.9.2:test" -> "org.apiguardian:apiguardian-api:jar:1.1.2:test" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.9.2:test" -> "org.opentest4j:opentest4j:jar:1.2.0:test" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.9.2:test" -> "org.junit.platform:junit-platform-commons:jar:1.9.2:test" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.9.2:test" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:test - omitted for duplicate)" ; 
+	"org.junit.platform:junit-platform-commons:jar:1.9.2:test" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.9.2:test" -> "(org.opentest4j:opentest4j:jar:1.2.0:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.9.2:test" -> "(org.junit.platform:junit-platform-commons:jar:1.9.2:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.9.2:test" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-params:jar:5.9.2:test" -> "(org.junit.jupiter:junit-jupiter-api:jar:5.9.2:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-params:jar:5.9.2:test" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:test - omitted for duplicate)" ; 
+}

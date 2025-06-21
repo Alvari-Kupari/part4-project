@@ -1,0 +1,66 @@
+digraph asciidoc-multiple-inputs-example {
+}
+digraph asciidoc-to-html-example {
+}
+digraph asciidoc-to-html-multipage-example {
+	"org.asciidoctor.maven:asciidoc-to-html-multipage-example:jar:1.0.0-SNAPSHOT" -> "rubygems:asciidoctor-multipage:gem:0.0.19:compile" ; 
+}
+digraph asciidoc-to-revealjs-example {
+	"org.asciidoctor.maven:asciidoc-to-revealjs-example:jar:1.0.0-SNAPSHOT" -> "rubygems:asciidoctor-revealjs:gem:4.1.0:compile" ; 
+}
+digraph asciidoctor-epub-example {
+}
+digraph asciidoctor-pdf-example {
+}
+digraph docbook-pipeline-docbkx-example {
+}
+digraph asciidoctorj-twitter-extension {
+	"org.asciidoctor.maven:asciidoctorj-twitter-extension:jar:1.0.0-SNAPSHOT" -> "org.asciidoctor:asciidoctorj:jar:3.0.0:compile" ; 
+	"org.asciidoctor:asciidoctorj:jar:3.0.0:compile" -> "org.asciidoctor:asciidoctorj-api:jar:3.0.0:compile" ; 
+	"org.asciidoctor:asciidoctorj:jar:3.0.0:compile" -> "org.jruby:jruby:jar:9.4.8.0:compile" ; 
+	"org.jruby:jruby:jar:9.4.8.0:compile" -> "org.jruby:jruby-base:jar:9.4.8.0:compile" ; 
+	"org.jruby:jruby:jar:9.4.8.0:compile" -> "org.jruby:jruby-stdlib:jar:9.4.8.0:compile" ; 
+	"org.jruby:jruby-base:jar:9.4.8.0:compile" -> "org.ow2.asm:asm:jar:9.2:compile" ; 
+	"org.jruby:jruby-base:jar:9.4.8.0:compile" -> "org.ow2.asm:asm-commons:jar:9.2:compile" ; 
+	"org.jruby:jruby-base:jar:9.4.8.0:compile" -> "org.ow2.asm:asm-util:jar:9.2:compile" ; 
+	"org.jruby:jruby-base:jar:9.4.8.0:compile" -> "com.github.jnr:jnr-netdb:jar:1.2.0:compile" ; 
+	"org.jruby:jruby-base:jar:9.4.8.0:compile" -> "com.github.jnr:jnr-enxio:jar:0.32.17:compile" ; 
+	"org.jruby:jruby-base:jar:9.4.8.0:compile" -> "com.github.jnr:jnr-unixsocket:jar:0.38.22:compile" ; 
+	"org.jruby:jruby-base:jar:9.4.8.0:compile" -> "com.github.jnr:jnr-posix:jar:3.1.19:compile" ; 
+	"org.jruby:jruby-base:jar:9.4.8.0:compile" -> "com.github.jnr:jnr-constants:jar:0.10.4:compile" ; 
+	"org.jruby:jruby-base:jar:9.4.8.0:compile" -> "com.github.jnr:jnr-ffi:jar:2.2.16:compile" ; 
+	"org.jruby:jruby-base:jar:9.4.8.0:compile" -> "com.github.jnr:jffi:jar:1.3.13:compile" ; 
+	"org.jruby:jruby-base:jar:9.4.8.0:compile" -> "com.github.jnr:jffi:jar:native:1.3.13:compile" ; 
+	"org.jruby:jruby-base:jar:9.4.8.0:compile" -> "org.jruby.joni:joni:jar:2.2.1:compile" ; 
+	"org.jruby:jruby-base:jar:9.4.8.0:compile" -> "org.jruby.jcodings:jcodings:jar:1.0.58:compile" ; 
+	"org.jruby:jruby-base:jar:9.4.8.0:compile" -> "org.jruby:dirgra:jar:0.3:compile" ; 
+	"org.jruby:jruby-base:jar:9.4.8.0:compile" -> "com.headius:invokebinder:jar:1.13:compile" ; 
+	"org.jruby:jruby-base:jar:9.4.8.0:compile" -> "com.headius:options:jar:1.6:compile" ; 
+	"org.jruby:jruby-base:jar:9.4.8.0:compile" -> "org.jruby:jzlib:jar:1.1.5:compile" ; 
+	"org.jruby:jruby-base:jar:9.4.8.0:compile" -> "joda-time:joda-time:jar:2.12.7:compile" ; 
+	"org.jruby:jruby-base:jar:9.4.8.0:compile" -> "me.qmx.jitescript:jitescript:jar:0.4.1:compile" ; 
+	"org.jruby:jruby-base:jar:9.4.8.0:compile" -> "com.headius:backport9:jar:1.13:compile" ; 
+	"org.ow2.asm:asm-commons:jar:9.2:compile" -> "(org.ow2.asm:asm:jar:9.2:compile - omitted for duplicate)" ; 
+	"org.ow2.asm:asm-commons:jar:9.2:compile" -> "org.ow2.asm:asm-tree:jar:9.2:compile" ; 
+	"org.ow2.asm:asm-commons:jar:9.2:compile" -> "org.ow2.asm:asm-analysis:jar:9.2:compile" ; 
+	"org.ow2.asm:asm-tree:jar:9.2:compile" -> "(org.ow2.asm:asm:jar:9.2:compile - omitted for duplicate)" ; 
+	"org.ow2.asm:asm-analysis:jar:9.2:compile" -> "(org.ow2.asm:asm-tree:jar:9.2:compile - omitted for duplicate)" ; 
+	"org.ow2.asm:asm-util:jar:9.2:compile" -> "(org.ow2.asm:asm:jar:9.2:compile - omitted for duplicate)" ; 
+	"org.ow2.asm:asm-util:jar:9.2:compile" -> "(org.ow2.asm:asm-tree:jar:9.2:compile - omitted for duplicate)" ; 
+	"org.ow2.asm:asm-util:jar:9.2:compile" -> "(org.ow2.asm:asm-analysis:jar:9.2:compile - omitted for duplicate)" ; 
+	"com.github.jnr:jnr-enxio:jar:0.32.17:compile" -> "(com.github.jnr:jnr-constants:jar:0.10.4:compile - omitted for duplicate)" ; 
+	"com.github.jnr:jnr-unixsocket:jar:0.38.22:compile" -> "(com.github.jnr:jnr-constants:jar:0.10.4:compile - omitted for duplicate)" ; 
+	"com.github.jnr:jnr-unixsocket:jar:0.38.22:compile" -> "(com.github.jnr:jnr-enxio:jar:0.32.17:compile - omitted for duplicate)" ; 
+	"com.github.jnr:jnr-unixsocket:jar:0.38.22:compile" -> "(com.github.jnr:jnr-posix:jar:3.1.19:compile - omitted for duplicate)" ; 
+	"com.github.jnr:jnr-posix:jar:3.1.19:compile" -> "(com.github.jnr:jnr-constants:jar:0.10.4:compile - omitted for duplicate)" ; 
+	"com.github.jnr:jnr-ffi:jar:2.2.16:compile" -> "(com.github.jnr:jffi:jar:1.3.13:compile - omitted for duplicate)" ; 
+	"com.github.jnr:jnr-ffi:jar:2.2.16:compile" -> "(com.github.jnr:jffi:jar:native:1.3.13:runtime - omitted for duplicate)" ; 
+	"com.github.jnr:jnr-ffi:jar:2.2.16:compile" -> "(org.ow2.asm:asm:jar:9.2:compile - omitted for duplicate)" ; 
+	"com.github.jnr:jnr-ffi:jar:2.2.16:compile" -> "(org.ow2.asm:asm-commons:jar:9.2:compile - omitted for duplicate)" ; 
+	"com.github.jnr:jnr-ffi:jar:2.2.16:compile" -> "(org.ow2.asm:asm-analysis:jar:9.2:compile - omitted for duplicate)" ; 
+	"com.github.jnr:jnr-ffi:jar:2.2.16:compile" -> "(org.ow2.asm:asm-tree:jar:9.2:compile - omitted for duplicate)" ; 
+	"com.github.jnr:jnr-ffi:jar:2.2.16:compile" -> "(org.ow2.asm:asm-util:jar:9.2:compile - omitted for duplicate)" ; 
+	"com.github.jnr:jnr-ffi:jar:2.2.16:compile" -> "com.github.jnr:jnr-a64asm:jar:1.0.0:compile" ; 
+	"com.github.jnr:jnr-ffi:jar:2.2.16:compile" -> "com.github.jnr:jnr-x86asm:jar:1.0.2:compile" ; 
+	"org.jruby.joni:joni:jar:2.2.1:compile" -> "(org.jruby.jcodings:jcodings:jar:1.0.58:compile - omitted for duplicate)" ; 
+}

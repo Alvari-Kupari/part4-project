@@ -1,0 +1,4 @@
+digraph bitwig__bitwig-extensions {
+	"com.bitwig.extensions:bitwig-extensions:jar:1-SNAPSHOT" -> "com.bitwig:extension-api:jar:24:compile" ; 
+	"com.bitwig:extension-api:jar:24:compile" -> "com.google.code.findbugs:jsr305:jar:3.0.2:runtime" ; 
+}

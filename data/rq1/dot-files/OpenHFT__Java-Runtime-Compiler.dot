@@ -1,0 +1,10 @@
+digraph OpenHFT__Java-Runtime-Compiler {
+	"net.openhft:compiler:bundle:2.27ea2-SNAPSHOT" -> "org.slf4j:slf4j-api:jar:1.7.36:compile" ; 
+	"net.openhft:compiler:bundle:2.27ea2-SNAPSHOT" -> "org.jetbrains:annotations:jar:24.0.1:provided" ; 
+	"net.openhft:compiler:bundle:2.27ea2-SNAPSHOT" -> "org.easymock:easymock:jar:5.1.0:test" ; 
+	"net.openhft:compiler:bundle:2.27ea2-SNAPSHOT" -> "junit:junit:jar:4.13.2:test" ; 
+	"net.openhft:compiler:bundle:2.27ea2-SNAPSHOT" -> "org.slf4j:slf4j-simple:jar:1.7.36:test" ; 
+	"org.easymock:easymock:jar:5.1.0:test" -> "org.objenesis:objenesis:jar:3.3:test" ; 
+	"junit:junit:jar:4.13.2:test" -> "org.hamcrest:hamcrest-core:jar:1.3:test" ; 
+	"org.slf4j:slf4j-simple:jar:1.7.36:test" -> "(org.slf4j:slf4j-api:jar:1.7.36:test - version managed from 1.7.36; omitted for duplicate)" ; 
+}

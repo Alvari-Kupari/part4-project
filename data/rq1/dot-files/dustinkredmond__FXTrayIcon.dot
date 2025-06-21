@@ -1,0 +1,15 @@
+digraph dustinkredmond__FXTrayIcon {
+	"com.dustinredmond.fxtrayicon:FXTrayIcon:jar:4.2.3" -> "junit:junit:jar:4.13.2:test" ; 
+	"com.dustinredmond.fxtrayicon:FXTrayIcon:jar:4.2.3" -> "org.openjfx:javafx-controls:jar:19:compile" ; 
+	"com.dustinredmond.fxtrayicon:FXTrayIcon:jar:4.2.3" -> "org.openjfx:javafx-swing:jar:19:compile" ; 
+	"junit:junit:jar:4.13.2:test" -> "org.hamcrest:hamcrest-core:jar:1.3:test" ; 
+	"org.openjfx:javafx-controls:jar:19:compile" -> "org.openjfx:javafx-controls:jar:win:19:compile" ; 
+	"org.openjfx:javafx-controls:jar:19:compile" -> "org.openjfx:javafx-graphics:jar:19:compile" ; 
+	"org.openjfx:javafx-controls:jar:win:19:compile" -> "(org.openjfx:javafx-graphics:jar:19:compile - omitted for duplicate)" ; 
+	"org.openjfx:javafx-graphics:jar:19:compile" -> "org.openjfx:javafx-graphics:jar:win:19:compile" ; 
+	"org.openjfx:javafx-graphics:jar:19:compile" -> "org.openjfx:javafx-base:jar:19:compile" ; 
+	"org.openjfx:javafx-graphics:jar:win:19:compile" -> "(org.openjfx:javafx-base:jar:19:compile - omitted for duplicate)" ; 
+	"org.openjfx:javafx-base:jar:19:compile" -> "org.openjfx:javafx-base:jar:win:19:compile" ; 
+	"org.openjfx:javafx-swing:jar:19:compile" -> "org.openjfx:javafx-swing:jar:win:19:compile" ; 
+	"org.openjfx:javafx-swing:jar:19:compile" -> "(org.openjfx:javafx-graphics:jar:19:compile - omitted for duplicate)" ; 
+}

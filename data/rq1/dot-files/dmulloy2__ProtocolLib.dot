@@ -1,0 +1,17 @@
+digraph TinyProtocol {
+	"com.comphenix.tinyprotocol:TinyProtocol:jar:1.0.0-SNAPSHOT" -> "io.netty:netty-all:jar:4.0.23.Final:provided" ; 
+	"com.comphenix.tinyprotocol:TinyProtocol:jar:1.0.0-SNAPSHOT" -> "org.spigotmc:spigot-api:jar:1.12.2-R0.1-SNAPSHOT:provided" ; 
+	"com.comphenix.tinyprotocol:TinyProtocol:jar:1.0.0-SNAPSHOT" -> "org.spigotmc:spigot:jar:1.12.2-R0.1-SNAPSHOT:provided" ; 
+	"com.comphenix.tinyprotocol:TinyProtocol:jar:1.0.0-SNAPSHOT" -> "cglib:cglib-nodep:jar:3.2.5:compile" ; 
+	"com.comphenix.tinyprotocol:TinyProtocol:jar:1.0.0-SNAPSHOT" -> "com.comphenix.executors:BukkitExecutors:jar:1.1-SNAPSHOT:compile" ; 
+	"org.spigotmc:spigot-api:jar:1.12.2-R0.1-SNAPSHOT:provided" -> "commons-lang:commons-lang:jar:2.6:provided" ; 
+	"org.spigotmc:spigot-api:jar:1.12.2-R0.1-SNAPSHOT:provided" -> "com.googlecode.json-simple:json-simple:jar:1.1.1:provided" ; 
+	"org.spigotmc:spigot-api:jar:1.12.2-R0.1-SNAPSHOT:provided" -> "com.google.guava:guava:jar:21.0:provided" ; 
+	"org.spigotmc:spigot-api:jar:1.12.2-R0.1-SNAPSHOT:provided" -> "com.google.code.gson:gson:jar:2.8.0:provided" ; 
+	"org.spigotmc:spigot-api:jar:1.12.2-R0.1-SNAPSHOT:provided" -> "org.yaml:snakeyaml:jar:1.19:provided" ; 
+	"org.spigotmc:spigot-api:jar:1.12.2-R0.1-SNAPSHOT:provided" -> "net.md-5:bungeecord-chat:jar:1.12-SNAPSHOT:provided" ; 
+	"com.googlecode.json-simple:json-simple:jar:1.1.1:provided" -> "junit:junit:jar:4.10:provided" ; 
+	"junit:junit:jar:4.10:provided" -> "org.hamcrest:hamcrest-core:jar:1.1:provided" ; 
+	"net.md-5:bungeecord-chat:jar:1.12-SNAPSHOT:provided" -> "(com.google.code.gson:gson:jar:2.8.0:provided - omitted for duplicate)" ; 
+	"net.md-5:bungeecord-chat:jar:1.12-SNAPSHOT:provided" -> "(com.google.guava:guava:jar:20.0:provided - omitted for conflict with 21.0)" ; 
+}

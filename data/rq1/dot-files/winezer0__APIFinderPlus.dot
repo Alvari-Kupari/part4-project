@@ -1,0 +1,21 @@
+digraph winezer0__APIFinderPlus {
+	"org.example:APIFinderPlus:jar:1.1.8" -> "net.portswigger.burp.extender:burp-extender-api:jar:2.3:compile" ; 
+	"org.example:APIFinderPlus:jar:1.1.8" -> "com.alibaba.fastjson2:fastjson2:jar:2.0.40:compile" ; 
+	"org.example:APIFinderPlus:jar:1.1.8" -> "org.xerial:sqlite-jdbc:jar:3.45.3.0:compile" ; 
+	"org.example:APIFinderPlus:jar:1.1.8" -> "org.slf4j:slf4j-nop:jar:1.6.1:compile" ; 
+	"org.example:APIFinderPlus:jar:1.1.8" -> "commons-net:commons-net:jar:3.10.0:compile" ; 
+	"org.example:APIFinderPlus:jar:1.1.8" -> "com.github.seancfoley:ipaddress:jar:5.3.3:compile" ; 
+	"org.example:APIFinderPlus:jar:1.1.8" -> "com.google.guava:guava:jar:33.1.0-jre:compile" ; 
+	"org.example:APIFinderPlus:jar:1.1.8" -> "dnsjava:dnsjava:jar:2.1.9:compile" ; 
+	"org.example:APIFinderPlus:jar:1.1.8" -> "commons-io:commons-io:jar:2.16.1:compile" ; 
+	"org.example:APIFinderPlus:jar:1.1.8" -> "org.apache.commons:commons-text:jar:1.12.0:compile" ; 
+	"org.xerial:sqlite-jdbc:jar:3.45.3.0:compile" -> "org.slf4j:slf4j-api:jar:1.7.36:compile" ; 
+	"org.slf4j:slf4j-nop:jar:1.6.1:compile" -> "(org.slf4j:slf4j-api:jar:1.6.1:compile - omitted for conflict with 1.7.36)" ; 
+	"com.google.guava:guava:jar:33.1.0-jre:compile" -> "com.google.guava:failureaccess:jar:1.0.2:compile" ; 
+	"com.google.guava:guava:jar:33.1.0-jre:compile" -> "com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:compile" ; 
+	"com.google.guava:guava:jar:33.1.0-jre:compile" -> "com.google.code.findbugs:jsr305:jar:3.0.2:compile" ; 
+	"com.google.guava:guava:jar:33.1.0-jre:compile" -> "org.checkerframework:checker-qual:jar:3.42.0:compile" ; 
+	"com.google.guava:guava:jar:33.1.0-jre:compile" -> "com.google.errorprone:error_prone_annotations:jar:2.26.1:compile" ; 
+	"com.google.guava:guava:jar:33.1.0-jre:compile" -> "com.google.j2objc:j2objc-annotations:jar:3.0.0:compile" ; 
+	"org.apache.commons:commons-text:jar:1.12.0:compile" -> "org.apache.commons:commons-lang3:jar:3.14.0:compile" ; 
+}

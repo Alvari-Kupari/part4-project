@@ -1,0 +1,56 @@
+digraph eclipse-ee4j__yasson {
+	"org.eclipse:yasson:jar:3.0.4-SNAPSHOT" -> "jakarta.json.bind:jakarta.json.bind-api:jar:3.0.1:compile" ; 
+	"org.eclipse:yasson:jar:3.0.4-SNAPSHOT" -> "jakarta.json:jakarta.json-api:jar:2.1.3:compile" ; 
+	"org.eclipse:yasson:jar:3.0.4-SNAPSHOT" -> "org.eclipse.parsson:parsson:jar:1.1.7:compile" ; 
+	"org.eclipse:yasson:jar:3.0.4-SNAPSHOT" -> "jakarta.enterprise:jakarta.enterprise.cdi-api:jar:4.1.0:provided" ; 
+	"org.eclipse:yasson:jar:3.0.4-SNAPSHOT" -> "org.jboss.weld.se:weld-se-core:jar:6.0.0.Beta1:test" ; 
+	"org.eclipse:yasson:jar:3.0.4-SNAPSHOT" -> "org.junit.jupiter:junit-jupiter-api:jar:5.10.2:test" ; 
+	"org.eclipse:yasson:jar:3.0.4-SNAPSHOT" -> "org.junit.jupiter:junit-jupiter-engine:jar:5.10.2:test" ; 
+	"org.eclipse:yasson:jar:3.0.4-SNAPSHOT" -> "org.hamcrest:hamcrest:jar:2.2:test" ; 
+	"org.eclipse.parsson:parsson:jar:1.1.7:compile" -> "(jakarta.json:jakarta.json-api:jar:2.1.3:compile - omitted for duplicate)" ; 
+	"jakarta.enterprise:jakarta.enterprise.cdi-api:jar:4.1.0:provided" -> "jakarta.enterprise:jakarta.enterprise.lang-model:jar:4.1.0:provided" ; 
+	"jakarta.enterprise:jakarta.enterprise.cdi-api:jar:4.1.0:provided" -> "jakarta.annotation:jakarta.annotation-api:jar:3.0.0:provided (version managed from 3.0.0)" ; 
+	"jakarta.enterprise:jakarta.enterprise.cdi-api:jar:4.1.0:provided" -> "jakarta.el:jakarta.el-api:jar:6.0.0:provided (version managed from 6.0.0)" ; 
+	"jakarta.enterprise:jakarta.enterprise.cdi-api:jar:4.1.0:provided" -> "jakarta.interceptor:jakarta.interceptor-api:jar:2.2.0:provided (version managed from 2.2.0)" ; 
+	"jakarta.enterprise:jakarta.enterprise.cdi-api:jar:4.1.0:provided" -> "jakarta.inject:jakarta.inject-api:jar:2.0.1:provided" ; 
+	"org.jboss.weld.se:weld-se-core:jar:6.0.0.Beta1:test" -> "org.jboss.weld.environment:weld-environment-common:jar:6.0.0.Beta1:test" ; 
+	"org.jboss.weld.se:weld-se-core:jar:6.0.0.Beta1:test" -> "org.jboss.weld:weld-lite-extension-translator:jar:6.0.0.Beta1:test" ; 
+	"org.jboss.weld.se:weld-se-core:jar:6.0.0.Beta1:test" -> "(jakarta.enterprise:jakarta.enterprise.cdi-api:jar:4.1.0:test - version managed from 4.1.0.Beta1; omitted for duplicate)" ; 
+	"org.jboss.weld.se:weld-se-core:jar:6.0.0.Beta1:test" -> "org.jboss.classfilewriter:jboss-classfilewriter:jar:1.3.0.Final:test" ; 
+	"org.jboss.weld.environment:weld-environment-common:jar:6.0.0.Beta1:test" -> "org.jboss.weld:weld-core-impl:jar:6.0.0.Beta1:test" ; 
+	"org.jboss.weld:weld-core-impl:jar:6.0.0.Beta1:test" -> "org.jboss.weld:weld-api:jar:6.0.Beta2:test" ; 
+	"org.jboss.weld:weld-core-impl:jar:6.0.0.Beta1:test" -> "org.jboss.weld:weld-spi:jar:6.0.Beta2:test" ; 
+	"org.jboss.weld:weld-core-impl:jar:6.0.0.Beta1:test" -> "(org.jboss.classfilewriter:jboss-classfilewriter:jar:1.3.0.Final:test - omitted for duplicate)" ; 
+	"org.jboss.weld:weld-core-impl:jar:6.0.0.Beta1:test" -> "(jakarta.annotation:jakarta.annotation-api:jar:3.0.0:test - version managed from 2.1.1; omitted for duplicate)" ; 
+	"org.jboss.weld:weld-core-impl:jar:6.0.0.Beta1:test" -> "(jakarta.el:jakarta.el-api:jar:6.0.0:test - version managed from 5.0.1; omitted for duplicate)" ; 
+	"org.jboss.weld:weld-core-impl:jar:6.0.0.Beta1:test" -> "(jakarta.interceptor:jakarta.interceptor-api:jar:2.2.0:test - version managed from 2.2.0-RC1; omitted for duplicate)" ; 
+	"org.jboss.weld:weld-core-impl:jar:6.0.0.Beta1:test" -> "org.jboss.logging:jboss-logging:jar:3.5.0.Final:test" ; 
+	"org.jboss.weld:weld-api:jar:6.0.Beta2:test" -> "(jakarta.enterprise:jakarta.enterprise.cdi-api:jar:4.1.0:test - version managed from 4.1.0.Beta1; omitted for duplicate)" ; 
+	"org.jboss.weld:weld-api:jar:6.0.Beta2:test" -> "jakarta.enterprise:jakarta.enterprise.cdi-el-api:jar:4.1.0.Beta1:test" ; 
+	"jakarta.enterprise:jakarta.enterprise.cdi-el-api:jar:4.1.0.Beta1:test" -> "(jakarta.enterprise:jakarta.enterprise.cdi-api:jar:4.1.0:test - version managed from 4.1.0.Beta1; omitted for duplicate)" ; 
+	"org.jboss.weld:weld-spi:jar:6.0.Beta2:test" -> "(org.jboss.weld:weld-api:jar:6.0.Beta2:test - omitted for duplicate)" ; 
+	"org.jboss.weld:weld-lite-extension-translator:jar:6.0.0.Beta1:test" -> "(jakarta.enterprise:jakarta.enterprise.cdi-api:jar:4.1.0:test - version managed from 4.1.0.Beta1; omitted for duplicate)" ; 
+	"org.jboss.weld:weld-lite-extension-translator:jar:6.0.0.Beta1:test" -> "(jakarta.interceptor:jakarta.interceptor-api:jar:2.2.0:test - version managed from 2.2.0-RC1; omitted for duplicate)" ; 
+	"org.jboss.weld:weld-lite-extension-translator:jar:6.0.0.Beta1:test" -> "(org.jboss.weld:weld-core-impl:jar:6.0.0.Beta1:test - omitted for duplicate)" ; 
+	"org.jboss.weld:weld-lite-extension-translator:jar:6.0.0.Beta1:test" -> "org.jboss.logging:jboss-logging-processor:jar:2.2.1.Final:test" ; 
+	"org.jboss.logging:jboss-logging-processor:jar:2.2.1.Final:test" -> "org.jboss.logging:jboss-logging-annotations:jar:2.2.1.Final:test" ; 
+	"org.jboss.logging:jboss-logging-processor:jar:2.2.1.Final:test" -> "org.jboss.jdeparser:jdeparser:jar:2.0.3.Final:test" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.10.2:test" -> "org.opentest4j:opentest4j:jar:1.3.0:test" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.10.2:test" -> "org.junit.platform:junit-platform-commons:jar:1.10.2:test" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.10.2:test" -> "org.apiguardian:apiguardian-api:jar:1.1.2:test" ; 
+	"org.junit.platform:junit-platform-commons:jar:1.10.2:test" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.10.2:test" -> "org.junit.platform:junit-platform-engine:jar:1.10.2:test" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.10.2:test" -> "(org.junit.jupiter:junit-jupiter-api:jar:5.10.2:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.10.2:test" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:test - omitted for duplicate)" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.10.2:test" -> "(org.opentest4j:opentest4j:jar:1.3.0:test - omitted for duplicate)" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.10.2:test" -> "(org.junit.platform:junit-platform-commons:jar:1.10.2:test - omitted for duplicate)" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.10.2:test" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:test - omitted for duplicate)" ; 
+}
+digraph yasson-jmh {
+	"org.eclipse.yasson:yasson-jmh:jar:1.0-SNAPSHOT" -> "org.openjdk.jmh:jmh-core:jar:1.21:compile" ; 
+	"org.eclipse.yasson:yasson-jmh:jar:1.0-SNAPSHOT" -> "org.openjdk.jmh:jmh-generator-annprocess:jar:1.21:compile" ; 
+	"org.eclipse.yasson:yasson-jmh:jar:1.0-SNAPSHOT" -> "org.eclipse:yasson:jar:2.0.2-SNAPSHOT:compile" ; 
+	"org.openjdk.jmh:jmh-core:jar:1.21:compile" -> "net.sf.jopt-simple:jopt-simple:jar:4.6:compile" ; 
+	"org.openjdk.jmh:jmh-core:jar:1.21:compile" -> "org.apache.commons:commons-math3:jar:3.2:compile" ; 
+	"org.openjdk.jmh:jmh-generator-annprocess:jar:1.21:compile" -> "(org.openjdk.jmh:jmh-core:jar:1.21:compile - omitted for duplicate)" ; 
+}

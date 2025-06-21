@@ -1,0 +1,28 @@
+digraph cloudsimplus__cloudsimplus {
+	"org.cloudsimplus:cloudsimplus:jar:8.5.6" -> "org.projectlombok:lombok:jar:1.18.38:provided" ; 
+	"org.cloudsimplus:cloudsimplus:jar:8.5.6" -> "org.apache.commons:commons-math3:jar:3.6.1:compile" ; 
+	"org.cloudsimplus:cloudsimplus:jar:8.5.6" -> "org.apache.commons:commons-lang3:jar:3.17.0:compile" ; 
+	"org.cloudsimplus:cloudsimplus:jar:8.5.6" -> "org.apache.commons:commons-collections4:jar:4.4:compile" ; 
+	"org.cloudsimplus:cloudsimplus:jar:8.5.6" -> "org.junit.jupiter:junit-jupiter-api:jar:5.12.1:test" ; 
+	"org.cloudsimplus:cloudsimplus:jar:8.5.6" -> "org.junit.jupiter:junit-jupiter-engine:jar:5.12.1:test" ; 
+	"org.cloudsimplus:cloudsimplus:jar:8.5.6" -> "org.mockito:mockito-core:jar:5.15.2:test" ; 
+	"org.cloudsimplus:cloudsimplus:jar:8.5.6" -> "com.google.code.gson:gson:jar:2.12.1:compile" ; 
+	"org.cloudsimplus:cloudsimplus:jar:8.5.6" -> "ch.qos.logback:logback-core:jar:1.5.16:compile" ; 
+	"org.cloudsimplus:cloudsimplus:jar:8.5.6" -> "ch.qos.logback:logback-classic:jar:1.5.16:compile" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.12.1:test" -> "org.opentest4j:opentest4j:jar:1.3.0:test" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.12.1:test" -> "org.junit.platform:junit-platform-commons:jar:1.12.1:test" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.12.1:test" -> "org.apiguardian:apiguardian-api:jar:1.1.2:test" ; 
+	"org.junit.platform:junit-platform-commons:jar:1.12.1:test" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.12.1:test" -> "org.junit.platform:junit-platform-engine:jar:1.12.1:test" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.12.1:test" -> "(org.junit.jupiter:junit-jupiter-api:jar:5.12.1:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.12.1:test" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:test - omitted for duplicate)" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.12.1:test" -> "(org.opentest4j:opentest4j:jar:1.3.0:test - omitted for duplicate)" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.12.1:test" -> "(org.junit.platform:junit-platform-commons:jar:1.12.1:test - omitted for duplicate)" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.12.1:test" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:test - omitted for duplicate)" ; 
+	"org.mockito:mockito-core:jar:5.15.2:test" -> "net.bytebuddy:byte-buddy:jar:1.15.11:test" ; 
+	"org.mockito:mockito-core:jar:5.15.2:test" -> "net.bytebuddy:byte-buddy-agent:jar:1.15.11:test" ; 
+	"org.mockito:mockito-core:jar:5.15.2:test" -> "org.objenesis:objenesis:jar:3.3:test" ; 
+	"com.google.code.gson:gson:jar:2.12.1:compile" -> "com.google.errorprone:error_prone_annotations:jar:2.36.0:compile" ; 
+	"ch.qos.logback:logback-classic:jar:1.5.16:compile" -> "(ch.qos.logback:logback-core:jar:1.5.16:compile - omitted for duplicate)" ; 
+	"ch.qos.logback:logback-classic:jar:1.5.16:compile" -> "org.slf4j:slf4j-api:jar:2.0.16:compile" ; 
+}

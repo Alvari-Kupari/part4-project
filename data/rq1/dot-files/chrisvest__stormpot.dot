@@ -1,0 +1,36 @@
+digraph chrisvest__stormpot {
+	"com.github.chrisvest:stormpot:jar:4.2-SNAPSHOT" -> "org.junit.jupiter:junit-jupiter-engine:jar:5.11.2:test" ; 
+	"com.github.chrisvest:stormpot:jar:4.2-SNAPSHOT" -> "org.junit.jupiter:junit-jupiter-params:jar:5.11.2:test" ; 
+	"com.github.chrisvest:stormpot:jar:4.2-SNAPSHOT" -> "org.assertj:assertj-core:jar:3.26.0:test" ; 
+	"com.github.chrisvest:stormpot:jar:4.2-SNAPSHOT" -> "io.dropwizard.metrics:metrics-core:jar:4.2.25:test" ; 
+	"com.github.chrisvest:stormpot:jar:4.2-SNAPSHOT" -> "io.micrometer:micrometer-core:jar:1.13.0:test" ; 
+	"com.github.chrisvest:stormpot:jar:4.2-SNAPSHOT" -> "org.hdrhistogram:HdrHistogram:jar:2.2.2:test (scope not updated to test)" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.11.2:test" -> "org.junit.platform:junit-platform-engine:jar:1.11.2:test" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.11.2:test" -> "org.junit.jupiter:junit-jupiter-api:jar:5.11.2:test" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.11.2:test" -> "org.apiguardian:apiguardian-api:jar:1.1.2:test" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.11.2:test" -> "org.opentest4j:opentest4j:jar:1.3.0:test" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.11.2:test" -> "org.junit.platform:junit-platform-commons:jar:1.11.2:test" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.11.2:test" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:test - omitted for duplicate)" ; 
+	"org.junit.platform:junit-platform-commons:jar:1.11.2:test" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.11.2:test" -> "(org.opentest4j:opentest4j:jar:1.3.0:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.11.2:test" -> "(org.junit.platform:junit-platform-commons:jar:1.11.2:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.11.2:test" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-params:jar:5.11.2:test" -> "(org.junit.jupiter:junit-jupiter-api:jar:5.11.2:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-params:jar:5.11.2:test" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:test - omitted for duplicate)" ; 
+	"org.assertj:assertj-core:jar:3.26.0:test" -> "net.bytebuddy:byte-buddy:jar:1.14.16:test" ; 
+	"io.dropwizard.metrics:metrics-core:jar:4.2.25:test" -> "org.slf4j:slf4j-api:jar:1.7.36:test" ; 
+	"io.micrometer:micrometer-core:jar:1.13.0:test" -> "io.micrometer:micrometer-commons:jar:1.13.0:test" ; 
+	"io.micrometer:micrometer-core:jar:1.13.0:test" -> "io.micrometer:micrometer-observation:jar:1.13.0:test" ; 
+	"io.micrometer:micrometer-core:jar:1.13.0:test" -> "(org.hdrhistogram:HdrHistogram:jar:2.2.1:test - omitted for conflict with 2.2.2)" ; 
+	"io.micrometer:micrometer-core:jar:1.13.0:test" -> "org.latencyutils:LatencyUtils:jar:2.0.3:test" ; 
+	"io.micrometer:micrometer-observation:jar:1.13.0:test" -> "(io.micrometer:micrometer-commons:jar:1.13.0:test - omitted for duplicate)" ; 
+}
+digraph benchmarks {
+	"com.github.chrisvest:stormpot-benchmarks:jar:4.2-SNAPSHOT" -> "com.github.chrisvest:stormpot:jar:4.2-SNAPSHOT:compile" ; 
+	"com.github.chrisvest:stormpot-benchmarks:jar:4.2-SNAPSHOT" -> "org.openjdk.jmh:jmh-core:jar:1.37:compile" ; 
+	"com.github.chrisvest:stormpot-benchmarks:jar:4.2-SNAPSHOT" -> "org.openjdk.jmh:jmh-generator-annprocess:jar:1.37:compile" ; 
+	"com.github.chrisvest:stormpot-benchmarks:jar:4.2-SNAPSHOT" -> "org.jctools:jctools-core:jar:4.0.5:compile" ; 
+	"org.openjdk.jmh:jmh-core:jar:1.37:compile" -> "net.sf.jopt-simple:jopt-simple:jar:5.0.4:compile" ; 
+	"org.openjdk.jmh:jmh-core:jar:1.37:compile" -> "org.apache.commons:commons-math3:jar:3.6.1:compile" ; 
+	"org.openjdk.jmh:jmh-generator-annprocess:jar:1.37:compile" -> "(org.openjdk.jmh:jmh-core:jar:1.37:compile - omitted for duplicate)" ; 
+}

@@ -1,0 +1,23 @@
+digraph redkale__redkale {
+	"org.redkale:redkale:jar:2.8.0-SNAPSHOT" -> "org.junit.jupiter:junit-jupiter:jar:5.9.0:test" ; 
+	"org.redkale:redkale:jar:2.8.0-SNAPSHOT" -> "org.openjdk.jmh:jmh-core:jar:1.37:test" ; 
+	"org.redkale:redkale:jar:2.8.0-SNAPSHOT" -> "org.openjdk.jmh:jmh-generator-annprocess:jar:1.37:test" ; 
+	"org.junit.jupiter:junit-jupiter:jar:5.9.0:test" -> "org.junit.jupiter:junit-jupiter-api:jar:5.9.0:test" ; 
+	"org.junit.jupiter:junit-jupiter:jar:5.9.0:test" -> "org.junit.jupiter:junit-jupiter-params:jar:5.9.0:test" ; 
+	"org.junit.jupiter:junit-jupiter:jar:5.9.0:test" -> "org.junit.jupiter:junit-jupiter-engine:jar:5.9.0:test" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.9.0:test" -> "org.opentest4j:opentest4j:jar:1.2.0:test" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.9.0:test" -> "org.junit.platform:junit-platform-commons:jar:1.9.0:test" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.9.0:test" -> "org.apiguardian:apiguardian-api:jar:1.1.2:test" ; 
+	"org.junit.platform:junit-platform-commons:jar:1.9.0:test" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-params:jar:5.9.0:test" -> "(org.junit.jupiter:junit-jupiter-api:jar:5.9.0:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-params:jar:5.9.0:test" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.9.0:test" -> "org.junit.platform:junit-platform-engine:jar:1.9.0:test" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.9.0:test" -> "(org.junit.jupiter:junit-jupiter-api:jar:5.9.0:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.9.0:test" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:test - omitted for duplicate)" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.9.0:test" -> "(org.opentest4j:opentest4j:jar:1.2.0:test - omitted for duplicate)" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.9.0:test" -> "(org.junit.platform:junit-platform-commons:jar:1.9.0:test - omitted for duplicate)" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.9.0:test" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:test - omitted for duplicate)" ; 
+	"org.openjdk.jmh:jmh-core:jar:1.37:test" -> "net.sf.jopt-simple:jopt-simple:jar:5.0.4:test" ; 
+	"org.openjdk.jmh:jmh-core:jar:1.37:test" -> "org.apache.commons:commons-math3:jar:3.6.1:test" ; 
+	"org.openjdk.jmh:jmh-generator-annprocess:jar:1.37:test" -> "(org.openjdk.jmh:jmh-core:jar:1.37:test - omitted for duplicate)" ; 
+}

@@ -1,0 +1,31 @@
+digraph larksuite-oapi {
+	"com.larksuite.oapi:oapi-sdk:jar:2.4.17" -> "commons-codec:commons-codec:jar:1.15:compile" ; 
+	"com.larksuite.oapi:oapi-sdk:jar:2.4.17" -> "com.google.code.gson:gson:jar:2.9.0:compile" ; 
+	"com.larksuite.oapi:oapi-sdk:jar:2.4.17" -> "org.slf4j:slf4j-api:jar:1.7.30:compile" ; 
+	"com.larksuite.oapi:oapi-sdk:jar:2.4.17" -> "junit:junit:jar:4.13.2:test" ; 
+	"com.larksuite.oapi:oapi-sdk:jar:2.4.17" -> "ch.qos.logback:logback-classic:jar:1.2.13:test" ; 
+	"com.larksuite.oapi:oapi-sdk:jar:2.4.17" -> "com.google.code.findbugs:jsr305:jar:3.0.2:provided (scope not updated to compile)" ; 
+	"com.larksuite.oapi:oapi-sdk:jar:2.4.17" -> "org.codehaus.mojo:animal-sniffer-annotations:jar:1.17:provided" ; 
+	"com.larksuite.oapi:oapi-sdk:jar:2.4.17" -> "org.conscrypt:conscrypt-openjdk-uber:jar:2.0.0:provided" ; 
+	"com.larksuite.oapi:oapi-sdk:jar:2.4.17" -> "org.robolectric:android-all:jar:10-robolectric-5803371:provided" ; 
+	"com.larksuite.oapi:oapi-sdk:jar:2.4.17" -> "org.apache.httpcomponents:httpclient:jar:4.5.13:compile" ; 
+	"com.larksuite.oapi:oapi-sdk:jar:2.4.17" -> "org.apache.httpcomponents:httpmime:jar:4.5.13:compile" ; 
+	"com.larksuite.oapi:oapi-sdk:jar:2.4.17" -> "com.larksuite.oapi:larksuite-oapi-shaded-protobuf:jar:2.4.6:compile" ; 
+	"com.larksuite.oapi:oapi-sdk:jar:2.4.17" -> "com.google.guava:guava:jar:32.0.0-jre:compile" ; 
+	"junit:junit:jar:4.13.2:test" -> "org.hamcrest:hamcrest-core:jar:1.3:test" ; 
+	"ch.qos.logback:logback-classic:jar:1.2.13:test" -> "ch.qos.logback:logback-core:jar:1.2.13:test" ; 
+	"ch.qos.logback:logback-classic:jar:1.2.13:test" -> "(org.slf4j:slf4j-api:jar:1.7.32:test - omitted for conflict with 1.7.30)" ; 
+	"org.apache.httpcomponents:httpclient:jar:4.5.13:compile" -> "org.apache.httpcomponents:httpcore:jar:4.4.13:compile" ; 
+	"org.apache.httpcomponents:httpclient:jar:4.5.13:compile" -> "commons-logging:commons-logging:jar:1.2:compile" ; 
+	"org.apache.httpcomponents:httpclient:jar:4.5.13:compile" -> "(commons-codec:commons-codec:jar:1.11:compile - omitted for conflict with 1.15)" ; 
+	"org.apache.httpcomponents:httpmime:jar:4.5.13:compile" -> "(org.apache.httpcomponents:httpclient:jar:4.5.13:compile - omitted for duplicate)" ; 
+	"com.google.guava:guava:jar:32.0.0-jre:compile" -> "com.google.guava:failureaccess:jar:1.0.1:compile" ; 
+	"com.google.guava:guava:jar:32.0.0-jre:compile" -> "com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:compile" ; 
+	"com.google.guava:guava:jar:32.0.0-jre:compile" -> "(com.google.code.findbugs:jsr305:jar:3.0.2:compile - omitted for duplicate)" ; 
+	"com.google.guava:guava:jar:32.0.0-jre:compile" -> "org.checkerframework:checker-qual:jar:3.33.0:compile" ; 
+	"com.google.guava:guava:jar:32.0.0-jre:compile" -> "com.google.errorprone:error_prone_annotations:jar:2.18.0:compile" ; 
+	"com.google.guava:guava:jar:32.0.0-jre:compile" -> "com.google.j2objc:j2objc-annotations:jar:2.8:compile" ; 
+}
+digraph larksuite-oapi-shaded-protobuf {
+	"com.larksuite.oapi:larksuite-oapi-shaded-protobuf:jar:2.4.6" -> "com.google.protobuf:protobuf-java:jar:3.25.5:compile" ; 
+}

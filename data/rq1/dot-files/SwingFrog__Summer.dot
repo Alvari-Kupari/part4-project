@@ -1,0 +1,28 @@
+digraph SwingFrog__Summer {
+	"com.swingfrog.summer:summer:jar:1.1.19" -> "io.netty:netty-all:jar:4.1.44.Final:compile" ; 
+	"com.swingfrog.summer:summer:jar:1.1.19" -> "mysql:mysql-connector-java:jar:8.0.18:compile" ; 
+	"com.swingfrog.summer:summer:jar:1.1.19" -> "com.zaxxer:HikariCP:jar:4.0.3:compile" ; 
+	"com.swingfrog.summer:summer:jar:1.1.19" -> "commons-dbutils:commons-dbutils:jar:1.7:compile" ; 
+	"com.swingfrog.summer:summer:jar:1.1.19" -> "redis.clients:jedis:jar:3.2.0:compile" ; 
+	"com.swingfrog.summer:summer:jar:1.1.19" -> "org.freemarker:freemarker:jar:2.3.29:compile" ; 
+	"com.swingfrog.summer:summer:jar:1.1.19" -> "com.alibaba:fastjson:jar:1.2.83:compile" ; 
+	"com.swingfrog.summer:summer:jar:1.1.19" -> "org.javassist:javassist:jar:3.26.0-GA:compile" ; 
+	"com.swingfrog.summer:summer:jar:1.1.19" -> "cglib:cglib:jar:3.3.0:compile" ; 
+	"com.swingfrog.summer:summer:jar:1.1.19" -> "org.slf4j:slf4j-api:jar:1.7.30:compile" ; 
+	"com.swingfrog.summer:summer:jar:1.1.19" -> "ch.qos.logback:logback-classic:jar:1.2.13:compile" ; 
+	"com.swingfrog.summer:summer:jar:1.1.19" -> "com.google.guava:guava:jar:32.0.0-jre:compile" ; 
+	"com.swingfrog.summer:summer:jar:1.1.19" -> "com.google.protobuf:protobuf-java:jar:3.16.3:compile" ; 
+	"mysql:mysql-connector-java:jar:8.0.18:compile" -> "(com.google.protobuf:protobuf-java:jar:3.6.1:compile - omitted for conflict with 3.16.3)" ; 
+	"com.zaxxer:HikariCP:jar:4.0.3:compile" -> "(org.slf4j:slf4j-api:jar:2.0.0-alpha1:compile - omitted for conflict with 1.7.30)" ; 
+	"redis.clients:jedis:jar:3.2.0:compile" -> "(org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for conflict with 1.7.30)" ; 
+	"redis.clients:jedis:jar:3.2.0:compile" -> "org.apache.commons:commons-pool2:jar:2.6.2:compile" ; 
+	"cglib:cglib:jar:3.3.0:compile" -> "org.ow2.asm:asm:jar:7.1:compile" ; 
+	"ch.qos.logback:logback-classic:jar:1.2.13:compile" -> "ch.qos.logback:logback-core:jar:1.2.13:compile" ; 
+	"ch.qos.logback:logback-classic:jar:1.2.13:compile" -> "(org.slf4j:slf4j-api:jar:1.7.32:compile - omitted for conflict with 1.7.30)" ; 
+	"com.google.guava:guava:jar:32.0.0-jre:compile" -> "com.google.guava:failureaccess:jar:1.0.1:compile" ; 
+	"com.google.guava:guava:jar:32.0.0-jre:compile" -> "com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:compile" ; 
+	"com.google.guava:guava:jar:32.0.0-jre:compile" -> "com.google.code.findbugs:jsr305:jar:3.0.2:compile" ; 
+	"com.google.guava:guava:jar:32.0.0-jre:compile" -> "org.checkerframework:checker-qual:jar:3.33.0:compile" ; 
+	"com.google.guava:guava:jar:32.0.0-jre:compile" -> "com.google.errorprone:error_prone_annotations:jar:2.18.0:compile" ; 
+	"com.google.guava:guava:jar:32.0.0-jre:compile" -> "com.google.j2objc:j2objc-annotations:jar:2.8:compile" ; 
+}

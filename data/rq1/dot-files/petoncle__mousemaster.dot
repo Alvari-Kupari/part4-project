@@ -1,0 +1,16 @@
+digraph petoncle__mousemaster {
+	"mousemaster:mousemaster:jar:79" -> "ch.qos.logback:logback-classic:jar:1.5.15:compile" ; 
+	"mousemaster:mousemaster:jar:79" -> "ch.qos.logback:logback-core:jar:1.5.15:compile" ; 
+	"mousemaster:mousemaster:jar:79" -> "org.slf4j:jul-to-slf4j:jar:2.0.13:compile" ; 
+	"mousemaster:mousemaster:jar:79" -> "net.java.dev.jna:jna:jar:5.13.0:compile" ; 
+	"mousemaster:mousemaster:jar:79" -> "net.java.dev.jna:jna-platform:jar:5.13.0:compile" ; 
+	"mousemaster:mousemaster:jar:79" -> "io.qtjambi:qtjambi:jar:6.8.2:compile" ; 
+	"mousemaster:mousemaster:jar:79" -> "io.qtjambi:qtjambi-native-windows-x64:jar:6.8.2:compile" ; 
+	"mousemaster:mousemaster:jar:79" -> "com.google.code.gson:gson:jar:2.12.1:compile" ; 
+	"mousemaster:mousemaster:jar:79" -> "org.jsoup:jsoup:jar:1.19.1:compile" ; 
+	"ch.qos.logback:logback-classic:jar:1.5.15:compile" -> "(ch.qos.logback:logback-core:jar:1.5.15:compile - omitted for duplicate)" ; 
+	"ch.qos.logback:logback-classic:jar:1.5.15:compile" -> "org.slf4j:slf4j-api:jar:2.0.15:compile" ; 
+	"org.slf4j:jul-to-slf4j:jar:2.0.13:compile" -> "(org.slf4j:slf4j-api:jar:2.0.13:compile - omitted for conflict with 2.0.15)" ; 
+	"net.java.dev.jna:jna-platform:jar:5.13.0:compile" -> "(net.java.dev.jna:jna:jar:5.13.0:compile - omitted for duplicate)" ; 
+	"com.google.code.gson:gson:jar:2.12.1:compile" -> "com.google.errorprone:error_prone_annotations:jar:2.36.0:compile" ; 
+}

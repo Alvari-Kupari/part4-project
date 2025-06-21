@@ -1,0 +1,15 @@
+digraph mwilliamson__java-mammoth {
+	"org.zwobble.mammoth:mammoth:jar:1.9.0" -> "org.hamcrest:hamcrest-all:jar:1.3:test" ; 
+	"org.zwobble.mammoth:mammoth:jar:1.9.0" -> "org.junit.jupiter:junit-jupiter-api:jar:5.9.3:test" ; 
+	"org.zwobble.mammoth:mammoth:jar:1.9.0" -> "org.junit.jupiter:junit-jupiter-engine:jar:5.9.3:test" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.9.3:test" -> "org.opentest4j:opentest4j:jar:1.2.0:test" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.9.3:test" -> "org.junit.platform:junit-platform-commons:jar:1.9.3:test" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.9.3:test" -> "org.apiguardian:apiguardian-api:jar:1.1.2:test" ; 
+	"org.junit.platform:junit-platform-commons:jar:1.9.3:test" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.9.3:test" -> "org.junit.platform:junit-platform-engine:jar:1.9.3:test" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.9.3:test" -> "(org.junit.jupiter:junit-jupiter-api:jar:5.9.3:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.9.3:test" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:test - omitted for duplicate)" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.9.3:test" -> "(org.opentest4j:opentest4j:jar:1.2.0:test - omitted for duplicate)" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.9.3:test" -> "(org.junit.platform:junit-platform-commons:jar:1.9.3:test - omitted for duplicate)" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.9.3:test" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:test - omitted for duplicate)" ; 
+}

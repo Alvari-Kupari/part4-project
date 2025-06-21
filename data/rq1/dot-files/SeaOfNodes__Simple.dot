@@ -1,0 +1,92 @@
+digraph chapter01 {
+	"com.seaofnodes:chapter01:jar:1.0" -> "junit:junit:jar:4.13.2:test" ; 
+	"junit:junit:jar:4.13.2:test" -> "org.hamcrest:hamcrest-core:jar:1.3:test" ; 
+}
+digraph chapter02 {
+	"com.seaofnodes:chapter02:jar:1.0" -> "junit:junit:jar:4.13.2:test" ; 
+	"junit:junit:jar:4.13.2:test" -> "org.hamcrest:hamcrest-core:jar:1.3:test" ; 
+}
+digraph chapter03 {
+	"com.seaofnodes:chapter03:jar:1.0" -> "junit:junit:jar:4.13.2:test" ; 
+	"junit:junit:jar:4.13.2:test" -> "org.hamcrest:hamcrest-core:jar:1.3:test" ; 
+}
+digraph chapter04 {
+	"com.seaofnodes:chapter04:jar:1.0" -> "junit:junit:jar:4.13.2:test" ; 
+	"junit:junit:jar:4.13.2:test" -> "org.hamcrest:hamcrest-core:jar:1.3:test" ; 
+}
+digraph chapter05 {
+	"com.seaofnodes:chapter05:jar:1.0" -> "junit:junit:jar:4.13.2:test" ; 
+	"junit:junit:jar:4.13.2:test" -> "org.hamcrest:hamcrest-core:jar:1.3:test" ; 
+}
+digraph chapter06 {
+	"com.seaofnodes:chapter06:jar:1.0" -> "junit:junit:jar:4.13.2:test" ; 
+	"junit:junit:jar:4.13.2:test" -> "org.hamcrest:hamcrest-core:jar:1.3:test" ; 
+}
+digraph chapter07 {
+	"com.seaofnodes:chapter07:jar:1.0" -> "junit:junit:jar:4.13.2:test" ; 
+	"junit:junit:jar:4.13.2:test" -> "org.hamcrest:hamcrest-core:jar:1.3:test" ; 
+}
+digraph chapter08 {
+	"com.seaofnodes:chapter08:jar:1.0" -> "junit:junit:jar:4.13.2:test" ; 
+	"junit:junit:jar:4.13.2:test" -> "org.hamcrest:hamcrest-core:jar:1.3:test" ; 
+}
+digraph chapter09 {
+	"com.seaofnodes:chapter09:jar:1.0" -> "junit:junit:jar:4.13.2:test" ; 
+	"junit:junit:jar:4.13.2:test" -> "org.hamcrest:hamcrest-core:jar:1.3:test" ; 
+}
+digraph chapter10 {
+	"com.seaofnodes:chapter10:jar:1.0" -> "junit:junit:jar:4.13.2:test" ; 
+	"junit:junit:jar:4.13.2:test" -> "org.hamcrest:hamcrest-core:jar:1.3:test" ; 
+}
+digraph chapter11 {
+	"com.seaofnodes:chapter11:jar:1.0" -> "junit:junit:jar:4.13.2:test" ; 
+	"junit:junit:jar:4.13.2:test" -> "org.hamcrest:hamcrest-core:jar:1.3:test" ; 
+}
+digraph chapter12 {
+	"com.seaofnodes:chapter12:jar:1.0" -> "junit:junit:jar:4.13.2:test" ; 
+	"junit:junit:jar:4.13.2:test" -> "org.hamcrest:hamcrest-core:jar:1.3:test" ; 
+}
+digraph chapter13 {
+	"com.seaofnodes:chapter13:jar:1.0" -> "junit:junit:jar:4.13.2:test" ; 
+	"junit:junit:jar:4.13.2:test" -> "org.hamcrest:hamcrest-core:jar:1.3:test" ; 
+}
+digraph chapter14 {
+	"com.seaofnodes:chapter14:jar:1.0" -> "junit:junit:jar:4.13.2:test" ; 
+	"junit:junit:jar:4.13.2:test" -> "org.hamcrest:hamcrest-core:jar:1.3:test" ; 
+}
+digraph chapter15 {
+	"com.seaofnodes:chapter15:jar:1.0" -> "junit:junit:jar:4.13.2:test" ; 
+	"junit:junit:jar:4.13.2:test" -> "org.hamcrest:hamcrest-core:jar:1.3:test" ; 
+}
+digraph chapter16 {
+	"com.seaofnodes:chapter16:jar:1.0" -> "junit:junit:jar:4.13.2:test" ; 
+	"junit:junit:jar:4.13.2:test" -> "org.hamcrest:hamcrest-core:jar:1.3:test" ; 
+}
+digraph chapter17 {
+	"com.seaofnodes:chapter17:jar:1.0" -> "junit:junit:jar:4.13.2:test" ; 
+	"junit:junit:jar:4.13.2:test" -> "org.hamcrest:hamcrest-core:jar:1.3:test" ; 
+}
+digraph chapter18 {
+	"com.seaofnodes:chapter18:jar:1.0" -> "junit:junit:jar:4.13.2:test" ; 
+	"junit:junit:jar:4.13.2:test" -> "org.hamcrest:hamcrest-core:jar:1.3:test" ; 
+}
+digraph chapter19 {
+	"com.seaofnodes:chapter19:jar:1.0" -> "junit:junit:jar:4.13.2:test" ; 
+	"junit:junit:jar:4.13.2:test" -> "org.hamcrest:hamcrest-core:jar:1.3:test" ; 
+}
+digraph chapter20 {
+	"com.seaofnodes:chapter20:jar:1.0" -> "junit:junit:jar:4.13.2:test" ; 
+	"junit:junit:jar:4.13.2:test" -> "org.hamcrest:hamcrest-core:jar:1.3:test" ; 
+}
+digraph chapter21 {
+	"com.seaofnodes:chapter21:jar:1.0" -> "junit:junit:jar:4.13.2:test" ; 
+	"junit:junit:jar:4.13.2:test" -> "org.hamcrest:hamcrest-core:jar:1.3:test" ; 
+}
+digraph chapter22 {
+	"com.seaofnodes:chapter22:jar:1.0" -> "junit:junit:jar:4.13.2:test" ; 
+	"junit:junit:jar:4.13.2:test" -> "org.hamcrest:hamcrest-core:jar:1.3:test" ; 
+}
+digraph transpile-tests {
+	"com.seaofnodes:transpile-tests:jar:1.0" -> "junit:junit:jar:4.13.2:test" ; 
+	"junit:junit:jar:4.13.2:test" -> "org.hamcrest:hamcrest-core:jar:1.3:test" ; 
+}

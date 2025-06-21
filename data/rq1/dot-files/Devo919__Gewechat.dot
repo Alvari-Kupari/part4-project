@@ -1,0 +1,5 @@
+digraph Devo919__Gewechat {
+	"com:gewei-demo:jar:0.0.1-SNAPSHOT" -> "com.alibaba.fastjson2:fastjson2:jar:2.0.25:compile" ; 
+	"com:gewei-demo:jar:0.0.1-SNAPSHOT" -> "com.squareup.okhttp3:okhttp:jar:3.10.0:compile" ; 
+	"com.squareup.okhttp3:okhttp:jar:3.10.0:compile" -> "com.squareup.okio:okio:jar:1.14.0:compile" ; 
+}

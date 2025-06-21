@@ -1,0 +1,9 @@
+digraph eclipse-collections-api {
+	"org.eclipse.collections:eclipse-collections-api:jar:12.0.0-SNAPSHOT" -> "biz.aQute.bnd:biz.aQute.bnd.annotation:jar:6.4.1:provided (optional) " ; 
+	"biz.aQute.bnd:biz.aQute.bnd.annotation:jar:6.4.1:provided (optional) " -> "org.osgi:org.osgi.resource:jar:1.0.0:provided (optional) " ; 
+	"biz.aQute.bnd:biz.aQute.bnd.annotation:jar:6.4.1:provided (optional) " -> "org.osgi:org.osgi.service.serviceloader:jar:1.0.0:provided (optional) " ; 
+}
+digraph eclipse-collections-code-generator {
+	"org.eclipse.collections:eclipse-collections-code-generator:jar:12.0.0-SNAPSHOT" -> "org.antlr:ST4:jar:4.3.4:compile" ; 
+	"org.antlr:ST4:jar:4.3.4:compile" -> "org.antlr:antlr-runtime:jar:3.5.3:compile" ; 
+}

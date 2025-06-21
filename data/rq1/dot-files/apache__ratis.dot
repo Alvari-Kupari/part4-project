@@ -1,0 +1,212 @@
+digraph ratis-client {
+ "org.apache.ratis:ratis-client:jar:3.1.3" -> "org.apache.ratis:ratis-thirdparty-misc:jar:1.0.9:compile" ;
+ "org.apache.ratis:ratis-client:jar:3.1.3" -> "org.apache.ratis:ratis-proto:jar:3.1.3:compile" ;
+ "org.apache.ratis:ratis-client:jar:3.1.3" -> "org.apache.ratis:ratis-common:jar:3.1.3:compile" ;
+ "org.apache.ratis:ratis-client:jar:3.1.3" -> "org.slf4j:slf4j-api:jar:2.0.7:compile" ;
+}
+digraph ratis-common {
+ "org.apache.ratis:ratis-common:jar:3.1.3" -> "org.apache.ratis:ratis-thirdparty-misc:jar:1.0.9:compile" ;
+ "org.apache.ratis:ratis-common:jar:3.1.3" -> "org.apache.ratis:ratis-proto:jar:3.1.3:compile" ;
+ "org.apache.ratis:ratis-common:jar:3.1.3" -> "org.slf4j:slf4j-api:jar:2.0.7:compile" ;
+ "org.apache.ratis:ratis-common:jar:3.1.3" -> "org.junit.jupiter:junit-jupiter-api:jar:5.12.2:test" ;
+ "org.apache.ratis:ratis-common:jar:3.1.3" -> "org.junit.jupiter:junit-jupiter-engine:jar:5.12.2:test" ;
+ "org.apache.ratis:ratis-common:jar:3.1.3" -> "org.junit.platform:junit-platform-launcher:jar:1.12.2:test" ;
+ "org.apache.ratis:ratis-common:jar:3.1.3" -> "org.junit.jupiter:junit-jupiter-params:jar:5.12.2:test" ;
+ "org.junit.jupiter:junit-jupiter-api:jar:5.12.2:test" -> "org.opentest4j:opentest4j:jar:1.3.0:compile" ;
+ "org.junit.jupiter:junit-jupiter-api:jar:5.12.2:test" -> "org.junit.platform:junit-platform-commons:jar:1.12.2:compile" ;
+ "org.junit.jupiter:junit-jupiter-api:jar:5.12.2:test" -> "org.apiguardian:apiguardian-api:jar:1.1.2:compile" ;
+ "org.junit.jupiter:junit-jupiter-engine:jar:5.12.2:test" -> "org.junit.platform:junit-platform-engine:jar:1.12.2:compile" ;
+ "org.junit.jupiter:junit-jupiter-engine:jar:5.12.2:test" -> "org.junit.jupiter:junit-jupiter-api:jar:5.12.2:compile - omitted for conflict with test" ;
+ "org.junit.jupiter:junit-jupiter-engine:jar:5.12.2:test" -> "org.apiguardian:apiguardian-api:jar:1.1.2:compile - omitted for duplicate" ;
+ "org.junit.platform:junit-platform-launcher:jar:1.12.2:test" -> "org.junit.platform:junit-platform-engine:jar:1.12.2:compile - omitted for duplicate" ;
+ "org.junit.platform:junit-platform-launcher:jar:1.12.2:test" -> "org.apiguardian:apiguardian-api:jar:1.1.2:compile - omitted for duplicate" ;
+ "org.junit.jupiter:junit-jupiter-params:jar:5.12.2:test" -> "org.junit.jupiter:junit-jupiter-api:jar:5.12.2:compile - omitted for duplicate" ;
+ "org.junit.jupiter:junit-jupiter-params:jar:5.12.2:test" -> "org.apiguardian:apiguardian-api:jar:1.1.2:compile - omitted for duplicate" ;
+ "org.junit.platform:junit-platform-commons:jar:1.12.2:compile" -> "org.apiguardian:apiguardian-api:jar:1.1.2:compile - omitted for duplicate" ;
+ "org.junit.platform:junit-platform-engine:jar:1.12.2:compile" -> "org.opentest4j:opentest4j:jar:1.3.0:compile - omitted for duplicate" ;
+ "org.junit.platform:junit-platform-engine:jar:1.12.2:compile" -> "org.junit.platform:junit-platform-commons:jar:1.12.2:compile - omitted for duplicate" ;
+ "org.junit.platform:junit-platform-engine:jar:1.12.2:compile" -> "org.apiguardian:apiguardian-api:jar:1.1.2:compile - omitted for duplicate" ;
+}
+digraph ratis-examples {
+ "org.apache.ratis:ratis-examples:jar:3.1.3" -> "org.apache.ratis:ratis-thirdparty-misc:jar:1.0.9:compile" ;
+ "org.apache.ratis:ratis-examples:jar:3.1.3" -> "org.apache.ratis:ratis-proto:jar:3.1.3:compile" ;
+ "org.apache.ratis:ratis-examples:jar:3.1.3" -> "org.apache.ratis:ratis-tools:jar:3.1.3:compile" ;
+ "org.apache.ratis:ratis-examples:jar:3.1.3" -> "org.apache.ratis:ratis-common:jar:3.1.3:compile" ;
+ "org.apache.ratis:ratis-examples:jar:3.1.3" -> "org.apache.ratis:ratis-common:jar:3.1.3:test - omitted for conflict with compile" ;
+ "org.apache.ratis:ratis-examples:jar:3.1.3" -> "org.apache.ratis:ratis-client:jar:3.1.3:compile" ;
+ "org.apache.ratis:ratis-examples:jar:3.1.3" -> "org.apache.ratis:ratis-server:jar:3.1.3:compile" ;
+ "org.apache.ratis:ratis-examples:jar:3.1.3" -> "org.apache.ratis:ratis-server:jar:3.1.3:test - omitted for conflict with compile" ;
+ "org.apache.ratis:ratis-examples:jar:3.1.3" -> "org.apache.ratis:ratis-metrics-default:jar:3.1.3:compile" ;
+ "org.apache.ratis:ratis-examples:jar:3.1.3" -> "org.apache.ratis:ratis-grpc:jar:3.1.3:compile" ;
+ "org.apache.ratis:ratis-examples:jar:3.1.3" -> "org.apache.ratis:ratis-grpc:jar:3.1.3:test - omitted for conflict with compile" ;
+ "org.apache.ratis:ratis-examples:jar:3.1.3" -> "org.apache.ratis:ratis-netty:jar:3.1.3:compile" ;
+ "org.apache.ratis:ratis-examples:jar:3.1.3" -> "org.apache.ratis:ratis-netty:jar:3.1.3:test - omitted for conflict with compile" ;
+ "org.apache.ratis:ratis-examples:jar:3.1.3" -> "org.apache.ratis:ratis-test:jar:3.1.3:test" ;
+ "org.apache.ratis:ratis-examples:jar:3.1.3" -> "com.beust:jcommander:jar:1.82:compile" ;
+ "org.apache.ratis:ratis-examples:jar:3.1.3" -> "org.slf4j:slf4j-api:jar:2.0.7:compile" ;
+ "org.apache.ratis:ratis-examples:jar:3.1.3" -> "org.slf4j:slf4j-reload4j:jar:2.0.7:runtime" ;
+ "org.apache.ratis:ratis-examples:jar:3.1.3" -> "org.junit.jupiter:junit-jupiter-engine:jar:5.12.2:test" ;
+ "org.apache.ratis:ratis-examples:jar:3.1.3" -> "org.junit.jupiter:junit-jupiter-api:jar:5.12.2:test" ;
+ "org.apache.ratis:ratis-examples:jar:3.1.3" -> "org.junit.jupiter:junit-jupiter-params:jar:5.12.2:test" ;
+ "org.slf4j:slf4j-reload4j:jar:2.0.7:runtime" -> "org.slf4j:slf4j-api:jar:2.0.7:compile - omitted for duplicate" ;
+ "org.slf4j:slf4j-reload4j:jar:2.0.7:runtime" -> "ch.qos.reload4j:reload4j:jar:1.2.22:compile" ;
+ "org.junit.jupiter:junit-jupiter-engine:jar:5.12.2:test" -> "org.junit.platform:junit-platform-engine:jar:1.12.2:compile" ;
+ "org.junit.jupiter:junit-jupiter-engine:jar:5.12.2:test" -> "org.junit.jupiter:junit-jupiter-api:jar:5.12.2:compile - omitted for conflict with test" ;
+ "org.junit.jupiter:junit-jupiter-engine:jar:5.12.2:test" -> "org.apiguardian:apiguardian-api:jar:1.1.2:compile" ;
+ "org.junit.jupiter:junit-jupiter-api:jar:5.12.2:test" -> "org.opentest4j:opentest4j:jar:1.3.0:compile" ;
+ "org.junit.jupiter:junit-jupiter-api:jar:5.12.2:test" -> "org.junit.platform:junit-platform-commons:jar:1.12.2:compile" ;
+ "org.junit.jupiter:junit-jupiter-api:jar:5.12.2:test" -> "org.apiguardian:apiguardian-api:jar:1.1.2:compile - omitted for duplicate" ;
+ "org.junit.jupiter:junit-jupiter-params:jar:5.12.2:test" -> "org.junit.jupiter:junit-jupiter-api:jar:5.12.2:compile - omitted for duplicate" ;
+ "org.junit.jupiter:junit-jupiter-params:jar:5.12.2:test" -> "org.apiguardian:apiguardian-api:jar:1.1.2:compile - omitted for duplicate" ;
+ "org.junit.platform:junit-platform-engine:jar:1.12.2:compile" -> "org.opentest4j:opentest4j:jar:1.3.0:compile - omitted for duplicate" ;
+ "org.junit.platform:junit-platform-engine:jar:1.12.2:compile" -> "org.junit.platform:junit-platform-commons:jar:1.12.2:compile - omitted for duplicate" ;
+ "org.junit.platform:junit-platform-engine:jar:1.12.2:compile" -> "org.apiguardian:apiguardian-api:jar:1.1.2:compile - omitted for duplicate" ;
+ "org.junit.platform:junit-platform-commons:jar:1.12.2:compile" -> "org.apiguardian:apiguardian-api:jar:1.1.2:compile - omitted for duplicate" ;
+}
+digraph ratis-experiments {
+ "org.apache.ratis:ratis-experiments:jar:3.1.3" -> "org.apache.ratis:ratis-thirdparty-misc:jar:1.0.9:compile" ;
+ "org.apache.ratis:ratis-experiments:jar:3.1.3" -> "org.apache.ratis:ratis-proto:jar:3.1.3:compile" ;
+ "org.apache.ratis:ratis-experiments:jar:3.1.3" -> "org.slf4j:slf4j-api:jar:2.0.7:compile" ;
+ "org.apache.ratis:ratis-experiments:jar:3.1.3" -> "org.slf4j:slf4j-reload4j:jar:2.0.7:runtime" ;
+ "org.slf4j:slf4j-reload4j:jar:2.0.7:runtime" -> "org.slf4j:slf4j-api:jar:2.0.7:compile - omitted for duplicate" ;
+ "org.slf4j:slf4j-reload4j:jar:2.0.7:runtime" -> "ch.qos.reload4j:reload4j:jar:1.2.22:compile" ;
+}
+digraph ratis-grpc {
+ "org.apache.ratis:ratis-grpc:jar:3.1.3" -> "org.apache.ratis:ratis-thirdparty-misc:jar:1.0.9:compile" ;
+ "org.apache.ratis:ratis-grpc:jar:3.1.3" -> "org.apache.ratis:ratis-proto:jar:3.1.3:compile" ;
+ "org.apache.ratis:ratis-grpc:jar:3.1.3" -> "org.apache.ratis:ratis-common:jar:3.1.3:compile" ;
+ "org.apache.ratis:ratis-grpc:jar:3.1.3" -> "org.apache.ratis:ratis-common:jar:3.1.3:test - omitted for conflict with compile" ;
+ "org.apache.ratis:ratis-grpc:jar:3.1.3" -> "org.apache.ratis:ratis-client:jar:3.1.3:compile" ;
+ "org.apache.ratis:ratis-grpc:jar:3.1.3" -> "org.apache.ratis:ratis-client:jar:3.1.3:test - omitted for conflict with compile" ;
+ "org.apache.ratis:ratis-grpc:jar:3.1.3" -> "org.apache.ratis:ratis-server-api:jar:3.1.3:compile" ;
+ "org.apache.ratis:ratis-grpc:jar:3.1.3" -> "org.apache.ratis:ratis-server:jar:3.1.3:provided" ;
+ "org.apache.ratis:ratis-grpc:jar:3.1.3" -> "org.apache.ratis:ratis-server:jar:3.1.3:test - omitted for conflict with provided" ;
+ "org.apache.ratis:ratis-grpc:jar:3.1.3" -> "org.slf4j:slf4j-api:jar:2.0.7:compile" ;
+ "org.apache.ratis:ratis-grpc:jar:3.1.3" -> "org.junit.jupiter:junit-jupiter-api:jar:5.12.2:test" ;
+ "org.apache.ratis:ratis-grpc:jar:3.1.3" -> "org.mockito:mockito-core:jar:4.11.0:test" ;
+ "org.junit.jupiter:junit-jupiter-api:jar:5.12.2:test" -> "org.opentest4j:opentest4j:jar:1.3.0:compile" ;
+ "org.junit.jupiter:junit-jupiter-api:jar:5.12.2:test" -> "org.junit.platform:junit-platform-commons:jar:1.12.2:compile" ;
+ "org.junit.jupiter:junit-jupiter-api:jar:5.12.2:test" -> "org.apiguardian:apiguardian-api:jar:1.1.2:compile" ;
+ "org.mockito:mockito-core:jar:4.11.0:test" -> "net.bytebuddy:byte-buddy:jar:1.12.19:compile" ;
+ "org.mockito:mockito-core:jar:4.11.0:test" -> "net.bytebuddy:byte-buddy-agent:jar:1.12.19:compile" ;
+ "org.mockito:mockito-core:jar:4.11.0:test" -> "org.objenesis:objenesis:jar:3.3:runtime" ;
+ "org.junit.platform:junit-platform-commons:jar:1.12.2:compile" -> "org.apiguardian:apiguardian-api:jar:1.1.2:compile - omitted for duplicate" ;
+}
+digraph ratis-metrics-api {
+ "org.apache.ratis:ratis-metrics-api:jar:3.1.3" -> "org.apache.ratis:ratis-common:jar:3.1.3:compile" ;
+ "org.apache.ratis:ratis-metrics-api:jar:3.1.3" -> "org.slf4j:slf4j-api:jar:2.0.7:compile" ;
+}
+digraph ratis-metrics-default {
+ "org.apache.ratis:ratis-metrics-default:jar:3.1.3" -> "org.apache.ratis:ratis-metrics-api:jar:3.1.3:compile" ;
+ "org.apache.ratis:ratis-metrics-default:jar:3.1.3" -> "org.apache.ratis:ratis-proto:jar:3.1.3:compile" ;
+ "org.apache.ratis:ratis-metrics-default:jar:3.1.3" -> "org.apache.ratis:ratis-common:jar:3.1.3:compile" ;
+ "org.apache.ratis:ratis-metrics-default:jar:3.1.3" -> "org.apache.ratis:ratis-common:jar:3.1.3:test - omitted for conflict with compile" ;
+ "org.apache.ratis:ratis-metrics-default:jar:3.1.3" -> "org.slf4j:slf4j-api:jar:2.0.7:compile" ;
+ "org.apache.ratis:ratis-metrics-default:jar:3.1.3" -> "org.junit.jupiter:junit-jupiter-engine:jar:5.12.2:test" ;
+ "org.apache.ratis:ratis-metrics-default:jar:3.1.3" -> "org.junit.jupiter:junit-jupiter-api:jar:5.12.2:test" ;
+ "org.apache.ratis:ratis-metrics-default:jar:3.1.3" -> "org.mockito:mockito-core:jar:4.11.0:test" ;
+ "org.junit.jupiter:junit-jupiter-engine:jar:5.12.2:test" -> "org.junit.platform:junit-platform-engine:jar:1.12.2:compile" ;
+ "org.junit.jupiter:junit-jupiter-engine:jar:5.12.2:test" -> "org.junit.jupiter:junit-jupiter-api:jar:5.12.2:compile - omitted for conflict with test" ;
+ "org.junit.jupiter:junit-jupiter-engine:jar:5.12.2:test" -> "org.apiguardian:apiguardian-api:jar:1.1.2:compile" ;
+ "org.junit.jupiter:junit-jupiter-api:jar:5.12.2:test" -> "org.opentest4j:opentest4j:jar:1.3.0:compile" ;
+ "org.junit.jupiter:junit-jupiter-api:jar:5.12.2:test" -> "org.junit.platform:junit-platform-commons:jar:1.12.2:compile" ;
+ "org.junit.jupiter:junit-jupiter-api:jar:5.12.2:test" -> "org.apiguardian:apiguardian-api:jar:1.1.2:compile - omitted for duplicate" ;
+ "org.mockito:mockito-core:jar:4.11.0:test" -> "net.bytebuddy:byte-buddy:jar:1.12.19:compile" ;
+ "org.mockito:mockito-core:jar:4.11.0:test" -> "net.bytebuddy:byte-buddy-agent:jar:1.12.19:compile" ;
+ "org.mockito:mockito-core:jar:4.11.0:test" -> "org.objenesis:objenesis:jar:3.3:runtime" ;
+ "org.junit.platform:junit-platform-engine:jar:1.12.2:compile" -> "org.opentest4j:opentest4j:jar:1.3.0:compile - omitted for duplicate" ;
+ "org.junit.platform:junit-platform-engine:jar:1.12.2:compile" -> "org.junit.platform:junit-platform-commons:jar:1.12.2:compile - omitted for duplicate" ;
+ "org.junit.platform:junit-platform-engine:jar:1.12.2:compile" -> "org.apiguardian:apiguardian-api:jar:1.1.2:compile - omitted for duplicate" ;
+ "org.junit.platform:junit-platform-commons:jar:1.12.2:compile" -> "org.apiguardian:apiguardian-api:jar:1.1.2:compile - omitted for duplicate" ;
+}
+digraph ratis-metrics-dropwizard3 {
+ "org.apache.ratis:ratis-metrics-dropwizard3:jar:3.1.3" -> "org.apache.ratis:ratis-metrics-api:jar:3.1.3:compile" ;
+ "org.apache.ratis:ratis-metrics-dropwizard3:jar:3.1.3" -> "org.apache.ratis:ratis-proto:jar:3.1.3:compile" ;
+ "org.apache.ratis:ratis-metrics-dropwizard3:jar:3.1.3" -> "org.apache.ratis:ratis-common:jar:3.1.3:compile" ;
+ "org.apache.ratis:ratis-metrics-dropwizard3:jar:3.1.3" -> "org.apache.ratis:ratis-common:jar:3.1.3:test - omitted for conflict with compile" ;
+ "org.apache.ratis:ratis-metrics-dropwizard3:jar:3.1.3" -> "org.slf4j:slf4j-api:jar:2.0.7:compile" ;
+ "org.apache.ratis:ratis-metrics-dropwizard3:jar:3.1.3" -> "org.junit.jupiter:junit-jupiter-engine:jar:5.12.2:test" ;
+ "org.apache.ratis:ratis-metrics-dropwizard3:jar:3.1.3" -> "org.junit.jupiter:junit-jupiter-api:jar:5.12.2:test" ;
+ "org.apache.ratis:ratis-metrics-dropwizard3:jar:3.1.3" -> "org.mockito:mockito-core:jar:4.11.0:test" ;
+ "org.apache.ratis:ratis-metrics-dropwizard3:jar:3.1.3" -> "io.dropwizard.metrics:metrics-core:jar:3.2.5:compile" ;
+ "org.apache.ratis:ratis-metrics-dropwizard3:jar:3.1.3" -> "io.dropwizard.metrics:metrics-jvm:jar:3.2.5:compile - omitted due to optional dependency" ;
+ "org.apache.ratis:ratis-metrics-dropwizard3:jar:3.1.3" -> "io.dropwizard.metrics:metrics-ganglia:jar:3.2.5:compile - omitted due to optional dependency" ;
+ "org.junit.jupiter:junit-jupiter-engine:jar:5.12.2:test" -> "org.junit.platform:junit-platform-engine:jar:1.12.2:compile" ;
+ "org.junit.jupiter:junit-jupiter-engine:jar:5.12.2:test" -> "org.junit.jupiter:junit-jupiter-api:jar:5.12.2:compile - omitted for conflict with test" ;
+ "org.junit.jupiter:junit-jupiter-engine:jar:5.12.2:test" -> "org.apiguardian:apiguardian-api:jar:1.1.2:compile" ;
+ "org.junit.jupiter:junit-jupiter-api:jar:5.12.2:test" -> "org.opentest4j:opentest4j:jar:1.3.0:compile" ;
+ "org.junit.jupiter:junit-jupiter-api:jar:5.12.2:test" -> "org.junit.platform:junit-platform-commons:jar:1.12.2:compile" ;
+ "org.junit.jupiter:junit-jupiter-api:jar:5.12.2:test" -> "org.apiguardian:apiguardian-api:jar:1.1.2:compile - omitted for duplicate" ;
+ "org.mockito:mockito-core:jar:4.11.0:test" -> "net.bytebuddy:byte-buddy:jar:1.12.19:compile" ;
+ "org.mockito:mockito-core:jar:4.11.0:test" -> "net.bytebuddy:byte-buddy-agent:jar:1.12.19:compile" ;
+ "org.mockito:mockito-core:jar:4.11.0:test" -> "org.objenesis:objenesis:jar:3.3:runtime" ;
+ "org.junit.platform:junit-platform-engine:jar:1.12.2:compile" -> "org.opentest4j:opentest4j:jar:1.3.0:compile - omitted for duplicate" ;
+ "org.junit.platform:junit-platform-engine:jar:1.12.2:compile" -> "org.junit.platform:junit-platform-commons:jar:1.12.2:compile - omitted for duplicate" ;
+ "org.junit.platform:junit-platform-engine:jar:1.12.2:compile" -> "org.apiguardian:apiguardian-api:jar:1.1.2:compile - omitted for duplicate" ;
+ "org.junit.platform:junit-platform-commons:jar:1.12.2:compile" -> "org.apiguardian:apiguardian-api:jar:1.1.2:compile - omitted for duplicate" ;
+}
+digraph ratis-netty {
+ "org.apache.ratis:ratis-netty:jar:3.1.3" -> "org.apache.ratis:ratis-thirdparty-misc:jar:1.0.9:compile" ;
+ "org.apache.ratis:ratis-netty:jar:3.1.3" -> "org.apache.ratis:ratis-proto:jar:3.1.3:compile" ;
+ "org.apache.ratis:ratis-netty:jar:3.1.3" -> "org.apache.ratis:ratis-common:jar:3.1.3:compile" ;
+ "org.apache.ratis:ratis-netty:jar:3.1.3" -> "org.apache.ratis:ratis-common:jar:3.1.3:test - omitted for conflict with compile" ;
+ "org.apache.ratis:ratis-netty:jar:3.1.3" -> "org.apache.ratis:ratis-client:jar:3.1.3:provided" ;
+ "org.apache.ratis:ratis-netty:jar:3.1.3" -> "org.apache.ratis:ratis-client:jar:3.1.3:test - omitted for conflict with provided" ;
+ "org.apache.ratis:ratis-netty:jar:3.1.3" -> "org.apache.ratis:ratis-server:jar:3.1.3:provided" ;
+ "org.apache.ratis:ratis-netty:jar:3.1.3" -> "org.apache.ratis:ratis-server:jar:3.1.3:test - omitted for conflict with provided" ;
+ "org.apache.ratis:ratis-netty:jar:3.1.3" -> "org.slf4j:slf4j-api:jar:2.0.7:compile" ;
+}
+digraph ratis-server {
+ "org.apache.ratis:ratis-server:jar:3.1.3" -> "org.apache.ratis:ratis-thirdparty-misc:jar:1.0.9:compile" ;
+ "org.apache.ratis:ratis-server:jar:3.1.3" -> "org.apache.ratis:ratis-proto:jar:3.1.3:compile" ;
+ "org.apache.ratis:ratis-server:jar:3.1.3" -> "org.apache.ratis:ratis-common:jar:3.1.3:compile" ;
+ "org.apache.ratis:ratis-server:jar:3.1.3" -> "org.apache.ratis:ratis-common:jar:3.1.3:test - omitted for conflict with compile" ;
+ "org.apache.ratis:ratis-server:jar:3.1.3" -> "org.apache.ratis:ratis-client:jar:3.1.3:compile" ;
+ "org.apache.ratis:ratis-server:jar:3.1.3" -> "org.apache.ratis:ratis-client:jar:3.1.3:test - omitted for conflict with compile" ;
+ "org.apache.ratis:ratis-server:jar:3.1.3" -> "org.apache.ratis:ratis-server-api:jar:3.1.3:compile" ;
+ "org.apache.ratis:ratis-server:jar:3.1.3" -> "org.slf4j:slf4j-api:jar:2.0.7:compile" ;
+ "org.apache.ratis:ratis-server:jar:3.1.3" -> "org.junit.jupiter:junit-jupiter-api:jar:5.12.2:test" ;
+ "org.apache.ratis:ratis-server:jar:3.1.3" -> "org.junit.jupiter:junit-jupiter-engine:jar:5.12.2:test" ;
+ "org.apache.ratis:ratis-server:jar:3.1.3" -> "org.junit.platform:junit-platform-launcher:jar:1.12.2:test" ;
+ "org.apache.ratis:ratis-server:jar:3.1.3" -> "org.junit.jupiter:junit-jupiter-params:jar:5.12.2:test" ;
+ "org.apache.ratis:ratis-server:jar:3.1.3" -> "org.mockito:mockito-core:jar:4.11.0:test" ;
+ "org.apache.ratis:ratis-server:jar:3.1.3" -> "org.apache.ratis:ratis-metrics-api:jar:3.1.3:compile" ;
+ "org.apache.ratis:ratis-server:jar:3.1.3" -> "org.apache.ratis:ratis-metrics-default:jar:3.1.3:test" ;
+ "org.junit.jupiter:junit-jupiter-api:jar:5.12.2:test" -> "org.opentest4j:opentest4j:jar:1.3.0:compile" ;
+ "org.junit.jupiter:junit-jupiter-api:jar:5.12.2:test" -> "org.junit.platform:junit-platform-commons:jar:1.12.2:compile" ;
+ "org.junit.jupiter:junit-jupiter-api:jar:5.12.2:test" -> "org.apiguardian:apiguardian-api:jar:1.1.2:compile" ;
+ "org.junit.jupiter:junit-jupiter-engine:jar:5.12.2:test" -> "org.junit.platform:junit-platform-engine:jar:1.12.2:compile" ;
+ "org.junit.jupiter:junit-jupiter-engine:jar:5.12.2:test" -> "org.junit.jupiter:junit-jupiter-api:jar:5.12.2:compile - omitted for conflict with test" ;
+ "org.junit.jupiter:junit-jupiter-engine:jar:5.12.2:test" -> "org.apiguardian:apiguardian-api:jar:1.1.2:compile - omitted for duplicate" ;
+ "org.junit.platform:junit-platform-launcher:jar:1.12.2:test" -> "org.junit.platform:junit-platform-engine:jar:1.12.2:compile - omitted for duplicate" ;
+ "org.junit.platform:junit-platform-launcher:jar:1.12.2:test" -> "org.apiguardian:apiguardian-api:jar:1.1.2:compile - omitted for duplicate" ;
+ "org.junit.jupiter:junit-jupiter-params:jar:5.12.2:test" -> "org.junit.jupiter:junit-jupiter-api:jar:5.12.2:compile - omitted for duplicate" ;
+ "org.junit.jupiter:junit-jupiter-params:jar:5.12.2:test" -> "org.apiguardian:apiguardian-api:jar:1.1.2:compile - omitted for duplicate" ;
+ "org.mockito:mockito-core:jar:4.11.0:test" -> "net.bytebuddy:byte-buddy:jar:1.12.19:compile" ;
+ "org.mockito:mockito-core:jar:4.11.0:test" -> "net.bytebuddy:byte-buddy-agent:jar:1.12.19:compile" ;
+ "org.mockito:mockito-core:jar:4.11.0:test" -> "org.objenesis:objenesis:jar:3.3:runtime" ;
+ "org.junit.platform:junit-platform-commons:jar:1.12.2:compile" -> "org.apiguardian:apiguardian-api:jar:1.1.2:compile - omitted for duplicate" ;
+ "org.junit.platform:junit-platform-engine:jar:1.12.2:compile" -> "org.opentest4j:opentest4j:jar:1.3.0:compile - omitted for duplicate" ;
+ "org.junit.platform:junit-platform-engine:jar:1.12.2:compile" -> "org.junit.platform:junit-platform-commons:jar:1.12.2:compile - omitted for duplicate" ;
+ "org.junit.platform:junit-platform-engine:jar:1.12.2:compile" -> "org.apiguardian:apiguardian-api:jar:1.1.2:compile - omitted for duplicate" ;
+}
+digraph ratis-server-api {
+ "org.apache.ratis:ratis-server-api:jar:3.1.3" -> "org.apache.ratis:ratis-thirdparty-misc:jar:1.0.9:compile" ;
+ "org.apache.ratis:ratis-server-api:jar:3.1.3" -> "org.apache.ratis:ratis-proto:jar:3.1.3:compile" ;
+ "org.apache.ratis:ratis-server-api:jar:3.1.3" -> "org.apache.ratis:ratis-common:jar:3.1.3:compile" ;
+ "org.apache.ratis:ratis-server-api:jar:3.1.3" -> "org.apache.ratis:ratis-client:jar:3.1.3:compile" ;
+ "org.apache.ratis:ratis-server-api:jar:3.1.3" -> "org.slf4j:slf4j-api:jar:2.0.7:compile" ;
+}
+digraph ratis-shell {
+ "org.apache.ratis:ratis-shell:jar:3.1.3" -> "org.apache.ratis:ratis-client:jar:3.1.3:provided" ;
+ "org.apache.ratis:ratis-shell:jar:3.1.3" -> "org.apache.ratis:ratis-common:jar:3.1.3:provided" ;
+ "org.apache.ratis:ratis-shell:jar:3.1.3" -> "commons-cli:commons-cli:jar:1.5.0:compile" ;
+ "org.apache.ratis:ratis-shell:jar:3.1.3" -> "org.slf4j:slf4j-api:jar:2.0.7:compile" ;
+ "org.apache.ratis:ratis-shell:jar:3.1.3" -> "org.slf4j:slf4j-simple:jar:2.0.7:compile" ;
+ "org.slf4j:slf4j-simple:jar:2.0.7:compile" -> "org.slf4j:slf4j-api:jar:2.0.7:compile - omitted for duplicate" ;
+}
+digraph ratis-tools {
+ "org.apache.ratis:ratis-tools:jar:3.1.3" -> "org.apache.ratis:ratis-server:jar:3.1.3:compile" ;
+ "org.apache.ratis:ratis-tools:jar:3.1.3" -> "org.apache.ratis:ratis-proto:jar:3.1.3:compile" ;
+ "org.apache.ratis:ratis-tools:jar:3.1.3" -> "org.apache.ratis:ratis-common:jar:3.1.3:compile" ;
+}

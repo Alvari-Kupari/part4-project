@@ -1,0 +1,234 @@
+digraph Ch04_OutputEscapingJSF {
+	"de.dominikschadow.javawebsecurity:Ch04_OutputEscapingJSF:war:1.0.0" -> "com.sun.faces:jsf-api:jar:2.2.20:compile" ; 
+	"de.dominikschadow.javawebsecurity:Ch04_OutputEscapingJSF:war:1.0.0" -> "com.sun.faces:jsf-impl:jar:2.2.20:compile" ; 
+}
+digraph Ch04_OutputEscapingJSP {
+	"de.dominikschadow.javawebsecurity:Ch04_OutputEscapingJSP:war:1.0.0" -> "org.springframework:spring-webmvc:jar:5.3.29:compile" ; 
+	"de.dominikschadow.javawebsecurity:Ch04_OutputEscapingJSP:war:1.0.0" -> "javax.servlet:javax.servlet-api:jar:4.0.1:provided" ; 
+	"de.dominikschadow.javawebsecurity:Ch04_OutputEscapingJSP:war:1.0.0" -> "javax.servlet.jsp:javax.servlet.jsp-api:jar:2.3.3:provided" ; 
+	"de.dominikschadow.javawebsecurity:Ch04_OutputEscapingJSP:war:1.0.0" -> "javax.servlet:jstl:jar:1.2:compile" ; 
+	"de.dominikschadow.javawebsecurity:Ch04_OutputEscapingJSP:war:1.0.0" -> "ch.qos.logback:logback-classic:jar:1.5.18:compile" ; 
+	"de.dominikschadow.javawebsecurity:Ch04_OutputEscapingJSP:war:1.0.0" -> "org.springframework:spring-test:jar:5.3.29:test" ; 
+	"de.dominikschadow.javawebsecurity:Ch04_OutputEscapingJSP:war:1.0.0" -> "org.junit.jupiter:junit-jupiter-engine:jar:5.13.1:test" ; 
+	"de.dominikschadow.javawebsecurity:Ch04_OutputEscapingJSP:war:1.0.0" -> "org.hamcrest:hamcrest-library:jar:3.0:test" ; 
+	"org.springframework:spring-webmvc:jar:5.3.29:compile" -> "org.springframework:spring-aop:jar:5.3.29:compile" ; 
+	"org.springframework:spring-webmvc:jar:5.3.29:compile" -> "org.springframework:spring-beans:jar:5.3.29:compile" ; 
+	"org.springframework:spring-webmvc:jar:5.3.29:compile" -> "org.springframework:spring-context:jar:5.3.29:compile" ; 
+	"org.springframework:spring-webmvc:jar:5.3.29:compile" -> "org.springframework:spring-core:jar:5.3.29:compile (scope not updated to compile)" ; 
+	"org.springframework:spring-webmvc:jar:5.3.29:compile" -> "org.springframework:spring-expression:jar:5.3.29:compile" ; 
+	"org.springframework:spring-webmvc:jar:5.3.29:compile" -> "org.springframework:spring-web:jar:5.3.29:compile" ; 
+	"org.springframework:spring-aop:jar:5.3.29:compile" -> "(org.springframework:spring-beans:jar:5.3.29:compile - omitted for duplicate)" ; 
+	"org.springframework:spring-aop:jar:5.3.29:compile" -> "(org.springframework:spring-core:jar:5.3.29:compile - omitted for duplicate)" ; 
+	"org.springframework:spring-beans:jar:5.3.29:compile" -> "(org.springframework:spring-core:jar:5.3.29:compile - omitted for duplicate)" ; 
+	"org.springframework:spring-context:jar:5.3.29:compile" -> "(org.springframework:spring-aop:jar:5.3.29:compile - omitted for duplicate)" ; 
+	"org.springframework:spring-context:jar:5.3.29:compile" -> "(org.springframework:spring-beans:jar:5.3.29:compile - omitted for duplicate)" ; 
+	"org.springframework:spring-context:jar:5.3.29:compile" -> "(org.springframework:spring-core:jar:5.3.29:compile - omitted for duplicate)" ; 
+	"org.springframework:spring-context:jar:5.3.29:compile" -> "(org.springframework:spring-expression:jar:5.3.29:compile - omitted for duplicate)" ; 
+	"org.springframework:spring-core:jar:5.3.29:compile (scope not updated to compile)" -> "org.springframework:spring-jcl:jar:5.3.29:compile" ; 
+	"org.springframework:spring-expression:jar:5.3.29:compile" -> "(org.springframework:spring-core:jar:5.3.29:compile - omitted for duplicate)" ; 
+	"org.springframework:spring-web:jar:5.3.29:compile" -> "(org.springframework:spring-beans:jar:5.3.29:compile - omitted for duplicate)" ; 
+	"org.springframework:spring-web:jar:5.3.29:compile" -> "(org.springframework:spring-core:jar:5.3.29:compile - omitted for duplicate)" ; 
+	"ch.qos.logback:logback-classic:jar:1.5.18:compile" -> "ch.qos.logback:logback-core:jar:1.5.18:compile" ; 
+	"ch.qos.logback:logback-classic:jar:1.5.18:compile" -> "org.slf4j:slf4j-api:jar:2.0.17:compile" ; 
+	"org.springframework:spring-test:jar:5.3.29:test" -> "(org.springframework:spring-core:jar:5.3.29:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.13.1:test" -> "org.junit.platform:junit-platform-engine:jar:1.13.1:test" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.13.1:test" -> "org.junit.jupiter:junit-jupiter-api:jar:5.13.1:test" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.13.1:test" -> "org.apiguardian:apiguardian-api:jar:1.1.2:test" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.13.1:test" -> "org.opentest4j:opentest4j:jar:1.3.0:test" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.13.1:test" -> "org.junit.platform:junit-platform-commons:jar:1.13.1:test" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.13.1:test" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:test - omitted for duplicate)" ; 
+	"org.junit.platform:junit-platform-commons:jar:1.13.1:test" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.13.1:test" -> "(org.opentest4j:opentest4j:jar:1.3.0:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.13.1:test" -> "(org.junit.platform:junit-platform-commons:jar:1.13.1:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.13.1:test" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:test - omitted for duplicate)" ; 
+	"org.hamcrest:hamcrest-library:jar:3.0:test" -> "org.hamcrest:hamcrest-core:jar:3.0:test" ; 
+	"org.hamcrest:hamcrest-core:jar:3.0:test" -> "org.hamcrest:hamcrest:jar:3.0:test" ; 
+}
+digraph Ch05_AccessReferenceMaps {
+	"de.dominikschadow.javawebsecurity:Ch05_AccessReferenceMaps:war:1.0.0" -> "com.sun.faces:jsf-api:jar:2.2.20:compile" ; 
+	"de.dominikschadow.javawebsecurity:Ch05_AccessReferenceMaps:war:1.0.0" -> "com.sun.faces:jsf-impl:jar:2.2.20:compile" ; 
+	"de.dominikschadow.javawebsecurity:Ch05_AccessReferenceMaps:war:1.0.0" -> "org.owasp.esapi:esapi:jar:2.6.2.0:compile" ; 
+	"de.dominikschadow.javawebsecurity:Ch05_AccessReferenceMaps:war:1.0.0" -> "com.h2database:h2:jar:2.3.232:runtime" ; 
+	"de.dominikschadow.javawebsecurity:Ch05_AccessReferenceMaps:war:1.0.0" -> "org.hibernate:hibernate-core:jar:5.6.15.Final:compile" ; 
+	"de.dominikschadow.javawebsecurity:Ch05_AccessReferenceMaps:war:1.0.0" -> "ch.qos.logback:logback-classic:jar:1.5.18:compile" ; 
+	"org.owasp.esapi:esapi:jar:2.6.2.0:compile" -> "xom:xom:jar:1.3.9:compile" ; 
+	"org.owasp.esapi:esapi:jar:2.6.2.0:compile" -> "commons-beanutils:commons-beanutils:jar:1.11.0:compile" ; 
+	"org.owasp.esapi:esapi:jar:2.6.2.0:compile" -> "commons-configuration:commons-configuration:jar:1.10:compile" ; 
+	"org.owasp.esapi:esapi:jar:2.6.2.0:compile" -> "commons-lang:commons-lang:jar:2.6:compile" ; 
+	"org.owasp.esapi:esapi:jar:2.6.2.0:compile" -> "commons-fileupload:commons-fileupload:jar:1.5:compile" ; 
+	"org.owasp.esapi:esapi:jar:2.6.2.0:compile" -> "org.apache.commons:commons-collections4:jar:4.5.0-M2:compile" ; 
+	"org.owasp.esapi:esapi:jar:2.6.2.0:compile" -> "org.apache-extras.beanshell:bsh:jar:2.0b6:compile" ; 
+	"org.owasp.esapi:esapi:jar:2.6.2.0:compile" -> "org.slf4j:slf4j-api:jar:2.0.16:compile" ; 
+	"org.owasp.esapi:esapi:jar:2.6.2.0:compile" -> "xml-apis:xml-apis:jar:1.4.01:compile" ; 
+	"commons-beanutils:commons-beanutils:jar:1.11.0:compile" -> "commons-logging:commons-logging:jar:1.3.5:compile" ; 
+	"commons-beanutils:commons-beanutils:jar:1.11.0:compile" -> "commons-collections:commons-collections:jar:3.2.2:compile" ; 
+	"commons-configuration:commons-configuration:jar:1.10:compile" -> "(commons-lang:commons-lang:jar:2.6:compile - omitted for duplicate)" ; 
+	"org.hibernate:hibernate-core:jar:5.6.15.Final:compile" -> "org.jboss.logging:jboss-logging:jar:3.4.3.Final:compile" ; 
+	"org.hibernate:hibernate-core:jar:5.6.15.Final:compile" -> "javax.persistence:javax.persistence-api:jar:2.2:compile" ; 
+	"org.hibernate:hibernate-core:jar:5.6.15.Final:compile" -> "net.bytebuddy:byte-buddy:jar:1.12.18:compile" ; 
+	"org.hibernate:hibernate-core:jar:5.6.15.Final:compile" -> "antlr:antlr:jar:2.7.7:compile" ; 
+	"org.hibernate:hibernate-core:jar:5.6.15.Final:compile" -> "org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:jar:1.1.1.Final:compile" ; 
+	"org.hibernate:hibernate-core:jar:5.6.15.Final:compile" -> "org.jboss:jandex:jar:2.4.2.Final:compile" ; 
+	"org.hibernate:hibernate-core:jar:5.6.15.Final:compile" -> "com.fasterxml:classmate:jar:1.5.1:compile" ; 
+	"org.hibernate:hibernate-core:jar:5.6.15.Final:compile" -> "javax.activation:javax.activation-api:jar:1.2.0:compile" ; 
+	"org.hibernate:hibernate-core:jar:5.6.15.Final:compile" -> "org.hibernate.common:hibernate-commons-annotations:jar:5.1.2.Final:compile" ; 
+	"org.hibernate:hibernate-core:jar:5.6.15.Final:compile" -> "javax.xml.bind:jaxb-api:jar:2.3.1:compile" ; 
+	"org.hibernate:hibernate-core:jar:5.6.15.Final:compile" -> "org.glassfish.jaxb:jaxb-runtime:jar:2.3.1:compile" ; 
+	"org.hibernate.common:hibernate-commons-annotations:jar:5.1.2.Final:compile" -> "(org.jboss.logging:jboss-logging:jar:3.3.2.Final:compile - omitted for conflict with 3.4.3.Final)" ; 
+	"javax.xml.bind:jaxb-api:jar:2.3.1:compile" -> "(javax.activation:javax.activation-api:jar:1.2.0:compile - omitted for duplicate)" ; 
+	"org.glassfish.jaxb:jaxb-runtime:jar:2.3.1:compile" -> "(javax.xml.bind:jaxb-api:jar:2.3.1:compile - omitted for duplicate)" ; 
+	"org.glassfish.jaxb:jaxb-runtime:jar:2.3.1:compile" -> "org.glassfish.jaxb:txw2:jar:2.3.1:compile" ; 
+	"org.glassfish.jaxb:jaxb-runtime:jar:2.3.1:compile" -> "com.sun.istack:istack-commons-runtime:jar:3.0.7:compile" ; 
+	"org.glassfish.jaxb:jaxb-runtime:jar:2.3.1:compile" -> "org.jvnet.staxex:stax-ex:jar:1.8:compile" ; 
+	"org.glassfish.jaxb:jaxb-runtime:jar:2.3.1:compile" -> "com.sun.xml.fastinfoset:FastInfoset:jar:1.2.15:compile" ; 
+	"org.glassfish.jaxb:jaxb-runtime:jar:2.3.1:compile" -> "(javax.activation:javax.activation-api:jar:1.2.0:compile - omitted for duplicate)" ; 
+	"ch.qos.logback:logback-classic:jar:1.5.18:compile" -> "ch.qos.logback:logback-core:jar:1.5.18:compile" ; 
+	"ch.qos.logback:logback-classic:jar:1.5.18:compile" -> "(org.slf4j:slf4j-api:jar:2.0.17:compile - omitted for conflict with 2.0.16)" ; 
+}
+digraph Ch05_HSTS {
+	"de.dominikschadow.javawebsecurity:Ch05_HSTS:war:1.0.0" -> "javax.servlet:javax.servlet-api:jar:4.0.1:provided" ; 
+	"de.dominikschadow.javawebsecurity:Ch05_HSTS:war:1.0.0" -> "ch.qos.logback:logback-classic:jar:1.5.18:compile" ; 
+	"ch.qos.logback:logback-classic:jar:1.5.18:compile" -> "ch.qos.logback:logback-core:jar:1.5.18:compile" ; 
+	"ch.qos.logback:logback-classic:jar:1.5.18:compile" -> "org.slf4j:slf4j-api:jar:2.0.17:compile" ; 
+}
+digraph Ch05_SessionFixation {
+	"de.dominikschadow.javawebsecurity:Ch05_SessionFixation:war:1.0.0" -> "javax.servlet:javax.servlet-api:jar:4.0.1:provided" ; 
+	"de.dominikschadow.javawebsecurity:Ch05_SessionFixation:war:1.0.0" -> "ch.qos.logback:logback-classic:jar:1.5.18:compile" ; 
+	"ch.qos.logback:logback-classic:jar:1.5.18:compile" -> "ch.qos.logback:logback-core:jar:1.5.18:compile" ; 
+	"ch.qos.logback:logback-classic:jar:1.5.18:compile" -> "org.slf4j:slf4j-api:jar:2.0.17:compile" ; 
+}
+digraph Ch06_SQLInjection {
+	"de.dominikschadow.javawebsecurity:Ch06_SQLInjection:war:1.0.0" -> "javax.servlet:javax.servlet-api:jar:4.0.1:provided" ; 
+	"de.dominikschadow.javawebsecurity:Ch06_SQLInjection:war:1.0.0" -> "com.h2database:h2:jar:2.3.232:runtime" ; 
+	"de.dominikschadow.javawebsecurity:Ch06_SQLInjection:war:1.0.0" -> "org.owasp.esapi:esapi:jar:2.6.2.0:compile" ; 
+	"de.dominikschadow.javawebsecurity:Ch06_SQLInjection:war:1.0.0" -> "org.hibernate:hibernate-core:jar:5.6.15.Final:compile" ; 
+	"de.dominikschadow.javawebsecurity:Ch06_SQLInjection:war:1.0.0" -> "ch.qos.logback:logback-classic:jar:1.5.18:compile" ; 
+	"org.owasp.esapi:esapi:jar:2.6.2.0:compile" -> "xom:xom:jar:1.3.9:compile" ; 
+	"org.owasp.esapi:esapi:jar:2.6.2.0:compile" -> "commons-beanutils:commons-beanutils:jar:1.11.0:compile" ; 
+	"org.owasp.esapi:esapi:jar:2.6.2.0:compile" -> "commons-configuration:commons-configuration:jar:1.10:compile" ; 
+	"org.owasp.esapi:esapi:jar:2.6.2.0:compile" -> "commons-lang:commons-lang:jar:2.6:compile" ; 
+	"org.owasp.esapi:esapi:jar:2.6.2.0:compile" -> "commons-fileupload:commons-fileupload:jar:1.5:compile" ; 
+	"org.owasp.esapi:esapi:jar:2.6.2.0:compile" -> "org.apache.commons:commons-collections4:jar:4.5.0-M2:compile" ; 
+	"org.owasp.esapi:esapi:jar:2.6.2.0:compile" -> "org.apache-extras.beanshell:bsh:jar:2.0b6:compile" ; 
+	"org.owasp.esapi:esapi:jar:2.6.2.0:compile" -> "org.slf4j:slf4j-api:jar:2.0.16:compile" ; 
+	"org.owasp.esapi:esapi:jar:2.6.2.0:compile" -> "xml-apis:xml-apis:jar:1.4.01:compile" ; 
+	"commons-beanutils:commons-beanutils:jar:1.11.0:compile" -> "commons-logging:commons-logging:jar:1.3.5:compile" ; 
+	"commons-beanutils:commons-beanutils:jar:1.11.0:compile" -> "commons-collections:commons-collections:jar:3.2.2:compile" ; 
+	"commons-configuration:commons-configuration:jar:1.10:compile" -> "(commons-lang:commons-lang:jar:2.6:compile - omitted for duplicate)" ; 
+	"org.hibernate:hibernate-core:jar:5.6.15.Final:compile" -> "org.jboss.logging:jboss-logging:jar:3.4.3.Final:compile" ; 
+	"org.hibernate:hibernate-core:jar:5.6.15.Final:compile" -> "javax.persistence:javax.persistence-api:jar:2.2:compile" ; 
+	"org.hibernate:hibernate-core:jar:5.6.15.Final:compile" -> "net.bytebuddy:byte-buddy:jar:1.12.18:compile" ; 
+	"org.hibernate:hibernate-core:jar:5.6.15.Final:compile" -> "antlr:antlr:jar:2.7.7:compile" ; 
+	"org.hibernate:hibernate-core:jar:5.6.15.Final:compile" -> "org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:jar:1.1.1.Final:compile" ; 
+	"org.hibernate:hibernate-core:jar:5.6.15.Final:compile" -> "org.jboss:jandex:jar:2.4.2.Final:compile" ; 
+	"org.hibernate:hibernate-core:jar:5.6.15.Final:compile" -> "com.fasterxml:classmate:jar:1.5.1:compile" ; 
+	"org.hibernate:hibernate-core:jar:5.6.15.Final:compile" -> "javax.activation:javax.activation-api:jar:1.2.0:compile" ; 
+	"org.hibernate:hibernate-core:jar:5.6.15.Final:compile" -> "org.hibernate.common:hibernate-commons-annotations:jar:5.1.2.Final:compile" ; 
+	"org.hibernate:hibernate-core:jar:5.6.15.Final:compile" -> "javax.xml.bind:jaxb-api:jar:2.3.1:compile" ; 
+	"org.hibernate:hibernate-core:jar:5.6.15.Final:compile" -> "org.glassfish.jaxb:jaxb-runtime:jar:2.3.1:compile" ; 
+	"org.hibernate.common:hibernate-commons-annotations:jar:5.1.2.Final:compile" -> "(org.jboss.logging:jboss-logging:jar:3.3.2.Final:compile - omitted for conflict with 3.4.3.Final)" ; 
+	"javax.xml.bind:jaxb-api:jar:2.3.1:compile" -> "(javax.activation:javax.activation-api:jar:1.2.0:compile - omitted for duplicate)" ; 
+	"org.glassfish.jaxb:jaxb-runtime:jar:2.3.1:compile" -> "(javax.xml.bind:jaxb-api:jar:2.3.1:compile - omitted for duplicate)" ; 
+	"org.glassfish.jaxb:jaxb-runtime:jar:2.3.1:compile" -> "org.glassfish.jaxb:txw2:jar:2.3.1:compile" ; 
+	"org.glassfish.jaxb:jaxb-runtime:jar:2.3.1:compile" -> "com.sun.istack:istack-commons-runtime:jar:3.0.7:compile" ; 
+	"org.glassfish.jaxb:jaxb-runtime:jar:2.3.1:compile" -> "org.jvnet.staxex:stax-ex:jar:1.8:compile" ; 
+	"org.glassfish.jaxb:jaxb-runtime:jar:2.3.1:compile" -> "com.sun.xml.fastinfoset:FastInfoset:jar:1.2.15:compile" ; 
+	"org.glassfish.jaxb:jaxb-runtime:jar:2.3.1:compile" -> "(javax.activation:javax.activation-api:jar:1.2.0:compile - omitted for duplicate)" ; 
+	"ch.qos.logback:logback-classic:jar:1.5.18:compile" -> "ch.qos.logback:logback-core:jar:1.5.18:compile" ; 
+	"ch.qos.logback:logback-classic:jar:1.5.18:compile" -> "(org.slf4j:slf4j-api:jar:2.0.17:compile - omitted for conflict with 2.0.16)" ; 
+}
+digraph Ch06_XPathInjection {
+	"de.dominikschadow.javawebsecurity:Ch06_XPathInjection:war:1.0.0" -> "javax.servlet:javax.servlet-api:jar:4.0.1:provided" ; 
+	"de.dominikschadow.javawebsecurity:Ch06_XPathInjection:war:1.0.0" -> "org.owasp.esapi:esapi:jar:2.6.2.0:compile" ; 
+	"de.dominikschadow.javawebsecurity:Ch06_XPathInjection:war:1.0.0" -> "ch.qos.logback:logback-classic:jar:1.5.18:compile" ; 
+	"org.owasp.esapi:esapi:jar:2.6.2.0:compile" -> "xom:xom:jar:1.3.9:compile" ; 
+	"org.owasp.esapi:esapi:jar:2.6.2.0:compile" -> "commons-beanutils:commons-beanutils:jar:1.11.0:compile" ; 
+	"org.owasp.esapi:esapi:jar:2.6.2.0:compile" -> "commons-configuration:commons-configuration:jar:1.10:compile" ; 
+	"org.owasp.esapi:esapi:jar:2.6.2.0:compile" -> "commons-lang:commons-lang:jar:2.6:compile" ; 
+	"org.owasp.esapi:esapi:jar:2.6.2.0:compile" -> "commons-fileupload:commons-fileupload:jar:1.5:compile" ; 
+	"org.owasp.esapi:esapi:jar:2.6.2.0:compile" -> "org.apache.commons:commons-collections4:jar:4.5.0-M2:compile" ; 
+	"org.owasp.esapi:esapi:jar:2.6.2.0:compile" -> "org.apache-extras.beanshell:bsh:jar:2.0b6:compile" ; 
+	"org.owasp.esapi:esapi:jar:2.6.2.0:compile" -> "org.slf4j:slf4j-api:jar:2.0.16:compile" ; 
+	"org.owasp.esapi:esapi:jar:2.6.2.0:compile" -> "xml-apis:xml-apis:jar:1.4.01:compile" ; 
+	"commons-beanutils:commons-beanutils:jar:1.11.0:compile" -> "commons-logging:commons-logging:jar:1.3.5:compile" ; 
+	"commons-beanutils:commons-beanutils:jar:1.11.0:compile" -> "commons-collections:commons-collections:jar:3.2.2:compile" ; 
+	"commons-configuration:commons-configuration:jar:1.10:compile" -> "(commons-lang:commons-lang:jar:2.6:compile - omitted for duplicate)" ; 
+	"ch.qos.logback:logback-classic:jar:1.5.18:compile" -> "ch.qos.logback:logback-core:jar:1.5.18:compile" ; 
+	"ch.qos.logback:logback-classic:jar:1.5.18:compile" -> "(org.slf4j:slf4j-api:jar:2.0.17:compile - omitted for conflict with 2.0.16)" ; 
+}
+digraph Ch07_CSP {
+	"de.dominikschadow.javawebsecurity:Ch07_CSP:war:1.0.0" -> "javax.servlet:javax.servlet-api:jar:4.0.1:provided" ; 
+	"de.dominikschadow.javawebsecurity:Ch07_CSP:war:1.0.0" -> "ch.qos.logback:logback-classic:jar:1.5.18:compile" ; 
+	"ch.qos.logback:logback-classic:jar:1.5.18:compile" -> "ch.qos.logback:logback-core:jar:1.5.18:compile" ; 
+	"ch.qos.logback:logback-classic:jar:1.5.18:compile" -> "org.slf4j:slf4j-api:jar:2.0.17:compile" ; 
+}
+digraph Ch07_XSS {
+	"de.dominikschadow.javawebsecurity:Ch07_XSS:war:1.0.0" -> "com.sun.faces:jsf-api:jar:2.2.20:compile" ; 
+	"de.dominikschadow.javawebsecurity:Ch07_XSS:war:1.0.0" -> "com.sun.faces:jsf-impl:jar:2.2.20:compile" ; 
+	"de.dominikschadow.javawebsecurity:Ch07_XSS:war:1.0.0" -> "org.hibernate:hibernate-core:jar:5.6.15.Final:compile" ; 
+	"de.dominikschadow.javawebsecurity:Ch07_XSS:war:1.0.0" -> "com.h2database:h2:jar:2.3.232:runtime" ; 
+	"de.dominikschadow.javawebsecurity:Ch07_XSS:war:1.0.0" -> "ch.qos.logback:logback-classic:jar:1.5.18:compile" ; 
+	"de.dominikschadow.javawebsecurity:Ch07_XSS:war:1.0.0" -> "org.apache.commons:commons-lang3:jar:3.17.0:compile" ; 
+	"org.hibernate:hibernate-core:jar:5.6.15.Final:compile" -> "org.jboss.logging:jboss-logging:jar:3.4.3.Final:compile" ; 
+	"org.hibernate:hibernate-core:jar:5.6.15.Final:compile" -> "javax.persistence:javax.persistence-api:jar:2.2:compile" ; 
+	"org.hibernate:hibernate-core:jar:5.6.15.Final:compile" -> "net.bytebuddy:byte-buddy:jar:1.12.18:compile" ; 
+	"org.hibernate:hibernate-core:jar:5.6.15.Final:compile" -> "antlr:antlr:jar:2.7.7:compile" ; 
+	"org.hibernate:hibernate-core:jar:5.6.15.Final:compile" -> "org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:jar:1.1.1.Final:compile" ; 
+	"org.hibernate:hibernate-core:jar:5.6.15.Final:compile" -> "org.jboss:jandex:jar:2.4.2.Final:compile" ; 
+	"org.hibernate:hibernate-core:jar:5.6.15.Final:compile" -> "com.fasterxml:classmate:jar:1.5.1:compile" ; 
+	"org.hibernate:hibernate-core:jar:5.6.15.Final:compile" -> "javax.activation:javax.activation-api:jar:1.2.0:compile" ; 
+	"org.hibernate:hibernate-core:jar:5.6.15.Final:compile" -> "org.hibernate.common:hibernate-commons-annotations:jar:5.1.2.Final:compile" ; 
+	"org.hibernate:hibernate-core:jar:5.6.15.Final:compile" -> "javax.xml.bind:jaxb-api:jar:2.3.1:compile" ; 
+	"org.hibernate:hibernate-core:jar:5.6.15.Final:compile" -> "org.glassfish.jaxb:jaxb-runtime:jar:2.3.1:compile" ; 
+	"org.hibernate.common:hibernate-commons-annotations:jar:5.1.2.Final:compile" -> "(org.jboss.logging:jboss-logging:jar:3.3.2.Final:compile - omitted for conflict with 3.4.3.Final)" ; 
+	"javax.xml.bind:jaxb-api:jar:2.3.1:compile" -> "(javax.activation:javax.activation-api:jar:1.2.0:compile - omitted for duplicate)" ; 
+	"org.glassfish.jaxb:jaxb-runtime:jar:2.3.1:compile" -> "(javax.xml.bind:jaxb-api:jar:2.3.1:compile - omitted for duplicate)" ; 
+	"org.glassfish.jaxb:jaxb-runtime:jar:2.3.1:compile" -> "org.glassfish.jaxb:txw2:jar:2.3.1:compile" ; 
+	"org.glassfish.jaxb:jaxb-runtime:jar:2.3.1:compile" -> "com.sun.istack:istack-commons-runtime:jar:3.0.7:compile" ; 
+	"org.glassfish.jaxb:jaxb-runtime:jar:2.3.1:compile" -> "org.jvnet.staxex:stax-ex:jar:1.8:compile" ; 
+	"org.glassfish.jaxb:jaxb-runtime:jar:2.3.1:compile" -> "com.sun.xml.fastinfoset:FastInfoset:jar:1.2.15:compile" ; 
+	"org.glassfish.jaxb:jaxb-runtime:jar:2.3.1:compile" -> "(javax.activation:javax.activation-api:jar:1.2.0:compile - omitted for duplicate)" ; 
+	"ch.qos.logback:logback-classic:jar:1.5.18:compile" -> "ch.qos.logback:logback-core:jar:1.5.18:compile" ; 
+	"ch.qos.logback:logback-classic:jar:1.5.18:compile" -> "org.slf4j:slf4j-api:jar:2.0.17:compile" ; 
+}
+digraph Ch07_XSSFilter {
+	"de.dominikschadow.javawebsecurity:Ch07_XSSFilter:war:1.0.0" -> "org.owasp.esapi:esapi:jar:2.6.2.0:compile" ; 
+	"de.dominikschadow.javawebsecurity:Ch07_XSSFilter:war:1.0.0" -> "javax.servlet:javax.servlet-api:jar:4.0.1:provided" ; 
+	"de.dominikschadow.javawebsecurity:Ch07_XSSFilter:war:1.0.0" -> "javax.servlet.jsp:javax.servlet.jsp-api:jar:2.3.3:provided" ; 
+	"de.dominikschadow.javawebsecurity:Ch07_XSSFilter:war:1.0.0" -> "javax.servlet:jstl:jar:1.2:compile" ; 
+	"org.owasp.esapi:esapi:jar:2.6.2.0:compile" -> "xom:xom:jar:1.3.9:compile" ; 
+	"org.owasp.esapi:esapi:jar:2.6.2.0:compile" -> "commons-beanutils:commons-beanutils:jar:1.11.0:compile" ; 
+	"org.owasp.esapi:esapi:jar:2.6.2.0:compile" -> "commons-configuration:commons-configuration:jar:1.10:compile" ; 
+	"org.owasp.esapi:esapi:jar:2.6.2.0:compile" -> "commons-lang:commons-lang:jar:2.6:compile" ; 
+	"org.owasp.esapi:esapi:jar:2.6.2.0:compile" -> "commons-fileupload:commons-fileupload:jar:1.5:compile" ; 
+	"org.owasp.esapi:esapi:jar:2.6.2.0:compile" -> "org.apache.commons:commons-collections4:jar:4.5.0-M2:compile" ; 
+	"org.owasp.esapi:esapi:jar:2.6.2.0:compile" -> "org.apache-extras.beanshell:bsh:jar:2.0b6:compile" ; 
+	"org.owasp.esapi:esapi:jar:2.6.2.0:compile" -> "org.slf4j:slf4j-api:jar:2.0.16:compile" ; 
+	"org.owasp.esapi:esapi:jar:2.6.2.0:compile" -> "xml-apis:xml-apis:jar:1.4.01:compile" ; 
+	"commons-beanutils:commons-beanutils:jar:1.11.0:compile" -> "commons-logging:commons-logging:jar:1.3.5:compile" ; 
+	"commons-beanutils:commons-beanutils:jar:1.11.0:compile" -> "commons-collections:commons-collections:jar:3.2.2:compile" ; 
+	"commons-configuration:commons-configuration:jar:1.10:compile" -> "(commons-lang:commons-lang:jar:2.6:compile - omitted for duplicate)" ; 
+}
+digraph Ch07_XSSJSF {
+	"de.dominikschadow.javawebsecurity:Ch07_XSSJSF:war:1.0.0" -> "com.sun.faces:jsf-api:jar:2.2.20:compile" ; 
+	"de.dominikschadow.javawebsecurity:Ch07_XSSJSF:war:1.0.0" -> "com.sun.faces:jsf-impl:jar:2.2.20:compile" ; 
+}
+digraph Ch08_CSRF {
+	"de.dominikschadow.javawebsecurity:Ch08_CSRF:war:1.0.0" -> "javax.servlet:javax.servlet-api:jar:4.0.1:provided" ; 
+	"de.dominikschadow.javawebsecurity:Ch08_CSRF:war:1.0.0" -> "org.owasp.esapi:esapi:jar:2.6.2.0:compile" ; 
+	"de.dominikschadow.javawebsecurity:Ch08_CSRF:war:1.0.0" -> "ch.qos.logback:logback-classic:jar:1.5.18:compile" ; 
+	"org.owasp.esapi:esapi:jar:2.6.2.0:compile" -> "xom:xom:jar:1.3.9:compile" ; 
+	"org.owasp.esapi:esapi:jar:2.6.2.0:compile" -> "commons-beanutils:commons-beanutils:jar:1.11.0:compile" ; 
+	"org.owasp.esapi:esapi:jar:2.6.2.0:compile" -> "commons-configuration:commons-configuration:jar:1.10:compile" ; 
+	"org.owasp.esapi:esapi:jar:2.6.2.0:compile" -> "commons-lang:commons-lang:jar:2.6:compile" ; 
+	"org.owasp.esapi:esapi:jar:2.6.2.0:compile" -> "commons-fileupload:commons-fileupload:jar:1.5:compile" ; 
+	"org.owasp.esapi:esapi:jar:2.6.2.0:compile" -> "org.apache.commons:commons-collections4:jar:4.5.0-M2:compile" ; 
+	"org.owasp.esapi:esapi:jar:2.6.2.0:compile" -> "org.apache-extras.beanshell:bsh:jar:2.0b6:compile" ; 
+	"org.owasp.esapi:esapi:jar:2.6.2.0:compile" -> "org.slf4j:slf4j-api:jar:2.0.16:compile" ; 
+	"org.owasp.esapi:esapi:jar:2.6.2.0:compile" -> "xml-apis:xml-apis:jar:1.4.01:compile" ; 
+	"commons-beanutils:commons-beanutils:jar:1.11.0:compile" -> "commons-logging:commons-logging:jar:1.3.5:compile" ; 
+	"commons-beanutils:commons-beanutils:jar:1.11.0:compile" -> "commons-collections:commons-collections:jar:3.2.2:compile" ; 
+	"commons-configuration:commons-configuration:jar:1.10:compile" -> "(commons-lang:commons-lang:jar:2.6:compile - omitted for duplicate)" ; 
+	"ch.qos.logback:logback-classic:jar:1.5.18:compile" -> "ch.qos.logback:logback-core:jar:1.5.18:compile" ; 
+	"ch.qos.logback:logback-classic:jar:1.5.18:compile" -> "(org.slf4j:slf4j-api:jar:2.0.17:compile - omitted for conflict with 2.0.16)" ; 
+}

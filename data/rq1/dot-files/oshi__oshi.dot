@@ -1,0 +1,41 @@
+digraph oshi-core {
+	"com.github.oshi:oshi-core:jar:6.8.3-SNAPSHOT" -> "net.java.dev.jna:jna:jar:5.17.0:compile" ; 
+	"com.github.oshi:oshi-core:jar:6.8.3-SNAPSHOT" -> "net.java.dev.jna:jna-platform:jar:5.17.0:compile" ; 
+	"com.github.oshi:oshi-core:jar:6.8.3-SNAPSHOT" -> "org.slf4j:slf4j-api:jar:2.0.17:compile" ; 
+	"com.github.oshi:oshi-core:jar:6.8.3-SNAPSHOT" -> "io.github.pandalxb:jLibreHardwareMonitor:jar:1.0.5:compile" ; 
+	"com.github.oshi:oshi-core:jar:6.8.3-SNAPSHOT" -> "org.slf4j:slf4j-simple:jar:2.0.17:test" ; 
+	"com.github.oshi:oshi-core:jar:6.8.3-SNAPSHOT" -> "org.junit.jupiter:junit-jupiter-api:jar:5.13.1:test" ; 
+	"com.github.oshi:oshi-core:jar:6.8.3-SNAPSHOT" -> "org.hamcrest:hamcrest:jar:3.0:test" ; 
+	"net.java.dev.jna:jna-platform:jar:5.17.0:compile" -> "(net.java.dev.jna:jna:jar:5.17.0:compile - version managed from 5.17.0; omitted for duplicate)" ; 
+	"io.github.pandalxb:jLibreHardwareMonitor:jar:1.0.5:compile" -> "io.github.pandalxb:jPowerShell:jar:1.0.0:compile" ; 
+	"org.slf4j:slf4j-simple:jar:2.0.17:test" -> "(org.slf4j:slf4j-api:jar:2.0.17:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.13.1:test" -> "org.opentest4j:opentest4j:jar:1.3.0:test" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.13.1:test" -> "org.junit.platform:junit-platform-commons:jar:1.13.1:test" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.13.1:test" -> "org.apiguardian:apiguardian-api:jar:1.1.2:test" ; 
+	"org.junit.platform:junit-platform-commons:jar:1.13.1:test" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:test - omitted for duplicate)" ; 
+}
+digraph oshi-core-java11 {
+	"com.github.oshi:oshi-core-java11:jar:6.8.3-SNAPSHOT" -> "net.java.dev.jna:jna-jpms:jar:5.17.0:compile" ; 
+	"com.github.oshi:oshi-core-java11:jar:6.8.3-SNAPSHOT" -> "net.java.dev.jna:jna-platform-jpms:jar:5.17.0:compile" ; 
+	"com.github.oshi:oshi-core-java11:jar:6.8.3-SNAPSHOT" -> "org.slf4j:slf4j-api:jar:2.0.17:compile" ; 
+	"com.github.oshi:oshi-core-java11:jar:6.8.3-SNAPSHOT" -> "io.github.pandalxb:jLibreHardwareMonitor:jar:1.0.5:compile" ; 
+	"com.github.oshi:oshi-core-java11:jar:6.8.3-SNAPSHOT" -> "org.slf4j:slf4j-simple:jar:2.0.17:test" ; 
+	"com.github.oshi:oshi-core-java11:jar:6.8.3-SNAPSHOT" -> "org.junit.jupiter:junit-jupiter-api:jar:5.13.1:test" ; 
+	"com.github.oshi:oshi-core-java11:jar:6.8.3-SNAPSHOT" -> "org.hamcrest:hamcrest:jar:3.0:test" ; 
+	"net.java.dev.jna:jna-platform-jpms:jar:5.17.0:compile" -> "(net.java.dev.jna:jna-jpms:jar:5.17.0:compile - version managed from 5.17.0; omitted for duplicate)" ; 
+	"io.github.pandalxb:jLibreHardwareMonitor:jar:1.0.5:compile" -> "io.github.pandalxb:jPowerShell:jar:1.0.0:compile" ; 
+	"org.slf4j:slf4j-simple:jar:2.0.17:test" -> "(org.slf4j:slf4j-api:jar:2.0.17:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.13.1:test" -> "org.opentest4j:opentest4j:jar:1.3.0:test" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.13.1:test" -> "org.junit.platform:junit-platform-commons:jar:1.13.1:test" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.13.1:test" -> "org.apiguardian:apiguardian-api:jar:1.1.2:test" ; 
+	"org.junit.platform:junit-platform-commons:jar:1.13.1:test" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:test - omitted for duplicate)" ; 
+}
+digraph oshi-demo {
+	"com.github.oshi:oshi-demo:jar:6.8.3-SNAPSHOT" -> "com.github.oshi:oshi-core:jar:6.8.3-SNAPSHOT:compile" ; 
+	"com.github.oshi:oshi-demo:jar:6.8.3-SNAPSHOT" -> "com.fasterxml.jackson.core:jackson-databind:jar:2.19.0:compile" ; 
+	"com.github.oshi:oshi-demo:jar:6.8.3-SNAPSHOT" -> "org.slf4j:slf4j-simple:jar:2.0.17:compile" ; 
+	"com.github.oshi:oshi-demo:jar:6.8.3-SNAPSHOT" -> "org.jfree:jfreechart:jar:1.5.6:compile" ; 
+	"com.fasterxml.jackson.core:jackson-databind:jar:2.19.0:compile" -> "com.fasterxml.jackson.core:jackson-annotations:jar:2.19.0:compile" ; 
+	"com.fasterxml.jackson.core:jackson-databind:jar:2.19.0:compile" -> "com.fasterxml.jackson.core:jackson-core:jar:2.19.0:compile" ; 
+	"org.slf4j:slf4j-simple:jar:2.0.17:compile" -> "org.slf4j:slf4j-api:jar:2.0.17:compile" ; 
+}

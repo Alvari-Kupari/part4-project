@@ -1,0 +1,19 @@
+digraph ctongfei__progressbar {
+	"me.tongfei:progressbar:jar:0.10.1" -> "org.jline:jline-terminal:jar:3.26.2:compile" ; 
+	"me.tongfei:progressbar:jar:0.10.1" -> "org.junit.jupiter:junit-jupiter-api:jar:5.9.2:test" ; 
+	"me.tongfei:progressbar:jar:0.10.1" -> "org.junit.jupiter:junit-jupiter-engine:jar:5.9.2:test" ; 
+	"me.tongfei:progressbar:jar:0.10.1" -> "org.slf4j:slf4j-api:jar:2.0.5:test" ; 
+	"me.tongfei:progressbar:jar:0.10.1" -> "org.slf4j:slf4j-simple:jar:2.0.5:test" ; 
+	"org.jline:jline-terminal:jar:3.26.2:compile" -> "org.jline:jline-native:jar:3.26.2:compile" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.9.2:test" -> "org.opentest4j:opentest4j:jar:1.2.0:test" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.9.2:test" -> "org.junit.platform:junit-platform-commons:jar:1.9.2:test" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.9.2:test" -> "org.apiguardian:apiguardian-api:jar:1.1.2:test" ; 
+	"org.junit.platform:junit-platform-commons:jar:1.9.2:test" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.9.2:test" -> "org.junit.platform:junit-platform-engine:jar:1.9.2:test" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.9.2:test" -> "(org.junit.jupiter:junit-jupiter-api:jar:5.9.2:test - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.9.2:test" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:test - omitted for duplicate)" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.9.2:test" -> "(org.opentest4j:opentest4j:jar:1.2.0:test - omitted for duplicate)" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.9.2:test" -> "(org.junit.platform:junit-platform-commons:jar:1.9.2:test - omitted for duplicate)" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.9.2:test" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:test - omitted for duplicate)" ; 
+	"org.slf4j:slf4j-simple:jar:2.0.5:test" -> "(org.slf4j:slf4j-api:jar:2.0.5:test - omitted for duplicate)" ; 
+}

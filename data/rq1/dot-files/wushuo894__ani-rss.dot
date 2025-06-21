@@ -1,0 +1,15 @@
+digraph wushuo894__ani-rss {
+	"ani.rss:ani-rss:jar:1.2.82" -> "org.eclipse:bittorrent:jar:0.3.0-v20070627-1030:compile" ; 
+	"ani.rss:ani-rss:jar:1.2.82" -> "org.xerial:sqlite-jdbc:jar:3.47.1.0:compile" ; 
+	"ani.rss:ani-rss:jar:1.2.82" -> "com.sun.mail:javax.mail:jar:1.6.2:compile" ; 
+	"ani.rss:ani-rss:jar:1.2.82" -> "ch.qos.logback:logback-classic:jar:1.5.13:compile" ; 
+	"ani.rss:ani-rss:jar:1.2.82" -> "io.github.biezhi:TinyPinyin:jar:2.0.3.RELEASE:compile" ; 
+	"ani.rss:ani-rss:jar:1.2.82" -> "org.projectlombok:lombok:jar:1.18.30:provided" ; 
+	"ani.rss:ani-rss:jar:1.2.82" -> "com.google.code.gson:gson:jar:2.10.1:compile" ; 
+	"ani.rss:ani-rss:jar:1.2.82" -> "cn.hutool:hutool-all:jar:5.8.38:compile" ; 
+	"ani.rss:ani-rss:jar:1.2.82" -> "org.jsoup:jsoup:jar:1.15.4:compile" ; 
+	"com.sun.mail:javax.mail:jar:1.6.2:compile" -> "javax.activation:activation:jar:1.1:compile" ; 
+	"ch.qos.logback:logback-classic:jar:1.5.13:compile" -> "ch.qos.logback:logback-core:jar:1.5.13:compile" ; 
+	"ch.qos.logback:logback-classic:jar:1.5.13:compile" -> "org.slf4j:slf4j-api:jar:2.0.15:compile" ; 
+	"io.github.biezhi:TinyPinyin:jar:2.0.3.RELEASE:compile" -> "org.ahocorasick:ahocorasick:jar:0.4.0:compile" ; 
+}

@@ -1,0 +1,10 @@
+digraph brunomnsilva__JavaFXSmartGraph {
+	"com.brunomnsilva:smartgraph:jar:2.3.0" -> "org.openjfx:javafx-base:jar:21.0.1:compile" ; 
+	"com.brunomnsilva:smartgraph:jar:2.3.0" -> "org.openjfx:javafx-graphics:jar:21.0.1:compile" ; 
+	"com.brunomnsilva:smartgraph:jar:2.3.0" -> "org.openjfx:javafx-controls:jar:21.0.1:compile" ; 
+	"org.openjfx:javafx-base:jar:21.0.1:compile" -> "org.openjfx:javafx-base:jar:win:21.0.1:compile" ; 
+	"org.openjfx:javafx-graphics:jar:21.0.1:compile" -> "org.openjfx:javafx-graphics:jar:win:21.0.1:compile" ; 
+	"org.openjfx:javafx-graphics:jar:21.0.1:compile" -> "(org.openjfx:javafx-base:jar:21.0.1:compile - omitted for duplicate)" ; 
+	"org.openjfx:javafx-controls:jar:21.0.1:compile" -> "org.openjfx:javafx-controls:jar:win:21.0.1:compile" ; 
+	"org.openjfx:javafx-controls:jar:21.0.1:compile" -> "(org.openjfx:javafx-graphics:jar:21.0.1:compile - omitted for duplicate)" ; 
+}

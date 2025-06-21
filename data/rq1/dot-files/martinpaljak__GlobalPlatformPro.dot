@@ -1,0 +1,70 @@
+digraph library {
+	"com.github.martinpaljak:globalplatformpro:jar:24.10.16-SNAPSHOT" -> "com.github.martinpaljak:apdu4j-core:jar:24.09.26.2:compile" ; 
+	"com.github.martinpaljak:globalplatformpro:jar:24.10.16-SNAPSHOT" -> "com.github.martinpaljak:capfile:jar:24.07.30:compile" ; 
+	"com.github.martinpaljak:globalplatformpro:jar:24.10.16-SNAPSHOT" -> "org.slf4j:slf4j-api:jar:2.0.16:compile" ; 
+	"com.github.martinpaljak:globalplatformpro:jar:24.10.16-SNAPSHOT" -> "org.bouncycastle:bcpkix-jdk18on:jar:1.78.1:compile" ; 
+	"com.github.martinpaljak:globalplatformpro:jar:24.10.16-SNAPSHOT" -> "com.payneteasy:ber-tlv:jar:1.0-11:compile" ; 
+	"com.github.martinpaljak:globalplatformpro:jar:24.10.16-SNAPSHOT" -> "org.testng:testng:jar:7.10.2:test" ; 
+	"com.github.martinpaljak:globalplatformpro:jar:24.10.16-SNAPSHOT" -> "org.slf4j:slf4j-simple:jar:2.0.16:test" ; 
+	"com.github.martinpaljak:apdu4j-core:jar:24.09.26.2:compile" -> "(org.slf4j:slf4j-api:jar:2.0.16:compile - version managed from 2.0.16; omitted for duplicate)" ; 
+	"org.bouncycastle:bcpkix-jdk18on:jar:1.78.1:compile" -> "org.bouncycastle:bcprov-jdk18on:jar:1.78.1:compile (version managed from 1.78.1)" ; 
+	"org.bouncycastle:bcpkix-jdk18on:jar:1.78.1:compile" -> "org.bouncycastle:bcutil-jdk18on:jar:1.78.1:compile" ; 
+	"org.bouncycastle:bcutil-jdk18on:jar:1.78.1:compile" -> "(org.bouncycastle:bcprov-jdk18on:jar:1.78.1:compile - version managed from 1.78.1; omitted for duplicate)" ; 
+	"org.testng:testng:jar:7.10.2:test" -> "(org.slf4j:slf4j-api:jar:2.0.16:test - version managed from 1.7.36; omitted for duplicate)" ; 
+	"org.testng:testng:jar:7.10.2:test" -> "com.beust:jcommander:jar:1.82:test" ; 
+	"org.testng:testng:jar:7.10.2:test" -> "org.webjars:jquery:jar:3.7.1:test" ; 
+	"org.slf4j:slf4j-simple:jar:2.0.16:test" -> "(org.slf4j:slf4j-api:jar:2.0.16:test - version managed from 2.0.16; omitted for duplicate)" ; 
+}
+digraph pace {
+	"com.github.martinpaljak:pace:jar:24.10.16-SNAPSHOT" -> "com.github.martinpaljak:apdu4j-core:jar:24.09.26.2:compile" ; 
+	"com.github.martinpaljak:pace:jar:24.10.16-SNAPSHOT" -> "org.slf4j:slf4j-api:jar:2.0.16:compile" ; 
+	"com.github.martinpaljak:pace:jar:24.10.16-SNAPSHOT" -> "org.bouncycastle:bcpkix-jdk18on:jar:1.78.1:compile" ; 
+	"com.github.martinpaljak:pace:jar:24.10.16-SNAPSHOT" -> "com.payneteasy:ber-tlv:jar:1.0-11:compile" ; 
+	"com.github.martinpaljak:pace:jar:24.10.16-SNAPSHOT" -> "org.testng:testng:jar:7.10.2:test" ; 
+	"com.github.martinpaljak:pace:jar:24.10.16-SNAPSHOT" -> "org.slf4j:slf4j-simple:jar:2.0.16:test" ; 
+	"com.github.martinpaljak:apdu4j-core:jar:24.09.26.2:compile" -> "(org.slf4j:slf4j-api:jar:2.0.16:compile - version managed from 2.0.16; omitted for duplicate)" ; 
+	"org.bouncycastle:bcpkix-jdk18on:jar:1.78.1:compile" -> "org.bouncycastle:bcprov-jdk18on:jar:1.78.1:compile (version managed from 1.78.1)" ; 
+	"org.bouncycastle:bcpkix-jdk18on:jar:1.78.1:compile" -> "org.bouncycastle:bcutil-jdk18on:jar:1.78.1:compile" ; 
+	"org.bouncycastle:bcutil-jdk18on:jar:1.78.1:compile" -> "(org.bouncycastle:bcprov-jdk18on:jar:1.78.1:compile - version managed from 1.78.1; omitted for duplicate)" ; 
+	"org.testng:testng:jar:7.10.2:test" -> "(org.slf4j:slf4j-api:jar:2.0.16:test - version managed from 1.7.36; omitted for duplicate)" ; 
+	"org.testng:testng:jar:7.10.2:test" -> "com.beust:jcommander:jar:1.82:test" ; 
+	"org.testng:testng:jar:7.10.2:test" -> "org.webjars:jquery:jar:3.7.1:test" ; 
+	"org.slf4j:slf4j-simple:jar:2.0.16:test" -> "(org.slf4j:slf4j-api:jar:2.0.16:test - version managed from 2.0.16; omitted for duplicate)" ; 
+}
+digraph tool {
+	"com.github.martinpaljak:gptool:jar:24.10.16-SNAPSHOT" -> "com.github.martinpaljak:apdu4j-pcsc:jar:24.09.26.2:compile" ; 
+	"com.github.martinpaljak:gptool:jar:24.10.16-SNAPSHOT" -> "com.github.martinpaljak:globalplatformpro:jar:24.10.16-SNAPSHOT:compile" ; 
+	"com.github.martinpaljak:gptool:jar:24.10.16-SNAPSHOT" -> "com.github.martinpaljak:pace:jar:24.10.16-SNAPSHOT:compile" ; 
+	"com.github.martinpaljak:gptool:jar:24.10.16-SNAPSHOT" -> "org.slf4j:slf4j-simple:jar:2.0.16:compile" ; 
+	"com.github.martinpaljak:gptool:jar:24.10.16-SNAPSHOT" -> "net.sf.jopt-simple:jopt-simple:jar:5.0.4:compile" ; 
+	"com.github.martinpaljak:gptool:jar:24.10.16-SNAPSHOT" -> "com.google.auto.service:auto-service-annotations:jar:1.1.1:compile" ; 
+	"com.github.martinpaljak:gptool:jar:24.10.16-SNAPSHOT" -> "org.testng:testng:jar:7.10.2:test" ; 
+	"com.github.martinpaljak:gptool:jar:24.10.16-SNAPSHOT" -> "com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:jar:2.17.2:compile" ; 
+	"com.github.martinpaljak:apdu4j-pcsc:jar:24.09.26.2:compile" -> "com.github.martinpaljak:apdu4j-core:jar:24.09.26.2:compile (version managed from 24.09.26.2)" ; 
+	"com.github.martinpaljak:apdu4j-pcsc:jar:24.09.26.2:compile" -> "com.github.martinpaljak:apdu4j-jnasmartcardio:jar:24.09.26:compile" ; 
+	"com.github.martinpaljak:apdu4j-pcsc:jar:24.09.26.2:compile" -> "org.yaml:snakeyaml:jar:2.3:compile" ; 
+	"com.github.martinpaljak:apdu4j-pcsc:jar:24.09.26.2:compile" -> "(com.google.auto.service:auto-service-annotations:jar:1.1.1:compile - omitted for duplicate)" ; 
+	"com.github.martinpaljak:apdu4j-pcsc:jar:24.09.26.2:compile" -> "org.slf4j:slf4j-api:jar:2.0.16:compile (version managed from 2.0.16)" ; 
+	"com.github.martinpaljak:apdu4j-core:jar:24.09.26.2:compile (version managed from 24.09.26.2)" -> "(org.slf4j:slf4j-api:jar:2.0.16:compile - version managed from 2.0.16; omitted for duplicate)" ; 
+	"com.github.martinpaljak:apdu4j-jnasmartcardio:jar:24.09.26:compile" -> "net.java.dev.jna:jna-jpms:jar:5.15.0:compile" ; 
+	"com.github.martinpaljak:globalplatformpro:jar:24.10.16-SNAPSHOT:compile" -> "(com.github.martinpaljak:apdu4j-core:jar:24.09.26.2:compile - version managed from 25.03.11; omitted for duplicate)" ; 
+	"com.github.martinpaljak:globalplatformpro:jar:24.10.16-SNAPSHOT:compile" -> "com.github.martinpaljak:capfile:jar:24.11.19:compile" ; 
+	"com.github.martinpaljak:globalplatformpro:jar:24.10.16-SNAPSHOT:compile" -> "(org.slf4j:slf4j-api:jar:2.0.16:compile - version managed from 2.0.17; omitted for duplicate)" ; 
+	"com.github.martinpaljak:globalplatformpro:jar:24.10.16-SNAPSHOT:compile" -> "org.bouncycastle:bcpkix-jdk18on:jar:1.78.1:compile (version managed from 1.80)" ; 
+	"com.github.martinpaljak:globalplatformpro:jar:24.10.16-SNAPSHOT:compile" -> "com.payneteasy:ber-tlv:jar:1.0-11:compile (version managed from 1.0-11)" ; 
+	"org.bouncycastle:bcpkix-jdk18on:jar:1.78.1:compile (version managed from 1.80)" -> "org.bouncycastle:bcprov-jdk18on:jar:1.78.1:compile (version managed from 1.78.1)" ; 
+	"org.bouncycastle:bcpkix-jdk18on:jar:1.78.1:compile (version managed from 1.80)" -> "org.bouncycastle:bcutil-jdk18on:jar:1.78.1:compile" ; 
+	"org.bouncycastle:bcutil-jdk18on:jar:1.78.1:compile" -> "(org.bouncycastle:bcprov-jdk18on:jar:1.78.1:compile - version managed from 1.78.1; omitted for duplicate)" ; 
+	"com.github.martinpaljak:pace:jar:24.10.16-SNAPSHOT:compile" -> "(com.github.martinpaljak:apdu4j-core:jar:24.09.26.2:compile - version managed from 25.03.11; omitted for duplicate)" ; 
+	"com.github.martinpaljak:pace:jar:24.10.16-SNAPSHOT:compile" -> "(org.slf4j:slf4j-api:jar:2.0.16:compile - version managed from 2.0.17; omitted for duplicate)" ; 
+	"com.github.martinpaljak:pace:jar:24.10.16-SNAPSHOT:compile" -> "(org.bouncycastle:bcpkix-jdk18on:jar:1.78.1:compile - version managed from 1.80; omitted for duplicate)" ; 
+	"com.github.martinpaljak:pace:jar:24.10.16-SNAPSHOT:compile" -> "(com.payneteasy:ber-tlv:jar:1.0-11:compile - version managed from 1.0-11; omitted for duplicate)" ; 
+	"org.slf4j:slf4j-simple:jar:2.0.16:compile" -> "(org.slf4j:slf4j-api:jar:2.0.16:compile - version managed from 2.0.16; omitted for duplicate)" ; 
+	"org.testng:testng:jar:7.10.2:test" -> "(org.slf4j:slf4j-api:jar:2.0.16:test - version managed from 1.7.36; omitted for duplicate)" ; 
+	"org.testng:testng:jar:7.10.2:test" -> "com.beust:jcommander:jar:1.82:test" ; 
+	"org.testng:testng:jar:7.10.2:test" -> "org.webjars:jquery:jar:3.7.1:test" ; 
+	"com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:jar:2.17.2:compile" -> "com.fasterxml.jackson.core:jackson-databind:jar:2.17.2:compile" ; 
+	"com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:jar:2.17.2:compile" -> "com.fasterxml.jackson.core:jackson-core:jar:2.17.2:compile" ; 
+	"com.fasterxml.jackson.core:jackson-databind:jar:2.17.2:compile" -> "com.fasterxml.jackson.core:jackson-annotations:jar:2.17.2:compile" ; 
+	"com.fasterxml.jackson.core:jackson-databind:jar:2.17.2:compile" -> "(com.fasterxml.jackson.core:jackson-core:jar:2.17.2:compile - omitted for duplicate)" ; 
+}

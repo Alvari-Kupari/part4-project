@@ -1,0 +1,11 @@
+digraph jcefmaven {
+	"me.friwi:jcefmaven:jar:108.4.13" -> "me.friwi:jcef-api:jar:jcef-c1f0745+cef-108.4.13+ga98cd4c+chromium-108.0.5359.125:compile" ; 
+	"me.friwi:jcefmaven:jar:108.4.13" -> "org.apache.commons:commons-compress:jar:1.27.1:compile" ; 
+	"me.friwi:jcefmaven:jar:108.4.13" -> "com.google.code.gson:gson:jar:2.11.0:compile" ; 
+	"me.friwi:jcef-api:jar:jcef-c1f0745+cef-108.4.13+ga98cd4c+chromium-108.0.5359.125:compile" -> "me.friwi:jogl-all:jar:v2.4.0-rc-20210111:compile" ; 
+	"me.friwi:jcef-api:jar:jcef-c1f0745+cef-108.4.13+ga98cd4c+chromium-108.0.5359.125:compile" -> "me.friwi:gluegen-rt:jar:v2.4.0-rc-20210111:compile" ; 
+	"org.apache.commons:commons-compress:jar:1.27.1:compile" -> "commons-codec:commons-codec:jar:1.17.1:compile" ; 
+	"org.apache.commons:commons-compress:jar:1.27.1:compile" -> "commons-io:commons-io:jar:2.16.1:compile" ; 
+	"org.apache.commons:commons-compress:jar:1.27.1:compile" -> "org.apache.commons:commons-lang3:jar:3.16.0:compile" ; 
+	"com.google.code.gson:gson:jar:2.11.0:compile" -> "com.google.errorprone:error_prone_annotations:jar:2.27.0:compile" ; 
+}

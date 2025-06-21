@@ -1,0 +1,18 @@
+digraph git-moss__DrivenByMoss {
+	"de.mossgrabers:DrivenByMoss:jar:25.1.2" -> "com.bitwig:extension-api:jar:21:compile" ; 
+	"de.mossgrabers:DrivenByMoss:jar:25.1.2" -> "net.java.dev.jna:jna:jar:5.17.0:compile" ; 
+	"de.mossgrabers:DrivenByMoss:jar:25.1.2" -> "net.java.dev.jna:jna-platform:jar:5.17.0:compile" ; 
+	"de.mossgrabers:DrivenByMoss:jar:25.1.2" -> "purejavahidapi:purejavahidapi:jar:0.0.23:compile" ; 
+	"de.mossgrabers:DrivenByMoss:jar:25.1.2" -> "de.mossgrabers:nativefilechooser:jar:1.3.3:compile" ; 
+	"de.mossgrabers:DrivenByMoss:jar:25.1.2" -> "com.fasterxml.jackson.core:jackson-databind:jar:2.19.0:compile" ; 
+	"de.mossgrabers:DrivenByMoss:jar:25.1.2" -> "com.badlogicgames.jamepad:jamepad:jar:2.30.0.0:compile" ; 
+	"com.bitwig:extension-api:jar:21:compile" -> "com.google.code.findbugs:jsr305:jar:3.0.2:runtime" ; 
+	"net.java.dev.jna:jna-platform:jar:5.17.0:compile" -> "(net.java.dev.jna:jna:jar:5.17.0:compile - omitted for duplicate)" ; 
+	"purejavahidapi:purejavahidapi:jar:0.0.23:compile" -> "(net.java.dev.jna:jna-platform:jar:5.17.0:compile - omitted for duplicate)" ; 
+	"purejavahidapi:purejavahidapi:jar:0.0.23:compile" -> "(net.java.dev.jna:jna:jar:5.17.0:compile - omitted for duplicate)" ; 
+	"de.mossgrabers:nativefilechooser:jar:1.3.3:compile" -> "(net.java.dev.jna:jna:jar:5.17.0:compile - omitted for duplicate)" ; 
+	"de.mossgrabers:nativefilechooser:jar:1.3.3:compile" -> "(net.java.dev.jna:jna-platform:jar:5.17.0:compile - omitted for duplicate)" ; 
+	"com.fasterxml.jackson.core:jackson-databind:jar:2.19.0:compile" -> "com.fasterxml.jackson.core:jackson-annotations:jar:2.19.0:compile" ; 
+	"com.fasterxml.jackson.core:jackson-databind:jar:2.19.0:compile" -> "com.fasterxml.jackson.core:jackson-core:jar:2.19.0:compile" ; 
+	"com.badlogicgames.jamepad:jamepad:jar:2.30.0.0:compile" -> "com.badlogicgames.gdx:gdx-jnigen-loader:jar:2.2.0:compile" ; 
+}

@@ -1,0 +1,15 @@
+digraph generator {
+	"com.cosium.spring.data:spring-data-jpa-entity-graph-generator:jar:3.5.1-SNAPSHOT" -> "com.google.auto.service:auto-service:jar:1.1.1:compile" ; 
+	"com.cosium.spring.data:spring-data-jpa-entity-graph-generator:jar:3.5.1-SNAPSHOT" -> "jakarta.persistence:jakarta.persistence-api:jar:3.1.0:compile" ; 
+	"com.cosium.spring.data:spring-data-jpa-entity-graph-generator:jar:3.5.1-SNAPSHOT" -> "com.squareup:javapoet:jar:1.13.0:compile" ; 
+	"com.google.auto.service:auto-service:jar:1.1.1:compile" -> "com.google.auto.service:auto-service-annotations:jar:1.1.1:compile" ; 
+	"com.google.auto.service:auto-service:jar:1.1.1:compile" -> "com.google.auto:auto-common:jar:1.2.1:compile" ; 
+	"com.google.auto.service:auto-service:jar:1.1.1:compile" -> "com.google.guava:guava:jar:32.0.1-jre:compile" ; 
+	"com.google.auto:auto-common:jar:1.2.1:compile" -> "(com.google.guava:guava:jar:31.0.1-jre:compile - omitted for conflict with 32.0.1-jre)" ; 
+	"com.google.guava:guava:jar:32.0.1-jre:compile" -> "com.google.guava:failureaccess:jar:1.0.1:compile" ; 
+	"com.google.guava:guava:jar:32.0.1-jre:compile" -> "com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:compile" ; 
+	"com.google.guava:guava:jar:32.0.1-jre:compile" -> "com.google.code.findbugs:jsr305:jar:3.0.2:compile" ; 
+	"com.google.guava:guava:jar:32.0.1-jre:compile" -> "org.checkerframework:checker-qual:jar:3.33.0:compile" ; 
+	"com.google.guava:guava:jar:32.0.1-jre:compile" -> "com.google.errorprone:error_prone_annotations:jar:2.18.0:compile" ; 
+	"com.google.guava:guava:jar:32.0.1-jre:compile" -> "com.google.j2objc:j2objc-annotations:jar:2.8:compile" ; 
+}
