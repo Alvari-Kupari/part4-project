@@ -5,7 +5,7 @@ import time
 import numpy as np
 
 # Load the CSV
-csv_path = "output/dependency_conflict_stats_summary.csv"
+csv_path = r"C:\Users\akup390\Documents\tony-alvari-part4\part4-project\data\rq1\dependency_conflict_stats_summary.csv"
 df = pd.read_csv(csv_path)
 
 # Ensure the column is numeric
