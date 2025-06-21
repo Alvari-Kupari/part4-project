@@ -31,7 +31,7 @@ bin/
 Thumbs.db
 
 # Logs
-*.log
+# *.log
 
 # Temporary
 *.swp
