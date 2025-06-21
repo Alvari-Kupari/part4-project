@@ -3,6 +3,7 @@ package com.example.depanalyzer.analyzer.analysis;
 import com.github.javaparser.JavaParser;
 import com.github.javaparser.ParseResult;
 import com.github.javaparser.ParserConfiguration;
+import com.github.javaparser.ParserConfiguration.LanguageLevel;
 import com.github.javaparser.ast.CompilationUnit;
 import com.github.javaparser.symbolsolver.JavaSymbolSolver;
 import com.github.javaparser.symbolsolver.resolution.typesolvers.CombinedTypeSolver;
@@ -14,7 +15,9 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.List;
+import java.util.Set;
 import java.util.stream.Collectors;
+import org.eclipse.aether.artifact.Artifact;
 
 public class Parser {
   private static final String SRC_MAIN_JAVA = "src/main/java";
@@ -22,10 +25,11 @@ public class Parser {
   private JavaParser parser;
   private Path srcMainJavaPath;
 
-  public Parser(String repoPath, List<File> jarFiles) throws IOException {
+  public Parser(String repoPath, Set<Artifact> artifacts, LanguageLevel javaVersion)
+      throws IOException {
+    System.out.println("LANGAUGE LEVEL " + javaVersion);
     srcMainJavaPath = Path.of(repoPath, SRC_MAIN_JAVA);
-    ParserConfiguration config =
-        new ParserConfiguration().setLanguageLevel(ParserConfiguration.LanguageLevel.JAVA_21);
+    ParserConfiguration config = new ParserConfiguration().setLanguageLevel(javaVersion);
 
     CombinedTypeSolver typeSolver = new CombinedTypeSolver();
     JavaParserTypeSolver javaSolver = new JavaParserTypeSolver(srcMainJavaPath);
@@ -34,7 +38,8 @@ public class Parser {
     typeSolver.add(javaSolver);
     typeSolver.add(reflectionSolver);
 
-    for (File jarFile : jarFiles) {
+    for (Artifact artifact : artifacts) {
+      File jarFile = artifact.getFile();
       JarTypeSolver jarTypeSolver = new JarTypeSolver(jarFile);
       typeSolver.add(jarTypeSolver);
     }
@@ -44,14 +49,6 @@ public class Parser {
     config.setSymbolResolver(symbolSolver);
 
     parser = new JavaParser(config);
-
-    System.out.println("Testing symbol resolution for: java.util.List");
-    System.out.println(typeSolver.tryToSolveType("java.util.List"));
-
-    System.out.println(
-        "Testing symbol resolution for: org.apache.http.impl.client.CloseableHttpClient");
-    System.out.println(
-        typeSolver.tryToSolveType("org.apache.http.impl.client.CloseableHttpClient"));
   }
 
   public List<Path> getJavaFiles() throws IOException {

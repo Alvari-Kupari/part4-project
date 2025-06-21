@@ -1,25 +1,24 @@
 package com.example.depanalyzer.analyzer.dependencycollection;
 
+import java.util.Collection;
 import java.util.HashSet;
-import java.util.List;
 import java.util.Set;
-import org.eclipse.aether.graph.Dependency;
 
-public class DependencyLevel {
-  private Set<Dependency> dependencies;
+public class TreeLevel<T> {
+  private Set<T> dependencies;
 
   private final int level;
 
-  public DependencyLevel(int level) {
+  public TreeLevel(int level) {
     this.level = level;
     this.dependencies = new HashSet<>();
   }
 
-  public void add(Dependency dep) {
+  public void add(T dep) {
     dependencies.add(dep);
   }
 
-  public Set<Dependency> getDependencies() {
+  public Set<T> getDependencies() {
     return dependencies;
   }
 
@@ -27,7 +26,7 @@ public class DependencyLevel {
     return level;
   }
 
-  public void add(List<Dependency> dependencies) {
+  public void add(Collection<T> dependencies) {
     this.dependencies.addAll(dependencies);
   }
 

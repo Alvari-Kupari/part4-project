@@ -1,16 +1,17 @@
-package com.example.depanalyzer.request;
+package com.example.depanalyzer.analyzer.dependencycollection;
 
-import com.example.depanalyzer.analyzer.dependencycollection.DependencyFile;
-import java.util.List;
+import java.util.Set;
 import java.util.stream.Collectors;
 import org.eclipse.aether.RepositorySystem;
 import org.eclipse.aether.RepositorySystemSession;
+import org.eclipse.aether.artifact.Artifact;
 import org.eclipse.aether.collection.CollectRequest;
 import org.eclipse.aether.collection.CollectResult;
 import org.eclipse.aether.collection.DependencyCollectionException;
 import org.eclipse.aether.graph.Dependency;
 import org.eclipse.aether.graph.DependencyNode;
 import org.eclipse.aether.repository.RemoteRepository;
+import org.eclipse.aether.resolution.ArtifactResult;
 import org.eclipse.aether.resolution.DependencyRequest;
 import org.eclipse.aether.resolution.DependencyResolutionException;
 import org.eclipse.aether.resolution.DependencyResult;
@@ -38,7 +39,7 @@ public class Request {
     return collectResult.getRoot();
   }
 
-  public List<DependencyFile> resolve(Dependency dependency) {
+  public Set<Artifact> resolve(Dependency dependency) {
     CollectRequest collectRequest = new CollectRequest();
     collectRequest.setRoot(dependency);
     collectRequest.addRepository(MAVEN_REMOTE_REPOSITORY);
@@ -49,11 +50,11 @@ public class Request {
       result = repoSystem.resolveDependencies(session, dependencyRequest);
     } catch (DependencyResolutionException e) {
       System.out.println("Unable to resolve dependency: " + dependency + ". " + e.getMessage());
-      return List.of();
+      return Set.of();
     }
 
     return result.getArtifactResults().stream()
-        .map(artifact -> new DependencyFile(artifact.getArtifact()))
-        .collect(Collectors.toList());
+        .map(ArtifactResult::getArtifact)
+        .collect(Collectors.toSet());
   }
 }
