@@ -1,0 +1,3 @@
+Number of repositories before filtering: 17696
+Filtered out 348 repositories (1.97%) larger than 500000 KB.
+Number of repositories after filtering: 17348
