@@ -18,8 +18,8 @@ import org.eclipse.aether.resolution.DependencyResult;
 
 public class Request {
   private static final String CENTRAL_REPO_URL = "https://repo.maven.apache.org/maven2";
-  private static final RemoteRepository MAVEN_REMOTE_REPOSITORY =
-      new RemoteRepository.Builder("central", "default", CENTRAL_REPO_URL).build();
+  private static final RemoteRepository MAVEN_REMOTE_REPOSITORY = new RemoteRepository.Builder("central", "default",
+      CENTRAL_REPO_URL).build();
 
   private RepositorySystem repoSystem;
   private RepositorySystemSession session;
