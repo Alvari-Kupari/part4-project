@@ -93,6 +93,12 @@
       <version>1.7.36</version>
     </dependency>
 
+    <dependency>
+	<groupId>com.github.siom79.japicmp</groupId>
+	<artifactId>japicmp</artifactId>
+	<version>0.23.1</version>
+</dependency>
+
 
   </dependencies>
 

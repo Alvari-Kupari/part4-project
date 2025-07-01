@@ -1,5 +1,6 @@
 package com.example.depanalyzer.rq2;
 
+import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -9,37 +10,22 @@ import java.util.stream.Stream;
 
 import com.example.depanalyzer.analyzer.dependencycollection.PomFile;
 
+import japicmp.cmp.JApiCmpArchive;
+import japicmp.cmp.JarArchiveComparator;
+import japicmp.cmp.JarArchiveComparatorOptions;
+import japicmp.model.JApiClass;
+
 public class Script {
 
     public static void main(String[] args) {
         // Example usage
         Script script = new Script();
         System.out.println("PomFile initialized: ");
+
+        JarArchiveComparatorOptions comparatorOptions = new JarArchiveComparatorOptions();
+        JarArchiveComparator jarArchiveComparator = new JarArchiveComparator(comparatorOptions);
+        JApiCmpArchive archive = new JApiCmpArchive(jarFilePath, null);
+        List<JApiClass> jApiClasses = jarArchiveComparator.compare(oldArchives, newArchives);
     }
 
-    public List<Path> getValidProjects(Path repoDir) {
-
-        try (Stream<Path> paths = Files.walk(repoDir.toPath())) {
-            return paths.filter(path -> validate(path)).collect(Collectors.toList());
-        } catch (IOException e) {
-            System.out.println("Failed to navigate repo directories: " + e.getMessage());
-            return null;
-        }
-    }
-
-    private boolean validate(Path moduleDir) {
-        try {
-
-            if (!hasSingleRootPom(moduleDir))
-                return false;
-            if (!hasSingleValidSrcMainJava(moduleDir))
-                return false;
-
-        } catch (Exception e) {
-            e.printStackTrace();
-            return false;
-        }
-
-        return true;
-    }
 }
