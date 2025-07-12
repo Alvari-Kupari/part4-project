@@ -1,7 +1,7 @@
 package com.example.depanalyzer.analyzer.analysis.visitors;
 
-import com.example.depanalyzer.analyzer.report.Usage;
 import com.example.depanalyzer.analyzer.report.UsageReport;
+import com.example.depanalyzer.analyzer.report.UsageType;
 import com.github.javaparser.ast.body.VariableDeclarator;
 import com.github.javaparser.ast.expr.FieldAccessExpr;
 import com.github.javaparser.ast.expr.MethodCallExpr;
@@ -33,10 +33,19 @@ public class ExpressionVisitor extends VoidVisitorAdapter<UsageReport> {
       ResolvedMethodDeclaration method = methodCallExpr.resolve();
       helper.printSolvedSymbol(
           methodCallExpr.getNameAsString(), helper.getFirstLine(methodCallExpr));
-      helper.checkIfTransitive(method, methodCallExpr.getName(), Usage.Type.METHOD_CALL, report);
+      helper.checkIfTransitive(method, methodCallExpr.getName(), UsageType.METHOD_CALL, report);
     } catch (UnsolvedSymbolException e) {
       helper.printUnsolvedSymbol(
           e, methodCallExpr.getNameAsString(), helper.getFirstLine(methodCallExpr), "method call");
+    } catch (UnsupportedOperationException e) {
+      helper.printUnsupportException(
+          e, methodCallExpr.getNameAsString(), helper.getFirstLine(methodCallExpr), "method call");
+    } catch (IllegalStateException e) {
+      helper.printEquivalentTypeFailure(
+          e,
+          methodCallExpr.getNameAsString(),
+          helper.getFirstColumn(methodCallExpr),
+          "method call");
     }
   }
 
@@ -47,7 +56,7 @@ public class ExpressionVisitor extends VoidVisitorAdapter<UsageReport> {
     try {
       ResolvedValueDeclaration value = nameExpr.resolve();
       helper.printSolvedSymbol(nameExpr.getNameAsString(), helper.getFirstLine(nameExpr));
-      helper.checkIfTransitive(value, nameExpr, Usage.Type.NAME_EXPRESSION, report);
+      helper.checkIfTransitive(value, nameExpr, UsageType.NAME_EXPRESSION, report);
     } catch (UnsolvedSymbolException e) {
       helper.printUnsolvedSymbol(
           e, nameExpr.getNameAsString(), helper.getFirstLine(nameExpr), "Name Expr");
@@ -61,10 +70,13 @@ public class ExpressionVisitor extends VoidVisitorAdapter<UsageReport> {
     try {
       ResolvedConstructorDeclaration constructor = creationExpr.resolve();
       helper.printSolvedSymbol(constructor.getClassName(), helper.getFirstLine(creationExpr));
-      helper.checkIfTransitive(constructor, creationExpr, Usage.Type.OBJECT_CREATION, report);
+      helper.checkIfTransitive(constructor, creationExpr, UsageType.OBJECT_CREATION, report);
     } catch (UnsolvedSymbolException e) {
       helper.printUnsolvedSymbol(
           e, creationExpr.getTypeAsString(), helper.getFirstLine(creationExpr), "Object creation");
+    } catch (UnsupportedOperationException e) {
+      helper.printUnsupportException(
+          e, creationExpr.getTypeAsString(), helper.getFirstLine(creationExpr), "method call");
     }
   }
 
@@ -75,13 +87,19 @@ public class ExpressionVisitor extends VoidVisitorAdapter<UsageReport> {
     try {
       ResolvedValueDeclaration value = fieldAccessExpr.resolve();
       helper.printSolvedSymbol(value.getName(), helper.getFirstLine(fieldAccessExpr));
-      helper.checkIfTransitive(value, fieldAccessExpr, Usage.Type.FIELD_ACCESS, report);
+      helper.checkIfTransitive(value, fieldAccessExpr, UsageType.FIELD_ACCESS, report);
     } catch (UnsolvedSymbolException e) {
       helper.printUnsolvedSymbol(
           e,
           fieldAccessExpr.getNameAsString(),
           helper.getFirstLine(fieldAccessExpr),
           "Field access");
+    } catch (UnsupportedOperationException e) {
+      helper.printUnsupportException(
+          e,
+          fieldAccessExpr.getNameAsString(),
+          helper.getFirstLine(fieldAccessExpr),
+          "field access");
     }
   }
 
@@ -101,7 +119,7 @@ public class ExpressionVisitor extends VoidVisitorAdapter<UsageReport> {
 
       helper.printSolvedSymbol(type.getQualifiedName(), helper.getFirstLine(classType));
       ResolvedReferenceTypeDeclaration decl = type.getTypeDeclaration().get();
-      helper.checkIfTransitive(decl, classType, Usage.Type.CLASS_TYPE, report);
+      helper.checkIfTransitive(decl, classType, UsageType.CLASS_TYPE, report);
     } catch (UnsolvedSymbolException e) {
       helper.printUnsolvedSymbol(
           e, classType.getNameAsString(), helper.getFirstLine(classType), "Class type");
@@ -122,7 +140,7 @@ public class ExpressionVisitor extends VoidVisitorAdapter<UsageReport> {
       ResolvedReferenceTypeDeclaration typeDecl =
           resolved.asReferenceType().getTypeDeclaration().get();
       helper.printSolvedSymbol(typeDecl.getQualifiedName(), helper.getFirstLine(var));
-      helper.checkIfTransitive(typeDecl, var, Usage.Type.VARIABLE_DECLARATION, report);
+      helper.checkIfTransitive(typeDecl, var, UsageType.VARIABLE_DECLARATION, report);
     } catch (UnsolvedSymbolException e) {
       helper.printUnsolvedSymbol(
           e, var.getTypeAsString(), helper.getFirstLine(var), "variable type");

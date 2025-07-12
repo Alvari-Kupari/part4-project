@@ -3,6 +3,7 @@ package com.example.depanalyzer.analyzer.analysis.visitors;
 import com.example.depanalyzer.analyzer.analysis.DependencyDatabase;
 import com.example.depanalyzer.analyzer.report.Usage;
 import com.example.depanalyzer.analyzer.report.UsageReport;
+import com.example.depanalyzer.analyzer.report.UsageType;
 import com.github.javaparser.ast.Node;
 import com.github.javaparser.resolution.UnsolvedSymbolException;
 import com.github.javaparser.resolution.declarations.ResolvedDeclaration;
@@ -53,7 +54,7 @@ public class UsageAnalyzer {
   }
 
   public void checkIfTransitive(
-      ResolvedDeclaration resolvedDecl, Node node, Usage.Type type, UsageReport report) {
+      ResolvedDeclaration resolvedDecl, Node node, UsageType type, UsageReport report) {
 
     Optional<String> result = database.checkIfTransitive(resolvedDecl);
 
@@ -68,5 +69,36 @@ public class UsageAnalyzer {
     int endColumn = getLastColumn(node);
 
     report.addUsage(new Usage(lineNumber, file, type, startColumn, endColumn, libName));
+  }
+
+  public void printUnsupportException(
+      UnsupportedOperationException e, String node, int line, String note) {
+
+    // System.out.println(
+    //     "Unsupported operation exception: "
+    //         + e.getMessage()
+    //         + ". Node affected: "
+    //         + node
+    //         + " at file: "
+    //         + file
+    //         + " at line: "
+    //         + line
+    //         + ". "
+    //         + note);
+  }
+
+  public void printEquivalentTypeFailure(
+      IllegalStateException e, String node, int line, String note) {
+    // System.out.println(
+    //     "Illegal state exception: "
+    //         + e.getMessage()
+    //         + ". Node affected: "
+    //         + node
+    //         + " at file: "
+    //         + file
+    //         + " at line: "
+    //         + line
+    //         + ". "
+    //         + note);
   }
 }

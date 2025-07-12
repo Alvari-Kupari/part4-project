@@ -28,6 +28,7 @@ public class DependencyDatabase {
 
       String libraryName = getArtifactString(artifact);
       libraries.computeIfAbsent(libraryName, k -> new HashSet<>());
+      System.out.println(libraryName);
       JarFile jarFile = new JarFile(artifact.getFile());
       jarFile.stream()
           .filter(e -> e.getName().endsWith(".class"))
@@ -38,6 +39,10 @@ public class DependencyDatabase {
               });
       jarFile.close();
     }
+
+    // for (String className : libraries.get("org.apache.maven.artifact.Artifact")) {
+    //   System.out.println("Classname: " + className);
+    // }
   }
 
   public Optional<String> checkIfTransitive(ResolvedDeclaration resolvedDecl) {
@@ -68,13 +73,22 @@ public class DependencyDatabase {
   private Optional<String> checkMatch(String matchToCheck) {
     for (Entry<String, Set<String>> entry : libraries.entrySet()) {
       if (entry.getValue().contains(matchToCheck)) {
+        // System.out.println("MATCH FOUND: " + matchToCheck + ". LIBRARY: " + entry.getKey());
         return Optional.ofNullable(entry.getKey());
       }
     }
+    org.apache.maven.artifact.Artifact art;
+    Artifact a;
     return Optional.empty();
   }
 
+  //  MATCH between org.eclipse.aether.artifact.Artifact and org.apache.maven.artifact.Artifact.
+  // LIBRARY: org.apache.maven.resolver:maven-resolver-api:jar:1.6.3
+
+  // what was added: org/apache/maven/artifact/Artifact.class and
+  // org/eclipse/aether/artifact/Artifact.class
   private String normalizeClassName(String classEntry) {
+    // System.out.println(classEntry);
     String className = classEntry.replace("/", ".").replace(".class", "");
     int dollar = className.indexOf('$'); // Remove inner classes
     if (dollar > 0) {

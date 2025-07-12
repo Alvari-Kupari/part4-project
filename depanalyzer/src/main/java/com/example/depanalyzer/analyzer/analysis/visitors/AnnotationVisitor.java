@@ -1,7 +1,7 @@
 package com.example.depanalyzer.analyzer.analysis.visitors;
 
-import com.example.depanalyzer.analyzer.report.Usage;
 import com.example.depanalyzer.analyzer.report.UsageReport;
+import com.example.depanalyzer.analyzer.report.UsageType;
 import com.github.javaparser.ast.Node;
 import com.github.javaparser.ast.body.*;
 import com.github.javaparser.ast.nodeTypes.NodeWithAnnotations;
@@ -96,7 +96,7 @@ public class AnnotationVisitor extends VoidVisitorAdapter<UsageReport> {
         ResolvedReferenceTypeDeclaration decl = resolved.asReferenceType();
         helper.printSolvedSymbol(
             resolved.getQualifiedName(), helper.getFirstLine((Node) annotation));
-        helper.checkIfTransitive(decl, (Node) annotation, Usage.Type.ANNOTATION, report);
+        helper.checkIfTransitive(decl, (Node) annotation, UsageType.ANNOTATION, report);
       } catch (UnsolvedSymbolException e) {
         helper.printUnsolvedSymbol(
             e, annotation.getNameAsString(), helper.getFirstLine((Node) annotation), "annotation");

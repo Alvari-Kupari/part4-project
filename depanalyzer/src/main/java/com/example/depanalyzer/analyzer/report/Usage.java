@@ -14,13 +14,13 @@ public class Usage {
   private final int columnEnd;
 
   private final File fileLocation;
-  private final Type type;
+  private final UsageType type;
   private final String libraryName;
 
   public Usage(
       int lineLocation,
       File fileLocation,
-      Type type,
+      UsageType type,
       int columnStart,
       int columnEnd,
       String libraryName) {
@@ -49,6 +49,34 @@ public class Usage {
     this.lineText = line;
   }
 
+  public int getLineNumber() {
+    return lineNumber;
+  }
+
+  public String getLineText() {
+    return lineText;
+  }
+
+  public int getColumnStart() {
+    return columnStart;
+  }
+
+  public int getColumnEnd() {
+    return columnEnd;
+  }
+
+  public File getFileLocation() {
+    return fileLocation;
+  }
+
+  public UsageType getType() {
+    return type;
+  }
+
+  public String getLibraryName() {
+    return libraryName;
+  }
+
   @Override
   public String toString() {
     StringBuilder sb = new StringBuilder();
@@ -66,25 +94,5 @@ public class Usage {
     sb.append(String.format("%n   ↳ comes from library: %s", libraryName));
 
     return sb.toString();
-  }
-
-  public enum Type {
-    METHOD_CALL("You called a method here"),
-    NAME_EXPRESSION("You used a variable here"),
-    OBJECT_CREATION("You instantiated an object here"),
-    FIELD_ACCESS("You accessed a field here"),
-    CLASS_TYPE("You referenced a class/interface here"),
-    VARIABLE_DECLARATION("You declared a variable here"),
-    ANNOTATION("You used an annotation here");
-
-    private final String message;
-
-    Type(String message) {
-      this.message = message;
-    }
-
-    public String getMessage() {
-      return message;
-    }
   }
 }

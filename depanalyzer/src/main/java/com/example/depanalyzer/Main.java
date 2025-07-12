@@ -38,6 +38,7 @@ public class Main {
 
     String repoPath = otherPath;
 
+    // for jar running
     for (String arg : args) {
       if (arg.startsWith("--project=")) {
         repoPath = arg.substring("--project=".length());
@@ -93,6 +94,7 @@ public class Main {
       annotationVisitor.visit(result.getResult().get(), report);
     }
 
-    report.print();
+    Path markdown = Path.of("report.md");
+    report.writeToMarkDown(markdown);
   }
 }
