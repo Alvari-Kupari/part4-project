@@ -1,5 +1,4 @@
-package com.example.depanalyzer.rq2;
-
+package com.example;
 
 public class SubmoduleFinder {
   // public List<Path> getValidProjects(File repoDir) {

@@ -1,7 +1,7 @@
-package com.example.depanalyzer.rq2;
+package com.example;
 
 import com.example.depanalyzer.analyzer.analysis.RepositorySystemFactory;
-import com.example.depanalyzer.rq2.dependencyupdate.PomWriter;
+import com.example.dependencyupdate.PomWriter;
 import japicmp.cmp.JApiCmpArchive;
 import japicmp.cmp.JarArchiveComparator;
 import japicmp.cmp.JarArchiveComparatorOptions;

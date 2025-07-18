@@ -1,4 +1,4 @@
-package com.example.depanalyzer.rq2;
+package com.example;
 
 import com.example.depanalyzer.analyzer.dependencycollection.Repositories;
 import java.util.List;

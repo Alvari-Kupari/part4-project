@@ -1,4 +1,4 @@
-package com.example.depanalyzer.rq2.dependencyupdate;
+package com.example.dependencyupdate;
 
 import com.example.depanalyzer.analyzer.dependencycollection.DependencyAdapter;
 import java.io.File;
