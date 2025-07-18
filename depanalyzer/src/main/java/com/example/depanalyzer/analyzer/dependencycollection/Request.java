@@ -10,16 +10,12 @@ import org.eclipse.aether.collection.CollectResult;
 import org.eclipse.aether.collection.DependencyCollectionException;
 import org.eclipse.aether.graph.Dependency;
 import org.eclipse.aether.graph.DependencyNode;
-import org.eclipse.aether.repository.RemoteRepository;
 import org.eclipse.aether.resolution.ArtifactResult;
 import org.eclipse.aether.resolution.DependencyRequest;
 import org.eclipse.aether.resolution.DependencyResolutionException;
 import org.eclipse.aether.resolution.DependencyResult;
 
 public class Request {
-  private static final String CENTRAL_REPO_URL = "https://repo.maven.apache.org/maven2";
-  private static final RemoteRepository MAVEN_REMOTE_REPOSITORY =
-      new RemoteRepository.Builder("central", "default", CENTRAL_REPO_URL).build();
 
   private RepositorySystem repoSystem;
   private RepositorySystemSession session;
@@ -33,7 +29,7 @@ public class Request {
   public DependencyNode execute(Dependency rootDependency) throws DependencyCollectionException {
     CollectRequest collectRequest = new CollectRequest();
     collectRequest.setRoot(rootDependency);
-    collectRequest.addRepository(MAVEN_REMOTE_REPOSITORY);
+    collectRequest.setRepositories(Repositories.repositories);
 
     CollectResult collectResult = repoSystem.collectDependencies(session, collectRequest);
     return collectResult.getRoot();
@@ -42,7 +38,7 @@ public class Request {
   public Set<Artifact> resolve(Dependency dependency) {
     CollectRequest collectRequest = new CollectRequest();
     collectRequest.setRoot(dependency);
-    collectRequest.addRepository(MAVEN_REMOTE_REPOSITORY);
+    collectRequest.setRepositories(Repositories.repositories);
     DependencyRequest dependencyRequest = new DependencyRequest(collectRequest, null);
 
     DependencyResult result;

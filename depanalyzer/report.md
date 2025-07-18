@@ -46,7 +46,7 @@
 
 ## 5. You referenced a class/interface here
 
-**Location:** `C:\Users\Alvari\Documents\UNI\softeng_700\part4-project\depanalyzer\src\main\java\com\example\depanalyzer\analyzer\analysis\DependencyDatabase.java:80`  
+**Location:** `C:\Users\Alvari\Documents\UNI\softeng_700\part4-project\depanalyzer\src\main\java\com\example\depanalyzer\analyzer\analysis\DependencyDatabase.java:82`  
 
 **Library:** `org.apache.maven:maven-artifact:jar:3.8.5`
 
@@ -57,7 +57,7 @@
 
 ## 6. You declared a variable here
 
-**Location:** `C:\Users\Alvari\Documents\UNI\softeng_700\part4-project\depanalyzer\src\main\java\com\example\depanalyzer\analyzer\analysis\DependencyDatabase.java:80`  
+**Location:** `C:\Users\Alvari\Documents\UNI\softeng_700\part4-project\depanalyzer\src\main\java\com\example\depanalyzer\analyzer\analysis\DependencyDatabase.java:82`  
 
 **Library:** `org.apache.maven:maven-artifact:jar:3.8.5`
 
@@ -68,7 +68,7 @@
 
 ## 7. You referenced a class/interface here
 
-**Location:** `C:\Users\Alvari\Documents\UNI\softeng_700\part4-project\depanalyzer\src\main\java\com\example\depanalyzer\analyzer\analysis\DependencyDatabase.java:81`  
+**Location:** `C:\Users\Alvari\Documents\UNI\softeng_700\part4-project\depanalyzer\src\main\java\com\example\depanalyzer\analyzer\analysis\DependencyDatabase.java:83`  
 
 **Library:** `org.apache.maven.resolver:maven-resolver-api:jar:1.6.3`
 
@@ -79,7 +79,7 @@
 
 ## 8. You declared a variable here
 
-**Location:** `C:\Users\Alvari\Documents\UNI\softeng_700\part4-project\depanalyzer\src\main\java\com\example\depanalyzer\analyzer\analysis\DependencyDatabase.java:81`  
+**Location:** `C:\Users\Alvari\Documents\UNI\softeng_700\part4-project\depanalyzer\src\main\java\com\example\depanalyzer\analyzer\analysis\DependencyDatabase.java:83`  
 
 **Library:** `org.apache.maven.resolver:maven-resolver-api:jar:1.6.3`
 
@@ -90,7 +90,7 @@
 
 ## 9. You referenced a class/interface here
 
-**Location:** `C:\Users\Alvari\Documents\UNI\softeng_700\part4-project\depanalyzer\src\main\java\com\example\depanalyzer\analyzer\analysis\DependencyDatabase.java:101`  
+**Location:** `C:\Users\Alvari\Documents\UNI\softeng_700\part4-project\depanalyzer\src\main\java\com\example\depanalyzer\analyzer\analysis\DependencyDatabase.java:103`  
 
 **Library:** `org.apache.maven.resolver:maven-resolver-api:jar:1.6.3`
 

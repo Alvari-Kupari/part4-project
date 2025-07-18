@@ -7,12 +7,14 @@ import com.example.depanalyzer.analyzer.analysis.visitors.AnnotationVisitor;
 import com.example.depanalyzer.analyzer.analysis.visitors.ExpressionVisitor;
 import com.example.depanalyzer.analyzer.analysis.visitors.UsageAnalyzer;
 import com.example.depanalyzer.analyzer.dependencycollection.DependencyTraverser;
-import com.example.depanalyzer.analyzer.dependencycollection.PomFile;
+import com.example.depanalyzer.analyzer.dependencycollection.PomReader;
 import com.example.depanalyzer.analyzer.dependencycollection.Request;
 import com.example.depanalyzer.analyzer.dependencytree.Tree;
 import com.example.depanalyzer.analyzer.report.UsageReport;
 import com.github.javaparser.ParseResult;
 import com.github.javaparser.ast.CompilationUnit;
+import java.io.IOException;
+import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.HashSet;
 import java.util.List;
@@ -47,10 +49,16 @@ public class Main {
 
     System.out.println("Analyzing project at: " + repoPath);
 
+    Path pomFile = Path.of(repoPath, "pom.xml");
+
+    if (!Files.exists(pomFile)) {
+      throw new IOException("Pom file not found at: " + pomFile);
+    }
+
     RepositorySystem system = RepositorySystemFactory.newRepositorySystem();
     RepositorySystemSession session = RepositorySystemFactory.newSession(system);
 
-    PomFile pom = new PomFile(repoPath);
+    PomReader pom = new PomReader(pomFile);
 
     List<Dependency> dependencies = pom.getDependencies();
 

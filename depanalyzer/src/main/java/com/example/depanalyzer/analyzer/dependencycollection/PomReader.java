@@ -9,17 +9,15 @@ import java.util.stream.Collectors;
 import org.apache.maven.model.Model;
 import org.apache.maven.model.io.xpp3.MavenXpp3Reader;
 import org.codehaus.plexus.util.xml.pull.XmlPullParserException;
-import org.eclipse.aether.artifact.DefaultArtifact;
 import org.eclipse.aether.graph.Dependency;
 
-public class PomFile {
+public class PomReader {
   private Model model;
 
-  public PomFile(String pomFile) throws IOException, XmlPullParserException {
-    Path path = Path.of(pomFile, "pom.xml");
+  public PomReader(Path pomfile) throws IOException, XmlPullParserException {
 
     MavenXpp3Reader reader = new MavenXpp3Reader();
-    FileReader fileReader = new FileReader(path.toFile());
+    FileReader fileReader = new FileReader(pomfile.toFile());
     this.model = reader.read(fileReader);
   }
 
@@ -61,19 +59,10 @@ public class PomFile {
     };
   }
 
-  public List<Dependency> getDependencies() throws IOException, XmlPullParserException {
+  public List<Dependency> getDependencies() {
 
     return model.getDependencies().stream()
-        .map(
-            dep ->
-                new Dependency(
-                    new DefaultArtifact(
-                        dep.getGroupId(),
-                        dep.getArtifactId(),
-                        dep.getClassifier(),
-                        dep.getType(),
-                        dep.getVersion()),
-                    dep.getScope()))
+        .map(DependencyAdapter::toAether)
         .collect(Collectors.toList());
   }
 }
