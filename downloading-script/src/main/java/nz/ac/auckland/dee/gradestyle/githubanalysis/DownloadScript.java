@@ -2,8 +2,6 @@ package nz.ac.auckland.dee.gradestyle.githubanalysis;
 
 import java.io.File;
 import java.io.IOException;
-import java.nio.file.Path;
-import java.util.ArrayList;
 import java.util.List;
 import nz.ac.auckland.dee.gradestyle.config.Config;
 import org.kohsuke.github.GHDirection;
@@ -17,8 +15,10 @@ import org.kohsuke.github.PagedIterator;
 
 public class DownloadScript {
 
-  private static final String REPO_SIZES_LOG = "C:\\Users\\akup390\\Documents\\logs\\repo-sizes.csv";
-  private static final String REPO_FILTER_LOG = "C:\\Users\\akup390\\Documents\\logs\\repo-filter.csv";
+  private static final String REPO_SIZES_LOG =
+      "C:\\Users\\akup390\\Documents\\logs\\repo-sizes.csv";
+  private static final String REPO_FILTER_LOG =
+      "C:\\Users\\akup390\\Documents\\logs\\repo-filter.csv";
 
   // private static final String REPO_SIZES_LOG = "D:\\logs\\repo-sizes.csv";
   // private static final String REPO_FILTER_LOG = "D:\\logs\\repo-filter.txt";
@@ -64,7 +64,8 @@ public class DownloadScript {
         query += " stars:<" + lastStarCount;
       }
 
-      GHRepositorySearchBuilder searchBuilder = github.searchRepositories().q(query).order(GHDirection.DESC);
+      GHRepositorySearchBuilder searchBuilder =
+          github.searchRepositories().q(query).order(GHDirection.DESC);
 
       for (Sort sort : sortCriteria) {
         searchBuilder.sort(sort);
@@ -104,7 +105,7 @@ public class DownloadScript {
           continue;
         }
 
-        RepodownLoader downloader = new RepodownLoader(repo, filterLogger);
+        RepoDownloader downloader = new RepoDownloader(repo, filterLogger);
 
         boolean preCheck = downloader.preCheck();
 
@@ -130,8 +131,11 @@ public class DownloadScript {
         break;
       }
 
-      System.out
-          .println("Processed " + resultsProcessed + " results. Continuing search from star count: " + lastStarCount);
+      System.out.println(
+          "Processed "
+              + resultsProcessed
+              + " results. Continuing search from star count: "
+              + lastStarCount);
     }
 
     System.out.println(
