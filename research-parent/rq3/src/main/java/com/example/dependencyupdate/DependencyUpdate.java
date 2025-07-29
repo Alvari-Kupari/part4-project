@@ -11,12 +11,11 @@ import org.eclipse.aether.repository.RemoteRepository;
 import org.eclipse.aether.resolution.VersionRangeRequest;
 import org.eclipse.aether.resolution.VersionRangeResolutionException;
 import org.eclipse.aether.resolution.VersionRangeResult;
-import org.eclipse.aether.util.version.GenericVersionScheme;
 import org.eclipse.aether.version.InvalidVersionSpecificationException;
 import org.eclipse.aether.version.Version;
-import org.eclipse.aether.version.VersionScheme;
 
 public class DependencyUpdate {
+  private static final String GET_ALL_VERSIONS = "[0,)";
   private Dependency dependency;
   private final List<RemoteRepository> repos = Repositories.repositories;
   private RepositorySystem repoSystem;
@@ -29,13 +28,22 @@ public class DependencyUpdate {
     this.session = session;
   }
 
-  // returns true if its the last version available
-  public boolean update()
+  /**
+   * Returns the latest MINOR version of the dependency. For example would update 1.2.4 to 1.9.9
+   *
+   * @return The latest minor version.
+   * @throws VersionRangeResolutionException
+   * @throws InvalidVersionSpecificationException
+   */
+  public Dependency getLatestMinorVersion()
       throws VersionRangeResolutionException, InvalidVersionSpecificationException {
-    VersionScheme scheme = new GenericVersionScheme();
 
-    String versionString = dependency.getArtifact().getVersion();
-    Version current = scheme.parseVersion(versionString);
+    String range =
+        "["
+            + getMajorVersion(dependency.getArtifact())
+            + ".0, "
+            + (getMajorVersion(dependency.getArtifact()) + 1)
+            + ".0)";
 
     Artifact artifact =
         new DefaultArtifact(
@@ -43,31 +51,21 @@ public class DependencyUpdate {
             dependency.getArtifact().getArtifactId(),
             dependency.getArtifact().getClassifier(),
             dependency.getArtifact().getExtension(),
-            "[0,)"); // This requests all available versions
+            range);
 
     VersionRangeRequest request = new VersionRangeRequest(artifact, repos, null);
     VersionRangeResult result = repoSystem.resolveVersionRange(session, request);
 
-    List<Version> versions = result.getVersions();
+    Version latestMinor = result.getHighestVersion();
 
-    // System.out.println("Versions size: " + versions.size());
-    // versions.forEach(System.out::println);
+    artifact.setVersion(latestMinor.toString());
 
-    for (int i = 0; i < versions.size(); i++) {
-      Version v = versions.get(i);
+    return new Dependency(artifact, dependency.getScope());
+  }
 
-      if (v.equals(current) && i + 1 < versions.size()) {
+  private int getMajorVersion(Artifact artifact) {
+    String[] parts = artifact.getVersion().split("\\.");
 
-        if (i + 1 == versions.size()) {
-          return true;
-        }
-
-        Version next = versions.get(i + 1);
-        dependency.getArtifact().setVersion(next.toString());
-        return false;
-      }
-    }
-
-    throw new IllegalStateException("Couldn't find a version match for dependency: " + dependency);
+    return Integer.parseInt(parts[0]);
   }
 }
