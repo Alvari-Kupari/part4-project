@@ -22,8 +22,8 @@ public class Script {
 
   public static void main(String[] args) throws IOException, XmlPullParserException {
 
-    // Path to the project's pom.xml file - use our current project for testing
-    Path pomFile = Paths.get("/Users/tonyyin/Desktop/Projects/repos/simple-java-maven-app", "pom.xml");
+
+    Path pomFile = Paths.get("/Users/tonyyin/Desktop/Projects/repos/breaking-good", "pom.xml");
 
     if (!Files.exists(pomFile)) {
       throw new IOException("Pom file not found at: " + pomFile);
@@ -45,7 +45,7 @@ public class Script {
       DependencyUpdate update = new DependencyUpdate(dep, system, session);
 
       try {
-        // PART 1: Get the latest minor version (your friend's implementation)
+        // PART 1: Get the latest minor version
         Dependency latestMinor = update.getLatestMinorVersion();
         System.out.println("Latest minor version: " + latestMinor.toString());
 

@@ -182,6 +182,40 @@ public class BreakingChangeAnalyzer {
                 LOGGER.fine("Could not resolve Kotlin standard library: " + e.getMessage());
             }
         }
+        
+        // Also try to add common optional dependencies
+        tryAddOptionalDependency(jarFiles, "org.osgi", "org.osgi.framework", "1.10.0");
+    }
+    
+    /**
+     * Attempts to add an optional dependency to avoid missing class errors.
+     */
+    private void tryAddOptionalDependency(List<File> jarFiles, String groupId, String artifactId, String version) {
+        // Check if the dependency is already present
+        boolean hasLibrary = jarFiles.stream()
+            .anyMatch(jar -> jar.getName().contains(artifactId));
+            
+        if (!hasLibrary) {
+            try {
+                org.eclipse.aether.artifact.DefaultArtifact artifact = 
+                    new org.eclipse.aether.artifact.DefaultArtifact(groupId, artifactId, "jar", version);
+                
+                ArtifactRequest request = new ArtifactRequest();
+                request.setArtifact(artifact);
+                request.setRepositories(repositories);
+                
+                ArtifactResult result = repositorySystem.resolveArtifact(session, request);
+                File jarFile = result.getArtifact().getFile();
+                
+                if (jarFile != null && jarFile.exists()) {
+                    jarFiles.add(jarFile);
+                    LOGGER.fine("Added optional dependency to classpath: " + jarFile.getAbsolutePath());
+                }
+                
+            } catch (ArtifactResolutionException e) {
+                LOGGER.fine("Could not resolve optional dependency " + groupId + ":" + artifactId + ": " + e.getMessage());
+            }
+        }
     }
 
     /**
@@ -209,10 +243,43 @@ public class BreakingChangeAnalyzer {
             oldArchives.add(new JApiCmpArchive(oldMainJar, oldDependency.getArtifact().getVersion()));
             newArchives.add(new JApiCmpArchive(newMainJar, newDependency.getArtifact().getVersion()));
 
+            // Try the comparison with full classpath first
+            breakingChanges = attemptComparison(oldArchives, newArchives, oldJars, newJars, 
+                                              oldDependency, newDependency, false);
+            
+            // If that fails with missing classes, try again with ignore missing classes
+            if (breakingChanges.isEmpty()) {
+                LOGGER.info("Retrying comparison with ignore missing classes option");
+                breakingChanges = attemptComparison(oldArchives, newArchives, oldJars, newJars, 
+                                                  oldDependency, newDependency, true);
+            }
+            
+        } catch (Exception e) {
+            LOGGER.severe("Error comparing JAR files: " + e.getMessage());
+            e.printStackTrace();
+        }
+        
+        return breakingChanges;
+    }
+    
+    /**
+     * Attempts to run japicmp comparison with the given configuration.
+     */
+    private List<BreakingChange> attemptComparison(List<JApiCmpArchive> oldArchives, 
+                                                 List<JApiCmpArchive> newArchives,
+                                                 List<File> oldJars, List<File> newJars,
+                                                 Dependency oldDependency, Dependency newDependency,
+                                                 boolean ignoreMissingClasses) {
+        List<BreakingChange> breakingChanges = new ArrayList<>();
+        
+        try {
             // Configure JAPICMP options
             JarArchiveComparatorOptions options = new JarArchiveComparatorOptions();
             
             // Add all transitive dependencies to the classpath for both versions
+            File oldMainJar = findMainJar(oldJars, oldDependency);
+            File newMainJar = findMainJar(newJars, newDependency);
+            
             for (File jar : oldJars) {
                 if (!jar.equals(oldMainJar)) {
                     options.getClassPathEntries().add(jar.getAbsolutePath());
@@ -224,9 +291,24 @@ public class BreakingChangeAnalyzer {
                 }
             }
             
+            // Set ignore missing classes option if requested
+            if (ignoreMissingClasses) {
+                // Try to set the ignore missing classes option via reflection
+                try {
+                    java.lang.reflect.Method method = options.getClass().getMethod("setIgnoreMissingClasses", Object.class);
+                    // Try different enum values that might exist
+                    Class<?> enumClass = Class.forName("japicmp.config.Options$IgnoreMissingClasses");
+                    Object enumValue = java.lang.reflect.Array.get(enumClass.getEnumConstants(), 0); // Get first enum value
+                    method.invoke(options, enumValue);
+                    LOGGER.info("Successfully set ignore missing classes option");
+                } catch (Exception e) {
+                    LOGGER.fine("Could not set ignore missing classes option: " + e.getMessage());
+                }
+            }
+            
             if (LOGGER.isLoggable(java.util.logging.Level.INFO)) {
-                LOGGER.info(String.format("Using classpath with %d entries for JAR comparison", 
-                    options.getClassPathEntries().size()));
+                LOGGER.info(String.format("Using classpath with %d entries for JAR comparison (ignore missing: %s)", 
+                    options.getClassPathEntries().size(), ignoreMissingClasses));
             }
             
             // Create comparator and run comparison
@@ -248,8 +330,14 @@ public class BreakingChangeAnalyzer {
             }
             
         } catch (Exception e) {
-            LOGGER.severe("Error comparing JAR files: " + e.getMessage());
-            e.printStackTrace();
+            if (!ignoreMissingClasses && e.getMessage() != null && e.getMessage().contains("Could not load")) {
+                // This is likely a missing class error, let the caller retry with ignore missing classes
+                LOGGER.warning("Comparison failed due to missing classes: " + e.getMessage());
+                return new ArrayList<>(); // Return empty list to signal retry needed
+            } else {
+                // Re-throw for other errors or if we're already ignoring missing classes
+                throw new RuntimeException(e);
+            }
         }
         
         return breakingChanges;
@@ -289,7 +377,8 @@ public class BreakingChangeAnalyzer {
         List<BreakingChange> changes = new ArrayList<>();
         
         // Check class-level changes
-        if (hasBreakingChanges(jApiClass.getCompatibilityChanges())) {
+        if (hasBreakingChanges(jApiClass.getCompatibilityChanges()) && 
+            isActuallyBreaking(jApiClass.isBinaryCompatible(), jApiClass.isSourceCompatible())) {
             changes.add(BreakingChange.builder()
                 .className(jApiClass.getFullyQualifiedName())
                 .memberName("<class>")
@@ -305,7 +394,8 @@ public class BreakingChangeAnalyzer {
         
         // Check method changes
         for (JApiMethod method : jApiClass.getMethods()) {
-            if (hasBreakingChanges(method.getCompatibilityChanges())) {
+            if (hasBreakingChanges(method.getCompatibilityChanges()) &&
+                isActuallyBreaking(method.isBinaryCompatible(), method.isSourceCompatible())) {
                 changes.add(BreakingChange.builder()
                     .className(jApiClass.getFullyQualifiedName())
                     .memberName(method.getName())
@@ -322,7 +412,8 @@ public class BreakingChangeAnalyzer {
         
         // Check field changes
         for (JApiField field : jApiClass.getFields()) {
-            if (hasBreakingChanges(field.getCompatibilityChanges())) {
+            if (hasBreakingChanges(field.getCompatibilityChanges()) &&
+                isActuallyBreaking(field.isBinaryCompatible(), field.isSourceCompatible())) {
                 changes.add(BreakingChange.builder()
                     .className(jApiClass.getFullyQualifiedName())
                     .memberName(field.getName())
@@ -339,7 +430,8 @@ public class BreakingChangeAnalyzer {
         
         // Check constructor changes
         for (JApiConstructor constructor : jApiClass.getConstructors()) {
-            if (hasBreakingChanges(constructor.getCompatibilityChanges())) {
+            if (hasBreakingChanges(constructor.getCompatibilityChanges()) &&
+                isActuallyBreaking(constructor.isBinaryCompatible(), constructor.isSourceCompatible())) {
                 changes.add(BreakingChange.builder()
                     .className(jApiClass.getFullyQualifiedName())
                     .memberName("<constructor>")
@@ -359,11 +451,19 @@ public class BreakingChangeAnalyzer {
 
     /**
      * Checks if there are any breaking compatibility changes.
+     * Only returns true for changes that actually break binary OR source compatibility.
      */
     private boolean hasBreakingChanges(List<JApiCompatibilityChange> changes) {
         // Only consider changes that break binary or source compatibility
         return changes.stream().anyMatch(change -> 
             !change.isBinaryCompatible() || !change.isSourceCompatible());
+    }
+
+    /**
+     * Additional check to ensure we only capture actual breaking changes at the element level.
+     */
+    private boolean isActuallyBreaking(boolean isBinaryCompatible, boolean isSourceCompatible) {
+        return !isBinaryCompatible || !isSourceCompatible;
     }
 
     /**
