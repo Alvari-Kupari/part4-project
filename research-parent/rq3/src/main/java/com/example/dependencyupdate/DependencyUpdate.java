@@ -2,6 +2,7 @@ package com.example.dependencyupdate;
 
 import com.example.depanalyzer.analyzer.dependencycollection.Repositories;
 import java.util.List;
+import java.util.logging.Logger;
 import org.eclipse.aether.RepositorySystem;
 import org.eclipse.aether.RepositorySystemSession;
 import org.eclipse.aether.artifact.Artifact;
@@ -22,6 +23,7 @@ public class DependencyUpdate {
   private final List<RemoteRepository> repos = Repositories.repositories;
   private RepositorySystem repoSystem;
   private RepositorySystemSession session;
+  private static final Logger LOGGER = Logger.getLogger(DependencyUpdate.class.getName());
 
   public DependencyUpdate(
       Dependency dep, RepositorySystem repoSystem, RepositorySystemSession session) {
@@ -44,11 +46,7 @@ public class DependencyUpdate {
           NoDependencyUpdateException {
 
     String range =
-        "["
-            + getMajorVersion(dependency.getArtifact().getVersion())
-            + ".0, "
-            + (getMajorVersion(dependency.getArtifact().getVersion()) + 1)
-            + ".0)";
+        "[" + getMajorVersion(dependency) + ".0, " + (getMajorVersion(dependency) + 1) + ".0)";
 
     Artifact artifact =
         new DefaultArtifact(
@@ -110,13 +108,26 @@ public class DependencyUpdate {
             dependency.getArtifact().getClassifier(),
             dependency.getArtifact().getExtension(),
             latestMinor.toString());
-    return new Dependency(resolved, dependency.getScope());
+    Dependency latestMinorDep = new Dependency(resolved, dependency.getScope());
+
+    if (latestMinorDep.equals(dependency)) {
+      throw new NoDependencyUpdateException(
+          "Dependency is already updated to latest minor version");
+    }
+
+    return latestMinorDep;
   }
 
-  private int getMajorVersion(String version) {
+  private int getMajorVersion(Dependency dep) {
+    String version = dep.getArtifact().getVersion();
     String[] parts = version.split("\\.");
 
-    return Integer.parseInt(parts[0]);
+    try {
+      return Integer.parseInt(parts[0]);
+    } catch (NumberFormatException e) {
+      LOGGER.severe("Failed to parse major version from: '" + version + "' in dependency: " + dep);
+      throw new IllegalArgumentException("Invalid version format: " + version, e);
+    }
   }
 
   private boolean hasPreRelease(Version version) {
