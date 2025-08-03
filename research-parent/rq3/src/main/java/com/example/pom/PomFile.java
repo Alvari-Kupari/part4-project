@@ -14,39 +14,14 @@ public class PomFile {
   private final Model model;
 
   public PomFile(Path projectDir) throws IOException, PomException, InterruptedException {
-    File effectivePom = projectDir.resolve("effective-pom.xml").toFile();
+    File pom = projectDir.resolve("effective-pom.xml").toFile();
 
-    generateEffectivePom(projectDir.toFile());
-
-    try (FileReader reader = new FileReader(effectivePom)) {
+    try (FileReader reader = new FileReader(pom)) {
       try {
         this.model = new MavenXpp3Reader().read(reader);
       } catch (XmlPullParserException e) {
         throw new PomException(e);
       }
-    }
-
-    effectivePom.deleteOnExit();
-  }
-
-  private void generateEffectivePom(File directory) throws IOException, InterruptedException {
-    ProcessBuilder builder =
-        new ProcessBuilder(
-            "cmd", "/c", "mvn.cmd", "help:effective-pom", "-Doutput=effective-pom.xml");
-    builder.directory(directory);
-    builder.redirectErrorStream(true);
-    Process process = builder.start();
-    int exitCode = process.waitFor(); // <-- Wait for process to fully finish
-
-    try (BufferedReader reader =
-        new BufferedReader(new InputStreamReader(process.getInputStream()))) {
-      while ((reader.readLine()) != null) {
-        /* drain */
-      }
-    }
-
-    if (exitCode != 0) {
-      throw new IOException("Failed to generate effective POM");
     }
   }
 

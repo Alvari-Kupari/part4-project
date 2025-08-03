@@ -26,7 +26,7 @@ public class Repo {
 
   private boolean isValidSubModule(Path path) {
 
-    return Files.exists(path.resolve("pom.xml"))
+    return Files.exists(path.resolve("effective-pom.xml"))
         && Files.isDirectory(path.resolve("src/main/java"));
   }
 
