@@ -12,7 +12,7 @@ def find_submodules(repo_path):
 
 def generate_effective_pom(submodule_path):
     try:
-        result = subprocess.run(
+        subprocess.run(
             ["mvn", "help:effective-pom", "-Doutput=effective-pom.xml"],
             cwd=submodule_path,
             check=True,
@@ -21,13 +21,16 @@ def generate_effective_pom(submodule_path):
             text=True
         )
         print(f"Generated effective POM for {submodule_path}")
+        return True
     except subprocess.CalledProcessError as e:
         print(f"Failed to generate effective POM for {submodule_path}")
         print(e.stderr)
+        return False
+
 
 def install_repo_root(repo_path):
     try:
-        result = subprocess.run(
+        subprocess.run(
             ["mvn", "install", "-DskipTests"],
             cwd=repo_path,
             check=True,
@@ -35,21 +38,42 @@ def install_repo_root(repo_path):
             stderr=subprocess.PIPE,
             text=True
         )
-        print(f"Installed repo at {repo_path}")
+        print(f"✅ Installed repo at {repo_path}")
+        return True
     except subprocess.CalledProcessError as e:
-        print(f"Failed to install repo at {repo_path}")
+        print(f"❌ Failed to install repo at {repo_path}")
         print(e.stderr)
+        return False
+
 
 
 def process_repos(root_dir):
+    repo_success = 0
+    total_repos = 0
+
     for repo in Path(root_dir).iterdir():
         if repo.is_dir():
+            total_repos += 1
             print(f"Processing repo: {repo.name}")
-            install_repo_root(repo)
+            success = install_repo_root(repo)
+            if not success:
+                print(f"❌ Skipping submodules for {repo.name} due to install failure.\n")
+                continue
+
+            repo_success += 1
             submodules = find_submodules(repo)
+
+            success_count = 0
             for submodule in submodules:
                 print(f"  Found submodule: {submodule}")
-                generate_effective_pom(submodule)
+                if generate_effective_pom(submodule):
+                    success_count += 1
+
+            print(f"{success_count}/{len(submodules)} submodules in repo {repo.name} ran successfully\n")
+
+    print(f"\n✅ {repo_success}/{total_repos} repos installed successfully")
+
+
 
 
 if __name__ == "__main__":
