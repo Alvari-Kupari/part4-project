@@ -20,6 +20,7 @@ public class Csv {
   private void writeHeader() throws IOException {
     writer.append(
         "Dependency,Current_Version,Latest_Minor_Version,Class_Name,Member_Name,Change_Type,Description,Binary_Compatible,Source_Compatible\n");
+    writer.flush();
   }
 
   public void writeBreakingChange(Dependency dep, Dependency latestMinor, BreakingChange change)
@@ -43,6 +44,7 @@ public class Csv {
         .append(",")
         .append(String.valueOf(change.isSourceCompatible()))
         .append("\n");
+    writer.flush();
     totalBreakingChanges++;
   }
 

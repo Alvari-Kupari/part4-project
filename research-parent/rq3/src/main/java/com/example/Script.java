@@ -33,7 +33,7 @@ public class Script {
       new BreakingChangeAnalyzer(system, session);
   private static final Logger LOGGER = Logger.getLogger(Script.class.getName());
 
-  public static void main(String[] args) throws IOException {
+  public static void main(String[] args) throws IOException, InterruptedException {
 
     if (!Files.isDirectory(reposFolder)) {
       throw new IOException("Repos folder not found at: " + reposFolder);
@@ -73,10 +73,10 @@ public class Script {
   }
 
   private static void performSubmoduleAnalysis(SubModule submodule)
-      throws IOException, PomException {
+      throws IOException, PomException, InterruptedException {
 
     LOGGER.info(
-        "=== Starting Analysis  for submodule '"
+        "\n=== Starting Analysis  for submodule '"
             + submodule.getName()
             + "'\n at "
             + submodule.getDir().toAbsolutePath());
@@ -84,8 +84,7 @@ public class Script {
     String csvFileName = submodule.getRepo().getName() + "_" + submodule.getName() + ".csv";
     Path csvPath = csvFolder.resolve(csvFileName);
     Csv csv = new Csv(csvPath);
-    Path pomFile = submodule.getPom();
-    PomFile pom = new PomFile(pomFile, system, session);
+    PomFile pom = new PomFile(submodule.getDir());
     List<Dependency> deps = pom.getDependencies();
     System.out.println(deps);
 
@@ -131,7 +130,8 @@ public class Script {
     }
 
     LOGGER.info(
-        "=== Analysis Complete for submodule '"
+        "\n=== Analysis Complete for submodule '"
+            + submodule.getName()
             + "' ===\n"
             + "Total breaking changes found: "
             + totalBreakingChanges
