@@ -67,4 +67,10 @@ public class Csv {
     }
     return value;
   }
+
+  public static Csv createCsv(SubModule submodule, Path csvFolder) throws IOException {
+    String csvFileName = submodule.getRepo().getName() + "_" + submodule.getName() + ".csv";
+    Path csvPath = csvFolder.resolve(csvFileName);
+    return new Csv(csvPath);
+  }
 }

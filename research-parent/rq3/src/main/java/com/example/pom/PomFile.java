@@ -11,10 +11,11 @@ import org.codehaus.plexus.util.xml.pull.XmlPullParserException;
 import org.eclipse.aether.graph.Dependency;
 
 public class PomFile {
+  public static final String POM_LOCATION = "pom.xml";
   private final Model model;
 
-  public PomFile(Path projectDir) throws IOException, PomException, InterruptedException {
-    File pom = projectDir.resolve("effective-pom.xml").toFile();
+  public PomFile(Path projectDir) throws IOException, PomException {
+    File pom = projectDir.resolve(POM_LOCATION).toFile();
 
     try (FileReader reader = new FileReader(pom)) {
       try {

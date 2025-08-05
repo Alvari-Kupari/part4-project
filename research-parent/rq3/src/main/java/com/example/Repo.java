@@ -1,5 +1,6 @@
 package com.example;
 
+import com.example.pom.PomFile;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -26,7 +27,7 @@ public class Repo {
 
   private boolean isValidSubModule(Path path) {
 
-    return Files.exists(path.resolve("effective-pom.xml"))
+    return Files.exists(path.resolve(PomFile.POM_LOCATION))
         && Files.isDirectory(path.resolve("src/main/java"));
   }
 

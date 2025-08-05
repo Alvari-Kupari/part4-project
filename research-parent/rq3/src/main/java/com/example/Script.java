@@ -5,6 +5,7 @@ import com.example.breakingchange.BreakingChangeAnalyzer;
 import com.example.depanalyzer.analyzer.analysis.RepositorySystemFactory;
 import com.example.dependencyupdate.DependencyUpdate;
 import com.example.dependencyupdate.NoDependencyUpdateException;
+import com.example.dependencyupdate.VersionResolutionException;
 import com.example.pom.PomException;
 import com.example.pom.PomFile;
 import java.io.IOException;
@@ -17,8 +18,6 @@ import java.util.logging.Logger;
 import org.eclipse.aether.RepositorySystem;
 import org.eclipse.aether.RepositorySystemSession;
 import org.eclipse.aether.graph.Dependency;
-import org.eclipse.aether.resolution.VersionRangeResolutionException;
-import org.eclipse.aether.version.InvalidVersionSpecificationException;
 
 public class Script {
   private static final Path csvFolder =
@@ -26,14 +25,15 @@ public class Script {
           "C:\\Users\\Alvari\\Documents\\UNI\\softeng_700\\part4-project\\r"
               + "esearch-parent\\rq3\\data");
 
-  private static final Path reposFolder = Paths.get("D:/repos");
+  private static final Path reposFolder =
+      Paths.get("C:\\Users\\Alvari\\Documents\\UNI\\archive\\SOFTENG_206\\repos");
   private static final RepositorySystem system = RepositorySystemFactory.newRepositorySystem();
   private static final RepositorySystemSession session = RepositorySystemFactory.newSession(system);
   private static final BreakingChangeAnalyzer breakingChangeAnalyzer =
       new BreakingChangeAnalyzer(system, session);
   private static final Logger LOGGER = Logger.getLogger(Script.class.getName());
 
-  public static void main(String[] args) throws IOException, InterruptedException {
+  public static void main(String[] args) throws IOException {
 
     if (!Files.isDirectory(reposFolder)) {
       throw new IOException("Repos folder not found at: " + reposFolder);
@@ -73,7 +73,7 @@ public class Script {
   }
 
   private static void performSubmoduleAnalysis(SubModule submodule)
-      throws IOException, PomException, InterruptedException {
+      throws IOException, PomException {
 
     LOGGER.info(
         "\n=== Starting Analysis  for submodule '"
@@ -81,62 +81,53 @@ public class Script {
             + "'\n at "
             + submodule.getDir().toAbsolutePath());
 
-    String csvFileName = submodule.getRepo().getName() + "_" + submodule.getName() + ".csv";
-    Path csvPath = csvFolder.resolve(csvFileName);
-    Csv csv = new Csv(csvPath);
+    Csv csv = Csv.createCsv(submodule, csvFolder);
     PomFile pom = new PomFile(submodule.getDir());
     List<Dependency> deps = pom.getDependencies();
-    System.out.println(deps);
 
-    int totalBreakingChanges = 0;
-
-    outer:
     for (Dependency dep : deps) {
 
       DependencyUpdate update = new DependencyUpdate(dep, system, session);
 
       try {
-        // PART 1: Get the latest minor version
-        Dependency latestMinor = update.getLatestMinorVersion();
-        LOGGER.info("Latest minor version: " + latestMinor);
+        List<Dependency> updates = update.getMinorUpdates();
 
-        // PART 2: Analyze breaking changes between current and latest minor version
-        LOGGER.info("Analyzing breaking changes between versions...");
-
-        List<BreakingChange> breakingChanges =
-            breakingChangeAnalyzer.analyzeBreakingChanges(dep, latestMinor);
-
-        if (breakingChanges.isEmpty()) {
-          LOGGER.info("No breaking changes detected.");
-          continue outer;
-        }
-
-        LOGGER.info("Found " + breakingChanges.size() + " breaking changes:");
-
-        for (BreakingChange change : breakingChanges) {
-          csv.writeBreakingChange(dep, latestMinor, change);
-          totalBreakingChanges++;
-        }
-
-      } catch (VersionRangeResolutionException e) {
-        LOGGER.log(Level.SEVERE, "Version range resolution failed", e);
-
-      } catch (InvalidVersionSpecificationException e) {
-        LOGGER.log(Level.SEVERE, "Invalid version specification", e);
+        analyzeBreakingChanges(dep, updates, csv);
+      } catch (VersionResolutionException e) {
+        LOGGER.log(Level.SEVERE, "Version resolution failed", e);
 
       } catch (NoDependencyUpdateException e) {
-        LOGGER.warning("No update available for dependency: " + dep);
+        LOGGER.warning(
+            "No update available for dependency: " + dep + ". Continuing to the next dependency");
       }
     }
 
-    LOGGER.info(
-        "\n=== Analysis Complete for submodule '"
-            + submodule.getName()
-            + "' ===\n"
-            + "Total breaking changes found: "
-            + totalBreakingChanges
-            + "\n"
-            + "CSV report saved to: "
-            + csv.getPath().toAbsolutePath());
+    LOGGER.info("\n=== Analysis Complete for submodule '" + submodule.getName() + "' ===\n");
+  }
+
+  private static void analyzeBreakingChanges(
+      Dependency originalDep, List<Dependency> updates, Csv csv) throws IOException {
+
+    Dependency current = originalDep;
+    for (Dependency nextVersion : updates) {
+      LOGGER.info(
+          "Analyzing breaking changes between dependencies " + current + " and " + nextVersion);
+
+      List<BreakingChange> breakingChanges =
+          breakingChangeAnalyzer.analyzeBreakingChanges(current, nextVersion);
+
+      if (breakingChanges.isEmpty()) {
+        LOGGER.info("No breaking changes detected.");
+        continue;
+      }
+
+      LOGGER.info("Found " + breakingChanges.size() + " breaking changes:");
+
+      for (BreakingChange change : breakingChanges) {
+        csv.writeBreakingChange(current, nextVersion, change);
+      }
+
+      current = nextVersion;
+    }
   }
 }
