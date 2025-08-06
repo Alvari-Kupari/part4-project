@@ -23,18 +23,65 @@
 
   </dependencies>
 
-  <build>
+  <!-- <build>
     <plugins>
       <plugin>
         <groupId>org.codehaus.mojo</groupId>
         <artifactId>exec-maven-plugin</artifactId>
         <version>3.1.0</version>
         <configuration>
-          <mainClass>com.example.Script</mainClass>
+          <mainClass>com.example.Main</mainClass>
         </configuration>
+      </plugin>
+    </plugins>  
+  </build> -->
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>exec-maven-plugin</artifactId>
+        <version>3.1.0</version>
+        <executions>
+          <execution>
+            <id>script1</id>
+            <phase>none</phase>
+            <goals>
+              <goal>java</goal>
+            </goals>
+            <configuration>
+              <mainClass>com.example.stage1.Script1</mainClass>
+            </configuration>
+          </execution>
+          <execution>
+            <id>script2</id>
+            <phase>none</phase>
+            <goals>
+              <goal>java</goal>
+            </goals>
+            <configuration>
+              <mainClass>com.example.stage2.Script2</mainClass>
+            </configuration>
+          </execution>
+        </executions>
       </plugin>
     </plugins>
   </build>
+
+  <profiles>
+    <profile>
+      <id>script1</id>
+      <build>
+        <defaultGoal>exec:java@script1</defaultGoal>
+      </build>
+    </profile>
+    <profile>
+      <id>script2</id>
+      <build>
+        <defaultGoal>exec:java@script2</defaultGoal>
+      </build>
+    </profile>
+  </profiles>
 
 
 </project>

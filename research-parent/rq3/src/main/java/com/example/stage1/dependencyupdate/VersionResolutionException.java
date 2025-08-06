@@ -1,4 +1,4 @@
-package com.example.dependencyupdate;
+package com.example.stage1.dependencyupdate;
 
 import org.eclipse.aether.resolution.VersionRangeResolutionException;
 import org.eclipse.aether.version.InvalidVersionSpecificationException;

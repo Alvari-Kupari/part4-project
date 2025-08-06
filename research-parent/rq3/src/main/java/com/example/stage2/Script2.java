@@ -1,25 +1,31 @@
-package com.example;
+package com.example.stage2;
 
-import com.example.breakingchange.BreakingChange;
-import com.example.breakingchange.BreakingChangeAnalyzer;
+import com.example.Repo;
+import com.example.SubModule;
 import com.example.depanalyzer.analyzer.analysis.RepositorySystemFactory;
-import com.example.dependencyupdate.DependencyUpdate;
-import com.example.dependencyupdate.NoDependencyUpdateException;
-import com.example.dependencyupdate.VersionResolutionException;
+import com.example.depanalyzer.analyzer.dependencycollection.Request;
 import com.example.pom.PomException;
 import com.example.pom.PomFile;
+import com.example.stage2.parsing.Parser;
+import com.example.stage2.parsing.Visitor;
+import com.github.javaparser.ParseResult;
+import com.github.javaparser.ParserConfiguration.LanguageLevel;
+import com.github.javaparser.ast.CompilationUnit;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import org.eclipse.aether.RepositorySystem;
 import org.eclipse.aether.RepositorySystemSession;
+import org.eclipse.aether.artifact.Artifact;
 import org.eclipse.aether.graph.Dependency;
 
-public class Script {
+public class Script2 {
   private static final Path csvFolder =
       Paths.get(
           "C:\\Users\\Alvari\\Documents\\UNI\\softeng_700\\part4-project\\r"
@@ -29,9 +35,8 @@ public class Script {
       Paths.get("C:\\Users\\Alvari\\Documents\\UNI\\archive\\SOFTENG_206\\repos");
   private static final RepositorySystem system = RepositorySystemFactory.newRepositorySystem();
   private static final RepositorySystemSession session = RepositorySystemFactory.newSession(system);
-  private static final BreakingChangeAnalyzer breakingChangeAnalyzer =
-      new BreakingChangeAnalyzer(system, session);
-  private static final Logger LOGGER = Logger.getLogger(Script.class.getName());
+  private static final SymbolChecker SymbolChecker = new SymbolChecker();
+  private static final Logger LOGGER = Logger.getLogger(Script2.class.getName());
 
   public static void main(String[] args) throws IOException {
 
@@ -39,7 +44,9 @@ public class Script {
       throw new IOException("Repos folder not found at: " + reposFolder);
     }
 
-    Files.createDirectories(csvFolder);
+    if (!Files.isDirectory(csvFolder)) {
+      throw new IOException("CSV folder not found at: " + csvFolder);
+    }
 
     List<Repo> repos = Repo.getRepos(reposFolder);
 
@@ -81,53 +88,28 @@ public class Script {
             + "'\n at "
             + submodule.getDir().toAbsolutePath());
 
-    Csv csv = Csv.createCsv(submodule, csvFolder);
+    CsvReader csvReader = CsvReader.getCsv(submodule, csvFolder);
     PomFile pom = new PomFile(submodule.getDir());
     List<Dependency> deps = pom.getDependencies();
+    Set<Artifact> artifacts = new HashSet<>();
 
-    for (Dependency dep : deps) {
+    deps.forEach(
+        dep -> {
+          Request request = new Request(system, session);
+          artifacts.addAll(request.resolve(dep));
+        });
+    LanguageLevel javaVersion = pom.getJavaVersion();
 
-      DependencyUpdate update = new DependencyUpdate(dep, system, session);
+    Parser parser = new Parser(submodule.getDir(), artifacts, javaVersion);
+    Visitor visitor = new Visitor(SymbolChecker);
 
-      try {
-        List<Dependency> updates = update.getMinorUpdates();
+    for (Path javaFile : parser.getJavaFiles()) {
+      ParseResult<CompilationUnit> result = parser.parse(javaFile);
 
-        analyzeBreakingChanges(dep, updates, csv);
-      } catch (VersionResolutionException e) {
-        LOGGER.log(Level.SEVERE, "Version resolution failed", e);
-
-      } catch (NoDependencyUpdateException e) {
-        LOGGER.warning(
-            "No update available for dependency: " + dep + ". Continuing to the next dependency");
-      }
+      // This is the main step
+      result.getResult().ifPresent(cu -> visitor.visit(cu, null));
     }
 
     LOGGER.info("\n=== Analysis Complete for submodule '" + submodule.getName() + "' ===\n");
-  }
-
-  private static void analyzeBreakingChanges(
-      Dependency originalDep, List<Dependency> updates, Csv csv) throws IOException {
-
-    Dependency current = originalDep;
-    for (Dependency nextVersion : updates) {
-      LOGGER.info(
-          "Analyzing breaking changes between dependencies " + current + " and " + nextVersion);
-
-      List<BreakingChange> breakingChanges =
-          breakingChangeAnalyzer.analyzeBreakingChanges(current, nextVersion);
-
-      if (breakingChanges.isEmpty()) {
-        LOGGER.info("No breaking changes detected.");
-        continue;
-      }
-
-      LOGGER.info("Found " + breakingChanges.size() + " breaking changes:");
-
-      for (BreakingChange change : breakingChanges) {
-        csv.writeBreakingChange(current, nextVersion, change);
-      }
-
-      current = nextVersion;
-    }
   }
 }

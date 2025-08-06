@@ -1,17 +1,18 @@
-package com.example;
+package com.example.stage1;
 
-import com.example.breakingchange.BreakingChange;
+import com.example.SubModule;
+import com.example.stage1.breakingchange.BreakingChange;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.nio.file.Path;
 import org.eclipse.aether.graph.Dependency;
 
-public class Csv {
+public class CsvWriter {
   private final Path path;
   private final FileWriter writer;
   private int totalBreakingChanges = 0;
 
-  public Csv(Path path) throws IOException {
+  public CsvWriter(Path path) throws IOException {
     this.path = path;
     this.writer = new FileWriter(path.toFile());
     writeHeader();
@@ -68,9 +69,9 @@ public class Csv {
     return value;
   }
 
-  public static Csv createCsv(SubModule submodule, Path csvFolder) throws IOException {
+  public static CsvWriter createCsv(SubModule submodule, Path csvFolder) throws IOException {
     String csvFileName = submodule.getRepo().getName() + "_" + submodule.getName() + ".csv";
     Path csvPath = csvFolder.resolve(csvFileName);
-    return new Csv(csvPath);
+    return new CsvWriter(csvPath);
   }
 }

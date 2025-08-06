@@ -1,4 +1,4 @@
-package com.example.dependencyupdate;
+package com.example.stage1.dependencyupdate;
 
 import com.example.depanalyzer.analyzer.dependencycollection.Repositories;
 import java.util.ArrayList;
