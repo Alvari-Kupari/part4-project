@@ -326,7 +326,7 @@ public class BreakingChangeAnalyzer {
       changes.add(
           BreakingChange.builder()
               .className(jApiClass.getFullyQualifiedName())
-              .memberName("<class>")
+              .memberName(jApiClass.getFullyQualifiedName())
               .changeType("CLASS_CHANGE")
               .description(getChangeDescription(jApiClass.getCompatibilityChanges()))
               .libraryName(libraryName)
@@ -383,7 +383,7 @@ public class BreakingChangeAnalyzer {
         changes.add(
             BreakingChange.builder()
                 .className(jApiClass.getFullyQualifiedName())
-                .memberName("<constructor>")
+                .memberName(constructor.getName())
                 .changeType("CONSTRUCTOR_CHANGE")
                 .description(getChangeDescription(constructor.getCompatibilityChanges()))
                 .libraryName(libraryName)
