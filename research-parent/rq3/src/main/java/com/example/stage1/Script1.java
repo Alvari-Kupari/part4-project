@@ -24,16 +24,16 @@ import org.eclipse.aether.graph.Dependency;
 public class Script1 {
   private static final Path csvFolder =
       Paths.get(
-          "C:\\Users\\Alvari\\Documents\\UNI\\softeng_700\\part4-project\\r"
-              + "esearch-parent\\rq3\\data");
+          "C:\\Users\\Tony\\Desktop\\csv");
 
   private static final Path reposFolder =
-      Paths.get("C:\\Users\\Alvari\\Documents\\UNI\\archive\\SOFTENG_206\\repos");
+      Paths.get("C:\\Users\\Tony\\Desktop\\repos");
   private static final RepositorySystem system = RepositorySystemFactory.newRepositorySystem();
   private static final RepositorySystemSession session = RepositorySystemFactory.newSession(system);
   private static final BreakingChangeAnalyzer breakingChangeAnalyzer =
       new BreakingChangeAnalyzer(system, session);
   private static final Logger LOGGER = Logger.getLogger(Script1.class.getName());
+  private static FailureTracker failureTracker;
 
   public static void main(String[] args) throws IOException {
 
@@ -42,6 +42,9 @@ public class Script1 {
     }
 
     Files.createDirectories(csvFolder);
+    
+    // Initialize failure tracker
+    failureTracker = new FailureTracker(csvFolder);
 
     List<Repo> repos = Repo.getRepos(reposFolder);
 
@@ -72,6 +75,16 @@ public class Script1 {
         }
       }
     }
+    
+    // Print final statistics and close failure tracker
+    LOGGER.info("\n\n========== FINAL ANALYSIS STATISTICS ==========");
+    LOGGER.info("Total comparisons attempted: " + failureTracker.getTotalComparisons());
+    LOGGER.info("Failed comparisons: " + failureTracker.getFailedComparisons());
+    LOGGER.info("Success rate: " + String.format("%.2f%%", failureTracker.getSuccessRate()));
+    LOGGER.info("See detailed failure log in the CSV folder: " + csvFolder.toAbsolutePath());
+    LOGGER.info("================================================\n");
+    
+    failureTracker.close();
   }
 
   private static void performSubmoduleAnalysis(SubModule submodule)
@@ -115,18 +128,25 @@ public class Script1 {
       LOGGER.info(
           "Analyzing breaking changes between dependencies " + current + " and " + nextVersion);
 
-      List<BreakingChange> breakingChanges =
-          breakingChangeAnalyzer.analyzeBreakingChanges(current, nextVersion);
+      try {
+        List<BreakingChange> breakingChanges =
+            breakingChangeAnalyzer.analyzeBreakingChanges(current, nextVersion);
 
-      if (breakingChanges.isEmpty()) {
-        LOGGER.info("No breaking changes detected.");
-        continue;
-      }
+        if (breakingChanges.isEmpty()) {
+          LOGGER.info("No breaking changes detected.");
+          failureTracker.recordSuccess();
+        } else {
+          LOGGER.info("Found " + breakingChanges.size() + " breaking changes:");
 
-      LOGGER.info("Found " + breakingChanges.size() + " breaking changes:");
-
-      for (BreakingChange change : breakingChanges) {
-        csv.writeBreakingChange(current, nextVersion, change);
+          for (BreakingChange change : breakingChanges) {
+            csv.writeBreakingChange(current, nextVersion, change);
+          }
+          failureTracker.recordSuccess();
+        }
+      } catch (Exception e) {
+        LOGGER.log(Level.WARNING, 
+            "Failed to analyze breaking changes between " + current + " and " + nextVersion + ": " + e.getMessage(), e);
+        failureTracker.recordFailure(current, nextVersion, e);
       }
 
       current = nextVersion;

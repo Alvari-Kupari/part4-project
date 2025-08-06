@@ -128,9 +128,6 @@ public class BreakingChangeAnalyzer {
         }
       }
 
-      // Additionally try to resolve kotlin standard library if needed
-      tryAddKotlinStandardLibrary(jarFiles);
-
       if (LOGGER.isLoggable(java.util.logging.Level.INFO)) {
         LOGGER.info(
             String.format(
@@ -153,78 +150,6 @@ public class BreakingChangeAnalyzer {
     }
 
     return jarFiles;
-  }
-
-  /**
-   * Attempts to add Kotlin standard library to the classpath if it's not already present. This is
-   * needed because some libraries (like JUnit platform commons) use Kotlin internally.
-   */
-  private void tryAddKotlinStandardLibrary(List<File> jarFiles) {
-    // Check if kotlin stdlib is already in the list
-    boolean hasKotlinStdlib =
-        jarFiles.stream().anyMatch(jar -> jar.getName().contains("kotlin-stdlib"));
-
-    if (!hasKotlinStdlib) {
-      try {
-        // Try to resolve kotlin-stdlib
-        org.eclipse.aether.artifact.DefaultArtifact kotlinStdlib =
-            new org.eclipse.aether.artifact.DefaultArtifact(
-                "org.jetbrains.kotlin", "kotlin-stdlib", "jar", "1.9.10");
-
-        ArtifactRequest request = new ArtifactRequest();
-        request.setArtifact(kotlinStdlib);
-        request.setRepositories(repositories);
-
-        ArtifactResult result = repositorySystem.resolveArtifact(session, request);
-        File kotlinJar = result.getArtifact().getFile();
-
-        if (kotlinJar != null && kotlinJar.exists()) {
-          jarFiles.add(kotlinJar);
-          LOGGER.info("Added Kotlin standard library to classpath: " + kotlinJar.getAbsolutePath());
-        }
-
-      } catch (ArtifactResolutionException e) {
-        LOGGER.fine("Could not resolve Kotlin standard library: " + e.getMessage());
-      }
-    }
-
-    // Also try to add common optional dependencies
-    tryAddOptionalDependency(jarFiles, "org.osgi", "org.osgi.framework", "1.10.0");
-  }
-
-  /** Attempts to add an optional dependency to avoid missing class errors. */
-  private void tryAddOptionalDependency(
-      List<File> jarFiles, String groupId, String artifactId, String version) {
-    // Check if the dependency is already present
-    boolean hasLibrary = jarFiles.stream().anyMatch(jar -> jar.getName().contains(artifactId));
-
-    if (!hasLibrary) {
-      try {
-        org.eclipse.aether.artifact.DefaultArtifact artifact =
-            new org.eclipse.aether.artifact.DefaultArtifact(groupId, artifactId, "jar", version);
-
-        ArtifactRequest request = new ArtifactRequest();
-        request.setArtifact(artifact);
-        request.setRepositories(repositories);
-
-        ArtifactResult result = repositorySystem.resolveArtifact(session, request);
-        File jarFile = result.getArtifact().getFile();
-
-        if (jarFile != null && jarFile.exists()) {
-          jarFiles.add(jarFile);
-          LOGGER.fine("Added optional dependency to classpath: " + jarFile.getAbsolutePath());
-        }
-
-      } catch (ArtifactResolutionException e) {
-        LOGGER.fine(
-            "Could not resolve optional dependency "
-                + groupId
-                + ":"
-                + artifactId
-                + ": "
-                + e.getMessage());
-      }
-    }
   }
 
   /** Compares two sets of JAR files using JAPICMP and extracts breaking changes. */
@@ -266,6 +191,8 @@ public class BreakingChangeAnalyzer {
     } catch (Exception e) {
       LOGGER.severe("Error comparing JAR files: " + e.getMessage());
       e.printStackTrace();
+      // Re-throw the exception so Script1 can handle it and log the failure
+      throw new RuntimeException("Failed to compare JAR files: " + e.getMessage(), e);
     }
 
     return breakingChanges;
