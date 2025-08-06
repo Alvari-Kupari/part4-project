@@ -20,7 +20,7 @@ public class CsvWriter {
 
   private void writeHeader() throws IOException {
     writer.append(
-        "Dependency,Current_Version,Latest_Minor_Version,Class_Name,Member_Name,Change_Type,Description,Binary_Compatible,Source_Compatible\n");
+        "Dependency,Current_Version,Latest_Minor_Version,Class_Name,Member_Name,Change_Type,Description,Binary_Compatible,Source_Compatible,Is_Transitive\n");
     writer.flush();
   }
 
@@ -44,6 +44,8 @@ public class CsvWriter {
         .append(String.valueOf(change.isBinaryCompatible()))
         .append(",")
         .append(String.valueOf(change.isSourceCompatible()))
+        .append(",")
+        .append(String.valueOf(change.isTransitive()))
         .append("\n");
     writer.flush();
     totalBreakingChanges++;

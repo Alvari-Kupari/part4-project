@@ -7,6 +7,7 @@ import com.example.pom.PomException;
 import com.example.pom.PomFile;
 import com.example.stage1.breakingchange.BreakingChange;
 import com.example.stage1.breakingchange.BreakingChangeAnalyzer;
+import com.example.stage1.breakingchange.TransitiveDependencyAnalyzer;
 import com.example.stage1.dependencyupdate.DependencyUpdate;
 import com.example.stage1.dependencyupdate.NoDependencyUpdateException;
 import com.example.stage1.dependencyupdate.VersionResolutionException;
@@ -14,6 +15,7 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -32,6 +34,8 @@ public class Script1 {
   private static final RepositorySystemSession session = RepositorySystemFactory.newSession(system);
   private static final BreakingChangeAnalyzer breakingChangeAnalyzer =
       new BreakingChangeAnalyzer(system, session);
+  private static final TransitiveDependencyAnalyzer transitiveDependencyAnalyzer =
+      new TransitiveDependencyAnalyzer(system, session, breakingChangeAnalyzer);
   private static final Logger LOGGER = Logger.getLogger(Script1.class.getName());
   private static FailureTracker failureTracker;
 
@@ -129,18 +133,43 @@ public class Script1 {
           "Analyzing breaking changes between dependencies " + current + " and " + nextVersion);
 
       try {
-        List<BreakingChange> breakingChanges =
+        // 1. Analyze direct dependency breaking changes
+        List<BreakingChange> directBreakingChanges =
             breakingChangeAnalyzer.analyzeBreakingChanges(current, nextVersion);
 
-        if (breakingChanges.isEmpty()) {
-          LOGGER.info("No breaking changes detected.");
+        // 2. Find transitive dependency version changes
+        List<TransitiveDependencyAnalyzer.TransitiveDependencyChange> transitiveChanges =
+            transitiveDependencyAnalyzer.findTransitiveDependencyChanges(current, nextVersion);
+
+        // 3. Analyze breaking changes in each transitive dependency update
+        List<BreakingChange> transitiveBreakingChanges = new ArrayList<>();
+        for (TransitiveDependencyAnalyzer.TransitiveDependencyChange transitiveChange : transitiveChanges) {
+          LOGGER.info("Analyzing transitive breaking changes for: " + transitiveChange);
+          List<BreakingChange> changes = 
+              transitiveDependencyAnalyzer.analyzeTransitiveBreakingChanges(transitiveChange);
+          transitiveBreakingChanges.addAll(changes);
+        }
+
+        // 4. Log and write results
+        int totalBreakingChanges = directBreakingChanges.size() + transitiveBreakingChanges.size();
+        
+        if (totalBreakingChanges == 0) {
+          LOGGER.info("No breaking changes detected (direct or transitive).");
           failureTracker.recordSuccess();
         } else {
-          LOGGER.info("Found " + breakingChanges.size() + " breaking changes:");
+          LOGGER.info(String.format("Found %d total breaking changes (%d direct, %d transitive):",
+              totalBreakingChanges, directBreakingChanges.size(), transitiveBreakingChanges.size()));
 
-          for (BreakingChange change : breakingChanges) {
+          // Write direct dependency breaking changes
+          for (BreakingChange change : directBreakingChanges) {
             csv.writeBreakingChange(current, nextVersion, change);
           }
+
+          // Write transitive dependency breaking changes
+          for (BreakingChange change : transitiveBreakingChanges) {
+            csv.writeBreakingChange(current, nextVersion, change);
+          }
+          
           failureTracker.recordSuccess();
         }
       } catch (Exception e) {

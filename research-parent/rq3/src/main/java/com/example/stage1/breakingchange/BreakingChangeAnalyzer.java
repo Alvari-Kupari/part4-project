@@ -334,6 +334,7 @@ public class BreakingChangeAnalyzer {
               .newVersion(newVersion)
               .isBinaryCompatible(jApiClass.isBinaryCompatible())
               .isSourceCompatible(jApiClass.isSourceCompatible())
+              .isTransitive(false) // Direct dependency changes are not transitive
               .build());
     }
 
@@ -352,6 +353,7 @@ public class BreakingChangeAnalyzer {
                 .newVersion(newVersion)
                 .isBinaryCompatible(method.isBinaryCompatible())
                 .isSourceCompatible(method.isSourceCompatible())
+                .isTransitive(false) // Direct dependency changes are not transitive
                 .build());
       }
     }
@@ -371,6 +373,7 @@ public class BreakingChangeAnalyzer {
                 .newVersion(newVersion)
                 .isBinaryCompatible(field.isBinaryCompatible())
                 .isSourceCompatible(field.isSourceCompatible())
+                .isTransitive(false) // Direct dependency changes are not transitive
                 .build());
       }
     }
@@ -391,6 +394,7 @@ public class BreakingChangeAnalyzer {
                 .newVersion(newVersion)
                 .isBinaryCompatible(constructor.isBinaryCompatible())
                 .isSourceCompatible(constructor.isSourceCompatible())
+                .isTransitive(false) // Direct dependency changes are not transitive
                 .build());
       }
     }
