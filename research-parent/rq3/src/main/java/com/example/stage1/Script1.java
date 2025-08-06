@@ -7,6 +7,7 @@ import com.example.pom.PomException;
 import com.example.pom.PomFile;
 import com.example.stage1.breakingchange.BreakingChange;
 import com.example.stage1.breakingchange.BreakingChangeAnalyzer;
+import com.example.stage1.breakingchange.TransitiveDependencyAnalyzer;
 import com.example.stage1.dependencyupdate.DependencyUpdate;
 import com.example.stage1.dependencyupdate.NoDependencyUpdateException;
 import com.example.stage1.dependencyupdate.VersionResolutionException;
@@ -14,6 +15,7 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -24,16 +26,18 @@ import org.eclipse.aether.graph.Dependency;
 public class Script1 {
   private static final Path csvFolder =
       Paths.get(
-          "C:\\Users\\Alvari\\Documents\\UNI\\softeng_700\\part4-project\\r"
-              + "esearch-parent\\rq3\\data");
+          "C:\\Users\\Tony\\Desktop\\csv");
 
   private static final Path reposFolder =
-      Paths.get("C:\\Users\\Alvari\\Documents\\UNI\\archive\\SOFTENG_206\\repos");
+      Paths.get("C:\\Users\\Tony\\Desktop\\repos");
   private static final RepositorySystem system = RepositorySystemFactory.newRepositorySystem();
   private static final RepositorySystemSession session = RepositorySystemFactory.newSession(system);
   private static final BreakingChangeAnalyzer breakingChangeAnalyzer =
       new BreakingChangeAnalyzer(system, session);
+  private static final TransitiveDependencyAnalyzer transitiveDependencyAnalyzer =
+      new TransitiveDependencyAnalyzer(system, session, breakingChangeAnalyzer);
   private static final Logger LOGGER = Logger.getLogger(Script1.class.getName());
+  private static FailureTracker failureTracker;
 
   public static void main(String[] args) throws IOException {
 
@@ -42,6 +46,9 @@ public class Script1 {
     }
 
     Files.createDirectories(csvFolder);
+    
+    // Initialize failure tracker
+    failureTracker = new FailureTracker(csvFolder);
 
     List<Repo> repos = Repo.getRepos(reposFolder);
 
@@ -72,6 +79,16 @@ public class Script1 {
         }
       }
     }
+    
+    // Print final statistics and close failure tracker
+    LOGGER.info("\n\n========== FINAL ANALYSIS STATISTICS ==========");
+    LOGGER.info("Total comparisons attempted: " + failureTracker.getTotalComparisons());
+    LOGGER.info("Failed comparisons: " + failureTracker.getFailedComparisons());
+    LOGGER.info("Success rate: " + String.format("%.2f%%", failureTracker.getSuccessRate()));
+    LOGGER.info("See detailed failure log in the CSV folder: " + csvFolder.toAbsolutePath());
+    LOGGER.info("================================================\n");
+    
+    failureTracker.close();
   }
 
   private static void performSubmoduleAnalysis(SubModule submodule)
@@ -115,18 +132,74 @@ public class Script1 {
       LOGGER.info(
           "Analyzing breaking changes between dependencies " + current + " and " + nextVersion);
 
-      List<BreakingChange> breakingChanges =
-          breakingChangeAnalyzer.analyzeBreakingChanges(current, nextVersion);
+      try {
+        // 1. Analyze direct dependency breaking changes
+        List<BreakingChange> directBreakingChanges =
+            breakingChangeAnalyzer.analyzeBreakingChanges(current, nextVersion);
 
-      if (breakingChanges.isEmpty()) {
-        LOGGER.info("No breaking changes detected.");
-        continue;
-      }
+        // 2. Find transitive dependency version changes
+        List<TransitiveDependencyAnalyzer.TransitiveDependencyChange> transitiveChanges =
+            transitiveDependencyAnalyzer.findTransitiveDependencyChanges(current, nextVersion);
 
-      LOGGER.info("Found " + breakingChanges.size() + " breaking changes:");
+        // 3. Analyze breaking changes in each transitive dependency update
+        List<BreakingChange> transitiveBreakingChanges = new ArrayList<>();
+        for (TransitiveDependencyAnalyzer.TransitiveDependencyChange transitiveChange : transitiveChanges) {
+          LOGGER.info("Analyzing transitive breaking changes for: " + transitiveChange);
+          List<BreakingChange> changes = 
+              transitiveDependencyAnalyzer.analyzeTransitiveBreakingChanges(transitiveChange);
+          transitiveBreakingChanges.addAll(changes);
+        }
 
-      for (BreakingChange change : breakingChanges) {
-        csv.writeBreakingChange(current, nextVersion, change);
+        // 4. Log and write results
+        int totalBreakingChanges = directBreakingChanges.size() + transitiveBreakingChanges.size();
+        
+        if (totalBreakingChanges == 0) {
+          LOGGER.info("No breaking changes detected (direct or transitive).");
+          failureTracker.recordSuccess();
+        } else {
+          LOGGER.info(String.format("Found %d total breaking changes (%d direct, %d transitive):",
+              totalBreakingChanges, directBreakingChanges.size(), transitiveBreakingChanges.size()));
+
+          // Write direct dependency breaking changes
+          for (BreakingChange change : directBreakingChanges) {
+            csv.writeBreakingChange(current, nextVersion, change);
+          }
+
+          // Write transitive dependency breaking changes
+          for (BreakingChange change : transitiveBreakingChanges) {
+            // For transitive changes, we need to find the actual transitive dependency from the change
+            // and pass the direct dependency update information
+            String transitiveLibraryName = change.getLibraryName();
+            String[] parts = transitiveLibraryName.split(":");
+            
+            if (parts.length >= 2) {
+              // Create a dependency object for the transitive dependency to write to CSV
+              org.eclipse.aether.artifact.Artifact transitiveArtifact = 
+                  new org.eclipse.aether.artifact.DefaultArtifact(
+                      parts[0], parts[1], "jar", change.getOldVersion());
+              org.eclipse.aether.graph.Dependency transitiveDep = 
+                  new org.eclipse.aether.graph.Dependency(transitiveArtifact, "compile");
+              
+              org.eclipse.aether.artifact.Artifact transitiveNewArtifact = 
+                  new org.eclipse.aether.artifact.DefaultArtifact(
+                      parts[0], parts[1], "jar", change.getNewVersion());
+              org.eclipse.aether.graph.Dependency transitiveNewDep = 
+                  new org.eclipse.aether.graph.Dependency(transitiveNewArtifact, "compile");
+              
+              // Write with direct dependency information
+              csv.writeBreakingChange(transitiveDep, transitiveNewDep, change, current, current, nextVersion);
+            } else {
+              // Fallback: use the direct dependency info if parsing fails
+              csv.writeBreakingChange(current, nextVersion, change, current, current, nextVersion);
+            }
+          }
+          
+          failureTracker.recordSuccess();
+        }
+      } catch (Exception e) {
+        LOGGER.log(Level.WARNING, 
+            "Failed to analyze breaking changes between " + current + " and " + nextVersion + ": " + e.getMessage(), e);
+        failureTracker.recordFailure(current, nextVersion, e);
       }
 
       current = nextVersion;

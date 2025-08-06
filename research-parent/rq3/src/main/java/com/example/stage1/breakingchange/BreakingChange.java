@@ -11,6 +11,7 @@ public class BreakingChange {
   private final String newVersion;
   private final boolean isBinaryCompatible;
   private final boolean isSourceCompatible;
+  private final boolean isTransitive;
 
   private BreakingChange(Builder builder) {
     this.className = builder.className;
@@ -22,6 +23,7 @@ public class BreakingChange {
     this.newVersion = builder.newVersion;
     this.isBinaryCompatible = builder.isBinaryCompatible;
     this.isSourceCompatible = builder.isSourceCompatible;
+    this.isTransitive = builder.isTransitive;
   }
 
   public static Builder builder() {
@@ -38,6 +40,7 @@ public class BreakingChange {
     private String newVersion;
     private boolean isBinaryCompatible;
     private boolean isSourceCompatible;
+    private boolean isTransitive;
 
     public Builder className(String className) {
       this.className = className;
@@ -84,6 +87,11 @@ public class BreakingChange {
       return this;
     }
 
+    public Builder isTransitive(boolean isTransitive) {
+      this.isTransitive = isTransitive;
+      return this;
+    }
+
     public BreakingChange build() {
       return new BreakingChange(this);
     }
@@ -126,11 +134,15 @@ public class BreakingChange {
     return isSourceCompatible;
   }
 
+  public boolean isTransitive() {
+    return isTransitive;
+  }
+
   @Override
   public String toString() {
     return String.format(
         "BreakingChange{library='%s', %s->%s, class='%s', member='%s', type='%s',"
-            + " compatible=binary:%s/source:%s}",
+            + " compatible=binary:%s/source:%s, transitive=%s}",
         libraryName,
         oldVersion,
         newVersion,
@@ -138,6 +150,7 @@ public class BreakingChange {
         memberName,
         changeType,
         isBinaryCompatible,
-        isSourceCompatible);
+        isSourceCompatible,
+        isTransitive);
   }
 }
