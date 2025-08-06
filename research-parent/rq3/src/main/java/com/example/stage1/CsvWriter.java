@@ -20,11 +20,17 @@ public class CsvWriter {
 
   private void writeHeader() throws IOException {
     writer.append(
-        "Dependency,Current_Version,Latest_Minor_Version,Class_Name,Member_Name,Change_Type,Description,Binary_Compatible,Source_Compatible,Is_Transitive\n");
+        "Dependency,Current_Version,Latest_Minor_Version,Class_Name,Member_Name,Change_Type,Description,Binary_Compatible,Source_Compatible,Is_Transitive,Direct_Dependency_Updated,Direct_Dependency_Old_Version,Direct_Dependency_New_Version\n");
     writer.flush();
   }
 
   public void writeBreakingChange(Dependency dep, Dependency latestMinor, BreakingChange change)
+      throws IOException {
+    writeBreakingChange(dep, latestMinor, change, null, null, null);
+  }
+
+  public void writeBreakingChange(Dependency dep, Dependency latestMinor, BreakingChange change,
+      Dependency directDepUpdated, Dependency directDepOldVersion, Dependency directDepNewVersion)
       throws IOException {
     writer
         .append(escape(dep.getArtifact().getGroupId() + ":" + dep.getArtifact().getArtifactId()))
@@ -46,7 +52,20 @@ public class CsvWriter {
         .append(String.valueOf(change.isSourceCompatible()))
         .append(",")
         .append(String.valueOf(change.isTransitive()))
-        .append("\n");
+        .append(",");
+    
+    // Add direct dependency information for transitive changes
+    if (change.isTransitive() && directDepUpdated != null && directDepOldVersion != null && directDepNewVersion != null) {
+      writer.append(escape(directDepUpdated.getArtifact().getGroupId() + ":" + directDepUpdated.getArtifact().getArtifactId()))
+          .append(",")
+          .append(escape(directDepOldVersion.getArtifact().getVersion()))
+          .append(",")
+          .append(escape(directDepNewVersion.getArtifact().getVersion()));
+    } else {
+      writer.append(",,"); // Empty values for direct dependency changes
+    }
+    
+    writer.append("\n");
     writer.flush();
     totalBreakingChanges++;
   }

@@ -167,7 +167,31 @@ public class Script1 {
 
           // Write transitive dependency breaking changes
           for (BreakingChange change : transitiveBreakingChanges) {
-            csv.writeBreakingChange(current, nextVersion, change);
+            // For transitive changes, we need to find the actual transitive dependency from the change
+            // and pass the direct dependency update information
+            String transitiveLibraryName = change.getLibraryName();
+            String[] parts = transitiveLibraryName.split(":");
+            
+            if (parts.length >= 2) {
+              // Create a dependency object for the transitive dependency to write to CSV
+              org.eclipse.aether.artifact.Artifact transitiveArtifact = 
+                  new org.eclipse.aether.artifact.DefaultArtifact(
+                      parts[0], parts[1], "jar", change.getOldVersion());
+              org.eclipse.aether.graph.Dependency transitiveDep = 
+                  new org.eclipse.aether.graph.Dependency(transitiveArtifact, "compile");
+              
+              org.eclipse.aether.artifact.Artifact transitiveNewArtifact = 
+                  new org.eclipse.aether.artifact.DefaultArtifact(
+                      parts[0], parts[1], "jar", change.getNewVersion());
+              org.eclipse.aether.graph.Dependency transitiveNewDep = 
+                  new org.eclipse.aether.graph.Dependency(transitiveNewArtifact, "compile");
+              
+              // Write with direct dependency information
+              csv.writeBreakingChange(transitiveDep, transitiveNewDep, change, current, current, nextVersion);
+            } else {
+              // Fallback: use the direct dependency info if parsing fails
+              csv.writeBreakingChange(current, nextVersion, change, current, current, nextVersion);
+            }
           }
           
           failureTracker.recordSuccess();
