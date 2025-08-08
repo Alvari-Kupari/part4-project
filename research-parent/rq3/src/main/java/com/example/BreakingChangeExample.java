@@ -1,8 +1,8 @@
-package com.example.stage1;
+package com.example;
 
+import com.example.breakingchange.BreakingChange;
+import com.example.breakingchange.BreakingChangeAnalyzer;
 import com.example.depanalyzer.analyzer.analysis.RepositorySystemFactory;
-import com.example.stage1.breakingchange.BreakingChange;
-import com.example.stage1.breakingchange.BreakingChangeAnalyzer;
 import java.util.List;
 import org.eclipse.aether.RepositorySystem;
 import org.eclipse.aether.RepositorySystemSession;

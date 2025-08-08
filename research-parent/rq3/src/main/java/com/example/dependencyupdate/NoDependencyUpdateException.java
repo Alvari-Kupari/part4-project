@@ -1,4 +1,4 @@
-package com.example.stage1.dependencyupdate;
+package com.example.dependencyupdate;
 
 public class NoDependencyUpdateException extends Exception {
 

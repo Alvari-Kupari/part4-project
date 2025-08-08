@@ -1,6 +1,8 @@
-package com.example.stage2;
+package com.example.parsing;
 
+import com.example.BreakingChangeUse;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
 
 public class SymbolChecker {
@@ -12,7 +14,8 @@ public class SymbolChecker {
     this.names = new HashSet<>();
   }
 
-  public void checkNameUsage(String fullyQualifiedName, String exprType) {
+  public void checkNameUsage(
+      String fullyQualifiedName, List<BreakingChangeUse> uses, String exprType) {
     if (names.contains(fullyQualifiedName)) {
       // do something
     }

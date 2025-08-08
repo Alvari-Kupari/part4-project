@@ -1,4 +1,4 @@
-package com.example.stage1.breakingchange;
+package com.example.breakingchange;
 
 /** Represents a breaking change detected by JAPICMP between two versions of a dependency. */
 public class BreakingChange {

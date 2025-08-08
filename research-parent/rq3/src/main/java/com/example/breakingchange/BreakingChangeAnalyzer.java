@@ -1,4 +1,4 @@
-package com.example.stage1.breakingchange;
+package com.example.breakingchange;
 
 import com.example.depanalyzer.analyzer.dependencycollection.Repositories;
 import japicmp.cmp.JApiCmpArchive;

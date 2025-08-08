@@ -1,14 +1,15 @@
-package com.example.stage2.parsing;
+package com.example.parsing;
 
+import com.example.BreakingChangeUse;
 import com.example.depanalyzer.analyzer.analysis.Parser;
-import com.example.stage2.SymbolChecker;
 import com.github.javaparser.ast.expr.*;
 import com.github.javaparser.ast.type.ClassOrInterfaceType;
 import com.github.javaparser.ast.visitor.VoidVisitorAdapter;
 import com.github.javaparser.resolution.declarations.*;
 import com.github.javaparser.resolution.types.ResolvedType;
+import java.util.List;
 
-public class Visitor extends VoidVisitorAdapter<Void> {
+public class Visitor extends VoidVisitorAdapter<List<BreakingChangeUse>> {
   Parser a;
   private final SymbolChecker checker;
 
@@ -17,50 +18,50 @@ public class Visitor extends VoidVisitorAdapter<Void> {
   }
 
   @Override
-  public void visit(MethodCallExpr n, Void arg) {
+  public void visit(MethodCallExpr n, List<BreakingChangeUse> uses) {
     ResolvedMethodDeclaration resolved = n.resolve();
     String fqn = resolved.getQualifiedSignature();
-    checker.checkNameUsage(fqn, "MethodCallExpr");
-    super.visit(n, arg);
+    checker.checkNameUsage(fqn, uses, "MethodCallExpr");
+    super.visit(n, uses);
   }
 
   @Override
-  public void visit(ObjectCreationExpr n, Void arg) {
+  public void visit(ObjectCreationExpr n, List<BreakingChangeUse> uses) {
     ResolvedConstructorDeclaration resolved = n.resolve();
     String fqn = resolved.getQualifiedSignature();
-    checker.checkNameUsage(fqn, "ObjectCreationExpr");
-    super.visit(n, arg);
+    checker.checkNameUsage(fqn, uses, "ObjectCreationExpr");
+    super.visit(n, uses);
   }
 
   @Override
-  public void visit(FieldAccessExpr n, Void arg) {
+  public void visit(FieldAccessExpr n, List<BreakingChangeUse> uses) {
     ResolvedValueDeclaration resolved = n.resolve();
     String fqn = resolved.getType().describe();
-    checker.checkNameUsage(fqn, "FieldAccessExpr");
-    super.visit(n, arg);
+    checker.checkNameUsage(fqn, uses, "FieldAccessExpr");
+    super.visit(n, uses);
   }
 
   @Override
-  public void visit(NameExpr n, Void arg) {
+  public void visit(NameExpr n, List<BreakingChangeUse> uses) {
     ResolvedValueDeclaration resolved = n.resolve();
     String fqn = resolved.getType().describe();
-    checker.checkNameUsage(fqn, "NameExpr");
-    super.visit(n, arg);
+    checker.checkNameUsage(fqn, uses, "NameExpr");
+    super.visit(n, uses);
   }
 
   @Override
-  public void visit(MethodReferenceExpr n, Void arg) {
+  public void visit(MethodReferenceExpr n, List<BreakingChangeUse> uses) {
     ResolvedMethodLikeDeclaration resolved = n.resolve();
     String fqn = resolved.getQualifiedSignature();
-    checker.checkNameUsage(fqn, "MethodReferenceExpr");
-    super.visit(n, arg);
+    checker.checkNameUsage(fqn, uses, "MethodReferenceExpr");
+    super.visit(n, uses);
   }
 
   @Override
-  public void visit(ClassOrInterfaceType n, Void arg) {
+  public void visit(ClassOrInterfaceType n, List<BreakingChangeUse> uses) {
     ResolvedType resolved = n.resolve();
     String fqn = resolved.describe();
-    checker.checkNameUsage(fqn, "ClassOrInterfaceType");
-    super.visit(n, arg);
+    checker.checkNameUsage(fqn, uses, "ClassOrInterfaceType");
+    super.visit(n, uses);
   }
 }

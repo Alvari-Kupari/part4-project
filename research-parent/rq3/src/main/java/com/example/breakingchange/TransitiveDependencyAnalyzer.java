@@ -1,4 +1,4 @@
-package com.example.stage1.breakingchange;
+package com.example.breakingchange;
 
 import com.example.depanalyzer.analyzer.dependencycollection.Repositories;
 import java.util.ArrayList;
@@ -17,12 +17,11 @@ import org.eclipse.aether.resolution.DependencyResolutionException;
 import org.eclipse.aether.resolution.DependencyResult;
 import org.eclipse.aether.util.graph.visitor.PreorderNodeListGenerator;
 
-/**
- * Analyzes changes in transitive dependencies when a direct dependency is updated.
- */
+/** Analyzes changes in transitive dependencies when a direct dependency is updated. */
 public class TransitiveDependencyAnalyzer {
 
-  private static final Logger LOGGER = Logger.getLogger(TransitiveDependencyAnalyzer.class.getName());
+  private static final Logger LOGGER =
+      Logger.getLogger(TransitiveDependencyAnalyzer.class.getName());
 
   private final RepositorySystem repositorySystem;
   private final RepositorySystemSession session;
@@ -30,7 +29,7 @@ public class TransitiveDependencyAnalyzer {
   private final BreakingChangeAnalyzer breakingChangeAnalyzer;
 
   public TransitiveDependencyAnalyzer(
-      RepositorySystem repositorySystem, 
+      RepositorySystem repositorySystem,
       RepositorySystemSession session,
       BreakingChangeAnalyzer breakingChangeAnalyzer) {
     this.repositorySystem = repositorySystem;
@@ -39,16 +38,15 @@ public class TransitiveDependencyAnalyzer {
     this.breakingChangeAnalyzer = breakingChangeAnalyzer;
   }
 
-  /**
-   * Represents a transitive dependency change when a direct dependency is updated.
-   */
+  /** Represents a transitive dependency change when a direct dependency is updated. */
   public static class TransitiveDependencyChange {
     private final String groupId;
     private final String artifactId;
     private final String oldVersion;
     private final String newVersion;
 
-    public TransitiveDependencyChange(String groupId, String artifactId, String oldVersion, String newVersion) {
+    public TransitiveDependencyChange(
+        String groupId, String artifactId, String oldVersion, String newVersion) {
       this.groupId = groupId;
       this.artifactId = artifactId;
       this.oldVersion = oldVersion;
@@ -79,18 +77,20 @@ public class TransitiveDependencyAnalyzer {
 
   /**
    * Finds all transitive dependency version changes when updating a direct dependency.
-   * 
+   *
    * @param oldDirectDependency The old version of the direct dependency
    * @param newDirectDependency The new version of the direct dependency
    * @return List of transitive dependency changes
    */
   public List<TransitiveDependencyChange> findTransitiveDependencyChanges(
       Dependency oldDirectDependency, Dependency newDirectDependency) {
-    
-    LOGGER.info(String.format("Analyzing transitive dependency changes for %s (%s -> %s)",
-        oldDirectDependency.getArtifact().getArtifactId(),
-        oldDirectDependency.getArtifact().getVersion(),
-        newDirectDependency.getArtifact().getVersion()));
+
+    LOGGER.info(
+        String.format(
+            "Analyzing transitive dependency changes for %s (%s -> %s)",
+            oldDirectDependency.getArtifact().getArtifactId(),
+            oldDirectDependency.getArtifact().getVersion(),
+            newDirectDependency.getArtifact().getVersion()));
 
     // Get transitive dependencies for both versions
     Map<String, String> oldTransitives = getTransitiveDependencyVersions(oldDirectDependency);
@@ -116,63 +116,69 @@ public class TransitiveDependencyAnalyzer {
 
   /**
    * Analyzes breaking changes in transitive dependencies and marks them as transitive.
-   * 
+   *
    * @param transitiveDependencyChange The transitive dependency change to analyze
    * @return List of breaking changes found in this transitive dependency
    */
   public List<BreakingChange> analyzeTransitiveBreakingChanges(
       TransitiveDependencyChange transitiveDependencyChange) {
-    
+
     try {
       // Create Dependency objects for the old and new versions of the transitive dependency
-      Artifact oldArtifact = new org.eclipse.aether.artifact.DefaultArtifact(
-          transitiveDependencyChange.getGroupId(),
-          transitiveDependencyChange.getArtifactId(),
-          "jar",
-          transitiveDependencyChange.getOldVersion());
-      
-      Artifact newArtifact = new org.eclipse.aether.artifact.DefaultArtifact(
-          transitiveDependencyChange.getGroupId(),
-          transitiveDependencyChange.getArtifactId(),
-          "jar",
-          transitiveDependencyChange.getNewVersion());
+      Artifact oldArtifact =
+          new org.eclipse.aether.artifact.DefaultArtifact(
+              transitiveDependencyChange.getGroupId(),
+              transitiveDependencyChange.getArtifactId(),
+              "jar",
+              transitiveDependencyChange.getOldVersion());
+
+      Artifact newArtifact =
+          new org.eclipse.aether.artifact.DefaultArtifact(
+              transitiveDependencyChange.getGroupId(),
+              transitiveDependencyChange.getArtifactId(),
+              "jar",
+              transitiveDependencyChange.getNewVersion());
 
       Dependency oldDep = new Dependency(oldArtifact, "compile");
       Dependency newDep = new Dependency(newArtifact, "compile");
 
       // Use the existing breaking change analyzer
-      List<BreakingChange> breakingChanges = breakingChangeAnalyzer.analyzeBreakingChanges(oldDep, newDep);
+      List<BreakingChange> breakingChanges =
+          breakingChangeAnalyzer.analyzeBreakingChanges(oldDep, newDep);
 
       // Mark all changes as transitive
       List<BreakingChange> transitiveBreakingChanges = new ArrayList<>();
       for (BreakingChange change : breakingChanges) {
-        BreakingChange transitiveChange = BreakingChange.builder()
-            .className(change.getClassName())
-            .memberName(change.getMemberName())
-            .changeType(change.getChangeType())
-            .description(change.getDescription())
-            .libraryName(change.getLibraryName())
-            .oldVersion(change.getOldVersion())
-            .newVersion(change.getNewVersion())
-            .isBinaryCompatible(change.isBinaryCompatible())
-            .isSourceCompatible(change.isSourceCompatible())
-            .isTransitive(true) // Mark as transitive
-            .build();
+        BreakingChange transitiveChange =
+            BreakingChange.builder()
+                .className(change.getClassName())
+                .memberName(change.getMemberName())
+                .changeType(change.getChangeType())
+                .description(change.getDescription())
+                .libraryName(change.getLibraryName())
+                .oldVersion(change.getOldVersion())
+                .newVersion(change.getNewVersion())
+                .isBinaryCompatible(change.isBinaryCompatible())
+                .isSourceCompatible(change.isSourceCompatible())
+                .isTransitive(true) // Mark as transitive
+                .build();
         transitiveBreakingChanges.add(transitiveChange);
       }
 
       return transitiveBreakingChanges;
 
     } catch (Exception e) {
-      LOGGER.warning(String.format("Failed to analyze transitive breaking changes for %s: %s",
-          transitiveDependencyChange, e.getMessage()));
+      LOGGER.warning(
+          String.format(
+              "Failed to analyze transitive breaking changes for %s: %s",
+              transitiveDependencyChange, e.getMessage()));
       return new ArrayList<>();
     }
   }
 
   /**
    * Gets all transitive dependency versions for a given direct dependency.
-   * 
+   *
    * @param dependency The direct dependency to analyze
    * @return Map from "groupId:artifactId" to version string
    */
@@ -187,7 +193,8 @@ public class TransitiveDependencyAnalyzer {
       DependencyRequest dependencyRequest = new DependencyRequest();
       dependencyRequest.setCollectRequest(collectRequest);
 
-      DependencyResult dependencyResult = repositorySystem.resolveDependencies(session, dependencyRequest);
+      DependencyResult dependencyResult =
+          repositorySystem.resolveDependencies(session, dependencyRequest);
 
       PreorderNodeListGenerator nlg = new PreorderNodeListGenerator();
       dependencyResult.getRoot().accept(nlg);
@@ -197,7 +204,7 @@ public class TransitiveDependencyAnalyzer {
       for (int i = 1; i < dependencies.size(); i++) {
         Dependency dep = dependencies.get(i);
         Artifact artifact = dep.getArtifact();
-        
+
         // Only include jar artifacts
         if ("jar".equals(artifact.getExtension())) {
           String coordinates = artifact.getGroupId() + ":" + artifact.getArtifactId();
@@ -206,8 +213,9 @@ public class TransitiveDependencyAnalyzer {
       }
 
     } catch (DependencyResolutionException e) {
-      LOGGER.warning(String.format("Failed to resolve transitive dependencies for %s: %s",
-          dependency, e.getMessage()));
+      LOGGER.warning(
+          String.format(
+              "Failed to resolve transitive dependencies for %s: %s", dependency, e.getMessage()));
     }
 
     return transitiveDeps;

@@ -1,4 +1,4 @@
-package com.example.stage2.parsing;
+package com.example.parsing;
 
 import com.github.javaparser.JavaParser;
 import com.github.javaparser.ParseResult;
