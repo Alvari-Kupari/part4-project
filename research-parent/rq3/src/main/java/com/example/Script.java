@@ -89,13 +89,13 @@ public class Script {
     PomFile pom = new PomFile(submodule.getDir());
     List<Dependency> deps = pom.getDependencies();
 
-    // Derive base and -all paths once per submodule
-    String csvFileName = submodule.getRepo().getName() + "_" + submodule.getName() + ".csv";
-    java.nio.file.Path basePath = csvFolder.resolve(csvFileName);
-    int dot = csvFileName.lastIndexOf('.');
-    String allName =
-        (dot >= 0) ? csvFileName.substring(0, dot) + "-all" + csvFileName.substring(dot) : csvFileName + "-all";
-    java.nio.file.Path allPath = basePath.resolveSibling(allName);
+    // Initialize CSV writers once for the entire submodule (to accumulate across all dependencies)
+    AllBreakingChangesCsvWriter allBcWriter = new AllBreakingChangesCsvWriter(submodule, csvFolder, "-all-breaking-changes");
+    UsedBreakingChangesCsvWriter usedBcWriter = new UsedBreakingChangesCsvWriter(submodule, csvFolder, "-used-breaking-changes");
+    
+    int totalDirectBreakingChanges = 0;
+    int totalTransitiveBreakingChanges = 0;
+    int totalUsedBreakingChanges = 0;
 
     for (Dependency dep : deps) {
 
@@ -136,49 +136,44 @@ public class Script {
       LOGGER.info("Found " + directBreakingChanges.size() + " direct and " + 
                  transitiveBreakingChanges.size() + " transitive breaking changes for dependency: " + dep);
 
+      // Update totals
+      totalDirectBreakingChanges += directBreakingChanges.size();
+      totalTransitiveBreakingChanges += transitiveBreakingChanges.size();
+
       // Only proceed with client analysis if we found breaking changes
       if (!directBreakingChanges.isEmpty() || !transitiveBreakingChanges.isEmpty()) {
         
-        // Write the intermediate CSV with all breaking changes found (for manual inspection)
-        AllBreakingChangesCsvWriter allBcWriter = new AllBreakingChangesCsvWriter(submodule, csvFolder, "-detected-breaking-changes");
+        // 1. Append to the ALL CSV with all breaking changes found
         allBcWriter.writeAllBreakingChanges(directBreakingChanges, transitiveBreakingChanges);
-        allBcWriter.close();
         
-        // Now run client analysis to see which ones are actually used
+        // 2. Now run client analysis to see which ones are actually used
         ClientAnalysis clientAnalysis =
             new ClientAnalysis(submodule, directBreakingChanges, transitiveBreakingChanges);
 
         List<BreakingChangeUse> allBreakingChangeUses = clientAnalysis.execute();
 
-        // Filter to only include breaking changes that are actually used by client code
-        List<BreakingChangeUse> usedBreakingChanges = allBreakingChangeUses.stream()
-            .filter(BreakingChangeUse::isUsedInClient)
-            .collect(java.util.stream.Collectors.toList());
-
-        // Write the main CSV with only breaking changes used by client code
-        CsvWriter csv = new CsvWriter(submodule, csvFolder);
-        csv.writeResults(usedBreakingChanges);
-        csv.close();
-
-        // Write the -all CSV with all breaking changes (used and unused) from client analysis
-        CsvWriter allCsv = new CsvWriter(allPath, java.nio.file.Files.exists(allPath));
-        allCsv.writeResults(allBreakingChangeUses);
-        allCsv.close();
+        // 3. Append to CSV with only breaking changes that are used in client code
+        usedBcWriter.writeUsedBreakingChanges(allBreakingChangeUses);
         
-        LOGGER.info("Client analysis complete for dependency " + dep + ". " + usedBreakingChanges.size() + 
-                   " breaking changes used in client code out of " + allBreakingChangeUses.size() + " total");
+        // Count for logging
+        long usedCount = allBreakingChangeUses.stream().filter(BreakingChangeUse::isUsedInClient).count();
+        totalUsedBreakingChanges += (int) usedCount;
+        
+        LOGGER.info("Client analysis complete for dependency " + dep + ". " + usedCount + 
+                   " breaking changes used in client code out of " + (directBreakingChanges.size() + transitiveBreakingChanges.size()) + " total");
       } else {
         LOGGER.info("No breaking changes found for dependency " + dep + " - skipping client analysis");
-        
-        // Still create empty CSV files for consistency
-        CsvWriter csv = new CsvWriter(submodule, csvFolder);
-        csv.writeResults(java.util.Collections.emptyList());
-        csv.close();
-        
-        CsvWriter allCsv = new CsvWriter(allPath, java.nio.file.Files.exists(allPath));
-        allCsv.writeResults(java.util.Collections.emptyList());
-        allCsv.close();
       }
     }
+    
+    // Close the CSV writers after processing all dependencies
+    allBcWriter.close();
+    usedBcWriter.close();
+    
+    LOGGER.info("=== SUBMODULE SUMMARY for '" + submodule.getName() + "' ===");
+    LOGGER.info("Total direct breaking changes: " + totalDirectBreakingChanges);
+    LOGGER.info("Total transitive breaking changes: " + totalTransitiveBreakingChanges);
+    LOGGER.info("Total used breaking changes: " + totalUsedBreakingChanges);
+    LOGGER.info("Total breaking changes: " + (totalDirectBreakingChanges + totalTransitiveBreakingChanges));
   }
 }

@@ -12,31 +12,18 @@ import java.util.stream.Collectors;
 public class RQ3AnalysisUtil {
   
   /**
-   * Classifies breaking changes by their dependency type and release type
+   * Classifies breaking changes by their dependency type
    */
   public static class BreakingChangeClassification {
-    public int directMajorCount = 0;
-    public int directNonMajorCount = 0;
-    public int transitiveMajorCount = 0;
-    public int transitiveNonMajorCount = 0;
-    
-    public double getDirectNonMajorRate() {
-      int total = directMajorCount + directNonMajorCount;
-      return total > 0 ? (double) directNonMajorCount / total : 0.0;
-    }
-    
-    public double getTransitiveNonMajorRate() {
-      int total = transitiveMajorCount + transitiveNonMajorCount;
-      return total > 0 ? (double) transitiveNonMajorCount / total : 0.0;
-    }
+    public int directCount = 0;
+    public int transitiveCount = 0;
     
     @Override
     public String toString() {
       return String.format(
-          "Direct: %d major, %d non-major (%.2f%% non-major)\n" +
-          "Transitive: %d major, %d non-major (%.2f%% non-major)",
-          directMajorCount, directNonMajorCount, getDirectNonMajorRate() * 100,
-          transitiveMajorCount, transitiveNonMajorCount, getTransitiveNonMajorRate() * 100
+          "Direct: %d breaking changes\n" +
+          "Transitive: %d breaking changes",
+          directCount, transitiveCount
       );
     }
   }
@@ -50,63 +37,17 @@ public class RQ3AnalysisUtil {
     
     BreakingChangeClassification result = new BreakingChangeClassification();
     
-    // Analyze direct breaking changes
-    for (BreakingChange bc : directBreakingChanges) {
-      if (isMajorVersionChange(bc)) {
-        result.directMajorCount++;
-      } else {
-        result.directNonMajorCount++;
-      }
-    }
+    // Count direct breaking changes
+    result.directCount = directBreakingChanges.size();
     
-    // Analyze transitive breaking changes
-    for (BreakingChange bc : transitiveBreakingChanges) {
-      if (isMajorVersionChange(bc)) {
-        result.transitiveMajorCount++;
-      } else {
-        result.transitiveNonMajorCount++;
-      }
-    }
+    // Count transitive breaking changes  
+    result.transitiveCount = transitiveBreakingChanges.size();
     
     return result;
   }
   
   /**
-   * Determines if a breaking change involves a major version change
-   */
-  public static boolean isMajorVersionChange(BreakingChange bc) {
-    String oldVersion = bc.getOldDependency() != null ? 
-        bc.getOldDependency().getArtifact().getVersion() : null;
-    String newVersion = bc.getNewDependency() != null ? 
-        bc.getNewDependency().getArtifact().getVersion() : null;
-    
-    return isMajorVersionChange(oldVersion, newVersion);
-  }
-  
-  /**
-   * Determines if the version change represents a major version bump
-   */
-  public static boolean isMajorVersionChange(String oldVersion, String newVersion) {
-    if (oldVersion == null || newVersion == null) return false;
-    
-    try {
-      String[] oldParts = oldVersion.split("\\.");
-      String[] newParts = newVersion.split("\\.");
-      
-      if (oldParts.length > 0 && newParts.length > 0) {
-        int oldMajor = Integer.parseInt(oldParts[0]);
-        int newMajor = Integer.parseInt(newParts[0]);
-        return newMajor > oldMajor;
-      }
-    } catch (NumberFormatException e) {
-      // Can't parse version numbers, assume non-major for safety
-    }
-    
-    return false;
-  }
-  
-  /**
-   * Determines the type of version change (major, minor, patch)
+   * Determines the type of version change (minor, patch)
    */
   public static String determineReleaseType(String oldVersion, String newVersion) {
     if (oldVersion == null || newVersion == null) return "UNKNOWN";
@@ -116,14 +57,10 @@ public class RQ3AnalysisUtil {
       String[] newParts = newVersion.split("\\.");
       
       if (oldParts.length >= 2 && newParts.length >= 2) {
-        int oldMajor = Integer.parseInt(oldParts[0]);
-        int newMajor = Integer.parseInt(newParts[0]);
         int oldMinor = Integer.parseInt(oldParts[1]);
         int newMinor = Integer.parseInt(newParts[1]);
         
-        if (newMajor > oldMajor) {
-          return "MAJOR";
-        } else if (newMinor > oldMinor) {
+        if (newMinor > oldMinor) {
           return "MINOR";
         } else {
           return "PATCH";

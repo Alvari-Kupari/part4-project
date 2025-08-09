@@ -3,6 +3,7 @@ package com.example;
 import com.example.breakingchange.BreakingChange;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.HashSet;
 import java.util.List;
@@ -17,25 +18,34 @@ import org.eclipse.aether.graph.Dependency;
 public class AllBreakingChangesCsvWriter {
   private final Path path;
   private final FileWriter writer;
+  private boolean headerWritten = false;
 
   public AllBreakingChangesCsvWriter(Path path) throws IOException {
     this.path = path;
-    this.writer = new FileWriter(path.toFile());
-    writeHeader();
+    boolean fileExists = Files.exists(path);
+    this.writer = new FileWriter(path.toFile(), true); // Append mode
+    this.headerWritten = fileExists;
+    if (!fileExists) {
+      writeHeader();
+    }
   }
 
   public AllBreakingChangesCsvWriter(SubModule submodule, Path csvFolder, String suffix) throws IOException {
     String csvFileName = submodule.getRepo().getName() + "_" + submodule.getName() + suffix + ".csv";
     this.path = csvFolder.resolve(csvFileName);
-    this.writer = new FileWriter(path.toFile());
-    writeHeader();
+    boolean fileExists = Files.exists(this.path);
+    this.writer = new FileWriter(this.path.toFile(), true); // Append mode
+    this.headerWritten = fileExists;
+    if (!fileExists) {
+      writeHeader();
+    }
   }
 
   private void writeHeader() throws IOException {
     writer.append(
         "Library_Name,Old_Version,New_Version,Class_Name,Member_Name,Change_Type,Description," +
         "Binary_Compatible,Source_Compatible,Is_Transitive,Depth,Direct_Parent_Dependency," +
-        "Is_Major_Release,Release_Type,Unique_Symbols_Count,Affected_Symbols_Count\n");
+        "Release_Type,Unique_Symbols_Count,Affected_Symbols_Count,Is_Used_In_Client\n");
     writer.flush();
   }
 
@@ -43,18 +53,18 @@ public class AllBreakingChangesCsvWriter {
                                      List<BreakingChange> transitiveBreakingChanges) throws IOException {
     // Write direct breaking changes
     for (BreakingChange bc : directBreakingChanges) {
-      writeBreakingChange(bc, false); // false = direct
+      writeBreakingChange(bc, false, false); // false = direct, false = not used (unknown at this stage)
     }
     
     // Write transitive breaking changes
     for (BreakingChange bc : transitiveBreakingChanges) {
-      writeBreakingChange(bc, true); // true = transitive
+      writeBreakingChange(bc, true, false); // true = transitive, false = not used (unknown at this stage)
     }
     
     writer.flush();
   }
   
-  private void writeBreakingChange(BreakingChange bc, boolean isTransitive) throws IOException {
+  private void writeBreakingChange(BreakingChange bc, boolean isTransitive, boolean isUsedInClient) throws IOException {
     // Extract dependency information
     String libraryName = getDependencyName(bc.getOldDependency());
     String oldVersion = getDependencyVersion(bc.getOldDependency());
@@ -70,8 +80,7 @@ public class AllBreakingChangesCsvWriter {
     int depth = bc.getDepth();
     String directParent = getDependencyName(bc.getDirectParentDependency());
     
-    // Version analysis for RQ3
-    boolean isMajorRelease = isMajorVersionChange(oldVersion, newVersion);
+    // Version analysis (no major version checks since you only do minor updates)
     String releaseType = determineReleaseType(oldVersion, newVersion);
     
     // Calculate normalization metrics
@@ -79,10 +88,10 @@ public class AllBreakingChangesCsvWriter {
     int affectedSymbolsCount = calculateAffectedSymbolsCount(bc);
     
     // Write CSV row
-    writer.append(String.format("%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%d,%s,%s,%s,%d,%d\n",
+    writer.append(String.format("%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%d,%s,%s,%d,%d,%s\n",
         libraryName, oldVersion, newVersion, className, memberName, changeType, description,
         binaryCompatible, sourceCompatible, isTransitive, depth, directParent,
-        isMajorRelease, releaseType, uniqueSymbolsCount, affectedSymbolsCount));
+        releaseType, uniqueSymbolsCount, affectedSymbolsCount, isUsedInClient));
   }
   
   private String getDependencyName(Dependency dep) {
@@ -104,25 +113,6 @@ public class AllBreakingChangesCsvWriter {
     return value;
   }
   
-  private boolean isMajorVersionChange(String oldVersion, String newVersion) {
-    if (oldVersion == null || newVersion == null) return false;
-    
-    try {
-      String[] oldParts = oldVersion.split("\\.");
-      String[] newParts = newVersion.split("\\.");
-      
-      if (oldParts.length > 0 && newParts.length > 0) {
-        int oldMajor = Integer.parseInt(oldParts[0]);
-        int newMajor = Integer.parseInt(newParts[0]);
-        return newMajor > oldMajor;
-      }
-    } catch (NumberFormatException e) {
-      // Can't parse version numbers, assume non-major
-    }
-    
-    return false;
-  }
-  
   private String determineReleaseType(String oldVersion, String newVersion) {
     if (oldVersion == null || newVersion == null) return "UNKNOWN";
     
@@ -131,14 +121,10 @@ public class AllBreakingChangesCsvWriter {
       String[] newParts = newVersion.split("\\.");
       
       if (oldParts.length >= 2 && newParts.length >= 2) {
-        int oldMajor = Integer.parseInt(oldParts[0]);
-        int newMajor = Integer.parseInt(newParts[0]);
         int oldMinor = Integer.parseInt(oldParts[1]);
         int newMinor = Integer.parseInt(newParts[1]);
         
-        if (newMajor > oldMajor) {
-          return "MAJOR";
-        } else if (newMinor > oldMinor) {
+        if (newMinor > oldMinor) {
           return "MINOR";
         } else {
           return "PATCH";
