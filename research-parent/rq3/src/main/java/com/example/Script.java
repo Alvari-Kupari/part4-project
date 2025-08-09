@@ -89,6 +89,14 @@ public class Script {
     PomFile pom = new PomFile(submodule.getDir());
     List<Dependency> deps = pom.getDependencies();
 
+    // Derive base and -all paths once per submodule
+    String csvFileName = submodule.getRepo().getName() + "_" + submodule.getName() + ".csv";
+    java.nio.file.Path basePath = csvFolder.resolve(csvFileName);
+    int dot = csvFileName.lastIndexOf('.');
+    String allName =
+        (dot >= 0) ? csvFileName.substring(0, dot) + "-all" + csvFileName.substring(dot) : csvFileName + "-all";
+    java.nio.file.Path allPath = basePath.resolveSibling(allName);
+
     for (Dependency dep : deps) {
 
       DependencyAnalysis dependencyAnalysis = new DependencyAnalysis(dep, failureTracker);
@@ -117,14 +125,60 @@ public class Script {
       List<BreakingChange> transitiveBreakingChanges =
           dependencyAnalysis.getTransitiveBreakingChanges();
 
-      ClientAnalysis clientAnalysis =
-          new ClientAnalysis(submodule, directBreakingChanges, transitiveBreakingChanges);
+      // Null-safe fallback to avoid NPEs when analysis fails
+      if (directBreakingChanges == null) {
+        directBreakingChanges = java.util.Collections.emptyList();
+      }
+      if (transitiveBreakingChanges == null) {
+        transitiveBreakingChanges = java.util.Collections.emptyList();
+      }
 
-      List<BreakingChangeUse> breakingChangeUses = clientAnalysis.execute();
+      LOGGER.info("Found " + directBreakingChanges.size() + " direct and " + 
+                 transitiveBreakingChanges.size() + " transitive breaking changes for dependency: " + dep);
 
-      CsvWriter csv = new CsvWriter(submodule, csvFolder);
+      // Only proceed with client analysis if we found breaking changes
+      if (!directBreakingChanges.isEmpty() || !transitiveBreakingChanges.isEmpty()) {
+        
+        // Write the intermediate CSV with all breaking changes found (for manual inspection)
+        AllBreakingChangesCsvWriter allBcWriter = new AllBreakingChangesCsvWriter(submodule, csvFolder, "-detected-breaking-changes");
+        allBcWriter.writeAllBreakingChanges(directBreakingChanges, transitiveBreakingChanges);
+        allBcWriter.close();
+        
+        // Now run client analysis to see which ones are actually used
+        ClientAnalysis clientAnalysis =
+            new ClientAnalysis(submodule, directBreakingChanges, transitiveBreakingChanges);
 
-      csv.writeResults(breakingChangeUses);
+        List<BreakingChangeUse> allBreakingChangeUses = clientAnalysis.execute();
+
+        // Filter to only include breaking changes that are actually used by client code
+        List<BreakingChangeUse> usedBreakingChanges = allBreakingChangeUses.stream()
+            .filter(BreakingChangeUse::isUsedInClient)
+            .collect(java.util.stream.Collectors.toList());
+
+        // Write the main CSV with only breaking changes used by client code
+        CsvWriter csv = new CsvWriter(submodule, csvFolder);
+        csv.writeResults(usedBreakingChanges);
+        csv.close();
+
+        // Write the -all CSV with all breaking changes (used and unused) from client analysis
+        CsvWriter allCsv = new CsvWriter(allPath, java.nio.file.Files.exists(allPath));
+        allCsv.writeResults(allBreakingChangeUses);
+        allCsv.close();
+        
+        LOGGER.info("Client analysis complete for dependency " + dep + ". " + usedBreakingChanges.size() + 
+                   " breaking changes used in client code out of " + allBreakingChangeUses.size() + " total");
+      } else {
+        LOGGER.info("No breaking changes found for dependency " + dep + " - skipping client analysis");
+        
+        // Still create empty CSV files for consistency
+        CsvWriter csv = new CsvWriter(submodule, csvFolder);
+        csv.writeResults(java.util.Collections.emptyList());
+        csv.close();
+        
+        CsvWriter allCsv = new CsvWriter(allPath, java.nio.file.Files.exists(allPath));
+        allCsv.writeResults(java.util.Collections.emptyList());
+        allCsv.close();
+      }
     }
   }
 }

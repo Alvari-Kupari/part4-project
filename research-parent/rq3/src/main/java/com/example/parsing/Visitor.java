@@ -1,67 +1,134 @@
 package com.example.parsing;
 
 import com.example.BreakingChangeUse;
-import com.example.depanalyzer.analyzer.analysis.Parser;
 import com.github.javaparser.ast.expr.*;
 import com.github.javaparser.ast.type.ClassOrInterfaceType;
 import com.github.javaparser.ast.visitor.VoidVisitorAdapter;
 import com.github.javaparser.resolution.declarations.*;
 import com.github.javaparser.resolution.types.ResolvedType;
+import com.github.javaparser.resolution.UnsolvedSymbolException;
 import java.util.List;
 
 public class Visitor extends VoidVisitorAdapter<List<BreakingChangeUse>> {
-  Parser a;
   private final SymbolChecker checker;
+  private String currentFile = "unknown";
 
   public Visitor(SymbolChecker checker) {
     this.checker = checker;
   }
+  
+  public void setCurrentFile(String currentFile) {
+    this.currentFile = currentFile;
+  }
 
   @Override
   public void visit(MethodCallExpr n, List<BreakingChangeUse> uses) {
-    ResolvedMethodDeclaration resolved = n.resolve();
-    String fqn = resolved.getQualifiedSignature();
-    checker.checkNameUsage(fqn, uses, "MethodCallExpr");
+    try {
+      ResolvedMethodDeclaration resolved = n.resolve();
+      String fqn = resolved.getQualifiedSignature();
+      int line = n.getBegin().map(pos -> pos.line).orElse(-1);
+      checker.checkNameUsage(fqn, uses, "MethodCallExpr", currentFile, line);
+    } catch (UnsolvedSymbolException | UnsupportedOperationException e) {
+      // Symbol couldn't be resolved - this is common and not necessarily an error
+      // Continue processing other nodes
+    }
     super.visit(n, uses);
   }
 
   @Override
   public void visit(ObjectCreationExpr n, List<BreakingChangeUse> uses) {
-    ResolvedConstructorDeclaration resolved = n.resolve();
-    String fqn = resolved.getQualifiedSignature();
-    checker.checkNameUsage(fqn, uses, "ObjectCreationExpr");
+    try {
+      ResolvedConstructorDeclaration resolved = n.resolve();
+      String fqn = resolved.getQualifiedSignature();
+      int line = n.getBegin().map(pos -> pos.line).orElse(-1);
+      checker.checkNameUsage(fqn, uses, "ObjectCreationExpr", currentFile, line);
+    } catch (UnsolvedSymbolException | UnsupportedOperationException e) {
+      // Try to get type information instead
+      try {
+        String typeName = n.getType().getNameAsString();
+        int line = n.getBegin().map(pos -> pos.line).orElse(-1);
+        checker.checkNameUsage(typeName, uses, "ObjectCreationExpr", currentFile, line);
+      } catch (Exception e2) {
+        // Ignore if we can't resolve
+      }
+    }
     super.visit(n, uses);
   }
 
   @Override
   public void visit(FieldAccessExpr n, List<BreakingChangeUse> uses) {
-    ResolvedValueDeclaration resolved = n.resolve();
-    String fqn = resolved.getType().describe();
-    checker.checkNameUsage(fqn, uses, "FieldAccessExpr");
+    try {
+      ResolvedValueDeclaration resolved = n.resolve();
+      String fqn = resolved.getType().describe();
+      int line = n.getBegin().map(pos -> pos.line).orElse(-1);
+      checker.checkNameUsage(fqn, uses, "FieldAccessExpr", currentFile, line);
+      
+      // Also check the field name itself
+      String fieldName = n.getNameAsString();
+      checker.checkNameUsage(fieldName, uses, "FieldAccessExpr", currentFile, line);
+    } catch (UnsolvedSymbolException | UnsupportedOperationException e) {
+      // Try just the field name
+      try {
+        String fieldName = n.getNameAsString();
+        int line = n.getBegin().map(pos -> pos.line).orElse(-1);
+        checker.checkNameUsage(fieldName, uses, "FieldAccessExpr", currentFile, line);
+      } catch (Exception e2) {
+        // Ignore if we can't resolve
+      }
+    }
     super.visit(n, uses);
   }
 
   @Override
   public void visit(NameExpr n, List<BreakingChangeUse> uses) {
-    ResolvedValueDeclaration resolved = n.resolve();
-    String fqn = resolved.getType().describe();
-    checker.checkNameUsage(fqn, uses, "NameExpr");
+    try {
+      ResolvedValueDeclaration resolved = n.resolve();
+      String fqn = resolved.getType().describe();
+      int line = n.getBegin().map(pos -> pos.line).orElse(-1);
+      checker.checkNameUsage(fqn, uses, "NameExpr", currentFile, line);
+    } catch (UnsolvedSymbolException | UnsupportedOperationException e) {
+      // Try just the name
+      try {
+        String name = n.getNameAsString();
+        int line = n.getBegin().map(pos -> pos.line).orElse(-1);
+        checker.checkNameUsage(name, uses, "NameExpr", currentFile, line);
+      } catch (Exception e2) {
+        // Ignore if we can't resolve
+      }
+    }
     super.visit(n, uses);
   }
 
   @Override
   public void visit(MethodReferenceExpr n, List<BreakingChangeUse> uses) {
-    ResolvedMethodLikeDeclaration resolved = n.resolve();
-    String fqn = resolved.getQualifiedSignature();
-    checker.checkNameUsage(fqn, uses, "MethodReferenceExpr");
+    try {
+      ResolvedMethodLikeDeclaration resolved = n.resolve();
+      String fqn = resolved.getQualifiedSignature();
+      int line = n.getBegin().map(pos -> pos.line).orElse(-1);
+      checker.checkNameUsage(fqn, uses, "MethodReferenceExpr", currentFile, line);
+    } catch (UnsolvedSymbolException | UnsupportedOperationException e) {
+      // Ignore if we can't resolve
+    }
     super.visit(n, uses);
   }
 
   @Override
   public void visit(ClassOrInterfaceType n, List<BreakingChangeUse> uses) {
-    ResolvedType resolved = n.resolve();
-    String fqn = resolved.describe();
-    checker.checkNameUsage(fqn, uses, "ClassOrInterfaceType");
+    try {
+      ResolvedType resolved = n.resolve();
+      String fqn = resolved.describe();
+      int line = n.getBegin().map(pos -> pos.line).orElse(-1);
+      checker.checkNameUsage(fqn, uses, "ClassOrInterfaceType", currentFile, line);
+    } catch (UnsolvedSymbolException | UnsupportedOperationException e) {
+      // Try just the type name
+      try {
+        String typeName = n.getNameAsString();
+        int line = n.getBegin().map(pos -> pos.line).orElse(-1);
+        checker.checkNameUsage(typeName, uses, "ClassOrInterfaceType", currentFile, line);
+      } catch (Exception e2) {
+        // Ignore if we can't resolve
+      }
+    }
     super.visit(n, uses);
   }
 }

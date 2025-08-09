@@ -9,20 +9,23 @@ import java.util.List;
 import java.util.Set;
 import org.eclipse.aether.graph.Dependency;
 
-public class CsvWriter {
+/**
+ * CSV writer specifically for outputting all breaking changes found during analysis,
+ * regardless of whether they are used in client code. This is useful for manual
+ * inspection and testing of the client analysis.
+ */
+public class AllBreakingChangesCsvWriter {
   private final Path path;
   private final FileWriter writer;
 
-  public CsvWriter(Path path, boolean fileExists) throws IOException {
+  public AllBreakingChangesCsvWriter(Path path) throws IOException {
     this.path = path;
-    this.writer = new FileWriter(path.toFile(), fileExists); // Append if file exists
-    if (!fileExists) {
-      writeHeader();
-    }
+    this.writer = new FileWriter(path.toFile());
+    writeHeader();
   }
 
-  public CsvWriter(SubModule submodule, Path csvFolder) throws IOException {
-    String csvFileName = submodule.getRepo().getName() + "_" + submodule.getName() + ".csv";
+  public AllBreakingChangesCsvWriter(SubModule submodule, Path csvFolder, String suffix) throws IOException {
+    String csvFileName = submodule.getRepo().getName() + "_" + submodule.getName() + suffix + ".csv";
     this.path = csvFolder.resolve(csvFileName);
     this.writer = new FileWriter(path.toFile());
     writeHeader();
@@ -32,21 +35,26 @@ public class CsvWriter {
     writer.append(
         "Library_Name,Old_Version,New_Version,Class_Name,Member_Name,Change_Type,Description," +
         "Binary_Compatible,Source_Compatible,Is_Transitive,Depth,Direct_Parent_Dependency," +
-        "Is_Used_In_Client,Usage_Location,Usage_Line,Usage_Context,Usage_Type," +
-        "Unique_Symbols_Count,Affected_Symbols_Count\n");
+        "Is_Major_Release,Release_Type,Unique_Symbols_Count,Affected_Symbols_Count\n");
     writer.flush();
   }
 
-  public void writeResults(List<BreakingChangeUse> breakingChangeUses) throws IOException {
-    for (BreakingChangeUse use : breakingChangeUses) {
-      writeBreakingChangeUse(use);
+  public void writeAllBreakingChanges(List<BreakingChange> directBreakingChanges, 
+                                     List<BreakingChange> transitiveBreakingChanges) throws IOException {
+    // Write direct breaking changes
+    for (BreakingChange bc : directBreakingChanges) {
+      writeBreakingChange(bc, false); // false = direct
     }
+    
+    // Write transitive breaking changes
+    for (BreakingChange bc : transitiveBreakingChanges) {
+      writeBreakingChange(bc, true); // true = transitive
+    }
+    
     writer.flush();
   }
   
-  private void writeBreakingChangeUse(BreakingChangeUse use) throws IOException {
-    BreakingChange bc = use.getBreakingChange();
-    
+  private void writeBreakingChange(BreakingChange bc, boolean isTransitive) throws IOException {
     // Extract dependency information
     String libraryName = getDependencyName(bc.getOldDependency());
     String oldVersion = getDependencyVersion(bc.getOldDependency());
@@ -59,27 +67,22 @@ public class CsvWriter {
     String description = escapeCSV(bc.getDescription());
     boolean binaryCompatible = bc.isBinaryCompatible();
     boolean sourceCompatible = bc.isSourceCompatible();
-    boolean isTransitive = bc.isTransitive();
     int depth = bc.getDepth();
     String directParent = getDependencyName(bc.getDirectParentDependency());
     
-    // Usage information
-    boolean isUsedInClient = use.isUsedInClient();
-    String usageLocation = escapeCSV(use.getUsageLocation());
-    int usageLine = use.getLineNumber();
-    String usageContext = escapeCSV(use.getUsageContext());
-    String usageType = escapeCSV(use.getUsageType());
+    // Version analysis for RQ3
+    boolean isMajorRelease = isMajorVersionChange(oldVersion, newVersion);
+    String releaseType = determineReleaseType(oldVersion, newVersion);
     
     // Calculate normalization metrics
     int uniqueSymbolsCount = calculateUniqueSymbolsCount(bc);
     int affectedSymbolsCount = calculateAffectedSymbolsCount(bc);
     
     // Write CSV row
-    writer.append(String.format("%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%d,%s,%s,%s,%d,%s,%s,%d,%d\n",
+    writer.append(String.format("%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%d,%s,%s,%s,%d,%d\n",
         libraryName, oldVersion, newVersion, className, memberName, changeType, description,
         binaryCompatible, sourceCompatible, isTransitive, depth, directParent,
-        isUsedInClient, usageLocation, usageLine, usageContext, usageType,
-        uniqueSymbolsCount, affectedSymbolsCount));
+        isMajorRelease, releaseType, uniqueSymbolsCount, affectedSymbolsCount));
   }
   
   private String getDependencyName(Dependency dep) {
@@ -101,9 +104,55 @@ public class CsvWriter {
     return value;
   }
   
+  private boolean isMajorVersionChange(String oldVersion, String newVersion) {
+    if (oldVersion == null || newVersion == null) return false;
+    
+    try {
+      String[] oldParts = oldVersion.split("\\.");
+      String[] newParts = newVersion.split("\\.");
+      
+      if (oldParts.length > 0 && newParts.length > 0) {
+        int oldMajor = Integer.parseInt(oldParts[0]);
+        int newMajor = Integer.parseInt(newParts[0]);
+        return newMajor > oldMajor;
+      }
+    } catch (NumberFormatException e) {
+      // Can't parse version numbers, assume non-major
+    }
+    
+    return false;
+  }
+  
+  private String determineReleaseType(String oldVersion, String newVersion) {
+    if (oldVersion == null || newVersion == null) return "UNKNOWN";
+    
+    try {
+      String[] oldParts = oldVersion.split("\\.");
+      String[] newParts = newVersion.split("\\.");
+      
+      if (oldParts.length >= 2 && newParts.length >= 2) {
+        int oldMajor = Integer.parseInt(oldParts[0]);
+        int newMajor = Integer.parseInt(newParts[0]);
+        int oldMinor = Integer.parseInt(oldParts[1]);
+        int newMinor = Integer.parseInt(newParts[1]);
+        
+        if (newMajor > oldMajor) {
+          return "MAJOR";
+        } else if (newMinor > oldMinor) {
+          return "MINOR";
+        } else {
+          return "PATCH";
+        }
+      }
+    } catch (NumberFormatException e) {
+      // Can't parse version numbers
+    }
+    
+    return "UNKNOWN";
+  }
+  
   private int calculateUniqueSymbolsCount(BreakingChange bc) {
     // For normalization: count unique symbols affected by this change
-    // This is a simplified metric - you could make it more sophisticated
     Set<String> symbols = new HashSet<>();
     symbols.add(bc.getClassName());
     if (bc.getMemberName() != null && !bc.getMemberName().equals(bc.getClassName())) {
