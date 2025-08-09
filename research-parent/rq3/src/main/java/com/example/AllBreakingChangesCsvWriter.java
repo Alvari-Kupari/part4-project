@@ -5,9 +5,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
-import java.util.HashSet;
 import java.util.List;
-import java.util.Set;
 import org.eclipse.aether.graph.Dependency;
 
 /**
@@ -45,7 +43,7 @@ public class AllBreakingChangesCsvWriter {
     writer.append(
         "Library_Name,Old_Version,New_Version,Class_Name,Member_Name,Change_Type,Description," +
         "Binary_Compatible,Source_Compatible,Is_Transitive,Depth,Direct_Parent_Dependency," +
-        "Release_Type,Unique_Symbols_Count,Affected_Symbols_Count,Is_Used_In_Client\n");
+        "Release_Type,Is_Used_In_Client\n");
     writer.flush();
   }
 
@@ -83,15 +81,11 @@ public class AllBreakingChangesCsvWriter {
     // Version analysis (no major version checks since you only do minor updates)
     String releaseType = determineReleaseType(oldVersion, newVersion);
     
-    // Calculate normalization metrics
-    int uniqueSymbolsCount = calculateUniqueSymbolsCount(bc);
-    int affectedSymbolsCount = calculateAffectedSymbolsCount(bc);
-    
     // Write CSV row
-    writer.append(String.format("%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%d,%s,%s,%d,%d,%s\n",
+    writer.append(String.format("%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%d,%s,%s,%s\n",
         libraryName, oldVersion, newVersion, className, memberName, changeType, description,
         binaryCompatible, sourceCompatible, isTransitive, depth, directParent,
-        releaseType, uniqueSymbolsCount, affectedSymbolsCount, isUsedInClient));
+        releaseType, isUsedInClient));
   }
   
   private String getDependencyName(Dependency dep) {
@@ -135,22 +129,6 @@ public class AllBreakingChangesCsvWriter {
     }
     
     return "UNKNOWN";
-  }
-  
-  private int calculateUniqueSymbolsCount(BreakingChange bc) {
-    // For normalization: count unique symbols affected by this change
-    Set<String> symbols = new HashSet<>();
-    symbols.add(bc.getClassName());
-    if (bc.getMemberName() != null && !bc.getMemberName().equals(bc.getClassName())) {
-      symbols.add(bc.getMemberName());
-    }
-    return symbols.size();
-  }
-  
-  private int calculateAffectedSymbolsCount(BreakingChange bc) {
-    // For normalization: count how many symbols could potentially be affected
-    // This is a placeholder - you could implement more sophisticated logic
-    return 1; // Each breaking change affects at least 1 symbol
   }
 
   public void close() throws IOException {

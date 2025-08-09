@@ -5,9 +5,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
-import java.util.HashSet;
 import java.util.List;
-import java.util.Set;
 import org.eclipse.aether.graph.Dependency;
 
 /**
@@ -45,8 +43,7 @@ public class UsedBreakingChangesCsvWriter {
     writer.append(
         "Library_Name,Old_Version,New_Version,Class_Name,Member_Name,Change_Type,Description," +
         "Binary_Compatible,Source_Compatible,Is_Transitive,Depth,Direct_Parent_Dependency," +
-        "Release_Type,Unique_Symbols_Count,Affected_Symbols_Count," +
-        "Usage_Location,Usage_Line,Usage_Context,Usage_Type\n");
+        "Release_Type,Usage_Location,Usage_Line,Usage_Context,Usage_Type\n");
     writer.flush();
   }
 
@@ -81,10 +78,6 @@ public class UsedBreakingChangesCsvWriter {
     // Version analysis (no major version checks since you only do minor updates)
     String releaseType = determineReleaseType(oldVersion, newVersion);
     
-    // Calculate normalization metrics
-    int uniqueSymbolsCount = calculateUniqueSymbolsCount(bc);
-    int affectedSymbolsCount = calculateAffectedSymbolsCount(bc);
-    
     // Usage information
     String usageLocation = escapeCSV(use.getUsageLocation());
     int usageLine = use.getLineNumber();
@@ -92,11 +85,10 @@ public class UsedBreakingChangesCsvWriter {
     String usageType = escapeCSV(use.getUsageType());
     
     // Write CSV row
-    writer.append(String.format("%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%d,%s,%s,%d,%d,%s,%d,%s,%s\n",
+    writer.append(String.format("%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%d,%s,%s,%s,%d,%s,%s\n",
         libraryName, oldVersion, newVersion, className, memberName, changeType, description,
         binaryCompatible, sourceCompatible, isTransitive, depth, directParent,
-        releaseType, uniqueSymbolsCount, affectedSymbolsCount,
-        usageLocation, usageLine, usageContext, usageType));
+        releaseType, usageLocation, usageLine, usageContext, usageType));
   }
   
   private String getDependencyName(Dependency dep) {
@@ -140,22 +132,6 @@ public class UsedBreakingChangesCsvWriter {
     }
     
     return "UNKNOWN";
-  }
-  
-  private int calculateUniqueSymbolsCount(BreakingChange bc) {
-    // For normalization: count unique symbols affected by this change
-    Set<String> symbols = new HashSet<>();
-    symbols.add(bc.getClassName());
-    if (bc.getMemberName() != null && !bc.getMemberName().equals(bc.getClassName())) {
-      symbols.add(bc.getMemberName());
-    }
-    return symbols.size();
-  }
-  
-  private int calculateAffectedSymbolsCount(BreakingChange bc) {
-    // For normalization: count how many symbols could potentially be affected
-    // This is a placeholder - you could implement more sophisticated logic
-    return 1; // Each breaking change affects at least 1 symbol
   }
 
   public void close() throws IOException {
