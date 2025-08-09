@@ -18,20 +18,16 @@ public class FailureTracker {
   private final PrintWriter writer;
 
   public FailureTracker(Path csvFolder) throws IOException {
-    String timestamp =
-        LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd_HH-mm-ss"));
-    this.logFile = csvFolder.resolve("comparison_failures_" + timestamp + ".log");
-
     Files.createDirectories(csvFolder);
+    this.logFile = csvFolder.resolve("comparison-failures.log");
     this.writer =
         new PrintWriter(
-            Files.newBufferedWriter(logFile, StandardOpenOption.CREATE, StandardOpenOption.APPEND));
-
-    // Write header
-    writer.println("=== DEPENDENCY COMPARISON FAILURE LOG ===");
-    writer.println("Started at: " + LocalDateTime.now());
-    writer.println("Format: [TIMESTAMP] DEPENDENCY_OLD -> DEPENDENCY_NEW : ERROR_MESSAGE");
-    writer.println("========================================");
+            Files.newBufferedWriter(
+                logFile,
+                StandardOpenOption.CREATE,
+                StandardOpenOption.APPEND,
+                StandardOpenOption.WRITE));
+    writer.println("=== Comparison Failure Log ===");
     writer.flush();
   }
 
@@ -67,27 +63,30 @@ public class FailureTracker {
   /** Get success rate as percentage */
   public double getSuccessRate() {
     int total = totalComparisons.get();
-    if (total == 0) return 0.0;
+    if (total == 0) return 100.0;
     return ((double) (total - failedComparisons.get()) / total) * 100.0;
   }
 
   /** Write summary statistics and close the log file */
   public void close() {
-    writer.println();
-    writer.println("=== SUMMARY STATISTICS ===");
-    writer.printf("Total comparisons attempted: %d%n", getTotalComparisons());
-    writer.printf("Failed comparisons: %d%n", getFailedComparisons());
-    writer.printf("Success rate: %.2f%%%n", getSuccessRate());
-    writer.println("Completed at: " + LocalDateTime.now());
-    writer.println("============================");
-    writer.close();
+    try {
+      writer.println();
+      writer.println("=== Summary ===");
+      writer.printf("Total comparisons: %d%n", getTotalComparisons());
+      writer.printf("Failures: %d%n", getFailedComparisons());
+      writer.printf("Success rate: %.2f%%%n", getSuccessRate());
+    } finally {
+      writer.flush();
+      writer.close();
+    }
   }
 
   private String formatDependency(Dependency dep) {
-    return String.format(
-        "%s:%s:%s",
-        dep.getArtifact().getGroupId(),
-        dep.getArtifact().getArtifactId(),
-        dep.getArtifact().getVersion());
+    if (dep == null || dep.getArtifact() == null) return "null";
+    return dep.getArtifact().getGroupId()
+        + ":"
+        + dep.getArtifact().getArtifactId()
+        + ":"
+        + dep.getArtifact().getVersion();
   }
 }

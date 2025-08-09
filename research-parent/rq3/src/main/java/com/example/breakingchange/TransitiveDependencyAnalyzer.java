@@ -45,12 +45,22 @@ public class TransitiveDependencyAnalyzer {
     private final String oldVersion;
     private final String newVersion;
 
+    private final Dependency oldDirectDependency;
+    private final Dependency newDirectDependency;
+
     public TransitiveDependencyChange(
-        String groupId, String artifactId, String oldVersion, String newVersion) {
+        String groupId,
+        String artifactId,
+        String oldVersion,
+        String newVersion,
+        Dependency oldDirectDependency,
+        Dependency newDirectDependency) {
       this.groupId = groupId;
       this.artifactId = artifactId;
       this.oldVersion = oldVersion;
       this.newVersion = newVersion;
+      this.oldDirectDependency = oldDirectDependency;
+      this.newDirectDependency = newDirectDependency;
     }
 
     public String getGroupId() {
@@ -67,6 +77,14 @@ public class TransitiveDependencyAnalyzer {
 
     public String getNewVersion() {
       return newVersion;
+    }
+
+    public Dependency getOldDirectDependency() {
+      return oldDirectDependency;
+    }
+
+    public Dependency getNewDirectDependency() {
+      return newDirectDependency;
     }
 
     @Override
@@ -106,7 +124,9 @@ public class TransitiveDependencyAnalyzer {
 
       if (oldVersion != null && !oldVersion.equals(newVersion)) {
         String[] parts = coordinates.split(":");
-        changes.add(new TransitiveDependencyChange(parts[0], parts[1], oldVersion, newVersion));
+        changes.add(
+            new TransitiveDependencyChange(
+                parts[0], parts[1], oldVersion, newVersion, oldDirectDependency, newDirectDependency));
       }
     }
 
@@ -143,24 +163,26 @@ public class TransitiveDependencyAnalyzer {
       Dependency newDep = new Dependency(newArtifact, "compile");
 
       // Use the existing breaking change analyzer
-      List<BreakingChange> breakingChanges =
+      List<BreakingChange> base =
           breakingChangeAnalyzer.analyzeBreakingChanges(oldDep, newDep);
 
-      // Mark all changes as transitive
+      // Mark all changes as transitive and set depth/parent
       List<BreakingChange> transitiveBreakingChanges = new ArrayList<>();
-      for (BreakingChange change : breakingChanges) {
+      for (BreakingChange change : base) {
         BreakingChange transitiveChange =
             BreakingChange.builder()
                 .className(change.getClassName())
                 .memberName(change.getMemberName())
                 .changeType(change.getChangeType())
                 .description(change.getDescription())
-                .libraryName(change.getLibraryName())
-                .oldVersion(change.getOldVersion())
-                .newVersion(change.getNewVersion())
+                .oldDependency(change.getOldDependency())
+                .newDependency(change.getNewDependency())
                 .isBinaryCompatible(change.isBinaryCompatible())
                 .isSourceCompatible(change.isSourceCompatible())
-                .isTransitive(true) // Mark as transitive
+                .isTransitive(true)
+                // Depth unknown from generator; we mark as >1. Use 2 as conservative default.
+                .depth(2)
+                .directParentDependency(transitiveDependencyChange.getNewDirectDependency())
                 .build();
         transitiveBreakingChanges.add(transitiveChange);
       }

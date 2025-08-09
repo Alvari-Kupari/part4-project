@@ -3,10 +3,9 @@ package com.example;
 import com.example.breakingchange.BreakingChange;
 import com.example.breakingchange.BreakingChangeAnalyzer;
 import com.example.breakingchange.TransitiveDependencyAnalyzer;
+import com.example.breakingchange.TransitiveDependencyAnalyzer.TransitiveDependencyChange;
 import com.example.depanalyzer.analyzer.analysis.RepositorySystemFactory;
-import com.example.dependencyupdate.DependencyUpdate;
-import com.example.dependencyupdate.NoDependencyUpdateException;
-import com.example.dependencyupdate.VersionResolutionException;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.logging.Level;
@@ -14,11 +13,16 @@ import java.util.logging.Logger;
 import org.eclipse.aether.RepositorySystem;
 import org.eclipse.aether.RepositorySystemSession;
 import org.eclipse.aether.graph.Dependency;
+import com.example.dependencyupdate.DependencyUpdate;
+import com.example.dependencyupdate.NoDependencyUpdateException;
+import com.example.dependencyupdate.VersionResolutionException;
 
 public class DependencyAnalysis {
   private Dependency dependency;
   private List<BreakingChange> directBreakingChanges;
   private List<BreakingChange> transitiveBreakingChanges;
+
+  private final FailureTracker failureTracker;
 
   private static final Logger LOGGER = Logger.getLogger(DependencyAnalysis.class.getName());
   private static final RepositorySystem system = RepositorySystemFactory.newRepositorySystem();
@@ -28,8 +32,14 @@ public class DependencyAnalysis {
   private static final TransitiveDependencyAnalyzer transitiveDependencyAnalyzer =
       new TransitiveDependencyAnalyzer(system, session, breakingChangeAnalyzer);
 
-  public DependencyAnalysis(Dependency dep) {
+  public DependencyAnalysis(Dependency dep, FailureTracker failureTracker) {
     this.dependency = dep;
+    this.failureTracker = failureTracker;
+  }
+
+  // Backwards-compat constructor (no tracking)
+  public DependencyAnalysis(Dependency dep) {
+    this(dep, null);
   }
 
   public void execute() throws VersionResolutionException, NoDependencyUpdateException {
@@ -46,19 +56,49 @@ public class DependencyAnalysis {
         // 1. Analyze direct dependency breaking changes
         this.directBreakingChanges =
             breakingChangeAnalyzer.analyzeBreakingChanges(current, nextVersion);
+        if (failureTracker != null) failureTracker.recordSuccess();
 
         // 2. Find transitive dependency version changes
-        List<TransitiveDependencyAnalyzer.TransitiveDependencyChange> transitiveChanges =
+        List<TransitiveDependencyChange> transitiveChanges =
             transitiveDependencyAnalyzer.findTransitiveDependencyChanges(current, nextVersion);
 
         // 3. Analyze breaking changes in each transitive dependency update
         this.transitiveBreakingChanges = new ArrayList<>();
-        for (TransitiveDependencyAnalyzer.TransitiveDependencyChange transitiveChange :
-            transitiveChanges) {
-          LOGGER.info("Analyzing transitive breaking changes for: " + transitiveChange);
-          List<BreakingChange> changes =
-              transitiveDependencyAnalyzer.analyzeTransitiveBreakingChanges(transitiveChange);
-          this.transitiveBreakingChanges.addAll(changes);
+        for (TransitiveDependencyChange transitiveChange : transitiveChanges) {
+          try {
+            List<BreakingChange> changes =
+                transitiveDependencyAnalyzer.analyzeTransitiveBreakingChanges(transitiveChange);
+            this.transitiveBreakingChanges.addAll(changes);
+            if (failureTracker != null) failureTracker.recordSuccess();
+          } catch (Exception te) {
+            // Log and record transitive failure with the specific pair
+            try {
+              org.eclipse.aether.artifact.Artifact oA =
+                  new org.eclipse.aether.artifact.DefaultArtifact(
+                      transitiveChange.getGroupId(),
+                      transitiveChange.getArtifactId(),
+                      "jar",
+                      transitiveChange.getOldVersion());
+              org.eclipse.aether.artifact.Artifact nA =
+                  new org.eclipse.aether.artifact.DefaultArtifact(
+                      transitiveChange.getGroupId(),
+                      transitiveChange.getArtifactId(),
+                      "jar",
+                      transitiveChange.getNewVersion());
+              org.eclipse.aether.graph.Dependency oldDep =
+                  new org.eclipse.aether.graph.Dependency(oA, "compile");
+              org.eclipse.aether.graph.Dependency newDep =
+                  new org.eclipse.aether.graph.Dependency(nA, "compile");
+              if (failureTracker != null) failureTracker.recordFailure(oldDep, newDep, te);
+            } catch (Exception ignore) {
+              // best-effort for failure tracking
+            }
+            LOGGER.log(
+                Level.WARNING,
+                "Failed to analyze transitive breaking changes for: " + transitiveChange + ": "
+                    + te.getMessage(),
+                te);
+          }
         }
 
         current = nextVersion;
@@ -72,6 +112,7 @@ public class DependencyAnalysis {
                 + ": "
                 + e.getMessage(),
             e);
+        if (failureTracker != null) failureTracker.recordFailure(current, nextVersion, e);
       }
     }
   }

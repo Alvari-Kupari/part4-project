@@ -18,6 +18,7 @@ import org.eclipse.aether.version.InvalidVersionSpecificationException;
 import org.eclipse.aether.version.Version;
 import org.eclipse.aether.version.VersionScheme;
 
+
 public class DependencyUpdate {
   private static final String GET_ALL_VERSIONS = "[0,)";
   private Dependency dependency;

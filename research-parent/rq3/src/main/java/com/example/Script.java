@@ -16,10 +16,10 @@ import org.eclipse.aether.graph.Dependency;
 
 public class Script {
   public static final Path csvFolder =
-      Paths.get("C:/Users/Alvari/Documents/UNI/softeng_700/part4-project/research-parent/rq3/data");
+      Paths.get("/Users/tonyyin/Desktop/Projects/csv");
 
   private static final Path reposFolder =
-      Paths.get("C:\\Users\\Alvari\\Documents\\UNI\\archive\\SOFTENG_206\\repos");
+      Paths.get("/Users/tonyyin/Desktop/Projects/repo");
 
   private static final Logger LOGGER = Logger.getLogger(Script.class.getName());
   private static FailureTracker failureTracker;
@@ -91,7 +91,7 @@ public class Script {
 
     for (Dependency dep : deps) {
 
-      DependencyAnalysis dependencyAnalysis = new DependencyAnalysis(dep);
+      DependencyAnalysis dependencyAnalysis = new DependencyAnalysis(dep, failureTracker);
 
       try {
         dependencyAnalysis.execute();
@@ -102,6 +102,14 @@ public class Script {
       } catch (NoDependencyUpdateException e) {
         LOGGER.warning(
             "No update available for dependency: " + dep + ". Continuing to the next dependency");
+        continue;
+      } catch (RuntimeException e) {
+        // Catch any analyzer-level exceptions so the script can continue
+        LOGGER.log(
+            Level.SEVERE,
+            "Analysis failed for dependency: " + dep + " with error: " + e.getMessage(),
+            e);
+        // failureTracker is already recording inside DependencyAnalysis, continue
         continue;
       }
 

@@ -58,8 +58,13 @@ public class BreakingChangeAnalyzer {
     List<File> newJars = resolveTransitiveDependencies(newDependency);
 
     if (oldJars.isEmpty() || newJars.isEmpty()) {
-      LOGGER.warning("Failed to resolve dependencies for comparison");
-      return new ArrayList<>();
+      throw new RuntimeException(
+          "Failed to resolve dependencies for comparison: "
+              + getLibraryName(oldDependency)
+              + " "
+              + oldDependency.getArtifact().getVersion()
+              + " -> "
+              + newDependency.getArtifact().getVersion());
     }
 
     return compareJarFiles(oldJars, newJars, oldDependency, newDependency);
@@ -263,7 +268,7 @@ public class BreakingChangeAnalyzer {
 
       for (JApiClass jApiClass : jApiClasses) {
         breakingChanges.addAll(
-            extractBreakingChangesFromClass(jApiClass, libraryName, oldVersion, newVersion));
+            extractBreakingChangesFromClass(jApiClass, oldDependency, newDependency));
       }
 
       if (LOGGER.isLoggable(java.util.logging.Level.INFO)) {
@@ -317,8 +322,12 @@ public class BreakingChangeAnalyzer {
 
   /** Extracts breaking changes from a JApiClass. */
   private List<BreakingChange> extractBreakingChangesFromClass(
-      JApiClass jApiClass, String libraryName, String oldVersion, String newVersion) {
+      JApiClass jApiClass, Dependency oldDependency, Dependency newDependency) {
     List<BreakingChange> changes = new ArrayList<>();
+
+    String libraryName = getLibraryName(oldDependency);
+    String oldVersion = oldDependency.getArtifact().getVersion();
+    String newVersion = newDependency.getArtifact().getVersion();
 
     // Check class-level changes
     if (hasBreakingChanges(jApiClass.getCompatibilityChanges())
@@ -329,12 +338,13 @@ public class BreakingChangeAnalyzer {
               .memberName(jApiClass.getFullyQualifiedName())
               .changeType("CLASS_CHANGE")
               .description(getChangeDescription(jApiClass.getCompatibilityChanges()))
-              .libraryName(libraryName)
-              .oldVersion(oldVersion)
-              .newVersion(newVersion)
+              .oldDependency(oldDependency)
+              .newDependency(newDependency)
               .isBinaryCompatible(jApiClass.isBinaryCompatible())
               .isSourceCompatible(jApiClass.isSourceCompatible())
-              .isTransitive(false) // Direct dependency changes are not transitive
+              .isTransitive(false)
+              .depth(1)
+              .directParentDependency(oldDependency)
               .build());
     }
 
@@ -348,12 +358,13 @@ public class BreakingChangeAnalyzer {
                 .memberName(method.getName())
                 .changeType("METHOD_CHANGE")
                 .description(getChangeDescription(method.getCompatibilityChanges()))
-                .libraryName(libraryName)
-                .oldVersion(oldVersion)
-                .newVersion(newVersion)
+                .oldDependency(oldDependency)
+                .newDependency(newDependency)
                 .isBinaryCompatible(method.isBinaryCompatible())
                 .isSourceCompatible(method.isSourceCompatible())
-                .isTransitive(false) // Direct dependency changes are not transitive
+                .isTransitive(false)
+                .depth(1)
+                .directParentDependency(oldDependency)
                 .build());
       }
     }
@@ -368,12 +379,13 @@ public class BreakingChangeAnalyzer {
                 .memberName(field.getName())
                 .changeType("FIELD_CHANGE")
                 .description(getChangeDescription(field.getCompatibilityChanges()))
-                .libraryName(libraryName)
-                .oldVersion(oldVersion)
-                .newVersion(newVersion)
+                .oldDependency(oldDependency)
+                .newDependency(newDependency)
                 .isBinaryCompatible(field.isBinaryCompatible())
                 .isSourceCompatible(field.isSourceCompatible())
-                .isTransitive(false) // Direct dependency changes are not transitive
+                .isTransitive(false)
+                .depth(1)
+                .directParentDependency(oldDependency)
                 .build());
       }
     }
@@ -389,12 +401,13 @@ public class BreakingChangeAnalyzer {
                 .memberName(constructor.getName())
                 .changeType("CONSTRUCTOR_CHANGE")
                 .description(getChangeDescription(constructor.getCompatibilityChanges()))
-                .libraryName(libraryName)
-                .oldVersion(oldVersion)
-                .newVersion(newVersion)
+                .oldDependency(oldDependency)
+                .newDependency(newDependency)
                 .isBinaryCompatible(constructor.isBinaryCompatible())
                 .isSourceCompatible(constructor.isSourceCompatible())
-                .isTransitive(false) // Direct dependency changes are not transitive
+                .isTransitive(false)
+                .depth(1)
+                .directParentDependency(oldDependency)
                 .build());
       }
     }
