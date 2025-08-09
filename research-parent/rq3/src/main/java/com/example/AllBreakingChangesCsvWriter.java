@@ -61,6 +61,41 @@ public class AllBreakingChangesCsvWriter {
     
     writer.flush();
   }
+
+  public void writeAllBreakingChangesWithUsage(List<BreakingChange> directBreakingChanges, 
+                                              List<BreakingChange> transitiveBreakingChanges,
+                                              List<BreakingChangeUse> usageResults) throws IOException {
+    // Create a set of used breaking changes for quick lookup
+    java.util.Set<String> usedBreakingChanges = new java.util.HashSet<>();
+    for (BreakingChangeUse use : usageResults) {
+      if (use.isUsedInClient()) {
+        BreakingChange bc = use.getBreakingChange();
+        String key = createBreakingChangeKey(bc);
+        usedBreakingChanges.add(key);
+      }
+    }
+    
+    // Write direct breaking changes
+    for (BreakingChange bc : directBreakingChanges) {
+      String key = createBreakingChangeKey(bc);
+      boolean isUsed = usedBreakingChanges.contains(key);
+      writeBreakingChange(bc, false, isUsed); // false = direct, isUsed = actual usage
+    }
+    
+    // Write transitive breaking changes
+    for (BreakingChange bc : transitiveBreakingChanges) {
+      String key = createBreakingChangeKey(bc);
+      boolean isUsed = usedBreakingChanges.contains(key);
+      writeBreakingChange(bc, true, isUsed); // true = transitive, isUsed = actual usage
+    }
+    
+    writer.flush();
+  }
+
+  private String createBreakingChangeKey(BreakingChange bc) {
+    // Create a unique key for each breaking change to match usage results
+    return bc.getClassName() + "." + bc.getMemberName() + "." + bc.getChangeType();
+  }
   
   private void writeBreakingChange(BreakingChange bc, boolean isTransitive, boolean isUsedInClient) throws IOException {
     // Extract dependency information

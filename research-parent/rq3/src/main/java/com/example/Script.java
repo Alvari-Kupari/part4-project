@@ -96,6 +96,11 @@ public class Script {
     int totalDirectBreakingChanges = 0;
     int totalTransitiveBreakingChanges = 0;
     int totalUsedBreakingChanges = 0;
+    
+    // Collect all breaking changes and usage results for final writing
+    List<BreakingChange> allDirectBreakingChanges = new java.util.ArrayList<>();
+    List<BreakingChange> allTransitiveBreakingChanges = new java.util.ArrayList<>();
+    List<BreakingChangeUse> allUsageResults = new java.util.ArrayList<>();
 
     for (Dependency dep : deps) {
 
@@ -139,20 +144,24 @@ public class Script {
       // Update totals
       totalDirectBreakingChanges += directBreakingChanges.size();
       totalTransitiveBreakingChanges += transitiveBreakingChanges.size();
+      
+      // Collect breaking changes for final writing
+      allDirectBreakingChanges.addAll(directBreakingChanges);
+      allTransitiveBreakingChanges.addAll(transitiveBreakingChanges);
 
       // Only proceed with client analysis if we found breaking changes
       if (!directBreakingChanges.isEmpty() || !transitiveBreakingChanges.isEmpty()) {
         
-        // 1. Append to the ALL CSV with all breaking changes found
-        allBcWriter.writeAllBreakingChanges(directBreakingChanges, transitiveBreakingChanges);
-        
-        // 2. Now run client analysis to see which ones are actually used
+        // Run client analysis to see which ones are actually used
         ClientAnalysis clientAnalysis =
             new ClientAnalysis(submodule, directBreakingChanges, transitiveBreakingChanges);
 
         List<BreakingChangeUse> allBreakingChangeUses = clientAnalysis.execute();
+        
+        // Collect usage results for final writing
+        allUsageResults.addAll(allBreakingChangeUses);
 
-        // 3. Append to CSV with only breaking changes that are used in client code
+        // Append to CSV with only breaking changes that are used in client code
         usedBcWriter.writeUsedBreakingChanges(allBreakingChangeUses);
         
         // Count for logging
@@ -165,6 +174,9 @@ public class Script {
         LOGGER.info("No breaking changes found for dependency " + dep + " - skipping client analysis");
       }
     }
+    
+    // Write all breaking changes with correct usage information
+    allBcWriter.writeAllBreakingChangesWithUsage(allDirectBreakingChanges, allTransitiveBreakingChanges, allUsageResults);
     
     // Close the CSV writers after processing all dependencies
     allBcWriter.close();
