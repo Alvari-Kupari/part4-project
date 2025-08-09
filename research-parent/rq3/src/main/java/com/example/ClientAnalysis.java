@@ -39,9 +39,10 @@ public class ClientAnalysis {
       List<BreakingChange> transitiveBreakingChanges) {
 
     this.subModule = submodule;
-    this.directBreakingChanges = directBreakingChanges != null ? directBreakingChanges : List.of();
+    this.directBreakingChanges =
+        directBreakingChanges != null ? directBreakingChanges : java.util.Collections.emptyList();
     this.transitiveBreakingChanges =
-        transitiveBreakingChanges != null ? transitiveBreakingChanges : List.of();
+        transitiveBreakingChanges != null ? transitiveBreakingChanges : java.util.Collections.emptyList();
   }
 
   public List<BreakingChangeUse> execute() throws IOException, PomException {
@@ -71,19 +72,21 @@ public class ClientAnalysis {
     Map<String, String> classOwnerIndex = buildClassOwnerIndex(artifacts);
 
     // 4) Aggregate used symbols per dependency (g:a)
-    // Symbol keys:
-    //  - Class:           "com.pkg.Class"
-    //  - Method/Field:    "com.pkg.Class#member"
     Set<String> usedClasses = symbolChecker.getUsedClasses();
     Set<String> usedMethods = symbolChecker.getUsedMethods();
     Set<String> usedFields = symbolChecker.getUsedFields();
 
-    // Map class symbol (FQN) to owning lib
+    // Map class symbol (FQN) to owning lib (filter out unresolved to avoid NPE in toMap)
     Map<String, String> classToGA =
         usedClasses.stream()
+            .map(cls -> new java.util.AbstractMap.SimpleEntry<>(cls, resolveOwner(classOwnerIndex, cls)))
+            .filter(e -> e.getValue() != null)
             .collect(
-                Collectors.toMap(
-                    c -> c, c -> resolveOwner(classOwnerIndex, c), (a, b) -> a, LinkedHashMap::new));
+                java.util.stream.Collectors.toMap(
+                    java.util.Map.Entry::getKey,
+                    java.util.Map.Entry::getValue,
+                    (a, b) -> a,
+                    java.util.LinkedHashMap::new));
     // Filter unresolved
     classToGA.values().removeIf(Objects::isNull);
 
@@ -113,26 +116,29 @@ public class ClientAnalysis {
       String newVersion = bc.getNewDependency() != null ? bc.getNewDependency().getArtifact().getVersion() : "";
 
       String symbolKey = toSymbolKey(bc);
-      boolean used =
-          switch (bc.getChangeType()) {
-            case "CLASS_CHANGE" -> usedClasses.contains(bc.getClassName());
-            case "METHOD_CHANGE" -> usedMethods.contains(symbolKey);
-            case "FIELD_CHANGE" -> usedFields.contains(symbolKey);
-            case "CONSTRUCTOR_CHANGE" -> {
-              // treat constructor as class used or explicit <init>
-              boolean byClass = usedClasses.contains(bc.getClassName());
-              boolean byCtor = usedMethods.contains(symbolKey);
-              yield byClass || byCtor;
-            }
-            default -> false;
-          };
+
+      boolean used = false;
+      String ct = bc.getChangeType();
+      if ("CLASS_CHANGE".equals(ct)) {
+        used = usedClasses.contains(bc.getClassName());
+      } else if ("METHOD_CHANGE".equals(ct)) {
+        used = usedMethods.contains(symbolKey);
+      } else if ("FIELD_CHANGE".equals(ct)) {
+        used = usedFields.contains(symbolKey);
+      } else if ("CONSTRUCTOR_CHANGE".equals(ct)) {
+        boolean byClass = usedClasses.contains(bc.getClassName());
+        boolean byCtor = usedMethods.contains(symbolKey);
+        used = byClass || byCtor;
+      }
 
       if (used) {
         affectedPerGA.computeIfAbsent(ga, k -> new HashSet<>()).add(symbolKey);
       }
 
-      int uniqueSymbolsUsed = uniqueUsedPerGA.getOrDefault(ga, Set.of()).size();
-      int affectedSymbols = affectedPerGA.getOrDefault(ga, Set.of()).size();
+      int uniqueSymbolsUsed =
+          uniqueUsedPerGA.getOrDefault(ga, java.util.Collections.<String>emptySet()).size();
+      int affectedSymbols =
+          affectedPerGA.getOrDefault(ga, java.util.Collections.<String>emptySet()).size();
 
       out.add(
           new BreakingChangeUse(
@@ -156,7 +162,7 @@ public class ClientAnalysis {
   private static String toSymbolKey(BreakingChange bc) {
     String cls = bc.getClassName();
     String mem = bc.getMemberName();
-    return (mem == null || mem.isBlank()) ? cls : (cls + "#" + mem);
+    return (mem == null || mem.trim().isEmpty()) ? cls : (cls + "#" + mem);
   }
 
   private static Map<String, String> mapMemberSymbolsToGA(

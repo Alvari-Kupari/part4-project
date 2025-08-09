@@ -21,7 +21,7 @@ public class Visitor extends VoidVisitorAdapter<SymbolChecker> {
   @Override
   public void visit(ClassOrInterfaceType n, SymbolChecker arg) {
     try {
-      ResolvedReferenceType resolved = n.resolve();
+      ResolvedReferenceType resolved = n.resolve().asReferenceType();
       checker.addClassUse(resolved.getQualifiedName());
     } catch (Throwable ignored) {
     }
@@ -31,7 +31,7 @@ public class Visitor extends VoidVisitorAdapter<SymbolChecker> {
   @Override
   public void visit(ObjectCreationExpr n, SymbolChecker arg) {
     try {
-      ResolvedReferenceTypeDeclaration decl = n.getType().resolve().getTypeDeclaration().orElse(null);
+      ResolvedReferenceTypeDeclaration decl = n.getType().resolve().asReferenceType().getTypeDeclaration().orElse(null);
       if (decl != null) {
         String fqn = decl.getQualifiedName();
         checker.addClassUse(fqn);
