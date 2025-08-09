@@ -13,11 +13,11 @@ import com.github.javaparser.ParserConfiguration.LanguageLevel;
 import com.github.javaparser.ast.CompilationUnit;
 import java.io.IOException;
 import java.nio.file.Path;
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
+import java.util.jar.JarEntry;
+import java.util.jar.JarFile;
 import java.util.logging.Logger;
+import java.util.stream.Collectors;
 import org.eclipse.aether.RepositorySystem;
 import org.eclipse.aether.RepositorySystemSession;
 import org.eclipse.aether.artifact.Artifact;
@@ -27,12 +27,11 @@ import org.eclipse.aether.graph.Dependency;
 public class ClientAnalysis {
   private static final RepositorySystem system = RepositorySystemFactory.newRepositorySystem();
   private static final RepositorySystemSession session = RepositorySystemFactory.newSession(system);
-  private static final SymbolChecker SymbolChecker = new SymbolChecker();
   private static final Logger LOGGER = Logger.getLogger(ClientAnalysis.class.getName());
 
-  private SubModule subModule;
-  private List<BreakingChange> directBreakingChanges;
-  private List<BreakingChange> transitiveBreakingChanges;
+  private final SubModule subModule;
+  private final List<BreakingChange> directBreakingChanges;
+  private final List<BreakingChange> transitiveBreakingChanges;
 
   public ClientAnalysis(
       SubModule submodule,
@@ -40,11 +39,13 @@ public class ClientAnalysis {
       List<BreakingChange> transitiveBreakingChanges) {
 
     this.subModule = submodule;
-    this.directBreakingChanges = directBreakingChanges;
-    this.transitiveBreakingChanges = transitiveBreakingChanges;
+    this.directBreakingChanges = directBreakingChanges != null ? directBreakingChanges : List.of();
+    this.transitiveBreakingChanges =
+        transitiveBreakingChanges != null ? transitiveBreakingChanges : List.of();
   }
 
   public List<BreakingChangeUse> execute() throws IOException, PomException {
+    // 1) Resolve build classpath for this submodule (via POM)
     PomFile pom = new PomFile(subModule.getDir());
     List<Dependency> deps = pom.getDependencies();
     Set<Artifact> artifacts = new HashSet<>();
@@ -56,18 +57,163 @@ public class ClientAnalysis {
         });
     LanguageLevel javaVersion = pom.getJavaVersion();
 
+    // 2) Parse source files and collect symbol usages
     Parser parser = new Parser(subModule.getDir(), artifacts, javaVersion);
-    Visitor visitor = new Visitor(SymbolChecker);
-
-    List<BreakingChangeUse> breakingChangeUses = new ArrayList<>();
+    SymbolChecker symbolChecker = new SymbolChecker();
+    Visitor visitor = new Visitor(symbolChecker);
 
     for (Path javaFile : parser.getJavaFiles()) {
       ParseResult<CompilationUnit> result = parser.parse(javaFile);
-
-      // This is the main step
-      // result.getResult().ifPresent(cu -> visitor.visit(cu, breakingChangeUses));
+      result.getResult().ifPresent(cu -> visitor.visit(cu, symbolChecker));
     }
 
-    return breakingChangeUses;
+    // 3) Build class owner index: FQN/simpleName -> "groupId:artifactId"
+    Map<String, String> classOwnerIndex = buildClassOwnerIndex(artifacts);
+
+    // 4) Aggregate used symbols per dependency (g:a)
+    // Symbol keys:
+    //  - Class:           "com.pkg.Class"
+    //  - Method/Field:    "com.pkg.Class#member"
+    Set<String> usedClasses = symbolChecker.getUsedClasses();
+    Set<String> usedMethods = symbolChecker.getUsedMethods();
+    Set<String> usedFields = symbolChecker.getUsedFields();
+
+    // Map class symbol (FQN) to owning lib
+    Map<String, String> classToGA =
+        usedClasses.stream()
+            .collect(
+                Collectors.toMap(
+                    c -> c, c -> resolveOwner(classOwnerIndex, c), (a, b) -> a, LinkedHashMap::new));
+    // Filter unresolved
+    classToGA.values().removeIf(Objects::isNull);
+
+    // Map method/field symbols to GA via their class part
+    Map<String, String> methodToGA = mapMemberSymbolsToGA(usedMethods, classOwnerIndex);
+    Map<String, String> fieldToGA = mapMemberSymbolsToGA(usedFields, classOwnerIndex);
+
+    // Unique_Symbols_Used per GA = distinct classes + methods + fields used from that GA
+    Map<String, Set<String>> uniqueUsedPerGA = new HashMap<>();
+    classToGA.forEach((cls, ga) -> uniqueUsedPerGA.computeIfAbsent(ga, k -> new HashSet<>()).add(cls));
+    methodToGA.forEach(
+        (m, ga) -> uniqueUsedPerGA.computeIfAbsent(ga, k -> new HashSet<>()).add(m));
+    fieldToGA.forEach((f, ga) -> uniqueUsedPerGA.computeIfAbsent(ga, k -> new HashSet<>()).add(f));
+
+    // 5) For each breaking change, determine if the API element is used
+    List<BreakingChange> allChanges = new ArrayList<>();
+    allChanges.addAll(directBreakingChanges);
+    allChanges.addAll(transitiveBreakingChanges);
+
+    // Precompute affected symbols per GA
+    Map<String, Set<String>> affectedPerGA = new HashMap<>();
+
+    List<BreakingChangeUse> out = new ArrayList<>();
+    for (BreakingChange bc : allChanges) {
+      String ga = getGA(bc.getOldDependency()); // library being upgraded
+      String oldVersion = bc.getOldDependency() != null ? bc.getOldDependency().getArtifact().getVersion() : "";
+      String newVersion = bc.getNewDependency() != null ? bc.getNewDependency().getArtifact().getVersion() : "";
+
+      String symbolKey = toSymbolKey(bc);
+      boolean used =
+          switch (bc.getChangeType()) {
+            case "CLASS_CHANGE" -> usedClasses.contains(bc.getClassName());
+            case "METHOD_CHANGE" -> usedMethods.contains(symbolKey);
+            case "FIELD_CHANGE" -> usedFields.contains(symbolKey);
+            case "CONSTRUCTOR_CHANGE" -> {
+              // treat constructor as class used or explicit <init>
+              boolean byClass = usedClasses.contains(bc.getClassName());
+              boolean byCtor = usedMethods.contains(symbolKey);
+              yield byClass || byCtor;
+            }
+            default -> false;
+          };
+
+      if (used) {
+        affectedPerGA.computeIfAbsent(ga, k -> new HashSet<>()).add(symbolKey);
+      }
+
+      int uniqueSymbolsUsed = uniqueUsedPerGA.getOrDefault(ga, Set.of()).size();
+      int affectedSymbols = affectedPerGA.getOrDefault(ga, Set.of()).size();
+
+      out.add(
+          new BreakingChangeUse(
+              bc,
+              used,
+              uniqueSymbolsUsed,
+              affectedSymbols,
+              ga,
+              oldVersion,
+              newVersion));
+    }
+
+    return out;
   }
+
+  private static String getGA(Dependency dep) {
+    if (dep == null || dep.getArtifact() == null) return "";
+    return dep.getArtifact().getGroupId() + ":" + dep.getArtifact().getArtifactId();
+  }
+
+  private static String toSymbolKey(BreakingChange bc) {
+    String cls = bc.getClassName();
+    String mem = bc.getMemberName();
+    return (mem == null || mem.isBlank()) ? cls : (cls + "#" + mem);
+  }
+
+  private static Map<String, String> mapMemberSymbolsToGA(
+      Set<String> memberSymbols, Map<String, String> classOwnerIndex) {
+    Map<String, String> out = new HashMap<>();
+    for (String sym : memberSymbols) {
+      int hash = sym.lastIndexOf('#');
+      if (hash < 0) continue;
+      String cls = sym.substring(0, hash);
+      String ga = resolveOwner(classOwnerIndex, cls);
+      if (ga != null) out.put(sym, ga);
+    }
+    return out;
+  }
+
+  private static String resolveOwner(Map<String, String> index, String classFqnOrSimple) {
+    // Prefer FQN mapping
+    String ga = index.get(classFqnOrSimple);
+    if (ga != null) return ga;
+    // Fallback to simple-name mapping if unique
+    int lastDot = classFqnOrSimple.lastIndexOf('.');
+    String simple = lastDot >= 0 ? classFqnOrSimple.substring(lastDot + 1) : classFqnOrSimple;
+    String simpleKey = "*:" + simple; // special key for simple-name index
+    return index.get(simpleKey);
+  }
+
+  private static Map<String, String> buildClassOwnerIndex(Set<Artifact> artifacts) {
+    Map<String, String> fqnIndex = new HashMap<>();
+    Map<String, Set<String>> simpleToGAs = new HashMap<>();
+
+    for (Artifact a : artifacts) {
+      if (a.getFile() == null) continue;
+      String ga = a.getGroupId() + ":" + a.getArtifactId();
+      try (JarFile jar = new JarFile(a.getFile())) {
+        Enumeration<JarEntry> entries = jar.entries();
+        while (entries.hasMoreElements()) {
+          JarEntry e = entries.nextElement();
+          if (e.isDirectory()) continue;
+          String name = e.getName();
+          if (!name.endsWith(".class") || name.contains("$")) continue; // skip inner/anon classes
+          String fqn = name.substring(0, name.length() - 6).replace('/', '.');
+
+          fqnIndex.putIfAbsent(fqn, ga);
+          String simple = fqn.substring(fqn.lastIndexOf('.') + 1);
+          simpleToGAs.computeIfAbsent(simple, k -> new HashSet<>()).add(ga);
+        }
+      } catch (IOException ignored) {
+      }
+    }
+
+    // Build a merged index that contains FQN keys and unique simple-name keys ("*:Simple")
+    Map<String, String> merged = new HashMap<>(fqnIndex);
+    for (Map.Entry<String, Set<String>> e : simpleToGAs.entrySet()) {
+      if (e.getValue().size() == 1) {
+        merged.put("*:" + e.getKey(), e.getValue().iterator().next());
+      }
+    }
+    return merged;
+    }
 }
