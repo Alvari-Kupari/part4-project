@@ -142,7 +142,6 @@ public class TransitiveDependencyAnalyzer {
    */
   public List<BreakingChange> analyzeTransitiveBreakingChanges(
       TransitiveDependencyChange transitiveDependencyChange) {
-
     try {
       // Create Dependency objects for the old and new versions of the transitive dependency
       Artifact oldArtifact =
@@ -180,15 +179,16 @@ public class TransitiveDependencyAnalyzer {
                 .isBinaryCompatible(change.isBinaryCompatible())
                 .isSourceCompatible(change.isSourceCompatible())
                 .isTransitive(true)
-                // Depth unknown from generator; we mark as >1. Use 2 as conservative default.
+                // Depth unknown; use 2 as conservative default
                 .depth(2)
+                // Carry both old/new versions of the DIRECT parent that changed
                 .directParentDependency(transitiveDependencyChange.getNewDirectDependency())
+                .directParentDependencyOld(transitiveDependencyChange.getOldDirectDependency())
+                .directParentDependencyNew(transitiveDependencyChange.getNewDirectDependency())
                 .build();
         transitiveBreakingChanges.add(transitiveChange);
       }
-
       return transitiveBreakingChanges;
-
     } catch (Exception e) {
       LOGGER.warning(
           String.format(

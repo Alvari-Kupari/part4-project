@@ -89,6 +89,14 @@ public class Script {
     PomFile pom = new PomFile(submodule.getDir());
     List<Dependency> deps = pom.getDependencies();
 
+    // Derive base and -all paths once per submodule
+    String csvFileName = submodule.getRepo().getName() + "_" + submodule.getName() + ".csv";
+    java.nio.file.Path basePath = csvFolder.resolve(csvFileName);
+    int dot = csvFileName.lastIndexOf('.');
+    String allName =
+        (dot >= 0) ? csvFileName.substring(0, dot) + "-all" + csvFileName.substring(dot) : csvFileName + "-all";
+    java.nio.file.Path allPath = basePath.resolveSibling(allName);
+
     for (Dependency dep : deps) {
 
       DependencyAnalysis dependencyAnalysis = new DependencyAnalysis(dep, failureTracker);
@@ -117,14 +125,52 @@ public class Script {
       List<BreakingChange> transitiveBreakingChanges =
           dependencyAnalysis.getTransitiveBreakingChanges();
 
+      // Null-safe fallback to avoid NPEs when analysis fails
+      if (directBreakingChanges == null) {
+        directBreakingChanges = java.util.Collections.emptyList();
+      }
+      if (transitiveBreakingChanges == null) {
+        transitiveBreakingChanges = java.util.Collections.emptyList();
+      }
+
       ClientAnalysis clientAnalysis =
           new ClientAnalysis(submodule, directBreakingChanges, transitiveBreakingChanges);
 
       List<BreakingChangeUse> breakingChangeUses = clientAnalysis.execute();
 
       CsvWriter csv = new CsvWriter(submodule, csvFolder);
-
       csv.writeResults(breakingChangeUses);
+      csv.close();
+
+      // Build ALL rows
+      java.util.List<com.example.breakingchange.BreakingChange> allBCs = new java.util.ArrayList<>();
+      if (directBreakingChanges != null) { allBCs.addAll(directBreakingChanges); }
+      if (transitiveBreakingChanges != null) { allBCs.addAll(transitiveBreakingChanges); }
+
+      java.util.List<BreakingChangeUse> allRows = new java.util.ArrayList<>();
+      for (com.example.breakingchange.BreakingChange bc : allBCs) {
+        org.eclipse.aether.graph.Dependency oldDep = bc.getOldDependency();
+        org.eclipse.aether.graph.Dependency newDep = bc.getNewDependency();
+
+        String dependencyGA = "";
+        String currentVersion = "";
+        String latestMinorVersion = "";
+
+        if (oldDep != null && oldDep.getArtifact() != null) {
+          dependencyGA = oldDep.getArtifact().getGroupId() + ":" + oldDep.getArtifact().getArtifactId();
+          currentVersion = oldDep.getArtifact().getVersion();
+        }
+        if (newDep != null && newDep.getArtifact() != null) {
+          latestMinorVersion = newDep.getArtifact().getVersion();
+        }
+
+        allRows.add(new BreakingChangeUse(bc, false, 0, 0, dependencyGA, currentVersion, latestMinorVersion));
+      }
+
+      // Append to -all CSV (write header only once when file is created)
+      CsvWriter allCsv = new CsvWriter(allPath, java.nio.file.Files.exists(allPath));
+      allCsv.writeResults(allRows);
+      allCsv.close();
     }
   }
 }

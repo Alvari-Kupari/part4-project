@@ -16,6 +16,9 @@ public class BreakingChange {
   // Additional metadata
   private final int depth; // 1 = direct, >1 = transitive
   private final Dependency directParentDependency; // direct dep that introduced the transitive one
+  // New: track old/new versions of the direct parent dependency (for CSV accuracy)
+  private final Dependency directParentDependencyOld;
+  private final Dependency directParentDependencyNew;
 
   private final boolean isBinaryCompatible;
   private final boolean isSourceCompatible;
@@ -30,6 +33,8 @@ public class BreakingChange {
     this.newDependency = builder.newDependency;
     this.depth = builder.depth;
     this.directParentDependency = builder.directParentDependency;
+    this.directParentDependencyOld = builder.directParentDependencyOld;
+    this.directParentDependencyNew = builder.directParentDependencyNew;
     this.isBinaryCompatible = builder.isBinaryCompatible;
     this.isSourceCompatible = builder.isSourceCompatible;
     this.isTransitive = builder.isTransitive;
@@ -50,6 +55,10 @@ public class BreakingChange {
 
     private int depth = 1; // default to direct
     private Dependency directParentDependency;
+
+    // New builder fields
+    private Dependency directParentDependencyOld;
+    private Dependency directParentDependencyNew;
 
     private boolean isBinaryCompatible;
     private boolean isSourceCompatible;
@@ -95,6 +104,17 @@ public class BreakingChange {
       return this;
     }
 
+    // New: set old/new direct parent
+    public Builder directParentDependencyOld(Dependency oldParent) {
+      this.directParentDependencyOld = oldParent;
+      return this;
+    }
+
+    public Builder directParentDependencyNew(Dependency newParent) {
+      this.directParentDependencyNew = newParent;
+      return this;
+    }
+
     public Builder isBinaryCompatible(boolean isBinaryCompatible) {
       this.isBinaryCompatible = isBinaryCompatible;
       return this;
@@ -116,49 +136,22 @@ public class BreakingChange {
   }
 
   // Getters
-  public String getClassName() {
-    return className;
-  }
+  public String getClassName() { return className; }
+  public String getMemberName() { return memberName; }
+  public String getChangeType() { return changeType; }
+  public String getDescription() { return description; }
+  public Dependency getOldDependency() { return oldDependency; }
+  public Dependency getNewDependency() { return newDependency; }
+  public int getDepth() { return depth; }
+  public Dependency getDirectParentDependency() { return directParentDependency; }
 
-  public String getMemberName() {
-    return memberName;
-  }
+  // New getters
+  public Dependency getDirectParentDependencyOld() { return directParentDependencyOld; }
+  public Dependency getDirectParentDependencyNew() { return directParentDependencyNew; }
 
-  public String getChangeType() {
-    return changeType;
-  }
-
-  public String getDescription() {
-    return description;
-  }
-
-  public Dependency getOldDependency() {
-    return oldDependency;
-  }
-
-  public Dependency getNewDependency() {
-    return newDependency;
-  }
-
-  public int getDepth() {
-    return depth;
-  }
-
-  public Dependency getDirectParentDependency() {
-    return directParentDependency;
-  }
-
-  public boolean isBinaryCompatible() {
-    return isBinaryCompatible;
-  }
-
-  public boolean isSourceCompatible() {
-    return isSourceCompatible;
-  }
-
-  public boolean isTransitive() {
-    return isTransitive;
-  }
+  public boolean isBinaryCompatible() { return isBinaryCompatible; }
+  public boolean isSourceCompatible() { return isSourceCompatible; }
+  public boolean isTransitive() { return isTransitive; }
 
   @Override
   public String toString() {

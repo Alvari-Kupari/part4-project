@@ -3,6 +3,7 @@ package com.example;
 import com.example.breakingchange.BreakingChange;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.List;
 import org.eclipse.aether.graph.Dependency;
@@ -12,9 +13,17 @@ public class CsvWriter {
   private final FileWriter writer;
 
   public CsvWriter(Path path) throws IOException {
+    this(path, /*append=*/false);
+  }
+
+  // New: appendable constructor; write header only if file is new/empty
+  public CsvWriter(Path path, boolean append) throws IOException {
     this.path = path;
-    this.writer = new FileWriter(path.toFile());
-    writeHeader();
+    boolean writeHeader = !append || !Files.exists(path) || Files.size(path) == 0L;
+    this.writer = new FileWriter(path.toFile(), append);
+    if (writeHeader) {
+      writeHeader();
+    }
   }
 
   public CsvWriter(SubModule submodule, Path csvFolder) throws IOException {
@@ -25,8 +34,9 @@ public class CsvWriter {
   }
 
   private void writeHeader() throws IOException {
-    writer.append(
-        "Dependency,Current_Version,Latest_Minor_Version,Class_Name,Member_Name,Change_Type,Description,")
+    writer
+        .append(
+            "Dependency,Current_Version,Latest_Minor_Version,Class_Name,Member_Name,Change_Type,Description,")
         .append("Binary_Compatible,Source_Compatible,Is_Transitive,Depth,")
         .append("Direct_Dependency_Updated,Direct_Dependency_Old_Version,Direct_Dependency_New_Version,")
         .append("Used_In_Client,Unique_Symbols_Used,Affected_Symbols\n");
@@ -49,17 +59,39 @@ public class CsvWriter {
       boolean isTransitive = bc.isTransitive();
       int depth = bc.getDepth();
 
-      Dependency parent = bc.getDirectParentDependency();
-      String parentGA =
-          parent != null && parent.getArtifact() != null
-              ? parent.getArtifact().getGroupId() + ":" + parent.getArtifact().getArtifactId()
-              : "";
+      // Correctly select direct parent (old/new) for CSV
+      Dependency parentOldDep =
+          bc.getDirectParentDependencyOld() != null
+              ? bc.getDirectParentDependencyOld()
+              : // fallback: for direct BCs we used the oldDependency as parent
+                (!isTransitive ? bc.getOldDependency() : bc.getDirectParentDependency());
+
+      Dependency parentNewDep =
+          bc.getDirectParentDependencyNew() != null
+              ? bc.getDirectParentDependencyNew()
+              : // fallback: for direct BCs we used the newDependency as parent
+                (!isTransitive ? bc.getNewDependency() : bc.getDirectParentDependency());
+
+      String parentGA = "";
+      if (parentNewDep != null && parentNewDep.getArtifact() != null) {
+        parentGA =
+            parentNewDep.getArtifact().getGroupId()
+                + ":"
+                + parentNewDep.getArtifact().getArtifactId();
+      } else if (parentOldDep != null && parentOldDep.getArtifact() != null) {
+        parentGA =
+            parentOldDep.getArtifact().getGroupId()
+                + ":"
+                + parentOldDep.getArtifact().getArtifactId();
+      }
+
       String parentOld =
-          parent != null && parent.getArtifact() != null ? safe(parent.getArtifact().getVersion()) : "";
-      // For "Direct_Dependency_New_Version" in context of parent upgrade, we use bc.newDependency
+          parentOldDep != null && parentOldDep.getArtifact() != null
+              ? safe(parentOldDep.getArtifact().getVersion())
+              : "";
       String parentNew =
-          bc.getNewDependency() != null && bc.getNewDependency().getArtifact() != null
-              ? safe(bc.getNewDependency().getArtifact().getVersion())
+          parentNewDep != null && parentNewDep.getArtifact() != null
+              ? safe(parentNewDep.getArtifact().getVersion())
               : "";
 
       String used = use.isUsedInClient() ? "true" : "false";
@@ -107,7 +139,6 @@ public class CsvWriter {
 
   private static String safe(String s) {
     if (s == null) return "";
-    // Escape commas/quotes
     String escaped = s.replace("\"", "\"\"");
     if (escaped.contains(",") || escaped.contains("\"") || escaped.contains("\n")) {
       return "\"" + escaped + "\"";
@@ -118,4 +149,6 @@ public class CsvWriter {
   public void close() throws IOException {
     writer.close();
   }
+
+  public java.nio.file.Path getPath() { return this.path; }
 }

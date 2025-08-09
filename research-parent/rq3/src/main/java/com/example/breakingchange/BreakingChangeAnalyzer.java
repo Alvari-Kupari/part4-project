@@ -344,11 +344,14 @@ public class BreakingChangeAnalyzer {
               .isSourceCompatible(jApiClass.isSourceCompatible())
               .isTransitive(false)
               .depth(1)
+              // direct parent is the direct dep itself (old/new versions)
               .directParentDependency(oldDependency)
+              .directParentDependencyOld(oldDependency)
+              .directParentDependencyNew(newDependency)
               .build());
     }
 
-    // Check method changes
+    // Methods
     for (JApiMethod method : jApiClass.getMethods()) {
       if (hasBreakingChanges(method.getCompatibilityChanges())
           && isActuallyBreaking(method.isBinaryCompatible(), method.isSourceCompatible())) {
@@ -365,11 +368,13 @@ public class BreakingChangeAnalyzer {
                 .isTransitive(false)
                 .depth(1)
                 .directParentDependency(oldDependency)
+                .directParentDependencyOld(oldDependency)
+                .directParentDependencyNew(newDependency)
                 .build());
       }
     }
 
-    // Check field changes
+    // Fields
     for (JApiField field : jApiClass.getFields()) {
       if (hasBreakingChanges(field.getCompatibilityChanges())
           && isActuallyBreaking(field.isBinaryCompatible(), field.isSourceCompatible())) {
@@ -386,15 +391,16 @@ public class BreakingChangeAnalyzer {
                 .isTransitive(false)
                 .depth(1)
                 .directParentDependency(oldDependency)
+                .directParentDependencyOld(oldDependency)
+                .directParentDependencyNew(newDependency)
                 .build());
       }
     }
 
-    // Check constructor changes
+    // Constructors
     for (JApiConstructor constructor : jApiClass.getConstructors()) {
       if (hasBreakingChanges(constructor.getCompatibilityChanges())
-          && isActuallyBreaking(
-              constructor.isBinaryCompatible(), constructor.isSourceCompatible())) {
+          && isActuallyBreaking(constructor.isBinaryCompatible(), constructor.isSourceCompatible())) {
         changes.add(
             BreakingChange.builder()
                 .className(jApiClass.getFullyQualifiedName())
@@ -408,10 +414,11 @@ public class BreakingChangeAnalyzer {
                 .isTransitive(false)
                 .depth(1)
                 .directParentDependency(oldDependency)
+                .directParentDependencyOld(oldDependency)
+                .directParentDependencyNew(newDependency)
                 .build());
       }
     }
-
     return changes;
   }
 

@@ -7,6 +7,7 @@ import com.example.breakingchange.TransitiveDependencyAnalyzer.TransitiveDepende
 import com.example.depanalyzer.analyzer.analysis.RepositorySystemFactory;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -19,8 +20,8 @@ import com.example.dependencyupdate.VersionResolutionException;
 
 public class DependencyAnalysis {
   private Dependency dependency;
-  private List<BreakingChange> directBreakingChanges;
-  private List<BreakingChange> transitiveBreakingChanges;
+  private List<BreakingChange> directBreakingChanges = new ArrayList<>();
+  private List<BreakingChange> transitiveBreakingChanges = new ArrayList<>();
 
   private final FailureTracker failureTracker;
 
@@ -118,10 +119,10 @@ public class DependencyAnalysis {
   }
 
   public List<BreakingChange> getDirectBreakingChanges() {
-    return this.directBreakingChanges;
+    return directBreakingChanges != null ? directBreakingChanges : Collections.emptyList();
   }
 
   public List<BreakingChange> getTransitiveBreakingChanges() {
-    return this.transitiveBreakingChanges;
+    return transitiveBreakingChanges != null ? transitiveBreakingChanges : Collections.emptyList();
   }
 }

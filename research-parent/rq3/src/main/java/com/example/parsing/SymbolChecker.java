@@ -17,15 +17,15 @@ public class SymbolChecker {
   }
 
   public void addClassUse(String fqn) {
-    if (fqn != null && !fqn.isBlank()) usedClasses.add(fqn);
+    if (fqn != null && !fqn.trim().isEmpty()) usedClasses.add(fqn);
   }
 
   public void addMethodUse(String key) {
-    if (key != null && !key.isBlank()) usedMethods.add(key);
+    if (key != null && !key.trim().isEmpty()) usedMethods.add(key);
   }
 
   public void addFieldUse(String key) {
-    if (key != null && !key.isBlank()) usedFields.add(key);
+    if (key != null && !key.trim().isEmpty()) usedFields.add(key);
   }
 
   public Set<String> getUsedClasses() {
