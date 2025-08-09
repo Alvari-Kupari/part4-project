@@ -46,6 +46,10 @@ public class ClientAnalysis {
   }
 
   public List<BreakingChangeUse> execute() throws IOException, PomException {
+    LOGGER.info("Starting client analysis for submodule: " + subModule.getName());
+    LOGGER.info("Direct breaking changes: " + directBreakingChanges.size());
+    LOGGER.info("Transitive breaking changes: " + transitiveBreakingChanges.size());
+    
     // 1) Resolve build classpath for this submodule (via POM)
     PomFile pom = new PomFile(subModule.getDir());
     List<Dependency> deps = pom.getDependencies();
@@ -58,12 +62,17 @@ public class ClientAnalysis {
         });
     LanguageLevel javaVersion = pom.getJavaVersion();
 
+    LOGGER.info("Resolved " + artifacts.size() + " artifacts for classpath");
+
     // 2) Parse source files and collect symbol usages
     Parser parser = new Parser(subModule.getDir(), artifacts, javaVersion);
     SymbolChecker symbolChecker = new SymbolChecker();
     Visitor visitor = new Visitor(symbolChecker);
 
-    for (Path javaFile : parser.getJavaFiles()) {
+    List<Path> javaFiles = parser.getJavaFiles();
+    LOGGER.info("Found " + javaFiles.size() + " Java files to parse");
+
+    for (Path javaFile : javaFiles) {
       ParseResult<CompilationUnit> result = parser.parse(javaFile);
       result.getResult().ifPresent(cu -> visitor.visit(cu, symbolChecker));
     }
@@ -75,6 +84,20 @@ public class ClientAnalysis {
     Set<String> usedClasses = symbolChecker.getUsedClasses();
     Set<String> usedMethods = symbolChecker.getUsedMethods();
     Set<String> usedFields = symbolChecker.getUsedFields();
+
+    LOGGER.info("Found usage: " + usedClasses.size() + " classes, " + 
+                usedMethods.size() + " methods, " + usedFields.size() + " fields");
+
+    // Log some example symbols for debugging
+    if (usedClasses.size() > 0) {
+      LOGGER.info("Sample used classes: " + usedClasses.stream().limit(5).collect(java.util.stream.Collectors.toList()));
+    }
+    if (usedMethods.size() > 0) {
+      LOGGER.info("Sample used methods: " + usedMethods.stream().limit(5).collect(java.util.stream.Collectors.toList()));
+    }
+    if (usedFields.size() > 0) {
+      LOGGER.info("Sample used fields: " + usedFields.stream().limit(5).collect(java.util.stream.Collectors.toList()));
+    }
 
     // Map class symbol (FQN) to owning lib (filter out unresolved to avoid NPE in toMap)
     Map<String, String> classToGA =
@@ -106,10 +129,21 @@ public class ClientAnalysis {
     allChanges.addAll(directBreakingChanges);
     allChanges.addAll(transitiveBreakingChanges);
 
+    LOGGER.info("Analyzing " + allChanges.size() + " total breaking changes");
+
+    // Log some example breaking changes for debugging
+    if (allChanges.size() > 0) {
+      for (int i = 0; i < Math.min(5, allChanges.size()); i++) {
+        BreakingChange bc = allChanges.get(i);
+        LOGGER.info("Sample BC " + (i+1) + ": " + bc.getChangeType() + " " + bc.getClassName() + "#" + bc.getMemberName() + " (GA: " + getGA(bc.getOldDependency()) + ")");
+      }
+    }
+
     // Precompute affected symbols per GA
     Map<String, Set<String>> affectedPerGA = new HashMap<>();
 
     List<BreakingChangeUse> out = new ArrayList<>();
+    int usedCount = 0;
     for (BreakingChange bc : allChanges) {
       String ga = getGA(bc.getOldDependency()); // library being upgraded
       String oldVersion = bc.getOldDependency() != null ? bc.getOldDependency().getArtifact().getVersion() : "";
@@ -121,17 +155,30 @@ public class ClientAnalysis {
       String ct = bc.getChangeType();
       if ("CLASS_CHANGE".equals(ct)) {
         used = usedClasses.contains(bc.getClassName());
+        if (usedCount < 10) { // Log first few for debugging
+          LOGGER.info("Checking CLASS_CHANGE: " + bc.getClassName() + " -> used=" + used);
+        }
       } else if ("METHOD_CHANGE".equals(ct)) {
         used = usedMethods.contains(symbolKey);
+        if (usedCount < 10) { // Log first few for debugging
+          LOGGER.info("Checking METHOD_CHANGE: " + symbolKey + " -> used=" + used);
+        }
       } else if ("FIELD_CHANGE".equals(ct)) {
         used = usedFields.contains(symbolKey);
+        if (usedCount < 10) { // Log first few for debugging
+          LOGGER.info("Checking FIELD_CHANGE: " + symbolKey + " -> used=" + used);
+        }
       } else if ("CONSTRUCTOR_CHANGE".equals(ct)) {
         boolean byClass = usedClasses.contains(bc.getClassName());
         boolean byCtor = usedMethods.contains(symbolKey);
         used = byClass || byCtor;
+        if (usedCount < 10) { // Log first few for debugging
+          LOGGER.info("Checking CONSTRUCTOR_CHANGE: " + symbolKey + " -> used=" + used + " (byClass=" + byClass + ", byCtor=" + byCtor + ")");
+        }
       }
 
       if (used) {
+        usedCount++;
         affectedPerGA.computeIfAbsent(ga, k -> new HashSet<>()).add(symbolKey);
       }
 
@@ -151,6 +198,7 @@ public class ClientAnalysis {
               newVersion));
     }
 
+    LOGGER.info("Client analysis complete. Found " + usedCount + " breaking changes used by client code out of " + allChanges.size() + " total");
     return out;
   }
 
@@ -162,7 +210,14 @@ public class ClientAnalysis {
   private static String toSymbolKey(BreakingChange bc) {
     String cls = bc.getClassName();
     String mem = bc.getMemberName();
-    return (mem == null || mem.trim().isEmpty()) ? cls : (cls + "#" + mem);
+    
+    // For CLASS_CHANGE, the memberName is usually the same as className
+    if ("CLASS_CHANGE".equals(bc.getChangeType())) {
+      return cls; // Just use the class name for class-level changes
+    }
+    
+    // For other changes, use class#member format if member exists
+    return (mem == null || mem.trim().isEmpty() || mem.equals(cls)) ? cls : (cls + "#" + mem);
   }
 
   private static Map<String, String> mapMemberSymbolsToGA(

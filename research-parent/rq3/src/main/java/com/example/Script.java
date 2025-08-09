@@ -16,10 +16,10 @@ import org.eclipse.aether.graph.Dependency;
 
 public class Script {
   public static final Path csvFolder =
-      Paths.get("/Users/tonyyin/Desktop/Projects/csv");
+      Paths.get("/Users/tonyyin/Desktop/Courses/SOFTENG700/part4-project/test-csv");
 
   private static final Path reposFolder =
-      Paths.get("/Users/tonyyin/Desktop/Projects/repo");
+      Paths.get("/Users/tonyyin/Desktop/Courses/SOFTENG700/part4-project/test-repo");
 
   private static final Logger LOGGER = Logger.getLogger(Script.class.getName());
   private static FailureTracker failureTracker;
@@ -136,40 +136,21 @@ public class Script {
       ClientAnalysis clientAnalysis =
           new ClientAnalysis(submodule, directBreakingChanges, transitiveBreakingChanges);
 
-      List<BreakingChangeUse> breakingChangeUses = clientAnalysis.execute();
+      List<BreakingChangeUse> allBreakingChangeUses = clientAnalysis.execute();
 
+      // Filter to only include breaking changes that are actually used by client code
+      List<BreakingChangeUse> usedBreakingChanges = allBreakingChangeUses.stream()
+          .filter(BreakingChangeUse::isUsedInClient)
+          .collect(java.util.stream.Collectors.toList());
+
+      // Write the main CSV with only breaking changes used by client code
       CsvWriter csv = new CsvWriter(submodule, csvFolder);
-      csv.writeResults(breakingChangeUses);
+      csv.writeResults(usedBreakingChanges);
       csv.close();
 
-      // Build ALL rows
-      java.util.List<com.example.breakingchange.BreakingChange> allBCs = new java.util.ArrayList<>();
-      if (directBreakingChanges != null) { allBCs.addAll(directBreakingChanges); }
-      if (transitiveBreakingChanges != null) { allBCs.addAll(transitiveBreakingChanges); }
-
-      java.util.List<BreakingChangeUse> allRows = new java.util.ArrayList<>();
-      for (com.example.breakingchange.BreakingChange bc : allBCs) {
-        org.eclipse.aether.graph.Dependency oldDep = bc.getOldDependency();
-        org.eclipse.aether.graph.Dependency newDep = bc.getNewDependency();
-
-        String dependencyGA = "";
-        String currentVersion = "";
-        String latestMinorVersion = "";
-
-        if (oldDep != null && oldDep.getArtifact() != null) {
-          dependencyGA = oldDep.getArtifact().getGroupId() + ":" + oldDep.getArtifact().getArtifactId();
-          currentVersion = oldDep.getArtifact().getVersion();
-        }
-        if (newDep != null && newDep.getArtifact() != null) {
-          latestMinorVersion = newDep.getArtifact().getVersion();
-        }
-
-        allRows.add(new BreakingChangeUse(bc, false, 0, 0, dependencyGA, currentVersion, latestMinorVersion));
-      }
-
-      // Append to -all CSV (write header only once when file is created)
+      // Write the -all CSV with all breaking changes (used and unused)
       CsvWriter allCsv = new CsvWriter(allPath, java.nio.file.Files.exists(allPath));
-      allCsv.writeResults(allRows);
+      allCsv.writeResults(allBreakingChangeUses);
       allCsv.close();
     }
   }

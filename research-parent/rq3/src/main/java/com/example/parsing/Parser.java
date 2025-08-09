@@ -49,10 +49,17 @@ public class Parser {
   }
 
   public List<Path> getJavaFiles() throws IOException {
-    return Files.walk(this.srcMainJavaPath)
+    if (!Files.exists(this.srcMainJavaPath)) {
+      System.out.println("WARNING: src/main/java directory does not exist at: " + this.srcMainJavaPath);
+      return java.util.Collections.emptyList();
+    }
+    
+    List<Path> javaFiles = Files.walk(this.srcMainJavaPath)
         .filter(Files::isRegularFile)
         .filter(this::isJavaFile)
         .collect(Collectors.toList());
+        
+    return javaFiles;
   }
 
   public ParseResult<CompilationUnit> parse(Path file) throws IOException {
@@ -65,7 +72,7 @@ public class Parser {
 
   private String getFileExtension(Path file) {
     String fileName = file.getFileName().toString();
-    int dotIndex = fileName.lastIndexOf(46);
+    int dotIndex = fileName.lastIndexOf('.');
     return dotIndex == -1 ? "" : fileName.substring(dotIndex + 1);
   }
 }
