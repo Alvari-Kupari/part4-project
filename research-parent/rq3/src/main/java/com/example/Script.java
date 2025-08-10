@@ -16,10 +16,13 @@ import org.eclipse.aether.graph.Dependency;
 
 public class Script {
   public static final Path csvFolder =
-      Paths.get("/Users/tonyyin/Desktop/Projects/csv");
+      Paths.get("C:/Users/Alvari/Documents/UNI/softeng_700/part4-project/research-parent/rq3/data");
 
   private static final Path reposFolder =
-      Paths.get("/Users/tonyyin/Desktop/Projects/repo");
+      Paths.get(
+          "C:\\Users\\Alvari\\Documents\\UNI\\softeng_700\\part4-project\\r"
+              + "esearch-parent\\r"
+              + "q3\\test-cases");
 
   private static final Logger LOGGER = Logger.getLogger(Script.class.getName());
   private static FailureTracker failureTracker;
@@ -44,7 +47,8 @@ public class Script {
       List<SubModule> subModules = repo.getSubModules();
 
       if (subModules.isEmpty()) {
-        throw new RuntimeException("No submodules found for repo: " + repo.getName());
+        LOGGER.severe("No submodules found for repo: " + repo.getName());
+        continue;
       }
 
       inner:
@@ -90,13 +94,15 @@ public class Script {
     List<Dependency> deps = pom.getDependencies();
 
     // Initialize CSV writers once for the entire submodule (to accumulate across all dependencies)
-    AllBreakingChangesCsvWriter allBcWriter = new AllBreakingChangesCsvWriter(submodule, csvFolder, "-all-breaking-changes");
-    UsedBreakingChangesCsvWriter usedBcWriter = new UsedBreakingChangesCsvWriter(submodule, csvFolder, "-used-breaking-changes");
-    
+    AllBreakingChangesCsvWriter allBcWriter =
+        new AllBreakingChangesCsvWriter(submodule, csvFolder, "-all-breaking-changes");
+    UsedBreakingChangesCsvWriter usedBcWriter =
+        new UsedBreakingChangesCsvWriter(submodule, csvFolder, "-used-breaking-changes");
+
     int totalDirectBreakingChanges = 0;
     int totalTransitiveBreakingChanges = 0;
     int totalUsedBreakingChanges = 0;
-    
+
     // Collect all breaking changes and usage results for final writing
     List<BreakingChange> allDirectBreakingChanges = new java.util.ArrayList<>();
     List<BreakingChange> allTransitiveBreakingChanges = new java.util.ArrayList<>();
@@ -138,54 +144,69 @@ public class Script {
         transitiveBreakingChanges = java.util.Collections.emptyList();
       }
 
-      LOGGER.info("Found " + directBreakingChanges.size() + " direct and " + 
-                 transitiveBreakingChanges.size() + " transitive breaking changes for dependency: " + dep);
+      LOGGER.info(
+          "Found "
+              + directBreakingChanges.size()
+              + " direct and "
+              + transitiveBreakingChanges.size()
+              + " transitive breaking changes for dependency: "
+              + dep);
 
       // Update totals
       totalDirectBreakingChanges += directBreakingChanges.size();
       totalTransitiveBreakingChanges += transitiveBreakingChanges.size();
-      
+
       // Collect breaking changes for final writing
       allDirectBreakingChanges.addAll(directBreakingChanges);
       allTransitiveBreakingChanges.addAll(transitiveBreakingChanges);
 
       // Only proceed with client analysis if we found breaking changes
       if (!directBreakingChanges.isEmpty() || !transitiveBreakingChanges.isEmpty()) {
-        
+
         // Run client analysis to see which ones are actually used
         ClientAnalysis clientAnalysis =
             new ClientAnalysis(submodule, directBreakingChanges, transitiveBreakingChanges);
 
         List<BreakingChangeUse> allBreakingChangeUses = clientAnalysis.execute();
-        
+
         // Collect usage results for final writing
         allUsageResults.addAll(allBreakingChangeUses);
 
         // Append to CSV with only breaking changes that are used in client code
         usedBcWriter.writeUsedBreakingChanges(allBreakingChangeUses);
-        
+
         // Count for logging
-        long usedCount = allBreakingChangeUses.stream().filter(BreakingChangeUse::isUsedInClient).count();
+        long usedCount =
+            allBreakingChangeUses.stream().filter(BreakingChangeUse::isUsedInClient).count();
         totalUsedBreakingChanges += (int) usedCount;
-        
-        LOGGER.info("Client analysis complete for dependency " + dep + ". " + usedCount + 
-                   " breaking changes used in client code out of " + (directBreakingChanges.size() + transitiveBreakingChanges.size()) + " total");
+
+        LOGGER.info(
+            "Client analysis complete for dependency "
+                + dep
+                + ". "
+                + usedCount
+                + " breaking changes used in client code out of "
+                + (directBreakingChanges.size() + transitiveBreakingChanges.size())
+                + " total");
       } else {
-        LOGGER.info("No breaking changes found for dependency " + dep + " - skipping client analysis");
+        LOGGER.info(
+            "No breaking changes found for dependency " + dep + " - skipping client analysis");
       }
     }
-    
+
     // Write all breaking changes with correct usage information
-    allBcWriter.writeAllBreakingChangesWithUsage(allDirectBreakingChanges, allTransitiveBreakingChanges, allUsageResults);
-    
+    allBcWriter.writeAllBreakingChangesWithUsage(
+        allDirectBreakingChanges, allTransitiveBreakingChanges, allUsageResults);
+
     // Close the CSV writers after processing all dependencies
     allBcWriter.close();
     usedBcWriter.close();
-    
+
     LOGGER.info("=== SUBMODULE SUMMARY for '" + submodule.getName() + "' ===");
     LOGGER.info("Total direct breaking changes: " + totalDirectBreakingChanges);
     LOGGER.info("Total transitive breaking changes: " + totalTransitiveBreakingChanges);
     LOGGER.info("Total used breaking changes: " + totalUsedBreakingChanges);
-    LOGGER.info("Total breaking changes: " + (totalDirectBreakingChanges + totalTransitiveBreakingChanges));
+    LOGGER.info(
+        "Total breaking changes: " + (totalDirectBreakingChanges + totalTransitiveBreakingChanges));
   }
 }

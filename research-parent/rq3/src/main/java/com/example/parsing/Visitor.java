@@ -6,7 +6,6 @@ import com.github.javaparser.ast.type.ClassOrInterfaceType;
 import com.github.javaparser.ast.visitor.VoidVisitorAdapter;
 import com.github.javaparser.resolution.declarations.*;
 import com.github.javaparser.resolution.types.ResolvedType;
-import com.github.javaparser.resolution.UnsolvedSymbolException;
 import java.util.List;
 
 public class Visitor extends VoidVisitorAdapter<List<BreakingChangeUse>> {
@@ -16,7 +15,7 @@ public class Visitor extends VoidVisitorAdapter<List<BreakingChangeUse>> {
   public Visitor(SymbolChecker checker) {
     this.checker = checker;
   }
-  
+
   public void setCurrentFile(String currentFile) {
     this.currentFile = currentFile;
   }
@@ -28,7 +27,7 @@ public class Visitor extends VoidVisitorAdapter<List<BreakingChangeUse>> {
       String fqn = resolved.getQualifiedSignature();
       int line = n.getBegin().map(pos -> pos.line).orElse(-1);
       checker.checkNameUsage(fqn, uses, "MethodCallExpr", currentFile, line);
-    } catch (UnsolvedSymbolException | UnsupportedOperationException e) {
+    } catch (Exception e) {
       // Symbol couldn't be resolved - this is common and not necessarily an error
       // Continue processing other nodes
     }
@@ -42,7 +41,7 @@ public class Visitor extends VoidVisitorAdapter<List<BreakingChangeUse>> {
       String fqn = resolved.getQualifiedSignature();
       int line = n.getBegin().map(pos -> pos.line).orElse(-1);
       checker.checkNameUsage(fqn, uses, "ObjectCreationExpr", currentFile, line);
-    } catch (UnsolvedSymbolException | UnsupportedOperationException e) {
+    } catch (Exception e) {
       // Try to get type information instead
       try {
         String typeName = n.getType().getNameAsString();
@@ -62,11 +61,11 @@ public class Visitor extends VoidVisitorAdapter<List<BreakingChangeUse>> {
       String fqn = resolved.getType().describe();
       int line = n.getBegin().map(pos -> pos.line).orElse(-1);
       checker.checkNameUsage(fqn, uses, "FieldAccessExpr", currentFile, line);
-      
+
       // Also check the field name itself
       String fieldName = n.getNameAsString();
       checker.checkNameUsage(fieldName, uses, "FieldAccessExpr", currentFile, line);
-    } catch (UnsolvedSymbolException | UnsupportedOperationException e) {
+    } catch (Exception e) {
       // Try just the field name
       try {
         String fieldName = n.getNameAsString();
@@ -86,7 +85,7 @@ public class Visitor extends VoidVisitorAdapter<List<BreakingChangeUse>> {
       String fqn = resolved.getType().describe();
       int line = n.getBegin().map(pos -> pos.line).orElse(-1);
       checker.checkNameUsage(fqn, uses, "NameExpr", currentFile, line);
-    } catch (UnsolvedSymbolException | UnsupportedOperationException e) {
+    } catch (Exception e) {
       // Try just the name
       try {
         String name = n.getNameAsString();
@@ -106,7 +105,7 @@ public class Visitor extends VoidVisitorAdapter<List<BreakingChangeUse>> {
       String fqn = resolved.getQualifiedSignature();
       int line = n.getBegin().map(pos -> pos.line).orElse(-1);
       checker.checkNameUsage(fqn, uses, "MethodReferenceExpr", currentFile, line);
-    } catch (UnsolvedSymbolException | UnsupportedOperationException e) {
+    } catch (Exception e) {
       // Ignore if we can't resolve
     }
     super.visit(n, uses);
@@ -119,7 +118,7 @@ public class Visitor extends VoidVisitorAdapter<List<BreakingChangeUse>> {
       String fqn = resolved.describe();
       int line = n.getBegin().map(pos -> pos.line).orElse(-1);
       checker.checkNameUsage(fqn, uses, "ClassOrInterfaceType", currentFile, line);
-    } catch (UnsolvedSymbolException | UnsupportedOperationException e) {
+    } catch (Exception e) {
       // Try just the type name
       try {
         String typeName = n.getNameAsString();
