@@ -16,13 +16,12 @@ import org.eclipse.aether.graph.Dependency;
 
 public class Script {
   public static final Path csvFolder = Paths
-      .get("C:\\Users\\akup390\\Documents\\tony-alvari-part4\\part4-project\\data\\test");
+      .get("/Users/tonyyin/Desktop/Projects/csv");
 
   private static final Path reposFolder = Paths.get(
-      "C:\\Users\\akup390\\Documents\\tony-alvari-part4\\part4-project\\research-parent\\rq3\\test-cases");
+      "/Users/tonyyin/Desktop/Projects/repo");
 
   private static final Logger LOGGER = Logger.getLogger(Script.class.getName());
-  private static FailureTracker failureTracker;
 
   public static void main(String[] args) throws IOException {
 
@@ -31,9 +30,6 @@ public class Script {
     }
 
     Files.createDirectories(csvFolder);
-
-    // Initialize failure tracker
-    failureTracker = new FailureTracker(csvFolder);
 
     List<Repo> repos = Repo.getRepos(reposFolder);
 
@@ -72,28 +68,29 @@ public class Script {
       }
     }
 
-    // Print final statistics and close failure tracker
-    LOGGER.info("\n\n========== FINAL ANALYSIS STATISTICS ==========");
-    LOGGER.info("Total comparisons attempted: " + failureTracker.getTotalComparisons());
-    LOGGER.info("Failed comparisons: " + failureTracker.getFailedComparisons());
-    LOGGER.info("Success rate: " + String.format("%.2f%%", failureTracker.getSuccessRate()));
-    LOGGER.info("See detailed failure log in the CSV folder: " + csvFolder.toAbsolutePath());
-    LOGGER.info("================================================\n");
-
-    failureTracker.close();
+    LOGGER.info("\n\n========== ALL ANALYSIS COMPLETE ==========");
+    LOGGER.info("Check output folders in: " + csvFolder.toAbsolutePath());
+    LOGGER.info("============================================\n");
   }
 
   private static void performSubmoduleAnalysis(SubModule submodule)
       throws IOException, PomException {
 
+    // Create dedicated output folder for this submodule
+    String submoduleFolderName = submodule.getRepo().getName() + "_" + submodule.getName();
+    Path submoduleOutputFolder = csvFolder.resolve(submoduleFolderName);
+    Files.createDirectories(submoduleOutputFolder);
+
+    // Initialize failure tracker for this specific submodule
+    FailureTracker failureTracker = new FailureTracker(submoduleOutputFolder);
+
     PomFile pom = new PomFile(submodule.getDir());
     List<Dependency> deps = pom.getDependencies();
 
-    // Initialize CSV writers once for the entire submodule (to accumulate across
-    // all dependencies)
-    AllBreakingChangesCsvWriter allBcWriter = new AllBreakingChangesCsvWriter(submodule, csvFolder,
+    // Initialize CSV writers for this submodule in its dedicated folder
+    AllBreakingChangesCsvWriter allBcWriter = new AllBreakingChangesCsvWriter(submodule, submoduleOutputFolder,
         "-all-breaking-changes");
-    UsedBreakingChangesCsvWriter usedBcWriter = new UsedBreakingChangesCsvWriter(submodule, csvFolder,
+    UsedBreakingChangesCsvWriter usedBcWriter = new UsedBreakingChangesCsvWriter(submodule, submoduleOutputFolder,
         "-used-breaking-changes");
 
     int totalDirectBreakingChanges = 0;
@@ -192,15 +189,20 @@ public class Script {
     allBcWriter.writeAllBreakingChangesWithUsage(
         allDirectBreakingChanges, allTransitiveBreakingChanges, allUsageResults);
 
-    // Close the CSV writers after processing all dependencies
+    // Close the CSV writers and failure tracker after processing all dependencies
     allBcWriter.close();
     usedBcWriter.close();
+    failureTracker.close();
 
     LOGGER.info("=== SUBMODULE SUMMARY for '" + submodule.getName() + "' ===");
+    LOGGER.info("Output folder: " + submoduleOutputFolder.toAbsolutePath());
     LOGGER.info("Total direct breaking changes: " + totalDirectBreakingChanges);
     LOGGER.info("Total transitive breaking changes: " + totalTransitiveBreakingChanges);
     LOGGER.info("Total used breaking changes: " + totalUsedBreakingChanges);
     LOGGER.info(
         "Total breaking changes: " + (totalDirectBreakingChanges + totalTransitiveBreakingChanges));
+    LOGGER.info("Comparisons attempted: " + failureTracker.getTotalComparisons());
+    LOGGER.info("Failed comparisons: " + failureTracker.getFailedComparisons());
+    LOGGER.info("Success rate: " + String.format("%.2f%%", failureTracker.getSuccessRate()));
   }
 }
