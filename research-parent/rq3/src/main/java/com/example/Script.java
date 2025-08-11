@@ -15,14 +15,11 @@ import java.util.logging.Logger;
 import org.eclipse.aether.graph.Dependency;
 
 public class Script {
-  public static final Path csvFolder =
-      Paths.get("C:/Users/Alvari/Documents/UNI/softeng_700/part4-project/research-parent/rq3/data");
+  public static final Path csvFolder = Paths
+      .get("C:\\Users\\akup390\\Documents\\tony-alvari-part4\\part4-project\\data\\test");
 
-  private static final Path reposFolder =
-      Paths.get(
-          "C:\\Users\\Alvari\\Documents\\UNI\\softeng_700\\part4-project\\r"
-              + "esearch-parent\\r"
-              + "q3\\test-cases");
+  private static final Path reposFolder = Paths.get(
+      "C:\\Users\\akup390\\Documents\\tony-alvari-part4\\part4-project\\research-parent\\rq3\\test-cases");
 
   private static final Logger LOGGER = Logger.getLogger(Script.class.getName());
   private static FailureTracker failureTracker;
@@ -51,8 +48,7 @@ public class Script {
         continue;
       }
 
-      inner:
-      for (SubModule submodule : subModules) {
+      inner: for (SubModule submodule : subModules) {
         LOGGER.info(
             "\n=== Starting Analysis  for submodule '"
                 + submodule.getName()
@@ -93,11 +89,12 @@ public class Script {
     PomFile pom = new PomFile(submodule.getDir());
     List<Dependency> deps = pom.getDependencies();
 
-    // Initialize CSV writers once for the entire submodule (to accumulate across all dependencies)
-    AllBreakingChangesCsvWriter allBcWriter =
-        new AllBreakingChangesCsvWriter(submodule, csvFolder, "-all-breaking-changes");
-    UsedBreakingChangesCsvWriter usedBcWriter =
-        new UsedBreakingChangesCsvWriter(submodule, csvFolder, "-used-breaking-changes");
+    // Initialize CSV writers once for the entire submodule (to accumulate across
+    // all dependencies)
+    AllBreakingChangesCsvWriter allBcWriter = new AllBreakingChangesCsvWriter(submodule, csvFolder,
+        "-all-breaking-changes");
+    UsedBreakingChangesCsvWriter usedBcWriter = new UsedBreakingChangesCsvWriter(submodule, csvFolder,
+        "-used-breaking-changes");
 
     int totalDirectBreakingChanges = 0;
     int totalTransitiveBreakingChanges = 0;
@@ -133,8 +130,7 @@ public class Script {
       }
 
       List<BreakingChange> directBreakingChanges = dependencyAnalysis.getDirectBreakingChanges();
-      List<BreakingChange> transitiveBreakingChanges =
-          dependencyAnalysis.getTransitiveBreakingChanges();
+      List<BreakingChange> transitiveBreakingChanges = dependencyAnalysis.getTransitiveBreakingChanges();
 
       // Null-safe fallback to avoid NPEs when analysis fails
       if (directBreakingChanges == null) {
@@ -164,8 +160,7 @@ public class Script {
       if (!directBreakingChanges.isEmpty() || !transitiveBreakingChanges.isEmpty()) {
 
         // Run client analysis to see which ones are actually used
-        ClientAnalysis clientAnalysis =
-            new ClientAnalysis(submodule, directBreakingChanges, transitiveBreakingChanges);
+        ClientAnalysis clientAnalysis = new ClientAnalysis(submodule, directBreakingChanges, transitiveBreakingChanges);
 
         List<BreakingChangeUse> allBreakingChangeUses = clientAnalysis.execute();
 
@@ -176,8 +171,7 @@ public class Script {
         usedBcWriter.writeUsedBreakingChanges(allBreakingChangeUses);
 
         // Count for logging
-        long usedCount =
-            allBreakingChangeUses.stream().filter(BreakingChangeUse::isUsedInClient).count();
+        long usedCount = allBreakingChangeUses.stream().filter(BreakingChangeUse::isUsedInClient).count();
         totalUsedBreakingChanges += (int) usedCount;
 
         LOGGER.info(
