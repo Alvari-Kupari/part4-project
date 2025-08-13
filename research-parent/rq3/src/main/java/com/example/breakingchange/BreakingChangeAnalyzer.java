@@ -48,7 +48,7 @@ public class BreakingChangeAnalyzer {
    * @param oldDependency The old version of the dependency
    * @param newDependency The new version of the dependency
    * @return List of breaking changes detected
-   * @throws Exception if analysis fails
+   * @throws RuntimeException if analysis fails
    */
   public List<BreakingChange> analyzeBreakingChanges(
       Dependency oldDependency, Dependency newDependency) {
@@ -57,20 +57,28 @@ public class BreakingChangeAnalyzer {
     List<File> oldJars = resolveTransitiveDependencies(oldDependency);
     List<File> newJars = resolveTransitiveDependencies(newDependency);
 
-    if (oldJars.isEmpty() || newJars.isEmpty()) {
+    // Check if we have any JARs to compare - empty lists indicate resolution failures
+    if (oldJars.isEmpty()) {
       throw new RuntimeException(
-          "Failed to resolve dependencies for comparison: "
+          "Failed to resolve any JAR files for old dependency: "
               + getLibraryName(oldDependency)
-              + " "
-              + oldDependency.getArtifact().getVersion()
-              + " -> "
-              + newDependency.getArtifact().getVersion());
+              + ":" + oldDependency.getArtifact().getVersion());
+    }
+    
+    if (newJars.isEmpty()) {
+      throw new RuntimeException(
+          "Failed to resolve any JAR files for new dependency: "
+              + getLibraryName(newDependency)
+              + ":" + newDependency.getArtifact().getVersion());
     }
 
     return compareJarFiles(oldJars, newJars, oldDependency, newDependency);
   }
 
-  /** Downloads the JAR file for a given dependency. */
+  /** 
+   * Downloads the JAR file for a given dependency.
+   * @throws RuntimeException if download fails
+   */
   private File downloadJarFile(Dependency dependency) {
     try {
       Artifact artifact = dependency.getArtifact();
@@ -81,14 +89,17 @@ public class BreakingChangeAnalyzer {
       ArtifactResult result = repositorySystem.resolveArtifact(session, request);
       File jarFile = result.getArtifact().getFile();
 
+      if (jarFile == null || !jarFile.exists()) {
+        throw new RuntimeException("Downloaded JAR file does not exist: " + artifact);
+      }
+
       if (LOGGER.isLoggable(java.util.logging.Level.INFO)) {
         LOGGER.info(String.format("Downloaded: %s -> %s", artifact, jarFile.getAbsolutePath()));
       }
       return jarFile;
 
     } catch (ArtifactResolutionException e) {
-      LOGGER.severe("Failed to download dependency: " + dependency + ". Error: " + e.getMessage());
-      return null;
+      throw new RuntimeException("Failed to download dependency: " + dependency + ". Error: " + e.getMessage(), e);
     }
   }
 
@@ -97,6 +108,7 @@ public class BreakingChangeAnalyzer {
    *
    * @param dependency The dependency to resolve transitively
    * @return List of jar files for the dependency and all its transitive dependencies
+   * @throws RuntimeException if resolution fails completely
    */
   private List<File> resolveTransitiveDependencies(Dependency dependency) {
     List<File> jarFiles = new ArrayList<>();
@@ -129,6 +141,8 @@ public class BreakingChangeAnalyzer {
             if (LOGGER.isLoggable(java.util.logging.Level.FINE)) {
               LOGGER.fine("Added transitive dependency: " + artifact);
             }
+          } else {
+            LOGGER.warning("JAR file not found for artifact: " + artifact);
           }
         }
       }
@@ -140,17 +154,35 @@ public class BreakingChangeAnalyzer {
                 jarFiles.size(), dependency.getArtifact()));
       }
 
+      // If we couldn't resolve any transitive dependencies, try to at least get the main JAR
+      if (jarFiles.isEmpty()) {
+        LOGGER.warning("No transitive dependencies resolved, attempting to download main JAR only for: " + dependency);
+        try {
+          File mainJar = downloadJarFile(dependency);
+          jarFiles.add(mainJar);
+          LOGGER.info("Successfully downloaded main JAR as fallback: " + mainJar.getName());
+        } catch (RuntimeException e) {
+          throw new RuntimeException("Failed to resolve transitive dependencies and main JAR for " + dependency, e);
+        }
+      }
+
     } catch (DependencyResolutionException e) {
+      // Try fallback to main JAR only if transitive resolution fails
       LOGGER.warning(
           "Failed to resolve transitive dependencies for "
               + dependency
-              + ". Falling back to single JAR analysis. Error: "
+              + ". Attempting to download main JAR only. Error: "
               + e.getMessage());
 
-      // Fallback: just add the main JAR file
-      File mainJar = downloadJarFile(dependency);
-      if (mainJar != null) {
+      try {
+        File mainJar = downloadJarFile(dependency);
         jarFiles.add(mainJar);
+        LOGGER.info("Successfully downloaded main JAR as fallback: " + mainJar.getName());
+      } catch (RuntimeException fallbackException) {
+        throw new RuntimeException(
+            "Failed to resolve transitive dependencies and main JAR for " + dependency + 
+            ". Original error: " + e.getMessage() + 
+            ". Fallback error: " + fallbackException.getMessage(), e);
       }
     }
 
@@ -172,9 +204,14 @@ public class BreakingChangeAnalyzer {
       File oldMainJar = findMainJar(oldJars, oldDependency);
       File newMainJar = findMainJar(newJars, newDependency);
 
-      if (oldMainJar == null || newMainJar == null) {
-        LOGGER.warning("Could not find main JAR files for comparison");
-        return breakingChanges;
+      if (oldMainJar == null) {
+        throw new RuntimeException("Could not find main JAR file for old dependency: " + 
+            getLibraryName(oldDependency) + ":" + oldDependency.getArtifact().getVersion());
+      }
+      
+      if (newMainJar == null) {
+        throw new RuntimeException("Could not find main JAR file for new dependency: " + 
+            getLibraryName(newDependency) + ":" + newDependency.getArtifact().getVersion());
       }
 
       oldArchives.add(new JApiCmpArchive(oldMainJar, oldDependency.getArtifact().getVersion()));
