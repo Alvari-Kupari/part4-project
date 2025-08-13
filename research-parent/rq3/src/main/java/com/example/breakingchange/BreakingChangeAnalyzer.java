@@ -180,115 +180,75 @@ public class BreakingChangeAnalyzer {
       oldArchives.add(new JApiCmpArchive(oldMainJar, oldDependency.getArtifact().getVersion()));
       newArchives.add(new JApiCmpArchive(newMainJar, newDependency.getArtifact().getVersion()));
 
-      // Try the comparison with full classpath first
+      // Perform the comparison - any exceptions will be propagated
       breakingChanges =
-          attemptComparison(
-              oldArchives, newArchives, oldJars, newJars, oldDependency, newDependency, false);
-
-      // If that fails with missing classes, try again with ignore missing classes
-      if (breakingChanges.isEmpty()) {
-        LOGGER.info("Retrying comparison with ignore missing classes option");
-        breakingChanges =
-            attemptComparison(
-                oldArchives, newArchives, oldJars, newJars, oldDependency, newDependency, true);
-      }
+          performComparison(
+              oldArchives, newArchives, oldJars, newJars, oldDependency, newDependency);
 
     } catch (Exception e) {
       LOGGER.severe("Error comparing JAR files: " + e.getMessage());
       e.printStackTrace();
-      // Re-throw the exception so Script1 can handle it and log the failure
+      // Re-throw the exception so Script can handle it and log the failure
       throw new RuntimeException("Failed to compare JAR files: " + e.getMessage(), e);
     }
 
     return breakingChanges;
   }
 
-  /** Attempts to run japicmp comparison with the given configuration. */
-  private List<BreakingChange> attemptComparison(
+  /** Performs japicmp comparison between two sets of archives. */
+  private List<BreakingChange> performComparison(
       List<JApiCmpArchive> oldArchives,
       List<JApiCmpArchive> newArchives,
       List<File> oldJars,
       List<File> newJars,
       Dependency oldDependency,
-      Dependency newDependency,
-      boolean ignoreMissingClasses) {
+      Dependency newDependency) {
     List<BreakingChange> breakingChanges = new ArrayList<>();
 
-    try {
-      // Configure JAPICMP options
-      JarArchiveComparatorOptions options = new JarArchiveComparatorOptions();
+    // Configure JAPICMP options
+    JarArchiveComparatorOptions options = new JarArchiveComparatorOptions();
 
-      // Add all transitive dependencies to the classpath for both versions
-      File oldMainJar = findMainJar(oldJars, oldDependency);
-      File newMainJar = findMainJar(newJars, newDependency);
+    // Add all transitive dependencies to the classpath for both versions
+    File oldMainJar = findMainJar(oldJars, oldDependency);
+    File newMainJar = findMainJar(newJars, newDependency);
 
-      for (File jar : oldJars) {
-        if (!jar.equals(oldMainJar)) {
-          options.getClassPathEntries().add(jar.getAbsolutePath());
-        }
+    for (File jar : oldJars) {
+      if (!jar.equals(oldMainJar)) {
+        options.getClassPathEntries().add(jar.getAbsolutePath());
       }
-      for (File jar : newJars) {
-        if (!jar.equals(newMainJar)) {
-          options.getClassPathEntries().add(jar.getAbsolutePath());
-        }
+    }
+    for (File jar : newJars) {
+      if (!jar.equals(newMainJar)) {
+        options.getClassPathEntries().add(jar.getAbsolutePath());
       }
+    }
 
-      // Set ignore missing classes option if requested
-      if (ignoreMissingClasses) {
-        // Try to set the ignore missing classes option via reflection
-        try {
-          java.lang.reflect.Method method =
-              options.getClass().getMethod("setIgnoreMissingClasses", Object.class);
-          // Try different enum values that might exist
-          Class<?> enumClass = Class.forName("japicmp.config.Options$IgnoreMissingClasses");
-          Object enumValue =
-              java.lang.reflect.Array.get(enumClass.getEnumConstants(), 0); // Get first enum value
-          method.invoke(options, enumValue);
-          LOGGER.info("Successfully set ignore missing classes option");
-        } catch (Exception e) {
-          LOGGER.fine("Could not set ignore missing classes option: " + e.getMessage());
-        }
-      }
+    if (LOGGER.isLoggable(java.util.logging.Level.INFO)) {
+      LOGGER.info(
+          String.format(
+              "Using classpath with %d entries for JAR comparison",
+              options.getClassPathEntries().size()));
+    }
 
-      if (LOGGER.isLoggable(java.util.logging.Level.INFO)) {
-        LOGGER.info(
-            String.format(
-                "Using classpath with %d entries for JAR comparison (ignore missing: %s)",
-                options.getClassPathEntries().size(), ignoreMissingClasses));
-      }
+    // Create comparator and run comparison
+    JarArchiveComparator comparator = new JarArchiveComparator(options);
+    List<JApiClass> jApiClasses = comparator.compare(oldArchives, newArchives);
 
-      // Create comparator and run comparison
-      JarArchiveComparator comparator = new JarArchiveComparator(options);
-      List<JApiClass> jApiClasses = comparator.compare(oldArchives, newArchives);
+    // Extract breaking changes from results
+    String libraryName = getLibraryName(oldDependency);
+    String oldVersion = oldDependency.getArtifact().getVersion();
+    String newVersion = newDependency.getArtifact().getVersion();
 
-      // Extract breaking changes from results
-      String libraryName = getLibraryName(oldDependency);
-      String oldVersion = oldDependency.getArtifact().getVersion();
-      String newVersion = newDependency.getArtifact().getVersion();
+    for (JApiClass jApiClass : jApiClasses) {
+      breakingChanges.addAll(
+          extractBreakingChangesFromClass(jApiClass, oldDependency, newDependency));
+    }
 
-      for (JApiClass jApiClass : jApiClasses) {
-        breakingChanges.addAll(
-            extractBreakingChangesFromClass(jApiClass, oldDependency, newDependency));
-      }
-
-      if (LOGGER.isLoggable(java.util.logging.Level.INFO)) {
-        LOGGER.info(
-            String.format(
-                "Found %d breaking changes between %s and %s of %s",
-                breakingChanges.size(), oldVersion, newVersion, libraryName));
-      }
-
-    } catch (Exception e) {
-      if (!ignoreMissingClasses
-          && e.getMessage() != null
-          && e.getMessage().contains("Could not load")) {
-        // This is likely a missing class error, let the caller retry with ignore missing classes
-        LOGGER.warning("Comparison failed due to missing classes: " + e.getMessage());
-        return new ArrayList<>(); // Return empty list to signal retry needed
-      } else {
-        // Re-throw for other errors or if we're already ignoring missing classes
-        throw new RuntimeException(e);
-      }
+    if (LOGGER.isLoggable(java.util.logging.Level.INFO)) {
+      LOGGER.info(
+          String.format(
+              "Found %d breaking changes between %s and %s of %s",
+              breakingChanges.size(), oldVersion, newVersion, libraryName));
     }
 
     return breakingChanges;
@@ -322,7 +282,8 @@ public class BreakingChangeAnalyzer {
 
   /** Extracts breaking changes from a JApiClass. */
   private List<BreakingChange> extractBreakingChangesFromClass(
-      JApiClass jApiClass, Dependency oldDependency, Dependency newDependency) {
+      JApiClass jApiClass, Dependency 
+      oldDependency, Dependency newDependency) {
     List<BreakingChange> changes = new ArrayList<>();
 
     String libraryName = getLibraryName(oldDependency);
