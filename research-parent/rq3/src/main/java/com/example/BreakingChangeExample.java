@@ -2,6 +2,7 @@ package com.example;
 
 import com.example.breakingchange.BreakingChange;
 import com.example.breakingchange.BreakingChangeAnalyzer;
+import com.example.breakingchange.BreakingChangeAnalysisException;
 import com.example.depanalyzer.analyzer.analysis.RepositorySystemFactory;
 import java.util.List;
 import org.eclipse.aether.RepositorySystem;
@@ -44,8 +45,11 @@ public class BreakingChangeExample {
         }
       }
 
+    } catch (BreakingChangeAnalysisException e) {
+      System.err.println("Breaking change analysis failed: " + e.getMessage());
+      e.printStackTrace();
     } catch (Exception e) {
-      System.err.println("Error during analysis: " + e.getMessage());
+      System.err.println("Unexpected error during analysis: " + e.getMessage());
       e.printStackTrace();
     }
   }

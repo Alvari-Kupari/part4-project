@@ -2,6 +2,7 @@ package com.example;
 
 import com.example.breakingchange.BreakingChange;
 import com.example.breakingchange.BreakingChangeAnalyzer;
+import com.example.breakingchange.BreakingChangeAnalysisException;
 import com.example.breakingchange.TransitiveDependencyAnalyzer;
 import com.example.breakingchange.TransitiveDependencyAnalyzer.TransitiveDependencyChange;
 import com.example.depanalyzer.analyzer.analysis.RepositorySystemFactory;
@@ -102,10 +103,21 @@ public class DependencyAnalysis {
         }
 
         current = nextVersion;
+      } catch (BreakingChangeAnalysisException e) {
+        LOGGER.log(
+            Level.WARNING,
+            "Breaking change analysis failed between "
+                + current
+                + " and "
+                + nextVersion
+                + ": "
+                + e.getMessage(),
+            e);
+        if (failureTracker != null) failureTracker.recordFailure(current, nextVersion, e);
       } catch (Exception e) {
         LOGGER.log(
             Level.WARNING,
-            "Failed to analyze breaking changes between "
+            "Unexpected error analyzing breaking changes between "
                 + current
                 + " and "
                 + nextVersion
