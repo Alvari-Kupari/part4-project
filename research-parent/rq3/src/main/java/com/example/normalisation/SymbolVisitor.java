@@ -1,0 +1,123 @@
+package com.example.normalisation;
+
+import com.github.javaparser.ast.expr.*;
+import com.github.javaparser.ast.type.ClassOrInterfaceType;
+import com.github.javaparser.ast.visitor.VoidVisitorAdapter;
+import com.github.javaparser.resolution.declarations.*;
+import com.github.javaparser.resolution.types.ResolvedReferenceType;
+
+public class SymbolVisitor extends VoidVisitorAdapter<SymbolDatabase> {
+  private String currentFile = "unknown";
+
+  public void setCurrentFile(String currentFile) {
+    this.currentFile = currentFile;
+  }
+
+  @Override
+  public void visit(MethodCallExpr n, SymbolDatabase symbolDatabase) {
+    super.visit(n, symbolDatabase);
+    try {
+      ResolvedMethodDeclaration r = n.resolve();
+      String fqn = r.getQualifiedSignature(); // fully qualified with params
+      addSymbol(
+          symbolDatabase, "MethodCallExpr", r.declaringType().getQualifiedName(), r.getName(), n);
+    } catch (Exception ignored) {
+    }
+  }
+
+  @Override
+  public void visit(ObjectCreationExpr n, SymbolDatabase symbolDatabase) {
+    super.visit(n, symbolDatabase);
+    try {
+      ResolvedConstructorDeclaration r = n.resolve();
+      addSymbol(
+          symbolDatabase,
+          "ObjectCreationExpr",
+          r.declaringType().getQualifiedName(),
+          r.getName(),
+          n);
+    } catch (Exception ignored) {
+    }
+  }
+
+  @Override
+  public void visit(FieldAccessExpr n, SymbolDatabase symbolDatabase) {
+    super.visit(n, symbolDatabase);
+    try {
+      ResolvedValueDeclaration v = n.resolve();
+      if (v.isField()) {
+        ResolvedFieldDeclaration fld = v.asField();
+        addSymbol(
+            symbolDatabase,
+            "FieldAccessExpr",
+            fld.declaringType().getQualifiedName(),
+            fld.getName(),
+            n);
+      }
+    } catch (Exception ignored) {
+    }
+  }
+
+  @Override
+  public void visit(NameExpr n, SymbolDatabase symbolDatabase) {
+    super.visit(n, symbolDatabase);
+    try {
+      ResolvedValueDeclaration v = n.resolve();
+      if (v.isField()) {
+        ResolvedFieldDeclaration fld = v.asField();
+        addSymbol(
+            symbolDatabase, "NameExpr", fld.declaringType().getQualifiedName(), fld.getName(), n);
+      }
+    } catch (Exception ignored) {
+    }
+  }
+
+  @Override
+  public void visit(MethodReferenceExpr n, SymbolDatabase db) {
+    super.visit(n, db);
+    try {
+      ResolvedMethodLikeDeclaration r = n.resolve();
+      if (r instanceof ResolvedMethodDeclaration) {
+        ResolvedMethodDeclaration m = (ResolvedMethodDeclaration) r;
+        addSymbol(db, "MethodReferenceExpr", m.declaringType().getQualifiedName(), m.getName(), n);
+      } else if (r instanceof ResolvedConstructorDeclaration) {
+        ResolvedConstructorDeclaration c = (ResolvedConstructorDeclaration) r;
+        addSymbol(db, "MethodReferenceExpr", c.declaringType().getQualifiedName(), c.getName(), n);
+      }
+    } catch (Exception ignored) {
+    }
+  }
+
+  @Override
+  public void visit(ClassOrInterfaceType n, SymbolDatabase symbolDatabase) {
+    super.visit(n, symbolDatabase);
+    try {
+      ResolvedReferenceType rt = n.resolve().asReferenceType();
+      addSymbol(
+          symbolDatabase,
+          "ClassOrInterfaceType",
+          rt.getQualifiedName(),
+          rt.getTypeDeclaration().get().getName(),
+          n);
+
+    } catch (Exception ignored) {
+    }
+  }
+
+  private void addSymbol(
+      SymbolDatabase symbolDatabase,
+      String symbolType,
+      String className,
+      String symbolName,
+      com.github.javaparser.ast.Node n) {
+    Symbol symbol =
+        new Symbol.Builder()
+            .symbolType(symbolType)
+            .className(className)
+            .symbolName(symbolName)
+            .usageLocation(currentFile == null ? "unknown" : currentFile)
+            .lineNumber(n.getBegin().map(p -> p.line).orElse(-1))
+            .build();
+    symbolDatabase.add(symbol);
+  }
+}

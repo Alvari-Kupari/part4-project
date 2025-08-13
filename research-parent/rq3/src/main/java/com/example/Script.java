@@ -1,8 +1,13 @@
 package com.example;
 
 import com.example.breakingchange.BreakingChange;
+import com.example.csv.AllBreakingChangesCsvWriter;
+import com.example.csv.ClientSymbolCsvWriter;
+import com.example.csv.UsedBreakingChangesCsvWriter;
 import com.example.dependencyupdate.NoDependencyUpdateException;
 import com.example.dependencyupdate.VersionResolutionException;
+import com.example.normalisation.NormalisationAnalysis;
+import com.example.normalisation.Symbol;
 import com.example.pom.PomException;
 import com.example.pom.PomFile;
 import java.io.IOException;
@@ -10,16 +15,17 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.List;
+import java.util.Set;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import org.eclipse.aether.graph.Dependency;
 
 public class Script {
-  public static final Path csvFolder = Paths
-      .get("/Users/tonyyin/Desktop/Projects/csv");
+  public static final Path csvFolder =
+      Paths.get("C:\\Users\\Alvari\\Documents\\UNI\\softeng_700\\part4-project\\data\\rq3");
 
-  private static final Path reposFolder = Paths.get(
-      "/Users/tonyyin/Desktop/Projects/repo");
+  private static final Path reposFolder =
+      Paths.get("C:\\Users\\Alvari\\Documents\\UNI\\archive\\SOFTENG_206\\repos");
 
   private static final Logger LOGGER = Logger.getLogger(Script.class.getName());
 
@@ -44,7 +50,8 @@ public class Script {
         continue;
       }
 
-      inner: for (SubModule submodule : subModules) {
+      inner:
+      for (SubModule submodule : subModules) {
         LOGGER.info(
             "\n=== Starting Analysis  for submodule '"
                 + submodule.getName()
@@ -88,10 +95,14 @@ public class Script {
     List<Dependency> deps = pom.getDependencies();
 
     // Initialize CSV writers for this submodule in its dedicated folder
-    AllBreakingChangesCsvWriter allBcWriter = new AllBreakingChangesCsvWriter(submodule, submoduleOutputFolder,
-        "-all-breaking-changes");
-    UsedBreakingChangesCsvWriter usedBcWriter = new UsedBreakingChangesCsvWriter(submodule, submoduleOutputFolder,
-        "-used-breaking-changes");
+    AllBreakingChangesCsvWriter allBcWriter =
+        new AllBreakingChangesCsvWriter(submodule, submoduleOutputFolder, "-all-breaking-changes");
+    UsedBreakingChangesCsvWriter usedBcWriter =
+        new UsedBreakingChangesCsvWriter(
+            submodule, submoduleOutputFolder, "-used-breaking-changes");
+
+    ClientSymbolCsvWriter symbolWriter =
+        new ClientSymbolCsvWriter(submodule, submoduleOutputFolder, "-client-symbol-uses");
 
     int totalDirectBreakingChanges = 0;
     int totalTransitiveBreakingChanges = 0;
@@ -127,7 +138,8 @@ public class Script {
       }
 
       List<BreakingChange> directBreakingChanges = dependencyAnalysis.getDirectBreakingChanges();
-      List<BreakingChange> transitiveBreakingChanges = dependencyAnalysis.getTransitiveBreakingChanges();
+      List<BreakingChange> transitiveBreakingChanges =
+          dependencyAnalysis.getTransitiveBreakingChanges();
 
       // Null-safe fallback to avoid NPEs when analysis fails
       if (directBreakingChanges == null) {
@@ -157,9 +169,10 @@ public class Script {
       if (!directBreakingChanges.isEmpty() || !transitiveBreakingChanges.isEmpty()) {
 
         // Run client analysis to see which ones are actually used
-        ClientAnalysis clientAnalysis = new ClientAnalysis(submodule, directBreakingChanges, transitiveBreakingChanges);
+        ClientAnalysis clientAnalysis =
+            new ClientAnalysis(submodule, directBreakingChanges, transitiveBreakingChanges);
 
-        List<BreakingChangeUse> allBreakingChangeUses = clientAnalysis.execute();
+        List<BreakingChangeUse> allBreakingChangeUses = clientAnalysis.findClientBreakingChanges();
 
         // Collect usage results for final writing
         allUsageResults.addAll(allBreakingChangeUses);
@@ -168,7 +181,8 @@ public class Script {
         usedBcWriter.writeUsedBreakingChanges(allBreakingChangeUses);
 
         // Count for logging
-        long usedCount = allBreakingChangeUses.stream().filter(BreakingChangeUse::isUsedInClient).count();
+        long usedCount =
+            allBreakingChangeUses.stream().filter(BreakingChangeUse::isUsedInClient).count();
         totalUsedBreakingChanges += (int) usedCount;
 
         LOGGER.info(
@@ -185,6 +199,13 @@ public class Script {
       }
     }
 
+    // find all the symbols for later normalisation
+    NormalisationAnalysis normalisationAnalysis = new NormalisationAnalysis(submodule);
+
+    Set<Symbol> clientSymbols = normalisationAnalysis.getAllDependencySymbolUses();
+
+    symbolWriter.writeAllSymbols(clientSymbols);
+
     // Write all breaking changes with correct usage information
     allBcWriter.writeAllBreakingChangesWithUsage(
         allDirectBreakingChanges, allTransitiveBreakingChanges, allUsageResults);
@@ -193,6 +214,7 @@ public class Script {
     allBcWriter.close();
     usedBcWriter.close();
     failureTracker.close();
+    symbolWriter.close();
 
     LOGGER.info("=== SUBMODULE SUMMARY for '" + submodule.getName() + "' ===");
     LOGGER.info("Output folder: " + submoduleOutputFolder.toAbsolutePath());

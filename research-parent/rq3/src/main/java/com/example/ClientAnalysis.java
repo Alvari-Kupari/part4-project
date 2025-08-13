@@ -29,7 +29,7 @@ import org.eclipse.aether.graph.Dependency;
 public class ClientAnalysis {
   private static final RepositorySystem system = RepositorySystemFactory.newRepositorySystem();
   private static final RepositorySystemSession session = RepositorySystemFactory.newSession(system);
-  private static final SymbolChecker SymbolChecker = new SymbolChecker();
+  private static final SymbolChecker symbolChecker = new SymbolChecker();
   private static final Logger LOGGER = Logger.getLogger(ClientAnalysis.class.getName());
 
   private SubModule subModule;
@@ -46,14 +46,18 @@ public class ClientAnalysis {
     this.transitiveBreakingChanges = transitiveBreakingChanges;
   }
 
-  public List<BreakingChangeUse> execute() throws IOException, PomException {
+  public List<BreakingChangeUse> findClientBreakingChanges() throws IOException, PomException {
     LOGGER.info("Starting client code analysis for submodule: " + subModule.getName());
-    LOGGER.info("Looking for usage of " + directBreakingChanges.size() + " direct and " + 
-               transitiveBreakingChanges.size() + " transitive breaking changes");
-    
+    LOGGER.info(
+        "Looking for usage of "
+            + directBreakingChanges.size()
+            + " direct and "
+            + transitiveBreakingChanges.size()
+            + " transitive breaking changes");
+
     // Initialize the symbol checker with the breaking changes we're looking for
-    SymbolChecker.setBreakingChanges(directBreakingChanges, transitiveBreakingChanges);
-    
+    symbolChecker.setBreakingChanges(directBreakingChanges, transitiveBreakingChanges);
+
     PomFile pom = new PomFile(subModule.getDir());
     List<Dependency> deps = pom.getDependencies();
     Set<Artifact> artifacts = new HashSet<>();
@@ -66,7 +70,7 @@ public class ClientAnalysis {
     LanguageLevel javaVersion = pom.getJavaVersion();
 
     Parser parser = new Parser(subModule.getDir(), artifacts, javaVersion);
-    Visitor visitor = new Visitor(SymbolChecker);
+    Visitor visitor = new Visitor(symbolChecker);
 
     // Start with all breaking changes marked as unused
     Map<String, BreakingChangeUse> allBreakingChanges = new HashMap<>();
@@ -79,27 +83,35 @@ public class ClientAnalysis {
       allBreakingChanges.put(key, BreakingChangeUse.unused(bc));
     }
 
-    LOGGER.info("Scanning " + parser.getJavaFiles().size() + " Java files for breaking change usage...");
+    LOGGER.info(
+        "Scanning " + parser.getJavaFiles().size() + " Java files for breaking change usage...");
     int fileCount = 0;
     int usageFoundCount = 0;
-    
+
     for (Path javaFile : parser.getJavaFiles()) {
       fileCount++;
       if (fileCount % 20 == 0) {
-        LOGGER.info("Processed " + fileCount + "/" + parser.getJavaFiles().size() + " files, found " + usageFoundCount + " usages so far...");
+        LOGGER.info(
+            "Processed "
+                + fileCount
+                + "/"
+                + parser.getJavaFiles().size()
+                + " files, found "
+                + usageFoundCount
+                + " usages so far...");
       }
-      
+
       try {
         ParseResult<CompilationUnit> result = parser.parse(javaFile);
-        
+
         if (result.getResult().isPresent()) {
           visitor.setCurrentFile(javaFile.toString());
           CompilationUnit cu = result.getResult().get();
-          
+
           // Find usages in this file
           List<BreakingChangeUse> fileUsages = new ArrayList<>();
           visitor.visit(cu, fileUsages);
-          
+
           // Update our tracking with found usages
           for (BreakingChangeUse usage : fileUsages) {
             BreakingChange bc = usage.getBreakingChange();
@@ -118,11 +130,12 @@ public class ClientAnalysis {
 
     List<BreakingChangeUse> allResults = new ArrayList<>(allBreakingChanges.values());
     long actualUsedCount = allResults.stream().mapToLong(use -> use.isUsedInClient() ? 1 : 0).sum();
-    
+
     LOGGER.info("Client analysis complete:");
     LOGGER.info("  - Total breaking changes analyzed: " + allResults.size());
     LOGGER.info("  - Breaking changes used in client code: " + actualUsedCount);
-    LOGGER.info("  - Breaking changes NOT used in client code: " + (allResults.size() - actualUsedCount));
+    LOGGER.info(
+        "  - Breaking changes NOT used in client code: " + (allResults.size() - actualUsedCount));
 
     return allResults;
   }
