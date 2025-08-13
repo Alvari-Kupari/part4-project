@@ -189,10 +189,16 @@ public class TransitiveDependencyAnalyzer {
 
       return transitiveBreakingChanges;
 
-    } catch (Exception e) {
+    } catch (BreakingChangeAnalysisException e) {
       LOGGER.warning(
           String.format(
               "Failed to analyze transitive breaking changes for %s: %s",
+              transitiveDependencyChange, e.getMessage()));
+      return new ArrayList<>();
+    } catch (Exception e) {
+      LOGGER.warning(
+          String.format(
+              "Unexpected error analyzing transitive breaking changes for %s: %s",
               transitiveDependencyChange, e.getMessage()));
       return new ArrayList<>();
     }

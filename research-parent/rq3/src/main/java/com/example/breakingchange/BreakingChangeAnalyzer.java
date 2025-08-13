@@ -48,38 +48,115 @@ public class BreakingChangeAnalyzer {
    * @param oldDependency The old version of the dependency
    * @param newDependency The new version of the dependency
    * @return List of breaking changes detected
-   * @throws RuntimeException if analysis fails
+   * @throws BreakingChangeAnalysisException if analysis fails
    */
   public List<BreakingChange> analyzeBreakingChanges(
-      Dependency oldDependency, Dependency newDependency) {
+      Dependency oldDependency, Dependency newDependency) throws BreakingChangeAnalysisException {
 
-    // Resolve transitive dependencies for both versions
-    List<File> oldJars = resolveTransitiveDependencies(oldDependency);
-    List<File> newJars = resolveTransitiveDependencies(newDependency);
+    try {
+      // Validate inputs
+      validateDependencies(oldDependency, newDependency);
 
-    // Check if we have any JARs to compare - empty lists indicate resolution failures
-    if (oldJars.isEmpty()) {
-      throw new RuntimeException(
-          "Failed to resolve any JAR files for old dependency: "
-              + getLibraryName(oldDependency)
-              + ":" + oldDependency.getArtifact().getVersion());
+      // Resolve transitive dependencies for both versions
+      List<File> oldJars = resolveTransitiveDependencies(oldDependency);
+      List<File> newJars = resolveTransitiveDependencies(newDependency);
+
+      // Check if we have any JARs to compare
+      // Note: Empty lists could be valid if dependency has no JAR artifacts (e.g., POM-only dependencies)
+      // We should only fail if we absolutely cannot find the main JAR files
+      validateResolvedJars(oldJars, newJars, oldDependency, newDependency);
+
+      return compareJarFiles(oldJars, newJars, oldDependency, newDependency);
+
+    } catch (BreakingChangeAnalysisException e) {
+      // Re-throw our custom exceptions as-is
+      throw e;
+    } catch (Exception e) {
+      // Wrap any unexpected exceptions
+      throw new BreakingChangeAnalysisException(
+          String.format("Unexpected error analyzing breaking changes between %s and %s", 
+              formatDependency(oldDependency), formatDependency(newDependency)), e);
+    }
+  }
+
+  /** Validates that the input dependencies are not null and have valid artifacts. */
+  private void validateDependencies(Dependency oldDependency, Dependency newDependency) 
+      throws BreakingChangeAnalysisException {
+    if (oldDependency == null) {
+      throw new BreakingChangeAnalysisException("Old dependency cannot be null");
+    }
+    if (newDependency == null) {
+      throw new BreakingChangeAnalysisException("New dependency cannot be null");
+    }
+    if (oldDependency.getArtifact() == null) {
+      throw new BreakingChangeAnalysisException("Old dependency artifact cannot be null");
+    }
+    if (newDependency.getArtifact() == null) {
+      throw new BreakingChangeAnalysisException("New dependency artifact cannot be null");
     }
     
-    if (newJars.isEmpty()) {
-      throw new RuntimeException(
-          "Failed to resolve any JAR files for new dependency: "
-              + getLibraryName(newDependency)
-              + ":" + newDependency.getArtifact().getVersion());
+    // Verify they are the same library (groupId:artifactId)
+    String oldLibrary = getLibraryName(oldDependency);
+    String newLibrary = getLibraryName(newDependency);
+    if (!oldLibrary.equals(newLibrary)) {
+      throw new BreakingChangeAnalysisException(
+          String.format("Cannot compare different libraries: %s vs %s", oldLibrary, newLibrary));
     }
+  }
 
-    return compareJarFiles(oldJars, newJars, oldDependency, newDependency);
+  /** 
+   * Validates that we have sufficient JAR files to perform a meaningful comparison.
+   * This method handles edge cases where dependencies might not have JAR artifacts.
+   */
+  private void validateResolvedJars(List<File> oldJars, List<File> newJars, 
+      Dependency oldDependency, Dependency newDependency) throws BreakingChangeAnalysisException {
+    
+    // First check if both lists are empty - this could be valid for POM-only dependencies
+    if (oldJars.isEmpty() && newJars.isEmpty()) {
+      LOGGER.info(String.format("Both versions have no JAR artifacts for %s - skipping analysis", 
+          getLibraryName(oldDependency)));
+      return; // This is not an error - some dependencies are POM-only
+    }
+    
+    // If only one version has JARs, this indicates an issue
+    if (oldJars.isEmpty() && !newJars.isEmpty()) {
+      throw new BreakingChangeAnalysisException(
+          String.format("Failed to resolve any JAR files for old dependency: %s:%s (new version resolved %d JARs)",
+              getLibraryName(oldDependency), oldDependency.getArtifact().getVersion(), newJars.size()));
+    }
+    
+    if (!oldJars.isEmpty() && newJars.isEmpty()) {
+      throw new BreakingChangeAnalysisException(
+          String.format("Failed to resolve any JAR files for new dependency: %s:%s (old version resolved %d JARs)",
+              getLibraryName(newDependency), newDependency.getArtifact().getVersion(), oldJars.size()));
+    }
+    
+    // At this point, both have JARs - verify we can find the main JARs
+    File oldMainJar = findMainJar(oldJars, oldDependency);
+    File newMainJar = findMainJar(newJars, newDependency);
+    
+    if (oldMainJar == null) {
+      throw new BreakingChangeAnalysisException(
+          String.format("Could not find main JAR file for old dependency: %s:%s (resolved %d JARs)",
+              getLibraryName(oldDependency), oldDependency.getArtifact().getVersion(), oldJars.size()));
+    }
+    
+    if (newMainJar == null) {
+      throw new BreakingChangeAnalysisException(
+          String.format("Could not find main JAR file for new dependency: %s:%s (resolved %d JARs)",
+              getLibraryName(newDependency), newDependency.getArtifact().getVersion(), newJars.size()));
+    }
   }
 
   /** 
    * Downloads the JAR file for a given dependency.
-   * @throws RuntimeException if download fails
+   * @throws BreakingChangeAnalysisException if download fails
    */
-  private File downloadJarFile(Dependency dependency) {
+  /** 
+   * Downloads the JAR file for a given dependency.
+   * @throws BreakingChangeAnalysisException if download fails
+   */
+  private File downloadJarFile(Dependency dependency) throws BreakingChangeAnalysisException {
     try {
       Artifact artifact = dependency.getArtifact();
       ArtifactRequest request = new ArtifactRequest();
@@ -90,7 +167,7 @@ public class BreakingChangeAnalyzer {
       File jarFile = result.getArtifact().getFile();
 
       if (jarFile == null || !jarFile.exists()) {
-        throw new RuntimeException("Downloaded JAR file does not exist: " + artifact);
+        throw new BreakingChangeAnalysisException("Downloaded JAR file does not exist: " + artifact);
       }
 
       if (LOGGER.isLoggable(java.util.logging.Level.INFO)) {
@@ -99,7 +176,7 @@ public class BreakingChangeAnalyzer {
       return jarFile;
 
     } catch (ArtifactResolutionException e) {
-      throw new RuntimeException("Failed to download dependency: " + dependency + ". Error: " + e.getMessage(), e);
+      throw new BreakingChangeAnalysisException("Failed to download dependency: " + dependency + ". Error: " + e.getMessage(), e);
     }
   }
 
@@ -107,8 +184,7 @@ public class BreakingChangeAnalyzer {
    * Resolves and downloads all transitive dependencies for a given dependency.
    *
    * @param dependency The dependency to resolve transitively
-   * @return List of jar files for the dependency and all its transitive dependencies
-   * @throws RuntimeException if resolution fails completely
+   * @return List of jar files for the dependency and all its transitive dependencies (may be empty for POM-only dependencies)
    */
   private List<File> resolveTransitiveDependencies(Dependency dependency) {
     List<File> jarFiles = new ArrayList<>();
@@ -156,13 +232,15 @@ public class BreakingChangeAnalyzer {
 
       // If we couldn't resolve any transitive dependencies, try to at least get the main JAR
       if (jarFiles.isEmpty()) {
-        LOGGER.warning("No transitive dependencies resolved, attempting to download main JAR only for: " + dependency);
+        LOGGER.info("No transitive dependencies resolved, attempting to download main JAR only for: " + dependency);
         try {
           File mainJar = downloadJarFile(dependency);
           jarFiles.add(mainJar);
           LOGGER.info("Successfully downloaded main JAR as fallback: " + mainJar.getName());
-        } catch (RuntimeException e) {
-          throw new RuntimeException("Failed to resolve transitive dependencies and main JAR for " + dependency, e);
+        } catch (BreakingChangeAnalysisException e) {
+          // Log the warning but don't fail - this could be a POM-only dependency
+          LOGGER.warning("Failed to download main JAR for " + dependency + ": " + e.getMessage());
+          // Return empty list - will be handled by validateResolvedJars
         }
       }
 
@@ -178,117 +256,133 @@ public class BreakingChangeAnalyzer {
         File mainJar = downloadJarFile(dependency);
         jarFiles.add(mainJar);
         LOGGER.info("Successfully downloaded main JAR as fallback: " + mainJar.getName());
-      } catch (RuntimeException fallbackException) {
-        throw new RuntimeException(
-            "Failed to resolve transitive dependencies and main JAR for " + dependency + 
+      } catch (BreakingChangeAnalysisException fallbackException) {
+        // Log the warning but don't fail here - let validateResolvedJars handle it
+        LOGGER.warning("Failed to resolve transitive dependencies and main JAR for " + dependency + 
             ". Original error: " + e.getMessage() + 
-            ". Fallback error: " + fallbackException.getMessage(), e);
+            ". Fallback error: " + fallbackException.getMessage());
+        // Return empty list - will be handled by validateResolvedJars
       }
     }
 
     return jarFiles;
   }
 
-  /** Compares two sets of JAR files using JAPICMP and extracts breaking changes. */
+  /** 
+   * Compares two sets of JAR files using JAPICMP and extracts breaking changes. 
+   * @throws BreakingChangeAnalysisException if comparison fails
+   */
   private List<BreakingChange> compareJarFiles(
-      List<File> oldJars, List<File> newJars, Dependency oldDependency, Dependency newDependency) {
+      List<File> oldJars, List<File> newJars, Dependency oldDependency, Dependency newDependency) 
+      throws BreakingChangeAnalysisException {
 
-    List<BreakingChange> breakingChanges = new ArrayList<>();
+    // Handle edge case where both versions have no JARs (POM-only dependencies)
+    if (oldJars.isEmpty() && newJars.isEmpty()) {
+      LOGGER.info(String.format("Both versions are POM-only for %s - no breaking changes to analyze", 
+          getLibraryName(oldDependency)));
+      return new ArrayList<>();
+    }
 
     try {
       // Set up JAPICMP archives
       List<JApiCmpArchive> oldArchives = new ArrayList<>();
       List<JApiCmpArchive> newArchives = new ArrayList<>();
 
-      // Add main JAR files - these are the primary artifacts being compared
+      // Find main JAR files - validation already ensured these exist
       File oldMainJar = findMainJar(oldJars, oldDependency);
       File newMainJar = findMainJar(newJars, newDependency);
-
-      if (oldMainJar == null) {
-        throw new RuntimeException("Could not find main JAR file for old dependency: " + 
-            getLibraryName(oldDependency) + ":" + oldDependency.getArtifact().getVersion());
-      }
-      
-      if (newMainJar == null) {
-        throw new RuntimeException("Could not find main JAR file for new dependency: " + 
-            getLibraryName(newDependency) + ":" + newDependency.getArtifact().getVersion());
-      }
 
       oldArchives.add(new JApiCmpArchive(oldMainJar, oldDependency.getArtifact().getVersion()));
       newArchives.add(new JApiCmpArchive(newMainJar, newDependency.getArtifact().getVersion()));
 
-      // Perform the comparison - any exceptions will be propagated
-      breakingChanges =
-          performComparison(
-              oldArchives, newArchives, oldJars, newJars, oldDependency, newDependency);
+      // Perform the comparison
+      return performComparison(
+          oldArchives, newArchives, oldJars, newJars, oldDependency, newDependency);
 
     } catch (Exception e) {
       LOGGER.severe("Error comparing JAR files: " + e.getMessage());
-      e.printStackTrace();
-      // Re-throw the exception so Script can handle it and log the failure
-      throw new RuntimeException("Failed to compare JAR files: " + e.getMessage(), e);
+      throw new BreakingChangeAnalysisException("Failed to compare JAR files: " + e.getMessage(), e);
     }
-
-    return breakingChanges;
   }
 
-  /** Performs japicmp comparison between two sets of archives. */
+  /** 
+   * Performs japicmp comparison between two sets of archives. 
+   * @throws BreakingChangeAnalysisException if comparison fails
+   */
   private List<BreakingChange> performComparison(
       List<JApiCmpArchive> oldArchives,
       List<JApiCmpArchive> newArchives,
       List<File> oldJars,
       List<File> newJars,
       Dependency oldDependency,
-      Dependency newDependency) {
-    List<BreakingChange> breakingChanges = new ArrayList<>();
+      Dependency newDependency) throws BreakingChangeAnalysisException {
+    
+    try {
+      List<BreakingChange> breakingChanges = new ArrayList<>();
 
-    // Configure JAPICMP options
-    JarArchiveComparatorOptions options = new JarArchiveComparatorOptions();
+      // Configure JAPICMP options
+      JarArchiveComparatorOptions options = new JarArchiveComparatorOptions();
 
-    // Add all transitive dependencies to the classpath for both versions
-    File oldMainJar = findMainJar(oldJars, oldDependency);
-    File newMainJar = findMainJar(newJars, newDependency);
+      // Add all transitive dependencies to the classpath for both versions
+      File oldMainJar = findMainJar(oldJars, oldDependency);
+      File newMainJar = findMainJar(newJars, newDependency);
 
-    for (File jar : oldJars) {
-      if (!jar.equals(oldMainJar)) {
-        options.getClassPathEntries().add(jar.getAbsolutePath());
+      for (File jar : oldJars) {
+        if (!jar.equals(oldMainJar)) {
+          options.getClassPathEntries().add(jar.getAbsolutePath());
+        }
       }
-    }
-    for (File jar : newJars) {
-      if (!jar.equals(newMainJar)) {
-        options.getClassPathEntries().add(jar.getAbsolutePath());
+      for (File jar : newJars) {
+        if (!jar.equals(newMainJar)) {
+          options.getClassPathEntries().add(jar.getAbsolutePath());
+        }
       }
+
+      if (LOGGER.isLoggable(java.util.logging.Level.INFO)) {
+        LOGGER.info(
+            String.format(
+                "Using classpath with %d entries for JAR comparison",
+                options.getClassPathEntries().size()));
+      }
+
+      // Create comparator and run comparison
+      JarArchiveComparator comparator = new JarArchiveComparator(options);
+      List<JApiClass> jApiClasses;
+      
+      try {
+        jApiClasses = comparator.compare(oldArchives, newArchives);
+      } catch (Exception e) {
+        throw new BreakingChangeAnalysisException(
+            String.format("JAPICMP comparison failed for %s", getLibraryName(oldDependency)), e);
+      }
+
+      // Extract breaking changes from results
+      String libraryName = getLibraryName(oldDependency);
+      String oldVersion = oldDependency.getArtifact().getVersion();
+      String newVersion = newDependency.getArtifact().getVersion();
+
+      for (JApiClass jApiClass : jApiClasses) {
+        breakingChanges.addAll(
+            extractBreakingChangesFromClass(jApiClass, oldDependency, newDependency));
+      }
+
+      if (LOGGER.isLoggable(java.util.logging.Level.INFO)) {
+        LOGGER.info(
+            String.format(
+                "Found %d breaking changes between %s and %s of %s",
+                breakingChanges.size(), oldVersion, newVersion, libraryName));
+      }
+
+      return breakingChanges;
+      
+    } catch (BreakingChangeAnalysisException e) {
+      // Re-throw our custom exceptions
+      throw e;
+    } catch (Exception e) {
+      // Wrap any unexpected exceptions
+      throw new BreakingChangeAnalysisException(
+          String.format("Unexpected error during JAR comparison for %s", getLibraryName(oldDependency)), e);
     }
-
-    if (LOGGER.isLoggable(java.util.logging.Level.INFO)) {
-      LOGGER.info(
-          String.format(
-              "Using classpath with %d entries for JAR comparison",
-              options.getClassPathEntries().size()));
-    }
-
-    // Create comparator and run comparison
-    JarArchiveComparator comparator = new JarArchiveComparator(options);
-    List<JApiClass> jApiClasses = comparator.compare(oldArchives, newArchives);
-
-    // Extract breaking changes from results
-    String libraryName = getLibraryName(oldDependency);
-    String oldVersion = oldDependency.getArtifact().getVersion();
-    String newVersion = newDependency.getArtifact().getVersion();
-
-    for (JApiClass jApiClass : jApiClasses) {
-      breakingChanges.addAll(
-          extractBreakingChangesFromClass(jApiClass, oldDependency, newDependency));
-    }
-
-    if (LOGGER.isLoggable(java.util.logging.Level.INFO)) {
-      LOGGER.info(
-          String.format(
-              "Found %d breaking changes between %s and %s of %s",
-              breakingChanges.size(), oldVersion, newVersion, libraryName));
-    }
-
-    return breakingChanges;
   }
 
   /** Finds the main JAR file from a list of JAR files based on the dependency artifact. */
@@ -442,5 +536,14 @@ public class BreakingChangeAnalyzer {
   private String getLibraryName(Dependency dependency) {
     Artifact artifact = dependency.getArtifact();
     return artifact.getGroupId() + ":" + artifact.getArtifactId();
+  }
+
+  /** Formats a dependency as groupId:artifactId:version for logging. */
+  private String formatDependency(Dependency dependency) {
+    if (dependency == null || dependency.getArtifact() == null) {
+      return "null";
+    }
+    Artifact artifact = dependency.getArtifact();
+    return artifact.getGroupId() + ":" + artifact.getArtifactId() + ":" + artifact.getVersion();
   }
 }

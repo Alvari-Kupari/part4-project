@@ -22,10 +22,10 @@ import org.eclipse.aether.graph.Dependency;
 
 public class Script {
   public static final Path csvFolder =
-      Paths.get("C:\\Users\\Alvari\\Documents\\UNI\\softeng_700\\part4-project\\data\\rq3");
+      Paths.get("/Users/tonyyin/Desktop/Projects/csv");
 
   private static final Path reposFolder =
-      Paths.get("C:\\Users\\Alvari\\Documents\\UNI\\archive\\SOFTENG_206\\repos");
+      Paths.get("/Users/tonyyin/Desktop/Projects/repo");
 
   private static final Logger LOGGER = Logger.getLogger(Script.class.getName());
 
