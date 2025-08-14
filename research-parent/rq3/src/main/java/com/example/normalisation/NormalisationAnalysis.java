@@ -46,10 +46,14 @@ public class NormalisationAnalysis {
           Request request = new Request(system, session);
           artifacts.addAll(request.resolve(dep));
         });
+
+    String rootPackage = subModule.getClientRootPackage();
+
+    DependencyDatabase dependencyDatabase = new DependencyDatabase(rootPackage, artifacts);
     LanguageLevel javaVersion = pom.getJavaVersion();
 
     Parser parser = new Parser(subModule.getDir(), artifacts, javaVersion);
-    SymbolVisitor visitor = new SymbolVisitor();
+    SymbolVisitor visitor = new SymbolVisitor(dependencyDatabase);
 
     LOGGER.info(
         "Scanning " + parser.getJavaFiles().size() + " Java files for breaking change usage...");

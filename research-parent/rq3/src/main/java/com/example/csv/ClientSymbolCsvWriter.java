@@ -41,7 +41,7 @@ public class ClientSymbolCsvWriter {
   }
 
   private void writeHeader() throws IOException {
-    writer.append("Symbol_Type,Class_Name,Symbol_Name,Usage_Location,Line_Number\n");
+    writer.append("Library_Name,Symbol_Type,Class_Name,Symbol_Name,Usage_Location,Line_Number\n");
     writer.flush();
   }
 
@@ -55,7 +55,8 @@ public class ClientSymbolCsvWriter {
   private void writeSymbol(Symbol symbol) throws IOException {
     writer.append(
         String.format(
-            "%s,%s,%s,%s,%d\n",
+            "%s,%s,%s,%s,%s,%d\n",
+            escapeCSV(symbol.getLibrary() == null ? null : symbol.getLibrary().toString()),
             escapeCSV(symbol.getSymbolType()),
             escapeCSV(symbol.getClassName()),
             escapeCSV(symbol.getSymbolName()),

@@ -5,9 +5,15 @@ import com.github.javaparser.ast.type.ClassOrInterfaceType;
 import com.github.javaparser.ast.visitor.VoidVisitorAdapter;
 import com.github.javaparser.resolution.declarations.*;
 import com.github.javaparser.resolution.types.ResolvedReferenceType;
+import org.eclipse.aether.artifact.Artifact;
 
 public class SymbolVisitor extends VoidVisitorAdapter<SymbolDatabase> {
   private String currentFile = "unknown";
+  private DependencyDatabase dependencyDatabase;
+
+  public SymbolVisitor(DependencyDatabase dependencyDatabase) {
+    this.dependencyDatabase = dependencyDatabase;
+  }
 
   public void setCurrentFile(String currentFile) {
     this.currentFile = currentFile;
@@ -110,6 +116,10 @@ public class SymbolVisitor extends VoidVisitorAdapter<SymbolDatabase> {
       String className,
       String symbolName,
       com.github.javaparser.ast.Node n) {
+
+    // Inner-class-safe lookup in DependencyDatabase
+    Artifact artifact = dependencyDatabase.getArtifact(className);
+
     Symbol symbol =
         new Symbol.Builder()
             .symbolType(symbolType)
@@ -117,7 +127,9 @@ public class SymbolVisitor extends VoidVisitorAdapter<SymbolDatabase> {
             .symbolName(symbolName)
             .usageLocation(currentFile == null ? "unknown" : currentFile)
             .lineNumber(n.getBegin().map(p -> p.line).orElse(-1))
+            .library(artifact) // attach artifact here
             .build();
+
     symbolDatabase.add(symbol);
   }
 }

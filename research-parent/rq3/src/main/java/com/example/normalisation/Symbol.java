@@ -1,6 +1,7 @@
 package com.example.normalisation;
 
 import java.util.Objects;
+import org.eclipse.aether.artifact.Artifact;
 
 public class Symbol {
   private final String symbolType; // Type of usage (e.g., "MethodCallExpr", "FieldAccessExpr")
@@ -8,6 +9,7 @@ public class Symbol {
   private final String symbolName;
   private final String usageLocation; // File path where it's used
   private final int lineNumber; // Line number where it's used
+  private final Artifact library;
 
   private Symbol(Builder builder) {
     this.symbolType = builder.symbolType;
@@ -15,6 +17,7 @@ public class Symbol {
     this.symbolName = builder.symbolName;
     this.usageLocation = builder.usageLocation;
     this.lineNumber = builder.lineNumber;
+    this.library = builder.library;
   }
 
   public String getSymbolType() {
@@ -37,12 +40,17 @@ public class Symbol {
     return lineNumber;
   }
 
+  public Artifact getLibrary() {
+    return library;
+  }
+
   public static class Builder {
     private String symbolType;
     private String className;
     private String symbolName;
     private String usageLocation;
     private int lineNumber;
+    private Artifact library;
 
     public Builder symbolType(String symbolType) {
       this.symbolType = symbolType;
@@ -69,6 +77,11 @@ public class Symbol {
       return this;
     }
 
+    public Builder library(Artifact library) {
+      this.library = library;
+      return this;
+    }
+
     public Symbol build() {
       if (symbolType == null || className == null || symbolName == null || usageLocation == null) {
         throw new IllegalStateException("All fields must be initialised before building Symbol");
@@ -86,11 +99,12 @@ public class Symbol {
         && symbolType.equals(other.symbolType)
         && className.equals(other.className)
         && symbolName.equals(other.symbolName)
-        && usageLocation.equals(other.usageLocation);
+        && usageLocation.equals(other.usageLocation)
+        && library.equals(other.library);
   }
 
   @Override
   public int hashCode() {
-    return Objects.hash(symbolType, className, symbolName, usageLocation, lineNumber);
+    return Objects.hash(symbolType, className, symbolName, usageLocation, lineNumber, library);
   }
 }
