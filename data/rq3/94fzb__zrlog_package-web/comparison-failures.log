@@ -1,0 +1,10 @@
+=== Comparison Failure Log ===
+[2025-08-22 14:29:29] org.apache.tomcat.embed:tomcat-embed-core:10.1.42 -> org.apache.tomcat.embed:tomcat-embed-core:10.1.43 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.tomcat.embed:tomcat-embed-core
+[2025-08-22 14:29:30] org.apache.tomcat.embed:tomcat-embed-core:10.1.42 -> org.apache.tomcat.embed:tomcat-embed-core:10.1.44 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.tomcat.embed:tomcat-embed-core
+[2025-08-22 14:29:31] org.apache.tomcat.embed:tomcat-embed-jasper:10.1.42 -> org.apache.tomcat.embed:tomcat-embed-jasper:10.1.43 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.tomcat.embed:tomcat-embed-jasper
+[2025-08-22 14:29:32] org.apache.tomcat.embed:tomcat-embed-jasper:10.1.42 -> org.apache.tomcat.embed:tomcat-embed-jasper:10.1.44 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.tomcat.embed:tomcat-embed-jasper
+
+=== Summary ===
+Total comparisons: 4
+Failures: 4
+Success rate: 0.00%

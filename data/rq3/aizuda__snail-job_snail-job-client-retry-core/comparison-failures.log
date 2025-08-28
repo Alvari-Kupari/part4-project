@@ -1,0 +1,11 @@
+=== Comparison Failure Log ===
+[2025-08-25 15:28:38] org.projectlombok:lombok:1.18.36 -> org.projectlombok:lombok:1.18.38 : Failed to compare JAR files: JAPICMP comparison failed for org.projectlombok:lombok
+[2025-08-25 15:29:29] com.googlecode.aviator:aviator:5.3.3 -> com.googlecode.aviator:aviator:5.4.0 : Failed to compare JAR files: JAPICMP comparison failed for com.googlecode.aviator:aviator
+[2025-08-25 15:29:30] com.googlecode.aviator:aviator:5.3.3 -> com.googlecode.aviator:aviator:5.4.1 : Failed to compare JAR files: JAPICMP comparison failed for com.googlecode.aviator:aviator
+[2025-08-25 15:29:31] com.googlecode.aviator:aviator:5.3.3 -> com.googlecode.aviator:aviator:5.4.2 : Failed to compare JAR files: JAPICMP comparison failed for com.googlecode.aviator:aviator
+[2025-08-25 15:29:32] com.googlecode.aviator:aviator:5.3.3 -> com.googlecode.aviator:aviator:5.4.3 : Failed to compare JAR files: JAPICMP comparison failed for com.googlecode.aviator:aviator
+
+=== Summary ===
+Total comparisons: 651
+Failures: 5
+Success rate: 99.23%

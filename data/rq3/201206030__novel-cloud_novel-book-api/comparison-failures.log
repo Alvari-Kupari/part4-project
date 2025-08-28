@@ -1,0 +1,16 @@
+=== Comparison Failure Log ===
+[2025-08-22 11:17:59] org.projectlombok:lombok:1.18.26 -> org.projectlombok:lombok:1.18.28 : Failed to compare JAR files: JAPICMP comparison failed for org.projectlombok:lombok
+[2025-08-22 11:17:59] org.projectlombok:lombok:1.18.26 -> org.projectlombok:lombok:1.18.30 : Failed to compare JAR files: JAPICMP comparison failed for org.projectlombok:lombok
+[2025-08-22 11:17:59] org.projectlombok:lombok:1.18.26 -> org.projectlombok:lombok:1.18.32 : Failed to compare JAR files: JAPICMP comparison failed for org.projectlombok:lombok
+[2025-08-22 11:17:59] org.projectlombok:lombok:1.18.26 -> org.projectlombok:lombok:1.18.34 : Failed to compare JAR files: JAPICMP comparison failed for org.projectlombok:lombok
+[2025-08-22 11:17:59] org.projectlombok:lombok:1.18.26 -> org.projectlombok:lombok:1.18.36 : Failed to compare JAR files: JAPICMP comparison failed for org.projectlombok:lombok
+[2025-08-22 11:17:59] org.projectlombok:lombok:1.18.26 -> org.projectlombok:lombok:1.18.38 : Failed to compare JAR files: JAPICMP comparison failed for org.projectlombok:lombok
+[2025-08-22 11:17:59] org.hibernate.validator:hibernate-validator:8.0.0.Final -> org.hibernate.validator:hibernate-validator:8.0.1.Final : Failed to compare JAR files: JAPICMP comparison failed for org.hibernate.validator:hibernate-validator
+[2025-08-22 11:17:59] org.hibernate.validator:hibernate-validator:8.0.0.Final -> org.hibernate.validator:hibernate-validator:8.0.2.Final : Failed to compare JAR files: JAPICMP comparison failed for org.hibernate.validator:hibernate-validator
+[2025-08-22 11:17:59] org.hibernate.validator:hibernate-validator:8.0.0.Final -> org.hibernate.validator:hibernate-validator:8.0.3.Final : Failed to compare JAR files: JAPICMP comparison failed for org.hibernate.validator:hibernate-validator
+[2025-08-22 11:17:59] org.hibernate.validator:hibernate-validator:8.0.0.Final -> org.hibernate.validator:hibernate-validator:9.0.0.CR1 : Failed to compare JAR files: JAPICMP comparison failed for org.hibernate.validator:hibernate-validator
+
+=== Summary ===
+Total comparisons: 429
+Failures: 10
+Success rate: 97.67%

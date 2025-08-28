@@ -22,12 +22,15 @@ import org.eclipse.aether.graph.Dependency;
 
 public class Script {
   public static final Path csvFolder =
-      Paths.get("C:\\Users\\Alvari\\Documents\\UNI\\softeng_700\\part4-project\\data\\rq3");
+      Paths.get("C:\\Users\\tyin363\\Documents\\part4-project\\data\\rq3");
 
   private static final Path reposFolder =
-      Paths.get("C:\\Users\\Alvari\\Documents\\UNI\\archive\\SOFTENG_206\\repos");
+      Paths.get("C:\\Users\\tyin363\\Documents\\repos");
+
 
   private static final Logger LOGGER = Logger.getLogger(Script.class.getName());
+
+  private static final String startRepo = "AntonyCheng__spring-boot-init-template";
 
   public static void main(String[] args) throws IOException {
 
@@ -39,7 +42,16 @@ public class Script {
 
     List<Repo> repos = Repo.getRepos(reposFolder);
 
+    boolean seen = false;
+
     for (Repo repo : repos) {
+
+      if (repo.getName().equals(startRepo)) {
+        seen = true;
+      }
+
+      if (!seen) continue;
+
       LOGGER.info(
           "\n\n========== STARTING ANALYSIS FOR REPOSITORY: " + repo.getName() + " ==========\n");
 

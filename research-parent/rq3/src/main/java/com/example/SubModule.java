@@ -32,8 +32,8 @@ public class SubModule {
     return name;
   }
 
-  public Path getPom() {
-    return dir.resolve("pom.xml");
+  private Path getPom() {
+    return dir.resolve("effective-pom.xml");
   }
 
   public Repo getRepo() {

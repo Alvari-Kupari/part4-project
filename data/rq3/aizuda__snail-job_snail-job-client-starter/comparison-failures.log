@@ -1,0 +1,20 @@
+=== Comparison Failure Log ===
+[2025-08-25 15:30:09] org.springframework:spring-tx:6.1.18 -> org.springframework:spring-tx:6.1.19 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-tx
+[2025-08-25 15:30:09] org.springframework:spring-tx:6.1.18 -> org.springframework:spring-tx:6.1.20 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-tx
+[2025-08-25 15:30:09] org.springframework:spring-tx:6.1.18 -> org.springframework:spring-tx:6.1.21 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-tx
+[2025-08-25 15:30:09] org.springframework:spring-tx:6.1.18 -> org.springframework:spring-tx:6.2.0 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-tx
+[2025-08-25 15:30:09] org.springframework:spring-tx:6.1.18 -> org.springframework:spring-tx:6.2.1 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-tx
+[2025-08-25 15:30:09] org.springframework:spring-tx:6.1.18 -> org.springframework:spring-tx:6.2.2 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-tx
+[2025-08-25 15:30:09] org.springframework:spring-tx:6.1.18 -> org.springframework:spring-tx:6.2.3 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-tx
+[2025-08-25 15:30:09] org.springframework:spring-tx:6.1.18 -> org.springframework:spring-tx:6.2.4 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-tx
+[2025-08-25 15:30:09] org.springframework:spring-tx:6.1.18 -> org.springframework:spring-tx:6.2.5 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-tx
+[2025-08-25 15:30:09] org.springframework:spring-tx:6.1.18 -> org.springframework:spring-tx:6.2.6 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-tx
+[2025-08-25 15:30:09] org.springframework:spring-tx:6.1.18 -> org.springframework:spring-tx:6.2.7 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-tx
+[2025-08-25 15:30:09] org.springframework:spring-tx:6.1.18 -> org.springframework:spring-tx:6.2.8 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-tx
+[2025-08-25 15:30:09] org.springframework:spring-tx:6.1.18 -> org.springframework:spring-tx:6.2.9 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-tx
+[2025-08-25 15:30:09] org.springframework:spring-tx:6.1.18 -> org.springframework:spring-tx:6.2.10 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-tx
+
+=== Summary ===
+Total comparisons: 416
+Failures: 14
+Success rate: 96.63%

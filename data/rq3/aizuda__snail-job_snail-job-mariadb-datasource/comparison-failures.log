@@ -1,0 +1,10 @@
+=== Comparison Failure Log ===
+[2025-08-25 15:33:36] org.projectlombok:lombok:1.18.36 -> org.projectlombok:lombok:1.18.38 : Failed to compare JAR files: JAPICMP comparison failed for org.projectlombok:lombok
+[2025-08-25 15:34:30] org.mariadb.jdbc:mariadb-java-client:3.5.2 -> org.mariadb.jdbc:mariadb-java-client:3.5.3 : Failed to compare JAR files: JAPICMP comparison failed for org.mariadb.jdbc:mariadb-java-client
+[2025-08-25 15:34:31] org.mariadb.jdbc:mariadb-java-client:3.5.2 -> org.mariadb.jdbc:mariadb-java-client:3.5.4 : Failed to compare JAR files: JAPICMP comparison failed for org.mariadb.jdbc:mariadb-java-client
+[2025-08-25 15:34:32] org.mariadb.jdbc:mariadb-java-client:3.5.2 -> org.mariadb.jdbc:mariadb-java-client:3.5.5 : Failed to compare JAR files: JAPICMP comparison failed for org.mariadb.jdbc:mariadb-java-client
+
+=== Summary ===
+Total comparisons: 50
+Failures: 4
+Success rate: 92.00%

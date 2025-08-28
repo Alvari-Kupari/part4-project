@@ -1,0 +1,796 @@
+Library_Name,Old_Version,New_Version,Class_Name,Member_Name,Change_Type,Description,Binary_Compatible,Source_Compatible,Is_Transitive,Depth,Direct_Parent_Dependency,Release_Type,Is_Used_In_Client
+jakarta.servlet:jakarta.servlet-api,6.0.0,6.1.0,jakarta.servlet.http.HttpServletResponse,sendRedirect,METHOD_CHANGE,METHOD_ABSTRACT_NOW_DEFAULT,false,false,false,1,jakarta.servlet:jakarta.servlet-api,MINOR,true
+jakarta.servlet:jakarta.servlet-api,6.0.0,6.1.0,jakarta.servlet.http.HttpServletResponse,sendRedirect,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,jakarta.servlet:jakarta.servlet-api,MINOR,true
+com.fasterxml.jackson.core:jackson-databind,2.19.1,2.19.2,com.fasterxml.jackson.databind.deser.std.StringArrayDeserializer,_deserializeCustom,METHOD_CHANGE,METHOD_LESS_ACCESSIBLE,false,false,false,1,com.fasterxml.jackson.core:jackson-databind,PATCH,false
+com.fasterxml.jackson.core:jackson-databind,2.19.1,2.19.2,com.fasterxml.jackson.databind.deser.std.StringArrayDeserializer,_unwrapSingle,FIELD_CHANGE,FIELD_LESS_ACCESSIBLE,false,false,false,1,com.fasterxml.jackson.core:jackson-databind,PATCH,false
+com.fasterxml.jackson.core:jackson-databind,2.19.1,2.19.2,com.fasterxml.jackson.databind.deser.std.StringArrayDeserializer,_elementDeserializer,FIELD_CHANGE,FIELD_LESS_ACCESSIBLE; FIELD_NOW_FINAL,false,false,false,1,com.fasterxml.jackson.core:jackson-databind,PATCH,false
+com.fasterxml.jackson.core:jackson-databind,2.19.1,2.19.2,com.fasterxml.jackson.databind.deser.std.StringArrayDeserializer,_nullProvider,FIELD_CHANGE,FIELD_LESS_ACCESSIBLE,false,false,false,1,com.fasterxml.jackson.core:jackson-databind,PATCH,false
+com.fasterxml.jackson.core:jackson-databind,2.19.1,2.19.2,com.fasterxml.jackson.databind.deser.std.StringArrayDeserializer,_skipNullValues,FIELD_CHANGE,FIELD_LESS_ACCESSIBLE,false,false,false,1,com.fasterxml.jackson.core:jackson-databind,PATCH,false
+com.fasterxml.jackson.core:jackson-databind,2.19.1,2.19.2,com.fasterxml.jackson.databind.deser.std.StringCollectionDeserializer,withResolved,METHOD_CHANGE,METHOD_LESS_ACCESSIBLE,false,false,false,1,com.fasterxml.jackson.core:jackson-databind,PATCH,false
+com.fasterxml.jackson.core:jackson-databind,2.19.1,2.19.2,com.fasterxml.jackson.databind.deser.std.StringCollectionDeserializer,_valueInstantiator,FIELD_CHANGE,FIELD_LESS_ACCESSIBLE,false,false,false,1,com.fasterxml.jackson.core:jackson-databind,PATCH,false
+com.fasterxml.jackson.core:jackson-databind,2.19.1,2.19.2,com.fasterxml.jackson.databind.deser.std.StringCollectionDeserializer,_delegateDeserializer,FIELD_CHANGE,FIELD_LESS_ACCESSIBLE,false,false,false,1,com.fasterxml.jackson.core:jackson-databind,PATCH,false
+com.fasterxml.jackson.core:jackson-databind,2.19.1,2.19.2,com.fasterxml.jackson.databind.deser.std.StringCollectionDeserializer,_valueDeserializer,FIELD_CHANGE,FIELD_LESS_ACCESSIBLE,false,false,false,1,com.fasterxml.jackson.core:jackson-databind,PATCH,false
+org.mapstruct:mapstruct,1.5.5.Final,1.6.3,org.mapstruct.BeanMapping,unmappedSourcePolicy,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,true,2,io.github.linpeilie:mapstruct-plus-spring-boot-starter,MINOR,false
+org.mapstruct:mapstruct,1.5.5.Final,1.6.3,org.mapstruct.Condition,appliesTo,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,true,2,io.github.linpeilie:mapstruct-plus-spring-boot-starter,MINOR,false
+org.mapstruct:mapstruct,1.5.5.Final,1.6.3,org.mapstruct.SubclassMapping,qualifiedBy,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,true,2,io.github.linpeilie:mapstruct-plus-spring-boot-starter,MINOR,false
+org.mapstruct:mapstruct,1.5.5.Final,1.6.3,org.mapstruct.SubclassMapping,qualifiedByName,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,true,2,io.github.linpeilie:mapstruct-plus-spring-boot-starter,MINOR,false
+io.github.linpeilie:mapstruct-plus,1.4.8,1.5.0,io.github.linpeilie.annotations.MapperConfig,uses,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,true,2,io.github.linpeilie:mapstruct-plus-spring-boot-starter,MINOR,false
+com.fasterxml.jackson.core:jackson-core,2.19.1,2.19.2,com.fasterxml.jackson.core.internal.shaded.fdp.v2_19_1.JavaBigDecimalParser,com.fasterxml.jackson.core.internal.shaded.fdp.v2_19_1.JavaBigDecimalParser,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,com.fasterxml.jackson.core:jackson-databind,PATCH,false
+com.fasterxml.jackson.core:jackson-core,2.19.1,2.19.2,com.fasterxml.jackson.core.internal.shaded.fdp.v2_19_1.JavaBigDecimalParser,parseBigDecimal,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.fasterxml.jackson.core:jackson-databind,PATCH,false
+com.fasterxml.jackson.core:jackson-core,2.19.1,2.19.2,com.fasterxml.jackson.core.internal.shaded.fdp.v2_19_1.JavaBigDecimalParser,parseBigDecimal,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.fasterxml.jackson.core:jackson-databind,PATCH,false
+com.fasterxml.jackson.core:jackson-core,2.19.1,2.19.2,com.fasterxml.jackson.core.internal.shaded.fdp.v2_19_1.JavaBigDecimalParser,parseBigDecimal,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.fasterxml.jackson.core:jackson-databind,PATCH,false
+com.fasterxml.jackson.core:jackson-core,2.19.1,2.19.2,com.fasterxml.jackson.core.internal.shaded.fdp.v2_19_1.JavaBigDecimalParser,parseBigDecimal,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.fasterxml.jackson.core:jackson-databind,PATCH,false
+com.fasterxml.jackson.core:jackson-core,2.19.1,2.19.2,com.fasterxml.jackson.core.internal.shaded.fdp.v2_19_1.JavaBigDecimalParser,parseBigDecimal,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.fasterxml.jackson.core:jackson-databind,PATCH,false
+com.fasterxml.jackson.core:jackson-core,2.19.1,2.19.2,com.fasterxml.jackson.core.internal.shaded.fdp.v2_19_1.JavaBigDecimalParser,parseBigDecimal,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.fasterxml.jackson.core:jackson-databind,PATCH,false
+com.fasterxml.jackson.core:jackson-core,2.19.1,2.19.2,com.fasterxml.jackson.core.internal.shaded.fdp.v2_19_1.JavaBigIntegerParser,com.fasterxml.jackson.core.internal.shaded.fdp.v2_19_1.JavaBigIntegerParser,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,com.fasterxml.jackson.core:jackson-databind,PATCH,false
+com.fasterxml.jackson.core:jackson-core,2.19.1,2.19.2,com.fasterxml.jackson.core.internal.shaded.fdp.v2_19_1.JavaBigIntegerParser,parseBigInteger,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.fasterxml.jackson.core:jackson-databind,PATCH,false
+com.fasterxml.jackson.core:jackson-core,2.19.1,2.19.2,com.fasterxml.jackson.core.internal.shaded.fdp.v2_19_1.JavaBigIntegerParser,parseBigInteger,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.fasterxml.jackson.core:jackson-databind,PATCH,false
+com.fasterxml.jackson.core:jackson-core,2.19.1,2.19.2,com.fasterxml.jackson.core.internal.shaded.fdp.v2_19_1.JavaBigIntegerParser,parseBigInteger,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.fasterxml.jackson.core:jackson-databind,PATCH,false
+com.fasterxml.jackson.core:jackson-core,2.19.1,2.19.2,com.fasterxml.jackson.core.internal.shaded.fdp.v2_19_1.JavaBigIntegerParser,parseBigInteger,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.fasterxml.jackson.core:jackson-databind,PATCH,false
+com.fasterxml.jackson.core:jackson-core,2.19.1,2.19.2,com.fasterxml.jackson.core.internal.shaded.fdp.v2_19_1.JavaBigIntegerParser,parseBigInteger,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.fasterxml.jackson.core:jackson-databind,PATCH,false
+com.fasterxml.jackson.core:jackson-core,2.19.1,2.19.2,com.fasterxml.jackson.core.internal.shaded.fdp.v2_19_1.JavaBigIntegerParser,parseBigInteger,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.fasterxml.jackson.core:jackson-databind,PATCH,false
+com.fasterxml.jackson.core:jackson-core,2.19.1,2.19.2,com.fasterxml.jackson.core.internal.shaded.fdp.v2_19_1.JavaBigIntegerParser,parseBigInteger,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.fasterxml.jackson.core:jackson-databind,PATCH,false
+com.fasterxml.jackson.core:jackson-core,2.19.1,2.19.2,com.fasterxml.jackson.core.internal.shaded.fdp.v2_19_1.JavaBigIntegerParser,parseBigInteger,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.fasterxml.jackson.core:jackson-databind,PATCH,false
+com.fasterxml.jackson.core:jackson-core,2.19.1,2.19.2,com.fasterxml.jackson.core.internal.shaded.fdp.v2_19_1.JavaBigIntegerParser,parseBigInteger,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.fasterxml.jackson.core:jackson-databind,PATCH,false
+com.fasterxml.jackson.core:jackson-core,2.19.1,2.19.2,com.fasterxml.jackson.core.internal.shaded.fdp.v2_19_1.JavaBigIntegerParser,parseBigInteger,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.fasterxml.jackson.core:jackson-databind,PATCH,false
+com.fasterxml.jackson.core:jackson-core,2.19.1,2.19.2,com.fasterxml.jackson.core.internal.shaded.fdp.v2_19_1.JavaBigIntegerParser,parseBigInteger,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.fasterxml.jackson.core:jackson-databind,PATCH,false
+com.fasterxml.jackson.core:jackson-core,2.19.1,2.19.2,com.fasterxml.jackson.core.internal.shaded.fdp.v2_19_1.JavaBigIntegerParser,parseBigInteger,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.fasterxml.jackson.core:jackson-databind,PATCH,false
+com.fasterxml.jackson.core:jackson-core,2.19.1,2.19.2,com.fasterxml.jackson.core.internal.shaded.fdp.v2_19_1.JavaDoubleParser,com.fasterxml.jackson.core.internal.shaded.fdp.v2_19_1.JavaDoubleParser,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,com.fasterxml.jackson.core:jackson-databind,PATCH,false
+com.fasterxml.jackson.core:jackson-core,2.19.1,2.19.2,com.fasterxml.jackson.core.internal.shaded.fdp.v2_19_1.JavaDoubleParser,parseDouble,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.fasterxml.jackson.core:jackson-databind,PATCH,false
+com.fasterxml.jackson.core:jackson-core,2.19.1,2.19.2,com.fasterxml.jackson.core.internal.shaded.fdp.v2_19_1.JavaDoubleParser,parseDouble,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.fasterxml.jackson.core:jackson-databind,PATCH,false
+com.fasterxml.jackson.core:jackson-core,2.19.1,2.19.2,com.fasterxml.jackson.core.internal.shaded.fdp.v2_19_1.JavaDoubleParser,parseDouble,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.fasterxml.jackson.core:jackson-databind,PATCH,false
+com.fasterxml.jackson.core:jackson-core,2.19.1,2.19.2,com.fasterxml.jackson.core.internal.shaded.fdp.v2_19_1.JavaDoubleParser,parseDouble,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.fasterxml.jackson.core:jackson-databind,PATCH,false
+com.fasterxml.jackson.core:jackson-core,2.19.1,2.19.2,com.fasterxml.jackson.core.internal.shaded.fdp.v2_19_1.JavaDoubleParser,parseDouble,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.fasterxml.jackson.core:jackson-databind,PATCH,false
+com.fasterxml.jackson.core:jackson-core,2.19.1,2.19.2,com.fasterxml.jackson.core.internal.shaded.fdp.v2_19_1.JavaDoubleParser,parseDouble,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.fasterxml.jackson.core:jackson-databind,PATCH,false
+com.fasterxml.jackson.core:jackson-core,2.19.1,2.19.2,com.fasterxml.jackson.core.internal.shaded.fdp.v2_19_1.JavaFloatParser,com.fasterxml.jackson.core.internal.shaded.fdp.v2_19_1.JavaFloatParser,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,com.fasterxml.jackson.core:jackson-databind,PATCH,false
+com.fasterxml.jackson.core:jackson-core,2.19.1,2.19.2,com.fasterxml.jackson.core.internal.shaded.fdp.v2_19_1.JavaFloatParser,parseFloat,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.fasterxml.jackson.core:jackson-databind,PATCH,false
+com.fasterxml.jackson.core:jackson-core,2.19.1,2.19.2,com.fasterxml.jackson.core.internal.shaded.fdp.v2_19_1.JavaFloatParser,parseFloat,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.fasterxml.jackson.core:jackson-databind,PATCH,false
+com.fasterxml.jackson.core:jackson-core,2.19.1,2.19.2,com.fasterxml.jackson.core.internal.shaded.fdp.v2_19_1.JavaFloatParser,parseFloat,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.fasterxml.jackson.core:jackson-databind,PATCH,false
+com.fasterxml.jackson.core:jackson-core,2.19.1,2.19.2,com.fasterxml.jackson.core.internal.shaded.fdp.v2_19_1.JavaFloatParser,parseFloat,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.fasterxml.jackson.core:jackson-databind,PATCH,false
+com.fasterxml.jackson.core:jackson-core,2.19.1,2.19.2,com.fasterxml.jackson.core.internal.shaded.fdp.v2_19_1.JavaFloatParser,parseFloat,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.fasterxml.jackson.core:jackson-databind,PATCH,false
+com.fasterxml.jackson.core:jackson-core,2.19.1,2.19.2,com.fasterxml.jackson.core.internal.shaded.fdp.v2_19_1.JavaFloatParser,parseFloat,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.fasterxml.jackson.core:jackson-databind,PATCH,false
+com.fasterxml.jackson.core:jackson-annotations,2.19.1,2.19.2,com.fasterxml.jackson.annotation.JacksonInject,optional,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,true,2,com.fasterxml.jackson.core:jackson-databind,PATCH,false
+com.fasterxml.jackson.core:jackson-annotations,2.19.1,2.19.2,com.fasterxml.jackson.annotation.JacksonInject$Value,JacksonInject$Value,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,com.fasterxml.jackson.core:jackson-databind,PATCH,false
+com.fasterxml.jackson.core:jackson-annotations,2.19.1,2.19.2,com.fasterxml.jackson.annotation.JsonAutoDetect,scalarConstructorVisibility,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,true,2,com.fasterxml.jackson.core:jackson-databind,PATCH,false
+org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.8.21,kotlin.collections.BrittleContainsOptimizationKt,kotlin.collections.BrittleContainsOptimizationKt,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.8.21,kotlin.collections.BrittleContainsOptimizationKt,convertToSetForSetOperation,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.8.21,kotlin.collections.BrittleContainsOptimizationKt,convertToSetForSetOperation,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.8.21,kotlin.collections.BrittleContainsOptimizationKt,convertToSetForSetOperation,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.8.21,kotlin.collections.BrittleContainsOptimizationKt,convertToSetForSetOperationWith,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.8.21,kotlin.collections.CollectionSystemProperties,kotlin.collections.CollectionSystemProperties,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.8.21,kotlin.collections.CollectionSystemProperties,brittleContainsOptimizationEnabled,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.8.21,kotlin.collections.CollectionSystemProperties,INSTANCE,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.8.21,kotlin.collections.UByteIterator,kotlin.collections.UByteIterator,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.8.21,kotlin.collections.UByteIterator,next,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.8.21,kotlin.collections.UByteIterator,next-w2LRezQ,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.8.21,kotlin.collections.UByteIterator,nextUByte-w2LRezQ,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.8.21,kotlin.collections.UByteIterator,remove,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.8.21,kotlin.collections.UByteIterator,UByteIterator,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.8.21,kotlin.collections.UIntIterator,kotlin.collections.UIntIterator,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.8.21,kotlin.collections.UIntIterator,next,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.8.21,kotlin.collections.UIntIterator,next-pVg5ArA,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.8.21,kotlin.collections.UIntIterator,nextUInt-pVg5ArA,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.8.21,kotlin.collections.UIntIterator,remove,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.8.21,kotlin.collections.UIntIterator,UIntIterator,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.8.21,kotlin.collections.ULongIterator,kotlin.collections.ULongIterator,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.8.21,kotlin.collections.ULongIterator,next,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.8.21,kotlin.collections.ULongIterator,next-s-VKNKU,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.8.21,kotlin.collections.ULongIterator,nextULong-s-VKNKU,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.8.21,kotlin.collections.ULongIterator,remove,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.8.21,kotlin.collections.ULongIterator,ULongIterator,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.8.21,kotlin.collections.UShortIterator,kotlin.collections.UShortIterator,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.8.21,kotlin.collections.UShortIterator,next,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.8.21,kotlin.collections.UShortIterator,next-Mh2AYeg,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.8.21,kotlin.collections.UShortIterator,nextUShort-Mh2AYeg,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.8.21,kotlin.collections.UShortIterator,remove,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.8.21,kotlin.collections.UShortIterator,UShortIterator,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.8.21,kotlin.Experimental,kotlin.Experimental,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.8.21,kotlin.Experimental,level,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.8.21,kotlin.Experimental$Level,kotlin.Experimental$Level,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.8.21,kotlin.Experimental$Level,valueOf,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.8.21,kotlin.Experimental$Level,values,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.8.21,kotlin.Experimental$Level,ERROR,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.8.21,kotlin.Experimental$Level,WARNING,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.8.21,kotlin.sequences.SequencesKt__SequenceBuilderKt$buildSequence$$inlined$Sequence$1,kotlin.sequences.SequencesKt__SequenceBuilderKt$buildSequence$$inlined$Sequence$1,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.8.21,kotlin.sequences.SequencesKt__SequenceBuilderKt$buildSequence$$inlined$Sequence$1,SequencesKt__SequenceBuilderKt$buildSequence$$inlined$Sequence$1,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.8.21,kotlin.time.AbstractDoubleTimeSource,kotlin.time.AbstractDoubleTimeSource,CLASS_CHANGE,INTERFACE_ADDED; METHOD_ABSTRACT_ADDED_IN_IMPLEMENTED_INTERFACE; ANNOTATION_MODIFIED; ANNOTATION_ADDED,true,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.8.21,kotlin.time.AbstractLongTimeSource,kotlin.time.AbstractLongTimeSource,CLASS_CHANGE,INTERFACE_ADDED; METHOD_ABSTRACT_ADDED_IN_IMPLEMENTED_INTERFACE; ANNOTATION_MODIFIED,true,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.8.21,kotlin.time.MonotonicTimeSource,read,METHOD_CHANGE,METHOD_LESS_ACCESSIBLE,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.8.21,kotlin.time.TestTimeSource,kotlin.time.TestTimeSource,CLASS_CHANGE,METHOD_ABSTRACT_ADDED_IN_IMPLEMENTED_INTERFACE; ANNOTATION_MODIFIED,true,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.8.21,kotlin.time.TimeMark,kotlin.time.TimeMark,CLASS_CHANGE,CLASS_TYPE_CHANGED; ANNOTATION_MODIFIED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.8.21,kotlin.time.TimeMark,hasNotPassedNow,METHOD_CHANGE,METHOD_NOW_ABSTRACT,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.8.21,kotlin.time.TimeMark,hasPassedNow,METHOD_CHANGE,METHOD_NOW_ABSTRACT,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.8.21,kotlin.time.TimeMark,minus-LRDsOJo,METHOD_CHANGE,METHOD_NOW_ABSTRACT,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.8.21,kotlin.time.TimeMark,plus-LRDsOJo,METHOD_CHANGE,METHOD_NOW_ABSTRACT,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.8.21,kotlin.time.TimeMark,TimeMark,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.8.21,kotlin.time.TimeSource$Monotonic,kotlin.time.TimeSource$Monotonic,CLASS_CHANGE,INTERFACE_ADDED; METHOD_ABSTRACT_ADDED_IN_IMPLEMENTED_INTERFACE; ANNOTATION_MODIFIED,true,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.8.21,kotlin.time.TimeSourceKt,kotlin.time.TimeSourceKt,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.8.21,kotlin.UseExperimental,kotlin.UseExperimental,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.8.21,kotlin.UseExperimental,markerClass,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib-jdk7,1.6.10,1.8.21,kotlin.internal.jdk7.JDK7PlatformImplementations,kotlin.internal.jdk7.JDK7PlatformImplementations,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib-jdk7,1.6.10,1.8.21,kotlin.internal.jdk7.JDK7PlatformImplementations,addSuppressed,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib-jdk7,1.6.10,1.8.21,kotlin.internal.jdk7.JDK7PlatformImplementations,getSuppressed,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib-jdk7,1.6.10,1.8.21,kotlin.internal.jdk7.JDK7PlatformImplementations,JDK7PlatformImplementations,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib-jdk7,1.6.10,1.8.21,kotlin.io.path.ExperimentalPathApi,kotlin.io.path.ExperimentalPathApi,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib-jdk7,1.6.10,1.8.21,kotlin.io.path.PathsKt,kotlin.io.path.PathsKt,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib-jdk7,1.6.10,1.8.21,kotlin.jdk7.AutoCloseableKt,kotlin.jdk7.AutoCloseableKt,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib-jdk7,1.6.10,1.8.21,kotlin.jdk7.AutoCloseableKt,closeFinally,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib-jdk8,1.6.10,1.8.21,kotlin.collections.jdk8.CollectionsJDK8Kt,kotlin.collections.jdk8.CollectionsJDK8Kt,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib-jdk8,1.6.10,1.8.21,kotlin.internal.jdk8.JDK8PlatformImplementations,kotlin.internal.jdk8.JDK8PlatformImplementations,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib-jdk8,1.6.10,1.8.21,kotlin.internal.jdk8.JDK8PlatformImplementations,defaultPlatformRandom,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib-jdk8,1.6.10,1.8.21,kotlin.internal.jdk8.JDK8PlatformImplementations,getMatchResultNamedGroup,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib-jdk8,1.6.10,1.8.21,kotlin.internal.jdk8.JDK8PlatformImplementations,JDK8PlatformImplementations,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib-jdk8,1.6.10,1.8.21,kotlin.jvm.jdk8.JvmRepeatableKt,kotlin.jvm.jdk8.JvmRepeatableKt,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib-jdk8,1.6.10,1.8.21,kotlin.jvm.jdk8.JvmRepeatableKt,JvmRepeatable$annotations,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib-jdk8,1.6.10,1.8.21,kotlin.random.jdk8.PlatformThreadLocalRandom,kotlin.random.jdk8.PlatformThreadLocalRandom,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib-jdk8,1.6.10,1.8.21,kotlin.random.jdk8.PlatformThreadLocalRandom,getImpl,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib-jdk8,1.6.10,1.8.21,kotlin.random.jdk8.PlatformThreadLocalRandom,nextDouble,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib-jdk8,1.6.10,1.8.21,kotlin.random.jdk8.PlatformThreadLocalRandom,nextInt,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib-jdk8,1.6.10,1.8.21,kotlin.random.jdk8.PlatformThreadLocalRandom,nextLong,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib-jdk8,1.6.10,1.8.21,kotlin.random.jdk8.PlatformThreadLocalRandom,nextLong,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib-jdk8,1.6.10,1.8.21,kotlin.random.jdk8.PlatformThreadLocalRandom,PlatformThreadLocalRandom,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib-jdk8,1.6.10,1.8.21,kotlin.streams.jdk8.StreamsKt,kotlin.streams.jdk8.StreamsKt,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib-jdk8,1.6.10,1.8.21,kotlin.streams.jdk8.StreamsKt,asSequence,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib-jdk8,1.6.10,1.8.21,kotlin.streams.jdk8.StreamsKt,asSequence,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib-jdk8,1.6.10,1.8.21,kotlin.streams.jdk8.StreamsKt,asSequence,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib-jdk8,1.6.10,1.8.21,kotlin.streams.jdk8.StreamsKt,asSequence,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib-jdk8,1.6.10,1.8.21,kotlin.streams.jdk8.StreamsKt,asStream,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib-jdk8,1.6.10,1.8.21,kotlin.streams.jdk8.StreamsKt,toList,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib-jdk8,1.6.10,1.8.21,kotlin.streams.jdk8.StreamsKt,toList,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib-jdk8,1.6.10,1.8.21,kotlin.streams.jdk8.StreamsKt,toList,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib-jdk8,1.6.10,1.8.21,kotlin.streams.jdk8.StreamsKt,toList,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib-jdk8,1.6.10,1.8.21,kotlin.streams.jdk8.StreamsKt$asSequence$$inlined$Sequence$1,kotlin.streams.jdk8.StreamsKt$asSequence$$inlined$Sequence$1,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib-jdk8,1.6.10,1.8.21,kotlin.streams.jdk8.StreamsKt$asSequence$$inlined$Sequence$1,iterator,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib-jdk8,1.6.10,1.8.21,kotlin.streams.jdk8.StreamsKt$asSequence$$inlined$Sequence$1,StreamsKt$asSequence$$inlined$Sequence$1,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib-jdk8,1.6.10,1.8.21,kotlin.streams.jdk8.StreamsKt$asSequence$$inlined$Sequence$2,kotlin.streams.jdk8.StreamsKt$asSequence$$inlined$Sequence$2,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib-jdk8,1.6.10,1.8.21,kotlin.streams.jdk8.StreamsKt$asSequence$$inlined$Sequence$2,iterator,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib-jdk8,1.6.10,1.8.21,kotlin.streams.jdk8.StreamsKt$asSequence$$inlined$Sequence$2,StreamsKt$asSequence$$inlined$Sequence$2,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib-jdk8,1.6.10,1.8.21,kotlin.streams.jdk8.StreamsKt$asSequence$$inlined$Sequence$3,kotlin.streams.jdk8.StreamsKt$asSequence$$inlined$Sequence$3,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib-jdk8,1.6.10,1.8.21,kotlin.streams.jdk8.StreamsKt$asSequence$$inlined$Sequence$3,iterator,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib-jdk8,1.6.10,1.8.21,kotlin.streams.jdk8.StreamsKt$asSequence$$inlined$Sequence$3,StreamsKt$asSequence$$inlined$Sequence$3,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib-jdk8,1.6.10,1.8.21,kotlin.streams.jdk8.StreamsKt$asSequence$$inlined$Sequence$4,kotlin.streams.jdk8.StreamsKt$asSequence$$inlined$Sequence$4,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib-jdk8,1.6.10,1.8.21,kotlin.streams.jdk8.StreamsKt$asSequence$$inlined$Sequence$4,iterator,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib-jdk8,1.6.10,1.8.21,kotlin.streams.jdk8.StreamsKt$asSequence$$inlined$Sequence$4,StreamsKt$asSequence$$inlined$Sequence$4,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib-jdk8,1.6.10,1.8.21,kotlin.text.jdk8.RegexExtensionsJDK8Kt,kotlin.text.jdk8.RegexExtensionsJDK8Kt,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib-jdk8,1.6.10,1.8.21,kotlin.text.jdk8.RegexExtensionsJDK8Kt,get,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib-jdk8,1.6.10,1.8.21,kotlin.time.jdk8.DurationConversionsJDK8Kt,kotlin.time.jdk8.DurationConversionsJDK8Kt,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio._Base64Kt,okio._Base64Kt,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio._Base64Kt,decodeBase64ToArray,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio._Base64Kt,encodeBase64,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio._Base64Kt,encodeBase64$default,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio._Base64Kt,getBASE64,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio._Base64Kt,getBASE64$annotations,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio._Base64Kt,getBASE64_URL_SAFE,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio._Base64Kt,getBASE64_URL_SAFE$annotations,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio._JvmPlatformKt,synchronized,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio._UtilKt,okio._UtilKt,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio._UtilKt,and,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio._UtilKt,and,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio._UtilKt,and,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio._UtilKt,arrayRangeEquals,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio._UtilKt,checkOffsetAndCount,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio._UtilKt,getDEFAULT__ByteString_size,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio._UtilKt,getDEFAULT__new_UnsafeCursor,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio._UtilKt,getDEFAULT__new_UnsafeCursor$annotations,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio._UtilKt,leftRotate,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio._UtilKt,minOf,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio._UtilKt,minOf,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio._UtilKt,resolveDefaultParameter,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio._UtilKt,resolveDefaultParameter,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio._UtilKt,resolveDefaultParameter,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio._UtilKt,reverseBytes,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio._UtilKt,reverseBytes,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio._UtilKt,reverseBytes,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio._UtilKt,rightRotate,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio._UtilKt,shl,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio._UtilKt,shr,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio._UtilKt,toHexString,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio._UtilKt,toHexString,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio._UtilKt,toHexString,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio._UtilKt,xor,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,okio.internal._BufferKt,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonClear,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonClose,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonCompleteSegmentByteCount,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonCopy,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonCopyTo,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonEquals,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonExpandBuffer,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonGet,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonHashCode,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonIndexOf,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonIndexOf,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonIndexOfElement,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonNext,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonRangeEquals,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonRead,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonRead,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonRead,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonReadAll,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonReadAndWriteUnsafe,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonReadByte,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonReadByteArray,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonReadByteArray,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonReadByteString,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonReadByteString,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonReadDecimalLong,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonReadFully,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonReadFully,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonReadHexadecimalUnsignedLong,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonReadInt,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonReadLong,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonReadShort,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonReadUnsafe,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonReadUtf8,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonReadUtf8CodePoint,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonReadUtf8Line,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonReadUtf8LineStrict,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonResizeBuffer,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonSeek,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonSelect,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonSkip,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonSnapshot,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonSnapshot,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonWritableSegment,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonWrite,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonWrite,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonWrite,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonWrite,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonWrite,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonWrite$default,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonWriteAll,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonWriteByte,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonWriteDecimalLong,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonWriteHexadecimalUnsignedLong,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonWriteInt,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonWriteLong,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonWriteShort,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonWriteUtf8,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonWriteUtf8CodePoint,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,getHEX_DIGIT_BYTES,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,getHEX_DIGIT_BYTES$annotations,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,rangeEquals,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,readUtf8Line,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,seek,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,selectPrefix,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,selectPrefix$default,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,SEGMENTING_THRESHOLD,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,OVERFLOW_ZONE,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,OVERFLOW_DIGIT_START,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._ByteStringKt,okio.internal._ByteStringKt,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._ByteStringKt,access$codePointIndexToCharIndex,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._ByteStringKt,access$decodeHexDigit,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._ByteStringKt,commonBase64,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._ByteStringKt,commonBase64Url,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._ByteStringKt,commonCompareTo,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._ByteStringKt,commonCopyInto,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._ByteStringKt,commonDecodeBase64,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._ByteStringKt,commonDecodeHex,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._ByteStringKt,commonEncodeUtf8,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._ByteStringKt,commonEndsWith,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._ByteStringKt,commonEndsWith,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._ByteStringKt,commonEquals,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._ByteStringKt,commonGetByte,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._ByteStringKt,commonGetSize,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._ByteStringKt,commonHashCode,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._ByteStringKt,commonHex,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._ByteStringKt,commonIndexOf,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._ByteStringKt,commonInternalArray,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._ByteStringKt,commonLastIndexOf,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._ByteStringKt,commonLastIndexOf,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._ByteStringKt,commonOf,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._ByteStringKt,commonRangeEquals,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._ByteStringKt,commonRangeEquals,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._ByteStringKt,commonStartsWith,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._ByteStringKt,commonStartsWith,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._ByteStringKt,commonSubstring,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._ByteStringKt,commonToAsciiLowercase,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._ByteStringKt,commonToAsciiUppercase,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._ByteStringKt,commonToByteArray,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._ByteStringKt,commonToByteString,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._ByteStringKt,commonToString,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._ByteStringKt,commonUtf8,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._ByteStringKt,commonWrite,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._ByteStringKt,getHEX_DIGIT_CHARS,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._ByteStringKt,getHEX_DIGIT_CHARS$annotations,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._FileSystemKt,okio.internal._FileSystemKt,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._FileSystemKt,collectRecursively,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._FileSystemKt,commonCopy,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._FileSystemKt,commonCreateDirectories,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._FileSystemKt,commonDeleteRecursively,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._FileSystemKt,commonExists,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._FileSystemKt,commonListRecursively,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._FileSystemKt,commonMetadata,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._FileSystemKt,symlinkTarget,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._PathKt,okio.internal._PathKt,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._PathKt,access$getBACKSLASH$p,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._PathKt,access$getDOT$p,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._PathKt,access$getDOT_DOT$p,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._PathKt,access$getIndexOfLastSlash,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._PathKt,access$getSlash,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._PathKt,access$getSLASH$p,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._PathKt,access$lastSegmentIsDotDot,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._PathKt,access$rootLength,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._PathKt,access$toSlash,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._PathKt,commonCompareTo,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._PathKt,commonEquals,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._PathKt,commonHashCode,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._PathKt,commonIsAbsolute,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._PathKt,commonIsRelative,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._PathKt,commonIsRoot,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._PathKt,commonName,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._PathKt,commonNameBytes,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._PathKt,commonNormalized,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._PathKt,commonParent,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._PathKt,commonRelativeTo,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._PathKt,commonResolve,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._PathKt,commonResolve,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._PathKt,commonResolve,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._PathKt,commonResolve,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._PathKt,commonRoot,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._PathKt,commonSegments,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._PathKt,commonSegmentsBytes,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._PathKt,commonToPath,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._PathKt,commonToString,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._PathKt,commonVolumeLetter,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._PathKt,toPath,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSinkKt,okio.internal._RealBufferedSinkKt,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSinkKt,commonClose,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSinkKt,commonEmit,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSinkKt,commonEmitCompleteSegments,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSinkKt,commonFlush,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSinkKt,commonTimeout,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSinkKt,commonToString,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSinkKt,commonWrite,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSinkKt,commonWrite,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSinkKt,commonWrite,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSinkKt,commonWrite,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSinkKt,commonWrite,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSinkKt,commonWrite,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSinkKt,commonWriteAll,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSinkKt,commonWriteByte,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSinkKt,commonWriteDecimalLong,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSinkKt,commonWriteHexadecimalUnsignedLong,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSinkKt,commonWriteInt,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSinkKt,commonWriteIntLe,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSinkKt,commonWriteLong,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSinkKt,commonWriteLongLe,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSinkKt,commonWriteShort,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSinkKt,commonWriteShortLe,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSinkKt,commonWriteUtf8,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSinkKt,commonWriteUtf8,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSinkKt,commonWriteUtf8CodePoint,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSourceKt,okio.internal._RealBufferedSourceKt,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSourceKt,commonClose,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSourceKt,commonExhausted,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSourceKt,commonIndexOf,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSourceKt,commonIndexOf,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSourceKt,commonIndexOfElement,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSourceKt,commonPeek,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSourceKt,commonRangeEquals,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSourceKt,commonRead,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSourceKt,commonRead,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSourceKt,commonReadAll,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSourceKt,commonReadByte,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSourceKt,commonReadByteArray,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSourceKt,commonReadByteArray,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSourceKt,commonReadByteString,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSourceKt,commonReadByteString,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSourceKt,commonReadDecimalLong,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSourceKt,commonReadFully,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSourceKt,commonReadFully,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSourceKt,commonReadHexadecimalUnsignedLong,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSourceKt,commonReadInt,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSourceKt,commonReadIntLe,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSourceKt,commonReadLong,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSourceKt,commonReadLongLe,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSourceKt,commonReadShort,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSourceKt,commonReadShortLe,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSourceKt,commonReadUtf8,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSourceKt,commonReadUtf8,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSourceKt,commonReadUtf8CodePoint,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSourceKt,commonReadUtf8Line,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSourceKt,commonReadUtf8LineStrict,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSourceKt,commonRequest,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSourceKt,commonRequire,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSourceKt,commonSelect,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSourceKt,commonSkip,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSourceKt,commonTimeout,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSourceKt,commonToString,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._SegmentedByteStringKt,okio.internal._SegmentedByteStringKt,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._SegmentedByteStringKt,binarySearch,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._SegmentedByteStringKt,commonCopyInto,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._SegmentedByteStringKt,commonEquals,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._SegmentedByteStringKt,commonGetSize,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._SegmentedByteStringKt,commonHashCode,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._SegmentedByteStringKt,commonInternalGet,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._SegmentedByteStringKt,commonRangeEquals,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._SegmentedByteStringKt,commonRangeEquals,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._SegmentedByteStringKt,commonSubstring,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._SegmentedByteStringKt,commonToByteArray,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._SegmentedByteStringKt,commonWrite,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._SegmentedByteStringKt,forEachSegment,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._SegmentedByteStringKt,segment,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal.ResourceFileSystem,ResourceFileSystem,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal.ZipKt,okio.internal.ZipKt,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal.ZipKt,openZip,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal.ZipKt,openZip$default,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal.ZipKt,readEntry,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal.ZipKt,readLocalHeader,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal.ZipKt,skipLocalHeader,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal.ZipKt,COMPRESSION_METHOD_DEFLATED,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal.ZipKt,COMPRESSION_METHOD_STORED,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal.ZipKt$buildIndex$$inlined$sortedBy$1,okio.internal.ZipKt$buildIndex$$inlined$sortedBy$1,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal.ZipKt$buildIndex$$inlined$sortedBy$1,compare,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal.ZipKt$buildIndex$$inlined$sortedBy$1,ZipKt$buildIndex$$inlined$sortedBy$1,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,com.squareup.okhttp3:okhttp-sse,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.8.21,kotlin.collections.BrittleContainsOptimizationKt,kotlin.collections.BrittleContainsOptimizationKt,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.8.21,kotlin.collections.BrittleContainsOptimizationKt,convertToSetForSetOperation,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.8.21,kotlin.collections.BrittleContainsOptimizationKt,convertToSetForSetOperation,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.8.21,kotlin.collections.BrittleContainsOptimizationKt,convertToSetForSetOperation,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.8.21,kotlin.collections.BrittleContainsOptimizationKt,convertToSetForSetOperationWith,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.8.21,kotlin.collections.CollectionSystemProperties,kotlin.collections.CollectionSystemProperties,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.8.21,kotlin.collections.CollectionSystemProperties,brittleContainsOptimizationEnabled,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.8.21,kotlin.collections.CollectionSystemProperties,INSTANCE,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.8.21,kotlin.collections.UByteIterator,kotlin.collections.UByteIterator,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.8.21,kotlin.collections.UByteIterator,next,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.8.21,kotlin.collections.UByteIterator,next-w2LRezQ,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.8.21,kotlin.collections.UByteIterator,nextUByte-w2LRezQ,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.8.21,kotlin.collections.UByteIterator,remove,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.8.21,kotlin.collections.UByteIterator,UByteIterator,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.8.21,kotlin.collections.UIntIterator,kotlin.collections.UIntIterator,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.8.21,kotlin.collections.UIntIterator,next,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.8.21,kotlin.collections.UIntIterator,next-pVg5ArA,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.8.21,kotlin.collections.UIntIterator,nextUInt-pVg5ArA,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.8.21,kotlin.collections.UIntIterator,remove,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.8.21,kotlin.collections.UIntIterator,UIntIterator,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.8.21,kotlin.collections.ULongIterator,kotlin.collections.ULongIterator,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.8.21,kotlin.collections.ULongIterator,next,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.8.21,kotlin.collections.ULongIterator,next-s-VKNKU,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.8.21,kotlin.collections.ULongIterator,nextULong-s-VKNKU,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.8.21,kotlin.collections.ULongIterator,remove,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.8.21,kotlin.collections.ULongIterator,ULongIterator,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.8.21,kotlin.collections.UShortIterator,kotlin.collections.UShortIterator,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.8.21,kotlin.collections.UShortIterator,next,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.8.21,kotlin.collections.UShortIterator,next-Mh2AYeg,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.8.21,kotlin.collections.UShortIterator,nextUShort-Mh2AYeg,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.8.21,kotlin.collections.UShortIterator,remove,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.8.21,kotlin.collections.UShortIterator,UShortIterator,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.8.21,kotlin.Experimental,kotlin.Experimental,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.8.21,kotlin.Experimental,level,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.8.21,kotlin.Experimental$Level,kotlin.Experimental$Level,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.8.21,kotlin.Experimental$Level,valueOf,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.8.21,kotlin.Experimental$Level,values,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.8.21,kotlin.Experimental$Level,ERROR,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.8.21,kotlin.Experimental$Level,WARNING,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.8.21,kotlin.sequences.SequencesKt__SequenceBuilderKt$buildSequence$$inlined$Sequence$1,kotlin.sequences.SequencesKt__SequenceBuilderKt$buildSequence$$inlined$Sequence$1,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.8.21,kotlin.sequences.SequencesKt__SequenceBuilderKt$buildSequence$$inlined$Sequence$1,SequencesKt__SequenceBuilderKt$buildSequence$$inlined$Sequence$1,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.8.21,kotlin.time.AbstractDoubleTimeSource,kotlin.time.AbstractDoubleTimeSource,CLASS_CHANGE,INTERFACE_ADDED; METHOD_ABSTRACT_ADDED_IN_IMPLEMENTED_INTERFACE; ANNOTATION_MODIFIED; ANNOTATION_ADDED,true,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.8.21,kotlin.time.AbstractLongTimeSource,kotlin.time.AbstractLongTimeSource,CLASS_CHANGE,INTERFACE_ADDED; METHOD_ABSTRACT_ADDED_IN_IMPLEMENTED_INTERFACE; ANNOTATION_MODIFIED,true,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.8.21,kotlin.time.MonotonicTimeSource,read,METHOD_CHANGE,METHOD_LESS_ACCESSIBLE,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.8.21,kotlin.time.TestTimeSource,kotlin.time.TestTimeSource,CLASS_CHANGE,METHOD_ABSTRACT_ADDED_IN_IMPLEMENTED_INTERFACE; ANNOTATION_MODIFIED,true,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.8.21,kotlin.time.TimeMark,kotlin.time.TimeMark,CLASS_CHANGE,CLASS_TYPE_CHANGED; ANNOTATION_MODIFIED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.8.21,kotlin.time.TimeMark,hasNotPassedNow,METHOD_CHANGE,METHOD_NOW_ABSTRACT,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.8.21,kotlin.time.TimeMark,hasPassedNow,METHOD_CHANGE,METHOD_NOW_ABSTRACT,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.8.21,kotlin.time.TimeMark,minus-LRDsOJo,METHOD_CHANGE,METHOD_NOW_ABSTRACT,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.8.21,kotlin.time.TimeMark,plus-LRDsOJo,METHOD_CHANGE,METHOD_NOW_ABSTRACT,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.8.21,kotlin.time.TimeMark,TimeMark,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.8.21,kotlin.time.TimeSource$Monotonic,kotlin.time.TimeSource$Monotonic,CLASS_CHANGE,INTERFACE_ADDED; METHOD_ABSTRACT_ADDED_IN_IMPLEMENTED_INTERFACE; ANNOTATION_MODIFIED,true,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.8.21,kotlin.time.TimeSourceKt,kotlin.time.TimeSourceKt,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.8.21,kotlin.UseExperimental,kotlin.UseExperimental,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.8.21,kotlin.UseExperimental,markerClass,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib-jdk7,1.6.10,1.8.21,kotlin.internal.jdk7.JDK7PlatformImplementations,kotlin.internal.jdk7.JDK7PlatformImplementations,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib-jdk7,1.6.10,1.8.21,kotlin.internal.jdk7.JDK7PlatformImplementations,addSuppressed,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib-jdk7,1.6.10,1.8.21,kotlin.internal.jdk7.JDK7PlatformImplementations,getSuppressed,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib-jdk7,1.6.10,1.8.21,kotlin.internal.jdk7.JDK7PlatformImplementations,JDK7PlatformImplementations,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib-jdk7,1.6.10,1.8.21,kotlin.io.path.ExperimentalPathApi,kotlin.io.path.ExperimentalPathApi,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib-jdk7,1.6.10,1.8.21,kotlin.io.path.PathsKt,kotlin.io.path.PathsKt,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib-jdk7,1.6.10,1.8.21,kotlin.jdk7.AutoCloseableKt,kotlin.jdk7.AutoCloseableKt,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib-jdk7,1.6.10,1.8.21,kotlin.jdk7.AutoCloseableKt,closeFinally,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib-jdk8,1.6.10,1.8.21,kotlin.collections.jdk8.CollectionsJDK8Kt,kotlin.collections.jdk8.CollectionsJDK8Kt,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib-jdk8,1.6.10,1.8.21,kotlin.internal.jdk8.JDK8PlatformImplementations,kotlin.internal.jdk8.JDK8PlatformImplementations,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib-jdk8,1.6.10,1.8.21,kotlin.internal.jdk8.JDK8PlatformImplementations,defaultPlatformRandom,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib-jdk8,1.6.10,1.8.21,kotlin.internal.jdk8.JDK8PlatformImplementations,getMatchResultNamedGroup,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib-jdk8,1.6.10,1.8.21,kotlin.internal.jdk8.JDK8PlatformImplementations,JDK8PlatformImplementations,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib-jdk8,1.6.10,1.8.21,kotlin.jvm.jdk8.JvmRepeatableKt,kotlin.jvm.jdk8.JvmRepeatableKt,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib-jdk8,1.6.10,1.8.21,kotlin.jvm.jdk8.JvmRepeatableKt,JvmRepeatable$annotations,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib-jdk8,1.6.10,1.8.21,kotlin.random.jdk8.PlatformThreadLocalRandom,kotlin.random.jdk8.PlatformThreadLocalRandom,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib-jdk8,1.6.10,1.8.21,kotlin.random.jdk8.PlatformThreadLocalRandom,getImpl,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib-jdk8,1.6.10,1.8.21,kotlin.random.jdk8.PlatformThreadLocalRandom,nextDouble,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib-jdk8,1.6.10,1.8.21,kotlin.random.jdk8.PlatformThreadLocalRandom,nextInt,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib-jdk8,1.6.10,1.8.21,kotlin.random.jdk8.PlatformThreadLocalRandom,nextLong,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib-jdk8,1.6.10,1.8.21,kotlin.random.jdk8.PlatformThreadLocalRandom,nextLong,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib-jdk8,1.6.10,1.8.21,kotlin.random.jdk8.PlatformThreadLocalRandom,PlatformThreadLocalRandom,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib-jdk8,1.6.10,1.8.21,kotlin.streams.jdk8.StreamsKt,kotlin.streams.jdk8.StreamsKt,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib-jdk8,1.6.10,1.8.21,kotlin.streams.jdk8.StreamsKt,asSequence,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib-jdk8,1.6.10,1.8.21,kotlin.streams.jdk8.StreamsKt,asSequence,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib-jdk8,1.6.10,1.8.21,kotlin.streams.jdk8.StreamsKt,asSequence,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib-jdk8,1.6.10,1.8.21,kotlin.streams.jdk8.StreamsKt,asSequence,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib-jdk8,1.6.10,1.8.21,kotlin.streams.jdk8.StreamsKt,asStream,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib-jdk8,1.6.10,1.8.21,kotlin.streams.jdk8.StreamsKt,toList,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib-jdk8,1.6.10,1.8.21,kotlin.streams.jdk8.StreamsKt,toList,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib-jdk8,1.6.10,1.8.21,kotlin.streams.jdk8.StreamsKt,toList,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib-jdk8,1.6.10,1.8.21,kotlin.streams.jdk8.StreamsKt,toList,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib-jdk8,1.6.10,1.8.21,kotlin.streams.jdk8.StreamsKt$asSequence$$inlined$Sequence$1,kotlin.streams.jdk8.StreamsKt$asSequence$$inlined$Sequence$1,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib-jdk8,1.6.10,1.8.21,kotlin.streams.jdk8.StreamsKt$asSequence$$inlined$Sequence$1,iterator,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib-jdk8,1.6.10,1.8.21,kotlin.streams.jdk8.StreamsKt$asSequence$$inlined$Sequence$1,StreamsKt$asSequence$$inlined$Sequence$1,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib-jdk8,1.6.10,1.8.21,kotlin.streams.jdk8.StreamsKt$asSequence$$inlined$Sequence$2,kotlin.streams.jdk8.StreamsKt$asSequence$$inlined$Sequence$2,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib-jdk8,1.6.10,1.8.21,kotlin.streams.jdk8.StreamsKt$asSequence$$inlined$Sequence$2,iterator,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib-jdk8,1.6.10,1.8.21,kotlin.streams.jdk8.StreamsKt$asSequence$$inlined$Sequence$2,StreamsKt$asSequence$$inlined$Sequence$2,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib-jdk8,1.6.10,1.8.21,kotlin.streams.jdk8.StreamsKt$asSequence$$inlined$Sequence$3,kotlin.streams.jdk8.StreamsKt$asSequence$$inlined$Sequence$3,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib-jdk8,1.6.10,1.8.21,kotlin.streams.jdk8.StreamsKt$asSequence$$inlined$Sequence$3,iterator,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib-jdk8,1.6.10,1.8.21,kotlin.streams.jdk8.StreamsKt$asSequence$$inlined$Sequence$3,StreamsKt$asSequence$$inlined$Sequence$3,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib-jdk8,1.6.10,1.8.21,kotlin.streams.jdk8.StreamsKt$asSequence$$inlined$Sequence$4,kotlin.streams.jdk8.StreamsKt$asSequence$$inlined$Sequence$4,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib-jdk8,1.6.10,1.8.21,kotlin.streams.jdk8.StreamsKt$asSequence$$inlined$Sequence$4,iterator,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib-jdk8,1.6.10,1.8.21,kotlin.streams.jdk8.StreamsKt$asSequence$$inlined$Sequence$4,StreamsKt$asSequence$$inlined$Sequence$4,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib-jdk8,1.6.10,1.8.21,kotlin.text.jdk8.RegexExtensionsJDK8Kt,kotlin.text.jdk8.RegexExtensionsJDK8Kt,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib-jdk8,1.6.10,1.8.21,kotlin.text.jdk8.RegexExtensionsJDK8Kt,get,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib-jdk8,1.6.10,1.8.21,kotlin.time.jdk8.DurationConversionsJDK8Kt,kotlin.time.jdk8.DurationConversionsJDK8Kt,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio._Base64Kt,okio._Base64Kt,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio._Base64Kt,decodeBase64ToArray,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio._Base64Kt,encodeBase64,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio._Base64Kt,encodeBase64$default,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio._Base64Kt,getBASE64,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio._Base64Kt,getBASE64$annotations,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio._Base64Kt,getBASE64_URL_SAFE,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio._Base64Kt,getBASE64_URL_SAFE$annotations,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio._JvmPlatformKt,synchronized,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio._UtilKt,okio._UtilKt,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio._UtilKt,and,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio._UtilKt,and,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio._UtilKt,and,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio._UtilKt,arrayRangeEquals,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio._UtilKt,checkOffsetAndCount,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio._UtilKt,getDEFAULT__ByteString_size,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio._UtilKt,getDEFAULT__new_UnsafeCursor,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio._UtilKt,getDEFAULT__new_UnsafeCursor$annotations,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio._UtilKt,leftRotate,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio._UtilKt,minOf,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio._UtilKt,minOf,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio._UtilKt,resolveDefaultParameter,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio._UtilKt,resolveDefaultParameter,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio._UtilKt,resolveDefaultParameter,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio._UtilKt,reverseBytes,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio._UtilKt,reverseBytes,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio._UtilKt,reverseBytes,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio._UtilKt,rightRotate,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio._UtilKt,shl,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio._UtilKt,shr,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio._UtilKt,toHexString,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio._UtilKt,toHexString,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio._UtilKt,toHexString,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio._UtilKt,xor,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,okio.internal._BufferKt,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonClear,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonClose,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonCompleteSegmentByteCount,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonCopy,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonCopyTo,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonEquals,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonExpandBuffer,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonGet,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonHashCode,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonIndexOf,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonIndexOf,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonIndexOfElement,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonNext,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonRangeEquals,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonRead,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonRead,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonRead,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonReadAll,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonReadAndWriteUnsafe,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonReadByte,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonReadByteArray,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonReadByteArray,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonReadByteString,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonReadByteString,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonReadDecimalLong,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonReadFully,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonReadFully,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonReadHexadecimalUnsignedLong,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonReadInt,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonReadLong,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonReadShort,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonReadUnsafe,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonReadUtf8,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonReadUtf8CodePoint,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonReadUtf8Line,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonReadUtf8LineStrict,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonResizeBuffer,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonSeek,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonSelect,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonSkip,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonSnapshot,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonSnapshot,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonWritableSegment,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonWrite,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonWrite,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonWrite,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonWrite,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonWrite,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonWrite$default,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonWriteAll,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonWriteByte,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonWriteDecimalLong,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonWriteHexadecimalUnsignedLong,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonWriteInt,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonWriteLong,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonWriteShort,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonWriteUtf8,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,commonWriteUtf8CodePoint,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,getHEX_DIGIT_BYTES,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,getHEX_DIGIT_BYTES$annotations,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,rangeEquals,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,readUtf8Line,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,seek,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,selectPrefix,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,selectPrefix$default,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,SEGMENTING_THRESHOLD,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,OVERFLOW_ZONE,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._BufferKt,OVERFLOW_DIGIT_START,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._ByteStringKt,okio.internal._ByteStringKt,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._ByteStringKt,access$codePointIndexToCharIndex,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._ByteStringKt,access$decodeHexDigit,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._ByteStringKt,commonBase64,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._ByteStringKt,commonBase64Url,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._ByteStringKt,commonCompareTo,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._ByteStringKt,commonCopyInto,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._ByteStringKt,commonDecodeBase64,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._ByteStringKt,commonDecodeHex,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._ByteStringKt,commonEncodeUtf8,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._ByteStringKt,commonEndsWith,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._ByteStringKt,commonEndsWith,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._ByteStringKt,commonEquals,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._ByteStringKt,commonGetByte,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._ByteStringKt,commonGetSize,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._ByteStringKt,commonHashCode,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._ByteStringKt,commonHex,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._ByteStringKt,commonIndexOf,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._ByteStringKt,commonInternalArray,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._ByteStringKt,commonLastIndexOf,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._ByteStringKt,commonLastIndexOf,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._ByteStringKt,commonOf,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._ByteStringKt,commonRangeEquals,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._ByteStringKt,commonRangeEquals,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._ByteStringKt,commonStartsWith,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._ByteStringKt,commonStartsWith,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._ByteStringKt,commonSubstring,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._ByteStringKt,commonToAsciiLowercase,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._ByteStringKt,commonToAsciiUppercase,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._ByteStringKt,commonToByteArray,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._ByteStringKt,commonToByteString,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._ByteStringKt,commonToString,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._ByteStringKt,commonUtf8,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._ByteStringKt,commonWrite,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._ByteStringKt,getHEX_DIGIT_CHARS,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._ByteStringKt,getHEX_DIGIT_CHARS$annotations,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._FileSystemKt,okio.internal._FileSystemKt,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._FileSystemKt,collectRecursively,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._FileSystemKt,commonCopy,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._FileSystemKt,commonCreateDirectories,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._FileSystemKt,commonDeleteRecursively,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._FileSystemKt,commonExists,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._FileSystemKt,commonListRecursively,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._FileSystemKt,commonMetadata,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._FileSystemKt,symlinkTarget,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._PathKt,okio.internal._PathKt,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._PathKt,access$getBACKSLASH$p,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._PathKt,access$getDOT$p,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._PathKt,access$getDOT_DOT$p,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._PathKt,access$getIndexOfLastSlash,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._PathKt,access$getSlash,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._PathKt,access$getSLASH$p,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._PathKt,access$lastSegmentIsDotDot,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._PathKt,access$rootLength,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._PathKt,access$toSlash,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._PathKt,commonCompareTo,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._PathKt,commonEquals,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._PathKt,commonHashCode,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._PathKt,commonIsAbsolute,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._PathKt,commonIsRelative,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._PathKt,commonIsRoot,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._PathKt,commonName,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._PathKt,commonNameBytes,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._PathKt,commonNormalized,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._PathKt,commonParent,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._PathKt,commonRelativeTo,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._PathKt,commonResolve,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._PathKt,commonResolve,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._PathKt,commonResolve,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._PathKt,commonResolve,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._PathKt,commonRoot,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._PathKt,commonSegments,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._PathKt,commonSegmentsBytes,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._PathKt,commonToPath,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._PathKt,commonToString,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._PathKt,commonVolumeLetter,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._PathKt,toPath,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSinkKt,okio.internal._RealBufferedSinkKt,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSinkKt,commonClose,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSinkKt,commonEmit,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSinkKt,commonEmitCompleteSegments,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSinkKt,commonFlush,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSinkKt,commonTimeout,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSinkKt,commonToString,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSinkKt,commonWrite,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSinkKt,commonWrite,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSinkKt,commonWrite,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSinkKt,commonWrite,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSinkKt,commonWrite,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSinkKt,commonWrite,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSinkKt,commonWriteAll,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSinkKt,commonWriteByte,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSinkKt,commonWriteDecimalLong,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSinkKt,commonWriteHexadecimalUnsignedLong,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSinkKt,commonWriteInt,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSinkKt,commonWriteIntLe,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSinkKt,commonWriteLong,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSinkKt,commonWriteLongLe,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSinkKt,commonWriteShort,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSinkKt,commonWriteShortLe,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSinkKt,commonWriteUtf8,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSinkKt,commonWriteUtf8,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSinkKt,commonWriteUtf8CodePoint,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSourceKt,okio.internal._RealBufferedSourceKt,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSourceKt,commonClose,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSourceKt,commonExhausted,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSourceKt,commonIndexOf,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSourceKt,commonIndexOf,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSourceKt,commonIndexOfElement,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSourceKt,commonPeek,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSourceKt,commonRangeEquals,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSourceKt,commonRead,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSourceKt,commonRead,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSourceKt,commonReadAll,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSourceKt,commonReadByte,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSourceKt,commonReadByteArray,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSourceKt,commonReadByteArray,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSourceKt,commonReadByteString,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSourceKt,commonReadByteString,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSourceKt,commonReadDecimalLong,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSourceKt,commonReadFully,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSourceKt,commonReadFully,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSourceKt,commonReadHexadecimalUnsignedLong,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSourceKt,commonReadInt,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSourceKt,commonReadIntLe,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSourceKt,commonReadLong,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSourceKt,commonReadLongLe,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSourceKt,commonReadShort,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSourceKt,commonReadShortLe,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSourceKt,commonReadUtf8,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSourceKt,commonReadUtf8,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSourceKt,commonReadUtf8CodePoint,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSourceKt,commonReadUtf8Line,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSourceKt,commonReadUtf8LineStrict,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSourceKt,commonRequest,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSourceKt,commonRequire,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSourceKt,commonSelect,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSourceKt,commonSkip,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSourceKt,commonTimeout,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._RealBufferedSourceKt,commonToString,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._SegmentedByteStringKt,okio.internal._SegmentedByteStringKt,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._SegmentedByteStringKt,binarySearch,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._SegmentedByteStringKt,commonCopyInto,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._SegmentedByteStringKt,commonEquals,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._SegmentedByteStringKt,commonGetSize,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._SegmentedByteStringKt,commonHashCode,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._SegmentedByteStringKt,commonInternalGet,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._SegmentedByteStringKt,commonRangeEquals,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._SegmentedByteStringKt,commonRangeEquals,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._SegmentedByteStringKt,commonSubstring,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._SegmentedByteStringKt,commonToByteArray,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._SegmentedByteStringKt,commonWrite,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._SegmentedByteStringKt,forEachSegment,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal._SegmentedByteStringKt,segment,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal.ResourceFileSystem,ResourceFileSystem,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal.ZipKt,okio.internal.ZipKt,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal.ZipKt,openZip,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal.ZipKt,openZip$default,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal.ZipKt,readEntry,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal.ZipKt,readLocalHeader,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal.ZipKt,skipLocalHeader,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal.ZipKt,COMPRESSION_METHOD_DEFLATED,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal.ZipKt,COMPRESSION_METHOD_STORED,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal.ZipKt$buildIndex$$inlined$sortedBy$1,okio.internal.ZipKt$buildIndex$$inlined$sortedBy$1,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal.ZipKt$buildIndex$$inlined$sortedBy$1,compare,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false
+com.squareup.okio:okio-jvm,3.2.0,3.6.0,okio.internal.ZipKt$buildIndex$$inlined$sortedBy$1,ZipKt$buildIndex$$inlined$sortedBy$1,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,com.squareup.okhttp3:logging-interceptor,MINOR,false

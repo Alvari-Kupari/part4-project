@@ -1,0 +1,18 @@
+=== Comparison Failure Log ===
+[2025-08-22 14:14:54] mysql:mysql-connector-java:8.0.21 -> mysql:mysql-connector-java:8.0.22 : Failed to compare JAR files: JAPICMP comparison failed for mysql:mysql-connector-java
+[2025-08-22 14:14:55] mysql:mysql-connector-java:8.0.21 -> mysql:mysql-connector-java:8.0.23 : Failed to compare JAR files: JAPICMP comparison failed for mysql:mysql-connector-java
+[2025-08-22 14:14:56] mysql:mysql-connector-java:8.0.21 -> mysql:mysql-connector-java:8.0.24 : Failed to compare JAR files: JAPICMP comparison failed for mysql:mysql-connector-java
+[2025-08-22 14:14:57] mysql:mysql-connector-java:8.0.21 -> mysql:mysql-connector-java:8.0.25 : Failed to compare JAR files: JAPICMP comparison failed for mysql:mysql-connector-java
+[2025-08-22 14:14:58] mysql:mysql-connector-java:8.0.21 -> mysql:mysql-connector-java:8.0.26 : Failed to compare JAR files: JAPICMP comparison failed for mysql:mysql-connector-java
+[2025-08-22 14:15:08] mysql:mysql-connector-java:8.0.21 -> mysql:mysql-connector-java:8.0.27 : Failed to compare JAR files: JAPICMP comparison failed for mysql:mysql-connector-java
+[2025-08-22 14:15:09] mysql:mysql-connector-java:8.0.21 -> mysql:mysql-connector-java:8.0.28 : Failed to compare JAR files: JAPICMP comparison failed for mysql:mysql-connector-java
+[2025-08-22 14:15:11] mysql:mysql-connector-java:8.0.21 -> mysql:mysql-connector-java:8.0.29 : Failed to compare JAR files: JAPICMP comparison failed for mysql:mysql-connector-java
+[2025-08-22 14:15:12] mysql:mysql-connector-java:8.0.21 -> mysql:mysql-connector-java:8.0.30 : Failed to compare JAR files: JAPICMP comparison failed for mysql:mysql-connector-java
+[2025-08-22 14:15:14] mysql:mysql-connector-java:8.0.21 -> mysql:mysql-connector-java:8.0.31 : Failed to compare JAR files: JAPICMP comparison failed for mysql:mysql-connector-java
+[2025-08-22 14:15:16] mysql:mysql-connector-java:8.0.21 -> mysql:mysql-connector-java:8.0.32 : Failed to compare JAR files: JAPICMP comparison failed for mysql:mysql-connector-java
+[2025-08-22 14:15:17] mysql:mysql-connector-java:8.0.21 -> mysql:mysql-connector-java:8.0.33 : Failed to compare JAR files: JAPICMP comparison failed for mysql:mysql-connector-java
+
+=== Summary ===
+Total comparisons: 13
+Failures: 12
+Success rate: 7.69%

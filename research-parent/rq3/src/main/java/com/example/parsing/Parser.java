@@ -37,11 +37,22 @@ public class Parser {
     typeSolver.add(javaSolver);
     typeSolver.add(reflectionSolver);
 
-    for (Artifact artifact : artifacts) {
-      File jarFile = artifact.getFile();
-      JarTypeSolver jarTypeSolver = new JarTypeSolver(jarFile);
-      typeSolver.add(jarTypeSolver);
+   for (Artifact artifact : artifacts) {
+    File jarFile = artifact.getFile();
+    if (jarFile == null || !jarFile.exists()) {
+        System.err.println("Artifact JAR file does not exist: " + artifact);
+        continue;
     }
+
+    if (!isValidJarFile(jarFile)) {
+        System.err.println("Invalid JAR file: " + jarFile.getAbsolutePath());
+        continue;
+    }
+
+    JarTypeSolver jarTypeSolver = new JarTypeSolver(jarFile);
+    typeSolver.add(jarTypeSolver);
+}
+
 
     JavaSymbolSolver symbolSolver = new JavaSymbolSolver(typeSolver);
     config.setSymbolResolver(symbolSolver);
@@ -68,4 +79,14 @@ public class Parser {
     int dotIndex = fileName.lastIndexOf(46);
     return dotIndex == -1 ? "" : fileName.substring(dotIndex + 1);
   }
+
+  private boolean isValidJarFile(File file) {
+    try (java.util.zip.ZipFile zipFile = new java.util.zip.ZipFile(file)) {
+        zipFile.entries(); // just attempt to access entries
+        return true;
+    } catch (IOException e) {
+        return false;
+    }
+}
+
 }

@@ -1,0 +1,37 @@
+=== Comparison Failure Log ===
+
+=== Summary ===
+Total comparisons: 0
+Failures: 0
+Success rate: 100.00%
+=== Comparison Failure Log ===
+[2025-08-25 14:24:57] org.osgi:org.osgi.framework:1.9.0 -> org.osgi:org.osgi.framework:1.10.0 : Failed to compare JAR files: JAPICMP comparison failed for org.osgi:org.osgi.framework
+[2025-08-25 14:25:04] org.junit.jupiter:junit-jupiter-api:5.10.2 -> org.junit.jupiter:junit-jupiter-api:5.10.3 : Failed to compare JAR files: JAPICMP comparison failed for org.junit.jupiter:junit-jupiter-api
+[2025-08-25 14:25:04] org.junit.jupiter:junit-jupiter-api:5.10.2 -> org.junit.jupiter:junit-jupiter-api:5.10.4 : Failed to compare JAR files: JAPICMP comparison failed for org.junit.jupiter:junit-jupiter-api
+[2025-08-25 14:25:04] org.junit.jupiter:junit-jupiter-api:5.10.2 -> org.junit.jupiter:junit-jupiter-api:5.10.5 : Failed to compare JAR files: JAPICMP comparison failed for org.junit.jupiter:junit-jupiter-api
+[2025-08-25 14:25:04] org.junit.jupiter:junit-jupiter-api:5.10.2 -> org.junit.jupiter:junit-jupiter-api:5.11.0 : Failed to compare JAR files: JAPICMP comparison failed for org.junit.jupiter:junit-jupiter-api
+[2025-08-25 14:25:04] org.junit.jupiter:junit-jupiter-api:5.10.2 -> org.junit.jupiter:junit-jupiter-api:5.11.1 : Failed to compare JAR files: JAPICMP comparison failed for org.junit.jupiter:junit-jupiter-api
+[2025-08-25 14:25:04] org.junit.jupiter:junit-jupiter-api:5.10.2 -> org.junit.jupiter:junit-jupiter-api:5.11.2 : Failed to compare JAR files: JAPICMP comparison failed for org.junit.jupiter:junit-jupiter-api
+[2025-08-25 14:25:05] org.junit.jupiter:junit-jupiter-api:5.10.2 -> org.junit.jupiter:junit-jupiter-api:5.11.3 : Failed to compare JAR files: JAPICMP comparison failed for org.junit.jupiter:junit-jupiter-api
+[2025-08-25 14:25:05] org.junit.jupiter:junit-jupiter-api:5.10.2 -> org.junit.jupiter:junit-jupiter-api:5.11.4 : Failed to compare JAR files: JAPICMP comparison failed for org.junit.jupiter:junit-jupiter-api
+[2025-08-25 14:25:05] org.junit.jupiter:junit-jupiter-api:5.10.2 -> org.junit.jupiter:junit-jupiter-api:5.12.0 : Failed to compare JAR files: JAPICMP comparison failed for org.junit.jupiter:junit-jupiter-api
+[2025-08-25 14:25:05] org.junit.jupiter:junit-jupiter-api:5.10.2 -> org.junit.jupiter:junit-jupiter-api:5.12.1 : Failed to compare JAR files: JAPICMP comparison failed for org.junit.jupiter:junit-jupiter-api
+[2025-08-25 14:25:05] org.junit.jupiter:junit-jupiter-api:5.10.2 -> org.junit.jupiter:junit-jupiter-api:5.12.2 : Failed to compare JAR files: JAPICMP comparison failed for org.junit.jupiter:junit-jupiter-api
+[2025-08-25 14:25:05] org.junit.jupiter:junit-jupiter-api:5.10.2 -> org.junit.jupiter:junit-jupiter-api:5.13.0 : Failed to compare JAR files: JAPICMP comparison failed for org.junit.jupiter:junit-jupiter-api
+[2025-08-25 14:25:05] org.junit.jupiter:junit-jupiter-api:5.10.2 -> org.junit.jupiter:junit-jupiter-api:5.13.1 : Failed to compare JAR files: JAPICMP comparison failed for org.junit.jupiter:junit-jupiter-api
+[2025-08-25 14:25:05] org.junit.jupiter:junit-jupiter-api:5.10.2 -> org.junit.jupiter:junit-jupiter-api:5.13.2 : Failed to compare JAR files: JAPICMP comparison failed for org.junit.jupiter:junit-jupiter-api
+[2025-08-25 14:25:05] org.junit.jupiter:junit-jupiter-api:5.10.2 -> org.junit.jupiter:junit-jupiter-api:5.13.3 : Failed to compare JAR files: JAPICMP comparison failed for org.junit.jupiter:junit-jupiter-api
+[2025-08-25 14:25:05] org.junit.jupiter:junit-jupiter-api:5.10.2 -> org.junit.jupiter:junit-jupiter-api:5.13.4 : Failed to compare JAR files: JAPICMP comparison failed for org.junit.jupiter:junit-jupiter-api
+[2025-08-25 14:25:05] org.mockito:mockito-core:5.16.0 -> org.mockito:mockito-core:5.16.1 : Failed to compare JAR files: JAPICMP comparison failed for org.mockito:mockito-core
+[2025-08-25 14:25:05] org.mockito:mockito-core:5.16.0 -> org.mockito:mockito-core:5.17.0 : Failed to compare JAR files: JAPICMP comparison failed for org.mockito:mockito-core
+[2025-08-25 14:25:05] org.mockito:mockito-core:5.16.0 -> org.mockito:mockito-core:5.18.0 : Failed to compare JAR files: JAPICMP comparison failed for org.mockito:mockito-core
+[2025-08-25 14:25:05] org.mockito:mockito-core:5.16.0 -> org.mockito:mockito-core:5.19.0 : Failed to compare JAR files: JAPICMP comparison failed for org.mockito:mockito-core
+[2025-08-25 14:25:08] com.adobe.aem:uber-jar:6.5.21 -> com.adobe.aem:uber-jar:6.5.22 : Failed to compare JAR files: JAPICMP comparison failed for com.adobe.aem:uber-jar
+[2025-08-25 14:25:12] com.adobe.aem:uber-jar:6.5.21 -> com.adobe.aem:uber-jar:6.5.23 : Failed to compare JAR files: JAPICMP comparison failed for com.adobe.aem:uber-jar
+[2025-08-25 14:25:13] com.adobe.aem:uber-jar:6.5.21 -> com.adobe.aem:uber-jar:6.6.0 : Failed to compare JAR files: JAPICMP comparison failed for com.adobe.aem:uber-jar
+[2025-08-25 14:25:16] com.adobe.aem:uber-jar:6.5.21 -> com.adobe.aem:uber-jar:6.6.1 : Failed to compare JAR files: JAPICMP comparison failed for com.adobe.aem:uber-jar
+
+=== Summary ===
+Total comparisons: 99
+Failures: 25
+Success rate: 74.75%

@@ -31,6 +31,18 @@
         <version>3.1.0</version>
         <configuration>
           <mainClass>com.example.Script</mainClass>
+          <options>
+            <option>-Xmx16g</option>
+            <option>-Xms4g</option>
+            <option>-XX:+UseG1GC</option>
+            <option>-XX:MaxGCPauseMillis=200</option>
+            <option>-XX:+DisableExplicitGC</option>
+            <option>-XX:+UseStringDeduplication</option>
+            <option>-XX:MaxMetaspaceSize=2g</option>
+            <option>-XX:+UnlockExperimentalVMOptions</option>
+            <option>-XX:+UseZGC</option>
+            <option>-XX:+UseLargePages</option>
+          </options>
         </configuration>
       </plugin>
     </plugins>

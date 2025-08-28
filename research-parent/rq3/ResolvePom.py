@@ -13,7 +13,7 @@ def find_submodules(repo_path):
 def generate_effective_pom(submodule_path):
     try:
         subprocess.run(
-            ["mvn", "help:effective-pom", "-Doutput=effective-pom.xml"],
+            ["cmd", "/c", "mvn", "help:effective-pom", "-Doutput=effective-pom.xml"],
             cwd=submodule_path,
             check=True,
             stdout=subprocess.PIPE,
@@ -31,7 +31,7 @@ def generate_effective_pom(submodule_path):
 def install_repo_root(repo_path):
     try:
         subprocess.run(
-            ["mvn", "install", "-DskipTests"],
+            ["cmd", "/c", "mvn", "install", "-DskipTests"],
             cwd=repo_path,
             check=True,
             stdout=subprocess.PIPE,
@@ -77,5 +77,5 @@ def process_repos(root_dir):
 
 
 if __name__ == "__main__":
-    ROOT_DIR = "path/to/repos"  # Replace with actual path
+    ROOT_DIR = r"C:\Users\tyin363\Documents\repos"  # Replace with actual path
     process_repos(ROOT_DIR)

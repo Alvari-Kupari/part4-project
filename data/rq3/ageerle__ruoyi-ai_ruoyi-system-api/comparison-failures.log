@@ -1,0 +1,11 @@
+=== Comparison Failure Log ===
+[2025-08-25 15:09:49] org.springframework:spring-test:6.2.5 -> org.springframework:spring-test:6.2.6 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-test
+[2025-08-25 15:09:49] org.springframework:spring-test:6.2.5 -> org.springframework:spring-test:6.2.7 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-test
+[2025-08-25 15:09:49] org.springframework:spring-test:6.2.5 -> org.springframework:spring-test:6.2.8 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-test
+[2025-08-25 15:09:49] org.springframework:spring-test:6.2.5 -> org.springframework:spring-test:6.2.9 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-test
+[2025-08-25 15:09:49] org.springframework:spring-test:6.2.5 -> org.springframework:spring-test:6.2.10 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-test
+
+=== Summary ===
+Total comparisons: 5
+Failures: 5
+Success rate: 0.00%

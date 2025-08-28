@@ -1,0 +1,11 @@
+=== Comparison Failure Log ===
+[2025-08-25 15:24:31] org.projectlombok:lombok:1.18.36 -> org.projectlombok:lombok:1.18.38 : Failed to compare JAR files: JAPICMP comparison failed for org.projectlombok:lombok
+[2025-08-25 15:26:23] io.grpc:grpc-netty-shaded:1.71.0 -> io.grpc:grpc-netty-shaded:1.72.0 : Failed to compare JAR files: JAPICMP comparison failed for io.grpc:grpc-netty-shaded
+[2025-08-25 15:26:26] io.grpc:grpc-netty-shaded:1.71.0 -> io.grpc:grpc-netty-shaded:1.73.0 : Failed to compare JAR files: JAPICMP comparison failed for io.grpc:grpc-netty-shaded
+[2025-08-25 15:26:28] io.grpc:grpc-netty-shaded:1.71.0 -> io.grpc:grpc-netty-shaded:1.74.0 : Failed to compare JAR files: JAPICMP comparison failed for io.grpc:grpc-netty-shaded
+[2025-08-25 15:26:30] io.grpc:grpc-netty-shaded:1.71.0 -> io.grpc:grpc-netty-shaded:1.75.0 : Failed to compare JAR files: JAPICMP comparison failed for io.grpc:grpc-netty-shaded
+
+=== Summary ===
+Total comparisons: 741
+Failures: 5
+Success rate: 99.33%

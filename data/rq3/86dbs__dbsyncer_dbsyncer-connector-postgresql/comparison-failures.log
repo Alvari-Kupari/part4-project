@@ -1,0 +1,37 @@
+=== Comparison Failure Log ===
+[2025-08-22 14:16:30] org.postgresql:postgresql:42.3.3 -> org.postgresql:postgresql:42.3.4 : Failed to compare JAR files: JAPICMP comparison failed for org.postgresql:postgresql
+[2025-08-22 14:16:30] org.postgresql:postgresql:42.3.3 -> org.postgresql:postgresql:42.3.5 : Failed to compare JAR files: JAPICMP comparison failed for org.postgresql:postgresql
+[2025-08-22 14:16:30] org.postgresql:postgresql:42.3.3 -> org.postgresql:postgresql:42.3.6 : Failed to compare JAR files: JAPICMP comparison failed for org.postgresql:postgresql
+[2025-08-22 14:16:30] org.postgresql:postgresql:42.3.3 -> org.postgresql:postgresql:42.3.7 : Failed to compare JAR files: JAPICMP comparison failed for org.postgresql:postgresql
+[2025-08-22 14:16:30] org.postgresql:postgresql:42.3.3 -> org.postgresql:postgresql:42.3.8 : Failed to compare JAR files: JAPICMP comparison failed for org.postgresql:postgresql
+[2025-08-22 14:16:31] org.postgresql:postgresql:42.3.3 -> org.postgresql:postgresql:42.3.9 : Failed to compare JAR files: JAPICMP comparison failed for org.postgresql:postgresql
+[2025-08-22 14:16:31] org.postgresql:postgresql:42.3.3 -> org.postgresql:postgresql:42.3.10 : Failed to compare JAR files: JAPICMP comparison failed for org.postgresql:postgresql
+[2025-08-22 14:16:31] org.postgresql:postgresql:42.3.3 -> org.postgresql:postgresql:42.4.0 : Failed to compare JAR files: JAPICMP comparison failed for org.postgresql:postgresql
+[2025-08-22 14:16:31] org.postgresql:postgresql:42.3.3 -> org.postgresql:postgresql:42.4.1 : Failed to compare JAR files: JAPICMP comparison failed for org.postgresql:postgresql
+[2025-08-22 14:16:31] org.postgresql:postgresql:42.3.3 -> org.postgresql:postgresql:42.4.2 : Failed to compare JAR files: JAPICMP comparison failed for org.postgresql:postgresql
+[2025-08-22 14:16:31] org.postgresql:postgresql:42.3.3 -> org.postgresql:postgresql:42.4.3 : Failed to compare JAR files: JAPICMP comparison failed for org.postgresql:postgresql
+[2025-08-22 14:16:31] org.postgresql:postgresql:42.3.3 -> org.postgresql:postgresql:42.4.4 : Failed to compare JAR files: JAPICMP comparison failed for org.postgresql:postgresql
+[2025-08-22 14:16:31] org.postgresql:postgresql:42.3.3 -> org.postgresql:postgresql:42.4.5 : Failed to compare JAR files: JAPICMP comparison failed for org.postgresql:postgresql
+[2025-08-22 14:16:31] org.postgresql:postgresql:42.3.3 -> org.postgresql:postgresql:42.5.0 : Failed to compare JAR files: JAPICMP comparison failed for org.postgresql:postgresql
+[2025-08-22 14:16:32] org.postgresql:postgresql:42.3.3 -> org.postgresql:postgresql:42.5.1 : Failed to compare JAR files: JAPICMP comparison failed for org.postgresql:postgresql
+[2025-08-22 14:16:32] org.postgresql:postgresql:42.3.3 -> org.postgresql:postgresql:42.5.2 : Failed to compare JAR files: JAPICMP comparison failed for org.postgresql:postgresql
+[2025-08-22 14:16:32] org.postgresql:postgresql:42.3.3 -> org.postgresql:postgresql:42.5.3 : Failed to compare JAR files: JAPICMP comparison failed for org.postgresql:postgresql
+[2025-08-22 14:16:32] org.postgresql:postgresql:42.3.3 -> org.postgresql:postgresql:42.5.4 : Failed to compare JAR files: JAPICMP comparison failed for org.postgresql:postgresql
+[2025-08-22 14:16:32] org.postgresql:postgresql:42.3.3 -> org.postgresql:postgresql:42.5.5 : Failed to compare JAR files: JAPICMP comparison failed for org.postgresql:postgresql
+[2025-08-22 14:16:32] org.postgresql:postgresql:42.3.3 -> org.postgresql:postgresql:42.5.6 : Failed to compare JAR files: JAPICMP comparison failed for org.postgresql:postgresql
+[2025-08-22 14:16:32] org.postgresql:postgresql:42.3.3 -> org.postgresql:postgresql:42.6.0 : Failed to compare JAR files: JAPICMP comparison failed for org.postgresql:postgresql
+[2025-08-22 14:16:32] org.postgresql:postgresql:42.3.3 -> org.postgresql:postgresql:42.6.1 : Failed to compare JAR files: JAPICMP comparison failed for org.postgresql:postgresql
+[2025-08-22 14:16:33] org.postgresql:postgresql:42.3.3 -> org.postgresql:postgresql:42.6.2 : Failed to compare JAR files: JAPICMP comparison failed for org.postgresql:postgresql
+[2025-08-22 14:16:33] org.postgresql:postgresql:42.3.3 -> org.postgresql:postgresql:42.7.0 : Failed to compare JAR files: JAPICMP comparison failed for org.postgresql:postgresql
+[2025-08-22 14:16:33] org.postgresql:postgresql:42.3.3 -> org.postgresql:postgresql:42.7.1 : Failed to compare JAR files: JAPICMP comparison failed for org.postgresql:postgresql
+[2025-08-22 14:16:33] org.postgresql:postgresql:42.3.3 -> org.postgresql:postgresql:42.7.2 : Failed to compare JAR files: JAPICMP comparison failed for org.postgresql:postgresql
+[2025-08-22 14:16:33] org.postgresql:postgresql:42.3.3 -> org.postgresql:postgresql:42.7.3 : Failed to compare JAR files: JAPICMP comparison failed for org.postgresql:postgresql
+[2025-08-22 14:16:33] org.postgresql:postgresql:42.3.3 -> org.postgresql:postgresql:42.7.4 : Failed to compare JAR files: JAPICMP comparison failed for org.postgresql:postgresql
+[2025-08-22 14:16:33] org.postgresql:postgresql:42.3.3 -> org.postgresql:postgresql:42.7.5 : Failed to compare JAR files: JAPICMP comparison failed for org.postgresql:postgresql
+[2025-08-22 14:16:33] org.postgresql:postgresql:42.3.3 -> org.postgresql:postgresql:42.7.6 : Failed to compare JAR files: JAPICMP comparison failed for org.postgresql:postgresql
+[2025-08-22 14:16:34] org.postgresql:postgresql:42.3.3 -> org.postgresql:postgresql:42.7.7 : Failed to compare JAR files: JAPICMP comparison failed for org.postgresql:postgresql
+
+=== Summary ===
+Total comparisons: 32
+Failures: 31
+Success rate: 3.13%
