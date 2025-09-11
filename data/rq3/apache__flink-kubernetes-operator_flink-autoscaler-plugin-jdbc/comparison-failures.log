@@ -1,0 +1,65 @@
+=== Comparison Failure Log ===
+[2025-09-01 12:27:36] org.projectlombok:lombok:1.18.30 -> org.projectlombok:lombok:1.18.32 : Failed to compare JAR files: JAPICMP comparison failed for org.projectlombok:lombok
+[2025-09-01 12:27:36] org.projectlombok:lombok:1.18.30 -> org.projectlombok:lombok:1.18.34 : Failed to compare JAR files: JAPICMP comparison failed for org.projectlombok:lombok
+[2025-09-01 12:27:36] org.projectlombok:lombok:1.18.30 -> org.projectlombok:lombok:1.18.36 : Failed to compare JAR files: JAPICMP comparison failed for org.projectlombok:lombok
+[2025-09-01 12:27:36] org.projectlombok:lombok:1.18.30 -> org.projectlombok:lombok:1.18.38 : Failed to compare JAR files: JAPICMP comparison failed for org.projectlombok:lombok
+[2025-09-01 12:27:48] org.apache.derby:derby:10.15.2.0 -> org.apache.derby:derby:10.16.1.1 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.derby:derby
+[2025-09-01 12:27:50] org.apache.derby:derby:10.15.2.0 -> org.apache.derby:derby:10.17.1.0 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.derby:derby
+[2025-09-01 12:27:51] org.postgresql:postgresql:42.5.6 -> org.postgresql:postgresql:42.6.0 : Failed to compare JAR files: JAPICMP comparison failed for org.postgresql:postgresql
+[2025-09-01 12:27:52] org.postgresql:postgresql:42.5.6 -> org.postgresql:postgresql:42.6.1 : Failed to compare JAR files: JAPICMP comparison failed for org.postgresql:postgresql
+[2025-09-01 12:27:52] org.postgresql:postgresql:42.5.6 -> org.postgresql:postgresql:42.6.2 : Failed to compare JAR files: JAPICMP comparison failed for org.postgresql:postgresql
+[2025-09-01 12:27:53] org.postgresql:postgresql:42.5.6 -> org.postgresql:postgresql:42.7.0 : Failed to compare JAR files: JAPICMP comparison failed for org.postgresql:postgresql
+[2025-09-01 12:27:54] org.postgresql:postgresql:42.5.6 -> org.postgresql:postgresql:42.7.1 : Failed to compare JAR files: JAPICMP comparison failed for org.postgresql:postgresql
+[2025-09-01 12:27:54] org.postgresql:postgresql:42.5.6 -> org.postgresql:postgresql:42.7.2 : Failed to compare JAR files: JAPICMP comparison failed for org.postgresql:postgresql
+[2025-09-01 12:27:54] org.postgresql:postgresql:42.5.6 -> org.postgresql:postgresql:42.7.3 : Failed to compare JAR files: JAPICMP comparison failed for org.postgresql:postgresql
+[2025-09-01 12:27:55] org.postgresql:postgresql:42.5.6 -> org.postgresql:postgresql:42.7.4 : Failed to compare JAR files: JAPICMP comparison failed for org.postgresql:postgresql
+[2025-09-01 12:27:55] org.postgresql:postgresql:42.5.6 -> org.postgresql:postgresql:42.7.5 : Failed to compare JAR files: JAPICMP comparison failed for org.postgresql:postgresql
+[2025-09-01 12:27:56] org.postgresql:postgresql:42.5.6 -> org.postgresql:postgresql:42.7.6 : Failed to compare JAR files: JAPICMP comparison failed for org.postgresql:postgresql
+[2025-09-01 12:27:56] org.postgresql:postgresql:42.5.6 -> org.postgresql:postgresql:42.7.7 : Failed to compare JAR files: JAPICMP comparison failed for org.postgresql:postgresql
+[2025-09-01 12:27:58] org.testcontainers:postgresql:1.18.2 -> org.testcontainers:postgresql:1.18.3 : Failed to compare JAR files: JAPICMP comparison failed for org.testcontainers:postgresql
+[2025-09-01 12:28:00] org.testcontainers:postgresql:1.18.2 -> org.testcontainers:postgresql:1.19.0 : Failed to compare JAR files: JAPICMP comparison failed for org.testcontainers:postgresql
+[2025-09-01 12:28:02] org.testcontainers:postgresql:1.18.2 -> org.testcontainers:postgresql:1.19.1 : Failed to compare JAR files: JAPICMP comparison failed for org.testcontainers:postgresql
+[2025-09-01 12:28:07] org.testcontainers:postgresql:1.18.2 -> org.testcontainers:postgresql:1.19.2 : Failed to compare JAR files: JAPICMP comparison failed for org.testcontainers:postgresql
+[2025-09-01 12:28:09] org.testcontainers:postgresql:1.18.2 -> org.testcontainers:postgresql:1.19.3 : Failed to compare JAR files: JAPICMP comparison failed for org.testcontainers:postgresql
+[2025-09-01 12:28:11] org.testcontainers:postgresql:1.18.2 -> org.testcontainers:postgresql:1.19.4 : Failed to compare JAR files: JAPICMP comparison failed for org.testcontainers:postgresql
+[2025-09-01 12:28:14] org.testcontainers:postgresql:1.18.2 -> org.testcontainers:postgresql:1.19.5 : Failed to compare JAR files: JAPICMP comparison failed for org.testcontainers:postgresql
+[2025-09-01 12:28:18] org.testcontainers:postgresql:1.18.2 -> org.testcontainers:postgresql:1.19.6 : Failed to compare JAR files: JAPICMP comparison failed for org.testcontainers:postgresql
+[2025-09-01 12:28:21] org.testcontainers:postgresql:1.18.2 -> org.testcontainers:postgresql:1.19.7 : Failed to compare JAR files: JAPICMP comparison failed for org.testcontainers:postgresql
+[2025-09-01 12:28:22] org.testcontainers:postgresql:1.18.2 -> org.testcontainers:postgresql:1.19.8 : Failed to compare JAR files: JAPICMP comparison failed for org.testcontainers:postgresql
+[2025-09-01 12:28:26] org.testcontainers:postgresql:1.18.2 -> org.testcontainers:postgresql:1.20.0 : Failed to compare JAR files: JAPICMP comparison failed for org.testcontainers:postgresql
+[2025-09-01 12:28:27] org.testcontainers:postgresql:1.18.2 -> org.testcontainers:postgresql:1.20.1 : Failed to compare JAR files: JAPICMP comparison failed for org.testcontainers:postgresql
+[2025-09-01 12:28:30] org.testcontainers:postgresql:1.18.2 -> org.testcontainers:postgresql:1.20.2 : Failed to compare JAR files: JAPICMP comparison failed for org.testcontainers:postgresql
+[2025-09-01 12:28:32] org.testcontainers:postgresql:1.18.2 -> org.testcontainers:postgresql:1.20.3 : Failed to compare JAR files: JAPICMP comparison failed for org.testcontainers:postgresql
+[2025-09-01 12:28:34] org.testcontainers:postgresql:1.18.2 -> org.testcontainers:postgresql:1.20.4 : Failed to compare JAR files: JAPICMP comparison failed for org.testcontainers:postgresql
+[2025-09-01 12:28:36] org.testcontainers:postgresql:1.18.2 -> org.testcontainers:postgresql:1.20.5 : Failed to compare JAR files: JAPICMP comparison failed for org.testcontainers:postgresql
+[2025-09-01 12:28:39] org.testcontainers:postgresql:1.18.2 -> org.testcontainers:postgresql:1.20.6 : Failed to compare JAR files: JAPICMP comparison failed for org.testcontainers:postgresql
+[2025-09-01 12:28:42] org.testcontainers:postgresql:1.18.2 -> org.testcontainers:postgresql:1.21.0 : Failed to compare JAR files: JAPICMP comparison failed for org.testcontainers:postgresql
+[2025-09-01 12:28:43] org.testcontainers:postgresql:1.18.2 -> org.testcontainers:postgresql:1.21.1 : Failed to compare JAR files: JAPICMP comparison failed for org.testcontainers:postgresql
+[2025-09-01 12:28:45] org.testcontainers:postgresql:1.18.2 -> org.testcontainers:postgresql:1.21.2 : Failed to compare JAR files: JAPICMP comparison failed for org.testcontainers:postgresql
+[2025-09-01 12:28:47] org.testcontainers:postgresql:1.18.2 -> org.testcontainers:postgresql:1.21.3 : Failed to compare JAR files: JAPICMP comparison failed for org.testcontainers:postgresql
+[2025-09-01 12:28:48] org.testcontainers:mysql:1.18.2 -> org.testcontainers:mysql:1.18.3 : Failed to compare JAR files: JAPICMP comparison failed for org.testcontainers:mysql
+[2025-09-01 12:28:49] org.testcontainers:mysql:1.18.2 -> org.testcontainers:mysql:1.19.0 : Failed to compare JAR files: JAPICMP comparison failed for org.testcontainers:mysql
+[2025-09-01 12:28:50] org.testcontainers:mysql:1.18.2 -> org.testcontainers:mysql:1.19.1 : Failed to compare JAR files: JAPICMP comparison failed for org.testcontainers:mysql
+[2025-09-01 12:28:51] org.testcontainers:mysql:1.18.2 -> org.testcontainers:mysql:1.19.2 : Failed to compare JAR files: JAPICMP comparison failed for org.testcontainers:mysql
+[2025-09-01 12:28:52] org.testcontainers:mysql:1.18.2 -> org.testcontainers:mysql:1.19.3 : Failed to compare JAR files: JAPICMP comparison failed for org.testcontainers:mysql
+[2025-09-01 12:28:53] org.testcontainers:mysql:1.18.2 -> org.testcontainers:mysql:1.19.4 : Failed to compare JAR files: JAPICMP comparison failed for org.testcontainers:mysql
+[2025-09-01 12:28:53] org.testcontainers:mysql:1.18.2 -> org.testcontainers:mysql:1.19.5 : Failed to compare JAR files: JAPICMP comparison failed for org.testcontainers:mysql
+[2025-09-01 12:28:54] org.testcontainers:mysql:1.18.2 -> org.testcontainers:mysql:1.19.6 : Failed to compare JAR files: JAPICMP comparison failed for org.testcontainers:mysql
+[2025-09-01 12:28:55] org.testcontainers:mysql:1.18.2 -> org.testcontainers:mysql:1.19.7 : Failed to compare JAR files: JAPICMP comparison failed for org.testcontainers:mysql
+[2025-09-01 12:28:56] org.testcontainers:mysql:1.18.2 -> org.testcontainers:mysql:1.19.8 : Failed to compare JAR files: JAPICMP comparison failed for org.testcontainers:mysql
+[2025-09-01 12:28:57] org.testcontainers:mysql:1.18.2 -> org.testcontainers:mysql:1.20.0 : Failed to compare JAR files: JAPICMP comparison failed for org.testcontainers:mysql
+[2025-09-01 12:28:58] org.testcontainers:mysql:1.18.2 -> org.testcontainers:mysql:1.20.1 : Failed to compare JAR files: JAPICMP comparison failed for org.testcontainers:mysql
+[2025-09-01 12:28:59] org.testcontainers:mysql:1.18.2 -> org.testcontainers:mysql:1.20.2 : Failed to compare JAR files: JAPICMP comparison failed for org.testcontainers:mysql
+[2025-09-01 12:29:00] org.testcontainers:mysql:1.18.2 -> org.testcontainers:mysql:1.20.3 : Failed to compare JAR files: JAPICMP comparison failed for org.testcontainers:mysql
+[2025-09-01 12:29:01] org.testcontainers:mysql:1.18.2 -> org.testcontainers:mysql:1.20.4 : Failed to compare JAR files: JAPICMP comparison failed for org.testcontainers:mysql
+[2025-09-01 12:29:02] org.testcontainers:mysql:1.18.2 -> org.testcontainers:mysql:1.20.5 : Failed to compare JAR files: JAPICMP comparison failed for org.testcontainers:mysql
+[2025-09-01 12:29:03] org.testcontainers:mysql:1.18.2 -> org.testcontainers:mysql:1.20.6 : Failed to compare JAR files: JAPICMP comparison failed for org.testcontainers:mysql
+[2025-09-01 12:29:04] org.testcontainers:mysql:1.18.2 -> org.testcontainers:mysql:1.21.0 : Failed to compare JAR files: JAPICMP comparison failed for org.testcontainers:mysql
+[2025-09-01 12:29:05] org.testcontainers:mysql:1.18.2 -> org.testcontainers:mysql:1.21.1 : Failed to compare JAR files: JAPICMP comparison failed for org.testcontainers:mysql
+[2025-09-01 12:29:06] org.testcontainers:mysql:1.18.2 -> org.testcontainers:mysql:1.21.2 : Failed to compare JAR files: JAPICMP comparison failed for org.testcontainers:mysql
+[2025-09-01 12:29:07] org.testcontainers:mysql:1.18.2 -> org.testcontainers:mysql:1.21.3 : Failed to compare JAR files: JAPICMP comparison failed for org.testcontainers:mysql
+
+=== Summary ===
+Total comparisons: 94
+Failures: 59
+Success rate: 37.23%

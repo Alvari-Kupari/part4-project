@@ -16,9 +16,9 @@ import org.kohsuke.github.PagedIterator;
 public class DownloadScript {
 
   private static final String REPO_SIZES_LOG =
-      "C:\\Users\\akup390\\Documents\\logs\\repo-sizes.csv";
+      "C:\\Users\\tyin363\\Documents\\logs\\repo-sizes.csv";
   private static final String REPO_FILTER_LOG =
-      "C:\\Users\\akup390\\Documents\\logs\\repo-filter.csv";
+      "C:\\Users\\tyin363\\Documents\\logs\\repo-filter.csv";
 
   // private static final String REPO_SIZES_LOG = "D:\\logs\\repo-sizes.csv";
   // private static final String REPO_FILTER_LOG = "D:\\logs\\repo-filter.txt";
@@ -54,7 +54,8 @@ public class DownloadScript {
     }
 
     // Track the last star count to continue search from
-    int lastStarCount = Integer.MAX_VALUE;
+    //int lastStarCount = Integer.MAX_VALUE;
+    int lastStarCount = 799;
 
     while (count < needed) {
 

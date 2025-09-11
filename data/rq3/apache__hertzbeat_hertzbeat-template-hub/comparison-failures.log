@@ -1,0 +1,20 @@
+=== Comparison Failure Log ===
+[2025-09-01 13:53:08] com.mysql:mysql-connector-j:8.3.0 -> com.mysql:mysql-connector-j:8.4.0 : Failed to compare JAR files: JAPICMP comparison failed for com.mysql:mysql-connector-j
+[2025-09-01 13:57:45] org.projectlombok:lombok:1.18.34 -> org.projectlombok:lombok:1.18.36 : Failed to compare JAR files: JAPICMP comparison failed for org.projectlombok:lombok
+[2025-09-01 13:57:45] org.projectlombok:lombok:1.18.34 -> org.projectlombok:lombok:1.18.38 : Failed to compare JAR files: JAPICMP comparison failed for org.projectlombok:lombok
+[2025-09-01 13:58:19] org.mockito:mockito-core:5.11.0 -> org.mockito:mockito-core:5.12.0 : Failed to compare JAR files: JAPICMP comparison failed for org.mockito:mockito-core
+[2025-09-01 13:58:20] org.mockito:mockito-core:5.11.0 -> org.mockito:mockito-core:5.13.0 : Failed to compare JAR files: JAPICMP comparison failed for org.mockito:mockito-core
+[2025-09-01 13:58:23] org.mockito:mockito-core:5.11.0 -> org.mockito:mockito-core:5.14.0 : Failed to compare JAR files: JAPICMP comparison failed for org.mockito:mockito-core
+[2025-09-01 13:58:24] org.mockito:mockito-core:5.11.0 -> org.mockito:mockito-core:5.14.1 : Failed to compare JAR files: JAPICMP comparison failed for org.mockito:mockito-core
+[2025-09-01 13:58:24] org.mockito:mockito-core:5.11.0 -> org.mockito:mockito-core:5.14.2 : Failed to compare JAR files: JAPICMP comparison failed for org.mockito:mockito-core
+[2025-09-01 13:58:25] org.mockito:mockito-core:5.11.0 -> org.mockito:mockito-core:5.15.2 : Failed to compare JAR files: JAPICMP comparison failed for org.mockito:mockito-core
+[2025-09-01 13:58:25] org.mockito:mockito-core:5.11.0 -> org.mockito:mockito-core:5.16.0 : Failed to compare JAR files: JAPICMP comparison failed for org.mockito:mockito-core
+[2025-09-01 13:58:25] org.mockito:mockito-core:5.11.0 -> org.mockito:mockito-core:5.16.1 : Failed to compare JAR files: JAPICMP comparison failed for org.mockito:mockito-core
+[2025-09-01 13:58:25] org.mockito:mockito-core:5.11.0 -> org.mockito:mockito-core:5.17.0 : Failed to compare JAR files: JAPICMP comparison failed for org.mockito:mockito-core
+[2025-09-01 13:58:26] org.mockito:mockito-core:5.11.0 -> org.mockito:mockito-core:5.18.0 : Failed to compare JAR files: JAPICMP comparison failed for org.mockito:mockito-core
+[2025-09-01 13:58:26] org.mockito:mockito-core:5.11.0 -> org.mockito:mockito-core:5.19.0 : Failed to compare JAR files: JAPICMP comparison failed for org.mockito:mockito-core
+
+=== Summary ===
+Total comparisons: 2176
+Failures: 14
+Success rate: 99.36%

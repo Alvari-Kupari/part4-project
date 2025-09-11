@@ -1,0 +1,16 @@
+=== Comparison Failure Log ===
+[2025-09-08 15:38:02] org.apache.hadoop:hadoop-aws:3.1.4 -> org.apache.hadoop:hadoop-aws:3.2.0 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.hadoop:hadoop-aws
+[2025-09-08 15:38:03] org.apache.hadoop:hadoop-aws:3.1.4 -> org.apache.hadoop:hadoop-aws:3.2.1 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.hadoop:hadoop-aws
+[2025-09-08 15:38:13] org.apache.hadoop:hadoop-aws:3.1.4 -> org.apache.hadoop:hadoop-aws:3.2.2 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.hadoop:hadoop-aws
+[2025-09-08 15:38:25] org.apache.hadoop:hadoop-aws:3.1.4 -> org.apache.hadoop:hadoop-aws:3.2.3 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.hadoop:hadoop-aws
+[2025-09-08 15:38:26] org.apache.hadoop:hadoop-aws:3.1.4 -> org.apache.hadoop:hadoop-aws:3.2.4 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.hadoop:hadoop-aws
+[2025-09-08 15:38:28] org.apache.hadoop:hadoop-aws:3.1.4 -> org.apache.hadoop:hadoop-aws:3.3.0 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.hadoop:hadoop-aws
+[2025-09-08 15:38:29] org.apache.hadoop:hadoop-aws:3.1.4 -> org.apache.hadoop:hadoop-aws:3.3.1 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.hadoop:hadoop-aws
+[2025-09-08 15:38:43] org.apache.hadoop:hadoop-aws:3.1.4 -> org.apache.hadoop:hadoop-aws:3.3.2 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.hadoop:hadoop-aws
+[2025-09-08 15:38:44] org.apache.hadoop:hadoop-aws:3.1.4 -> org.apache.hadoop:hadoop-aws:3.3.3 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.hadoop:hadoop-aws
+[2025-09-08 15:39:01] org.apache.hadoop:hadoop-aws:3.1.4 -> org.apache.hadoop:hadoop-aws:3.3.4 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.hadoop:hadoop-aws
+[2025-09-08 15:39:18] org.apache.hadoop:hadoop-aws:3.1.4 -> org.apache.hadoop:hadoop-aws:3.3.5 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.hadoop:hadoop-aws
+[2025-09-08 15:39:22] org.apache.hadoop:hadoop-aws:3.1.4 -> org.apache.hadoop:hadoop-aws:3.3.6 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.hadoop:hadoop-aws
+[2025-09-08 15:40:10] org.apache.hadoop:hadoop-aws:3.1.4 -> org.apache.hadoop:hadoop-aws:3.4.0 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.hadoop:hadoop-aws
+[2025-09-08 15:40:41] org.apache.hadoop:hadoop-aws:3.1.4 -> org.apache.hadoop:hadoop-aws:3.4.1 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.hadoop:hadoop-aws
+[2025-09-08 15:41:15] org.apache.hadoop:hadoop-aws:3.1.4 -> org.apache.hadoop:hadoop-aws:3.4.2 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.hadoop:hadoop-aws

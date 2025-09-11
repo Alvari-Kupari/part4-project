@@ -5,6 +5,8 @@ import java.io.IOException;
 import java.util.*;
 import java.util.jar.JarEntry;
 import java.util.jar.JarFile;
+import java.util.zip.ZipException;
+
 import org.eclipse.aether.artifact.Artifact;
 import org.eclipse.aether.artifact.DefaultArtifact;
 
@@ -73,6 +75,8 @@ public class DependencyDatabase {
           fqnToArtifact.put(classFqn, artifact);
         }
       }
+    } catch(ZipException e) {
+      System.err.println("SEVERE: Failed to read JAR file: " + jarFile.getAbsolutePath());
     }
   }
 }

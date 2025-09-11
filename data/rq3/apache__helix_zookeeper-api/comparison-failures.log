@@ -1,0 +1,28 @@
+=== Comparison Failure Log ===
+[2025-09-01 12:49:35] org.apache.zookeeper:zookeeper:3.6.3 -> org.apache.zookeeper:zookeeper:3.6.4 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.zookeeper:zookeeper
+[2025-09-01 12:49:41] org.apache.zookeeper:zookeeper:3.6.3 -> org.apache.zookeeper:zookeeper:3.7.0 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.zookeeper:zookeeper
+[2025-09-01 12:49:45] org.apache.zookeeper:zookeeper:3.6.3 -> org.apache.zookeeper:zookeeper:3.7.1 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.zookeeper:zookeeper
+[2025-09-01 12:49:47] org.apache.zookeeper:zookeeper:3.6.3 -> org.apache.zookeeper:zookeeper:3.7.2 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.zookeeper:zookeeper
+[2025-09-01 12:49:54] org.apache.zookeeper:zookeeper:3.6.3 -> org.apache.zookeeper:zookeeper:3.8.0 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.zookeeper:zookeeper
+[2025-09-01 12:49:55] org.apache.zookeeper:zookeeper:3.6.3 -> org.apache.zookeeper:zookeeper:3.8.1 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.zookeeper:zookeeper
+[2025-09-01 12:49:57] org.apache.zookeeper:zookeeper:3.6.3 -> org.apache.zookeeper:zookeeper:3.8.2 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.zookeeper:zookeeper
+[2025-09-01 12:49:58] org.apache.zookeeper:zookeeper:3.6.3 -> org.apache.zookeeper:zookeeper:3.8.3 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.zookeeper:zookeeper
+[2025-09-01 12:49:58] org.apache.zookeeper:zookeeper:3.6.3 -> org.apache.zookeeper:zookeeper:3.8.4 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.zookeeper:zookeeper
+[2025-09-01 12:50:01] org.apache.zookeeper:zookeeper:3.6.3 -> org.apache.zookeeper:zookeeper:3.9.0 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.zookeeper:zookeeper
+[2025-09-01 12:50:01] org.apache.zookeeper:zookeeper:3.6.3 -> org.apache.zookeeper:zookeeper:3.9.1 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.zookeeper:zookeeper
+[2025-09-01 12:50:01] org.apache.zookeeper:zookeeper:3.6.3 -> org.apache.zookeeper:zookeeper:3.9.2 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.zookeeper:zookeeper
+[2025-09-01 12:50:03] org.apache.zookeeper:zookeeper:3.6.3 -> org.apache.zookeeper:zookeeper:3.9.3 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.zookeeper:zookeeper
+[2025-09-01 12:50:04] org.apache.zookeeper:zookeeper:3.6.3 -> org.apache.zookeeper:zookeeper:3.9.4 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.zookeeper:zookeeper
+[2025-09-01 12:50:23] org.testng:testng:6.9.7 -> org.testng:testng:6.9.8 : Failed to compare JAR files: JAPICMP comparison failed for org.testng:testng
+[2025-09-01 12:50:25] org.testng:testng:6.13 -> org.testng:testng:6.13.1 : Failed to compare JAR files: JAPICMP comparison failed for org.testng:testng
+[2025-09-01 12:50:25] org.testng:testng:6.13 -> org.testng:testng:6.14.2 : Failed to compare JAR files: JAPICMP comparison failed for org.testng:testng
+[2025-09-01 12:50:25] org.testng:testng:6.13 -> org.testng:testng:6.14.3 : Failed to compare JAR files: JAPICMP comparison failed for org.testng:testng
+[2025-09-01 12:50:26] org.xerial.snappy:snappy-java:1.1.10.4 -> org.xerial.snappy:snappy-java:1.1.10.5 : Failed to compare JAR files: JAPICMP comparison failed for org.xerial.snappy:snappy-java
+[2025-09-01 12:50:26] org.xerial.snappy:snappy-java:1.1.10.4 -> org.xerial.snappy:snappy-java:1.1.10.6 : Failed to compare JAR files: JAPICMP comparison failed for org.xerial.snappy:snappy-java
+[2025-09-01 12:50:26] org.xerial.snappy:snappy-java:1.1.10.4 -> org.xerial.snappy:snappy-java:1.1.10.7 : Failed to compare JAR files: JAPICMP comparison failed for org.xerial.snappy:snappy-java
+[2025-09-01 12:50:26] org.xerial.snappy:snappy-java:1.1.10.4 -> org.xerial.snappy:snappy-java:1.1.10.8 : Failed to compare JAR files: JAPICMP comparison failed for org.xerial.snappy:snappy-java
+
+=== Summary ===
+Total comparisons: 182
+Failures: 22
+Success rate: 87.91%

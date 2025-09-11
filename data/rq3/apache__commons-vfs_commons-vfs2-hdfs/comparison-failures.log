@@ -1,0 +1,9 @@
+=== Comparison Failure Log ===
+[2025-09-01 12:05:24] org.apache.hadoop:hadoop-hdfs-client:3.4.1 -> org.apache.hadoop:hadoop-hdfs-client:3.4.2 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.hadoop:hadoop-hdfs-client
+[2025-09-01 12:05:51] org.apache.hadoop:hadoop-common:3.4.1 -> org.apache.hadoop:hadoop-common:3.4.2 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.hadoop:hadoop-common
+[2025-09-01 12:06:07] org.apache.hadoop:hadoop-hdfs:3.4.1 -> org.apache.hadoop:hadoop-hdfs:3.4.2 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.hadoop:hadoop-hdfs
+
+=== Summary ===
+Total comparisons: 26
+Failures: 3
+Success rate: 88.46%

@@ -1,0 +1,28 @@
+=== Comparison Failure Log ===
+
+=== Summary ===
+Total comparisons: 0
+Failures: 0
+Success rate: 100.00%
+=== Comparison Failure Log ===
+[2025-09-07 03:54:02] org.apache.thrift:libthrift:0.15.0 -> org.apache.thrift:libthrift:0.16.0 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.thrift:libthrift
+[2025-09-07 03:54:02] org.apache.thrift:libthrift:0.15.0 -> org.apache.thrift:libthrift:0.17.0 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.thrift:libthrift
+[2025-09-07 03:54:02] org.apache.thrift:libthrift:0.15.0 -> org.apache.thrift:libthrift:0.18.0 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.thrift:libthrift
+[2025-09-07 03:54:02] org.apache.thrift:libthrift:0.15.0 -> org.apache.thrift:libthrift:0.18.1 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.thrift:libthrift
+[2025-09-07 03:54:02] org.apache.thrift:libthrift:0.15.0 -> org.apache.thrift:libthrift:0.19.0 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.thrift:libthrift
+[2025-09-07 03:54:03] org.apache.thrift:libthrift:0.15.0 -> org.apache.thrift:libthrift:0.20.0 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.thrift:libthrift
+[2025-09-07 03:54:03] org.apache.thrift:libthrift:0.15.0 -> org.apache.thrift:libthrift:0.21.0 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.thrift:libthrift
+[2025-09-07 03:54:03] org.apache.thrift:libthrift:0.15.0 -> org.apache.thrift:libthrift:0.22.0 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.thrift:libthrift
+[2025-09-07 03:54:08] org.mockito:mockito-core:2.23.4 -> org.mockito:mockito-core:2.24.0 : Failed to compare JAR files: JAPICMP comparison failed for org.mockito:mockito-core
+[2025-09-07 03:54:08] org.mockito:mockito-core:2.23.4 -> org.mockito:mockito-core:2.24.5 : Failed to compare JAR files: JAPICMP comparison failed for org.mockito:mockito-core
+[2025-09-07 03:54:08] org.mockito:mockito-core:2.23.4 -> org.mockito:mockito-core:2.25.0 : Failed to compare JAR files: JAPICMP comparison failed for org.mockito:mockito-core
+[2025-09-07 03:54:08] org.mockito:mockito-core:2.23.4 -> org.mockito:mockito-core:2.25.1 : Failed to compare JAR files: JAPICMP comparison failed for org.mockito:mockito-core
+[2025-09-07 03:54:08] org.mockito:mockito-core:2.23.4 -> org.mockito:mockito-core:2.26.0 : Failed to compare JAR files: JAPICMP comparison failed for org.mockito:mockito-core
+[2025-09-07 03:54:08] org.mockito:mockito-core:2.23.4 -> org.mockito:mockito-core:2.27.0 : Failed to compare JAR files: JAPICMP comparison failed for org.mockito:mockito-core
+[2025-09-07 03:54:09] org.mockito:mockito-core:2.23.4 -> org.mockito:mockito-core:2.28.1 : Failed to compare JAR files: JAPICMP comparison failed for org.mockito:mockito-core
+[2025-09-07 03:54:09] org.mockito:mockito-core:2.23.4 -> org.mockito:mockito-core:2.28.2 : Failed to compare JAR files: JAPICMP comparison failed for org.mockito:mockito-core
+
+=== Summary ===
+Total comparisons: 27
+Failures: 16
+Success rate: 40.74%

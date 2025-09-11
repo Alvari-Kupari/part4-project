@@ -1,0 +1,29 @@
+=== Comparison Failure Log ===
+[2025-09-01 12:51:37] org.springframework.boot:spring-boot-autoconfigure:3.4.2 -> org.springframework.boot:spring-boot-autoconfigure:3.4.3 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.boot:spring-boot-autoconfigure
+[2025-09-01 12:51:37] org.springframework.boot:spring-boot-autoconfigure:3.4.2 -> org.springframework.boot:spring-boot-autoconfigure:3.4.4 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.boot:spring-boot-autoconfigure
+[2025-09-01 12:51:37] org.springframework.boot:spring-boot-autoconfigure:3.4.2 -> org.springframework.boot:spring-boot-autoconfigure:3.4.5 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.boot:spring-boot-autoconfigure
+[2025-09-01 12:51:37] org.springframework.boot:spring-boot-autoconfigure:3.4.2 -> org.springframework.boot:spring-boot-autoconfigure:3.4.6 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.boot:spring-boot-autoconfigure
+[2025-09-01 12:51:37] org.springframework.boot:spring-boot-autoconfigure:3.4.2 -> org.springframework.boot:spring-boot-autoconfigure:3.4.7 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.boot:spring-boot-autoconfigure
+[2025-09-01 12:51:37] org.springframework.boot:spring-boot-autoconfigure:3.4.2 -> org.springframework.boot:spring-boot-autoconfigure:3.4.8 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.boot:spring-boot-autoconfigure
+[2025-09-01 12:51:37] org.springframework.boot:spring-boot-autoconfigure:3.4.2 -> org.springframework.boot:spring-boot-autoconfigure:3.4.9 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.boot:spring-boot-autoconfigure
+[2025-09-01 12:51:37] org.springframework.boot:spring-boot-autoconfigure:3.4.2 -> org.springframework.boot:spring-boot-autoconfigure:3.5.0 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.boot:spring-boot-autoconfigure
+[2025-09-01 12:51:38] org.springframework.boot:spring-boot-autoconfigure:3.4.2 -> org.springframework.boot:spring-boot-autoconfigure:3.5.1 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.boot:spring-boot-autoconfigure
+[2025-09-01 12:51:38] org.springframework.boot:spring-boot-autoconfigure:3.4.2 -> org.springframework.boot:spring-boot-autoconfigure:3.5.2 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.boot:spring-boot-autoconfigure
+[2025-09-01 12:51:38] org.springframework.boot:spring-boot-autoconfigure:3.4.2 -> org.springframework.boot:spring-boot-autoconfigure:3.5.3 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.boot:spring-boot-autoconfigure
+[2025-09-01 12:51:38] org.springframework.boot:spring-boot-autoconfigure:3.4.2 -> org.springframework.boot:spring-boot-autoconfigure:3.5.4 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.boot:spring-boot-autoconfigure
+[2025-09-01 12:51:38] org.springframework.boot:spring-boot-autoconfigure:3.4.2 -> org.springframework.boot:spring-boot-autoconfigure:3.5.5 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.boot:spring-boot-autoconfigure
+[2025-09-01 12:52:21] org.apache.kafka:kafka-clients:3.7.1 -> org.apache.kafka:kafka-clients:3.7.2 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.kafka:kafka-clients
+[2025-09-01 12:52:22] org.apache.kafka:kafka-clients:3.7.1 -> org.apache.kafka:kafka-clients:3.8.0 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.kafka:kafka-clients
+[2025-09-01 12:52:23] org.apache.kafka:kafka-clients:3.7.1 -> org.apache.kafka:kafka-clients:3.8.1 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.kafka:kafka-clients
+[2025-09-01 12:52:24] org.apache.kafka:kafka-clients:3.7.1 -> org.apache.kafka:kafka-clients:3.9.0 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.kafka:kafka-clients
+[2025-09-01 12:52:25] org.apache.kafka:kafka-clients:3.7.1 -> org.apache.kafka:kafka-clients:3.9.1 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.kafka:kafka-clients
+[2025-09-01 13:02:26] org.projectlombok:lombok:1.18.28 -> org.projectlombok:lombok:1.18.30 : Failed to compare JAR files: JAPICMP comparison failed for org.projectlombok:lombok
+[2025-09-01 13:02:26] org.projectlombok:lombok:1.18.28 -> org.projectlombok:lombok:1.18.32 : Failed to compare JAR files: JAPICMP comparison failed for org.projectlombok:lombok
+[2025-09-01 13:02:26] org.projectlombok:lombok:1.18.28 -> org.projectlombok:lombok:1.18.34 : Failed to compare JAR files: JAPICMP comparison failed for org.projectlombok:lombok
+[2025-09-01 13:02:26] org.projectlombok:lombok:1.18.28 -> org.projectlombok:lombok:1.18.36 : Failed to compare JAR files: JAPICMP comparison failed for org.projectlombok:lombok
+[2025-09-01 13:02:26] org.projectlombok:lombok:1.18.28 -> org.projectlombok:lombok:1.18.38 : Failed to compare JAR files: JAPICMP comparison failed for org.projectlombok:lombok
+
+=== Summary ===
+Total comparisons: 1386
+Failures: 23
+Success rate: 98.34%

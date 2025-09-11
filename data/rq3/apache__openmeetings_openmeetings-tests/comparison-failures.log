@@ -1,0 +1,7 @@
+=== Comparison Failure Log ===
+[2025-09-08 14:57:36] org.springframework:spring-test:6.2.9 -> org.springframework:spring-test:6.2.10 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-test
+
+=== Summary ===
+Total comparisons: 92
+Failures: 1
+Success rate: 98.91%

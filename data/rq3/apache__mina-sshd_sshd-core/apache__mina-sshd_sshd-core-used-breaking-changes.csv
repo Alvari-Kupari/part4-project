@@ -1,0 +1,2 @@
+Library_Name,Old_Version,New_Version,Class_Name,Member_Name,Change_Type,Description,Binary_Compatible,Source_Compatible,Is_Transitive,Depth,Direct_Parent_Dependency,Release_Type,Usage_Location,Usage_Line,Usage_Context,Usage_Type
+org.apache.mina:mina-core,2.2.3,2.2.4,org.apache.mina.util.byteaccess.IoAbsoluteWriter,last,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.apache.mina:mina-core,PATCH,C:\Users\tyin363\Documents\repos\apache__mina-sshd\sshd-core\src\main\java\org\apache\sshd\common\channel\ChannelAsyncOutputStream.java,197,last,NameExpr

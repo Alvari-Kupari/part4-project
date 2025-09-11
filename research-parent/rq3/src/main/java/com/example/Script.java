@@ -30,7 +30,7 @@ public class Script {
 
   private static final Logger LOGGER = Logger.getLogger(Script.class.getName());
 
-  private static final String startRepo = "AntonyCheng__spring-boot-init-template";
+  private static final String startRepo = "apache__shardingsphere-elasticjob";
 
   public static void main(String[] args) throws IOException {
 
@@ -64,6 +64,17 @@ public class Script {
 
       inner:
       for (SubModule submodule : subModules) {
+
+        if (submodule.hasTooManyDeps()) {
+          LOGGER.warning("Skipping analysis for submodule '" + submodule.getName() + "' due to excessive dependencies.");
+          continue;
+        }
+
+        if (submodule.hasTooManyLOC()) {
+          LOGGER.warning("Skipping analysis for submodule '" + submodule.getName() + "' due to excessive lines of code.");
+          continue;
+        }
+
         LOGGER.info(
             "\n=== Starting Analysis  for submodule '"
                 + submodule.getName()

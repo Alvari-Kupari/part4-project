@@ -1,0 +1,29 @@
+=== Comparison Failure Log ===
+[2025-09-06 16:05:34] ch.qos.logback:logback-classic:1.5.16 -> ch.qos.logback:logback-classic:1.5.17 : Failed to compare JAR files: JAPICMP comparison failed for ch.qos.logback:logback-classic
+[2025-09-06 16:05:34] ch.qos.logback:logback-classic:1.5.16 -> ch.qos.logback:logback-classic:1.5.18 : Failed to compare JAR files: JAPICMP comparison failed for ch.qos.logback:logback-classic
+[2025-09-06 16:05:41] org.junit.jupiter:junit-jupiter-api:5.12.1 -> org.junit.jupiter:junit-jupiter-api:5.12.2 : Failed to compare JAR files: JAPICMP comparison failed for org.junit.jupiter:junit-jupiter-api
+[2025-09-06 16:05:41] org.junit.jupiter:junit-jupiter-api:5.12.1 -> org.junit.jupiter:junit-jupiter-api:5.13.0 : Failed to compare JAR files: JAPICMP comparison failed for org.junit.jupiter:junit-jupiter-api
+[2025-09-06 16:05:41] org.junit.jupiter:junit-jupiter-api:5.12.1 -> org.junit.jupiter:junit-jupiter-api:5.13.1 : Failed to compare JAR files: JAPICMP comparison failed for org.junit.jupiter:junit-jupiter-api
+[2025-09-06 16:05:41] org.junit.jupiter:junit-jupiter-api:5.12.1 -> org.junit.jupiter:junit-jupiter-api:5.13.2 : Failed to compare JAR files: JAPICMP comparison failed for org.junit.jupiter:junit-jupiter-api
+[2025-09-06 16:05:42] org.junit.jupiter:junit-jupiter-api:5.12.1 -> org.junit.jupiter:junit-jupiter-api:5.13.3 : Failed to compare JAR files: JAPICMP comparison failed for org.junit.jupiter:junit-jupiter-api
+[2025-09-06 16:05:42] org.junit.jupiter:junit-jupiter-api:5.12.1 -> org.junit.jupiter:junit-jupiter-api:5.13.4 : Failed to compare JAR files: JAPICMP comparison failed for org.junit.jupiter:junit-jupiter-api
+[2025-09-06 16:05:44] org.assertj:assertj-core:3.24.2 -> org.assertj:assertj-core:3.25.0 : Failed to compare JAR files: JAPICMP comparison failed for org.assertj:assertj-core
+[2025-09-06 16:05:44] org.assertj:assertj-core:3.24.2 -> org.assertj:assertj-core:3.25.1 : Failed to compare JAR files: JAPICMP comparison failed for org.assertj:assertj-core
+[2025-09-06 16:05:44] org.assertj:assertj-core:3.24.2 -> org.assertj:assertj-core:3.25.2 : Failed to compare JAR files: JAPICMP comparison failed for org.assertj:assertj-core
+[2025-09-06 16:05:44] org.assertj:assertj-core:3.24.2 -> org.assertj:assertj-core:3.25.3 : Failed to compare JAR files: JAPICMP comparison failed for org.assertj:assertj-core
+[2025-09-06 16:05:44] org.assertj:assertj-core:3.24.2 -> org.assertj:assertj-core:3.26.0 : Failed to compare JAR files: JAPICMP comparison failed for org.assertj:assertj-core
+[2025-09-06 16:05:45] org.assertj:assertj-core:3.24.2 -> org.assertj:assertj-core:3.26.3 : Failed to compare JAR files: JAPICMP comparison failed for org.assertj:assertj-core
+[2025-09-06 16:05:45] org.assertj:assertj-core:3.24.2 -> org.assertj:assertj-core:3.27.0 : Failed to compare JAR files: JAPICMP comparison failed for org.assertj:assertj-core
+[2025-09-06 16:05:45] org.assertj:assertj-core:3.24.2 -> org.assertj:assertj-core:3.27.1 : Failed to compare JAR files: JAPICMP comparison failed for org.assertj:assertj-core
+[2025-09-06 16:05:45] org.assertj:assertj-core:3.24.2 -> org.assertj:assertj-core:3.27.2 : Failed to compare JAR files: JAPICMP comparison failed for org.assertj:assertj-core
+[2025-09-06 16:05:45] org.assertj:assertj-core:3.24.2 -> org.assertj:assertj-core:3.27.3 : Failed to compare JAR files: JAPICMP comparison failed for org.assertj:assertj-core
+[2025-09-06 16:05:45] org.assertj:assertj-core:3.24.2 -> org.assertj:assertj-core:3.27.4 : Failed to compare JAR files: JAPICMP comparison failed for org.assertj:assertj-core
+[2025-09-06 16:05:49] org.apache.openjpa:openjpa:4.0.0 -> org.apache.openjpa:openjpa:4.0.1 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.openjpa:openjpa
+[2025-09-06 16:05:54] org.apache.openjpa:openjpa:4.0.0 -> org.apache.openjpa:openjpa:4.1.0 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.openjpa:openjpa
+[2025-09-06 16:05:56] org.apache.openjpa:openjpa:4.0.0 -> org.apache.openjpa:openjpa:4.1.1 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.openjpa:openjpa
+[2025-09-06 16:05:57] com.h2database:h2:2.3.230 -> com.h2database:h2:2.3.232 : Failed to compare JAR files: JAPICMP comparison failed for com.h2database:h2
+
+=== Summary ===
+Total comparisons: 48
+Failures: 23
+Success rate: 52.08%

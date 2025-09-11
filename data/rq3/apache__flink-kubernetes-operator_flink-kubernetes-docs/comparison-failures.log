@@ -1,0 +1,33 @@
+=== Comparison Failure Log ===
+[2025-09-01 12:29:39] org.junit.jupiter:junit-jupiter-api:5.9.3 -> org.junit.jupiter:junit-jupiter-api:5.10.0 : Failed to compare JAR files: JAPICMP comparison failed for org.junit.jupiter:junit-jupiter-api
+[2025-09-01 12:29:39] org.junit.jupiter:junit-jupiter-api:5.9.3 -> org.junit.jupiter:junit-jupiter-api:5.10.1 : Failed to compare JAR files: JAPICMP comparison failed for org.junit.jupiter:junit-jupiter-api
+[2025-09-01 12:29:39] org.junit.jupiter:junit-jupiter-api:5.9.3 -> org.junit.jupiter:junit-jupiter-api:5.10.2 : Failed to compare JAR files: JAPICMP comparison failed for org.junit.jupiter:junit-jupiter-api
+[2025-09-01 12:29:39] org.junit.jupiter:junit-jupiter-api:5.9.3 -> org.junit.jupiter:junit-jupiter-api:5.10.3 : Failed to compare JAR files: JAPICMP comparison failed for org.junit.jupiter:junit-jupiter-api
+[2025-09-01 12:29:39] org.junit.jupiter:junit-jupiter-api:5.9.3 -> org.junit.jupiter:junit-jupiter-api:5.10.4 : Failed to compare JAR files: JAPICMP comparison failed for org.junit.jupiter:junit-jupiter-api
+[2025-09-01 12:29:39] org.junit.jupiter:junit-jupiter-api:5.9.3 -> org.junit.jupiter:junit-jupiter-api:5.10.5 : Failed to compare JAR files: JAPICMP comparison failed for org.junit.jupiter:junit-jupiter-api
+[2025-09-01 12:29:39] org.junit.jupiter:junit-jupiter-api:5.9.3 -> org.junit.jupiter:junit-jupiter-api:5.11.0 : Failed to compare JAR files: JAPICMP comparison failed for org.junit.jupiter:junit-jupiter-api
+[2025-09-01 12:29:39] org.junit.jupiter:junit-jupiter-api:5.9.3 -> org.junit.jupiter:junit-jupiter-api:5.11.1 : Failed to compare JAR files: JAPICMP comparison failed for org.junit.jupiter:junit-jupiter-api
+[2025-09-01 12:29:39] org.junit.jupiter:junit-jupiter-api:5.9.3 -> org.junit.jupiter:junit-jupiter-api:5.11.2 : Failed to compare JAR files: JAPICMP comparison failed for org.junit.jupiter:junit-jupiter-api
+[2025-09-01 12:29:39] org.junit.jupiter:junit-jupiter-api:5.9.3 -> org.junit.jupiter:junit-jupiter-api:5.11.3 : Failed to compare JAR files: JAPICMP comparison failed for org.junit.jupiter:junit-jupiter-api
+[2025-09-01 12:29:39] org.junit.jupiter:junit-jupiter-api:5.9.3 -> org.junit.jupiter:junit-jupiter-api:5.11.4 : Failed to compare JAR files: JAPICMP comparison failed for org.junit.jupiter:junit-jupiter-api
+[2025-09-01 12:29:39] org.junit.jupiter:junit-jupiter-api:5.9.3 -> org.junit.jupiter:junit-jupiter-api:5.12.0 : Failed to compare JAR files: JAPICMP comparison failed for org.junit.jupiter:junit-jupiter-api
+[2025-09-01 12:29:39] org.junit.jupiter:junit-jupiter-api:5.9.3 -> org.junit.jupiter:junit-jupiter-api:5.12.1 : Failed to compare JAR files: JAPICMP comparison failed for org.junit.jupiter:junit-jupiter-api
+[2025-09-01 12:29:39] org.junit.jupiter:junit-jupiter-api:5.9.3 -> org.junit.jupiter:junit-jupiter-api:5.12.2 : Failed to compare JAR files: JAPICMP comparison failed for org.junit.jupiter:junit-jupiter-api
+[2025-09-01 12:29:39] org.junit.jupiter:junit-jupiter-api:5.9.3 -> org.junit.jupiter:junit-jupiter-api:5.13.0 : Failed to compare JAR files: JAPICMP comparison failed for org.junit.jupiter:junit-jupiter-api
+[2025-09-01 12:29:39] org.junit.jupiter:junit-jupiter-api:5.9.3 -> org.junit.jupiter:junit-jupiter-api:5.13.1 : Failed to compare JAR files: JAPICMP comparison failed for org.junit.jupiter:junit-jupiter-api
+[2025-09-01 12:29:39] org.junit.jupiter:junit-jupiter-api:5.9.3 -> org.junit.jupiter:junit-jupiter-api:5.13.2 : Failed to compare JAR files: JAPICMP comparison failed for org.junit.jupiter:junit-jupiter-api
+[2025-09-01 12:29:39] org.junit.jupiter:junit-jupiter-api:5.9.3 -> org.junit.jupiter:junit-jupiter-api:5.13.3 : Failed to compare JAR files: JAPICMP comparison failed for org.junit.jupiter:junit-jupiter-api
+[2025-09-01 12:29:39] org.junit.jupiter:junit-jupiter-api:5.9.3 -> org.junit.jupiter:junit-jupiter-api:5.13.4 : Failed to compare JAR files: JAPICMP comparison failed for org.junit.jupiter:junit-jupiter-api
+[2025-09-01 12:29:39] org.assertj:assertj-core:3.26.3 -> org.assertj:assertj-core:3.27.0 : Failed to compare JAR files: JAPICMP comparison failed for org.assertj:assertj-core
+[2025-09-01 12:29:40] org.assertj:assertj-core:3.26.3 -> org.assertj:assertj-core:3.27.1 : Failed to compare JAR files: JAPICMP comparison failed for org.assertj:assertj-core
+[2025-09-01 12:29:40] org.assertj:assertj-core:3.26.3 -> org.assertj:assertj-core:3.27.2 : Failed to compare JAR files: JAPICMP comparison failed for org.assertj:assertj-core
+[2025-09-01 12:29:40] org.assertj:assertj-core:3.26.3 -> org.assertj:assertj-core:3.27.3 : Failed to compare JAR files: JAPICMP comparison failed for org.assertj:assertj-core
+[2025-09-01 12:29:40] org.assertj:assertj-core:3.26.3 -> org.assertj:assertj-core:3.27.4 : Failed to compare JAR files: JAPICMP comparison failed for org.assertj:assertj-core
+[2025-09-01 12:29:41] org.jsoup:jsoup:1.15.3 -> org.jsoup:jsoup:1.15.4 : Failed to compare JAR files: JAPICMP comparison failed for org.jsoup:jsoup
+[2025-09-01 12:29:41] org.jsoup:jsoup:1.15.3 -> org.jsoup:jsoup:1.16.1 : Failed to compare JAR files: JAPICMP comparison failed for org.jsoup:jsoup
+[2025-09-01 12:29:42] org.jsoup:jsoup:1.15.3 -> org.jsoup:jsoup:1.16.2 : Failed to compare JAR files: JAPICMP comparison failed for org.jsoup:jsoup
+
+=== Summary ===
+Total comparisons: 36
+Failures: 27
+Success rate: 25.00%

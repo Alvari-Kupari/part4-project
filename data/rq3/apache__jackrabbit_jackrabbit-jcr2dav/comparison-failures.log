@@ -1,0 +1,59 @@
+=== Comparison Failure Log ===
+[2025-09-08 14:36:38] ch.qos.logback:logback-classic:1.3.0 -> ch.qos.logback:logback-classic:1.3.1 : Failed to compare JAR files: JAPICMP comparison failed for ch.qos.logback:logback-classic
+[2025-09-08 14:36:39] ch.qos.logback:logback-classic:1.3.0 -> ch.qos.logback:logback-classic:1.3.2 : Failed to compare JAR files: JAPICMP comparison failed for ch.qos.logback:logback-classic
+[2025-09-08 14:36:39] ch.qos.logback:logback-classic:1.3.0 -> ch.qos.logback:logback-classic:1.3.3 : Failed to compare JAR files: JAPICMP comparison failed for ch.qos.logback:logback-classic
+[2025-09-08 14:36:39] ch.qos.logback:logback-classic:1.3.0 -> ch.qos.logback:logback-classic:1.3.4 : Failed to compare JAR files: JAPICMP comparison failed for ch.qos.logback:logback-classic
+[2025-09-08 14:36:39] ch.qos.logback:logback-classic:1.3.0 -> ch.qos.logback:logback-classic:1.3.5 : Failed to compare JAR files: JAPICMP comparison failed for ch.qos.logback:logback-classic
+[2025-09-08 14:36:39] ch.qos.logback:logback-classic:1.3.0 -> ch.qos.logback:logback-classic:1.3.6 : Failed to compare JAR files: JAPICMP comparison failed for ch.qos.logback:logback-classic
+[2025-09-08 14:36:39] ch.qos.logback:logback-classic:1.3.0 -> ch.qos.logback:logback-classic:1.3.7 : Failed to compare JAR files: JAPICMP comparison failed for ch.qos.logback:logback-classic
+[2025-09-08 14:36:39] ch.qos.logback:logback-classic:1.3.0 -> ch.qos.logback:logback-classic:1.3.8 : Failed to compare JAR files: JAPICMP comparison failed for ch.qos.logback:logback-classic
+[2025-09-08 14:36:40] ch.qos.logback:logback-classic:1.3.0 -> ch.qos.logback:logback-classic:1.3.9 : Failed to compare JAR files: JAPICMP comparison failed for ch.qos.logback:logback-classic
+[2025-09-08 14:36:40] ch.qos.logback:logback-classic:1.3.0 -> ch.qos.logback:logback-classic:1.3.10 : Failed to compare JAR files: JAPICMP comparison failed for ch.qos.logback:logback-classic
+[2025-09-08 14:36:40] ch.qos.logback:logback-classic:1.3.0 -> ch.qos.logback:logback-classic:1.3.11 : Failed to compare JAR files: JAPICMP comparison failed for ch.qos.logback:logback-classic
+[2025-09-08 14:36:40] ch.qos.logback:logback-classic:1.3.0 -> ch.qos.logback:logback-classic:1.3.12 : Failed to compare JAR files: JAPICMP comparison failed for ch.qos.logback:logback-classic
+[2025-09-08 14:36:40] ch.qos.logback:logback-classic:1.3.0 -> ch.qos.logback:logback-classic:1.3.13 : Failed to compare JAR files: JAPICMP comparison failed for ch.qos.logback:logback-classic
+[2025-09-08 14:36:40] ch.qos.logback:logback-classic:1.3.0 -> ch.qos.logback:logback-classic:1.3.14 : Failed to compare JAR files: JAPICMP comparison failed for ch.qos.logback:logback-classic
+[2025-09-08 14:36:40] ch.qos.logback:logback-classic:1.3.0 -> ch.qos.logback:logback-classic:1.3.15 : Failed to compare JAR files: JAPICMP comparison failed for ch.qos.logback:logback-classic
+[2025-09-08 14:36:41] ch.qos.logback:logback-classic:1.3.0 -> ch.qos.logback:logback-classic:1.4.0 : Failed to compare JAR files: JAPICMP comparison failed for ch.qos.logback:logback-classic
+[2025-09-08 14:36:41] ch.qos.logback:logback-classic:1.3.0 -> ch.qos.logback:logback-classic:1.4.1 : Failed to compare JAR files: JAPICMP comparison failed for ch.qos.logback:logback-classic
+[2025-09-08 14:36:41] ch.qos.logback:logback-classic:1.3.0 -> ch.qos.logback:logback-classic:1.4.2 : Failed to compare JAR files: JAPICMP comparison failed for ch.qos.logback:logback-classic
+[2025-09-08 14:36:41] ch.qos.logback:logback-classic:1.3.0 -> ch.qos.logback:logback-classic:1.4.3 : Failed to compare JAR files: JAPICMP comparison failed for ch.qos.logback:logback-classic
+[2025-09-08 14:36:41] ch.qos.logback:logback-classic:1.3.0 -> ch.qos.logback:logback-classic:1.4.4 : Failed to compare JAR files: JAPICMP comparison failed for ch.qos.logback:logback-classic
+[2025-09-08 14:36:41] ch.qos.logback:logback-classic:1.3.0 -> ch.qos.logback:logback-classic:1.4.5 : Failed to compare JAR files: JAPICMP comparison failed for ch.qos.logback:logback-classic
+[2025-09-08 14:36:41] ch.qos.logback:logback-classic:1.3.0 -> ch.qos.logback:logback-classic:1.4.6 : Failed to compare JAR files: JAPICMP comparison failed for ch.qos.logback:logback-classic
+[2025-09-08 14:36:41] ch.qos.logback:logback-classic:1.3.0 -> ch.qos.logback:logback-classic:1.4.7 : Failed to compare JAR files: JAPICMP comparison failed for ch.qos.logback:logback-classic
+[2025-09-08 14:36:42] ch.qos.logback:logback-classic:1.3.0 -> ch.qos.logback:logback-classic:1.4.8 : Failed to compare JAR files: JAPICMP comparison failed for ch.qos.logback:logback-classic
+[2025-09-08 14:36:42] ch.qos.logback:logback-classic:1.3.0 -> ch.qos.logback:logback-classic:1.4.9 : Failed to compare JAR files: JAPICMP comparison failed for ch.qos.logback:logback-classic
+[2025-09-08 14:36:42] ch.qos.logback:logback-classic:1.3.0 -> ch.qos.logback:logback-classic:1.4.10 : Failed to compare JAR files: JAPICMP comparison failed for ch.qos.logback:logback-classic
+[2025-09-08 14:36:42] ch.qos.logback:logback-classic:1.3.0 -> ch.qos.logback:logback-classic:1.4.11 : Failed to compare JAR files: JAPICMP comparison failed for ch.qos.logback:logback-classic
+[2025-09-08 14:36:42] ch.qos.logback:logback-classic:1.3.0 -> ch.qos.logback:logback-classic:1.4.12 : Failed to compare JAR files: JAPICMP comparison failed for ch.qos.logback:logback-classic
+[2025-09-08 14:36:42] ch.qos.logback:logback-classic:1.3.0 -> ch.qos.logback:logback-classic:1.4.13 : Failed to compare JAR files: JAPICMP comparison failed for ch.qos.logback:logback-classic
+[2025-09-08 14:36:42] ch.qos.logback:logback-classic:1.3.0 -> ch.qos.logback:logback-classic:1.4.14 : Failed to compare JAR files: JAPICMP comparison failed for ch.qos.logback:logback-classic
+[2025-09-08 14:36:43] ch.qos.logback:logback-classic:1.3.0 -> ch.qos.logback:logback-classic:1.5.0 : Failed to compare JAR files: JAPICMP comparison failed for ch.qos.logback:logback-classic
+[2025-09-08 14:36:43] ch.qos.logback:logback-classic:1.3.0 -> ch.qos.logback:logback-classic:1.5.1 : Failed to compare JAR files: JAPICMP comparison failed for ch.qos.logback:logback-classic
+[2025-09-08 14:36:43] ch.qos.logback:logback-classic:1.3.0 -> ch.qos.logback:logback-classic:1.5.2 : Failed to compare JAR files: JAPICMP comparison failed for ch.qos.logback:logback-classic
+[2025-09-08 14:36:43] ch.qos.logback:logback-classic:1.3.0 -> ch.qos.logback:logback-classic:1.5.3 : Failed to compare JAR files: JAPICMP comparison failed for ch.qos.logback:logback-classic
+[2025-09-08 14:36:43] ch.qos.logback:logback-classic:1.3.0 -> ch.qos.logback:logback-classic:1.5.4 : Failed to compare JAR files: JAPICMP comparison failed for ch.qos.logback:logback-classic
+[2025-09-08 14:36:43] ch.qos.logback:logback-classic:1.3.0 -> ch.qos.logback:logback-classic:1.5.5 : Failed to compare JAR files: JAPICMP comparison failed for ch.qos.logback:logback-classic
+[2025-09-08 14:36:43] ch.qos.logback:logback-classic:1.3.0 -> ch.qos.logback:logback-classic:1.5.6 : Failed to compare JAR files: JAPICMP comparison failed for ch.qos.logback:logback-classic
+[2025-09-08 14:36:43] ch.qos.logback:logback-classic:1.3.0 -> ch.qos.logback:logback-classic:1.5.7 : Failed to compare JAR files: JAPICMP comparison failed for ch.qos.logback:logback-classic
+[2025-09-08 14:36:44] ch.qos.logback:logback-classic:1.3.0 -> ch.qos.logback:logback-classic:1.5.8 : Failed to compare JAR files: JAPICMP comparison failed for ch.qos.logback:logback-classic
+[2025-09-08 14:36:44] ch.qos.logback:logback-classic:1.3.0 -> ch.qos.logback:logback-classic:1.5.9 : Failed to compare JAR files: JAPICMP comparison failed for ch.qos.logback:logback-classic
+[2025-09-08 14:36:44] ch.qos.logback:logback-classic:1.3.0 -> ch.qos.logback:logback-classic:1.5.10 : Failed to compare JAR files: JAPICMP comparison failed for ch.qos.logback:logback-classic
+[2025-09-08 14:36:44] ch.qos.logback:logback-classic:1.3.0 -> ch.qos.logback:logback-classic:1.5.11 : Failed to compare JAR files: JAPICMP comparison failed for ch.qos.logback:logback-classic
+[2025-09-08 14:36:44] ch.qos.logback:logback-classic:1.3.0 -> ch.qos.logback:logback-classic:1.5.12 : Failed to compare JAR files: JAPICMP comparison failed for ch.qos.logback:logback-classic
+[2025-09-08 14:36:44] ch.qos.logback:logback-classic:1.3.0 -> ch.qos.logback:logback-classic:1.5.13 : Failed to compare JAR files: JAPICMP comparison failed for ch.qos.logback:logback-classic
+[2025-09-08 14:36:44] ch.qos.logback:logback-classic:1.3.0 -> ch.qos.logback:logback-classic:1.5.14 : Failed to compare JAR files: JAPICMP comparison failed for ch.qos.logback:logback-classic
+[2025-09-08 14:36:44] ch.qos.logback:logback-classic:1.3.0 -> ch.qos.logback:logback-classic:1.5.15 : Failed to compare JAR files: JAPICMP comparison failed for ch.qos.logback:logback-classic
+[2025-09-08 14:36:45] ch.qos.logback:logback-classic:1.3.0 -> ch.qos.logback:logback-classic:1.5.16 : Failed to compare JAR files: JAPICMP comparison failed for ch.qos.logback:logback-classic
+[2025-09-08 14:36:45] ch.qos.logback:logback-classic:1.3.0 -> ch.qos.logback:logback-classic:1.5.17 : Failed to compare JAR files: JAPICMP comparison failed for ch.qos.logback:logback-classic
+[2025-09-08 14:36:45] ch.qos.logback:logback-classic:1.3.0 -> ch.qos.logback:logback-classic:1.5.18 : Failed to compare JAR files: JAPICMP comparison failed for ch.qos.logback:logback-classic
+[2025-09-08 14:36:45] org.apache.derby:derby:10.15.2.0 -> org.apache.derby:derby:10.16.1.1 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.derby:derby
+[2025-09-08 14:36:46] org.apache.derby:derby:10.15.2.0 -> org.apache.derby:derby:10.17.1.0 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.derby:derby
+[2025-09-08 14:36:46] org.apache.derby:derbytools:10.15.2.0 -> org.apache.derby:derbytools:10.16.1.1 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.derby:derbytools
+[2025-09-08 14:36:46] org.apache.derby:derbytools:10.15.2.0 -> org.apache.derby:derbytools:10.17.1.0 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.derby:derbytools
+
+=== Summary ===
+Total comparisons: 84
+Failures: 53
+Success rate: 36.90%

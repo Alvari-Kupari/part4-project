@@ -6,7 +6,12 @@ import java.nio.file.Path;
 import java.util.Comparator;
 import java.util.Optional;
 
+import com.example.pom.PomFile;
+
 public class SubModule {
+  private static final int MAX_DEPENDENCIES = 20; // TO CHECK VALUE
+  private static final int MAX_LOC = 10000; // TO CHECK VALUE
+
   private final Path dir;
   private final String name;
   private final Repo repo;
@@ -68,6 +73,41 @@ public class SubModule {
       return relative.toString().replace("/", ".").replace("\\", ".");
     } catch (IOException e) {
       return null;
+    }
+  }
+
+  public boolean hasTooManyDeps() {
+    PomFile pom = new PomFile(dir);
+    try {
+      return pom.getDependencies().size() > MAX_DEPENDENCIES;
+    } catch (IOException | PomException e) {
+      return true;
+    }
+  }
+
+  public boolean hasTooManyLOC() {
+    Path javaSrc = dir.resolve("src/main/java");
+    if (!Files.exists(javaSrc)) {
+      return true;
+    }
+
+    try {
+      long totalLines =
+          Files.walk(javaSrc)
+              .filter(p -> p.toString().endsWith(".java"))
+              .mapToLong(
+                  p -> {
+                    try {
+                      return Files.lines(p).count();
+                    } catch (IOException e) {
+                      return 0L;
+                    }
+                  })
+              .sum();
+
+      return totalLines > MAX_LOC;
+    } catch (IOException e) {
+      return true;
     }
   }
 }

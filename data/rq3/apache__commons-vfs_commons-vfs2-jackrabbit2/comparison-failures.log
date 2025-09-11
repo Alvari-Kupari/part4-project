@@ -1,0 +1,35 @@
+=== Comparison Failure Log ===
+[2025-09-01 12:07:46] org.apache.jackrabbit:jackrabbit-webdav:2.20.17 -> org.apache.jackrabbit:jackrabbit-webdav:2.21.0 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.jackrabbit:jackrabbit-webdav
+[2025-09-01 12:07:48] org.apache.jackrabbit:jackrabbit-webdav:2.20.17 -> org.apache.jackrabbit:jackrabbit-webdav:2.21.1 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.jackrabbit:jackrabbit-webdav
+[2025-09-01 12:07:50] org.apache.jackrabbit:jackrabbit-webdav:2.20.17 -> org.apache.jackrabbit:jackrabbit-webdav:2.21.2 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.jackrabbit:jackrabbit-webdav
+[2025-09-01 12:07:51] org.apache.jackrabbit:jackrabbit-webdav:2.20.17 -> org.apache.jackrabbit:jackrabbit-webdav:2.21.3 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.jackrabbit:jackrabbit-webdav
+[2025-09-01 12:07:52] org.apache.jackrabbit:jackrabbit-webdav:2.20.17 -> org.apache.jackrabbit:jackrabbit-webdav:2.21.4 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.jackrabbit:jackrabbit-webdav
+[2025-09-01 12:07:54] org.apache.jackrabbit:jackrabbit-webdav:2.20.17 -> org.apache.jackrabbit:jackrabbit-webdav:2.21.5 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.jackrabbit:jackrabbit-webdav
+[2025-09-01 12:07:56] org.apache.jackrabbit:jackrabbit-webdav:2.20.17 -> org.apache.jackrabbit:jackrabbit-webdav:2.21.6 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.jackrabbit:jackrabbit-webdav
+[2025-09-01 12:07:57] org.apache.jackrabbit:jackrabbit-webdav:2.20.17 -> org.apache.jackrabbit:jackrabbit-webdav:2.21.7 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.jackrabbit:jackrabbit-webdav
+[2025-09-01 12:07:58] org.apache.jackrabbit:jackrabbit-webdav:2.20.17 -> org.apache.jackrabbit:jackrabbit-webdav:2.21.8 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.jackrabbit:jackrabbit-webdav
+[2025-09-01 12:08:00] org.apache.jackrabbit:jackrabbit-webdav:2.20.17 -> org.apache.jackrabbit:jackrabbit-webdav:2.21.9 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.jackrabbit:jackrabbit-webdav
+[2025-09-01 12:08:02] org.apache.jackrabbit:jackrabbit-webdav:2.20.17 -> org.apache.jackrabbit:jackrabbit-webdav:2.21.10 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.jackrabbit:jackrabbit-webdav
+[2025-09-01 12:08:03] org.apache.jackrabbit:jackrabbit-webdav:2.20.17 -> org.apache.jackrabbit:jackrabbit-webdav:2.21.11 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.jackrabbit:jackrabbit-webdav
+[2025-09-01 12:08:04] org.apache.jackrabbit:jackrabbit-webdav:2.20.17 -> org.apache.jackrabbit:jackrabbit-webdav:2.21.12 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.jackrabbit:jackrabbit-webdav
+[2025-09-01 12:08:05] org.apache.jackrabbit:jackrabbit-webdav:2.20.17 -> org.apache.jackrabbit:jackrabbit-webdav:2.21.13 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.jackrabbit:jackrabbit-webdav
+[2025-09-01 12:08:07] org.apache.jackrabbit:jackrabbit-webdav:2.20.17 -> org.apache.jackrabbit:jackrabbit-webdav:2.21.14 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.jackrabbit:jackrabbit-webdav
+[2025-09-01 12:08:08] org.apache.jackrabbit:jackrabbit-webdav:2.20.17 -> org.apache.jackrabbit:jackrabbit-webdav:2.21.15 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.jackrabbit:jackrabbit-webdav
+[2025-09-01 12:08:09] org.apache.jackrabbit:jackrabbit-webdav:2.20.17 -> org.apache.jackrabbit:jackrabbit-webdav:2.21.16 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.jackrabbit:jackrabbit-webdav
+[2025-09-01 12:08:10] org.apache.jackrabbit:jackrabbit-webdav:2.20.17 -> org.apache.jackrabbit:jackrabbit-webdav:2.21.17 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.jackrabbit:jackrabbit-webdav
+[2025-09-01 12:08:11] org.apache.jackrabbit:jackrabbit-webdav:2.20.17 -> org.apache.jackrabbit:jackrabbit-webdav:2.21.18 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.jackrabbit:jackrabbit-webdav
+[2025-09-01 12:08:13] org.apache.jackrabbit:jackrabbit-webdav:2.20.17 -> org.apache.jackrabbit:jackrabbit-webdav:2.21.19 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.jackrabbit:jackrabbit-webdav
+[2025-09-01 12:08:14] org.apache.jackrabbit:jackrabbit-webdav:2.20.17 -> org.apache.jackrabbit:jackrabbit-webdav:2.21.20 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.jackrabbit:jackrabbit-webdav
+[2025-09-01 12:08:15] org.apache.jackrabbit:jackrabbit-webdav:2.20.17 -> org.apache.jackrabbit:jackrabbit-webdav:2.21.21 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.jackrabbit:jackrabbit-webdav
+[2025-09-01 12:08:16] org.apache.jackrabbit:jackrabbit-webdav:2.20.17 -> org.apache.jackrabbit:jackrabbit-webdav:2.21.22 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.jackrabbit:jackrabbit-webdav
+[2025-09-01 12:08:17] org.apache.jackrabbit:jackrabbit-webdav:2.20.17 -> org.apache.jackrabbit:jackrabbit-webdav:2.21.23 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.jackrabbit:jackrabbit-webdav
+[2025-09-01 12:08:19] org.apache.jackrabbit:jackrabbit-webdav:2.20.17 -> org.apache.jackrabbit:jackrabbit-webdav:2.21.24 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.jackrabbit:jackrabbit-webdav
+[2025-09-01 12:08:20] org.apache.jackrabbit:jackrabbit-webdav:2.20.17 -> org.apache.jackrabbit:jackrabbit-webdav:2.21.25 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.jackrabbit:jackrabbit-webdav
+[2025-09-01 12:08:21] org.apache.jackrabbit:jackrabbit-webdav:2.20.17 -> org.apache.jackrabbit:jackrabbit-webdav:2.22.0 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.jackrabbit:jackrabbit-webdav
+[2025-09-01 12:08:22] org.apache.jackrabbit:jackrabbit-webdav:2.20.17 -> org.apache.jackrabbit:jackrabbit-webdav:2.22.1 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.jackrabbit:jackrabbit-webdav
+[2025-09-01 12:08:23] org.apache.jackrabbit:jackrabbit-webdav:2.20.17 -> org.apache.jackrabbit:jackrabbit-webdav:2.22.2 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.jackrabbit:jackrabbit-webdav
+
+=== Summary ===
+Total comparisons: 865
+Failures: 29
+Success rate: 96.65%

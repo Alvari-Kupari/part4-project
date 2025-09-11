@@ -1,0 +1,200 @@
+=== Comparison Failure Log ===
+[2025-09-06 16:07:16] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.20.2 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-06 16:07:31] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.20.2.1 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-06 16:07:46] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.20.2.2 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-06 16:08:11] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.21.0.CR1 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-06 16:08:22] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.21.0 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-06 16:08:38] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.21.1 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-06 16:08:51] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.21.2 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-06 16:09:06] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.21.3 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-06 16:09:21] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.21.4 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-06 16:09:37] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.22.0.CR1 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-06 16:09:51] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.22.0 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-06 16:10:08] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.22.1 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-06 16:10:21] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.22.2 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-06 16:10:37] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.22.3 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-06 16:10:52] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.23.0.CR1 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-06 16:11:07] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.23.0 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-06 16:11:23] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.23.1 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-06 16:11:38] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.23.2 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-06 16:11:54] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.23.3 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-06 16:12:10] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.23.4 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-06 16:12:26] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.24.0.CR1 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-06 16:12:42] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.24.0 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-06 16:12:57] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.24.1 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-06 16:13:13] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.24.2 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-06 16:13:24] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.24.3 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-06 16:13:39] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.24.4 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-06 16:14:02] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.24.5 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-06 16:14:25] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.25.0.CR1 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-06 16:14:36] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.25.0 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-06 16:14:56] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.25.1 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-06 16:15:09] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.25.2 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-06 16:15:18] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.25.3 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-06 16:15:30] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.25.4 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-06 16:15:46] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.26.0.CR1 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-06 16:15:58] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.26.0 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-06 16:16:07] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.26.1 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-06 16:16:15] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.26.2 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-06 16:46:55] org.assertj:assertj-core:3.24.2 -> org.assertj:assertj-core:3.25.0 : Failed to compare JAR files: JAPICMP comparison failed for org.assertj:assertj-core
+[2025-09-06 16:46:55] org.assertj:assertj-core:3.24.2 -> org.assertj:assertj-core:3.25.1 : Failed to compare JAR files: JAPICMP comparison failed for org.assertj:assertj-core
+[2025-09-06 16:46:55] org.assertj:assertj-core:3.24.2 -> org.assertj:assertj-core:3.25.2 : Failed to compare JAR files: JAPICMP comparison failed for org.assertj:assertj-core
+[2025-09-06 16:46:55] org.assertj:assertj-core:3.24.2 -> org.assertj:assertj-core:3.25.3 : Failed to compare JAR files: JAPICMP comparison failed for org.assertj:assertj-core
+[2025-09-06 16:46:55] org.assertj:assertj-core:3.24.2 -> org.assertj:assertj-core:3.26.0 : Failed to compare JAR files: JAPICMP comparison failed for org.assertj:assertj-core
+[2025-09-06 16:46:56] org.assertj:assertj-core:3.24.2 -> org.assertj:assertj-core:3.26.3 : Failed to compare JAR files: JAPICMP comparison failed for org.assertj:assertj-core
+[2025-09-06 16:46:56] org.assertj:assertj-core:3.24.2 -> org.assertj:assertj-core:3.27.0 : Failed to compare JAR files: JAPICMP comparison failed for org.assertj:assertj-core
+[2025-09-06 16:46:56] org.assertj:assertj-core:3.24.2 -> org.assertj:assertj-core:3.27.1 : Failed to compare JAR files: JAPICMP comparison failed for org.assertj:assertj-core
+[2025-09-06 16:46:56] org.assertj:assertj-core:3.24.2 -> org.assertj:assertj-core:3.27.2 : Failed to compare JAR files: JAPICMP comparison failed for org.assertj:assertj-core
+[2025-09-06 16:46:56] org.assertj:assertj-core:3.24.2 -> org.assertj:assertj-core:3.27.3 : Failed to compare JAR files: JAPICMP comparison failed for org.assertj:assertj-core
+[2025-09-06 16:46:57] org.assertj:assertj-core:3.24.2 -> org.assertj:assertj-core:3.27.4 : Failed to compare JAR files: JAPICMP comparison failed for org.assertj:assertj-core
+[2025-09-06 18:27:03] org.mockito:mockito-core:5.16.1 -> org.mockito:mockito-core:5.17.0 : Failed to compare JAR files: JAPICMP comparison failed for org.mockito:mockito-core
+[2025-09-06 18:27:03] org.mockito:mockito-core:5.16.1 -> org.mockito:mockito-core:5.18.0 : Failed to compare JAR files: JAPICMP comparison failed for org.mockito:mockito-core
+[2025-09-06 18:27:03] org.mockito:mockito-core:5.16.1 -> org.mockito:mockito-core:5.19.0 : Failed to compare JAR files: JAPICMP comparison failed for org.mockito:mockito-core
+
+=== Summary ===
+Total comparisons: 4422
+Failures: 51
+Success rate: 98.85%
+=== Comparison Failure Log ===
+[2025-09-06 21:38:52] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.20.2 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-06 21:38:54] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.20.2.1 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-06 21:38:56] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.20.2.2 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-06 21:38:59] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.21.0.CR1 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-06 21:39:01] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.21.0 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-06 21:39:03] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.21.1 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-06 21:39:05] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.21.2 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-06 21:39:08] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.21.3 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-06 21:39:10] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.21.4 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-06 21:39:12] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.22.0.CR1 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-06 21:39:14] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.22.0 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-06 21:39:16] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.22.1 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-06 21:39:19] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.22.2 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-06 21:39:21] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.22.3 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-06 21:39:23] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.23.0.CR1 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-06 21:39:25] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.23.0 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-06 21:39:27] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.23.1 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-06 21:39:29] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.23.2 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-06 21:39:31] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.23.3 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-06 21:39:33] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.23.4 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-06 21:39:36] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.24.0.CR1 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-06 21:39:38] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.24.0 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-06 21:39:40] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.24.1 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-06 21:39:42] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.24.2 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-06 21:39:44] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.24.3 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-06 21:39:46] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.24.4 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-06 21:39:48] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.24.5 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-06 21:39:51] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.25.0.CR1 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-06 21:39:53] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.25.0 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-06 21:39:55] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.25.1 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-06 21:39:57] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.25.2 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-06 21:39:59] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.25.3 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-06 21:40:01] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.25.4 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-06 21:40:03] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.26.0.CR1 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-06 21:40:05] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.26.0 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-06 21:40:06] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.26.1 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-06 21:40:08] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.26.2 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-06 22:16:45] org.assertj:assertj-core:3.24.2 -> org.assertj:assertj-core:3.25.0 : Failed to compare JAR files: JAPICMP comparison failed for org.assertj:assertj-core
+[2025-09-06 22:16:46] org.assertj:assertj-core:3.24.2 -> org.assertj:assertj-core:3.25.1 : Failed to compare JAR files: JAPICMP comparison failed for org.assertj:assertj-core
+[2025-09-06 22:16:46] org.assertj:assertj-core:3.24.2 -> org.assertj:assertj-core:3.25.2 : Failed to compare JAR files: JAPICMP comparison failed for org.assertj:assertj-core
+[2025-09-06 22:16:46] org.assertj:assertj-core:3.24.2 -> org.assertj:assertj-core:3.25.3 : Failed to compare JAR files: JAPICMP comparison failed for org.assertj:assertj-core
+[2025-09-06 22:16:46] org.assertj:assertj-core:3.24.2 -> org.assertj:assertj-core:3.26.0 : Failed to compare JAR files: JAPICMP comparison failed for org.assertj:assertj-core
+[2025-09-06 22:16:46] org.assertj:assertj-core:3.24.2 -> org.assertj:assertj-core:3.26.3 : Failed to compare JAR files: JAPICMP comparison failed for org.assertj:assertj-core
+[2025-09-06 22:16:47] org.assertj:assertj-core:3.24.2 -> org.assertj:assertj-core:3.27.0 : Failed to compare JAR files: JAPICMP comparison failed for org.assertj:assertj-core
+[2025-09-06 22:16:47] org.assertj:assertj-core:3.24.2 -> org.assertj:assertj-core:3.27.1 : Failed to compare JAR files: JAPICMP comparison failed for org.assertj:assertj-core
+[2025-09-06 22:16:47] org.assertj:assertj-core:3.24.2 -> org.assertj:assertj-core:3.27.2 : Failed to compare JAR files: JAPICMP comparison failed for org.assertj:assertj-core
+[2025-09-06 22:16:47] org.assertj:assertj-core:3.24.2 -> org.assertj:assertj-core:3.27.3 : Failed to compare JAR files: JAPICMP comparison failed for org.assertj:assertj-core
+[2025-09-06 22:16:47] org.assertj:assertj-core:3.24.2 -> org.assertj:assertj-core:3.27.4 : Failed to compare JAR files: JAPICMP comparison failed for org.assertj:assertj-core
+[2025-09-06 23:33:57] org.mockito:mockito-core:5.16.1 -> org.mockito:mockito-core:5.17.0 : Failed to compare JAR files: JAPICMP comparison failed for org.mockito:mockito-core
+[2025-09-06 23:33:57] org.mockito:mockito-core:5.16.1 -> org.mockito:mockito-core:5.18.0 : Failed to compare JAR files: JAPICMP comparison failed for org.mockito:mockito-core
+[2025-09-06 23:33:57] org.mockito:mockito-core:5.16.1 -> org.mockito:mockito-core:5.19.0 : Failed to compare JAR files: JAPICMP comparison failed for org.mockito:mockito-core
+
+=== Summary ===
+Total comparisons: 5341
+Failures: 51
+Success rate: 99.05%
+=== Comparison Failure Log ===
+[2025-09-07 00:19:11] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.20.2 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-07 00:19:13] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.20.2.1 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-07 00:19:15] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.20.2.2 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-07 00:19:18] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.21.0.CR1 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-07 00:19:20] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.21.0 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-07 00:19:23] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.21.1 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-07 00:19:25] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.21.2 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-07 00:19:27] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.21.3 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-07 00:19:29] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.21.4 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-07 00:19:32] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.22.0.CR1 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-07 00:19:34] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.22.0 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-07 00:19:36] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.22.1 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-07 00:19:38] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.22.2 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-07 00:19:41] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.22.3 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-07 00:19:42] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.23.0.CR1 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-07 00:19:45] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.23.0 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-07 00:19:47] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.23.1 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-07 00:19:49] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.23.2 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-07 00:19:51] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.23.3 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-07 00:19:54] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.23.4 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-07 00:19:56] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.24.0.CR1 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-07 00:19:59] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.24.0 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-07 00:20:01] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.24.1 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-07 00:20:03] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.24.2 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-07 00:20:06] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.24.3 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-07 00:20:08] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.24.4 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-07 00:20:10] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.24.5 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-07 00:20:12] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.25.0.CR1 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-07 00:20:14] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.25.0 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-07 00:20:17] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.25.1 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-07 00:20:19] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.25.2 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-07 00:20:21] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.25.3 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-07 00:20:23] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.25.4 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-07 00:20:25] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.26.0.CR1 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-07 00:20:28] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.26.0 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-07 00:20:30] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.26.1 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-07 00:20:32] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.26.2 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+
+=== Summary ===
+Total comparisons: 1952
+Failures: 37
+Success rate: 98.10%
+=== Comparison Failure Log ===
+[2025-09-07 02:00:47] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.20.2 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-07 02:00:49] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.20.2.1 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-07 02:00:51] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.20.2.2 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-07 02:00:54] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.21.0.CR1 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-07 02:00:56] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.21.0 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-07 02:00:59] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.21.1 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-07 02:01:01] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.21.2 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-07 02:01:03] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.21.3 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-07 02:01:05] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.21.4 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-07 02:01:07] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.22.0.CR1 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-07 02:01:10] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.22.0 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-07 02:01:12] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.22.1 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-07 02:01:14] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.22.2 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-07 02:01:16] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.22.3 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-07 02:01:18] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.23.0.CR1 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-07 02:01:19] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.23.0 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-07 02:01:21] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.23.1 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-07 02:01:23] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.23.2 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-07 02:01:25] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.23.3 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-07 02:01:27] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.23.4 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-07 02:01:29] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.24.0.CR1 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-07 02:01:31] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.24.0 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-07 02:01:32] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.24.1 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-07 02:01:34] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.24.2 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-07 02:01:36] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.24.3 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-07 02:01:38] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.24.4 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-07 02:01:39] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.24.5 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-07 02:01:41] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.25.0.CR1 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-07 02:01:44] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.25.0 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-07 02:01:45] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.25.1 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-07 02:01:47] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.25.2 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-07 02:01:49] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.25.3 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-07 02:01:51] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.25.4 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-07 02:01:52] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.26.0.CR1 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-07 02:01:54] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.26.0 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-07 02:01:56] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.26.1 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+[2025-09-07 02:01:58] io.quarkus:quarkus-core-deployment:3.20.1 -> io.quarkus:quarkus-core-deployment:3.26.2 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core-deployment
+
+=== Summary ===
+Total comparisons: 1990
+Failures: 37
+Success rate: 98.14%

@@ -1,0 +1,49 @@
+=== Comparison Failure Log ===
+[2025-09-10 11:50:10] org.springframework:spring-context:5.2.22.RELEASE -> org.springframework:spring-context:5.2.23.RELEASE : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-context
+[2025-09-10 11:50:14] org.springframework:spring-context:5.2.22.RELEASE -> org.springframework:spring-context:5.2.24.RELEASE : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-context
+[2025-09-10 11:50:17] org.springframework:spring-context:5.2.22.RELEASE -> org.springframework:spring-context:5.2.25.RELEASE : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-context
+[2025-09-10 11:50:21] org.springframework:spring-context:5.2.22.RELEASE -> org.springframework:spring-context:5.3.0 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-context
+[2025-09-10 11:50:25] org.springframework:spring-context:5.2.22.RELEASE -> org.springframework:spring-context:5.3.1 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-context
+[2025-09-10 11:50:29] org.springframework:spring-context:5.2.22.RELEASE -> org.springframework:spring-context:5.3.2 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-context
+[2025-09-10 11:50:31] org.springframework:spring-context:5.2.22.RELEASE -> org.springframework:spring-context:5.3.3 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-context
+[2025-09-10 11:50:33] org.springframework:spring-context:5.2.22.RELEASE -> org.springframework:spring-context:5.3.4 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-context
+[2025-09-10 11:50:36] org.springframework:spring-context:5.2.22.RELEASE -> org.springframework:spring-context:5.3.5 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-context
+[2025-09-10 11:50:39] org.springframework:spring-context:5.2.22.RELEASE -> org.springframework:spring-context:5.3.6 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-context
+[2025-09-10 11:50:42] org.springframework:spring-context:5.2.22.RELEASE -> org.springframework:spring-context:5.3.7 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-context
+[2025-09-10 11:50:46] org.springframework:spring-context:5.2.22.RELEASE -> org.springframework:spring-context:5.3.8 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-context
+[2025-09-10 11:50:49] org.springframework:spring-context:5.2.22.RELEASE -> org.springframework:spring-context:5.3.9 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-context
+[2025-09-10 11:50:52] org.springframework:spring-context:5.2.22.RELEASE -> org.springframework:spring-context:5.3.10 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-context
+[2025-09-10 11:50:56] org.springframework:spring-context:5.2.22.RELEASE -> org.springframework:spring-context:5.3.11 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-context
+[2025-09-10 11:51:00] org.springframework:spring-context:5.2.22.RELEASE -> org.springframework:spring-context:5.3.12 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-context
+[2025-09-10 11:51:04] org.springframework:spring-context:5.2.22.RELEASE -> org.springframework:spring-context:5.3.13 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-context
+[2025-09-10 11:51:06] org.springframework:spring-context:5.2.22.RELEASE -> org.springframework:spring-context:5.3.14 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-context
+[2025-09-10 11:51:07] org.springframework:spring-context:5.2.22.RELEASE -> org.springframework:spring-context:5.3.15 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-context
+[2025-09-10 11:51:09] org.springframework:spring-context:5.2.22.RELEASE -> org.springframework:spring-context:5.3.16 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-context
+[2025-09-10 11:51:12] org.springframework:spring-context:5.2.22.RELEASE -> org.springframework:spring-context:5.3.17 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-context
+[2025-09-10 11:51:14] org.springframework:spring-context:5.2.22.RELEASE -> org.springframework:spring-context:5.3.18 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-context
+[2025-09-10 11:51:16] org.springframework:spring-context:5.2.22.RELEASE -> org.springframework:spring-context:5.3.19 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-context
+[2025-09-10 11:51:17] org.springframework:spring-context:5.2.22.RELEASE -> org.springframework:spring-context:5.3.20 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-context
+[2025-09-10 11:51:19] org.springframework:spring-context:5.2.22.RELEASE -> org.springframework:spring-context:5.3.21 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-context
+[2025-09-10 11:51:20] org.springframework:spring-context:5.2.22.RELEASE -> org.springframework:spring-context:5.3.22 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-context
+[2025-09-10 11:51:21] org.springframework:spring-context:5.2.22.RELEASE -> org.springframework:spring-context:5.3.23 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-context
+[2025-09-10 11:51:22] org.springframework:spring-context:5.2.22.RELEASE -> org.springframework:spring-context:5.3.24 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-context
+[2025-09-10 11:51:26] org.springframework:spring-context:5.2.22.RELEASE -> org.springframework:spring-context:5.3.25 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-context
+[2025-09-10 11:51:27] org.springframework:spring-context:5.2.22.RELEASE -> org.springframework:spring-context:5.3.26 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-context
+[2025-09-10 11:51:29] org.springframework:spring-context:5.2.22.RELEASE -> org.springframework:spring-context:5.3.27 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-context
+[2025-09-10 11:51:32] org.springframework:spring-context:5.2.22.RELEASE -> org.springframework:spring-context:5.3.28 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-context
+[2025-09-10 11:51:35] org.springframework:spring-context:5.2.22.RELEASE -> org.springframework:spring-context:5.3.29 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-context
+[2025-09-10 11:51:36] org.springframework:spring-context:5.2.22.RELEASE -> org.springframework:spring-context:5.3.30 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-context
+[2025-09-10 11:51:38] org.springframework:spring-context:5.2.22.RELEASE -> org.springframework:spring-context:5.3.31 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-context
+[2025-09-10 11:51:40] org.springframework:spring-context:5.2.22.RELEASE -> org.springframework:spring-context:5.3.32 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-context
+[2025-09-10 11:51:43] org.springframework:spring-context:5.2.22.RELEASE -> org.springframework:spring-context:5.3.33 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-context
+[2025-09-10 11:51:45] org.springframework:spring-context:5.2.22.RELEASE -> org.springframework:spring-context:5.3.34 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-context
+[2025-09-10 11:51:49] org.springframework:spring-context:5.2.22.RELEASE -> org.springframework:spring-context:5.3.35 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-context
+[2025-09-10 11:51:53] org.springframework:spring-context:5.2.22.RELEASE -> org.springframework:spring-context:5.3.36 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-context
+[2025-09-10 11:51:56] org.springframework:spring-context:5.2.22.RELEASE -> org.springframework:spring-context:5.3.37 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-context
+[2025-09-10 11:52:00] org.springframework:spring-context:5.2.22.RELEASE -> org.springframework:spring-context:5.3.38 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-context
+[2025-09-10 11:52:02] org.springframework:spring-context:5.2.22.RELEASE -> org.springframework:spring-context:5.3.39 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-context
+
+=== Summary ===
+Total comparisons: 43
+Failures: 43
+Success rate: 0.00%

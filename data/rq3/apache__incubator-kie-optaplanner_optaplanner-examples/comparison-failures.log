@@ -1,0 +1,41 @@
+=== Comparison Failure Log ===
+[2025-09-06 16:03:22] org.jfree:jfreechart:1.5.4 -> org.jfree:jfreechart:1.5.5 : Failed to compare JAR files: JAPICMP comparison failed for org.jfree:jfreechart
+[2025-09-06 16:03:22] org.jfree:jfreechart:1.5.4 -> org.jfree:jfreechart:1.5.6 : Failed to compare JAR files: JAPICMP comparison failed for org.jfree:jfreechart
+[2025-09-06 16:03:26] ch.qos.logback:logback-classic:1.5.16 -> ch.qos.logback:logback-classic:1.5.17 : Failed to compare JAR files: JAPICMP comparison failed for ch.qos.logback:logback-classic
+[2025-09-06 16:03:26] ch.qos.logback:logback-classic:1.5.16 -> ch.qos.logback:logback-classic:1.5.18 : Failed to compare JAR files: JAPICMP comparison failed for ch.qos.logback:logback-classic
+[2025-09-06 16:03:30] org.apache.logging.log4j:log4j-to-slf4j:2.22.1 -> org.apache.logging.log4j:log4j-to-slf4j:2.23.0 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.logging.log4j:log4j-to-slf4j
+[2025-09-06 16:03:31] org.apache.logging.log4j:log4j-to-slf4j:2.22.1 -> org.apache.logging.log4j:log4j-to-slf4j:2.23.1 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.logging.log4j:log4j-to-slf4j
+[2025-09-06 16:03:33] org.apache.logging.log4j:log4j-to-slf4j:2.22.1 -> org.apache.logging.log4j:log4j-to-slf4j:2.24.0 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.logging.log4j:log4j-to-slf4j
+[2025-09-06 16:03:34] org.apache.logging.log4j:log4j-to-slf4j:2.22.1 -> org.apache.logging.log4j:log4j-to-slf4j:2.24.1 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.logging.log4j:log4j-to-slf4j
+[2025-09-06 16:03:36] org.apache.logging.log4j:log4j-to-slf4j:2.22.1 -> org.apache.logging.log4j:log4j-to-slf4j:2.24.2 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.logging.log4j:log4j-to-slf4j
+[2025-09-06 16:03:37] org.apache.logging.log4j:log4j-to-slf4j:2.22.1 -> org.apache.logging.log4j:log4j-to-slf4j:2.24.3 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.logging.log4j:log4j-to-slf4j
+[2025-09-06 16:03:38] org.apache.logging.log4j:log4j-to-slf4j:2.22.1 -> org.apache.logging.log4j:log4j-to-slf4j:2.25.0 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.logging.log4j:log4j-to-slf4j
+[2025-09-06 16:03:39] org.apache.logging.log4j:log4j-to-slf4j:2.22.1 -> org.apache.logging.log4j:log4j-to-slf4j:2.25.1 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.logging.log4j:log4j-to-slf4j
+[2025-09-06 16:04:59] org.junit.jupiter:junit-jupiter-api:5.12.1 -> org.junit.jupiter:junit-jupiter-api:5.12.2 : Failed to compare JAR files: JAPICMP comparison failed for org.junit.jupiter:junit-jupiter-api
+[2025-09-06 16:04:59] org.junit.jupiter:junit-jupiter-api:5.12.1 -> org.junit.jupiter:junit-jupiter-api:5.13.0 : Failed to compare JAR files: JAPICMP comparison failed for org.junit.jupiter:junit-jupiter-api
+[2025-09-06 16:04:59] org.junit.jupiter:junit-jupiter-api:5.12.1 -> org.junit.jupiter:junit-jupiter-api:5.13.1 : Failed to compare JAR files: JAPICMP comparison failed for org.junit.jupiter:junit-jupiter-api
+[2025-09-06 16:05:00] org.junit.jupiter:junit-jupiter-api:5.12.1 -> org.junit.jupiter:junit-jupiter-api:5.13.2 : Failed to compare JAR files: JAPICMP comparison failed for org.junit.jupiter:junit-jupiter-api
+[2025-09-06 16:05:00] org.junit.jupiter:junit-jupiter-api:5.12.1 -> org.junit.jupiter:junit-jupiter-api:5.13.3 : Failed to compare JAR files: JAPICMP comparison failed for org.junit.jupiter:junit-jupiter-api
+[2025-09-06 16:05:00] org.junit.jupiter:junit-jupiter-api:5.12.1 -> org.junit.jupiter:junit-jupiter-api:5.13.4 : Failed to compare JAR files: JAPICMP comparison failed for org.junit.jupiter:junit-jupiter-api
+[2025-09-06 16:05:02] org.junit.jupiter:junit-jupiter-params:5.12.1 -> org.junit.jupiter:junit-jupiter-params:5.12.2 : Failed to compare JAR files: JAPICMP comparison failed for org.junit.jupiter:junit-jupiter-params
+[2025-09-06 16:05:02] org.junit.jupiter:junit-jupiter-params:5.12.1 -> org.junit.jupiter:junit-jupiter-params:5.13.0 : Failed to compare JAR files: JAPICMP comparison failed for org.junit.jupiter:junit-jupiter-params
+[2025-09-06 16:05:03] org.junit.jupiter:junit-jupiter-params:5.12.1 -> org.junit.jupiter:junit-jupiter-params:5.13.1 : Failed to compare JAR files: JAPICMP comparison failed for org.junit.jupiter:junit-jupiter-params
+[2025-09-06 16:05:03] org.junit.jupiter:junit-jupiter-params:5.12.1 -> org.junit.jupiter:junit-jupiter-params:5.13.2 : Failed to compare JAR files: JAPICMP comparison failed for org.junit.jupiter:junit-jupiter-params
+[2025-09-06 16:05:03] org.junit.jupiter:junit-jupiter-params:5.12.1 -> org.junit.jupiter:junit-jupiter-params:5.13.3 : Failed to compare JAR files: JAPICMP comparison failed for org.junit.jupiter:junit-jupiter-params
+[2025-09-06 16:05:03] org.junit.jupiter:junit-jupiter-params:5.12.1 -> org.junit.jupiter:junit-jupiter-params:5.13.4 : Failed to compare JAR files: JAPICMP comparison failed for org.junit.jupiter:junit-jupiter-params
+[2025-09-06 16:05:03] org.assertj:assertj-core:3.24.2 -> org.assertj:assertj-core:3.25.0 : Failed to compare JAR files: JAPICMP comparison failed for org.assertj:assertj-core
+[2025-09-06 16:05:03] org.assertj:assertj-core:3.24.2 -> org.assertj:assertj-core:3.25.1 : Failed to compare JAR files: JAPICMP comparison failed for org.assertj:assertj-core
+[2025-09-06 16:05:03] org.assertj:assertj-core:3.24.2 -> org.assertj:assertj-core:3.25.2 : Failed to compare JAR files: JAPICMP comparison failed for org.assertj:assertj-core
+[2025-09-06 16:05:03] org.assertj:assertj-core:3.24.2 -> org.assertj:assertj-core:3.25.3 : Failed to compare JAR files: JAPICMP comparison failed for org.assertj:assertj-core
+[2025-09-06 16:05:04] org.assertj:assertj-core:3.24.2 -> org.assertj:assertj-core:3.26.0 : Failed to compare JAR files: JAPICMP comparison failed for org.assertj:assertj-core
+[2025-09-06 16:05:04] org.assertj:assertj-core:3.24.2 -> org.assertj:assertj-core:3.26.3 : Failed to compare JAR files: JAPICMP comparison failed for org.assertj:assertj-core
+[2025-09-06 16:05:04] org.assertj:assertj-core:3.24.2 -> org.assertj:assertj-core:3.27.0 : Failed to compare JAR files: JAPICMP comparison failed for org.assertj:assertj-core
+[2025-09-06 16:05:05] org.assertj:assertj-core:3.24.2 -> org.assertj:assertj-core:3.27.1 : Failed to compare JAR files: JAPICMP comparison failed for org.assertj:assertj-core
+[2025-09-06 16:05:05] org.assertj:assertj-core:3.24.2 -> org.assertj:assertj-core:3.27.2 : Failed to compare JAR files: JAPICMP comparison failed for org.assertj:assertj-core
+[2025-09-06 16:05:05] org.assertj:assertj-core:3.24.2 -> org.assertj:assertj-core:3.27.3 : Failed to compare JAR files: JAPICMP comparison failed for org.assertj:assertj-core
+[2025-09-06 16:05:05] org.assertj:assertj-core:3.24.2 -> org.assertj:assertj-core:3.27.4 : Failed to compare JAR files: JAPICMP comparison failed for org.assertj:assertj-core
+
+=== Summary ===
+Total comparisons: 132
+Failures: 35
+Success rate: 73.48%

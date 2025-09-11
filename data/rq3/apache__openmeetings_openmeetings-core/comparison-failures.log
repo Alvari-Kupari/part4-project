@@ -1,0 +1,9 @@
+=== Comparison Failure Log ===
+[2025-09-08 14:53:27] org.springframework:spring-core:6.2.9 -> org.springframework:spring-core:6.2.10 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-core
+[2025-09-08 14:53:38] org.springframework:spring-webmvc:6.2.9 -> org.springframework:spring-webmvc:6.2.10 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-webmvc
+[2025-09-08 14:54:04] org.springframework:spring-test:6.2.9 -> org.springframework:spring-test:6.2.10 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-test
+
+=== Summary ===
+Total comparisons: 116
+Failures: 3
+Success rate: 97.41%

@@ -1,0 +1,3 @@
+Library_Name,Symbol_Type,Class_Name,Symbol_Name,Usage_Location,Line_Number
+JDK:java.base:N/A:N/A,MethodCallExpr,java.lang.Runnable,run,C:\Users\tyin363\Documents\repos\apache__incubator-kie-optaplanner\core\optaplanner-constraint-drl\src\main\java\org\optaplanner\constraint\drl\OptaPlannerRuleEventListener.java,51
+JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.lang.Runnable,Runnable,C:\Users\tyin363\Documents\repos\apache__incubator-kie-optaplanner\core\optaplanner-constraint-drl\src\main\java\org\optaplanner\constraint\drl\OptaPlannerRuleEventListener.java,39
