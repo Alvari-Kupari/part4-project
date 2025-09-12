@@ -20,6 +20,21 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import org.eclipse.aether.graph.Dependency;
 
+/**
+ * PERFORMANCE OPTIMIZATIONS IMPLEMENTED:
+ * 1. Shared Repository System: All classes now use singleton RepositorySystem and RepositorySystemSession
+ *    instances instead of creating new ones, reducing initialization overhead.
+ * 2. Maven Caching Enabled: Removed session.setCache(null) to enable Maven's built-in artifact caching.
+ * 3. Shared Local Repository: All sessions use 'target/shared-local-repo' to avoid duplicate downloads
+ *    across different analysis phases.
+ * 4. Reduced Object Creation: Static final instances are reused throughout the analysis process.
+ * 
+ * These changes should significantly reduce:
+ * - Network requests for downloading the same dependencies multiple times
+ * - Disk I/O from repeatedly downloading to separate local repositories
+ * - Memory usage from creating multiple RepositorySystem instances
+ * - Overall execution time, especially for projects with overlapping dependencies
+ */
 public class Script {
   public static final Path csvFolder =
       Paths.get("C:\\Users\\tyin363\\Documents\\part4-project\\data\\rq3");

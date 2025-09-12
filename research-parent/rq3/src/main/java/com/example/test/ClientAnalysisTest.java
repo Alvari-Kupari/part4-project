@@ -35,8 +35,9 @@ public class ClientAnalysisTest {
     LOGGER.info("Starting ClientAnalysis test with JUnit example...");
 
     // Set up Aether repository system
-    RepositorySystem system = RepositorySystemFactory.newRepositorySystem();
-    RepositorySystemSession session = RepositorySystemFactory.newSession(system);
+    // PERFORMANCE OPTIMIZATION: Use shared repository system instances
+    RepositorySystem system = RepositorySystemFactory.getSharedRepositorySystem();
+    RepositorySystemSession session = RepositorySystemFactory.getSharedSession();
 
     // Create analyzers
     BreakingChangeAnalyzer analyzer = new BreakingChangeAnalyzer(system, session);

@@ -27,8 +27,9 @@ import org.eclipse.aether.graph.Dependency;
 
 /** Finds the uses of breaking changes in a submodule */
 public class ClientAnalysis {
-  private static final RepositorySystem system = RepositorySystemFactory.newRepositorySystem();
-  private static final RepositorySystemSession session = RepositorySystemFactory.newSession(system);
+  // PERFORMANCE OPTIMIZATION: Use shared repository system instances to avoid recreation
+  private static final RepositorySystem system = RepositorySystemFactory.getSharedRepositorySystem();
+  private static final RepositorySystemSession session = RepositorySystemFactory.getSharedSession();
   private static final SymbolChecker symbolChecker = new SymbolChecker();
   private static final Logger LOGGER = Logger.getLogger(ClientAnalysis.class.getName());
 

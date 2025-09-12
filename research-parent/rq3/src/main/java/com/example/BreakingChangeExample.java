@@ -19,8 +19,9 @@ public class BreakingChangeExample {
   public static void main(String[] args) {
     try {
       // Set up Aether repository system
-      RepositorySystem system = RepositorySystemFactory.newRepositorySystem();
-      RepositorySystemSession session = RepositorySystemFactory.newSession(system);
+      // PERFORMANCE OPTIMIZATION: Use shared repository system instances
+      RepositorySystem system = RepositorySystemFactory.getSharedRepositorySystem();
+      RepositorySystemSession session = RepositorySystemFactory.getSharedSession();
 
       // Create analyzer
       BreakingChangeAnalyzer analyzer = new BreakingChangeAnalyzer(system, session);

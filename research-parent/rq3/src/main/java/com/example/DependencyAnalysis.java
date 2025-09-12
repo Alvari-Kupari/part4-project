@@ -26,8 +26,9 @@ public class DependencyAnalysis {
   private final FailureTracker failureTracker;
 
   private static final Logger LOGGER = Logger.getLogger(DependencyAnalysis.class.getName());
-  private static final RepositorySystem system = RepositorySystemFactory.newRepositorySystem();
-  private static final RepositorySystemSession session = RepositorySystemFactory.newSession(system);
+  // PERFORMANCE OPTIMIZATION: Use shared repository system instances to avoid recreation
+  private static final RepositorySystem system = RepositorySystemFactory.getSharedRepositorySystem();
+  private static final RepositorySystemSession session = RepositorySystemFactory.getSharedSession();
   private static final BreakingChangeAnalyzer breakingChangeAnalyzer =
       new BreakingChangeAnalyzer(system, session);
   private static final TransitiveDependencyAnalyzer transitiveDependencyAnalyzer =

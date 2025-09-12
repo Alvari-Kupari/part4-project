@@ -22,8 +22,9 @@ import org.eclipse.aether.graph.Dependency;
 
 public class NormalisationAnalysis {
 
-  private static final RepositorySystem system = RepositorySystemFactory.newRepositorySystem();
-  private static final RepositorySystemSession session = RepositorySystemFactory.newSession(system);
+  // PERFORMANCE OPTIMIZATION: Use shared repository system instances to avoid recreation
+  private static final RepositorySystem system = RepositorySystemFactory.getSharedRepositorySystem();
+  private static final RepositorySystemSession session = RepositorySystemFactory.getSharedSession();
   private static final Logger LOGGER = Logger.getLogger(NormalisationAnalysis.class.getName());
 
   private SubModule subModule;
