@@ -30,7 +30,7 @@ public class Script {
 
   private static final Logger LOGGER = Logger.getLogger(Script.class.getName());
 
-  private static final String startRepo = "apache__shardingsphere-elasticjob";
+  private static final String startRepo = "apache__xmlgraphics-batik";
 
   public static void main(String[] args) throws IOException {
 

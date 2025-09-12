@@ -6,11 +6,12 @@ import java.nio.file.Path;
 import java.util.Comparator;
 import java.util.Optional;
 
+import com.example.pom.PomException;
 import com.example.pom.PomFile;
 
 public class SubModule {
-  private static final int MAX_DEPENDENCIES = 20; // TO CHECK VALUE
-  private static final int MAX_LOC = 10000; // TO CHECK VALUE
+  private static final int MAX_DEPENDENCIES = 3765; // TO CHECK VALUE
+  private static final int MAX_LOC = 13000; // TO CHECK VALUE
 
   private final Path dir;
   private final String name;
@@ -77,8 +78,9 @@ public class SubModule {
   }
 
   public boolean hasTooManyDeps() {
-    PomFile pom = new PomFile(dir);
+   
     try {
+      PomFile pom = new PomFile(dir);
       return pom.getDependencies().size() > MAX_DEPENDENCIES;
     } catch (IOException | PomException e) {
       return true;

@@ -1,1 +1,25 @@
 apache wicket - wicket core
+ - LOC 141435
+ - DEPS: 102
+
+
+ C:\Users\tyin363\Documents\repos\apache__seatunnel-web\seatunnel-datasource\seatunnel-datasource-plugins\datasource-s3
+ - LOC: 350
+ - DEPS: 163
+
+C:\Users\tyin363\Documents\repos\apache__iotdb\iotdb-core\datanode
+- LOC: 751552
+- DEPS: 241
+
+
+C:\Users\tyin363\Documents\repos\apache__incubator-baremaps\baremaps-geoparquet
+- LOC: 1979
+- DEPS: 105
+
+C:\Users\tyin363\Documents\repos\AntonyCheng__spring-boot-init-template
+- LOC: 44972
+- DEPS: 1710
+
+C:\Users\tyin363\Documents\repos\Adobe-Consulting-Services__acs-aem-commons\bundle
+- LOC: 147739
+- DEPS: 250
