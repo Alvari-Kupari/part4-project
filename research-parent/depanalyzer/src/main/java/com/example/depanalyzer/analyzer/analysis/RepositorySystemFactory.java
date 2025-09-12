@@ -30,9 +30,10 @@ public class RepositorySystemFactory {
 
     session.setLocalRepositoryManager(
         system.newLocalRepositoryManager(session, new LocalRepository("target/local-repo")));
-    session.setUpdatePolicy(RepositoryPolicy.UPDATE_POLICY_ALWAYS);
+    session.setUpdatePolicy(RepositoryPolicy.UPDATE_POLICY_DAILY); // Changed from ALWAYS for performance
     session.setIgnoreArtifactDescriptorRepositories(true); // <--- IMPORTANT
-    session.setCache(null);
+    // Enable caching for better performance - removed the line that disabled it
+    // session.setCache(null);
 
     return session;
   }
