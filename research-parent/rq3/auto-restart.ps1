@@ -35,7 +35,8 @@ while ($retryCount -lt $MaxRetries) {
     Add-Content -Path $summaryLogFile -Value "Attempt $retryCount started at $attemptTimestamp - Output: $currentOutputFile"
     
     # Run the Maven command and capture exit code
-    $process = Start-Process -FilePath "mvn" -ArgumentList "clean", "compile", "exec:java" -RedirectStandardOutput $currentOutputFile -RedirectStandardError $currentOutputFile -Wait -PassThru -NoNewWindow
+    # Use cmd /c to properly redirect both stdout and stderr to the same file
+    $process = Start-Process -FilePath "cmd" -ArgumentList "/c", "mvn clean compile exec:java > `"$currentOutputFile`" 2>&1" -Wait -PassThru -NoNewWindow
     
     $exitCode = $process.ExitCode
     $endTimestamp = Get-Date -Format "yyyy-MM-dd HH:mm:ss"
