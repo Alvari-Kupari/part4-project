@@ -1,0 +1,18 @@
+=== Comparison Failure Log ===
+[2025-09-13 03:04:57] org.apache.logging.log4j:log4j-api:2.23.1 -> org.apache.logging.log4j:log4j-api:2.24.0 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.logging.log4j:log4j-api
+[2025-09-13 03:04:58] org.apache.logging.log4j:log4j-api:2.23.1 -> org.apache.logging.log4j:log4j-api:2.24.1 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.logging.log4j:log4j-api
+[2025-09-13 03:04:58] org.apache.logging.log4j:log4j-api:2.23.1 -> org.apache.logging.log4j:log4j-api:2.24.2 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.logging.log4j:log4j-api
+[2025-09-13 03:04:58] org.apache.logging.log4j:log4j-api:2.23.1 -> org.apache.logging.log4j:log4j-api:2.24.3 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.logging.log4j:log4j-api
+[2025-09-13 03:05:01] org.apache.logging.log4j:log4j-api:2.23.1 -> org.apache.logging.log4j:log4j-api:2.25.0 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.logging.log4j:log4j-api
+[2025-09-13 03:05:01] org.apache.logging.log4j:log4j-api:2.23.1 -> org.apache.logging.log4j:log4j-api:2.25.1 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.logging.log4j:log4j-api
+[2025-09-13 03:05:02] org.apache.logging.log4j:log4j-core:2.23.1 -> org.apache.logging.log4j:log4j-core:2.24.0 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.logging.log4j:log4j-core
+[2025-09-13 03:05:03] org.apache.logging.log4j:log4j-core:2.23.1 -> org.apache.logging.log4j:log4j-core:2.24.1 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.logging.log4j:log4j-core
+[2025-09-13 03:05:04] org.apache.logging.log4j:log4j-core:2.23.1 -> org.apache.logging.log4j:log4j-core:2.24.2 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.logging.log4j:log4j-core
+[2025-09-13 03:05:05] org.apache.logging.log4j:log4j-core:2.23.1 -> org.apache.logging.log4j:log4j-core:2.24.3 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.logging.log4j:log4j-core
+[2025-09-13 03:05:06] org.apache.logging.log4j:log4j-core:2.23.1 -> org.apache.logging.log4j:log4j-core:2.25.0 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.logging.log4j:log4j-core
+[2025-09-13 03:05:07] org.apache.logging.log4j:log4j-core:2.23.1 -> org.apache.logging.log4j:log4j-core:2.25.1 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.logging.log4j:log4j-core
+
+=== Summary ===
+Total comparisons: 37
+Failures: 12
+Success rate: 67.57%

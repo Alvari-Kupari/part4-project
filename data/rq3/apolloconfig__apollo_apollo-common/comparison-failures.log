@@ -1,0 +1,32 @@
+=== Comparison Failure Log ===
+[2025-09-12 13:42:53] com.mysql:mysql-connector-j:8.2.0 -> com.mysql:mysql-connector-j:8.3.0 : Failed to compare JAR files: JAPICMP comparison failed for com.mysql:mysql-connector-j
+[2025-09-12 13:42:54] com.mysql:mysql-connector-j:8.2.0 -> com.mysql:mysql-connector-j:8.4.0 : Failed to compare JAR files: JAPICMP comparison failed for com.mysql:mysql-connector-j
+[2025-09-12 13:42:54] org.postgresql:postgresql:42.7.2 -> org.postgresql:postgresql:42.7.3 : Failed to compare JAR files: JAPICMP comparison failed for org.postgresql:postgresql
+[2025-09-12 13:42:54] org.postgresql:postgresql:42.7.2 -> org.postgresql:postgresql:42.7.4 : Failed to compare JAR files: JAPICMP comparison failed for org.postgresql:postgresql
+[2025-09-12 13:42:55] org.postgresql:postgresql:42.7.2 -> org.postgresql:postgresql:42.7.5 : Failed to compare JAR files: JAPICMP comparison failed for org.postgresql:postgresql
+[2025-09-12 13:42:56] org.postgresql:postgresql:42.7.2 -> org.postgresql:postgresql:42.7.6 : Failed to compare JAR files: JAPICMP comparison failed for org.postgresql:postgresql
+[2025-09-12 13:42:56] org.postgresql:postgresql:42.7.2 -> org.postgresql:postgresql:42.7.7 : Failed to compare JAR files: JAPICMP comparison failed for org.postgresql:postgresql
+[2025-09-12 13:42:56] com.h2database:h2:2.2.220 -> com.h2database:h2:2.2.222 : Failed to compare JAR files: JAPICMP comparison failed for com.h2database:h2
+[2025-09-12 13:42:56] com.h2database:h2:2.2.220 -> com.h2database:h2:2.2.224 : Failed to compare JAR files: JAPICMP comparison failed for com.h2database:h2
+[2025-09-12 13:42:56] com.h2database:h2:2.2.220 -> com.h2database:h2:2.3.230 : Failed to compare JAR files: JAPICMP comparison failed for com.h2database:h2
+[2025-09-12 13:42:57] com.h2database:h2:2.2.220 -> com.h2database:h2:2.3.232 : Failed to compare JAR files: JAPICMP comparison failed for com.h2database:h2
+[2025-09-12 13:42:57] org.springframework.data:spring-data-commons:2.7.11 -> org.springframework.data:spring-data-commons:2.7.12 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.data:spring-data-commons
+[2025-09-12 13:42:58] org.springframework.data:spring-data-commons:2.7.11 -> org.springframework.data:spring-data-commons:2.7.13 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.data:spring-data-commons
+[2025-09-12 13:42:59] org.springframework.data:spring-data-commons:2.7.11 -> org.springframework.data:spring-data-commons:2.7.14 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.data:spring-data-commons
+[2025-09-12 13:42:59] org.springframework.data:spring-data-commons:2.7.11 -> org.springframework.data:spring-data-commons:2.7.15 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.data:spring-data-commons
+[2025-09-12 13:43:00] org.springframework.data:spring-data-commons:2.7.11 -> org.springframework.data:spring-data-commons:2.7.16 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.data:spring-data-commons
+[2025-09-12 13:43:00] org.springframework.data:spring-data-commons:2.7.11 -> org.springframework.data:spring-data-commons:2.7.17 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.data:spring-data-commons
+[2025-09-12 13:43:01] org.springframework.data:spring-data-commons:2.7.11 -> org.springframework.data:spring-data-commons:2.7.18 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.data:spring-data-commons
+[2025-09-12 13:43:02] org.codehaus.janino:janino:3.1.9 -> org.codehaus.janino:janino:3.1.10 : Failed to compare JAR files: JAPICMP comparison failed for org.codehaus.janino:janino
+[2025-09-12 13:43:02] org.codehaus.janino:janino:3.1.9 -> org.codehaus.janino:janino:3.1.11 : Failed to compare JAR files: JAPICMP comparison failed for org.codehaus.janino:janino
+[2025-09-12 13:43:02] org.codehaus.janino:janino:3.1.9 -> org.codehaus.janino:janino:3.1.12 : Failed to compare JAR files: JAPICMP comparison failed for org.codehaus.janino:janino
+[2025-09-12 13:43:04] io.micrometer:micrometer-core:1.9.10 -> io.micrometer:micrometer-core:1.9.11 : Failed to compare JAR files: JAPICMP comparison failed for io.micrometer:micrometer-core
+[2025-09-12 13:43:05] io.micrometer:micrometer-core:1.9.10 -> io.micrometer:micrometer-core:1.9.12 : Failed to compare JAR files: JAPICMP comparison failed for io.micrometer:micrometer-core
+[2025-09-12 13:43:06] io.micrometer:micrometer-core:1.9.10 -> io.micrometer:micrometer-core:1.9.13 : Failed to compare JAR files: JAPICMP comparison failed for io.micrometer:micrometer-core
+[2025-09-12 13:43:07] io.micrometer:micrometer-core:1.9.10 -> io.micrometer:micrometer-core:1.9.14 : Failed to compare JAR files: JAPICMP comparison failed for io.micrometer:micrometer-core
+[2025-09-12 13:43:08] io.micrometer:micrometer-core:1.9.10 -> io.micrometer:micrometer-core:1.9.15 : Failed to compare JAR files: JAPICMP comparison failed for io.micrometer:micrometer-core
+
+=== Summary ===
+Total comparisons: 1791
+Failures: 26
+Success rate: 98.55%

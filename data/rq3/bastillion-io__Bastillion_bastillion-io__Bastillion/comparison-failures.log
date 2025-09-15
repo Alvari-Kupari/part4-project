@@ -1,0 +1,11 @@
+=== Comparison Failure Log ===
+[2025-09-13 00:50:18] io.bastillion:lmvc:1.12.0 -> io.bastillion:lmvc:1.15.0 : Failed to compare JAR files: JAPICMP comparison failed for io.bastillion:lmvc
+[2025-09-13 00:50:20] io.bastillion:lmvc:1.12.0 -> io.bastillion:lmvc:1.15.1 : Failed to compare JAR files: JAPICMP comparison failed for io.bastillion:lmvc
+[2025-09-13 00:50:21] io.bastillion:lmvc:1.12.0 -> io.bastillion:lmvc:1.15.2 : Failed to compare JAR files: JAPICMP comparison failed for io.bastillion:lmvc
+[2025-09-13 00:50:21] com.h2database:h2:2.2.224 -> com.h2database:h2:2.3.230 : Failed to compare JAR files: JAPICMP comparison failed for com.h2database:h2
+[2025-09-13 00:50:22] com.h2database:h2:2.2.224 -> com.h2database:h2:2.3.232 : Failed to compare JAR files: JAPICMP comparison failed for com.h2database:h2
+
+=== Summary ===
+Total comparisons: 143
+Failures: 5
+Success rate: 96.50%

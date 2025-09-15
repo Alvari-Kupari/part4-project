@@ -1,0 +1,70 @@
+Library_Name,Old_Version,New_Version,Class_Name,Member_Name,Change_Type,Description,Binary_Compatible,Source_Compatible,Is_Transitive,Depth,Direct_Parent_Dependency,Release_Type,Is_Used_In_Client
+com.google.inject:guice,4.2.2,4.2.3,com.google.inject.Injector,getAllMembersInjectorInjectionPoints,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,com.google.inject:guice,PATCH,false
+com.google.inject:guice,4.2.2,4.2.3,com.google.inject.Injector,getElements,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,com.google.inject:guice,PATCH,false
+com.google.inject:guice,4.2.2,4.2.3,com.google.inject.internal.asm.$ClassWriter,visitNestHost,METHOD_CHANGE,METHOD_NOW_FINAL,false,false,false,1,com.google.inject:guice,PATCH,false
+com.google.inject:guice,4.2.2,4.2.3,com.google.inject.internal.asm.$ClassWriter,visitNestMember,METHOD_CHANGE,METHOD_NOW_FINAL,false,false,false,1,com.google.inject:guice,PATCH,false
+com.google.inject:guice,4.2.2,4.2.3,com.google.inject.internal.Errors,missingConstructor,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,com.google.inject:guice,PATCH,false
+com.google.inject:guice,4.2.2,4.2.3,com.google.inject.internal.ProviderMethodsModule,getDelegateModule,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,com.google.inject:guice,PATCH,false
+com.google.inject:guice,4.2.2,4.2.3,com.google.inject.multibindings.MapBinderBinding,getAlternateMapKeys,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,com.google.inject:guice,PATCH,false
+com.google.inject:guice,4.2.2,4.2.3,com.google.inject.multibindings.MultibinderBinding,getAlternateSetKeys,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,com.google.inject:guice,PATCH,false
+com.google.inject:guice,4.2.2,4.2.3,com.google.inject.multibindings.OptionalBinderBinding,getAlternateKeys,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,com.google.inject:guice,PATCH,false
+com.google.inject:guice,4.2.2,4.2.3,com.google.inject.util.Modules$OverriddenModuleBuilder,with,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE; ANNOTATION_DEPRECATED_ADDED,true,false,false,1,com.google.inject:guice,PATCH,false
+org.slf4j:slf4j-api,1.7.36,2.0.16,org.slf4j.event.EventRecodingLogger,org.slf4j.event.EventRecodingLogger,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.testng:testng,PATCH,false
+org.slf4j:slf4j-api,1.7.36,2.0.16,org.slf4j.event.EventRecodingLogger,EventRecodingLogger,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.testng:testng,PATCH,false
+org.slf4j:slf4j-api,1.7.36,2.0.16,org.slf4j.event.LoggingEvent,getArguments,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.testng:testng,PATCH,false
+org.slf4j:slf4j-api,1.7.36,2.0.16,org.slf4j.event.LoggingEvent,getKeyValuePairs,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.testng:testng,PATCH,false
+org.slf4j:slf4j-api,1.7.36,2.0.16,org.slf4j.event.LoggingEvent,getMarker,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.testng:testng,PATCH,false
+org.slf4j:slf4j-api,1.7.36,2.0.16,org.slf4j.event.LoggingEvent,getMarkers,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.testng:testng,PATCH,false
+org.slf4j:slf4j-api,1.7.36,2.0.16,org.slf4j.event.SubstituteLoggingEvent,setMarker,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.testng:testng,PATCH,false
+org.slf4j:slf4j-api,1.7.36,2.0.16,org.slf4j.spi.MDCAdapter,clearDequeByKey,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.testng:testng,PATCH,false
+org.slf4j:slf4j-api,1.7.36,2.0.16,org.slf4j.spi.MDCAdapter,getCopyOfDequeByKey,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.testng:testng,PATCH,false
+org.slf4j:slf4j-api,1.7.36,2.0.16,org.slf4j.spi.MDCAdapter,popByKey,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.testng:testng,PATCH,false
+org.slf4j:slf4j-api,1.7.36,2.0.16,org.slf4j.spi.MDCAdapter,pushByKey,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.testng:testng,PATCH,false
+com.google.guava:guava,25.1-android,27.1-jre,com.google.common.base.CharMatcher,JAVA_DIGIT,FIELD_CHANGE,FIELD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.google.inject:guice,UNKNOWN,false
+com.google.guava:guava,25.1-android,27.1-jre,com.google.common.base.CharMatcher,BREAKING_WHITESPACE,FIELD_CHANGE,FIELD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.google.inject:guice,UNKNOWN,false
+com.google.guava:guava,25.1-android,27.1-jre,com.google.common.base.CharMatcher,JAVA_LETTER_OR_DIGIT,FIELD_CHANGE,FIELD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.google.inject:guice,UNKNOWN,false
+com.google.guava:guava,25.1-android,27.1-jre,com.google.common.base.CharMatcher,JAVA_LOWER_CASE,FIELD_CHANGE,FIELD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.google.inject:guice,UNKNOWN,false
+com.google.guava:guava,25.1-android,27.1-jre,com.google.common.base.CharMatcher,ASCII,FIELD_CHANGE,FIELD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.google.inject:guice,UNKNOWN,false
+com.google.guava:guava,25.1-android,27.1-jre,com.google.common.base.CharMatcher,JAVA_ISO_CONTROL,FIELD_CHANGE,FIELD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.google.inject:guice,UNKNOWN,false
+com.google.guava:guava,25.1-android,27.1-jre,com.google.common.base.CharMatcher,ANY,FIELD_CHANGE,FIELD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.google.inject:guice,UNKNOWN,false
+com.google.guava:guava,25.1-android,27.1-jre,com.google.common.base.CharMatcher,DIGIT,FIELD_CHANGE,FIELD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.google.inject:guice,UNKNOWN,false
+com.google.guava:guava,25.1-android,27.1-jre,com.google.common.base.CharMatcher,INVISIBLE,FIELD_CHANGE,FIELD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.google.inject:guice,UNKNOWN,false
+com.google.guava:guava,25.1-android,27.1-jre,com.google.common.base.CharMatcher,SINGLE_WIDTH,FIELD_CHANGE,FIELD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.google.inject:guice,UNKNOWN,false
+com.google.guava:guava,25.1-android,27.1-jre,com.google.common.base.CharMatcher,WHITESPACE,FIELD_CHANGE,FIELD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.google.inject:guice,UNKNOWN,false
+com.google.guava:guava,25.1-android,27.1-jre,com.google.common.base.CharMatcher,JAVA_UPPER_CASE,FIELD_CHANGE,FIELD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.google.inject:guice,UNKNOWN,false
+com.google.guava:guava,25.1-android,27.1-jre,com.google.common.base.CharMatcher,JAVA_LETTER,FIELD_CHANGE,FIELD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.google.inject:guice,UNKNOWN,false
+com.google.guava:guava,25.1-android,27.1-jre,com.google.common.base.CharMatcher,NONE,FIELD_CHANGE,FIELD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.google.inject:guice,UNKNOWN,false
+com.google.guava:guava,25.1-android,27.1-jre,com.google.common.collect.HashMultiset,com.google.common.collect.HashMultiset,CLASS_CHANGE,CLASS_NOW_FINAL; METHOD_DEFAULT_ADDED_IN_IMPLEMENTED_INTERFACE,false,false,true,2,com.google.inject:guice,UNKNOWN,false
+com.google.guava:guava,25.1-android,27.1-jre,com.google.common.collect.ImmutableList$Builder,add,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,true,2,com.google.inject:guice,UNKNOWN,false
+com.google.guava:guava,25.1-android,27.1-jre,com.google.common.collect.ImmutableSet$Builder,add,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,true,2,com.google.inject:guice,UNKNOWN,false
+com.google.guava:guava,25.1-android,27.1-jre,com.google.common.collect.ImmutableSortedSet$Builder,add,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,true,2,com.google.inject:guice,UNKNOWN,false
+com.google.guava:guava,25.1-android,27.1-jre,com.google.common.collect.RangeSet,addAll,METHOD_CHANGE,METHOD_ABSTRACT_NOW_DEFAULT,false,false,true,2,com.google.inject:guice,UNKNOWN,false
+com.google.guava:guava,25.1-android,27.1-jre,com.google.common.collect.RangeSet,enclosesAll,METHOD_CHANGE,METHOD_ABSTRACT_NOW_DEFAULT,false,false,true,2,com.google.inject:guice,UNKNOWN,false
+com.google.guava:guava,25.1-android,27.1-jre,com.google.common.collect.RangeSet,removeAll,METHOD_CHANGE,METHOD_ABSTRACT_NOW_DEFAULT,false,false,true,2,com.google.inject:guice,UNKNOWN,false
+com.google.guava:guava,25.1-android,27.1-jre,com.google.common.graph.AbstractValueGraph,com.google.common.graph.AbstractValueGraph,CLASS_CHANGE,METHOD_ABSTRACT_ADDED_IN_IMPLEMENTED_INTERFACE; METHOD_DEFAULT_ADDED_IN_IMPLEMENTED_INTERFACE,true,false,true,2,com.google.inject:guice,UNKNOWN,false
+com.google.guava:guava,25.1-android,27.1-jre,com.google.common.graph.Graph,hasEdgeConnecting,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,com.google.inject:guice,UNKNOWN,false
+com.google.guava:guava,25.1-android,27.1-jre,com.google.common.graph.MutableGraph,putEdge,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,com.google.inject:guice,UNKNOWN,false
+com.google.guava:guava,25.1-android,27.1-jre,com.google.common.graph.MutableGraph,removeEdge,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,com.google.inject:guice,UNKNOWN,false
+com.google.guava:guava,25.1-android,27.1-jre,com.google.common.graph.MutableNetwork,addEdge,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,com.google.inject:guice,UNKNOWN,false
+com.google.guava:guava,25.1-android,27.1-jre,com.google.common.graph.MutableValueGraph,putEdgeValue,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,com.google.inject:guice,UNKNOWN,false
+com.google.guava:guava,25.1-android,27.1-jre,com.google.common.graph.MutableValueGraph,removeEdge,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,com.google.inject:guice,UNKNOWN,false
+com.google.guava:guava,25.1-android,27.1-jre,com.google.common.graph.Network,edgeConnecting,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,com.google.inject:guice,UNKNOWN,false
+com.google.guava:guava,25.1-android,27.1-jre,com.google.common.graph.Network,edgeConnecting,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,com.google.inject:guice,UNKNOWN,false
+com.google.guava:guava,25.1-android,27.1-jre,com.google.common.graph.Network,edgeConnectingOrNull,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,com.google.inject:guice,UNKNOWN,false
+com.google.guava:guava,25.1-android,27.1-jre,com.google.common.graph.Network,edgesConnecting,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,com.google.inject:guice,UNKNOWN,false
+com.google.guava:guava,25.1-android,27.1-jre,com.google.common.graph.Network,hasEdgeConnecting,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,com.google.inject:guice,UNKNOWN,false
+com.google.guava:guava,25.1-android,27.1-jre,com.google.common.graph.ValueGraph,edgeValue,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,com.google.inject:guice,UNKNOWN,false
+com.google.guava:guava,25.1-android,27.1-jre,com.google.common.graph.ValueGraph,edgeValue,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,com.google.inject:guice,UNKNOWN,false
+com.google.guava:guava,25.1-android,27.1-jre,com.google.common.graph.ValueGraph,edgeValueOrDefault,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,com.google.inject:guice,UNKNOWN,false
+com.google.guava:guava,25.1-android,27.1-jre,com.google.common.graph.ValueGraph,hasEdgeConnecting,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,com.google.inject:guice,UNKNOWN,false
+com.google.guava:guava,25.1-android,27.1-jre,com.google.common.io.Files,map,METHOD_CHANGE,METHOD_NO_LONGER_THROWS_CHECKED_EXCEPTION,true,false,true,2,com.google.inject:guice,UNKNOWN,true
+com.google.guava:guava,25.1-android,27.1-jre,com.google.common.reflect.Invokable,getAnnotatedReturnType,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,true,2,com.google.inject:guice,UNKNOWN,false
+com.google.guava:guava,25.1-android,27.1-jre,com.google.common.util.concurrent.Futures,addCallback,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.google.inject:guice,UNKNOWN,false
+com.google.guava:guava,25.1-android,27.1-jre,com.google.common.util.concurrent.Futures,catching,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.google.inject:guice,UNKNOWN,false
+com.google.guava:guava,25.1-android,27.1-jre,com.google.common.util.concurrent.Futures,catchingAsync,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.google.inject:guice,UNKNOWN,false
+com.google.guava:guava,25.1-android,27.1-jre,com.google.common.util.concurrent.Futures,transform,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.google.inject:guice,UNKNOWN,false
+com.google.guava:guava,25.1-android,27.1-jre,com.google.common.util.concurrent.Futures,transformAsync,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.google.inject:guice,UNKNOWN,false
+com.google.guava:guava,25.1-android,27.1-jre,com.google.common.util.concurrent.Futures$FutureCombiner,call,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.google.inject:guice,UNKNOWN,false
+com.google.guava:guava,25.1-android,27.1-jre,com.google.common.util.concurrent.Futures$FutureCombiner,callAsync,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.google.inject:guice,UNKNOWN,false
+org.ow2.asm:asm,7.0,7.2,org.objectweb.asm.ClassWriter,visitNestHost,METHOD_CHANGE,METHOD_NOW_FINAL,false,false,true,2,com.google.inject:guice,MINOR,false
+org.ow2.asm:asm,7.0,7.2,org.objectweb.asm.ClassWriter,visitNestMember,METHOD_CHANGE,METHOD_NOW_FINAL,false,false,true,2,com.google.inject:guice,MINOR,false

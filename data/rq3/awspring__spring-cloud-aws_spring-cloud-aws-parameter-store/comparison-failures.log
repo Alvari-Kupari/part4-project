@@ -1,0 +1,10 @@
+=== Comparison Failure Log ===
+[2025-09-12 18:05:00] org.springframework:spring-context:6.2.7 -> org.springframework:spring-context:6.2.8 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-context
+[2025-09-12 18:05:00] org.springframework:spring-context:6.2.7 -> org.springframework:spring-context:6.2.9 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-context
+[2025-09-12 18:05:01] org.springframework:spring-context:6.2.7 -> org.springframework:spring-context:6.2.10 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-context
+[2025-09-12 18:05:01] org.springframework:spring-context:6.2.7 -> org.springframework:spring-context:6.2.11 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-context
+
+=== Summary ===
+Total comparisons: 1842
+Failures: 4
+Success rate: 99.78%

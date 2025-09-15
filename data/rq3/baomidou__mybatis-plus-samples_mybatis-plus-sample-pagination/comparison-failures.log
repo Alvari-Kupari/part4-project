@@ -1,0 +1,73 @@
+=== Comparison Failure Log ===
+[2025-09-13 00:33:09] com.alibaba:fastjson:1.2.49 -> com.alibaba:fastjson:1.2.50 : Failed to compare JAR files: JAPICMP comparison failed for com.alibaba:fastjson
+[2025-09-13 00:33:10] com.alibaba:fastjson:1.2.49 -> com.alibaba:fastjson:1.2.50_noneautotype : Failed to compare JAR files: JAPICMP comparison failed for com.alibaba:fastjson
+[2025-09-13 00:33:11] com.alibaba:fastjson:1.2.49 -> com.alibaba:fastjson:1.2.50.sec10 : Failed to compare JAR files: JAPICMP comparison failed for com.alibaba:fastjson
+[2025-09-13 00:33:12] com.alibaba:fastjson:1.2.49 -> com.alibaba:fastjson:1.2.51 : Failed to compare JAR files: JAPICMP comparison failed for com.alibaba:fastjson
+[2025-09-13 00:33:13] com.alibaba:fastjson:1.2.49 -> com.alibaba:fastjson:1.2.51.sec06 : Failed to compare JAR files: JAPICMP comparison failed for com.alibaba:fastjson
+[2025-09-13 00:33:14] com.alibaba:fastjson:1.2.49 -> com.alibaba:fastjson:1.2.51.sec10 : Failed to compare JAR files: JAPICMP comparison failed for com.alibaba:fastjson
+[2025-09-13 00:33:15] com.alibaba:fastjson:1.2.49 -> com.alibaba:fastjson:1.2.52 : Failed to compare JAR files: JAPICMP comparison failed for com.alibaba:fastjson
+[2025-09-13 00:33:16] com.alibaba:fastjson:1.2.49 -> com.alibaba:fastjson:1.2.52.sec06 : Failed to compare JAR files: JAPICMP comparison failed for com.alibaba:fastjson
+[2025-09-13 00:33:17] com.alibaba:fastjson:1.2.49 -> com.alibaba:fastjson:1.2.52.sec09_noneautotype : Failed to compare JAR files: JAPICMP comparison failed for com.alibaba:fastjson
+[2025-09-13 00:33:19] com.alibaba:fastjson:1.2.49 -> com.alibaba:fastjson:1.2.52.sec10 : Failed to compare JAR files: JAPICMP comparison failed for com.alibaba:fastjson
+[2025-09-13 00:33:20] com.alibaba:fastjson:1.2.49 -> com.alibaba:fastjson:1.2.53 : Failed to compare JAR files: JAPICMP comparison failed for com.alibaba:fastjson
+[2025-09-13 00:33:21] com.alibaba:fastjson:1.2.49 -> com.alibaba:fastjson:1.2.54 : Failed to compare JAR files: JAPICMP comparison failed for com.alibaba:fastjson
+[2025-09-13 00:33:22] com.alibaba:fastjson:1.2.49 -> com.alibaba:fastjson:1.2.54_noneautotype : Failed to compare JAR files: JAPICMP comparison failed for com.alibaba:fastjson
+[2025-09-13 00:33:23] com.alibaba:fastjson:1.2.49 -> com.alibaba:fastjson:1.2.54.sec06 : Failed to compare JAR files: JAPICMP comparison failed for com.alibaba:fastjson
+[2025-09-13 00:33:24] com.alibaba:fastjson:1.2.49 -> com.alibaba:fastjson:1.2.54.sec10 : Failed to compare JAR files: JAPICMP comparison failed for com.alibaba:fastjson
+[2025-09-13 00:33:25] com.alibaba:fastjson:1.2.49 -> com.alibaba:fastjson:1.2.55 : Failed to compare JAR files: JAPICMP comparison failed for com.alibaba:fastjson
+[2025-09-13 00:33:26] com.alibaba:fastjson:1.2.49 -> com.alibaba:fastjson:1.2.55.sec10 : Failed to compare JAR files: JAPICMP comparison failed for com.alibaba:fastjson
+[2025-09-13 00:33:27] com.alibaba:fastjson:1.2.49 -> com.alibaba:fastjson:1.2.56 : Failed to compare JAR files: JAPICMP comparison failed for com.alibaba:fastjson
+[2025-09-13 00:33:28] com.alibaba:fastjson:1.2.49 -> com.alibaba:fastjson:1.2.56.sec06 : Failed to compare JAR files: JAPICMP comparison failed for com.alibaba:fastjson
+[2025-09-13 00:33:29] com.alibaba:fastjson:1.2.49 -> com.alibaba:fastjson:1.2.57 : Failed to compare JAR files: JAPICMP comparison failed for com.alibaba:fastjson
+[2025-09-13 00:33:30] com.alibaba:fastjson:1.2.49 -> com.alibaba:fastjson:1.2.57_noneautotype : Failed to compare JAR files: JAPICMP comparison failed for com.alibaba:fastjson
+[2025-09-13 00:33:31] com.alibaba:fastjson:1.2.49 -> com.alibaba:fastjson:1.2.57.sec06 : Failed to compare JAR files: JAPICMP comparison failed for com.alibaba:fastjson
+[2025-09-13 00:33:32] com.alibaba:fastjson:1.2.49 -> com.alibaba:fastjson:1.2.57.sec10 : Failed to compare JAR files: JAPICMP comparison failed for com.alibaba:fastjson
+[2025-09-13 00:33:33] com.alibaba:fastjson:1.2.49 -> com.alibaba:fastjson:1.2.58 : Failed to compare JAR files: JAPICMP comparison failed for com.alibaba:fastjson
+[2025-09-13 00:33:34] com.alibaba:fastjson:1.2.49 -> com.alibaba:fastjson:1.2.58.sec06 : Failed to compare JAR files: JAPICMP comparison failed for com.alibaba:fastjson
+[2025-09-13 00:33:35] com.alibaba:fastjson:1.2.49 -> com.alibaba:fastjson:1.2.58.sec09 : Failed to compare JAR files: JAPICMP comparison failed for com.alibaba:fastjson
+[2025-09-13 00:33:36] com.alibaba:fastjson:1.2.49 -> com.alibaba:fastjson:1.2.58.sec10 : Failed to compare JAR files: JAPICMP comparison failed for com.alibaba:fastjson
+[2025-09-13 00:33:37] com.alibaba:fastjson:1.2.49 -> com.alibaba:fastjson:1.2.59 : Failed to compare JAR files: JAPICMP comparison failed for com.alibaba:fastjson
+[2025-09-13 00:33:38] com.alibaba:fastjson:1.2.49 -> com.alibaba:fastjson:1.2.60 : Failed to compare JAR files: JAPICMP comparison failed for com.alibaba:fastjson
+[2025-09-13 00:33:39] com.alibaba:fastjson:1.2.49 -> com.alibaba:fastjson:1.2.60_noneautotype : Failed to compare JAR files: JAPICMP comparison failed for com.alibaba:fastjson
+[2025-09-13 00:33:40] com.alibaba:fastjson:1.2.49 -> com.alibaba:fastjson:1.2.60.sec09 : Failed to compare JAR files: JAPICMP comparison failed for com.alibaba:fastjson
+[2025-09-13 00:33:41] com.alibaba:fastjson:1.2.49 -> com.alibaba:fastjson:1.2.60.sec09_noneautotype : Failed to compare JAR files: JAPICMP comparison failed for com.alibaba:fastjson
+[2025-09-13 00:33:41] com.alibaba:fastjson:1.2.49 -> com.alibaba:fastjson:1.2.60.sec10 : Failed to compare JAR files: JAPICMP comparison failed for com.alibaba:fastjson
+[2025-09-13 00:33:42] com.alibaba:fastjson:1.2.49 -> com.alibaba:fastjson:1.2.61 : Failed to compare JAR files: JAPICMP comparison failed for com.alibaba:fastjson
+[2025-09-13 00:33:43] com.alibaba:fastjson:1.2.49 -> com.alibaba:fastjson:1.2.61.sec10 : Failed to compare JAR files: JAPICMP comparison failed for com.alibaba:fastjson
+[2025-09-13 00:33:44] com.alibaba:fastjson:1.2.49 -> com.alibaba:fastjson:1.2.62 : Failed to compare JAR files: JAPICMP comparison failed for com.alibaba:fastjson
+[2025-09-13 00:33:45] com.alibaba:fastjson:1.2.49 -> com.alibaba:fastjson:1.2.62_noneautotype : Failed to compare JAR files: JAPICMP comparison failed for com.alibaba:fastjson
+[2025-09-13 00:33:47] com.alibaba:fastjson:1.2.49 -> com.alibaba:fastjson:1.2.63_noneautotype : Failed to compare JAR files: JAPICMP comparison failed for com.alibaba:fastjson
+[2025-09-13 00:33:48] com.alibaba:fastjson:1.2.49 -> com.alibaba:fastjson:1.2.66 : Failed to compare JAR files: JAPICMP comparison failed for com.alibaba:fastjson
+[2025-09-13 00:33:48] com.alibaba:fastjson:1.2.49 -> com.alibaba:fastjson:1.2.67 : Failed to compare JAR files: JAPICMP comparison failed for com.alibaba:fastjson
+[2025-09-13 00:33:50] com.alibaba:fastjson:1.2.49 -> com.alibaba:fastjson:1.2.67_noneautotype : Failed to compare JAR files: JAPICMP comparison failed for com.alibaba:fastjson
+[2025-09-13 00:33:51] com.alibaba:fastjson:1.2.49 -> com.alibaba:fastjson:1.2.67_noneautotype2 : Failed to compare JAR files: JAPICMP comparison failed for com.alibaba:fastjson
+[2025-09-13 00:33:51] com.alibaba:fastjson:1.2.49 -> com.alibaba:fastjson:1.2.67.sec10 : Failed to compare JAR files: JAPICMP comparison failed for com.alibaba:fastjson
+[2025-09-13 00:33:52] com.alibaba:fastjson:1.2.49 -> com.alibaba:fastjson:1.2.68 : Failed to compare JAR files: JAPICMP comparison failed for com.alibaba:fastjson
+[2025-09-13 00:33:53] com.alibaba:fastjson:1.2.49 -> com.alibaba:fastjson:1.2.68.sec10 : Failed to compare JAR files: JAPICMP comparison failed for com.alibaba:fastjson
+[2025-09-13 00:33:54] com.alibaba:fastjson:1.2.49 -> com.alibaba:fastjson:1.2.69 : Failed to compare JAR files: JAPICMP comparison failed for com.alibaba:fastjson
+[2025-09-13 00:33:55] com.alibaba:fastjson:1.2.49 -> com.alibaba:fastjson:1.2.69_noneautotype : Failed to compare JAR files: JAPICMP comparison failed for com.alibaba:fastjson
+[2025-09-13 00:33:56] com.alibaba:fastjson:1.2.49 -> com.alibaba:fastjson:1.2.69_sec11 : Failed to compare JAR files: JAPICMP comparison failed for com.alibaba:fastjson
+[2025-09-13 00:33:57] com.alibaba:fastjson:1.2.49 -> com.alibaba:fastjson:1.2.69_sec12 : Failed to compare JAR files: JAPICMP comparison failed for com.alibaba:fastjson
+[2025-09-13 00:33:58] com.alibaba:fastjson:1.2.49 -> com.alibaba:fastjson:1.2.70 : Failed to compare JAR files: JAPICMP comparison failed for com.alibaba:fastjson
+[2025-09-13 00:33:59] com.alibaba:fastjson:1.2.49 -> com.alibaba:fastjson:1.2.71 : Failed to compare JAR files: JAPICMP comparison failed for com.alibaba:fastjson
+[2025-09-13 00:34:00] com.alibaba:fastjson:1.2.49 -> com.alibaba:fastjson:1.2.71_noneautotype : Failed to compare JAR files: JAPICMP comparison failed for com.alibaba:fastjson
+[2025-09-13 00:34:01] com.alibaba:fastjson:1.2.49 -> com.alibaba:fastjson:1.2.72 : Failed to compare JAR files: JAPICMP comparison failed for com.alibaba:fastjson
+[2025-09-13 00:34:02] com.alibaba:fastjson:1.2.49 -> com.alibaba:fastjson:1.2.72_noneautotype : Failed to compare JAR files: JAPICMP comparison failed for com.alibaba:fastjson
+[2025-09-13 00:34:03] com.alibaba:fastjson:1.2.49 -> com.alibaba:fastjson:1.2.73 : Failed to compare JAR files: JAPICMP comparison failed for com.alibaba:fastjson
+[2025-09-13 00:34:04] com.alibaba:fastjson:1.2.49 -> com.alibaba:fastjson:1.2.74 : Failed to compare JAR files: JAPICMP comparison failed for com.alibaba:fastjson
+[2025-09-13 00:34:05] com.alibaba:fastjson:1.2.49 -> com.alibaba:fastjson:1.2.75 : Failed to compare JAR files: JAPICMP comparison failed for com.alibaba:fastjson
+[2025-09-13 00:34:06] com.alibaba:fastjson:1.2.49 -> com.alibaba:fastjson:1.2.75_noneautotype : Failed to compare JAR files: JAPICMP comparison failed for com.alibaba:fastjson
+[2025-09-13 00:34:07] com.alibaba:fastjson:1.2.49 -> com.alibaba:fastjson:1.2.76 : Failed to compare JAR files: JAPICMP comparison failed for com.alibaba:fastjson
+[2025-09-13 00:34:08] com.alibaba:fastjson:1.2.49 -> com.alibaba:fastjson:1.2.77 : Failed to compare JAR files: JAPICMP comparison failed for com.alibaba:fastjson
+[2025-09-13 00:34:09] com.alibaba:fastjson:1.2.49 -> com.alibaba:fastjson:1.2.78 : Failed to compare JAR files: JAPICMP comparison failed for com.alibaba:fastjson
+[2025-09-13 00:34:09] com.alibaba:fastjson:1.2.49 -> com.alibaba:fastjson:1.2.79 : Failed to compare JAR files: JAPICMP comparison failed for com.alibaba:fastjson
+[2025-09-13 00:34:10] com.alibaba:fastjson:1.2.49 -> com.alibaba:fastjson:1.2.80 : Failed to compare JAR files: JAPICMP comparison failed for com.alibaba:fastjson
+[2025-09-13 00:34:11] com.alibaba:fastjson:1.2.49 -> com.alibaba:fastjson:1.2.83 : Failed to compare JAR files: JAPICMP comparison failed for com.alibaba:fastjson
+[2025-09-13 00:34:12] com.alibaba:fastjson:1.2.49 -> com.alibaba:fastjson:1.2.83_noneautotype : Failed to compare JAR files: JAPICMP comparison failed for com.alibaba:fastjson
+[2025-09-13 00:34:12] org.assertj:assertj-core:3.27.3 -> org.assertj:assertj-core:3.27.4 : Failed to compare JAR files: JAPICMP comparison failed for org.assertj:assertj-core
+[2025-09-13 00:34:12] org.projectlombok:lombok:1.18.38 -> org.projectlombok:lombok:1.18.40 : Failed to compare JAR files: JAPICMP comparison failed for org.projectlombok:lombok
+
+=== Summary ===
+Total comparisons: 203
+Failures: 67
+Success rate: 67.00%

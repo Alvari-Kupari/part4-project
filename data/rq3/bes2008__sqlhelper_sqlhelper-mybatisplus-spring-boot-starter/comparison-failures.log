@@ -1,0 +1,17 @@
+=== Comparison Failure Log ===
+[2025-09-13 01:57:09] io.github.bes2008.solution.sqlhelper:sqlhelper-mybatis-spring-common:5.0.0 -> io.github.bes2008.solution.sqlhelper:sqlhelper-mybatis-spring-common:5.0.1 : Failed to compare JAR files: JAPICMP comparison failed for io.github.bes2008.solution.sqlhelper:sqlhelper-mybatis-spring-common
+[2025-09-13 01:57:10] io.github.bes2008.solution.sqlhelper:sqlhelper-mybatis-spring-common:5.0.0 -> io.github.bes2008.solution.sqlhelper:sqlhelper-mybatis-spring-common:5.0.2 : Failed to compare JAR files: JAPICMP comparison failed for io.github.bes2008.solution.sqlhelper:sqlhelper-mybatis-spring-common
+[2025-09-13 01:57:11] io.github.bes2008.solution.sqlhelper:sqlhelper-mybatis-spring-common:5.0.0 -> io.github.bes2008.solution.sqlhelper:sqlhelper-mybatis-spring-common:5.0.3 : Failed to compare JAR files: JAPICMP comparison failed for io.github.bes2008.solution.sqlhelper:sqlhelper-mybatis-spring-common
+[2025-09-13 01:57:11] io.github.bes2008.solution.sqlhelper:sqlhelper-mybatis-spring-common:5.0.0 -> io.github.bes2008.solution.sqlhelper:sqlhelper-mybatis-spring-common:5.0.4 : Failed to compare JAR files: JAPICMP comparison failed for io.github.bes2008.solution.sqlhelper:sqlhelper-mybatis-spring-common
+[2025-09-13 01:57:12] io.github.bes2008.solution.sqlhelper:sqlhelper-mybatis-spring-common:5.0.0 -> io.github.bes2008.solution.sqlhelper:sqlhelper-mybatis-spring-common:5.0.5 : Failed to compare JAR files: JAPICMP comparison failed for io.github.bes2008.solution.sqlhelper:sqlhelper-mybatis-spring-common
+[2025-09-13 01:57:13] io.github.bes2008.solution.sqlhelper:sqlhelper-mybatis-spring-common:5.0.0 -> io.github.bes2008.solution.sqlhelper:sqlhelper-mybatis-spring-common:5.0.6 : Failed to compare JAR files: JAPICMP comparison failed for io.github.bes2008.solution.sqlhelper:sqlhelper-mybatis-spring-common
+[2025-09-13 01:57:14] io.github.bes2008.solution.sqlhelper:sqlhelper-mybatis-spring-common:5.0.0 -> io.github.bes2008.solution.sqlhelper:sqlhelper-mybatis-spring-common:5.0.7 : Failed to compare JAR files: JAPICMP comparison failed for io.github.bes2008.solution.sqlhelper:sqlhelper-mybatis-spring-common
+[2025-09-13 01:57:15] io.github.bes2008.solution.sqlhelper:sqlhelper-mybatis-spring-common:5.0.0 -> io.github.bes2008.solution.sqlhelper:sqlhelper-mybatis-spring-common:5.0.8 : Failed to compare JAR files: JAPICMP comparison failed for io.github.bes2008.solution.sqlhelper:sqlhelper-mybatis-spring-common
+[2025-09-13 01:57:15] io.github.bes2008.solution.sqlhelper:sqlhelper-mybatis-spring-common:5.0.0 -> io.github.bes2008.solution.sqlhelper:sqlhelper-mybatis-spring-common:5.0.9 : Failed to compare JAR files: JAPICMP comparison failed for io.github.bes2008.solution.sqlhelper:sqlhelper-mybatis-spring-common
+[2025-09-13 01:57:16] io.github.bes2008.solution.sqlhelper:sqlhelper-mybatis-spring-common:5.0.0 -> io.github.bes2008.solution.sqlhelper:sqlhelper-mybatis-spring-common:5.1.0 : Failed to compare JAR files: JAPICMP comparison failed for io.github.bes2008.solution.sqlhelper:sqlhelper-mybatis-spring-common
+[2025-09-13 01:57:17] io.github.bes2008.solution.sqlhelper:sqlhelper-mybatis-spring-common:5.0.0 -> io.github.bes2008.solution.sqlhelper:sqlhelper-mybatis-spring-common:5.1.1 : Failed to compare JAR files: JAPICMP comparison failed for io.github.bes2008.solution.sqlhelper:sqlhelper-mybatis-spring-common
+
+=== Summary ===
+Total comparisons: 416
+Failures: 11
+Success rate: 97.36%

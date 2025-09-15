@@ -1,0 +1,11 @@
+=== Comparison Failure Log ===
+[2025-09-13 02:30:33] org.projectlombok:lombok:1.18.30 -> org.projectlombok:lombok:1.18.32 : Failed to compare JAR files: JAPICMP comparison failed for org.projectlombok:lombok
+[2025-09-13 02:30:33] org.projectlombok:lombok:1.18.30 -> org.projectlombok:lombok:1.18.34 : Failed to compare JAR files: JAPICMP comparison failed for org.projectlombok:lombok
+[2025-09-13 02:30:33] org.projectlombok:lombok:1.18.30 -> org.projectlombok:lombok:1.18.36 : Failed to compare JAR files: JAPICMP comparison failed for org.projectlombok:lombok
+[2025-09-13 02:30:33] org.projectlombok:lombok:1.18.30 -> org.projectlombok:lombok:1.18.38 : Failed to compare JAR files: JAPICMP comparison failed for org.projectlombok:lombok
+[2025-09-13 02:30:33] org.projectlombok:lombok:1.18.30 -> org.projectlombok:lombok:1.18.40 : Failed to compare JAR files: JAPICMP comparison failed for org.projectlombok:lombok
+
+=== Summary ===
+Total comparisons: 155
+Failures: 5
+Success rate: 96.77%

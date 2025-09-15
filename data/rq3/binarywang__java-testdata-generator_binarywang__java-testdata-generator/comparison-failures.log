@@ -1,0 +1,11 @@
+=== Comparison Failure Log ===
+[2025-09-13 02:06:53] mysql:mysql-connector-java:8.0.28 -> mysql:mysql-connector-java:8.0.29 : Failed to compare JAR files: JAPICMP comparison failed for mysql:mysql-connector-java
+[2025-09-13 02:06:55] mysql:mysql-connector-java:8.0.28 -> mysql:mysql-connector-java:8.0.30 : Failed to compare JAR files: JAPICMP comparison failed for mysql:mysql-connector-java
+[2025-09-13 02:06:56] mysql:mysql-connector-java:8.0.28 -> mysql:mysql-connector-java:8.0.31 : Failed to compare JAR files: JAPICMP comparison failed for mysql:mysql-connector-java
+[2025-09-13 02:06:59] mysql:mysql-connector-java:8.0.28 -> mysql:mysql-connector-java:8.0.32 : Failed to compare JAR files: JAPICMP comparison failed for mysql:mysql-connector-java
+[2025-09-13 02:07:03] mysql:mysql-connector-java:8.0.28 -> mysql:mysql-connector-java:8.0.33 : Failed to compare JAR files: JAPICMP comparison failed for mysql:mysql-connector-java
+
+=== Summary ===
+Total comparisons: 118
+Failures: 5
+Success rate: 95.76%

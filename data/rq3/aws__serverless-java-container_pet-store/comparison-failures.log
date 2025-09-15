@@ -1,0 +1,28 @@
+=== Comparison Failure Log ===
+
+=== Summary ===
+Total comparisons: 11
+Failures: 0
+Success rate: 100.00%
+=== Comparison Failure Log ===
+[2025-09-12 23:30:59] org.springframework:spring-webmvc:6.2.8 -> org.springframework:spring-webmvc:6.2.9 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-webmvc
+[2025-09-12 23:30:59] org.springframework:spring-webmvc:6.2.8 -> org.springframework:spring-webmvc:6.2.10 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-webmvc
+[2025-09-12 23:30:59] org.springframework:spring-webmvc:6.2.8 -> org.springframework:spring-webmvc:6.2.11 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-webmvc
+[2025-09-12 23:30:59] org.springframework:spring-context:6.2.8 -> org.springframework:spring-context:6.2.9 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-context
+[2025-09-12 23:31:00] org.springframework:spring-context:6.2.8 -> org.springframework:spring-context:6.2.10 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-context
+[2025-09-12 23:31:00] org.springframework:spring-context:6.2.8 -> org.springframework:spring-context:6.2.11 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-context
+[2025-09-12 23:31:01] org.apache.logging.log4j:log4j-core:2.24.3 -> org.apache.logging.log4j:log4j-core:2.25.0 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.logging.log4j:log4j-core
+[2025-09-12 23:31:02] org.apache.logging.log4j:log4j-core:2.24.3 -> org.apache.logging.log4j:log4j-core:2.25.1 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.logging.log4j:log4j-core
+[2025-09-12 23:31:02] org.apache.logging.log4j:log4j-api:2.24.3 -> org.apache.logging.log4j:log4j-api:2.25.0 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.logging.log4j:log4j-api
+[2025-09-12 23:31:02] org.apache.logging.log4j:log4j-api:2.24.3 -> org.apache.logging.log4j:log4j-api:2.25.1 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.logging.log4j:log4j-api
+
+=== Summary ===
+Total comparisons: 19
+Failures: 10
+Success rate: 47.37%
+=== Comparison Failure Log ===
+
+=== Summary ===
+Total comparisons: 86
+Failures: 0
+Success rate: 100.00%

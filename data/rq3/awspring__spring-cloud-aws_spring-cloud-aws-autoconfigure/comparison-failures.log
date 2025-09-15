@@ -1,0 +1,28 @@
+=== Comparison Failure Log ===
+[2025-09-12 15:03:34] org.springframework.boot:spring-boot-autoconfigure:3.5.0 -> org.springframework.boot:spring-boot-autoconfigure:3.5.1 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.boot:spring-boot-autoconfigure
+[2025-09-12 15:03:35] org.springframework.boot:spring-boot-autoconfigure:3.5.0 -> org.springframework.boot:spring-boot-autoconfigure:3.5.2 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.boot:spring-boot-autoconfigure
+[2025-09-12 15:03:35] org.springframework.boot:spring-boot-autoconfigure:3.5.0 -> org.springframework.boot:spring-boot-autoconfigure:3.5.3 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.boot:spring-boot-autoconfigure
+[2025-09-12 15:03:36] org.springframework.boot:spring-boot-autoconfigure:3.5.0 -> org.springframework.boot:spring-boot-autoconfigure:3.5.4 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.boot:spring-boot-autoconfigure
+[2025-09-12 15:03:37] org.springframework.boot:spring-boot-autoconfigure:3.5.0 -> org.springframework.boot:spring-boot-autoconfigure:3.5.5 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.boot:spring-boot-autoconfigure
+[2025-09-12 15:27:50] org.springframework.boot:spring-boot-actuator-autoconfigure:3.5.0 -> org.springframework.boot:spring-boot-actuator-autoconfigure:3.5.1 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.boot:spring-boot-actuator-autoconfigure
+[2025-09-12 15:27:52] org.springframework.boot:spring-boot-actuator-autoconfigure:3.5.0 -> org.springframework.boot:spring-boot-actuator-autoconfigure:3.5.2 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.boot:spring-boot-actuator-autoconfigure
+[2025-09-12 15:27:53] org.springframework.boot:spring-boot-actuator-autoconfigure:3.5.0 -> org.springframework.boot:spring-boot-actuator-autoconfigure:3.5.3 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.boot:spring-boot-actuator-autoconfigure
+[2025-09-12 15:27:54] org.springframework.boot:spring-boot-actuator-autoconfigure:3.5.0 -> org.springframework.boot:spring-boot-actuator-autoconfigure:3.5.4 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.boot:spring-boot-actuator-autoconfigure
+[2025-09-12 15:27:55] org.springframework.boot:spring-boot-actuator-autoconfigure:3.5.0 -> org.springframework.boot:spring-boot-actuator-autoconfigure:3.5.5 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.boot:spring-boot-actuator-autoconfigure
+[2025-09-12 16:08:15] org.springframework:spring-web:6.2.7 -> org.springframework:spring-web:6.2.8 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-web
+[2025-09-12 16:08:16] org.springframework:spring-web:6.2.7 -> org.springframework:spring-web:6.2.9 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-web
+[2025-09-12 16:08:17] org.springframework:spring-web:6.2.7 -> org.springframework:spring-web:6.2.10 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-web
+[2025-09-12 16:08:17] org.springframework:spring-web:6.2.7 -> org.springframework:spring-web:6.2.11 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-web
+[2025-09-12 16:08:18] org.springframework:spring-webmvc:6.2.7 -> org.springframework:spring-webmvc:6.2.8 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-webmvc
+[2025-09-12 16:08:18] org.springframework:spring-webmvc:6.2.7 -> org.springframework:spring-webmvc:6.2.9 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-webmvc
+[2025-09-12 16:08:19] org.springframework:spring-webmvc:6.2.7 -> org.springframework:spring-webmvc:6.2.10 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-webmvc
+[2025-09-12 16:08:20] org.springframework:spring-webmvc:6.2.7 -> org.springframework:spring-webmvc:6.2.11 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-webmvc
+[2025-09-12 16:08:48] org.testcontainers:junit-jupiter:1.21.0 -> org.testcontainers:junit-jupiter:1.21.1 : Failed to compare JAR files: JAPICMP comparison failed for org.testcontainers:junit-jupiter
+[2025-09-12 16:08:49] org.testcontainers:junit-jupiter:1.21.0 -> org.testcontainers:junit-jupiter:1.21.2 : Failed to compare JAR files: JAPICMP comparison failed for org.testcontainers:junit-jupiter
+[2025-09-12 16:08:50] org.testcontainers:junit-jupiter:1.21.0 -> org.testcontainers:junit-jupiter:1.21.3 : Failed to compare JAR files: JAPICMP comparison failed for org.testcontainers:junit-jupiter
+[2025-09-12 16:08:52] org.wiremock:wiremock-standalone:3.13.0 -> org.wiremock:wiremock-standalone:3.13.1 : Failed to compare JAR files: JAPICMP comparison failed for org.wiremock:wiremock-standalone
+
+=== Summary ===
+Total comparisons: 8771
+Failures: 22
+Success rate: 99.75%

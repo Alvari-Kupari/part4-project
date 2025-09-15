@@ -1,0 +1,15 @@
+=== Comparison Failure Log ===
+[2025-09-13 00:29:21] mysql:mysql-connector-java:8.0.26 -> mysql:mysql-connector-java:8.0.27 : Failed to compare JAR files: JAPICMP comparison failed for mysql:mysql-connector-java
+[2025-09-13 00:29:22] mysql:mysql-connector-java:8.0.26 -> mysql:mysql-connector-java:8.0.28 : Failed to compare JAR files: JAPICMP comparison failed for mysql:mysql-connector-java
+[2025-09-13 00:29:23] mysql:mysql-connector-java:8.0.26 -> mysql:mysql-connector-java:8.0.29 : Failed to compare JAR files: JAPICMP comparison failed for mysql:mysql-connector-java
+[2025-09-13 00:29:24] mysql:mysql-connector-java:8.0.26 -> mysql:mysql-connector-java:8.0.30 : Failed to compare JAR files: JAPICMP comparison failed for mysql:mysql-connector-java
+[2025-09-13 00:29:25] mysql:mysql-connector-java:8.0.26 -> mysql:mysql-connector-java:8.0.31 : Failed to compare JAR files: JAPICMP comparison failed for mysql:mysql-connector-java
+[2025-09-13 00:29:26] mysql:mysql-connector-java:8.0.26 -> mysql:mysql-connector-java:8.0.32 : Failed to compare JAR files: JAPICMP comparison failed for mysql:mysql-connector-java
+[2025-09-13 00:29:27] mysql:mysql-connector-java:8.0.26 -> mysql:mysql-connector-java:8.0.33 : Failed to compare JAR files: JAPICMP comparison failed for mysql:mysql-connector-java
+[2025-09-13 00:29:39] org.assertj:assertj-core:3.27.3 -> org.assertj:assertj-core:3.27.4 : Failed to compare JAR files: JAPICMP comparison failed for org.assertj:assertj-core
+[2025-09-13 00:29:39] org.projectlombok:lombok:1.18.38 -> org.projectlombok:lombok:1.18.40 : Failed to compare JAR files: JAPICMP comparison failed for org.projectlombok:lombok
+
+=== Summary ===
+Total comparisons: 145
+Failures: 9
+Success rate: 93.79%

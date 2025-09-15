@@ -1,0 +1,7 @@
+Library_Name,Symbol_Type,Class_Name,Symbol_Name,Usage_Location,Line_Number
+CLIENT:client-code:N/A:N/A,NameExpr,io.github.bonigarcia.EmptyTest,log,C:\Users\tyin363\Documents\repos\bonigarcia__mastering-junit5\junit5-console-launcher\src\main\java\io\github\bonigarcia\EmptyTest.java,31
+JDK:java.base:N/A:N/A,MethodCallExpr,java.lang.invoke.MethodHandles.Lookup,lookupClass,C:\Users\tyin363\Documents\repos\bonigarcia__mastering-junit5\junit5-console-launcher\src\main\java\io\github\bonigarcia\EmptyTest.java,27
+JDK:java.base:N/A:N/A,MethodCallExpr,java.lang.invoke.MethodHandles,lookup,C:\Users\tyin363\Documents\repos\bonigarcia__mastering-junit5\junit5-console-launcher\src\main\java\io\github\bonigarcia\EmptyTest.java,27
+org.slf4j:slf4j-api:jar:2.0.17,ClassOrInterfaceType,org.slf4j.Logger,Logger,C:\Users\tyin363\Documents\repos\bonigarcia__mastering-junit5\junit5-console-launcher\src\main\java\io\github\bonigarcia\EmptyTest.java,27
+org.slf4j:slf4j-api:jar:2.0.17,MethodCallExpr,org.slf4j.LoggerFactory,getLogger,C:\Users\tyin363\Documents\repos\bonigarcia__mastering-junit5\junit5-console-launcher\src\main\java\io\github\bonigarcia\EmptyTest.java,27
+org.slf4j:slf4j-api:jar:2.0.17,MethodCallExpr,org.slf4j.Logger,debug,C:\Users\tyin363\Documents\repos\bonigarcia__mastering-junit5\junit5-console-launcher\src\main\java\io\github\bonigarcia\EmptyTest.java,31

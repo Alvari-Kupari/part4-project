@@ -1,0 +1,31 @@
+=== Comparison Failure Log ===
+[2025-09-12 14:07:29] org.projectlombok:lombok:1.18.38 -> org.projectlombok:lombok:1.18.40 : Failed to compare JAR files: JAPICMP comparison failed for org.projectlombok:lombok
+[2025-09-12 14:14:18] io.quarkus:quarkus-hibernate-validator:3.25.3 -> io.quarkus:quarkus-hibernate-validator:3.25.4 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-hibernate-validator
+[2025-09-12 14:14:28] io.quarkus:quarkus-hibernate-validator:3.25.3 -> io.quarkus:quarkus-hibernate-validator:3.26.0.CR1 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-hibernate-validator
+[2025-09-12 14:14:37] io.quarkus:quarkus-hibernate-validator:3.25.3 -> io.quarkus:quarkus-hibernate-validator:3.26.0 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-hibernate-validator
+[2025-09-12 14:14:52] io.quarkus:quarkus-hibernate-validator:3.25.3 -> io.quarkus:quarkus-hibernate-validator:3.26.1 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-hibernate-validator
+[2025-09-12 14:14:59] io.quarkus:quarkus-hibernate-validator:3.25.3 -> io.quarkus:quarkus-hibernate-validator:3.26.2 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-hibernate-validator
+[2025-09-12 14:15:13] io.quarkus:quarkus-hibernate-validator:3.25.3 -> io.quarkus:quarkus-hibernate-validator:3.26.3 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-hibernate-validator
+[2025-09-12 14:15:28] io.quarkus:quarkus-hibernate-validator:3.25.3 -> io.quarkus:quarkus-hibernate-validator:3.27.0.CR1 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-hibernate-validator
+[2025-09-12 14:15:45] io.quarkus:quarkus-hibernate-validator:3.25.3 -> io.quarkus:quarkus-hibernate-validator:3.28.0.CR1 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-hibernate-validator
+[2025-09-12 14:42:52] io.quarkus:quarkus-hibernate-orm:3.25.3 -> io.quarkus:quarkus-hibernate-orm:3.25.4 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-hibernate-orm
+[2025-09-12 14:43:11] io.quarkus:quarkus-hibernate-orm:3.25.3 -> io.quarkus:quarkus-hibernate-orm:3.26.0.CR1 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-hibernate-orm
+[2025-09-12 14:43:31] io.quarkus:quarkus-hibernate-orm:3.25.3 -> io.quarkus:quarkus-hibernate-orm:3.26.0 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-hibernate-orm
+[2025-09-12 14:43:48] io.quarkus:quarkus-hibernate-orm:3.25.3 -> io.quarkus:quarkus-hibernate-orm:3.26.1 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-hibernate-orm
+[2025-09-12 14:44:02] io.quarkus:quarkus-hibernate-orm:3.25.3 -> io.quarkus:quarkus-hibernate-orm:3.26.2 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-hibernate-orm
+[2025-09-12 14:44:15] io.quarkus:quarkus-hibernate-orm:3.25.3 -> io.quarkus:quarkus-hibernate-orm:3.26.3 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-hibernate-orm
+[2025-09-12 14:44:32] io.quarkus:quarkus-hibernate-orm:3.25.3 -> io.quarkus:quarkus-hibernate-orm:3.27.0.CR1 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-hibernate-orm
+[2025-09-12 14:44:49] io.quarkus:quarkus-hibernate-orm:3.25.3 -> io.quarkus:quarkus-hibernate-orm:3.28.0.CR1 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-hibernate-orm
+[2025-09-12 15:02:33] io.quarkus:quarkus-jdbc-h2:3.25.3 -> io.quarkus:quarkus-jdbc-h2:3.25.4 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-jdbc-h2
+[2025-09-12 15:02:38] io.quarkus:quarkus-jdbc-h2:3.25.3 -> io.quarkus:quarkus-jdbc-h2:3.26.0.CR1 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-jdbc-h2
+[2025-09-12 15:02:42] io.quarkus:quarkus-jdbc-h2:3.25.3 -> io.quarkus:quarkus-jdbc-h2:3.26.0 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-jdbc-h2
+[2025-09-12 15:02:46] io.quarkus:quarkus-jdbc-h2:3.25.3 -> io.quarkus:quarkus-jdbc-h2:3.26.1 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-jdbc-h2
+[2025-09-12 15:02:51] io.quarkus:quarkus-jdbc-h2:3.25.3 -> io.quarkus:quarkus-jdbc-h2:3.26.2 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-jdbc-h2
+[2025-09-12 15:02:57] io.quarkus:quarkus-jdbc-h2:3.25.3 -> io.quarkus:quarkus-jdbc-h2:3.26.3 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-jdbc-h2
+[2025-09-12 15:03:01] io.quarkus:quarkus-jdbc-h2:3.25.3 -> io.quarkus:quarkus-jdbc-h2:3.27.0.CR1 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-jdbc-h2
+[2025-09-12 15:03:05] io.quarkus:quarkus-jdbc-h2:3.25.3 -> io.quarkus:quarkus-jdbc-h2:3.28.0.CR1 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-jdbc-h2
+
+=== Summary ===
+Total comparisons: 2217
+Failures: 25
+Success rate: 98.87%

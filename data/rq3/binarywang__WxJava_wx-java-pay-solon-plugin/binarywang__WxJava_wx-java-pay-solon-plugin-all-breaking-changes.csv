@@ -1,0 +1,17 @@
+Library_Name,Old_Version,New_Version,Class_Name,Member_Name,Change_Type,Description,Binary_Compatible,Source_Compatible,Is_Transitive,Depth,Direct_Parent_Dependency,Release_Type,Is_Used_In_Client
+org.noear:solon,3.5.0,3.5.1,org.noear.solon.annotation.Condition,priority,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,false,1,org.noear:solon,PATCH,false
+org.noear:solon,3.5.0,3.5.1,org.noear.solon.annotation.Managed,autoInject,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,false,1,org.noear:solon,PATCH,false
+org.noear:solon,3.5.0,3.5.1,org.noear.solon.annotation.Managed,destroyMethod,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,false,1,org.noear:solon,PATCH,false
+org.noear:solon,3.5.0,3.5.1,org.noear.solon.annotation.Managed,initMethod,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,false,1,org.noear:solon,PATCH,false
+org.noear:solon,3.5.0,3.5.1,org.noear.solon.core.AppContext,tryBuildBeanOfMethod,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.noear:solon,PATCH,false
+org.noear:solon,3.5.0,3.5.1,org.noear.solon.core.AppContext,tryBuildBeanOfMethod2,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.noear:solon,PATCH,false
+org.noear:solon,3.5.0,3.5.1,org.noear.solon.core.AppContext,tryMethodParamsGather,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.noear:solon,PATCH,true
+org.noear:solon,3.5.0,3.5.1,org.noear.solon.annotation.Condition,priority,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,true,2,org.noear:solon-test,PATCH,false
+org.noear:solon,3.5.0,3.5.1,org.noear.solon.annotation.Managed,autoInject,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,true,2,org.noear:solon-test,PATCH,false
+org.noear:solon,3.5.0,3.5.1,org.noear.solon.annotation.Managed,destroyMethod,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,true,2,org.noear:solon-test,PATCH,false
+org.noear:solon,3.5.0,3.5.1,org.noear.solon.annotation.Managed,initMethod,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,true,2,org.noear:solon-test,PATCH,false
+org.noear:solon,3.5.0,3.5.1,org.noear.solon.core.AppContext,tryBuildBeanOfMethod,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-test,PATCH,false
+org.noear:solon,3.5.0,3.5.1,org.noear.solon.core.AppContext,tryBuildBeanOfMethod2,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-test,PATCH,false
+org.noear:solon,3.5.0,3.5.1,org.noear.solon.core.AppContext,tryMethodParamsGather,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-test,PATCH,true
+org.noear:solon-aot,3.5.0,3.5.1,org.noear.solon.aot.proxy.MethodFinder,buildMethodKey,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-test,PATCH,false
+org.noear:solon-aot,3.5.0,3.5.1,org.noear.solon.aot.proxy.MethodFinder,findMethodAll,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,true,2,org.noear:solon-test,PATCH,false

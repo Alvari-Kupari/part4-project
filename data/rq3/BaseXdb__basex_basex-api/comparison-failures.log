@@ -1,0 +1,10 @@
+=== Comparison Failure Log ===
+[2025-09-13 00:45:52] org.eclipse.jetty.ee9:jetty-ee9-servlets:12.0.25 -> org.eclipse.jetty.ee9:jetty-ee9-servlets:12.0.26 : Failed to compare JAR files: JAPICMP comparison failed for org.eclipse.jetty.ee9:jetty-ee9-servlets
+[2025-09-13 00:45:53] org.eclipse.jetty.ee9:jetty-ee9-servlets:12.0.25 -> org.eclipse.jetty.ee9:jetty-ee9-servlets:12.0.27 : Failed to compare JAR files: JAPICMP comparison failed for org.eclipse.jetty.ee9:jetty-ee9-servlets
+[2025-09-13 00:45:54] org.eclipse.jetty.ee9:jetty-ee9-servlets:12.0.25 -> org.eclipse.jetty.ee9:jetty-ee9-servlets:12.1.0 : Failed to compare JAR files: JAPICMP comparison failed for org.eclipse.jetty.ee9:jetty-ee9-servlets
+[2025-09-13 00:45:56] org.eclipse.jetty.ee9:jetty-ee9-servlets:12.0.25 -> org.eclipse.jetty.ee9:jetty-ee9-servlets:12.1.1 : Failed to compare JAR files: JAPICMP comparison failed for org.eclipse.jetty.ee9:jetty-ee9-servlets
+
+=== Summary ===
+Total comparisons: 194
+Failures: 4
+Success rate: 97.94%

@@ -1,0 +1,12 @@
+=== Comparison Failure Log ===
+[2025-09-12 14:03:53] org.apache.maven:maven-core:3.9.9 -> org.apache.maven:maven-core:3.9.10 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.maven:maven-core
+[2025-09-12 14:04:02] org.apache.maven:maven-core:3.9.9 -> org.apache.maven:maven-core:3.9.11 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.maven:maven-core
+[2025-09-12 14:04:11] org.assertj:assertj-core:3.27.3 -> org.assertj:assertj-core:3.27.4 : Failed to compare JAR files: JAPICMP comparison failed for org.assertj:assertj-core
+[2025-09-12 14:04:11] org.mockito:mockito-core:5.17.0 -> org.mockito:mockito-core:5.18.0 : Failed to compare JAR files: JAPICMP comparison failed for org.mockito:mockito-core
+[2025-09-12 14:04:12] org.mockito:mockito-core:5.17.0 -> org.mockito:mockito-core:5.19.0 : Failed to compare JAR files: JAPICMP comparison failed for org.mockito:mockito-core
+[2025-09-12 14:04:12] org.projectlombok:lombok:1.18.38 -> org.projectlombok:lombok:1.18.40 : Failed to compare JAR files: JAPICMP comparison failed for org.projectlombok:lombok
+
+=== Summary ===
+Total comparisons: 53
+Failures: 6
+Success rate: 88.68%

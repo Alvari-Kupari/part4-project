@@ -1,0 +1,9 @@
+=== Comparison Failure Log ===
+[2025-09-12 13:31:06] org.ehcache:ehcache:3.10.8 -> org.ehcache:ehcache:3.10.9 : Failed to compare JAR files: JAPICMP comparison failed for org.ehcache:ehcache
+[2025-09-12 13:31:08] org.ehcache:ehcache:3.10.8 -> org.ehcache:ehcache:3.11.0 : Failed to compare JAR files: JAPICMP comparison failed for org.ehcache:ehcache
+[2025-09-12 13:31:09] org.ehcache:ehcache:3.10.8 -> org.ehcache:ehcache:3.11.1 : Failed to compare JAR files: JAPICMP comparison failed for org.ehcache:ehcache
+
+=== Summary ===
+Total comparisons: 3
+Failures: 3
+Success rate: 0.00%

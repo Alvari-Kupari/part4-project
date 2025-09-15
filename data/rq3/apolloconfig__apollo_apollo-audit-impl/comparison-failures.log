@@ -1,0 +1,29 @@
+=== Comparison Failure Log ===
+[2025-09-12 13:37:43] org.springframework.security:spring-security-core:5.7.8 -> org.springframework.security:spring-security-core:5.7.9 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.security:spring-security-core
+[2025-09-12 13:37:44] org.springframework.security:spring-security-core:5.7.8 -> org.springframework.security:spring-security-core:5.7.10 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.security:spring-security-core
+[2025-09-12 13:37:45] org.springframework.security:spring-security-core:5.7.8 -> org.springframework.security:spring-security-core:5.7.11 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.security:spring-security-core
+[2025-09-12 13:37:46] org.springframework.security:spring-security-core:5.7.8 -> org.springframework.security:spring-security-core:5.7.12 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.security:spring-security-core
+[2025-09-12 13:37:47] org.springframework.security:spring-security-core:5.7.8 -> org.springframework.security:spring-security-core:5.7.13 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.security:spring-security-core
+[2025-09-12 13:37:48] org.springframework.security:spring-security-core:5.7.8 -> org.springframework.security:spring-security-core:5.7.14 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.security:spring-security-core
+[2025-09-12 13:37:49] org.springframework.security:spring-security-core:5.7.8 -> org.springframework.security:spring-security-core:5.8.0 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.security:spring-security-core
+[2025-09-12 13:37:50] org.springframework.security:spring-security-core:5.7.8 -> org.springframework.security:spring-security-core:5.8.1 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.security:spring-security-core
+[2025-09-12 13:37:52] org.springframework.security:spring-security-core:5.7.8 -> org.springframework.security:spring-security-core:5.8.2 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.security:spring-security-core
+[2025-09-12 13:37:54] org.springframework.security:spring-security-core:5.7.8 -> org.springframework.security:spring-security-core:5.8.3 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.security:spring-security-core
+[2025-09-12 13:37:55] org.springframework.security:spring-security-core:5.7.8 -> org.springframework.security:spring-security-core:5.8.4 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.security:spring-security-core
+[2025-09-12 13:37:57] org.springframework.security:spring-security-core:5.7.8 -> org.springframework.security:spring-security-core:5.8.5 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.security:spring-security-core
+[2025-09-12 13:37:57] org.springframework.security:spring-security-core:5.7.8 -> org.springframework.security:spring-security-core:5.8.6 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.security:spring-security-core
+[2025-09-12 13:37:59] org.springframework.security:spring-security-core:5.7.8 -> org.springframework.security:spring-security-core:5.8.7 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.security:spring-security-core
+[2025-09-12 13:38:00] org.springframework.security:spring-security-core:5.7.8 -> org.springframework.security:spring-security-core:5.8.8 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.security:spring-security-core
+[2025-09-12 13:38:02] org.springframework.security:spring-security-core:5.7.8 -> org.springframework.security:spring-security-core:5.8.9 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.security:spring-security-core
+[2025-09-12 13:38:04] org.springframework.security:spring-security-core:5.7.8 -> org.springframework.security:spring-security-core:5.8.10 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.security:spring-security-core
+[2025-09-12 13:38:06] org.springframework.security:spring-security-core:5.7.8 -> org.springframework.security:spring-security-core:5.8.11 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.security:spring-security-core
+[2025-09-12 13:38:07] org.springframework.security:spring-security-core:5.7.8 -> org.springframework.security:spring-security-core:5.8.12 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.security:spring-security-core
+[2025-09-12 13:38:09] org.springframework.security:spring-security-core:5.7.8 -> org.springframework.security:spring-security-core:5.8.13 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.security:spring-security-core
+[2025-09-12 13:38:10] org.springframework.security:spring-security-core:5.7.8 -> org.springframework.security:spring-security-core:5.8.14 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.security:spring-security-core
+[2025-09-12 13:38:12] org.springframework.security:spring-security-core:5.7.8 -> org.springframework.security:spring-security-core:5.8.15 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.security:spring-security-core
+[2025-09-12 13:38:13] org.springframework.security:spring-security-core:5.7.8 -> org.springframework.security:spring-security-core:5.8.16 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.security:spring-security-core
+
+=== Summary ===
+Total comparisons: 369
+Failures: 23
+Success rate: 93.77%

@@ -1,0 +1,11 @@
+=== Comparison Failure Log ===
+[2025-09-13 03:16:06] org.easymock:easymock:5.2.0 -> org.easymock:easymock:5.3.0 : Failed to compare JAR files: JAPICMP comparison failed for org.easymock:easymock
+[2025-09-13 03:16:08] org.easymock:easymock:5.2.0 -> org.easymock:easymock:5.4.0 : Failed to compare JAR files: JAPICMP comparison failed for org.easymock:easymock
+[2025-09-13 03:16:09] org.easymock:easymock:5.2.0 -> org.easymock:easymock:5.5.0 : Failed to compare JAR files: JAPICMP comparison failed for org.easymock:easymock
+[2025-09-13 03:16:10] org.easymock:easymock:5.2.0 -> org.easymock:easymock:5.6.0 : Failed to compare JAR files: JAPICMP comparison failed for org.easymock:easymock
+[2025-09-13 03:16:10] org.projectlombok:lombok:1.18.38 -> org.projectlombok:lombok:1.18.40 : Failed to compare JAR files: JAPICMP comparison failed for org.projectlombok:lombok
+
+=== Summary ===
+Total comparisons: 10
+Failures: 5
+Success rate: 50.00%
