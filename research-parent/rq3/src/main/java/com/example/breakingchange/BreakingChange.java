@@ -15,7 +15,8 @@ public class BreakingChange {
 
   // Additional metadata
   private final int depth; // 1 = direct, >1 = transitive
-  private final Dependency directParentDependency; // direct dep that introduced the transitive one
+  private final Dependency directParentDependency; // direct dep that introduced the transitive one (NEW version)
+  private final Dependency oldDirectParentDependency; // direct dep that introduced the transitive one (OLD version)
 
   private final boolean isBinaryCompatible;
   private final boolean isSourceCompatible;
@@ -30,6 +31,7 @@ public class BreakingChange {
     this.newDependency = builder.newDependency;
     this.depth = builder.depth;
     this.directParentDependency = builder.directParentDependency;
+    this.oldDirectParentDependency = builder.oldDirectParentDependency;
     this.isBinaryCompatible = builder.isBinaryCompatible;
     this.isSourceCompatible = builder.isSourceCompatible;
     this.isTransitive = builder.isTransitive;
@@ -50,6 +52,7 @@ public class BreakingChange {
 
     private int depth = 1; // default to direct
     private Dependency directParentDependency;
+    private Dependency oldDirectParentDependency;
 
     private boolean isBinaryCompatible;
     private boolean isSourceCompatible;
@@ -92,6 +95,11 @@ public class BreakingChange {
 
     public Builder directParentDependency(Dependency directParentDependency) {
       this.directParentDependency = directParentDependency;
+      return this;
+    }
+
+    public Builder oldDirectParentDependency(Dependency oldDirectParentDependency) {
+      this.oldDirectParentDependency = oldDirectParentDependency;
       return this;
     }
 
@@ -146,6 +154,10 @@ public class BreakingChange {
 
   public Dependency getDirectParentDependency() {
     return directParentDependency;
+  }
+
+  public Dependency getOldDirectParentDependency() {
+    return oldDirectParentDependency;
   }
 
   public boolean isBinaryCompatible() {

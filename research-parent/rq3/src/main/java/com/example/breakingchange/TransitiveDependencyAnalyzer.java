@@ -183,6 +183,7 @@ public class TransitiveDependencyAnalyzer {
                 // Depth unknown from generator; we mark as >1. Use 2 as conservative default.
                 .depth(2)
                 .directParentDependency(transitiveDependencyChange.getNewDirectDependency())
+                .oldDirectParentDependency(transitiveDependencyChange.getOldDirectDependency())
                 .build();
         transitiveBreakingChanges.add(transitiveChange);
       }
