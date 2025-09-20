@@ -14,6 +14,7 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
 import java.util.logging.Level;
@@ -22,15 +23,14 @@ import org.eclipse.aether.graph.Dependency;
 
 public class Script {
   public static final Path csvFolder =
-      Paths.get("C:\\Users\\tyin363\\Documents\\part4-project\\data\\rq3");
+      Paths.get("C:\\Users\\Alvari\\Documents\\UNI\\softeng_700\\test-results");
 
   private static final Path reposFolder =
-      Paths.get("C:\\Users\\tyin363\\Documents\\repos");
-
+      Paths.get("C:\\Users\\Alvari\\Documents\\UNI\\archive\\SOFTENG_206\\repos");
 
   private static final Logger LOGGER = Logger.getLogger(Script.class.getName());
 
-  private static final String startRepo = "apache__xmlgraphics-batik";
+  private static final String startRepo = "escaipe-room-beta-and-final-team-27";
 
   public static void main(String[] args) throws IOException {
 
@@ -66,12 +66,18 @@ public class Script {
       for (SubModule submodule : subModules) {
 
         if (submodule.hasTooManyDeps()) {
-          LOGGER.warning("Skipping analysis for submodule '" + submodule.getName() + "' due to excessive dependencies.");
+          LOGGER.warning(
+              "Skipping analysis for submodule '"
+                  + submodule.getName()
+                  + "' due to excessive dependencies.");
           continue;
         }
 
         if (submodule.hasTooManyLOC()) {
-          LOGGER.warning("Skipping analysis for submodule '" + submodule.getName() + "' due to excessive lines of code.");
+          LOGGER.warning(
+              "Skipping analysis for submodule '"
+                  + submodule.getName()
+                  + "' due to excessive lines of code.");
           continue;
         }
 
@@ -132,16 +138,16 @@ public class Script {
     int totalUsedBreakingChanges = 0;
 
     // Collect all breaking changes and usage results for final writing
-    List<BreakingChange> allDirectBreakingChanges = new java.util.ArrayList<>();
-    List<BreakingChange> allTransitiveBreakingChanges = new java.util.ArrayList<>();
-    List<BreakingChangeUse> allUsageResults = new java.util.ArrayList<>();
+    List<BreakingChange> allDirectBreakingChanges = new ArrayList<>();
+    List<BreakingChange> allTransitiveBreakingChanges = new ArrayList<>();
+    List<BreakingChangeUse> allUsageResults = new ArrayList<>();
 
     for (Dependency dep : deps) {
 
       DependencyAnalysis dependencyAnalysis = new DependencyAnalysis(dep, failureTracker);
-
+      Pair<List<BreakingChange>, List<BreakingChange>> result;
       try {
-        dependencyAnalysis.execute();
+        result = dependencyAnalysis.execute();
       } catch (VersionResolutionException e) {
         LOGGER.log(Level.SEVERE, "Version resolution failed", e);
         continue;
@@ -160,17 +166,8 @@ public class Script {
         continue;
       }
 
-      List<BreakingChange> directBreakingChanges = dependencyAnalysis.getDirectBreakingChanges();
-      List<BreakingChange> transitiveBreakingChanges =
-          dependencyAnalysis.getTransitiveBreakingChanges();
-
-      // Null-safe fallback to avoid NPEs when analysis fails
-      if (directBreakingChanges == null) {
-        directBreakingChanges = java.util.Collections.emptyList();
-      }
-      if (transitiveBreakingChanges == null) {
-        transitiveBreakingChanges = java.util.Collections.emptyList();
-      }
+      List<BreakingChange> directBreakingChanges = result.getFirst();
+      List<BreakingChange> transitiveBreakingChanges = result.getSecond();
 
       LOGGER.info(
           "Found "
@@ -189,37 +186,37 @@ public class Script {
       allTransitiveBreakingChanges.addAll(transitiveBreakingChanges);
 
       // Only proceed with client analysis if we found breaking changes
-      if (!directBreakingChanges.isEmpty() || !transitiveBreakingChanges.isEmpty()) {
-
-        // Run client analysis to see which ones are actually used
-        ClientAnalysis clientAnalysis =
-            new ClientAnalysis(submodule, directBreakingChanges, transitiveBreakingChanges);
-
-        List<BreakingChangeUse> allBreakingChangeUses = clientAnalysis.findClientBreakingChanges();
-
-        // Collect usage results for final writing
-        allUsageResults.addAll(allBreakingChangeUses);
-
-        // Append to CSV with only breaking changes that are used in client code
-        usedBcWriter.writeUsedBreakingChanges(allBreakingChangeUses);
-
-        // Count for logging
-        long usedCount =
-            allBreakingChangeUses.stream().filter(BreakingChangeUse::isUsedInClient).count();
-        totalUsedBreakingChanges += (int) usedCount;
-
-        LOGGER.info(
-            "Client analysis complete for dependency "
-                + dep
-                + ". "
-                + usedCount
-                + " breaking changes used in client code out of "
-                + (directBreakingChanges.size() + transitiveBreakingChanges.size())
-                + " total");
-      } else {
+      if (directBreakingChanges.isEmpty() && transitiveBreakingChanges.isEmpty()) {
         LOGGER.info(
             "No breaking changes found for dependency " + dep + " - skipping client analysis");
+        continue;
       }
+
+      // Run client analysis to see which ones are actually used
+      ClientAnalysis clientAnalysis =
+          new ClientAnalysis(submodule, directBreakingChanges, transitiveBreakingChanges);
+
+      List<BreakingChangeUse> allBreakingChangeUses = clientAnalysis.findClientBreakingChanges();
+
+      // Collect usage results for final writing
+      allUsageResults.addAll(allBreakingChangeUses);
+
+      // Append to CSV with only breaking changes that are used in client code
+      usedBcWriter.writeUsedBreakingChanges(allBreakingChangeUses);
+
+      // Count for logging
+      long usedCount =
+          allBreakingChangeUses.stream().filter(BreakingChangeUse::isUsedInClient).count();
+      totalUsedBreakingChanges += (int) usedCount;
+
+      LOGGER.info(
+          "Client analysis complete for dependency "
+              + dep
+              + ". "
+              + usedCount
+              + " breaking changes used in client code out of "
+              + (directBreakingChanges.size() + transitiveBreakingChanges.size())
+              + " total");
     }
 
     // find all the symbols for later normalisation

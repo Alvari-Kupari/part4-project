@@ -18,7 +18,6 @@ import org.eclipse.aether.version.InvalidVersionSpecificationException;
 import org.eclipse.aether.version.Version;
 import org.eclipse.aether.version.VersionScheme;
 
-
 public class DependencyUpdate {
   private static final String GET_ALL_VERSIONS = "[0,)";
   private Dependency dependency;
@@ -75,8 +74,6 @@ public class DependencyUpdate {
 
     List<Version> versions = result.getVersions();
 
-    System.out.println("versions before for dep: " + dependency + ": " + versions);
-
     // filter our version below the one in the pom, and filter out pre release versions.
     for (int i = versions.size() - 1; i >= 0; i--) {
       Version version = versions.get(i);
@@ -85,8 +82,6 @@ public class DependencyUpdate {
         versions.remove(i);
       }
     }
-
-    System.out.println("versions after for dep: " + dependency + ": " + versions);
 
     boolean wasRemoved = versions.remove(current);
 

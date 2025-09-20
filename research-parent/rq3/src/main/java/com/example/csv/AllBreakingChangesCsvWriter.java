@@ -47,6 +47,7 @@ public class AllBreakingChangesCsvWriter {
     writer.append(
         "Library_Name,Old_Version,New_Version,Class_Name,Member_Name,Change_Type,Description,"
             + "Binary_Compatible,Source_Compatible,Is_Transitive,Depth,Direct_Parent_Dependency,"
+            + "Direct_Dependency_Old_Version,Direct_Dependency_New_Version,"
             + "Release_Type,Is_Used_In_Client\n");
     writer.flush();
   }
@@ -123,13 +124,26 @@ public class AllBreakingChangesCsvWriter {
     int depth = bc.getDepth();
     String directParent = getDependencyName(bc.getDirectParentDependency());
 
+    // Direct dependency versions (only for transitive dependencies)
+    String directDepOldVersion = "";
+    String directDepNewVersion = "";
+    if (isTransitive) {
+      // For transitive dependencies, get the direct parent dependency versions
+      if (bc.getOldDirectParentDependency() != null) {
+        directDepOldVersion = getDependencyVersion(bc.getOldDirectParentDependency());
+      }
+      if (bc.getDirectParentDependency() != null) {
+        directDepNewVersion = getDependencyVersion(bc.getDirectParentDependency());
+      }
+    }
+
     // Version analysis (no major version checks since you only do minor updates)
     String releaseType = determineReleaseType(oldVersion, newVersion);
 
     // Write CSV row
     writer.append(
         String.format(
-            "%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%d,%s,%s,%s\n",
+            "%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%d,%s,%s,%s,%s,%s\n",
             libraryName,
             oldVersion,
             newVersion,
@@ -142,6 +156,8 @@ public class AllBreakingChangesCsvWriter {
             isTransitive,
             depth,
             directParent,
+            directDepOldVersion,
+            directDepNewVersion,
             releaseType,
             isUsedInClient));
   }
