@@ -2,6 +2,7 @@ package com.example.parsing;
 
 import com.example.BreakingChangeUse;
 import com.github.javaparser.ast.expr.*;
+import com.github.javaparser.ast.type.ClassOrInterfaceType;
 import com.github.javaparser.ast.visitor.VoidVisitorAdapter;
 import com.github.javaparser.resolution.declarations.*;
 import com.github.javaparser.resolution.types.ResolvedType;
@@ -95,26 +96,23 @@ public class Visitor extends VoidVisitorAdapter<List<BreakingChangeUse>> {
 
 
   @Override
-  public void visit(VariableDeclarationExpr n, List<BreakingChangeUse> uses) {
-    // Handle variable declarations like "XmlFrameDecoder test0;"
-    n.getVariables().forEach(variable -> {
+  public void visit(ClassOrInterfaceType n, List<BreakingChangeUse> uses) {
+    try {
+      // Try to resolve the type
+      ResolvedType resolvedType = n.resolve();
+      String fqn = resolvedType.describe();
+      int line = n.getBegin().map(pos -> pos.line).orElse(-1);
+      checker.checkNameUsage(fqn, uses, "ClassOrInterfaceType", currentFile, line);
+    } catch (Exception e) {
+      // Try just the type name if resolution fails
       try {
-        // Try to resolve the type of the variable
-        ResolvedType resolvedType = variable.getType().resolve();
-        String fqn = resolvedType.describe();
-        int line = variable.getBegin().map(pos -> pos.line).orElse(-1);
-        checker.checkNameUsage(fqn, uses, "VariableDeclarationExpr", currentFile, line);
-      } catch (Exception e) {
-        // Try just the type name if resolution fails
-        try {
-          String typeName = variable.getType().asString();
-          int line = variable.getBegin().map(pos -> pos.line).orElse(-1);
-          checker.checkNameUsage(typeName, uses, "VariableDeclarationExpr", currentFile, line);
-        } catch (Exception e2) {
-          // Ignore if we can't get type information
-        }
+        String typeName = n.getNameAsString();
+        int line = n.getBegin().map(pos -> pos.line).orElse(-1);
+        checker.checkNameUsage(typeName, uses, "ClassOrInterfaceType", currentFile, line);
+      } catch (Exception e2) {
+        // Ignore if we can't get type information
       }
-    });
+    }
     super.visit(n, uses);
   }
 }
