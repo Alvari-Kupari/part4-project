@@ -23,14 +23,14 @@ import org.eclipse.aether.graph.Dependency;
 
 public class Script {
   public static final Path csvFolder =
-      Paths.get("C:\\Users\\Alvari\\Documents\\UNI\\softeng_700\\test-results");
+      Paths.get("/Users/tonyyin/Desktop/Projects/csv2");
 
   private static final Path reposFolder =
-      Paths.get("C:\\Users\\Alvari\\Documents\\UNI\\archive\\SOFTENG_206\\repos");
+      Paths.get("/Users/tonyyin/Desktop/Projects/rq3repos");
 
   private static final Logger LOGGER = Logger.getLogger(Script.class.getName());
 
-  private static final String startRepo = "escaipe-room-beta-and-final-team-27";
+  // private static final String startRepo = "escaipe-room-beta-and-final-team-27";
 
   public static void main(String[] args) throws IOException {
 
@@ -46,11 +46,11 @@ public class Script {
 
     for (Repo repo : repos) {
 
-      if (repo.getName().equals(startRepo)) {
-        seen = true;
-      }
+      // if (repo.getName().equals(startRepo)) {
+      //   seen = true;
+      // }
 
-      if (!seen) continue;
+      // if (!seen) continue;
 
       LOGGER.info(
           "\n\n========== STARTING ANALYSIS FOR REPOSITORY: " + repo.getName() + " ==========\n");
@@ -142,6 +142,7 @@ public class Script {
     List<BreakingChange> allTransitiveBreakingChanges = new ArrayList<>();
     List<BreakingChangeUse> allUsageResults = new ArrayList<>();
 
+    // FIRST PASS: Collect all breaking changes from all dependencies
     for (Dependency dep : deps) {
 
       DependencyAnalysis dependencyAnalysis = new DependencyAnalysis(dep, failureTracker);
@@ -184,17 +185,19 @@ public class Script {
       // Collect breaking changes for final writing
       allDirectBreakingChanges.addAll(directBreakingChanges);
       allTransitiveBreakingChanges.addAll(transitiveBreakingChanges);
+    }
 
-      // Only proceed with client analysis if we found breaking changes
-      if (directBreakingChanges.isEmpty() && transitiveBreakingChanges.isEmpty()) {
-        LOGGER.info(
-            "No breaking changes found for dependency " + dep + " - skipping client analysis");
-        continue;
-      }
+    // SECOND PASS: Now run client analysis with ALL breaking changes
+    if (!allDirectBreakingChanges.isEmpty() || !allTransitiveBreakingChanges.isEmpty()) {
+      LOGGER.info(
+          "Running client analysis with ALL breaking changes: "
+              + allDirectBreakingChanges.size()
+              + " direct + "
+              + allTransitiveBreakingChanges.size()
+              + " transitive");
 
-      // Run client analysis to see which ones are actually used
       ClientAnalysis clientAnalysis =
-          new ClientAnalysis(submodule, directBreakingChanges, transitiveBreakingChanges);
+          new ClientAnalysis(submodule, allDirectBreakingChanges, allTransitiveBreakingChanges);
 
       List<BreakingChangeUse> allBreakingChangeUses = clientAnalysis.findClientBreakingChanges();
 
@@ -210,13 +213,13 @@ public class Script {
       totalUsedBreakingChanges += (int) usedCount;
 
       LOGGER.info(
-          "Client analysis complete for dependency "
-              + dep
-              + ". "
+          "Client analysis complete. "
               + usedCount
               + " breaking changes used in client code out of "
-              + (directBreakingChanges.size() + transitiveBreakingChanges.size())
+              + (allDirectBreakingChanges.size() + allTransitiveBreakingChanges.size())
               + " total");
+    } else {
+      LOGGER.info("No breaking changes found - skipping client analysis");
     }
 
     // find all the symbols for later normalisation

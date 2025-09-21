@@ -130,4 +130,28 @@ public class Visitor extends VoidVisitorAdapter<List<BreakingChangeUse>> {
     }
     super.visit(n, uses);
   }
+
+  @Override
+  public void visit(VariableDeclarationExpr n, List<BreakingChangeUse> uses) {
+    // Handle variable declarations like "XmlFrameDecoder test0;"
+    n.getVariables().forEach(variable -> {
+      try {
+        // Try to resolve the type of the variable
+        ResolvedType resolvedType = variable.getType().resolve();
+        String fqn = resolvedType.describe();
+        int line = variable.getBegin().map(pos -> pos.line).orElse(-1);
+        checker.checkNameUsage(fqn, uses, "VariableDeclarationExpr", currentFile, line);
+      } catch (Exception e) {
+        // Try just the type name if resolution fails
+        try {
+          String typeName = variable.getType().asString();
+          int line = variable.getBegin().map(pos -> pos.line).orElse(-1);
+          checker.checkNameUsage(typeName, uses, "VariableDeclarationExpr", currentFile, line);
+        } catch (Exception e2) {
+          // Ignore if we can't get type information
+        }
+      }
+    });
+    super.visit(n, uses);
+  }
 }

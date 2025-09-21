@@ -87,6 +87,9 @@ public class ClientAnalysis {
         "Scanning " + parser.getJavaFiles().size() + " Java files for breaking change usage...");
     int fileCount = 0;
     int usageFoundCount = 0;
+    
+    // Track which breaking changes have been used (for deduplication)
+    Set<String> usedBreakingChangeKeys = new HashSet<>();
 
     for (Path javaFile : parser.getJavaFiles()) {
       fileCount++;
@@ -112,12 +115,25 @@ public class ClientAnalysis {
           List<BreakingChangeUse> fileUsages = new ArrayList<>();
           visitor.visit(cu, fileUsages);
 
-          // Update our tracking with found usages
+          // Mark breaking changes as used (deduplicated by breaking change key)
           for (BreakingChangeUse usage : fileUsages) {
             BreakingChange bc = usage.getBreakingChange();
             String key = bc.getClassName() + "." + bc.getMemberName() + "." + bc.getChangeType();
-            allBreakingChanges.put(key, usage); // Replace unused with used
-            usageFoundCount++;
+            
+            if (!usedBreakingChangeKeys.contains(key)) {
+              // First time we see this breaking change being used
+              allBreakingChanges.put(key, usage);
+              usedBreakingChangeKeys.add(key);
+              usageFoundCount++;
+            } else {
+              // We've already marked this breaking change as used
+              // Update with more detailed usage info if this one has more context
+              BreakingChangeUse existing = allBreakingChanges.get(key);
+              if (existing != null && usage.getUsageContext() != null && 
+                  (existing.getUsageContext() == null || usage.getUsageContext().length() > existing.getUsageContext().length())) {
+                allBreakingChanges.put(key, usage);
+              }
+            }
           }
         } else {
           LOGGER.warning("Failed to parse file: " + javaFile + ". Errors: " + result.getProblems());
@@ -136,6 +152,7 @@ public class ClientAnalysis {
     LOGGER.info("  - Breaking changes used in client code: " + actualUsedCount);
     LOGGER.info(
         "  - Breaking changes NOT used in client code: " + (allResults.size() - actualUsedCount));
+    LOGGER.info("  - Deduplicated from " + usageFoundCount + " individual AST detections");
 
     return allResults;
   }
