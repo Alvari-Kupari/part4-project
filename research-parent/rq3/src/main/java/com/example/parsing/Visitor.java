@@ -2,7 +2,6 @@ package com.example.parsing;
 
 import com.example.BreakingChangeUse;
 import com.github.javaparser.ast.expr.*;
-import com.github.javaparser.ast.type.ClassOrInterfaceType;
 import com.github.javaparser.ast.visitor.VoidVisitorAdapter;
 import com.github.javaparser.resolution.declarations.*;
 import com.github.javaparser.resolution.types.ResolvedType;
@@ -78,25 +77,7 @@ public class Visitor extends VoidVisitorAdapter<List<BreakingChangeUse>> {
     super.visit(n, uses);
   }
 
-  @Override
-  public void visit(NameExpr n, List<BreakingChangeUse> uses) {
-    try {
-      ResolvedValueDeclaration resolved = n.resolve();
-      String fqn = resolved.getType().describe();
-      int line = n.getBegin().map(pos -> pos.line).orElse(-1);
-      checker.checkNameUsage(fqn, uses, "NameExpr", currentFile, line);
-    } catch (Exception e) {
-      // Try just the name
-      try {
-        String name = n.getNameAsString();
-        int line = n.getBegin().map(pos -> pos.line).orElse(-1);
-        checker.checkNameUsage(name, uses, "NameExpr", currentFile, line);
-      } catch (Exception e2) {
-        // Ignore if we can't resolve
-      }
-    }
-    super.visit(n, uses);
-  }
+
 
   @Override
   public void visit(MethodReferenceExpr n, List<BreakingChangeUse> uses) {
@@ -111,25 +92,7 @@ public class Visitor extends VoidVisitorAdapter<List<BreakingChangeUse>> {
     super.visit(n, uses);
   }
 
-  @Override
-  public void visit(ClassOrInterfaceType n, List<BreakingChangeUse> uses) {
-    try {
-      ResolvedType resolved = n.resolve();
-      String fqn = resolved.describe();
-      int line = n.getBegin().map(pos -> pos.line).orElse(-1);
-      checker.checkNameUsage(fqn, uses, "ClassOrInterfaceType", currentFile, line);
-    } catch (Exception e) {
-      // Try just the type name
-      try {
-        String typeName = n.getNameAsString();
-        int line = n.getBegin().map(pos -> pos.line).orElse(-1);
-        checker.checkNameUsage(typeName, uses, "ClassOrInterfaceType", currentFile, line);
-      } catch (Exception e2) {
-        // Ignore if we can't resolve
-      }
-    }
-    super.visit(n, uses);
-  }
+
 
   @Override
   public void visit(VariableDeclarationExpr n, List<BreakingChangeUse> uses) {

@@ -72,23 +72,15 @@ public class ClientAnalysis {
     Parser parser = new Parser(subModule.getDir(), artifacts, javaVersion);
     Visitor visitor = new Visitor(symbolChecker);
 
-    // Start with all breaking changes marked as unused
+    // Start with empty map - we'll only add used breaking changes
     Map<String, BreakingChangeUse> allBreakingChanges = new HashMap<>();
-    for (BreakingChange bc : directBreakingChanges) {
-      String key = bc.getClassName() + "." + bc.getMemberName() + "." + bc.getChangeType();
-      allBreakingChanges.put(key, BreakingChangeUse.unused(bc));
-    }
-    for (BreakingChange bc : transitiveBreakingChanges) {
-      String key = bc.getClassName() + "." + bc.getMemberName() + "." + bc.getChangeType();
-      allBreakingChanges.put(key, BreakingChangeUse.unused(bc));
-    }
 
     LOGGER.info(
         "Scanning " + parser.getJavaFiles().size() + " Java files for breaking change usage...");
     int fileCount = 0;
     int usageFoundCount = 0;
     
-    // Track which breaking changes have been used (for deduplication)
+    // Track which breaking changes have been used (for deduplication by line and context)
     Set<String> usedBreakingChangeKeys = new HashSet<>();
 
     for (Path javaFile : parser.getJavaFiles()) {
@@ -115,24 +107,19 @@ public class ClientAnalysis {
           List<BreakingChangeUse> fileUsages = new ArrayList<>();
           visitor.visit(cu, fileUsages);
 
-          // Mark breaking changes as used (deduplicated by breaking change key)
+          // Add each breaking change usage as a separate symbol (include line number for uniqueness)
           for (BreakingChangeUse usage : fileUsages) {
             BreakingChange bc = usage.getBreakingChange();
-            String key = bc.getClassName() + "." + bc.getMemberName() + "." + bc.getChangeType();
+            // Create unique key based on breaking change + line number + usage type for proper symbol counting
+            String key = bc.getClassName() + "." + bc.getMemberName() + "." + bc.getChangeType() + 
+                        "@" + usage.getUsageLocation() + ":" + usage.getLineNumber() + 
+                        "[" + usage.getUsageType() + "]";
             
             if (!usedBreakingChangeKeys.contains(key)) {
-              // First time we see this breaking change being used
+              // Each unique usage is a separate symbol for normalization
               allBreakingChanges.put(key, usage);
               usedBreakingChangeKeys.add(key);
               usageFoundCount++;
-            } else {
-              // We've already marked this breaking change as used
-              // Update with more detailed usage info if this one has more context
-              BreakingChangeUse existing = allBreakingChanges.get(key);
-              if (existing != null && usage.getUsageContext() != null && 
-                  (existing.getUsageContext() == null || usage.getUsageContext().length() > existing.getUsageContext().length())) {
-                allBreakingChanges.put(key, usage);
-              }
             }
           }
         } else {
@@ -145,14 +132,12 @@ public class ClientAnalysis {
     }
 
     List<BreakingChangeUse> allResults = new ArrayList<>(allBreakingChanges.values());
-    long actualUsedCount = allResults.stream().mapToLong(use -> use.isUsedInClient() ? 1 : 0).sum();
+    long actualUsedCount = allResults.size(); // All entries are used since we only add used ones
 
     LOGGER.info("Client analysis complete:");
-    LOGGER.info("  - Total breaking changes analyzed: " + allResults.size());
     LOGGER.info("  - Breaking changes used in client code: " + actualUsedCount);
-    LOGGER.info(
-        "  - Breaking changes NOT used in client code: " + (allResults.size() - actualUsedCount));
-    LOGGER.info("  - Deduplicated from " + usageFoundCount + " individual AST detections");
+    LOGGER.info("  - Each usage represents a separate symbol for normalization");
+    LOGGER.info("  - Total symbol usages detected: " + usageFoundCount);
 
     return allResults;
   }
