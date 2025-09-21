@@ -214,12 +214,20 @@ public class SymbolChecker {
         String className = fqn.substring(0, lastDot);
         String methodName = fqn.substring(lastDot + 1);
         
-        // Look for method breaking changes in this class
+        // Remove parameter information if present (e.g., "methodName(param)" -> "methodName")
+        if (methodName.contains("(")) {
+          methodName = methodName.substring(0, methodName.indexOf("("));
+        }
+        
+        // Look for method breaking changes in this exact class only
         String methodKey = className + "." + methodName;
         if (methodBreakingChanges.containsKey(methodKey)) {
           System.out.println("✅ Found METHOD breaking change for: " + methodKey);
           return methodBreakingChanges.get(methodKey);
         }
+        
+        // DO NOT do fallback matching to other classes - this was causing false positives
+        System.out.println("❌ No exact method match found for: " + methodKey);
       }
     }
     
@@ -231,12 +239,28 @@ public class SymbolChecker {
       }
     }
     
-    // Generic fallback: check if any class matches
+    // Generic fallback: check if any class matches EXACTLY
+    // Only match exact class names or class names followed by member access
+    // BUT be very strict about method calls to avoid false positives
     for (String className : classNames) {
-      if (fqn.startsWith(className) || fqn.equals(className)) {
+      if (fqn.equals(className)) {
+        // Exact class match
         List<BreakingChange> classBreakingChanges = breakingChangesByClass.get(className);
         if (classBreakingChanges != null && !classBreakingChanges.isEmpty()) {
-          System.out.println("✅ Found generic breaking change for class: " + className);
+          System.out.println("✅ Found exact class match for: " + className);
+          return classBreakingChanges.get(0);
+        }
+      } else if (fqn.startsWith(className + ".") && fqn.indexOf(".", className.length() + 1) == -1) {
+        // Class name followed by single member (e.g., "com.example.Class.method" but not "com.example.ClassOther.method")
+        // BUT don't match method calls through generic fallback - too risky for false positives
+        if ("MethodCallExpr".equals(usageType)) {
+          System.out.println("❌ Skipping generic fallback for MethodCallExpr to avoid false positives: " + className);
+          continue;
+        }
+        
+        List<BreakingChange> classBreakingChanges = breakingChangesByClass.get(className);
+        if (classBreakingChanges != null && !classBreakingChanges.isEmpty()) {
+          System.out.println("✅ Found member access match for class: " + className);
           return classBreakingChanges.get(0);
         }
       }
