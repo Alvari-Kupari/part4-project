@@ -11,14 +11,11 @@ import com.example.normalisation.Symbol;
 import com.example.pom.PomException;
 import com.example.pom.PomFile;
 import java.io.IOException;
+import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-<<<<<<< HEAD
 import java.util.ArrayList;
-=======
-import java.nio.charset.StandardCharsets;
->>>>>>> feat/powershell
 import java.util.List;
 import java.util.Set;
 import java.util.logging.Level;
@@ -30,23 +27,14 @@ public class Script {
       Paths.get("/Users/tonyyin/Desktop/Projects/csv2");
 
   private static final Path reposFolder =
-<<<<<<< HEAD
-      Paths.get("/Users/tonyyin/Desktop/Projects/rq3repos");
-
-  private static final Logger LOGGER = Logger.getLogger(Script.class.getName());
-
-  // private static final String startRepo = "escaipe-room-beta-and-final-team-27";
-=======
       Paths.get("C:\\Users\\tyin363\\Documents\\repos");
 
   private static final Path progressFile =
-      csvFolder.resolve("progress.txt");
+      csvFolder.resolve("progress.txt ");
 
   private static final Logger LOGGER = Logger.getLogger(Script.class.getName());
 
-  // Remove the hardcoded startRepo - we'll determine it dynamically
-  // private static final String startRepo = "castlemock__castlemock";
->>>>>>> feat/powershell
+  private static final String startRepo = "castlemock__castlemock";
 
   public static void main(String[] args) throws IOException {
 
@@ -70,14 +58,6 @@ public class Script {
 
     for (Repo repo : repos) {
 
-<<<<<<< HEAD
-      // if (repo.getName().equals(startRepo)) {
-      //   seen = true;
-      // }
-
-      // if (!seen) continue;
-
-=======
       // Skip until we reach the repo after the last processed one
       if (!seen) {
         if (repo.getName().equals(lastProcessedRepo)) {
@@ -86,7 +66,6 @@ public class Script {
         continue;
       }
 
->>>>>>> feat/powershell
       LOGGER.info(
           "\n\n========== STARTING ANALYSIS FOR REPOSITORY: " + repo.getName() + " ==========\n");
 
