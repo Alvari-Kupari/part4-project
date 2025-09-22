@@ -1,8 +1,0 @@
-=== Comparison Failure Log ===
-[2025-09-08 14:34:10] org.apache.derby:derby:10.15.2.0 -> org.apache.derby:derby:10.16.1.1 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.derby:derby
-[2025-09-08 14:34:10] org.apache.derby:derby:10.15.2.0 -> org.apache.derby:derby:10.17.1.0 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.derby:derby
-
-=== Summary ===
-Total comparisons: 32
-Failures: 2
-Success rate: 93.75%

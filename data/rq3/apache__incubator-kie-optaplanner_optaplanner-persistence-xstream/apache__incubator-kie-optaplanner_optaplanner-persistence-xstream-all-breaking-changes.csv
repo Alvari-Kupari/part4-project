@@ -1,3 +1,0 @@
-Library_Name,Old_Version,New_Version,Class_Name,Member_Name,Change_Type,Description,Binary_Compatible,Source_Compatible,Is_Transitive,Depth,Direct_Parent_Dependency,Release_Type,Is_Used_In_Client
-org.graalvm.sdk:nativeimage,23.1.7,23.1.8,org.graalvm.nativeimage.impl.PinnedObjectSupport,isPinned,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.graalvm.sdk:nativeimage,PATCH,false
-org.graalvm.sdk:nativeimage,23.1.7,23.1.8,org.graalvm.nativeimage.impl.PinnedObjectSupport,isPinned,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.graalvm.sdk:graal-sdk,PATCH,false

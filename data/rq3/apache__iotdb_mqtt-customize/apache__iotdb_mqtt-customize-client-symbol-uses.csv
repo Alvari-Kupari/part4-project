@@ -1,9 +1,0 @@
-Library_Name,Symbol_Type,Class_Name,Symbol_Name,Usage_Location,Line_Number
-JDK:java.base:N/A:N/A,ObjectCreationExpr,java.util.ArrayList,ArrayList,C:\Users\tyin363\Documents\repos\apache__iotdb\example\mqtt-customize\src\main\java\org\apache\iotdb\mqtt\server\CustomizedJsonPayloadFormatter.java,44
-JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.lang.String,String,C:\Users\tyin363\Documents\repos\apache__iotdb\example\mqtt-customize\src\main\java\org\apache\iotdb\mqtt\server\CustomizedJsonPayloadFormatter.java,37
-JDK:java.base:N/A:N/A,MethodCallExpr,java.util.Arrays,asList,C:\Users\tyin363\Documents\repos\apache__iotdb\example\mqtt-customize\src\main\java\org\apache\iotdb\mqtt\server\CustomizedJsonPayloadFormatter.java,52
-JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.lang.String,String,C:\Users\tyin363\Documents\repos\apache__iotdb\example\mqtt-customize\src\main\java\org\apache\iotdb\mqtt\server\CustomizedJsonPayloadFormatter.java,71
-JDK:java.base:N/A:N/A,MethodCallExpr,java.util.Arrays,asList,C:\Users\tyin363\Documents\repos\apache__iotdb\example\mqtt-customize\src\main\java\org\apache\iotdb\mqtt\server\CustomizedJsonPayloadFormatter.java,51
-JDK:java.base:N/A:N/A,MethodCallExpr,java.util.Collections,emptyList,C:\Users\tyin363\Documents\repos\apache__iotdb\example\mqtt-customize\src\main\java\org\apache\iotdb\mqtt\server\CustomizedJsonPayloadFormatter.java,40
-JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.util.ArrayList,ArrayList,C:\Users\tyin363\Documents\repos\apache__iotdb\example\mqtt-customize\src\main\java\org\apache\iotdb\mqtt\server\CustomizedJsonPayloadFormatter.java,44
-JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.lang.String,String,C:\Users\tyin363\Documents\repos\apache__iotdb\example\mqtt-customize\src\main\java\org\apache\iotdb\mqtt\server\CustomizedJsonPayloadFormatter.java,65

@@ -1,8 +1,0 @@
-=== Comparison Failure Log ===
-[2025-08-25 15:34:32] org.projectlombok:lombok:1.18.36 -> org.projectlombok:lombok:1.18.38 : Failed to compare JAR files: JAPICMP comparison failed for org.projectlombok:lombok
-[2025-08-25 15:34:33] com.mysql:mysql-connector-j:8.3.0 -> com.mysql:mysql-connector-j:8.4.0 : Failed to compare JAR files: JAPICMP comparison failed for com.mysql:mysql-connector-j
-
-=== Summary ===
-Total comparisons: 2
-Failures: 2
-Success rate: 0.00%

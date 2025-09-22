@@ -3,7 +3,7 @@
 # and increment the output file number each time
 
 param(
-    [int]$StartingOutputNumber = 9,  # Starting output number (change this as needed)
+    [int]$StartingOutputNumber = 10,  # Starting output number (change this as needed)
     [int]$MaxRetries = 50,           # Maximum number of retries before giving up
     [string]$LogPrefix = "output"    # Prefix for log files
 )

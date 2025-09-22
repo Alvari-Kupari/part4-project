@@ -1,2 +1,0 @@
-Library_Name,Old_Version,New_Version,Class_Name,Member_Name,Change_Type,Description,Binary_Compatible,Source_Compatible,Is_Transitive,Depth,Direct_Parent_Dependency,Release_Type,Is_Used_In_Client
-org.springdoc:springdoc-openapi-starter-common,2.8.10,2.8.11,org.springdoc.core.configuration.SpringDocKotlinConfiguration,kotlinDefaultsInParamObjects,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.springdoc:springdoc-openapi-starter-webmvc-ui,PATCH,false

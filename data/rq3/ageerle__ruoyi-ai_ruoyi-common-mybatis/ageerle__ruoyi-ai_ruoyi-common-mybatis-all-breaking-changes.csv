@@ -1,9 +1,0 @@
-Library_Name,Old_Version,New_Version,Class_Name,Member_Name,Change_Type,Description,Binary_Compatible,Source_Compatible,Is_Transitive,Depth,Direct_Parent_Dependency,Release_Type,Is_Used_In_Client
-com.baomidou:mybatis-plus-extension,3.5.11,3.5.12,com.baomidou.mybatisplus.extension.spi.CompatibleSet,closeSqlSession,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.baomidou:mybatis-plus-spring-boot3-starter,PATCH,false
-com.baomidou:mybatis-plus-extension,3.5.11,3.5.12,com.baomidou.mybatisplus.extension.spi.CompatibleSet,executeBatch,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.baomidou:mybatis-plus-spring-boot3-starter,PATCH,false
-com.baomidou:mybatis-plus-extension,3.5.11,3.5.12,com.baomidou.mybatisplus.extension.spi.CompatibleSet,getInputStream,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.baomidou:mybatis-plus-spring-boot3-starter,PATCH,false
-com.baomidou:mybatis-plus-extension,3.5.11,3.5.12,com.baomidou.mybatisplus.extension.spi.CompatibleSet,getSqlSession,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.baomidou:mybatis-plus-spring-boot3-starter,PATCH,false
-com.baomidou:mybatis-plus-extension,3.5.11,3.5.12,com.baomidou.mybatisplus.extension.spi.CompatibleSet,closeSqlSession,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.baomidou:mybatis-plus-jsqlparser,PATCH,false
-com.baomidou:mybatis-plus-extension,3.5.11,3.5.12,com.baomidou.mybatisplus.extension.spi.CompatibleSet,executeBatch,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.baomidou:mybatis-plus-jsqlparser,PATCH,false
-com.baomidou:mybatis-plus-extension,3.5.11,3.5.12,com.baomidou.mybatisplus.extension.spi.CompatibleSet,getInputStream,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.baomidou:mybatis-plus-jsqlparser,PATCH,false
-com.baomidou:mybatis-plus-extension,3.5.11,3.5.12,com.baomidou.mybatisplus.extension.spi.CompatibleSet,getSqlSession,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.baomidou:mybatis-plus-jsqlparser,PATCH,false

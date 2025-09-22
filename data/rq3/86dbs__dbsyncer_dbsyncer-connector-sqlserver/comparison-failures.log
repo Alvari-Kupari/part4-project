@@ -1,8 +1,0 @@
-=== Comparison Failure Log ===
-[2025-08-22 14:17:38] com.microsoft.sqlserver:mssql-jdbc:7.4.1.jre8 -> com.microsoft.sqlserver:mssql-jdbc:7.4.1.jre11 : Failed to compare JAR files: JAPICMP comparison failed for com.microsoft.sqlserver:mssql-jdbc
-[2025-08-22 14:17:39] com.microsoft.sqlserver:mssql-jdbc:7.4.1.jre8 -> com.microsoft.sqlserver:mssql-jdbc:7.4.1.jre12 : Failed to compare JAR files: JAPICMP comparison failed for com.microsoft.sqlserver:mssql-jdbc
-
-=== Summary ===
-Total comparisons: 3
-Failures: 2
-Success rate: 33.33%

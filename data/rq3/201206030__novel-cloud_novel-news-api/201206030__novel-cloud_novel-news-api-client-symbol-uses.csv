@@ -1,8 +1,0 @@
-Library_Name,Symbol_Type,Class_Name,Symbol_Name,Usage_Location,Line_Number
-JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.lang.String,String,C:\Users\tyin363\Documents\repos\201206030__novel-cloud\novel-news\novel-news-api\src\main\java\io\github\xxyopen\novel\news\dto\resp\NewsInfoRespDto.java,36
-JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.lang.String,String,C:\Users\tyin363\Documents\repos\201206030__novel-cloud\novel-news\novel-news-api\src\main\java\io\github\xxyopen\novel\news\dto\resp\NewsInfoRespDto.java,42
-JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.time.LocalDateTime,LocalDateTime,C:\Users\tyin363\Documents\repos\201206030__novel-cloud\novel-news\novel-news-api\src\main\java\io\github\xxyopen\novel\news\dto\resp\NewsInfoRespDto.java,55
-JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.lang.Long,Long,C:\Users\tyin363\Documents\repos\201206030__novel-cloud\novel-news\novel-news-api\src\main\java\io\github\xxyopen\novel\news\dto\resp\NewsInfoRespDto.java,30
-JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.lang.Long,Long,C:\Users\tyin363\Documents\repos\201206030__novel-cloud\novel-news\novel-news-api\src\main\java\io\github\xxyopen\novel\news\dto\resp\NewsInfoRespDto.java,24
-JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.lang.String,String,C:\Users\tyin363\Documents\repos\201206030__novel-cloud\novel-news\novel-news-api\src\main\java\io\github\xxyopen\novel\news\dto\resp\NewsInfoRespDto.java,61
-JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.lang.String,String,C:\Users\tyin363\Documents\repos\201206030__novel-cloud\novel-news\novel-news-api\src\main\java\io\github\xxyopen\novel\news\dto\resp\NewsInfoRespDto.java,48

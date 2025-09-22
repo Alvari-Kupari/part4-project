@@ -1,3 +1,0 @@
-Library_Name,Old_Version,New_Version,Class_Name,Member_Name,Change_Type,Description,Binary_Compatible,Source_Compatible,Is_Transitive,Depth,Direct_Parent_Dependency,Release_Type,Is_Used_In_Client
-org.apache.tomcat.embed:tomcat-embed-el,9.0.82,9.0.83,org.apache.el.parser.SimpleNode,parent,FIELD_CHANGE,FIELD_TYPE_CHANGED,false,false,true,2,org.springframework.boot:spring-boot-starter-web,PATCH,false
-org.apache.tomcat.embed:tomcat-embed-el,9.0.82,9.0.83,org.apache.el.parser.SimpleNode,children,FIELD_CHANGE,FIELD_TYPE_CHANGED,false,false,true,2,org.springframework.boot:spring-boot-starter-web,PATCH,false

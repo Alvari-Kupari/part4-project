@@ -1,7 +1,0 @@
-Library_Name,Old_Version,New_Version,Class_Name,Member_Name,Change_Type,Description,Binary_Compatible,Source_Compatible,Is_Transitive,Depth,Direct_Parent_Dependency,Release_Type,Is_Used_In_Client
-io.github.imfangs:dify-java-client,1.1.6,1.1.7,io.github.imfangs.dify.client.model.datasets.SegmentListResponse,SegmentListResponse,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,io.github.imfangs:dify-java-client,PATCH,false
-com.coze:coze-api,0.4.1,0.4.2,com.coze.openapi.client.audio.rooms.model.RoomConfig,RoomConfig,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,com.coze:coze-api,PATCH,false
-com.coze:coze-api,0.4.1,0.4.2,com.coze.openapi.client.workflows.run.model.WorkflowEventMessage,WorkflowEventMessage,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,com.coze:coze-api,PATCH,false
-com.coze:coze-api,0.4.1,0.4.2,com.coze.openapi.client.workflows.run.model.WorkflowRunHistory,WorkflowRunHistory,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,com.coze:coze-api,PATCH,false
-com.coze:coze-api,0.4.1,0.4.2,com.coze.openapi.client.workflows.run.model.WorkflowRunResult,WorkflowRunResult,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,com.coze:coze-api,PATCH,false
-com.coze:coze-api,0.4.1,0.4.2,com.coze.openapi.client.workflows.run.RunWorkflowResp,RunWorkflowResp,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,com.coze:coze-api,PATCH,false

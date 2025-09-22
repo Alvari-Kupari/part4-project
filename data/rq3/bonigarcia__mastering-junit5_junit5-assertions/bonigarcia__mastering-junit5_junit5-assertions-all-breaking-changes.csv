@@ -1,5 +1,0 @@
-Library_Name,Old_Version,New_Version,Class_Name,Member_Name,Change_Type,Description,Binary_Compatible,Source_Compatible,Is_Transitive,Depth,Direct_Parent_Dependency,Release_Type,Is_Used_In_Client
-com.google.truth:truth,1.4.4,1.4.5,com.google.common.truth.DoubleSubject$TolerantDoubleComparison,com.google.common.truth.DoubleSubject$TolerantDoubleComparison,CLASS_CHANGE,CLASS_NOW_FINAL,false,false,false,1,com.google.truth:truth,PATCH,false
-com.google.truth:truth,1.4.4,1.4.5,com.google.common.truth.FloatSubject$TolerantFloatComparison,com.google.common.truth.FloatSubject$TolerantFloatComparison,CLASS_CHANGE,CLASS_NOW_FINAL,false,false,false,1,com.google.truth:truth,PATCH,false
-com.google.truth:truth,1.4.4,1.4.5,com.google.common.truth.IntegerSubject$TolerantIntegerComparison,com.google.common.truth.IntegerSubject$TolerantIntegerComparison,CLASS_CHANGE,CLASS_NOW_FINAL,false,false,false,1,com.google.truth:truth,PATCH,false
-com.google.truth:truth,1.4.4,1.4.5,com.google.common.truth.LongSubject$TolerantLongComparison,com.google.common.truth.LongSubject$TolerantLongComparison,CLASS_CHANGE,CLASS_NOW_FINAL,false,false,false,1,com.google.truth:truth,PATCH,false

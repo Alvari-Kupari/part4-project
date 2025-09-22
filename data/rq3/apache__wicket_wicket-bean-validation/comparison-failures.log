@@ -1,9 +1,0 @@
-=== Comparison Failure Log ===
-[2025-09-10 14:34:52] org.hibernate.validator:hibernate-validator:8.0.2.Final -> org.hibernate.validator:hibernate-validator:8.0.3.Final : Failed to compare JAR files: JAPICMP comparison failed for org.hibernate.validator:hibernate-validator
-[2025-09-10 14:34:55] org.hibernate.validator:hibernate-validator:8.0.2.Final -> org.hibernate.validator:hibernate-validator:9.0.0.CR1 : Failed to compare JAR files: JAPICMP comparison failed for org.hibernate.validator:hibernate-validator
-[2025-09-10 14:34:59] org.mockito:mockito-core:5.18.0 -> org.mockito:mockito-core:5.19.0 : Failed to compare JAR files: JAPICMP comparison failed for org.mockito:mockito-core
-
-=== Summary ===
-Total comparisons: 4
-Failures: 3
-Success rate: 25.00%

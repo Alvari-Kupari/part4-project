@@ -1,2 +1,0 @@
-Library_Name,Old_Version,New_Version,Class_Name,Member_Name,Change_Type,Description,Binary_Compatible,Source_Compatible,Is_Transitive,Depth,Direct_Parent_Dependency,Release_Type,Usage_Location,Usage_Line,Usage_Context,Usage_Type
-junit:junit,3.8.1,3.8.2,junit.runner.BaseTestRunner,setPreference,METHOD_CHANGE,METHOD_NOW_STATIC,false,false,false,1,junit:junit,PATCH,C:\Users\akup390\Documents\tony-alvari-part4\part4-project\research-parent\rq3\test-cases\depanalyzer\src\main\java\com\example\depanalyzer\Main.java,41,junit.runner.BaseTestRunner,NameExpr

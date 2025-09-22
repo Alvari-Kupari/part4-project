@@ -1,5 +1,0 @@
-Library_Name,Old_Version,New_Version,Class_Name,Member_Name,Change_Type,Description,Binary_Compatible,Source_Compatible,Is_Transitive,Depth,Direct_Parent_Dependency,Release_Type,Is_Used_In_Client
-com.vesoft:client,3.8.3,3.8.4,com.vesoft.nebula.client.storage.scan.ScanResultIterator,ScanResultIterator,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,com.vesoft:client,PATCH,false
-com.vesoft:client,3.8.3,3.8.4,com.vesoft.nebula.graph.GraphService$AsyncIface,executeWithTimeout,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,com.vesoft:client,PATCH,false
-com.vesoft:client,3.8.3,3.8.4,com.vesoft.nebula.graph.GraphService$Iface,executeWithTimeout,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,com.vesoft:client,PATCH,false
-com.vesoft:client,3.8.3,3.8.4,com.vesoft.nebula.storage.RequestCommon,RequestCommon,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,com.vesoft:client,PATCH,false

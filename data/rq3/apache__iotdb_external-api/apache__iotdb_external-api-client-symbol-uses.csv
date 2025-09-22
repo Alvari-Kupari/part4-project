@@ -1,9 +1,0 @@
-Library_Name,Symbol_Type,Class_Name,Symbol_Name,Usage_Location,Line_Number
-JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.lang.Class,Class,C:\Users\tyin363\Documents\repos\apache__iotdb\iotdb-api\external-api\src\main\java\org\apache\iotdb\external\api\thrift\JudgableServerContext.java,41
-CLIENT:client-code:N/A:N/A,ClassOrInterfaceType,org.apache.iotdb.external.api.thrift.JudgableServerContext,JudgableServerContext,C:\Users\tyin363\Documents\repos\apache__iotdb\iotdb-api\external-api\src\main\java\org\apache\iotdb\external\api\thrift\ServerContextFactory.java,27
-JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.lang.Class,Class,C:\Users\tyin363\Documents\repos\apache__iotdb\iotdb-api\external-api\src\main\java\org\apache\iotdb\external\api\thrift\JudgableServerContext.java,46
-org.apache.thrift:libthrift:jar:0.14.1,ClassOrInterfaceType,org.apache.thrift.protocol.TProtocol,TProtocol,C:\Users\tyin363\Documents\repos\apache__iotdb\iotdb-api\external-api\src\main\java\org\apache\iotdb\external\api\thrift\ServerContextFactory.java,27
-JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.util.Properties,Properties,C:\Users\tyin363\Documents\repos\apache__iotdb\iotdb-api\external-api\src\main\java\org\apache\iotdb\external\api\IPropertiesLoader.java,41
-JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.net.Socket,Socket,C:\Users\tyin363\Documents\repos\apache__iotdb\iotdb-api\external-api\src\main\java\org\apache\iotdb\external\api\thrift\ServerContextFactory.java,27
-org.apache.thrift:libthrift:jar:0.14.1,ClassOrInterfaceType,org.apache.thrift.server.ServerContext,ServerContext,C:\Users\tyin363\Documents\repos\apache__iotdb\iotdb-api\external-api\src\main\java\org\apache\iotdb\external\api\thrift\JudgableServerContext.java,24
-JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.util.Properties,Properties,C:\Users\tyin363\Documents\repos\apache__iotdb\iotdb-api\external-api\src\main\java\org\apache\iotdb\external\api\IPropertiesLoader.java,34
