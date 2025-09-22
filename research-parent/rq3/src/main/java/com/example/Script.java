@@ -24,17 +24,17 @@ import org.eclipse.aether.graph.Dependency;
 
 public class Script {
   public static final Path csvFolder =
-      Paths.get("/Users/tonyyin/Desktop/Projects/csv2");
+      Paths.get("C:\\Users\\tyin363\\Documents\\part4-project\\data\\rq3\\csv");
 
   private static final Path reposFolder =
       Paths.get("C:\\Users\\tyin363\\Documents\\repos");
 
   private static final Path progressFile =
-      csvFolder.resolve("progress.txt ");
+      csvFolder.resolve("progress.txt");
 
   private static final Logger LOGGER = Logger.getLogger(Script.class.getName());
 
-  private static final String startRepo = "castlemock__castlemock";
+  // private static final String startRepo = "4ra1n__class-obfk";
 
   public static void main(String[] args) throws IOException {
 
