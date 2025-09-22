@@ -14,6 +14,7 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.nio.charset.StandardCharsets;
 import java.util.List;
 import java.util.Set;
 import java.util.logging.Level;
@@ -27,10 +28,13 @@ public class Script {
   private static final Path reposFolder =
       Paths.get("C:\\Users\\tyin363\\Documents\\repos");
 
+  private static final Path progressFile =
+      csvFolder.resolve("progress.txt");
 
   private static final Logger LOGGER = Logger.getLogger(Script.class.getName());
 
-  private static final String startRepo = "apache__xmlgraphics-batik";
+  // Remove the hardcoded startRepo - we'll determine it dynamically
+  // private static final String startRepo = "castlemock__castlemock";
 
   public static void main(String[] args) throws IOException {
 
@@ -42,18 +46,31 @@ public class Script {
 
     List<Repo> repos = Repo.getRepos(reposFolder);
 
-    boolean seen = false;
+    // Determine where to start based on progress file
+    String lastProcessedRepo = getLastProcessedRepo();
+    boolean seen = (lastProcessedRepo == null); // If no progress file, start from beginning
+    
+    if (lastProcessedRepo != null) {
+      LOGGER.info("Resuming from after repository: " + lastProcessedRepo);
+    } else {
+      LOGGER.info("Starting analysis from the beginning");
+    }
 
     for (Repo repo : repos) {
 
-      if (repo.getName().equals(startRepo)) {
-        seen = true;
+      // Skip until we reach the repo after the last processed one
+      if (!seen) {
+        if (repo.getName().equals(lastProcessedRepo)) {
+          seen = true;
+        }
+        continue;
       }
-
-      if (!seen) continue;
 
       LOGGER.info(
           "\n\n========== STARTING ANALYSIS FOR REPOSITORY: " + repo.getName() + " ==========\n");
+
+      // Update progress file at the start of each repo
+      updateProgressFile(repo.getName());
 
       List<SubModule> subModules = repo.getSubModules();
 
@@ -98,9 +115,46 @@ public class Script {
       }
     }
 
+    // Clear progress file when completely done
+    clearProgressFile();
+    
     LOGGER.info("\n\n========== ALL ANALYSIS COMPLETE ==========");
     LOGGER.info("Check output folders in: " + csvFolder.toAbsolutePath());
     LOGGER.info("============================================\n");
+  }
+
+  private static String getLastProcessedRepo() {
+    try {
+      if (Files.exists(progressFile)) {
+        List<String> lines = Files.readAllLines(progressFile, StandardCharsets.UTF_8);
+        if (!lines.isEmpty()) {
+          return lines.get(0).trim();
+        }
+      }
+    } catch (IOException e) {
+      LOGGER.warning("Could not read progress file: " + e.getMessage());
+    }
+    return null;
+  }
+
+  private static void updateProgressFile(String repoName) {
+    try {
+      Files.write(progressFile, repoName.getBytes(StandardCharsets.UTF_8));
+      LOGGER.fine("Updated progress file with: " + repoName);
+    } catch (IOException e) {
+      LOGGER.warning("Could not update progress file: " + e.getMessage());
+    }
+  }
+
+  private static void clearProgressFile() {
+    try {
+      if (Files.exists(progressFile)) {
+        Files.delete(progressFile);
+        LOGGER.info("Cleared progress file - analysis complete");
+      }
+    } catch (IOException e) {
+      LOGGER.warning("Could not clear progress file: " + e.getMessage());
+    }
   }
 
   private static void performSubmoduleAnalysis(SubModule submodule)
