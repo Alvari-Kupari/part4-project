@@ -1,34 +1,38 @@
 import pandas as pd
 import os
 
-def normalise_bc_usage(folder_path):
-    # Load CSVs
-    used_bc_df = pd.read_csv(os.path.join(folder_path, "depanalyzer_depanalyzer-used-breaking-changes.csv"))
-    client_symbols_df = pd.read_csv(os.path.join(folder_path, "depanalyzer_depanalyzer-client-symbol-uses.csv"))
 
-    # Count total symbols per library
-    # We'll need a library mapping for each symbol (in client_symbols_df we don't have Library_Name, so we can't match exactly)
-    # Assuming Class_Name in client_symbols_df matches Class_Name in used_bc_df to get Library_Name
-    class_to_lib = used_bc_df[['Class_Name', 'Library_Name']].drop_duplicates()
-    client_symbols_df = client_symbols_df.merge(class_to_lib, on='Class_Name', how='left')
+def normalize(bcs_csv, symbols_csv):
+    # TODO: implement actual normalization logic
+    print()
+    # return a DataFrame with columns: submodule, normalised_direct_deps, normalised_transitive_deps
+    return pd.DataFrame(columns=["submodule", "normalised_direct_deps", "normalised_transitive_deps"])
 
-    # Drop rows where we couldn't find a library
-    client_symbols_df = client_symbols_df.dropna(subset=['Library_Name'])
 
-    total_symbols_per_lib = client_symbols_df.groupby('Library_Name').size().reset_index(name='Total_Symbols')
+results_folder = r"C:\Users\Alvari\Documents\UNI\softeng_700\test-results"
+output_file = os.path.join(results_folder, "normalized_results.csv")
 
-    # Count breaking changes by library and transitive/direct
-    bc_counts = used_bc_df.groupby(['Library_Name', 'Is_Transitive']).size().reset_index(name='BC_Count')
+# create output file with header if it doesn't exist
+if not os.path.exists(output_file):
+    pd.DataFrame(columns=["submodule", "normalised_direct_deps", "normalised_transitive_deps"]).to_csv(output_file, index=False)
 
-    # Merge counts with total symbols
-    merged = bc_counts.merge(total_symbols_per_lib, on='Library_Name', how='left')
+# open csv files in each repo folder
+for repo_result in os.listdir(results_folder):
+    repo_path = os.path.join(results_folder, repo_result)
+    if not os.path.isdir(repo_path):
+        continue
 
-    # Compute normalised values
-    merged['Normalised'] = merged['BC_Count'] / merged['Total_Symbols']
+    all_bcs_path = os.path.join(repo_path, f"{repo_result}-used-breaking-changes.csv")
+    client_symbols_path = os.path.join(repo_path, f"{repo_result}-client-symbol-uses.csv")
 
-    return merged
+    if not (os.path.exists(all_bcs_path) and os.path.exists(client_symbols_path)):
+        continue
 
-# Run function on uploaded CSV folder
-folder_path = r"C:\Users\Alvari\Documents\UNI\softeng_700\part4-project\data\rq3\depanalyzer_depanalyzer"
-df_results = normalise_bc_usage(folder_path)
-print(df_results)
+    bcs_csv = pd.read_csv(all_bcs_path)
+    symbols_csv = pd.read_csv(client_symbols_path)
+
+    results_csv = normalize(bcs_csv, symbols_csv)
+
+    # append result to csv
+    if not results_csv.empty:
+        results_csv.to_csv(output_file, mode="a", header=False, index=False)
