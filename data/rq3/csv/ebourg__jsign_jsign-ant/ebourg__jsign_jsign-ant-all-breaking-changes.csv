@@ -1,0 +1,138 @@
+Library_Name,Old_Version,New_Version,Class_Name,Member_Name,Change_Type,Description,Binary_Compatible,Source_Compatible,Is_Transitive,Depth,Direct_Parent_Dependency,Direct_Dependency_Old_Version,Direct_Dependency_New_Version,Release_Type,Is_Used_In_Client
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.AntTypeDefinition,innerCreateAndSet,METHOD_CHANGE,CLASS_GENERIC_TEMPLATE_CHANGED,true,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.DirectoryScanner,dirsDeselected,FIELD_CHANGE,FIELD_GENERICS_CHANGED,true,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.DirectoryScanner,filesNotIncluded,FIELD_CHANGE,FIELD_GENERICS_CHANGED,true,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.DirectoryScanner,filesExcluded,FIELD_CHANGE,FIELD_GENERICS_CHANGED,true,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.DirectoryScanner,dirsNotIncluded,FIELD_CHANGE,FIELD_GENERICS_CHANGED,true,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.DirectoryScanner,dirsExcluded,FIELD_CHANGE,FIELD_GENERICS_CHANGED,true,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.DirectoryScanner,filesIncluded,FIELD_CHANGE,FIELD_GENERICS_CHANGED,true,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.DirectoryScanner,filesDeselected,FIELD_CHANGE,FIELD_GENERICS_CHANGED,true,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.DirectoryScanner,dirsIncluded,FIELD_CHANGE,FIELD_GENERICS_CHANGED,true,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.filters.ReplaceTokens,setBeginToken,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.filters.ReplaceTokens,setEndToken,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.filters.util.ChainReaderHelper,getAssembledReader,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.filters.util.ChainReaderHelper,filterChains,FIELD_CHANGE,FIELD_GENERICS_CHANGED,true,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.Project,getReference,METHOD_CHANGE,CLASS_GENERIC_TEMPLATE_CHANGED,true,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.PropertyHelper,getDelegates,METHOD_CHANGE,CLASS_GENERIC_TEMPLATE_CHANGED,true,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.taskdefs.AbstractJarSignerTask,filesets,FIELD_CHANGE,FIELD_GENERICS_CHANGED,true,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.taskdefs.Apt,org.apache.tools.ant.taskdefs.Apt,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.taskdefs.Apt,createFactoryPath,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.taskdefs.Apt,createOption,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.taskdefs.Apt,execute,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.taskdefs.Apt,getAptExecutable,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.taskdefs.Apt,getCompiler,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.taskdefs.Apt,getFactory,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.taskdefs.Apt,getFactoryPath,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.taskdefs.Apt,getOptions,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.taskdefs.Apt,getPreprocessDir,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.taskdefs.Apt,isCompile,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.taskdefs.Apt,setCompile,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.taskdefs.Apt,setCompiler,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.taskdefs.Apt,setFactory,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.taskdefs.Apt,setFactoryPathRef,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.taskdefs.Apt,setFork,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.taskdefs.Apt,setPreprocessDir,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.taskdefs.Apt,WARNING_IGNORING_FORK,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.taskdefs.Apt,ERROR_IGNORING_COMPILER_OPTION,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.taskdefs.Apt,ERROR_WRONG_JAVA_VERSION,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.taskdefs.Apt,EXECUTABLE_NAME,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.taskdefs.Apt,Apt,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.taskdefs.Apt$Option,org.apache.tools.ant.taskdefs.Apt$Option,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.taskdefs.Apt$Option,getName,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.taskdefs.Apt$Option,getValue,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.taskdefs.Apt$Option,setName,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.taskdefs.Apt$Option,setValue,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.taskdefs.Apt$Option,Apt$Option,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.taskdefs.compilers.AptCompilerAdapter,org.apache.tools.ant.taskdefs.compilers.AptCompilerAdapter,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.taskdefs.compilers.AptCompilerAdapter,getApt,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.taskdefs.compilers.AptCompilerAdapter,setAptCommandlineSwitches,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.taskdefs.compilers.AptCompilerAdapter,APT_ENTRY_POINT,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.taskdefs.compilers.AptCompilerAdapter,APT_METHOD_NAME,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.taskdefs.compilers.AptCompilerAdapter,AptCompilerAdapter,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.taskdefs.compilers.AptExternalCompilerAdapter,org.apache.tools.ant.taskdefs.compilers.AptExternalCompilerAdapter,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.taskdefs.compilers.AptExternalCompilerAdapter,getApt,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.taskdefs.compilers.AptExternalCompilerAdapter,AptExternalCompilerAdapter,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.taskdefs.Copy,fileCopyMap,FIELD_CHANGE,FIELD_GENERICS_CHANGED,true,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.taskdefs.Copy,completeDirMap,FIELD_CHANGE,FIELD_GENERICS_CHANGED,true,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.taskdefs.Copy,dirCopyMap,FIELD_CHANGE,FIELD_GENERICS_CHANGED,true,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.taskdefs.Copy,rcs,FIELD_CHANGE,FIELD_GENERICS_CHANGED,true,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.taskdefs.Copy,filesets,FIELD_CHANGE,FIELD_GENERICS_CHANGED,true,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.taskdefs.Delete,filesets,FIELD_CHANGE,FIELD_GENERICS_CHANGED,true,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.taskdefs.email.Mailer,headers,FIELD_CHANGE,FIELD_GENERICS_CHANGED,true,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.taskdefs.email.Mailer,replyToList,FIELD_CHANGE,FIELD_GENERICS_CHANGED,true,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.taskdefs.email.Mailer,bccList,FIELD_CHANGE,FIELD_GENERICS_CHANGED,true,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.taskdefs.email.Mailer,toList,FIELD_CHANGE,FIELD_GENERICS_CHANGED,true,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.taskdefs.email.Mailer,ccList,FIELD_CHANGE,FIELD_GENERICS_CHANGED,true,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.taskdefs.email.Mailer,files,FIELD_CHANGE,FIELD_GENERICS_CHANGED,true,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.taskdefs.ExecuteOn,filesets,FIELD_CHANGE,FIELD_GENERICS_CHANGED,true,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.taskdefs.Jar,writeIndexLikeList,METHOD_CHANGE,METHOD_NO_LONGER_THROWS_CHECKED_EXCEPTION,true,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.taskdefs.optional.ccm.CCMCheck,filesets,FIELD_CHANGE,FIELD_GENERICS_CHANGED,true,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.taskdefs.optional.ejb.DescriptorHandler,ejbFiles,FIELD_CHANGE,FIELD_GENERICS_CHANGED,true,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.taskdefs.optional.jsp.JspC,compileList,FIELD_CHANGE,FIELD_GENERICS_CHANGED,true,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.taskdefs.optional.unix.Symlink,deleteSymlink,METHOD_CHANGE,METHOD_NO_LONGER_THROWS_CHECKED_EXCEPTION; ANNOTATION_DEPRECATED_ADDED,true,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.taskdefs.optional.XMLValidateTask,filesets,FIELD_CHANGE,FIELD_GENERICS_CHANGED,true,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.taskdefs.Zip,addedDirs,FIELD_CHANGE,FIELD_GENERICS_CHANGED,true,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.taskdefs.Zip,entries,FIELD_CHANGE,FIELD_GENERICS_CHANGED,true,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.types.DataType,getCheckedRef,METHOD_CHANGE,ANNOTATION_DEPRECATED_ADDED; CLASS_GENERIC_TEMPLATE_CHANGED,true,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.types.DataType,getCheckedRef,METHOD_CHANGE,ANNOTATION_DEPRECATED_ADDED; CLASS_GENERIC_TEMPLATE_CHANGED,true,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.types.DataType,getCheckedRef,METHOD_CHANGE,CLASS_GENERIC_TEMPLATE_CHANGED,true,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.types.DataType,getCheckedRef,METHOD_CHANGE,CLASS_GENERIC_TEMPLATE_CHANGED,true,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.types.Environment,variables,FIELD_CHANGE,FIELD_GENERICS_CHANGED,true,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.types.FileList,getRef,METHOD_CHANGE,METHOD_LESS_ACCESSIBLE,false,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.types.Path,systemBootClasspath,FIELD_CHANGE,FIELD_NOW_FINAL,false,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.types.Reference,getReferencedObject,METHOD_CHANGE,CLASS_GENERIC_TEMPLATE_CHANGED,true,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.types.Reference,getReferencedObject,METHOD_CHANGE,CLASS_GENERIC_TEMPLATE_CHANGED,true,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.types.Resource,as,METHOD_CHANGE,CLASS_GENERIC_TEMPLATE_CHANGED,true,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.types.ResourceCollection,iterator,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.types.resources.ContentTransformingResource,as,METHOD_CHANGE,CLASS_GENERIC_TEMPLATE_CHANGED,true,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.types.resources.MappedResource,as,METHOD_CHANGE,CLASS_GENERIC_TEMPLATE_CHANGED,true,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.types.resources.ResourceDecorator,as,METHOD_CHANGE,CLASS_GENERIC_TEMPLATE_CHANGED,true,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.types.resources.Resources,EMPTY_ITERATOR,FIELD_CHANGE,FIELD_GENERICS_CHANGED,true,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.types.resources.Union,getCollection,METHOD_CHANGE,ANNOTATION_DEPRECATED_ADDED; CLASS_GENERIC_TEMPLATE_CHANGED,true,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.types.selectors.ExecutableSelector,org.apache.tools.ant.types.selectors.ExecutableSelector,CLASS_CHANGE,INTERFACE_ADDED; METHOD_ABSTRACT_ADDED_IN_IMPLEMENTED_INTERFACE,true,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.types.selectors.modifiedselector.ModifiedSelector,loadClass,METHOD_CHANGE,CLASS_GENERIC_TEMPLATE_CHANGED,true,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.types.selectors.OwnedBySelector,org.apache.tools.ant.types.selectors.OwnedBySelector,CLASS_CHANGE,INTERFACE_ADDED; METHOD_ABSTRACT_ADDED_IN_IMPLEMENTED_INTERFACE,true,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.types.selectors.PosixGroupSelector,org.apache.tools.ant.types.selectors.PosixGroupSelector,CLASS_CHANGE,INTERFACE_ADDED; METHOD_ABSTRACT_ADDED_IN_IMPLEMENTED_INTERFACE,true,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.types.selectors.PosixPermissionsSelector,org.apache.tools.ant.types.selectors.PosixPermissionsSelector,CLASS_CHANGE,INTERFACE_ADDED; METHOD_ABSTRACT_ADDED_IN_IMPLEMENTED_INTERFACE,true,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.types.selectors.SymlinkSelector,org.apache.tools.ant.types.selectors.SymlinkSelector,CLASS_CHANGE,INTERFACE_ADDED; METHOD_ABSTRACT_ADDED_IN_IMPLEMENTED_INTERFACE,true,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.util.ClasspathUtils,newInstance,METHOD_CHANGE,CLASS_GENERIC_TEMPLATE_CHANGED,true,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.util.ClasspathUtils,ClasspathUtils,CONSTRUCTOR_CHANGE,CONSTRUCTOR_LESS_ACCESSIBLE,false,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.util.CollectionUtils,append,METHOD_CHANGE,ANNOTATION_DEPRECATED_ADDED; CLASS_GENERIC_TEMPLATE_CHANGED,true,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.util.CollectionUtils,asCollection,METHOD_CHANGE,ANNOTATION_DEPRECATED_ADDED; CLASS_GENERIC_TEMPLATE_CHANGED,true,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.util.CollectionUtils,asEnumeration,METHOD_CHANGE,ANNOTATION_DEPRECATED_ADDED; CLASS_GENERIC_TEMPLATE_CHANGED,true,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.util.CollectionUtils,asIterator,METHOD_CHANGE,ANNOTATION_DEPRECATED_ADDED; CLASS_GENERIC_TEMPLATE_CHANGED,true,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.util.CollectionUtils,putAll,METHOD_CHANGE,ANNOTATION_DEPRECATED_ADDED; CLASS_GENERIC_TEMPLATE_CHANGED,true,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.util.CollectionUtils,CollectionUtils,CONSTRUCTOR_CHANGE,CONSTRUCTOR_LESS_ACCESSIBLE,false,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.util.CollectionUtils$EmptyEnumeration,org.apache.tools.ant.util.CollectionUtils$EmptyEnumeration,CLASS_CHANGE,ANNOTATION_DEPRECATED_ADDED; CLASS_GENERIC_TEMPLATE_CHANGED,true,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.util.DOMUtils,DOMUtils,CONSTRUCTOR_CHANGE,CONSTRUCTOR_LESS_ACCESSIBLE,false,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.util.IdentityStack,org.apache.tools.ant.util.IdentityStack,CLASS_CHANGE,CLASS_GENERIC_TEMPLATE_CHANGED,true,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.util.IdentityStack,getInstance,METHOD_CHANGE,CLASS_GENERIC_TEMPLATE_CHANGED,true,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.util.LazyHashtable,org.apache.tools.ant.util.LazyHashtable,CLASS_CHANGE,ANNOTATION_DEPRECATED_ADDED; CLASS_GENERIC_TEMPLATE_CHANGED,true,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.util.LinkedHashtable,org.apache.tools.ant.util.LinkedHashtable,CLASS_CHANGE,CLASS_GENERIC_TEMPLATE_CHANGED,true,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.util.ReflectUtil,getField,METHOD_CHANGE,CLASS_GENERIC_TEMPLATE_CHANGED,true,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.util.ReflectUtil,invoke,METHOD_CHANGE,CLASS_GENERIC_TEMPLATE_CHANGED,true,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.util.ReflectUtil,invoke,METHOD_CHANGE,CLASS_GENERIC_TEMPLATE_CHANGED,true,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.util.ReflectUtil,invoke,METHOD_CHANGE,CLASS_GENERIC_TEMPLATE_CHANGED,true,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.util.ReflectUtil,invokeStatic,METHOD_CHANGE,CLASS_GENERIC_TEMPLATE_CHANGED,true,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.util.ReflectUtil,newInstance,METHOD_CHANGE,CLASS_GENERIC_TEMPLATE_CHANGED,true,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.util.ReflectWrapper,getObject,METHOD_CHANGE,CLASS_GENERIC_TEMPLATE_CHANGED,true,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.util.ReflectWrapper,invoke,METHOD_CHANGE,CLASS_GENERIC_TEMPLATE_CHANGED,true,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.util.ReflectWrapper,invoke,METHOD_CHANGE,CLASS_GENERIC_TEMPLATE_CHANGED,true,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.util.ReflectWrapper,invoke,METHOD_CHANGE,CLASS_GENERIC_TEMPLATE_CHANGED,true,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.util.UnicodeUtil,UnicodeUtil,CONSTRUCTOR_CHANGE,CONSTRUCTOR_LESS_ACCESSIBLE,false,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.util.VectorSet,org.apache.tools.ant.util.VectorSet,CLASS_CHANGE,CLASS_GENERIC_TEMPLATE_CHANGED,true,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.ant.util.XmlConstants,XmlConstants,CONSTRUCTOR_CHANGE,CONSTRUCTOR_LESS_ACCESSIBLE,false,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.tar.TarUtils,getCheckSumOctalBytes,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.tar.TarUtils,getLongOctalBytes,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.tar.TarUtils,getNameBytes,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.tar.TarUtils,getOctalBytes,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.tar.TarUtils,parseName,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.tar.TarUtils,TarUtils,CONSTRUCTOR_CHANGE,CONSTRUCTOR_LESS_ACCESSIBLE,false,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.zip.ZipFile,fromDosTime,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.zip.ZipFile,getString,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.zip.ZipOutputStream,def,FIELD_CHANGE,FIELD_NOW_FINAL,false,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant,1.8.4,1.10.15,org.apache.tools.zip.ZipOutputStream,UFT8_NAMES_FLAG,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.apache.ant:ant,,,MINOR,false
+org.apache.ant:ant-launcher,1.8.4,1.10.15,org.apache.tools.ant.launch.Launcher,launchDiag,FIELD_CHANGE,FIELD_NO_LONGER_STATIC,false,false,true,2,org.apache.ant:ant,1.8.4,1.10.15,MINOR,false
+org.apache.ant:ant-launcher,1.8.4,1.10.15,org.apache.tools.ant.launch.Launcher,Launcher,CONSTRUCTOR_CHANGE,CONSTRUCTOR_LESS_ACCESSIBLE,false,false,true,2,org.apache.ant:ant,1.8.4,1.10.15,MINOR,false
+org.apache.ant:ant-launcher,1.8.4,1.10.15,org.apache.tools.ant.launch.Locator,encodeURI,METHOD_CHANGE,METHOD_NO_LONGER_THROWS_CHECKED_EXCEPTION,true,false,true,2,org.apache.ant:ant,1.8.4,1.10.15,MINOR,false
+org.apache.ant:ant-launcher,1.8.4,1.10.15,org.apache.tools.ant.launch.Locator,URI_ENCODING,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,org.apache.ant:ant,1.8.4,1.10.15,MINOR,false

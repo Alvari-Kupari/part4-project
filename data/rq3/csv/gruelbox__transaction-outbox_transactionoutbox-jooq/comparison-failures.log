@@ -1,0 +1,17 @@
+=== Comparison Failure Log ===
+[2025-09-22 22:46:09] org.projectlombok:lombok:1.18.30 -> org.projectlombok:lombok:1.18.42 : Failed to compare JAR files: JAPICMP comparison failed for org.projectlombok:lombok
+[2025-09-22 22:46:15] org.testcontainers:testcontainers:1.21.0 -> org.testcontainers:testcontainers:1.21.3 : Failed to compare JAR files: JAPICMP comparison failed for org.testcontainers:testcontainers
+[2025-09-22 22:46:17] org.testcontainers:junit-jupiter:1.21.0 -> org.testcontainers:junit-jupiter:1.21.3 : Failed to compare JAR files: JAPICMP comparison failed for org.testcontainers:junit-jupiter
+[2025-09-22 22:46:19] org.testcontainers:postgresql:1.21.0 -> org.testcontainers:postgresql:1.21.3 : Failed to compare JAR files: JAPICMP comparison failed for org.testcontainers:postgresql
+[2025-09-22 22:46:20] org.testcontainers:oracle-xe:1.21.0 -> org.testcontainers:oracle-xe:1.21.3 : Failed to compare JAR files: JAPICMP comparison failed for org.testcontainers:oracle-xe
+[2025-09-22 22:46:21] org.testcontainers:mysql:1.21.0 -> org.testcontainers:mysql:1.21.3 : Failed to compare JAR files: JAPICMP comparison failed for org.testcontainers:mysql
+[2025-09-22 22:46:22] org.postgresql:postgresql:42.7.6 -> org.postgresql:postgresql:42.7.8 : Failed to compare JAR files: JAPICMP comparison failed for org.postgresql:postgresql
+[2025-09-22 22:46:23] com.oracle.database.jdbc:ojdbc11:23.8.0.25.04 -> com.oracle.database.jdbc:ojdbc11:23.9.0.25.07 : Failed to compare JAR files: JAPICMP comparison failed for com.oracle.database.jdbc:ojdbc11
+[2025-09-22 22:46:26] com.mysql:mysql-connector-j:9.3.0 -> com.mysql:mysql-connector-j:9.4.0 : Failed to compare JAR files: JAPICMP comparison failed for com.mysql:mysql-connector-j
+[2025-09-22 22:46:29] org.testcontainers:mssqlserver:1.21.0 -> org.testcontainers:mssqlserver:1.21.3 : Failed to compare JAR files: JAPICMP comparison failed for org.testcontainers:mssqlserver
+[2025-09-22 22:46:38] com.microsoft.sqlserver:mssql-jdbc:12.10.0.jre11 -> com.microsoft.sqlserver:mssql-jdbc:12.10.1.jre11 : Failed to compare JAR files: JAPICMP comparison failed for com.microsoft.sqlserver:mssql-jdbc
+
+=== Summary ===
+Total comparisons: 12
+Failures: 11
+Success rate: 8.33%

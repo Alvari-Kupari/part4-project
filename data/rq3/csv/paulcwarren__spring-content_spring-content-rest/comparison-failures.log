@@ -1,0 +1,26 @@
+=== Comparison Failure Log ===
+[2025-09-23 05:35:19] org.springframework:spring-webmvc:6.2.7 -> org.springframework:spring-webmvc:6.2.11 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-webmvc
+[2025-09-23 05:35:25] org.springframework.data:spring-data-commons:3.5.0 -> org.springframework.data:spring-data-commons:3.5.4 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.data:spring-data-commons
+[2025-09-23 05:35:29] org.springframework.data:spring-data-rest-webmvc:4.5.0 -> org.springframework.data:spring-data-rest-webmvc:4.5.4 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.data:spring-data-rest-webmvc
+[2025-09-23 05:35:33] org.hibernate.orm:hibernate-core:6.1.7.Final -> org.hibernate.orm:hibernate-core:7.0.0.CR2 : Failed to compare JAR files: JAPICMP comparison failed for org.hibernate.orm:hibernate-core
+[2025-09-23 05:35:34] org.springframework:spring-tx:6.2.7 -> org.springframework:spring-tx:6.2.11 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-tx
+[2025-09-23 05:35:34] org.projectlombok:lombok:1.18.38 -> org.projectlombok:lombok:1.18.42 : Failed to compare JAR files: JAPICMP comparison failed for org.projectlombok:lombok
+[2025-09-23 05:35:50] org.springframework.security:spring-security-test:6.5.0 -> org.springframework.security:spring-security-test:6.5.5 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.security:spring-security-test
+[2025-09-23 05:35:54] org.springframework.data:spring-data-mongodb:4.5.0 -> org.springframework.data:spring-data-mongodb:4.5.4 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.data:spring-data-mongodb
+[2025-09-23 05:35:54] org.springframework.data:spring-data-jpa:3.5.0 -> org.springframework.data:spring-data-jpa:3.5.4 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.data:spring-data-jpa
+[2025-09-23 05:35:55] org.springframework:spring-aspects:6.2.7 -> org.springframework:spring-aspects:6.2.11 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-aspects
+[2025-09-23 05:35:56] mysql:mysql-connector-java:8.0.30 -> mysql:mysql-connector-java:8.0.33 : Failed to compare JAR files: JAPICMP comparison failed for mysql:mysql-connector-java
+[2025-09-23 05:35:56] org.postgresql:postgresql:42.7.5 -> org.postgresql:postgresql:42.7.8 : Failed to compare JAR files: JAPICMP comparison failed for org.postgresql:postgresql
+[2025-09-23 05:35:57] com.microsoft.sqlserver:mssql-jdbc:12.10.0.jre11 -> com.microsoft.sqlserver:mssql-jdbc:12.10.1.jre11 : Failed to compare JAR files: JAPICMP comparison failed for com.microsoft.sqlserver:mssql-jdbc
+[2025-09-23 05:36:12] org.springframework.boot:spring-boot-autoconfigure:3.5.0 -> org.springframework.boot:spring-boot-autoconfigure:3.5.6 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.boot:spring-boot-autoconfigure
+[2025-09-23 05:36:18] org.mongodb:mongodb-driver-core:5.4.0 -> org.mongodb:mongodb-driver-core:5.6.0 : Failed to compare JAR files: JAPICMP comparison failed for org.mongodb:mongodb-driver-core
+[2025-09-23 05:36:19] com.oracle.database.jdbc:ojdbc8:23.8.0.25.04 -> com.oracle.database.jdbc:ojdbc8:23.9.0.25.07 : Failed to compare JAR files: JAPICMP comparison failed for com.oracle.database.jdbc:ojdbc8
+[2025-09-23 05:36:19] org.testcontainers:oracle-xe:1.17.6 -> org.testcontainers:oracle-xe:1.21.3 : Failed to compare JAR files: JAPICMP comparison failed for org.testcontainers:oracle-xe
+[2025-09-23 05:36:19] org.testcontainers:mysql:1.17.6 -> org.testcontainers:mysql:1.21.3 : Failed to compare JAR files: JAPICMP comparison failed for org.testcontainers:mysql
+[2025-09-23 05:36:19] org.testcontainers:postgresql:1.17.6 -> org.testcontainers:postgresql:1.21.3 : Failed to compare JAR files: JAPICMP comparison failed for org.testcontainers:postgresql
+[2025-09-23 05:36:19] org.testcontainers:mssqlserver:1.17.6 -> org.testcontainers:mssqlserver:1.21.3 : Failed to compare JAR files: JAPICMP comparison failed for org.testcontainers:mssqlserver
+
+=== Summary ===
+Total comparisons: 162
+Failures: 20
+Success rate: 87.65%

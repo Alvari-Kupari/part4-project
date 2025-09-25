@@ -1,0 +1,7 @@
+=== Comparison Failure Log ===
+[2025-09-22 14:59:53] org.mockito:mockito-core:5.18.0 -> org.mockito:mockito-core:5.20.0 : Failed to compare JAR files: JAPICMP comparison failed for org.mockito:mockito-core
+
+=== Summary ===
+Total comparisons: 8
+Failures: 1
+Success rate: 87.50%

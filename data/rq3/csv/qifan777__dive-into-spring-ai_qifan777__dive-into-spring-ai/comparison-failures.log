@@ -1,0 +1,10 @@
+=== Comparison Failure Log ===
+[2025-09-23 07:59:41] com.alibaba.cloud.ai:spring-ai-alibaba-graph-core:1.0.0.2 -> com.alibaba.cloud.ai:spring-ai-alibaba-graph-core:1.0.0.3 : Failed to compare JAR files: JAPICMP comparison failed for com.alibaba.cloud.ai:spring-ai-alibaba-graph-core
+[2025-09-23 08:02:30] org.babyfish.jimmer:jimmer-spring-boot-starter:0.8.134 -> org.babyfish.jimmer:jimmer-spring-boot-starter:0.9.110 : Failed to compare JAR files: JAPICMP comparison failed for org.babyfish.jimmer:jimmer-spring-boot-starter
+[2025-09-23 08:03:25] org.springframework:spring-test:6.1.2 -> org.springframework:spring-test:6.2.11 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-test
+[2025-09-23 08:03:32] com.mysql:mysql-connector-j:8.1.0 -> com.mysql:mysql-connector-j:8.4.0 : Failed to compare JAR files: JAPICMP comparison failed for com.mysql:mysql-connector-j
+
+=== Summary ===
+Total comparisons: 247
+Failures: 4
+Success rate: 98.38%

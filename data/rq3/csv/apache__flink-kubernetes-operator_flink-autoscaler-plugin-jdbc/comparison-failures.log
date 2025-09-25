@@ -1,0 +1,11 @@
+=== Comparison Failure Log ===
+[2025-09-22 14:00:27] org.projectlombok:lombok:1.18.30 -> org.projectlombok:lombok:1.18.42 : Failed to compare JAR files: JAPICMP comparison failed for org.projectlombok:lombok
+[2025-09-22 14:00:44] org.apache.derby:derby:10.15.2.0 -> org.apache.derby:derby:10.17.1.0 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.derby:derby
+[2025-09-22 14:00:45] org.postgresql:postgresql:42.5.6 -> org.postgresql:postgresql:42.7.8 : Failed to compare JAR files: JAPICMP comparison failed for org.postgresql:postgresql
+[2025-09-22 14:00:52] org.testcontainers:postgresql:1.18.2 -> org.testcontainers:postgresql:1.21.3 : Failed to compare JAR files: JAPICMP comparison failed for org.testcontainers:postgresql
+[2025-09-22 14:00:54] org.testcontainers:mysql:1.18.2 -> org.testcontainers:mysql:1.21.3 : Failed to compare JAR files: JAPICMP comparison failed for org.testcontainers:mysql
+
+=== Summary ===
+Total comparisons: 37
+Failures: 5
+Success rate: 86.49%

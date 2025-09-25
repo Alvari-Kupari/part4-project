@@ -1,0 +1,7 @@
+=== Comparison Failure Log ===
+[2025-09-23 14:21:31] de.flapdoodle.embed:de.flapdoodle.embed.mongo.spring30x:4.11.0 -> de.flapdoodle.embed:de.flapdoodle.embed.mongo.spring30x:4.21.0 : Failed to compare JAR files: JAPICMP comparison failed for de.flapdoodle.embed:de.flapdoodle.embed.mongo.spring30x
+
+=== Summary ===
+Total comparisons: 101
+Failures: 1
+Success rate: 99.01%

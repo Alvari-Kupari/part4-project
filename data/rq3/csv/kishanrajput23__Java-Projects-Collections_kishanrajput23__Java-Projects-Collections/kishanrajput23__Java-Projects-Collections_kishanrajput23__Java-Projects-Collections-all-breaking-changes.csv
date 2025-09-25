@@ -1,0 +1,5 @@
+Library_Name,Old_Version,New_Version,Class_Name,Member_Name,Change_Type,Description,Binary_Compatible,Source_Compatible,Is_Transitive,Depth,Direct_Parent_Dependency,Direct_Dependency_Old_Version,Direct_Dependency_New_Version,Release_Type,Is_Used_In_Client
+junit:junit,4.12,4.13.2,org.junit.ClassRule,order,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,false,1,junit:junit,,,MINOR,false
+junit:junit,4.12,4.13.2,org.junit.internal.requests.ClassRequest,getRunner,METHOD_CHANGE,METHOD_NOW_FINAL; METHOD_MOVED_TO_SUPERCLASS,false,false,false,1,junit:junit,,,MINOR,false
+junit:junit,4.12,4.13.2,org.junit.Rule,order,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,false,1,junit:junit,,,MINOR,false
+junit:junit,4.12,4.13.2,org.junit.rules.ExpectedException,isAnyExceptionExpected,METHOD_CHANGE,METHOD_NOW_FINAL,false,false,false,1,junit:junit,,,MINOR,false

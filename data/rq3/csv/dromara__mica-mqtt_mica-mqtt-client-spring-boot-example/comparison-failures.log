@@ -1,0 +1,8 @@
+=== Comparison Failure Log ===
+[2025-09-22 20:08:50] org.dromara.mica-mqtt:mica-mqtt-client-spring-boot-starter:2.5.3 -> org.dromara.mica-mqtt:mica-mqtt-client-spring-boot-starter:2.5.4 : Failed to compare JAR files: JAPICMP comparison failed for org.dromara.mica-mqtt:mica-mqtt-client-spring-boot-starter
+[2025-09-22 20:08:51] org.projectlombok:lombok:1.18.30 -> org.projectlombok:lombok:1.18.42 : Failed to compare JAR files: JAPICMP comparison failed for org.projectlombok:lombok
+
+=== Summary ===
+Total comparisons: 2
+Failures: 2
+Success rate: 0.00%

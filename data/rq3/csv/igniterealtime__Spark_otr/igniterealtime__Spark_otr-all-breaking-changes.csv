@@ -1,0 +1,10 @@
+Library_Name,Old_Version,New_Version,Class_Name,Member_Name,Change_Type,Description,Binary_Compatible,Source_Compatible,Is_Transitive,Depth,Direct_Parent_Dependency,Direct_Dependency_Old_Version,Direct_Dependency_New_Version,Release_Type,Is_Used_In_Client
+org.jitsi:org.otr4j,0.22,0.23,net.java.otr4j.crypto.OtrCryptoEngine,generateDSAKeyPair,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.jitsi:org.otr4j,,,MINOR,false
+org.jitsi:org.otr4j,0.22,0.23,net.java.otr4j.crypto.OtrCryptoEngine,ZERO_CTR,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.jitsi:org.otr4j,,,MINOR,false
+org.jitsi:org.otr4j,0.22,0.23,net.java.otr4j.crypto.OtrCryptoEngine,GENERATOR_TEXT,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.jitsi:org.otr4j,,,MINOR,false
+org.jitsi:org.otr4j,0.22,0.23,net.java.otr4j.crypto.OtrCryptoEngineImpl,generateDHKeyPair,METHOD_CHANGE,METHOD_NO_LONGER_THROWS_CHECKED_EXCEPTION,true,false,false,1,org.jitsi:org.otr4j,,,MINOR,true
+org.jitsi:org.otr4j,0.22,0.23,net.java.otr4j.crypto.OtrCryptoEngineImpl,sha1Hash,METHOD_CHANGE,METHOD_NO_LONGER_THROWS_CHECKED_EXCEPTION,true,false,false,1,org.jitsi:org.otr4j,,,MINOR,false
+org.jitsi:org.otr4j,0.22,0.23,net.java.otr4j.crypto.OtrCryptoEngineImpl,sha256Hash,METHOD_CHANGE,METHOD_NO_LONGER_THROWS_CHECKED_EXCEPTION,true,false,false,1,org.jitsi:org.otr4j,,,MINOR,false
+org.jitsi:org.otr4j,0.22,0.23,net.java.otr4j.crypto.SM,SM,CONSTRUCTOR_CHANGE,CONSTRUCTOR_LESS_ACCESSIBLE,false,false,false,1,org.jitsi:org.otr4j,,,MINOR,false
+org.jitsi:org.otr4j,0.22,0.23,net.java.otr4j.crypto.Util,Util,CONSTRUCTOR_CHANGE,CONSTRUCTOR_LESS_ACCESSIBLE,false,false,false,1,org.jitsi:org.otr4j,,,MINOR,false
+org.jitsi:org.otr4j,0.22,0.23,net.java.otr4j.io.SerializationUtils,SerializationUtils,CONSTRUCTOR_CHANGE,CONSTRUCTOR_LESS_ACCESSIBLE,false,false,false,1,org.jitsi:org.otr4j,,,MINOR,false

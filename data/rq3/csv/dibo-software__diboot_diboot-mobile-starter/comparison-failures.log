@@ -1,0 +1,10 @@
+=== Comparison Failure Log ===
+[2025-09-22 18:27:18] com.github.binarywang:weixin-java-mp:4.7.0 -> com.github.binarywang:weixin-java-mp:4.7.7.B : Failed to compare JAR files: JAPICMP comparison failed for com.github.binarywang:weixin-java-mp
+[2025-09-22 18:27:45] com.github.binarywang:weixin-java-miniapp:4.7.0 -> com.github.binarywang:weixin-java-miniapp:4.7.7.B : Failed to compare JAR files: JAPICMP comparison failed for com.github.binarywang:weixin-java-miniapp
+[2025-09-22 18:27:45] org.projectlombok:lombok:1.18.38 -> org.projectlombok:lombok:1.18.42 : Failed to compare JAR files: JAPICMP comparison failed for org.projectlombok:lombok
+[2025-09-22 18:28:12] com.mysql:mysql-connector-j:9.3.0 -> com.mysql:mysql-connector-j:9.4.0 : Failed to compare JAR files: JAPICMP comparison failed for com.mysql:mysql-connector-j
+
+=== Summary ===
+Total comparisons: 5
+Failures: 4
+Success rate: 20.00%

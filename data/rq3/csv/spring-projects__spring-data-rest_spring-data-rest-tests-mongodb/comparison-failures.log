@@ -1,0 +1,10 @@
+=== Comparison Failure Log ===
+[2025-09-23 09:45:56] org.codehaus.groovy:groovy-all:2.4.21 -> org.codehaus.groovy:groovy-all:2.5.23 : Failed to resolve any JAR files for new dependency: org.codehaus.groovy:groovy-all:2.5.23 (old version resolved 20 JARs)
+[2025-09-23 09:45:56] org.mockito:mockito-core:5.18.0 -> org.mockito:mockito-core:5.20.0 : Failed to compare JAR files: JAPICMP comparison failed for org.mockito:mockito-core
+[2025-09-23 09:46:01] org.assertj:assertj-core:3.27.4 -> org.assertj:assertj-core:3.27.6 : Failed to compare JAR files: JAPICMP comparison failed for org.assertj:assertj-core
+[2025-09-23 09:46:01] ch.qos.logback:logback-classic:1.5.12 -> ch.qos.logback:logback-classic:1.5.18 : Failed to compare JAR files: JAPICMP comparison failed for ch.qos.logback:logback-classic
+
+=== Summary ===
+Total comparisons: 26
+Failures: 4
+Success rate: 84.62%

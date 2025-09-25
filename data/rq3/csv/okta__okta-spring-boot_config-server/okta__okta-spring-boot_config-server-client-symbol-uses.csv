@@ -1,0 +1,4 @@
+Library_Name,Symbol_Type,Class_Name,Symbol_Name,Usage_Location,Line_Number
+org.springframework.boot:spring-boot:jar:3.0.9,MethodCallExpr,org.springframework.boot.SpringApplication,run,C:\Users\tyin363\Documents\repos\okta__okta-spring-boot\examples\config-server\src\main\java\com\okta\example\cloud\configserver\ConfigServerApplication.java,27
+JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.lang.String,String,C:\Users\tyin363\Documents\repos\okta__okta-spring-boot\examples\config-server\src\main\java\com\okta\example\cloud\configserver\ConfigServerApplication.java,26
+CLIENT:client-code:N/A:N/A,ClassOrInterfaceType,com.okta.example.cloud.configserver.ConfigServerApplication,ConfigServerApplication,C:\Users\tyin363\Documents\repos\okta__okta-spring-boot\examples\config-server\src\main\java\com\okta\example\cloud\configserver\ConfigServerApplication.java,27

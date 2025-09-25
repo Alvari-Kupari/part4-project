@@ -1,0 +1,7 @@
+=== Comparison Failure Log ===
+[2025-09-22 22:28:34] org.apache.flink:flink-connector-base:1.17.2 -> org.apache.flink:flink-connector-base:1.20.2 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.flink:flink-connector-base
+
+=== Summary ===
+Total comparisons: 26
+Failures: 1
+Success rate: 96.15%

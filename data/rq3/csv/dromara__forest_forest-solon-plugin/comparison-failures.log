@@ -1,0 +1,13 @@
+=== Comparison Failure Log ===
+[2025-09-22 20:00:10] com.dtflys.forest:forest-core:1.7.3 -> com.dtflys.forest:forest-core:1.7.5 : Failed to compare JAR files: JAPICMP comparison failed for com.dtflys.forest:forest-core
+[2025-09-22 20:00:21] com.alibaba:fastjson:1.2.83 -> com.alibaba:fastjson:1.2.83_noneautotype : Failed to compare JAR files: JAPICMP comparison failed for com.alibaba:fastjson
+[2025-09-22 20:00:24] net.bytebuddy:byte-buddy:1.12.3 -> net.bytebuddy:byte-buddy:1.17.7 : Failed to compare JAR files: JAPICMP comparison failed for net.bytebuddy:byte-buddy
+[2025-09-22 20:00:25] net.bytebuddy:byte-buddy-agent:1.12.3 -> net.bytebuddy:byte-buddy-agent:1.17.7 : Failed to compare JAR files: JAPICMP comparison failed for net.bytebuddy:byte-buddy-agent
+[2025-09-22 20:00:25] org.mockito:mockito-core:4.5.1 -> org.mockito:mockito-core:4.11.0 : Failed to compare JAR files: JAPICMP comparison failed for org.mockito:mockito-core
+[2025-09-22 20:00:38] org.assertj:assertj-core:3.13.2 -> org.assertj:assertj-core:3.27.5 : Failed to compare JAR files: JAPICMP comparison failed for org.assertj:assertj-core
+[2025-09-22 20:00:38] cn.hutool:hutool-all:5.8.35 -> cn.hutool:hutool-all:5.8.40 : Failed to compare JAR files: JAPICMP comparison failed for cn.hutool:hutool-all
+
+=== Summary ===
+Total comparisons: 67
+Failures: 7
+Success rate: 89.55%

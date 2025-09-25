@@ -1,0 +1,7 @@
+Library_Name,Old_Version,New_Version,Class_Name,Member_Name,Change_Type,Description,Binary_Compatible,Source_Compatible,Is_Transitive,Depth,Direct_Parent_Dependency,Direct_Dependency_Old_Version,Direct_Dependency_New_Version,Release_Type,Is_Used_In_Client
+org.slf4j:slf4j-api,1.7.7,1.7.36,org.slf4j.helpers.SubstituteLogger,SubstituteLogger,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.slf4j:slf4j-api,,,PATCH,false
+org.slf4j:slf4j-api,1.7.7,1.7.36,org.slf4j.helpers.Util,org.slf4j.helpers.Util,CLASS_CHANGE,CLASS_NOW_FINAL,false,false,false,1,org.slf4j:slf4j-api,,,PATCH,false
+org.slf4j:slf4j-api,1.7.7,1.7.36,org.slf4j.helpers.Util,Util,CONSTRUCTOR_CHANGE,CONSTRUCTOR_LESS_ACCESSIBLE,false,false,false,1,org.slf4j:slf4j-api,,,PATCH,false
+org.slf4j:slf4j-api,1.7.7,1.7.36,org.slf4j.helpers.SubstituteLogger,SubstituteLogger,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.slf4j:slf4j-simple,1.7.7,1.7.36,PATCH,false
+org.slf4j:slf4j-api,1.7.7,1.7.36,org.slf4j.helpers.Util,org.slf4j.helpers.Util,CLASS_CHANGE,CLASS_NOW_FINAL,false,false,true,2,org.slf4j:slf4j-simple,1.7.7,1.7.36,PATCH,false
+org.slf4j:slf4j-api,1.7.7,1.7.36,org.slf4j.helpers.Util,Util,CONSTRUCTOR_CHANGE,CONSTRUCTOR_LESS_ACCESSIBLE,false,false,true,2,org.slf4j:slf4j-simple,1.7.7,1.7.36,PATCH,false

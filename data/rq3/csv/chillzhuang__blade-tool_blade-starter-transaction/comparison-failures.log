@@ -1,0 +1,8 @@
+=== Comparison Failure Log ===
+[2025-09-22 16:56:54] org.apache.seata:seata-spring-boot-starter:2.1.0 -> org.apache.seata:seata-spring-boot-starter:2.5.0 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.seata:seata-spring-boot-starter
+[2025-09-22 16:57:01] org.projectlombok:lombok:1.18.38 -> org.projectlombok:lombok:1.18.42 : Failed to compare JAR files: JAPICMP comparison failed for org.projectlombok:lombok
+
+=== Summary ===
+Total comparisons: 58
+Failures: 2
+Success rate: 96.55%

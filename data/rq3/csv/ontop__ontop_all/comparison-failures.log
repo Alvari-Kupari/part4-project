@@ -1,0 +1,8 @@
+=== Comparison Failure Log ===
+[2025-09-23 04:53:02] com.h2database:h2:2.2.220 -> com.h2database:h2:2.3.232 : Failed to compare JAR files: JAPICMP comparison failed for com.h2database:h2
+[2025-09-23 04:53:02] ch.qos.logback:logback-classic:1.2.13 -> ch.qos.logback:logback-classic:1.5.18 : Failed to compare JAR files: JAPICMP comparison failed for ch.qos.logback:logback-classic
+
+=== Summary ===
+Total comparisons: 15
+Failures: 2
+Success rate: 86.67%

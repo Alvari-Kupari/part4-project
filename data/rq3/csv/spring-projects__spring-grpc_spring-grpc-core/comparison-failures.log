@@ -1,0 +1,11 @@
+=== Comparison Failure Log ===
+[2025-09-23 09:51:13] org.springframework:spring-context:6.2.9 -> org.springframework:spring-context:6.2.11 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-context
+[2025-09-23 09:51:13] org.springframework.security:spring-security-web:6.5.2 -> org.springframework.security:spring-security-web:6.5.5 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.security:spring-security-web
+[2025-09-23 09:51:15] org.springframework.security:spring-security-oauth2-resource-server:6.5.2 -> org.springframework.security:spring-security-oauth2-resource-server:6.5.5 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.security:spring-security-oauth2-resource-server
+[2025-09-23 09:51:19] org.springframework.security:spring-security-config:6.5.2 -> org.springframework.security:spring-security-config:6.5.5 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.security:spring-security-config
+[2025-09-23 09:51:29] io.grpc:grpc-netty-shaded:1.72.0 -> io.grpc:grpc-netty-shaded:1.75.0 : Failed to compare JAR files: JAPICMP comparison failed for io.grpc:grpc-netty-shaded
+
+=== Summary ===
+Total comparisons: 80
+Failures: 5
+Success rate: 93.75%

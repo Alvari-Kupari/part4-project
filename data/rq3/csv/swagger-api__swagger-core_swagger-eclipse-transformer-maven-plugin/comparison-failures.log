@@ -1,0 +1,8 @@
+=== Comparison Failure Log ===
+[2025-09-23 10:50:38] org.apache.maven:maven-core:3.9.9 -> org.apache.maven:maven-core:3.9.11 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.maven:maven-core
+[2025-09-23 10:50:40] org.codehaus.plexus:plexus-archiver:4.10.0 -> org.codehaus.plexus:plexus-archiver:4.10.1 : Failed to compare JAR files: JAPICMP comparison failed for org.codehaus.plexus:plexus-archiver
+
+=== Summary ===
+Total comparisons: 44
+Failures: 2
+Success rate: 95.45%

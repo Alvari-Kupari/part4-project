@@ -1,0 +1,8 @@
+=== Comparison Failure Log ===
+[2025-09-23 15:20:39] org.assertj:assertj-core:3.18.1 -> org.assertj:assertj-core:3.27.6 : Failed to compare JAR files: JAPICMP comparison failed for org.assertj:assertj-core
+[2025-09-23 15:20:39] org.mockito:mockito-core:3.3.3 -> org.mockito:mockito-core:3.12.4 : Failed to compare JAR files: JAPICMP comparison failed for org.mockito:mockito-core
+
+=== Summary ===
+Total comparisons: 3
+Failures: 2
+Success rate: 33.33%

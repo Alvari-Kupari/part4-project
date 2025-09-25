@@ -1,0 +1,10 @@
+=== Comparison Failure Log ===
+[2025-09-23 16:07:53] org.projectlombok:lombok:1.18.36 -> org.projectlombok:lombok:1.18.42 : Failed to compare JAR files: JAPICMP comparison failed for org.projectlombok:lombok
+[2025-09-23 16:08:01] org.mockito:mockito-core:5.15.2 -> org.mockito:mockito-core:5.20.0 : Failed to compare JAR files: JAPICMP comparison failed for org.mockito:mockito-core
+[2025-09-23 16:08:25] org.junit.jupiter:junit-jupiter-api:5.11.4 -> org.junit.jupiter:junit-jupiter-api:5.13.4 : Failed to compare JAR files: JAPICMP comparison failed for org.junit.jupiter:junit-jupiter-api
+[2025-09-23 16:09:42] org.junit.jupiter:junit-jupiter-params:5.10.3 -> org.junit.jupiter:junit-jupiter-params:5.13.4 : Failed to compare JAR files: JAPICMP comparison failed for org.junit.jupiter:junit-jupiter-params
+
+=== Summary ===
+Total comparisons: 30
+Failures: 4
+Success rate: 86.67%

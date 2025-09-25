@@ -1,0 +1,10 @@
+=== Comparison Failure Log ===
+[2025-09-23 08:21:48] org.springframework:spring-context:5.3.31 -> org.springframework:spring-context:5.3.39 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-context
+[2025-09-23 08:21:49] org.springframework:spring-web:5.3.31 -> org.springframework:spring-web:5.3.39 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-web
+[2025-09-23 08:21:49] org.springframework:spring-core:5.3.31 -> org.springframework:spring-core:5.3.39 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-core
+[2025-09-23 08:21:50] com.alibaba:fastjson:2.0.57 -> com.alibaba:fastjson:2.0.59 : Failed to compare JAR files: JAPICMP comparison failed for com.alibaba:fastjson
+
+=== Summary ===
+Total comparisons: 8
+Failures: 4
+Success rate: 50.00%

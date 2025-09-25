@@ -1,0 +1,10 @@
+=== Comparison Failure Log ===
+[2025-09-23 02:51:01] org.springframework.boot:spring-boot-devtools:2.5.14 -> org.springframework.boot:spring-boot-devtools:2.7.18 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.boot:spring-boot-devtools
+[2025-09-23 02:51:07] mysql:mysql-connector-java:8.0.29 -> mysql:mysql-connector-java:8.0.33 : Failed to compare JAR files: JAPICMP comparison failed for mysql:mysql-connector-java
+[2025-09-23 02:51:10] org.mockito:mockito-core:3.7.7 -> org.mockito:mockito-core:3.12.4 : Failed to compare JAR files: JAPICMP comparison failed for org.mockito:mockito-core
+[2025-09-23 02:51:13] org.junit.jupiter:junit-jupiter-api:5.6.3 -> org.junit.jupiter:junit-jupiter-api:5.13.4 : Failed to compare JAR files: JAPICMP comparison failed for org.junit.jupiter:junit-jupiter-api
+
+=== Summary ===
+Total comparisons: 64
+Failures: 4
+Success rate: 93.75%

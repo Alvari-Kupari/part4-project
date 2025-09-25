@@ -1,0 +1,10 @@
+Library_Name,Old_Version,New_Version,Class_Name,Member_Name,Change_Type,Description,Binary_Compatible,Source_Compatible,Is_Transitive,Depth,Direct_Parent_Dependency,Direct_Dependency_Old_Version,Direct_Dependency_New_Version,Release_Type,Is_Used_In_Client
+cn.hutool:hutool-core,5.8.25,5.8.40,cn.hutool.core.lang.UUID,cn.hutool.core.lang.UUID,CLASS_CHANGE,CLASS_NOW_FINAL,false,false,true,2,cn.hutool:hutool-http,5.8.25,5.8.40,PATCH,false
+cn.hutool:hutool-core,5.8.25,5.8.40,cn.hutool.core.text.escape.Html4Unescape,cn.hutool.core.text.escape.Html4Unescape,CLASS_CHANGE,FIELD_REMOVED_IN_SUPERCLASS,false,false,true,2,cn.hutool:hutool-http,5.8.25,5.8.40,PATCH,false
+cn.hutool:hutool-core,5.8.25,5.8.40,cn.hutool.core.text.escape.XmlUnescape,OTHER_UNESCAPE,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,cn.hutool:hutool-http,5.8.25,5.8.40,PATCH,false
+cn.hutool:hutool-core,5.8.25,5.8.40,cn.hutool.core.thread.ThreadUtil,newExecutor,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,true,2,cn.hutool:hutool-http,5.8.25,5.8.40,PATCH,false
+cn.hutool:hutool-core,5.8.25,5.8.40,cn.hutool.core.thread.ThreadUtil,newExecutor,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,true,2,cn.hutool:hutool-http,5.8.25,5.8.40,PATCH,false
+cn.hutool:hutool-core,5.8.25,5.8.40,cn.hutool.core.thread.ThreadUtil,newExecutor,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,true,2,cn.hutool:hutool-http,5.8.25,5.8.40,PATCH,false
+cn.hutool:hutool-core,5.8.25,5.8.40,cn.hutool.core.thread.ThreadUtil,newFixedExecutor,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,true,2,cn.hutool:hutool-http,5.8.25,5.8.40,PATCH,false
+cn.hutool:hutool-core,5.8.25,5.8.40,cn.hutool.core.thread.ThreadUtil,newFixedExecutor,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,true,2,cn.hutool:hutool-http,5.8.25,5.8.40,PATCH,false
+cn.hutool:hutool-core,5.8.25,5.8.40,cn.hutool.core.thread.ThreadUtil,newFixedExecutor,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,true,2,cn.hutool:hutool-http,5.8.25,5.8.40,PATCH,false

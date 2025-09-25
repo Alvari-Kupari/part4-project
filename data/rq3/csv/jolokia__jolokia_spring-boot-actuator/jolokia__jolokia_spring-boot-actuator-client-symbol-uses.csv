@@ -1,0 +1,4 @@
+Library_Name,Symbol_Type,Class_Name,Symbol_Name,Usage_Location,Line_Number
+JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.lang.String,String,C:\Users\tyin363\Documents\repos\jolokia__jolokia\examples\spring-boot-actuator\src\main\java\org\jolokia\support\spring\boot\sample\Application.java,31
+CLIENT:client-code:N/A:N/A,ClassOrInterfaceType,org.jolokia.support.spring.boot.sample.Application,Application,C:\Users\tyin363\Documents\repos\jolokia__jolokia\examples\spring-boot-actuator\src\main\java\org\jolokia\support\spring\boot\sample\Application.java,32
+org.springframework.boot:spring-boot:jar:3.5.4,MethodCallExpr,org.springframework.boot.SpringApplication,run,C:\Users\tyin363\Documents\repos\jolokia__jolokia\examples\spring-boot-actuator\src\main\java\org\jolokia\support\spring\boot\sample\Application.java,32

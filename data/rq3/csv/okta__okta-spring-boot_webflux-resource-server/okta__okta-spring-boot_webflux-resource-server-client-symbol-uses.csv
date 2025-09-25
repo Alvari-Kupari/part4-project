@@ -1,0 +1,4 @@
+Library_Name,Symbol_Type,Class_Name,Symbol_Name,Usage_Location,Line_Number
+org.springframework.boot:spring-boot:jar:3.4.1,MethodCallExpr,org.springframework.boot.SpringApplication,run,C:\Users\tyin363\Documents\repos\okta__okta-spring-boot\examples\webflux-resource-server\src\main\java\com\okta\spring\example\webflux\ReactiveApplication.java,37
+JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.lang.String,String,C:\Users\tyin363\Documents\repos\okta__okta-spring-boot\examples\webflux-resource-server\src\main\java\com\okta\spring\example\webflux\ReactiveApplication.java,36
+CLIENT:client-code:N/A:N/A,ClassOrInterfaceType,com.okta.spring.example.webflux.ReactiveApplication,ReactiveApplication,C:\Users\tyin363\Documents\repos\okta__okta-spring-boot\examples\webflux-resource-server\src\main\java\com\okta\spring\example\webflux\ReactiveApplication.java,37

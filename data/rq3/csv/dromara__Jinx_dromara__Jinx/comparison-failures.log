@@ -1,0 +1,8 @@
+=== Comparison Failure Log ===
+[2025-09-22 20:05:56] io.netty:netty-all:4.1.42.Final -> io.netty:netty-all:4.2.6.Final : Failed to compare JAR files: JAPICMP comparison failed for io.netty:netty-all
+[2025-09-22 20:05:57] cglib:cglib-nodep:3.2.0 -> cglib:cglib-nodep:3.3.0 : Failed to compare JAR files: JAPICMP comparison failed for cglib:cglib-nodep
+
+=== Summary ===
+Total comparisons: 73
+Failures: 2
+Success rate: 97.26%

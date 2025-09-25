@@ -1,0 +1,9 @@
+=== Comparison Failure Log ===
+[2025-09-22 14:40:58] ch.qos.logback:logback-classic:1.2.13 -> ch.qos.logback:logback-classic:1.5.18 : Failed to compare JAR files: JAPICMP comparison failed for ch.qos.logback:logback-classic
+[2025-09-22 14:40:58] org.apache.derby:derby:10.15.2.0 -> org.apache.derby:derby:10.17.1.0 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.derby:derby
+[2025-09-22 14:40:58] org.apache.derby:derbytools:10.15.2.0 -> org.apache.derby:derbytools:10.17.1.0 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.derby:derbytools
+
+=== Summary ===
+Total comparisons: 16
+Failures: 3
+Success rate: 81.25%

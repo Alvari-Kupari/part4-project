@@ -1,0 +1,8 @@
+=== Comparison Failure Log ===
+[2025-09-23 13:19:11] io.quarkus:quarkus-core:3.25.2 -> io.quarkus:quarkus-core:3.28.0 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core
+[2025-09-23 13:21:56] org.assertj:assertj-core:3.27.4 -> org.assertj:assertj-core:3.27.6 : Failed to compare JAR files: JAPICMP comparison failed for org.assertj:assertj-core
+
+=== Summary ===
+Total comparisons: 300
+Failures: 2
+Success rate: 99.33%

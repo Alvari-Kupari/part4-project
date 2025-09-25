@@ -1,0 +1,64 @@
+Library_Name,Old_Version,New_Version,Class_Name,Member_Name,Change_Type,Description,Binary_Compatible,Source_Compatible,Is_Transitive,Depth,Direct_Parent_Dependency,Direct_Dependency_Old_Version,Direct_Dependency_New_Version,Release_Type,Is_Used_In_Client
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.helper.ChangeNotifyingArrayList,org.jsoup.helper.ChangeNotifyingArrayList,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.helper.ChangeNotifyingArrayList,add,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.helper.ChangeNotifyingArrayList,add,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.helper.ChangeNotifyingArrayList,addAll,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.helper.ChangeNotifyingArrayList,addAll,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.helper.ChangeNotifyingArrayList,clear,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.helper.ChangeNotifyingArrayList,onContentsChanged,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.helper.ChangeNotifyingArrayList,remove,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.helper.ChangeNotifyingArrayList,remove,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.helper.ChangeNotifyingArrayList,removeAll,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.helper.ChangeNotifyingArrayList,removeRange,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.helper.ChangeNotifyingArrayList,retainAll,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.helper.ChangeNotifyingArrayList,set,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.helper.ChangeNotifyingArrayList,ChangeNotifyingArrayList,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.helper.Consumer,org.jsoup.helper.Consumer,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.helper.Consumer,accept,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.internal.ConstrainableInputStream,org.jsoup.internal.ConstrainableInputStream,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.internal.ConstrainableInputStream,read,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.internal.ConstrainableInputStream,readToByteBuffer,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.internal.ConstrainableInputStream,reset,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.internal.ConstrainableInputStream,timeout,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.internal.ConstrainableInputStream,wrap,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.internal.FieldsAreNonnullByDefault,org.jsoup.internal.FieldsAreNonnullByDefault,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.internal.NonnullByDefault,org.jsoup.internal.NonnullByDefault,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.internal.ReturnsAreNonnullByDefault,org.jsoup.internal.ReturnsAreNonnullByDefault,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.nodes.CDataNode,org.jsoup.nodes.CDataNode,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.nodes.Comment,org.jsoup.nodes.Comment,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.nodes.DataNode,org.jsoup.nodes.DataNode,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.nodes.Document,org.jsoup.nodes.Document,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; METHOD_DEFAULT_ADDED_IN_IMPLEMENTED_INTERFACE,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.nodes.Document,normalise,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.nodes.Document,updateMetaCharsetElement,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.nodes.Document,updateMetaCharsetElement,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.nodes.DocumentType,org.jsoup.nodes.DocumentType,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.nodes.Element,org.jsoup.nodes.Element,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; INTERFACE_ADDED; METHOD_DEFAULT_ADDED_IN_IMPLEMENTED_INTERFACE,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.nodes.Element,forEach,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.nodes.Element,forEachNode,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.nodes.FormElement,org.jsoup.nodes.FormElement,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; METHOD_DEFAULT_ADDED_IN_IMPLEMENTED_INTERFACE,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.nodes.Node,forEachNode,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.nodes.PseudoTextElement,org.jsoup.nodes.PseudoTextElement,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; METHOD_DEFAULT_ADDED_IN_IMPLEMENTED_INTERFACE; ANNOTATION_DEPRECATED_ADDED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.nodes.Range,track,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.nodes.TextNode,org.jsoup.nodes.TextNode,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.nodes.XmlDeclaration,org.jsoup.nodes.XmlDeclaration,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.parser.HtmlTreeBuilder,isContentForTagData,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.parser.HtmlTreeBuilder,processStartTag,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.parser.ParseErrorList,org.jsoup.parser.ParseErrorList,CLASS_CHANGE,METHOD_ABSTRACT_ADDED_IN_IMPLEMENTED_INTERFACE; METHOD_DEFAULT_ADDED_IN_IMPLEMENTED_INTERFACE,true,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.parser.Parser,isContentForTagData,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.parser.Parser,setTreeBuilder,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.parser.Tag,isFormListed,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.parser.TokenQueue,addFirst,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.parser.TokenQueue,chompTo,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.parser.TokenQueue,chompToIgnoreCase,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.parser.TokenQueue,consumeToIgnoreCase,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.parser.TokenQueue,consumeWord,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.parser.TokenQueue,matchesAny,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.parser.XmlTreeBuilder,insertNode,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.parser.XmlTreeBuilder,insertNode,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.parser.XmlTreeBuilder,processStartTag,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.select.Elements,org.jsoup.select.Elements,CLASS_CHANGE,METHOD_ABSTRACT_ADDED_IN_IMPLEMENTED_INTERFACE; METHOD_DEFAULT_ADDED_IN_IMPLEMENTED_INTERFACE,true,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.select.Nodes,org.jsoup.select.Nodes,CLASS_CHANGE,INTERFACE_ADDED; METHOD_ABSTRACT_ADDED_IN_IMPLEMENTED_INTERFACE,true,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.UncheckedIOException,org.jsoup.UncheckedIOException,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.UncheckedIOException,ioException,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.UncheckedIOException,UncheckedIOException,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.UncheckedIOException,UncheckedIOException,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false

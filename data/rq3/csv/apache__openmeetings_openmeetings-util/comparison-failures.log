@@ -1,0 +1,12 @@
+=== Comparison Failure Log ===
+[2025-09-22 14:47:27] org.apache.tika:tika-parsers-standard-package:3.2.2 -> org.apache.tika:tika-parsers-standard-package:3.2.3 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.tika:tika-parsers-standard-package
+[2025-09-22 14:47:30] org.apache.tika:tika-core:3.2.2 -> org.apache.tika:tika-core:3.2.3 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.tika:tika-core
+[2025-09-22 14:47:30] org.springframework:spring-context:6.2.9 -> org.springframework:spring-context:6.2.11 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-context
+[2025-09-22 14:47:30] org.springframework:spring-aop:6.2.9 -> org.springframework:spring-aop:6.2.11 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-aop
+[2025-09-22 14:47:38] io.prometheus:prometheus-metrics-core:1.3.10 -> io.prometheus:prometheus-metrics-core:1.4.1 : Failed to compare JAR files: JAPICMP comparison failed for io.prometheus:prometheus-metrics-core
+[2025-09-22 14:47:38] org.springframework:spring-test:6.2.9 -> org.springframework:spring-test:6.2.11 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-test
+
+=== Summary ===
+Total comparisons: 13
+Failures: 6
+Success rate: 53.85%

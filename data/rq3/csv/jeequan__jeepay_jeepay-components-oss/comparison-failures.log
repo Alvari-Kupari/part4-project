@@ -1,0 +1,11 @@
+=== Comparison Failure Log ===
+[2025-09-23 00:17:37] org.springframework:spring-webmvc:6.1.16 -> org.springframework:spring-webmvc:6.2.11 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-webmvc
+[2025-09-23 00:17:38] org.springframework.boot:spring-boot:3.3.7 -> org.springframework.boot:spring-boot:3.5.6 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.boot:spring-boot
+[2025-09-23 00:17:38] org.springframework.boot:spring-boot-autoconfigure:3.3.7 -> org.springframework.boot:spring-boot-autoconfigure:3.5.6 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.boot:spring-boot-autoconfigure
+[2025-09-23 00:17:44] org.projectlombok:lombok:1.18.36 -> org.projectlombok:lombok:1.18.42 : Failed to compare JAR files: JAPICMP comparison failed for org.projectlombok:lombok
+[2025-09-23 00:17:47] cn.hutool:hutool-all:5.8.26 -> cn.hutool:hutool-all:5.8.40 : Failed to compare JAR files: JAPICMP comparison failed for cn.hutool:hutool-all
+
+=== Summary ===
+Total comparisons: 12
+Failures: 5
+Success rate: 58.33%

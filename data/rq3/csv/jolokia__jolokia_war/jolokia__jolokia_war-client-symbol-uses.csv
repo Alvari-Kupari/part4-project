@@ -1,0 +1,6 @@
+Library_Name,Symbol_Type,Class_Name,Symbol_Name,Usage_Location,Line_Number
+CLIENT:client-code:N/A:N/A,NameExpr,org.jolokia.it.servlet.TestMBeanRegisteringServlet,itSetup,C:\Users\tyin363\Documents\repos\jolokia__jolokia\it\war\src\main\java\org\jolokia\it\servlet\TestMBeanRegisteringServlet.java,38
+jakarta.servlet:jakarta.servlet-api:jar:5.0.0,ClassOrInterfaceType,jakarta.servlet.http.HttpServlet,HttpServlet,C:\Users\tyin363\Documents\repos\jolokia__jolokia\it\war\src\main\java\org\jolokia\it\servlet\TestMBeanRegisteringServlet.java,26
+CLIENT:client-code:N/A:N/A,NameExpr,org.jolokia.it.servlet.TestMBeanRegisteringServlet,itSetup,C:\Users\tyin363\Documents\repos\jolokia__jolokia\it\war\src\main\java\org\jolokia\it\servlet\TestMBeanRegisteringServlet.java,33
+CLIENT:client-code:N/A:N/A,NameExpr,org.jolokia.it.servlet.TestMBeanRegisteringServlet,itSetup,C:\Users\tyin363\Documents\repos\jolokia__jolokia\it\war\src\main\java\org\jolokia\it\servlet\TestMBeanRegisteringServlet.java,32
+jakarta.servlet:jakarta.servlet-api:jar:5.0.0,ClassOrInterfaceType,jakarta.servlet.ServletConfig,ServletConfig,C:\Users\tyin363\Documents\repos\jolokia__jolokia\it\war\src\main\java\org\jolokia\it\servlet\TestMBeanRegisteringServlet.java,31

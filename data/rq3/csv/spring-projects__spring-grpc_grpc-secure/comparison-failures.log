@@ -1,0 +1,7 @@
+=== Comparison Failure Log ===
+[2025-09-23 09:48:18] io.projectreactor.netty:reactor-netty-core:1.2.8 -> io.projectreactor.netty:reactor-netty-core:1.2.10 : Failed to compare JAR files: JAPICMP comparison failed for io.projectreactor.netty:reactor-netty-core
+
+=== Summary ===
+Total comparisons: 30
+Failures: 1
+Success rate: 96.67%

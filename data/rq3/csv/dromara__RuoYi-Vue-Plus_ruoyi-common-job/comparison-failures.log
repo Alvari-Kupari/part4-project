@@ -1,0 +1,9 @@
+=== Comparison Failure Log ===
+[2025-09-22 20:20:43] org.springframework.boot:spring-boot-autoconfigure:3.4.7 -> org.springframework.boot:spring-boot-autoconfigure:3.5.6 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.boot:spring-boot-autoconfigure
+[2025-09-22 20:20:44] com.aizuda:snail-job-client-starter:1.5.0 -> com.aizuda:snail-job-client-starter:1.8.0 : Failed to compare JAR files: JAPICMP comparison failed for com.aizuda:snail-job-client-starter
+[2025-09-22 20:21:00] org.projectlombok:lombok:1.18.36 -> org.projectlombok:lombok:1.18.42 : Failed to compare JAR files: JAPICMP comparison failed for org.projectlombok:lombok
+
+=== Summary ===
+Total comparisons: 7
+Failures: 3
+Success rate: 57.14%

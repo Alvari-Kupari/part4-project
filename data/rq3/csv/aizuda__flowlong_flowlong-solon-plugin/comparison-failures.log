@@ -1,0 +1,8 @@
+=== Comparison Failure Log ===
+[2025-09-22 13:38:40] com.aizuda:flowlong-mybatis-plus:1.1.16 -> com.aizuda:flowlong-mybatis-plus:1.1.17 : Failed to compare JAR files: JAPICMP comparison failed for com.aizuda:flowlong-mybatis-plus
+[2025-09-22 13:38:43] org.projectlombok:lombok:1.18.30 -> org.projectlombok:lombok:1.18.42 : Failed to compare JAR files: JAPICMP comparison failed for org.projectlombok:lombok
+
+=== Summary ===
+Total comparisons: 22
+Failures: 2
+Success rate: 90.91%

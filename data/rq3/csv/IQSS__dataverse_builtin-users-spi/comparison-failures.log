@@ -1,0 +1,22 @@
+=== Comparison Failure Log ===
+[2025-09-22 23:54:08] org.keycloak:keycloak-server-spi:26.3.2 -> org.keycloak:keycloak-server-spi:26.3.4 : Failed to compare JAR files: JAPICMP comparison failed for org.keycloak:keycloak-server-spi
+[2025-09-22 23:54:10] org.keycloak:keycloak-server-spi-private:26.3.2 -> org.keycloak:keycloak-server-spi-private:26.3.4 : Failed to compare JAR files: JAPICMP comparison failed for org.keycloak:keycloak-server-spi-private
+[2025-09-22 23:55:20] org.keycloak:keycloak-services:26.3.2 -> org.keycloak:keycloak-services:26.3.4 : Failed to compare JAR files: JAPICMP comparison failed for org.keycloak:keycloak-services
+[2025-09-22 23:57:10] org.junit.jupiter:junit-jupiter-api:5.11.4 -> org.junit.jupiter:junit-jupiter-api:5.13.4 : Failed to compare JAR files: JAPICMP comparison failed for org.junit.jupiter:junit-jupiter-api
+[2025-09-22 23:57:11] org.mockito:mockito-core:5.15.2 -> org.mockito:mockito-core:5.20.0 : Failed to compare JAR files: JAPICMP comparison failed for org.mockito:mockito-core
+
+=== Summary ===
+Total comparisons: 54
+Failures: 5
+Success rate: 90.74%
+=== Comparison Failure Log ===
+[2025-09-22 23:57:55] org.keycloak:keycloak-server-spi:26.3.2 -> org.keycloak:keycloak-server-spi:26.3.4 : Failed to compare JAR files: JAPICMP comparison failed for org.keycloak:keycloak-server-spi
+[2025-09-22 23:57:55] org.keycloak:keycloak-server-spi-private:26.3.2 -> org.keycloak:keycloak-server-spi-private:26.3.4 : Failed to compare JAR files: JAPICMP comparison failed for org.keycloak:keycloak-server-spi-private
+[2025-09-22 23:57:58] org.keycloak:keycloak-services:26.3.2 -> org.keycloak:keycloak-services:26.3.4 : Failed to compare JAR files: JAPICMP comparison failed for org.keycloak:keycloak-services
+[2025-09-22 23:58:36] org.junit.jupiter:junit-jupiter-api:5.11.4 -> org.junit.jupiter:junit-jupiter-api:5.13.4 : Failed to compare JAR files: JAPICMP comparison failed for org.junit.jupiter:junit-jupiter-api
+[2025-09-22 23:58:36] org.mockito:mockito-core:5.15.2 -> org.mockito:mockito-core:5.20.0 : Failed to compare JAR files: JAPICMP comparison failed for org.mockito:mockito-core
+
+=== Summary ===
+Total comparisons: 54
+Failures: 5
+Success rate: 90.74%

@@ -1,0 +1,16 @@
+=== Comparison Failure Log ===
+[2025-09-23 06:11:52] com.alibaba:fastjson:1.2.83 -> com.alibaba:fastjson:1.2.83_noneautotype : Failed to compare JAR files: JAPICMP comparison failed for com.alibaba:fastjson
+[2025-09-23 06:13:20] org.apache.parquet:parquet-column:1.13.0 -> org.apache.parquet:parquet-column:1.16.0 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.parquet:parquet-column
+[2025-09-23 06:13:22] org.apache.parquet:parquet-hadoop:1.13.0 -> org.apache.parquet:parquet-hadoop:1.16.0 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.parquet:parquet-hadoop
+[2025-09-23 06:13:24] org.apache.parquet:parquet-avro:1.13.0 -> org.apache.parquet:parquet-avro:1.16.0 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.parquet:parquet-avro
+[2025-09-23 06:14:41] org.apache.hadoop:hadoop-mapreduce-client-core:3.3.1 -> org.apache.hadoop:hadoop-mapreduce-client-core:3.4.2 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.hadoop:hadoop-mapreduce-client-core
+[2025-09-23 06:14:46] io.grpc:grpc-netty-shaded:1.49.1 -> io.grpc:grpc-netty-shaded:1.75.0 : Failed to compare JAR files: JAPICMP comparison failed for io.grpc:grpc-netty-shaded
+[2025-09-23 06:15:50] org.apache.logging.log4j:log4j-core:2.17.1 -> org.apache.logging.log4j:log4j-core:2.25.2 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.logging.log4j:log4j-core
+[2025-09-23 06:15:50] org.apache.logging.log4j:log4j-api:2.17.1 -> org.apache.logging.log4j:log4j-api:2.25.2 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.logging.log4j:log4j-api
+[2025-09-23 06:15:54] org.junit.jupiter:junit-jupiter-api:5.8.2 -> org.junit.jupiter:junit-jupiter-api:5.13.4 : Failed to compare JAR files: JAPICMP comparison failed for org.junit.jupiter:junit-jupiter-api
+[2025-09-23 06:15:55] org.mockito:mockito-core:4.5.1 -> org.mockito:mockito-core:4.11.0 : Failed to compare JAR files: JAPICMP comparison failed for org.mockito:mockito-core
+
+=== Summary ===
+Total comparisons: 233
+Failures: 10
+Success rate: 95.71%

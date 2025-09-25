@@ -1,0 +1,11 @@
+=== Comparison Failure Log ===
+[2025-09-22 16:32:04] org.springframework:spring-test:6.0.23 -> org.springframework:spring-test:6.2.11 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-test
+[2025-09-22 16:32:07] org.springframework.boot:spring-boot-test:3.1.12 -> org.springframework.boot:spring-boot-test:3.5.6 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.boot:spring-boot-test
+[2025-09-22 16:32:10] org.easymock:easymock:5.2.0 -> org.easymock:easymock:5.6.0 : Failed to compare JAR files: JAPICMP comparison failed for org.easymock:easymock
+[2025-09-22 16:32:36] org.apache.groovy:groovy-all:4.0.20 -> org.apache.groovy:groovy-all:4.0.28 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.groovy:groovy-all
+[2025-09-22 16:32:50] org.projectlombok:lombok:1.18.38 -> org.projectlombok:lombok:1.18.42 : Failed to compare JAR files: JAPICMP comparison failed for org.projectlombok:lombok
+
+=== Summary ===
+Total comparisons: 57
+Failures: 5
+Success rate: 91.23%

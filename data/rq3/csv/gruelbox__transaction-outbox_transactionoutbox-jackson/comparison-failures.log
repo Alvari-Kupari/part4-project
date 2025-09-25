@@ -1,0 +1,7 @@
+=== Comparison Failure Log ===
+[2025-09-22 22:45:59] org.projectlombok:lombok:1.18.30 -> org.projectlombok:lombok:1.18.42 : Failed to compare JAR files: JAPICMP comparison failed for org.projectlombok:lombok
+
+=== Summary ===
+Total comparisons: 17
+Failures: 1
+Success rate: 94.12%

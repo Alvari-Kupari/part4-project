@@ -1,0 +1,12 @@
+=== Comparison Failure Log ===
+[2025-09-22 23:48:06] org.springframework:spring-webflux:6.2.9 -> org.springframework:spring-webflux:6.2.11 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-webflux
+[2025-09-22 23:48:06] org.springframework.boot:spring-boot-autoconfigure:3.4.8 -> org.springframework.boot:spring-boot-autoconfigure:3.5.6 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.boot:spring-boot-autoconfigure
+[2025-09-22 23:48:16] org.springframework.boot:spring-boot-test:3.4.8 -> org.springframework.boot:spring-boot-test:3.5.6 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.boot:spring-boot-test
+[2025-09-22 23:48:16] org.springframework.boot:spring-boot-test-autoconfigure:3.4.8 -> org.springframework.boot:spring-boot-test-autoconfigure:3.5.6 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.boot:spring-boot-test-autoconfigure
+[2025-09-22 23:48:17] org.springframework:spring-test:6.2.9 -> org.springframework:spring-test:6.2.11 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-test
+[2025-09-22 23:48:17] org.projectlombok:lombok:1.18.30 -> org.projectlombok:lombok:1.18.42 : Failed to compare JAR files: JAPICMP comparison failed for org.projectlombok:lombok
+
+=== Summary ===
+Total comparisons: 62
+Failures: 6
+Success rate: 90.32%

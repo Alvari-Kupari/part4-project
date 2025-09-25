@@ -1,0 +1,14 @@
+=== Comparison Failure Log ===
+[2025-09-23 08:55:57] org.junit.jupiter:junit-jupiter-api:5.8.1 -> org.junit.jupiter:junit-jupiter-api:5.13.4 : Failed to compare JAR files: JAPICMP comparison failed for org.junit.jupiter:junit-jupiter-api
+
+=== Summary ===
+Total comparisons: 49
+Failures: 1
+Success rate: 97.96%
+=== Comparison Failure Log ===
+[2025-09-23 08:56:46] org.junit.jupiter:junit-jupiter-api:5.8.1 -> org.junit.jupiter:junit-jupiter-api:5.13.4 : Failed to compare JAR files: JAPICMP comparison failed for org.junit.jupiter:junit-jupiter-api
+
+=== Summary ===
+Total comparisons: 49
+Failures: 1
+Success rate: 97.96%

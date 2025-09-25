@@ -1,0 +1,11 @@
+=== Comparison Failure Log ===
+[2025-09-23 10:52:11] org.apache.maven:maven-core:3.9.9 -> org.apache.maven:maven-core:3.9.11 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.maven:maven-core
+[2025-09-23 10:52:11] org.codehaus.plexus:plexus-archiver:4.10.0 -> org.codehaus.plexus:plexus-archiver:4.10.1 : Failed to compare JAR files: JAPICMP comparison failed for org.codehaus.plexus:plexus-archiver
+[2025-09-23 10:52:21] org.eclipse.jetty:jetty-servlets:9.4.57.v20241219 -> org.eclipse.jetty:jetty-servlets:9.4.58.v20250814 : Failed to compare JAR files: JAPICMP comparison failed for org.eclipse.jetty:jetty-servlets
+[2025-09-23 10:52:25] org.eclipse.jetty:jetty-proxy:9.4.57.v20241219 -> org.eclipse.jetty:jetty-proxy:9.4.58.v20250814 : Failed to compare JAR files: JAPICMP comparison failed for org.eclipse.jetty:jetty-proxy
+[2025-09-23 10:52:25] ch.qos.logback:logback-classic:1.5.16 -> ch.qos.logback:logback-classic:1.5.18 : Failed to compare JAR files: JAPICMP comparison failed for ch.qos.logback:logback-classic
+
+=== Summary ===
+Total comparisons: 75
+Failures: 5
+Success rate: 93.33%

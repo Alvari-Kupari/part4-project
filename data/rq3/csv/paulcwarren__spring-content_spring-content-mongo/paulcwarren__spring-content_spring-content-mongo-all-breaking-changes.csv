@@ -1,0 +1,15 @@
+Library_Name,Old_Version,New_Version,Class_Name,Member_Name,Change_Type,Description,Binary_Compatible,Source_Compatible,Is_Transitive,Depth,Direct_Parent_Dependency,Direct_Dependency_Old_Version,Direct_Dependency_New_Version,Release_Type,Is_Used_In_Client
+org.mongodb:mongodb-driver-sync,5.4.0,5.6.0,com.mongodb.client.internal.ChangeStreamIterableImpl,asReadOperation,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,org.mongodb:mongodb-driver-sync,,,MINOR,false
+org.mongodb:mongodb-driver-sync,5.4.0,5.6.0,com.mongodb.client.internal.ListDatabasesIterableImpl,asReadOperation,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,org.mongodb:mongodb-driver-sync,,,MINOR,false
+org.mongodb:mongodb-driver-sync,5.4.0,5.6.0,com.mongodb.client.internal.MongoClientImpl,MongoClientImpl,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.mongodb:mongodb-driver-sync,,,MINOR,false
+org.mongodb:mongodb-driver-sync,5.4.0,5.6.0,com.mongodb.client.internal.MongoClientImpl,MongoClientImpl,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.mongodb:mongodb-driver-sync,,,MINOR,false
+org.mongodb:mongodb-driver-sync,5.4.0,5.6.0,com.mongodb.client.internal.MongoIterableImpl,asReadOperation,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,org.mongodb:mongodb-driver-sync,,,MINOR,false
+org.mongodb:mongodb-driver-sync,5.4.0,5.6.0,com.mongodb.client.MongoClient,appendMetadata,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.mongodb:mongodb-driver-sync,,,MINOR,false
+org.testcontainers:mongodb,1.17.6,1.21.3,org.testcontainers.mongodb.MongoDBAtlasLocalContainer,org.testcontainers.mongodb.MongoDBAtlasLocalContainer,CLASS_CHANGE,INTERFACE_ADDED; METHOD_ABSTRACT_ADDED_IN_IMPLEMENTED_INTERFACE,true,false,false,1,org.testcontainers:mongodb,,,MINOR,false
+org.mongodb:bson,5.4.0,5.6.0,org.bson.ByteBuf,arrayOffset,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.mongodb:mongodb-driver-sync,5.4.0,5.6.0,MINOR,false
+org.mongodb:bson,5.4.0,5.6.0,org.bson.ByteBuf,isBackedByArray,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.mongodb:mongodb-driver-sync,5.4.0,5.6.0,MINOR,false
+org.mongodb:bson,5.4.0,5.6.0,org.bson.ByteBuf,putDouble,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.mongodb:mongodb-driver-sync,5.4.0,5.6.0,MINOR,false
+org.mongodb:bson,5.4.0,5.6.0,org.bson.ByteBuf,putInt,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.mongodb:mongodb-driver-sync,5.4.0,5.6.0,MINOR,false
+org.mongodb:bson,5.4.0,5.6.0,org.bson.ByteBuf,putInt,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.mongodb:mongodb-driver-sync,5.4.0,5.6.0,MINOR,false
+org.mongodb:bson,5.4.0,5.6.0,org.bson.ByteBuf,putLong,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.mongodb:mongodb-driver-sync,5.4.0,5.6.0,MINOR,false
+org.apache.commons:commons-compress,1.22,1.24.0,org.apache.commons.compress.archivers.zip.ZipFile,getRawInputStream,METHOD_CHANGE,METHOD_NOW_THROWS_CHECKED_EXCEPTION,true,false,true,2,org.testcontainers:mongodb,1.17.6,1.21.3,MINOR,false

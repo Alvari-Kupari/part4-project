@@ -1,0 +1,11 @@
+=== Comparison Failure Log ===
+[2025-09-23 07:26:32] com.alibaba:fastjson:1.2.83 -> com.alibaba:fastjson:1.2.83_noneautotype : Failed to compare JAR files: JAPICMP comparison failed for com.alibaba:fastjson
+[2025-09-23 07:33:20] org.apache.logging.log4j:log4j-core:2.17.1 -> org.apache.logging.log4j:log4j-core:2.25.2 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.logging.log4j:log4j-core
+[2025-09-23 07:33:23] org.apache.logging.log4j:log4j-api:2.17.1 -> org.apache.logging.log4j:log4j-api:2.25.2 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.logging.log4j:log4j-api
+[2025-09-23 07:33:34] org.junit.jupiter:junit-jupiter-api:5.8.2 -> org.junit.jupiter:junit-jupiter-api:5.13.4 : Failed to compare JAR files: JAPICMP comparison failed for org.junit.jupiter:junit-jupiter-api
+[2025-09-23 07:33:38] org.mockito:mockito-core:4.5.1 -> org.mockito:mockito-core:4.11.0 : Failed to compare JAR files: JAPICMP comparison failed for org.mockito:mockito-core
+
+=== Summary ===
+Total comparisons: 139
+Failures: 5
+Success rate: 96.40%

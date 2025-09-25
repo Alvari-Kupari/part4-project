@@ -1,0 +1,8 @@
+=== Comparison Failure Log ===
+[2025-09-22 22:53:00] org.eclipse.jetty:jetty-util:9.4.57.v20241219 -> org.eclipse.jetty:jetty-util:9.4.58.v20250814 : Failed to compare JAR files: JAPICMP comparison failed for org.eclipse.jetty:jetty-util
+[2025-09-22 22:53:00] org.assertj:assertj-core:3.27.4 -> org.assertj:assertj-core:3.27.5 : Failed to compare JAR files: JAPICMP comparison failed for org.assertj:assertj-core
+
+=== Summary ===
+Total comparisons: 30
+Failures: 2
+Success rate: 93.33%

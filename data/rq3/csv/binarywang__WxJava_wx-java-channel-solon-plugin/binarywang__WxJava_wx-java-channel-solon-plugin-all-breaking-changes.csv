@@ -1,0 +1,746 @@
+Library_Name,Old_Version,New_Version,Class_Name,Member_Name,Change_Type,Description,Binary_Compatible,Source_Compatible,Is_Transitive,Depth,Direct_Parent_Dependency,Direct_Dependency_Old_Version,Direct_Dependency_New_Version,Release_Type,Is_Used_In_Client
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.BinaryJedis,client,FIELD_CHANGE,FIELD_NOW_FINAL,false,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.AdvancedBinaryJedisCommands,aclLoad,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.AdvancedBinaryJedisCommands,aclLog,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE; ANNOTATION_DEPRECATED_ADDED,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.AdvancedBinaryJedisCommands,aclLogBinary,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.AdvancedBinaryJedisCommands,aclLogBinary,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.AdvancedBinaryJedisCommands,aclLogReset,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.AdvancedBinaryJedisCommands,aclSave,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.AdvancedBinaryJedisCommands,clientId,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.AdvancedBinaryJedisCommands,clientInfoBinary,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.AdvancedBinaryJedisCommands,clientListBinary,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.AdvancedBinaryJedisCommands,clientListBinary,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.AdvancedBinaryJedisCommands,clientPause,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.AdvancedBinaryJedisCommands,clientPause,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.AdvancedBinaryJedisCommands,clientUnblock,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.AdvancedBinaryJedisCommands,configSetBinary,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE; ANNOTATION_DEPRECATED_ADDED,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.AdvancedBinaryJedisCommands,failover,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.AdvancedBinaryJedisCommands,failover,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.AdvancedBinaryJedisCommands,failoverAbort,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.AdvancedBinaryJedisCommands,memoryUsage,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.AdvancedBinaryJedisCommands,memoryUsage,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.AdvancedBinaryJedisCommands,roleBinary,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.AdvancedJedisCommands,aclLoad,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.AdvancedJedisCommands,aclLog,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.AdvancedJedisCommands,aclLog,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.AdvancedJedisCommands,aclLog,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE; ANNOTATION_DEPRECATED_ADDED,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.AdvancedJedisCommands,aclLogReset,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.AdvancedJedisCommands,aclSave,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.AdvancedJedisCommands,clientId,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.AdvancedJedisCommands,clientInfo,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.AdvancedJedisCommands,clientList,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.AdvancedJedisCommands,clientList,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.AdvancedJedisCommands,clientPause,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.AdvancedJedisCommands,clientPause,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.AdvancedJedisCommands,clientUnblock,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.AdvancedJedisCommands,failover,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.AdvancedJedisCommands,failover,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.AdvancedJedisCommands,failoverAbort,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.AdvancedJedisCommands,memoryUsage,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.AdvancedJedisCommands,memoryUsage,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.AdvancedJedisCommands,role,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BasicCommands,flushAll,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BasicCommands,flushDB,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BasicCommands,shutdown,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BasicRedisPipeline,flushAll,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BasicRedisPipeline,flushDB,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryJedisClusterCommands,geoadd,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryJedisClusterCommands,getDel,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryJedisClusterCommands,getEx,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryJedisClusterCommands,hrandfield,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryJedisClusterCommands,hrandfield,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryJedisClusterCommands,hrandfieldWithValues,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryJedisClusterCommands,lpop,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryJedisClusterCommands,lpos,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryJedisClusterCommands,lpos,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryJedisClusterCommands,lpos,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryJedisClusterCommands,memoryUsage,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryJedisClusterCommands,memoryUsage,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryJedisClusterCommands,restore,METHOD_CHANGE,METHOD_ABSTRACT_NOW_DEFAULT; ANNOTATION_DEPRECATED_ADDED,false,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryJedisClusterCommands,restore,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryJedisClusterCommands,restore,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryJedisClusterCommands,rpop,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryJedisClusterCommands,setex,METHOD_CHANGE,METHOD_ABSTRACT_NOW_DEFAULT; ANNOTATION_DEPRECATED_ADDED,false,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryJedisClusterCommands,setex,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryJedisClusterCommands,smismember,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryJedisClusterCommands,xadd,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryJedisClusterCommands,xautoclaim,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryJedisClusterCommands,xautoclaimJustId,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryJedisClusterCommands,xclaim,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryJedisClusterCommands,xclaimJustId,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryJedisClusterCommands,xpending,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryJedisClusterCommands,xpending,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryJedisClusterCommands,xrange,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryJedisClusterCommands,xrange,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryJedisClusterCommands,xrevrange,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryJedisClusterCommands,xtrim,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryJedisClusterCommands,zaddIncr,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryJedisClusterCommands,zmscore,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryJedisClusterCommands,zrandmember,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryJedisClusterCommands,zrandmember,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryJedisClusterCommands,zrandmemberWithScores,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryJedisCommands,expire,METHOD_CHANGE,METHOD_ABSTRACT_NOW_DEFAULT; ANNOTATION_DEPRECATED_ADDED,false,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryJedisCommands,expire,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryJedisCommands,geoadd,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryJedisCommands,getDel,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryJedisCommands,getEx,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryJedisCommands,hrandfield,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryJedisCommands,hrandfield,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryJedisCommands,hrandfieldWithValues,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryJedisCommands,lpop,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryJedisCommands,lpos,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryJedisCommands,lpos,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryJedisCommands,lpos,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryJedisCommands,restore,METHOD_CHANGE,METHOD_ABSTRACT_NOW_DEFAULT; ANNOTATION_DEPRECATED_ADDED,false,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryJedisCommands,restore,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryJedisCommands,restore,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryJedisCommands,restoreReplace,METHOD_CHANGE,METHOD_ABSTRACT_NOW_DEFAULT; ANNOTATION_DEPRECATED_ADDED,false,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryJedisCommands,restoreReplace,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE; ANNOTATION_DEPRECATED_ADDED,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryJedisCommands,rpop,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryJedisCommands,setex,METHOD_CHANGE,METHOD_ABSTRACT_NOW_DEFAULT; ANNOTATION_DEPRECATED_ADDED,false,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryJedisCommands,setex,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryJedisCommands,smismember,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryJedisCommands,strAlgoLCSStrings,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryJedisCommands,xadd,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryJedisCommands,xautoclaim,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryJedisCommands,xautoclaimJustId,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryJedisCommands,xclaim,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryJedisCommands,xclaimJustId,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryJedisCommands,xinfoConsumersBinary,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryJedisCommands,xinfoGroupBinary,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryJedisCommands,xinfoStreamBinary,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryJedisCommands,xpending,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryJedisCommands,xpending,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryJedisCommands,xrange,METHOD_CHANGE,METHOD_ABSTRACT_NOW_DEFAULT; ANNOTATION_DEPRECATED_ADDED,false,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryJedisCommands,xrange,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryJedisCommands,xrange,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryJedisCommands,xrevrange,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryJedisCommands,xtrim,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryJedisCommands,zaddIncr,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryJedisCommands,zmscore,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryJedisCommands,zrandmember,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryJedisCommands,zrandmember,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryJedisCommands,zrandmemberWithScores,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryRedisPipeline,expire,METHOD_CHANGE,METHOD_ABSTRACT_NOW_DEFAULT; ANNOTATION_DEPRECATED_ADDED,false,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryRedisPipeline,expire,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryRedisPipeline,geoadd,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryRedisPipeline,getDel,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryRedisPipeline,getEx,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryRedisPipeline,hrandfield,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryRedisPipeline,hrandfield,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryRedisPipeline,hrandfieldWithValues,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryRedisPipeline,lpop,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryRedisPipeline,lpos,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryRedisPipeline,lpos,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryRedisPipeline,lpos,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryRedisPipeline,restore,METHOD_CHANGE,METHOD_ABSTRACT_NOW_DEFAULT; ANNOTATION_DEPRECATED_ADDED,false,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryRedisPipeline,restore,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryRedisPipeline,restore,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryRedisPipeline,restoreReplace,METHOD_CHANGE,METHOD_ABSTRACT_NOW_DEFAULT; ANNOTATION_DEPRECATED_ADDED,false,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryRedisPipeline,restoreReplace,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE; ANNOTATION_DEPRECATED_ADDED,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryRedisPipeline,rpop,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryRedisPipeline,setex,METHOD_CHANGE,METHOD_ABSTRACT_NOW_DEFAULT; ANNOTATION_DEPRECATED_ADDED,false,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryRedisPipeline,setex,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryRedisPipeline,smismember,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryRedisPipeline,strAlgoLCSStrings,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryRedisPipeline,xadd,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryRedisPipeline,xautoclaim,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryRedisPipeline,xautoclaimJustId,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryRedisPipeline,xclaim,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryRedisPipeline,xclaimJustId,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryRedisPipeline,xpending,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryRedisPipeline,xpending,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryRedisPipeline,xpendingBinary,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryRedisPipeline,xrange,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryRedisPipeline,xrevrange,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryRedisPipeline,xtrim,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryRedisPipeline,zaddIncr,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryRedisPipeline,zmscore,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryRedisPipeline,zrandmember,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryRedisPipeline,zrandmember,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryRedisPipeline,zrandmemberWithScores,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.BinaryScriptingCommands,scriptFlush,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.ClusterCommands,clusterFailover,METHOD_CHANGE,METHOD_ABSTRACT_NOW_DEFAULT,false,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.ClusterCommands,clusterFailover,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.ClusterCommands,clusterGetKeysInSlotBinary,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.ClusterCommands,clusterMyId,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.ClusterCommands,clusterReplicas,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.ClusterCommands,clusterReset,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.ClusterCommands,readwrite,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.Commands,blmove,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.Commands,blpop,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.Commands,blpop,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.Commands,brpop,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.Commands,brpop,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.Commands,bzpopmax,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.Commands,bzpopmin,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.Commands,clientId,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.Commands,clientInfo,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.Commands,clientList,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.Commands,clientList,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.Commands,clientUnblock,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.Commands,copy,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.Commands,copy,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.Commands,expire,METHOD_CHANGE,METHOD_ABSTRACT_NOW_DEFAULT; ANNOTATION_DEPRECATED_ADDED,false,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.Commands,expire,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.Commands,getDel,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.Commands,getEx,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.Commands,hrandfield,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.Commands,hrandfield,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.Commands,hrandfieldWithValues,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.Commands,lmove,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.Commands,lpop,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.Commands,lpos,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.Commands,lpos,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.Commands,lpos,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.Commands,migrate,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.Commands,migrate,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.Commands,restore,METHOD_CHANGE,METHOD_ABSTRACT_NOW_DEFAULT; ANNOTATION_DEPRECATED_ADDED,false,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.Commands,restore,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.Commands,restore,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.Commands,restoreReplace,METHOD_CHANGE,METHOD_ABSTRACT_NOW_DEFAULT; ANNOTATION_DEPRECATED_ADDED,false,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.Commands,restoreReplace,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE; ANNOTATION_DEPRECATED_ADDED,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.Commands,rpop,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.Commands,scan,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.Commands,setex,METHOD_CHANGE,METHOD_ABSTRACT_NOW_DEFAULT; ANNOTATION_DEPRECATED_ADDED,false,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.Commands,setex,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.Commands,smismember,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.Commands,strAlgoLCSKeys,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.Commands,strAlgoLCSStrings,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.Commands,xadd,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.Commands,xautoclaim,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.Commands,xautoclaimJustId,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.Commands,xclaim,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.Commands,xclaimJustId,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.Commands,xpending,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.Commands,xpending,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.Commands,xrange,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.Commands,xrange,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.Commands,xread,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.Commands,xreadGroup,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.Commands,xrevrange,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.Commands,xtrim,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.Commands,zaddIncr,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.Commands,zdiff,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.Commands,zdiffStore,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.Commands,zdiffWithScores,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.Commands,zinter,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.Commands,zinterWithScores,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.Commands,zmscore,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.Commands,zrandmember,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.Commands,zrandmember,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.Commands,zrandmemberWithScores,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.Commands,zunion,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.Commands,zunionWithScores,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.JedisClusterBinaryScriptingCommands,scriptFlush,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.JedisClusterCommands,blpop,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.JedisClusterCommands,brpop,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.JedisClusterCommands,expire,METHOD_CHANGE,METHOD_ABSTRACT_NOW_DEFAULT; ANNOTATION_DEPRECATED_ADDED,false,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.JedisClusterCommands,expire,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.JedisClusterCommands,geoadd,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.JedisClusterCommands,getDel,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.JedisClusterCommands,getEx,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.JedisClusterCommands,hincrByFloat,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.JedisClusterCommands,hrandfield,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.JedisClusterCommands,hrandfield,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.JedisClusterCommands,hrandfieldWithValues,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.JedisClusterCommands,lpop,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.JedisClusterCommands,lpos,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.JedisClusterCommands,lpos,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.JedisClusterCommands,lpos,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.JedisClusterCommands,memoryUsage,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.JedisClusterCommands,memoryUsage,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.JedisClusterCommands,restore,METHOD_CHANGE,METHOD_ABSTRACT_NOW_DEFAULT; ANNOTATION_DEPRECATED_ADDED,false,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.JedisClusterCommands,restore,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.JedisClusterCommands,restore,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.JedisClusterCommands,rpop,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.JedisClusterCommands,setex,METHOD_CHANGE,METHOD_ABSTRACT_NOW_DEFAULT; ANNOTATION_DEPRECATED_ADDED,false,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.JedisClusterCommands,setex,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.JedisClusterCommands,smismember,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.JedisClusterCommands,xadd,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.JedisClusterCommands,xautoclaim,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.JedisClusterCommands,xautoclaimJustId,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.JedisClusterCommands,xclaim,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.JedisClusterCommands,xclaimJustId,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.JedisClusterCommands,xpending,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.JedisClusterCommands,xpending,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.JedisClusterCommands,xrange,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.JedisClusterCommands,xrevrange,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.JedisClusterCommands,xtrim,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.JedisClusterCommands,zaddIncr,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.JedisClusterCommands,zmscore,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.JedisClusterCommands,zrandmember,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.JedisClusterCommands,zrandmember,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.JedisClusterCommands,zrandmemberWithScores,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.JedisCommands,blpop,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.JedisCommands,brpop,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.JedisCommands,expire,METHOD_CHANGE,METHOD_ABSTRACT_NOW_DEFAULT; ANNOTATION_DEPRECATED_ADDED,false,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.JedisCommands,expire,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.JedisCommands,geoadd,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.JedisCommands,getDel,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.JedisCommands,getEx,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.JedisCommands,hrandfield,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.JedisCommands,hrandfield,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.JedisCommands,hrandfieldWithValues,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.JedisCommands,lpop,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.JedisCommands,lpos,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.JedisCommands,lpos,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.JedisCommands,lpos,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.JedisCommands,restore,METHOD_CHANGE,METHOD_ABSTRACT_NOW_DEFAULT; ANNOTATION_DEPRECATED_ADDED,false,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.JedisCommands,restore,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.JedisCommands,restore,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.JedisCommands,restoreReplace,METHOD_CHANGE,METHOD_ABSTRACT_NOW_DEFAULT; ANNOTATION_DEPRECATED_ADDED,false,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.JedisCommands,restoreReplace,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE; ANNOTATION_DEPRECATED_ADDED,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.JedisCommands,rpop,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.JedisCommands,setex,METHOD_CHANGE,METHOD_ABSTRACT_NOW_DEFAULT; ANNOTATION_DEPRECATED_ADDED,false,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.JedisCommands,setex,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.JedisCommands,smismember,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.JedisCommands,strAlgoLCSStrings,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.JedisCommands,xadd,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.JedisCommands,xautoclaim,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.JedisCommands,xautoclaimJustId,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.JedisCommands,xclaim,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.JedisCommands,xclaimJustId,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.JedisCommands,xpending,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.JedisCommands,xpending,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.JedisCommands,xrange,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.JedisCommands,xrevrange,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.JedisCommands,xtrim,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.JedisCommands,zaddIncr,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.JedisCommands,zmscore,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.JedisCommands,zrandmember,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.JedisCommands,zrandmember,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.JedisCommands,zrandmemberWithScores,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyBinaryCommands,blmove,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyBinaryCommands,blpop,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyBinaryCommands,brpop,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyBinaryCommands,bzpopmax,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyBinaryCommands,bzpopmin,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyBinaryCommands,copy,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyBinaryCommands,copy,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyBinaryCommands,georadiusByMemberStore,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyBinaryCommands,georadiusStore,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyBinaryCommands,lmove,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyBinaryCommands,scan,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyBinaryCommands,scan,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyBinaryCommands,scan,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyBinaryCommands,strAlgoLCSKeys,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyBinaryCommands,xread,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyBinaryCommands,xreadGroup,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyBinaryCommands,zdiff,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyBinaryCommands,zdiffStore,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyBinaryCommands,zdiffWithScores,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyBinaryCommands,zinter,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyBinaryCommands,zinterWithScores,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyBinaryCommands,zunion,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyBinaryCommands,zunionWithScores,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyBinaryJedisClusterCommands,blmove,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyBinaryJedisClusterCommands,blpop,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyBinaryJedisClusterCommands,brpop,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyBinaryJedisClusterCommands,bzpopmax,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyBinaryJedisClusterCommands,bzpopmin,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyBinaryJedisClusterCommands,copy,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyBinaryJedisClusterCommands,georadiusByMemberStore,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyBinaryJedisClusterCommands,georadiusStore,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyBinaryJedisClusterCommands,lmove,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyBinaryJedisClusterCommands,scan,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyBinaryJedisClusterCommands,strAlgoLCSKeys,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyBinaryJedisClusterCommands,strAlgoLCSStrings,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyBinaryJedisClusterCommands,xread,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyBinaryJedisClusterCommands,xreadGroup,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyBinaryJedisClusterCommands,zdiff,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyBinaryJedisClusterCommands,zdiffStore,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyBinaryJedisClusterCommands,zdiffWithScores,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyBinaryJedisClusterCommands,zinter,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyBinaryJedisClusterCommands,zinterWithScores,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyBinaryJedisClusterCommands,zunion,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyBinaryJedisClusterCommands,zunionWithScores,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyBinaryRedisPipeline,blmove,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyBinaryRedisPipeline,blpop,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyBinaryRedisPipeline,brpop,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyBinaryRedisPipeline,bzpopmax,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyBinaryRedisPipeline,bzpopmin,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyBinaryRedisPipeline,copy,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyBinaryRedisPipeline,copy,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyBinaryRedisPipeline,georadiusByMemberStore,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyBinaryRedisPipeline,georadiusStore,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyBinaryRedisPipeline,lmove,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyBinaryRedisPipeline,strAlgoLCSKeys,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyBinaryRedisPipeline,xread,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE; ANNOTATION_DEPRECATED_ADDED,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyBinaryRedisPipeline,xread,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyBinaryRedisPipeline,xreadGroup,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE; ANNOTATION_DEPRECATED_ADDED,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyBinaryRedisPipeline,xreadGroup,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyBinaryRedisPipeline,zdiff,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyBinaryRedisPipeline,zdiffStore,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyBinaryRedisPipeline,zdiffWithScores,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyBinaryRedisPipeline,zinter,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyBinaryRedisPipeline,zinterWithScores,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyBinaryRedisPipeline,zunion,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyBinaryRedisPipeline,zunionWithScores,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyCommands,blmove,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyCommands,blpop,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyCommands,brpop,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyCommands,bzpopmax,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyCommands,bzpopmin,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyCommands,copy,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyCommands,copy,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyCommands,georadiusByMemberStore,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyCommands,georadiusStore,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyCommands,lmove,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyCommands,scan,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyCommands,strAlgoLCSKeys,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyCommands,xread,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyCommands,xreadGroup,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyCommands,zdiff,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyCommands,zdiffStore,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyCommands,zdiffWithScores,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyCommands,zinter,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyCommands,zinterWithScores,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyCommands,zunion,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyCommands,zunionWithScores,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyCommandsPipeline,blmove,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyCommandsPipeline,blpop,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyCommandsPipeline,blpop,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyCommandsPipeline,brpop,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyCommandsPipeline,brpop,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyCommandsPipeline,bzpopmax,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyCommandsPipeline,bzpopmin,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyCommandsPipeline,copy,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyCommandsPipeline,copy,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyCommandsPipeline,georadiusByMemberStore,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyCommandsPipeline,georadiusStore,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyCommandsPipeline,lmove,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyCommandsPipeline,strAlgoLCSKeys,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyCommandsPipeline,xread,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE; ANNOTATION_DEPRECATED_ADDED,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyCommandsPipeline,xread,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyCommandsPipeline,xreadGroup,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE; ANNOTATION_DEPRECATED_ADDED,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyCommandsPipeline,xreadGroup,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyCommandsPipeline,zdiff,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyCommandsPipeline,zdiffStore,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyCommandsPipeline,zdiffWithScores,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyCommandsPipeline,zinter,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyCommandsPipeline,zinterWithScores,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyCommandsPipeline,zunion,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyCommandsPipeline,zunionWithScores,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyJedisClusterCommands,blmove,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyJedisClusterCommands,blpop,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyJedisClusterCommands,brpop,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyJedisClusterCommands,bzpopmax,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyJedisClusterCommands,bzpopmin,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyJedisClusterCommands,copy,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyJedisClusterCommands,georadiusByMemberStore,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyJedisClusterCommands,georadiusStore,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyJedisClusterCommands,lmove,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyJedisClusterCommands,scan,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyJedisClusterCommands,strAlgoLCSKeys,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyJedisClusterCommands,strAlgoLCSStrings,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyJedisClusterCommands,xread,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE; ANNOTATION_DEPRECATED_ADDED,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyJedisClusterCommands,xread,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyJedisClusterCommands,xreadGroup,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE; ANNOTATION_DEPRECATED_ADDED,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyJedisClusterCommands,xreadGroup,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyJedisClusterCommands,zdiff,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyJedisClusterCommands,zdiffStore,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyJedisClusterCommands,zdiffWithScores,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyJedisClusterCommands,zinter,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyJedisClusterCommands,zinterWithScores,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyJedisClusterCommands,zunion,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.MultiKeyJedisClusterCommands,zunionWithScores,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.RedisPipeline,expire,METHOD_CHANGE,METHOD_ABSTRACT_NOW_DEFAULT; ANNOTATION_DEPRECATED_ADDED,false,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.RedisPipeline,expire,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.RedisPipeline,geoadd,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.RedisPipeline,getDel,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.RedisPipeline,getEx,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.RedisPipeline,hrandfield,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.RedisPipeline,hrandfield,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.RedisPipeline,hrandfieldWithValues,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.RedisPipeline,lpop,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.RedisPipeline,lpos,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.RedisPipeline,lpos,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.RedisPipeline,lpos,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.RedisPipeline,restore,METHOD_CHANGE,METHOD_ABSTRACT_NOW_DEFAULT; ANNOTATION_DEPRECATED_ADDED,false,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.RedisPipeline,restore,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.RedisPipeline,restore,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.RedisPipeline,restoreReplace,METHOD_CHANGE,METHOD_ABSTRACT_NOW_DEFAULT; ANNOTATION_DEPRECATED_ADDED,false,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.RedisPipeline,restoreReplace,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE; ANNOTATION_DEPRECATED_ADDED,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.RedisPipeline,rpop,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.RedisPipeline,setex,METHOD_CHANGE,METHOD_ABSTRACT_NOW_DEFAULT; ANNOTATION_DEPRECATED_ADDED,false,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.RedisPipeline,setex,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.RedisPipeline,smismember,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.RedisPipeline,strAlgoLCSStrings,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.RedisPipeline,xadd,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.RedisPipeline,xautoclaim,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.RedisPipeline,xautoclaimJustId,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.RedisPipeline,xclaim,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.RedisPipeline,xclaimJustId,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.RedisPipeline,xpending,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.RedisPipeline,xpending,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.RedisPipeline,xrange,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.RedisPipeline,xrevrange,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.RedisPipeline,xtrim,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.RedisPipeline,zaddIncr,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.RedisPipeline,zmscore,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.RedisPipeline,zrandmember,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.RedisPipeline,zrandmember,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.RedisPipeline,zrandmemberWithScores,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.SentinelCommands,sentinelMaster,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.SentinelCommands,sentinelMyId,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.SentinelCommands,sentinelReplicas,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.commands.SentinelCommands,sentinelSentinels,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.DefaultJedisSocketFactory,createSocket,METHOD_CHANGE,METHOD_NO_LONGER_THROWS_CHECKED_EXCEPTION,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.Jedis,redis.clients.jedis.Jedis,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.JedisCluster,redis.clients.jedis.JedisCluster,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.JedisClusterHostAndPortMap,getHostAndPort,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.JedisPool,redis.clients.jedis.JedisPool,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,false,1,redis.clients:jedis,,,MINOR,true
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.JedisPoolAbstract,returnBrokenResource,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.JedisPoolAbstract,returnResource,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.JedisSentinelPool,redis.clients.jedis.JedisSentinelPool,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.JedisSentinelPool,log,FIELD_CHANGE,FIELD_NOW_STATIC; ANNOTATION_DEPRECATED_ADDED,false,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.JedisSentinelPool,poolConfig,FIELD_CHANGE,FIELD_NOW_FINAL; ANNOTATION_DEPRECATED_ADDED; FIELD_GENERICS_CHANGED,false,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.JedisSocketFactory,updateHostAndPort,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.MultiKeyPipelineBase,redis.clients.jedis.MultiKeyPipelineBase,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.Pipeline,redis.clients.jedis.Pipeline,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.ShardedJedis,redis.clients.jedis.ShardedJedis,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; ANNOTATION_DEPRECATED_ADDED,false,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.ShardedJedis,blpop,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.ShardedJedis,brpop,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.ShardedJedisPipeline,redis.clients.jedis.ShardedJedisPipeline,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; ANNOTATION_DEPRECATED_ADDED,false,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.ShardedJedisPool,returnBrokenResource,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,3.3.0,3.10.0,redis.clients.jedis.Transaction,redis.clients.jedis.Transaction,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,false,1,redis.clients:jedis,,,MINOR,false
+org.noear:solon,3.2.0,3.5.2,org.noear.solon.annotation.Body,description,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,3.2.0,3.5.2,org.noear.solon.annotation.Condition,priority,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,3.2.0,3.5.2,org.noear.solon.annotation.Cookie,description,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,3.2.0,3.5.2,org.noear.solon.annotation.Header,description,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,3.2.0,3.5.2,org.noear.solon.annotation.Mapping,description,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,3.2.0,3.5.2,org.noear.solon.annotation.Mapping,headers,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,3.2.0,3.5.2,org.noear.solon.annotation.Mapping,name,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,3.2.0,3.5.2,org.noear.solon.annotation.Mapping,version,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,3.2.0,3.5.2,org.noear.solon.annotation.Param,description,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,3.2.0,3.5.2,org.noear.solon.annotation.Path,defaultValue,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,3.2.0,3.5.2,org.noear.solon.annotation.Path,description,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,3.2.0,3.5.2,org.noear.solon.annotation.Path,required,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,3.2.0,3.5.2,org.noear.solon.core.AppContext,tryBuildBeanOfMethod,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,3.2.0,3.5.2,org.noear.solon.core.AppContext,tryBuildBeanOfMethod2,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,3.2.0,3.5.2,org.noear.solon.core.AppContext,tryMethodParamsGather,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,3.2.0,3.5.2,org.noear.solon.core.aspect.Invocation,Invocation,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,3.2.0,3.5.2,org.noear.solon.core.ChainManager,ChainManager,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,3.2.0,3.5.2,org.noear.solon.core.handle.DownloadedFile,getContent,METHOD_CHANGE,METHOD_NO_LONGER_THROWS_CHECKED_EXCEPTION,true,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,3.2.0,3.5.2,org.noear.solon.core.handle.FileBase,content,FIELD_CHANGE,FIELD_LESS_ACCESSIBLE,false,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,3.2.0,3.5.2,org.noear.solon.core.handle.FileBase,FileBase,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,3.2.0,3.5.2,org.noear.solon.core.Props,loadAddDo,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,3.2.0,3.5.2,org.noear.solon.core.Props,reviseDo,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,3.2.0,3.5.2,org.noear.solon.core.route.Routing,degrees,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,3.2.0,3.5.2,org.noear.solon.core.route.Routing,degrees,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,3.2.0,3.5.2,org.noear.solon.core.route.Routing,matches,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,3.2.0,3.5.2,org.noear.solon.core.route.Routing,matches,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,3.2.0,3.5.2,org.noear.solon.core.route.Routing,test,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,3.2.0,3.5.2,org.noear.solon.core.route.Routing,test,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,3.2.0,3.5.2,org.noear.solon.core.route.Routing,version,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,3.2.0,3.5.2,org.noear.solon.core.route.RoutingDefault,RoutingDefault,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,3.2.0,3.5.2,org.noear.solon.core.route.RoutingDefault,RoutingDefault,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,3.2.0,3.5.2,org.noear.solon.core.route.RoutingTable,matchMore,METHOD_CHANGE,METHOD_ABSTRACT_NOW_DEFAULT; ANNOTATION_DEPRECATED_ADDED,false,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,3.2.0,3.5.2,org.noear.solon.core.route.RoutingTable,matchMore,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,3.2.0,3.5.2,org.noear.solon.core.route.RoutingTable,matchOne,METHOD_CHANGE,METHOD_ABSTRACT_NOW_DEFAULT; ANNOTATION_DEPRECATED_ADDED,false,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,3.2.0,3.5.2,org.noear.solon.core.route.RoutingTable,matchOne,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,3.2.0,3.5.2,org.noear.solon.core.route.RoutingTable,matchOneAndStatus,METHOD_CHANGE,METHOD_ABSTRACT_NOW_DEFAULT; ANNOTATION_DEPRECATED_ADDED,false,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,3.2.0,3.5.2,org.noear.solon.core.route.RoutingTable,matchOneAndStatus,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,3.2.0,3.5.2,org.noear.solon.core.util.MultiMap,innerMap,FIELD_CHANGE,FIELD_TYPE_CHANGED; FIELD_GENERICS_CHANGED,false,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,3.2.0,3.5.2,org.noear.solon.SolonProps,org.noear.solon.SolonProps,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon-test,3.2.0,3.5.2,org.noear.solon.test.integration.TestPlugin,org.noear.solon.test.integration.TestPlugin,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,org.noear:solon-test,,,MINOR,false
+org.noear:solon-test,3.2.0,3.5.2,org.noear.solon.test.integration.TestPlugin,start,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.noear:solon-test,,,MINOR,false
+org.noear:solon-test,3.2.0,3.5.2,org.noear.solon.test.integration.TestPlugin,TestPlugin,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.noear:solon-test,,,MINOR,false
+org.noear:solon-config-yaml,3.2.0,3.5.2,org.noear.solon.config.yaml.PropertiesJson,org.noear.solon.config.yaml.PropertiesJson,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-config-yaml,3.2.0,3.5.2,org.noear.solon.config.yaml.PropertiesJson,loadJson,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-config-yaml,3.2.0,3.5.2,org.noear.solon.config.yaml.PropertiesJson,PropertiesJson,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-mvc,3.2.0,3.5.2,org.noear.solon.core.mvc.ActionDefault,ActionDefault,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-mvc,3.2.0,3.5.2,org.noear.solon.core.mvc.ActionExecuteHandlerDefault,buildArgs,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-mvc,3.2.0,3.5.2,org.noear.solon.core.mvc.ActionExecuteHandlerDefault,changeValue,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon,3.2.0,3.5.2,org.noear.solon.annotation.Body,description,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon,3.2.0,3.5.2,org.noear.solon.annotation.Condition,priority,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon,3.2.0,3.5.2,org.noear.solon.annotation.Cookie,description,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon,3.2.0,3.5.2,org.noear.solon.annotation.Header,description,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon,3.2.0,3.5.2,org.noear.solon.annotation.Mapping,description,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon,3.2.0,3.5.2,org.noear.solon.annotation.Mapping,headers,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon,3.2.0,3.5.2,org.noear.solon.annotation.Mapping,name,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon,3.2.0,3.5.2,org.noear.solon.annotation.Mapping,version,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon,3.2.0,3.5.2,org.noear.solon.annotation.Param,description,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon,3.2.0,3.5.2,org.noear.solon.annotation.Path,defaultValue,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon,3.2.0,3.5.2,org.noear.solon.annotation.Path,description,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon,3.2.0,3.5.2,org.noear.solon.annotation.Path,required,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon,3.2.0,3.5.2,org.noear.solon.core.AppContext,tryBuildBeanOfMethod,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon,3.2.0,3.5.2,org.noear.solon.core.AppContext,tryBuildBeanOfMethod2,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon,3.2.0,3.5.2,org.noear.solon.core.AppContext,tryMethodParamsGather,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon,3.2.0,3.5.2,org.noear.solon.core.aspect.Invocation,Invocation,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon,3.2.0,3.5.2,org.noear.solon.core.ChainManager,ChainManager,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon,3.2.0,3.5.2,org.noear.solon.core.handle.DownloadedFile,getContent,METHOD_CHANGE,METHOD_NO_LONGER_THROWS_CHECKED_EXCEPTION,true,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon,3.2.0,3.5.2,org.noear.solon.core.handle.FileBase,content,FIELD_CHANGE,FIELD_LESS_ACCESSIBLE,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon,3.2.0,3.5.2,org.noear.solon.core.handle.FileBase,FileBase,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon,3.2.0,3.5.2,org.noear.solon.core.Props,loadAddDo,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon,3.2.0,3.5.2,org.noear.solon.core.Props,reviseDo,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon,3.2.0,3.5.2,org.noear.solon.core.route.Routing,degrees,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon,3.2.0,3.5.2,org.noear.solon.core.route.Routing,degrees,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon,3.2.0,3.5.2,org.noear.solon.core.route.Routing,matches,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon,3.2.0,3.5.2,org.noear.solon.core.route.Routing,matches,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon,3.2.0,3.5.2,org.noear.solon.core.route.Routing,test,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon,3.2.0,3.5.2,org.noear.solon.core.route.Routing,test,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon,3.2.0,3.5.2,org.noear.solon.core.route.Routing,version,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon,3.2.0,3.5.2,org.noear.solon.core.route.RoutingDefault,RoutingDefault,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon,3.2.0,3.5.2,org.noear.solon.core.route.RoutingDefault,RoutingDefault,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon,3.2.0,3.5.2,org.noear.solon.core.route.RoutingTable,matchMore,METHOD_CHANGE,METHOD_ABSTRACT_NOW_DEFAULT; ANNOTATION_DEPRECATED_ADDED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon,3.2.0,3.5.2,org.noear.solon.core.route.RoutingTable,matchMore,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon,3.2.0,3.5.2,org.noear.solon.core.route.RoutingTable,matchOne,METHOD_CHANGE,METHOD_ABSTRACT_NOW_DEFAULT; ANNOTATION_DEPRECATED_ADDED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon,3.2.0,3.5.2,org.noear.solon.core.route.RoutingTable,matchOne,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon,3.2.0,3.5.2,org.noear.solon.core.route.RoutingTable,matchOneAndStatus,METHOD_CHANGE,METHOD_ABSTRACT_NOW_DEFAULT; ANNOTATION_DEPRECATED_ADDED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon,3.2.0,3.5.2,org.noear.solon.core.route.RoutingTable,matchOneAndStatus,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon,3.2.0,3.5.2,org.noear.solon.core.util.MultiMap,innerMap,FIELD_CHANGE,FIELD_TYPE_CHANGED; FIELD_GENERICS_CHANGED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon,3.2.0,3.5.2,org.noear.solon.SolonProps,org.noear.solon.SolonProps,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-net-httputils,3.2.0,3.5.2,org.noear.solon.net.http.HttpResponse,createError,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-net-httputils,3.2.0,3.5.2,org.noear.solon.net.http.HttpResponse,message,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-net-httputils,3.2.0,3.5.2,org.noear.solon.net.http.HttpUtils,ssl,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-net-httputils,3.2.0,3.5.2,org.noear.solon.net.http.impl.AbstractHttpUtils,_bodyRaw,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-net-httputils,3.2.0,3.5.2,org.noear.solon.net.http.impl.HttpSsl,org.noear.solon.net.http.impl.HttpSsl,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-net-httputils,3.2.0,3.5.2,org.noear.solon.net.http.impl.HttpSsl,getSSLSocketFactory,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-net-httputils,3.2.0,3.5.2,org.noear.solon.net.http.impl.HttpSsl,getX509TrustManager,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-net-httputils,3.2.0,3.5.2,org.noear.solon.net.http.impl.HttpSsl,defaultHostnameVerifier,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-net-httputils,3.2.0,3.5.2,org.noear.solon.net.http.impl.HttpSsl,defaultTrustManager,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-net-httputils,3.2.0,3.5.2,org.noear.solon.net.http.impl.HttpSsl,HttpSsl,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-net-httputils,3.2.0,3.5.2,org.noear.solon.net.http.impl.HttpSsl$DefaultHostnameVerifier,org.noear.solon.net.http.impl.HttpSsl$DefaultHostnameVerifier,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-net-httputils,3.2.0,3.5.2,org.noear.solon.net.http.impl.HttpSsl$DefaultHostnameVerifier,verify,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-net-httputils,3.2.0,3.5.2,org.noear.solon.net.http.impl.HttpSsl$DefaultHostnameVerifier,HttpSsl$DefaultHostnameVerifier,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-net-httputils,3.2.0,3.5.2,org.noear.solon.net.http.impl.HttpSsl$DefaultX509TrustManager,org.noear.solon.net.http.impl.HttpSsl$DefaultX509TrustManager,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-net-httputils,3.2.0,3.5.2,org.noear.solon.net.http.impl.HttpSsl$DefaultX509TrustManager,checkClientTrusted,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-net-httputils,3.2.0,3.5.2,org.noear.solon.net.http.impl.HttpSsl$DefaultX509TrustManager,checkServerTrusted,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-net-httputils,3.2.0,3.5.2,org.noear.solon.net.http.impl.HttpSsl$DefaultX509TrustManager,getAcceptedIssuers,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-net-httputils,3.2.0,3.5.2,org.noear.solon.net.http.impl.HttpSsl$DefaultX509TrustManager,HttpSsl$DefaultX509TrustManager,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-net-httputils,3.2.0,3.5.2,org.noear.solon.net.http.impl.jdk.JdkHttpResponse,JdkHttpResponse,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-net-httputils,3.2.0,3.5.2,org.noear.solon.net.http.impl.jdk.JdkHttpUtils,org.noear.solon.net.http.impl.jdk.JdkHttpUtils,CLASS_CHANGE,FIELD_REMOVED_IN_SUPERCLASS; METHOD_DEFAULT_ADDED_IN_IMPLEMENTED_INTERFACE,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-net-httputils,3.2.0,3.5.2,org.noear.solon.net.http.impl.okhttp.OkHttpInterceptor,org.noear.solon.net.http.impl.okhttp.OkHttpInterceptor,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-net-httputils,3.2.0,3.5.2,org.noear.solon.net.http.impl.okhttp.OkHttpInterceptor,intercept,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-net-httputils,3.2.0,3.5.2,org.noear.solon.net.http.impl.okhttp.OkHttpInterceptor,instance,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-net-httputils,3.2.0,3.5.2,org.noear.solon.net.http.impl.okhttp.OkHttpInterceptor,OkHttpInterceptor,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-net-httputils,3.2.0,3.5.2,org.noear.solon.net.http.impl.okhttp.OkHttpResponse,OkHttpResponse,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-net-httputils,3.2.0,3.5.2,org.noear.solon.net.http.impl.okhttp.OkHttpUtils,org.noear.solon.net.http.impl.okhttp.OkHttpUtils,CLASS_CHANGE,FIELD_REMOVED_IN_SUPERCLASS; METHOD_DEFAULT_ADDED_IN_IMPLEMENTED_INTERFACE,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-net-httputils,3.2.0,3.5.2,org.noear.solon.net.http.impl.okhttp.OkHttpUtils,OkHttpUtils,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-net-httputils,3.2.0,3.5.2,org.noear.solon.net.http.impl.okhttp.OkHttpUtilsFactory,getClient,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-net-httputils,3.2.0,3.5.2,org.noear.solon.net.http.textstream.TextStreamUtil,parseLineStream,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-net-httputils,3.2.0,3.5.2,org.noear.solon.net.http.textstream.TextStreamUtil,parseSseStream,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.annotation.Cache,org.noear.solon.data.annotation.Cache,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.annotation.Cache,key,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.annotation.Cache,seconds,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.annotation.Cache,service,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.annotation.Cache,tags,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.annotation.CachePut,org.noear.solon.data.annotation.CachePut,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.annotation.CachePut,key,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.annotation.CachePut,seconds,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.annotation.CachePut,service,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.annotation.CachePut,tags,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.annotation.CacheRemove,org.noear.solon.data.annotation.CacheRemove,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.annotation.CacheRemove,keys,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.annotation.CacheRemove,service,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.annotation.CacheRemove,tags,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.cache.CacheExecutorImp,org.noear.solon.data.cache.CacheExecutorImp,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.cache.CacheExecutorImp,cache,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.cache.CacheExecutorImp,cachePut,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.cache.CacheExecutorImp,cacheRemove,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.cache.CacheExecutorImp,global,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.cache.CacheExecutorImp,CacheExecutorImp,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.cache.CacheFactory,org.noear.solon.data.cache.CacheFactory,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.cache.CacheFactory,create,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.cache.CacheLib,org.noear.solon.data.cache.CacheLib,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.cache.CacheLib,cacheFactoryAdd,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.cache.CacheLib,cacheFactoryGet,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.cache.CacheLib,cacheServiceAdd,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.cache.CacheLib,cacheServiceAddIfAbsent,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.cache.CacheLib,cacheServiceGet,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.cache.CacheLib,cacheServiceMap,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.cache.CacheLib,CacheLib,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.cache.CacheService,org.noear.solon.data.cache.CacheService,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.cache.CacheService,get,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.cache.CacheService,get,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.cache.CacheService,getOrStore,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.cache.CacheService,remove,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.cache.CacheService,store,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.cache.CacheServiceSupplier,org.noear.solon.data.cache.CacheServiceSupplier,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.cache.CacheServiceSupplier,get,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.cache.CacheServiceSupplier,get,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.cache.CacheServiceSupplier,CacheServiceSupplier,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.cache.CacheServiceWrapConsumer,org.noear.solon.data.cache.CacheServiceWrapConsumer,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.cache.CacheServiceWrapConsumer,accept,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.cache.CacheServiceWrapConsumer,accept,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.cache.CacheServiceWrapConsumer,CacheServiceWrapConsumer,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.cache.CacheTags,org.noear.solon.data.cache.CacheTags,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.cache.CacheTags,_get,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.cache.CacheTags,_set,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.cache.CacheTags,_tagKey,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.cache.CacheTags,add,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.cache.CacheTags,remove,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.cache.CacheTags,update,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.cache.CacheTags,CacheTags,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.cache.CacheTagsService,org.noear.solon.data.cache.CacheTagsService,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.cache.CacheTagsService,getOrStoreTag,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.cache.CacheTagsService,getOrStoreTag,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.cache.CacheTagsService,removeTag,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.cache.CacheTagsService,storeTag,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.cache.CacheTagsServiceImpl,org.noear.solon.data.cache.CacheTagsServiceImpl,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.cache.CacheTagsServiceImpl,_get,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.cache.CacheTagsServiceImpl,_set,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.cache.CacheTagsServiceImpl,_tagKey,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.cache.CacheTagsServiceImpl,update,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.cache.CacheTagsServiceImpl,CacheTagsServiceImpl,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.cache.EmptyCacheService,org.noear.solon.data.cache.EmptyCacheService,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.cache.EmptyCacheService,EmptyCacheService,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.cache.impl.JavabinSerializer,org.noear.solon.data.cache.impl.JavabinSerializer,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.cache.impl.JavabinSerializer,deserialize,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.cache.impl.JavabinSerializer,deserialize,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.cache.impl.JavabinSerializer,deserializeDo,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.cache.impl.JavabinSerializer,name,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.cache.impl.JavabinSerializer,serialize,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.cache.impl.JavabinSerializer,serialize,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.cache.impl.JavabinSerializer,serializeDo,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.cache.impl.JavabinSerializer,instance,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.cache.impl.JavabinSerializer,JavabinSerializer,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.cache.impl.JsonSerializer,org.noear.solon.data.cache.impl.JsonSerializer,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.cache.impl.JsonSerializer,deserialize,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.cache.impl.JsonSerializer,deserialize,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.cache.impl.JsonSerializer,name,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.cache.impl.JsonSerializer,serialize,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.cache.impl.JsonSerializer,serialize,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.cache.impl.JsonSerializer,instance,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.cache.impl.JsonSerializer,typedInstance,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.cache.impl.JsonSerializer,JsonSerializer,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.cache.impl.JsonSerializer,JsonSerializer,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.cache.impl.ObjectInputStreamEx,org.noear.solon.data.cache.impl.ObjectInputStreamEx,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.cache.impl.ObjectInputStreamEx,resolveClass,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.cache.impl.ObjectInputStreamEx,ObjectInputStreamEx,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.cache.interceptor.CacheInterceptor,org.noear.solon.data.cache.interceptor.CacheInterceptor,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.cache.interceptor.CacheInterceptor,doIntercept,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.cache.interceptor.CacheInterceptor,CacheInterceptor,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.cache.interceptor.CachePutInterceptor,org.noear.solon.data.cache.interceptor.CachePutInterceptor,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.cache.interceptor.CachePutInterceptor,doIntercept,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.cache.interceptor.CachePutInterceptor,CachePutInterceptor,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.cache.interceptor.CacheRemoveInterceptor,org.noear.solon.data.cache.interceptor.CacheRemoveInterceptor,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.cache.interceptor.CacheRemoveInterceptor,doIntercept,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.cache.interceptor.CacheRemoveInterceptor,CacheRemoveInterceptor,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.cache.LocalCacheFactoryImpl,org.noear.solon.data.cache.LocalCacheFactoryImpl,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.cache.LocalCacheFactoryImpl,LocalCacheFactoryImpl,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.cache.LocalCacheService,org.noear.solon.data.cache.LocalCacheService,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.cache.LocalCacheService,clear,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.cache.LocalCacheService,getDefalutSeconds,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.cache.LocalCacheService,instance,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.cache.LocalCacheService,LocalCacheService,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.cache.LocalCacheService,LocalCacheService,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.cache.LocalCacheService,LocalCacheService,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.cache.SecondCacheService,org.noear.solon.data.cache.SecondCacheService,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.cache.SecondCacheService,SecondCacheService,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.cache.SecondCacheService,SecondCacheService,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.util.InvKeys,org.noear.solon.data.util.InvKeys,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.util.InvKeys,buildByInv,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.util.InvKeys,buildByTmlAndInv,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.util.InvKeys,buildByTmlAndInv,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.util.InvKeys,InvKeys,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.util.StringMutexLock,org.noear.solon.data.util.StringMutexLock,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.util.StringMutexLock,lock,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.util.StringMutexLock,unlock,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-data,3.2.0,3.5.2,org.noear.solon.data.util.StringMutexLock,StringMutexLock,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-aot,3.2.0,3.5.2,org.noear.solon.aot.proxy.MethodFinder,buildMethodKey,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-aot,3.2.0,3.5.2,org.noear.solon.aot.proxy.MethodFinder,findMethodAll,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-rx,3.2.0,3.5.2,org.noear.solon.rx.Completable,subscribe,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false
+org.noear:solon-rx,3.2.0,3.5.2,org.noear.solon.rx.Completable,then,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.noear:solon-test,3.2.0,3.5.2,MINOR,false

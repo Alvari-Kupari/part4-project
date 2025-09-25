@@ -1,0 +1,8 @@
+=== Comparison Failure Log ===
+[2025-09-23 10:33:12] com.mysql:mysql-connector-j:8.1.0 -> com.mysql:mysql-connector-j:8.4.0 : Failed to compare JAR files: JAPICMP comparison failed for com.mysql:mysql-connector-j
+[2025-09-23 10:33:25] com.squareup.okhttp3:okhttp:4.8.1 -> com.squareup.okhttp3:okhttp:4.12.0 : Failed to compare JAR files: JAPICMP comparison failed for com.squareup.okhttp3:okhttp
+
+=== Summary ===
+Total comparisons: 204
+Failures: 2
+Success rate: 99.02%

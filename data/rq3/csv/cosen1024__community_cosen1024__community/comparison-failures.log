@@ -1,0 +1,9 @@
+=== Comparison Failure Log ===
+[2025-09-22 17:24:52] mysql:mysql-connector-java:8.0.19 -> mysql:mysql-connector-java:8.0.33 : Failed to compare JAR files: JAPICMP comparison failed for mysql:mysql-connector-java
+[2025-09-22 17:26:54] com.alibaba:fastjson:1.2.58 -> com.alibaba:fastjson:1.2.83_noneautotype : Failed to compare JAR files: JAPICMP comparison failed for com.alibaba:fastjson
+[2025-09-22 17:29:18] org.thymeleaf.extras:thymeleaf-extras-springsecurity5:3.0.4.RELEASE -> org.thymeleaf.extras:thymeleaf-extras-springsecurity5:3.1.3.RELEASE : Failed to compare JAR files: JAPICMP comparison failed for org.thymeleaf.extras:thymeleaf-extras-springsecurity5
+
+=== Summary ===
+Total comparisons: 347
+Failures: 3
+Success rate: 99.14%

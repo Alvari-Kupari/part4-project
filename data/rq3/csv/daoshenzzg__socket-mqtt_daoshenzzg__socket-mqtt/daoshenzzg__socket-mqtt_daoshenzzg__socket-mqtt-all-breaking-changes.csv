@@ -1,0 +1,206 @@
+Library_Name,Old_Version,New_Version,Class_Name,Member_Name,Change_Type,Description,Binary_Compatible,Source_Compatible,Is_Transitive,Depth,Direct_Parent_Dependency,Direct_Dependency_Old_Version,Direct_Dependency_New_Version,Release_Type,Is_Used_In_Client
+junit:junit,3.8.1,3.8.2,junit.extensions.ActiveTestSuite,runFinished,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,junit:junit,,,PATCH,false
+junit:junit,3.8.1,3.8.2,junit.runner.BaseTestRunner,setPreference,METHOD_CHANGE,METHOD_NOW_STATIC,false,false,false,1,junit:junit,,,PATCH,false
+org.apache.commons:commons-lang3,3.7,3.18.0,org.apache.commons.lang3.builder.DiffBuilder,org.apache.commons.lang3.builder.DiffBuilder,CLASS_CHANGE,CLASS_GENERIC_TEMPLATE_CHANGED,true,false,false,1,org.apache.commons:commons-lang3,,,MINOR,false
+org.apache.commons:commons-lang3,3.7,3.18.0,org.apache.commons.lang3.builder.DiffResult,org.apache.commons.lang3.builder.DiffResult,CLASS_CHANGE,CLASS_GENERIC_TEMPLATE_CHANGED,true,false,false,1,org.apache.commons:commons-lang3,,,MINOR,false
+org.apache.commons:commons-lang3,3.7,3.18.0,org.apache.commons.lang3.builder.ReflectionDiffBuilder,org.apache.commons.lang3.builder.ReflectionDiffBuilder,CLASS_CHANGE,CLASS_GENERIC_TEMPLATE_CHANGED,true,false,false,1,org.apache.commons:commons-lang3,,,MINOR,false
+org.apache.commons:commons-lang3,3.7,3.18.0,org.apache.commons.lang3.builder.ReflectionDiffBuilder,ReflectionDiffBuilder,CONSTRUCTOR_CHANGE,ANNOTATION_DEPRECATED_ADDED; CLASS_GENERIC_TEMPLATE_CHANGED,true,false,false,1,org.apache.commons:commons-lang3,,,MINOR,false
+org.apache.commons:commons-lang3,3.7,3.18.0,org.apache.commons.lang3.event.EventListenerSupport$ProxyInvocationHandler,invoke,METHOD_CHANGE,METHOD_NOW_THROWS_CHECKED_EXCEPTION,true,false,false,1,org.apache.commons:commons-lang3,,,MINOR,false
+org.apache.commons:commons-lang3,3.7,3.18.0,org.apache.commons.lang3.exception.ExceptionUtils,rethrow,METHOD_CHANGE,CLASS_GENERIC_TEMPLATE_CHANGED,true,false,false,1,org.apache.commons:commons-lang3,,,MINOR,false
+org.apache.commons:commons-lang3,3.7,3.18.0,org.apache.commons.lang3.Range,between,METHOD_CHANGE,ANNOTATION_DEPRECATED_ADDED; CLASS_GENERIC_TEMPLATE_GENERICS_CHANGED,true,false,false,1,org.apache.commons:commons-lang3,,,MINOR,false
+org.apache.commons:commons-lang3,3.7,3.18.0,org.apache.commons.lang3.Range,is,METHOD_CHANGE,CLASS_GENERIC_TEMPLATE_GENERICS_CHANGED,true,false,false,1,org.apache.commons:commons-lang3,,,MINOR,false
+org.apache.commons:commons-lang3,3.7,3.18.0,org.apache.commons.lang3.StringUtils,toString,METHOD_CHANGE,METHOD_NO_LONGER_THROWS_CHECKED_EXCEPTION,true,false,false,1,org.apache.commons:commons-lang3,,,MINOR,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.Database,getSettingsSQL,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.DatabaseManager,getDatabaseURIs,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.Expression,collectAllExpressions,METHOD_CHANGE,METHOD_NOW_FINAL,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.Expression,getSubqueries,METHOD_CHANGE,METHOD_NOW_FINAL,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.ExpressionColumn,diagnosticsList,FIELD_CHANGE,FIELD_GENERICS_CHANGED,true,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.HsqlDateTime,org.hsqldb.HsqlDateTime,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.HsqlDateTime,convertMillisFromCalendar,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.HsqlDateTime,convertMillisToCalendar,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.HsqlDateTime,convertSecondsFromCalendar,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.HsqlDateTime,convertToNormalisedTime,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.HsqlDateTime,convertToNormalisedTime,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.HsqlDateTime,getDateSeconds,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.HsqlDateTime,getDateString,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.HsqlDateTime,getNormalisedDate,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.HsqlDateTime,getNormalisedDate,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.HsqlDateTime,getNormalisedTime,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.HsqlDateTime,getNormalisedTime,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.HsqlDateTime,getRoundedPart,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.HsqlDateTime,getTimestampSeconds,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.HsqlDateTime,getTimestampString,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.HsqlDateTime,getTimestampString,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.HsqlDateTime,getTruncatedPart,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.HsqlDateTime,getZoneMillis,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.HsqlDateTime,getZoneSeconds,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.HsqlDateTime,getZoneSeconds,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.HsqlDateTime,setTimeInMillis,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.HsqlDateTime,toDate,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.HsqlDateTime,toFormattedDate,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.HsqlDateTime,toJavaDatePattern,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.HsqlDateTime,toStandardIntervalPart,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.HsqlDateTime,zeroFromPart,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.HsqlDateTime,defaultLocale,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.HsqlDateTime,HsqlDateTime,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.HsqlDateTime$SystemTimeString,org.hsqldb.HsqlDateTime$SystemTimeString,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.HsqlDateTime$SystemTimeString,getTimestampString,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.HsqlDateTime$SystemTimeString,HsqlDateTime$SystemTimeString,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.index.IndexAVLMemory,org.hsqldb.index.IndexAVLMemory,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.jdbc.JDBCBlobFile$OutputStreamAdapter,JDBCBlobFile$OutputStreamAdapter,CONSTRUCTOR_CHANGE,METHOD_NO_LONGER_THROWS_CHECKED_EXCEPTION,true,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.jdbc.JDBCClobFile$ReaderAdapter,JDBCClobFile$ReaderAdapter,CONSTRUCTOR_CHANGE,METHOD_NO_LONGER_THROWS_CHECKED_EXCEPTION,true,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.jdbc.JDBCClobFile$WriterAdapter,JDBCClobFile$WriterAdapter,CONSTRUCTOR_CHANGE,METHOD_NO_LONGER_THROWS_CHECKED_EXCEPTION,true,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.jdbc.pool.JDBCPooledConnection,listeners,FIELD_CHANGE,FIELD_GENERICS_CHANGED,true,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.lib.HashMap,org.hsqldb.lib.HashMap,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.lib.HashSet,org.hsqldb.lib.HashSet,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.lib.HashSet,retainAll,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.lib.HsqlArrayHeap,oc,FIELD_CHANGE,FIELD_GENERICS_CHANGED,true,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.lib.HsqlArrayList,HsqlArrayList,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.lib.HsqlDeque,addAll,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.lib.HsqlDeque,containsAll,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.lib.HsqlDeque,removeAll,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.lib.HsqlDeque,retainAll,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.lib.HsqlDeque,subList,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.lib.IntHashSet,org.hsqldb.lib.IntHashSet,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.lib.IntHashSet,containsAll,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.lib.IntHashSet,iterator,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.lib.IntHashSet,remove,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.lib.IntHashSet,removeAll,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.lib.IntHashSet,retainAll,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.lib.IntKeyHashMap,org.hsqldb.lib.IntKeyHashMap,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.lib.IntKeyHashMapConcurrent,org.hsqldb.lib.IntKeyHashMapConcurrent,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.lib.IntKeyIntValueHashMap,org.hsqldb.lib.IntKeyIntValueHashMap,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.lib.IntKeyIntValueHashMap,get,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.lib.IntKeyLongValueHashMap,org.hsqldb.lib.IntKeyLongValueHashMap,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.lib.IntKeyLongValueHashMap,get,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.lib.IntKeyLongValueHashMap,putAll,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.lib.IntValueHashMap,org.hsqldb.lib.IntValueHashMap,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.lib.IntValueHashMap,putAll,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.lib.Iterator,nextInt,METHOD_CHANGE,METHOD_ABSTRACT_NOW_DEFAULT,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.lib.Iterator,nextLong,METHOD_CHANGE,METHOD_ABSTRACT_NOW_DEFAULT,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.lib.Iterator,remove,METHOD_CHANGE,METHOD_ABSTRACT_NOW_DEFAULT,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.lib.KMPSearchAlgorithm,KMPSearchAlgorithm,CONSTRUCTOR_CHANGE,CONSTRUCTOR_LESS_ACCESSIBLE,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.lib.LongKeyHashMap,org.hsqldb.lib.LongKeyHashMap,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.lib.LongKeyIntValueHashMap,org.hsqldb.lib.LongKeyIntValueHashMap,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.lib.LongKeyIntValueHashMap,get,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.lib.LongKeyLongValueHashMap,org.hsqldb.lib.LongKeyLongValueHashMap,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.lib.LongKeyLongValueHashMap,get,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.lib.LongKeyLongValueHashMap,putAll,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.lib.LongValueHashMap,org.hsqldb.lib.LongValueHashMap,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.lib.Map,putAll,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.lib.MultiValueHashMap,org.hsqldb.lib.MultiValueHashMap,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.lib.ObjectComparator$DefaultComparator,org.hsqldb.lib.ObjectComparator$DefaultComparator,CLASS_CHANGE,CLASS_GENERIC_TEMPLATE_CHANGED,true,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.lib.ObjectComparator$IdentityComparator,org.hsqldb.lib.ObjectComparator$IdentityComparator,CLASS_CHANGE,CLASS_GENERIC_TEMPLATE_CHANGED,true,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.lib.OrderedHashMap,org.hsqldb.lib.OrderedHashMap,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.lib.OrderedHashSet,org.hsqldb.lib.OrderedHashSet,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.lib.OrderedHashSet,removeEntry,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.lib.OrderedIntHashSet,org.hsqldb.lib.OrderedIntHashSet,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.lib.OrderedIntKeyHashMap,org.hsqldb.lib.OrderedIntKeyHashMap,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.lib.OrderedLongHashSet,org.hsqldb.lib.OrderedLongHashSet,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.lib.OrderedLongKeyHashMap,org.hsqldb.lib.OrderedLongKeyHashMap,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.lib.SimpleLog,LOG_RESULT,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.lib.SimpleLog,logTypeNameEngine,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.lib.StringInputStream,available,METHOD_CHANGE,METHOD_NO_LONGER_THROWS_CHECKED_EXCEPTION,true,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.lib.StringInputStream,read,METHOD_CHANGE,METHOD_NO_LONGER_THROWS_CHECKED_EXCEPTION,true,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.map.BaseHashMap,containsKey,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.map.BaseHashMap,containsKey,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.map.BaseHashMap,containsKey,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.map.BaseHashMap,isTwoObjectValue,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.map.BitMap,countSet,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.map.ValuePoolHashMap,org.hsqldb.map.ValuePoolHashMap,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.navigator.RowSetNavigator,addRow,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.navigator.RowSetNavigator,hadNext,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.navigator.RowSetNavigatorClient,org.hsqldb.navigator.RowSetNavigatorClient,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.navigator.RowSetNavigatorData,org.hsqldb.navigator.RowSetNavigatorData,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.navigator.RowSetNavigatorData,getDataTable,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.navigator.RowSetNavigatorData,getNextRowData,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.navigator.RowSetNavigatorData,update,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.navigator.RowSetNavigatorDataChange,getMainRowCount,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.navigator.RowSetNavigatorDataChange,read,METHOD_CHANGE,METHOD_ABSTRACT_NOW_DEFAULT; METHOD_NO_LONGER_THROWS_CHECKED_EXCEPTION,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.navigator.RowSetNavigatorDataChange,write,METHOD_CHANGE,METHOD_ABSTRACT_NOW_DEFAULT; METHOD_NO_LONGER_THROWS_CHECKED_EXCEPTION,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.navigator.RowSetNavigatorDataTable,org.hsqldb.navigator.RowSetNavigatorDataTable,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.navigator.RowSetNavigatorDataTable,getData,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.OpTypes,GROUP_CONCAT,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.OpTypes,STRING_AGG,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.ParserBase,recordedStatement,FIELD_CHANGE,FIELD_GENERICS_CHANGED,true,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.persist.Cache,org.hsqldb.persist.Cache,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.persist.Logger,getPropertiesSQL,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.persist.Logger,getPropertyValueMap,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.persist.Logger,setEventLogLevel,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.persist.RowStoreAVL,rowActionMap,FIELD_CHANGE,FIELD_GENERICS_CHANGED,true,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.persist.TextFileSettings,org.hsqldb.persist.TextFileSettings,CLASS_CHANGE,CLASS_NOW_FINAL,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.persist.TextFileSettings,stringEncoding,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.result.Result,addRows,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.result.ResultLob,org.hsqldb.result.ResultLob,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.result.ResultMetaData,resetExtendedColumnCount,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.rights.GranteeManager,getRightsSQL,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.rights.GranteeManager,getSQL,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.rights.GranteeManager,updateAddColumn,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.rights.Right,emptySet,FIELD_CHANGE,FIELD_LESS_ACCESSIBLE; FIELD_GENERICS_CHANGED,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.rights.Right,noRights,FIELD_CHANGE,FIELD_LESS_ACCESSIBLE,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.rights.User,org.hsqldb.rights.User,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.rights.UserManager,getAuthenticationSQL,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.rights.UserManager,getInitialSchemaSQL,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.RowAction,canRead,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.Schema,getObjectSet,METHOD_CHANGE,METHOD_LESS_ACCESSIBLE,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.Schema,getSequenceRestartSQL,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.Schema,getTriggerSQL,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.SchemaManager,getIndexRootsSQL,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.SchemaManager,getSchemaObject,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.SchemaManager,getSQLArray,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.SchemaManager,getTablePropsSQL,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.SchemaManager,getTableSpaceSQL,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.SchemaManager,dataChangeTable,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.SchemaObject,compile,METHOD_CHANGE,METHOD_ABSTRACT_NOW_DEFAULT,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.SchemaObject,getComponents,METHOD_CHANGE,METHOD_ABSTRACT_NOW_DEFAULT,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.SchemaObject,getReferences,METHOD_CHANGE,METHOD_ABSTRACT_NOW_DEFAULT,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.Session,waitedSessions,FIELD_CHANGE,FIELD_GENERICS_CHANGED,true,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.Session,waitingSessions,FIELD_CHANGE,FIELD_GENERICS_CHANGED,true,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.SessionData,getSequenceCurrent,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.SessionData,getSequenceValue,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.SessionInterface,getTimeZone,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.SessionInterface,setAttributeFromResult,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.SessionInterface,INFO_ID,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.SessionInterface,INFO_CATALOG,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.SessionInterface,INFO_CONNECTION_READONLY,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.SessionInterface,INFO_VARCHAR,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.SessionInterface,INFO_ISOLATION,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.SessionInterface,INFO_INTEGER,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.SessionInterface,INFO_BOOLEAN,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.SessionInterface,INFO_LIMIT,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.SessionInterface,INFO_AUTOCOMMIT,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.Table,getColumnNameSet,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.Table,getColumnNameSet,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.Table,getId,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.Table,getTriggerSQL,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.Table,columnList,FIELD_CHANGE,FIELD_GENERICS_CHANGED,true,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.TableDerived,org.hsqldb.TableDerived,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.TableDerived,getId,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.TextTable,org.hsqldb.TextTable,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.Token,setExpression,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.Tokens,org.hsqldb.Tokens,CLASS_CHANGE,CLASS_NOW_FINAL,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.TransactionManager2PL,getNextSystemChangeNumber,METHOD_CHANGE,METHOD_NOW_FINAL; METHOD_MOVED_TO_SUPERCLASS,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.TransactionManagerMV2PL,getNextSystemChangeNumber,METHOD_CHANGE,METHOD_NOW_FINAL; METHOD_MOVED_TO_SUPERCLASS,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.TransactionManagerMVCC,getNextSystemChangeNumber,METHOD_CHANGE,METHOD_NOW_FINAL; METHOD_MOVED_TO_SUPERCLASS,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.trigger.Trigger,fire,METHOD_CHANGE,METHOD_ABSTRACT_NOW_DEFAULT,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.TriggerDef,pendingQueue,FIELD_CHANGE,FIELD_GENERICS_CHANGED,true,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.TriggerDefSQL,org.hsqldb.TriggerDefSQL,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.types.Collation,dbNameToJavaName,FIELD_CHANGE,FIELD_GENERICS_CHANGED,true,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.types.Collation,nameToJavaName,FIELD_CHANGE,FIELD_GENERICS_CHANGED,true,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.types.Collation,dbNameToCollation,FIELD_CHANGE,FIELD_GENERICS_CHANGED,true,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.types.DateTimeType,getDateTimePart,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.types.DateTimeType,setTimeComponents,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.types.DateTimeType,zoneIDs,FIELD_CHANGE,FIELD_GENERICS_CHANGED,true,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.types.Type,typeAliases,FIELD_CHANGE,FIELD_GENERICS_CHANGED,true,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.types.Type,jdbcConvertTypes,FIELD_CHANGE,FIELD_GENERICS_CHANGED,true,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.types.Type,typeNames,FIELD_CHANGE,FIELD_GENERICS_CHANGED,true,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+org.hsqldb:hsqldb,2.7.1,2.7.4,org.hsqldb.View,org.hsqldb.View,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.hsqldb:hsqldb,,,PATCH,false
+commons-dbutils:commons-dbutils,1.7,1.8.1,org.apache.commons.dbutils.ColumnHandler,org.apache.commons.dbutils.ColumnHandler,CLASS_CHANGE,CLASS_GENERIC_TEMPLATE_CHANGED,true,false,false,1,commons-dbutils:commons-dbutils,,,MINOR,false
+org.eclipse.paho:org.eclipse.paho.client.mqttv3,1.2.1,1.2.5,org.eclipse.paho.client.mqttv3.IMqttAsyncClient,deleteBufferedMessage,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.eclipse.paho:org.eclipse.paho.client.mqttv3,,,PATCH,false
+org.eclipse.paho:org.eclipse.paho.client.mqttv3,1.2.1,1.2.5,org.eclipse.paho.client.mqttv3.IMqttAsyncClient,getBufferedMessage,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.eclipse.paho:org.eclipse.paho.client.mqttv3,,,PATCH,false
+org.eclipse.paho:org.eclipse.paho.client.mqttv3,1.2.1,1.2.5,org.eclipse.paho.client.mqttv3.IMqttAsyncClient,getBufferedMessageCount,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.eclipse.paho:org.eclipse.paho.client.mqttv3,,,PATCH,false
+org.eclipse.paho:org.eclipse.paho.client.mqttv3,1.2.1,1.2.5,org.eclipse.paho.client.mqttv3.IMqttAsyncClient,getInFlightMessageCount,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.eclipse.paho:org.eclipse.paho.client.mqttv3,,,PATCH,false
+org.eclipse.paho:org.eclipse.paho.client.mqttv3,1.2.1,1.2.5,org.eclipse.paho.client.mqttv3.IMqttAsyncClient,setBufferOpts,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.eclipse.paho:org.eclipse.paho.client.mqttv3,,,PATCH,false
+org.eclipse.paho:org.eclipse.paho.client.mqttv3,1.2.1,1.2.5,org.eclipse.paho.client.mqttv3.internal.ClientComms,ClientComms,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.eclipse.paho:org.eclipse.paho.client.mqttv3,,,PATCH,false
+org.eclipse.paho:org.eclipse.paho.client.mqttv3,1.2.1,1.2.5,org.eclipse.paho.client.mqttv3.internal.ClientState,persistBufferedMessage,METHOD_CHANGE,METHOD_NOW_THROWS_CHECKED_EXCEPTION,true,false,false,1,org.eclipse.paho:org.eclipse.paho.client.mqttv3,,,PATCH,false
+org.eclipse.paho:org.eclipse.paho.client.mqttv3,1.2.1,1.2.5,org.eclipse.paho.client.mqttv3.internal.ClientState,ClientState,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.eclipse.paho:org.eclipse.paho.client.mqttv3,,,PATCH,false

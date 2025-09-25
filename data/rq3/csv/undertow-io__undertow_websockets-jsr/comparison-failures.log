@@ -1,0 +1,9 @@
+=== Comparison Failure Log ===
+[2025-09-23 14:24:29] jakarta.websocket:jakarta.websocket-api:2.1.0 -> jakarta.websocket:jakarta.websocket-api:2.2.0 : Failed to compare JAR files: JAPICMP comparison failed for jakarta.websocket:jakarta.websocket-api
+[2025-09-23 14:24:30] org.jboss.xnio:xnio-nio:3.8.16.Final -> org.jboss.xnio:xnio-nio:3.8.17.Final : Failed to compare JAR files: JAPICMP comparison failed for org.jboss.xnio:xnio-nio
+[2025-09-23 14:25:00] org.wildfly.openssl:wildfly-openssl:2.2.1.Final -> org.wildfly.openssl:wildfly-openssl:2.2.5.Final : Failed to compare JAR files: JAPICMP comparison failed for org.wildfly.openssl:wildfly-openssl
+
+=== Summary ===
+Total comparisons: 38
+Failures: 3
+Success rate: 92.11%

@@ -1,0 +1,11 @@
+=== Comparison Failure Log ===
+[2025-09-22 16:10:08] org.springframework:spring-tx:4.3.25.RELEASE -> org.springframework:spring-tx:4.3.30.RELEASE : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-tx
+[2025-09-22 16:11:18] io.github.bes2008.solution.agileway:agileway-spring:5.0.0 -> io.github.bes2008.solution.agileway:agileway-spring:5.3.2 : Failed to compare JAR files: JAPICMP comparison failed for io.github.bes2008.solution.agileway:agileway-spring
+[2025-09-22 16:11:20] org.aspectj:aspectjweaver:1.9.5 -> org.aspectj:aspectjweaver:1.9.24 : Failed to compare JAR files: JAPICMP comparison failed for org.aspectj:aspectjweaver
+[2025-09-22 16:11:23] com.zaxxer:HikariCP:2.4.7 -> com.zaxxer:HikariCP:2.7.9 : Failed to compare JAR files: JAPICMP comparison failed for com.zaxxer:HikariCP
+[2025-09-22 16:11:34] com.alibaba:druid:1.1.24 -> com.alibaba:druid:1.2.27 : Failed to compare JAR files: JAPICMP comparison failed for com.alibaba:druid
+
+=== Summary ===
+Total comparisons: 36
+Failures: 5
+Success rate: 86.11%

@@ -1,0 +1,7 @@
+Library_Name,Symbol_Type,Class_Name,Symbol_Name,Usage_Location,Line_Number
+JDK:java.base:N/A:N/A,MethodCallExpr,java.lang.Class,getSimpleName,C:\Users\tyin363\Documents\repos\kumuluz__kumuluzee\components\json-b\yasson\src\main\java\com\kumuluz\ee\jsonb\yasson\JsonBComponent.java,20
+JDK:java.base:N/A:N/A,MethodCallExpr,java.util.logging.Logger,info,C:\Users\tyin363\Documents\repos\kumuluz__kumuluzee\components\json-b\yasson\src\main\java\com\kumuluz\ee\jsonb\yasson\JsonBComponent.java,29
+CLIENT:client-code:N/A:N/A,ClassOrInterfaceType,com.kumuluz.ee.jsonb.yasson.JsonBComponent,JsonBComponent,C:\Users\tyin363\Documents\repos\kumuluz__kumuluzee\components\json-b\yasson\src\main\java\com\kumuluz\ee\jsonb\yasson\JsonBComponent.java,20
+JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.util.logging.Logger,Logger,C:\Users\tyin363\Documents\repos\kumuluz__kumuluzee\components\json-b\yasson\src\main\java\com\kumuluz\ee\jsonb\yasson\JsonBComponent.java,20
+JDK:java.base:N/A:N/A,MethodCallExpr,java.util.logging.Logger,getLogger,C:\Users\tyin363\Documents\repos\kumuluz__kumuluzee\components\json-b\yasson\src\main\java\com\kumuluz\ee\jsonb\yasson\JsonBComponent.java,20
+CLIENT:client-code:N/A:N/A,NameExpr,com.kumuluz.ee.jsonb.yasson.JsonBComponent,log,C:\Users\tyin363\Documents\repos\kumuluz__kumuluzee\components\json-b\yasson\src\main\java\com\kumuluz\ee\jsonb\yasson\JsonBComponent.java,29

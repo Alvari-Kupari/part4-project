@@ -1,0 +1,55 @@
+Library_Name,Old_Version,New_Version,Class_Name,Member_Name,Change_Type,Description,Binary_Compatible,Source_Compatible,Is_Transitive,Depth,Direct_Parent_Dependency,Direct_Dependency_Old_Version,Direct_Dependency_New_Version,Release_Type,Is_Used_In_Client
+org.antlr:antlr4-runtime,4.5.3,4.13.2,org.antlr.v4.runtime.atn.ArrayPredictionContext,org.antlr.v4.runtime.atn.ArrayPredictionContext,CLASS_CHANGE,FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.antlr:antlr4-runtime,,,MINOR,false
+org.antlr:antlr4-runtime,4.5.3,4.13.2,org.antlr.v4.runtime.atn.ATNDeserializer,isFeatureSupported,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.antlr:antlr4-runtime,,,MINOR,false
+org.antlr:antlr4-runtime,4.5.3,4.13.2,org.antlr.v4.runtime.atn.ATNDeserializer,toLong,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.antlr:antlr4-runtime,,,MINOR,false
+org.antlr:antlr4-runtime,4.5.3,4.13.2,org.antlr.v4.runtime.atn.ATNDeserializer,toUUID,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.antlr:antlr4-runtime,,,MINOR,false
+org.antlr:antlr4-runtime,4.5.3,4.13.2,org.antlr.v4.runtime.atn.ATNDeserializer,SERIALIZED_UUID,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.antlr:antlr4-runtime,,,MINOR,false
+org.antlr:antlr4-runtime,4.5.3,4.13.2,org.antlr.v4.runtime.atn.ATNSerializer,decode,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.antlr:antlr4-runtime,,,MINOR,false
+org.antlr:antlr4-runtime,4.5.3,4.13.2,org.antlr.v4.runtime.atn.ATNSerializer,getDecoded,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.antlr:antlr4-runtime,,,MINOR,false
+org.antlr:antlr4-runtime,4.5.3,4.13.2,org.antlr.v4.runtime.atn.ATNSerializer,getSerializedAsChars,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.antlr:antlr4-runtime,,,MINOR,false
+org.antlr:antlr4-runtime,4.5.3,4.13.2,org.antlr.v4.runtime.atn.ATNSerializer,getSerializedAsString,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.antlr:antlr4-runtime,,,MINOR,false
+org.antlr:antlr4-runtime,4.5.3,4.13.2,org.antlr.v4.runtime.atn.ATNSerializer,getTokenName,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.antlr:antlr4-runtime,,,MINOR,false
+org.antlr:antlr4-runtime,4.5.3,4.13.2,org.antlr.v4.runtime.atn.ATNSerializer,ATNSerializer,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.antlr:antlr4-runtime,,,MINOR,false
+org.antlr:antlr4-runtime,4.5.3,4.13.2,org.antlr.v4.runtime.atn.ATNSimulator,checkCondition,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,false,1,org.antlr:antlr4-runtime,,,MINOR,false
+org.antlr:antlr4-runtime,4.5.3,4.13.2,org.antlr.v4.runtime.atn.ATNSimulator,checkCondition,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,false,1,org.antlr:antlr4-runtime,,,MINOR,false
+org.antlr:antlr4-runtime,4.5.3,4.13.2,org.antlr.v4.runtime.atn.ATNSimulator,deserialize,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,false,1,org.antlr:antlr4-runtime,,,MINOR,false
+org.antlr:antlr4-runtime,4.5.3,4.13.2,org.antlr.v4.runtime.atn.ATNSimulator,edgeFactory,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,false,1,org.antlr:antlr4-runtime,,,MINOR,false
+org.antlr:antlr4-runtime,4.5.3,4.13.2,org.antlr.v4.runtime.atn.ATNSimulator,stateFactory,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,false,1,org.antlr:antlr4-runtime,,,MINOR,false
+org.antlr:antlr4-runtime,4.5.3,4.13.2,org.antlr.v4.runtime.atn.ATNSimulator,toInt,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,false,1,org.antlr:antlr4-runtime,,,MINOR,false
+org.antlr:antlr4-runtime,4.5.3,4.13.2,org.antlr.v4.runtime.atn.ATNSimulator,toInt32,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,false,1,org.antlr:antlr4-runtime,,,MINOR,false
+org.antlr:antlr4-runtime,4.5.3,4.13.2,org.antlr.v4.runtime.atn.ATNSimulator,toLong,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,false,1,org.antlr:antlr4-runtime,,,MINOR,false
+org.antlr:antlr4-runtime,4.5.3,4.13.2,org.antlr.v4.runtime.atn.ATNSimulator,toUUID,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,false,1,org.antlr:antlr4-runtime,,,MINOR,false
+org.antlr:antlr4-runtime,4.5.3,4.13.2,org.antlr.v4.runtime.atn.ATNSimulator,SERIALIZED_VERSION,FIELD_CHANGE,FIELD_REMOVED; ANNOTATION_REMOVED,false,false,false,1,org.antlr:antlr4-runtime,,,MINOR,false
+org.antlr:antlr4-runtime,4.5.3,4.13.2,org.antlr.v4.runtime.atn.ATNSimulator,SERIALIZED_UUID,FIELD_CHANGE,FIELD_REMOVED; ANNOTATION_REMOVED,false,false,false,1,org.antlr:antlr4-runtime,,,MINOR,false
+org.antlr:antlr4-runtime,4.5.3,4.13.2,org.antlr.v4.runtime.atn.EmptyPredictionContext,org.antlr.v4.runtime.atn.EmptyPredictionContext,CLASS_CHANGE,FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.antlr:antlr4-runtime,,,MINOR,false
+org.antlr:antlr4-runtime,4.5.3,4.13.2,org.antlr.v4.runtime.atn.EmptyPredictionContext,EmptyPredictionContext,CONSTRUCTOR_CHANGE,CONSTRUCTOR_LESS_ACCESSIBLE,false,false,false,1,org.antlr:antlr4-runtime,,,MINOR,false
+org.antlr:antlr4-runtime,4.5.3,4.13.2,org.antlr.v4.runtime.atn.LexerATNSimulator,org.antlr.v4.runtime.atn.LexerATNSimulator,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.antlr:antlr4-runtime,,,MINOR,false
+org.antlr:antlr4-runtime,4.5.3,4.13.2,org.antlr.v4.runtime.atn.LexerATNSimulator,match_calls,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.antlr:antlr4-runtime,,,MINOR,false
+org.antlr:antlr4-runtime,4.5.3,4.13.2,org.antlr.v4.runtime.atn.ParserATNSimulator,org.antlr.v4.runtime.atn.ParserATNSimulator,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.antlr:antlr4-runtime,,,MINOR,false
+org.antlr:antlr4-runtime,4.5.3,4.13.2,org.antlr.v4.runtime.atn.ParserATNSimulator,debug_list_atn_decisions,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.antlr:antlr4-runtime,,,MINOR,false
+org.antlr:antlr4-runtime,4.5.3,4.13.2,org.antlr.v4.runtime.atn.PredictionContext,globalNodeCount,FIELD_CHANGE,FIELD_LESS_ACCESSIBLE; FIELD_NOW_FINAL; FIELD_TYPE_CHANGED,false,false,false,1,org.antlr:antlr4-runtime,,,MINOR,false
+org.antlr:antlr4-runtime,4.5.3,4.13.2,org.antlr.v4.runtime.atn.PredictionContext,EMPTY,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.antlr:antlr4-runtime,,,MINOR,false
+org.antlr:antlr4-runtime,4.5.3,4.13.2,org.antlr.v4.runtime.atn.ProfilingATNSimulator,org.antlr.v4.runtime.atn.ProfilingATNSimulator,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.antlr:antlr4-runtime,,,MINOR,false
+org.antlr:antlr4-runtime,4.5.3,4.13.2,org.antlr.v4.runtime.atn.SemanticContext,NONE,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.antlr:antlr4-runtime,,,MINOR,false
+org.antlr:antlr4-runtime,4.5.3,4.13.2,org.antlr.v4.runtime.atn.SemanticContext$AND,org.antlr.v4.runtime.atn.SemanticContext$AND,CLASS_CHANGE,FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.antlr:antlr4-runtime,,,MINOR,false
+org.antlr:antlr4-runtime,4.5.3,4.13.2,org.antlr.v4.runtime.atn.SemanticContext$Operator,org.antlr.v4.runtime.atn.SemanticContext$Operator,CLASS_CHANGE,FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.antlr:antlr4-runtime,,,MINOR,false
+org.antlr:antlr4-runtime,4.5.3,4.13.2,org.antlr.v4.runtime.atn.SemanticContext$OR,org.antlr.v4.runtime.atn.SemanticContext$OR,CLASS_CHANGE,FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.antlr:antlr4-runtime,,,MINOR,false
+org.antlr:antlr4-runtime,4.5.3,4.13.2,org.antlr.v4.runtime.atn.SemanticContext$PrecedencePredicate,org.antlr.v4.runtime.atn.SemanticContext$PrecedencePredicate,CLASS_CHANGE,FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.antlr:antlr4-runtime,,,MINOR,false
+org.antlr:antlr4-runtime,4.5.3,4.13.2,org.antlr.v4.runtime.atn.SemanticContext$Predicate,org.antlr.v4.runtime.atn.SemanticContext$Predicate,CLASS_CHANGE,FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.antlr:antlr4-runtime,,,MINOR,false
+org.antlr:antlr4-runtime,4.5.3,4.13.2,org.antlr.v4.runtime.atn.SingletonPredictionContext,org.antlr.v4.runtime.atn.SingletonPredictionContext,CLASS_CHANGE,FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.antlr:antlr4-runtime,,,MINOR,false
+org.antlr:antlr4-runtime,4.5.3,4.13.2,org.antlr.v4.runtime.misc.Array2DHashSet,initialBucketCapacity,FIELD_CHANGE,FIELD_NOW_FINAL,false,false,false,1,org.antlr:antlr4-runtime,,,MINOR,false
+org.antlr:antlr4-runtime,4.5.3,4.13.2,org.antlr.v4.runtime.misc.FlexibleHashMap,initialBucketCapacity,FIELD_CHANGE,FIELD_NOW_FINAL,false,false,false,1,org.antlr:antlr4-runtime,,,MINOR,false
+org.antlr:antlr4-runtime,4.5.3,4.13.2,org.antlr.v4.runtime.misc.Interval,hits,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.antlr:antlr4-runtime,,,MINOR,true
+org.antlr:antlr4-runtime,4.5.3,4.13.2,org.antlr.v4.runtime.misc.Interval,misses,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.antlr:antlr4-runtime,,,MINOR,false
+org.antlr:antlr4-runtime,4.5.3,4.13.2,org.antlr.v4.runtime.misc.Interval,creates,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.antlr:antlr4-runtime,,,MINOR,false
+org.antlr:antlr4-runtime,4.5.3,4.13.2,org.antlr.v4.runtime.misc.Interval,outOfRange,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.antlr:antlr4-runtime,,,MINOR,false
+org.antlr:antlr4-runtime,4.5.3,4.13.2,org.antlr.v4.runtime.misc.IntSet,getSingleElement,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.antlr:antlr4-runtime,,,MINOR,false
+org.antlr:antlr4-runtime,4.5.3,4.13.2,org.antlr.v4.runtime.RuleContext,EMPTY,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.antlr:antlr4-runtime,,,MINOR,false
+org.antlr:antlr4-runtime,4.5.3,4.13.2,org.antlr.v4.runtime.tree.ParseTree,setParent,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.antlr:antlr4-runtime,,,MINOR,false
+org.antlr:antlr4-runtime,4.5.3,4.13.2,org.antlr.v4.runtime.tree.xpath.XPathLexer,modeNames,FIELD_CHANGE,FIELD_NOW_FINAL,false,false,false,1,org.antlr:antlr4-runtime,,,MINOR,false
+org.antlr:antlr4-runtime,4.5.3,4.13.2,org.antlr.v4.runtime.tree.xpath.XPathLexer,_serializedATN,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.antlr:antlr4-runtime,,,MINOR,false
+org.antlr:antlr4-runtime,4.5.3,4.13.2,org.antlr.v4.runtime.tree.xpath.XPathLexer,_sharedContextCache,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.antlr:antlr4-runtime,,,MINOR,false
+org.antlr:antlr4-runtime,4.5.3,4.13.2,org.antlr.v4.runtime.tree.xpath.XPathLexer,_ATN,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.antlr:antlr4-runtime,,,MINOR,false
+org.antlr:antlr4-runtime,4.5.3,4.13.2,org.antlr.v4.runtime.tree.xpath.XPathLexer,_decisionToDFA,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.antlr:antlr4-runtime,,,MINOR,false
+org.antlr:antlr4-runtime,4.5.3,4.13.2,org.antlr.v4.runtime.UnbufferedCharStream,data,FIELD_CHANGE,FIELD_TYPE_CHANGED,false,false,false,1,org.antlr:antlr4-runtime,,,MINOR,false
+commons-io:commons-io,2.16.1,2.20.0,org.apache.commons.io.output.AbstractByteArrayOutputStream,org.apache.commons.io.output.AbstractByteArrayOutputStream,CLASS_CHANGE,CLASS_GENERIC_TEMPLATE_CHANGED,true,false,false,1,commons-io:commons-io,,,MINOR,false

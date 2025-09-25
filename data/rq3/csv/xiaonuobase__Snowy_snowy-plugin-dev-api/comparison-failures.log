@@ -1,0 +1,7 @@
+=== Comparison Failure Log ===
+[2025-09-23 15:18:59] org.dromara.x-file-storage:x-file-storage-spring:2.1.0 -> org.dromara.x-file-storage:x-file-storage-spring:2.3.0 : Failed to compare JAR files: JAPICMP comparison failed for org.dromara.x-file-storage:x-file-storage-spring
+
+=== Summary ===
+Total comparisons: 57
+Failures: 1
+Success rate: 98.25%

@@ -1,0 +1,10 @@
+=== Comparison Failure Log ===
+[2025-09-22 20:39:58] mysql:mysql-connector-java:8.0.22 -> mysql:mysql-connector-java:8.0.33 : Failed to compare JAR files: JAPICMP comparison failed for mysql:mysql-connector-java
+[2025-09-22 20:39:59] org.springframework.boot:spring-boot-devtools:2.4.0 -> org.springframework.boot:spring-boot-devtools:2.7.18 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.boot:spring-boot-devtools
+[2025-09-22 20:39:59] org.springframework.boot:spring-boot-autoconfigure:2.4.0 -> org.springframework.boot:spring-boot-autoconfigure:2.7.18 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.boot:spring-boot-autoconfigure
+[2025-09-22 20:39:59] org.springframework:spring-jdbc:5.3.1 -> org.springframework:spring-jdbc:5.3.39 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-jdbc
+
+=== Summary ===
+Total comparisons: 55
+Failures: 4
+Success rate: 92.73%

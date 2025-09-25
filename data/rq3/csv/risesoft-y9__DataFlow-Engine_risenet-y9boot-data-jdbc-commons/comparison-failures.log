@@ -1,0 +1,11 @@
+=== Comparison Failure Log ===
+[2025-09-23 08:26:31] org.springframework:spring-context:5.3.31 -> org.springframework:spring-context:5.3.39 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-context
+[2025-09-23 08:26:32] org.springframework:spring-context-support:5.3.31 -> org.springframework:spring-context-support:5.3.39 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-context-support
+[2025-09-23 08:26:32] org.springframework:spring-orm:5.3.31 -> org.springframework:spring-orm:5.3.39 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-orm
+[2025-09-23 08:26:32] org.springframework:spring-tx:5.3.31 -> org.springframework:spring-tx:5.3.39 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-tx
+[2025-09-23 08:26:33] org.aspectj:aspectjweaver:1.9.20.1 -> org.aspectj:aspectjweaver:1.9.24 : Failed to compare JAR files: JAPICMP comparison failed for org.aspectj:aspectjweaver
+
+=== Summary ===
+Total comparisons: 6
+Failures: 5
+Success rate: 16.67%

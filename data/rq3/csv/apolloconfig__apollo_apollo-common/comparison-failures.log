@@ -1,0 +1,11 @@
+=== Comparison Failure Log ===
+[2025-09-22 15:09:30] com.mysql:mysql-connector-j:8.2.0 -> com.mysql:mysql-connector-j:8.4.0 : Failed to compare JAR files: JAPICMP comparison failed for com.mysql:mysql-connector-j
+[2025-09-22 15:09:30] org.postgresql:postgresql:42.7.2 -> org.postgresql:postgresql:42.7.8 : Failed to compare JAR files: JAPICMP comparison failed for org.postgresql:postgresql
+[2025-09-22 15:09:31] com.h2database:h2:2.2.220 -> com.h2database:h2:2.3.232 : Failed to compare JAR files: JAPICMP comparison failed for com.h2database:h2
+[2025-09-22 15:09:31] org.springframework.data:spring-data-commons:2.7.11 -> org.springframework.data:spring-data-commons:2.7.18 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.data:spring-data-commons
+[2025-09-22 15:09:33] org.codehaus.janino:janino:3.1.9 -> org.codehaus.janino:janino:3.1.12 : Failed to compare JAR files: JAPICMP comparison failed for org.codehaus.janino:janino
+
+=== Summary ===
+Total comparisons: 145
+Failures: 5
+Success rate: 96.55%

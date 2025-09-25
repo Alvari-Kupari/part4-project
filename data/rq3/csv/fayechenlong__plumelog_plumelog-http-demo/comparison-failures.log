@@ -1,0 +1,7 @@
+=== Comparison Failure Log ===
+[2025-09-22 21:36:15] com.squareup.okhttp3:okhttp:4.9.1 -> com.squareup.okhttp3:okhttp:4.12.0 : Failed to compare JAR files: JAPICMP comparison failed for com.squareup.okhttp3:okhttp
+
+=== Summary ===
+Total comparisons: 50
+Failures: 1
+Success rate: 98.00%

@@ -1,0 +1,9 @@
+=== Comparison Failure Log ===
+[2025-09-22 18:10:00] org.aspectj:aspectjweaver:1.8.0 -> org.aspectj:aspectjweaver:1.9.24 : Failed to compare JAR files: JAPICMP comparison failed for org.aspectj:aspectjweaver
+[2025-09-22 18:10:07] cn.hutool:hutool-all:5.5.0 -> cn.hutool:hutool-all:5.8.40 : Failed to compare JAR files: JAPICMP comparison failed for cn.hutool:hutool-all
+[2025-09-22 18:10:08] org.assertj:assertj-core:3.11.1 -> org.assertj:assertj-core:3.27.5 : Failed to compare JAR files: JAPICMP comparison failed for org.assertj:assertj-core
+
+=== Summary ===
+Total comparisons: 7
+Failures: 3
+Success rate: 57.14%

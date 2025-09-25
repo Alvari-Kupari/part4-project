@@ -1,0 +1,9 @@
+=== Comparison Failure Log ===
+[2025-09-22 20:06:24] ch.qos.logback:logback-classic:1.2.13 -> ch.qos.logback:logback-classic:1.5.18 : Failed to compare JAR files: JAPICMP comparison failed for ch.qos.logback:logback-classic
+[2025-09-22 20:06:26] org.apache.tomcat.embed:tomcat-embed-core:9.0.99 -> org.apache.tomcat.embed:tomcat-embed-core:9.0.109 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.tomcat.embed:tomcat-embed-core
+[2025-09-22 20:07:05] org.projectlombok:lombok:1.18.30 -> org.projectlombok:lombok:1.18.42 : Failed to compare JAR files: JAPICMP comparison failed for org.projectlombok:lombok
+
+=== Summary ===
+Total comparisons: 34
+Failures: 3
+Success rate: 91.18%

@@ -1,0 +1,121 @@
+Library_Name,Old_Version,New_Version,Class_Name,Member_Name,Change_Type,Description,Binary_Compatible,Source_Compatible,Is_Transitive,Depth,Direct_Parent_Dependency,Direct_Dependency_Old_Version,Direct_Dependency_New_Version,Release_Type,Is_Used_In_Client
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.annotation.Addition,index,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.annotation.Bean,delivered,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.annotation.Bean,destroyMethod,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.annotation.Bean,initMethod,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.annotation.Bean,priority,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.annotation.Bean,registered,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS; ANNOTATION_DEPRECATED_ADDED,true,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.annotation.Component,delivered,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.annotation.Component,registered,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS; ANNOTATION_DEPRECATED_ADDED,true,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.annotation.Condition,onBean,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.annotation.Condition,onBeanName,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.core.AppContext,org.noear.solon.core.AppContext,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.noear:solon,,,MINOR,true
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.core.AppContext,beanComponentized,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.core.AppContext,tryBuildBean,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.core.AppContext,tryBuildBean0,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.core.AppContext,tryBuildBeanDo,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.core.AppContext,tryCreateBeanOfClass,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.core.AppContext,tryCreateBeanOfMethod,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.core.bean.LifecycleBean,preStop,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.core.BeanContainer,beanRegisterSup0,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.core.BeanContainer,lifecycle,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.core.BeanContainer,lifecycle,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.core.BeanContainer,lifecycle,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.core.BeanContainer,lifecycle,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.core.BeanContainer,lifecycle,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.core.BeanContainer,wrapCreate,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.core.BeanContainer,wrapCreate,METHOD_CHANGE,METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.core.BeanContainer,beanBuilders,FIELD_CHANGE,FIELD_GENERICS_CHANGED,true,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.core.BeanContainer,wrapExternalConsumers,FIELD_CHANGE,FIELD_LESS_ACCESSIBLE,false,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.core.BeanContainer,beanSubscribers,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.core.BeanContainer,beanInjectors,FIELD_CHANGE,FIELD_GENERICS_CHANGED,true,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.core.BeanSupplier,org.noear.solon.core.BeanSupplier,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.core.BeanSupplier,get,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.core.BeanWrap,tryInit,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.core.BeanWrap$Proxy,getProxy,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.core.BeanWrap$Proxy,getProxy,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.core.Constants,org.noear.solon.core.Constants,CLASS_CHANGE,CLASS_NOW_ABSTRACT; CLASS_TYPE_CHANGED,false,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.core.Constants,Constants,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.core.handle.Action,after,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.core.handle.Action,before,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.core.handle.Action,render,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.core.handle.Action,render,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.core.handle.ActionExecuteHandler,resolveArguments,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.core.handle.Context,asyncComplete,METHOD_CHANGE,METHOD_NO_LONGER_THROWS_CHECKED_EXCEPTION,true,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.core.handle.Context,asyncStart,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.core.handle.Context,asyncStart,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.core.handle.Context,cookieMap,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.core.handle.Context,fileMap,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.core.handle.Context,filesMap,METHOD_CHANGE,METHOD_NO_LONGER_THROWS_CHECKED_EXCEPTION; ANNOTATION_DEPRECATED_ADDED,true,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.core.handle.Context,headerMap,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.core.handle.Context,outputStreamAsGzip,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.core.handle.Context,paramMap,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.core.handle.Context,paramsAdd,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.core.handle.Context,path,METHOD_CHANGE,METHOD_NOW_ABSTRACT,false,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.core.handle.Context,pathMap,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.core.handle.Context,sessionReset,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.core.handle.ContextEmpty,org.noear.solon.core.handle.ContextEmpty,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.core.handle.ContextEmpty,cookieMap,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.core.handle.ContextEmpty,headerMap,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.core.handle.ContextEmpty,paramMap,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.core.handle.DownloadedFile,getContent,METHOD_CHANGE,METHOD_NOW_THROWS_CHECKED_EXCEPTION,true,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.core.handle.DownloadedFile,getContentSize,METHOD_CHANGE,METHOD_NOW_THROWS_CHECKED_EXCEPTION,true,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.core.handle.DownloadedFile,transferTo,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.core.handle.DownloadedFile,transferTo,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.core.handle.DownloadedFile,DownloadedFile,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.core.handle.Gateway,doFilter,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.core.InjectGather,check,METHOD_CHANGE,METHOD_NO_LONGER_THROWS_CHECKED_EXCEPTION,true,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.core.InjectGather,InjectGather,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.core.LoadBalance,getServer,METHOD_CHANGE,METHOD_ABSTRACT_NOW_DEFAULT,false,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.core.LoadBalance,getServer,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.core.mvc.ActionLoaderDefault,createAction,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.core.mvc.ActionLoaderDefault,findMethods,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.core.mvc.ActionLoaderDefault,loadActionAide,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.core.MvcFactory,createLoader,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.core.MvcFactory,createLoader,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.core.MvcFactory,postActionPath,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.core.MvcFactory,resolveActionParam,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.core.MvcFactory,resolveParam,METHOD_CHANGE,METHOD_ABSTRACT_NOW_DEFAULT; ANNOTATION_DEPRECATED_ADDED,false,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.core.Props,getByExpr,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.core.Props,getByTmpl,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.core.Props,getByTmpl,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.core.route.Router,getBy,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.core.route.RoutingTable,getBy,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.core.serialize.Serializer,deserialize,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.core.serialize.Serializer,deserialize,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.core.util.ClassUtil,newInstance,METHOD_CHANGE,METHOD_NO_LONGER_THROWS_CHECKED_EXCEPTION,true,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.core.util.ClassUtil,newInstance,METHOD_CHANGE,METHOD_NO_LONGER_THROWS_CHECKED_EXCEPTION,true,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.core.util.DateAnalyzer,FORMAT_19_c,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.core.util.DateAnalyzer,FORMAT_19_a,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.core.util.DateAnalyzer,FORMAT_19_b,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.core.util.DateAnalyzer,FORMAT_16_b,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.core.util.DateAnalyzer,FORMAT_16_c,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.core.util.DateAnalyzer,FORMAT_19_ISO,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.core.util.DateAnalyzer,FORMAT_9,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.core.util.DateAnalyzer,FORMAT_8_a,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.core.util.DateAnalyzer,FORMAT_25,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.core.util.DateAnalyzer,FORMAT_16_a,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.core.util.DateAnalyzer,FORMAT_14,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.core.util.DateAnalyzer,FORMAT_8_b,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.core.util.DateAnalyzer,FORMAT_24_ISO08601,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.core.util.DateAnalyzer,FORMAT_22,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.core.util.DateAnalyzer,FORMAT_23_b,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.core.util.DateAnalyzer,FORMAT_23_a,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.core.util.DateAnalyzer,FORMAT_17,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.core.util.DateAnalyzer,FORMAT_10_b,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.core.util.DateAnalyzer,FORMAT_29,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.core.util.DateAnalyzer,FORMAT_10_c,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.core.util.DateAnalyzer,FORMAT_10_a,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.core.util.PathUtil,pathVarMap,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.core.util.PluginUtil,findPlugins,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.core.util.PluginUtil,scanPlugins,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.core.util.PropUtil,getByExp,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.core.util.PropUtil,getByExp,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.core.util.PropUtil,getByTml,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.core.util.PropUtil,getByTml,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.core.wrap.ClassWrap,newBy,METHOD_CHANGE,METHOD_NOW_THROWS_CHECKED_EXCEPTION,true,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.core.wrap.MethodWrap,MethodWrap,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.core.wrap.MethodWrap,MethodWrap,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.core.wrap.ParamWrap,ParamWrap,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.Solon,versionCode,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.noear:solon,,,MINOR,false
+org.noear:solon,2.8.4,2.9.4,org.noear.solon.SolonProps,org.noear.solon.SolonProps,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.noear:solon,,,MINOR,false

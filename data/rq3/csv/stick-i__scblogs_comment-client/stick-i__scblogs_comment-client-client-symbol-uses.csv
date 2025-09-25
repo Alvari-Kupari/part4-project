@@ -1,0 +1,8 @@
+Library_Name,Symbol_Type,Class_Name,Symbol_Name,Usage_Location,Line_Number
+CLIENT:client-code:N/A:N/A,ClassOrInterfaceType,cn.sticki.comment.client.CommentClientResolver,CommentClientResolver,C:\Users\tyin363\Documents\repos\stick-i__scblogs\comment-service\comment-client\src\main\java\cn\sticki\comment\client\CommentClient.java,14
+CLIENT:client-code:N/A:N/A,ClassOrInterfaceType,cn.sticki.comment.client.CommentClient,CommentClient,C:\Users\tyin363\Documents\repos\stick-i__scblogs\comment-service\comment-client\src\main\java\cn\sticki\comment\client\CommentClientResolver.java,14
+JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.lang.Object,Object,C:\Users\tyin363\Documents\repos\stick-i__scblogs\comment-service\comment-client\src\main\java\cn\sticki\comment\client\CommentClientResolver.java,25
+CLIENT:client-code:N/A:N/A,ClassOrInterfaceType,cn.sticki.comment.client.CommentClientResolver,CommentClientResolver,C:\Users\tyin363\Documents\repos\stick-i__scblogs\comment-service\comment-client\src\main\java\cn\sticki\comment\client\CommentClient.java,15
+JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.lang.Integer,Integer,C:\Users\tyin363\Documents\repos\stick-i__scblogs\comment-service\comment-client\src\main\java\cn\sticki\comment\client\CommentClientResolver.java,25
+JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.lang.Integer,Integer,C:\Users\tyin363\Documents\repos\stick-i__scblogs\comment-service\comment-client\src\main\java\cn\sticki\comment\client\CommentClient.java,28
+JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.lang.Object,Object,C:\Users\tyin363\Documents\repos\stick-i__scblogs\comment-service\comment-client\src\main\java\cn\sticki\comment\client\CommentClient.java,28

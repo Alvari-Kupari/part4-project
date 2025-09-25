@@ -1,0 +1,7 @@
+=== Comparison Failure Log ===
+[2025-09-22 22:13:52] com.google.cloud:google-cloud-core:2.13.0 -> com.google.cloud:google-cloud-core:2.60.2 : Failed to compare JAR files: JAPICMP comparison failed for com.google.cloud:google-cloud-core
+
+=== Summary ===
+Total comparisons: 17
+Failures: 1
+Success rate: 94.12%

@@ -1,0 +1,11 @@
+=== Comparison Failure Log ===
+[2025-09-22 21:14:54] cn.hutool:hutool-all:5.8.25 -> cn.hutool:hutool-all:5.8.40 : Failed to compare JAR files: JAPICMP comparison failed for cn.hutool:hutool-all
+[2025-09-22 21:14:54] org.projectlombok:lombok:1.18.20 -> org.projectlombok:lombok:1.18.42 : Failed to compare JAR files: JAPICMP comparison failed for org.projectlombok:lombok
+[2025-09-22 21:15:41] org.apache.kafka:kafka-clients:3.6.1 -> org.apache.kafka:kafka-clients:3.9.1 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.kafka:kafka-clients
+[2025-09-22 21:15:42] com.microsoft.sqlserver:mssql-jdbc:8.2.2.jre8 -> com.microsoft.sqlserver:mssql-jdbc:8.4.1.jre14 : Failed to compare JAR files: JAPICMP comparison failed for com.microsoft.sqlserver:mssql-jdbc
+[2025-09-22 21:16:16] org.apache.seatunnel:seatunnel-transforms-v2:2.3.10 -> org.apache.seatunnel:seatunnel-transforms-v2:2.3.12 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.seatunnel:seatunnel-transforms-v2
+
+=== Summary ===
+Total comparisons: 222
+Failures: 5
+Success rate: 97.75%

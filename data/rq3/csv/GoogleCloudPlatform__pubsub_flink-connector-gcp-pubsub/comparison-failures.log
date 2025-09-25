@@ -1,0 +1,11 @@
+=== Comparison Failure Log ===
+[2025-09-22 22:25:43] com.google.api:gax:2.55.0 -> com.google.api:gax:2.70.2 : Failed to compare JAR files: JAPICMP comparison failed for com.google.api:gax
+[2025-09-22 22:25:44] com.google.auto.value:auto-value:1.10.1 -> com.google.auto.value:auto-value:1.11.0 : Failed to compare JAR files: JAPICMP comparison failed for com.google.auto.value:auto-value
+[2025-09-22 22:26:38] io.grpc:grpc-netty-shaded:1.67.1 -> io.grpc:grpc-netty-shaded:1.75.0 : Failed to compare JAR files: JAPICMP comparison failed for io.grpc:grpc-netty-shaded
+[2025-09-22 22:26:42] org.mockito:mockito-core:5.3.1 -> org.mockito:mockito-core:5.20.0 : Failed to compare JAR files: JAPICMP comparison failed for org.mockito:mockito-core
+[2025-09-22 22:28:14] org.apache.flink:flink-connector-base:1.17.2 -> org.apache.flink:flink-connector-base:1.20.2 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.flink:flink-connector-base
+
+=== Summary ===
+Total comparisons: 182
+Failures: 5
+Success rate: 97.25%

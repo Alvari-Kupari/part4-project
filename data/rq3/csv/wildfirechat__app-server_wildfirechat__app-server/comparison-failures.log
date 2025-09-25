@@ -1,0 +1,12 @@
+=== Comparison Failure Log ===
+[2025-09-23 14:52:52] mysql:mysql-connector-java:8.0.28 -> mysql:mysql-connector-java:8.0.33 : Failed to compare JAR files: JAPICMP comparison failed for mysql:mysql-connector-java
+[2025-09-23 14:53:00] org.apache.logging.log4j:log4j-api:2.17.2 -> org.apache.logging.log4j:log4j-api:2.25.2 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.logging.log4j:log4j-api
+[2025-09-23 14:53:00] org.apache.logging.log4j:log4j-core:2.17.2 -> org.apache.logging.log4j:log4j-core:2.25.2 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.logging.log4j:log4j-core
+[2025-09-23 14:53:02] org.apache.logging.log4j:log4j-to-slf4j:2.17.2 -> org.apache.logging.log4j:log4j-to-slf4j:2.25.2 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.logging.log4j:log4j-to-slf4j
+[2025-09-23 14:53:12] org.mockito:mockito-all:1.9.5 -> org.mockito:mockito-all:1.10.19 : Failed to compare JAR files: JAPICMP comparison failed for org.mockito:mockito-all
+[2025-09-23 14:54:29] org.apache.shiro:shiro-spring:1.7.1 -> org.apache.shiro:shiro-spring:1.13.0 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.shiro:shiro-spring
+
+=== Summary ===
+Total comparisons: 240
+Failures: 6
+Success rate: 97.50%

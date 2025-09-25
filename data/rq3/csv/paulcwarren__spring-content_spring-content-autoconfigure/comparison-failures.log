@@ -1,0 +1,11 @@
+=== Comparison Failure Log ===
+[2025-09-23 05:25:11] org.springframework.boot:spring-boot-autoconfigure:3.5.0 -> org.springframework.boot:spring-boot-autoconfigure:3.5.6 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.boot:spring-boot-autoconfigure
+[2025-09-23 05:25:16] org.springframework.data:spring-data-rest-webmvc:4.5.0 -> org.springframework.data:spring-data-rest-webmvc:4.5.4 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.data:spring-data-rest-webmvc
+[2025-09-23 05:25:28] org.mongodb:mongodb-driver-core:5.4.0 -> org.mongodb:mongodb-driver-core:5.6.0 : Failed to compare JAR files: JAPICMP comparison failed for org.mongodb:mongodb-driver-core
+[2025-09-23 05:25:46] org.apache.solr:solr-solrj:9.8.1 -> org.apache.solr:solr-solrj:9.9.0 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.solr:solr-solrj
+[2025-09-23 05:26:09] org.assertj:assertj-core:3.27.3 -> org.assertj:assertj-core:3.27.5 : Failed to compare JAR files: JAPICMP comparison failed for org.assertj:assertj-core
+
+=== Summary ===
+Total comparisons: 59
+Failures: 5
+Success rate: 91.53%

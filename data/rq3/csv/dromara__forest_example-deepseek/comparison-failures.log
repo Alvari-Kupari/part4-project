@@ -1,0 +1,9 @@
+=== Comparison Failure Log ===
+[2025-09-22 19:56:53] com.alibaba:fastjson:2.0.53 -> com.alibaba:fastjson:2.0.59 : Failed to compare JAR files: JAPICMP comparison failed for com.alibaba:fastjson
+[2025-09-22 19:56:53] org.projectlombok:lombok:1.18.8 -> org.projectlombok:lombok:1.18.42 : Failed to compare JAR files: JAPICMP comparison failed for org.projectlombok:lombok
+[2025-09-22 19:57:04] io.springfox:springfox-swagger2:2.9.2 -> io.springfox:springfox-swagger2:2.10.5 : Failed to compare JAR files: JAPICMP comparison failed for io.springfox:springfox-swagger2
+
+=== Summary ===
+Total comparisons: 58
+Failures: 3
+Success rate: 94.83%

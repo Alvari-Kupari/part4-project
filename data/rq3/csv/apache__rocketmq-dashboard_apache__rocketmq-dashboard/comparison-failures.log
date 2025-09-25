@@ -1,0 +1,9 @@
+=== Comparison Failure Log ===
+[2025-09-22 14:54:22] org.springframework.data:spring-data-commons:3.4.5 -> org.springframework.data:spring-data-commons:3.5.4 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.data:spring-data-commons
+[2025-09-22 14:54:41] org.aspectj:aspectjweaver:1.9.6 -> org.aspectj:aspectjweaver:1.9.24 : Failed to compare JAR files: JAPICMP comparison failed for org.aspectj:aspectjweaver
+[2025-09-22 14:54:45] org.projectlombok:lombok:1.18.22 -> org.projectlombok:lombok:1.18.42 : Failed to compare JAR files: JAPICMP comparison failed for org.projectlombok:lombok
+
+=== Summary ===
+Total comparisons: 136
+Failures: 3
+Success rate: 97.79%

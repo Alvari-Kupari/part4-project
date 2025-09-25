@@ -1,0 +1,7 @@
+=== Comparison Failure Log ===
+[2025-09-22 20:17:46] com.github.xiaoymin:knife4j-openapi3-spring-boot-starter:4.1.0 -> com.github.xiaoymin:knife4j-openapi3-spring-boot-starter:4.5.0 : Failed to compare JAR files: JAPICMP comparison failed for com.github.xiaoymin:knife4j-openapi3-spring-boot-starter
+
+=== Summary ===
+Total comparisons: 66
+Failures: 1
+Success rate: 98.48%

@@ -1,0 +1,8 @@
+=== Comparison Failure Log ===
+[2025-09-22 13:18:07] com.oracle.database.jdbc:ojdbc8:21.6.0.0 -> com.oracle.database.jdbc:ojdbc8:21.19.0.0 : Failed to compare JAR files: JAPICMP comparison failed for com.oracle.database.jdbc:ojdbc8
+[2025-09-22 13:18:39] com.microsoft.sqlserver:mssql-jdbc:7.4.1.jre8 -> com.microsoft.sqlserver:mssql-jdbc:7.4.1.jre12 : Failed to compare JAR files: JAPICMP comparison failed for com.microsoft.sqlserver:mssql-jdbc
+
+=== Summary ===
+Total comparisons: 4
+Failures: 2
+Success rate: 50.00%

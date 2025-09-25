@@ -1,0 +1,9 @@
+=== Comparison Failure Log ===
+[2025-09-23 15:20:33] org.assertj:assertj-core:2.9.0 -> org.assertj:assertj-core:2.9.1 : Failed to compare JAR files: JAPICMP comparison failed for org.assertj:assertj-core
+[2025-09-23 15:20:36] net.bytebuddy:byte-buddy:1.12.23 -> net.bytebuddy:byte-buddy:1.17.7 : Failed to compare JAR files: JAPICMP comparison failed for net.bytebuddy:byte-buddy
+[2025-09-23 15:20:37] org.mockito:mockito-core:3.3.3 -> org.mockito:mockito-core:3.12.4 : Failed to compare JAR files: JAPICMP comparison failed for org.mockito:mockito-core
+
+=== Summary ===
+Total comparisons: 4
+Failures: 3
+Success rate: 25.00%

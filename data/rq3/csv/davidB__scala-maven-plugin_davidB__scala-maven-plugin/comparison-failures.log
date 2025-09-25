@@ -1,0 +1,7 @@
+=== Comparison Failure Log ===
+[2025-09-22 18:07:19] org.codehaus.plexus:plexus-archiver:4.10.0 -> org.codehaus.plexus:plexus-archiver:4.10.1 : Failed to compare JAR files: JAPICMP comparison failed for org.codehaus.plexus:plexus-archiver
+
+=== Summary ===
+Total comparisons: 1
+Failures: 1
+Success rate: 0.00%

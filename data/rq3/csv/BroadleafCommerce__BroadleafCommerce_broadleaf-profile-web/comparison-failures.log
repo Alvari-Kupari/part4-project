@@ -1,0 +1,12 @@
+=== Comparison Failure Log ===
+[2025-09-22 16:31:37] org.springframework:spring-webmvc:6.0.23 -> org.springframework:spring-webmvc:6.2.11 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-webmvc
+[2025-09-22 16:31:46] org.springframework.security:spring-security-taglibs:6.1.9 -> org.springframework.security:spring-security-taglibs:6.5.5 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.security:spring-security-taglibs
+[2025-09-22 16:31:47] org.springframework.security:spring-security-config:6.1.9 -> org.springframework.security:spring-security-config:6.5.5 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.security:spring-security-config
+[2025-09-22 16:31:48] org.springframework:spring-oxm:6.0.23 -> org.springframework:spring-oxm:6.2.11 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-oxm
+[2025-09-22 16:31:54] org.springframework.security:spring-security-oauth2-client:6.1.9 -> org.springframework.security:spring-security-oauth2-client:6.5.5 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.security:spring-security-oauth2-client
+[2025-09-22 16:31:54] org.projectlombok:lombok:1.18.38 -> org.projectlombok:lombok:1.18.42 : Failed to compare JAR files: JAPICMP comparison failed for org.projectlombok:lombok
+
+=== Summary ===
+Total comparisons: 20
+Failures: 6
+Success rate: 70.00%

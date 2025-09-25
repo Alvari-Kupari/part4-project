@@ -1,0 +1,9 @@
+=== Comparison Failure Log ===
+[2025-09-23 00:21:11] org.springframework:spring-websocket:6.1.16 -> org.springframework:spring-websocket:6.2.11 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-websocket
+[2025-09-23 00:21:11] org.projectlombok:lombok:1.18.36 -> org.projectlombok:lombok:1.18.42 : Failed to compare JAR files: JAPICMP comparison failed for org.projectlombok:lombok
+[2025-09-23 00:21:11] cn.hutool:hutool-all:5.8.26 -> cn.hutool:hutool-all:5.8.40 : Failed to compare JAR files: JAPICMP comparison failed for cn.hutool:hutool-all
+
+=== Summary ===
+Total comparisons: 142
+Failures: 3
+Success rate: 97.89%

@@ -1,0 +1,17 @@
+=== Comparison Failure Log ===
+[2025-09-23 08:08:08] org.hibernate:hibernate-core:5.4.8.Final -> org.hibernate:hibernate-core:6.0.0.CR2 : Failed to compare JAR files: JAPICMP comparison failed for org.hibernate:hibernate-core
+[2025-09-23 08:08:09] org.hibernate.validator:hibernate-validator:7.0.4.Final -> org.hibernate.validator:hibernate-validator:8.0.0.CR3 : Failed to compare JAR files: JAPICMP comparison failed for org.hibernate.validator:hibernate-validator
+[2025-09-23 08:08:13] org.eclipse.persistence:eclipselink:2.7.8 -> org.eclipse.persistence:eclipselink:2.7.16 : Failed to compare JAR files: JAPICMP comparison failed for org.eclipse.persistence:eclipselink
+[2025-09-23 08:08:15] org.postgresql:postgresql:42.3.4 -> org.postgresql:postgresql:42.7.8 : Failed to compare JAR files: JAPICMP comparison failed for org.postgresql:postgresql
+[2025-09-23 08:08:16] org.hsqldb:hsqldb:2.6.0 -> org.hsqldb:hsqldb:2.7.4 : Failed to compare JAR files: JAPICMP comparison failed for org.hsqldb:hsqldb
+[2025-09-23 08:08:16] com.h2database:h2:1.4.197 -> com.h2database:h2:1.4.200 : Failed to compare JAR files: JAPICMP comparison failed for com.h2database:h2
+[2025-09-23 08:08:16] org.apache.derby:derby:10.15.2.0 -> org.apache.derby:derby:10.17.1.0 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.derby:derby
+[2025-09-23 08:08:16] org.apache.derby:derbytools:10.15.2.0 -> org.apache.derby:derbytools:10.17.1.0 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.derby:derbytools
+[2025-09-23 08:08:22] mysql:mysql-connector-java:8.0.29 -> mysql:mysql-connector-java:8.0.33 : Failed to compare JAR files: JAPICMP comparison failed for mysql:mysql-connector-java
+[2025-09-23 08:08:50] com.microsoft.sqlserver:mssql-jdbc:11.2.1.jre8 -> com.microsoft.sqlserver:mssql-jdbc:11.2.3.jre18 : Failed to compare JAR files: JAPICMP comparison failed for com.microsoft.sqlserver:mssql-jdbc
+[2025-09-23 08:08:52] com.oracle.database.jdbc:ojdbc8:21.7.0.0 -> com.oracle.database.jdbc:ojdbc8:21.19.0.0 : Failed to compare JAR files: JAPICMP comparison failed for com.oracle.database.jdbc:ojdbc8
+
+=== Summary ===
+Total comparisons: 20
+Failures: 11
+Success rate: 45.00%

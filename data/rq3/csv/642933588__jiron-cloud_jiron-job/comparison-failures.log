@@ -1,0 +1,8 @@
+=== Comparison Failure Log ===
+[2025-09-22 13:15:08] org.quartz-scheduler:quartz:2.3.2 -> org.quartz-scheduler:quartz:2.5.0 : Failed to compare JAR files: JAPICMP comparison failed for org.quartz-scheduler:quartz
+[2025-09-22 13:15:08] com.mysql:mysql-connector-j:8.0.33 -> com.mysql:mysql-connector-j:8.4.0 : Failed to compare JAR files: JAPICMP comparison failed for com.mysql:mysql-connector-j
+
+=== Summary ===
+Total comparisons: 205
+Failures: 2
+Success rate: 99.02%

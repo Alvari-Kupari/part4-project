@@ -1,0 +1,24 @@
+=== Comparison Failure Log ===
+
+=== Summary ===
+Total comparisons: 379
+Failures: 0
+Success rate: 100.00%
+=== Comparison Failure Log ===
+[2025-09-22 23:27:40] org.springframework.boot:spring-boot-actuator:3.4.5 -> org.springframework.boot:spring-boot-actuator:3.5.6 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.boot:spring-boot-actuator
+[2025-09-22 23:27:40] org.springframework.boot:spring-boot-actuator-autoconfigure:3.4.5 -> org.springframework.boot:spring-boot-actuator-autoconfigure:3.5.6 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.boot:spring-boot-actuator-autoconfigure
+[2025-09-22 23:27:44] org.apache.logging.log4j:log4j-api:2.25.1 -> org.apache.logging.log4j:log4j-api:2.25.2 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.logging.log4j:log4j-api
+[2025-09-22 23:27:44] org.apache.logging.log4j:log4j-to-slf4j:2.25.1 -> org.apache.logging.log4j:log4j-to-slf4j:2.25.2 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.logging.log4j:log4j-to-slf4j
+[2025-09-22 23:27:45] org.springframework:spring-test:6.2.9 -> org.springframework:spring-test:6.2.11 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-test
+[2025-09-22 23:27:52] org.mockito:mockito-core:5.18.0 -> org.mockito:mockito-core:5.20.0 : Failed to compare JAR files: JAPICMP comparison failed for org.mockito:mockito-core
+
+=== Summary ===
+Total comparisons: 107
+Failures: 6
+Success rate: 94.39%
+=== Comparison Failure Log ===
+
+=== Summary ===
+Total comparisons: 418
+Failures: 0
+Success rate: 100.00%

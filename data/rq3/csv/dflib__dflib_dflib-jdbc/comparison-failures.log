@@ -1,0 +1,12 @@
+=== Comparison Failure Log ===
+[2025-09-22 18:11:42] org.mockito:mockito-core:5.17.0 -> org.mockito:mockito-core:5.20.0 : Failed to compare JAR files: JAPICMP comparison failed for org.mockito:mockito-core
+[2025-09-22 18:11:42] org.junit.jupiter:junit-jupiter-params:5.11.3 -> org.junit.jupiter:junit-jupiter-params:5.13.4 : Failed to compare JAR files: JAPICMP comparison failed for org.junit.jupiter:junit-jupiter-params
+[2025-09-22 18:11:46] org.testcontainers:mysql:1.20.4 -> org.testcontainers:mysql:1.21.3 : Failed to compare JAR files: JAPICMP comparison failed for org.testcontainers:mysql
+[2025-09-22 18:11:48] com.mysql:mysql-connector-j:9.1.0 -> com.mysql:mysql-connector-j:9.4.0 : Failed to compare JAR files: JAPICMP comparison failed for com.mysql:mysql-connector-j
+[2025-09-22 18:11:49] org.testcontainers:postgresql:1.20.4 -> org.testcontainers:postgresql:1.21.3 : Failed to compare JAR files: JAPICMP comparison failed for org.testcontainers:postgresql
+[2025-09-22 18:11:49] org.postgresql:postgresql:42.7.2 -> org.postgresql:postgresql:42.7.8 : Failed to compare JAR files: JAPICMP comparison failed for org.postgresql:postgresql
+
+=== Summary ===
+Total comparisons: 9
+Failures: 6
+Success rate: 33.33%

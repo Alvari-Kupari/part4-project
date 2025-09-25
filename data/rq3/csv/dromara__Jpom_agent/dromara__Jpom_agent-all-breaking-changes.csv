@@ -1,0 +1,17 @@
+Library_Name,Old_Version,New_Version,Class_Name,Member_Name,Change_Type,Description,Binary_Compatible,Source_Compatible,Is_Transitive,Depth,Direct_Parent_Dependency,Direct_Dependency_Old_Version,Direct_Dependency_New_Version,Release_Type,Is_Used_In_Client
+com.github.oshi:oshi-core,6.4.13,6.9.0,oshi.hardware.CentralProcessor,getFeatureFlags,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,com.github.oshi:oshi-core,,,MINOR,true
+com.github.oshi:oshi-core,6.4.13,6.9.0,oshi.hardware.common.AbstractCentralProcessor,initProcessorCounts,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,com.github.oshi:oshi-core,,,MINOR,false
+com.github.oshi:oshi-core,6.4.13,6.9.0,oshi.hardware.PhysicalMemory,PhysicalMemory,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,com.github.oshi:oshi-core,,,MINOR,false
+com.github.oshi:oshi-core,6.4.13,6.9.0,oshi.hardware.platform.unix.openbsd.OpenBsdCentralProcessor,initProcessorCounts,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,com.github.oshi:oshi-core,,,MINOR,false
+com.github.oshi:oshi-core,6.4.13,6.9.0,oshi.software.os.mac.MacOperatingSystem,maxProc,FIELD_CHANGE,FIELD_NOW_FINAL,false,false,false,1,com.github.oshi:oshi-core,,,MINOR,false
+com.github.oshi:oshi-core,6.4.13,6.9.0,oshi.util.Constants,SYSFS_SERIAL_PATH,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,com.github.oshi:oshi-core,,,MINOR,false
+com.github.oshi:oshi-core,6.4.13,6.9.0,oshi.util.FileUtil,readAllBytes,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,com.github.oshi:oshi-core,,,MINOR,false
+commons-codec:commons-codec,1.15,1.19.0,org.apache.commons.codec.binary.BaseNCodecOutputStream,eof,METHOD_CHANGE,METHOD_NO_LONGER_THROWS_CHECKED_EXCEPTION,true,false,false,1,commons-codec:commons-codec,,,MINOR,false
+net.java.dev.jna:jna-platform,5.14.0,5.17.0,com.sun.jna.platform.unix.X11,XLowerWindow,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,com.github.oshi:oshi-core,6.4.13,6.9.0,MINOR,false
+net.java.dev.jna:jna-platform,5.14.0,5.17.0,com.sun.jna.platform.unix.X11,XMoveResizeWindow,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,com.github.oshi:oshi-core,6.4.13,6.9.0,MINOR,false
+net.java.dev.jna:jna-platform,5.14.0,5.17.0,com.sun.jna.platform.unix.X11,XMoveWindow,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,com.github.oshi:oshi-core,6.4.13,6.9.0,MINOR,false
+net.java.dev.jna:jna-platform,5.14.0,5.17.0,com.sun.jna.platform.unix.X11,XRaiseWindow,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,com.github.oshi:oshi-core,6.4.13,6.9.0,MINOR,false
+net.java.dev.jna:jna-platform,5.14.0,5.17.0,com.sun.jna.platform.unix.X11,XResizeWindow,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,com.github.oshi:oshi-core,6.4.13,6.9.0,MINOR,false
+net.java.dev.jna:jna-platform,5.14.0,5.17.0,com.sun.jna.platform.win32.Kernel32,IsProcessorFeaturePresent,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,com.github.oshi:oshi-core,6.4.13,6.9.0,MINOR,false
+net.java.dev.jna:jna-platform,5.14.0,5.17.0,com.sun.jna.platform.win32.WinUser,RegisterPowerSettingNotification,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,com.github.oshi:oshi-core,6.4.13,6.9.0,MINOR,false
+net.java.dev.jna:jna-platform,5.14.0,5.17.0,com.sun.jna.platform.win32.WinUser,UnregisterPowerSettingNotification,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,com.github.oshi:oshi-core,6.4.13,6.9.0,MINOR,false

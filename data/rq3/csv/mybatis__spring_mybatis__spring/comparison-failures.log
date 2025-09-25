@@ -1,0 +1,18 @@
+=== Comparison Failure Log ===
+[2025-09-23 04:15:27] org.springframework:spring-context:6.2.9 -> org.springframework:spring-context:6.2.11 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-context
+[2025-09-23 04:15:28] org.springframework:spring-jdbc:6.2.9 -> org.springframework:spring-jdbc:6.2.11 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-jdbc
+[2025-09-23 04:15:58] org.springframework.batch:spring-batch-infrastructure:5.2.2 -> org.springframework.batch:spring-batch-infrastructure:5.2.3 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.batch:spring-batch-infrastructure
+[2025-09-23 04:16:01] org.apache.derby:derby:10.16.1.1 -> org.apache.derby:derby:10.17.1.0 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.derby:derby
+[2025-09-23 04:16:01] org.springframework:spring-test:6.2.9 -> org.springframework:spring-test:6.2.11 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-test
+[2025-09-23 04:16:02] org.springframework:spring-web:6.2.9 -> org.springframework:spring-web:6.2.11 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-web
+[2025-09-23 04:16:06] org.springframework.batch:spring-batch-core:5.2.2 -> org.springframework.batch:spring-batch-core:5.2.3 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.batch:spring-batch-core
+[2025-09-23 04:16:40] org.springframework.boot:spring-boot-autoconfigure:3.5.4 -> org.springframework.boot:spring-boot-autoconfigure:3.5.6 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.boot:spring-boot-autoconfigure
+[2025-09-23 04:16:40] org.mockito:mockito-core:5.18.0 -> org.mockito:mockito-core:5.20.0 : Failed to compare JAR files: JAPICMP comparison failed for org.mockito:mockito-core
+[2025-09-23 04:16:40] org.assertj:assertj-core:3.27.4 -> org.assertj:assertj-core:3.27.5 : Failed to compare JAR files: JAPICMP comparison failed for org.assertj:assertj-core
+[2025-09-23 04:16:42] net.bytebuddy:byte-buddy:1.17.6 -> net.bytebuddy:byte-buddy:1.17.7 : Failed to compare JAR files: JAPICMP comparison failed for net.bytebuddy:byte-buddy
+[2025-09-23 04:16:42] net.bytebuddy:byte-buddy-agent:1.17.6 -> net.bytebuddy:byte-buddy-agent:1.17.7 : Failed to compare JAR files: JAPICMP comparison failed for net.bytebuddy:byte-buddy-agent
+
+=== Summary ===
+Total comparisons: 29
+Failures: 12
+Success rate: 58.62%

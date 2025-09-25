@@ -1,0 +1,8 @@
+=== Comparison Failure Log ===
+[2025-09-23 17:04:53] io.netty:netty-handler:4.1.122.Final -> io.netty:netty-handler:4.2.6.Final : Failed to compare JAR files: JAPICMP comparison failed for io.netty:netty-handler
+[2025-09-23 17:05:06] org.springframework:spring-context:6.2.6 -> org.springframework:spring-context:6.2.11 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-context
+
+=== Summary ===
+Total comparisons: 35
+Failures: 2
+Success rate: 94.29%

@@ -1,0 +1,20 @@
+=== Comparison Failure Log ===
+[2025-09-23 00:10:57] org.junit.jupiter:junit-jupiter-api:5.11.3 -> org.junit.jupiter:junit-jupiter-api:5.13.4 : Failed to compare JAR files: JAPICMP comparison failed for org.junit.jupiter:junit-jupiter-api
+[2025-09-23 00:10:58] org.hibernate.validator:hibernate-validator:8.0.1.Final -> org.hibernate.validator:hibernate-validator:9.0.0.CR1 : Failed to compare JAR files: JAPICMP comparison failed for org.hibernate.validator:hibernate-validator
+[2025-09-23 00:10:59] org.junit.jupiter:junit-jupiter-params:5.10.3 -> org.junit.jupiter:junit-jupiter-params:5.13.4 : Failed to compare JAR files: JAPICMP comparison failed for org.junit.jupiter:junit-jupiter-params
+[2025-09-23 00:10:59] org.mockito:mockito-core:5.12.0 -> org.mockito:mockito-core:5.20.0 : Failed to compare JAR files: JAPICMP comparison failed for org.mockito:mockito-core
+
+=== Summary ===
+Total comparisons: 11
+Failures: 4
+Success rate: 63.64%
+=== Comparison Failure Log ===
+[2025-09-23 00:11:07] org.junit.jupiter:junit-jupiter-api:5.11.3 -> org.junit.jupiter:junit-jupiter-api:5.13.4 : Failed to compare JAR files: JAPICMP comparison failed for org.junit.jupiter:junit-jupiter-api
+[2025-09-23 00:11:07] org.hibernate.validator:hibernate-validator:8.0.1.Final -> org.hibernate.validator:hibernate-validator:9.0.0.CR1 : Failed to compare JAR files: JAPICMP comparison failed for org.hibernate.validator:hibernate-validator
+[2025-09-23 00:11:08] org.junit.jupiter:junit-jupiter-params:5.10.3 -> org.junit.jupiter:junit-jupiter-params:5.13.4 : Failed to compare JAR files: JAPICMP comparison failed for org.junit.jupiter:junit-jupiter-params
+[2025-09-23 00:11:08] org.mockito:mockito-core:5.12.0 -> org.mockito:mockito-core:5.20.0 : Failed to compare JAR files: JAPICMP comparison failed for org.mockito:mockito-core
+
+=== Summary ===
+Total comparisons: 11
+Failures: 4
+Success rate: 63.64%

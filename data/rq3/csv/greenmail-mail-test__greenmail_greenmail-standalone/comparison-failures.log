@@ -1,0 +1,9 @@
+=== Comparison Failure Log ===
+[2025-09-22 22:45:31] org.assertj:assertj-core:3.27.4 -> org.assertj:assertj-core:3.27.5 : Failed to compare JAR files: JAPICMP comparison failed for org.assertj:assertj-core
+[2025-09-22 22:45:32] org.apache.logging.log4j:log4j-api:2.25.1 -> org.apache.logging.log4j:log4j-api:2.25.2 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.logging.log4j:log4j-api
+[2025-09-22 22:45:32] org.apache.logging.log4j:log4j-core:2.25.1 -> org.apache.logging.log4j:log4j-core:2.25.2 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.logging.log4j:log4j-core
+
+=== Summary ===
+Total comparisons: 26
+Failures: 3
+Success rate: 88.46%

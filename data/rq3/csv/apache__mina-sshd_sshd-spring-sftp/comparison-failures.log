@@ -1,0 +1,9 @@
+=== Comparison Failure Log ===
+[2025-09-22 14:45:15] org.springframework.integration:spring-integration-core:5.5.7 -> org.springframework.integration:spring-integration-core:5.5.20 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.integration:spring-integration-core
+[2025-09-22 14:45:17] org.springframework.integration:spring-integration-file:5.5.7 -> org.springframework.integration:spring-integration-file:5.5.20 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.integration:spring-integration-file
+[2025-09-22 14:45:27] ch.qos.logback:logback-classic:1.2.13 -> ch.qos.logback:logback-classic:1.5.18 : Failed to compare JAR files: JAPICMP comparison failed for ch.qos.logback:logback-classic
+
+=== Summary ===
+Total comparisons: 23
+Failures: 3
+Success rate: 86.96%

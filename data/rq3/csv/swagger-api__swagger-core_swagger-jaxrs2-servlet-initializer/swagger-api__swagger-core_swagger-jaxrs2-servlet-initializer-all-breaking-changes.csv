@@ -1,0 +1,13 @@
+Library_Name,Old_Version,New_Version,Class_Name,Member_Name,Change_Type,Description,Binary_Compatible,Source_Compatible,Is_Transitive,Depth,Direct_Parent_Dependency,Direct_Dependency_Old_Version,Direct_Dependency_New_Version,Release_Type,Is_Used_In_Client
+ch.qos.logback:logback-core,1.5.16,1.5.18,ch.qos.logback.core.util.Loader,getClassLoaderAsPrivileged,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,ch.qos.logback:logback-core,,,PATCH,false
+org.slf4j:slf4j-api,1.7.36,2.0.16,org.slf4j.event.EventRecodingLogger,org.slf4j.event.EventRecodingLogger,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.testng:testng,7.10.2,7.11.0,PATCH,false
+org.slf4j:slf4j-api,1.7.36,2.0.16,org.slf4j.event.EventRecodingLogger,EventRecodingLogger,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.testng:testng,7.10.2,7.11.0,PATCH,false
+org.slf4j:slf4j-api,1.7.36,2.0.16,org.slf4j.event.LoggingEvent,getArguments,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.testng:testng,7.10.2,7.11.0,PATCH,false
+org.slf4j:slf4j-api,1.7.36,2.0.16,org.slf4j.event.LoggingEvent,getKeyValuePairs,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.testng:testng,7.10.2,7.11.0,PATCH,false
+org.slf4j:slf4j-api,1.7.36,2.0.16,org.slf4j.event.LoggingEvent,getMarker,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.testng:testng,7.10.2,7.11.0,PATCH,false
+org.slf4j:slf4j-api,1.7.36,2.0.16,org.slf4j.event.LoggingEvent,getMarkers,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.testng:testng,7.10.2,7.11.0,PATCH,false
+org.slf4j:slf4j-api,1.7.36,2.0.16,org.slf4j.event.SubstituteLoggingEvent,setMarker,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.testng:testng,7.10.2,7.11.0,PATCH,false
+org.slf4j:slf4j-api,1.7.36,2.0.16,org.slf4j.spi.MDCAdapter,clearDequeByKey,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.testng:testng,7.10.2,7.11.0,PATCH,false
+org.slf4j:slf4j-api,1.7.36,2.0.16,org.slf4j.spi.MDCAdapter,getCopyOfDequeByKey,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.testng:testng,7.10.2,7.11.0,PATCH,false
+org.slf4j:slf4j-api,1.7.36,2.0.16,org.slf4j.spi.MDCAdapter,popByKey,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.testng:testng,7.10.2,7.11.0,PATCH,false
+org.slf4j:slf4j-api,1.7.36,2.0.16,org.slf4j.spi.MDCAdapter,pushByKey,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.testng:testng,7.10.2,7.11.0,PATCH,false

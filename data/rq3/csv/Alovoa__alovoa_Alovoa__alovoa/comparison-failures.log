@@ -1,0 +1,12 @@
+=== Comparison Failure Log ===
+[2025-09-22 13:48:23] org.springframework.security:spring-security-test:6.4.4 -> org.springframework.security:spring-security-test:6.5.5 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.security:spring-security-test
+[2025-09-22 13:48:27] org.springframework:spring-webmvc:6.2.5 -> org.springframework:spring-webmvc:6.2.11 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-webmvc
+[2025-09-22 13:48:29] org.springframework.security:spring-security-oauth2-client:6.4.4 -> org.springframework.security:spring-security-oauth2-client:6.5.5 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.security:spring-security-oauth2-client
+[2025-09-22 13:48:42] org.projectlombok:lombok:1.18.36 -> org.projectlombok:lombok:1.18.42 : Failed to compare JAR files: JAPICMP comparison failed for org.projectlombok:lombok
+[2025-09-22 13:48:56] org.ehcache:ehcache:3.10.8 -> org.ehcache:ehcache:3.11.1 : Failed to compare JAR files: JAPICMP comparison failed for org.ehcache:ehcache
+[2025-09-22 13:49:05] com.giffing.bucket4j.spring.boot.starter:bucket4j-spring-boot-starter:0.12.5 -> com.giffing.bucket4j.spring.boot.starter:bucket4j-spring-boot-starter:0.13.0 : Failed to compare JAR files: JAPICMP comparison failed for com.giffing.bucket4j.spring.boot.starter:bucket4j-spring-boot-starter
+
+=== Summary ===
+Total comparisons: 246
+Failures: 6
+Success rate: 97.56%

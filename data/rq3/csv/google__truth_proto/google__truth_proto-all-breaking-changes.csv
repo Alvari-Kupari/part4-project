@@ -1,0 +1,5 @@
+Library_Name,Old_Version,New_Version,Class_Name,Member_Name,Change_Type,Description,Binary_Compatible,Source_Compatible,Is_Transitive,Depth,Direct_Parent_Dependency,Direct_Dependency_Old_Version,Direct_Dependency_New_Version,Release_Type,Is_Used_In_Client
+com.google.protobuf:protobuf-java,4.31.1,4.32.1,com.google.protobuf.ApiOrBuilder,getEdition,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,com.google.protobuf:protobuf-java,,,MINOR,false
+com.google.protobuf:protobuf-java,4.31.1,4.32.1,com.google.protobuf.ApiOrBuilder,getEditionBytes,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,com.google.protobuf:protobuf-java,,,MINOR,false
+com.google.protobuf:protobuf-java,4.31.1,4.32.1,com.google.protobuf.MethodOrBuilder,getEdition,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE; ANNOTATION_DEPRECATED_ADDED,true,false,false,1,com.google.protobuf:protobuf-java,,,MINOR,false
+com.google.protobuf:protobuf-java,4.31.1,4.32.1,com.google.protobuf.MethodOrBuilder,getEditionBytes,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE; ANNOTATION_DEPRECATED_ADDED,true,false,false,1,com.google.protobuf:protobuf-java,,,MINOR,false

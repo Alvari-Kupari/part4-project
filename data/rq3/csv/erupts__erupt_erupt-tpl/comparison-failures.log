@@ -1,0 +1,10 @@
+=== Comparison Failure Log ===
+[2025-09-22 20:48:17] org.freemarker:freemarker:2.3.32 -> org.freemarker:freemarker:2.3.34 : Failed to compare JAR files: JAPICMP comparison failed for org.freemarker:freemarker
+[2025-09-22 20:48:18] org.thymeleaf:thymeleaf:3.0.15.RELEASE -> org.thymeleaf:thymeleaf:3.1.3.RELEASE : Failed to compare JAR files: JAPICMP comparison failed for org.thymeleaf:thymeleaf
+[2025-09-22 20:48:21] com.jfinal:enjoy:5.0.0 -> com.jfinal:enjoy:5.2.5 : Failed to compare JAR files: JAPICMP comparison failed for com.jfinal:enjoy
+[2025-09-22 20:48:21] org.projectlombok:lombok:1.18.30 -> org.projectlombok:lombok:1.18.42 : Failed to compare JAR files: JAPICMP comparison failed for org.projectlombok:lombok
+
+=== Summary ===
+Total comparisons: 11
+Failures: 4
+Success rate: 63.64%

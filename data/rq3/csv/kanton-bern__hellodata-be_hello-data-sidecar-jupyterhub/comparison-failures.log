@@ -1,0 +1,14 @@
+=== Comparison Failure Log ===
+[2025-09-23 01:30:34] org.springframework.boot:spring-boot-devtools:3.4.5 -> org.springframework.boot:spring-boot-devtools:3.5.6 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.boot:spring-boot-devtools
+[2025-09-23 01:30:34] org.postgresql:postgresql:42.7.5 -> org.postgresql:postgresql:42.7.8 : Failed to compare JAR files: JAPICMP comparison failed for org.postgresql:postgresql
+[2025-09-23 01:31:17] org.thymeleaf:thymeleaf:3.1.2.RELEASE -> org.thymeleaf:thymeleaf:3.1.3.RELEASE : Failed to compare JAR files: JAPICMP comparison failed for org.thymeleaf:thymeleaf
+[2025-09-23 01:31:23] org.hibernate.validator:hibernate-validator:8.0.2.Final -> org.hibernate.validator:hibernate-validator:9.0.0.CR1 : Failed to compare JAR files: JAPICMP comparison failed for org.hibernate.validator:hibernate-validator
+[2025-09-23 01:31:24] org.testcontainers:junit-jupiter:1.20.6 -> org.testcontainers:junit-jupiter:1.21.3 : Failed to compare JAR files: JAPICMP comparison failed for org.testcontainers:junit-jupiter
+[2025-09-23 01:31:24] org.testcontainers:postgresql:1.20.1 -> org.testcontainers:postgresql:1.21.3 : Failed to compare JAR files: JAPICMP comparison failed for org.testcontainers:postgresql
+[2025-09-23 01:32:20] org.springframework.security:spring-security-test:6.4.5 -> org.springframework.security:spring-security-test:6.5.5 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.security:spring-security-test
+[2025-09-23 01:32:20] org.projectlombok:lombok:1.18.38 -> org.projectlombok:lombok:1.18.42 : Failed to compare JAR files: JAPICMP comparison failed for org.projectlombok:lombok
+
+=== Summary ===
+Total comparisons: 452
+Failures: 8
+Success rate: 98.23%

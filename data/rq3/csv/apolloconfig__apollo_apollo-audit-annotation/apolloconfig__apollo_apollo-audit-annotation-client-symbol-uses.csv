@@ -1,0 +1,6 @@
+Library_Name,Symbol_Type,Class_Name,Symbol_Name,Usage_Location,Line_Number
+JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.lang.String,String,C:\Users\tyin363\Documents\repos\apolloconfig__apollo\apollo-audit\apollo-audit-annotation\src\main\java\com\ctrip\framework\apollo\audit\annotation\ApolloAuditLogDataInfluenceTableField.java,63
+JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.lang.String,String,C:\Users\tyin363\Documents\repos\apolloconfig__apollo\apollo-audit\apollo-audit-annotation\src\main\java\com\ctrip\framework\apollo\audit\annotation\ApolloAuditLog.java,60
+JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.lang.String,String,C:\Users\tyin363\Documents\repos\apolloconfig__apollo\apollo-audit\apollo-audit-annotation\src\main\java\com\ctrip\framework\apollo\audit\annotation\ApolloAuditLogDataInfluenceTable.java,61
+CLIENT:client-code:N/A:N/A,ClassOrInterfaceType,com.ctrip.framework.apollo.audit.annotation.OpType,OpType,C:\Users\tyin363\Documents\repos\apolloconfig__apollo\apollo-audit\apollo-audit-annotation\src\main\java\com\ctrip\framework\apollo\audit\annotation\ApolloAuditLog.java,52
+JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.lang.String,String,C:\Users\tyin363\Documents\repos\apolloconfig__apollo\apollo-audit\apollo-audit-annotation\src\main\java\com\ctrip\framework\apollo\audit\annotation\ApolloAuditLog.java,67

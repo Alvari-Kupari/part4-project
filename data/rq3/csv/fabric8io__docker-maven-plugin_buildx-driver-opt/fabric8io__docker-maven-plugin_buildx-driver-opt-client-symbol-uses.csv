@@ -1,0 +1,7 @@
+Library_Name,Symbol_Type,Class_Name,Symbol_Name,Usage_Location,Line_Number
+JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.lang.String,String,C:\Users\tyin363\Documents\repos\fabric8io__docker-maven-plugin\it\buildx-driver-opt\src\main\java\io\fabric8\dmp\sample\multiarch\helloworld\App.java,7
+JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.lang.InterruptedException,InterruptedException,C:\Users\tyin363\Documents\repos\fabric8io__docker-maven-plugin\it\buildx-driver-opt\src\main\java\io\fabric8\dmp\sample\multiarch\helloworld\App.java,7
+JDK:java.base:N/A:N/A,MethodCallExpr,java.lang.Thread,sleep,C:\Users\tyin363\Documents\repos\fabric8io__docker-maven-plugin\it\buildx-driver-opt\src\main\java\io\fabric8\dmp\sample\multiarch\helloworld\App.java,9
+JDK:java.base:N/A:N/A,MethodCallExpr,java.lang.System,getProperty,C:\Users\tyin363\Documents\repos\fabric8io__docker-maven-plugin\it\buildx-driver-opt\src\main\java\io\fabric8\dmp\sample\multiarch\helloworld\App.java,8
+JDK:java.base:N/A:N/A,FieldAccessExpr,java.lang.System,out,C:\Users\tyin363\Documents\repos\fabric8io__docker-maven-plugin\it\buildx-driver-opt\src\main\java\io\fabric8\dmp\sample\multiarch\helloworld\App.java,8
+JDK:java.base:N/A:N/A,MethodCallExpr,java.io.PrintStream,println,C:\Users\tyin363\Documents\repos\fabric8io__docker-maven-plugin\it\buildx-driver-opt\src\main\java\io\fabric8\dmp\sample\multiarch\helloworld\App.java,8

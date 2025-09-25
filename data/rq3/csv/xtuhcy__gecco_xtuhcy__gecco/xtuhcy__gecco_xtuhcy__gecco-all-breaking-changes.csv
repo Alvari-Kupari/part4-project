@@ -1,0 +1,997 @@
+Library_Name,Old_Version,New_Version,Class_Name,Member_Name,Change_Type,Description,Binary_Compatible,Source_Compatible,Is_Transitive,Depth,Direct_Parent_Dependency,Direct_Dependency_Old_Version,Direct_Dependency_New_Version,Release_Type,Is_Used_In_Client
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.helper.ChangeNotifyingArrayList,org.jsoup.helper.ChangeNotifyingArrayList,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.helper.ChangeNotifyingArrayList,add,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.helper.ChangeNotifyingArrayList,add,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.helper.ChangeNotifyingArrayList,addAll,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.helper.ChangeNotifyingArrayList,addAll,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.helper.ChangeNotifyingArrayList,clear,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.helper.ChangeNotifyingArrayList,onContentsChanged,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.helper.ChangeNotifyingArrayList,remove,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.helper.ChangeNotifyingArrayList,remove,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.helper.ChangeNotifyingArrayList,removeAll,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.helper.ChangeNotifyingArrayList,removeRange,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.helper.ChangeNotifyingArrayList,retainAll,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.helper.ChangeNotifyingArrayList,set,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.helper.ChangeNotifyingArrayList,ChangeNotifyingArrayList,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.helper.Consumer,org.jsoup.helper.Consumer,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.helper.Consumer,accept,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.internal.ConstrainableInputStream,org.jsoup.internal.ConstrainableInputStream,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.internal.ConstrainableInputStream,read,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.internal.ConstrainableInputStream,readToByteBuffer,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.internal.ConstrainableInputStream,reset,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.internal.ConstrainableInputStream,timeout,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.internal.ConstrainableInputStream,wrap,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.internal.FieldsAreNonnullByDefault,org.jsoup.internal.FieldsAreNonnullByDefault,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.internal.NonnullByDefault,org.jsoup.internal.NonnullByDefault,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.internal.ReturnsAreNonnullByDefault,org.jsoup.internal.ReturnsAreNonnullByDefault,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.nodes.CDataNode,org.jsoup.nodes.CDataNode,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.nodes.Comment,org.jsoup.nodes.Comment,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.nodes.DataNode,org.jsoup.nodes.DataNode,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.nodes.Document,org.jsoup.nodes.Document,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; METHOD_DEFAULT_ADDED_IN_IMPLEMENTED_INTERFACE,false,false,false,1,org.jsoup:jsoup,,,MINOR,true
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.nodes.Document,normalise,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.nodes.Document,updateMetaCharsetElement,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.nodes.Document,updateMetaCharsetElement,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.nodes.DocumentType,org.jsoup.nodes.DocumentType,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.nodes.Element,org.jsoup.nodes.Element,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; INTERFACE_ADDED; METHOD_DEFAULT_ADDED_IN_IMPLEMENTED_INTERFACE,false,false,false,1,org.jsoup:jsoup,,,MINOR,true
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.nodes.Element,forEach,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.nodes.Element,forEachNode,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.nodes.FormElement,org.jsoup.nodes.FormElement,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; METHOD_DEFAULT_ADDED_IN_IMPLEMENTED_INTERFACE,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.nodes.Node,forEachNode,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.nodes.PseudoTextElement,org.jsoup.nodes.PseudoTextElement,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; METHOD_DEFAULT_ADDED_IN_IMPLEMENTED_INTERFACE; ANNOTATION_DEPRECATED_ADDED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.nodes.Range,track,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.nodes.TextNode,org.jsoup.nodes.TextNode,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.nodes.XmlDeclaration,org.jsoup.nodes.XmlDeclaration,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.parser.HtmlTreeBuilder,isContentForTagData,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.parser.HtmlTreeBuilder,processStartTag,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.parser.ParseErrorList,org.jsoup.parser.ParseErrorList,CLASS_CHANGE,METHOD_ABSTRACT_ADDED_IN_IMPLEMENTED_INTERFACE; METHOD_DEFAULT_ADDED_IN_IMPLEMENTED_INTERFACE,true,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.parser.Parser,isContentForTagData,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.parser.Parser,setTreeBuilder,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.parser.Tag,isFormListed,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.parser.TokenQueue,addFirst,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.parser.TokenQueue,chompTo,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.parser.TokenQueue,chompToIgnoreCase,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.parser.TokenQueue,consumeToIgnoreCase,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.parser.TokenQueue,consumeWord,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.parser.TokenQueue,matchesAny,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.parser.XmlTreeBuilder,insertNode,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.parser.XmlTreeBuilder,insertNode,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.parser.XmlTreeBuilder,processStartTag,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.select.Elements,org.jsoup.select.Elements,CLASS_CHANGE,METHOD_ABSTRACT_ADDED_IN_IMPLEMENTED_INTERFACE; METHOD_DEFAULT_ADDED_IN_IMPLEMENTED_INTERFACE,true,false,false,1,org.jsoup:jsoup,,,MINOR,true
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.select.Nodes,org.jsoup.select.Nodes,CLASS_CHANGE,INTERFACE_ADDED; METHOD_ABSTRACT_ADDED_IN_IMPLEMENTED_INTERFACE,true,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.UncheckedIOException,org.jsoup.UncheckedIOException,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.UncheckedIOException,ioException,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.UncheckedIOException,UncheckedIOException,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.15.3,1.21.2,org.jsoup.UncheckedIOException,UncheckedIOException,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.adapters.JavaReflectionAdapter,org.reflections.adapters.JavaReflectionAdapter,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,true
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.adapters.JavaReflectionAdapter,getClassAnnotationNames,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.adapters.JavaReflectionAdapter,getClassName,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.adapters.JavaReflectionAdapter,getFieldAnnotationNames,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.adapters.JavaReflectionAdapter,getFieldName,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.adapters.JavaReflectionAdapter,getFields,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.adapters.JavaReflectionAdapter,getInterfacesNames,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.adapters.JavaReflectionAdapter,getMethodAnnotationNames,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.adapters.JavaReflectionAdapter,getMethodFullKey,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.adapters.JavaReflectionAdapter,getMethodKey,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.adapters.JavaReflectionAdapter,getMethodModifier,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.adapters.JavaReflectionAdapter,getMethodName,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.adapters.JavaReflectionAdapter,getMethods,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.adapters.JavaReflectionAdapter,getName,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.adapters.JavaReflectionAdapter,getOfCreateClassObject,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,true
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.adapters.JavaReflectionAdapter,getOfCreateClassObject,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,true
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.adapters.JavaReflectionAdapter,getParameterAnnotationNames,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.adapters.JavaReflectionAdapter,getParameterNames,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.adapters.JavaReflectionAdapter,getReturnTypeName,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.adapters.JavaReflectionAdapter,getSuperclassName,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.adapters.JavaReflectionAdapter,JavaReflectionAdapter,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.adapters.JavassistAdapter,org.reflections.adapters.JavassistAdapter,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.adapters.JavassistAdapter,getClassAnnotationNames,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.adapters.JavassistAdapter,getClassName,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.adapters.JavassistAdapter,getFieldAnnotationNames,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.adapters.JavassistAdapter,getFieldName,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.adapters.JavassistAdapter,getFields,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.adapters.JavassistAdapter,getInterfacesNames,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.adapters.JavassistAdapter,getMethodAnnotationNames,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.adapters.JavassistAdapter,getMethodFullKey,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.adapters.JavassistAdapter,getMethodKey,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.adapters.JavassistAdapter,getMethodModifier,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.adapters.JavassistAdapter,getMethodName,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.adapters.JavassistAdapter,getMethods,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.adapters.JavassistAdapter,getOfCreateClassObject,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.adapters.JavassistAdapter,getParameterAnnotationNames,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.adapters.JavassistAdapter,getParameterNames,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.adapters.JavassistAdapter,getReturnTypeName,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.adapters.JavassistAdapter,getSuperclassName,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.adapters.JavassistAdapter,includeInvisibleTag,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.adapters.JavassistAdapter,JavassistAdapter,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.adapters.MetadataAdapter,org.reflections.adapters.MetadataAdapter,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.adapters.MetadataAdapter,acceptsInput,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.adapters.MetadataAdapter,getClassAnnotationNames,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.adapters.MetadataAdapter,getClassName,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.adapters.MetadataAdapter,getFieldAnnotationNames,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.adapters.MetadataAdapter,getFieldName,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.adapters.MetadataAdapter,getFields,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.adapters.MetadataAdapter,getInterfacesNames,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.adapters.MetadataAdapter,getMethodAnnotationNames,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.adapters.MetadataAdapter,getMethodFullKey,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.adapters.MetadataAdapter,getMethodKey,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.adapters.MetadataAdapter,getMethodModifier,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.adapters.MetadataAdapter,getMethodName,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.adapters.MetadataAdapter,getMethods,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.adapters.MetadataAdapter,getOfCreateClassObject,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.adapters.MetadataAdapter,getParameterAnnotationNames,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.adapters.MetadataAdapter,getParameterNames,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.adapters.MetadataAdapter,getReturnTypeName,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.adapters.MetadataAdapter,getSuperclassName,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.adapters.MetadataAdapter,isPublic,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.Configuration,getExecutorService,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.Configuration,getInputsFilter,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED; ANNOTATION_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.Configuration,getMetadataAdapter,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.Configuration,getSerializer,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.Configuration,isParallel,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.Reflections,collect,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.Reflections,collect,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.Reflections,collect,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.Reflections,expandSuperTypes,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.Reflections,getAllAnnotated,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.Reflections,getConstructorParamNames,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.Reflections,getConstructorsMatchParams,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.Reflections,getConstructorsWithAnyParamAnnotated,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.Reflections,getConstructorsWithAnyParamAnnotated,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.Reflections,getConstructorUsage,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.Reflections,getFieldUsage,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.Reflections,getMethodParamNames,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.Reflections,getMethodsMatchParams,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.Reflections,getMethodsWithAnyParamAnnotated,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.Reflections,getMethodsWithAnyParamAnnotated,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.Reflections,getMethodUsage,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.Reflections,getResources,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.Reflections,scan,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.Reflections,scan,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.Reflections,log,FIELD_CHANGE,FIELD_NOW_FINAL; ANNOTATION_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.Reflections,store,FIELD_CHANGE,FIELD_NOW_FINAL,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.ReflectionUtils,forName,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.ReflectionUtils,forNames,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.ReflectionUtils,getAll,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.ReflectionUtils,getAllAnnotations,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.ReflectionUtils,getAllConstructors,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.ReflectionUtils,getAllFields,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,true
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.ReflectionUtils,getAllMethods,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.ReflectionUtils,getAllSuperTypes,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,true
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.ReflectionUtils,getAnnotations,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.ReflectionUtils,getConstructors,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.ReflectionUtils,getFields,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.ReflectionUtils,getMethods,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.ReflectionUtils,withAnnotation,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,true
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.ReflectionUtils,withAnnotation,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,true
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.ReflectionUtils,withAnnotations,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.ReflectionUtils,withAnnotations,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.ReflectionUtils,withAnyParameterAnnotation,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.ReflectionUtils,withAnyParameterAnnotation,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.ReflectionUtils,withClassModifier,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.ReflectionUtils,withModifier,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.ReflectionUtils,withName,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.ReflectionUtils,withParameters,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.ReflectionUtils,withParametersAssignableTo,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.ReflectionUtils,withParametersCount,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.ReflectionUtils,withPattern,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.ReflectionUtils,withPrefix,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.ReflectionUtils,withReturnType,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.ReflectionUtils,withReturnTypeAssignableTo,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.ReflectionUtils,withType,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.ReflectionUtils,withTypeAssignableTo,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.ReflectionUtils,includeObject,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.scanners.AbstractScanner,org.reflections.scanners.AbstractScanner,CLASS_CHANGE,CLASS_NO_LONGER_PUBLIC; METHOD_DEFAULT_ADDED_IN_IMPLEMENTED_INTERFACE; ANNOTATION_DEPRECATED_ADDED; CLASS_LESS_ACCESSIBLE,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.scanners.AbstractScanner,getConfiguration,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.scanners.AbstractScanner,getMetadataAdapter,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.scanners.AbstractScanner,getResultFilter,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.scanners.AbstractScanner,scan,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.scanners.AbstractScanner,setResultFilter,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.scanners.AbstractScanner,AbstractScanner,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.scanners.FieldAnnotationsScanner,org.reflections.scanners.FieldAnnotationsScanner,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; METHOD_DEFAULT_ADDED_IN_IMPLEMENTED_INTERFACE; ANNOTATION_DEPRECATED_ADDED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.scanners.MemberUsageScanner,parameterNames,METHOD_CHANGE,METHOD_NOW_STATIC,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.scanners.MemberUsageScanner,scan,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.scanners.MethodAnnotationsScanner,org.reflections.scanners.MethodAnnotationsScanner,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; METHOD_DEFAULT_ADDED_IN_IMPLEMENTED_INTERFACE; ANNOTATION_DEPRECATED_ADDED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.scanners.MethodParameterNamesScanner,scan,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.scanners.MethodParameterScanner,org.reflections.scanners.MethodParameterScanner,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; METHOD_DEFAULT_ADDED_IN_IMPLEMENTED_INTERFACE; ANNOTATION_DEPRECATED_ADDED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.scanners.ResourcesScanner,org.reflections.scanners.ResourcesScanner,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; METHOD_DEFAULT_ADDED_IN_IMPLEMENTED_INTERFACE; ANNOTATION_DEPRECATED_ADDED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.scanners.Scanner,acceptResult,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.scanners.Scanner,acceptsInput,METHOD_CHANGE,METHOD_ABSTRACT_NOW_DEFAULT,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.scanners.Scanner,filterResultsBy,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.scanners.Scanner,getStore,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.scanners.Scanner,scan,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.scanners.Scanner,scan,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.scanners.Scanner,setConfiguration,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.scanners.Scanner,setStore,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.scanners.SubTypesScanner,org.reflections.scanners.SubTypesScanner,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; METHOD_DEFAULT_ADDED_IN_IMPLEMENTED_INTERFACE; ANNOTATION_DEPRECATED_ADDED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.scanners.TypeAnnotationsScanner,org.reflections.scanners.TypeAnnotationsScanner,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; METHOD_DEFAULT_ADDED_IN_IMPLEMENTED_INTERFACE; ANNOTATION_DEPRECATED_ADDED,false,false,false,1,org.reflections:reflections,,,MINOR,true
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.scanners.TypeElementsScanner,scan,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.scanners.TypesScanner,org.reflections.scanners.TypesScanner,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.scanners.TypesScanner,scan,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.scanners.TypesScanner,TypesScanner,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.serializers.JavaCodeSerializer,resolveAnnotation,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.serializers.JavaCodeSerializer,resolveClass,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.serializers.JavaCodeSerializer,resolveClassOf,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.serializers.JavaCodeSerializer,resolveField,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.serializers.JavaCodeSerializer,resolveMethod,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.serializers.JavaCodeSerializer,toString,METHOD_CHANGE,METHOD_LESS_ACCESSIBLE; METHOD_RETURN_TYPE_CHANGED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.serializers.Serializer,toString,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.Store,org.reflections.Store,CLASS_CHANGE,INTERFACE_ADDED; METHOD_ABSTRACT_ADDED_IN_IMPLEMENTED_INTERFACE; METHOD_DEFAULT_ADDED_IN_IMPLEMENTED_INTERFACE,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.Store,get,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,true
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.Store,get,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,true
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.Store,get,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,true
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.Store,getAll,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.Store,getAll,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.Store,getOrCreate,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.Store,Store,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.util.ConfigurationBuilder,addClassLoader,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.util.ConfigurationBuilder,addClassLoaders,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.util.ConfigurationBuilder,filterInputsBy,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.util.ConfigurationBuilder,getInputsFilter,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED; ANNOTATION_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.util.ConfigurationBuilder,setClassLoaders,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.util.ConfigurationBuilder,setExecutorService,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.util.ConfigurationBuilder,setInputsFilter,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.util.ConfigurationBuilder,setMetadataAdapter,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,true
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.util.ConfigurationBuilder,setSerializer,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.util.ConfigurationBuilder,useParallelExecutor,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.util.ConfigurationBuilder,useParallelExecutor,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.util.ConfigurationBuilder,metadataAdapter,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.util.FilterBuilder,add,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.util.FilterBuilder,apply,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.util.FilterBuilder,apply,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.util.FilterBuilder,excludePackage,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.util.FilterBuilder,includePackage,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.util.FilterBuilder,includePackage,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.util.FilterBuilder,parse,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.util.FilterBuilder,prefix,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.util.FilterBuilder$Exclude,org.reflections.util.FilterBuilder$Exclude,CLASS_CHANGE,CLASS_NO_LONGER_PUBLIC; METHOD_REMOVED_IN_SUPERCLASS; METHOD_DEFAULT_ADDED_IN_IMPLEMENTED_INTERFACE; CLASS_LESS_ACCESSIBLE,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.util.FilterBuilder$Exclude,FilterBuilder$Exclude,CONSTRUCTOR_CHANGE,CONSTRUCTOR_LESS_ACCESSIBLE,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.util.FilterBuilder$Include,org.reflections.util.FilterBuilder$Include,CLASS_CHANGE,CLASS_NO_LONGER_PUBLIC; METHOD_REMOVED_IN_SUPERCLASS; METHOD_DEFAULT_ADDED_IN_IMPLEMENTED_INTERFACE; CLASS_LESS_ACCESSIBLE,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.util.FilterBuilder$Include,FilterBuilder$Include,CONSTRUCTOR_CHANGE,CONSTRUCTOR_LESS_ACCESSIBLE,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.util.FilterBuilder$Matcher,org.reflections.util.FilterBuilder$Matcher,CLASS_CHANGE,CLASS_NO_LONGER_PUBLIC; INTERFACE_ADDED; METHOD_ABSTRACT_ADDED_IN_IMPLEMENTED_INTERFACE; METHOD_DEFAULT_ADDED_IN_IMPLEMENTED_INTERFACE; CLASS_LESS_ACCESSIBLE,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.util.FilterBuilder$Matcher,apply,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.util.FilterBuilder$Matcher,apply,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.util.FilterBuilder$Matcher,FilterBuilder$Matcher,CONSTRUCTOR_CHANGE,CONSTRUCTOR_LESS_ACCESSIBLE,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.util.Utils,org.reflections.util.Utils,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.util.Utils,close,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.util.Utils,findLogger,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.util.Utils,getConstructorsFromDescriptors,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.util.Utils,getFieldFromString,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.util.Utils,getMemberFromDescriptor,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.util.Utils,getMembersFromDescriptors,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.util.Utils,getMethodsFromDescriptors,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.util.Utils,isConstructor,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.util.Utils,isEmpty,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.util.Utils,isEmpty,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.util.Utils,name,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.util.Utils,name,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.util.Utils,name,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.util.Utils,name,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.util.Utils,names,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.util.Utils,names,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.util.Utils,prepareFile,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.util.Utils,repeat,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.util.Utils,Utils,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.vfs.JarInputFile,openInputStream,METHOD_CHANGE,METHOD_NO_LONGER_THROWS_CHECKED_EXCEPTION,true,false,false,1,org.reflections:reflections,,,MINOR,false
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.vfs.Vfs,findFiles,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,true
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.vfs.Vfs,findFiles,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.reflections:reflections,,,MINOR,true
+org.reflections:reflections,0.9.11,0.10.2,org.reflections.vfs.Vfs$Dir,close,METHOD_CHANGE,METHOD_ABSTRACT_NOW_DEFAULT,false,false,false,1,org.reflections:reflections,,,MINOR,false
+org.apache.commons:commons-lang3,3.8.1,3.18.0,org.apache.commons.lang3.builder.DiffBuilder,org.apache.commons.lang3.builder.DiffBuilder,CLASS_CHANGE,CLASS_GENERIC_TEMPLATE_CHANGED,true,false,false,1,org.apache.commons:commons-lang3,,,MINOR,false
+org.apache.commons:commons-lang3,3.8.1,3.18.0,org.apache.commons.lang3.builder.DiffResult,org.apache.commons.lang3.builder.DiffResult,CLASS_CHANGE,CLASS_GENERIC_TEMPLATE_CHANGED,true,false,false,1,org.apache.commons:commons-lang3,,,MINOR,false
+org.apache.commons:commons-lang3,3.8.1,3.18.0,org.apache.commons.lang3.builder.ReflectionDiffBuilder,org.apache.commons.lang3.builder.ReflectionDiffBuilder,CLASS_CHANGE,CLASS_GENERIC_TEMPLATE_CHANGED,true,false,false,1,org.apache.commons:commons-lang3,,,MINOR,false
+org.apache.commons:commons-lang3,3.8.1,3.18.0,org.apache.commons.lang3.builder.ReflectionDiffBuilder,ReflectionDiffBuilder,CONSTRUCTOR_CHANGE,ANNOTATION_DEPRECATED_ADDED; CLASS_GENERIC_TEMPLATE_CHANGED,true,false,false,1,org.apache.commons:commons-lang3,,,MINOR,false
+org.apache.commons:commons-lang3,3.8.1,3.18.0,org.apache.commons.lang3.event.EventListenerSupport$ProxyInvocationHandler,invoke,METHOD_CHANGE,METHOD_NOW_THROWS_CHECKED_EXCEPTION,true,false,false,1,org.apache.commons:commons-lang3,,,MINOR,false
+org.apache.commons:commons-lang3,3.8.1,3.18.0,org.apache.commons.lang3.exception.ExceptionUtils,rethrow,METHOD_CHANGE,CLASS_GENERIC_TEMPLATE_CHANGED,true,false,false,1,org.apache.commons:commons-lang3,,,MINOR,false
+org.apache.commons:commons-lang3,3.8.1,3.18.0,org.apache.commons.lang3.Range,between,METHOD_CHANGE,ANNOTATION_DEPRECATED_ADDED; CLASS_GENERIC_TEMPLATE_GENERICS_CHANGED,true,false,false,1,org.apache.commons:commons-lang3,,,MINOR,false
+org.apache.commons:commons-lang3,3.8.1,3.18.0,org.apache.commons.lang3.Range,is,METHOD_CHANGE,CLASS_GENERIC_TEMPLATE_GENERICS_CHANGED,true,false,false,1,org.apache.commons:commons-lang3,,,MINOR,false
+org.apache.commons:commons-lang3,3.8.1,3.18.0,org.apache.commons.lang3.StringUtils,toString,METHOD_CHANGE,METHOD_NO_LONGER_THROWS_CHECKED_EXCEPTION,true,false,false,1,org.apache.commons:commons-lang3,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.classfile.ClassFileWriter,getStackTop,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.classfile.ClassFileWriter,markLabel,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.classfile.ClassFileWriter,stopMethod,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ArrowFunction,org.mozilla.javascript.ArrowFunction,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ArrowFunction,ArrowFunction,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ast.ArrayComprehension,org.mozilla.javascript.ast.ArrayComprehension,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ast.ArrayComprehensionLoop,org.mozilla.javascript.ast.ArrayComprehensionLoop,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ast.ArrayLiteral,org.mozilla.javascript.ast.ArrayLiteral,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ast.Assignment,org.mozilla.javascript.ast.Assignment,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ast.AstNode,org.mozilla.javascript.ast.AstNode,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ast.AstRoot,org.mozilla.javascript.ast.AstRoot,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ast.Block,org.mozilla.javascript.ast.Block,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ast.BreakStatement,org.mozilla.javascript.ast.BreakStatement,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ast.CatchClause,org.mozilla.javascript.ast.CatchClause,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ast.CatchClause,getBody,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ast.CatchClause,setBody,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ast.Comment,org.mozilla.javascript.ast.Comment,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ast.ConditionalExpression,org.mozilla.javascript.ast.ConditionalExpression,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ast.ContinueStatement,org.mozilla.javascript.ast.ContinueStatement,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ast.DoLoop,org.mozilla.javascript.ast.DoLoop,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ast.ElementGet,org.mozilla.javascript.ast.ElementGet,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ast.EmptyExpression,org.mozilla.javascript.ast.EmptyExpression,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ast.EmptyStatement,org.mozilla.javascript.ast.EmptyStatement,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ast.ErrorNode,org.mozilla.javascript.ast.ErrorNode,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ast.ExpressionStatement,org.mozilla.javascript.ast.ExpressionStatement,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ast.ForInLoop,org.mozilla.javascript.ast.ForInLoop,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ast.ForLoop,org.mozilla.javascript.ast.ForLoop,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ast.FunctionCall,org.mozilla.javascript.ast.FunctionCall,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ast.FunctionNode,org.mozilla.javascript.ast.FunctionNode,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ast.GeneratorExpression,org.mozilla.javascript.ast.GeneratorExpression,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ast.GeneratorExpressionLoop,org.mozilla.javascript.ast.GeneratorExpressionLoop,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ast.IfStatement,org.mozilla.javascript.ast.IfStatement,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ast.InfixExpression,org.mozilla.javascript.ast.InfixExpression,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ast.Jump,org.mozilla.javascript.ast.Jump,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ast.Jump,Jump,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ast.Jump,Jump,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ast.KeywordLiteral,org.mozilla.javascript.ast.KeywordLiteral,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ast.Label,org.mozilla.javascript.ast.Label,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ast.LabeledStatement,org.mozilla.javascript.ast.LabeledStatement,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ast.LetNode,org.mozilla.javascript.ast.LetNode,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ast.Loop,org.mozilla.javascript.ast.Loop,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ast.Name,org.mozilla.javascript.ast.Name,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ast.NewExpression,org.mozilla.javascript.ast.NewExpression,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ast.NumberLiteral,org.mozilla.javascript.ast.NumberLiteral,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ast.ObjectLiteral,org.mozilla.javascript.ast.ObjectLiteral,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ast.ObjectProperty,org.mozilla.javascript.ast.ObjectProperty,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ast.ParenthesizedExpression,org.mozilla.javascript.ast.ParenthesizedExpression,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ast.PropertyGet,org.mozilla.javascript.ast.PropertyGet,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ast.RegExpLiteral,org.mozilla.javascript.ast.RegExpLiteral,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ast.ReturnStatement,org.mozilla.javascript.ast.ReturnStatement,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ast.Scope,org.mozilla.javascript.ast.Scope,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ast.ScriptNode,org.mozilla.javascript.ast.ScriptNode,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ast.ScriptNode,getEncodedSource,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ast.ScriptNode,getEncodedSourceEnd,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ast.ScriptNode,getEncodedSourceStart,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ast.ScriptNode,setEncodedSource,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ast.ScriptNode,setEncodedSourceBounds,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ast.ScriptNode,setEncodedSourceEnd,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ast.ScriptNode,setEncodedSourceStart,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ast.StringLiteral,org.mozilla.javascript.ast.StringLiteral,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ast.SwitchCase,org.mozilla.javascript.ast.SwitchCase,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ast.SwitchStatement,org.mozilla.javascript.ast.SwitchStatement,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ast.ThrowStatement,org.mozilla.javascript.ast.ThrowStatement,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ast.TryStatement,org.mozilla.javascript.ast.TryStatement,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ast.UnaryExpression,org.mozilla.javascript.ast.UnaryExpression,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ast.UnaryExpression,isPostfix,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ast.UnaryExpression,isPrefix,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ast.UnaryExpression,setIsPostfix,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ast.UnaryExpression,UnaryExpression,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ast.VariableDeclaration,org.mozilla.javascript.ast.VariableDeclaration,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ast.VariableInitializer,org.mozilla.javascript.ast.VariableInitializer,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ast.WhileLoop,org.mozilla.javascript.ast.WhileLoop,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ast.WithStatement,org.mozilla.javascript.ast.WithStatement,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ast.XmlDotQuery,org.mozilla.javascript.ast.XmlDotQuery,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ast.XmlElemRef,org.mozilla.javascript.ast.XmlElemRef,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ast.XmlExpression,org.mozilla.javascript.ast.XmlExpression,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ast.XmlFragment,org.mozilla.javascript.ast.XmlFragment,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ast.XmlLiteral,org.mozilla.javascript.ast.XmlLiteral,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ast.XmlMemberGet,org.mozilla.javascript.ast.XmlMemberGet,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ast.XmlPropRef,org.mozilla.javascript.ast.XmlPropRef,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ast.XmlRef,org.mozilla.javascript.ast.XmlRef,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ast.XmlString,org.mozilla.javascript.ast.XmlString,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ast.Yield,org.mozilla.javascript.ast.Yield,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ast.Yield,Yield,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.BaseFunction,org.mozilla.javascript.BaseFunction,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.BoundFunction,org.mozilla.javascript.BoundFunction,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.commonjs.module.ModuleScope,org.mozilla.javascript.commonjs.module.ModuleScope,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.commonjs.module.provider.UrlModuleSourceProvider,getCharacterEncoding,METHOD_CHANGE,METHOD_NO_LONGER_STATIC,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.commonjs.module.Require,org.mozilla.javascript.commonjs.module.Require,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.Context,generateObserverCount,FIELD_CHANGE,FIELD_LESS_ACCESSIBLE,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.Decompiler,org.mozilla.javascript.Decompiler,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.Decompiler,decompile,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.Decompiler,INDENT_GAP_PROP,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.Decompiler,CASE_GAP_PROP,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.Decompiler,INITIAL_INDENT_PROP,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.Decompiler,ONLY_BODY_FLAG,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.Decompiler,TO_SOURCE_FLAG,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.Decompiler,Decompiler,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.EmbeddedSlotMap,query,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ES6Iterator,org.mozilla.javascript.ES6Iterator,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.FunctionObject,org.mozilla.javascript.FunctionObject,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.HashSlotMap,query,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.Hashtable$Entry,next,FIELD_CHANGE,FIELD_LESS_ACCESSIBLE,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.Hashtable$Entry,deleted,FIELD_CHANGE,FIELD_LESS_ACCESSIBLE,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.Hashtable$Entry,prev,FIELD_CHANGE,FIELD_LESS_ACCESSIBLE,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.Hashtable$Entry,value,FIELD_CHANGE,FIELD_LESS_ACCESSIBLE,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.Hashtable$Entry,key,FIELD_CHANGE,FIELD_LESS_ACCESSIBLE,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.IdFunctionObject,org.mozilla.javascript.IdFunctionObject,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.IdFunctionObjectES6,org.mozilla.javascript.IdFunctionObjectES6,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.IdScriptableObject,org.mozilla.javascript.IdScriptableObject,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.IdScriptableObject,defineOwnProperty,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.IdScriptableObject,incompatibleCallError,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ImporterTopLevel,org.mozilla.javascript.ImporterTopLevel,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.IRFactory,transform,METHOD_CHANGE,METHOD_LESS_ACCESSIBLE,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.IRFactory,IRFactory,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.IRFactory,IRFactory,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.IRFactory,IRFactory,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.JavaAdapter,createAdapterCode,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.NativeArray,org.mozilla.javascript.NativeArray,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,true
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.NativeArray,defineOwnProperty,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.NativeArray$ElementComparator,org.mozilla.javascript.NativeArray$ElementComparator,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.NativeArray$ElementComparator,compare,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.NativeArray$ElementComparator,NativeArray$ElementComparator,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.NativeArray$ElementComparator,NativeArray$ElementComparator,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.NativeArray$StringLikeComparator,org.mozilla.javascript.NativeArray$StringLikeComparator,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.NativeArray$StringLikeComparator,compare,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.NativeArray$StringLikeComparator,NativeArray$StringLikeComparator,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.NativeArrayIterator,org.mozilla.javascript.NativeArrayIterator,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.NativeCall,org.mozilla.javascript.NativeCall,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.NativeCallSite,org.mozilla.javascript.NativeCallSite,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.NativeCollectionIterator,org.mozilla.javascript.NativeCollectionIterator,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.NativeContinuation,org.mozilla.javascript.NativeContinuation,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.NativeFunction,org.mozilla.javascript.NativeFunction,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.NativeFunction,getEncodedSource,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.NativeGenerator,org.mozilla.javascript.NativeGenerator,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.NativeIterator,org.mozilla.javascript.NativeIterator,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.NativeJavaConstructor,org.mozilla.javascript.NativeJavaConstructor,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.NativeJavaMethod,org.mozilla.javascript.NativeJavaMethod,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.NativeJavaPackage,org.mozilla.javascript.NativeJavaPackage,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.NativeJavaTopPackage,org.mozilla.javascript.NativeJavaTopPackage,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.NativeJSON,org.mozilla.javascript.NativeJSON,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.NativeJSON,findPrototypeId,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.NativeJSON,initPrototypeId,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.NativeMap,org.mozilla.javascript.NativeMap,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.NativeObject,org.mozilla.javascript.NativeObject,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,true
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.NativeSet,org.mozilla.javascript.NativeSet,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.NativeStringIterator,org.mozilla.javascript.NativeStringIterator,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.NativeSymbol,org.mozilla.javascript.NativeSymbol,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.NativeSymbol,construct,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.NativeSymbol,fillConstructorProperties,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.NativeSymbol,findPrototypeId,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.NativeSymbol,findPrototypeId,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.NativeSymbol,initPrototypeId,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.NativeWeakMap,org.mozilla.javascript.NativeWeakMap,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.NativeWeakSet,org.mozilla.javascript.NativeWeakSet,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.Node,setLineno,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.Node,DESTRUCTURING_SHORTHAND,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.Node,Node,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.Node,Node,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.Node,Node,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.Node,Node,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ObjArray,org.mozilla.javascript.ObjArray,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ObjArray,add,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ObjArray,add,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ObjArray,clear,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ObjArray,get,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ObjArray,indexOf,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ObjArray,isEmpty,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ObjArray,isSealed,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ObjArray,lastIndexOf,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ObjArray,peek,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ObjArray,pop,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ObjArray,push,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ObjArray,remove,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ObjArray,seal,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ObjArray,set,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ObjArray,setSize,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ObjArray,size,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ObjArray,toArray,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ObjArray,toArray,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ObjArray,toArray,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ObjArray,ObjArray,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ObjToIntMap,org.mozilla.javascript.ObjToIntMap,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ObjToIntMap,clear,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ObjToIntMap,get,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ObjToIntMap,getExisting,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ObjToIntMap,getKeys,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ObjToIntMap,getKeys,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ObjToIntMap,has,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ObjToIntMap,intern,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ObjToIntMap,isEmpty,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ObjToIntMap,newIterator,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ObjToIntMap,put,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ObjToIntMap,remove,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ObjToIntMap,size,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ObjToIntMap,ObjToIntMap,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ObjToIntMap,ObjToIntMap,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ObjToIntMap$Iterator,org.mozilla.javascript.ObjToIntMap$Iterator,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ObjToIntMap$Iterator,done,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ObjToIntMap$Iterator,getKey,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ObjToIntMap$Iterator,getValue,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ObjToIntMap$Iterator,next,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ObjToIntMap$Iterator,setValue,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ObjToIntMap$Iterator,start,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.optimizer.OptRuntime,org.mozilla.javascript.optimizer.OptRuntime,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.optimizer.OptRuntime,add,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.optimizer.OptRuntime,add,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.optimizer.OptRuntime,throwStopIteration,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.optimizer.OptRuntime,oneObj,FIELD_CHANGE,FIELD_TYPE_CHANGED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.optimizer.OptRuntime,minusOneObj,FIELD_CHANGE,FIELD_TYPE_CHANGED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.Parser,createScopeNode,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.regexp.NativeRegExp,org.mozilla.javascript.regexp.NativeRegExp,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.RegExpProxy,register,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ScriptableObject,applyDescriptorToAttributeBitset,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ScriptableObject,checkPropertyChange,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ScriptableObject,defineOwnProperty,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ScriptableObject,defineOwnProperty,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ScriptableObject,getSlot,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ScriptableObject,isAccessorDescriptor,METHOD_CHANGE,METHOD_NOW_STATIC,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ScriptableObject,isDataDescriptor,METHOD_CHANGE,METHOD_NOW_STATIC,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ScriptableObject,isGenericDescriptor,METHOD_CHANGE,METHOD_NOW_STATIC,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ScriptableObject,preventExtensions,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ScriptableObject,setGetterOrSetter,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ScriptRuntime,callSpecial,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ScriptRuntime,cmp_LE,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ScriptRuntime,cmp_LT,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.ScriptRuntimeES6,requireObjectCoercible,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.SlotMap,add,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.SlotMap,addSlot,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.SlotMap,compute,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.SlotMap,get,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.SlotMap,modify,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.SlotMap,query,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.SlotMap,remove,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.Sorting,org.mozilla.javascript.Sorting,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.Sorting,get,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.Sorting,hybridSort,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.Sorting,insertionSort,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.Sorting,median,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.Dim,org.mozilla.javascript.tools.debugger.Dim,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.Dim,attachTo,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.Dim,clearAllBreakpoints,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.Dim,compileScript,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.Dim,contextSwitch,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.Dim,currentContextData,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.Dim,detach,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.Dim,dispose,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.Dim,eval,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.Dim,evalScript,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.Dim,functionNames,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.Dim,functionSourceByName,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.Dim,getObjectIds,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.Dim,getObjectProperty,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.Dim,go,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.Dim,objectToString,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.Dim,setBreak,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.Dim,setBreakOnEnter,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.Dim,setBreakOnExceptions,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.Dim,setBreakOnReturn,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.Dim,setGuiCallback,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.Dim,setReturnValue,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.Dim,setScopeProvider,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.Dim,setSourceProvider,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.Dim,sourceInfo,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.Dim,stringIsCompilableUnit,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.Dim,BREAK,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.Dim,STEP_OVER,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.Dim,STEP_OUT,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.Dim,GO,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.Dim,STEP_INTO,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.Dim,EXIT,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.Dim,Dim,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.Dim$ContextData,org.mozilla.javascript.tools.debugger.Dim$ContextData,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.Dim$ContextData,frameCount,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.Dim$ContextData,get,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.Dim$ContextData,getFrame,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.Dim$ContextData,Dim$ContextData,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.Dim$FunctionSource,org.mozilla.javascript.tools.debugger.Dim$FunctionSource,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.Dim$FunctionSource,firstLine,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.Dim$FunctionSource,name,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.Dim$FunctionSource,sourceInfo,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.Dim$SourceInfo,org.mozilla.javascript.tools.debugger.Dim$SourceInfo,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.Dim$SourceInfo,breakableLine,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.Dim$SourceInfo,breakpoint,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.Dim$SourceInfo,breakpoint,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.Dim$SourceInfo,functionSource,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.Dim$SourceInfo,functionSourcesTop,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.Dim$SourceInfo,removeAllBreakpoints,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.Dim$SourceInfo,source,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.Dim$SourceInfo,url,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.Dim$StackFrame,org.mozilla.javascript.tools.debugger.Dim$StackFrame,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.Dim$StackFrame,contextData,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.Dim$StackFrame,getFunctionName,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.Dim$StackFrame,getLineNumber,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.Dim$StackFrame,getUrl,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.Dim$StackFrame,scope,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.Dim$StackFrame,sourceInfo,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.Dim$StackFrame,thisObj,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.GuiCallback,org.mozilla.javascript.tools.debugger.GuiCallback,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.GuiCallback,dispatchNextGuiEvent,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.GuiCallback,enterInterrupt,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.GuiCallback,isGuiEventThread,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.GuiCallback,updateSourceText,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.Main,org.mozilla.javascript.tools.debugger.Main,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.Main,attachTo,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.Main,clearAllBreakpoints,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.Main,contextCreated,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.Main,contextEntered,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.Main,contextExited,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.Main,contextReleased,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.Main,detach,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.Main,dispose,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.Main,doBreak,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.Main,getDebugFrame,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.Main,getErr,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.Main,getIn,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.Main,getOut,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.Main,go,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.Main,isVisible,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.Main,main,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.Main,mainEmbedded,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.Main,mainEmbedded,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.Main,mainEmbedded,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.Main,pack,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.Main,setBreakOnEnter,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.Main,setBreakOnExceptions,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.Main,setBreakOnReturn,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.Main,setExitAction,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.Main,setOptimizationLevel,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.Main,setScope,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.Main,setScopeProvider,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.Main,setSize,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.Main,setSize,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.Main,setSourceProvider,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.Main,setVisible,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.Main,Main,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.ScopeProvider,org.mozilla.javascript.tools.debugger.ScopeProvider,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.ScopeProvider,getScope,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.SourceProvider,org.mozilla.javascript.tools.debugger.SourceProvider,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.SourceProvider,getSource,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.SwingGui,org.mozilla.javascript.tools.debugger.SwingGui,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.SwingGui,actionPerformed,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.SwingGui,createFileWindow,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.SwingGui,getConsole,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.SwingGui,getMenubar,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.SwingGui,setExitAction,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.SwingGui,setVisible,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.SwingGui,showFileWindow,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.SwingGui,updateFileWindow,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.SwingGui,SwingGui,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.treetable.AbstractCellEditor,org.mozilla.javascript.tools.debugger.treetable.AbstractCellEditor,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.treetable.AbstractCellEditor,addCellEditorListener,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.treetable.AbstractCellEditor,cancelCellEditing,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.treetable.AbstractCellEditor,fireEditingCanceled,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.treetable.AbstractCellEditor,fireEditingStopped,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.treetable.AbstractCellEditor,getCellEditorValue,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.treetable.AbstractCellEditor,isCellEditable,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.treetable.AbstractCellEditor,removeCellEditorListener,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.treetable.AbstractCellEditor,shouldSelectCell,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.treetable.AbstractCellEditor,stopCellEditing,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.treetable.AbstractCellEditor,listenerList,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.treetable.AbstractCellEditor,AbstractCellEditor,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.treetable.JTreeTable,org.mozilla.javascript.tools.debugger.treetable.JTreeTable,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.treetable.JTreeTable,getEditingRow,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.treetable.JTreeTable,getTree,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.treetable.JTreeTable,setRowHeight,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.treetable.JTreeTable,updateUI,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.treetable.JTreeTable,tree,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.treetable.JTreeTable,JTreeTable,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.treetable.JTreeTable$ListToTreeSelectionModelWrapper,org.mozilla.javascript.tools.debugger.treetable.JTreeTable$ListToTreeSelectionModelWrapper,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.treetable.JTreeTable$ListToTreeSelectionModelWrapper,createListSelectionListener,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.treetable.JTreeTable$ListToTreeSelectionModelWrapper,getListSelectionModel,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.treetable.JTreeTable$ListToTreeSelectionModelWrapper,resetRowSelection,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.treetable.JTreeTable$ListToTreeSelectionModelWrapper,updateSelectedPathsFromSelectedRows,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.treetable.JTreeTable$ListToTreeSelectionModelWrapper,updatingListSelectionModel,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.treetable.JTreeTable$ListToTreeSelectionModelWrapper,JTreeTable$ListToTreeSelectionModelWrapper,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.treetable.JTreeTable$TreeTableCellEditor,org.mozilla.javascript.tools.debugger.treetable.JTreeTable$TreeTableCellEditor,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.treetable.JTreeTable$TreeTableCellEditor,getTableCellEditorComponent,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.treetable.JTreeTable$TreeTableCellEditor,isCellEditable,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.treetable.JTreeTable$TreeTableCellEditor,JTreeTable$TreeTableCellEditor,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.treetable.JTreeTable$TreeTableCellRenderer,org.mozilla.javascript.tools.debugger.treetable.JTreeTable$TreeTableCellRenderer,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.treetable.JTreeTable$TreeTableCellRenderer,getTableCellRendererComponent,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.treetable.JTreeTable$TreeTableCellRenderer,paint,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.treetable.JTreeTable$TreeTableCellRenderer,setBounds,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.treetable.JTreeTable$TreeTableCellRenderer,setRowHeight,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.treetable.JTreeTable$TreeTableCellRenderer,updateUI,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.treetable.JTreeTable$TreeTableCellRenderer,visibleRow,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.treetable.JTreeTable$TreeTableCellRenderer,JTreeTable$TreeTableCellRenderer,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.treetable.TreeTableModel,org.mozilla.javascript.tools.debugger.treetable.TreeTableModel,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.treetable.TreeTableModel,getColumnClass,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.treetable.TreeTableModel,getColumnCount,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.treetable.TreeTableModel,getColumnName,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.treetable.TreeTableModel,getValueAt,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.treetable.TreeTableModel,isCellEditable,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.treetable.TreeTableModel,setValueAt,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.treetable.TreeTableModelAdapter,org.mozilla.javascript.tools.debugger.treetable.TreeTableModelAdapter,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.treetable.TreeTableModelAdapter,delayedFireTableDataChanged,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.treetable.TreeTableModelAdapter,getColumnClass,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.treetable.TreeTableModelAdapter,getColumnCount,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.treetable.TreeTableModelAdapter,getColumnName,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.treetable.TreeTableModelAdapter,getRowCount,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.treetable.TreeTableModelAdapter,getValueAt,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.treetable.TreeTableModelAdapter,isCellEditable,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.treetable.TreeTableModelAdapter,nodeForRow,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.treetable.TreeTableModelAdapter,setValueAt,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.debugger.treetable.TreeTableModelAdapter,TreeTableModelAdapter,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.idswitch.FileBody,org.mozilla.javascript.tools.idswitch.FileBody,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.idswitch.FileBody,getBuffer,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.idswitch.FileBody,getLineBegin,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.idswitch.FileBody,getLineEnd,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.idswitch.FileBody,getLineNumber,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.idswitch.FileBody,nextLine,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.idswitch.FileBody,readData,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.idswitch.FileBody,setReplacement,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.idswitch.FileBody,startLineLoop,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.idswitch.FileBody,wasModified,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.idswitch.FileBody,writeData,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.idswitch.FileBody,writeInitialData,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.idswitch.FileBody,FileBody,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.idswitch.IdValuePair,org.mozilla.javascript.tools.idswitch.IdValuePair,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.idswitch.IdValuePair,getLineNumber,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.idswitch.IdValuePair,setLineNumber,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.idswitch.IdValuePair,id,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.idswitch.IdValuePair,idLength,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.idswitch.IdValuePair,value,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.idswitch.IdValuePair,IdValuePair,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.idswitch.Main,org.mozilla.javascript.tools.idswitch.Main,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.idswitch.Main,main,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.idswitch.Main,Main,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.idswitch.SwitchGenerator,org.mozilla.javascript.tools.idswitch.SwitchGenerator,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.idswitch.SwitchGenerator,generateSwitch,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.idswitch.SwitchGenerator,generateSwitch,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.idswitch.SwitchGenerator,getCodePrinter,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.idswitch.SwitchGenerator,getReporter,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.idswitch.SwitchGenerator,getSourceFileName,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.idswitch.SwitchGenerator,setCodePrinter,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.idswitch.SwitchGenerator,setReporter,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.idswitch.SwitchGenerator,setSourceFileName,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.idswitch.SwitchGenerator,SwitchGenerator,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.jsc.Main,org.mozilla.javascript.tools.jsc.Main,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.jsc.Main,main,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.jsc.Main,processOptions,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.jsc.Main,processSource,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.jsc.Main,Main,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.ConsoleTextArea,org.mozilla.javascript.tools.shell.ConsoleTextArea,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.ConsoleTextArea,changedUpdate,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.ConsoleTextArea,eval,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.ConsoleTextArea,getErr,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.ConsoleTextArea,getIn,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.ConsoleTextArea,getOut,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.ConsoleTextArea,insertUpdate,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.ConsoleTextArea,keyPressed,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.ConsoleTextArea,keyReleased,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.ConsoleTextArea,keyTyped,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.ConsoleTextArea,postUpdateUI,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.ConsoleTextArea,removeUpdate,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.ConsoleTextArea,select,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.ConsoleTextArea,write,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.ConsoleTextArea,ConsoleTextArea,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.Environment,org.mozilla.javascript.tools.shell.Environment,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.Environment,defineClass,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.Environment,Environment,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.Environment,Environment,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.Global,org.mozilla.javascript.tools.shell.Global,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.Global,defineClass,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.Global,deserialize,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.Global,doctest,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.Global,gc,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.Global,getConsole,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.Global,getErr,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.Global,getIn,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.Global,getOut,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.Global,getPrompts,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.Global,help,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.Global,init,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.Global,init,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.Global,initQuitAction,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.Global,installRequire,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.Global,isInitialized,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.Global,load,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.Global,loadClass,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.Global,print,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.Global,quit,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.Global,readFile,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.Global,readline,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.Global,readUrl,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.Global,runCommand,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.Global,runDoctest,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.Global,seal,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.Global,serialize,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.Global,setErr,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.Global,setIn,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.Global,setOut,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.Global,setSealedStdLib,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.Global,spawn,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.Global,sync,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.Global,toint32,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.Global,version,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.Global,write,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.Global,Global,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.Global,Global,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.JavaPolicySecurity,org.mozilla.javascript.tools.shell.JavaPolicySecurity,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.JavaPolicySecurity,callProcessFileSecure,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.JavaPolicySecurity,callWithDomain,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.JavaPolicySecurity,createClassLoader,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.JavaPolicySecurity,getDynamicSecurityDomain,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.JavaPolicySecurity,getStaticSecurityDomainClassInternal,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.JavaPolicySecurity,JavaPolicySecurity,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.JSConsole,org.mozilla.javascript.tools.shell.JSConsole,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.JSConsole,actionPerformed,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.JSConsole,chooseFile,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.JSConsole,createFileChooser,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.JSConsole,main,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.JSConsole,JSConsole,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.Main,org.mozilla.javascript.tools.shell.Main,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.Main,exec,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.Main,getErr,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.Main,getGlobal,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.Main,getIn,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.Main,getOut,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.Main,main,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.Main,processFile,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.Main,processFileNoThrow,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.Main,processOptions,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.Main,processSource,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.Main,setErr,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.Main,setIn,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.Main,setOut,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.Main,global,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.Main,shellContextFactory,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.Main,errorReporter,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.Main,exitCode,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.Main,Main,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.QuitAction,org.mozilla.javascript.tools.shell.QuitAction,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.QuitAction,quit,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.SecurityProxy,org.mozilla.javascript.tools.shell.SecurityProxy,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.SecurityProxy,callProcessFileSecure,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.SecurityProxy,SecurityProxy,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.ShellConsole,org.mozilla.javascript.tools.shell.ShellConsole,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.ShellConsole,flush,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.ShellConsole,getConsole,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.ShellConsole,getConsole,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.ShellConsole,getIn,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.ShellConsole,print,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.ShellConsole,println,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.ShellConsole,println,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.ShellConsole,readLine,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.ShellConsole,readLine,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.ShellConsole,ShellConsole,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.ShellContextFactory,org.mozilla.javascript.tools.shell.ShellContextFactory,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.ShellContextFactory,getCharacterEncoding,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.ShellContextFactory,hasFeature,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.ShellContextFactory,onContextCreated,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.ShellContextFactory,setAllowReservedKeywords,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.ShellContextFactory,setCharacterEncoding,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.ShellContextFactory,setErrorReporter,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.ShellContextFactory,setGeneratingDebug,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.ShellContextFactory,setLanguageVersion,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.ShellContextFactory,setOptimizationLevel,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.ShellContextFactory,setStrictMode,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.ShellContextFactory,setWarningAsError,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.ShellContextFactory,ShellContextFactory,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.ShellLine,org.mozilla.javascript.tools.shell.ShellLine,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.ShellLine,getStream,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.shell.ShellLine,ShellLine,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.SourceReader,org.mozilla.javascript.tools.SourceReader,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.SourceReader,readFileOrUrl,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.SourceReader,toUrl,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.SourceReader,SourceReader,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.ToolErrorReporter,org.mozilla.javascript.tools.ToolErrorReporter,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.ToolErrorReporter,getMessage,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.ToolErrorReporter,getMessage,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.ToolErrorReporter,getMessage,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.ToolErrorReporter,getMessage,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.ToolErrorReporter,hasReportedError,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.ToolErrorReporter,isReportingWarnings,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.ToolErrorReporter,reportException,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.ToolErrorReporter,reportException,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.ToolErrorReporter,setIsReportingWarnings,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.ToolErrorReporter,ToolErrorReporter,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.tools.ToolErrorReporter,ToolErrorReporter,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.TopLevel,org.mozilla.javascript.TopLevel,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.TopLevel,cacheBuiltins,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.typedarrays.ByteIo,readFloat32,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.typedarrays.ByteIo,readFloat64,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.typedarrays.ByteIo,readInt16,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.typedarrays.ByteIo,readInt32,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.typedarrays.ByteIo,readInt8,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.typedarrays.ByteIo,readUint16,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.typedarrays.ByteIo,readUint8,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.typedarrays.NativeArrayBuffer,org.mozilla.javascript.typedarrays.NativeArrayBuffer,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.typedarrays.NativeArrayBuffer,fillConstructorProperties,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.typedarrays.NativeArrayBuffer,findInstanceIdInfo,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.typedarrays.NativeArrayBuffer,findPrototypeId,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.typedarrays.NativeArrayBuffer,getInstanceIdName,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.typedarrays.NativeArrayBuffer,getInstanceIdValue,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.typedarrays.NativeArrayBuffer,getMaxInstanceId,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.typedarrays.NativeArrayBuffer,initPrototypeId,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.typedarrays.NativeArrayBuffer,EMPTY_BUFFER,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.typedarrays.NativeArrayBufferView,org.mozilla.javascript.typedarrays.NativeArrayBufferView,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; METHOD_ABSTRACT_ADDED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.typedarrays.NativeArrayBufferView,findInstanceIdInfo,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.typedarrays.NativeArrayBufferView,getInstanceIdName,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.typedarrays.NativeArrayBufferView,getInstanceIdValue,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.typedarrays.NativeArrayBufferView,getMaxInstanceId,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.typedarrays.NativeArrayBufferView,MAX_INSTANCE_ID,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.typedarrays.NativeDataView,org.mozilla.javascript.typedarrays.NativeDataView,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.typedarrays.NativeDataView,execIdCall,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.typedarrays.NativeDataView,findPrototypeId,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.typedarrays.NativeDataView,initPrototypeId,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.typedarrays.NativeFloat32Array,org.mozilla.javascript.typedarrays.NativeFloat32Array,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.typedarrays.NativeFloat32Array,construct,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.typedarrays.NativeFloat32Array,realThis,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.typedarrays.NativeFloat64Array,org.mozilla.javascript.typedarrays.NativeFloat64Array,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.typedarrays.NativeFloat64Array,construct,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.typedarrays.NativeFloat64Array,realThis,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.typedarrays.NativeInt16Array,org.mozilla.javascript.typedarrays.NativeInt16Array,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.typedarrays.NativeInt16Array,construct,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.typedarrays.NativeInt16Array,realThis,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.typedarrays.NativeInt32Array,org.mozilla.javascript.typedarrays.NativeInt32Array,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.typedarrays.NativeInt32Array,construct,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.typedarrays.NativeInt32Array,realThis,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.typedarrays.NativeInt8Array,org.mozilla.javascript.typedarrays.NativeInt8Array,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.typedarrays.NativeInt8Array,construct,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.typedarrays.NativeInt8Array,realThis,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.typedarrays.NativeTypedArrayView,org.mozilla.javascript.typedarrays.NativeTypedArrayView,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; FIELD_REMOVED_IN_SUPERCLASS; METHOD_ABSTRACT_ADDED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.typedarrays.NativeTypedArrayView,construct,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.typedarrays.NativeTypedArrayView,execIdCall,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.typedarrays.NativeTypedArrayView,fillConstructorProperties,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.typedarrays.NativeTypedArrayView,findPrototypeId,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.typedarrays.NativeTypedArrayView,findPrototypeId,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.typedarrays.NativeTypedArrayView,initPrototypeId,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.typedarrays.NativeTypedArrayView,realThis,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.typedarrays.NativeTypedArrayView,MAX_PROTOTYPE_ID,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.typedarrays.NativeUint16Array,org.mozilla.javascript.typedarrays.NativeUint16Array,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.typedarrays.NativeUint16Array,construct,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.typedarrays.NativeUint16Array,realThis,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.typedarrays.NativeUint32Array,org.mozilla.javascript.typedarrays.NativeUint32Array,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.typedarrays.NativeUint32Array,construct,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.typedarrays.NativeUint32Array,realThis,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.typedarrays.NativeUint8Array,org.mozilla.javascript.typedarrays.NativeUint8Array,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.typedarrays.NativeUint8Array,construct,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.typedarrays.NativeUint8Array,realThis,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.typedarrays.NativeUint8ClampedArray,org.mozilla.javascript.typedarrays.NativeUint8ClampedArray,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.typedarrays.NativeUint8ClampedArray,construct,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.typedarrays.NativeUint8ClampedArray,realThis,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.UintMap,org.mozilla.javascript.UintMap,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.UintMap,clear,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.UintMap,getExistingInt,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.UintMap,getInt,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.UintMap,getKeys,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.UintMap,getObject,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.UintMap,has,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.UintMap,isEmpty,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.UintMap,put,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.UintMap,put,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.UintMap,remove,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.UintMap,size,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.UintMap,UintMap,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.UintMap,UintMap,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.xml.XMLObject,org.mozilla.javascript.xml.XMLObject,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.xmlimpl.XMLLibImpl,org.mozilla.javascript.xmlimpl.XMLLibImpl,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.xmlimpl.XMLLibImpl,escapeAttributeValue,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.xmlimpl.XMLLibImpl,escapeTextValue,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.xmlimpl.XMLLibImpl,getPrettyIndent,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.xmlimpl.XMLLibImpl,init,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.xmlimpl.XMLLibImpl,isIgnoreComments,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.xmlimpl.XMLLibImpl,isIgnoreProcessingInstructions,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.xmlimpl.XMLLibImpl,isIgnoreWhitespace,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.xmlimpl.XMLLibImpl,isPrettyPrinting,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.xmlimpl.XMLLibImpl,isXMLName,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.xmlimpl.XMLLibImpl,nameRef,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.xmlimpl.XMLLibImpl,nameRef,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.xmlimpl.XMLLibImpl,setIgnoreComments,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.xmlimpl.XMLLibImpl,setIgnoreProcessingInstructions,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.xmlimpl.XMLLibImpl,setIgnoreWhitespace,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.xmlimpl.XMLLibImpl,setPrettyIndent,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.xmlimpl.XMLLibImpl,setPrettyPrinting,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.xmlimpl.XMLLibImpl,toDefaultXmlNamespace,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.mozilla:rhino,1.7.12,1.8.0,org.mozilla.javascript.xmlimpl.XMLLibImpl,toDomNode,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.mozilla:rhino,,,MINOR,false
+org.javassist:javassist,3.21.0-GA,3.28.0-GA,javassist.bytecode.stackmap.BasicBlock$Maker,makeJsr,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.reflections:reflections,0.9.11,0.10.2,MINOR,false
+org.javassist:javassist,3.21.0-GA,3.28.0-GA,javassist.bytecode.stackmap.TypeData,dfs,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.reflections:reflections,0.9.11,0.10.2,MINOR,false
+org.javassist:javassist,3.21.0-GA,3.28.0-GA,javassist.bytecode.stackmap.TypeData$AbsTypeVar,javassist.bytecode.stackmap.TypeData$AbsTypeVar,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,true,2,org.reflections:reflections,0.9.11,0.10.2,MINOR,false
+org.javassist:javassist,3.21.0-GA,3.28.0-GA,javassist.bytecode.stackmap.TypeData$ArrayElement,javassist.bytecode.stackmap.TypeData$ArrayElement,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,true,2,org.reflections:reflections,0.9.11,0.10.2,MINOR,false
+org.javassist:javassist,3.21.0-GA,3.28.0-GA,javassist.bytecode.stackmap.TypeData$ArrayType,javassist.bytecode.stackmap.TypeData$ArrayType,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,true,2,org.reflections:reflections,0.9.11,0.10.2,MINOR,false
+org.javassist:javassist,3.21.0-GA,3.28.0-GA,javassist.bytecode.stackmap.TypeData$BasicType,javassist.bytecode.stackmap.TypeData$BasicType,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,true,2,org.reflections:reflections,0.9.11,0.10.2,MINOR,false
+org.javassist:javassist,3.21.0-GA,3.28.0-GA,javassist.bytecode.stackmap.TypeData$ClassName,javassist.bytecode.stackmap.TypeData$ClassName,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,true,2,org.reflections:reflections,0.9.11,0.10.2,MINOR,false
+org.javassist:javassist,3.21.0-GA,3.28.0-GA,javassist.bytecode.stackmap.TypeData$NullType,javassist.bytecode.stackmap.TypeData$NullType,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,true,2,org.reflections:reflections,0.9.11,0.10.2,MINOR,false
+org.javassist:javassist,3.21.0-GA,3.28.0-GA,javassist.bytecode.stackmap.TypeData$TypeVar,javassist.bytecode.stackmap.TypeData$TypeVar,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,true,2,org.reflections:reflections,0.9.11,0.10.2,MINOR,false
+org.javassist:javassist,3.21.0-GA,3.28.0-GA,javassist.bytecode.stackmap.TypeData$TypeVar,uppers,FIELD_CHANGE,FIELD_TYPE_CHANGED; FIELD_GENERICS_CHANGED,false,false,true,2,org.reflections:reflections,0.9.11,0.10.2,MINOR,false
+org.javassist:javassist,3.21.0-GA,3.28.0-GA,javassist.bytecode.stackmap.TypeData$TypeVar,lowers,FIELD_CHANGE,FIELD_TYPE_CHANGED; FIELD_GENERICS_CHANGED,false,false,true,2,org.reflections:reflections,0.9.11,0.10.2,MINOR,false
+org.javassist:javassist,3.21.0-GA,3.28.0-GA,javassist.bytecode.stackmap.TypeData$TypeVar,usedBy,FIELD_CHANGE,FIELD_TYPE_CHANGED; FIELD_GENERICS_CHANGED,false,false,true,2,org.reflections:reflections,0.9.11,0.10.2,MINOR,false
+org.javassist:javassist,3.21.0-GA,3.28.0-GA,javassist.bytecode.stackmap.TypeData$UninitData,javassist.bytecode.stackmap.TypeData$UninitData,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,true,2,org.reflections:reflections,0.9.11,0.10.2,MINOR,false
+org.javassist:javassist,3.21.0-GA,3.28.0-GA,javassist.bytecode.stackmap.TypeData$UninitThis,javassist.bytecode.stackmap.TypeData$UninitThis,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,true,2,org.reflections:reflections,0.9.11,0.10.2,MINOR,false
+org.javassist:javassist,3.21.0-GA,3.28.0-GA,javassist.bytecode.stackmap.TypeData$UninitTypeVar,javassist.bytecode.stackmap.TypeData$UninitTypeVar,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,true,2,org.reflections:reflections,0.9.11,0.10.2,MINOR,false
+org.javassist:javassist,3.21.0-GA,3.28.0-GA,javassist.bytecode.stackmap.TypedBlock$Maker,javassist.bytecode.stackmap.TypedBlock$Maker,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,true,2,org.reflections:reflections,0.9.11,0.10.2,MINOR,false
+org.javassist:javassist,3.21.0-GA,3.28.0-GA,javassist.ClassClassPath,openClassfile,METHOD_CHANGE,METHOD_NOW_THROWS_CHECKED_EXCEPTION,true,false,true,2,org.reflections:reflections,0.9.11,0.10.2,MINOR,false
+org.javassist:javassist,3.21.0-GA,3.28.0-GA,javassist.ClassMap,put,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,true,2,org.reflections:reflections,0.9.11,0.10.2,MINOR,false
+org.javassist:javassist,3.21.0-GA,3.28.0-GA,javassist.ClassMap,put0,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.reflections:reflections,0.9.11,0.10.2,MINOR,false
+org.javassist:javassist,3.21.0-GA,3.28.0-GA,javassist.ClassPath,close,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.reflections:reflections,0.9.11,0.10.2,MINOR,false
+org.javassist:javassist,3.21.0-GA,3.28.0-GA,javassist.compiler.CodeGen,patchGoto,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.reflections:reflections,0.9.11,0.10.2,MINOR,false
+org.javassist:javassist,3.21.0-GA,3.28.0-GA,javassist.compiler.CodeGen,breakList,FIELD_CHANGE,FIELD_TYPE_CHANGED; FIELD_GENERICS_CHANGED,false,false,true,2,org.reflections:reflections,0.9.11,0.10.2,MINOR,false
+org.javassist:javassist,3.21.0-GA,3.28.0-GA,javassist.compiler.CodeGen,continueList,FIELD_CHANGE,FIELD_TYPE_CHANGED; FIELD_GENERICS_CHANGED,false,false,true,2,org.reflections:reflections,0.9.11,0.10.2,MINOR,false
+org.javassist:javassist,3.21.0-GA,3.28.0-GA,javassist.compiler.JvstCodeGen,javassist.compiler.JvstCodeGen,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,true,2,org.reflections:reflections,0.9.11,0.10.2,MINOR,false
+org.javassist:javassist,3.21.0-GA,3.28.0-GA,javassist.compiler.MemberCodeGen,javassist.compiler.MemberCodeGen,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,true,2,org.reflections:reflections,0.9.11,0.10.2,MINOR,false
+org.javassist:javassist,3.21.0-GA,3.28.0-GA,javassist.LoaderClassPath,openClassfile,METHOD_CHANGE,METHOD_NOW_THROWS_CHECKED_EXCEPTION,true,false,true,2,org.reflections:reflections,0.9.11,0.10.2,MINOR,false
+org.javassist:javassist,3.21.0-GA,3.28.0-GA,javassist.scopedpool.ScopedClassPool,classLoader,FIELD_CHANGE,FIELD_TYPE_CHANGED; FIELD_GENERICS_CHANGED,false,false,true,2,org.reflections:reflections,0.9.11,0.10.2,MINOR,false
+org.javassist:javassist,3.21.0-GA,3.28.0-GA,javassist.scopedpool.ScopedClassPool,softcache,FIELD_CHANGE,FIELD_TYPE_CHANGED; FIELD_GENERICS_CHANGED,false,false,true,2,org.reflections:reflections,0.9.11,0.10.2,MINOR,false
+org.javassist:javassist,3.21.0-GA,3.28.0-GA,javassist.scopedpool.ScopedClassPoolRepositoryImpl,registeredCLs,FIELD_CHANGE,FIELD_GENERICS_CHANGED,true,false,true,2,org.reflections:reflections,0.9.11,0.10.2,MINOR,false
+org.javassist:javassist,3.21.0-GA,3.28.0-GA,javassist.scopedpool.SoftValueHashMap,javassist.scopedpool.SoftValueHashMap,CLASS_CHANGE,CLASS_GENERIC_TEMPLATE_CHANGED,false,false,true,2,org.reflections:reflections,0.9.11,0.10.2,MINOR,false
+org.javassist:javassist,3.21.0-GA,3.28.0-GA,javassist.tools.Callback,callbacks,FIELD_CHANGE,FIELD_TYPE_CHANGED; FIELD_GENERICS_CHANGED,false,false,true,2,org.reflections:reflections,0.9.11,0.10.2,MINOR,false
+org.javassist:javassist,3.21.0-GA,3.28.0-GA,javassist.util.proxy.FactoryHelper,primitiveTypes,FIELD_CHANGE,FIELD_GENERICS_CHANGED,true,false,true,2,org.reflections:reflections,0.9.11,0.10.2,MINOR,false

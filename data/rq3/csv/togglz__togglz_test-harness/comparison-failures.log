@@ -1,0 +1,8 @@
+=== Comparison Failure Log ===
+[2025-09-23 14:14:40] org.assertj:assertj-core:3.26.3 -> org.assertj:assertj-core:3.27.6 : Failed to compare JAR files: JAPICMP comparison failed for org.assertj:assertj-core
+[2025-09-23 14:14:43] org.jboss.arquillian.junit:arquillian-junit-container:1.7.0.Final -> org.jboss.arquillian.junit:arquillian-junit-container:1.10.0.Final : Failed to compare JAR files: JAPICMP comparison failed for org.jboss.arquillian.junit:arquillian-junit-container
+
+=== Summary ===
+Total comparisons: 118
+Failures: 2
+Success rate: 98.31%

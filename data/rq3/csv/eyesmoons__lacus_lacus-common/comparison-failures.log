@@ -1,0 +1,14 @@
+=== Comparison Failure Log ===
+[2025-09-22 20:53:33] org.springframework:spring-context-support:5.3.20 -> org.springframework:spring-context-support:5.3.39 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-context-support
+[2025-09-22 20:53:33] org.springframework:spring-web:5.3.20 -> org.springframework:spring-web:5.3.39 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-web
+[2025-09-22 20:54:13] commons-fileupload:commons-fileupload:1.4 -> commons-fileupload:commons-fileupload:1.6.0 : Failed to compare JAR files: JAPICMP comparison failed for commons-fileupload:commons-fileupload
+[2025-09-22 20:55:05] cn.hutool:hutool-all:5.8.25 -> cn.hutool:hutool-all:5.8.40 : Failed to compare JAR files: JAPICMP comparison failed for cn.hutool:hutool-all
+[2025-09-22 20:55:05] org.projectlombok:lombok:1.18.20 -> org.projectlombok:lombok:1.18.42 : Failed to compare JAR files: JAPICMP comparison failed for org.projectlombok:lombok
+[2025-09-22 20:55:45] org.apache.kafka:kafka-clients:3.6.1 -> org.apache.kafka:kafka-clients:3.9.1 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.kafka:kafka-clients
+[2025-09-22 20:55:47] com.microsoft.sqlserver:mssql-jdbc:8.2.2.jre8 -> com.microsoft.sqlserver:mssql-jdbc:8.4.1.jre14 : Failed to compare JAR files: JAPICMP comparison failed for com.microsoft.sqlserver:mssql-jdbc
+[2025-09-22 20:56:16] org.apache.seatunnel:seatunnel-transforms-v2:2.3.10 -> org.apache.seatunnel:seatunnel-transforms-v2:2.3.12 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.seatunnel:seatunnel-transforms-v2
+
+=== Summary ===
+Total comparisons: 347
+Failures: 8
+Success rate: 97.69%

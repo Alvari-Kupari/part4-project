@@ -1,0 +1,9 @@
+=== Comparison Failure Log ===
+[2025-09-22 22:45:36] org.glassfish.jersey.core:jersey-server:3.1.3 -> org.glassfish.jersey.core:jersey-server:3.1.11 : Failed to compare JAR files: JAPICMP comparison failed for org.glassfish.jersey.core:jersey-server
+[2025-09-22 22:45:38] org.glassfish.jersey.containers:jersey-container-servlet-core:3.1.3 -> org.glassfish.jersey.containers:jersey-container-servlet-core:3.1.11 : Failed to compare JAR files: JAPICMP comparison failed for org.glassfish.jersey.containers:jersey-container-servlet-core
+[2025-09-22 22:45:43] org.glassfish.jersey.containers:jersey-container-jetty-http:3.1.3 -> org.glassfish.jersey.containers:jersey-container-jetty-http:3.1.11 : Failed to compare JAR files: JAPICMP comparison failed for org.glassfish.jersey.containers:jersey-container-jetty-http
+
+=== Summary ===
+Total comparisons: 26
+Failures: 3
+Success rate: 88.46%

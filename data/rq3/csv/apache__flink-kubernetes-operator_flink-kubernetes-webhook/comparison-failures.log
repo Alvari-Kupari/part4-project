@@ -1,0 +1,9 @@
+=== Comparison Failure Log ===
+[2025-09-22 14:04:00] io.fabric8:kubernetes-server-mock:7.3.1 -> io.fabric8:kubernetes-server-mock:7.4.0 : Failed to compare JAR files: JAPICMP comparison failed for io.fabric8:kubernetes-server-mock
+[2025-09-22 14:04:00] org.junit.jupiter:junit-jupiter-api:5.9.3 -> org.junit.jupiter:junit-jupiter-api:5.13.4 : Failed to compare JAR files: JAPICMP comparison failed for org.junit.jupiter:junit-jupiter-api
+[2025-09-22 14:04:02] org.apache.flink:flink-kubernetes:1.20.1 -> org.apache.flink:flink-kubernetes:1.20.2 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.flink:flink-kubernetes
+
+=== Summary ===
+Total comparisons: 53
+Failures: 3
+Success rate: 94.34%

@@ -1,0 +1,8 @@
+=== Comparison Failure Log ===
+[2025-09-22 20:46:16] xyz.erupt:erupt-core:1.10.14 -> xyz.erupt:erupt-core:1.12.23 : Failed to compare JAR files: JAPICMP comparison failed for xyz.erupt:erupt-core
+[2025-09-22 20:46:51] org.projectlombok:lombok:1.18.24 -> org.projectlombok:lombok:1.18.42 : Failed to compare JAR files: JAPICMP comparison failed for org.projectlombok:lombok
+
+=== Summary ===
+Total comparisons: 40
+Failures: 2
+Success rate: 95.00%

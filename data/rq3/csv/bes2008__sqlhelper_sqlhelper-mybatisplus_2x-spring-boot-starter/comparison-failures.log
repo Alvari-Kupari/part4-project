@@ -1,0 +1,7 @@
+=== Comparison Failure Log ===
+[2025-09-22 16:17:32] io.github.bes2008.solution.sqlhelper:sqlhelper-mybatis-spring-common:5.0.0 -> io.github.bes2008.solution.sqlhelper:sqlhelper-mybatis-spring-common:5.1.1 : Failed to compare JAR files: JAPICMP comparison failed for io.github.bes2008.solution.sqlhelper:sqlhelper-mybatis-spring-common
+
+=== Summary ===
+Total comparisons: 15
+Failures: 1
+Success rate: 93.33%

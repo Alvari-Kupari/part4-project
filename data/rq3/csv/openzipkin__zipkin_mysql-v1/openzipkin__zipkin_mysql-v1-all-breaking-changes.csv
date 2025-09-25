@@ -1,0 +1,216 @@
+Library_Name,Old_Version,New_Version,Class_Name,Member_Name,Change_Type,Description,Binary_Compatible,Source_Compatible,Is_Transitive,Depth,Direct_Parent_Dependency,Direct_Dependency_Old_Version,Direct_Dependency_New_Version,Release_Type,Is_Used_In_Client
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.AlterTableStep,add,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE; ANNOTATION_ADDED,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.CloseableResultQuery,intern,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.CloseableResultQuery,intern,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.CloseableResultQuery,intern,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.CloseableResultQuery,intern,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.Commit,commit,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.Commit,commit,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.Commit,merge,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.Commit,merge,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.Commit,valid,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.Commit,valid,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.conf.Settings,isMigrationAllowsUndo,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jooq:jooq,,,MINOR,true
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.conf.Settings,setMigrationAllowsUndo,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.conf.Settings,withMigrationAllowsUndo,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.conf.Settings,migrationAllowsUndo,FIELD_CHANGE,FIELD_REMOVED; ANNOTATION_REMOVED,false,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.Configuration,annotatedPojoMemberProvider,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.Configuration,constructorPropertiesProvider,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.Configuration,derive,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.Configuration,derive,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.Configuration,derive,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.Configuration,set,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.jooq:jooq,,,MINOR,true
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.Configuration,set,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.jooq:jooq,,,MINOR,true
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.Configuration,set,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.jooq:jooq,,,MINOR,true
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.Configuration,subscriberProvider,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.ConstraintForeignKeyOnStep,onDelete,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE; ANNOTATION_ADDED,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.ConstraintForeignKeyOnStep,onUpdate,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE; ANNOTATION_ADDED,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.Context,currentScopeParts,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.Context,keyword,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.Context,scopeHide,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.Context,scopeShow,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.CreateSequenceFlagsStep,org.jooq.CreateSequenceFlagsStep,CLASS_CHANGE,CLASS_GENERIC_TEMPLATE_CHANGED,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.DataType,autoIncrement,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE; ANNOTATION_ADDED,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.DataType,generatedByDefaultAsIdentity,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE; ANNOTATION_ADDED,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.DataType,hasFixedLength,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.DataType,hidden,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE; ANNOTATION_ADDED,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.DataType,hidden,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.DataType,isQualifiedRecord,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.DataType,isUDTRecord,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.DSLContext,commit,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.DSLContext,createSequence,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.DSLContext,createSequence,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.DSLContext,createSequence,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.DSLContext,createSequenceIfNotExists,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.DSLContext,createSequenceIfNotExists,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.DSLContext,createSequenceIfNotExists,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.DSLContext,releaseSavepoint,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.DSLContext,releaseSavepoint,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.DSLContext,savepoint,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.DSLContext,savepoint,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.DSLContext,startTransaction,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.ExecuteContext,params,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.ExecuteContext,params,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.Field,binaryLike,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE; ANNOTATION_ADDED,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.Field,binaryLike,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE; ANNOTATION_ADDED,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.Field,binaryLike,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE; ANNOTATION_ADDED,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.Field,notBinaryLike,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE; ANNOTATION_ADDED,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.Field,notBinaryLike,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE; ANNOTATION_ADDED,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.Field,notBinaryLike,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE; ANNOTATION_ADDED,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.Field,touched,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.Fields,fieldsIncludingHidden,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.Files,fromSnapshot,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.ForeignKey,getDeleteRule,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.ForeignKey,getUpdateRule,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.GroupConcatSeparatorStep,separator,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE; ANNOTATION_ADDED,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.History,available,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.History,current,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.History,root,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.impl.AbstractConfiguration,org.jooq.impl.AbstractConfiguration,CLASS_CHANGE,METHOD_ABSTRACT_ADDED_IN_IMPLEMENTED_INTERFACE,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.impl.AbstractRoutine,AbstractRoutine,CONSTRUCTOR_CHANGE,CLASS_GENERIC_TEMPLATE_CHANGED,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.impl.AbstractRoutine,AbstractRoutine,CONSTRUCTOR_CHANGE,CLASS_GENERIC_TEMPLATE_CHANGED,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.impl.AbstractRoutine,AbstractRoutine,CONSTRUCTOR_CHANGE,CLASS_GENERIC_TEMPLATE_CHANGED,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.impl.AbstractRoutine,AbstractRoutine,CONSTRUCTOR_CHANGE,CLASS_GENERIC_TEMPLATE_CHANGED,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.impl.AbstractRoutine,AbstractRoutine,CONSTRUCTOR_CHANGE,CLASS_GENERIC_TEMPLATE_CHANGED,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.impl.AbstractRoutine,AbstractRoutine,CONSTRUCTOR_CHANGE,CLASS_GENERIC_TEMPLATE_CHANGED,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.impl.DefaultDSLContext,commit,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.impl.DefaultDSLContext,createSequence,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.impl.DefaultDSLContext,createSequence,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.impl.DefaultDSLContext,createSequence,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.impl.DefaultDSLContext,createSequenceIfNotExists,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.impl.DefaultDSLContext,createSequenceIfNotExists,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.impl.DefaultDSLContext,createSequenceIfNotExists,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.impl.DefaultDSLContext,releaseSavepoint,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.impl.DefaultDSLContext,releaseSavepoint,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.impl.DefaultDSLContext,savepoint,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.impl.DefaultDSLContext,savepoint,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.impl.DefaultDSLContext,startTransaction,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.impl.DSL,commit,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.impl.DSL,createSequence,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.impl.DSL,createSequence,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.impl.DSL,createSequence,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.impl.DSL,createSequenceIfNotExists,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.impl.DSL,createSequenceIfNotExists,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.impl.DSL,createSequenceIfNotExists,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.impl.DSL,releaseSavepoint,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.impl.DSL,releaseSavepoint,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.impl.DSL,savepoint,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.impl.DSL,savepoint,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.impl.DSL,startTransaction,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.impl.Internal,subscriber,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.impl.JPAConverter,org.jooq.impl.JPAConverter,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.impl.JPAConverter,JPAConverter,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.impl.QOM$Check,$condition,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.impl.QOM$Check,$enforced,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.impl.QOM$Check,$enforced,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.impl.QOM$Check,$name,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.impl.QOM$CreateSequence,org.jooq.impl.QOM$CreateSequence,CLASS_CHANGE,CLASS_GENERIC_TEMPLATE_CHANGED,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.impl.QOM$CreateSequence,$dataType,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.impl.QOM$CreateSequence,$dataType,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.impl.QOM$ForeignKey,$deleteRule,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.impl.QOM$ForeignKey,$deleteRule,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.impl.QOM$ForeignKey,$enforced,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.impl.QOM$ForeignKey,$enforced,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.impl.QOM$ForeignKey,$fields,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.impl.QOM$ForeignKey,$name,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.impl.QOM$ForeignKey,$references,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.impl.QOM$ForeignKey,$referencesFields,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.impl.QOM$ForeignKey,$referencesFields,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.impl.QOM$ForeignKey,$referencesTable,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.impl.QOM$ForeignKey,$referencesTable,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.impl.QOM$ForeignKey,$updateRule,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.impl.QOM$ForeignKey,$updateRule,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.impl.QOM$PrimaryKey,$enforced,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.impl.QOM$PrimaryKey,$enforced,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.impl.QOM$PrimaryKey,$fields,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.impl.QOM$PrimaryKey,$name,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.impl.QOM$UniqueKey,$enforced,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.impl.QOM$UniqueKey,$enforced,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.impl.QOM$UniqueKey,$fields,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.impl.QOM$UniqueKey,$name,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.InsertOnDuplicateSetStep,setNonConflictingKeyToExcluded,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE; ANNOTATION_ADDED,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.InsertOnDuplicateSetStep,setNonKeyToExcluded,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE; ANNOTATION_ADDED,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.InsertOnDuplicateSetStep,setNonPrimaryKeyToExcluded,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE; ANNOTATION_ADDED,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.MergeNotMatchedStep,whenNotMatched,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE; ANNOTATION_ADDED,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.MergeNotMatchedStep,whenNotMatchedAnd,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE; ANNOTATION_ADDED,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.MergeNotMatchedStep,whenNotMatchedAnd,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE; ANNOTATION_ADDED,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.MergeNotMatchedStep,whenNotMatchedAnd,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE; ANNOTATION_ADDED,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.MergeNotMatchedStep,whenNotMatchedAnd,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE; ANNOTATION_ADDED,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.MergeNotMatchedStep,whenNotMatchedAnd,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE; ANNOTATION_ADDED,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.MergeNotMatchedStep,whenNotMatchedAnd,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE; ANNOTATION_ADDED,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.MergeNotMatchedStep,whenNotMatchedBySource,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE; ANNOTATION_ADDED,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.MergeNotMatchedStep,whenNotMatchedBySourceAnd,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE; ANNOTATION_ADDED,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.MergeNotMatchedStep,whenNotMatchedBySourceAnd,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE; ANNOTATION_ADDED,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.MergeNotMatchedStep,whenNotMatchedBySourceAnd,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE; ANNOTATION_ADDED,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.MergeNotMatchedStep,whenNotMatchedBySourceAnd,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE; ANNOTATION_ADDED,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.MergeNotMatchedStep,whenNotMatchedBySourceAnd,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE; ANNOTATION_ADDED,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.MergeNotMatchedStep,whenNotMatchedBySourceAnd,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE; ANNOTATION_ADDED,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.MergeNotMatchedStep,whenNotMatchedByTarget,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE; ANNOTATION_ADDED,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.MergeNotMatchedStep,whenNotMatchedByTargetAnd,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE; ANNOTATION_ADDED,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.MergeNotMatchedStep,whenNotMatchedByTargetAnd,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE; ANNOTATION_ADDED,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.MergeNotMatchedStep,whenNotMatchedByTargetAnd,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE; ANNOTATION_ADDED,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.MergeNotMatchedStep,whenNotMatchedByTargetAnd,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE; ANNOTATION_ADDED,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.MergeNotMatchedStep,whenNotMatchedByTargetAnd,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE; ANNOTATION_ADDED,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.MergeNotMatchedStep,whenNotMatchedByTargetAnd,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE; ANNOTATION_ADDED,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.MergeNotMatchedWhereStep,where,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.MergeNotMatchedWhereStep,where,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.Migration,baseline,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.Migration,fromSnapshot,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.Migration,logHistory,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.Migration,logPending,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.Migration,logUntracked,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.Migration,untracked,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.Node,author,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.OrderedAggregateFunction,orderBy,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE; ANNOTATION_ADDED,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.OrderedAggregateFunction,orderBy,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE; ANNOTATION_ADDED,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.Record,modified,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.Record,modified,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.Record,modified,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.Record,modified,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.Record,modified,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.Record,touched,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.Record,touched,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.Record,touched,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.Record,touched,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.Record,touched,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.Record,touched,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.Record,touched,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.Record,touched,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.Record,touched,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.Record,touched,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.Result,intern,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.Result,intern,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.Result,intern,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.Result,intern,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.ResultQuery,intern,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.ResultQuery,intern,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.ResultQuery,intern,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.ResultQuery,intern,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.RollbackToSavepointStep,toSavepoint,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.RollbackToSavepointStep,toSavepoint,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.TransactionContext,result,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.TransactionContext,result,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.UDT,getSubtypes,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.UDT,getSupertype,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.UDT,isAssignableFrom,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.util.h2.H2DataType,__LONGNVARCHAR,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.WindowPartitionByStep,partitionByOne,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,false,1,org.jooq:jooq,,,MINOR,false
+org.jooq:jooq,3.19.18,3.20.7,org.jooq.WindowSpecificationPartitionByStep,partitionByOne,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,false,1,org.jooq:jooq,,,MINOR,false
+com.google.code.gson:gson,2.13.1,2.13.2,com.google.gson.internal.GsonPreconditions,com.google.gson.internal.GsonPreconditions,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,com.google.code.gson:gson,,,PATCH,false
+com.google.code.gson:gson,2.13.1,2.13.2,com.google.gson.internal.GsonPreconditions,checkArgument,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,com.google.code.gson:gson,,,PATCH,false
+com.google.code.gson:gson,2.13.1,2.13.2,com.google.gson.internal.GsonPreconditions,checkNotNull,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,false,1,com.google.code.gson:gson,,,PATCH,false
+org.junit.platform:junit-platform-commons,1.11.4,1.13.4,org.junit.platform.commons.util.ClassFilter,org.junit.platform.commons.util.ClassFilter,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.mockito:mockito-junit-jupiter,5.18.0,5.20.0,MINOR,false
+org.junit.platform:junit-platform-commons,1.11.4,1.13.4,org.junit.platform.commons.util.ClassFilter,match,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.mockito:mockito-junit-jupiter,5.18.0,5.20.0,MINOR,false
+org.junit.platform:junit-platform-commons,1.11.4,1.13.4,org.junit.platform.commons.util.ClassFilter,match,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.mockito:mockito-junit-jupiter,5.18.0,5.20.0,MINOR,false
+org.junit.platform:junit-platform-commons,1.11.4,1.13.4,org.junit.platform.commons.util.ClassFilter,of,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.mockito:mockito-junit-jupiter,5.18.0,5.20.0,MINOR,false
+org.junit.platform:junit-platform-commons,1.11.4,1.13.4,org.junit.platform.commons.util.ClassFilter,of,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.mockito:mockito-junit-jupiter,5.18.0,5.20.0,MINOR,false
+org.junit.platform:junit-platform-commons,1.11.4,1.13.4,org.junit.platform.commons.util.ClassFilter,test,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.mockito:mockito-junit-jupiter,5.18.0,5.20.0,MINOR,false
+org.junit.platform:junit-platform-commons,1.11.4,1.13.4,org.junit.platform.commons.util.ClassFilter,test,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.mockito:mockito-junit-jupiter,5.18.0,5.20.0,MINOR,false
+org.junit.platform:junit-platform-commons,1.11.4,1.13.4,org.junit.platform.commons.util.ClassNamePatternFilterUtils,DEACTIVATE_ALL_PATTERN,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,org.mockito:mockito-junit-jupiter,5.18.0,5.20.0,MINOR,false
+org.junit.platform:junit-platform-commons,1.11.4,1.13.4,org.junit.platform.commons.util.ModuleUtils,findAllClassesInModule,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.mockito:mockito-junit-jupiter,5.18.0,5.20.0,MINOR,false
+org.junit.platform:junit-platform-commons,1.11.4,1.13.4,org.junit.platform.commons.util.ReflectionUtils,findAllClassesInClasspathRoot,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.mockito:mockito-junit-jupiter,5.18.0,5.20.0,MINOR,false
+org.junit.platform:junit-platform-commons,1.11.4,1.13.4,org.junit.platform.commons.util.ReflectionUtils,findAllClassesInModule,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.mockito:mockito-junit-jupiter,5.18.0,5.20.0,MINOR,false
+org.junit.platform:junit-platform-commons,1.11.4,1.13.4,org.junit.platform.commons.util.ReflectionUtils,findAllClassesInPackage,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.mockito:mockito-junit-jupiter,5.18.0,5.20.0,MINOR,false
+org.junit.platform:junit-platform-commons,1.11.4,1.13.4,org.junit.platform.commons.util.ReflectionUtils,streamAllClassesInClasspathRoot,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.mockito:mockito-junit-jupiter,5.18.0,5.20.0,MINOR,false
+org.junit.platform:junit-platform-commons,1.11.4,1.13.4,org.junit.platform.commons.util.ReflectionUtils,streamAllClassesInModule,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.mockito:mockito-junit-jupiter,5.18.0,5.20.0,MINOR,false
+org.junit.platform:junit-platform-commons,1.11.4,1.13.4,org.junit.platform.commons.util.ReflectionUtils,streamAllClassesInPackage,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.mockito:mockito-junit-jupiter,5.18.0,5.20.0,MINOR,false

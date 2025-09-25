@@ -1,0 +1,11 @@
+=== Comparison Failure Log ===
+[2025-09-23 05:38:18] org.springframework:spring-beans:6.2.7 -> org.springframework:spring-beans:6.2.11 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-beans
+[2025-09-23 05:38:19] org.springframework.data:spring-data-jpa:3.5.0 -> org.springframework.data:spring-data-jpa:3.5.4 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.data:spring-data-jpa
+[2025-09-23 05:38:19] org.springframework.security:spring-security-core:6.5.0 -> org.springframework.security:spring-security-core:6.5.5 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.security:spring-security-core
+[2025-09-23 05:38:20] org.hibernate.orm:hibernate-core:6.1.7.Final -> org.hibernate.orm:hibernate-core:7.0.0.CR2 : Failed to compare JAR files: JAPICMP comparison failed for org.hibernate.orm:hibernate-core
+[2025-09-23 05:38:21] org.projectlombok:lombok:1.18.38 -> org.projectlombok:lombok:1.18.42 : Failed to compare JAR files: JAPICMP comparison failed for org.projectlombok:lombok
+
+=== Summary ===
+Total comparisons: 8
+Failures: 5
+Success rate: 37.50%

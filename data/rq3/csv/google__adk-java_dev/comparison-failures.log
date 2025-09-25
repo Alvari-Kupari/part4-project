@@ -1,0 +1,12 @@
+=== Comparison Failure Log ===
+[2025-09-22 22:36:52] org.eclipse.jdt:ecj:3.41.0 -> org.eclipse.jdt:ecj:3.43.0 : Failed to compare JAR files: JAPICMP comparison failed for org.eclipse.jdt:ecj
+[2025-09-22 22:36:55] io.opentelemetry:opentelemetry-sdk-common:1.49.0 -> io.opentelemetry:opentelemetry-sdk-common:1.54.1 : Failed to compare JAR files: JAPICMP comparison failed for io.opentelemetry:opentelemetry-sdk-common
+[2025-09-22 22:36:55] io.opentelemetry:opentelemetry-api:1.49.0 -> io.opentelemetry:opentelemetry-api:1.54.1 : Failed to compare JAR files: JAPICMP comparison failed for io.opentelemetry:opentelemetry-api
+[2025-09-22 22:37:00] io.opentelemetry:opentelemetry-exporter-otlp:1.49.0 -> io.opentelemetry:opentelemetry-exporter-otlp:1.54.1 : Failed to compare JAR files: JAPICMP comparison failed for io.opentelemetry:opentelemetry-exporter-otlp
+[2025-09-22 22:37:00] io.opentelemetry:opentelemetry-sdk-logs:1.49.0 -> io.opentelemetry:opentelemetry-sdk-logs:1.54.1 : Failed to compare JAR files: JAPICMP comparison failed for io.opentelemetry:opentelemetry-sdk-logs
+[2025-09-22 22:37:00] io.opentelemetry:opentelemetry-sdk-trace:1.49.0 -> io.opentelemetry:opentelemetry-sdk-trace:1.54.1 : Failed to compare JAR files: JAPICMP comparison failed for io.opentelemetry:opentelemetry-sdk-trace
+
+=== Summary ===
+Total comparisons: 114
+Failures: 6
+Success rate: 94.74%

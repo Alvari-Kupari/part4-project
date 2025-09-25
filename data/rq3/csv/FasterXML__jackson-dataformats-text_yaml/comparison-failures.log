@@ -1,0 +1,7 @@
+=== Comparison Failure Log ===
+[2025-09-22 21:21:50] org.assertj:assertj-core:3.27.2 -> org.assertj:assertj-core:3.27.5 : Failed to compare JAR files: JAPICMP comparison failed for org.assertj:assertj-core
+
+=== Summary ===
+Total comparisons: 2
+Failures: 1
+Success rate: 50.00%

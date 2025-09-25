@@ -1,0 +1,12 @@
+=== Comparison Failure Log ===
+[2025-09-22 14:01:24] org.apache.logging.log4j:log4j-api:2.23.1 -> org.apache.logging.log4j:log4j-api:2.25.1 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.logging.log4j:log4j-api
+[2025-09-22 14:01:25] org.apache.logging.log4j:log4j-core:2.23.1 -> org.apache.logging.log4j:log4j-core:2.25.1 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.logging.log4j:log4j-core
+[2025-09-22 14:01:26] org.junit.jupiter:junit-jupiter-api:5.9.3 -> org.junit.jupiter:junit-jupiter-api:5.13.4 : Failed to compare JAR files: JAPICMP comparison failed for org.junit.jupiter:junit-jupiter-api
+[2025-09-22 14:01:26] org.junit.jupiter:junit-jupiter-params:5.9.3 -> org.junit.jupiter:junit-jupiter-params:5.13.4 : Failed to compare JAR files: JAPICMP comparison failed for org.junit.jupiter:junit-jupiter-params
+[2025-09-22 14:01:26] org.assertj:assertj-core:3.26.3 -> org.assertj:assertj-core:3.27.5 : Failed to compare JAR files: JAPICMP comparison failed for org.assertj:assertj-core
+[2025-09-22 14:01:26] org.apache.derby:derby:10.15.2.0 -> org.apache.derby:derby:10.17.1.0 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.derby:derby
+
+=== Summary ===
+Total comparisons: 39
+Failures: 6
+Success rate: 84.62%

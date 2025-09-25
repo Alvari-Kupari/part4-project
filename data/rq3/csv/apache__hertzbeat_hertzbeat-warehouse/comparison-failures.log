@@ -1,0 +1,11 @@
+=== Comparison Failure Log ===
+[2025-09-22 14:12:38] org.springframework.boot:spring-boot-autoconfigure:3.4.2 -> org.springframework.boot:spring-boot-autoconfigure:3.5.6 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.boot:spring-boot-autoconfigure
+[2025-09-22 14:13:01] org.influxdb:influxdb-java:2.23 -> org.influxdb:influxdb-java:2.25 : Failed to compare JAR files: JAPICMP comparison failed for org.influxdb:influxdb-java
+[2025-09-22 14:13:33] org.apache.kafka:kafka-clients:3.7.1 -> org.apache.kafka:kafka-clients:3.9.1 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.kafka:kafka-clients
+[2025-09-22 14:14:48] org.xerial.snappy:snappy-java:1.1.10.7 -> org.xerial.snappy:snappy-java:1.1.10.8 : Failed to compare JAR files: JAPICMP comparison failed for org.xerial.snappy:snappy-java
+[2025-09-22 14:14:48] org.projectlombok:lombok:1.18.28 -> org.projectlombok:lombok:1.18.42 : Failed to compare JAR files: JAPICMP comparison failed for org.projectlombok:lombok
+
+=== Summary ===
+Total comparisons: 162
+Failures: 5
+Success rate: 96.91%

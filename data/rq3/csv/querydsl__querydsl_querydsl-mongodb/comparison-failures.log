@@ -1,0 +1,7 @@
+=== Comparison Failure Log ===
+[2025-09-23 08:09:56] org.mongodb:mongo-java-driver:3.12.11 -> org.mongodb:mongo-java-driver:3.12.14 : Failed to compare JAR files: JAPICMP comparison failed for org.mongodb:mongo-java-driver
+
+=== Summary ===
+Total comparisons: 3
+Failures: 1
+Success rate: 66.67%

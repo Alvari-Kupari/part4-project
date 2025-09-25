@@ -1,0 +1,8 @@
+=== Comparison Failure Log ===
+[2025-09-22 21:23:41] org.springframework:spring-webflux:5.1.18.RELEASE -> org.springframework:spring-webflux:5.3.39 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-webflux
+[2025-09-22 21:23:51] org.springframework:spring-webmvc:5.1.9.RELEASE -> org.springframework:spring-webmvc:5.3.39 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-webmvc
+
+=== Summary ===
+Total comparisons: 15
+Failures: 2
+Success rate: 86.67%

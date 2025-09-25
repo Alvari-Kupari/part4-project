@@ -1,0 +1,8 @@
+=== Comparison Failure Log ===
+[2025-09-22 16:21:04] org.redisson:redisson:3.23.3 -> org.redisson:redisson:3.51.0 : Failed to compare JAR files: JAPICMP comparison failed for org.redisson:redisson
+[2025-09-22 16:21:05] org.projectlombok:lombok:1.18.30 -> org.projectlombok:lombok:1.18.42 : Failed to compare JAR files: JAPICMP comparison failed for org.projectlombok:lombok
+
+=== Summary ===
+Total comparisons: 19
+Failures: 2
+Success rate: 89.47%

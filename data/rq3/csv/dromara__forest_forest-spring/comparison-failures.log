@@ -1,0 +1,19 @@
+=== Comparison Failure Log ===
+[2025-09-22 20:00:59] com.dtflys.forest:forest-core:1.7.3 -> com.dtflys.forest:forest-core:1.7.5 : Failed to compare JAR files: JAPICMP comparison failed for com.dtflys.forest:forest-core
+[2025-09-22 20:01:00] org.springframework:spring-core:5.3.20 -> org.springframework:spring-core:5.3.39 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-core
+[2025-09-22 20:01:00] org.springframework:spring-beans:5.3.20 -> org.springframework:spring-beans:5.3.39 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-beans
+[2025-09-22 20:01:01] org.springframework:spring-context:5.3.20 -> org.springframework:spring-context:5.3.39 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-context
+[2025-09-22 20:01:01] org.springframework:spring-webmvc:5.3.20 -> org.springframework:spring-webmvc:5.3.39 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-webmvc
+[2025-09-22 20:01:13] org.springframework:spring-test:5.3.20 -> org.springframework:spring-test:5.3.39 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-test
+[2025-09-22 20:01:14] ch.qos.logback:logback-classic:1.5.15 -> ch.qos.logback:logback-classic:1.5.18 : Failed to compare JAR files: JAPICMP comparison failed for ch.qos.logback:logback-classic
+[2025-09-22 20:01:23] org.apache.logging.log4j:log4j-core:2.17.1 -> org.apache.logging.log4j:log4j-core:2.25.2 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.logging.log4j:log4j-core
+[2025-09-22 20:01:23] org.apache.logging.log4j:log4j-api:2.17.1 -> org.apache.logging.log4j:log4j-api:2.25.2 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.logging.log4j:log4j-api
+[2025-09-22 20:01:23] com.alibaba:fastjson:1.2.83 -> com.alibaba:fastjson:1.2.83_noneautotype : Failed to compare JAR files: JAPICMP comparison failed for com.alibaba:fastjson
+[2025-09-22 20:01:25] org.mockito:mockito-core:4.5.1 -> org.mockito:mockito-core:4.11.0 : Failed to compare JAR files: JAPICMP comparison failed for org.mockito:mockito-core
+[2025-09-22 20:01:34] org.assertj:assertj-core:3.13.2 -> org.assertj:assertj-core:3.27.5 : Failed to compare JAR files: JAPICMP comparison failed for org.assertj:assertj-core
+[2025-09-22 20:01:34] cn.hutool:hutool-all:5.8.35 -> cn.hutool:hutool-all:5.8.40 : Failed to compare JAR files: JAPICMP comparison failed for cn.hutool:hutool-all
+
+=== Summary ===
+Total comparisons: 86
+Failures: 13
+Success rate: 84.88%

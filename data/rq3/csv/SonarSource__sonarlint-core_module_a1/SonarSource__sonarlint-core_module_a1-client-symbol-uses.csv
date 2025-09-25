@@ -1,0 +1,4 @@
+Library_Name,Symbol_Type,Class_Name,Symbol_Name,Usage_Location,Line_Number
+JDK:java.base:N/A:N/A,FieldAccessExpr,java.lang.System,out,C:\Users\tyin363\Documents\repos\SonarSource__sonarlint-core\its\tests\projects\multi-modules-sample\module_a\module_a1\src\main\java\com\sonar\it\samples\modules\a1\HelloA1.java,10
+JDK:java.base:N/A:N/A,MethodCallExpr,java.io.PrintStream,println,C:\Users\tyin363\Documents\repos\SonarSource__sonarlint-core\its\tests\projects\multi-modules-sample\module_a\module_a1\src\main\java\com\sonar\it\samples\modules\a1\HelloA1.java,10
+JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.lang.String,String,C:\Users\tyin363\Documents\repos\SonarSource__sonarlint-core\its\tests\projects\multi-modules-sample\module_a\module_a1\src\main\java\com\sonar\it\samples\modules\a1\HelloA1.java,13

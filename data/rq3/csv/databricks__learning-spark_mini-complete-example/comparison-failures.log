@@ -1,0 +1,7 @@
+=== Comparison Failure Log ===
+[2025-09-22 18:07:09] org.apache.spark:spark-core_2.10:1.1.0 -> org.apache.spark:spark-core_2.10:1.6.3 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.spark:spark-core_2.10
+
+=== Summary ===
+Total comparisons: 1
+Failures: 1
+Success rate: 0.00%

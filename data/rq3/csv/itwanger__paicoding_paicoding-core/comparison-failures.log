@@ -1,0 +1,16 @@
+=== Comparison Failure Log ===
+[2025-09-22 23:59:56] org.springframework:spring-context:5.3.21 -> org.springframework:spring-context:5.3.39 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-context
+[2025-09-22 23:59:56] ch.qos.logback:logback-classic:1.2.11 -> ch.qos.logback:logback-classic:1.5.18 : Failed to compare JAR files: JAPICMP comparison failed for ch.qos.logback:logback-classic
+[2025-09-22 23:59:58] org.springframework:spring-web:5.3.21 -> org.springframework:spring-web:5.3.39 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-web
+[2025-09-22 23:59:59] org.springframework.boot:spring-boot:2.7.1 -> org.springframework.boot:spring-boot:2.7.18 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.boot:spring-boot
+[2025-09-23 00:02:07] org.springframework:spring-jdbc:5.3.21 -> org.springframework:spring-jdbc:5.3.39 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-jdbc
+[2025-09-23 00:02:07] org.aspectj:aspectjweaver:1.9.7 -> org.aspectj:aspectjweaver:1.9.24 : Failed to compare JAR files: JAPICMP comparison failed for org.aspectj:aspectjweaver
+[2025-09-23 00:02:11] org.mybatis:mybatis-spring:2.0.7 -> org.mybatis:mybatis-spring:2.1.2 : Failed to compare JAR files: JAPICMP comparison failed for org.mybatis:mybatis-spring
+[2025-09-23 00:03:42] mysql:mysql-connector-java:8.0.29 -> mysql:mysql-connector-java:8.0.33 : Failed to compare JAR files: JAPICMP comparison failed for mysql:mysql-connector-java
+[2025-09-23 00:03:50] org.springframework.security:spring-security-core:6.3.0 -> org.springframework.security:spring-security-core:6.5.5 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.security:spring-security-core
+[2025-09-23 00:03:57] org.springframework:spring-messaging:5.3.21 -> org.springframework:spring-messaging:5.3.39 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-messaging
+
+=== Summary ===
+Total comparisons: 177
+Failures: 10
+Success rate: 94.35%

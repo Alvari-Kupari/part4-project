@@ -1,0 +1,177 @@
+Library_Name,Old_Version,New_Version,Class_Name,Member_Name,Change_Type,Description,Binary_Compatible,Source_Compatible,Is_Transitive,Depth,Direct_Parent_Dependency,Direct_Dependency_Old_Version,Direct_Dependency_New_Version,Release_Type,Is_Used_In_Client
+org.apache.commons:commons-lang3,3.7,3.18.0,org.apache.commons.lang3.builder.DiffBuilder,org.apache.commons.lang3.builder.DiffBuilder,CLASS_CHANGE,CLASS_GENERIC_TEMPLATE_CHANGED,true,false,false,1,org.apache.commons:commons-lang3,,,MINOR,false
+org.apache.commons:commons-lang3,3.7,3.18.0,org.apache.commons.lang3.builder.DiffResult,org.apache.commons.lang3.builder.DiffResult,CLASS_CHANGE,CLASS_GENERIC_TEMPLATE_CHANGED,true,false,false,1,org.apache.commons:commons-lang3,,,MINOR,false
+org.apache.commons:commons-lang3,3.7,3.18.0,org.apache.commons.lang3.builder.ReflectionDiffBuilder,org.apache.commons.lang3.builder.ReflectionDiffBuilder,CLASS_CHANGE,CLASS_GENERIC_TEMPLATE_CHANGED,true,false,false,1,org.apache.commons:commons-lang3,,,MINOR,false
+org.apache.commons:commons-lang3,3.7,3.18.0,org.apache.commons.lang3.builder.ReflectionDiffBuilder,ReflectionDiffBuilder,CONSTRUCTOR_CHANGE,ANNOTATION_DEPRECATED_ADDED; CLASS_GENERIC_TEMPLATE_CHANGED,true,false,false,1,org.apache.commons:commons-lang3,,,MINOR,false
+org.apache.commons:commons-lang3,3.7,3.18.0,org.apache.commons.lang3.event.EventListenerSupport$ProxyInvocationHandler,invoke,METHOD_CHANGE,METHOD_NOW_THROWS_CHECKED_EXCEPTION,true,false,false,1,org.apache.commons:commons-lang3,,,MINOR,false
+org.apache.commons:commons-lang3,3.7,3.18.0,org.apache.commons.lang3.exception.ExceptionUtils,rethrow,METHOD_CHANGE,CLASS_GENERIC_TEMPLATE_CHANGED,true,false,false,1,org.apache.commons:commons-lang3,,,MINOR,false
+org.apache.commons:commons-lang3,3.7,3.18.0,org.apache.commons.lang3.Range,between,METHOD_CHANGE,ANNOTATION_DEPRECATED_ADDED; CLASS_GENERIC_TEMPLATE_GENERICS_CHANGED,true,false,false,1,org.apache.commons:commons-lang3,,,MINOR,false
+org.apache.commons:commons-lang3,3.7,3.18.0,org.apache.commons.lang3.Range,is,METHOD_CHANGE,CLASS_GENERIC_TEMPLATE_GENERICS_CHANGED,true,false,false,1,org.apache.commons:commons-lang3,,,MINOR,false
+org.apache.commons:commons-lang3,3.7,3.18.0,org.apache.commons.lang3.StringUtils,toString,METHOD_CHANGE,METHOD_NO_LONGER_THROWS_CHECKED_EXCEPTION,true,false,false,1,org.apache.commons:commons-lang3,,,MINOR,false
+org.picocontainer:picocontainer,2.15,2.15.2,org.picocontainer.paranamer.CachingParanamer$WithoutWeakReferences,__PARANAMER_DATA,FIELD_CHANGE,FIELD_STATIC_AND_OVERRIDES_STATIC,false,false,false,1,org.picocontainer:picocontainer,,,PATCH,false
+org.picocontainer:picocontainer,2.15,2.15.2,org.picocontainer.paranamer.Paranamer,lookupParameterNames,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.picocontainer:picocontainer,,,PATCH,false
+org.picocontainer:picocontainer,2.15,2.15.2,org.picocontainer.paranamer.Paranamer,lookupParameterNames,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.picocontainer:picocontainer,,,PATCH,false
+org.picocontainer:picocontainer,2.15,2.15.2,org.picocontainer.paranamer.Paranamer,lookupParameterNames,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.picocontainer:picocontainer,,,PATCH,false
+org.picocontainer:picocontainer,2.15,2.15.2,org.picocontainer.paranamer.Paranamer,lookupParameterNames,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.picocontainer:picocontainer,,,PATCH,false
+com.google.code.gson:gson,2.10.1,2.13.2,com.google.gson.internal.$Gson$Preconditions,com.google.gson.internal.$Gson$Preconditions,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,com.google.code.gson:gson,,,MINOR,false
+com.google.code.gson:gson,2.10.1,2.13.2,com.google.gson.internal.$Gson$Preconditions,checkArgument,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,com.google.code.gson:gson,,,MINOR,false
+com.google.code.gson:gson,2.10.1,2.13.2,com.google.gson.internal.$Gson$Preconditions,checkNotNull,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,false,1,com.google.code.gson:gson,,,MINOR,false
+com.google.code.gson:gson,2.10.1,2.13.2,com.google.gson.internal.$Gson$Types,com.google.gson.internal.$Gson$Types,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,com.google.code.gson:gson,,,MINOR,false
+com.google.code.gson:gson,2.10.1,2.13.2,com.google.gson.internal.$Gson$Types,arrayOf,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,com.google.code.gson:gson,,,MINOR,false
+com.google.code.gson:gson,2.10.1,2.13.2,com.google.gson.internal.$Gson$Types,canonicalize,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,com.google.code.gson:gson,,,MINOR,false
+com.google.code.gson:gson,2.10.1,2.13.2,com.google.gson.internal.$Gson$Types,equals,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,com.google.code.gson:gson,,,MINOR,false
+com.google.code.gson:gson,2.10.1,2.13.2,com.google.gson.internal.$Gson$Types,getArrayComponentType,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,com.google.code.gson:gson,,,MINOR,false
+com.google.code.gson:gson,2.10.1,2.13.2,com.google.gson.internal.$Gson$Types,getCollectionElementType,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,com.google.code.gson:gson,,,MINOR,false
+com.google.code.gson:gson,2.10.1,2.13.2,com.google.gson.internal.$Gson$Types,getMapKeyAndValueTypes,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,com.google.code.gson:gson,,,MINOR,false
+com.google.code.gson:gson,2.10.1,2.13.2,com.google.gson.internal.$Gson$Types,getRawType,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,com.google.code.gson:gson,,,MINOR,false
+com.google.code.gson:gson,2.10.1,2.13.2,com.google.gson.internal.$Gson$Types,newParameterizedTypeWithOwner,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,com.google.code.gson:gson,,,MINOR,false
+com.google.code.gson:gson,2.10.1,2.13.2,com.google.gson.internal.$Gson$Types,resolve,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,com.google.code.gson:gson,,,MINOR,false
+com.google.code.gson:gson,2.10.1,2.13.2,com.google.gson.internal.$Gson$Types,subtypeOf,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,com.google.code.gson:gson,,,MINOR,false
+com.google.code.gson:gson,2.10.1,2.13.2,com.google.gson.internal.$Gson$Types,supertypeOf,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,com.google.code.gson:gson,,,MINOR,false
+com.google.code.gson:gson,2.10.1,2.13.2,com.google.gson.internal.$Gson$Types,typeToString,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,com.google.code.gson:gson,,,MINOR,false
+com.google.code.gson:gson,2.10.1,2.13.2,com.google.gson.internal.bind.DateTypeAdapter,com.google.gson.internal.bind.DateTypeAdapter,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,com.google.code.gson:gson,,,MINOR,false
+com.google.code.gson:gson,2.10.1,2.13.2,com.google.gson.internal.bind.DateTypeAdapter,read,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,com.google.code.gson:gson,,,MINOR,false
+com.google.code.gson:gson,2.10.1,2.13.2,com.google.gson.internal.bind.DateTypeAdapter,read,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,com.google.code.gson:gson,,,MINOR,false
+com.google.code.gson:gson,2.10.1,2.13.2,com.google.gson.internal.bind.DateTypeAdapter,write,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,com.google.code.gson:gson,,,MINOR,false
+com.google.code.gson:gson,2.10.1,2.13.2,com.google.gson.internal.bind.DateTypeAdapter,write,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,com.google.code.gson:gson,,,MINOR,false
+com.google.code.gson:gson,2.10.1,2.13.2,com.google.gson.internal.bind.DateTypeAdapter,FACTORY,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,com.google.code.gson:gson,,,MINOR,false
+com.google.code.gson:gson,2.10.1,2.13.2,com.google.gson.internal.bind.DateTypeAdapter,DateTypeAdapter,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,com.google.code.gson:gson,,,MINOR,false
+com.google.code.gson:gson,2.10.1,2.13.2,com.google.gson.internal.bind.DefaultDateTypeAdapter$DateType,createAdapterFactory,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,com.google.code.gson:gson,,,MINOR,false
+com.google.code.gson:gson,2.10.1,2.13.2,com.google.gson.internal.bind.DefaultDateTypeAdapter$DateType,createDefaultsAdapterFactory,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,com.google.code.gson:gson,,,MINOR,false
+com.google.code.gson:gson,2.10.1,2.13.2,com.google.gson.internal.bind.util.ISO8601Utils,ISO8601Utils,CONSTRUCTOR_CHANGE,CONSTRUCTOR_LESS_ACCESSIBLE,false,false,false,1,com.google.code.gson:gson,,,MINOR,false
+com.google.code.gson:gson,2.10.1,2.13.2,com.google.gson.internal.PreJava9DateFormatProvider,getUSDateFormat,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,com.google.code.gson:gson,,,MINOR,false
+com.google.code.gson:gson,2.10.1,2.13.2,com.google.gson.internal.PreJava9DateFormatProvider,getUSDateTimeFormat,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,com.google.code.gson:gson,,,MINOR,false
+com.google.code.gson:gson,2.10.1,2.13.2,com.google.gson.internal.PreJava9DateFormatProvider,PreJava9DateFormatProvider,CONSTRUCTOR_CHANGE,CONSTRUCTOR_LESS_ACCESSIBLE,false,false,false,1,com.google.code.gson:gson,,,MINOR,false
+org.jetbrains.kotlin:kotlin-stdlib,1.8.0,2.2.0,kotlin.collections.AbstractIterator$WhenMappings,kotlin.collections.AbstractIterator$WhenMappings,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,PATCH,false
+org.jetbrains.kotlin:kotlin-stdlib,1.8.0,2.2.0,kotlin.collections.AbstractIterator$WhenMappings,$EnumSwitchMapping$0,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,PATCH,false
+org.jetbrains.kotlin:kotlin-stdlib,1.8.0,2.2.0,kotlin.collections.AbstractMap,access$toString,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,PATCH,false
+org.jetbrains.kotlin:kotlin-stdlib,1.8.0,2.2.0,kotlin.collections.ArrayDeque$Companion,newCapacity$kotlin_stdlib,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,PATCH,false
+org.jetbrains.kotlin:kotlin-stdlib,1.8.0,2.2.0,kotlin.collections.builders.ListBuilder,access$getArray$p,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,PATCH,false
+org.jetbrains.kotlin:kotlin-stdlib,1.8.0,2.2.0,kotlin.collections.builders.ListBuilder,access$getOffset$p,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,PATCH,false
+org.jetbrains.kotlin:kotlin-stdlib,1.8.0,2.2.0,kotlin.collections.builders.ListBuilder$BuilderSubList,kotlin.collections.builders.ListBuilder$BuilderSubList,CLASS_CHANGE,INTERFACE_ADDED; METHOD_ABSTRACT_ADDED_IN_IMPLEMENTED_INTERFACE; ANNOTATION_ADDED,true,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,PATCH,false
+org.jetbrains.kotlin:kotlin-stdlib,1.8.0,2.2.0,kotlin.collections.builders.ListBuilderKt,access$subarrayContentToString,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,PATCH,false
+org.jetbrains.kotlin:kotlin-stdlib,1.8.0,2.2.0,kotlin.collections.builders.MapBuilder,access$removeKeyAt,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,PATCH,false
+org.jetbrains.kotlin:kotlin-stdlib,1.8.0,2.2.0,kotlin.collections.builders.MapBuilder,removeKey$kotlin_stdlib,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,PATCH,false
+org.jetbrains.kotlin:kotlin-stdlib,1.8.0,2.2.0,kotlin.io.FilePathComponents,copy,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,PATCH,false
+org.jetbrains.kotlin:kotlin-stdlib,1.8.0,2.2.0,kotlin.io.FilePathComponents,copy$default,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,PATCH,false
+org.jetbrains.kotlin:kotlin-stdlib,1.8.0,2.2.0,kotlin.jvm.internal.ClassReference,access$getClassFqNames$cp,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,PATCH,false
+org.jetbrains.kotlin:kotlin-stdlib,1.8.0,2.2.0,kotlin.jvm.internal.ClassReference,access$getSimpleNames$cp,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,PATCH,false
+org.jetbrains.kotlin:kotlin-stdlib,1.8.0,2.2.0,kotlin.jvm.internal.TypeReference,access$asString,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,PATCH,false
+org.jetbrains.kotlin:kotlin-stdlib,1.8.0,2.2.0,kotlin.SubclassOptInRequired,markerClass,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,PATCH,false
+org.jetbrains.kotlin:kotlin-stdlib,1.8.0,2.2.0,kotlin.time.Duration,getInDays$annotations,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,PATCH,false
+org.jetbrains.kotlin:kotlin-stdlib,1.8.0,2.2.0,kotlin.time.Duration,getInDays-impl,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,PATCH,false
+org.jetbrains.kotlin:kotlin-stdlib,1.8.0,2.2.0,kotlin.time.Duration,getInHours$annotations,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,PATCH,false
+org.jetbrains.kotlin:kotlin-stdlib,1.8.0,2.2.0,kotlin.time.Duration,getInHours-impl,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,PATCH,false
+org.jetbrains.kotlin:kotlin-stdlib,1.8.0,2.2.0,kotlin.time.Duration,getInMicroseconds$annotations,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,PATCH,false
+org.jetbrains.kotlin:kotlin-stdlib,1.8.0,2.2.0,kotlin.time.Duration,getInMicroseconds-impl,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,PATCH,false
+org.jetbrains.kotlin:kotlin-stdlib,1.8.0,2.2.0,kotlin.time.Duration,getInMilliseconds$annotations,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,PATCH,false
+org.jetbrains.kotlin:kotlin-stdlib,1.8.0,2.2.0,kotlin.time.Duration,getInMilliseconds-impl,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,PATCH,false
+org.jetbrains.kotlin:kotlin-stdlib,1.8.0,2.2.0,kotlin.time.Duration,getInMinutes$annotations,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,PATCH,false
+org.jetbrains.kotlin:kotlin-stdlib,1.8.0,2.2.0,kotlin.time.Duration,getInMinutes-impl,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,PATCH,false
+org.jetbrains.kotlin:kotlin-stdlib,1.8.0,2.2.0,kotlin.time.Duration,getInNanoseconds$annotations,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,PATCH,false
+org.jetbrains.kotlin:kotlin-stdlib,1.8.0,2.2.0,kotlin.time.Duration,getInNanoseconds-impl,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,PATCH,false
+org.jetbrains.kotlin:kotlin-stdlib,1.8.0,2.2.0,kotlin.time.Duration,getInSeconds$annotations,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,PATCH,false
+org.jetbrains.kotlin:kotlin-stdlib,1.8.0,2.2.0,kotlin.time.Duration,getInSeconds-impl,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,PATCH,false
+org.jetbrains.kotlin:kotlin-stdlib,1.8.0,2.2.0,kotlin.time.Duration,toLongMilliseconds-impl,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,PATCH,false
+org.jetbrains.kotlin:kotlin-stdlib,1.8.0,2.2.0,kotlin.time.Duration,toLongNanoseconds-impl,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,PATCH,false
+org.jetbrains.kotlin:kotlin-stdlib,1.8.0,2.2.0,kotlin.time.Duration$Companion,days-UwyO8pc,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,PATCH,false
+org.jetbrains.kotlin:kotlin-stdlib,1.8.0,2.2.0,kotlin.time.Duration$Companion,days-UwyO8pc,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,PATCH,false
+org.jetbrains.kotlin:kotlin-stdlib,1.8.0,2.2.0,kotlin.time.Duration$Companion,days-UwyO8pc,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,PATCH,false
+org.jetbrains.kotlin:kotlin-stdlib,1.8.0,2.2.0,kotlin.time.Duration$Companion,hours-UwyO8pc,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,PATCH,false
+org.jetbrains.kotlin:kotlin-stdlib,1.8.0,2.2.0,kotlin.time.Duration$Companion,hours-UwyO8pc,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,PATCH,false
+org.jetbrains.kotlin:kotlin-stdlib,1.8.0,2.2.0,kotlin.time.Duration$Companion,hours-UwyO8pc,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,PATCH,false
+org.jetbrains.kotlin:kotlin-stdlib,1.8.0,2.2.0,kotlin.time.Duration$Companion,microseconds-UwyO8pc,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,PATCH,false
+org.jetbrains.kotlin:kotlin-stdlib,1.8.0,2.2.0,kotlin.time.Duration$Companion,microseconds-UwyO8pc,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,PATCH,false
+org.jetbrains.kotlin:kotlin-stdlib,1.8.0,2.2.0,kotlin.time.Duration$Companion,microseconds-UwyO8pc,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,PATCH,false
+org.jetbrains.kotlin:kotlin-stdlib,1.8.0,2.2.0,kotlin.time.Duration$Companion,milliseconds-UwyO8pc,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,PATCH,false
+org.jetbrains.kotlin:kotlin-stdlib,1.8.0,2.2.0,kotlin.time.Duration$Companion,milliseconds-UwyO8pc,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,PATCH,false
+org.jetbrains.kotlin:kotlin-stdlib,1.8.0,2.2.0,kotlin.time.Duration$Companion,milliseconds-UwyO8pc,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,PATCH,false
+org.jetbrains.kotlin:kotlin-stdlib,1.8.0,2.2.0,kotlin.time.Duration$Companion,minutes-UwyO8pc,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,PATCH,false
+org.jetbrains.kotlin:kotlin-stdlib,1.8.0,2.2.0,kotlin.time.Duration$Companion,minutes-UwyO8pc,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,PATCH,false
+org.jetbrains.kotlin:kotlin-stdlib,1.8.0,2.2.0,kotlin.time.Duration$Companion,minutes-UwyO8pc,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,PATCH,false
+org.jetbrains.kotlin:kotlin-stdlib,1.8.0,2.2.0,kotlin.time.Duration$Companion,nanoseconds-UwyO8pc,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,PATCH,false
+org.jetbrains.kotlin:kotlin-stdlib,1.8.0,2.2.0,kotlin.time.Duration$Companion,nanoseconds-UwyO8pc,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,PATCH,false
+org.jetbrains.kotlin:kotlin-stdlib,1.8.0,2.2.0,kotlin.time.Duration$Companion,nanoseconds-UwyO8pc,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,PATCH,false
+org.jetbrains.kotlin:kotlin-stdlib,1.8.0,2.2.0,kotlin.time.Duration$Companion,seconds-UwyO8pc,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,PATCH,false
+org.jetbrains.kotlin:kotlin-stdlib,1.8.0,2.2.0,kotlin.time.Duration$Companion,seconds-UwyO8pc,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,PATCH,false
+org.jetbrains.kotlin:kotlin-stdlib,1.8.0,2.2.0,kotlin.time.Duration$Companion,seconds-UwyO8pc,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,PATCH,false
+org.jetbrains.kotlin:kotlin-stdlib,1.8.0,2.2.0,kotlin.time.DurationJvmKt,formatUpToDecimals,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,PATCH,false
+org.jetbrains.kotlin:kotlin-stdlib,1.8.0,2.2.0,kotlin.time.DurationKt,getDays,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,PATCH,false
+org.jetbrains.kotlin:kotlin-stdlib,1.8.0,2.2.0,kotlin.time.DurationKt,getDays,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,PATCH,false
+org.jetbrains.kotlin:kotlin-stdlib,1.8.0,2.2.0,kotlin.time.DurationKt,getDays,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,PATCH,false
+org.jetbrains.kotlin:kotlin-stdlib,1.8.0,2.2.0,kotlin.time.DurationKt,getDays$annotations,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,PATCH,false
+org.jetbrains.kotlin:kotlin-stdlib,1.8.0,2.2.0,kotlin.time.DurationKt,getDays$annotations,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,PATCH,false
+org.jetbrains.kotlin:kotlin-stdlib,1.8.0,2.2.0,kotlin.time.DurationKt,getDays$annotations,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,PATCH,false
+org.jetbrains.kotlin:kotlin-stdlib,1.8.0,2.2.0,kotlin.time.DurationKt,getHours,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,PATCH,false
+org.jetbrains.kotlin:kotlin-stdlib,1.8.0,2.2.0,kotlin.time.DurationKt,getHours,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,PATCH,false
+org.jetbrains.kotlin:kotlin-stdlib,1.8.0,2.2.0,kotlin.time.DurationKt,getHours,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,PATCH,false
+org.jetbrains.kotlin:kotlin-stdlib,1.8.0,2.2.0,kotlin.time.DurationKt,getHours$annotations,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,PATCH,false
+org.jetbrains.kotlin:kotlin-stdlib,1.8.0,2.2.0,kotlin.time.DurationKt,getHours$annotations,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,PATCH,false
+org.jetbrains.kotlin:kotlin-stdlib,1.8.0,2.2.0,kotlin.time.DurationKt,getHours$annotations,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,PATCH,false
+org.jetbrains.kotlin:kotlin-stdlib,1.8.0,2.2.0,kotlin.time.DurationKt,getMicroseconds,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,PATCH,false
+org.jetbrains.kotlin:kotlin-stdlib,1.8.0,2.2.0,kotlin.time.DurationKt,getMicroseconds,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,PATCH,false
+org.jetbrains.kotlin:kotlin-stdlib,1.8.0,2.2.0,kotlin.time.DurationKt,getMicroseconds,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,PATCH,false
+org.jetbrains.kotlin:kotlin-stdlib,1.8.0,2.2.0,kotlin.time.DurationKt,getMicroseconds$annotations,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,PATCH,false
+org.jetbrains.kotlin:kotlin-stdlib,1.8.0,2.2.0,kotlin.time.DurationKt,getMicroseconds$annotations,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,PATCH,false
+org.jetbrains.kotlin:kotlin-stdlib,1.8.0,2.2.0,kotlin.time.DurationKt,getMicroseconds$annotations,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,PATCH,false
+org.jetbrains.kotlin:kotlin-stdlib,1.8.0,2.2.0,kotlin.time.DurationKt,getMilliseconds,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,PATCH,false
+org.jetbrains.kotlin:kotlin-stdlib,1.8.0,2.2.0,kotlin.time.DurationKt,getMilliseconds,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,PATCH,false
+org.jetbrains.kotlin:kotlin-stdlib,1.8.0,2.2.0,kotlin.time.DurationKt,getMilliseconds,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,PATCH,false
+org.jetbrains.kotlin:kotlin-stdlib,1.8.0,2.2.0,kotlin.time.DurationKt,getMilliseconds$annotations,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,PATCH,false
+org.jetbrains.kotlin:kotlin-stdlib,1.8.0,2.2.0,kotlin.time.DurationKt,getMilliseconds$annotations,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,PATCH,false
+org.jetbrains.kotlin:kotlin-stdlib,1.8.0,2.2.0,kotlin.time.DurationKt,getMilliseconds$annotations,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,PATCH,false
+org.jetbrains.kotlin:kotlin-stdlib,1.8.0,2.2.0,kotlin.time.DurationKt,getMinutes,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,PATCH,false
+org.jetbrains.kotlin:kotlin-stdlib,1.8.0,2.2.0,kotlin.time.DurationKt,getMinutes,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,PATCH,false
+org.jetbrains.kotlin:kotlin-stdlib,1.8.0,2.2.0,kotlin.time.DurationKt,getMinutes,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,PATCH,false
+org.jetbrains.kotlin:kotlin-stdlib,1.8.0,2.2.0,kotlin.time.DurationKt,getMinutes$annotations,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,PATCH,false
+org.jetbrains.kotlin:kotlin-stdlib,1.8.0,2.2.0,kotlin.time.DurationKt,getMinutes$annotations,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,PATCH,false
+org.jetbrains.kotlin:kotlin-stdlib,1.8.0,2.2.0,kotlin.time.DurationKt,getMinutes$annotations,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,PATCH,false
+org.jetbrains.kotlin:kotlin-stdlib,1.8.0,2.2.0,kotlin.time.DurationKt,getNanoseconds,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,PATCH,false
+org.jetbrains.kotlin:kotlin-stdlib,1.8.0,2.2.0,kotlin.time.DurationKt,getNanoseconds,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,PATCH,false
+org.jetbrains.kotlin:kotlin-stdlib,1.8.0,2.2.0,kotlin.time.DurationKt,getNanoseconds,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,PATCH,false
+org.jetbrains.kotlin:kotlin-stdlib,1.8.0,2.2.0,kotlin.time.DurationKt,getNanoseconds$annotations,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,PATCH,false
+org.jetbrains.kotlin:kotlin-stdlib,1.8.0,2.2.0,kotlin.time.DurationKt,getNanoseconds$annotations,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,PATCH,false
+org.jetbrains.kotlin:kotlin-stdlib,1.8.0,2.2.0,kotlin.time.DurationKt,getNanoseconds$annotations,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,PATCH,false
+org.jetbrains.kotlin:kotlin-stdlib,1.8.0,2.2.0,kotlin.time.DurationKt,getSeconds,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,PATCH,false
+org.jetbrains.kotlin:kotlin-stdlib,1.8.0,2.2.0,kotlin.time.DurationKt,getSeconds,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,PATCH,false
+org.jetbrains.kotlin:kotlin-stdlib,1.8.0,2.2.0,kotlin.time.DurationKt,getSeconds,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,PATCH,false
+org.jetbrains.kotlin:kotlin-stdlib,1.8.0,2.2.0,kotlin.time.DurationKt,getSeconds$annotations,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,PATCH,false
+org.jetbrains.kotlin:kotlin-stdlib,1.8.0,2.2.0,kotlin.time.DurationKt,getSeconds$annotations,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,PATCH,false
+org.jetbrains.kotlin:kotlin-stdlib,1.8.0,2.2.0,kotlin.time.DurationKt,getSeconds$annotations,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,PATCH,false
+org.jetbrains.kotlin:kotlin-stdlib,1.8.0,2.2.0,kotlin.time.LongSaturatedMathKt,saturatingAdd-pTJri5U,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,PATCH,false
+org.jetbrains.kotlin:kotlin-stdlib,1.8.0,2.2.0,kotlin.time.LongSaturatedMathKt,saturatingDiff,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,PATCH,false
+org.jetbrains.kotlin:kotlin-stdlib,1.8.0,2.2.0,kotlin.time.LongSaturatedMathKt,saturatingOriginsDiff,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,PATCH,false
+org.jetbrains.kotlin:kotlin-stdlib,1.8.0,2.2.0,kotlin.UnsignedKt,ulongToString,METHOD_CHANGE,METHOD_LESS_ACCESSIBLE,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,PATCH,false
+com.squareup.okio:okio-jvm,3.4.0,3.16.0,okio.-Base64,getBASE64$annotations,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,MINOR,false
+com.squareup.okio:okio-jvm,3.4.0,3.16.0,okio.-Base64,getBASE64_URL_SAFE$annotations,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,MINOR,false
+com.squareup.okio:okio-jvm,3.4.0,3.16.0,okio.-SegmentedByteString,getDEFAULT__new_UnsafeCursor$annotations,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,MINOR,false
+com.squareup.okio:okio-jvm,3.4.0,3.16.0,okio.AsyncTimeout,access$getHead$cp,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,MINOR,false
+com.squareup.okio:okio-jvm,3.4.0,3.16.0,okio.AsyncTimeout,access$getInQueue$p,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,MINOR,false
+com.squareup.okio:okio-jvm,3.4.0,3.16.0,okio.AsyncTimeout,access$getNext$p,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,MINOR,false
+com.squareup.okio:okio-jvm,3.4.0,3.16.0,okio.AsyncTimeout,access$remainingNanos,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,MINOR,false
+com.squareup.okio:okio-jvm,3.4.0,3.16.0,okio.AsyncTimeout,access$setHead$cp,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,MINOR,false
+com.squareup.okio:okio-jvm,3.4.0,3.16.0,okio.AsyncTimeout,access$setInQueue$p,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,MINOR,false
+com.squareup.okio:okio-jvm,3.4.0,3.16.0,okio.AsyncTimeout,access$setNext$p,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,MINOR,false
+com.squareup.okio:okio-jvm,3.4.0,3.16.0,okio.AsyncTimeout,Companion,FIELD_CHANGE,FIELD_LESS_ACCESSIBLE,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,MINOR,false
+com.squareup.okio:okio-jvm,3.4.0,3.16.0,okio.AsyncTimeout$Companion,okio.AsyncTimeout$Companion,CLASS_CHANGE,CLASS_NO_LONGER_PUBLIC; ANNOTATION_MODIFIED; CLASS_LESS_ACCESSIBLE,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,MINOR,false
+com.squareup.okio:okio-jvm,3.4.0,3.16.0,okio.AsyncTimeout$Companion,access$cancelScheduledTimeout,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,MINOR,false
+com.squareup.okio:okio-jvm,3.4.0,3.16.0,okio.AsyncTimeout$Companion,access$scheduleTimeout,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,MINOR,false
+com.squareup.okio:okio-jvm,3.4.0,3.16.0,okio.AsyncTimeout$Companion,awaitTimeout$okio,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,MINOR,false
+com.squareup.okio:okio-jvm,3.4.0,3.16.0,okio.BufferedSource,indexOf,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,MINOR,false
+com.squareup.okio:okio-jvm,3.4.0,3.16.0,okio.BufferedSource,select,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,MINOR,false
+com.squareup.okio:okio-jvm,3.4.0,3.16.0,okio.internal.-Buffer,commonIndexOf,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,MINOR,false
+com.squareup.okio:okio-jvm,3.4.0,3.16.0,okio.internal.-Buffer,getHEX_DIGIT_BYTES$annotations,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,MINOR,false
+com.squareup.okio:okio-jvm,3.4.0,3.16.0,okio.internal.-ByteString,access$decodeHexDigit,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,MINOR,false
+com.squareup.okio:okio-jvm,3.4.0,3.16.0,okio.internal.-ByteString,commonDecodeHex,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,MINOR,false
+com.squareup.okio:okio-jvm,3.4.0,3.16.0,okio.internal.-ByteString,getHEX_DIGIT_CHARS$annotations,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,MINOR,false
+com.squareup.okio:okio-jvm,3.4.0,3.16.0,okio.internal.-RealBufferedSource,commonIndexOf,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,MINOR,false
+com.squareup.okio:okio-jvm,3.4.0,3.16.0,okio.internal.ResourceFileSystem,access$getCompanion$p,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,MINOR,false
+com.squareup.okio:okio-jvm,3.4.0,3.16.0,okio.internal.ResourceFileSystem,ResourceFileSystem,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,MINOR,false
+com.squareup.okio:okio-jvm,3.4.0,3.16.0,okio.internal.ZipEntry,getLastModifiedAtMillis,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,MINOR,false
+com.squareup.okio:okio-jvm,3.4.0,3.16.0,okio.internal.ZipEntry,ZipEntry,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,MINOR,false
+com.squareup.okio:okio-jvm,3.4.0,3.16.0,okio.internal.ZipEntry,ZipEntry,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,MINOR,false
+com.squareup.okio:okio-jvm,3.4.0,3.16.0,okio.internal.ZipFilesKt,readEntry,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,MINOR,false
+com.squareup.okio:okio-jvm,3.4.0,3.16.0,okio.internal.ZipFilesKt,readLocalHeader,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,MINOR,false
+com.squareup.okio:okio-jvm,3.4.0,3.16.0,okio.Okio,isAndroidGetsocknameError,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,MINOR,false
+com.squareup.okio:okio-jvm,3.4.0,3.16.0,okio.TypedOptions,okio.TypedOptions,CLASS_CHANGE,INTERFACE_ADDED; METHOD_ABSTRACT_ADDED_IN_IMPLEMENTED_INTERFACE; ANNOTATION_ADDED,true,false,true,2,com.squareup.okio:okio,3.4.0,3.16.0,MINOR,false
+commons-io:commons-io,2.16.1,2.20.0,org.apache.commons.io.output.AbstractByteArrayOutputStream,org.apache.commons.io.output.AbstractByteArrayOutputStream,CLASS_CHANGE,CLASS_GENERIC_TEMPLATE_CHANGED,true,false,true,2,org.apache.commons:commons-csv,1.11.0,1.14.1,MINOR,false

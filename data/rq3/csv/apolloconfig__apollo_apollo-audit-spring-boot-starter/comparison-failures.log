@@ -1,0 +1,7 @@
+=== Comparison Failure Log ===
+[2025-09-22 15:07:05] org.springframework.boot:spring-boot-autoconfigure:2.7.11 -> org.springframework.boot:spring-boot-autoconfigure:2.7.18 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.boot:spring-boot-autoconfigure
+
+=== Summary ===
+Total comparisons: 20
+Failures: 1
+Success rate: 95.00%

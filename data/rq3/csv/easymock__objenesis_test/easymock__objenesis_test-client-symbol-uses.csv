@@ -1,0 +1,7 @@
+Library_Name,Symbol_Type,Class_Name,Symbol_Name,Usage_Location,Line_Number
+JDK:java.base:N/A:N/A,ObjectCreationExpr,java.lang.RuntimeException,RuntimeException,C:\Users\tyin363\Documents\repos\easymock__objenesis\test\src\main\java\org\objenesis\test\EmptyClass.java,28
+JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.util.Date,Date,C:\Users\tyin363\Documents\repos\easymock__objenesis\test\src\main\java\org\objenesis\test\EmptyClassBis.java,25
+JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.lang.RuntimeException,RuntimeException,C:\Users\tyin363\Documents\repos\easymock__objenesis\test\src\main\java\org\objenesis\test\EmptyClassBis.java,28
+JDK:java.base:N/A:N/A,ObjectCreationExpr,java.lang.RuntimeException,RuntimeException,C:\Users\tyin363\Documents\repos\easymock__objenesis\test\src\main\java\org\objenesis\test\EmptyClassBis.java,28
+JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.lang.RuntimeException,RuntimeException,C:\Users\tyin363\Documents\repos\easymock__objenesis\test\src\main\java\org\objenesis\test\EmptyClass.java,28
+JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.util.Date,Date,C:\Users\tyin363\Documents\repos\easymock__objenesis\test\src\main\java\org\objenesis\test\EmptyClass.java,25

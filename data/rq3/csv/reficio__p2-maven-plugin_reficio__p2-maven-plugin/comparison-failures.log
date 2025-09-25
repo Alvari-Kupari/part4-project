@@ -1,0 +1,8 @@
+=== Comparison Failure Log ===
+[2025-09-23 08:19:37] org.apache.groovy:groovy:4.0.6 -> org.apache.groovy:groovy:4.0.28 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.groovy:groovy
+[2025-09-23 08:19:38] org.assertj:assertj-core:3.21.0 -> org.assertj:assertj-core:3.27.6 : Failed to compare JAR files: JAPICMP comparison failed for org.assertj:assertj-core
+
+=== Summary ===
+Total comparisons: 69
+Failures: 2
+Success rate: 97.10%

@@ -1,0 +1,12 @@
+Library_Name,Old_Version,New_Version,Class_Name,Member_Name,Change_Type,Description,Binary_Compatible,Source_Compatible,Is_Transitive,Depth,Direct_Parent_Dependency,Direct_Dependency_Old_Version,Direct_Dependency_New_Version,Release_Type,Is_Used_In_Client
+org.tukaani:xz,1.8,1.10,org.tukaani.xz.ARMOptions,org.tukaani.xz.ARMOptions,CLASS_CHANGE,CLASS_NOW_FINAL,false,false,false,1,org.tukaani:xz,,,MINOR,false
+org.tukaani:xz,1.8,1.10,org.tukaani.xz.ARMThumbOptions,org.tukaani.xz.ARMThumbOptions,CLASS_CHANGE,CLASS_NOW_FINAL,false,false,false,1,org.tukaani:xz,,,MINOR,false
+org.tukaani:xz,1.8,1.10,org.tukaani.xz.DeltaOptions,org.tukaani.xz.DeltaOptions,CLASS_CHANGE,CLASS_NOW_FINAL,false,false,false,1,org.tukaani:xz,,,MINOR,false
+org.tukaani:xz,1.8,1.10,org.tukaani.xz.IA64Options,org.tukaani.xz.IA64Options,CLASS_CHANGE,CLASS_NOW_FINAL,false,false,false,1,org.tukaani:xz,,,MINOR,false
+org.tukaani:xz,1.8,1.10,org.tukaani.xz.index.IndexDecoder,org.tukaani.xz.index.IndexDecoder,CLASS_CHANGE,CLASS_NOW_FINAL,false,false,false,1,org.tukaani:xz,,,MINOR,false
+org.tukaani:xz,1.8,1.10,org.tukaani.xz.LZMA2Options,org.tukaani.xz.LZMA2Options,CLASS_CHANGE,CLASS_NOW_FINAL,false,false,false,1,org.tukaani:xz,,,MINOR,false
+org.tukaani:xz,1.8,1.10,org.tukaani.xz.PowerPCOptions,org.tukaani.xz.PowerPCOptions,CLASS_CHANGE,CLASS_NOW_FINAL,false,false,false,1,org.tukaani:xz,,,MINOR,false
+org.tukaani:xz,1.8,1.10,org.tukaani.xz.SPARCOptions,org.tukaani.xz.SPARCOptions,CLASS_CHANGE,CLASS_NOW_FINAL,false,false,false,1,org.tukaani:xz,,,MINOR,false
+org.tukaani:xz,1.8,1.10,org.tukaani.xz.X86Options,org.tukaani.xz.X86Options,CLASS_CHANGE,CLASS_NOW_FINAL,false,false,false,1,org.tukaani:xz,,,MINOR,false
+org.junit.platform:junit-platform-commons,1.13.1,1.13.4,org.junit.platform.commons.util.ReflectionUtils,isNestedClassPresent,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.junit.jupiter:junit-jupiter-engine,5.13.1,5.13.4,PATCH,false
+org.junit.platform:junit-platform-commons,1.13.1,1.13.4,org.junit.platform.commons.util.ReflectionUtils,isNestedClassPresent,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.junit.platform:junit-platform-launcher,1.13.1,1.13.4,PATCH,false

@@ -1,0 +1,7 @@
+=== Comparison Failure Log ===
+[2025-09-22 20:09:56] org.dromara.mica-mqtt:mica-mqtt-codec:2.5.3 -> org.dromara.mica-mqtt:mica-mqtt-codec:2.5.4 : Failed to compare JAR files: JAPICMP comparison failed for org.dromara.mica-mqtt:mica-mqtt-codec
+
+=== Summary ===
+Total comparisons: 8
+Failures: 1
+Success rate: 87.50%

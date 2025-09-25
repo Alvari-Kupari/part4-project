@@ -1,0 +1,9 @@
+=== Comparison Failure Log ===
+[2025-09-22 14:59:21] org.apache.curator:curator-test:5.7.1 -> org.apache.curator:curator-test:5.9.0 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.curator:curator-test
+[2025-09-22 14:59:21] org.projectlombok:lombok:1.18.30 -> org.projectlombok:lombok:1.18.42 : Failed to compare JAR files: JAPICMP comparison failed for org.projectlombok:lombok
+[2025-09-22 14:59:22] ch.qos.logback:logback-classic:1.2.13 -> ch.qos.logback:logback-classic:1.5.18 : Failed to compare JAR files: JAPICMP comparison failed for ch.qos.logback:logback-classic
+
+=== Summary ===
+Total comparisons: 26
+Failures: 3
+Success rate: 88.46%

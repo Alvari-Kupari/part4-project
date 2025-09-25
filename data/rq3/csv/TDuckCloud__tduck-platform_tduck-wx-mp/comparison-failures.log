@@ -1,0 +1,7 @@
+=== Comparison Failure Log ===
+[2025-09-23 12:46:32] com.github.binarywang:weixin-java-mp:4.1.0 -> com.github.binarywang:weixin-java-mp:4.7.7.B : Failed to compare JAR files: JAPICMP comparison failed for com.github.binarywang:weixin-java-mp
+
+=== Summary ===
+Total comparisons: 1
+Failures: 1
+Success rate: 0.00%

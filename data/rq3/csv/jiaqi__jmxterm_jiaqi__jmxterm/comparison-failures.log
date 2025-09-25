@@ -1,0 +1,7 @@
+=== Comparison Failure Log ===
+[2025-09-23 00:29:08] net.bytebuddy:byte-buddy:1.14.11 -> net.bytebuddy:byte-buddy:1.17.7 : Failed to compare JAR files: JAPICMP comparison failed for net.bytebuddy:byte-buddy
+
+=== Summary ===
+Total comparisons: 53
+Failures: 1
+Success rate: 98.11%

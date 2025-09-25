@@ -1,0 +1,11 @@
+=== Comparison Failure Log ===
+[2025-09-23 05:37:52] org.springframework:spring-context:6.2.7 -> org.springframework:spring-context:6.2.11 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-context
+[2025-09-23 05:37:52] org.springframework.boot:spring-boot:3.5.0 -> org.springframework.boot:spring-boot:3.5.6 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.boot:spring-boot
+[2025-09-23 05:37:58] org.apache.solr:solr-solrj:9.8.1 -> org.apache.solr:solr-solrj:9.9.0 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.solr:solr-solrj
+[2025-09-23 05:37:58] org.projectlombok:lombok:1.18.38 -> org.projectlombok:lombok:1.18.42 : Failed to compare JAR files: JAPICMP comparison failed for org.projectlombok:lombok
+[2025-09-23 05:38:11] org.testcontainers:solr:1.17.6 -> org.testcontainers:solr:1.21.3 : Failed to compare JAR files: JAPICMP comparison failed for org.testcontainers:solr
+
+=== Summary ===
+Total comparisons: 28
+Failures: 5
+Success rate: 82.14%

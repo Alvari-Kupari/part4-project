@@ -1,0 +1,8 @@
+=== Comparison Failure Log ===
+[2025-09-23 07:55:36] io.github.bonigarcia:webdrivermanager:6.2.0 -> io.github.bonigarcia:webdrivermanager:6.3.2 : Failed to compare JAR files: JAPICMP comparison failed for io.github.bonigarcia:webdrivermanager
+[2025-09-23 07:55:38] net.bytebuddy:byte-buddy:1.17.6 -> net.bytebuddy:byte-buddy:1.17.7 : Failed to compare JAR files: JAPICMP comparison failed for net.bytebuddy:byte-buddy
+
+=== Summary ===
+Total comparisons: 2
+Failures: 2
+Success rate: 0.00%

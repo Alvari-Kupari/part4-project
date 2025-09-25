@@ -1,0 +1,15 @@
+=== Comparison Failure Log ===
+[2025-09-23 14:12:37] org.springframework.boot:spring-boot-actuator-autoconfigure:3.3.1 -> org.springframework.boot:spring-boot-actuator-autoconfigure:3.5.6 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.boot:spring-boot-actuator-autoconfigure
+[2025-09-23 14:12:38] org.hibernate.validator:hibernate-validator:8.0.1.Final -> org.hibernate.validator:hibernate-validator:9.0.0.CR1 : Failed to compare JAR files: JAPICMP comparison failed for org.hibernate.validator:hibernate-validator
+[2025-09-23 14:12:39] org.thymeleaf:thymeleaf:3.1.2.RELEASE -> org.thymeleaf:thymeleaf:3.1.3.RELEASE : Failed to compare JAR files: JAPICMP comparison failed for org.thymeleaf:thymeleaf
+[2025-09-23 14:12:40] org.thymeleaf:thymeleaf-spring6:3.1.2.RELEASE -> org.thymeleaf:thymeleaf-spring6:3.1.3.RELEASE : Failed to compare JAR files: JAPICMP comparison failed for org.thymeleaf:thymeleaf-spring6
+[2025-09-23 14:12:42] org.springframework.security:spring-security-config:6.3.1 -> org.springframework.security:spring-security-config:6.5.5 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.security:spring-security-config
+[2025-09-23 14:12:43] org.springframework.security:spring-security-web:6.3.1 -> org.springframework.security:spring-security-web:6.5.5 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.security:spring-security-web
+[2025-09-23 14:12:43] org.springframework:spring-webmvc:6.1.10 -> org.springframework:spring-webmvc:6.2.11 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-webmvc
+[2025-09-23 14:12:55] org.junit.jupiter:junit-jupiter-api:5.9.3 -> org.junit.jupiter:junit-jupiter-api:5.13.4 : Failed to compare JAR files: JAPICMP comparison failed for org.junit.jupiter:junit-jupiter-api
+[2025-09-23 14:12:55] ch.qos.logback:logback-classic:1.4.12 -> ch.qos.logback:logback-classic:1.5.18 : Failed to compare JAR files: JAPICMP comparison failed for ch.qos.logback:logback-classic
+
+=== Summary ===
+Total comparisons: 152
+Failures: 9
+Success rate: 94.08%

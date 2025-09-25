@@ -1,0 +1,792 @@
+Library_Name,Old_Version,New_Version,Class_Name,Member_Name,Change_Type,Description,Binary_Compatible,Source_Compatible,Is_Transitive,Depth,Direct_Parent_Dependency,Direct_Dependency_Old_Version,Direct_Dependency_New_Version,Release_Type,Is_Used_In_Client
+org.springdoc:springdoc-openapi-starter-common,2.0.0,2.8.13,org.springdoc.api.AbstractOpenApiResource,customiseOperation,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.springdoc:springdoc-openapi-starter-common,,,MINOR,false
+org.springdoc:springdoc-openapi-starter-common,2.0.0,2.8.13,org.springdoc.api.AbstractOpenApiResource,getOpenApi,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.springdoc:springdoc-openapi-starter-common,,,MINOR,false
+org.springdoc:springdoc-openapi-starter-common,2.0.0,2.8.13,org.springdoc.api.AbstractOpenApiResource,writeJsonValue,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,org.springdoc:springdoc-openapi-starter-common,,,MINOR,false
+org.springdoc:springdoc-openapi-starter-common,2.0.0,2.8.13,org.springdoc.api.AbstractOpenApiResource,writeYamlValue,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,org.springdoc:springdoc-openapi-starter-common,,,MINOR,false
+org.springdoc:springdoc-openapi-starter-common,2.0.0,2.8.13,org.springdoc.api.AbstractOpenApiResource,AbstractOpenApiResource,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.springdoc:springdoc-openapi-starter-common,,,MINOR,false
+org.springdoc:springdoc-openapi-starter-common,2.0.0,2.8.13,org.springdoc.core.configuration.hints.SpringDocUiHints,org.springdoc.core.configuration.hints.SpringDocUiHints,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,org.springdoc:springdoc-openapi-starter-common,,,MINOR,false
+org.springdoc:springdoc-openapi-starter-common,2.0.0,2.8.13,org.springdoc.core.configuration.hints.SpringDocUiHints,registerHints,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.springdoc:springdoc-openapi-starter-common,,,MINOR,false
+org.springdoc:springdoc-openapi-starter-common,2.0.0,2.8.13,org.springdoc.core.configuration.hints.SpringDocUiHints,SpringDocUiHints,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.springdoc:springdoc-openapi-starter-common,,,MINOR,false
+org.springdoc:springdoc-openapi-starter-common,2.0.0,2.8.13,org.springdoc.core.configuration.SpringDocKotlinConfiguration,SpringDocKotlinConfiguration,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.springdoc:springdoc-openapi-starter-common,,,MINOR,false
+org.springdoc:springdoc-openapi-starter-common,2.0.0,2.8.13,org.springdoc.core.configuration.SpringDocNativeConfiguration,org.springdoc.core.configuration.SpringDocNativeConfiguration,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,false,1,org.springdoc:springdoc-openapi-starter-common,,,MINOR,false
+org.springdoc:springdoc-openapi-starter-common,2.0.0,2.8.13,org.springdoc.core.configuration.SpringDocNativeConfiguration,afterPropertiesSet,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.springdoc:springdoc-openapi-starter-common,,,MINOR,false
+org.springdoc:springdoc-openapi-starter-common,2.0.0,2.8.13,org.springdoc.core.configuration.SpringDocNativeConfiguration,SPRINGDOC_CONFIG_PROPERTIES,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.springdoc:springdoc-openapi-starter-common,,,MINOR,false
+org.springdoc:springdoc-openapi-starter-common,2.0.0,2.8.13,org.springdoc.core.configuration.SpringDocNativeConfiguration,SpringDocNativeConfiguration,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.springdoc:springdoc-openapi-starter-common,,,MINOR,false
+org.springdoc:springdoc-openapi-starter-common,2.0.0,2.8.13,org.springdoc.core.converters.ModelConverterRegistrar,ModelConverterRegistrar,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.springdoc:springdoc-openapi-starter-common,,,MINOR,false
+org.springdoc:springdoc-openapi-starter-common,2.0.0,2.8.13,org.springdoc.core.converters.RepresentationModelLinksOASMixin,org.springdoc.core.converters.RepresentationModelLinksOASMixin,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,org.springdoc:springdoc-openapi-starter-common,,,MINOR,false
+org.springdoc:springdoc-openapi-starter-common,2.0.0,2.8.13,org.springdoc.core.converters.RepresentationModelLinksOASMixin,getLinks,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,false,1,org.springdoc:springdoc-openapi-starter-common,,,MINOR,false
+org.springdoc:springdoc-openapi-starter-common,2.0.0,2.8.13,org.springdoc.core.converters.RepresentationModelLinksOASMixin,RepresentationModelLinksOASMixin,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.springdoc:springdoc-openapi-starter-common,,,MINOR,false
+org.springdoc:springdoc-openapi-starter-common,2.0.0,2.8.13,org.springdoc.core.converters.RequestTypeToIgnoreConverter,org.springdoc.core.converters.RequestTypeToIgnoreConverter,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,org.springdoc:springdoc-openapi-starter-common,,,MINOR,false
+org.springdoc:springdoc-openapi-starter-common,2.0.0,2.8.13,org.springdoc.core.converters.RequestTypeToIgnoreConverter,resolve,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.springdoc:springdoc-openapi-starter-common,,,MINOR,false
+org.springdoc:springdoc-openapi-starter-common,2.0.0,2.8.13,org.springdoc.core.converters.RequestTypeToIgnoreConverter,RequestTypeToIgnoreConverter,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.springdoc:springdoc-openapi-starter-common,,,MINOR,false
+org.springdoc:springdoc-openapi-starter-common,2.0.0,2.8.13,org.springdoc.core.customizers.ActuatorOperationCustomizer,ActuatorOperationCustomizer,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.springdoc:springdoc-openapi-starter-common,,,MINOR,false
+org.springdoc:springdoc-openapi-starter-common,2.0.0,2.8.13,org.springdoc.core.customizers.QuerydslPredicateOperationCustomizer,QuerydslPredicateOperationCustomizer,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.springdoc:springdoc-openapi-starter-common,,,MINOR,false
+org.springdoc:springdoc-openapi-starter-common,2.0.0,2.8.13,org.springdoc.core.customizers.ServerBaseUrlCustomizer,customize,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.springdoc:springdoc-openapi-starter-common,,,MINOR,false
+org.springdoc:springdoc-openapi-starter-common,2.0.0,2.8.13,org.springdoc.core.customizers.ServerBaseUrlCustomizer,customize,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.springdoc:springdoc-openapi-starter-common,,,MINOR,false
+org.springdoc:springdoc-openapi-starter-common,2.0.0,2.8.13,org.springdoc.core.data.DataRestRequestService,DataRestRequestService,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.springdoc:springdoc-openapi-starter-common,,,MINOR,false
+org.springdoc:springdoc-openapi-starter-common,2.0.0,2.8.13,org.springdoc.core.extractor.DelegatingMethodParameter,customize,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.springdoc:springdoc-openapi-starter-common,,,MINOR,false
+org.springdoc:springdoc-openapi-starter-common,2.0.0,2.8.13,org.springdoc.core.mixins.SortedSchemaMixin31,getBooleanSchemaValue,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE; ANNOTATION_ADDED,true,false,false,1,org.springdoc:springdoc-openapi-starter-common,,,MINOR,false
+org.springdoc:springdoc-openapi-starter-common,2.0.0,2.8.13,org.springdoc.core.models.GroupedOpenApi,getOpenApiCustomizers,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,org.springdoc:springdoc-openapi-starter-common,,,MINOR,false
+org.springdoc:springdoc-openapi-starter-common,2.0.0,2.8.13,org.springdoc.core.models.GroupedOpenApi,getOpenApiMethodFilters,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,org.springdoc:springdoc-openapi-starter-common,,,MINOR,false
+org.springdoc:springdoc-openapi-starter-common,2.0.0,2.8.13,org.springdoc.core.models.GroupedOpenApi,getOperationCustomizers,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,org.springdoc:springdoc-openapi-starter-common,,,MINOR,false
+org.springdoc:springdoc-openapi-starter-common,2.0.0,2.8.13,org.springdoc.core.models.GroupedOpenApi,getRouterOperationCustomizers,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,org.springdoc:springdoc-openapi-starter-common,,,MINOR,false
+org.springdoc:springdoc-openapi-starter-common,2.0.0,2.8.13,org.springdoc.core.parsers.KotlinCoroutinesReturnTypeParser,org.springdoc.core.parsers.KotlinCoroutinesReturnTypeParser,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,org.springdoc:springdoc-openapi-starter-common,,,MINOR,false
+org.springdoc:springdoc-openapi-starter-common,2.0.0,2.8.13,org.springdoc.core.parsers.KotlinCoroutinesReturnTypeParser,KotlinCoroutinesReturnTypeParser,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.springdoc:springdoc-openapi-starter-common,,,MINOR,false
+org.springdoc:springdoc-openapi-starter-common,2.0.0,2.8.13,org.springdoc.core.parsers.ReturnTypeParser,org.springdoc.core.parsers.ReturnTypeParser,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,org.springdoc:springdoc-openapi-starter-common,,,MINOR,false
+org.springdoc:springdoc-openapi-starter-common,2.0.0,2.8.13,org.springdoc.core.parsers.ReturnTypeParser,findTypeForGenerics,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.springdoc:springdoc-openapi-starter-common,,,MINOR,false
+org.springdoc:springdoc-openapi-starter-common,2.0.0,2.8.13,org.springdoc.core.parsers.ReturnTypeParser,getResolvedType,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.springdoc:springdoc-openapi-starter-common,,,MINOR,false
+org.springdoc:springdoc-openapi-starter-common,2.0.0,2.8.13,org.springdoc.core.parsers.ReturnTypeParser,getReturnType,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.springdoc:springdoc-openapi-starter-common,,,MINOR,false
+org.springdoc:springdoc-openapi-starter-common,2.0.0,2.8.13,org.springdoc.core.parsers.ReturnTypeParser,getType,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.springdoc:springdoc-openapi-starter-common,,,MINOR,false
+org.springdoc:springdoc-openapi-starter-common,2.0.0,2.8.13,org.springdoc.core.parsers.ReturnTypeParser,resolveType,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.springdoc:springdoc-openapi-starter-common,,,MINOR,false
+org.springdoc:springdoc-openapi-starter-common,2.0.0,2.8.13,org.springdoc.core.parsers.ReturnTypeParser,resolveType,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.springdoc:springdoc-openapi-starter-common,,,MINOR,false
+org.springdoc:springdoc-openapi-starter-common,2.0.0,2.8.13,org.springdoc.core.parsers.ReturnTypeParser,resolveVariable,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.springdoc:springdoc-openapi-starter-common,,,MINOR,false
+org.springdoc:springdoc-openapi-starter-common,2.0.0,2.8.13,org.springdoc.core.properties.SpringDocConfigProperties,getGroupConfigs,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,org.springdoc:springdoc-openapi-starter-common,,,MINOR,false
+org.springdoc:springdoc-openapi-starter-common,2.0.0,2.8.13,org.springdoc.core.properties.SpringDocConfigProperties,isEnableNativeSupport,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.springdoc:springdoc-openapi-starter-common,,,MINOR,false
+org.springdoc:springdoc-openapi-starter-common,2.0.0,2.8.13,org.springdoc.core.properties.SpringDocConfigProperties,setEnableNativeSupport,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.springdoc:springdoc-openapi-starter-common,,,MINOR,false
+org.springdoc:springdoc-openapi-starter-common,2.0.0,2.8.13,org.springdoc.core.properties.SpringDocConfigProperties,setGroupConfigs,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.springdoc:springdoc-openapi-starter-common,,,MINOR,false
+org.springdoc:springdoc-openapi-starter-common,2.0.0,2.8.13,org.springdoc.core.providers.ActuatorProvider,ActuatorProvider,CONSTRUCTOR_CHANGE,CONSTRUCTOR_LESS_ACCESSIBLE,false,false,false,1,org.springdoc:springdoc-openapi-starter-common,,,MINOR,false
+org.springdoc:springdoc-openapi-starter-common,2.0.0,2.8.13,org.springdoc.core.providers.JavadocProvider,getRecordClassParamJavadoc,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.springdoc:springdoc-openapi-starter-common,,,MINOR,false
+org.springdoc:springdoc-openapi-starter-common,2.0.0,2.8.13,org.springdoc.core.providers.SpringDocProviders,SpringDocProviders,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.springdoc:springdoc-openapi-starter-common,,,MINOR,false
+org.springdoc:springdoc-openapi-starter-common,2.0.0,2.8.13,org.springdoc.core.providers.SpringRepositoryRestResourceProvider,SpringRepositoryRestResourceProvider,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.springdoc:springdoc-openapi-starter-common,,,MINOR,false
+org.springdoc:springdoc-openapi-starter-common,2.0.0,2.8.13,org.springdoc.core.service.AbstractRequestService,applyBeanValidatorAnnotations,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.springdoc:springdoc-openapi-starter-common,,,MINOR,false
+org.springdoc:springdoc-openapi-starter-common,2.0.0,2.8.13,org.springdoc.core.service.AbstractRequestService,buildParams,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.springdoc:springdoc-openapi-starter-common,,,MINOR,false
+org.springdoc:springdoc-openapi-starter-common,2.0.0,2.8.13,org.springdoc.core.service.AbstractRequestService,isValidParameter,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.springdoc:springdoc-openapi-starter-common,,,MINOR,false
+org.springdoc:springdoc-openapi-starter-common,2.0.0,2.8.13,org.springdoc.core.service.AbstractRequestService,AbstractRequestService,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.springdoc:springdoc-openapi-starter-common,,,MINOR,false
+org.springdoc:springdoc-openapi-starter-common,2.0.0,2.8.13,org.springdoc.core.service.GenericParameterService,getDelegatingMethodParameterCustomizer,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.springdoc:springdoc-openapi-starter-common,,,MINOR,false
+org.springdoc:springdoc-openapi-starter-common,2.0.0,2.8.13,org.springdoc.core.service.GenericParameterService,GenericParameterService,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.springdoc:springdoc-openapi-starter-common,,,MINOR,false
+org.springdoc:springdoc-openapi-starter-common,2.0.0,2.8.13,org.springdoc.core.service.GenericResponseService,buildContentFromDoc,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.springdoc:springdoc-openapi-starter-common,,,MINOR,false
+org.springdoc:springdoc-openapi-starter-common,2.0.0,2.8.13,org.springdoc.core.service.GenericResponseService,GenericResponseService,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.springdoc:springdoc-openapi-starter-common,,,MINOR,false
+org.springdoc:springdoc-openapi-starter-common,2.0.0,2.8.13,org.springdoc.core.service.OpenAPIService,setServerBaseUrl,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.springdoc:springdoc-openapi-starter-common,,,MINOR,false
+org.springdoc:springdoc-openapi-starter-common,2.0.0,2.8.13,org.springdoc.core.service.OpenAPIService,updateServers,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.springdoc:springdoc-openapi-starter-common,,,MINOR,false
+org.springdoc:springdoc-openapi-starter-common,2.0.0,2.8.13,org.springdoc.core.service.OperationService,getOperationId,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.springdoc:springdoc-openapi-starter-common,,,MINOR,false
+org.springdoc:springdoc-openapi-starter-common,2.0.0,2.8.13,org.springdoc.core.service.OperationService,getOperationId,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.springdoc:springdoc-openapi-starter-common,,,MINOR,false
+org.springdoc:springdoc-openapi-starter-common,2.0.0,2.8.13,org.springdoc.core.service.RequestBodyService,buildRequestBodyFromDoc,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.springdoc:springdoc-openapi-starter-common,,,MINOR,false
+org.springdoc:springdoc-openapi-starter-common,2.0.0,2.8.13,org.springdoc.core.service.RequestBodyService,buildRequestBodyFromDoc,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.springdoc:springdoc-openapi-starter-common,,,MINOR,false
+org.springdoc:springdoc-openapi-starter-common,2.0.0,2.8.13,org.springdoc.core.service.RequestBodyService,buildRequestBodyFromDoc,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.springdoc:springdoc-openapi-starter-common,,,MINOR,false
+org.springdoc:springdoc-openapi-starter-common,2.0.0,2.8.13,org.springdoc.core.service.RequestBodyService,RequestBodyService,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.springdoc:springdoc-openapi-starter-common,,,MINOR,false
+org.springdoc:springdoc-openapi-starter-common,2.0.0,2.8.13,org.springdoc.core.service.SecurityService,getSecurityScheme,METHOD_CHANGE,METHOD_LESS_ACCESSIBLE,false,false,false,1,org.springdoc:springdoc-openapi-starter-common,,,MINOR,false
+org.springdoc:springdoc-openapi-starter-common,2.0.0,2.8.13,org.springdoc.core.utils.Constants,LINKS_SCHEMA_CUSTOMISER,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.springdoc:springdoc-openapi-starter-common,,,MINOR,false
+org.springdoc:springdoc-openapi-starter-common,2.0.0,2.8.13,org.springdoc.core.utils.Constants,SWAGGGER_CONFIG_FILE,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.springdoc:springdoc-openapi-starter-common,,,MINOR,false
+org.springdoc:springdoc-openapi-starter-common,2.0.0,2.8.13,org.springdoc.core.utils.Constants,GROUP_NAME_NOT_NULL,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.springdoc:springdoc-openapi-starter-common,,,MINOR,false
+org.springdoc:springdoc-openapi-starter-common,2.0.0,2.8.13,org.springdoc.core.utils.PropertyResolverUtils,resolveProperties,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.springdoc:springdoc-openapi-starter-common,,,MINOR,false
+org.springdoc:springdoc-openapi-starter-common,2.0.0,2.8.13,org.springdoc.core.utils.PropertyResolverUtils,resolveProperties,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.springdoc:springdoc-openapi-starter-common,,,MINOR,false
+org.springdoc:springdoc-openapi-starter-common,2.0.0,2.8.13,org.springdoc.core.utils.PropertyResolverUtils,resolveProperties,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.springdoc:springdoc-openapi-starter-common,,,MINOR,false
+org.springdoc:springdoc-openapi-starter-common,2.0.0,2.8.13,org.springdoc.core.utils.SpringDocAnnotationsUtils,extractSchema,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.springdoc:springdoc-openapi-starter-common,,,MINOR,false
+org.springdoc:springdoc-openapi-starter-common,2.0.0,2.8.13,org.springdoc.core.utils.SpringDocAnnotationsUtils,resolveSchemaFromType,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.springdoc:springdoc-openapi-starter-common,,,MINOR,false
+org.springdoc:springdoc-openapi-starter-common,2.0.0,2.8.13,org.springdoc.ui.AbstractSwaggerIndexTransformer,addParameters,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.springdoc:springdoc-openapi-starter-common,,,MINOR,false
+org.springdoc:springdoc-openapi-starter-common,2.0.0,2.8.13,org.springdoc.ui.AbstractSwaggerIndexTransformer,defaultTransformations,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.springdoc:springdoc-openapi-starter-common,,,MINOR,false
+org.springdoc:springdoc-openapi-starter-common,2.0.0,2.8.13,org.springdoc.ui.AbstractSwaggerIndexTransformer,swaggerUiConfigParameters,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.springdoc:springdoc-openapi-starter-common,,,MINOR,false
+org.springdoc:springdoc-openapi-starter-common,2.0.0,2.8.13,org.springdoc.ui.AbstractSwaggerIndexTransformer,AbstractSwaggerIndexTransformer,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.springdoc:springdoc-openapi-starter-common,,,MINOR,false
+org.springdoc:springdoc-openapi-starter-common,2.0.0,2.8.13,org.springdoc.ui.AbstractSwaggerWelcome,buildApiDocUrl,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.springdoc:springdoc-openapi-starter-common,,,MINOR,false
+org.springdoc:springdoc-openapi-starter-common,2.0.0,2.8.13,org.springdoc.ui.AbstractSwaggerWelcome,buildApiDocUrl,METHOD_CHANGE,METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,false,1,org.springdoc:springdoc-openapi-starter-common,,,MINOR,false
+org.springdoc:springdoc-openapi-starter-common,2.0.0,2.8.13,org.springdoc.ui.AbstractSwaggerWelcome,buildConfigUrl,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.springdoc:springdoc-openapi-starter-common,,,MINOR,false
+org.springdoc:springdoc-openapi-starter-common,2.0.0,2.8.13,org.springdoc.ui.AbstractSwaggerWelcome,buildSwaggerConfigUrl,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.springdoc:springdoc-openapi-starter-common,,,MINOR,false
+org.springdoc:springdoc-openapi-starter-common,2.0.0,2.8.13,org.springdoc.ui.AbstractSwaggerWelcome,buildSwaggerConfigUrl,METHOD_CHANGE,METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,false,1,org.springdoc:springdoc-openapi-starter-common,,,MINOR,false
+org.springdoc:springdoc-openapi-starter-common,2.0.0,2.8.13,org.springdoc.ui.AbstractSwaggerWelcome,buildUrlWithContextPath,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.springdoc:springdoc-openapi-starter-common,,,MINOR,false
+org.springdoc:springdoc-openapi-starter-common,2.0.0,2.8.13,org.springdoc.ui.AbstractSwaggerWelcome,buildUrlWithContextPath,METHOD_CHANGE,METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,false,1,org.springdoc:springdoc-openapi-starter-common,,,MINOR,false
+org.springdoc:springdoc-openapi-starter-common,2.0.0,2.8.13,org.springdoc.ui.AbstractSwaggerWelcome,calculateOauth2RedirectUrl,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.springdoc:springdoc-openapi-starter-common,,,MINOR,false
+org.springdoc:springdoc-openapi-starter-common,2.0.0,2.8.13,org.springdoc.ui.AbstractSwaggerWelcome,calculateOauth2RedirectUrl,METHOD_CHANGE,METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,false,1,org.springdoc:springdoc-openapi-starter-common,,,MINOR,false
+org.springdoc:springdoc-openapi-starter-common,2.0.0,2.8.13,org.springdoc.ui.AbstractSwaggerWelcome,calculateUiRootCommon,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.springdoc:springdoc-openapi-starter-common,,,MINOR,false
+org.springdoc:springdoc-openapi-starter-common,2.0.0,2.8.13,org.springdoc.ui.AbstractSwaggerWelcome,calculateUiRootPath,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.springdoc:springdoc-openapi-starter-common,,,MINOR,false
+org.springdoc:springdoc-openapi-starter-common,2.0.0,2.8.13,org.springdoc.ui.AbstractSwaggerWelcome,calculateUiRootPath,METHOD_CHANGE,METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,false,1,org.springdoc:springdoc-openapi-starter-common,,,MINOR,false
+org.springdoc:springdoc-openapi-starter-common,2.0.0,2.8.13,org.springdoc.ui.AbstractSwaggerWelcome,getUriComponentsBuilder,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.springdoc:springdoc-openapi-starter-common,,,MINOR,false
+org.springdoc:springdoc-openapi-starter-common,2.0.0,2.8.13,org.springdoc.ui.AbstractSwaggerWelcome,init,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.springdoc:springdoc-openapi-starter-common,,,MINOR,false
+org.springdoc:springdoc-openapi-starter-common,2.0.0,2.8.13,org.springdoc.ui.AbstractSwaggerWelcome,apiDocsUrl,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.springdoc:springdoc-openapi-starter-common,,,MINOR,false
+org.springdoc:springdoc-openapi-starter-common,2.0.0,2.8.13,org.springdoc.ui.AbstractSwaggerWelcome,contextPath,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.springdoc:springdoc-openapi-starter-common,,,MINOR,false
+org.springdoc:springdoc-openapi-starter-common,2.0.0,2.8.13,org.springdoc.ui.AbstractSwaggerWelcome,swaggerUiConfigParameters,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.springdoc:springdoc-openapi-starter-common,,,MINOR,false
+org.springdoc:springdoc-openapi-starter-common,2.0.0,2.8.13,org.springdoc.ui.AbstractSwaggerWelcome,swaggerConfigUrl,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.springdoc:springdoc-openapi-starter-common,,,MINOR,false
+org.springdoc:springdoc-openapi-starter-common,2.0.0,2.8.13,org.springdoc.ui.AbstractSwaggerWelcome,AbstractSwaggerWelcome,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.springdoc:springdoc-openapi-starter-common,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.Claims,getAudience,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.Claims,setAudience,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.Claims,setExpiration,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.Claims,setId,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.Claims,setIssuedAt,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.Claims,setIssuer,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.Claims,setNotBefore,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.Claims,setSubject,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.ClaimsMutator,io.jsonwebtoken.ClaimsMutator,CLASS_CHANGE,CLASS_GENERIC_TEMPLATE_GENERICS_CHANGED,true,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.ClaimsMutator,audience,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.ClaimsMutator,expiration,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.ClaimsMutator,id,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.ClaimsMutator,issuedAt,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.ClaimsMutator,issuer,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.ClaimsMutator,notBefore,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.ClaimsMutator,subject,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.Header,io.jsonwebtoken.Header,CLASS_CHANGE,CLASS_GENERIC_TEMPLATE_CHANGED,false,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.Header,getAlgorithm,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.Header,setCompressionAlgorithm,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.Header,setContentType,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.Header,setType,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.IncorrectClaimException,io.jsonwebtoken.IncorrectClaimException,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.IncorrectClaimException,IncorrectClaimException,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.IncorrectClaimException,IncorrectClaimException,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.InvalidClaimException,setClaimName,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.InvalidClaimException,setClaimValue,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.InvalidClaimException,InvalidClaimException,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.InvalidClaimException,InvalidClaimException,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.io.Decoders,BASE64,FIELD_CHANGE,FIELD_GENERICS_CHANGED,true,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.io.Decoders,BASE64URL,FIELD_CHANGE,FIELD_GENERICS_CHANGED,true,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.io.Deserializer,deserialize,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.io.Serializer,serialize,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.Jws,io.jsonwebtoken.Jws,CLASS_CHANGE,INTERFACE_ADDED; CLASS_GENERIC_TEMPLATE_CHANGED,true,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwsHeader,io.jsonwebtoken.JwsHeader,CLASS_CHANGE,INTERFACE_ADDED; CLASS_GENERIC_TEMPLATE_CHANGED,false,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwsHeader,isPayloadEncoded,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwsHeader,setAlgorithm,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwsHeader,setKeyId,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.Jwt,io.jsonwebtoken.Jwt,CLASS_CHANGE,CLASS_GENERIC_TEMPLATE_CHANGED,true,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.Jwt,accept,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.Jwt,getPayload,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtBuilder,b64Url,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtBuilder,claims,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtBuilder,claims,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtBuilder,compressWith,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtBuilder,compressWith,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtBuilder,content,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtBuilder,content,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtBuilder,content,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtBuilder,content,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtBuilder,content,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtBuilder,content,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtBuilder,encodePayload,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtBuilder,encryptWith,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtBuilder,encryptWith,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtBuilder,expiration,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtBuilder,header,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtBuilder,id,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtBuilder,issuedAt,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtBuilder,issuer,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtBuilder,json,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtBuilder,notBefore,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtBuilder,provider,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtBuilder,random,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtBuilder,setAudience,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtBuilder,setClaims,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtBuilder,setExpiration,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtBuilder,setHeader,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtBuilder,setId,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtBuilder,setIssuedAt,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtBuilder,setIssuer,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtBuilder,setNotBefore,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtBuilder,setSubject,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,true
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtBuilder,signWith,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,true
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtBuilder,subject,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtHandler,onClaimsJwe,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtHandler,onContentJwe,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtHandler,onContentJws,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtHandler,onContentJwt,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtHandler,onPlaintextJws,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtHandler,onPlaintextJwt,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtHandlerAdapter,io.jsonwebtoken.JwtHandlerAdapter,CLASS_CHANGE,CLASS_NOW_ABSTRACT,false,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,base64UrlDecodeWith,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,deserializeJsonWith,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,isSigned,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,isSigned,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,parse,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,parse,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,parse,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,parse,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE; ANNOTATION_DEPRECATED_ADDED,true,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,parseClaimsJws,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,true
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,parseClaimsJws,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE; ANNOTATION_DEPRECATED_ADDED,true,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,true
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,parseClaimsJwt,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,parseClaimsJwt,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE; ANNOTATION_DEPRECATED_ADDED,true,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,parseContentJws,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE; ANNOTATION_DEPRECATED_ADDED,true,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,parseContentJwt,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE; ANNOTATION_DEPRECATED_ADDED,true,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,parseEncryptedClaims,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,parseEncryptedContent,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,parsePlaintextJws,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,parsePlaintextJwt,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,parseSignedClaims,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,parseSignedClaims,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,parseSignedClaims,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,parseSignedContent,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,parseSignedContent,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,parseSignedContent,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,parseUnsecuredClaims,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,parseUnsecuredContent,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,require,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,requireAudience,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,requireExpiration,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,requireId,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,requireIssuedAt,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,requireIssuer,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,requireNotBefore,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,requireSubject,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,setAllowedClockSkewSeconds,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,setClock,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,setCompressionCodecResolver,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,setSigningKey,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,setSigningKey,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,setSigningKey,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,setSigningKeyResolver,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,SEPARATOR_CHAR,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParserBuilder,b64Url,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParserBuilder,clock,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParserBuilder,clockSkewSeconds,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParserBuilder,critical,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParserBuilder,decryptWith,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParserBuilder,decryptWith,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParserBuilder,enc,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParserBuilder,json,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParserBuilder,key,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParserBuilder,keyLocator,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParserBuilder,provider,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParserBuilder,sig,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParserBuilder,unsecured,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParserBuilder,unsecuredDecompression,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParserBuilder,verifyWith,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParserBuilder,verifyWith,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParserBuilder,zip,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.Jwts,claims,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.Jwts,header,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.Jwts,header,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.Jwts,jwsHeader,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.Jwts,jwsHeader,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.Jwts,parser,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED; ANNOTATION_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.Jwts,parserBuilder,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,true
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.lang.Assert,hasText,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.lang.Assert,isInstanceOf,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED; CLASS_GENERIC_TEMPLATE_CHANGED,false,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.lang.Assert,isInstanceOf,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED; CLASS_GENERIC_TEMPLATE_CHANGED,false,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.lang.Assert,notEmpty,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.lang.Assert,notEmpty,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.lang.Assert,notEmpty,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED; CLASS_GENERIC_TEMPLATE_CHANGED,false,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.lang.Assert,notEmpty,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED; CLASS_GENERIC_TEMPLATE_CHANGED,false,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.lang.Assert,notNull,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED; CLASS_GENERIC_TEMPLATE_CHANGED,false,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.lang.DateFormats,io.jsonwebtoken.lang.DateFormats,CLASS_CHANGE,CLASS_NOW_FINAL,false,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.lang.DateFormats,DateFormats,CONSTRUCTOR_CHANGE,CONSTRUCTOR_LESS_ACCESSIBLE,false,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.MissingClaimException,io.jsonwebtoken.MissingClaimException,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.MissingClaimException,MissingClaimException,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.MissingClaimException,MissingClaimException,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.SigningKeyResolver,resolveSigningKey,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.SigningKeyResolver,resolveSigningKey,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.SigningKeyResolverAdapter,resolveSigningKeyBytes,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-api,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.compression.AbstractCompressionCodec,io.jsonwebtoken.impl.compression.AbstractCompressionCodec,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.compression.AbstractCompressionCodec,compress,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.compression.AbstractCompressionCodec,decompress,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.compression.AbstractCompressionCodec,doCompress,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.compression.AbstractCompressionCodec,doDecompress,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.compression.AbstractCompressionCodec,AbstractCompressionCodec,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.compression.CompressionCodecs,io.jsonwebtoken.impl.compression.CompressionCodecs,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.compression.CompressionCodecs,GZIP,FIELD_CHANGE,FIELD_REMOVED; ANNOTATION_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.compression.CompressionCodecs,DEFLATE,FIELD_CHANGE,FIELD_REMOVED; ANNOTATION_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.compression.DefaultCompressionCodecResolver,io.jsonwebtoken.impl.compression.DefaultCompressionCodecResolver,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.compression.DefaultCompressionCodecResolver,resolveCompressionCodec,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.compression.DefaultCompressionCodecResolver,DefaultCompressionCodecResolver,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.compression.DeflateCompressionCodec,io.jsonwebtoken.impl.compression.DeflateCompressionCodec,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.compression.DeflateCompressionCodec,doCompress,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.compression.DeflateCompressionCodec,doDecompress,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.compression.DeflateCompressionCodec,getAlgorithmName,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.compression.DeflateCompressionCodec,DeflateCompressionCodec,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.compression.GzipCompressionCodec,io.jsonwebtoken.impl.compression.GzipCompressionCodec,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.compression.GzipCompressionCodec,doCompress,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.compression.GzipCompressionCodec,doDecompress,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.compression.GzipCompressionCodec,getAlgorithmName,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.compression.GzipCompressionCodec,GzipCompressionCodec,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.crypto.DefaultJwtSignatureValidator,io.jsonwebtoken.impl.crypto.DefaultJwtSignatureValidator,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.crypto.DefaultJwtSignatureValidator,DefaultJwtSignatureValidator,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.crypto.DefaultJwtSignatureValidator,DefaultJwtSignatureValidator,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED; ANNOTATION_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.crypto.DefaultJwtSignatureValidator,DefaultJwtSignatureValidator,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.crypto.DefaultJwtSignatureValidator,DefaultJwtSignatureValidator,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED; ANNOTATION_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.crypto.DefaultJwtSigner,io.jsonwebtoken.impl.crypto.DefaultJwtSigner,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.crypto.DefaultJwtSigner,DefaultJwtSigner,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.crypto.DefaultJwtSigner,DefaultJwtSigner,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED; ANNOTATION_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.crypto.DefaultJwtSigner,DefaultJwtSigner,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.crypto.DefaultJwtSigner,DefaultJwtSigner,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED; ANNOTATION_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.crypto.DefaultSignatureValidatorFactory,io.jsonwebtoken.impl.crypto.DefaultSignatureValidatorFactory,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.crypto.DefaultSignatureValidatorFactory,INSTANCE,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.crypto.DefaultSignatureValidatorFactory,DefaultSignatureValidatorFactory,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.crypto.DefaultSignerFactory,io.jsonwebtoken.impl.crypto.DefaultSignerFactory,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.crypto.DefaultSignerFactory,INSTANCE,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.crypto.DefaultSignerFactory,DefaultSignerFactory,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.crypto.EllipticCurveProvider,io.jsonwebtoken.impl.crypto.EllipticCurveProvider,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.crypto.EllipticCurveProvider,byteSizeString,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.crypto.EllipticCurveProvider,generateKeyPair,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.crypto.EllipticCurveProvider,generateKeyPair,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.crypto.EllipticCurveProvider,generateKeyPair,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.crypto.EllipticCurveProvider,generateKeyPair,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.crypto.EllipticCurveProvider,getSignatureByteArrayLength,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.crypto.EllipticCurveProvider,transcodeConcatToDER,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.crypto.EllipticCurveProvider,transcodeDERToConcat,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.crypto.EllipticCurveProvider,requiredSignatureByteLength,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.crypto.EllipticCurveProvider,fieldByteLength,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.crypto.EllipticCurveProvider,EllipticCurveProvider,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.crypto.EllipticCurveSignatureValidator,io.jsonwebtoken.impl.crypto.EllipticCurveSignatureValidator,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.crypto.EllipticCurveSignatureValidator,doVerify,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.crypto.EllipticCurveSignatureValidator,EllipticCurveSignatureValidator,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.crypto.EllipticCurveSigner,io.jsonwebtoken.impl.crypto.EllipticCurveSigner,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.crypto.EllipticCurveSigner,doSign,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.crypto.EllipticCurveSigner,EllipticCurveSigner,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.crypto.JwtSignatureValidator,io.jsonwebtoken.impl.crypto.JwtSignatureValidator,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.crypto.JwtSignatureValidator,isValid,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.crypto.JwtSigner,io.jsonwebtoken.impl.crypto.JwtSigner,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.crypto.JwtSigner,sign,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.crypto.MacProvider,io.jsonwebtoken.impl.crypto.MacProvider,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.crypto.MacProvider,generateKey,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.crypto.MacProvider,generateKey,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.crypto.MacProvider,generateKey,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.crypto.MacProvider,MacProvider,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.crypto.MacSigner,io.jsonwebtoken.impl.crypto.MacSigner,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.crypto.MacSigner,doGetMacInstance,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.crypto.MacSigner,getMacInstance,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.crypto.MacSigner,MacSigner,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.crypto.MacSigner,MacSigner,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.crypto.MacValidator,io.jsonwebtoken.impl.crypto.MacValidator,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.crypto.MacValidator,MacValidator,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.crypto.RsaProvider,io.jsonwebtoken.impl.crypto.RsaProvider,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.crypto.RsaProvider,createSignatureInstance,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.crypto.RsaProvider,doSetParameter,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.crypto.RsaProvider,generateKeyPair,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.crypto.RsaProvider,generateKeyPair,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.crypto.RsaProvider,generateKeyPair,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.crypto.RsaProvider,generateKeyPair,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.crypto.RsaProvider,generateKeyPair,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.crypto.RsaProvider,setParameter,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.crypto.RsaProvider,RsaProvider,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.crypto.RsaSignatureValidator,io.jsonwebtoken.impl.crypto.RsaSignatureValidator,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.crypto.RsaSignatureValidator,doVerify,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.crypto.RsaSignatureValidator,RsaSignatureValidator,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.crypto.RsaSigner,io.jsonwebtoken.impl.crypto.RsaSigner,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.crypto.RsaSigner,doSign,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.crypto.RsaSigner,RsaSigner,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.crypto.SignatureValidator,io.jsonwebtoken.impl.crypto.SignatureValidator,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.crypto.SignatureValidator,isValid,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.crypto.SignatureValidatorFactory,io.jsonwebtoken.impl.crypto.SignatureValidatorFactory,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.crypto.SignatureValidatorFactory,createSignatureValidator,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.crypto.Signer,io.jsonwebtoken.impl.crypto.Signer,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.crypto.Signer,sign,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.crypto.SignerFactory,io.jsonwebtoken.impl.crypto.SignerFactory,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.crypto.SignerFactory,createSigner,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.DefaultClaims,io.jsonwebtoken.impl.DefaultClaims,CLASS_CHANGE,INTERFACE_ADDED; METHOD_ABSTRACT_ADDED_IN_IMPLEMENTED_INTERFACE; METHOD_DEFAULT_ADDED_IN_IMPLEMENTED_INTERFACE,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.DefaultClaims,getAudience,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.DefaultClaims,put,METHOD_CHANGE,METHOD_NOW_FINAL; METHOD_MOVED_TO_SUPERCLASS,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.DefaultClaims,setAudience,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.DefaultClaims,setAudience,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.DefaultClaims,setExpiration,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.DefaultClaims,setExpiration,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.DefaultClaims,setId,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.DefaultClaims,setId,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.DefaultClaims,setIssuedAt,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.DefaultClaims,setIssuedAt,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.DefaultClaims,setIssuer,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.DefaultClaims,setIssuer,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.DefaultClaims,setNotBefore,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.DefaultClaims,setNotBefore,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.DefaultClaims,setSubject,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.DefaultClaims,setSubject,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.DefaultClaims,DefaultClaims,CONSTRUCTOR_CHANGE,CONSTRUCTOR_LESS_ACCESSIBLE,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.DefaultHeader,io.jsonwebtoken.impl.DefaultHeader,CLASS_CHANGE,INTERFACE_ADDED; METHOD_ABSTRACT_ADDED_IN_IMPLEMENTED_INTERFACE; METHOD_DEFAULT_ADDED_IN_IMPLEMENTED_INTERFACE; CLASS_GENERIC_TEMPLATE_CHANGED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.DefaultHeader,setCompressionAlgorithm,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.DefaultHeader,setContentType,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.DefaultHeader,setType,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.DefaultHeader,DefaultHeader,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.DefaultJws,io.jsonwebtoken.impl.DefaultJws,CLASS_CHANGE,INTERFACE_ADDED; CLASS_GENERIC_TEMPLATE_CHANGED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.DefaultJws,getHeader,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.DefaultJws,toString,METHOD_CHANGE,METHOD_NOW_FINAL; METHOD_MOVED_TO_SUPERCLASS,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.DefaultJws,DefaultJws,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.DefaultJwsHeader,io.jsonwebtoken.impl.DefaultJwsHeader,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; INTERFACE_ADDED; METHOD_ABSTRACT_ADDED_IN_IMPLEMENTED_INTERFACE; METHOD_DEFAULT_ADDED_IN_IMPLEMENTED_INTERFACE,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.DefaultJwsHeader,setAlgorithm,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.DefaultJwsHeader,setKeyId,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.DefaultJwsHeader,DefaultJwsHeader,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.DefaultJwt,io.jsonwebtoken.impl.DefaultJwt,CLASS_CHANGE,CLASS_GENERIC_TEMPLATE_CHANGED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.DefaultJwt,toString,METHOD_CHANGE,METHOD_NOW_FINAL,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.DefaultJwtBuilder,base64UrlEncode,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.DefaultJwtBuilder,compressWith,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.DefaultJwtBuilder,createSigner,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.DefaultJwtBuilder,ensureClaims,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.DefaultJwtBuilder,ensureHeader,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.DefaultJwtBuilder,setClaims,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.DefaultJwtBuilder,setHeader,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.DefaultJwtBuilder,toJson,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.DefaultJwtParser,base64UrlDecodeWith,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.DefaultJwtParser,createSignatureValidator,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.DefaultJwtParser,deserializeJsonWith,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.DefaultJwtParser,isSigned,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.DefaultJwtParser,parse,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.DefaultJwtParser,parse,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.DefaultJwtParser,parseClaimsJws,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.DefaultJwtParser,parseClaimsJwt,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.DefaultJwtParser,parsePlaintextJws,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.DefaultJwtParser,parsePlaintextJwt,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.DefaultJwtParser,readValue,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.DefaultJwtParser,require,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.DefaultJwtParser,requireAudience,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.DefaultJwtParser,requireExpiration,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.DefaultJwtParser,requireId,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.DefaultJwtParser,requireIssuedAt,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.DefaultJwtParser,requireIssuer,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.DefaultJwtParser,requireNotBefore,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.DefaultJwtParser,requireSubject,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.DefaultJwtParser,setAllowedClockSkewSeconds,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.DefaultJwtParser,setClock,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.DefaultJwtParser,setCompressionCodecResolver,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.DefaultJwtParser,setSigningKey,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.DefaultJwtParser,setSigningKey,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.DefaultJwtParser,setSigningKey,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.DefaultJwtParser,setSigningKeyResolver,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.DefaultJwtParser,DefaultJwtParser,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED; ANNOTATION_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.DefaultTextCodecFactory,io.jsonwebtoken.impl.DefaultTextCodecFactory,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.DefaultTextCodecFactory,getSystemProperty,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.DefaultTextCodecFactory,isAndroid,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.DefaultTextCodecFactory,DefaultTextCodecFactory,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.JwtMap,io.jsonwebtoken.impl.JwtMap,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.JwtMap,clear,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.JwtMap,containsKey,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.JwtMap,containsValue,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.JwtMap,entrySet,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.JwtMap,equals,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.JwtMap,get,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.JwtMap,getString,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.JwtMap,hashCode,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.JwtMap,isEmpty,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.JwtMap,keySet,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.JwtMap,put,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.JwtMap,put,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.JwtMap,putAll,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.JwtMap,remove,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.JwtMap,setDate,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.JwtMap,setDateAsSeconds,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.JwtMap,setValue,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.JwtMap,size,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.JwtMap,toDate,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.JwtMap,toSpecDate,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.JwtMap,toString,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.JwtMap,values,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.JwtMap,JwtMap,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.JwtMap,JwtMap,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.lang.LegacyServices,io.jsonwebtoken.impl.lang.LegacyServices,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.lang.LegacyServices,loadFirst,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.lang.LegacyServices,LegacyServices,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.lang.Services,loadAll,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.lang.Services,loadFirst,METHOD_CHANGE,METHOD_LESS_ACCESSIBLE,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.ParameterMap,put,METHOD_CHANGE,METHOD_NOW_FINAL; METHOD_ADDED_TO_PUBLIC_CLASS,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.TextCodecFactory,io.jsonwebtoken.impl.TextCodecFactory,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,io.jsonwebtoken.impl.TextCodecFactory,getTextCodec,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-impl,,,MINOR,false
+io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,io.jsonwebtoken.jackson.io.JacksonDeserializer,deserialize,METHOD_CHANGE,METHOD_NOW_FINAL; METHOD_MOVED_TO_SUPERCLASS,false,false,false,1,io.jsonwebtoken:jjwt-jackson,,,MINOR,false
+io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,io.jsonwebtoken.jackson.io.JacksonDeserializer,readValue,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-jackson,,,MINOR,false
+io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,io.jsonwebtoken.jackson.io.JacksonSerializer,serialize,METHOD_CHANGE,METHOD_NOW_FINAL; METHOD_MOVED_TO_SUPERCLASS,false,false,false,1,io.jsonwebtoken:jjwt-jackson,,,MINOR,false
+io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,io.jsonwebtoken.jackson.io.JacksonSerializer,writeValueAsBytes,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.jsonwebtoken:jjwt-jackson,,,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.Claims,getAudience,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.Claims,setAudience,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.Claims,setExpiration,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.Claims,setId,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.Claims,setIssuedAt,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.Claims,setIssuer,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.Claims,setNotBefore,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.Claims,setSubject,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.ClaimsMutator,io.jsonwebtoken.ClaimsMutator,CLASS_CHANGE,CLASS_GENERIC_TEMPLATE_GENERICS_CHANGED,true,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.ClaimsMutator,audience,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.ClaimsMutator,expiration,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.ClaimsMutator,id,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.ClaimsMutator,issuedAt,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.ClaimsMutator,issuer,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.ClaimsMutator,notBefore,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.ClaimsMutator,subject,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.Header,io.jsonwebtoken.Header,CLASS_CHANGE,CLASS_GENERIC_TEMPLATE_CHANGED,false,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.Header,getAlgorithm,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.Header,setCompressionAlgorithm,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.Header,setContentType,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.Header,setType,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.IncorrectClaimException,io.jsonwebtoken.IncorrectClaimException,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.IncorrectClaimException,IncorrectClaimException,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.IncorrectClaimException,IncorrectClaimException,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.InvalidClaimException,setClaimName,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.InvalidClaimException,setClaimValue,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.InvalidClaimException,InvalidClaimException,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.InvalidClaimException,InvalidClaimException,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.io.Decoders,BASE64,FIELD_CHANGE,FIELD_GENERICS_CHANGED,true,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.io.Decoders,BASE64URL,FIELD_CHANGE,FIELD_GENERICS_CHANGED,true,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.io.Deserializer,deserialize,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.io.Serializer,serialize,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.Jws,io.jsonwebtoken.Jws,CLASS_CHANGE,INTERFACE_ADDED; CLASS_GENERIC_TEMPLATE_CHANGED,true,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwsHeader,io.jsonwebtoken.JwsHeader,CLASS_CHANGE,INTERFACE_ADDED; CLASS_GENERIC_TEMPLATE_CHANGED,false,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwsHeader,isPayloadEncoded,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwsHeader,setAlgorithm,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwsHeader,setKeyId,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.Jwt,io.jsonwebtoken.Jwt,CLASS_CHANGE,CLASS_GENERIC_TEMPLATE_CHANGED,true,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.Jwt,accept,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.Jwt,getPayload,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtBuilder,b64Url,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtBuilder,claims,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtBuilder,claims,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtBuilder,compressWith,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtBuilder,compressWith,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtBuilder,content,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtBuilder,content,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtBuilder,content,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtBuilder,content,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtBuilder,content,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtBuilder,content,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtBuilder,encodePayload,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtBuilder,encryptWith,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtBuilder,encryptWith,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtBuilder,expiration,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtBuilder,header,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtBuilder,id,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtBuilder,issuedAt,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtBuilder,issuer,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtBuilder,json,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtBuilder,notBefore,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtBuilder,provider,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtBuilder,random,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtBuilder,setAudience,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtBuilder,setClaims,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtBuilder,setExpiration,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtBuilder,setHeader,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtBuilder,setId,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtBuilder,setIssuedAt,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtBuilder,setIssuer,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtBuilder,setNotBefore,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtBuilder,setSubject,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,true
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtBuilder,signWith,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,true
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtBuilder,subject,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtHandler,onClaimsJwe,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtHandler,onContentJwe,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtHandler,onContentJws,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtHandler,onContentJwt,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtHandler,onPlaintextJws,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtHandler,onPlaintextJwt,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtHandlerAdapter,io.jsonwebtoken.JwtHandlerAdapter,CLASS_CHANGE,CLASS_NOW_ABSTRACT,false,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,base64UrlDecodeWith,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,deserializeJsonWith,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,isSigned,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,isSigned,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,parse,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,parse,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,parse,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,parse,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE; ANNOTATION_DEPRECATED_ADDED,true,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,parseClaimsJws,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,true
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,parseClaimsJws,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE; ANNOTATION_DEPRECATED_ADDED,true,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,true
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,parseClaimsJwt,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,parseClaimsJwt,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE; ANNOTATION_DEPRECATED_ADDED,true,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,parseContentJws,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE; ANNOTATION_DEPRECATED_ADDED,true,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,parseContentJwt,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE; ANNOTATION_DEPRECATED_ADDED,true,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,parseEncryptedClaims,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,parseEncryptedContent,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,parsePlaintextJws,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,parsePlaintextJwt,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,parseSignedClaims,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,parseSignedClaims,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,parseSignedClaims,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,parseSignedContent,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,parseSignedContent,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,parseSignedContent,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,parseUnsecuredClaims,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,parseUnsecuredContent,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,require,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,requireAudience,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,requireExpiration,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,requireId,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,requireIssuedAt,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,requireIssuer,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,requireNotBefore,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,requireSubject,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,setAllowedClockSkewSeconds,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,setClock,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,setCompressionCodecResolver,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,setSigningKey,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,setSigningKey,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,setSigningKey,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,setSigningKeyResolver,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,SEPARATOR_CHAR,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParserBuilder,b64Url,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParserBuilder,clock,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParserBuilder,clockSkewSeconds,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParserBuilder,critical,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParserBuilder,decryptWith,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParserBuilder,decryptWith,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParserBuilder,enc,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParserBuilder,json,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParserBuilder,key,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParserBuilder,keyLocator,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParserBuilder,provider,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParserBuilder,sig,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParserBuilder,unsecured,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParserBuilder,unsecuredDecompression,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParserBuilder,verifyWith,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParserBuilder,verifyWith,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParserBuilder,zip,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.Jwts,claims,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.Jwts,header,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.Jwts,header,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.Jwts,jwsHeader,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.Jwts,jwsHeader,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.Jwts,parser,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED; ANNOTATION_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.Jwts,parserBuilder,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,true
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.lang.Assert,hasText,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.lang.Assert,isInstanceOf,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED; CLASS_GENERIC_TEMPLATE_CHANGED,false,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.lang.Assert,isInstanceOf,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED; CLASS_GENERIC_TEMPLATE_CHANGED,false,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.lang.Assert,notEmpty,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.lang.Assert,notEmpty,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.lang.Assert,notEmpty,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED; CLASS_GENERIC_TEMPLATE_CHANGED,false,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.lang.Assert,notEmpty,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED; CLASS_GENERIC_TEMPLATE_CHANGED,false,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.lang.Assert,notNull,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED; CLASS_GENERIC_TEMPLATE_CHANGED,false,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.lang.DateFormats,io.jsonwebtoken.lang.DateFormats,CLASS_CHANGE,CLASS_NOW_FINAL,false,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.lang.DateFormats,DateFormats,CONSTRUCTOR_CHANGE,CONSTRUCTOR_LESS_ACCESSIBLE,false,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.MissingClaimException,io.jsonwebtoken.MissingClaimException,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.MissingClaimException,MissingClaimException,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.MissingClaimException,MissingClaimException,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.SigningKeyResolver,resolveSigningKey,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.SigningKeyResolver,resolveSigningKey,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.SigningKeyResolverAdapter,resolveSigningKeyBytes,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-impl,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.Claims,getAudience,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.Claims,setAudience,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.Claims,setExpiration,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.Claims,setId,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.Claims,setIssuedAt,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.Claims,setIssuer,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.Claims,setNotBefore,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.Claims,setSubject,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.ClaimsMutator,io.jsonwebtoken.ClaimsMutator,CLASS_CHANGE,CLASS_GENERIC_TEMPLATE_GENERICS_CHANGED,true,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.ClaimsMutator,audience,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.ClaimsMutator,expiration,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.ClaimsMutator,id,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.ClaimsMutator,issuedAt,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.ClaimsMutator,issuer,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.ClaimsMutator,notBefore,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.ClaimsMutator,subject,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.Header,io.jsonwebtoken.Header,CLASS_CHANGE,CLASS_GENERIC_TEMPLATE_CHANGED,false,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.Header,getAlgorithm,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.Header,setCompressionAlgorithm,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.Header,setContentType,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.Header,setType,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.IncorrectClaimException,io.jsonwebtoken.IncorrectClaimException,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.IncorrectClaimException,IncorrectClaimException,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.IncorrectClaimException,IncorrectClaimException,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.InvalidClaimException,setClaimName,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.InvalidClaimException,setClaimValue,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.InvalidClaimException,InvalidClaimException,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.InvalidClaimException,InvalidClaimException,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.io.Decoders,BASE64,FIELD_CHANGE,FIELD_GENERICS_CHANGED,true,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.io.Decoders,BASE64URL,FIELD_CHANGE,FIELD_GENERICS_CHANGED,true,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.io.Deserializer,deserialize,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.io.Serializer,serialize,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.Jws,io.jsonwebtoken.Jws,CLASS_CHANGE,INTERFACE_ADDED; CLASS_GENERIC_TEMPLATE_CHANGED,true,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwsHeader,io.jsonwebtoken.JwsHeader,CLASS_CHANGE,INTERFACE_ADDED; CLASS_GENERIC_TEMPLATE_CHANGED,false,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwsHeader,isPayloadEncoded,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwsHeader,setAlgorithm,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwsHeader,setKeyId,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.Jwt,io.jsonwebtoken.Jwt,CLASS_CHANGE,CLASS_GENERIC_TEMPLATE_CHANGED,true,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.Jwt,accept,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.Jwt,getPayload,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtBuilder,b64Url,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtBuilder,claims,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtBuilder,claims,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtBuilder,compressWith,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtBuilder,compressWith,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtBuilder,content,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtBuilder,content,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtBuilder,content,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtBuilder,content,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtBuilder,content,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtBuilder,content,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtBuilder,encodePayload,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtBuilder,encryptWith,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtBuilder,encryptWith,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtBuilder,expiration,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtBuilder,header,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtBuilder,id,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtBuilder,issuedAt,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtBuilder,issuer,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtBuilder,json,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtBuilder,notBefore,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtBuilder,provider,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtBuilder,random,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtBuilder,setAudience,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtBuilder,setClaims,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtBuilder,setExpiration,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtBuilder,setHeader,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtBuilder,setId,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtBuilder,setIssuedAt,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtBuilder,setIssuer,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtBuilder,setNotBefore,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtBuilder,setSubject,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,true
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtBuilder,signWith,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,true
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtBuilder,subject,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtHandler,onClaimsJwe,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtHandler,onContentJwe,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtHandler,onContentJws,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtHandler,onContentJwt,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtHandler,onPlaintextJws,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtHandler,onPlaintextJwt,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtHandlerAdapter,io.jsonwebtoken.JwtHandlerAdapter,CLASS_CHANGE,CLASS_NOW_ABSTRACT,false,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,base64UrlDecodeWith,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,deserializeJsonWith,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,isSigned,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,isSigned,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,parse,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,parse,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,parse,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,parse,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE; ANNOTATION_DEPRECATED_ADDED,true,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,parseClaimsJws,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,true
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,parseClaimsJws,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE; ANNOTATION_DEPRECATED_ADDED,true,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,true
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,parseClaimsJwt,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,parseClaimsJwt,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE; ANNOTATION_DEPRECATED_ADDED,true,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,parseContentJws,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE; ANNOTATION_DEPRECATED_ADDED,true,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,parseContentJwt,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE; ANNOTATION_DEPRECATED_ADDED,true,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,parseEncryptedClaims,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,parseEncryptedContent,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,parsePlaintextJws,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,parsePlaintextJwt,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,parseSignedClaims,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,parseSignedClaims,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,parseSignedClaims,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,parseSignedContent,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,parseSignedContent,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,parseSignedContent,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,parseUnsecuredClaims,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,parseUnsecuredContent,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,require,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,requireAudience,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,requireExpiration,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,requireId,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,requireIssuedAt,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,requireIssuer,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,requireNotBefore,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,requireSubject,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,setAllowedClockSkewSeconds,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,setClock,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,setCompressionCodecResolver,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,setSigningKey,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,setSigningKey,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,setSigningKey,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,setSigningKeyResolver,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParser,SEPARATOR_CHAR,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParserBuilder,b64Url,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParserBuilder,clock,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParserBuilder,clockSkewSeconds,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParserBuilder,critical,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParserBuilder,decryptWith,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParserBuilder,decryptWith,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParserBuilder,enc,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParserBuilder,json,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParserBuilder,key,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParserBuilder,keyLocator,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParserBuilder,provider,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParserBuilder,sig,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParserBuilder,unsecured,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParserBuilder,unsecuredDecompression,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParserBuilder,verifyWith,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParserBuilder,verifyWith,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.JwtParserBuilder,zip,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.Jwts,claims,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.Jwts,header,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.Jwts,header,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.Jwts,jwsHeader,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.Jwts,jwsHeader,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.Jwts,parser,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED; ANNOTATION_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.Jwts,parserBuilder,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,true
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.lang.Assert,hasText,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.lang.Assert,isInstanceOf,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED; CLASS_GENERIC_TEMPLATE_CHANGED,false,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.lang.Assert,isInstanceOf,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED; CLASS_GENERIC_TEMPLATE_CHANGED,false,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.lang.Assert,notEmpty,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.lang.Assert,notEmpty,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.lang.Assert,notEmpty,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED; CLASS_GENERIC_TEMPLATE_CHANGED,false,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.lang.Assert,notEmpty,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED; CLASS_GENERIC_TEMPLATE_CHANGED,false,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.lang.Assert,notNull,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED; CLASS_GENERIC_TEMPLATE_CHANGED,false,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.lang.DateFormats,io.jsonwebtoken.lang.DateFormats,CLASS_CHANGE,CLASS_NOW_FINAL,false,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.lang.DateFormats,DateFormats,CONSTRUCTOR_CHANGE,CONSTRUCTOR_LESS_ACCESSIBLE,false,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.MissingClaimException,io.jsonwebtoken.MissingClaimException,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.MissingClaimException,MissingClaimException,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.MissingClaimException,MissingClaimException,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.SigningKeyResolver,resolveSigningKey,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.SigningKeyResolver,resolveSigningKey,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false
+io.jsonwebtoken:jjwt-api,0.11.5,0.13.0,io.jsonwebtoken.SigningKeyResolverAdapter,resolveSigningKeyBytes,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,io.jsonwebtoken:jjwt-jackson,0.11.5,0.13.0,MINOR,false

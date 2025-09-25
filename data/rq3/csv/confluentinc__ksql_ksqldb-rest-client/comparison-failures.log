@@ -1,0 +1,8 @@
+=== Comparison Failure Log ===
+[2025-09-22 17:08:37] org.apache.logging.log4j:log4j-core:2.17.1 -> org.apache.logging.log4j:log4j-core:2.25.1 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.logging.log4j:log4j-core
+[2025-09-22 17:08:37] org.apache.logging.log4j:log4j-api:2.17.1 -> org.apache.logging.log4j:log4j-api:2.25.1 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.logging.log4j:log4j-api
+
+=== Summary ===
+Total comparisons: 36
+Failures: 2
+Success rate: 94.44%

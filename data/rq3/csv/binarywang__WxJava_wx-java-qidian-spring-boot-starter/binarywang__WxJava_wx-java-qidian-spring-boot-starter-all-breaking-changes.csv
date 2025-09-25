@@ -1,0 +1,114 @@
+Library_Name,Old_Version,New_Version,Class_Name,Member_Name,Change_Type,Description,Binary_Compatible,Source_Compatible,Is_Transitive,Depth,Direct_Parent_Dependency,Direct_Dependency_Old_Version,Direct_Dependency_New_Version,Release_Type,Is_Used_In_Client
+redis.clients:jedis,4.3.2,4.4.8,redis.clients.jedis.bloom.commands.BloomFilterCommands,bfCard,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,4.3.2,4.4.8,redis.clients.jedis.bloom.commands.BloomFilterPipelineCommands,bfCard,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,4.3.2,4.4.8,redis.clients.jedis.bloom.commands.TopKFilterCommands,topkListWithCount,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,4.3.2,4.4.8,redis.clients.jedis.bloom.commands.TopKFilterPipelineCommands,topkListWithCount,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,4.3.2,4.4.8,redis.clients.jedis.BuilderFactory,TIMESERIES_ELEMENT_LIST,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,4.3.2,4.4.8,redis.clients.jedis.BuilderFactory,SEARCH_AGGREGATION_RESULT_WITH_CURSOR,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,4.3.2,4.4.8,redis.clients.jedis.BuilderFactory,BLOOM_SCANDUMP_RESPONSE,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,4.3.2,4.4.8,redis.clients.jedis.BuilderFactory,TIMESERIES_MRANGE_RESPONSE,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,4.3.2,4.4.8,redis.clients.jedis.BuilderFactory,JSON_ARRAY_LIST,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,4.3.2,4.4.8,redis.clients.jedis.BuilderFactory,TIMESERIES_ELEMENT,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,4.3.2,4.4.8,redis.clients.jedis.BuilderFactory,SEARCH_SYNONYM_GROUPS,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,4.3.2,4.4.8,redis.clients.jedis.BuilderFactory,JSON_ARRAY,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,4.3.2,4.4.8,redis.clients.jedis.BuilderFactory,JSON_TYPE_LIST,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,4.3.2,4.4.8,redis.clients.jedis.BuilderFactory,SEARCH_AGGREGATION_RESULT,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,4.3.2,4.4.8,redis.clients.jedis.BuilderFactory,JSON_OBJECT,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,4.3.2,4.4.8,redis.clients.jedis.BuilderFactory,JSON_TYPE,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,4.3.2,4.4.8,redis.clients.jedis.BuilderFactory,TIMESERIES_MGET_RESPONSE,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,4.3.2,4.4.8,redis.clients.jedis.ClusterCommandObjects,ftAggregate,METHOD_CHANGE,METHOD_NOW_FINAL; METHOD_MOVED_TO_SUPERCLASS,false,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,4.3.2,4.4.8,redis.clients.jedis.ClusterCommandObjects,ftAliasAdd,METHOD_CHANGE,METHOD_NOW_FINAL; METHOD_MOVED_TO_SUPERCLASS,false,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,4.3.2,4.4.8,redis.clients.jedis.ClusterCommandObjects,ftAliasDel,METHOD_CHANGE,METHOD_NOW_FINAL; METHOD_MOVED_TO_SUPERCLASS,false,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,4.3.2,4.4.8,redis.clients.jedis.ClusterCommandObjects,ftAliasUpdate,METHOD_CHANGE,METHOD_NOW_FINAL; METHOD_MOVED_TO_SUPERCLASS,false,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,4.3.2,4.4.8,redis.clients.jedis.ClusterCommandObjects,ftConfigGet,METHOD_CHANGE,METHOD_NOW_FINAL; METHOD_MOVED_TO_SUPERCLASS,false,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,4.3.2,4.4.8,redis.clients.jedis.ClusterCommandObjects,ftConfigSet,METHOD_CHANGE,METHOD_NOW_FINAL; METHOD_MOVED_TO_SUPERCLASS,false,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,4.3.2,4.4.8,redis.clients.jedis.ClusterCommandObjects,ftCursorDel,METHOD_CHANGE,METHOD_NOW_FINAL; METHOD_MOVED_TO_SUPERCLASS,false,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,4.3.2,4.4.8,redis.clients.jedis.ClusterCommandObjects,ftCursorRead,METHOD_CHANGE,METHOD_NOW_FINAL; METHOD_MOVED_TO_SUPERCLASS,false,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,4.3.2,4.4.8,redis.clients.jedis.ClusterCommandObjects,ftDropIndex,METHOD_CHANGE,METHOD_NOW_FINAL; METHOD_MOVED_TO_SUPERCLASS,false,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,4.3.2,4.4.8,redis.clients.jedis.ClusterCommandObjects,ftDropIndexDD,METHOD_CHANGE,METHOD_NOW_FINAL; METHOD_MOVED_TO_SUPERCLASS,false,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,4.3.2,4.4.8,redis.clients.jedis.ClusterCommandObjects,ftExplain,METHOD_CHANGE,METHOD_NOW_FINAL; METHOD_MOVED_TO_SUPERCLASS,false,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,4.3.2,4.4.8,redis.clients.jedis.ClusterCommandObjects,ftExplainCLI,METHOD_CHANGE,METHOD_NOW_FINAL; METHOD_MOVED_TO_SUPERCLASS,false,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,4.3.2,4.4.8,redis.clients.jedis.ClusterCommandObjects,ftInfo,METHOD_CHANGE,METHOD_NOW_FINAL; METHOD_MOVED_TO_SUPERCLASS,false,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,4.3.2,4.4.8,redis.clients.jedis.ClusterCommandObjects,ftSynDump,METHOD_CHANGE,METHOD_NOW_FINAL; METHOD_MOVED_TO_SUPERCLASS,false,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,4.3.2,4.4.8,redis.clients.jedis.ClusterCommandObjects,ftSynUpdate,METHOD_CHANGE,METHOD_NOW_FINAL; METHOD_MOVED_TO_SUPERCLASS,false,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,4.3.2,4.4.8,redis.clients.jedis.ClusterCommandObjects,ftTagVals,METHOD_CHANGE,METHOD_NOW_FINAL; METHOD_MOVED_TO_SUPERCLASS,false,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,4.3.2,4.4.8,redis.clients.jedis.CommandObjects,ftAggregate,METHOD_CHANGE,METHOD_NOW_FINAL,false,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,4.3.2,4.4.8,redis.clients.jedis.CommandObjects,ftAliasAdd,METHOD_CHANGE,METHOD_NOW_FINAL,false,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,4.3.2,4.4.8,redis.clients.jedis.CommandObjects,ftAliasDel,METHOD_CHANGE,METHOD_NOW_FINAL,false,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,4.3.2,4.4.8,redis.clients.jedis.CommandObjects,ftAliasUpdate,METHOD_CHANGE,METHOD_NOW_FINAL,false,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,4.3.2,4.4.8,redis.clients.jedis.CommandObjects,ftAlter,METHOD_CHANGE,METHOD_NOW_FINAL,false,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,4.3.2,4.4.8,redis.clients.jedis.CommandObjects,ftAlter,METHOD_CHANGE,METHOD_NOW_FINAL,false,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,4.3.2,4.4.8,redis.clients.jedis.CommandObjects,ftConfigGet,METHOD_CHANGE,METHOD_NOW_FINAL,false,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,4.3.2,4.4.8,redis.clients.jedis.CommandObjects,ftConfigSet,METHOD_CHANGE,METHOD_NOW_FINAL,false,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,4.3.2,4.4.8,redis.clients.jedis.CommandObjects,ftCreate,METHOD_CHANGE,METHOD_NOW_FINAL,false,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,4.3.2,4.4.8,redis.clients.jedis.CommandObjects,ftCreate,METHOD_CHANGE,METHOD_NOW_FINAL,false,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,4.3.2,4.4.8,redis.clients.jedis.CommandObjects,ftCursorDel,METHOD_CHANGE,METHOD_NOW_FINAL,false,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,4.3.2,4.4.8,redis.clients.jedis.CommandObjects,ftCursorRead,METHOD_CHANGE,METHOD_NOW_FINAL,false,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,4.3.2,4.4.8,redis.clients.jedis.CommandObjects,ftDropIndex,METHOD_CHANGE,METHOD_NOW_FINAL,false,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,4.3.2,4.4.8,redis.clients.jedis.CommandObjects,ftDropIndexDD,METHOD_CHANGE,METHOD_NOW_FINAL,false,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,4.3.2,4.4.8,redis.clients.jedis.CommandObjects,ftExplain,METHOD_CHANGE,METHOD_NOW_FINAL,false,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,4.3.2,4.4.8,redis.clients.jedis.CommandObjects,ftExplainCLI,METHOD_CHANGE,METHOD_NOW_FINAL,false,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,4.3.2,4.4.8,redis.clients.jedis.CommandObjects,ftInfo,METHOD_CHANGE,METHOD_NOW_FINAL,false,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,4.3.2,4.4.8,redis.clients.jedis.CommandObjects,ftSearch,METHOD_CHANGE,METHOD_NOW_FINAL,false,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,4.3.2,4.4.8,redis.clients.jedis.CommandObjects,ftSearch,METHOD_CHANGE,METHOD_NOW_FINAL,false,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,4.3.2,4.4.8,redis.clients.jedis.CommandObjects,ftSearch,METHOD_CHANGE,METHOD_NOW_FINAL,false,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,4.3.2,4.4.8,redis.clients.jedis.CommandObjects,ftSearch,METHOD_CHANGE,METHOD_NOW_FINAL,false,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,4.3.2,4.4.8,redis.clients.jedis.CommandObjects,ftSynDump,METHOD_CHANGE,METHOD_NOW_FINAL,false,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,4.3.2,4.4.8,redis.clients.jedis.CommandObjects,ftSynUpdate,METHOD_CHANGE,METHOD_NOW_FINAL,false,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,4.3.2,4.4.8,redis.clients.jedis.CommandObjects,ftTagVals,METHOD_CHANGE,METHOD_NOW_FINAL,false,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,4.3.2,4.4.8,redis.clients.jedis.commands.ClientBinaryCommands,clientSetInfo,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,4.3.2,4.4.8,redis.clients.jedis.commands.ClientBinaryCommands,clientUnpause,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,4.3.2,4.4.8,redis.clients.jedis.commands.ClientCommands,clientNoTouchOff,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,4.3.2,4.4.8,redis.clients.jedis.commands.ClientCommands,clientNoTouchOn,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,4.3.2,4.4.8,redis.clients.jedis.commands.ClientCommands,clientSetInfo,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,4.3.2,4.4.8,redis.clients.jedis.commands.ClientCommands,clientUnpause,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,4.3.2,4.4.8,redis.clients.jedis.commands.ClusterCommands,clusterMyShardId,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,4.3.2,4.4.8,redis.clients.jedis.commands.DatabaseCommands,flushDB,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,4.3.2,4.4.8,redis.clients.jedis.commands.ModuleCommands,moduleLoadEx,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,4.3.2,4.4.8,redis.clients.jedis.commands.SampleBinaryKeyedCommands,waitAOF,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,4.3.2,4.4.8,redis.clients.jedis.commands.SampleBinaryKeyedPipelineCommands,waitAOF,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,4.3.2,4.4.8,redis.clients.jedis.commands.SampleKeyedCommands,waitAOF,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,4.3.2,4.4.8,redis.clients.jedis.commands.SampleKeyedPipelineCommands,waitAOF,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,4.3.2,4.4.8,redis.clients.jedis.commands.ServerCommands,flushDB,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,4.3.2,4.4.8,redis.clients.jedis.commands.ServerCommands,latencyDoctor,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,4.3.2,4.4.8,redis.clients.jedis.commands.ServerCommands,waitAOF,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,4.3.2,4.4.8,redis.clients.jedis.commands.SortedSetBinaryCommands,zrankWithScore,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,4.3.2,4.4.8,redis.clients.jedis.commands.SortedSetBinaryCommands,zrevrankWithScore,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,4.3.2,4.4.8,redis.clients.jedis.commands.SortedSetCommands,zrankWithScore,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,4.3.2,4.4.8,redis.clients.jedis.commands.SortedSetCommands,zrevrankWithScore,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,4.3.2,4.4.8,redis.clients.jedis.commands.SortedSetPipelineBinaryCommands,zrankWithScore,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,4.3.2,4.4.8,redis.clients.jedis.commands.SortedSetPipelineBinaryCommands,zrevrankWithScore,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,4.3.2,4.4.8,redis.clients.jedis.commands.SortedSetPipelineCommands,zrankWithScore,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,4.3.2,4.4.8,redis.clients.jedis.commands.SortedSetPipelineCommands,zrevrankWithScore,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,4.3.2,4.4.8,redis.clients.jedis.search.FieldName,getName,METHOD_CHANGE,METHOD_NOW_FINAL; ANNOTATION_REMOVED,false,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,4.3.2,4.4.8,redis.clients.jedis.search.RediSearchCommands,ftList,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,4.3.2,4.4.8,redis.clients.jedis.search.RediSearchCommands,ftProfileAggregate,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,4.3.2,4.4.8,redis.clients.jedis.search.RediSearchCommands,ftProfileSearch,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,4.3.2,4.4.8,redis.clients.jedis.search.RediSearchCommands,ftProfileSearch,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,4.3.2,4.4.8,redis.clients.jedis.search.RediSearchCommands,ftSpellCheck,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,4.3.2,4.4.8,redis.clients.jedis.search.RediSearchCommands,ftSpellCheck,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,4.3.2,4.4.8,redis.clients.jedis.search.RediSearchPipelineCommands,ftSpellCheck,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+redis.clients:jedis,4.3.2,4.4.8,redis.clients.jedis.search.RediSearchPipelineCommands,ftSpellCheck,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,redis.clients:jedis,,,MINOR,false
+org.springframework.boot:spring-boot-configuration-processor,2.5.15,2.7.18,org.springframework.boot.configurationprocessor.ConfigurationMetadataAnnotationProcessor,writeMetaData,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.springframework.boot:spring-boot-configuration-processor,,,MINOR,false
+com.google.code.gson:gson,2.8.9,2.10.1,com.google.gson.internal.bind.ReflectiveTypeAdapterFactory,excludeField,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,redis.clients:jedis,4.3.2,4.4.8,MINOR,false
+com.google.code.gson:gson,2.8.9,2.10.1,com.google.gson.internal.bind.ReflectiveTypeAdapterFactory,ReflectiveTypeAdapterFactory,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,redis.clients:jedis,4.3.2,4.4.8,MINOR,false
+com.google.code.gson:gson,2.8.9,2.10.1,com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter,com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter,CLASS_CHANGE,CLASS_NOW_ABSTRACT; CLASS_GENERIC_TEMPLATE_CHANGED,false,false,true,2,redis.clients:jedis,4.3.2,4.4.8,MINOR,false
+com.google.code.gson:gson,2.8.9,2.10.1,com.google.gson.internal.ConstructorConstructor,ConstructorConstructor,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,redis.clients:jedis,4.3.2,4.4.8,MINOR,false
+com.google.code.gson:gson,2.8.9,2.10.1,com.google.gson.internal.LinkedHashTreeMap,com.google.gson.internal.LinkedHashTreeMap,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,redis.clients:jedis,4.3.2,4.4.8,MINOR,false
+com.google.code.gson:gson,2.8.9,2.10.1,com.google.gson.internal.LinkedHashTreeMap,clear,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,redis.clients:jedis,4.3.2,4.4.8,MINOR,false
+com.google.code.gson:gson,2.8.9,2.10.1,com.google.gson.internal.LinkedHashTreeMap,containsKey,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,redis.clients:jedis,4.3.2,4.4.8,MINOR,false
+com.google.code.gson:gson,2.8.9,2.10.1,com.google.gson.internal.LinkedHashTreeMap,entrySet,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,redis.clients:jedis,4.3.2,4.4.8,MINOR,false
+com.google.code.gson:gson,2.8.9,2.10.1,com.google.gson.internal.LinkedHashTreeMap,get,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,redis.clients:jedis,4.3.2,4.4.8,MINOR,false
+com.google.code.gson:gson,2.8.9,2.10.1,com.google.gson.internal.LinkedHashTreeMap,keySet,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,redis.clients:jedis,4.3.2,4.4.8,MINOR,false
+com.google.code.gson:gson,2.8.9,2.10.1,com.google.gson.internal.LinkedHashTreeMap,put,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,redis.clients:jedis,4.3.2,4.4.8,MINOR,false
+com.google.code.gson:gson,2.8.9,2.10.1,com.google.gson.internal.LinkedHashTreeMap,remove,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,redis.clients:jedis,4.3.2,4.4.8,MINOR,false
+com.google.code.gson:gson,2.8.9,2.10.1,com.google.gson.internal.LinkedHashTreeMap,size,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,redis.clients:jedis,4.3.2,4.4.8,MINOR,false
+com.google.code.gson:gson,2.8.9,2.10.1,com.google.gson.internal.LinkedHashTreeMap,LinkedHashTreeMap,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,redis.clients:jedis,4.3.2,4.4.8,MINOR,false
+com.google.code.gson:gson,2.8.9,2.10.1,com.google.gson.internal.LinkedHashTreeMap,LinkedHashTreeMap,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,redis.clients:jedis,4.3.2,4.4.8,MINOR,false
+com.google.code.gson:gson,2.8.9,2.10.1,com.google.gson.internal.LinkedTreeMap,LinkedTreeMap,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,redis.clients:jedis,4.3.2,4.4.8,MINOR,false
+com.google.code.gson:gson,2.8.9,2.10.1,com.google.gson.internal.NonNullElementWrapperList,com.google.gson.internal.NonNullElementWrapperList,CLASS_CHANGE,INTERFACE_ADDED; METHOD_ABSTRACT_ADDED_IN_IMPLEMENTED_INTERFACE,true,false,true,2,redis.clients:jedis,4.3.2,4.4.8,MINOR,false
+com.google.code.gson:gson,2.8.9,2.10.1,com.google.gson.internal.reflect.ReflectionAccessor,com.google.gson.internal.reflect.ReflectionAccessor,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,redis.clients:jedis,4.3.2,4.4.8,MINOR,false
+com.google.code.gson:gson,2.8.9,2.10.1,com.google.gson.internal.reflect.ReflectionAccessor,getInstance,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,redis.clients:jedis,4.3.2,4.4.8,MINOR,false
+com.google.code.gson:gson,2.8.9,2.10.1,com.google.gson.internal.reflect.ReflectionAccessor,makeAccessible,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,redis.clients:jedis,4.3.2,4.4.8,MINOR,false
+com.google.code.gson:gson,2.8.9,2.10.1,com.google.gson.internal.reflect.ReflectionAccessor,ReflectionAccessor,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,redis.clients:jedis,4.3.2,4.4.8,MINOR,false
+com.google.code.gson:gson,2.8.9,2.10.1,com.google.gson.internal.UnsafeAllocator,create,METHOD_CHANGE,METHOD_LESS_ACCESSIBLE,false,false,true,2,redis.clients:jedis,4.3.2,4.4.8,MINOR,false

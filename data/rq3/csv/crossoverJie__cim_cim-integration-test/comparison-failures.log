@@ -1,0 +1,9 @@
+=== Comparison Failure Log ===
+[2025-09-22 17:35:42] org.testcontainers:testcontainers:1.19.8 -> org.testcontainers:testcontainers:1.21.3 : Failed to compare JAR files: JAPICMP comparison failed for org.testcontainers:testcontainers
+[2025-09-22 17:35:42] org.testcontainers:junit-jupiter:1.19.8 -> org.testcontainers:junit-jupiter:1.21.3 : Failed to compare JAR files: JAPICMP comparison failed for org.testcontainers:junit-jupiter
+[2025-09-22 17:35:59] org.testcontainers:mysql:1.19.7 -> org.testcontainers:mysql:1.21.3 : Failed to compare JAR files: JAPICMP comparison failed for org.testcontainers:mysql
+
+=== Summary ===
+Total comparisons: 60
+Failures: 3
+Success rate: 95.00%

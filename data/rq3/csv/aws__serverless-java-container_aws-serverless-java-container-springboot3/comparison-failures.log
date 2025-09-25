@@ -1,0 +1,19 @@
+=== Comparison Failure Log ===
+[2025-09-22 15:51:05] org.springframework.cloud:spring-cloud-function-serverless-web:4.1.5 -> org.springframework.cloud:spring-cloud-function-serverless-web:4.3.0 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.cloud:spring-cloud-function-serverless-web
+[2025-09-22 15:51:06] org.springframework:spring-webflux:6.2.8 -> org.springframework:spring-webflux:6.2.11 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-webflux
+[2025-09-22 15:51:08] org.springframework.boot:spring-boot:3.4.5 -> org.springframework.boot:spring-boot:3.5.6 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.boot:spring-boot
+[2025-09-22 15:51:09] org.springframework.boot:spring-boot-autoconfigure:3.4.5 -> org.springframework.boot:spring-boot-autoconfigure:3.5.6 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.boot:spring-boot-autoconfigure
+[2025-09-22 15:51:09] org.springframework:spring-core:6.2.8 -> org.springframework:spring-core:6.2.11 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-core
+[2025-09-22 15:51:09] org.springframework:spring-context:6.2.8 -> org.springframework:spring-context:6.2.11 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-context
+[2025-09-22 15:51:10] org.springframework:spring-webmvc:6.2.8 -> org.springframework:spring-webmvc:6.2.11 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-webmvc
+[2025-09-22 15:51:11] org.springframework.security:spring-security-config:6.4.5 -> org.springframework.security:spring-security-config:6.5.5 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.security:spring-security-config
+[2025-09-22 15:51:11] org.springframework.security:spring-security-web:6.4.5 -> org.springframework.security:spring-security-web:6.5.5 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.security:spring-security-web
+[2025-09-22 15:51:11] org.hibernate.validator:hibernate-validator:8.0.2.Final -> org.hibernate.validator:hibernate-validator:9.0.0.CR1 : Failed to compare JAR files: JAPICMP comparison failed for org.hibernate.validator:hibernate-validator
+[2025-09-22 15:51:43] org.junit.jupiter:junit-jupiter-api:5.12.2 -> org.junit.jupiter:junit-jupiter-api:5.13.4 : Failed to compare JAR files: JAPICMP comparison failed for org.junit.jupiter:junit-jupiter-api
+[2025-09-22 15:51:44] org.junit.jupiter:junit-jupiter-params:5.12.2 -> org.junit.jupiter:junit-jupiter-params:5.13.4 : Failed to compare JAR files: JAPICMP comparison failed for org.junit.jupiter:junit-jupiter-params
+[2025-09-22 15:51:44] org.mockito:mockito-core:5.17.0 -> org.mockito:mockito-core:5.20.0 : Failed to compare JAR files: JAPICMP comparison failed for org.mockito:mockito-core
+
+=== Summary ===
+Total comparisons: 47
+Failures: 13
+Success rate: 72.34%

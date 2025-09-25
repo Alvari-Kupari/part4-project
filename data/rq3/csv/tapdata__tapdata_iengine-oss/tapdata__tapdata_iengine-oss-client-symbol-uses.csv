@@ -1,0 +1,15 @@
+Library_Name,Symbol_Type,Class_Name,Symbol_Name,Usage_Location,Line_Number
+JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.lang.Object,Object,C:\Users\tyin363\Documents\repos\tapdata__tapdata\iengine\iengine-oss\src\main\java\io\tapdata\sharecdc\impl\ShareCdcPDKTaskReader.java,10
+JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.io.Serializable,Serializable,C:\Users\tyin363\Documents\repos\tapdata__tapdata\iengine\iengine-oss\src\main\java\io\tapdata\sharecdc\impl\ShareCdcPDKTaskReader.java,9
+JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.lang.String,String,C:\Users\tyin363\Documents\repos\tapdata__tapdata\iengine\iengine-oss\src\main\java\io\tapdata\inspect\InspectServiceImpl.java,84
+JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.lang.String,String,C:\Users\tyin363\Documents\repos\tapdata__tapdata\iengine\iengine-oss\src\main\java\io\tapdata\inspect\InspectServiceImpl.java,19
+JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.lang.String,String,C:\Users\tyin363\Documents\repos\tapdata__tapdata\iengine\iengine-oss\src\main\java\io\tapdata\inspect\InspectServiceImpl.java,44
+JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.lang.String,String,C:\Users\tyin363\Documents\repos\tapdata__tapdata\iengine\iengine-oss\src\main\java\io\tapdata\inspect\InspectServiceImpl.java,74
+JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.lang.String,String,C:\Users\tyin363\Documents\repos\tapdata__tapdata\iengine\iengine-oss\src\main\java\io\tapdata\inspect\InspectServiceImpl.java,39
+JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.lang.String,String,C:\Users\tyin363\Documents\repos\tapdata__tapdata\iengine\iengine-oss\src\main\java\io\tapdata\inspect\InspectServiceImpl.java,69
+JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.lang.String,String,C:\Users\tyin363\Documents\repos\tapdata__tapdata\iengine\iengine-oss\src\main\java\io\tapdata\inspect\InspectServiceImpl.java,34
+,ClassOrInterfaceType,io.tapdata.sharecdc.impl.ShareCdcHZReader,ShareCdcHZReader,C:\Users\tyin363\Documents\repos\tapdata__tapdata\iengine\iengine-oss\src\main\java\io\tapdata\sharecdc\impl\ShareCdcPDKTaskReader.java,9
+JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.lang.String,String,C:\Users\tyin363\Documents\repos\tapdata__tapdata\iengine\iengine-oss\src\main\java\io\tapdata\inspect\InspectServiceImpl.java,64
+JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.io.IOException,IOException,C:\Users\tyin363\Documents\repos\tapdata__tapdata\iengine\iengine-oss\src\main\java\io\tapdata\sharecdc\impl\ShareCdcBaseReader.java,27
+JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.lang.String,String,C:\Users\tyin363\Documents\repos\tapdata__tapdata\iengine\iengine-oss\src\main\java\io\tapdata\sharecdc\impl\ShareCdcPDKTaskReader.java,14
+,ClassOrInterfaceType,io.tapdata.sharecdc.impl.ShareCdcBaseReader,ShareCdcBaseReader,C:\Users\tyin363\Documents\repos\tapdata__tapdata\iengine\iengine-oss\src\main\java\io\tapdata\sharecdc\impl\ShareCdcHZReader.java,3

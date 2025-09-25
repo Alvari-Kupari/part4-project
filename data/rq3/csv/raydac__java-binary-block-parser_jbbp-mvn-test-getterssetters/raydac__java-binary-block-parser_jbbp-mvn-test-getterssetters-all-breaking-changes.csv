@@ -1,0 +1,2 @@
+Library_Name,Old_Version,New_Version,Class_Name,Member_Name,Change_Type,Description,Binary_Compatible,Source_Compatible,Is_Transitive,Depth,Direct_Parent_Dependency,Direct_Dependency_Old_Version,Direct_Dependency_New_Version,Release_Type,Is_Used_In_Client
+commons-io:commons-io,2.17.0,2.20.0,org.apache.commons.io.output.AbstractByteArrayOutputStream,org.apache.commons.io.output.AbstractByteArrayOutputStream,CLASS_CHANGE,CLASS_GENERIC_TEMPLATE_CHANGED,true,false,false,1,commons-io:commons-io,,,MINOR,false

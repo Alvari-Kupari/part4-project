@@ -1,0 +1,13 @@
+=== Comparison Failure Log ===
+[2025-09-23 02:23:46] org.apache.logging.log4j:log4j-api:2.23.1 -> org.apache.logging.log4j:log4j-api:2.25.2 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.logging.log4j:log4j-api
+[2025-09-23 02:23:55] org.apache.logging.log4j:log4j-core:2.23.1 -> org.apache.logging.log4j:log4j-core:2.25.2 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.logging.log4j:log4j-core
+[2025-09-23 02:24:03] org.apache.mina:mina-http:2.0.22 -> org.apache.mina:mina-http:2.2.4 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.mina:mina-http
+[2025-09-23 02:24:50] mysql:mysql-connector-java:8.0.30 -> mysql:mysql-connector-java:8.0.33 : Failed to compare JAR files: JAPICMP comparison failed for mysql:mysql-connector-java
+[2025-09-23 02:24:52] org.quartz-scheduler:quartz:2.3.2 -> org.quartz-scheduler:quartz:2.5.0 : Failed to compare JAR files: JAPICMP comparison failed for org.quartz-scheduler:quartz
+[2025-09-23 02:24:54] org.quartz-scheduler:quartz-jobs:2.3.2 -> org.quartz-scheduler:quartz-jobs:2.5.0 : Failed to compare JAR files: JAPICMP comparison failed for org.quartz-scheduler:quartz-jobs
+[2025-09-23 02:25:10] org.codehaus.groovy:groovy-all:2.4.21 -> org.codehaus.groovy:groovy-all:2.5.23 : Failed to resolve any JAR files for new dependency: org.codehaus.groovy:groovy-all:2.5.23 (old version resolved 20 JARs)
+
+=== Summary ===
+Total comparisons: 61
+Failures: 7
+Success rate: 88.52%

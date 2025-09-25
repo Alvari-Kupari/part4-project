@@ -1,0 +1,8 @@
+=== Comparison Failure Log ===
+[2025-09-22 21:22:08] org.hibernate:hibernate-core:5.3.37.Final -> org.hibernate:hibernate-core:6.0.0.CR2 : Failed to compare JAR files: JAPICMP comparison failed for org.hibernate:hibernate-core
+[2025-09-22 21:22:14] org.assertj:assertj-core:3.27.2 -> org.assertj:assertj-core:3.27.5 : Failed to compare JAR files: JAPICMP comparison failed for org.assertj:assertj-core
+
+=== Summary ===
+Total comparisons: 12
+Failures: 2
+Success rate: 83.33%

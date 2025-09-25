@@ -1,0 +1,10 @@
+=== Comparison Failure Log ===
+[2025-09-22 19:59:58] commons-fileupload:commons-fileupload:1.5 -> commons-fileupload:commons-fileupload:1.6.0 : Failed to compare JAR files: JAPICMP comparison failed for commons-fileupload:commons-fileupload
+[2025-09-22 19:59:59] org.mockito:mockito-core:4.5.1 -> org.mockito:mockito-core:4.11.0 : Failed to compare JAR files: JAPICMP comparison failed for org.mockito:mockito-core
+[2025-09-22 20:00:05] org.assertj:assertj-core:3.13.2 -> org.assertj:assertj-core:3.27.5 : Failed to compare JAR files: JAPICMP comparison failed for org.assertj:assertj-core
+[2025-09-22 20:00:05] cn.hutool:hutool-all:5.8.35 -> cn.hutool:hutool-all:5.8.40 : Failed to compare JAR files: JAPICMP comparison failed for cn.hutool:hutool-all
+
+=== Summary ===
+Total comparisons: 36
+Failures: 4
+Success rate: 88.89%

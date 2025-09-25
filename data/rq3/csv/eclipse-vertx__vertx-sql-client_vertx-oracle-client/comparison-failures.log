@@ -1,0 +1,8 @@
+=== Comparison Failure Log ===
+[2025-09-22 20:38:26] com.oracle.database.jdbc:ojdbc11:23.4.0.24.05 -> com.oracle.database.jdbc:ojdbc11:23.9.0.25.07 : Failed to compare JAR files: JAPICMP comparison failed for com.oracle.database.jdbc:ojdbc11
+[2025-09-22 20:38:28] org.testcontainers:testcontainers:1.20.6 -> org.testcontainers:testcontainers:1.21.3 : Failed to compare JAR files: JAPICMP comparison failed for org.testcontainers:testcontainers
+
+=== Summary ===
+Total comparisons: 31
+Failures: 2
+Success rate: 93.55%

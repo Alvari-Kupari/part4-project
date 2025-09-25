@@ -1,0 +1,10 @@
+=== Comparison Failure Log ===
+[2025-09-23 09:43:01] org.hibernate.orm:hibernate-core:7.0.6.Final -> org.hibernate.orm:hibernate-core:7.1.1.Final : Failed to compare JAR files: JAPICMP comparison failed for org.hibernate.orm:hibernate-core
+[2025-09-23 09:43:03] org.mongodb:mongodb-driver-core:5.5.1 -> org.mongodb:mongodb-driver-core:5.6.0 : Failed to compare JAR files: JAPICMP comparison failed for org.mongodb:mongodb-driver-core
+[2025-09-23 09:43:10] org.mockito:mockito-core:5.18.0 -> org.mockito:mockito-core:5.20.0 : Failed to compare JAR files: JAPICMP comparison failed for org.mockito:mockito-core
+[2025-09-23 09:43:12] org.codehaus.groovy:groovy:3.0.22 -> org.codehaus.groovy:groovy:3.0.25 : Failed to compare JAR files: JAPICMP comparison failed for org.codehaus.groovy:groovy
+
+=== Summary ===
+Total comparisons: 22
+Failures: 4
+Success rate: 81.82%

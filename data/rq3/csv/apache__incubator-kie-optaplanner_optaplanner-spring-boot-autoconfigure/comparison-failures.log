@@ -1,0 +1,15 @@
+=== Comparison Failure Log ===
+[2025-09-22 14:39:22] org.springframework.boot:spring-boot-autoconfigure:3.2.6 -> org.springframework.boot:spring-boot-autoconfigure:3.5.6 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.boot:spring-boot-autoconfigure
+[2025-09-22 14:39:27] org.springframework:spring-web:6.1.12 -> org.springframework:spring-web:6.2.11 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-web
+[2025-09-22 14:39:28] org.junit.jupiter:junit-jupiter-api:5.12.1 -> org.junit.jupiter:junit-jupiter-api:5.13.4 : Failed to compare JAR files: JAPICMP comparison failed for org.junit.jupiter:junit-jupiter-api
+[2025-09-22 14:39:29] org.springframework:spring-test:6.1.12 -> org.springframework:spring-test:6.2.11 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-test
+[2025-09-22 14:39:29] org.springframework.boot:spring-boot-test:3.2.6 -> org.springframework.boot:spring-boot-test:3.5.6 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.boot:spring-boot-test
+[2025-09-22 14:39:30] org.springframework.boot:spring-boot-test-autoconfigure:3.2.6 -> org.springframework.boot:spring-boot-test-autoconfigure:3.5.6 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.boot:spring-boot-test-autoconfigure
+[2025-09-22 14:39:31] org.assertj:assertj-core:3.24.2 -> org.assertj:assertj-core:3.27.5 : Failed to compare JAR files: JAPICMP comparison failed for org.assertj:assertj-core
+[2025-09-22 14:39:31] ch.qos.logback:logback-classic:1.5.16 -> ch.qos.logback:logback-classic:1.5.18 : Failed to compare JAR files: JAPICMP comparison failed for ch.qos.logback:logback-classic
+[2025-09-22 14:39:31] org.mockito:mockito-core:5.16.1 -> org.mockito:mockito-core:5.20.0 : Failed to compare JAR files: JAPICMP comparison failed for org.mockito:mockito-core
+
+=== Summary ===
+Total comparisons: 24
+Failures: 9
+Success rate: 62.50%

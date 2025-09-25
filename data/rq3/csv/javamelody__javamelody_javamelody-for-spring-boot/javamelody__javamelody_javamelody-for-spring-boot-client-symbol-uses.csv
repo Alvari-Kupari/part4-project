@@ -1,0 +1,9 @@
+Library_Name,Symbol_Type,Class_Name,Symbol_Name,Usage_Location,Line_Number
+JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.lang.String,String,C:\Users\tyin363\Documents\repos\javamelody__javamelody\javamelody-for-spring-boot\src\main\java\hello\HelloController.java,15
+CLIENT:client-code:N/A:N/A,NameExpr,hello.HelloController,service,C:\Users\tyin363\Documents\repos\javamelody__javamelody\javamelody-for-spring-boot\src\main\java\hello\HelloController.java,16
+CLIENT:client-code:N/A:N/A,MethodCallExpr,hello.HelloService,hello,C:\Users\tyin363\Documents\repos\javamelody__javamelody\javamelody-for-spring-boot\src\main\java\hello\HelloController.java,16
+JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.lang.String,String,C:\Users\tyin363\Documents\repos\javamelody__javamelody\javamelody-for-spring-boot\src\main\java\hello\HelloService.java,8
+CLIENT:client-code:N/A:N/A,ClassOrInterfaceType,hello.HelloService,HelloService,C:\Users\tyin363\Documents\repos\javamelody__javamelody\javamelody-for-spring-boot\src\main\java\hello\HelloController.java,12
+JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.lang.String,String,C:\Users\tyin363\Documents\repos\javamelody__javamelody\javamelody-for-spring-boot\src\main\java\hello\Application.java,10
+CLIENT:client-code:N/A:N/A,ClassOrInterfaceType,hello.Application,Application,C:\Users\tyin363\Documents\repos\javamelody__javamelody\javamelody-for-spring-boot\src\main\java\hello\Application.java,11
+org.springframework.boot:spring-boot:jar:3.4.4,MethodCallExpr,org.springframework.boot.SpringApplication,run,C:\Users\tyin363\Documents\repos\javamelody__javamelody\javamelody-for-spring-boot\src\main\java\hello\Application.java,11

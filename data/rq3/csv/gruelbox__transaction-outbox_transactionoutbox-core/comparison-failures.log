@@ -1,0 +1,10 @@
+=== Comparison Failure Log ===
+[2025-09-22 22:45:53] net.bytebuddy:byte-buddy:1.17.5 -> net.bytebuddy:byte-buddy:1.17.7 : Failed to compare JAR files: JAPICMP comparison failed for net.bytebuddy:byte-buddy
+[2025-09-22 22:45:53] org.projectlombok:lombok:1.18.30 -> org.projectlombok:lombok:1.18.42 : Failed to compare JAR files: JAPICMP comparison failed for org.projectlombok:lombok
+[2025-09-22 22:45:54] org.junit.jupiter:junit-jupiter-params:5.12.2 -> org.junit.jupiter:junit-jupiter-params:5.13.4 : Failed to compare JAR files: JAPICMP comparison failed for org.junit.jupiter:junit-jupiter-params
+[2025-09-22 22:45:54] com.zaxxer:HikariCP:6.3.0 -> com.zaxxer:HikariCP:6.3.3 : Failed to compare JAR files: JAPICMP comparison failed for com.zaxxer:HikariCP
+
+=== Summary ===
+Total comparisons: 10
+Failures: 4
+Success rate: 60.00%

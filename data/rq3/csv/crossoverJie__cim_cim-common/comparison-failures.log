@@ -1,0 +1,12 @@
+=== Comparison Failure Log ===
+[2025-09-22 17:33:21] org.projectlombok:lombok:1.18.32 -> org.projectlombok:lombok:1.18.42 : Failed to compare JAR files: JAPICMP comparison failed for org.projectlombok:lombok
+[2025-09-22 17:33:29] com.github.xiaoymin:knife4j-openapi3-jakarta-spring-boot-starter:4.4.0 -> com.github.xiaoymin:knife4j-openapi3-jakarta-spring-boot-starter:4.5.0 : Failed to compare JAR files: JAPICMP comparison failed for com.github.xiaoymin:knife4j-openapi3-jakarta-spring-boot-starter
+[2025-09-22 17:33:30] com.squareup.okhttp3:okhttp:3.3.1 -> com.squareup.okhttp3:okhttp:3.14.9 : Failed to compare JAR files: JAPICMP comparison failed for com.squareup.okhttp3:okhttp
+[2025-09-22 17:33:44] org.apache.zookeeper:zookeeper:3.8.4 -> org.apache.zookeeper:zookeeper:3.9.4 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.zookeeper:zookeeper
+[2025-09-22 17:34:00] io.netty:netty-all:4.1.68.Final -> io.netty:netty-all:4.2.6.Final : Failed to compare JAR files: JAPICMP comparison failed for io.netty:netty-all
+[2025-09-22 17:34:00] com.alibaba:fastjson:1.2.83 -> com.alibaba:fastjson:1.2.83_noneautotype : Failed to compare JAR files: JAPICMP comparison failed for com.alibaba:fastjson
+
+=== Summary ===
+Total comparisons: 37
+Failures: 6
+Success rate: 83.78%

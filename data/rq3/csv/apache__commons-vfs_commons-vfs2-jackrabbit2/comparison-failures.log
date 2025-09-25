@@ -1,0 +1,7 @@
+=== Comparison Failure Log ===
+[2025-09-22 13:55:06] org.apache.jackrabbit:jackrabbit-webdav:2.20.17 -> org.apache.jackrabbit:jackrabbit-webdav:2.22.2 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.jackrabbit:jackrabbit-webdav
+
+=== Summary ===
+Total comparisons: 46
+Failures: 1
+Success rate: 97.83%

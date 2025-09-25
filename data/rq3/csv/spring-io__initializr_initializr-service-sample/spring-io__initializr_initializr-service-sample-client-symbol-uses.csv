@@ -1,0 +1,7 @@
+Library_Name,Symbol_Type,Class_Name,Symbol_Name,Usage_Location,Line_Number
+JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.lang.String,String,C:\Users\tyin363\Documents\repos\spring-io__initializr\initializr-service-sample\src\main\java\sample\service\ServiceApplication.java,39
+CLIENT:client-code:N/A:N/A,ClassOrInterfaceType,sample.service.ServiceApplication,ServiceApplication,C:\Users\tyin363\Documents\repos\spring-io__initializr\initializr-service-sample\src\main\java\sample\service\ServiceApplication.java,40
+org.springframework.boot:spring-boot:jar:3.5.4,MethodCallExpr,org.springframework.boot.SpringApplication,run,C:\Users\tyin363\Documents\repos\spring-io__initializr\initializr-service-sample\src\main\java\sample\service\ServiceApplication.java,40
+org.springframework.boot:spring-boot:jar:3.5.4,ClassOrInterfaceType,org.springframework.boot.web.client.RestTemplateBuilder,RestTemplateBuilder,C:\Users\tyin363\Documents\repos\spring-io__initializr\initializr-service-sample\src\main\java\sample\service\ServiceApplication.java,46
+org.springframework.boot:spring-boot:jar:3.5.4,MethodCallExpr,org.springframework.boot.web.client.RestTemplateBuilder,build,C:\Users\tyin363\Documents\repos\spring-io__initializr\initializr-service-sample\src\main\java\sample\service\ServiceApplication.java,47
+com.fasterxml.jackson.core:jackson-databind:jar:2.19.2,ClassOrInterfaceType,com.fasterxml.jackson.databind.ObjectMapper,ObjectMapper,C:\Users\tyin363\Documents\repos\spring-io__initializr\initializr-service-sample\src\main\java\sample\service\ServiceApplication.java,46

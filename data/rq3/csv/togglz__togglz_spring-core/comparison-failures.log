@@ -1,0 +1,12 @@
+=== Comparison Failure Log ===
+[2025-09-23 14:13:20] org.springframework:spring-context:6.2.3 -> org.springframework:spring-context:6.2.11 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-context
+[2025-09-23 14:13:20] org.springframework:spring-core:6.2.3 -> org.springframework:spring-core:6.2.11 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-core
+[2025-09-23 14:13:20] org.springframework:spring-test:6.2.3 -> org.springframework:spring-test:6.2.11 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-test
+[2025-09-23 14:13:21] org.junit.jupiter:junit-jupiter-params:5.9.3 -> org.junit.jupiter:junit-jupiter-params:5.13.4 : Failed to compare JAR files: JAPICMP comparison failed for org.junit.jupiter:junit-jupiter-params
+[2025-09-23 14:13:21] org.mockito:mockito-core:5.2.0 -> org.mockito:mockito-core:5.20.0 : Failed to compare JAR files: JAPICMP comparison failed for org.mockito:mockito-core
+[2025-09-23 14:13:21] ch.qos.logback:logback-classic:1.4.12 -> ch.qos.logback:logback-classic:1.5.18 : Failed to compare JAR files: JAPICMP comparison failed for ch.qos.logback:logback-classic
+
+=== Summary ===
+Total comparisons: 72
+Failures: 6
+Success rate: 91.67%

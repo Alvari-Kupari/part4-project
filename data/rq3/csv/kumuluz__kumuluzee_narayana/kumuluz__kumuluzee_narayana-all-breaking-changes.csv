@@ -1,0 +1,7 @@
+Library_Name,Old_Version,New_Version,Class_Name,Member_Name,Change_Type,Description,Binary_Compatible,Source_Compatible,Is_Transitive,Depth,Direct_Parent_Dependency,Direct_Dependency_Old_Version,Direct_Dependency_New_Version,Release_Type,Is_Used_In_Client
+io.agroal:agroal-api,1.9,1.18,io.agroal.api.configuration.AgroalConnectionFactoryConfiguration,loginTimeout,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.agroal:agroal-narayana,1.9,1.18,MINOR,false
+io.agroal:agroal-api,1.9,1.18,io.agroal.api.configuration.AgroalConnectionPoolConfiguration,connectionCache,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.agroal:agroal-narayana,1.9,1.18,MINOR,false
+io.agroal:agroal-api,1.9,1.18,io.agroal.api.configuration.AgroalConnectionPoolConfiguration,enhancedLeakReport,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.agroal:agroal-narayana,1.9,1.18,MINOR,false
+io.agroal:agroal-api,1.9,1.18,io.agroal.api.configuration.AgroalConnectionPoolConfiguration,multipleAcquisition,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.agroal:agroal-narayana,1.9,1.18,MINOR,false
+io.agroal:agroal-api,1.9,1.18,io.agroal.api.configuration.AgroalConnectionPoolConfiguration,transactionRequirement,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.agroal:agroal-narayana,1.9,1.18,MINOR,false
+io.agroal:agroal-api,1.9,1.18,io.agroal.api.transaction.TransactionAware,transactionBeforeCompletion,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.agroal:agroal-narayana,1.9,1.18,MINOR,false

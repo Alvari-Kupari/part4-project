@@ -1,0 +1,8 @@
+=== Comparison Failure Log ===
+[2025-09-22 13:57:16] org.junit.jupiter:junit-jupiter-api:5.6.2 -> org.junit.jupiter:junit-jupiter-api:5.13.4 : Failed to compare JAR files: JAPICMP comparison failed for org.junit.jupiter:junit-jupiter-api
+[2025-09-22 13:57:17] org.assertj:assertj-core:3.23.1 -> org.assertj:assertj-core:3.27.5 : Failed to compare JAR files: JAPICMP comparison failed for org.assertj:assertj-core
+
+=== Summary ===
+Total comparisons: 7
+Failures: 2
+Success rate: 71.43%

@@ -1,0 +1,7 @@
+=== Comparison Failure Log ===
+[2025-09-22 22:34:42] com.google.auto.value:auto-value:1.7.4 -> com.google.auto.value:auto-value:1.11.0 : Failed to compare JAR files: JAPICMP comparison failed for com.google.auto.value:auto-value
+
+=== Summary ===
+Total comparisons: 4
+Failures: 1
+Success rate: 75.00%

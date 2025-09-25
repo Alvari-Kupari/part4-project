@@ -1,0 +1,12 @@
+=== Comparison Failure Log ===
+[2025-09-22 15:29:39] org.springframework.boot:spring-boot-autoconfigure:3.5.0 -> org.springframework.boot:spring-boot-autoconfigure:3.5.6 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.boot:spring-boot-autoconfigure
+[2025-09-22 15:30:25] org.springframework.boot:spring-boot-actuator-autoconfigure:3.5.0 -> org.springframework.boot:spring-boot-actuator-autoconfigure:3.5.6 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.boot:spring-boot-actuator-autoconfigure
+[2025-09-22 15:32:06] org.springframework:spring-web:6.2.7 -> org.springframework:spring-web:6.2.11 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-web
+[2025-09-22 15:32:07] org.springframework:spring-webmvc:6.2.7 -> org.springframework:spring-webmvc:6.2.11 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-webmvc
+[2025-09-22 15:33:27] org.testcontainers:junit-jupiter:1.21.0 -> org.testcontainers:junit-jupiter:1.21.3 : Failed to compare JAR files: JAPICMP comparison failed for org.testcontainers:junit-jupiter
+[2025-09-22 15:33:48] org.wiremock:wiremock-standalone:3.13.0 -> org.wiremock:wiremock-standalone:3.13.1 : Failed to compare JAR files: JAPICMP comparison failed for org.wiremock:wiremock-standalone
+
+=== Summary ===
+Total comparisons: 238
+Failures: 6
+Success rate: 97.48%

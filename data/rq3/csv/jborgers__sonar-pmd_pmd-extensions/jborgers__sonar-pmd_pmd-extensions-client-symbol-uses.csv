@@ -1,0 +1,8 @@
+Library_Name,Symbol_Type,Class_Name,Symbol_Name,Usage_Location,Line_Number
+CLIENT:client-code:N/A:N/A,ClassOrInterfaceType,pmd.Foo,Foo,C:\Users\tyin363\Documents\repos\jborgers__sonar-pmd\integration-test\projects\pmd-extensions\src\main\java\pmd\Bar.java,3
+JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.lang.Throwable,Throwable,C:\Users\tyin363\Documents\repos\jborgers__sonar-pmd\integration-test\projects\pmd-extensions\src\main\java\pmd\Errors.java,11
+JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.io.IOException,IOException,C:\Users\tyin363\Documents\repos\jborgers__sonar-pmd\integration-test\projects\pmd-extensions\src\main\java\pmd\Foo.java,5
+JDK:java.base:N/A:N/A,FieldAccessExpr,java.lang.System,out,C:\Users\tyin363\Documents\repos\jborgers__sonar-pmd\integration-test\projects\pmd-extensions\src\main\java\pmd\Errors.java,18
+JDK:java.base:N/A:N/A,MethodCallExpr,java.io.PrintStream,println,C:\Users\tyin363\Documents\repos\jborgers__sonar-pmd\integration-test\projects\pmd-extensions\src\main\java\pmd\Errors.java,18
+JDK:java.base:N/A:N/A,FieldAccessExpr,java.lang.System,out,C:\Users\tyin363\Documents\repos\jborgers__sonar-pmd\integration-test\projects\pmd-extensions\src\main\java\pmd\Bar.java,6
+JDK:java.base:N/A:N/A,MethodCallExpr,java.io.PrintStream,println,C:\Users\tyin363\Documents\repos\jborgers__sonar-pmd\integration-test\projects\pmd-extensions\src\main\java\pmd\Bar.java,6

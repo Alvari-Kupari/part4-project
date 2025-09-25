@@ -1,0 +1,12 @@
+=== Comparison Failure Log ===
+[2025-09-23 14:18:08] com.h2database:h2:2.1.214 -> com.h2database:h2:2.3.232 : Failed to compare JAR files: JAPICMP comparison failed for com.h2database:h2
+[2025-09-23 14:18:16] mysql:mysql-connector-java:8.0.30 -> mysql:mysql-connector-java:8.0.33 : Failed to compare JAR files: JAPICMP comparison failed for mysql:mysql-connector-java
+[2025-09-23 14:18:41] com.microsoft.sqlserver:mssql-jdbc:10.2.1.jre8 -> com.microsoft.sqlserver:mssql-jdbc:10.2.3.jre17 : Failed to compare JAR files: JAPICMP comparison failed for com.microsoft.sqlserver:mssql-jdbc
+[2025-09-23 14:18:42] org.postgresql:postgresql:42.3.6 -> org.postgresql:postgresql:42.7.8 : Failed to compare JAR files: JAPICMP comparison failed for org.postgresql:postgresql
+[2025-09-23 14:18:42] org.projectlombok:lombok:1.18.24 -> org.projectlombok:lombok:1.18.42 : Failed to compare JAR files: JAPICMP comparison failed for org.projectlombok:lombok
+[2025-09-23 14:18:43] com.alibaba:fastjson:2.0.57 -> com.alibaba:fastjson:2.0.59 : Failed to compare JAR files: JAPICMP comparison failed for com.alibaba:fastjson
+
+=== Summary ===
+Total comparisons: 116
+Failures: 6
+Success rate: 94.83%

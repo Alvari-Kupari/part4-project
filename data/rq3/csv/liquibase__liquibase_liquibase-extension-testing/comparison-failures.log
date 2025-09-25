@@ -1,0 +1,14 @@
+=== Comparison Failure Log ===
+[2025-09-23 03:26:23] org.assertj:assertj-core:3.27.4 -> org.assertj:assertj-core:3.27.5 : Failed to compare JAR files: JAPICMP comparison failed for org.assertj:assertj-core
+[2025-09-23 03:26:23] org.mockito:mockito-core:5.8.0 -> org.mockito:mockito-core:5.20.0 : Failed to compare JAR files: JAPICMP comparison failed for org.mockito:mockito-core
+[2025-09-23 03:26:23] com.h2database:h2:2.2.224 -> com.h2database:h2:2.3.232 : Failed to compare JAR files: JAPICMP comparison failed for com.h2database:h2
+[2025-09-23 03:26:24] com.microsoft.sqlserver:mssql-jdbc:12.10.1.jre8 -> com.microsoft.sqlserver:mssql-jdbc:12.10.1.jre11 : Failed to compare JAR files: JAPICMP comparison failed for com.microsoft.sqlserver:mssql-jdbc
+[2025-09-23 03:26:24] org.postgresql:postgresql:42.7.7 -> org.postgresql:postgresql:42.7.8 : Failed to compare JAR files: JAPICMP comparison failed for org.postgresql:postgresql
+[2025-09-23 03:26:25] org.mariadb.jdbc:mariadb-java-client:3.5.5 -> org.mariadb.jdbc:mariadb-java-client:3.5.6 : Failed to compare JAR files: JAPICMP comparison failed for org.mariadb.jdbc:mariadb-java-client
+[2025-09-23 03:26:35] net.snowflake:snowflake-jdbc:3.25.1 -> net.snowflake:snowflake-jdbc:3.26.1 : Failed to compare JAR files: JAPICMP comparison failed for net.snowflake:snowflake-jdbc
+[2025-09-23 03:26:35] org.firebirdsql.jdbc:jaybird:5.0.8.java8 -> org.firebirdsql.jdbc:jaybird:5.0.9.java11 : Failed to compare JAR files: JAPICMP comparison failed for org.firebirdsql.jdbc:jaybird
+
+=== Summary ===
+Total comparisons: 8
+Failures: 8
+Success rate: 0.00%

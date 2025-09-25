@@ -1,0 +1,7 @@
+=== Comparison Failure Log ===
+[2025-09-23 04:01:28] org.apache.maven:maven-archiver:3.6.0 -> org.apache.maven:maven-archiver:3.6.4 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.maven:maven-archiver
+
+=== Summary ===
+Total comparisons: 1
+Failures: 1
+Success rate: 0.00%

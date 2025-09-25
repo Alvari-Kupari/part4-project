@@ -1,0 +1,6 @@
+Library_Name,Old_Version,New_Version,Class_Name,Member_Name,Change_Type,Description,Binary_Compatible,Source_Compatible,Is_Transitive,Depth,Direct_Parent_Dependency,Direct_Dependency_Old_Version,Direct_Dependency_New_Version,Release_Type,Is_Used_In_Client
+org.picocontainer:picocontainer,2.15,2.15.2,org.picocontainer.paranamer.CachingParanamer$WithoutWeakReferences,__PARANAMER_DATA,FIELD_CHANGE,FIELD_STATIC_AND_OVERRIDES_STATIC,false,false,false,1,org.picocontainer:picocontainer,,,PATCH,false
+org.picocontainer:picocontainer,2.15,2.15.2,org.picocontainer.paranamer.Paranamer,lookupParameterNames,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.picocontainer:picocontainer,,,PATCH,false
+org.picocontainer:picocontainer,2.15,2.15.2,org.picocontainer.paranamer.Paranamer,lookupParameterNames,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.picocontainer:picocontainer,,,PATCH,false
+org.picocontainer:picocontainer,2.15,2.15.2,org.picocontainer.paranamer.Paranamer,lookupParameterNames,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.picocontainer:picocontainer,,,PATCH,false
+org.picocontainer:picocontainer,2.15,2.15.2,org.picocontainer.paranamer.Paranamer,lookupParameterNames,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.picocontainer:picocontainer,,,PATCH,false

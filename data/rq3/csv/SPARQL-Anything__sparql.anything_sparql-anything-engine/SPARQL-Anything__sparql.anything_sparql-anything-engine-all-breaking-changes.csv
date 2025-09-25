@@ -1,0 +1,67 @@
+Library_Name,Old_Version,New_Version,Class_Name,Member_Name,Change_Type,Description,Binary_Compatible,Source_Compatible,Is_Transitive,Depth,Direct_Parent_Dependency,Direct_Dependency_Old_Version,Direct_Dependency_New_Version,Release_Type,Is_Used_In_Client
+commons-cli:commons-cli,1.4,1.10.0,org.apache.commons.cli.CommandLine,getParsedOptionValue,METHOD_CHANGE,CLASS_GENERIC_TEMPLATE_CHANGED,true,false,false,1,commons-cli:commons-cli,,,MINOR,false
+commons-cli:commons-cli,1.4,1.10.0,org.apache.commons.cli.TypeHandler,createValue,METHOD_CHANGE,CLASS_GENERIC_TEMPLATE_CHANGED,true,false,false,1,commons-cli:commons-cli,,,MINOR,false
+org.jsoup:jsoup,1.17.2,1.21.2,org.jsoup.helper.ChangeNotifyingArrayList,org.jsoup.helper.ChangeNotifyingArrayList,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.17.2,1.21.2,org.jsoup.helper.ChangeNotifyingArrayList,add,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.17.2,1.21.2,org.jsoup.helper.ChangeNotifyingArrayList,add,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.17.2,1.21.2,org.jsoup.helper.ChangeNotifyingArrayList,addAll,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.17.2,1.21.2,org.jsoup.helper.ChangeNotifyingArrayList,addAll,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.17.2,1.21.2,org.jsoup.helper.ChangeNotifyingArrayList,clear,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.17.2,1.21.2,org.jsoup.helper.ChangeNotifyingArrayList,onContentsChanged,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.17.2,1.21.2,org.jsoup.helper.ChangeNotifyingArrayList,remove,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.17.2,1.21.2,org.jsoup.helper.ChangeNotifyingArrayList,remove,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.17.2,1.21.2,org.jsoup.helper.ChangeNotifyingArrayList,removeAll,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.17.2,1.21.2,org.jsoup.helper.ChangeNotifyingArrayList,removeRange,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.17.2,1.21.2,org.jsoup.helper.ChangeNotifyingArrayList,retainAll,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.17.2,1.21.2,org.jsoup.helper.ChangeNotifyingArrayList,set,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.17.2,1.21.2,org.jsoup.helper.ChangeNotifyingArrayList,ChangeNotifyingArrayList,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.17.2,1.21.2,org.jsoup.internal.ConstrainableInputStream,org.jsoup.internal.ConstrainableInputStream,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.17.2,1.21.2,org.jsoup.internal.ConstrainableInputStream,read,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.17.2,1.21.2,org.jsoup.internal.ConstrainableInputStream,readToByteBuffer,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.17.2,1.21.2,org.jsoup.internal.ConstrainableInputStream,reset,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.17.2,1.21.2,org.jsoup.internal.ConstrainableInputStream,timeout,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.17.2,1.21.2,org.jsoup.internal.ConstrainableInputStream,wrap,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.17.2,1.21.2,org.jsoup.internal.FieldsAreNonnullByDefault,org.jsoup.internal.FieldsAreNonnullByDefault,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.17.2,1.21.2,org.jsoup.internal.NonnullByDefault,org.jsoup.internal.NonnullByDefault,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.17.2,1.21.2,org.jsoup.internal.ReturnsAreNonnullByDefault,org.jsoup.internal.ReturnsAreNonnullByDefault,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.17.2,1.21.2,org.jsoup.nodes.Document,updateMetaCharsetElement,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,true
+org.jsoup:jsoup,1.17.2,1.21.2,org.jsoup.nodes.Document,updateMetaCharsetElement,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,true
+org.jsoup:jsoup,1.17.2,1.21.2,org.jsoup.nodes.Element,forEach,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED; ANNOTATION_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.17.2,1.21.2,org.jsoup.nodes.Range,track,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.17.2,1.21.2,org.jsoup.parser.HtmlTreeBuilder,isContentForTagData,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.17.2,1.21.2,org.jsoup.parser.ParseErrorList,org.jsoup.parser.ParseErrorList,CLASS_CHANGE,METHOD_ABSTRACT_ADDED_IN_IMPLEMENTED_INTERFACE; METHOD_DEFAULT_ADDED_IN_IMPLEMENTED_INTERFACE,true,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.17.2,1.21.2,org.jsoup.parser.Parser,isContentForTagData,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.17.2,1.21.2,org.jsoup.parser.Parser,setTreeBuilder,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.17.2,1.21.2,org.jsoup.parser.Tag,isFormListed,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.17.2,1.21.2,org.jsoup.parser.TokenQueue,addFirst,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.17.2,1.21.2,org.jsoup.parser.TokenQueue,chompTo,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.17.2,1.21.2,org.jsoup.parser.TokenQueue,chompToIgnoreCase,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.17.2,1.21.2,org.jsoup.parser.TokenQueue,consumeToIgnoreCase,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.17.2,1.21.2,org.jsoup.parser.TokenQueue,consumeWord,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.17.2,1.21.2,org.jsoup.parser.TokenQueue,matchesAny,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.17.2,1.21.2,org.jsoup.parser.XmlTreeBuilder,insertNode,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.17.2,1.21.2,org.jsoup.parser.XmlTreeBuilder,insertNode,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.17.2,1.21.2,org.jsoup.select.Elements,org.jsoup.select.Elements,CLASS_CHANGE,METHOD_ABSTRACT_ADDED_IN_IMPLEMENTED_INTERFACE; METHOD_DEFAULT_ADDED_IN_IMPLEMENTED_INTERFACE,true,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.17.2,1.21.2,org.jsoup.select.Nodes,org.jsoup.select.Nodes,CLASS_CHANGE,INTERFACE_ADDED; METHOD_ABSTRACT_ADDED_IN_IMPLEMENTED_INTERFACE,true,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.17.2,1.21.2,org.jsoup.UncheckedIOException,org.jsoup.UncheckedIOException,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.17.2,1.21.2,org.jsoup.UncheckedIOException,ioException,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.17.2,1.21.2,org.jsoup.UncheckedIOException,UncheckedIOException,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.17.2,1.21.2,org.jsoup.UncheckedIOException,UncheckedIOException,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.slf4j:slf4j-api,1.7.7,1.7.36,org.slf4j.helpers.SubstituteLogger,SubstituteLogger,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.slf4j:slf4j-api,,,PATCH,false
+org.slf4j:slf4j-api,1.7.7,1.7.36,org.slf4j.helpers.Util,org.slf4j.helpers.Util,CLASS_CHANGE,CLASS_NOW_FINAL,false,false,false,1,org.slf4j:slf4j-api,,,PATCH,false
+org.slf4j:slf4j-api,1.7.7,1.7.36,org.slf4j.helpers.Util,Util,CONSTRUCTOR_CHANGE,CONSTRUCTOR_LESS_ACCESSIBLE,false,false,false,1,org.slf4j:slf4j-api,,,PATCH,false
+org.apache.commons:commons-lang3,3.12.0,3.18.0,org.apache.commons.lang3.event.EventListenerSupport$ProxyInvocationHandler,invoke,METHOD_CHANGE,METHOD_NOW_THROWS_CHECKED_EXCEPTION,true,false,true,2,org.apache.commons:commons-text,1.10.0,1.14.0,MINOR,false
+org.apache.commons:commons-lang3,3.12.0,3.18.0,org.apache.commons.lang3.exception.ExceptionUtils,rethrow,METHOD_CHANGE,CLASS_GENERIC_TEMPLATE_CHANGED,true,false,true,2,org.apache.commons:commons-text,1.10.0,1.14.0,MINOR,false
+org.apache.commons:commons-lang3,3.12.0,3.18.0,org.apache.commons.lang3.function.FailableSupplier,org.apache.commons.lang3.function.FailableSupplier,CLASS_CHANGE,CLASS_GENERIC_TEMPLATE_CHANGED,true,false,true,2,org.apache.commons:commons-text,1.10.0,1.14.0,MINOR,false
+org.apache.commons:commons-lang3,3.12.0,3.18.0,org.apache.commons.lang3.ObjectUtils,toString,METHOD_CHANGE,CLASS_GENERIC_TEMPLATE_CHANGED,true,false,true,2,org.apache.commons:commons-text,1.10.0,1.14.0,MINOR,false
+org.apache.commons:commons-lang3,3.12.0,3.18.0,org.apache.commons.lang3.Range,between,METHOD_CHANGE,ANNOTATION_DEPRECATED_ADDED; CLASS_GENERIC_TEMPLATE_GENERICS_CHANGED,true,false,true,2,org.apache.commons:commons-text,1.10.0,1.14.0,MINOR,false
+org.apache.commons:commons-lang3,3.12.0,3.18.0,org.apache.commons.lang3.Range,is,METHOD_CHANGE,CLASS_GENERIC_TEMPLATE_GENERICS_CHANGED,true,false,true,2,org.apache.commons:commons-text,1.10.0,1.14.0,MINOR,false
+org.apache.commons:commons-lang3,3.12.0,3.18.0,org.apache.commons.lang3.stream.Streams,stream,METHOD_CHANGE,ANNOTATION_DEPRECATED_ADDED; CLASS_GENERIC_TEMPLATE_CHANGED,true,false,true,2,org.apache.commons:commons-text,1.10.0,1.14.0,MINOR,false
+org.apache.commons:commons-lang3,3.12.0,3.18.0,org.apache.commons.lang3.stream.Streams,stream,METHOD_CHANGE,ANNOTATION_DEPRECATED_ADDED; CLASS_GENERIC_TEMPLATE_CHANGED,true,false,true,2,org.apache.commons:commons-text,1.10.0,1.14.0,MINOR,false
+org.apache.commons:commons-lang3,3.12.0,3.18.0,org.apache.commons.lang3.stream.Streams,toArray,METHOD_CHANGE,CLASS_GENERIC_TEMPLATE_CHANGED,true,false,true,2,org.apache.commons:commons-text,1.10.0,1.14.0,MINOR,false
+org.apache.commons:commons-lang3,3.12.0,3.18.0,org.apache.commons.lang3.stream.Streams$ArrayCollector,org.apache.commons.lang3.stream.Streams$ArrayCollector,CLASS_CHANGE,CLASS_GENERIC_TEMPLATE_CHANGED,true,false,true,2,org.apache.commons:commons-text,1.10.0,1.14.0,MINOR,false
+org.apache.commons:commons-lang3,3.12.0,3.18.0,org.apache.commons.lang3.stream.Streams$FailableStream,org.apache.commons.lang3.stream.Streams$FailableStream,CLASS_CHANGE,CLASS_GENERIC_TEMPLATE_CHANGED,true,false,true,2,org.apache.commons:commons-text,1.10.0,1.14.0,MINOR,false
+org.apache.commons:commons-lang3,3.12.0,3.18.0,org.apache.commons.lang3.StringUtils,toString,METHOD_CHANGE,METHOD_NO_LONGER_THROWS_CHECKED_EXCEPTION,true,false,true,2,org.apache.commons:commons-text,1.10.0,1.14.0,MINOR,false
+org.slf4j:slf4j-api,1.7.7,1.7.36,org.slf4j.helpers.SubstituteLogger,SubstituteLogger,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.slf4j:slf4j-simple,1.7.7,1.7.36,PATCH,false
+org.slf4j:slf4j-api,1.7.7,1.7.36,org.slf4j.helpers.Util,org.slf4j.helpers.Util,CLASS_CHANGE,CLASS_NOW_FINAL,false,false,true,2,org.slf4j:slf4j-simple,1.7.7,1.7.36,PATCH,false
+org.slf4j:slf4j-api,1.7.7,1.7.36,org.slf4j.helpers.Util,Util,CONSTRUCTOR_CHANGE,CONSTRUCTOR_LESS_ACCESSIBLE,false,false,true,2,org.slf4j:slf4j-simple,1.7.7,1.7.36,PATCH,false

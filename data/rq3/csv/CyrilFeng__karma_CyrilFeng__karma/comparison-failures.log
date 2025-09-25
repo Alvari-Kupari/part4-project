@@ -1,0 +1,10 @@
+=== Comparison Failure Log ===
+[2025-09-22 17:42:02] com.mysql:mysql-connector-j:8.0.33 -> com.mysql:mysql-connector-j:8.4.0 : Failed to compare JAR files: JAPICMP comparison failed for com.mysql:mysql-connector-j
+[2025-09-22 17:43:36] cn.hutool:hutool-all:5.8.22 -> cn.hutool:hutool-all:5.8.40 : Failed to compare JAR files: JAPICMP comparison failed for cn.hutool:hutool-all
+[2025-09-22 17:43:40] org.projectlombok:lombok:1.18.26 -> org.projectlombok:lombok:1.18.42 : Failed to compare JAR files: JAPICMP comparison failed for org.projectlombok:lombok
+[2025-09-22 17:43:40] com.alibaba:fastjson:1.2.83 -> com.alibaba:fastjson:1.2.83_noneautotype : Failed to compare JAR files: JAPICMP comparison failed for com.alibaba:fastjson
+
+=== Summary ===
+Total comparisons: 108
+Failures: 4
+Success rate: 96.30%

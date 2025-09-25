@@ -1,0 +1,11 @@
+=== Comparison Failure Log ===
+[2025-09-22 13:27:56] org.springframework:spring-context-support:6.2.5 -> org.springframework:spring-context-support:6.2.11 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-context-support
+[2025-09-22 13:27:56] org.springframework:spring-web:6.2.5 -> org.springframework:spring-web:6.2.11 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-web
+[2025-09-22 13:28:00] cn.hutool:hutool-all:5.8.35 -> cn.hutool:hutool-all:5.8.40 : Failed to compare JAR files: JAPICMP comparison failed for cn.hutool:hutool-all
+[2025-09-22 13:28:00] org.projectlombok:lombok:1.18.26 -> org.projectlombok:lombok:1.18.42 : Failed to compare JAR files: JAPICMP comparison failed for org.projectlombok:lombok
+[2025-09-22 13:28:11] com.squareup.okhttp3:okhttp:4.10.0 -> com.squareup.okhttp3:okhttp:4.12.0 : Failed to compare JAR files: JAPICMP comparison failed for com.squareup.okhttp3:okhttp
+
+=== Summary ===
+Total comparisons: 63
+Failures: 5
+Success rate: 92.06%

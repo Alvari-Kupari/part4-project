@@ -1,0 +1,8 @@
+=== Comparison Failure Log ===
+[2025-09-23 10:41:18] com.github.subchen:jetbrick-webmvc:2.0 -> com.github.subchen:jetbrick-webmvc:2.1.1 : Failed to compare JAR files: JAPICMP comparison failed for com.github.subchen:jetbrick-webmvc
+[2025-09-23 10:41:18] org.projectlombok:lombok:1.18.34 -> org.projectlombok:lombok:1.18.42 : Failed to compare JAR files: JAPICMP comparison failed for org.projectlombok:lombok
+
+=== Summary ===
+Total comparisons: 3
+Failures: 2
+Success rate: 33.33%

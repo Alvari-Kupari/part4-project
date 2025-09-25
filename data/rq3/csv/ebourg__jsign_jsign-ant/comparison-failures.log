@@ -1,0 +1,8 @@
+=== Comparison Failure Log ===
+[2025-09-22 20:32:29] net.bytebuddy:byte-buddy-agent:1.17.0 -> net.bytebuddy:byte-buddy-agent:1.17.7 : Failed to compare JAR files: JAPICMP comparison failed for net.bytebuddy:byte-buddy-agent
+[2025-09-22 20:32:31] net.bytebuddy:byte-buddy:1.17.0 -> net.bytebuddy:byte-buddy:1.17.7 : Failed to compare JAR files: JAPICMP comparison failed for net.bytebuddy:byte-buddy
+
+=== Summary ===
+Total comparisons: 4
+Failures: 2
+Success rate: 50.00%

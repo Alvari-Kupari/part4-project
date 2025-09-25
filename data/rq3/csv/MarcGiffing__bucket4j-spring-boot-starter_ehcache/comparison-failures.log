@@ -1,0 +1,12 @@
+=== Comparison Failure Log ===
+[2025-09-23 03:45:59] org.ehcache:ehcache:3.10.8 -> org.ehcache:ehcache:3.11.1 : Failed to compare JAR files: JAPICMP comparison failed for org.ehcache:ehcache
+[2025-09-23 03:45:59] org.projectlombok:lombok:1.18.38 -> org.projectlombok:lombok:1.18.42 : Failed to compare JAR files: JAPICMP comparison failed for org.projectlombok:lombok
+[2025-09-23 03:46:03] org.wiremock:wiremock-standalone:3.13.0 -> org.wiremock:wiremock-standalone:3.13.1 : Failed to compare JAR files: JAPICMP comparison failed for org.wiremock:wiremock-standalone
+[2025-09-23 03:46:06] org.springframework:spring-test:6.2.7 -> org.springframework:spring-test:6.2.11 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-test
+[2025-09-23 03:46:46] org.junit.jupiter:junit-jupiter-api:5.12.2 -> org.junit.jupiter:junit-jupiter-api:5.13.4 : Failed to compare JAR files: JAPICMP comparison failed for org.junit.jupiter:junit-jupiter-api
+[2025-09-23 03:46:46] org.springframework.boot:spring-boot-test-autoconfigure:3.5.0 -> org.springframework.boot:spring-boot-test-autoconfigure:3.5.6 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.boot:spring-boot-test-autoconfigure
+
+=== Summary ===
+Total comparisons: 162
+Failures: 6
+Success rate: 96.30%

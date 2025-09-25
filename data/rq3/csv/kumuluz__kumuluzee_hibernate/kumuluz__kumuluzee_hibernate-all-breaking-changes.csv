@@ -1,0 +1,32 @@
+Library_Name,Old_Version,New_Version,Class_Name,Member_Name,Change_Type,Description,Binary_Compatible,Source_Compatible,Is_Transitive,Depth,Direct_Parent_Dependency,Direct_Dependency_Old_Version,Direct_Dependency_New_Version,Release_Type,Is_Used_In_Client
+org.jboss.logging:jboss-logging,3.3.2.Final,3.6.1.Final,org.jboss.logging.Cause,org.jboss.logging.Cause,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,false,1,org.jboss.logging:jboss-logging,,,MINOR,false
+org.jboss.logging:jboss-logging,3.3.2.Final,3.6.1.Final,org.jboss.logging.Field,org.jboss.logging.Field,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,false,1,org.jboss.logging:jboss-logging,,,MINOR,false
+org.jboss.logging:jboss-logging,3.3.2.Final,3.6.1.Final,org.jboss.logging.Field,name,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jboss.logging:jboss-logging,,,MINOR,false
+org.jboss.logging:jboss-logging,3.3.2.Final,3.6.1.Final,org.jboss.logging.FormatWith,org.jboss.logging.FormatWith,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,false,1,org.jboss.logging:jboss-logging,,,MINOR,false
+org.jboss.logging:jboss-logging,3.3.2.Final,3.6.1.Final,org.jboss.logging.FormatWith,value,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jboss.logging:jboss-logging,,,MINOR,false
+org.jboss.logging:jboss-logging,3.3.2.Final,3.6.1.Final,org.jboss.logging.LoggingClass,org.jboss.logging.LoggingClass,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,false,1,org.jboss.logging:jboss-logging,,,MINOR,false
+org.jboss.logging:jboss-logging,3.3.2.Final,3.6.1.Final,org.jboss.logging.LogMessage,org.jboss.logging.LogMessage,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,false,1,org.jboss.logging:jboss-logging,,,MINOR,false
+org.jboss.logging:jboss-logging,3.3.2.Final,3.6.1.Final,org.jboss.logging.LogMessage,level,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jboss.logging:jboss-logging,,,MINOR,false
+org.jboss.logging:jboss-logging,3.3.2.Final,3.6.1.Final,org.jboss.logging.LogMessage,loggingClass,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jboss.logging:jboss-logging,,,MINOR,false
+org.jboss.logging:jboss-logging,3.3.2.Final,3.6.1.Final,org.jboss.logging.Message,org.jboss.logging.Message,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,false,1,org.jboss.logging:jboss-logging,,,MINOR,false
+org.jboss.logging:jboss-logging,3.3.2.Final,3.6.1.Final,org.jboss.logging.Message,format,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jboss.logging:jboss-logging,,,MINOR,false
+org.jboss.logging:jboss-logging,3.3.2.Final,3.6.1.Final,org.jboss.logging.Message,id,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jboss.logging:jboss-logging,,,MINOR,false
+org.jboss.logging:jboss-logging,3.3.2.Final,3.6.1.Final,org.jboss.logging.Message,value,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jboss.logging:jboss-logging,,,MINOR,false
+org.jboss.logging:jboss-logging,3.3.2.Final,3.6.1.Final,org.jboss.logging.Message,INHERIT,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.jboss.logging:jboss-logging,,,MINOR,false
+org.jboss.logging:jboss-logging,3.3.2.Final,3.6.1.Final,org.jboss.logging.Message,NONE,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.jboss.logging:jboss-logging,,,MINOR,false
+org.jboss.logging:jboss-logging,3.3.2.Final,3.6.1.Final,org.jboss.logging.Message$Format,org.jboss.logging.Message$Format,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,org.jboss.logging:jboss-logging,,,MINOR,false
+org.jboss.logging:jboss-logging,3.3.2.Final,3.6.1.Final,org.jboss.logging.Message$Format,valueOf,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jboss.logging:jboss-logging,,,MINOR,false
+org.jboss.logging:jboss-logging,3.3.2.Final,3.6.1.Final,org.jboss.logging.Message$Format,values,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jboss.logging:jboss-logging,,,MINOR,false
+org.jboss.logging:jboss-logging,3.3.2.Final,3.6.1.Final,org.jboss.logging.Message$Format,PRINTF,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.jboss.logging:jboss-logging,,,MINOR,false
+org.jboss.logging:jboss-logging,3.3.2.Final,3.6.1.Final,org.jboss.logging.Message$Format,MESSAGE_FORMAT,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.jboss.logging:jboss-logging,,,MINOR,false
+org.jboss.logging:jboss-logging,3.3.2.Final,3.6.1.Final,org.jboss.logging.Message$Format,NO_FORMAT,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.jboss.logging:jboss-logging,,,MINOR,false
+org.jboss.logging:jboss-logging,3.3.2.Final,3.6.1.Final,org.jboss.logging.MessageBundle,org.jboss.logging.MessageBundle,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,false,1,org.jboss.logging:jboss-logging,,,MINOR,false
+org.jboss.logging:jboss-logging,3.3.2.Final,3.6.1.Final,org.jboss.logging.MessageBundle,projectCode,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jboss.logging:jboss-logging,,,MINOR,false
+org.jboss.logging:jboss-logging,3.3.2.Final,3.6.1.Final,org.jboss.logging.MessageLogger,org.jboss.logging.MessageLogger,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,false,1,org.jboss.logging:jboss-logging,,,MINOR,false
+org.jboss.logging:jboss-logging,3.3.2.Final,3.6.1.Final,org.jboss.logging.MessageLogger,projectCode,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jboss.logging:jboss-logging,,,MINOR,false
+org.jboss.logging:jboss-logging,3.3.2.Final,3.6.1.Final,org.jboss.logging.Param,org.jboss.logging.Param,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,false,1,org.jboss.logging:jboss-logging,,,MINOR,false
+org.jboss.logging:jboss-logging,3.3.2.Final,3.6.1.Final,org.jboss.logging.Param,value,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jboss.logging:jboss-logging,,,MINOR,false
+org.jboss.logging:jboss-logging,3.3.2.Final,3.6.1.Final,org.jboss.logging.Property,org.jboss.logging.Property,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,false,1,org.jboss.logging:jboss-logging,,,MINOR,false
+org.jboss.logging:jboss-logging,3.3.2.Final,3.6.1.Final,org.jboss.logging.Property,name,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jboss.logging:jboss-logging,,,MINOR,false
+com.fasterxml:classmate,1.5.1,1.7.0,com.fasterxml.classmate.types.ResolvedObjectType,ResolvedObjectType,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED; ANNOTATION_REMOVED,false,false,false,1,com.fasterxml:classmate,,,MINOR,false
+com.fasterxml:classmate,1.5.1,1.7.0,com.fasterxml.classmate.types.ResolvedObjectType,ResolvedObjectType,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED; ANNOTATION_REMOVED,false,false,false,1,com.fasterxml:classmate,,,MINOR,false

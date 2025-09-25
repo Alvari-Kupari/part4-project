@@ -1,0 +1,7 @@
+=== Comparison Failure Log ===
+[2025-09-23 14:44:17] io.smallrye:jandex:3.3.0 -> io.smallrye:jandex:3.5.0 : Failed to compare JAR files: JAPICMP comparison failed for io.smallrye:jandex
+
+=== Summary ===
+Total comparisons: 1
+Failures: 1
+Success rate: 0.00%

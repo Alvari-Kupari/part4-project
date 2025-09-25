@@ -1,0 +1,19 @@
+Library_Name,Old_Version,New_Version,Class_Name,Member_Name,Change_Type,Description,Binary_Compatible,Source_Compatible,Is_Transitive,Depth,Direct_Parent_Dependency,Direct_Dependency_Old_Version,Direct_Dependency_New_Version,Release_Type,Is_Used_In_Client
+com.google.code.gson:gson,2.11.0,2.13.2,com.google.gson.internal.$Gson$Preconditions,com.google.gson.internal.$Gson$Preconditions,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,com.google.code.gson:gson,,,MINOR,false
+com.google.code.gson:gson,2.11.0,2.13.2,com.google.gson.internal.$Gson$Preconditions,checkArgument,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,com.google.code.gson:gson,,,MINOR,false
+com.google.code.gson:gson,2.11.0,2.13.2,com.google.gson.internal.$Gson$Preconditions,checkNotNull,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,false,1,com.google.code.gson:gson,,,MINOR,false
+com.google.code.gson:gson,2.11.0,2.13.2,com.google.gson.internal.$Gson$Types,com.google.gson.internal.$Gson$Types,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,com.google.code.gson:gson,,,MINOR,false
+com.google.code.gson:gson,2.11.0,2.13.2,com.google.gson.internal.$Gson$Types,arrayOf,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,com.google.code.gson:gson,,,MINOR,false
+com.google.code.gson:gson,2.11.0,2.13.2,com.google.gson.internal.$Gson$Types,canonicalize,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,com.google.code.gson:gson,,,MINOR,false
+com.google.code.gson:gson,2.11.0,2.13.2,com.google.gson.internal.$Gson$Types,equals,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,com.google.code.gson:gson,,,MINOR,false
+com.google.code.gson:gson,2.11.0,2.13.2,com.google.gson.internal.$Gson$Types,getArrayComponentType,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,com.google.code.gson:gson,,,MINOR,false
+com.google.code.gson:gson,2.11.0,2.13.2,com.google.gson.internal.$Gson$Types,getCollectionElementType,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,com.google.code.gson:gson,,,MINOR,false
+com.google.code.gson:gson,2.11.0,2.13.2,com.google.gson.internal.$Gson$Types,getMapKeyAndValueTypes,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,com.google.code.gson:gson,,,MINOR,false
+com.google.code.gson:gson,2.11.0,2.13.2,com.google.gson.internal.$Gson$Types,getRawType,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,com.google.code.gson:gson,,,MINOR,false
+com.google.code.gson:gson,2.11.0,2.13.2,com.google.gson.internal.$Gson$Types,newParameterizedTypeWithOwner,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,com.google.code.gson:gson,,,MINOR,false
+com.google.code.gson:gson,2.11.0,2.13.2,com.google.gson.internal.$Gson$Types,requiresOwnerType,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,com.google.code.gson:gson,,,MINOR,false
+com.google.code.gson:gson,2.11.0,2.13.2,com.google.gson.internal.$Gson$Types,resolve,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,com.google.code.gson:gson,,,MINOR,false
+com.google.code.gson:gson,2.11.0,2.13.2,com.google.gson.internal.$Gson$Types,subtypeOf,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,com.google.code.gson:gson,,,MINOR,false
+com.google.code.gson:gson,2.11.0,2.13.2,com.google.gson.internal.$Gson$Types,supertypeOf,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,com.google.code.gson:gson,,,MINOR,false
+com.google.code.gson:gson,2.11.0,2.13.2,com.google.gson.internal.$Gson$Types,typeToString,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,com.google.code.gson:gson,,,MINOR,false
+org.apache.commons:commons-lang3,3.14.0,3.17.0,org.apache.commons.lang3.StringUtils,toString,METHOD_CHANGE,METHOD_NO_LONGER_THROWS_CHECKED_EXCEPTION,true,false,true,2,org.eclipse.jetty:jetty-jaas,9.4.54.v20240208,9.4.58.v20250814,MINOR,false

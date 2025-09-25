@@ -1,0 +1,15 @@
+=== Comparison Failure Log ===
+[2025-09-23 03:29:22] org.springframework.boot:spring-boot-devtools:2.7.12 -> org.springframework.boot:spring-boot-devtools:2.7.18 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.boot:spring-boot-devtools
+[2025-09-23 03:29:24] mysql:mysql-connector-java:8.0.23 -> mysql:mysql-connector-java:8.0.33 : Failed to compare JAR files: JAPICMP comparison failed for mysql:mysql-connector-java
+[2025-09-23 03:29:25] org.springframework:spring-beans:5.3.21 -> org.springframework:spring-beans:5.3.39 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-beans
+[2025-09-23 03:29:33] org.dromara.x-file-storage:x-file-storage-spring:2.2.1 -> org.dromara.x-file-storage:x-file-storage-spring:2.3.0 : Failed to compare JAR files: JAPICMP comparison failed for org.dromara.x-file-storage:x-file-storage-spring
+[2025-09-23 03:30:07] org.projectlombok:lombok:1.18.26 -> org.projectlombok:lombok:1.18.42 : Failed to compare JAR files: JAPICMP comparison failed for org.projectlombok:lombok
+[2025-09-23 03:30:17] com.github.xiaoymin:knife4j-openapi2-spring-boot-starter:4.4.0 -> com.github.xiaoymin:knife4j-openapi2-spring-boot-starter:4.5.0 : Failed to compare JAR files: JAPICMP comparison failed for com.github.xiaoymin:knife4j-openapi2-spring-boot-starter
+[2025-09-23 03:30:18] org.springframework:spring-context-support:5.3.27 -> org.springframework:spring-context-support:5.3.39 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-context-support
+[2025-09-23 03:30:20] org.thymeleaf:thymeleaf:3.0.15.RELEASE -> org.thymeleaf:thymeleaf:3.1.3.RELEASE : Failed to compare JAR files: JAPICMP comparison failed for org.thymeleaf:thymeleaf
+[2025-09-23 03:30:23] org.dromara.x-file-storage:x-file-storage-core:2.2.1 -> org.dromara.x-file-storage:x-file-storage-core:2.3.0 : Failed to compare JAR files: JAPICMP comparison failed for org.dromara.x-file-storage:x-file-storage-core
+
+=== Summary ===
+Total comparisons: 206
+Failures: 9
+Success rate: 95.63%

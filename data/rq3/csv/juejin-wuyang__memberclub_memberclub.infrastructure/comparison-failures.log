@@ -1,0 +1,10 @@
+=== Comparison Failure Log ===
+[2025-09-23 00:52:14] org.projectlombok:lombok:1.18.24 -> org.projectlombok:lombok:1.18.42 : Failed to compare JAR files: JAPICMP comparison failed for org.projectlombok:lombok
+[2025-09-23 00:52:40] org.redisson:redisson:3.38.0 -> org.redisson:redisson:3.51.0 : Failed to compare JAR files: JAPICMP comparison failed for org.redisson:redisson
+[2025-09-23 00:53:04] com.alibaba:druid:1.2.8 -> com.alibaba:druid:1.2.27 : Failed to compare JAR files: JAPICMP comparison failed for com.alibaba:druid
+[2025-09-23 00:53:47] io.springfox:springfox-swagger2:2.9.2 -> io.springfox:springfox-swagger2:2.10.5 : Failed to compare JAR files: JAPICMP comparison failed for io.springfox:springfox-swagger2
+
+=== Summary ===
+Total comparisons: 153
+Failures: 4
+Success rate: 97.39%

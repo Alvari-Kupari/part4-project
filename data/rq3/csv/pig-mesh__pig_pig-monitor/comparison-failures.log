@@ -1,0 +1,8 @@
+=== Comparison Failure Log ===
+[2025-09-23 06:03:57] org.springframework.security:spring-security-config:6.5.2 -> org.springframework.security:spring-security-config:6.5.5 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.security:spring-security-config
+[2025-09-23 06:04:26] org.projectlombok:lombok:1.18.38 -> org.projectlombok:lombok:1.18.42 : Failed to compare JAR files: JAPICMP comparison failed for org.projectlombok:lombok
+
+=== Summary ===
+Total comparisons: 165
+Failures: 2
+Success rate: 98.79%

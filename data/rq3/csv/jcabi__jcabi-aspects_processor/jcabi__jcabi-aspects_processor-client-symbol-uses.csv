@@ -1,0 +1,5 @@
+Library_Name,Symbol_Type,Class_Name,Symbol_Name,Usage_Location,Line_Number
+JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.util.concurrent.Future,Future,C:\Users\tyin363\Documents\repos\jcabi__jcabi-aspects\src\it\processor\src\main\java\com\jcabi\AsyncValid.java,31
+JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.lang.Integer,Integer,C:\Users\tyin363\Documents\repos\jcabi__jcabi-aspects\src\it\processor\src\main\java\com\jcabi\AsyncValid.java,31
+JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.lang.Integer,Integer,C:\Users\tyin363\Documents\repos\jcabi__jcabi-aspects\target\it\processor\src\main\java\com\jcabi\AsyncValid.java,31
+JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.util.concurrent.Future,Future,C:\Users\tyin363\Documents\repos\jcabi__jcabi-aspects\target\it\processor\src\main\java\com\jcabi\AsyncValid.java,31

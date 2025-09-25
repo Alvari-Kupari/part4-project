@@ -1,0 +1,12 @@
+Library_Name,Old_Version,New_Version,Class_Name,Member_Name,Change_Type,Description,Binary_Compatible,Source_Compatible,Is_Transitive,Depth,Direct_Parent_Dependency,Direct_Dependency_Old_Version,Direct_Dependency_New_Version,Release_Type,Is_Used_In_Client
+com.github.spotbugs:spotbugs,4.9.4,4.9.6,edu.umd.cs.findbugs.charsets.SourceCharset,charset,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,com.github.spotbugs:spotbugs,,,PATCH,false
+com.github.spotbugs:spotbugs,4.9.4,4.9.6,edu.umd.cs.findbugs.charsets.UserTextFile,charset,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,com.github.spotbugs:spotbugs,,,PATCH,false
+com.github.spotbugs:spotbugs,4.9.4,4.9.6,edu.umd.cs.findbugs.detect.SwitchFallthrough,isBranchTargetAfterNextCaseOffset,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,com.github.spotbugs:spotbugs,,,PATCH,false
+com.github.spotbugs:spotbugs,4.9.4,4.9.6,edu.umd.cs.findbugs.io.IO,close,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,com.github.spotbugs:spotbugs,,,PATCH,false
+com.github.spotbugs:spotbugs,4.9.4,4.9.6,edu.umd.cs.findbugs.util.Util,getFileReader,METHOD_CHANGE,METHOD_NO_LONGER_THROWS_CHECKED_EXCEPTION; METHOD_NOW_THROWS_CHECKED_EXCEPTION,true,false,false,1,com.github.spotbugs:spotbugs,,,PATCH,false
+com.github.spotbugs:spotbugs,4.9.4,4.9.6,edu.umd.cs.findbugs.util.Util,getFileReader,METHOD_CHANGE,METHOD_NO_LONGER_THROWS_CHECKED_EXCEPTION; METHOD_NOW_THROWS_CHECKED_EXCEPTION,true,false,false,1,com.github.spotbugs:spotbugs,,,PATCH,false
+com.github.spotbugs:spotbugs,4.9.4,4.9.6,edu.umd.cs.findbugs.util.Util,getFileWriter,METHOD_CHANGE,METHOD_NO_LONGER_THROWS_CHECKED_EXCEPTION; METHOD_NOW_THROWS_CHECKED_EXCEPTION,true,false,false,1,com.github.spotbugs:spotbugs,,,PATCH,false
+com.google.code.gson:gson,2.13.1,2.13.2,com.google.gson.internal.GsonPreconditions,com.google.gson.internal.GsonPreconditions,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,com.github.spotbugs:spotbugs,4.9.4,4.9.6,PATCH,false
+com.google.code.gson:gson,2.13.1,2.13.2,com.google.gson.internal.GsonPreconditions,checkArgument,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.github.spotbugs:spotbugs,4.9.4,4.9.6,PATCH,false
+com.google.code.gson:gson,2.13.1,2.13.2,com.google.gson.internal.GsonPreconditions,checkNotNull,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.github.spotbugs:spotbugs,4.9.4,4.9.6,PATCH,false
+net.sf.saxon:Saxon-HE,12.8,12.9,net.sf.saxon.serialize.CharacterMap,CharacterMap,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,com.github.spotbugs:spotbugs,4.9.4,4.9.6,MINOR,false

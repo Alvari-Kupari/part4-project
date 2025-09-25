@@ -1,0 +1,9 @@
+=== Comparison Failure Log ===
+[2025-09-23 03:53:49] org.mariadb.jdbc:mariadb-java-client:3.5.4 -> org.mariadb.jdbc:mariadb-java-client:3.5.6 : Failed to compare JAR files: JAPICMP comparison failed for org.mariadb.jdbc:mariadb-java-client
+[2025-09-23 03:53:54] org.springframework:spring-test:6.2.9 -> org.springframework:spring-test:6.2.11 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-test
+[2025-09-23 03:53:54] org.springframework.boot:spring-boot-test:3.5.4 -> org.springframework.boot:spring-boot-test:3.5.6 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.boot:spring-boot-test
+
+=== Summary ===
+Total comparisons: 24
+Failures: 3
+Success rate: 87.50%

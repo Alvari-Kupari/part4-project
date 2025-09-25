@@ -1,0 +1,7 @@
+=== Comparison Failure Log ===
+[2025-09-22 17:36:57] com.mysql:mysql-connector-j:8.2.0 -> com.mysql:mysql-connector-j:8.4.0 : Failed to compare JAR files: JAPICMP comparison failed for com.mysql:mysql-connector-j
+
+=== Summary ===
+Total comparisons: 87
+Failures: 1
+Success rate: 98.85%

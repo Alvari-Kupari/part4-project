@@ -1,0 +1,8 @@
+=== Comparison Failure Log ===
+[2025-09-23 09:27:43] org.springframework:spring-webmvc:6.2.9 -> org.springframework:spring-webmvc:6.2.11 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-webmvc
+[2025-09-23 09:28:09] org.ehcache:ehcache:3.10.8 -> org.ehcache:ehcache:3.11.1 : Failed to compare JAR files: JAPICMP comparison failed for org.ehcache:ehcache
+
+=== Summary ===
+Total comparisons: 87
+Failures: 2
+Success rate: 97.70%

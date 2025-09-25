@@ -1,0 +1,9 @@
+Library_Name,Symbol_Type,Class_Name,Symbol_Name,Usage_Location,Line_Number
+JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.lang.NumberFormatException,NumberFormatException,C:\Users\tyin363\Documents\repos\kishanrajput23__Java-Projects-Collections\Guess The Number Game\src\main\java\learningspace\swtest\examples\GuessTheNumberGame.java,39
+,NameExpr,GuessTheNumberGame,numberOfTries,C:\Users\tyin363\Documents\repos\kishanrajput23__Java-Projects-Collections\Guess The Number Game\src\main\java\learningspace\swtest\examples\GuessTheNumberGame.java,30
+JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.lang.String,String,C:\Users\tyin363\Documents\repos\kishanrajput23__Java-Projects-Collections\Guess The Number Game\src\main\java\learningspace\swtest\examples\GameLogic.java,4
+,NameExpr,GuessTheNumberGame,targetNumber,C:\Users\tyin363\Documents\repos\kishanrajput23__Java-Projects-Collections\Guess The Number Game\src\main\java\learningspace\swtest\examples\GuessTheNumberGame.java,33
+JDK:java.base:N/A:N/A,MethodCallExpr,java.lang.Math,random,C:\Users\tyin363\Documents\repos\kishanrajput23__Java-Projects-Collections\Guess The Number Game\src\main\java\learningspace\swtest\examples\GuessTheNumberGame.java,9
+,NameExpr,GuessTheNumberGame,targetNumber,C:\Users\tyin363\Documents\repos\kishanrajput23__Java-Projects-Collections\Guess The Number Game\src\main\java\learningspace\swtest\examples\GuessTheNumberGame.java,31
+,NameExpr,GuessTheNumberGame,numberOfTries,C:\Users\tyin363\Documents\repos\kishanrajput23__Java-Projects-Collections\Guess The Number Game\src\main\java\learningspace\swtest\examples\GuessTheNumberGame.java,36
+JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.lang.String,String,C:\Users\tyin363\Documents\repos\kishanrajput23__Java-Projects-Collections\Guess The Number Game\src\main\java\learningspace\swtest\examples\GuessTheNumberGame.java,12

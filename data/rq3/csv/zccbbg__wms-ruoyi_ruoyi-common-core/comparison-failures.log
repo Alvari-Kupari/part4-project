@@ -1,0 +1,10 @@
+=== Comparison Failure Log ===
+[2025-09-23 16:53:41] org.springframework:spring-context-support:6.1.8 -> org.springframework:spring-context-support:6.2.11 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-context-support
+[2025-09-23 16:53:42] org.springframework:spring-web:6.1.8 -> org.springframework:spring-web:6.2.11 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-web
+[2025-09-23 16:54:42] org.eclipse.angus:jakarta.mail:2.0.3 -> org.eclipse.angus:jakarta.mail:2.0.4 : Failed to compare JAR files: JAPICMP comparison failed for org.eclipse.angus:jakarta.mail
+[2025-09-23 16:54:43] org.projectlombok:lombok:1.18.30 -> org.projectlombok:lombok:1.18.42 : Failed to compare JAR files: JAPICMP comparison failed for org.projectlombok:lombok
+
+=== Summary ===
+Total comparisons: 196
+Failures: 4
+Success rate: 97.96%

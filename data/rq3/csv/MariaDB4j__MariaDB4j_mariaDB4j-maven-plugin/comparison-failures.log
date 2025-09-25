@@ -1,0 +1,9 @@
+=== Comparison Failure Log ===
+[2025-09-23 03:53:59] org.assertj:assertj-core:3.27.3 -> org.assertj:assertj-core:3.27.5 : Failed to compare JAR files: JAPICMP comparison failed for org.assertj:assertj-core
+[2025-09-23 03:53:59] org.mockito:mockito-core:5.18.0 -> org.mockito:mockito-core:5.20.0 : Failed to compare JAR files: JAPICMP comparison failed for org.mockito:mockito-core
+[2025-09-23 03:54:01] org.mariadb.jdbc:mariadb-java-client:3.5.4 -> org.mariadb.jdbc:mariadb-java-client:3.5.6 : Failed to compare JAR files: JAPICMP comparison failed for org.mariadb.jdbc:mariadb-java-client
+
+=== Summary ===
+Total comparisons: 4
+Failures: 3
+Success rate: 25.00%

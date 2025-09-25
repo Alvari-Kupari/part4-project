@@ -1,0 +1,57 @@
+Library_Name,Old_Version,New_Version,Class_Name,Member_Name,Change_Type,Description,Binary_Compatible,Source_Compatible,Is_Transitive,Depth,Direct_Parent_Dependency,Direct_Dependency_Old_Version,Direct_Dependency_New_Version,Release_Type,Is_Used_In_Client
+org.apache.mina:mina-core,2.0.22,2.2.4,org.apache.mina.core.buffer.IoBuffer,accept,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,false,1,org.apache.mina:mina-core,,,MINOR,false
+org.apache.mina:mina-core,2.0.22,2.2.4,org.apache.mina.core.buffer.IoBuffer,accept,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,false,1,org.apache.mina:mina-core,,,MINOR,false
+org.apache.mina:mina-core,2.0.22,2.2.4,org.apache.mina.core.buffer.IoBuffer,accept,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,false,1,org.apache.mina:mina-core,,,MINOR,false
+org.apache.mina:mina-core,2.0.22,2.2.4,org.apache.mina.core.buffer.IoBuffer,setMatchers,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,false,1,org.apache.mina:mina-core,,,MINOR,false
+org.apache.mina:mina-core,2.0.22,2.2.4,org.apache.mina.core.filterchain.IoFilter,event,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.apache.mina:mina-core,,,MINOR,false
+org.apache.mina:mina-core,2.0.22,2.2.4,org.apache.mina.core.filterchain.IoFilter$NextFilter,event,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.apache.mina:mina-core,,,MINOR,false
+org.apache.mina:mina-core,2.0.22,2.2.4,org.apache.mina.core.filterchain.IoFilterChain,fireEvent,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.apache.mina:mina-core,,,MINOR,false
+org.apache.mina:mina-core,2.0.22,2.2.4,org.apache.mina.core.service.IoHandler,event,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.apache.mina:mina-core,,,MINOR,false
+org.apache.mina:mina-core,2.0.22,2.2.4,org.apache.mina.core.session.IoSession,isServer,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.apache.mina:mina-core,,,MINOR,true
+org.apache.mina:mina-core,2.0.22,2.2.4,org.apache.mina.core.session.IoSessionRecycler,recycle,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.apache.mina:mina-core,,,MINOR,false
+org.apache.mina:mina-core,2.0.22,2.2.4,org.apache.mina.core.session.IoSessionRecycler,recycle,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.apache.mina:mina-core,,,MINOR,false
+org.apache.mina:mina-core,2.0.22,2.2.4,org.apache.mina.core.write.WriteRequest,getOriginalMessage,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.apache.mina:mina-core,,,MINOR,false
+org.apache.mina:mina-core,2.0.22,2.2.4,org.apache.mina.core.write.WriteRequest,setMessage,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.apache.mina:mina-core,,,MINOR,false
+org.apache.mina:mina-core,2.0.22,2.2.4,org.apache.mina.core.write.WriteRequestWrapper,org.apache.mina.core.write.WriteRequestWrapper,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,org.apache.mina:mina-core,,,MINOR,false
+org.apache.mina:mina-core,2.0.22,2.2.4,org.apache.mina.core.write.WriteRequestWrapper,getParentRequest,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.apache.mina:mina-core,,,MINOR,false
+org.apache.mina:mina-core,2.0.22,2.2.4,org.apache.mina.core.write.WriteRequestWrapper,toString,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.apache.mina:mina-core,,,MINOR,false
+org.apache.mina:mina-core,2.0.22,2.2.4,org.apache.mina.core.write.WriteRequestWrapper,WriteRequestWrapper,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.apache.mina:mina-core,,,MINOR,false
+org.apache.mina:mina-core,2.0.22,2.2.4,org.apache.mina.filter.codec.AbstractProtocolDecoderOutput,getMessageQueue,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.apache.mina:mina-core,,,MINOR,false
+org.apache.mina:mina-core,2.0.22,2.2.4,org.apache.mina.filter.codec.AbstractProtocolEncoderOutput,getMessageQueue,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.apache.mina:mina-core,,,MINOR,false
+org.apache.mina:mina-core,2.0.22,2.2.4,org.apache.mina.filter.codec.ProtocolEncoderOutput,flush,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.apache.mina:mina-core,,,MINOR,false
+org.apache.mina:mina-core,2.0.22,2.2.4,org.apache.mina.filter.codec.ProtocolEncoderOutput,mergeAll,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.apache.mina:mina-core,,,MINOR,false
+org.apache.mina:mina-core,2.0.22,2.2.4,org.apache.mina.filter.ssl.SslFilter,filterWrite,METHOD_CHANGE,METHOD_NO_LONGER_THROWS_CHECKED_EXCEPTION; METHOD_NOW_THROWS_CHECKED_EXCEPTION,true,false,false,1,org.apache.mina:mina-core,,,MINOR,false
+org.apache.mina:mina-core,2.0.22,2.2.4,org.apache.mina.filter.ssl.SslFilter,getSslSession,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.apache.mina:mina-core,,,MINOR,false
+org.apache.mina:mina-core,2.0.22,2.2.4,org.apache.mina.filter.ssl.SslFilter,initiateHandshake,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.apache.mina:mina-core,,,MINOR,false
+org.apache.mina:mina-core,2.0.22,2.2.4,org.apache.mina.filter.ssl.SslFilter,isSecured,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.apache.mina:mina-core,,,MINOR,false
+org.apache.mina:mina-core,2.0.22,2.2.4,org.apache.mina.filter.ssl.SslFilter,isSslStarted,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.apache.mina:mina-core,,,MINOR,false
+org.apache.mina:mina-core,2.0.22,2.2.4,org.apache.mina.filter.ssl.SslFilter,isUseClientMode,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.apache.mina:mina-core,,,MINOR,false
+org.apache.mina:mina-core,2.0.22,2.2.4,org.apache.mina.filter.ssl.SslFilter,messageReceived,METHOD_CHANGE,METHOD_NO_LONGER_THROWS_CHECKED_EXCEPTION; METHOD_NOW_THROWS_CHECKED_EXCEPTION,true,false,false,1,org.apache.mina:mina-core,,,MINOR,false
+org.apache.mina:mina-core,2.0.22,2.2.4,org.apache.mina.filter.ssl.SslFilter,messageSent,METHOD_CHANGE,METHOD_NOW_THROWS_CHECKED_EXCEPTION,true,false,false,1,org.apache.mina:mina-core,,,MINOR,false
+org.apache.mina:mina-core,2.0.22,2.2.4,org.apache.mina.filter.ssl.SslFilter,onPostAdd,METHOD_CHANGE,METHOD_NO_LONGER_THROWS_CHECKED_EXCEPTION; METHOD_NOW_THROWS_CHECKED_EXCEPTION,true,false,false,1,org.apache.mina:mina-core,,,MINOR,false
+org.apache.mina:mina-core,2.0.22,2.2.4,org.apache.mina.filter.ssl.SslFilter,onPreAdd,METHOD_CHANGE,METHOD_NO_LONGER_THROWS_CHECKED_EXCEPTION; METHOD_NOW_THROWS_CHECKED_EXCEPTION,true,false,false,1,org.apache.mina:mina-core,,,MINOR,false
+org.apache.mina:mina-core,2.0.22,2.2.4,org.apache.mina.filter.ssl.SslFilter,onPreRemove,METHOD_CHANGE,METHOD_NO_LONGER_THROWS_CHECKED_EXCEPTION; METHOD_NOW_THROWS_CHECKED_EXCEPTION,true,false,false,1,org.apache.mina:mina-core,,,MINOR,false
+org.apache.mina:mina-core,2.0.22,2.2.4,org.apache.mina.filter.ssl.SslFilter,sessionClosed,METHOD_CHANGE,METHOD_NO_LONGER_THROWS_CHECKED_EXCEPTION; METHOD_NOW_THROWS_CHECKED_EXCEPTION,true,false,false,1,org.apache.mina:mina-core,,,MINOR,false
+org.apache.mina:mina-core,2.0.22,2.2.4,org.apache.mina.filter.ssl.SslFilter,setUseClientMode,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.apache.mina:mina-core,,,MINOR,false
+org.apache.mina:mina-core,2.0.22,2.2.4,org.apache.mina.filter.ssl.SslFilter,startSsl,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.apache.mina:mina-core,,,MINOR,false
+org.apache.mina:mina-core,2.0.22,2.2.4,org.apache.mina.filter.ssl.SslFilter,stopSsl,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.apache.mina:mina-core,,,MINOR,false
+org.apache.mina:mina-core,2.0.22,2.2.4,org.apache.mina.filter.ssl.SslFilter,SESSION_SECURED,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.apache.mina:mina-core,,,MINOR,false
+org.apache.mina:mina-core,2.0.22,2.2.4,org.apache.mina.filter.ssl.SslFilter,PEER_ADDRESS,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.apache.mina:mina-core,,,MINOR,false
+org.apache.mina:mina-core,2.0.22,2.2.4,org.apache.mina.filter.ssl.SslFilter,SSL_SESSION,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.apache.mina:mina-core,,,MINOR,false
+org.apache.mina:mina-core,2.0.22,2.2.4,org.apache.mina.filter.ssl.SslFilter,USE_NOTIFICATION,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.apache.mina:mina-core,,,MINOR,false
+org.apache.mina:mina-core,2.0.22,2.2.4,org.apache.mina.filter.ssl.SslFilter,DISABLE_ENCRYPTION_ONCE,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.apache.mina:mina-core,,,MINOR,false
+org.apache.mina:mina-core,2.0.22,2.2.4,org.apache.mina.filter.ssl.SslFilter,SESSION_UNSECURED,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.apache.mina:mina-core,,,MINOR,false
+org.apache.mina:mina-core,2.0.22,2.2.4,org.apache.mina.filter.ssl.SslFilter,START_HANDSHAKE,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.apache.mina:mina-core,,,MINOR,false
+org.apache.mina:mina-core,2.0.22,2.2.4,org.apache.mina.filter.ssl.SslFilter,CLIENT_HANDSHAKE,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.apache.mina:mina-core,,,MINOR,false
+org.apache.mina:mina-core,2.0.22,2.2.4,org.apache.mina.filter.ssl.SslFilter$SslFilterMessage,org.apache.mina.filter.ssl.SslFilter$SslFilterMessage,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,org.apache.mina:mina-core,,,MINOR,false
+org.apache.mina:mina-core,2.0.22,2.2.4,org.apache.mina.filter.ssl.SslFilter$SslFilterMessage,toString,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.apache.mina:mina-core,,,MINOR,false
+org.apache.mina:mina-core,2.0.22,2.2.4,org.apache.mina.filter.util.WriteRequestFilter,org.apache.mina.filter.util.WriteRequestFilter,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,org.apache.mina:mina-core,,,MINOR,false
+org.apache.mina:mina-core,2.0.22,2.2.4,org.apache.mina.filter.util.WriteRequestFilter,doFilterWrite,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.apache.mina:mina-core,,,MINOR,false
+org.apache.mina:mina-core,2.0.22,2.2.4,org.apache.mina.filter.util.WriteRequestFilter,WriteRequestFilter,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.apache.mina:mina-core,,,MINOR,false
+org.apache.mina:mina-core,2.0.22,2.2.4,org.apache.mina.handler.multiton.SingleSessionIoHandler,event,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.apache.mina:mina-core,,,MINOR,false
+org.apache.mina:mina-core,2.0.22,2.2.4,org.apache.mina.util.byteaccess.IoAbsoluteReader,first,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.apache.mina:mina-core,,,MINOR,false
+org.apache.mina:mina-core,2.0.22,2.2.4,org.apache.mina.util.byteaccess.IoAbsoluteReader,last,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.apache.mina:mina-core,,,MINOR,false
+org.apache.mina:mina-core,2.0.22,2.2.4,org.apache.mina.util.byteaccess.IoAbsoluteReader,order,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.apache.mina:mina-core,,,MINOR,false
+org.apache.mina:mina-core,2.0.22,2.2.4,org.apache.mina.util.byteaccess.IoAbsoluteWriter,first,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.apache.mina:mina-core,,,MINOR,false
+org.apache.mina:mina-core,2.0.22,2.2.4,org.apache.mina.util.byteaccess.IoAbsoluteWriter,last,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.apache.mina:mina-core,,,MINOR,false
+org.apache.mina:mina-core,2.0.22,2.2.4,org.apache.mina.util.byteaccess.IoAbsoluteWriter,order,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.apache.mina:mina-core,,,MINOR,false

@@ -1,0 +1,4 @@
+Library_Name,Symbol_Type,Class_Name,Symbol_Name,Usage_Location,Line_Number
+JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.lang.String,String,C:\Users\tyin363\Documents\repos\juejin-wuyang__memberclub\eureka.server\src\main\java\com\memberclub\EureKaApplication.java,21
+org.springframework.boot:spring-boot:jar:2.7.14,MethodCallExpr,org.springframework.boot.SpringApplication,run,C:\Users\tyin363\Documents\repos\juejin-wuyang__memberclub\eureka.server\src\main\java\com\memberclub\EureKaApplication.java,22
+CLIENT:client-code:N/A:N/A,ClassOrInterfaceType,com.memberclub.EureKaApplication,EureKaApplication,C:\Users\tyin363\Documents\repos\juejin-wuyang__memberclub\eureka.server\src\main\java\com\memberclub\EureKaApplication.java,22

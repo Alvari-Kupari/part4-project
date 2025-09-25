@@ -1,0 +1,13 @@
+=== Comparison Failure Log ===
+[2025-09-22 22:51:39] org.springframework:spring-tx:6.2.7 -> org.springframework:spring-tx:6.2.11 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-tx
+[2025-09-22 22:51:40] org.springframework:spring-jdbc:6.2.7 -> org.springframework:spring-jdbc:6.2.11 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-jdbc
+[2025-09-22 22:51:41] org.springframework:spring-context:6.2.7 -> org.springframework:spring-context:6.2.11 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-context
+[2025-09-22 22:51:41] org.projectlombok:lombok:1.18.30 -> org.projectlombok:lombok:1.18.42 : Failed to compare JAR files: JAPICMP comparison failed for org.projectlombok:lombok
+[2025-09-22 22:51:41] com.zaxxer:HikariCP:6.3.0 -> com.zaxxer:HikariCP:6.3.3 : Failed to compare JAR files: JAPICMP comparison failed for com.zaxxer:HikariCP
+[2025-09-22 22:52:11] org.junit.jupiter:junit-jupiter-api:5.12.2 -> org.junit.jupiter:junit-jupiter-api:5.13.4 : Failed to compare JAR files: JAPICMP comparison failed for org.junit.jupiter:junit-jupiter-api
+[2025-09-22 22:52:11] org.junit.jupiter:junit-jupiter-params:5.12.2 -> org.junit.jupiter:junit-jupiter-params:5.13.4 : Failed to compare JAR files: JAPICMP comparison failed for org.junit.jupiter:junit-jupiter-params
+
+=== Summary ===
+Total comparisons: 78
+Failures: 7
+Success rate: 91.03%

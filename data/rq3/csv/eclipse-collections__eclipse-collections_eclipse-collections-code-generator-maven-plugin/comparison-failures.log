@@ -1,0 +1,7 @@
+=== Comparison Failure Log ===
+[2025-09-22 20:35:39] org.apache.maven:maven-core:3.9.9 -> org.apache.maven:maven-core:3.9.11 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.maven:maven-core
+
+=== Summary ===
+Total comparisons: 9
+Failures: 1
+Success rate: 88.89%

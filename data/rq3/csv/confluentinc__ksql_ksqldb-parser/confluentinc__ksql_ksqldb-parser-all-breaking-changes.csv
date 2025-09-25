@@ -1,0 +1,196 @@
+Library_Name,Old_Version,New_Version,Class_Name,Member_Name,Change_Type,Description,Binary_Compatible,Source_Compatible,Is_Transitive,Depth,Direct_Parent_Dependency,Direct_Dependency_Old_Version,Direct_Dependency_New_Version,Release_Type,Is_Used_In_Client
+io.airlift:slice,0.29,0.47,io.airlift.slice.BasicSliceOutput,getRetainedSize,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,io.airlift:slice,,,MINOR,false
+io.airlift:slice,0.29,0.47,io.airlift.slice.DynamicSliceOutput,getRetainedSize,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,io.airlift:slice,,,MINOR,false
+io.airlift:slice,0.29,0.47,io.airlift.slice.FixedLengthSliceInput,io.airlift.slice.FixedLengthSliceInput,CLASS_CHANGE,METHOD_ABSTRACT_ADDED_IN_SUPERCLASS,true,false,false,1,io.airlift:slice,,,MINOR,false
+io.airlift:slice,0.29,0.47,io.airlift.slice.Murmur3,io.airlift.slice.Murmur3,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,false,1,io.airlift:slice,,,MINOR,false
+io.airlift:slice,0.29,0.47,io.airlift.slice.Murmur3,hash,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.airlift:slice,,,MINOR,false
+io.airlift:slice,0.29,0.47,io.airlift.slice.Murmur3,hash,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.airlift:slice,,,MINOR,false
+io.airlift:slice,0.29,0.47,io.airlift.slice.Murmur3,hash,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.airlift:slice,,,MINOR,false
+io.airlift:slice,0.29,0.47,io.airlift.slice.Murmur3,hash64,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.airlift:slice,,,MINOR,false
+io.airlift:slice,0.29,0.47,io.airlift.slice.Murmur3,hash64,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.airlift:slice,,,MINOR,false
+io.airlift:slice,0.29,0.47,io.airlift.slice.Murmur3,hash64,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.airlift:slice,,,MINOR,false
+io.airlift:slice,0.29,0.47,io.airlift.slice.Murmur3,hash64,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,io.airlift:slice,,,MINOR,false
+io.airlift:slice,0.29,0.47,io.airlift.slice.Murmur3,Murmur3,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,io.airlift:slice,,,MINOR,false
+io.airlift:slice,0.29,0.47,io.airlift.slice.Murmur3Hash128,io.airlift.slice.Murmur3Hash128,CLASS_CHANGE,CLASS_NOW_FINAL,false,false,false,1,io.airlift:slice,,,MINOR,false
+io.airlift:slice,0.29,0.47,io.airlift.slice.Murmur3Hash128,Murmur3Hash128,CONSTRUCTOR_CHANGE,CONSTRUCTOR_LESS_ACCESSIBLE,false,false,false,1,io.airlift:slice,,,MINOR,false
+io.airlift:slice,0.29,0.47,io.airlift.slice.OutputStreamSliceOutput,getRetainedSize,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,io.airlift:slice,,,MINOR,false
+io.airlift:slice,0.29,0.47,io.airlift.slice.Slice,getRetainedSize,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,io.airlift:slice,,,MINOR,false
+io.airlift:slice,0.29,0.47,io.airlift.slice.Slice,toUnsafeSlice,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,false,1,io.airlift:slice,,,MINOR,false
+io.airlift:slice,0.29,0.47,io.airlift.slice.SliceInput,getRetainedSize,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,false,1,io.airlift:slice,,,MINOR,false
+io.airlift:slice,0.29,0.47,io.airlift.slice.SliceInput,readDoubles,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,false,1,io.airlift:slice,,,MINOR,false
+io.airlift:slice,0.29,0.47,io.airlift.slice.SliceInput,readFloats,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,false,1,io.airlift:slice,,,MINOR,false
+io.airlift:slice,0.29,0.47,io.airlift.slice.SliceInput,readInts,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,false,1,io.airlift:slice,,,MINOR,false
+io.airlift:slice,0.29,0.47,io.airlift.slice.SliceInput,readLongs,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,false,1,io.airlift:slice,,,MINOR,false
+io.airlift:slice,0.29,0.47,io.airlift.slice.SliceInput,readShorts,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,false,1,io.airlift:slice,,,MINOR,false
+io.airlift:slice,0.29,0.47,io.airlift.slice.SliceOutput,getRetainedSize,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,io.airlift:slice,,,MINOR,false
+io.airlift:slice,0.29,0.47,io.airlift.slice.SliceOutput,write,METHOD_CHANGE,METHOD_NO_LONGER_THROWS_CHECKED_EXCEPTION,true,false,false,1,io.airlift:slice,,,MINOR,false
+io.airlift:slice,0.29,0.47,io.airlift.slice.SliceOutput,writeDoubles,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,false,1,io.airlift:slice,,,MINOR,false
+io.airlift:slice,0.29,0.47,io.airlift.slice.SliceOutput,writeFloats,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,false,1,io.airlift:slice,,,MINOR,false
+io.airlift:slice,0.29,0.47,io.airlift.slice.SliceOutput,writeInts,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,false,1,io.airlift:slice,,,MINOR,false
+io.airlift:slice,0.29,0.47,io.airlift.slice.SliceOutput,writeLongs,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,false,1,io.airlift:slice,,,MINOR,false
+io.airlift:slice,0.29,0.47,io.airlift.slice.SliceOutput,writeShorts,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,false,1,io.airlift:slice,,,MINOR,false
+io.airlift:slice,0.29,0.47,io.airlift.slice.testing.SliceAssertions,io.airlift.slice.testing.SliceAssertions,CLASS_CHANGE,CLASS_NOW_FINAL,false,false,false,1,io.airlift:slice,,,MINOR,false
+io.airlift:slice,0.29,0.47,io.airlift.slice.testing.SliceAssertions,SliceAssertions,CONSTRUCTOR_CHANGE,CONSTRUCTOR_LESS_ACCESSIBLE,false,false,false,1,io.airlift:slice,,,MINOR,false
+org.antlr:antlr4-runtime,4.10.1,4.13.2,org.antlr.v4.runtime.atn.ArrayPredictionContext,org.antlr.v4.runtime.atn.ArrayPredictionContext,CLASS_CHANGE,FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.antlr:antlr4-runtime,,,MINOR,false
+org.antlr:antlr4-runtime,4.10.1,4.13.2,org.antlr.v4.runtime.atn.EmptyPredictionContext,org.antlr.v4.runtime.atn.EmptyPredictionContext,CLASS_CHANGE,FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.antlr:antlr4-runtime,,,MINOR,false
+org.antlr:antlr4-runtime,4.10.1,4.13.2,org.antlr.v4.runtime.atn.EmptyPredictionContext,EmptyPredictionContext,CONSTRUCTOR_CHANGE,CONSTRUCTOR_LESS_ACCESSIBLE,false,false,false,1,org.antlr:antlr4-runtime,,,MINOR,false
+org.antlr:antlr4-runtime,4.10.1,4.13.2,org.antlr.v4.runtime.atn.ParserATNSimulator,debug_list_atn_decisions,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.antlr:antlr4-runtime,,,MINOR,false
+org.antlr:antlr4-runtime,4.10.1,4.13.2,org.antlr.v4.runtime.atn.PredictionContext,globalNodeCount,FIELD_CHANGE,FIELD_LESS_ACCESSIBLE; FIELD_NOW_FINAL; FIELD_TYPE_CHANGED,false,false,false,1,org.antlr:antlr4-runtime,,,MINOR,false
+org.antlr:antlr4-runtime,4.10.1,4.13.2,org.antlr.v4.runtime.atn.PredictionContext,EMPTY,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.antlr:antlr4-runtime,,,MINOR,false
+org.antlr:antlr4-runtime,4.10.1,4.13.2,org.antlr.v4.runtime.atn.ProfilingATNSimulator,org.antlr.v4.runtime.atn.ProfilingATNSimulator,CLASS_CHANGE,FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.antlr:antlr4-runtime,,,MINOR,false
+org.antlr:antlr4-runtime,4.10.1,4.13.2,org.antlr.v4.runtime.atn.SemanticContext,NONE,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.antlr:antlr4-runtime,,,MINOR,false
+org.antlr:antlr4-runtime,4.10.1,4.13.2,org.antlr.v4.runtime.atn.SemanticContext$AND,org.antlr.v4.runtime.atn.SemanticContext$AND,CLASS_CHANGE,FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.antlr:antlr4-runtime,,,MINOR,false
+org.antlr:antlr4-runtime,4.10.1,4.13.2,org.antlr.v4.runtime.atn.SemanticContext$Operator,org.antlr.v4.runtime.atn.SemanticContext$Operator,CLASS_CHANGE,FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.antlr:antlr4-runtime,,,MINOR,false
+org.antlr:antlr4-runtime,4.10.1,4.13.2,org.antlr.v4.runtime.atn.SemanticContext$OR,org.antlr.v4.runtime.atn.SemanticContext$OR,CLASS_CHANGE,FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.antlr:antlr4-runtime,,,MINOR,false
+org.antlr:antlr4-runtime,4.10.1,4.13.2,org.antlr.v4.runtime.atn.SemanticContext$PrecedencePredicate,org.antlr.v4.runtime.atn.SemanticContext$PrecedencePredicate,CLASS_CHANGE,FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.antlr:antlr4-runtime,,,MINOR,false
+org.antlr:antlr4-runtime,4.10.1,4.13.2,org.antlr.v4.runtime.atn.SemanticContext$Predicate,org.antlr.v4.runtime.atn.SemanticContext$Predicate,CLASS_CHANGE,FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.antlr:antlr4-runtime,,,MINOR,false
+org.antlr:antlr4-runtime,4.10.1,4.13.2,org.antlr.v4.runtime.atn.SingletonPredictionContext,org.antlr.v4.runtime.atn.SingletonPredictionContext,CLASS_CHANGE,FIELD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.antlr:antlr4-runtime,,,MINOR,false
+org.antlr:antlr4-runtime,4.10.1,4.13.2,org.antlr.v4.runtime.misc.Array2DHashSet,initialBucketCapacity,FIELD_CHANGE,FIELD_NOW_FINAL,false,false,false,1,org.antlr:antlr4-runtime,,,MINOR,false
+org.antlr:antlr4-runtime,4.10.1,4.13.2,org.antlr.v4.runtime.misc.FlexibleHashMap,initialBucketCapacity,FIELD_CHANGE,FIELD_NOW_FINAL,false,false,false,1,org.antlr:antlr4-runtime,,,MINOR,false
+org.antlr:antlr4-runtime,4.10.1,4.13.2,org.antlr.v4.runtime.misc.Interval,hits,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.antlr:antlr4-runtime,,,MINOR,true
+org.antlr:antlr4-runtime,4.10.1,4.13.2,org.antlr.v4.runtime.misc.Interval,misses,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.antlr:antlr4-runtime,,,MINOR,false
+org.antlr:antlr4-runtime,4.10.1,4.13.2,org.antlr.v4.runtime.misc.Interval,creates,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.antlr:antlr4-runtime,,,MINOR,false
+org.antlr:antlr4-runtime,4.10.1,4.13.2,org.antlr.v4.runtime.misc.Interval,outOfRange,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.antlr:antlr4-runtime,,,MINOR,false
+org.antlr:antlr4-runtime,4.10.1,4.13.2,org.antlr.v4.runtime.RuleContext,EMPTY,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.antlr:antlr4-runtime,,,MINOR,false
+org.antlr:antlr4-runtime,4.10.1,4.13.2,org.antlr.v4.runtime.tree.xpath.XPathLexer,modeNames,FIELD_CHANGE,FIELD_NOW_FINAL,false,false,false,1,org.antlr:antlr4-runtime,,,MINOR,false
+org.apache.logging.log4j:log4j-1.2-api,2.17.1,2.25.1,org.apache.log4j.bridge.AppenderAdapter,org.apache.log4j.bridge.AppenderAdapter,CLASS_CHANGE,CLASS_NOW_FINAL,false,false,false,1,org.apache.logging.log4j:log4j-1.2-api,,,MINOR,false
+org.apache.logging.log4j:log4j-1.2-api,2.17.1,2.25.1,org.apache.log4j.bridge.AppenderAdapter,AppenderAdapter,CONSTRUCTOR_CHANGE,CONSTRUCTOR_LESS_ACCESSIBLE,false,false,false,1,org.apache.logging.log4j:log4j-1.2-api,,,MINOR,false
+org.apache.logging.log4j:log4j-1.2-api,2.17.1,2.25.1,org.apache.log4j.bridge.FilterAdapter,org.apache.log4j.bridge.FilterAdapter,CLASS_CHANGE,CLASS_NOW_FINAL,false,false,false,1,org.apache.logging.log4j:log4j-1.2-api,,,MINOR,false
+org.apache.logging.log4j:log4j-1.2-api,2.17.1,2.25.1,org.apache.log4j.bridge.FilterAdapter,FilterAdapter,CONSTRUCTOR_CHANGE,CONSTRUCTOR_LESS_ACCESSIBLE,false,false,false,1,org.apache.logging.log4j:log4j-1.2-api,,,MINOR,false
+org.apache.logging.log4j:log4j-1.2-api,2.17.1,2.25.1,org.apache.log4j.bridge.LayoutAdapter,org.apache.log4j.bridge.LayoutAdapter,CLASS_CHANGE,CLASS_NOW_FINAL,false,false,false,1,org.apache.logging.log4j:log4j-1.2-api,,,MINOR,false
+org.apache.logging.log4j:log4j-1.2-api,2.17.1,2.25.1,org.apache.log4j.bridge.LayoutAdapter,LayoutAdapter,CONSTRUCTOR_CHANGE,CONSTRUCTOR_LESS_ACCESSIBLE,false,false,false,1,org.apache.logging.log4j:log4j-1.2-api,,,MINOR,false
+org.apache.logging.log4j:log4j-1.2-api,2.17.1,2.25.1,org.apache.log4j.builders.AbstractBuilder,org.apache.log4j.builders.AbstractBuilder,CLASS_CHANGE,INTERFACE_ADDED; CLASS_GENERIC_TEMPLATE_CHANGED,false,false,false,1,org.apache.logging.log4j:log4j-1.2-api,,,MINOR,false
+org.apache.logging.log4j:log4j-1.2-api,2.17.1,2.25.1,org.apache.log4j.builders.AbstractBuilder,buildFilters,METHOD_CHANGE,METHOD_NOW_STATIC,false,false,false,1,org.apache.logging.log4j:log4j-1.2-api,,,MINOR,false
+org.apache.logging.log4j:log4j-1.2-api,2.17.1,2.25.1,org.apache.log4j.builders.appender.AppenderBuilder,org.apache.log4j.builders.appender.AppenderBuilder,CLASS_CHANGE,INTERFACE_ADDED; CLASS_GENERIC_TEMPLATE_CHANGED,true,false,false,1,org.apache.logging.log4j:log4j-1.2-api,,,MINOR,false
+org.apache.logging.log4j:log4j-1.2-api,2.17.1,2.25.1,org.apache.log4j.builders.BuilderManager,parseFilter,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.apache.logging.log4j:log4j-1.2-api,,,MINOR,false
+org.apache.logging.log4j:log4j-1.2-api,2.17.1,2.25.1,org.apache.log4j.builders.BuilderManager,parseLayout,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.apache.logging.log4j:log4j-1.2-api,,,MINOR,false
+org.apache.logging.log4j:log4j-1.2-api,2.17.1,2.25.1,org.apache.log4j.builders.BuilderManager,parseRewritePolicy,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.apache.logging.log4j:log4j-1.2-api,,,MINOR,false
+org.apache.logging.log4j:log4j-1.2-api,2.17.1,2.25.1,org.apache.log4j.builders.filter.FilterBuilder,parseFilter,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.apache.logging.log4j:log4j-1.2-api,,,MINOR,false
+org.apache.logging.log4j:log4j-1.2-api,2.17.1,2.25.1,org.apache.log4j.builders.filter.FilterBuilder,parseFilter,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.apache.logging.log4j:log4j-1.2-api,,,MINOR,false
+org.apache.logging.log4j:log4j-1.2-api,2.17.1,2.25.1,org.apache.log4j.builders.layout.LayoutBuilder,parseLayout,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.apache.logging.log4j:log4j-1.2-api,,,MINOR,false
+org.apache.logging.log4j:log4j-1.2-api,2.17.1,2.25.1,org.apache.log4j.builders.layout.LayoutBuilder,parseLayout,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.apache.logging.log4j:log4j-1.2-api,,,MINOR,false
+org.apache.logging.log4j:log4j-1.2-api,2.17.1,2.25.1,org.apache.log4j.builders.rewrite.RewritePolicyBuilder,parseRewritePolicy,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.apache.logging.log4j:log4j-1.2-api,,,MINOR,false
+org.apache.logging.log4j:log4j-1.2-api,2.17.1,2.25.1,org.apache.log4j.builders.rewrite.RewritePolicyBuilder,parseRewritePolicy,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.apache.logging.log4j:log4j-1.2-api,,,MINOR,false
+org.apache.logging.log4j:log4j-1.2-api,2.17.1,2.25.1,org.apache.log4j.Category,exists,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED; METHOD_NOW_STATIC; ANNOTATION_DEPRECATED_ADDED,false,false,false,1,org.apache.logging.log4j:log4j-1.2-api,,,MINOR,false
+org.apache.logging.log4j:log4j-1.2-api,2.17.1,2.25.1,org.apache.log4j.Category,isTraceEnabled,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.apache.logging.log4j:log4j-1.2-api,,,MINOR,false
+org.apache.logging.log4j:log4j-1.2-api,2.17.1,2.25.1,org.apache.log4j.Category,trace,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.apache.logging.log4j:log4j-1.2-api,,,MINOR,false
+org.apache.logging.log4j:log4j-1.2-api,2.17.1,2.25.1,org.apache.log4j.Category,trace,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.apache.logging.log4j:log4j-1.2-api,,,MINOR,false
+org.apache.logging.log4j:log4j-1.2-api,2.17.1,2.25.1,org.apache.log4j.config.PropertiesConfiguration,DEFAULT_DELAY,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.apache.logging.log4j:log4j-1.2-api,,,MINOR,false
+org.apache.logging.log4j:log4j-1.2-api,2.17.1,2.25.1,org.apache.log4j.helpers.OptionConverter,convertLevel,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.apache.logging.log4j:log4j-1.2-api,,,MINOR,false
+org.apache.logging.log4j:log4j-1.2-api,2.17.1,2.25.1,org.apache.log4j.or.RendererSupport,org.apache.log4j.or.RendererSupport,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,org.apache.logging.log4j:log4j-1.2-api,,,MINOR,false
+org.apache.logging.log4j:log4j-1.2-api,2.17.1,2.25.1,org.apache.log4j.or.RendererSupport,getRendererMap,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.apache.logging.log4j:log4j-1.2-api,,,MINOR,false
+org.apache.logging.log4j:log4j-1.2-api,2.17.1,2.25.1,org.apache.log4j.spi.Configurator,doConfigure,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.apache.logging.log4j:log4j-1.2-api,,,MINOR,false
+org.apache.logging.log4j:log4j-1.2-api,2.17.1,2.25.1,org.apache.log4j.spi.Configurator,doConfigure,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.apache.logging.log4j:log4j-1.2-api,,,MINOR,false
+org.apache.logging.log4j:log4j-1.2-api,2.17.1,2.25.1,org.apache.log4j.spi.Configurator,doConfigure,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.apache.logging.log4j:log4j-1.2-api,,,MINOR,false
+org.apache.logging.log4j:log4j-1.2-api,2.17.1,2.25.1,org.apache.log4j.spi.Configurator,doConfigure,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.apache.logging.log4j:log4j-1.2-api,,,MINOR,false
+org.apache.logging.log4j:log4j-1.2-api,2.17.1,2.25.1,org.apache.log4j.xml.DOMConfigurator,parseElement,METHOD_CHANGE,METHOD_NO_LONGER_THROWS_CHECKED_EXCEPTION,true,false,false,1,org.apache.logging.log4j:log4j-1.2-api,,,MINOR,false
+org.junit.vintage:junit-vintage-engine,5.8.2,5.13.4,org.junit.vintage.engine.descriptor.RunnerTestDescriptor,RunnerTestDescriptor,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.junit.vintage:junit-vintage-engine,,,MINOR,false
+org.openjdk.jol:jol-core,0.2,0.16,org.openjdk.jol.datamodel.CurrentDataModel,org.openjdk.jol.datamodel.CurrentDataModel,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,io.airlift:slice,0.29,0.47,MINOR,false
+org.openjdk.jol:jol-core,0.2,0.16,org.openjdk.jol.datamodel.CurrentDataModel,CurrentDataModel,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,io.airlift:slice,0.29,0.47,MINOR,false
+org.openjdk.jol:jol-core,0.2,0.16,org.openjdk.jol.datamodel.DataModel,arrayHeaderSize,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.airlift:slice,0.29,0.47,MINOR,false
+org.openjdk.jol:jol-core,0.2,0.16,org.openjdk.jol.datamodel.DataModel,arrayLengthHeaderSize,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.airlift:slice,0.29,0.47,MINOR,false
+org.openjdk.jol:jol-core,0.2,0.16,org.openjdk.jol.datamodel.DataModel,classHeaderSize,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.airlift:slice,0.29,0.47,MINOR,false
+org.openjdk.jol:jol-core,0.2,0.16,org.openjdk.jol.datamodel.DataModel,markHeaderSize,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.airlift:slice,0.29,0.47,MINOR,false
+org.openjdk.jol:jol-core,0.2,0.16,org.openjdk.jol.datamodel.DataModel,objectAlignment,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,io.airlift:slice,0.29,0.47,MINOR,false
+org.openjdk.jol:jol-core,0.2,0.16,org.openjdk.jol.datamodel.X86_32_DataModel,org.openjdk.jol.datamodel.X86_32_DataModel,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,io.airlift:slice,0.29,0.47,MINOR,false
+org.openjdk.jol:jol-core,0.2,0.16,org.openjdk.jol.datamodel.X86_32_DataModel,toString,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,io.airlift:slice,0.29,0.47,MINOR,false
+org.openjdk.jol:jol-core,0.2,0.16,org.openjdk.jol.datamodel.X86_32_DataModel,X86_32_DataModel,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,io.airlift:slice,0.29,0.47,MINOR,false
+org.openjdk.jol:jol-core,0.2,0.16,org.openjdk.jol.datamodel.X86_64_COOPS_DataModel,org.openjdk.jol.datamodel.X86_64_COOPS_DataModel,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,io.airlift:slice,0.29,0.47,MINOR,false
+org.openjdk.jol:jol-core,0.2,0.16,org.openjdk.jol.datamodel.X86_64_COOPS_DataModel,toString,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,io.airlift:slice,0.29,0.47,MINOR,false
+org.openjdk.jol:jol-core,0.2,0.16,org.openjdk.jol.datamodel.X86_64_COOPS_DataModel,X86_64_COOPS_DataModel,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,io.airlift:slice,0.29,0.47,MINOR,false
+org.openjdk.jol:jol-core,0.2,0.16,org.openjdk.jol.datamodel.X86_64_DataModel,org.openjdk.jol.datamodel.X86_64_DataModel,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,io.airlift:slice,0.29,0.47,MINOR,false
+org.openjdk.jol:jol-core,0.2,0.16,org.openjdk.jol.datamodel.X86_64_DataModel,toString,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,io.airlift:slice,0.29,0.47,MINOR,false
+org.openjdk.jol:jol-core,0.2,0.16,org.openjdk.jol.datamodel.X86_64_DataModel,X86_64_DataModel,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,io.airlift:slice,0.29,0.47,MINOR,false
+org.openjdk.jol:jol-core,0.2,0.16,org.openjdk.jol.heap.HeapDumpReader,parse,METHOD_CHANGE,METHOD_NOW_THROWS_CHECKED_EXCEPTION,true,false,true,2,io.airlift:slice,0.29,0.47,MINOR,false
+org.openjdk.jol:jol-core,0.2,0.16,org.openjdk.jol.heap.HeapDumpReader,HeapDumpReader,CONSTRUCTOR_CHANGE,METHOD_NO_LONGER_THROWS_CHECKED_EXCEPTION; METHOD_NOW_THROWS_CHECKED_EXCEPTION,true,false,true,2,io.airlift:slice,0.29,0.47,MINOR,false
+org.openjdk.jol:jol-core,0.2,0.16,org.openjdk.jol.info.ClassData,arrayLength,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,true,2,io.airlift:slice,0.29,0.47,MINOR,false
+org.openjdk.jol:jol-core,0.2,0.16,org.openjdk.jol.info.ClassData,fields,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,true,2,io.airlift:slice,0.29,0.47,MINOR,false
+org.openjdk.jol:jol-core,0.2,0.16,org.openjdk.jol.info.ClassData,fieldsFor,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,true,2,io.airlift:slice,0.29,0.47,MINOR,false
+org.openjdk.jol:jol-core,0.2,0.16,org.openjdk.jol.info.ClassData,parseArray,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,io.airlift:slice,0.29,0.47,MINOR,false
+org.openjdk.jol:jol-core,0.2,0.16,org.openjdk.jol.info.ClassLayout,instanceSize,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,true,2,io.airlift:slice,0.29,0.47,MINOR,false
+org.openjdk.jol:jol-core,0.2,0.16,org.openjdk.jol.info.ClassLayout,ClassLayout,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,io.airlift:slice,0.29,0.47,MINOR,false
+org.openjdk.jol:jol-core,0.2,0.16,org.openjdk.jol.info.FieldData,safeValue,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,io.airlift:slice,0.29,0.47,MINOR,false
+org.openjdk.jol:jol-core,0.2,0.16,org.openjdk.jol.info.FieldData,vmOffset,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,io.airlift:slice,0.29,0.47,MINOR,false
+org.openjdk.jol:jol-core,0.2,0.16,org.openjdk.jol.info.FieldLayout,offset,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,true,2,io.airlift:slice,0.29,0.47,MINOR,false
+org.openjdk.jol:jol-core,0.2,0.16,org.openjdk.jol.info.FieldLayout,safeValue,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,io.airlift:slice,0.29,0.47,MINOR,false
+org.openjdk.jol:jol-core,0.2,0.16,org.openjdk.jol.info.FieldLayout,size,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,true,2,io.airlift:slice,0.29,0.47,MINOR,false
+org.openjdk.jol:jol-core,0.2,0.16,org.openjdk.jol.info.FieldLayout,FieldLayout,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,io.airlift:slice,0.29,0.47,MINOR,false
+org.openjdk.jol:jol-core,0.2,0.16,org.openjdk.jol.info.GraphLayout,parseInstance,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,io.airlift:slice,0.29,0.47,MINOR,false
+org.openjdk.jol:jol-core,0.2,0.16,org.openjdk.jol.info.GraphLayout,GraphLayout,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,io.airlift:slice,0.29,0.47,MINOR,false
+org.openjdk.jol:jol-core,0.2,0.16,org.openjdk.jol.info.GraphPathRecord,org.openjdk.jol.info.GraphPathRecord,CLASS_CHANGE,CLASS_NOW_ABSTRACT,false,false,true,2,io.airlift:slice,0.29,0.47,MINOR,false
+org.openjdk.jol:jol-core,0.2,0.16,org.openjdk.jol.info.GraphPathRecord,depth,METHOD_CHANGE,METHOD_LESS_ACCESSIBLE; METHOD_NOW_FINAL,false,false,true,2,io.airlift:slice,0.29,0.47,MINOR,false
+org.openjdk.jol:jol-core,0.2,0.16,org.openjdk.jol.info.GraphPathRecord,obj,METHOD_CHANGE,METHOD_LESS_ACCESSIBLE; METHOD_NOW_FINAL,false,false,true,2,io.airlift:slice,0.29,0.47,MINOR,false
+org.openjdk.jol:jol-core,0.2,0.16,org.openjdk.jol.info.GraphPathRecord,path,METHOD_CHANGE,METHOD_NOW_ABSTRACT,false,false,true,2,io.airlift:slice,0.29,0.47,MINOR,false
+org.openjdk.jol:jol-core,0.2,0.16,org.openjdk.jol.info.GraphPathRecord,GraphPathRecord,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,io.airlift:slice,0.29,0.47,MINOR,false
+org.openjdk.jol:jol-core,0.2,0.16,org.openjdk.jol.info.GraphWalker,addVisitor,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,io.airlift:slice,0.29,0.47,MINOR,false
+org.openjdk.jol:jol-core,0.2,0.16,org.openjdk.jol.info.GraphWalker,walk,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,io.airlift:slice,0.29,0.47,MINOR,false
+org.openjdk.jol:jol-core,0.2,0.16,org.openjdk.jol.info.GraphWalker,GraphWalker,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,io.airlift:slice,0.29,0.47,MINOR,false
+org.openjdk.jol:jol-core,0.2,0.16,org.openjdk.jol.layouters.HotSpotLayouter,HotSpotLayouter,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,io.airlift:slice,0.29,0.47,MINOR,false
+org.openjdk.jol:jol-core,0.2,0.16,org.openjdk.jol.layouters.HotSpotLayouter,HotSpotLayouter,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,io.airlift:slice,0.29,0.47,MINOR,false
+org.openjdk.jol:jol-core,0.2,0.16,org.openjdk.jol.util.Multiset,add,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,io.airlift:slice,0.29,0.47,MINOR,false
+org.openjdk.jol:jol-core,0.2,0.16,org.openjdk.jol.util.Multiset,count,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,true,2,io.airlift:slice,0.29,0.47,MINOR,false
+org.openjdk.jol:jol-core,0.2,0.16,org.openjdk.jol.util.VMSupport,org.openjdk.jol.util.VMSupport,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,io.airlift:slice,0.29,0.47,MINOR,false
+org.openjdk.jol:jol-core,0.2,0.16,org.openjdk.jol.util.VMSupport,addressOf,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,io.airlift:slice,0.29,0.47,MINOR,false
+org.openjdk.jol:jol-core,0.2,0.16,org.openjdk.jol.util.VMSupport,addressOf,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,io.airlift:slice,0.29,0.47,MINOR,false
+org.openjdk.jol:jol-core,0.2,0.16,org.openjdk.jol.util.VMSupport,align,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,io.airlift:slice,0.29,0.47,MINOR,false
+org.openjdk.jol:jol-core,0.2,0.16,org.openjdk.jol.util.VMSupport,align,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,io.airlift:slice,0.29,0.47,MINOR,false
+org.openjdk.jol:jol-core,0.2,0.16,org.openjdk.jol.util.VMSupport,premain,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,io.airlift:slice,0.29,0.47,MINOR,false
+org.openjdk.jol:jol-core,0.2,0.16,org.openjdk.jol.util.VMSupport,safeToString,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,io.airlift:slice,0.29,0.47,MINOR,false
+org.openjdk.jol:jol-core,0.2,0.16,org.openjdk.jol.util.VMSupport,sizeOf,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,io.airlift:slice,0.29,0.47,MINOR,false
+org.openjdk.jol:jol-core,0.2,0.16,org.openjdk.jol.util.VMSupport,toNativeAddress,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,io.airlift:slice,0.29,0.47,MINOR,false
+org.openjdk.jol:jol-core,0.2,0.16,org.openjdk.jol.util.VMSupport,tryExactObjectSize,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,io.airlift:slice,0.29,0.47,MINOR,false
+org.openjdk.jol:jol-core,0.2,0.16,org.openjdk.jol.util.VMSupport,vmDetails,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,io.airlift:slice,0.29,0.47,MINOR,false
+org.openjdk.jol:jol-core,0.2,0.16,org.openjdk.jol.util.VMSupport,BYTE_SIZE,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,io.airlift:slice,0.29,0.47,MINOR,false
+org.openjdk.jol:jol-core,0.2,0.16,org.openjdk.jol.util.VMSupport,BOOLEAN_SIZE,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,io.airlift:slice,0.29,0.47,MINOR,false
+org.openjdk.jol:jol-core,0.2,0.16,org.openjdk.jol.util.VMSupport,INT_SIZE,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,io.airlift:slice,0.29,0.47,MINOR,false
+org.openjdk.jol:jol-core,0.2,0.16,org.openjdk.jol.util.VMSupport,DOUBLE_SIZE,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,io.airlift:slice,0.29,0.47,MINOR,false
+org.openjdk.jol:jol-core,0.2,0.16,org.openjdk.jol.util.VMSupport,SHORT_SIZE,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,io.airlift:slice,0.29,0.47,MINOR,false
+org.openjdk.jol:jol-core,0.2,0.16,org.openjdk.jol.util.VMSupport,CHAR_SIZE,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,io.airlift:slice,0.29,0.47,MINOR,false
+org.openjdk.jol:jol-core,0.2,0.16,org.openjdk.jol.util.VMSupport,USE_COMPRESSED_REFS,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,io.airlift:slice,0.29,0.47,MINOR,false
+org.openjdk.jol:jol-core,0.2,0.16,org.openjdk.jol.util.VMSupport,ADDRESS_SIZE,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,io.airlift:slice,0.29,0.47,MINOR,false
+org.openjdk.jol:jol-core,0.2,0.16,org.openjdk.jol.util.VMSupport,REF_SIZE,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,io.airlift:slice,0.29,0.47,MINOR,false
+org.openjdk.jol:jol-core,0.2,0.16,org.openjdk.jol.util.VMSupport,VM_NAME,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,io.airlift:slice,0.29,0.47,MINOR,false
+org.openjdk.jol:jol-core,0.2,0.16,org.openjdk.jol.util.VMSupport,COMPRESSED_REF_SHIFT,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,io.airlift:slice,0.29,0.47,MINOR,false
+org.openjdk.jol:jol-core,0.2,0.16,org.openjdk.jol.util.VMSupport,OBJ_HEADER_SIZE,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,io.airlift:slice,0.29,0.47,MINOR,false
+org.openjdk.jol:jol-core,0.2,0.16,org.openjdk.jol.util.VMSupport,OBJ_ALIGNMENT,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,io.airlift:slice,0.29,0.47,MINOR,false
+org.openjdk.jol:jol-core,0.2,0.16,org.openjdk.jol.util.VMSupport,FLOAT_SIZE,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,io.airlift:slice,0.29,0.47,MINOR,false
+org.openjdk.jol:jol-core,0.2,0.16,org.openjdk.jol.util.VMSupport,U,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,io.airlift:slice,0.29,0.47,MINOR,false
+org.openjdk.jol:jol-core,0.2,0.16,org.openjdk.jol.util.VMSupport,LONG_SIZE,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,io.airlift:slice,0.29,0.47,MINOR,false
+org.openjdk.jol:jol-core,0.2,0.16,org.openjdk.jol.util.VMSupport,VMSupport,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,io.airlift:slice,0.29,0.47,MINOR,false
+org.openjdk.jol:jol-core,0.2,0.16,org.openjdk.jol.util.VMSupport$SizeInfo,org.openjdk.jol.util.VMSupport$SizeInfo,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,io.airlift:slice,0.29,0.47,MINOR,false
+org.openjdk.jol:jol-core,0.2,0.16,org.openjdk.jol.util.VMSupport$SizeInfo,exactSize,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,io.airlift:slice,0.29,0.47,MINOR,false
+org.openjdk.jol:jol-core,0.2,0.16,org.openjdk.jol.util.VMSupport$SizeInfo,instanceSize,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,io.airlift:slice,0.29,0.47,MINOR,false
+org.openjdk.jol:jol-core,0.2,0.16,org.openjdk.jol.util.VMSupport$SizeInfo,VMSupport$SizeInfo,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,io.airlift:slice,0.29,0.47,MINOR,false
+org.apache.commons:commons-lang3,3.12.0,3.18.0,org.apache.commons.lang3.event.EventListenerSupport$ProxyInvocationHandler,invoke,METHOD_CHANGE,METHOD_NOW_THROWS_CHECKED_EXCEPTION,true,false,true,2,org.apache.commons:commons-text,1.10.0,1.14.0,MINOR,false
+org.apache.commons:commons-lang3,3.12.0,3.18.0,org.apache.commons.lang3.exception.ExceptionUtils,rethrow,METHOD_CHANGE,CLASS_GENERIC_TEMPLATE_CHANGED,true,false,true,2,org.apache.commons:commons-text,1.10.0,1.14.0,MINOR,false
+org.apache.commons:commons-lang3,3.12.0,3.18.0,org.apache.commons.lang3.function.FailableSupplier,org.apache.commons.lang3.function.FailableSupplier,CLASS_CHANGE,CLASS_GENERIC_TEMPLATE_CHANGED,true,false,true,2,org.apache.commons:commons-text,1.10.0,1.14.0,MINOR,false
+org.apache.commons:commons-lang3,3.12.0,3.18.0,org.apache.commons.lang3.ObjectUtils,toString,METHOD_CHANGE,CLASS_GENERIC_TEMPLATE_CHANGED,true,false,true,2,org.apache.commons:commons-text,1.10.0,1.14.0,MINOR,false
+org.apache.commons:commons-lang3,3.12.0,3.18.0,org.apache.commons.lang3.Range,between,METHOD_CHANGE,ANNOTATION_DEPRECATED_ADDED; CLASS_GENERIC_TEMPLATE_GENERICS_CHANGED,true,false,true,2,org.apache.commons:commons-text,1.10.0,1.14.0,MINOR,false
+org.apache.commons:commons-lang3,3.12.0,3.18.0,org.apache.commons.lang3.Range,is,METHOD_CHANGE,CLASS_GENERIC_TEMPLATE_GENERICS_CHANGED,true,false,true,2,org.apache.commons:commons-text,1.10.0,1.14.0,MINOR,false
+org.apache.commons:commons-lang3,3.12.0,3.18.0,org.apache.commons.lang3.stream.Streams,stream,METHOD_CHANGE,ANNOTATION_DEPRECATED_ADDED; CLASS_GENERIC_TEMPLATE_CHANGED,true,false,true,2,org.apache.commons:commons-text,1.10.0,1.14.0,MINOR,false
+org.apache.commons:commons-lang3,3.12.0,3.18.0,org.apache.commons.lang3.stream.Streams,stream,METHOD_CHANGE,ANNOTATION_DEPRECATED_ADDED; CLASS_GENERIC_TEMPLATE_CHANGED,true,false,true,2,org.apache.commons:commons-text,1.10.0,1.14.0,MINOR,false
+org.apache.commons:commons-lang3,3.12.0,3.18.0,org.apache.commons.lang3.stream.Streams,toArray,METHOD_CHANGE,CLASS_GENERIC_TEMPLATE_CHANGED,true,false,true,2,org.apache.commons:commons-text,1.10.0,1.14.0,MINOR,false
+org.apache.commons:commons-lang3,3.12.0,3.18.0,org.apache.commons.lang3.stream.Streams$ArrayCollector,org.apache.commons.lang3.stream.Streams$ArrayCollector,CLASS_CHANGE,CLASS_GENERIC_TEMPLATE_CHANGED,true,false,true,2,org.apache.commons:commons-text,1.10.0,1.14.0,MINOR,false
+org.apache.commons:commons-lang3,3.12.0,3.18.0,org.apache.commons.lang3.stream.Streams$FailableStream,org.apache.commons.lang3.stream.Streams$FailableStream,CLASS_CHANGE,CLASS_GENERIC_TEMPLATE_CHANGED,true,false,true,2,org.apache.commons:commons-text,1.10.0,1.14.0,MINOR,false
+org.apache.commons:commons-lang3,3.12.0,3.18.0,org.apache.commons.lang3.StringUtils,toString,METHOD_CHANGE,METHOD_NO_LONGER_THROWS_CHECKED_EXCEPTION,true,false,true,2,org.apache.commons:commons-text,1.10.0,1.14.0,MINOR,false
+org.junit.platform:junit-platform-commons,1.8.2,1.13.4,org.junit.platform.commons.util.ClassFilter,org.junit.platform.commons.util.ClassFilter,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.junit.vintage:junit-vintage-engine,5.8.2,5.13.4,MINOR,false
+org.junit.platform:junit-platform-commons,1.8.2,1.13.4,org.junit.platform.commons.util.ClassFilter,match,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.junit.vintage:junit-vintage-engine,5.8.2,5.13.4,MINOR,false
+org.junit.platform:junit-platform-commons,1.8.2,1.13.4,org.junit.platform.commons.util.ClassFilter,match,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.junit.vintage:junit-vintage-engine,5.8.2,5.13.4,MINOR,false
+org.junit.platform:junit-platform-commons,1.8.2,1.13.4,org.junit.platform.commons.util.ClassFilter,of,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.junit.vintage:junit-vintage-engine,5.8.2,5.13.4,MINOR,false
+org.junit.platform:junit-platform-commons,1.8.2,1.13.4,org.junit.platform.commons.util.ClassFilter,of,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.junit.vintage:junit-vintage-engine,5.8.2,5.13.4,MINOR,false
+org.junit.platform:junit-platform-commons,1.8.2,1.13.4,org.junit.platform.commons.util.ClassFilter,test,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.junit.vintage:junit-vintage-engine,5.8.2,5.13.4,MINOR,false
+org.junit.platform:junit-platform-commons,1.8.2,1.13.4,org.junit.platform.commons.util.ClassFilter,test,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.junit.vintage:junit-vintage-engine,5.8.2,5.13.4,MINOR,false
+org.junit.platform:junit-platform-commons,1.8.2,1.13.4,org.junit.platform.commons.util.ClassNamePatternFilterUtils,DEACTIVATE_ALL_PATTERN,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,org.junit.vintage:junit-vintage-engine,5.8.2,5.13.4,MINOR,false
+org.junit.platform:junit-platform-commons,1.8.2,1.13.4,org.junit.platform.commons.util.ModuleUtils,findAllClassesInModule,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.junit.vintage:junit-vintage-engine,5.8.2,5.13.4,MINOR,false
+org.junit.platform:junit-platform-commons,1.8.2,1.13.4,org.junit.platform.commons.util.ReflectionUtils,findAllClassesInClasspathRoot,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.junit.vintage:junit-vintage-engine,5.8.2,5.13.4,MINOR,false
+org.junit.platform:junit-platform-commons,1.8.2,1.13.4,org.junit.platform.commons.util.ReflectionUtils,findAllClassesInModule,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.junit.vintage:junit-vintage-engine,5.8.2,5.13.4,MINOR,false
+org.junit.platform:junit-platform-commons,1.8.2,1.13.4,org.junit.platform.commons.util.ReflectionUtils,findAllClassesInPackage,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.junit.vintage:junit-vintage-engine,5.8.2,5.13.4,MINOR,false
+org.junit.platform:junit-platform-commons,1.8.2,1.13.4,org.junit.platform.commons.util.ReflectionUtils,getOutermostInstance,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.junit.vintage:junit-vintage-engine,5.8.2,5.13.4,MINOR,false
+org.junit.platform:junit-platform-commons,1.8.2,1.13.4,org.junit.platform.commons.util.ReflectionUtils,makeAccessible,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.junit.vintage:junit-vintage-engine,5.8.2,5.13.4,MINOR,false
+org.junit.platform:junit-platform-commons,1.8.2,1.13.4,org.junit.platform.commons.util.ReflectionUtils,returnsVoid,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.junit.vintage:junit-vintage-engine,5.8.2,5.13.4,MINOR,false
+org.junit.platform:junit-platform-engine,1.8.2,1.13.4,org.junit.platform.engine.ConfigurationParameters,keySet,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE; ANNOTATION_ADDED,true,false,true,2,org.junit.vintage:junit-vintage-engine,5.8.2,5.13.4,MINOR,false
+org.junit.platform:junit-platform-engine,1.8.2,1.13.4,org.junit.platform.engine.support.discovery.EngineDiscoveryRequestResolver$InitializationContext,getIssueReporter,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE; ANNOTATION_ADDED,true,false,true,2,org.junit.vintage:junit-vintage-engine,5.8.2,5.13.4,MINOR,false
+org.junit.platform:junit-platform-engine,1.8.2,1.13.4,org.junit.platform.engine.support.discovery.EngineDiscoveryRequestResolver$InitializationContext,getPackageFilter,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE; ANNOTATION_ADDED,true,false,true,2,org.junit.vintage:junit-vintage-engine,5.8.2,5.13.4,MINOR,false
+org.junit.platform:junit-platform-engine,1.8.2,1.13.4,org.junit.platform.engine.support.filter.ClasspathScanningSupport,buildClassFilter,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,true,2,org.junit.vintage:junit-vintage-engine,5.8.2,5.13.4,MINOR,false
+org.junit.platform:junit-platform-engine,1.8.2,1.13.4,org.junit.platform.engine.support.hierarchical.ResourceLock,getResources,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.junit.vintage:junit-vintage-engine,5.8.2,5.13.4,MINOR,false
+org.junit.platform:junit-platform-engine,1.8.2,1.13.4,org.junit.platform.engine.support.hierarchical.ResourceLock,isExclusive,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.junit.vintage:junit-vintage-engine,5.8.2,5.13.4,MINOR,false

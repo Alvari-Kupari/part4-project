@@ -1,0 +1,17 @@
+Library_Name,Symbol_Type,Class_Name,Symbol_Name,Usage_Location,Line_Number
+JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.lang.String,String,C:\Users\tyin363\Documents\repos\stick-i__scblogs\common\common-regex\src\main\java\cn\sticki\common\regex\RegexPatterns.java,28
+JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.lang.String,String,C:\Users\tyin363\Documents\repos\stick-i__scblogs\common\common-regex\src\main\java\cn\sticki\common\regex\RegexUtils.java,26
+CLIENT:client-code:N/A:N/A,FieldAccessExpr,cn.sticki.common.regex.RegexPatterns,PHONE_REGEX,C:\Users\tyin363\Documents\repos\stick-i__scblogs\common\common-regex\src\main\java\cn\sticki\common\regex\RegexUtils.java,17
+CLIENT:client-code:N/A:N/A,MethodCallExpr,cn.sticki.common.regex.RegexUtils,match,C:\Users\tyin363\Documents\repos\stick-i__scblogs\common\common-regex\src\main\java\cn\sticki\common\regex\RegexUtils.java,37
+JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.lang.String,String,C:\Users\tyin363\Documents\repos\stick-i__scblogs\common\common-regex\src\main\java\cn\sticki\common\regex\RegexPatterns.java,23
+JDK:java.base:N/A:N/A,MethodCallExpr,java.lang.String,matches,C:\Users\tyin363\Documents\repos\stick-i__scblogs\common\common-regex\src\main\java\cn\sticki\common\regex\RegexUtils.java,52
+JDK:java.base:N/A:N/A,MethodCallExpr,java.lang.String,isEmpty,C:\Users\tyin363\Documents\repos\stick-i__scblogs\common\common-regex\src\main\java\cn\sticki\common\regex\RegexUtils.java,48
+JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.lang.String,String,C:\Users\tyin363\Documents\repos\stick-i__scblogs\common\common-regex\src\main\java\cn\sticki\common\regex\RegexUtils.java,16
+JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.lang.String,String,C:\Users\tyin363\Documents\repos\stick-i__scblogs\common\common-regex\src\main\java\cn\sticki\common\regex\RegexUtils.java,47
+JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.lang.String,String,C:\Users\tyin363\Documents\repos\stick-i__scblogs\common\common-regex\src\main\java\cn\sticki\common\regex\RegexPatterns.java,13
+CLIENT:client-code:N/A:N/A,FieldAccessExpr,cn.sticki.common.regex.RegexPatterns,EMAIL_REGEX,C:\Users\tyin363\Documents\repos\stick-i__scblogs\common\common-regex\src\main\java\cn\sticki\common\regex\RegexUtils.java,27
+CLIENT:client-code:N/A:N/A,MethodCallExpr,cn.sticki.common.regex.RegexUtils,match,C:\Users\tyin363\Documents\repos\stick-i__scblogs\common\common-regex\src\main\java\cn\sticki\common\regex\RegexUtils.java,17
+JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.lang.String,String,C:\Users\tyin363\Documents\repos\stick-i__scblogs\common\common-regex\src\main\java\cn\sticki\common\regex\RegexUtils.java,36
+CLIENT:client-code:N/A:N/A,FieldAccessExpr,cn.sticki.common.regex.RegexPatterns,VERIFY_CODE_REGEX,C:\Users\tyin363\Documents\repos\stick-i__scblogs\common\common-regex\src\main\java\cn\sticki\common\regex\RegexUtils.java,37
+CLIENT:client-code:N/A:N/A,MethodCallExpr,cn.sticki.common.regex.RegexUtils,match,C:\Users\tyin363\Documents\repos\stick-i__scblogs\common\common-regex\src\main\java\cn\sticki\common\regex\RegexUtils.java,27
+JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.lang.String,String,C:\Users\tyin363\Documents\repos\stick-i__scblogs\common\common-regex\src\main\java\cn\sticki\common\regex\RegexPatterns.java,18

@@ -1,0 +1,3 @@
+Library_Name,Symbol_Type,Class_Name,Symbol_Name,Usage_Location,Line_Number
+JDK:java.base:N/A:N/A,MethodCallExpr,java.lang.System,setProperty,C:\Users\tyin363\Documents\repos\yegor256__qulice\qulice-maven-plugin\src\it\checkstyle-newlines\src\main\java\com\qulice\plugin\violations\Violations.java,8
+JDK:java.base:N/A:N/A,MethodCallExpr,java.lang.System,setProperty,C:\Users\tyin363\Documents\repos\yegor256__qulice\qulice-maven-plugin\target\it\checkstyle-newlines\src\main\java\com\qulice\plugin\violations\Violations.java,8

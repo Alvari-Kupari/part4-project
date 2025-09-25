@@ -1,0 +1,10 @@
+=== Comparison Failure Log ===
+[2025-09-23 05:38:13] org.springframework.security:spring-security-core:6.5.0 -> org.springframework.security:spring-security-core:6.5.5 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.security:spring-security-core
+[2025-09-23 05:38:13] org.springframework.data:spring-data-commons:3.5.0 -> org.springframework.data:spring-data-commons:3.5.4 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.data:spring-data-commons
+[2025-09-23 05:38:14] org.springframework:spring-tx:6.2.7 -> org.springframework:spring-tx:6.2.11 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-tx
+[2025-09-23 05:38:14] org.springframework.data:spring-data-jpa:3.5.0 -> org.springframework.data:spring-data-jpa:3.5.4 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.data:spring-data-jpa
+
+=== Summary ===
+Total comparisons: 17
+Failures: 4
+Success rate: 76.47%

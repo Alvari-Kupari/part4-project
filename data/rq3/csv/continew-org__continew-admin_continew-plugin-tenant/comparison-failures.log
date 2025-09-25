@@ -1,0 +1,8 @@
+=== Comparison Failure Log ===
+[2025-09-22 17:20:33] cn.hutool:hutool-all:5.8.38 -> cn.hutool:hutool-all:5.8.40 : Failed to compare JAR files: JAPICMP comparison failed for cn.hutool:hutool-all
+[2025-09-22 17:20:33] org.projectlombok:lombok:1.18.38 -> org.projectlombok:lombok:1.18.42 : Failed to compare JAR files: JAPICMP comparison failed for org.projectlombok:lombok
+
+=== Summary ===
+Total comparisons: 2
+Failures: 2
+Success rate: 0.00%

@@ -1,0 +1,6 @@
+Library_Name,Old_Version,New_Version,Class_Name,Member_Name,Change_Type,Description,Binary_Compatible,Source_Compatible,Is_Transitive,Depth,Direct_Parent_Dependency,Direct_Dependency_Old_Version,Direct_Dependency_New_Version,Release_Type,Is_Used_In_Client
+com.google.inject:guice,5.0.1,5.1.0,com.google.inject.internal.aop.ClassDefining,isAnonymousHost,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,com.google.inject:guice,,,MINOR,false
+com.google.inject:guice,5.0.1,5.1.0,com.google.inject.internal.InternalFlags$IncludeStackTraceOption,COMPLETE,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,com.google.inject:guice,,,MINOR,false
+com.google.inject:guice,5.0.1,5.1.0,com.google.inject.internal.KotlinSupportInterface,isLocalClass,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,com.google.inject:guice,,,MINOR,false
+com.google.inject:guice,5.0.1,5.1.0,com.google.inject.spi.ElementSource,getModuleConfigurePositionsInStackTrace,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,com.google.inject:guice,,,MINOR,false
+com.google.inject:guice,5.0.1,5.1.0,com.google.inject.spi.ElementSource,getStackTrace,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,com.google.inject:guice,,,MINOR,false

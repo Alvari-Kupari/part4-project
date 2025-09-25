@@ -1,0 +1,28 @@
+=== Comparison Failure Log ===
+[2025-09-22 14:29:54] io.quarkus:quarkus-core:3.20.1 -> io.quarkus:quarkus-core:3.28.0 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core
+[2025-09-22 14:30:03] io.quarkus:quarkus-vertx-http:3.20.1 -> io.quarkus:quarkus-vertx-http:3.28.0 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-vertx-http
+
+=== Summary ===
+Total comparisons: 32
+Failures: 2
+Success rate: 93.75%
+=== Comparison Failure Log ===
+[2025-09-22 14:34:55] io.quarkus:quarkus-core:3.20.1 -> io.quarkus:quarkus-core:3.28.0 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-core
+[2025-09-22 14:35:02] io.quarkus:quarkus-awt:3.20.1 -> io.quarkus:quarkus-awt:3.28.0 : Failed to compare JAR files: JAPICMP comparison failed for io.quarkus:quarkus-awt
+
+=== Summary ===
+Total comparisons: 27
+Failures: 2
+Success rate: 92.59%
+=== Comparison Failure Log ===
+
+=== Summary ===
+Total comparisons: 49
+Failures: 0
+Success rate: 100.00%
+=== Comparison Failure Log ===
+
+=== Summary ===
+Total comparisons: 27
+Failures: 0
+Success rate: 100.00%

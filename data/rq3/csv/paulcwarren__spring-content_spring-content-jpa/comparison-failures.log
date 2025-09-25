@@ -1,0 +1,17 @@
+=== Comparison Failure Log ===
+[2025-09-23 05:34:09] org.springframework.data:spring-data-jpa:3.5.0 -> org.springframework.data:spring-data-jpa:3.5.4 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.data:spring-data-jpa
+[2025-09-23 05:34:11] org.hibernate.orm:hibernate-core:6.1.7.Final -> org.hibernate.orm:hibernate-core:7.0.0.CR2 : Failed to compare JAR files: JAPICMP comparison failed for org.hibernate.orm:hibernate-core
+[2025-09-23 05:34:19] com.microsoft.sqlserver:mssql-jdbc:12.10.0.jre11 -> com.microsoft.sqlserver:mssql-jdbc:12.10.1.jre11 : Failed to compare JAR files: JAPICMP comparison failed for com.microsoft.sqlserver:mssql-jdbc
+[2025-09-23 05:34:20] org.postgresql:postgresql:42.7.5 -> org.postgresql:postgresql:42.7.8 : Failed to compare JAR files: JAPICMP comparison failed for org.postgresql:postgresql
+[2025-09-23 05:34:20] org.projectlombok:lombok:1.18.38 -> org.projectlombok:lombok:1.18.42 : Failed to compare JAR files: JAPICMP comparison failed for org.projectlombok:lombok
+[2025-09-23 05:34:30] mysql:mysql-connector-java:8.0.30 -> mysql:mysql-connector-java:8.0.33 : Failed to compare JAR files: JAPICMP comparison failed for mysql:mysql-connector-java
+[2025-09-23 05:34:31] com.oracle.database.jdbc:ojdbc8:23.8.0.25.04 -> com.oracle.database.jdbc:ojdbc8:23.9.0.25.07 : Failed to compare JAR files: JAPICMP comparison failed for com.oracle.database.jdbc:ojdbc8
+[2025-09-23 05:34:33] org.testcontainers:oracle-xe:1.17.6 -> org.testcontainers:oracle-xe:1.21.3 : Failed to compare JAR files: JAPICMP comparison failed for org.testcontainers:oracle-xe
+[2025-09-23 05:34:34] org.testcontainers:mysql:1.17.6 -> org.testcontainers:mysql:1.21.3 : Failed to compare JAR files: JAPICMP comparison failed for org.testcontainers:mysql
+[2025-09-23 05:34:35] org.testcontainers:postgresql:1.17.6 -> org.testcontainers:postgresql:1.21.3 : Failed to compare JAR files: JAPICMP comparison failed for org.testcontainers:postgresql
+[2025-09-23 05:34:36] org.testcontainers:mssqlserver:1.17.6 -> org.testcontainers:mssqlserver:1.21.3 : Failed to compare JAR files: JAPICMP comparison failed for org.testcontainers:mssqlserver
+
+=== Summary ===
+Total comparisons: 13
+Failures: 11
+Success rate: 15.38%

@@ -1,0 +1,10 @@
+=== Comparison Failure Log ===
+[2025-09-22 13:20:44] com.squareup.retrofit2:retrofit:2.9.0 -> com.squareup.retrofit2:retrofit:2.12.0 : Failed to compare JAR files: JAPICMP comparison failed for com.squareup.retrofit2:retrofit
+[2025-09-22 13:20:48] org.junit.jupiter:junit-jupiter-api:5.9.1 -> org.junit.jupiter:junit-jupiter-api:5.13.4 : Failed to compare JAR files: JAPICMP comparison failed for org.junit.jupiter:junit-jupiter-api
+[2025-09-22 13:20:49] org.assertj:assertj-core:3.23.1 -> org.assertj:assertj-core:3.27.5 : Failed to compare JAR files: JAPICMP comparison failed for org.assertj:assertj-core
+[2025-09-22 13:20:50] com.github.tomakehurst:wiremock-jre8:2.35.0 -> com.github.tomakehurst:wiremock-jre8:2.35.2 : Failed to compare JAR files: JAPICMP comparison failed for com.github.tomakehurst:wiremock-jre8
+
+=== Summary ===
+Total comparisons: 34
+Failures: 4
+Success rate: 88.24%

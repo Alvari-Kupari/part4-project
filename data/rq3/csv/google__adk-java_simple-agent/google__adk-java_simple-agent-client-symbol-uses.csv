@@ -1,0 +1,11 @@
+Library_Name,Symbol_Type,Class_Name,Symbol_Name,Usage_Location,Line_Number
+CLIENT:client-code:N/A:N/A,NameExpr,com.example.SimpleAgentLoader,agentSuppliers,C:\Users\tyin363\Documents\repos\google__adk-java\maven_plugin\examples\simple-agent\src\main\java\com\example\SimpleAgentLoader.java,55
+CLIENT:client-code:N/A:N/A,ObjectCreationExpr,com.example.SimpleAgentLoader,SimpleAgentLoader,C:\Users\tyin363\Documents\repos\google__adk-java\maven_plugin\examples\simple-agent\src\main\java\com\example\SimpleAgentLoader.java,35
+JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.lang.String,String,C:\Users\tyin363\Documents\repos\google__adk-java\maven_plugin\examples\simple-agent\src\main\java\com\example\SimpleAgentLoader.java,54
+JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.lang.String,String,C:\Users\tyin363\Documents\repos\google__adk-java\maven_plugin\examples\simple-agent\src\main\java\com\example\SimpleAgentLoader.java,37
+CLIENT:client-code:N/A:N/A,ClassOrInterfaceType,com.example.SimpleAgentLoader,SimpleAgentLoader,C:\Users\tyin363\Documents\repos\google__adk-java\maven_plugin\examples\simple-agent\src\main\java\com\example\SimpleAgentLoader.java,35
+CLIENT:client-code:N/A:N/A,FieldAccessExpr,com.example.SimpleAgentLoader,agentSuppliers,C:\Users\tyin363\Documents\repos\google__adk-java\maven_plugin\examples\simple-agent\src\main\java\com\example\SimpleAgentLoader.java,40
+CLIENT:client-code:N/A:N/A,NameExpr,com.example.SimpleAgentLoader,agentSuppliers,C:\Users\tyin363\Documents\repos\google__adk-java\maven_plugin\examples\simple-agent\src\main\java\com\example\SimpleAgentLoader.java,50
+JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.lang.String,String,C:\Users\tyin363\Documents\repos\google__adk-java\maven_plugin\examples\simple-agent\src\main\java\com\example\SimpleAgentLoader.java,49
+JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.util.NoSuchElementException,NoSuchElementException,C:\Users\tyin363\Documents\repos\google__adk-java\maven_plugin\examples\simple-agent\src\main\java\com\example\SimpleAgentLoader.java,57
+JDK:java.base:N/A:N/A,ObjectCreationExpr,java.util.NoSuchElementException,NoSuchElementException,C:\Users\tyin363\Documents\repos\google__adk-java\maven_plugin\examples\simple-agent\src\main\java\com\example\SimpleAgentLoader.java,57

@@ -1,0 +1,5 @@
+Library_Name,Symbol_Type,Class_Name,Symbol_Name,Usage_Location,Line_Number
+JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.util.List,List,C:\Users\tyin363\Documents\repos\easymock__objenesis\module-test\src\main\java\org\mymodule\App.java,26
+JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.util.List,List,C:\Users\tyin363\Documents\repos\easymock__objenesis\module-test\src\main\java\org\mymodule\App.java,31
+JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.util.ArrayList,ArrayList,C:\Users\tyin363\Documents\repos\easymock__objenesis\module-test\src\main\java\org\mymodule\App.java,33
+JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.util.ArrayList,ArrayList,C:\Users\tyin363\Documents\repos\easymock__objenesis\module-test\src\main\java\org\mymodule\App.java,28

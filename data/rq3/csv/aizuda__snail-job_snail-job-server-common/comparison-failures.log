@@ -1,0 +1,9 @@
+=== Comparison Failure Log ===
+[2025-09-22 13:42:58] org.projectlombok:lombok:1.18.36 -> org.projectlombok:lombok:1.18.42 : Failed to compare JAR files: JAPICMP comparison failed for org.projectlombok:lombok
+[2025-09-22 13:43:09] org.apache.pekko:pekko-actor-testkit-typed_2.13:1.2.0-M1 -> org.apache.pekko:pekko-actor-testkit-typed_2.13:1.2.0 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.pekko:pekko-actor-testkit-typed_2.13
+[2025-09-22 13:43:15] io.grpc:grpc-netty-shaded:1.71.0 -> io.grpc:grpc-netty-shaded:1.75.0 : Failed to compare JAR files: JAPICMP comparison failed for io.grpc:grpc-netty-shaded
+
+=== Summary ===
+Total comparisons: 65
+Failures: 3
+Success rate: 95.38%

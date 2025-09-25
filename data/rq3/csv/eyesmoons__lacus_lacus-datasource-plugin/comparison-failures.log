@@ -1,0 +1,14 @@
+=== Comparison Failure Log ===
+[2025-09-22 21:01:51] mysql:mysql-connector-java:8.0.28 -> mysql:mysql-connector-java:8.0.33 : Failed to compare JAR files: JAPICMP comparison failed for mysql:mysql-connector-java
+[2025-09-22 21:01:54] com.microsoft.sqlserver:mssql-jdbc:8.2.2.jre8 -> com.microsoft.sqlserver:mssql-jdbc:8.4.1.jre14 : Failed to compare JAR files: JAPICMP comparison failed for com.microsoft.sqlserver:mssql-jdbc
+[2025-09-22 21:01:54] com.alibaba:druid:1.2.23 -> com.alibaba:druid:1.2.27 : Failed to compare JAR files: JAPICMP comparison failed for com.alibaba:druid
+[2025-09-22 21:01:55] com.mysql:mysql-connector-j:8.0.33 -> com.mysql:mysql-connector-j:8.4.0 : Failed to compare JAR files: JAPICMP comparison failed for com.mysql:mysql-connector-j
+[2025-09-22 21:01:59] org.projectlombok:lombok:1.18.20 -> org.projectlombok:lombok:1.18.42 : Failed to compare JAR files: JAPICMP comparison failed for org.projectlombok:lombok
+[2025-09-22 21:02:29] cn.hutool:hutool-all:5.8.25 -> cn.hutool:hutool-all:5.8.40 : Failed to compare JAR files: JAPICMP comparison failed for cn.hutool:hutool-all
+[2025-09-22 21:03:32] org.apache.kafka:kafka-clients:3.6.1 -> org.apache.kafka:kafka-clients:3.9.1 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.kafka:kafka-clients
+[2025-09-22 21:04:02] org.apache.seatunnel:seatunnel-transforms-v2:2.3.10 -> org.apache.seatunnel:seatunnel-transforms-v2:2.3.12 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.seatunnel:seatunnel-transforms-v2
+
+=== Summary ===
+Total comparisons: 245
+Failures: 8
+Success rate: 96.73%

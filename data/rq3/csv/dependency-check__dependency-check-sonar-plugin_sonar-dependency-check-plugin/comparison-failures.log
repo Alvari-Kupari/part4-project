@@ -1,0 +1,8 @@
+=== Comparison Failure Log ===
+[2025-09-22 18:09:43] org.sonarsource.api.plugin:sonar-plugin-api:11.1.0.2693 -> org.sonarsource.api.plugin:sonar-plugin-api:11.4.0.2922 : Failed to compare JAR files: JAPICMP comparison failed for org.sonarsource.api.plugin:sonar-plugin-api
+[2025-09-22 18:09:46] org.mockito:mockito-core:5.18.0 -> org.mockito:mockito-core:5.20.0 : Failed to compare JAR files: JAPICMP comparison failed for org.mockito:mockito-core
+
+=== Summary ===
+Total comparisons: 18
+Failures: 2
+Success rate: 88.89%

@@ -1,0 +1,8 @@
+=== Comparison Failure Log ===
+[2025-09-22 15:01:35] org.apache.tika:tika-parsers-standard-package:3.2.2 -> org.apache.tika:tika-parsers-standard-package:3.2.3 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.tika:tika-parsers-standard-package
+[2025-09-22 15:01:35] org.mockito:mockito-core:5.18.0 -> org.mockito:mockito-core:5.20.0 : Failed to compare JAR files: JAPICMP comparison failed for org.mockito:mockito-core
+
+=== Summary ===
+Total comparisons: 2
+Failures: 2
+Success rate: 0.00%

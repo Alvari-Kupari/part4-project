@@ -1,0 +1,8 @@
+=== Comparison Failure Log ===
+[2025-09-22 13:42:47] org.projectlombok:lombok:1.18.36 -> org.projectlombok:lombok:1.18.42 : Failed to compare JAR files: JAPICMP comparison failed for org.projectlombok:lombok
+[2025-09-22 13:42:48] com.oracle.database.jdbc:ojdbc8:21.9.0.0 -> com.oracle.database.jdbc:ojdbc8:21.19.0.0 : Failed to compare JAR files: JAPICMP comparison failed for com.oracle.database.jdbc:ojdbc8
+
+=== Summary ===
+Total comparisons: 3
+Failures: 2
+Success rate: 33.33%

@@ -1,0 +1,7 @@
+Library_Name,Symbol_Type,Class_Name,Symbol_Name,Usage_Location,Line_Number
+JDK:java.base:N/A:N/A,MethodCallExpr,java.util.logging.Logger,getLogger,C:\Users\tyin363\Documents\repos\kumuluz__kumuluzee\components\jax-ws\metro\src\main\java\com\kumuluz\ee\jaxws\metro\JaxWsComponent.java,38
+JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.util.logging.Logger,Logger,C:\Users\tyin363\Documents\repos\kumuluz__kumuluzee\components\jax-ws\metro\src\main\java\com\kumuluz\ee\jaxws\metro\JaxWsComponent.java,38
+CLIENT:client-code:N/A:N/A,NameExpr,com.kumuluz.ee.jaxws.metro.JaxWsComponent,log,C:\Users\tyin363\Documents\repos\kumuluz__kumuluzee\components\jax-ws\metro\src\main\java\com\kumuluz\ee\jaxws\metro\JaxWsComponent.java,47
+JDK:java.base:N/A:N/A,MethodCallExpr,java.util.logging.Logger,info,C:\Users\tyin363\Documents\repos\kumuluz__kumuluzee\components\jax-ws\metro\src\main\java\com\kumuluz\ee\jaxws\metro\JaxWsComponent.java,47
+CLIENT:client-code:N/A:N/A,ClassOrInterfaceType,com.kumuluz.ee.jaxws.metro.JaxWsComponent,JaxWsComponent,C:\Users\tyin363\Documents\repos\kumuluz__kumuluzee\components\jax-ws\metro\src\main\java\com\kumuluz\ee\jaxws\metro\JaxWsComponent.java,38
+JDK:java.base:N/A:N/A,MethodCallExpr,java.lang.Class,getSimpleName,C:\Users\tyin363\Documents\repos\kumuluz__kumuluzee\components\jax-ws\metro\src\main\java\com\kumuluz\ee\jaxws\metro\JaxWsComponent.java,38

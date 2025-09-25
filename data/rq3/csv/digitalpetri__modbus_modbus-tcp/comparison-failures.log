@@ -1,0 +1,8 @@
+=== Comparison Failure Log ===
+[2025-09-22 18:59:26] io.netty:netty-handler:4.1.122.Final -> io.netty:netty-handler:4.2.6.Final : Failed to compare JAR files: JAPICMP comparison failed for io.netty:netty-handler
+[2025-09-22 18:59:34] org.junit.jupiter:junit-jupiter-api:5.13.3 -> org.junit.jupiter:junit-jupiter-api:5.13.4 : Failed to compare JAR files: JAPICMP comparison failed for org.junit.jupiter:junit-jupiter-api
+
+=== Summary ===
+Total comparisons: 23
+Failures: 2
+Success rate: 91.30%

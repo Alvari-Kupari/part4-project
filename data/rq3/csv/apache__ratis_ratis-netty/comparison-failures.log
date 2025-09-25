@@ -1,0 +1,7 @@
+=== Comparison Failure Log ===
+[2025-09-22 14:52:38] org.apache.ratis:ratis-thirdparty-misc:1.0.9 -> org.apache.ratis:ratis-thirdparty-misc:1.0.10 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.ratis:ratis-thirdparty-misc
+
+=== Summary ===
+Total comparisons: 21
+Failures: 1
+Success rate: 95.24%

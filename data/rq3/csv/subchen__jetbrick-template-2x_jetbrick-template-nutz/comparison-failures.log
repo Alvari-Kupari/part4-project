@@ -1,0 +1,8 @@
+=== Comparison Failure Log ===
+[2025-09-23 10:41:45] org.nutz:nutz:1.b.51 -> org.nutz:nutz:1.r.72 : Failed to compare JAR files: JAPICMP comparison failed for org.nutz:nutz
+[2025-09-23 10:41:45] org.projectlombok:lombok:1.18.34 -> org.projectlombok:lombok:1.18.42 : Failed to compare JAR files: JAPICMP comparison failed for org.projectlombok:lombok
+
+=== Summary ===
+Total comparisons: 3
+Failures: 2
+Success rate: 33.33%

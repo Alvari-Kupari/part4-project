@@ -1,0 +1,8 @@
+=== Comparison Failure Log ===
+[2025-09-22 20:15:14] com.github.yulichang:mybatis-plus-join-boot-starter:1.4.6 -> com.github.yulichang:mybatis-plus-join-boot-starter:1.5.4 : Failed to compare JAR files: JAPICMP comparison failed for com.github.yulichang:mybatis-plus-join-boot-starter
+[2025-09-22 20:15:22] com.mysql:mysql-connector-j:8.0.33 -> com.mysql:mysql-connector-j:8.4.0 : Failed to compare JAR files: JAPICMP comparison failed for com.mysql:mysql-connector-j
+
+=== Summary ===
+Total comparisons: 97
+Failures: 2
+Success rate: 97.94%

@@ -1,0 +1,9 @@
+=== Comparison Failure Log ===
+[2025-09-23 02:36:58] org.glassfish.jersey.containers:jersey-container-servlet:2.34 -> org.glassfish.jersey.containers:jersey-container-servlet:2.47 : Failed to compare JAR files: JAPICMP comparison failed for org.glassfish.jersey.containers:jersey-container-servlet
+[2025-09-23 02:37:11] org.glassfish.jersey.ext.cdi:jersey-cdi1x-servlet:2.34 -> org.glassfish.jersey.ext.cdi:jersey-cdi1x-servlet:2.47 : Failed to compare JAR files: JAPICMP comparison failed for org.glassfish.jersey.ext.cdi:jersey-cdi1x-servlet
+[2025-09-23 02:37:17] com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.12.0 -> com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.20.0 : Failed to compare JAR files: JAPICMP comparison failed for com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider
+
+=== Summary ===
+Total comparisons: 31
+Failures: 3
+Success rate: 90.32%

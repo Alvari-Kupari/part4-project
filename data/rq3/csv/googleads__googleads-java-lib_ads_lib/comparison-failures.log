@@ -1,0 +1,9 @@
+=== Comparison Failure Log ===
+[2025-09-22 22:08:37] com.sun.xml.ws:jaxws-ri:2.3.2 -> com.sun.xml.ws:jaxws-ri:2.3.7 : Failed to compare JAR files: JAPICMP comparison failed for com.sun.xml.ws:jaxws-ri
+[2025-09-22 22:09:23] org.eclipse.jetty:jetty-http:9.4.48.v20220622 -> org.eclipse.jetty:jetty-http:9.4.58.v20250814 : Failed to compare JAR files: JAPICMP comparison failed for org.eclipse.jetty:jetty-http
+[2025-09-22 22:09:29] org.mockito:mockito-core:3.2.0 -> org.mockito:mockito-core:3.12.4 : Failed to compare JAR files: JAPICMP comparison failed for org.mockito:mockito-core
+
+=== Summary ===
+Total comparisons: 69
+Failures: 3
+Success rate: 95.65%

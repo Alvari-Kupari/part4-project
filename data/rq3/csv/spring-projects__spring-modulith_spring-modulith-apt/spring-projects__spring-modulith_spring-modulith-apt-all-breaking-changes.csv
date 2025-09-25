@@ -1,0 +1,4 @@
+Library_Name,Old_Version,New_Version,Class_Name,Member_Name,Change_Type,Description,Binary_Compatible,Source_Compatible,Is_Transitive,Depth,Direct_Parent_Dependency,Direct_Dependency_Old_Version,Direct_Dependency_New_Version,Release_Type,Is_Used_In_Client
+io.toolisticon.cute:cute,1.8.0,1.9.0,io.toolisticon.cute.CuteApi$BlackBoxTestSourceFilesInterface,andResourceFile,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE; ANNOTATION_ADDED,true,false,false,1,io.toolisticon.cute:cute,,,MINOR,false
+io.toolisticon.cute:cute,1.8.0,1.9.0,io.toolisticon.cute.CuteApi$CompilerTestBB,resourceFiles,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,io.toolisticon.cute:cute,,,MINOR,false
+io.toolisticon.cute:cute,1.8.0,1.9.0,io.toolisticon.cute.CuteApi$UnitTestGivenInterface,useResourceFile,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE; ANNOTATION_ADDED,true,false,false,1,io.toolisticon.cute:cute,,,MINOR,false

@@ -1,0 +1,195 @@
+Library_Name,Old_Version,New_Version,Class_Name,Member_Name,Change_Type,Description,Binary_Compatible,Source_Compatible,Is_Transitive,Depth,Direct_Parent_Dependency,Direct_Dependency_Old_Version,Direct_Dependency_New_Version,Release_Type,Is_Used_In_Client
+commons-io:commons-io,2.15.1,2.20.0,org.apache.commons.io.FileUtils,isFileOlder,METHOD_CHANGE,METHOD_NOW_THROWS_CHECKED_EXCEPTION,true,false,false,1,commons-io:commons-io,,,MINOR,false
+commons-io:commons-io,2.15.1,2.20.0,org.apache.commons.io.input.CountingInputStream,afterRead,METHOD_CHANGE,METHOD_NOW_THROWS_CHECKED_EXCEPTION,true,false,false,1,commons-io:commons-io,,,MINOR,false
+commons-io:commons-io,2.15.1,2.20.0,org.apache.commons.io.input.SwappedDataInputStream,skipBytes,METHOD_CHANGE,METHOD_NO_LONGER_THROWS_CHECKED_EXCEPTION,true,false,false,1,commons-io:commons-io,,,MINOR,false
+commons-io:commons-io,2.15.1,2.20.0,org.apache.commons.io.output.AbstractByteArrayOutputStream,org.apache.commons.io.output.AbstractByteArrayOutputStream,CLASS_CHANGE,CLASS_GENERIC_TEMPLATE_CHANGED,true,false,false,1,commons-io:commons-io,,,MINOR,false
+org.jline:jline,3.25.1,3.30.6,org.jline.builtins.ssh.ShellFactoryImpl$ShellImpl,run,METHOD_CHANGE,METHOD_NO_LONGER_THROWS_CHECKED_EXCEPTION,true,false,false,1,org.jline:jline,,,MINOR,false
+org.jline:jline,3.25.1,3.30.6,org.jline.builtins.SyntaxHighlighter,addFiles,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jline:jline,,,MINOR,false
+org.jline:jline,3.25.1,3.30.6,org.jline.builtins.SyntaxHighlighter,nanorcInclude,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jline:jline,,,MINOR,false
+org.jline:jline,3.25.1,3.30.6,org.jline.builtins.SyntaxHighlighter,nanorcTheme,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jline:jline,,,MINOR,false
+org.jline:jline,3.25.1,3.30.6,org.jline.console.ConsoleEngine,execute,METHOD_CHANGE,METHOD_ABSTRACT_NOW_DEFAULT,false,false,false,1,org.jline:jline,,,MINOR,false
+org.jline:jline,3.25.1,3.30.6,org.jline.console.ConsoleEngine,execute,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.jline:jline,,,MINOR,false
+org.jline:jline,3.25.1,3.30.6,org.jline.nativ.Kernel32,INVALID_HANDLE_VALUE,FIELD_CHANGE,FIELD_TYPE_CHANGED,false,false,false,1,org.jline:jline,,,MINOR,false
+org.jline:jline,3.25.1,3.30.6,org.jline.reader.Highlighter,setErrorIndex,METHOD_CHANGE,METHOD_ABSTRACT_NOW_DEFAULT,false,false,false,1,org.jline:jline,,,MINOR,false
+org.jline:jline,3.25.1,3.30.6,org.jline.reader.Highlighter,setErrorPattern,METHOD_CHANGE,METHOD_ABSTRACT_NOW_DEFAULT,false,false,false,1,org.jline:jline,,,MINOR,false
+org.jline:jline,3.25.1,3.30.6,org.jline.reader.LineReader,editAndAddInBuffer,METHOD_CHANGE,METHOD_ABSTRACT_NOW_DEFAULT,false,false,false,1,org.jline:jline,,,MINOR,false
+org.jline:jline,3.25.1,3.30.6,org.jline.reader.LineReader,editAndAddInBuffer,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.jline:jline,,,MINOR,false
+org.jline:jline,3.25.1,3.30.6,org.jline.terminal.impl.Diag,Diag,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.jline:jline,,,MINOR,false
+org.jline:jline,3.25.1,3.30.6,org.jline.terminal.spi.TerminalProvider,newTerminal,METHOD_CHANGE,METHOD_ABSTRACT_NOW_DEFAULT; ANNOTATION_DEPRECATED_ADDED,false,false,false,1,org.jline:jline,,,MINOR,false
+org.jline:jline,3.25.1,3.30.6,org.jline.terminal.spi.TerminalProvider,newTerminal,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE; ANNOTATION_DEPRECATED_ADDED,true,false,false,1,org.jline:jline,,,MINOR,false
+org.jline:jline,3.25.1,3.30.6,org.jline.terminal.spi.TerminalProvider,sysTerminal,METHOD_CHANGE,METHOD_ABSTRACT_NOW_DEFAULT; ANNOTATION_DEPRECATED_ADDED,false,false,false,1,org.jline:jline,,,MINOR,false
+org.jline:jline,3.25.1,3.30.6,org.jline.terminal.spi.TerminalProvider,sysTerminal,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE; ANNOTATION_DEPRECATED_ADDED,true,false,false,1,org.jline:jline,,,MINOR,false
+org.jline:jline,3.25.1,3.30.6,org.jline.terminal.Terminal,getCurrentMouseTracking,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.jline:jline,,,MINOR,false
+org.jline:jline,3.25.1,3.30.6,org.jline.terminal.Terminal,readMouseEvent,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.jline:jline,,,MINOR,false
+org.jline:jline,3.25.1,3.30.6,org.jline.terminal.Terminal,readMouseEvent,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.jline:jline,,,MINOR,false
+org.jline:jline,3.25.1,3.30.6,org.jline.utils.Status,clear,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jline:jline,,,MINOR,false
+org.jline:jline,3.25.1,3.30.6,org.jline.utils.Status,hardReset,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jline:jline,,,MINOR,false
+org.jline:jline,3.25.1,3.30.6,org.jline.utils.Status,oldLines,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.jline:jline,,,MINOR,false
+org.jline:jline,3.25.1,3.30.6,org.jline.utils.Status,linesToRestore,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.jline:jline,,,MINOR,false
+org.jline:jline,3.25.1,3.30.6,org.jline.utils.Status,columns,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.jline:jline,,,MINOR,false
+org.jline:jline,3.25.1,3.30.6,org.jline.utils.Status,force,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.jline:jline,,,MINOR,false
+org.jline:jline,3.25.1,3.30.6,org.jline.utils.Status,rows,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.jline:jline,,,MINOR,false
+org.jline:jline,3.25.1,3.30.6,org.jline.widget.AutopairWidgets,org.jline.widget.AutopairWidgets,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.jline:jline,,,MINOR,false
+org.jline:jline,3.25.1,3.30.6,org.jline.widget.AutosuggestionWidgets,org.jline.widget.AutosuggestionWidgets,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.jline:jline,,,MINOR,false
+org.jline:jline,3.25.1,3.30.6,org.jline.widget.TailTipWidgets,org.jline.widget.TailTipWidgets,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.jline:jline,,,MINOR,false
+org.jline:jline,3.25.1,3.30.6,org.jline.widget.Widgets,addDescription,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jline:jline,,,MINOR,false
+org.jline:jline,3.25.1,3.30.6,org.jline.widget.Widgets,initDescription,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jline:jline,,,MINOR,false
+org.apache.sshd:sshd-sftp,2.12.0,2.15.0,org.apache.sshd.sftp.client.impl.AbstractSftpClient,org.apache.sshd.sftp.client.impl.AbstractSftpClient,CLASS_CHANGE,METHOD_ABSTRACT_ADDED_IN_IMPLEMENTED_INTERFACE; METHOD_DEFAULT_ADDED_IN_IMPLEMENTED_INTERFACE,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.apache.sshd:sshd-sftp,2.12.0,2.15.0,org.apache.sshd.sftp.client.impl.AbstractSftpClient,checkData,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.apache.sshd:sshd-sftp,2.12.0,2.15.0,org.apache.sshd.sftp.client.impl.AbstractSftpClient,checkDataResponse,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.apache.sshd:sshd-sftp,2.12.0,2.15.0,org.apache.sshd.sftp.client.impl.DefaultSftpClient,org.apache.sshd.sftp.client.impl.DefaultSftpClient,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; METHOD_DEFAULT_ADDED_IN_IMPLEMENTED_INTERFACE,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.apache.sshd:sshd-sftp,2.12.0,2.15.0,org.apache.sshd.sftp.client.impl.SftpOutputStreamAsync,pendingWrites,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.apache.sshd:sshd-sftp,2.12.0,2.15.0,org.apache.sshd.sftp.client.impl.SftpOutputStreamAsync,SftpOutputStreamAsync,CONSTRUCTOR_CHANGE,METHOD_NO_LONGER_THROWS_CHECKED_EXCEPTION,true,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.apache.sshd:sshd-sftp,2.12.0,2.15.0,org.apache.sshd.sftp.client.impl.SftpPathImpl,cacheAttributes,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.apache.sshd:sshd-sftp,2.12.0,2.15.0,org.apache.sshd.sftp.client.impl.SftpStatus,parse,METHOD_CHANGE,METHOD_NOW_THROWS_CHECKED_EXCEPTION,true,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.apache.sshd:sshd-sftp,2.12.0,2.15.0,org.apache.sshd.sftp.client.RawSftpClient,write,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.apache.sshd:sshd-sftp,2.12.0,2.15.0,org.apache.sshd.sftp.client.SftpClient,put,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.event.DefaultLoggingEvent,org.slf4j.event.DefaultLoggingEvent,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.event.DefaultLoggingEvent,addArgument,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.event.DefaultLoggingEvent,addArguments,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.event.DefaultLoggingEvent,addKeyValue,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.event.DefaultLoggingEvent,addMarker,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.event.DefaultLoggingEvent,setCallerBoundary,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.event.DefaultLoggingEvent,setMessage,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.event.DefaultLoggingEvent,setThrowable,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.event.DefaultLoggingEvent,setTimeStamp,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.event.DefaultLoggingEvent,DefaultLoggingEvent,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.event.EventRecordingLogger,org.slf4j.event.EventRecordingLogger,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.event.EventRecordingLogger,getFullyQualifiedCallerName,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.event.EventRecordingLogger,handleNormalizedLoggingCall,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.event.EventRecordingLogger,EventRecordingLogger,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.event.KeyValuePair,org.slf4j.event.KeyValuePair,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.event.KeyValuePair,equals,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.event.KeyValuePair,hashCode,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.event.KeyValuePair,toString,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.event.KeyValuePair,value,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.event.KeyValuePair,key,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.event.KeyValuePair,KeyValuePair,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.event.Level,intToLevel,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.event.LoggingEvent,getArguments,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.event.LoggingEvent,getCallerBoundary,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.event.LoggingEvent,getKeyValuePairs,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.event.LoggingEvent,getMarker,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.event.LoggingEvent,getMarkers,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.event.SubstituteLoggingEvent,addMarker,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.helpers.AbstractLogger,org.slf4j.helpers.AbstractLogger,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.helpers.AbstractLogger,getFullyQualifiedCallerName,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.helpers.AbstractLogger,handleNormalizedLoggingCall,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.helpers.AbstractLogger,readResolve,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.helpers.AbstractLogger,name,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.helpers.AbstractLogger,AbstractLogger,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.helpers.CheckReturnValue,org.slf4j.helpers.CheckReturnValue,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.helpers.LegacyAbstractLogger,org.slf4j.helpers.LegacyAbstractLogger,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.helpers.LegacyAbstractLogger,LegacyAbstractLogger,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.helpers.MessageFormatter,basicArrayFormat,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.helpers.MessageFormatter,basicArrayFormat,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.helpers.NOP_FallbackServiceProvider,org.slf4j.helpers.NOP_FallbackServiceProvider,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.helpers.NOP_FallbackServiceProvider,REQUESTED_API_VERSION,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.helpers.NOP_FallbackServiceProvider,NOP_FallbackServiceProvider,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.helpers.NormalizedParameters,org.slf4j.helpers.NormalizedParameters,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.helpers.NormalizedParameters,getArguments,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.helpers.NormalizedParameters,getMessage,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.helpers.NormalizedParameters,getThrowable,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.helpers.NormalizedParameters,getThrowableCandidate,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.helpers.NormalizedParameters,normalize,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.helpers.NormalizedParameters,normalize,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.helpers.NormalizedParameters,trimmedCopy,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.helpers.NormalizedParameters,NormalizedParameters,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.helpers.NormalizedParameters,NormalizedParameters,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.helpers.SubstituteLogger,delegate,METHOD_CHANGE,METHOD_LESS_ACCESSIBLE,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.helpers.SubstituteLogger,createdPostInitialization,FIELD_CHANGE,FIELD_LESS_ACCESSIBLE,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.helpers.SubstituteServiceProvider,org.slf4j.helpers.SubstituteServiceProvider,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.helpers.SubstituteServiceProvider,getSubstituteLoggerFactory,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.helpers.SubstituteServiceProvider,SubstituteServiceProvider,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.helpers.ThreadLocalMapOfStacks,org.slf4j.helpers.ThreadLocalMapOfStacks,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.helpers.ThreadLocalMapOfStacks,clearDequeByKey,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.helpers.ThreadLocalMapOfStacks,getCopyOfDequeByKey,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.helpers.ThreadLocalMapOfStacks,popByKey,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.helpers.ThreadLocalMapOfStacks,pushByKey,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.helpers.ThreadLocalMapOfStacks,ThreadLocalMapOfStacks,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.Logger,atDebug,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,true
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.Logger,atError,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,true
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.Logger,atInfo,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,true
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.Logger,atLevel,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.Logger,atTrace,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.Logger,atWarn,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.Logger,isEnabledForLevel,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.Logger,makeLoggingEventBuilder,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.LoggerFactory,PROVIDER_PROPERTY_KEY,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.LoggerFactoryFriend,org.slf4j.LoggerFactoryFriend,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.LoggerFactoryFriend,reset,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.LoggerFactoryFriend,setDetectLoggerNameMismatch,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.LoggerFactoryFriend,LoggerFactoryFriend,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.MDC,getCopyOfDequeByKey,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.MDC,popByKey,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.MDC,pushByKey,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.spi.CallerBoundaryAware,org.slf4j.spi.CallerBoundaryAware,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.spi.CallerBoundaryAware,setCallerBoundary,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.spi.DefaultLoggingEventBuilder,org.slf4j.spi.DefaultLoggingEventBuilder,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.spi.DefaultLoggingEventBuilder,log,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.spi.DefaultLoggingEventBuilder,loggingEvent,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.spi.DefaultLoggingEventBuilder,logger,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.spi.DefaultLoggingEventBuilder,DefaultLoggingEventBuilder,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.spi.LoggingEventAware,org.slf4j.spi.LoggingEventAware,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.spi.LoggingEventAware,log,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.spi.LoggingEventBuilder,org.slf4j.spi.LoggingEventBuilder,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.spi.LoggingEventBuilder,addArgument,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.spi.LoggingEventBuilder,addArgument,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.spi.LoggingEventBuilder,addKeyValue,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.spi.LoggingEventBuilder,addKeyValue,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.spi.LoggingEventBuilder,addMarker,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.spi.LoggingEventBuilder,log,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,true
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.spi.LoggingEventBuilder,log,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,true
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.spi.LoggingEventBuilder,log,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,true
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.spi.LoggingEventBuilder,log,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,true
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.spi.LoggingEventBuilder,log,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,true
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.spi.LoggingEventBuilder,log,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,true
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.spi.LoggingEventBuilder,setCause,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,true
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.spi.LoggingEventBuilder,setMessage,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.spi.LoggingEventBuilder,setMessage,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.spi.MDCAdapter,clearDequeByKey,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.spi.MDCAdapter,getCopyOfDequeByKey,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.spi.MDCAdapter,popByKey,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.spi.MDCAdapter,pushByKey,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.spi.NOPLoggingEventBuilder,org.slf4j.spi.NOPLoggingEventBuilder,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.spi.NOPLoggingEventBuilder,singleton,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.spi.SLF4JServiceProvider,org.slf4j.spi.SLF4JServiceProvider,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.spi.SLF4JServiceProvider,getLoggerFactory,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.spi.SLF4JServiceProvider,getMarkerFactory,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.spi.SLF4JServiceProvider,getMDCAdapter,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.spi.SLF4JServiceProvider,getRequestedApiVersion,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.slf4j:slf4j-api,2.0.9,1.7.36,org.slf4j.spi.SLF4JServiceProvider,initialize,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.apache.sshd:sshd-core,2.12.0,2.15.0,org.apache.sshd.client.channel.ChannelDirectTcpip,org.apache.sshd.client.channel.ChannelDirectTcpip,CLASS_CHANGE,METHOD_ABSTRACT_ADDED_IN_IMPLEMENTED_INTERFACE; METHOD_DEFAULT_ADDED_IN_IMPLEMENTED_INTERFACE,true,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.apache.sshd:sshd-core,2.12.0,2.15.0,org.apache.sshd.client.channel.ChannelExec,org.apache.sshd.client.channel.ChannelExec,CLASS_CHANGE,METHOD_ABSTRACT_ADDED_IN_IMPLEMENTED_INTERFACE; METHOD_DEFAULT_ADDED_IN_IMPLEMENTED_INTERFACE,true,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.apache.sshd:sshd-core,2.12.0,2.15.0,org.apache.sshd.client.channel.ChannelSession,org.apache.sshd.client.channel.ChannelSession,CLASS_CHANGE,METHOD_ABSTRACT_ADDED_IN_IMPLEMENTED_INTERFACE; METHOD_DEFAULT_ADDED_IN_IMPLEMENTED_INTERFACE,true,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.apache.sshd:sshd-core,2.12.0,2.15.0,org.apache.sshd.client.channel.ChannelShell,org.apache.sshd.client.channel.ChannelShell,CLASS_CHANGE,METHOD_ABSTRACT_ADDED_IN_IMPLEMENTED_INTERFACE; METHOD_DEFAULT_ADDED_IN_IMPLEMENTED_INTERFACE,true,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.apache.sshd:sshd-core,2.12.0,2.15.0,org.apache.sshd.client.channel.ChannelSubsystem,org.apache.sshd.client.channel.ChannelSubsystem,CLASS_CHANGE,METHOD_ABSTRACT_ADDED_IN_IMPLEMENTED_INTERFACE; METHOD_DEFAULT_ADDED_IN_IMPLEMENTED_INTERFACE,true,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.apache.sshd:sshd-core,2.12.0,2.15.0,org.apache.sshd.client.channel.PtyCapableChannelSession,org.apache.sshd.client.channel.PtyCapableChannelSession,CLASS_CHANGE,METHOD_ABSTRACT_ADDED_IN_IMPLEMENTED_INTERFACE; METHOD_DEFAULT_ADDED_IN_IMPLEMENTED_INTERFACE,true,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.apache.sshd:sshd-core,2.12.0,2.15.0,org.apache.sshd.client.session.ClientConnectionService,org.apache.sshd.client.session.ClientConnectionService,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.apache.sshd:sshd-core,2.12.0,2.15.0,org.apache.sshd.client.session.ClientConnectionService,heartbeatReplyMaxWait,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.apache.sshd:sshd-core,2.12.0,2.15.0,org.apache.sshd.common.kex.ECDH,setCurveParameters,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.apache.sshd:sshd-core,2.12.0,2.15.0,org.apache.sshd.common.kex.ECDH,ECDH,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.apache.sshd:sshd-core,2.12.0,2.15.0,org.apache.sshd.common.kex.MontgomeryCurve,createDigest,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.apache.sshd:sshd-core,2.12.0,2.15.0,org.apache.sshd.common.kex.XDH,org.apache.sshd.common.kex.XDH,CLASS_CHANGE,CLASS_NOW_ABSTRACT; INTERFACE_ADDED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.apache.sshd:sshd-core,2.12.0,2.15.0,org.apache.sshd.common.kex.XDH,curve,FIELD_CHANGE,FIELD_NOW_FINAL,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.apache.sshd:sshd-core,2.12.0,2.15.0,org.apache.sshd.common.kex.XDH,XDH,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.apache.sshd:sshd-core,2.12.0,2.15.0,org.apache.sshd.common.session.helpers.AbstractConnectionService,futureDone,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.apache.sshd:sshd-core,2.12.0,2.15.0,org.apache.sshd.common.session.helpers.KeyExchangeMessageHandler,flushRunner,FIELD_CHANGE,FIELD_NOW_STATIC,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.apache.sshd:sshd-core,2.12.0,2.15.0,org.apache.sshd.server.session.ServerConnectionService,org.apache.sshd.server.session.ServerConnectionService,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.apache.sshd:sshd-common,2.12.0,2.15.0,org.apache.sshd.common.cipher.ChaCha20Cipher$ChaChaEngine,columnRound,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.apache.sshd:sshd-common,2.12.0,2.15.0,org.apache.sshd.common.cipher.ChaCha20Cipher$ChaChaEngine,diagonalRound,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.apache.sshd:sshd-common,2.12.0,2.15.0,org.apache.sshd.common.cipher.ChaCha20Cipher$ChaChaEngine,permute,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.apache.sshd:sshd-common,2.12.0,2.15.0,org.apache.sshd.common.cipher.ChaCha20Cipher$ChaChaEngine,quarterRound,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.apache.sshd:sshd-common,2.12.0,2.15.0,org.apache.sshd.common.cipher.ChaCha20Cipher$ChaChaEngine,x,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.apache.sshd:sshd-common,2.12.0,2.15.0,org.apache.sshd.common.util.buffer.Buffer,getBytesConsumed,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.apache.sshd:sshd-common,2.12.0,2.15.0,org.apache.sshd.common.util.security.eddsa.Ed25519PublicKeyDecoder,clonePrivateKey,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.apache.sshd:sshd-common,2.12.0,2.15.0,org.apache.sshd.common.util.security.eddsa.Ed25519PublicKeyDecoder,clonePublicKey,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.apache.sshd:sshd-common,2.12.0,2.15.0,org.apache.sshd.common.util.security.eddsa.Ed25519PublicKeyDecoder,decodePublicKey,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.apache.sshd:sshd-common,2.12.0,2.15.0,org.apache.sshd.common.util.security.eddsa.Ed25519PublicKeyDecoder,encodePublicKey,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.apache.sshd:sshd-common,2.12.0,2.15.0,org.apache.sshd.common.util.security.eddsa.generic.GenericEd25519PublicKeyDecoder,org.apache.sshd.common.util.security.eddsa.generic.GenericEd25519PublicKeyDecoder,CLASS_CHANGE,INTERFACE_ADDED; METHOD_ABSTRACT_ADDED_IN_IMPLEMENTED_INTERFACE,true,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.apache.sshd:sshd-common,2.12.0,2.15.0,org.apache.sshd.common.util.security.eddsa.generic.GenericOpenSSHEd25519PrivateKeyEntryDecoder,org.apache.sshd.common.util.security.eddsa.generic.GenericOpenSSHEd25519PrivateKeyEntryDecoder,CLASS_CHANGE,INTERFACE_ADDED; METHOD_ABSTRACT_ADDED_IN_IMPLEMENTED_INTERFACE,true,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.apache.sshd:sshd-common,2.12.0,2.15.0,org.apache.sshd.common.util.security.eddsa.OpenSSHEd25519PrivateKeyEntryDecoder,clonePrivateKey,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.apache.sshd:sshd-common,2.12.0,2.15.0,org.apache.sshd.common.util.security.eddsa.OpenSSHEd25519PrivateKeyEntryDecoder,clonePublicKey,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.apache.sshd:sshd-common,2.12.0,2.15.0,org.apache.sshd.common.util.security.eddsa.OpenSSHEd25519PrivateKeyEntryDecoder,decodePrivateKey,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.apache.sshd:sshd-common,2.12.0,2.15.0,org.apache.sshd.common.util.security.eddsa.OpenSSHEd25519PrivateKeyEntryDecoder,encodePrivateKey,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false
+org.apache.sshd:sshd-common,2.12.0,2.15.0,org.apache.sshd.common.util.security.eddsa.OpenSSHEd25519PrivateKeyEntryDecoder,recoverPublicKey,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jline:jline,3.25.1,3.30.6,MINOR,false

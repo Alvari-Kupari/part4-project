@@ -1,0 +1,8 @@
+=== Comparison Failure Log ===
+[2025-09-22 20:07:59] org.postgresql:postgresql:42.3.10 -> org.postgresql:postgresql:42.7.8 : Failed to compare JAR files: JAPICMP comparison failed for org.postgresql:postgresql
+[2025-09-22 20:07:59] org.projectlombok:lombok:1.18.30 -> org.projectlombok:lombok:1.18.42 : Failed to compare JAR files: JAPICMP comparison failed for org.projectlombok:lombok
+
+=== Summary ===
+Total comparisons: 2
+Failures: 2
+Success rate: 0.00%

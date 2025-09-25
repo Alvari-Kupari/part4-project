@@ -1,0 +1,14 @@
+=== Comparison Failure Log ===
+[2025-09-22 21:49:34] com.fizzgate:fizz-core:3.0.0 -> com.fizzgate:fizz-core:3.5.1 : Failed to compare JAR files: JAPICMP comparison failed for com.fizzgate:fizz-core
+[2025-09-22 21:50:20] com.alibaba:fastjson:1.2.83 -> com.alibaba:fastjson:1.2.83_noneautotype : Failed to compare JAR files: JAPICMP comparison failed for com.alibaba:fastjson
+[2025-09-22 21:50:26] org.apache.tapestry:tapestry-json:5.4.5 -> org.apache.tapestry:tapestry-json:5.9.0 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.tapestry:tapestry-json
+[2025-09-22 21:50:31] org.codehaus.groovy:groovy-all:2.4.21 -> org.codehaus.groovy:groovy-all:2.5.23 : Failed to resolve any JAR files for new dependency: org.codehaus.groovy:groovy-all:2.5.23 (old version resolved 20 JARs)
+[2025-09-22 21:51:54] org.mockito:mockito-core:3.4.6 -> org.mockito:mockito-core:3.12.4 : Failed to compare JAR files: JAPICMP comparison failed for org.mockito:mockito-core
+[2025-09-22 21:56:23] org.projectlombok:lombok:1.18.26 -> org.projectlombok:lombok:1.18.42 : Failed to compare JAR files: JAPICMP comparison failed for org.projectlombok:lombok
+[2025-09-22 21:56:24] org.apache.curator:curator-client:4.0.1 -> org.apache.curator:curator-client:4.3.0 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.curator:curator-client
+[2025-09-22 21:56:52] org.apache.zookeeper:zookeeper:3.5.10 -> org.apache.zookeeper:zookeeper:3.9.4 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.zookeeper:zookeeper
+
+=== Summary ===
+Total comparisons: 385
+Failures: 8
+Success rate: 97.92%

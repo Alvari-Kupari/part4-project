@@ -1,0 +1,9 @@
+=== Comparison Failure Log ===
+[2025-09-23 00:10:16] org.sonarsource.api.plugin:sonar-plugin-api:13.0.0.3026 -> org.sonarsource.api.plugin:sonar-plugin-api:13.2.0.3137 : Failed to compare JAR files: JAPICMP comparison failed for org.sonarsource.api.plugin:sonar-plugin-api
+[2025-09-23 00:10:16] org.mockito:mockito-core:5.18.0 -> org.mockito:mockito-core:5.20.0 : Failed to compare JAR files: JAPICMP comparison failed for org.mockito:mockito-core
+[2025-09-23 00:10:16] org.assertj:assertj-core:3.27.3 -> org.assertj:assertj-core:3.27.5 : Failed to compare JAR files: JAPICMP comparison failed for org.assertj:assertj-core
+
+=== Summary ===
+Total comparisons: 3
+Failures: 3
+Success rate: 0.00%

@@ -1,0 +1,7 @@
+=== Comparison Failure Log ===
+[2025-09-22 16:12:54] io.ebean:ebean:11.39.3 -> io.ebean:ebean:11.45.1 : Failed to compare JAR files: JAPICMP comparison failed for io.ebean:ebean
+
+=== Summary ===
+Total comparisons: 12
+Failures: 1
+Success rate: 91.67%

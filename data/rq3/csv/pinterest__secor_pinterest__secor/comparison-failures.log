@@ -1,0 +1,20 @@
+=== Comparison Failure Log ===
+[2025-09-23 06:06:20] org.apache.parquet:parquet-avro:1.12.2 -> org.apache.parquet:parquet-avro:1.16.0 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.parquet:parquet-avro
+[2025-09-23 06:07:12] org.apache.hadoop:hadoop-common:2.9.2 -> org.apache.hadoop:hadoop-common:2.10.2 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.hadoop:hadoop-common
+[2025-09-23 06:07:14] org.apache.hadoop:hadoop-hdfs-client:2.9.2 -> org.apache.hadoop:hadoop-hdfs-client:2.10.2 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.hadoop:hadoop-hdfs-client
+[2025-09-23 06:07:20] org.apache.hadoop:hadoop-mapreduce-client-core:2.9.2 -> org.apache.hadoop:hadoop-mapreduce-client-core:2.10.2 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.hadoop:hadoop-mapreduce-client-core
+[2025-09-23 06:07:32] org.apache.hadoop:hadoop-aws:2.9.2 -> org.apache.hadoop:hadoop-aws:2.10.2 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.hadoop:hadoop-aws
+[2025-09-23 06:07:36] org.apache.hadoop:hadoop-openstack:2.9.2 -> org.apache.hadoop:hadoop-openstack:2.10.2 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.hadoop:hadoop-openstack
+[2025-09-23 06:07:45] org.apache.parquet:parquet-column:1.12.2 -> org.apache.parquet:parquet-column:1.16.0 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.parquet:parquet-column
+[2025-09-23 06:07:46] org.apache.parquet:parquet-hadoop:1.12.2 -> org.apache.parquet:parquet-hadoop:1.16.0 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.parquet:parquet-hadoop
+[2025-09-23 06:07:53] org.apache.parquet:parquet-protobuf:1.12.2 -> org.apache.parquet:parquet-protobuf:1.16.0 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.parquet:parquet-protobuf
+[2025-09-23 06:07:59] org.apache.parquet:parquet-thrift:1.12.2 -> org.apache.parquet:parquet-thrift:1.16.0 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.parquet:parquet-thrift
+[2025-09-23 06:07:59] org.apache.thrift:libthrift:0.12.0 -> org.apache.thrift:libthrift:0.22.0 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.thrift:libthrift
+[2025-09-23 06:08:01] org.mockito:mockito-core:3.10.0 -> org.mockito:mockito-core:3.12.4 : Failed to compare JAR files: JAPICMP comparison failed for org.mockito:mockito-core
+[2025-09-23 06:09:03] org.apache.orc:orc-core:1.6.9 -> org.apache.orc:orc-core:1.9.7 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.orc:orc-core
+[2025-09-23 06:09:22] io.micrometer:micrometer-registry-statsd:1.7.0 -> io.micrometer:micrometer-registry-statsd:1.15.4 : Failed to compare JAR files: JAPICMP comparison failed for io.micrometer:micrometer-registry-statsd
+
+=== Summary ===
+Total comparisons: 99
+Failures: 14
+Success rate: 85.86%

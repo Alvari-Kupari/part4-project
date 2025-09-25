@@ -1,0 +1,10 @@
+=== Comparison Failure Log ===
+[2025-09-22 14:40:31] org.apache.tika:tika-parsers-standard-package:2.4.1 -> org.apache.tika:tika-parsers-standard-package:2.9.4 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.tika:tika-parsers-standard-package
+[2025-09-22 14:40:31] ch.qos.logback:logback-classic:1.2.13 -> ch.qos.logback:logback-classic:1.5.18 : Failed to compare JAR files: JAPICMP comparison failed for ch.qos.logback:logback-classic
+[2025-09-22 14:40:31] org.apache.derby:derby:10.15.2.0 -> org.apache.derby:derby:10.17.1.0 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.derby:derby
+[2025-09-22 14:40:33] org.apache.derby:derbytools:10.15.2.0 -> org.apache.derby:derbytools:10.17.1.0 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.derby:derbytools
+
+=== Summary ===
+Total comparisons: 4
+Failures: 4
+Success rate: 0.00%

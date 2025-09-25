@@ -1,0 +1,9 @@
+=== Comparison Failure Log ===
+[2025-09-23 14:32:21] org.projectlombok:lombok:1.18.26 -> org.projectlombok:lombok:1.18.42 : Failed to compare JAR files: JAPICMP comparison failed for org.projectlombok:lombok
+[2025-09-23 14:32:29] com.alibaba:fastjson:2.0.41 -> com.alibaba:fastjson:2.0.59 : Failed to compare JAR files: JAPICMP comparison failed for com.alibaba:fastjson
+[2025-09-23 14:32:30] cn.hutool:hutool-all:5.8.20 -> cn.hutool:hutool-all:5.8.40 : Failed to compare JAR files: JAPICMP comparison failed for cn.hutool:hutool-all
+
+=== Summary ===
+Total comparisons: 103
+Failures: 3
+Success rate: 97.09%

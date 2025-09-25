@@ -1,0 +1,10 @@
+=== Comparison Failure Log ===
+[2025-09-22 16:22:29] org.redisson:redisson:3.23.3 -> org.redisson:redisson:3.51.0 : Failed to compare JAR files: JAPICMP comparison failed for org.redisson:redisson
+[2025-09-22 16:22:29] org.springframework.data:spring-data-redis:2.3.3.RELEASE -> org.springframework.data:spring-data-redis:2.7.18 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.data:spring-data-redis
+[2025-09-22 16:22:29] org.springframework.boot:spring-boot-autoconfigure:2.5.15 -> org.springframework.boot:spring-boot-autoconfigure:2.7.18 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.boot:spring-boot-autoconfigure
+[2025-09-22 16:22:29] org.projectlombok:lombok:1.18.30 -> org.projectlombok:lombok:1.18.42 : Failed to compare JAR files: JAPICMP comparison failed for org.projectlombok:lombok
+
+=== Summary ===
+Total comparisons: 7
+Failures: 4
+Success rate: 42.86%

@@ -1,0 +1,17 @@
+=== Comparison Failure Log ===
+[2025-09-22 14:42:23] javax.jcr:jcr:1.0 -> javax.jcr:jcr:1.0.1 : Failed to resolve any JAR files for new dependency: javax.jcr:jcr:1.0.1 (old version resolved 1 JARs)
+[2025-09-22 14:42:36] org.apache.jackrabbit:jackrabbit-core:1.4 -> org.apache.jackrabbit:jackrabbit-core:1.6.5 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.jackrabbit:jackrabbit-core
+[2025-09-22 14:42:37] org.testng:testng:5.8 -> org.testng:testng:5.14.10 : Failed to resolve any JAR files for new dependency: org.testng:testng:5.14.10 (old version resolved 3 JARs)
+
+=== Summary ===
+Total comparisons: 3
+Failures: 3
+Success rate: 0.00%
+=== Comparison Failure Log ===
+[2025-09-22 14:42:47] org.apache.jackrabbit:jackrabbit-core:1.6.2 -> org.apache.jackrabbit:jackrabbit-core:1.6.5 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.jackrabbit:jackrabbit-core
+[2025-09-22 14:42:49] org.testng:testng:5.8 -> org.testng:testng:5.14.10 : Failed to resolve any JAR files for new dependency: org.testng:testng:5.14.10 (old version resolved 3 JARs)
+
+=== Summary ===
+Total comparisons: 6
+Failures: 2
+Success rate: 66.67%

@@ -1,0 +1,14 @@
+=== Comparison Failure Log ===
+[2025-09-22 14:59:01] org.springframework:spring-context:5.3.31 -> org.springframework:spring-context:5.3.39 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-context
+[2025-09-22 14:59:01] org.springframework:spring-context-support:5.3.31 -> org.springframework:spring-context-support:5.3.39 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-context-support
+[2025-09-22 14:59:02] org.aspectj:aspectjweaver:1.9.22.1 -> org.aspectj:aspectjweaver:1.9.24 : Failed to compare JAR files: JAPICMP comparison failed for org.aspectj:aspectjweaver
+[2025-09-22 14:59:05] org.springframework:spring-test:5.3.31 -> org.springframework:spring-test:5.3.39 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-test
+[2025-09-22 14:59:05] com.h2database:h2:2.2.224 -> com.h2database:h2:2.3.232 : Failed to compare JAR files: JAPICMP comparison failed for com.h2database:h2
+[2025-09-22 14:59:05] org.projectlombok:lombok:1.18.30 -> org.projectlombok:lombok:1.18.42 : Failed to compare JAR files: JAPICMP comparison failed for org.projectlombok:lombok
+[2025-09-22 14:59:06] org.mockito:mockito-core:4.5.1 -> org.mockito:mockito-core:4.11.0 : Failed to compare JAR files: JAPICMP comparison failed for org.mockito:mockito-core
+[2025-09-22 14:59:07] ch.qos.logback:logback-classic:1.2.13 -> ch.qos.logback:logback-classic:1.5.18 : Failed to compare JAR files: JAPICMP comparison failed for ch.qos.logback:logback-classic
+
+=== Summary ===
+Total comparisons: 28
+Failures: 8
+Success rate: 71.43%

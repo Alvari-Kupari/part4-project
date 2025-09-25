@@ -1,0 +1,9 @@
+Library_Name,Symbol_Type,Class_Name,Symbol_Name,Usage_Location,Line_Number
+JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.lang.String,String,C:\Users\tyin363\Documents\repos\youngmonkeys__ezyfox-server\ezyfox-server-niorunner\src\main\java\com\tvd12\ezyfoxserver\nio\EzyNioRunner.java,8
+com.tvd12:ezyfox-server-core:jar:1.2.9.1,MethodCallExpr,com.tvd12.ezyfoxserver.EzyRunner,run,C:\Users\tyin363\Documents\repos\youngmonkeys__ezyfox-server\ezyfox-server-niorunner\src\main\java\com\tvd12\ezyfoxserver\nio\EzyNioRunner.java,9
+JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.lang.Exception,Exception,C:\Users\tyin363\Documents\repos\youngmonkeys__ezyfox-server\ezyfox-server-niorunner\src\main\java\com\tvd12\ezyfoxserver\nio\EzyNioRunner.java,8
+,ClassOrInterfaceType,com.tvd12.ezyfoxserver.EzyStarter.Builder,Builder,C:\Users\tyin363\Documents\repos\youngmonkeys__ezyfox-server\ezyfox-server-niorunner\src\main\java\com\tvd12\ezyfoxserver\nio\EzyNioRunner.java,13
+CLIENT:client-code:N/A:N/A,ClassOrInterfaceType,com.tvd12.ezyfoxserver.nio.EzyNioRunner,EzyNioRunner,C:\Users\tyin363\Documents\repos\youngmonkeys__ezyfox-server\ezyfox-server-niorunner\src\main\java\com\tvd12\ezyfoxserver\nio\EzyNioRunner.java,9
+CLIENT:client-code:N/A:N/A,ObjectCreationExpr,com.tvd12.ezyfoxserver.nio.EzyNioRunner,EzyNioRunner,C:\Users\tyin363\Documents\repos\youngmonkeys__ezyfox-server\ezyfox-server-niorunner\src\main\java\com\tvd12\ezyfoxserver\nio\EzyNioRunner.java,9
+com.tvd12:ezyfox-server-core:jar:1.2.9.1,ClassOrInterfaceType,com.tvd12.ezyfoxserver.EzyRunner,EzyRunner,C:\Users\tyin363\Documents\repos\youngmonkeys__ezyfox-server\ezyfox-server-niorunner\src\main\java\com\tvd12\ezyfoxserver\nio\EzyNioRunner.java,6
+com.tvd12:ezyfox-server-nio:jar:1.2.9.1,MethodCallExpr,com.tvd12.ezyfoxserver.nio.EzyNioStarter,builder,C:\Users\tyin363\Documents\repos\youngmonkeys__ezyfox-server\ezyfox-server-niorunner\src\main\java\com\tvd12\ezyfoxserver\nio\EzyNioRunner.java,14

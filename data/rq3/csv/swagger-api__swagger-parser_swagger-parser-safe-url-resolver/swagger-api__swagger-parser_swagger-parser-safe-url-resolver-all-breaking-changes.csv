@@ -1,0 +1,708 @@
+Library_Name,Old_Version,New_Version,Class_Name,Member_Name,Change_Type,Description,Binary_Compatible,Source_Compatible,Is_Transitive,Depth,Direct_Parent_Dependency,Direct_Dependency_Old_Version,Direct_Dependency_New_Version,Release_Type,Is_Used_In_Client
+org.jmockit:jmockit,1.49,1.50,mockit.asm.types.ArrayType,mockit.asm.types.ArrayType,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.jmockit:jmockit,,,MINOR,false
+org.jmockit:jmockit,1.49,1.50,mockit.asm.types.JavaType,getDescriptor,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,false,1,org.jmockit:jmockit,,,MINOR,false
+org.jmockit:jmockit,1.49,1.50,mockit.asm.types.MethodType,mockit.asm.types.MethodType,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.jmockit:jmockit,,,MINOR,false
+org.jmockit:jmockit,1.49,1.50,mockit.asm.types.ObjectType,mockit.asm.types.ObjectType,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.jmockit:jmockit,,,MINOR,false
+org.jmockit:jmockit,1.49,1.50,mockit.asm.types.PrimitiveType,mockit.asm.types.PrimitiveType,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.jmockit:jmockit,,,MINOR,false
+org.jmockit:jmockit,1.49,1.50,mockit.asm.types.ReferenceType,mockit.asm.types.ReferenceType,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.jmockit:jmockit,,,MINOR,false
+org.jmockit:jmockit,1.49,1.50,mockit.internal.injection.Injector,findAllTargetInstanceFieldsInTestedClassHierarchy,METHOD_CHANGE,METHOD_LESS_ACCESSIBLE,false,false,false,1,org.jmockit:jmockit,,,MINOR,false
+org.jmockit:jmockit,1.49,1.50,mockit.internal.reflection.ConstructorReflection,newInstanceUsingCompatibleConstructor,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,false,1,org.jmockit:jmockit,,,MINOR,false
+org.jmockit:jmockit,1.49,1.50,mockit.internal.reflection.ParameterReflection,getArgumentTypesFromArgumentValues,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,false,1,org.jmockit:jmockit,,,MINOR,false
+org.jmockit:jmockit,1.49,1.50,mockit.internal.util.TypeConversion,generateCastFromObject,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jmockit:jmockit,,,MINOR,false
+org.jmockit:jmockit,1.49,1.50,mockit.internal.util.TypeConversion,generateCastOrUnboxing,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jmockit:jmockit,,,MINOR,false
+org.jmockit:jmockit,1.49,1.50,mockit.internal.util.TypeConversion,generateCastToObject,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jmockit:jmockit,,,MINOR,false
+org.jmockit:jmockit,1.49,1.50,mockit.internal.util.TypeConversion,isBoxing,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jmockit:jmockit,,,MINOR,false
+org.jmockit:jmockit,1.49,1.50,mockit.internal.util.TypeConversion,isPrimitiveWrapper,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jmockit:jmockit,,,MINOR,false
+org.jmockit:jmockit,1.49,1.50,mockit.internal.util.TypeConversion,isUnboxing,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jmockit:jmockit,,,MINOR,false
+org.jmockit:jmockit,1.49,1.50,mockit.internal.util.Utilities,convertFromString,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,false,1,org.jmockit:jmockit,,,MINOR,false
+org.junit.jupiter:junit-jupiter-engine,5.5.1,5.10.2,org.junit.jupiter.engine.config.JupiterConfiguration,getDefaultTempDirCleanupMode,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.jmockit:jmockit,1.49,1.50,MINOR,false
+org.junit.jupiter:junit-jupiter-engine,5.5.1,5.10.2,org.junit.jupiter.engine.config.JupiterConfiguration,getDefaultTempDirFactorySupplier,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.jmockit:jmockit,1.49,1.50,MINOR,false
+org.junit.jupiter:junit-jupiter-engine,5.5.1,5.10.2,org.junit.jupiter.engine.config.JupiterConfiguration,getDefaultTestClassOrderer,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.jmockit:jmockit,1.49,1.50,MINOR,false
+org.junit.jupiter:junit-jupiter-engine,5.5.1,5.10.2,org.junit.jupiter.engine.config.JupiterConfiguration,getDefaultTestMethodOrderer,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.jmockit:jmockit,1.49,1.50,MINOR,false
+org.junit.jupiter:junit-jupiter-engine,5.5.1,5.10.2,org.junit.jupiter.engine.config.JupiterConfiguration,getRawConfigurationParameter,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.jmockit:jmockit,1.49,1.50,MINOR,false
+org.junit.jupiter:junit-jupiter-engine,5.5.1,5.10.2,org.junit.jupiter.engine.config.JupiterConfiguration,DEFAULT_TIMEOUT_PROPERTY_NAME,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,MINOR,false
+org.junit.jupiter:junit-jupiter-engine,5.5.1,5.10.2,org.junit.jupiter.engine.config.JupiterConfiguration,DEFAULT_TESTABLE_METHOD_TIMEOUT_PROPERTY_NAME,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,MINOR,false
+org.junit.jupiter:junit-jupiter-engine,5.5.1,5.10.2,org.junit.jupiter.engine.config.JupiterConfiguration,DEACTIVATE_ALL_CONDITIONS_PATTERN,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,MINOR,false
+org.junit.jupiter:junit-jupiter-engine,5.5.1,5.10.2,org.junit.jupiter.engine.config.JupiterConfiguration,DEFAULT_BEFORE_EACH_METHOD_TIMEOUT_PROPERTY_NAME,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,MINOR,false
+org.junit.jupiter:junit-jupiter-engine,5.5.1,5.10.2,org.junit.jupiter.engine.config.JupiterConfiguration,DEFAULT_TEST_METHOD_TIMEOUT_PROPERTY_NAME,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,MINOR,false
+org.junit.jupiter:junit-jupiter-engine,5.5.1,5.10.2,org.junit.jupiter.engine.config.JupiterConfiguration,DEFAULT_TEST_FACTORY_METHOD_TIMEOUT_PROPERTY_NAME,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,MINOR,false
+org.junit.jupiter:junit-jupiter-engine,5.5.1,5.10.2,org.junit.jupiter.engine.config.JupiterConfiguration,DEFAULT_AFTER_EACH_METHOD_TIMEOUT_PROPERTY_NAME,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,MINOR,false
+org.junit.jupiter:junit-jupiter-engine,5.5.1,5.10.2,org.junit.jupiter.engine.config.JupiterConfiguration,DEFAULT_BEFORE_ALL_METHOD_TIMEOUT_PROPERTY_NAME,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,MINOR,false
+org.junit.jupiter:junit-jupiter-engine,5.5.1,5.10.2,org.junit.jupiter.engine.config.JupiterConfiguration,DEFAULT_TEST_TEMPLATE_METHOD_TIMEOUT_PROPERTY_NAME,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,MINOR,false
+org.junit.jupiter:junit-jupiter-engine,5.5.1,5.10.2,org.junit.jupiter.engine.config.JupiterConfiguration,DEFAULT_LIFECYCLE_METHOD_TIMEOUT_PROPERTY_NAME,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,MINOR,false
+org.junit.jupiter:junit-jupiter-engine,5.5.1,5.10.2,org.junit.jupiter.engine.config.JupiterConfiguration,DEFAULT_AFTER_ALL_METHOD_TIMEOUT_PROPERTY_NAME,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,MINOR,false
+org.junit.jupiter:junit-jupiter-engine,5.5.1,5.10.2,org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor,instantiateTestClass,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,MINOR,false
+org.junit.jupiter:junit-jupiter-engine,5.5.1,5.10.2,org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor,instantiateTestClass,METHOD_CHANGE,METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,true,2,org.jmockit:jmockit,1.49,1.50,MINOR,false
+org.junit.jupiter:junit-jupiter-engine,5.5.1,5.10.2,org.junit.jupiter.engine.descriptor.ClassTestDescriptor,org.junit.jupiter.engine.descriptor.ClassTestDescriptor,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,true,2,org.jmockit:jmockit,1.49,1.50,MINOR,false
+org.junit.jupiter:junit-jupiter-engine,5.5.1,5.10.2,org.junit.jupiter.engine.descriptor.DynamicDescendantFilter,allow,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,MINOR,false
+org.junit.jupiter:junit-jupiter-engine,5.5.1,5.10.2,org.junit.jupiter.engine.descriptor.DynamicDescendantFilter,test,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,MINOR,false
+org.junit.jupiter:junit-jupiter-engine,5.5.1,5.10.2,org.junit.jupiter.engine.descriptor.DynamicDescendantFilter,test,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,MINOR,false
+org.junit.jupiter:junit-jupiter-engine,5.5.1,5.10.2,org.junit.jupiter.engine.descriptor.DynamicExtensionContext,org.junit.jupiter.engine.descriptor.DynamicExtensionContext,CLASS_CHANGE,CLASS_NO_LONGER_PUBLIC; CLASS_LESS_ACCESSIBLE,false,false,true,2,org.jmockit:jmockit,1.49,1.50,MINOR,false
+org.junit.jupiter:junit-jupiter-engine,5.5.1,5.10.2,org.junit.jupiter.engine.descriptor.NestedClassTestDescriptor,org.junit.jupiter.engine.descriptor.NestedClassTestDescriptor,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,true,2,org.jmockit:jmockit,1.49,1.50,MINOR,false
+org.junit.jupiter:junit-jupiter-engine,5.5.1,5.10.2,org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor,execute,METHOD_CHANGE,METHOD_NO_LONGER_THROWS_CHECKED_EXCEPTION,true,false,true,2,org.jmockit:jmockit,1.49,1.50,MINOR,false
+org.junit.jupiter:junit-jupiter-engine,5.5.1,5.10.2,org.junit.jupiter.engine.execution.ExecutableInvoker,org.junit.jupiter.engine.execution.ExecutableInvoker,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,MINOR,false
+org.junit.jupiter:junit-jupiter-engine,5.5.1,5.10.2,org.junit.jupiter.engine.execution.ExecutableInvoker,invoke,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,MINOR,false
+org.junit.jupiter:junit-jupiter-engine,5.5.1,5.10.2,org.junit.jupiter.engine.execution.ExecutableInvoker,invoke,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,MINOR,false
+org.junit.jupiter:junit-jupiter-engine,5.5.1,5.10.2,org.junit.jupiter.engine.execution.ExecutableInvoker,ExecutableInvoker,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,MINOR,false
+org.junit.jupiter:junit-jupiter-engine,5.5.1,5.10.2,org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall,org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,MINOR,false
+org.junit.jupiter:junit-jupiter-engine,5.5.1,5.10.2,org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall,apply,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,MINOR,false
+org.junit.jupiter:junit-jupiter-engine,5.5.1,5.10.2,org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall,ofVoidMethod,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,MINOR,false
+org.junit.jupiter:junit-jupiter-engine,5.5.1,5.10.2,org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall$VoidMethodInterceptorCall,org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall$VoidMethodInterceptorCall,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,MINOR,false
+org.junit.jupiter:junit-jupiter-engine,5.5.1,5.10.2,org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall$VoidMethodInterceptorCall,apply,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,MINOR,false
+org.junit.jupiter:junit-jupiter-engine,5.5.1,5.10.2,org.junit.jupiter.engine.execution.ExtensionValuesStore,org.junit.jupiter.engine.execution.ExtensionValuesStore,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,MINOR,false
+org.junit.jupiter:junit-jupiter-engine,5.5.1,5.10.2,org.junit.jupiter.engine.execution.ExtensionValuesStore,closeAllStoredCloseableValues,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,MINOR,false
+org.junit.jupiter:junit-jupiter-engine,5.5.1,5.10.2,org.junit.jupiter.engine.execution.ExtensionValuesStore,ExtensionValuesStore,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,MINOR,false
+org.junit.jupiter:junit-jupiter-engine,5.5.1,5.10.2,org.junit.jupiter.engine.execution.NamespaceAwareStore,NamespaceAwareStore,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,MINOR,false
+org.junit.jupiter:junit-jupiter-engine,5.5.1,5.10.2,org.junit.jupiter.engine.execution.TestInstancesProvider,getTestInstances,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,MINOR,false
+org.junit.jupiter:junit-jupiter-engine,5.5.1,5.10.2,org.junit.jupiter.engine.execution.TestInstancesProvider,getTestInstances,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,MINOR,false
+org.junit.jupiter:junit-jupiter-engine,5.5.1,5.10.2,org.junit.jupiter.engine.execution.TestInstancesProvider,getTestInstances,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.jmockit:jmockit,1.49,1.50,MINOR,false
+org.junit.jupiter:junit-jupiter-engine,5.5.1,5.10.2,org.junit.jupiter.engine.extension.ExtensionRegistrar,registerExtension,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.jmockit:jmockit,1.49,1.50,MINOR,false
+org.junit.jupiter:junit-jupiter-engine,5.5.1,5.10.2,org.junit.jupiter.engine.extension.ExtensionRegistrar,registerSyntheticExtension,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.jmockit:jmockit,1.49,1.50,MINOR,false
+org.junit.jupiter:junit-jupiter-engine,5.5.1,5.10.2,org.junit.jupiter.engine.extension.ExtensionRegistry,getReversedExtensions,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,MINOR,false
+org.junit.jupiter:junit-jupiter-engine,5.5.1,5.10.2,org.junit.jupiter.engine.extension.MutableExtensionRegistry,createRegistryFrom,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,MINOR,false
+org.junit.jupiter:junit-jupiter-engine,5.5.1,5.10.2,org.junit.jupiter.engine.script.Script,org.junit.jupiter.engine.script.Script,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,MINOR,false
+org.junit.jupiter:junit-jupiter-engine,5.5.1,5.10.2,org.junit.jupiter.engine.script.Script,equals,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,MINOR,false
+org.junit.jupiter:junit-jupiter-engine,5.5.1,5.10.2,org.junit.jupiter.engine.script.Script,getAnnotationAsString,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,MINOR,false
+org.junit.jupiter:junit-jupiter-engine,5.5.1,5.10.2,org.junit.jupiter.engine.script.Script,getAnnotationType,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,MINOR,false
+org.junit.jupiter:junit-jupiter-engine,5.5.1,5.10.2,org.junit.jupiter.engine.script.Script,getEngine,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,MINOR,false
+org.junit.jupiter:junit-jupiter-engine,5.5.1,5.10.2,org.junit.jupiter.engine.script.Script,getReason,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,MINOR,false
+org.junit.jupiter:junit-jupiter-engine,5.5.1,5.10.2,org.junit.jupiter.engine.script.Script,getSource,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,MINOR,false
+org.junit.jupiter:junit-jupiter-engine,5.5.1,5.10.2,org.junit.jupiter.engine.script.Script,hashCode,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,MINOR,false
+org.junit.jupiter:junit-jupiter-engine,5.5.1,5.10.2,org.junit.jupiter.engine.script.Script,toReasonString,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,MINOR,false
+org.junit.jupiter:junit-jupiter-engine,5.5.1,5.10.2,org.junit.jupiter.engine.script.Script,BIND_JUNIT_UNIQUE_ID,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,MINOR,false
+org.junit.jupiter:junit-jupiter-engine,5.5.1,5.10.2,org.junit.jupiter.engine.script.Script,BIND_JUNIT_DISPLAY_NAME,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,MINOR,false
+org.junit.jupiter:junit-jupiter-engine,5.5.1,5.10.2,org.junit.jupiter.engine.script.Script,DEFAULT_SCRIPT_REASON_PATTERN,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,MINOR,false
+org.junit.jupiter:junit-jupiter-engine,5.5.1,5.10.2,org.junit.jupiter.engine.script.Script,BIND_JUNIT_CONFIGURATION_PARAMETER,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,MINOR,false
+org.junit.jupiter:junit-jupiter-engine,5.5.1,5.10.2,org.junit.jupiter.engine.script.Script,DEFAULT_SCRIPT_ENGINE_NAME,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,MINOR,false
+org.junit.jupiter:junit-jupiter-engine,5.5.1,5.10.2,org.junit.jupiter.engine.script.Script,BIND_JUNIT_TAGS,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,MINOR,false
+org.junit.jupiter:junit-jupiter-engine,5.5.1,5.10.2,org.junit.jupiter.engine.script.Script,Script,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,MINOR,false
+org.junit.jupiter:junit-jupiter-engine,5.5.1,5.10.2,org.junit.jupiter.engine.script.Script,Script,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,MINOR,false
+org.junit.jupiter:junit-jupiter-engine,5.5.1,5.10.2,org.junit.jupiter.engine.script.ScriptAccessor,org.junit.jupiter.engine.script.ScriptAccessor,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,MINOR,false
+org.junit.jupiter:junit-jupiter-engine,5.5.1,5.10.2,org.junit.jupiter.engine.script.ScriptAccessor,get,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,MINOR,false
+org.junit.jupiter:junit-jupiter-engine,5.5.1,5.10.2,org.junit.jupiter.engine.script.ScriptAccessor$ConfigurationParameterAccessor,org.junit.jupiter.engine.script.ScriptAccessor$ConfigurationParameterAccessor,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,MINOR,false
+org.junit.jupiter:junit-jupiter-engine,5.5.1,5.10.2,org.junit.jupiter.engine.script.ScriptAccessor$ConfigurationParameterAccessor,ScriptAccessor$ConfigurationParameterAccessor,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,MINOR,false
+org.junit.jupiter:junit-jupiter-engine,5.5.1,5.10.2,org.junit.jupiter.engine.script.ScriptAccessor$EnvironmentVariableAccessor,org.junit.jupiter.engine.script.ScriptAccessor$EnvironmentVariableAccessor,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,MINOR,false
+org.junit.jupiter:junit-jupiter-engine,5.5.1,5.10.2,org.junit.jupiter.engine.script.ScriptAccessor$EnvironmentVariableAccessor,ScriptAccessor$EnvironmentVariableAccessor,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,MINOR,false
+org.junit.jupiter:junit-jupiter-engine,5.5.1,5.10.2,org.junit.jupiter.engine.script.ScriptAccessor$SystemPropertyAccessor,org.junit.jupiter.engine.script.ScriptAccessor$SystemPropertyAccessor,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,MINOR,false
+org.junit.jupiter:junit-jupiter-engine,5.5.1,5.10.2,org.junit.jupiter.engine.script.ScriptAccessor$SystemPropertyAccessor,ScriptAccessor$SystemPropertyAccessor,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,MINOR,false
+org.junit.jupiter:junit-jupiter-engine,5.5.1,5.10.2,org.junit.jupiter.engine.script.ScriptExecutionManager,org.junit.jupiter.engine.script.ScriptExecutionManager,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,MINOR,false
+org.junit.jupiter:junit-jupiter-engine,5.5.1,5.10.2,org.junit.jupiter.engine.script.ScriptExecutionManager,evaluate,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,MINOR,false
+org.junit.jupiter:junit-jupiter-engine,5.5.1,5.10.2,org.junit.jupiter.engine.script.ScriptExecutionManager,ScriptExecutionManager,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,MINOR,false
+org.testng:testng,6.14.3,7.7.1,com.beust.testng.TestNG,com.beust.testng.TestNG,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,com.beust.testng.TestNG,TestNG,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.annotations.AfterMethod,onlyForGroups,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.annotations.BeforeMethod,onlyForGroups,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.annotations.DataProvider,propagateFailureAsTestFailure,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.annotations.DataProvider,retryUsing,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.annotations.Factory,parameters,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.annotations.IDataProviderAnnotation,isPropagateFailureAsTestFailure,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.annotations.IDataProviderAnnotation,propagateFailureAsTestFailure,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.annotations.IDataProviderAnnotation,retryUsing,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.annotations.IDataProviderAnnotation,setRetryUsing,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.annotations.IParameterizable,getParameters,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.annotations.ITestAnnotation,getAttributes,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.annotations.ITestAnnotation,getDataProviderDynamicClass,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.annotations.ITestAnnotation,getRetryAnalyzer,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.annotations.ITestAnnotation,getRetryAnalyzerClass,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.annotations.ITestAnnotation,getSequential,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.annotations.ITestAnnotation,setAttributes,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.annotations.ITestAnnotation,setDataProviderDynamicClass,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.annotations.ITestAnnotation,setSequential,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.annotations.Test,attributes,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.annotations.Test,dataProviderDynamicClass,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.annotations.Test,parameters,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.annotations.Test,sequential,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.asserts.IAssertLifecycle,onAssertFailure,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.asserts.LoggingAssert,org.testng.asserts.LoggingAssert,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.asserts.SoftAssert,org.testng.asserts.SoftAssert,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.collections.ListMultiMap,org.testng.collections.ListMultiMap,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.collections.ListMultiMap,create,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.collections.MultiMap,getEntrySet,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.collections.MultiMap,getKeys,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.collections.MultiMap,getSize,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.collections.MultiMap,getValues,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.collections.MultiMap,remove,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.collections.SetMultiMap,org.testng.collections.SetMultiMap,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.Converter,main,METHOD_CHANGE,METHOD_NO_LONGER_THROWS_CHECKED_EXCEPTION,true,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.IAlterSuiteListener,alter,METHOD_CHANGE,METHOD_ABSTRACT_NOW_DEFAULT,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.IAlterTestName,org.testng.IAlterTestName,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.IAlterTestName,setTestName,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.IAnnotationTransformer,transform,METHOD_CHANGE,METHOD_ABSTRACT_NOW_DEFAULT,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.IAnnotationTransformer2,org.testng.IAnnotationTransformer2,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.IAnnotationTransformer3,org.testng.IAnnotationTransformer3,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.IClass,getInstanceCount,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.IClassListener,onAfterClass,METHOD_CHANGE,METHOD_ABSTRACT_NOW_DEFAULT,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.IClassListener,onBeforeClass,METHOD_CHANGE,METHOD_ABSTRACT_NOW_DEFAULT,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.IConfigurationListener,onConfigurationFailure,METHOD_CHANGE,METHOD_ABSTRACT_NOW_DEFAULT,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.IConfigurationListener,onConfigurationSkip,METHOD_CHANGE,METHOD_ABSTRACT_NOW_DEFAULT,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.IConfigurationListener,onConfigurationSuccess,METHOD_CHANGE,METHOD_ABSTRACT_NOW_DEFAULT,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.IDataProviderListener,afterDataProviderExecution,METHOD_CHANGE,METHOD_ABSTRACT_NOW_DEFAULT,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.IDataProviderListener,beforeDataProviderExecution,METHOD_CHANGE,METHOD_ABSTRACT_NOW_DEFAULT,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.IExecutionListener,onExecutionFinish,METHOD_CHANGE,METHOD_ABSTRACT_NOW_DEFAULT,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.IExecutionListener,onExecutionStart,METHOD_CHANGE,METHOD_ABSTRACT_NOW_DEFAULT,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.IExtraOutput,org.testng.IExtraOutput,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.IExtraOutput,getParameterOutput,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.IInvokedMethodListener,afterInvocation,METHOD_CHANGE,METHOD_ABSTRACT_NOW_DEFAULT,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.IInvokedMethodListener,beforeInvocation,METHOD_CHANGE,METHOD_ABSTRACT_NOW_DEFAULT,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.IInvokedMethodListener2,org.testng.IInvokedMethodListener2,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.IMethodInstance,getInstances,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.AbstractParallelWorker,org.testng.internal.AbstractParallelWorker,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.AbstractParallelWorker,createWorkers,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.AbstractParallelWorker,newWorker,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.AbstractParallelWorker,AbstractParallelWorker,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.AbstractParallelWorker$Arguments,org.testng.internal.AbstractParallelWorker$Arguments,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.AbstractParallelWorker$Arguments,getClassMethodMap,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.AbstractParallelWorker$Arguments,getConfigMethods,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.AbstractParallelWorker$Arguments,getFinder,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.AbstractParallelWorker$Arguments,getInvoker,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.AbstractParallelWorker$Arguments,getMethods,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.AbstractParallelWorker$Arguments,getTestContext,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.AbstractParallelWorker$Arguments$Builder,org.testng.internal.AbstractParallelWorker$Arguments$Builder,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.AbstractParallelWorker$Arguments$Builder,build,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.AbstractParallelWorker$Arguments$Builder,classMethodMap,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.AbstractParallelWorker$Arguments$Builder,configMethods,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.AbstractParallelWorker$Arguments$Builder,finder,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.AbstractParallelWorker$Arguments$Builder,invoker,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.AbstractParallelWorker$Arguments$Builder,listeners,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.AbstractParallelWorker$Arguments$Builder,methods,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.AbstractParallelWorker$Arguments$Builder,testContext,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.AbstractParallelWorker$Arguments$Builder,AbstractParallelWorker$Arguments$Builder,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.annotations.AfterSuiteAnnotation,org.testng.internal.annotations.AfterSuiteAnnotation,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.annotations.AfterSuiteAnnotation,AfterSuiteAnnotation,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.annotations.AnnotationHelper,findConfiguration,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.annotations.AnnotationHelper,findMethodsWithAnnotation,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.annotations.AnnotationHelper,findTest,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.annotations.AnnotationHelper,getAllAnnotations,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.annotations.BaseBeforeAfter,org.testng.internal.annotations.BaseBeforeAfter,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.annotations.BeforeSuiteAnnotation,org.testng.internal.annotations.BeforeSuiteAnnotation,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.annotations.BeforeSuiteAnnotation,BeforeSuiteAnnotation,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.annotations.ConfigurationAnnotation,org.testng.internal.annotations.ConfigurationAnnotation,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.annotations.Converter,org.testng.internal.annotations.Converter,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.annotations.Converter,getBoolean,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.annotations.Converter,getClass,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.annotations.Converter,getClassArray,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.annotations.Converter,getInt,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.annotations.Converter,getLong,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.annotations.Converter,getString,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.annotations.Converter,getStringArray,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.annotations.Converter,Converter,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.annotations.FactoryAnnotation,setParameters,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.annotations.IAfterTests,org.testng.internal.annotations.IAfterTests,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.annotations.IAnnotationFinder,findAnnotation,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.annotations.IAnnotationFinder,findInheritedAnnotations,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.annotations.IDataProvidable,getDataProviderDynamicClass,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.annotations.IDataProvidable,setDataProviderDynamicClass,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.annotations.JDK15TagFactory,createTag,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.annotations.TestAnnotation,org.testng.internal.annotations.TestAnnotation,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.annotations.TestOrConfiguration,setParameters,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.BaseClassFinder,findOrCreateIClass,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.BaseClassFinder,getExistingClasses,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.BaseTestMethod,getIClass,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.BaseTestMethod,DATE_COMPARATOR,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.BaseTestMethod,BaseTestMethod,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.BaseTestMethod,BaseTestMethod,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.Bsh,org.testng.internal.Bsh,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.Bsh,Bsh,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.BshMock,org.testng.internal.BshMock,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.BshMock,BshMock,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.ClassHelper,createInstance,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.ClassHelper,createInstance1,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.ClassHelper,createSelector,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.ClassHelper,createTestRunner,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.ClassHelper,newInstance,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.ClassHelper,newInstance,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.ClassHelper,newInstanceOrNull,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.ClassHelper,tryOtherConstructor,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.ClassImpl,getParentInjector,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.ClassImpl,ClassImpl,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.ConfigurationGroupMethods,getAfterGroupMethodsForGroup,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.ConfigurationGroupMethods,getAllTestMethods,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.ConfigurationGroupMethods,getBeforeGroupMethodsForGroup,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.ConfigurationGroupMethods,isLastMethodForGroup,METHOD_CHANGE,METHOD_LESS_ACCESSIBLE,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.ConfigurationGroupMethods,removeBeforeMethod,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.ConfigurationGroupMethods,ConfigurationGroupMethods,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.ConfigurationMethod,org.testng.internal.ConfigurationMethod,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; FIELD_REMOVED_IN_SUPERCLASS; METHOD_DEFAULT_ADDED_IN_IMPLEMENTED_INTERFACE,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.ConfigurationMethod,createAfterConfigurationMethods,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.ConfigurationMethod,createBeforeConfigurationMethods,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.ConfigurationMethod,createClassConfigurationMethods,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.ConfigurationMethod,createSuiteConfigurationMethods,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.ConfigurationMethod,createTestConfigurationMethods,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.ConfigurationMethod,createTestMethodConfigurationMethods,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.ConfigurationMethod,ConfigurationMethod,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.ConfigurationMethod,ConfigurationMethod,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.DefaultListenerFactory,DefaultListenerFactory,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.Dynamic,org.testng.internal.Dynamic,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.Dynamic,hasBsh,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.Dynamic,Dynamic,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.DynamicGraph,addEdge,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.DynamicGraph,addEdge,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.DynamicGraph,getEdges,METHOD_CHANGE,METHOD_LESS_ACCESSIBLE; METHOD_RETURN_TYPE_CHANGED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.DynamicGraph,getNodeCountWithStatus,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.DynamicGraph,setStatus,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.DynamicGraph,setStatus,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.DynamicGraph$Status,org.testng.internal.DynamicGraph$Status,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.DynamicGraph$Status,valueOf,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.DynamicGraph$Status,values,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.DynamicGraph$Status,READY,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.DynamicGraph$Status,RUNNING,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.DynamicGraph$Status,FINISHED,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.EclipseInterface,ASSERT_LEFT,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.ExitCodeListener,hasTests,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.ExpectedExceptionsHolder,org.testng.internal.ExpectedExceptionsHolder,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.ExpectedExceptionsHolder,isExpectedException,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.ExpectedExceptionsHolder,noException,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.ExpectedExceptionsHolder,wrongException,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.ExpectedExceptionsHolder,method,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.ExpectedExceptionsHolder,finder,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.ExpectedExceptionsHolder,ExpectedExceptionsHolder,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.FactoryMethod,org.testng.internal.FactoryMethod,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; FIELD_REMOVED_IN_SUPERCLASS; METHOD_DEFAULT_ADDED_IN_IMPLEMENTED_INTERFACE,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.FactoryMethod,invoke,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.FactoryMethod,FactoryMethod,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.FactoryMethod,FactoryMethod,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.Graph,getNeighbors,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.Graph,getNodeValues,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.Graph$Node,addNeighbor,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.Graph$Node,getNeighbors,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.Graph$Node,hasPredecessor,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.IBsh,org.testng.internal.IBsh,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.IBsh,includeMethodFromExpression,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.IConfiguration,addExecutionListener,METHOD_CHANGE,METHOD_ABSTRACT_NOW_DEFAULT,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.IConfiguration,alwaysRunListeners,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.IConfiguration,getExecutorFactory,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.IConfiguration,getInjectorFactory,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.IConfiguration,getOverrideIncludedMethods,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.IConfiguration,isPropagateDataProviderFailureAsTestFailure,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.IConfiguration,propagateDataProviderFailureAsTestFailure,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.IConfiguration,setAlwaysRunListeners,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.IConfiguration,setExecutorFactory,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.IConfiguration,setInjectorFactory,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.IConfiguration,setOverrideIncludedMethods,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.IInvoker,org.testng.internal.IInvoker,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.IInvoker,invokeConfigurations,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.IInvoker,invokeTestMethods,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.InvokedMethod,org.testng.internal.InvokedMethod,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.InvokedMethod,toString,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.InvokedMethod,InvokedMethod,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.InvokeMethodRunnable,org.testng.internal.InvokeMethodRunnable,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.InvokeMethodRunnable,run,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.InvokeMethodRunnable,InvokeMethodRunnable,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.InvokeMethodRunnable$TestNGRuntimeException,org.testng.internal.InvokeMethodRunnable$TestNGRuntimeException,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.InvokeMethodRunnable$TestNGRuntimeException,InvokeMethodRunnable$TestNGRuntimeException,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.Invoker,org.testng.internal.Invoker,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.Invoker,Invoker,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.ITestResultNotifier,addInvokedMethod,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.junit.InexactComparisonCriteria,fDelta,FIELD_CHANGE,FIELD_NOW_FINAL,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.MethodGroupsHelper,findGroupTransitiveClosure,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.MethodHelper,dumpInvokedMethodsInfoToConsole,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.MethodHelper,invokedMethodsToMethods,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.MethodInvocationHelper,org.testng.internal.MethodInvocationHelper,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.MethodInvocationHelper,invokeConfigurable,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.MethodInvocationHelper,invokeDataProvider,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.MethodInvocationHelper,invokeHookable,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.MethodInvocationHelper,invokeMethod,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.MethodInvocationHelper,invokeMethod,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.MethodInvocationHelper,invokeMethodConsideringTimeout,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.MethodInvocationHelper,invokeMethodNoCheckedException,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.MethodInvocationHelper,invokeWithTimeout,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.MethodInvocationHelper,invokeWithTimeout,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.MethodInvocationHelper,MethodInvocationHelper,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.ObjectFactoryImpl,org.testng.internal.ObjectFactoryImpl,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.ObjectFactoryImpl,ObjectFactoryImpl,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.PackageUtils,addClassLoader,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.ParameterHolder,org.testng.internal.ParameterHolder,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.ParameterHolder,dataProviderHolder,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.ParameterHolder,origin,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.ParameterHolder,parameters,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.ParameterHolder,ParameterHolder,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.ParameterHolder$ParameterOrigin,org.testng.internal.ParameterHolder$ParameterOrigin,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.ParameterHolder$ParameterOrigin,valueOf,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.ParameterHolder$ParameterOrigin,values,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.ParameterHolder$ParameterOrigin,ORIGIN_XML,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.ParameterHolder$ParameterOrigin,ORIGIN_DATA_PROVIDER,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.Parameters,convertType,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.Parameters,getInjectedParameter,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.Parameters,getParametersFromIndex,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.Parameters,handleParameters,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.Parameters,handleParameters,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.Parameters$MethodParameters,testResult,FIELD_CHANGE,FIELD_LESS_ACCESSIBLE; FIELD_NOW_FINAL,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.ParametersTest,org.testng.internal.ParametersTest,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.ParametersTest,filterOutInJectedTypesFromOptionalValuesTest,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.ParametersTest,ParametersTest,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.reflect.AbstractNodeMethodMatcher,getConformingParameters,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.reflect.AbstractNodeMethodMatcher,match,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.reflect.AbstractNodeMethodMatcher,match,METHOD_CHANGE,METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.reflect.AbstractNodeMethodMatcher,matchingArguments,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.reflect.AbstractNodeMethodMatcher,matchingArguments,METHOD_CHANGE,METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.reflect.ArrayEndingMethodMatcher,org.testng.internal.reflect.ArrayEndingMethodMatcher,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.reflect.DirectMethodMatcher,org.testng.internal.reflect.DirectMethodMatcher,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.reflect.MethodMatcherContext,getMethodParameter,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.reflect.Parameter,org.testng.internal.reflect.Parameter,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.reflect.Parameter,getAnnotation,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.reflect.Parameter,getAnnotations,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.reflect.Parameter,getDeclaredAnnotations,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.reflect.Parameter,getType,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.reflect.Parameter,isAnnotationPresent,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.reflect.Parameter,toString,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.reflect.Parameter,Parameter,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.reflect.ReflectionRecipes,classesFromParameters,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.reflect.ReflectionRecipes,exactMatch,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.reflect.ReflectionRecipes,filter,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.reflect.ReflectionRecipes,getConstructorParameters,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.reflect.ReflectionRecipes,getMethodParameters,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.reflect.ReflectionRecipes,inject,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.reflect.ReflectionRecipes,inject,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.reflect.ReflectionRecipes,lenientMatch,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.reflect.ReflectionRecipes,matchArrayEnding,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.RunInfo,ppp,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.RunInfo,RunInfo,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.SuiteRunnerMap,org.testng.internal.SuiteRunnerMap,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.SuiteRunnerMap,get,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.SuiteRunnerMap,put,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.SuiteRunnerMap,values,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.SuiteRunnerMap,SuiteRunnerMap,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.TestListenerHelper,createListenerFactory,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.TestMethodWithDataProviderMethodWorker,org.testng.internal.TestMethodWithDataProviderMethodWorker,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.TestMethodWithDataProviderMethodWorker,call,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.TestMethodWithDataProviderMethodWorker,call,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.TestMethodWithDataProviderMethodWorker,getInvocationCount,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.TestMethodWithDataProviderMethodWorker,TestMethodWithDataProviderMethodWorker,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.TestMethodWorker,org.testng.internal.TestMethodWorker,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.TestMethodWorker,compareTo,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.TestMethodWorker,compareTo,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.TestMethodWorker,getTestResults,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.TestMethodWorker,indexOf,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.TestMethodWorker,invokeAfterClassMethods,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.TestMethodWorker,invokeBeforeClassMethods,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.TestMethodWorker,invokeTestMethods,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.TestMethodWorker,run,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.TestMethodWorker,toString,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.TestMethodWorker,TestMethodWorker,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.TestNGClassFinder,org.testng.internal.TestNGClassFinder,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.TestNGClassFinder,TestNGClassFinder,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.TestNGClassFinder,TestNGClassFinder,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.TestNGClassFinder,TestNGClassFinder,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.TestNGClassFinder,TestNGClassFinder,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.TestNGClassFinder,TestNGClassFinder,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.TestNGMethod,org.testng.internal.TestNGMethod,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; FIELD_REMOVED_IN_SUPERCLASS; METHOD_DEFAULT_ADDED_IN_IMPLEMENTED_INTERFACE,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.TestNGMethod,SORT_BY_CLASS,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.TestNGMethod,TestNGMethod,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.TestNGMethodFinder,TestNGMethodFinder,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.TestNGMethodFinder,TestNGMethodFinder,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.TestResult,init,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.TestResult,setTestClass,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.TestResult,TestResult,CONSTRUCTOR_CHANGE,CONSTRUCTOR_LESS_ACCESSIBLE,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.TestResult,TestResult,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.TestResult,TestResult,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.thread.ExecutorAdapter,org.testng.internal.thread.ExecutorAdapter,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.thread.ExecutorAdapter,ExecutorAdapter,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.thread.FutureResultAdapter,org.testng.internal.thread.FutureResultAdapter,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.thread.FutureResultAdapter,FutureResultAdapter,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.thread.graph.GraphThreadPoolExecutor,GraphThreadPoolExecutor,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.thread.graph.IThreadWorkerFactory,org.testng.internal.thread.graph.IThreadWorkerFactory,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.thread.graph.IThreadWorkerFactory,createWorkers,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.thread.graph.IWorker,org.testng.internal.thread.graph.IWorker,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.thread.graph.IWorker,getPriority,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.thread.graph.IWorker,getTasks,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.thread.graph.IWorker,getTimeOut,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.thread.graph.SuiteWorkerFactory,SuiteWorkerFactory,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.thread.IExecutor,org.testng.internal.thread.IExecutor,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.thread.IExecutor,awaitTermination,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.thread.IExecutor,getStackTraces,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.thread.IExecutor,shutdown,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.thread.IExecutor,stopNow,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.thread.IExecutor,submitRunnable,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.thread.IFutureResult,org.testng.internal.thread.IFutureResult,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.thread.IFutureResult,get,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.thread.IThreadFactory,org.testng.internal.thread.IThreadFactory,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.thread.IThreadFactory,getThreadFactory,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.thread.IThreadFactory,getThreads,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.thread.IThreadFactory,newThread,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.thread.ThreadTimeoutException,ThreadTimeoutException,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.thread.ThreadUtil,createExecutor,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.thread.ThreadUtil,execute,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.thread.ThreadUtil$ThreadFactoryImpl,org.testng.internal.thread.ThreadUtil$ThreadFactoryImpl,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.thread.ThreadUtil$ThreadFactoryImpl,ThreadUtil$ThreadFactoryImpl,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.Utils,calculateInvokedMethodCount,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.Utils,calculateInvokedMethodCount,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.Utils,classesToXmlClasses,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.Utils,copyFile,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.Utils,createTempFile,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.Utils,dependentGroupsForThisMethodForConfiguration,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.Utils,dependentGroupsForThisMethodForTest,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.Utils,dumpMap,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.Utils,dumpMethods,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.Utils,groupsForThisMethodForConfiguration,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.Utils,groupsForThisMethodForTest,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.Utils,logInvocation,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.Utils,parseMultiLine,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.Utils,stackTrace,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.Utils,stringToArray,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.Version,org.testng.internal.Version,CLASS_CHANGE,CLASS_NOW_FINAL,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.XmlMethodSelector,setExpression,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.internal.Yaml,parse,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.IObjectFactory2,newInstance,METHOD_CHANGE,METHOD_ABSTRACT_NOW_DEFAULT; ANNOTATION_DEPRECATED_ADDED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.IReporter,generateReport,METHOD_CHANGE,METHOD_ABSTRACT_NOW_DEFAULT,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.IResultMap,addResult,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.IResultMap,addResult,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.ISuite,getInvokedMethods,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.ISuite,getObjectFactory,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.ISuite,getObjectFactory2,METHOD_CHANGE,METHOD_ABSTRACT_NOW_DEFAULT; ANNOTATION_DEPRECATED_ADDED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.ISuiteListener,onFinish,METHOD_CHANGE,METHOD_ABSTRACT_NOW_DEFAULT,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.ISuiteListener,onStart,METHOD_CHANGE,METHOD_ABSTRACT_NOW_DEFAULT,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.ISuiteResult,getPropertyFileName,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.ITestContext,addInjector,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.ITestContext,getGuiceModules,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.ITestContext,getInjector,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.ITestContext,getInjector,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.ITestListener,onFinish,METHOD_CHANGE,METHOD_ABSTRACT_NOW_DEFAULT,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.ITestListener,onStart,METHOD_CHANGE,METHOD_ABSTRACT_NOW_DEFAULT,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.ITestListener,onTestFailedButWithinSuccessPercentage,METHOD_CHANGE,METHOD_ABSTRACT_NOW_DEFAULT,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.ITestListener,onTestFailure,METHOD_CHANGE,METHOD_ABSTRACT_NOW_DEFAULT,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.ITestListener,onTestSkipped,METHOD_CHANGE,METHOD_ABSTRACT_NOW_DEFAULT,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.ITestListener,onTestStart,METHOD_CHANGE,METHOD_ABSTRACT_NOW_DEFAULT,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.ITestListener,onTestSuccess,METHOD_CHANGE,METHOD_ABSTRACT_NOW_DEFAULT,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.ITestNGMethod,getInstances,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.ITestNGMethod,getInterceptedPriority,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.ITestNGMethod,getMethod,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.ITestNGMethod,getRetryAnalyzer,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.ITestNGMethod,getRetryAnalyzer,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.ITestNGMethod,getRetryAnalyzerClass,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.ITestNGMethod,getTotalInvocationCount,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.ITestNGMethod,setInterceptedPriority,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.ITestNGMethod,setRetryAnalyzer,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.ITestNGMethod,setRetryAnalyzerClass,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.ITestResult,getFactoryParameters,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.ITestResult,id,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.ITestResult,setTestName,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.ITestResult,setWasRetried,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.ITestResult,wasRetried,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.ITestRunnerFactory2,org.testng.ITestRunnerFactory2,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.junit.IJUnitTestRunner,setTestResultNotifier,METHOD_CHANGE,METHOD_ABSTRACT_NOW_DEFAULT; ANNOTATION_DEPRECATED_ADDED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.junit.JUnit3TestClass,org.testng.junit.JUnit3TestClass,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; METHOD_DEFAULT_ADDED_IN_IMPLEMENTED_INTERFACE; ANNOTATION_DEPRECATED_ADDED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.junit.JUnit3TestMethod,org.testng.junit.JUnit3TestMethod,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; FIELD_REMOVED_IN_SUPERCLASS; METHOD_DEFAULT_ADDED_IN_IMPLEMENTED_INTERFACE; ANNOTATION_DEPRECATED_ADDED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.junit.JUnit3TestMethod,JUnit3TestMethod,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.junit.JUnit4TestClass,org.testng.junit.JUnit4TestClass,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; METHOD_DEFAULT_ADDED_IN_IMPLEMENTED_INTERFACE; ANNOTATION_DEPRECATED_ADDED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.junit.JUnit4TestMethod,org.testng.junit.JUnit4TestMethod,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; FIELD_REMOVED_IN_SUPERCLASS; METHOD_DEFAULT_ADDED_IN_IMPLEMENTED_INTERFACE; ANNOTATION_DEPRECATED_ADDED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.junit.JUnit4TestMethod,JUnit4TestMethod,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.junit.JUnit4TestRunner,JUnit4TestRunner,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.junit.JUnit4TestRunner,JUnit4TestRunner,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.junit.JUnitMethodFinder,JUnitMethodFinder,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.junit.JUnitTestMethod,org.testng.junit.JUnitTestMethod,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; FIELD_REMOVED_IN_SUPERCLASS; METHOD_DEFAULT_ADDED_IN_IMPLEMENTED_INTERFACE; ANNOTATION_DEPRECATED_ADDED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.junit.JUnitTestMethod,JUnitTestMethod,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.junit.JUnitTestMethod,JUnitTestMethod,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.junit.JUnitTestRunner,JUnitTestRunner,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.junit.JUnitTestRunner,JUnitTestRunner,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.log4testng.Logger,main,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.mustache.BaseChunk,org.testng.mustache.BaseChunk,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.mustache.BaseChunk,p,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.mustache.BaseChunk,m_model,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.mustache.BaseChunk,BaseChunk,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.mustache.Model,org.testng.mustache.Model,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.mustache.Model,getTopSubModel,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.mustache.Model,popSubModel,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.mustache.Model,push,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.mustache.Model,resolveValue,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.mustache.Model,resolveValueToString,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.mustache.Model,toString,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.mustache.Model,Model,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.mustache.Mustache,org.testng.mustache.Mustache,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.mustache.Mustache,main,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.mustache.Mustache,run,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.mustache.Mustache,Mustache,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.mustache.StringChunk,org.testng.mustache.StringChunk,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.mustache.StringChunk,compose,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.mustache.StringChunk,toString,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.mustache.StringChunk,StringChunk,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.mustache.Value,org.testng.mustache.Value,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.mustache.Value,get,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.mustache.Value,Value,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.mustache.VariableChunk,org.testng.mustache.VariableChunk,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.mustache.VariableChunk,compose,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.mustache.VariableChunk,toString,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.mustache.VariableChunk,VariableChunk,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.ReporterConfig,org.testng.ReporterConfig,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.ReporterConfig,addProperty,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.ReporterConfig,deserialize,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.ReporterConfig,getClassName,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.ReporterConfig,getProperties,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.ReporterConfig,newReporterInstance,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.ReporterConfig,serialize,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.ReporterConfig,setClassName,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.ReporterConfig,toString,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.ReporterConfig,ReporterConfig,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.ReporterConfig$Property,org.testng.ReporterConfig$Property,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.ReporterConfig$Property,ReporterConfig$Property,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.reporters.EmailableReporter,generateExceptionReport,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.reporters.Files,org.testng.reporters.Files,CLASS_CHANGE,CLASS_NOW_FINAL,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.reporters.Files,copyFile,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.reporters.Files,readFile,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.reporters.Files,streamToString,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.reporters.Files,writeFile,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.reporters.Files,Files,CONSTRUCTOR_CHANGE,CONSTRUCTOR_LESS_ACCESSIBLE,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.reporters.FileStringBuffer,main,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.reporters.HtmlHelper,generateStylesheet,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.reporters.JqReporter,org.testng.reporters.JqReporter,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.reporters.JqReporter,generateOutputDirectoryName,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.reporters.JqReporter,JqReporter,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.reporters.util.StackTraceTools,org.testng.reporters.util.StackTraceTools,CLASS_CHANGE,CLASS_NOW_FINAL,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.reporters.util.StackTraceTools,getTestNGInstrastructure,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.reporters.util.StackTraceTools,StackTraceTools,CONSTRUCTOR_CHANGE,CONSTRUCTOR_LESS_ACCESSIBLE,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.reporters.VerboseReporter,VerboseReporter,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.reporters.XMLReporter,fileName,METHOD_CHANGE,METHOD_NO_LONGER_STATIC,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.reporters.XMLReporter,getFileFragmentationLevel,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.reporters.XMLReporter,getOutputDirectory,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.reporters.XMLReporter,getStackTraceOutputMethod,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.reporters.XMLReporter,getTimestampFormat,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.reporters.XMLReporter,isGenerateDependsOnGroups,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.reporters.XMLReporter,isGenerateDependsOnMethods,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.reporters.XMLReporter,isGenerateGroupsAttribute,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.reporters.XMLReporter,isGenerateTestResultAttributes,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.reporters.XMLReporter,isSplitClassAndPackageNames,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.reporters.XMLReporter,setFileFragmentationLevel,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.reporters.XMLReporter,setGenerateDependsOnGroups,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.reporters.XMLReporter,setGenerateDependsOnMethods,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.reporters.XMLReporter,setGenerateGroupsAttribute,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.reporters.XMLReporter,setGenerateTestResultAttributes,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.reporters.XMLReporter,setOutputDirectory,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.reporters.XMLReporter,setSplitClassAndPackageNames,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.reporters.XMLReporter,setStackTraceOutputMethod,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.reporters.XMLReporter,setTimestampFormat,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.reporters.XMLReporter,FILE_NAME,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.reporters.XMLReporterConfig,getStackTraceOutputMethod,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.reporters.XMLReporterConfig,setStackTraceOutputMethod,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.reporters.XMLSuiteResultWriter,XMLSuiteResultWriter,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.SuiteRunner,getObjectFactory,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.SuiteRunner,ppp,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.SuiteRunner,SuiteRunner,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.SuiteRunner,SuiteRunner,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.SuiteRunner,SuiteRunner,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.SuiteRunner,SuiteRunner,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.SuiteRunner,SuiteRunner,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.SuiteRunner,SuiteRunner,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.SuiteRunner,SuiteRunner,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.SuiteRunner,SuiteRunner,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.SuiteRunnerWorker,compareTo,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.SuiteRunnerWorker,SuiteRunnerWorker,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.TestNG,addAlterSuiteListener,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.TestNG,addExecutionListener,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.TestNG,addInvokedMethodListener,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.TestNG,addListener,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.TestNG,addListener,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.TestNG,addListener,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.TestNG,addListener,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.TestNG,addListener,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.TestNG,isJdk14,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.TestNG,setAnnotationTransformer,METHOD_CHANGE,METHOD_LESS_ACCESSIBLE; ANNOTATION_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.TestNG,setConfigFailurePolicy,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.TestNG,setTestNGVersion,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.TestNG,SHOW_TESTNG_STACK_FRAMES,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.TestNG,TEST_CLASSPATH,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.TestNG$ExitCodeListener,org.testng.TestNG$ExitCodeListener,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.TestNG$ExitCodeListener,TestNG$ExitCodeListener,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.TestNG$ExitCodeListener,TestNG$ExitCodeListener,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.TestNGAntTask,addConfiguredReporter,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.TestNGAntTask,setListener,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.TestRunner,getInvokedMethods,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.TestRunner,getInvoker,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.TestRunner,TestRunner,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.util.Strings,getValueOrEmpty,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.util.TimeUtils,timeInUTC,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.xml.dom.DomUtil,org.testng.xml.dom.DomUtil,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.xml.dom.DomUtil,findChildren,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.xml.dom.DomUtil,populate,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.xml.dom.DomUtil,DomUtil,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.xml.dom.DomUtil$NodeProcessor,org.testng.xml.dom.DomUtil$NodeProcessor,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.xml.dom.DomUtil$NodeProcessor,process,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.xml.dom.DomXmlParser,org.testng.xml.dom.DomXmlParser,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.xml.dom.DomXmlParser,parse,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.xml.dom.DomXmlParser,parse2,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.xml.dom.DomXmlParser,DomXmlParser,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.xml.dom.ITagFactory,org.testng.xml.dom.ITagFactory,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.xml.dom.ITagFactory,getClassForTag,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.xml.dom.ITagSetter,org.testng.xml.dom.ITagSetter,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.xml.dom.ITagSetter,setProperty,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.xml.dom.OnElement,org.testng.xml.dom.OnElement,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.xml.dom.OnElement,attributes,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.xml.dom.OnElement,tag,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.xml.dom.OnElementList,org.testng.xml.dom.OnElementList,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.xml.dom.OnElementList,attributes,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.xml.dom.OnElementList,tag,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.xml.dom.ParentSetter,org.testng.xml.dom.ParentSetter,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.xml.dom.Reflect,org.testng.xml.dom.Reflect,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.xml.dom.Reflect,findMethodsWithAnnotation,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.xml.dom.Reflect,findSetterForTag,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.xml.dom.Reflect,toCapitalizedCamelCase,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.xml.dom.Reflect,Reflect,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.xml.dom.Tag,org.testng.xml.dom.Tag,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.xml.dom.Tag,name,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.xml.dom.TagContent,org.testng.xml.dom.TagContent,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.xml.dom.TagContent,name,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.xml.dom.TestNGTagFactory,org.testng.xml.dom.TestNGTagFactory,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.xml.dom.TestNGTagFactory,TestNGTagFactory,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.xml.dom.Wrapper,org.testng.xml.dom.Wrapper,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.xml.dom.Wrapper,getParameters,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.xml.dom.Wrapper,getTagName,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.xml.dom.Wrapper,Wrapper,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.xml.dom.XDom,org.testng.xml.dom.XDom,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.xml.dom.XDom,main,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.xml.dom.XDom,parse,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.xml.dom.XDom,populateChildren,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.xml.dom.XDom,XDom,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.xml.internal.TestNamesMatcher,getMissMatchedTestNames,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.xml.Parameters,org.testng.xml.Parameters,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.xml.Parameters,addAllParameter,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.xml.Parameters,addLocalParameter,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.xml.Parameters,getAllValues,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.xml.Parameters,getLocalParameter,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.xml.Parameters,getValue,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.xml.Parameters,Parameters,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.xml.Parser,DEPRECATED_TESTNG_DTD_URL,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.xml.Parser,Parser,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.xml.SuiteGenerator,createCustomizedSuite,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.xml.TestNGContentHandler,endElement,METHOD_CHANGE,METHOD_NO_LONGER_THROWS_CHECKED_EXCEPTION,true,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.xml.TestNGContentHandler,startElement,METHOD_CHANGE,METHOD_NO_LONGER_THROWS_CHECKED_EXCEPTION,true,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.xml.TestNGContentHandler,xmlClasses,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.xml.TestNGContentHandler,xmlGroup,METHOD_CHANGE,METHOD_NO_LONGER_THROWS_CHECKED_EXCEPTION,true,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.xml.TestNGContentHandler,xmlGroups,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.xml.TestNGContentHandler,xmlListeners,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.xml.TestNGContentHandler,xmlMethodSelector,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.xml.TestNGContentHandler,xmlMethodSelectors,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.xml.TestNGContentHandler,xmlPackages,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.xml.TestNGContentHandler,xmlRun,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.xml.XmlClass,getParameters,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.xml.XmlInclude,getParameters,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.xml.XmlMethodSelector,getExpression,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.xml.XmlMethodSelector,getLanguage,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.xml.XmlMethodSelector,setExpression,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.xml.XmlMethodSelector,setLanguage,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.xml.XmlScript,getScript,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.xml.XmlScript,setScript,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.xml.XmlSuite,setParallel,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.xml.XmlSuite,setPreserveOrder,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.xml.XmlSuite$ParallelMode,skipDeprecatedValues,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.xml.XmlSuite$ParallelMode,TRUE,FIELD_CHANGE,FIELD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.xml.XmlSuite$ParallelMode,FALSE,FIELD_CHANGE,FIELD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.xml.XmlTest,getExpression,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.xml.XmlTest,getParameters,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.xml.XmlTest,getSuite,METHOD_CHANGE,METHOD_NOW_FINAL,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.xml.XmlTest,getTestParameters,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.xml.XmlTest,setBeanShellExpression,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.xml.XmlTest,setClassNames,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.xml.XmlTest,setExpression,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+org.testng:testng,6.14.3,7.7.1,org.testng.xml.XmlTest,setPreserveOrder,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,PATCH,false
+junit:junit,4.12,4.13.2,org.junit.ClassRule,order,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,true,2,org.jmockit:jmockit,1.49,1.50,MINOR,false
+junit:junit,4.12,4.13.2,org.junit.internal.requests.ClassRequest,getRunner,METHOD_CHANGE,METHOD_NOW_FINAL; METHOD_MOVED_TO_SUPERCLASS,false,false,true,2,org.jmockit:jmockit,1.49,1.50,MINOR,false
+junit:junit,4.12,4.13.2,org.junit.Rule,order,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,true,2,org.jmockit:jmockit,1.49,1.50,MINOR,false
+junit:junit,4.12,4.13.2,org.junit.rules.ExpectedException,isAnyExceptionExpected,METHOD_CHANGE,METHOD_NOW_FINAL,false,false,true,2,org.jmockit:jmockit,1.49,1.50,MINOR,false
+com.beust:jcommander,1.72,1.82,com.beust.jcommander.converters.PathConverter,PathConverter,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,MINOR,false
+com.beust:jcommander,1.72,1.82,com.beust.jcommander.DynamicParameter,order,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,true,2,org.jmockit:jmockit,1.49,1.50,MINOR,false
+com.beust:jcommander,1.72,1.82,com.beust.jcommander.IStringConverterFactory,getConverter,METHOD_CHANGE,CLASS_GENERIC_TEMPLATE_CHANGED,true,false,true,2,org.jmockit:jmockit,1.49,1.50,MINOR,false
+com.beust:jcommander,1.72,1.82,com.beust.jcommander.JCommander,getCommandDescription,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,MINOR,false
+com.beust:jcommander,1.72,1.82,com.beust.jcommander.JCommander,getConsole,METHOD_CHANGE,METHOD_NO_LONGER_STATIC,false,false,true,2,org.jmockit:jmockit,1.49,1.50,MINOR,false
+com.beust:jcommander,1.72,1.82,com.beust.jcommander.JCommander,usage,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,MINOR,false
+com.beust:jcommander,1.72,1.82,com.beust.jcommander.JCommander,usage,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,MINOR,false
+com.beust:jcommander,1.72,1.82,com.beust.jcommander.JCommander,usage,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,MINOR,false
+com.beust:jcommander,1.72,1.82,com.beust.jcommander.JCommander,usage,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,MINOR,false
+com.beust:jcommander,1.72,1.82,com.beust.jcommander.JCommander,usage,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,MINOR,false
+com.beust:jcommander,1.72,1.82,com.beust.jcommander.ParameterDescription,validateParameter,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.jmockit:jmockit,1.49,1.50,MINOR,false
+com.beust:jcommander,1.72,1.82,com.beust.jcommander.ParameterDescription,validateValueParameter,METHOD_CHANGE,METHOD_NO_LONGER_STATIC,false,false,true,2,org.jmockit:jmockit,1.49,1.50,MINOR,false

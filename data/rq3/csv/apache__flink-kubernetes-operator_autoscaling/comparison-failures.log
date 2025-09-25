@@ -1,0 +1,9 @@
+=== Comparison Failure Log ===
+[2025-09-22 13:58:27] org.apache.flink:flink-connector-datagen:1.20.1 -> org.apache.flink:flink-connector-datagen:1.20.2 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.flink:flink-connector-datagen
+[2025-09-22 13:59:01] org.apache.logging.log4j:log4j-api:2.23.1 -> org.apache.logging.log4j:log4j-api:2.25.1 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.logging.log4j:log4j-api
+[2025-09-22 13:59:02] org.apache.logging.log4j:log4j-core:2.23.1 -> org.apache.logging.log4j:log4j-core:2.25.1 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.logging.log4j:log4j-core
+
+=== Summary ===
+Total comparisons: 36
+Failures: 3
+Success rate: 91.67%

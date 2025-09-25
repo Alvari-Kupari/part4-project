@@ -1,0 +1,8 @@
+=== Comparison Failure Log ===
+[2025-09-22 20:47:46] org.quartz-scheduler:quartz:2.3.2 -> org.quartz-scheduler:quartz:2.5.0 : Failed to compare JAR files: JAPICMP comparison failed for org.quartz-scheduler:quartz
+[2025-09-22 20:47:46] org.projectlombok:lombok:1.18.30 -> org.projectlombok:lombok:1.18.42 : Failed to compare JAR files: JAPICMP comparison failed for org.projectlombok:lombok
+
+=== Summary ===
+Total comparisons: 2
+Failures: 2
+Success rate: 0.00%

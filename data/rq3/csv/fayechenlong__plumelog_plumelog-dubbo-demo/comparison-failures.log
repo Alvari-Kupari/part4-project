@@ -1,0 +1,7 @@
+=== Comparison Failure Log ===
+[2025-09-22 21:35:55] org.apache.curator:curator-client:2.10.0 -> org.apache.curator:curator-client:2.13.0 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.curator:curator-client
+
+=== Summary ===
+Total comparisons: 77
+Failures: 1
+Success rate: 98.70%

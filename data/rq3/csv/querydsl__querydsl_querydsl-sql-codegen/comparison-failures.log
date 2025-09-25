@@ -1,0 +1,15 @@
+=== Comparison Failure Log ===
+[2025-09-23 08:10:15] org.hsqldb:hsqldb:2.6.0 -> org.hsqldb:hsqldb:2.7.4 : Failed to compare JAR files: JAPICMP comparison failed for org.hsqldb:hsqldb
+[2025-09-23 08:10:15] org.apache.derby:derby:10.15.2.0 -> org.apache.derby:derby:10.17.1.0 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.derby:derby
+[2025-09-23 08:10:15] org.apache.derby:derbytools:10.15.2.0 -> org.apache.derby:derbytools:10.17.1.0 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.derby:derbytools
+[2025-09-23 08:10:16] mysql:mysql-connector-java:8.0.29 -> mysql:mysql-connector-java:8.0.33 : Failed to compare JAR files: JAPICMP comparison failed for mysql:mysql-connector-java
+[2025-09-23 08:10:16] org.postgresql:postgresql:42.3.4 -> org.postgresql:postgresql:42.7.8 : Failed to compare JAR files: JAPICMP comparison failed for org.postgresql:postgresql
+[2025-09-23 08:10:16] com.oracle.database.jdbc:ojdbc8:21.7.0.0 -> com.oracle.database.jdbc:ojdbc8:21.19.0.0 : Failed to compare JAR files: JAPICMP comparison failed for com.oracle.database.jdbc:ojdbc8
+[2025-09-23 08:10:18] com.microsoft.sqlserver:mssql-jdbc:11.2.1.jre8 -> com.microsoft.sqlserver:mssql-jdbc:11.2.3.jre18 : Failed to compare JAR files: JAPICMP comparison failed for com.microsoft.sqlserver:mssql-jdbc
+[2025-09-23 08:10:18] com.h2database:h2:1.4.197 -> com.h2database:h2:1.4.200 : Failed to compare JAR files: JAPICMP comparison failed for com.h2database:h2
+[2025-09-23 08:10:21] org.xerial:sqlite-jdbc:3.36.0.3 -> org.xerial:sqlite-jdbc:3.50.3.0 : Failed to compare JAR files: JAPICMP comparison failed for org.xerial:sqlite-jdbc
+
+=== Summary ===
+Total comparisons: 15
+Failures: 9
+Success rate: 40.00%

@@ -1,0 +1,7 @@
+=== Comparison Failure Log ===
+[2025-09-23 08:40:17] io.smallrye.config:smallrye-config:3.13.4 -> io.smallrye.config:smallrye-config:3.14.0 : Failed to compare JAR files: JAPICMP comparison failed for io.smallrye.config:smallrye-config
+
+=== Summary ===
+Total comparisons: 1
+Failures: 1
+Success rate: 0.00%

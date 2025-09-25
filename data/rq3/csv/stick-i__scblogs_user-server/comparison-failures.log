@@ -1,0 +1,9 @@
+=== Comparison Failure Log ===
+[2025-09-23 10:34:43] com.mysql:mysql-connector-j:8.1.0 -> com.mysql:mysql-connector-j:8.4.0 : Failed to compare JAR files: JAPICMP comparison failed for com.mysql:mysql-connector-j
+[2025-09-23 10:34:48] cn.hutool:hutool-all:5.8.11 -> cn.hutool:hutool-all:5.8.40 : Failed to compare JAR files: JAPICMP comparison failed for cn.hutool:hutool-all
+[2025-09-23 10:35:14] org.hibernate.validator:hibernate-validator:8.0.1.Final -> org.hibernate.validator:hibernate-validator:9.0.0.CR1 : Failed to compare JAR files: JAPICMP comparison failed for org.hibernate.validator:hibernate-validator
+
+=== Summary ===
+Total comparisons: 265
+Failures: 3
+Success rate: 98.87%

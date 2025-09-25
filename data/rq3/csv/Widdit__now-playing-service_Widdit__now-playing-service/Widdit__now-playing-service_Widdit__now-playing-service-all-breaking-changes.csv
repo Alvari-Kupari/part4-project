@@ -1,0 +1,202 @@
+Library_Name,Old_Version,New_Version,Class_Name,Member_Name,Change_Type,Description,Binary_Compatible,Source_Compatible,Is_Transitive,Depth,Direct_Parent_Dependency,Direct_Dependency_Old_Version,Direct_Dependency_New_Version,Release_Type,Is_Used_In_Client
+org.jsoup:jsoup,1.14.3,1.21.2,org.jsoup.helper.ChangeNotifyingArrayList,org.jsoup.helper.ChangeNotifyingArrayList,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.14.3,1.21.2,org.jsoup.helper.ChangeNotifyingArrayList,add,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.14.3,1.21.2,org.jsoup.helper.ChangeNotifyingArrayList,add,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.14.3,1.21.2,org.jsoup.helper.ChangeNotifyingArrayList,addAll,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.14.3,1.21.2,org.jsoup.helper.ChangeNotifyingArrayList,addAll,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.14.3,1.21.2,org.jsoup.helper.ChangeNotifyingArrayList,clear,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.14.3,1.21.2,org.jsoup.helper.ChangeNotifyingArrayList,onContentsChanged,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.14.3,1.21.2,org.jsoup.helper.ChangeNotifyingArrayList,remove,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.14.3,1.21.2,org.jsoup.helper.ChangeNotifyingArrayList,remove,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.14.3,1.21.2,org.jsoup.helper.ChangeNotifyingArrayList,removeAll,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.14.3,1.21.2,org.jsoup.helper.ChangeNotifyingArrayList,removeRange,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.14.3,1.21.2,org.jsoup.helper.ChangeNotifyingArrayList,retainAll,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.14.3,1.21.2,org.jsoup.helper.ChangeNotifyingArrayList,set,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.14.3,1.21.2,org.jsoup.helper.ChangeNotifyingArrayList,ChangeNotifyingArrayList,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.14.3,1.21.2,org.jsoup.internal.ConstrainableInputStream,org.jsoup.internal.ConstrainableInputStream,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.14.3,1.21.2,org.jsoup.internal.ConstrainableInputStream,read,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.14.3,1.21.2,org.jsoup.internal.ConstrainableInputStream,readToByteBuffer,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.14.3,1.21.2,org.jsoup.internal.ConstrainableInputStream,reset,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.14.3,1.21.2,org.jsoup.internal.ConstrainableInputStream,timeout,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.14.3,1.21.2,org.jsoup.internal.ConstrainableInputStream,wrap,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.14.3,1.21.2,org.jsoup.internal.FieldsAreNonnullByDefault,org.jsoup.internal.FieldsAreNonnullByDefault,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.14.3,1.21.2,org.jsoup.internal.NonnullByDefault,org.jsoup.internal.NonnullByDefault,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.14.3,1.21.2,org.jsoup.internal.ReturnsAreNonnullByDefault,org.jsoup.internal.ReturnsAreNonnullByDefault,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.14.3,1.21.2,org.jsoup.Jsoup,clean,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.14.3,1.21.2,org.jsoup.Jsoup,clean,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.14.3,1.21.2,org.jsoup.Jsoup,clean,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.14.3,1.21.2,org.jsoup.Jsoup,isValid,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.14.3,1.21.2,org.jsoup.nodes.DataNode,createFromEncoded,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.14.3,1.21.2,org.jsoup.nodes.Document,normalise,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.14.3,1.21.2,org.jsoup.nodes.Document,updateMetaCharsetElement,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.14.3,1.21.2,org.jsoup.nodes.Document,updateMetaCharsetElement,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.14.3,1.21.2,org.jsoup.parser.HtmlTreeBuilder,isContentForTagData,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.14.3,1.21.2,org.jsoup.parser.HtmlTreeBuilder,processStartTag,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.14.3,1.21.2,org.jsoup.parser.ParseErrorList,org.jsoup.parser.ParseErrorList,CLASS_CHANGE,METHOD_ABSTRACT_ADDED_IN_IMPLEMENTED_INTERFACE; METHOD_DEFAULT_ADDED_IN_IMPLEMENTED_INTERFACE,true,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.14.3,1.21.2,org.jsoup.parser.Parser,isContentForTagData,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.14.3,1.21.2,org.jsoup.parser.Parser,setTreeBuilder,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.14.3,1.21.2,org.jsoup.parser.Tag,isFormListed,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.14.3,1.21.2,org.jsoup.parser.TokenQueue,addFirst,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.14.3,1.21.2,org.jsoup.parser.TokenQueue,addFirst,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.14.3,1.21.2,org.jsoup.parser.TokenQueue,chompTo,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.14.3,1.21.2,org.jsoup.parser.TokenQueue,chompToIgnoreCase,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.14.3,1.21.2,org.jsoup.parser.TokenQueue,consumeAttributeKey,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.14.3,1.21.2,org.jsoup.parser.TokenQueue,consumeTagName,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.14.3,1.21.2,org.jsoup.parser.TokenQueue,consumeToIgnoreCase,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.14.3,1.21.2,org.jsoup.parser.TokenQueue,consumeWord,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.14.3,1.21.2,org.jsoup.parser.TokenQueue,matchesAny,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.14.3,1.21.2,org.jsoup.parser.TokenQueue,matchesCS,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.14.3,1.21.2,org.jsoup.parser.TokenQueue,matchesStartTag,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.14.3,1.21.2,org.jsoup.parser.TokenQueue,peek,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.14.3,1.21.2,org.jsoup.parser.XmlTreeBuilder,processStartTag,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.14.3,1.21.2,org.jsoup.safety.Cleaner,Cleaner,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED; ANNOTATION_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.14.3,1.21.2,org.jsoup.safety.Whitelist,org.jsoup.safety.Whitelist,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.14.3,1.21.2,org.jsoup.safety.Whitelist,addAttributes,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.14.3,1.21.2,org.jsoup.safety.Whitelist,addAttributes,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.14.3,1.21.2,org.jsoup.safety.Whitelist,addEnforcedAttribute,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.14.3,1.21.2,org.jsoup.safety.Whitelist,addEnforcedAttribute,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.14.3,1.21.2,org.jsoup.safety.Whitelist,addProtocols,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.14.3,1.21.2,org.jsoup.safety.Whitelist,addProtocols,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.14.3,1.21.2,org.jsoup.safety.Whitelist,addTags,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.14.3,1.21.2,org.jsoup.safety.Whitelist,addTags,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.14.3,1.21.2,org.jsoup.safety.Whitelist,basic,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.14.3,1.21.2,org.jsoup.safety.Whitelist,basicWithImages,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.14.3,1.21.2,org.jsoup.safety.Whitelist,isSafeAttribute,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.14.3,1.21.2,org.jsoup.safety.Whitelist,isSafeTag,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.14.3,1.21.2,org.jsoup.safety.Whitelist,none,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.14.3,1.21.2,org.jsoup.safety.Whitelist,preserveRelativeLinks,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.14.3,1.21.2,org.jsoup.safety.Whitelist,preserveRelativeLinks,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.14.3,1.21.2,org.jsoup.safety.Whitelist,relaxed,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.14.3,1.21.2,org.jsoup.safety.Whitelist,removeAttributes,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.14.3,1.21.2,org.jsoup.safety.Whitelist,removeAttributes,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.14.3,1.21.2,org.jsoup.safety.Whitelist,removeEnforcedAttribute,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.14.3,1.21.2,org.jsoup.safety.Whitelist,removeEnforcedAttribute,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.14.3,1.21.2,org.jsoup.safety.Whitelist,removeProtocols,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.14.3,1.21.2,org.jsoup.safety.Whitelist,removeProtocols,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.14.3,1.21.2,org.jsoup.safety.Whitelist,removeTags,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.14.3,1.21.2,org.jsoup.safety.Whitelist,removeTags,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.14.3,1.21.2,org.jsoup.safety.Whitelist,simpleText,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.14.3,1.21.2,org.jsoup.safety.Whitelist,Whitelist,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.14.3,1.21.2,org.jsoup.safety.Whitelist,Whitelist,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.14.3,1.21.2,org.jsoup.select.Elements,org.jsoup.select.Elements,CLASS_CHANGE,METHOD_ABSTRACT_ADDED_IN_IMPLEMENTED_INTERFACE; METHOD_DEFAULT_ADDED_IN_IMPLEMENTED_INTERFACE,true,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.14.3,1.21.2,org.jsoup.select.NodeFilter,tail,METHOD_CHANGE,METHOD_ABSTRACT_NOW_DEFAULT,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.14.3,1.21.2,org.jsoup.select.Nodes,org.jsoup.select.Nodes,CLASS_CHANGE,INTERFACE_ADDED; METHOD_ABSTRACT_ADDED_IN_IMPLEMENTED_INTERFACE,true,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.14.3,1.21.2,org.jsoup.select.NodeVisitor,tail,METHOD_CHANGE,METHOD_ABSTRACT_NOW_DEFAULT,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.14.3,1.21.2,org.jsoup.UncheckedIOException,org.jsoup.UncheckedIOException,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.14.3,1.21.2,org.jsoup.UncheckedIOException,ioException,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.14.3,1.21.2,org.jsoup.UncheckedIOException,UncheckedIOException,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.jsoup:jsoup,1.14.3,1.21.2,org.jsoup.UncheckedIOException,UncheckedIOException,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.jsoup:jsoup,,,MINOR,false
+org.apache.commons:commons-lang3,3.14.0,3.18.0,org.apache.commons.lang3.StringUtils,toString,METHOD_CHANGE,METHOD_NO_LONGER_THROWS_CHECKED_EXCEPTION,true,false,false,1,org.apache.commons:commons-lang3,,,MINOR,false
+commons-io:commons-io,2.4,2.20.0,org.apache.commons.io.filefilter.CanExecuteFileFilter,org.apache.commons.io.filefilter.CanExecuteFileFilter,CLASS_CHANGE,INTERFACE_ADDED; METHOD_ABSTRACT_ADDED_IN_IMPLEMENTED_INTERFACE,true,false,false,1,commons-io:commons-io,,,MINOR,false
+commons-io:commons-io,2.4,2.20.0,org.apache.commons.io.filefilter.FileEqualsFileFilter,org.apache.commons.io.filefilter.FileEqualsFileFilter,CLASS_CHANGE,INTERFACE_ADDED; METHOD_ABSTRACT_ADDED_IN_IMPLEMENTED_INTERFACE,true,false,false,1,commons-io:commons-io,,,MINOR,false
+commons-io:commons-io,2.4,2.20.0,org.apache.commons.io.filefilter.IOFileFilter,accept,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,commons-io:commons-io,,,MINOR,false
+commons-io:commons-io,2.4,2.20.0,org.apache.commons.io.filefilter.PathEqualsFileFilter,org.apache.commons.io.filefilter.PathEqualsFileFilter,CLASS_CHANGE,INTERFACE_ADDED; METHOD_ABSTRACT_ADDED_IN_IMPLEMENTED_INTERFACE,true,false,false,1,commons-io:commons-io,,,MINOR,false
+commons-io:commons-io,2.4,2.20.0,org.apache.commons.io.filefilter.PathMatcherFileFilter,org.apache.commons.io.filefilter.PathMatcherFileFilter,CLASS_CHANGE,INTERFACE_ADDED; METHOD_ABSTRACT_ADDED_IN_IMPLEMENTED_INTERFACE,true,false,false,1,commons-io:commons-io,,,MINOR,false
+commons-io:commons-io,2.4,2.20.0,org.apache.commons.io.filefilter.PathVisitorFileFilter,org.apache.commons.io.filefilter.PathVisitorFileFilter,CLASS_CHANGE,INTERFACE_ADDED; METHOD_ABSTRACT_ADDED_IN_IMPLEMENTED_INTERFACE,true,false,false,1,commons-io:commons-io,,,MINOR,false
+commons-io:commons-io,2.4,2.20.0,org.apache.commons.io.filefilter.SymbolicLinkFileFilter,org.apache.commons.io.filefilter.SymbolicLinkFileFilter,CLASS_CHANGE,INTERFACE_ADDED; METHOD_ABSTRACT_ADDED_IN_IMPLEMENTED_INTERFACE,true,false,false,1,commons-io:commons-io,,,MINOR,false
+commons-io:commons-io,2.4,2.20.0,org.apache.commons.io.FilenameUtils,directoryContains,METHOD_CHANGE,METHOD_NO_LONGER_THROWS_CHECKED_EXCEPTION,true,false,false,1,commons-io:commons-io,,,MINOR,false
+commons-io:commons-io,2.4,2.20.0,org.apache.commons.io.FileUtils,isFileOlder,METHOD_CHANGE,METHOD_NOW_THROWS_CHECKED_EXCEPTION,true,false,false,1,commons-io:commons-io,,,MINOR,false
+commons-io:commons-io,2.4,2.20.0,org.apache.commons.io.FileUtils,isSymlink,METHOD_CHANGE,METHOD_NO_LONGER_THROWS_CHECKED_EXCEPTION,true,false,false,1,commons-io:commons-io,,,MINOR,false
+commons-io:commons-io,2.4,2.20.0,org.apache.commons.io.input.CountingInputStream,afterRead,METHOD_CHANGE,METHOD_NOW_THROWS_CHECKED_EXCEPTION,true,false,false,1,commons-io:commons-io,,,MINOR,false
+commons-io:commons-io,2.4,2.20.0,org.apache.commons.io.input.SwappedDataInputStream,skipBytes,METHOD_CHANGE,METHOD_NO_LONGER_THROWS_CHECKED_EXCEPTION,true,false,false,1,commons-io:commons-io,,,MINOR,false
+commons-io:commons-io,2.4,2.20.0,org.apache.commons.io.IOCase,org.apache.commons.io.IOCase,CLASS_CHANGE,INTERFACE_ADDED; CLASS_TYPE_CHANGED,false,false,false,1,commons-io:commons-io,,,MINOR,false
+commons-io:commons-io,2.4,2.20.0,org.apache.commons.io.IOUtils,contentEqualsIgnoreEOL,METHOD_CHANGE,METHOD_NO_LONGER_THROWS_CHECKED_EXCEPTION,true,false,false,1,commons-io:commons-io,,,MINOR,false
+commons-io:commons-io,2.4,2.20.0,org.apache.commons.io.IOUtils,lineIterator,METHOD_CHANGE,METHOD_NO_LONGER_THROWS_CHECKED_EXCEPTION,true,false,false,1,commons-io:commons-io,,,MINOR,false
+commons-io:commons-io,2.4,2.20.0,org.apache.commons.io.IOUtils,lineIterator,METHOD_CHANGE,METHOD_NO_LONGER_THROWS_CHECKED_EXCEPTION,true,false,false,1,commons-io:commons-io,,,MINOR,false
+commons-io:commons-io,2.4,2.20.0,org.apache.commons.io.IOUtils,readLines,METHOD_CHANGE,METHOD_NO_LONGER_THROWS_CHECKED_EXCEPTION; ANNOTATION_DEPRECATED_ADDED,true,false,false,1,commons-io:commons-io,,,MINOR,false
+commons-io:commons-io,2.4,2.20.0,org.apache.commons.io.IOUtils,readLines,METHOD_CHANGE,METHOD_NO_LONGER_THROWS_CHECKED_EXCEPTION,true,false,false,1,commons-io:commons-io,,,MINOR,false
+commons-io:commons-io,2.4,2.20.0,org.apache.commons.io.IOUtils,readLines,METHOD_CHANGE,METHOD_NO_LONGER_THROWS_CHECKED_EXCEPTION,true,false,false,1,commons-io:commons-io,,,MINOR,false
+commons-io:commons-io,2.4,2.20.0,org.apache.commons.io.IOUtils,readLines,METHOD_CHANGE,METHOD_NO_LONGER_THROWS_CHECKED_EXCEPTION,true,false,false,1,commons-io:commons-io,,,MINOR,false
+commons-io:commons-io,2.4,2.20.0,org.apache.commons.io.IOUtils,toByteArray,METHOD_CHANGE,METHOD_NO_LONGER_THROWS_CHECKED_EXCEPTION,true,false,false,1,commons-io:commons-io,,,MINOR,false
+commons-io:commons-io,2.4,2.20.0,org.apache.commons.io.IOUtils,toInputStream,METHOD_CHANGE,METHOD_NO_LONGER_THROWS_CHECKED_EXCEPTION,true,false,false,1,commons-io:commons-io,,,MINOR,false
+commons-io:commons-io,2.4,2.20.0,org.apache.commons.io.IOUtils,toInputStream,METHOD_CHANGE,METHOD_NO_LONGER_THROWS_CHECKED_EXCEPTION,true,false,false,1,commons-io:commons-io,,,MINOR,false
+commons-io:commons-io,2.4,2.20.0,org.apache.commons.io.IOUtils,toString,METHOD_CHANGE,METHOD_NO_LONGER_THROWS_CHECKED_EXCEPTION,true,false,false,1,commons-io:commons-io,,,MINOR,false
+commons-io:commons-io,2.4,2.20.0,org.apache.commons.io.IOUtils,toString,METHOD_CHANGE,METHOD_NO_LONGER_THROWS_CHECKED_EXCEPTION,true,false,false,1,commons-io:commons-io,,,MINOR,false
+commons-io:commons-io,2.4,2.20.0,org.apache.commons.io.LineIterator,close,METHOD_CHANGE,METHOD_NOW_THROWS_CHECKED_EXCEPTION,true,false,false,1,commons-io:commons-io,,,MINOR,false
+commons-codec:commons-codec,1.14,1.19.0,org.apache.commons.codec.binary.BaseNCodecOutputStream,eof,METHOD_CHANGE,METHOD_NO_LONGER_THROWS_CHECKED_EXCEPTION,true,false,false,1,commons-codec:commons-codec,,,MINOR,false
+com.google.code.gson:gson,2.8.9,2.13.2,com.google.gson.internal.$Gson$Preconditions,com.google.gson.internal.$Gson$Preconditions,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,com.google.code.gson:gson,,,MINOR,false
+com.google.code.gson:gson,2.8.9,2.13.2,com.google.gson.internal.$Gson$Preconditions,checkArgument,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,com.google.code.gson:gson,,,MINOR,false
+com.google.code.gson:gson,2.8.9,2.13.2,com.google.gson.internal.$Gson$Preconditions,checkNotNull,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,com.google.code.gson:gson,,,MINOR,false
+com.google.code.gson:gson,2.8.9,2.13.2,com.google.gson.internal.$Gson$Types,com.google.gson.internal.$Gson$Types,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,com.google.code.gson:gson,,,MINOR,false
+com.google.code.gson:gson,2.8.9,2.13.2,com.google.gson.internal.$Gson$Types,arrayOf,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,com.google.code.gson:gson,,,MINOR,false
+com.google.code.gson:gson,2.8.9,2.13.2,com.google.gson.internal.$Gson$Types,canonicalize,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,com.google.code.gson:gson,,,MINOR,false
+com.google.code.gson:gson,2.8.9,2.13.2,com.google.gson.internal.$Gson$Types,equals,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,com.google.code.gson:gson,,,MINOR,false
+com.google.code.gson:gson,2.8.9,2.13.2,com.google.gson.internal.$Gson$Types,getArrayComponentType,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,com.google.code.gson:gson,,,MINOR,false
+com.google.code.gson:gson,2.8.9,2.13.2,com.google.gson.internal.$Gson$Types,getCollectionElementType,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,com.google.code.gson:gson,,,MINOR,false
+com.google.code.gson:gson,2.8.9,2.13.2,com.google.gson.internal.$Gson$Types,getMapKeyAndValueTypes,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,com.google.code.gson:gson,,,MINOR,false
+com.google.code.gson:gson,2.8.9,2.13.2,com.google.gson.internal.$Gson$Types,getRawType,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,com.google.code.gson:gson,,,MINOR,false
+com.google.code.gson:gson,2.8.9,2.13.2,com.google.gson.internal.$Gson$Types,newParameterizedTypeWithOwner,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,com.google.code.gson:gson,,,MINOR,false
+com.google.code.gson:gson,2.8.9,2.13.2,com.google.gson.internal.$Gson$Types,resolve,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,com.google.code.gson:gson,,,MINOR,false
+com.google.code.gson:gson,2.8.9,2.13.2,com.google.gson.internal.$Gson$Types,subtypeOf,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,com.google.code.gson:gson,,,MINOR,false
+com.google.code.gson:gson,2.8.9,2.13.2,com.google.gson.internal.$Gson$Types,supertypeOf,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,com.google.code.gson:gson,,,MINOR,false
+com.google.code.gson:gson,2.8.9,2.13.2,com.google.gson.internal.$Gson$Types,typeToString,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,com.google.code.gson:gson,,,MINOR,false
+com.google.code.gson:gson,2.8.9,2.13.2,com.google.gson.internal.bind.DateTypeAdapter,com.google.gson.internal.bind.DateTypeAdapter,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,com.google.code.gson:gson,,,MINOR,false
+com.google.code.gson:gson,2.8.9,2.13.2,com.google.gson.internal.bind.DateTypeAdapter,read,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,com.google.code.gson:gson,,,MINOR,false
+com.google.code.gson:gson,2.8.9,2.13.2,com.google.gson.internal.bind.DateTypeAdapter,read,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,com.google.code.gson:gson,,,MINOR,false
+com.google.code.gson:gson,2.8.9,2.13.2,com.google.gson.internal.bind.DateTypeAdapter,write,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,com.google.code.gson:gson,,,MINOR,false
+com.google.code.gson:gson,2.8.9,2.13.2,com.google.gson.internal.bind.DateTypeAdapter,write,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,com.google.code.gson:gson,,,MINOR,false
+com.google.code.gson:gson,2.8.9,2.13.2,com.google.gson.internal.bind.DateTypeAdapter,FACTORY,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,com.google.code.gson:gson,,,MINOR,false
+com.google.code.gson:gson,2.8.9,2.13.2,com.google.gson.internal.bind.DateTypeAdapter,DateTypeAdapter,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,com.google.code.gson:gson,,,MINOR,false
+com.google.code.gson:gson,2.8.9,2.13.2,com.google.gson.internal.bind.DefaultDateTypeAdapter$DateType,createAdapterFactory,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,com.google.code.gson:gson,,,MINOR,false
+com.google.code.gson:gson,2.8.9,2.13.2,com.google.gson.internal.bind.DefaultDateTypeAdapter$DateType,createDefaultsAdapterFactory,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,com.google.code.gson:gson,,,MINOR,false
+com.google.code.gson:gson,2.8.9,2.13.2,com.google.gson.internal.bind.ReflectiveTypeAdapterFactory,excludeField,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,com.google.code.gson:gson,,,MINOR,false
+com.google.code.gson:gson,2.8.9,2.13.2,com.google.gson.internal.bind.ReflectiveTypeAdapterFactory,ReflectiveTypeAdapterFactory,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,com.google.code.gson:gson,,,MINOR,false
+com.google.code.gson:gson,2.8.9,2.13.2,com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter,com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter,CLASS_CHANGE,CLASS_NOW_ABSTRACT; CLASS_GENERIC_TEMPLATE_CHANGED,false,false,false,1,com.google.code.gson:gson,,,MINOR,false
+com.google.code.gson:gson,2.8.9,2.13.2,com.google.gson.internal.bind.util.ISO8601Utils,ISO8601Utils,CONSTRUCTOR_CHANGE,CONSTRUCTOR_LESS_ACCESSIBLE,false,false,false,1,com.google.code.gson:gson,,,MINOR,false
+com.google.code.gson:gson,2.8.9,2.13.2,com.google.gson.internal.ConstructorConstructor,ConstructorConstructor,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,com.google.code.gson:gson,,,MINOR,false
+com.google.code.gson:gson,2.8.9,2.13.2,com.google.gson.internal.LinkedHashTreeMap,com.google.gson.internal.LinkedHashTreeMap,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,com.google.code.gson:gson,,,MINOR,false
+com.google.code.gson:gson,2.8.9,2.13.2,com.google.gson.internal.LinkedHashTreeMap,clear,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,com.google.code.gson:gson,,,MINOR,false
+com.google.code.gson:gson,2.8.9,2.13.2,com.google.gson.internal.LinkedHashTreeMap,containsKey,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,com.google.code.gson:gson,,,MINOR,false
+com.google.code.gson:gson,2.8.9,2.13.2,com.google.gson.internal.LinkedHashTreeMap,entrySet,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,com.google.code.gson:gson,,,MINOR,false
+com.google.code.gson:gson,2.8.9,2.13.2,com.google.gson.internal.LinkedHashTreeMap,get,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,com.google.code.gson:gson,,,MINOR,false
+com.google.code.gson:gson,2.8.9,2.13.2,com.google.gson.internal.LinkedHashTreeMap,keySet,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,com.google.code.gson:gson,,,MINOR,false
+com.google.code.gson:gson,2.8.9,2.13.2,com.google.gson.internal.LinkedHashTreeMap,put,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,com.google.code.gson:gson,,,MINOR,false
+com.google.code.gson:gson,2.8.9,2.13.2,com.google.gson.internal.LinkedHashTreeMap,remove,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,com.google.code.gson:gson,,,MINOR,false
+com.google.code.gson:gson,2.8.9,2.13.2,com.google.gson.internal.LinkedHashTreeMap,size,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,com.google.code.gson:gson,,,MINOR,false
+com.google.code.gson:gson,2.8.9,2.13.2,com.google.gson.internal.LinkedHashTreeMap,LinkedHashTreeMap,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,com.google.code.gson:gson,,,MINOR,false
+com.google.code.gson:gson,2.8.9,2.13.2,com.google.gson.internal.LinkedHashTreeMap,LinkedHashTreeMap,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,com.google.code.gson:gson,,,MINOR,false
+com.google.code.gson:gson,2.8.9,2.13.2,com.google.gson.internal.LinkedTreeMap,LinkedTreeMap,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,com.google.code.gson:gson,,,MINOR,false
+com.google.code.gson:gson,2.8.9,2.13.2,com.google.gson.internal.NonNullElementWrapperList,com.google.gson.internal.NonNullElementWrapperList,CLASS_CHANGE,INTERFACE_ADDED; METHOD_ABSTRACT_ADDED_IN_IMPLEMENTED_INTERFACE,true,false,false,1,com.google.code.gson:gson,,,MINOR,false
+com.google.code.gson:gson,2.8.9,2.13.2,com.google.gson.internal.PreJava9DateFormatProvider,getUSDateFormat,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,com.google.code.gson:gson,,,MINOR,false
+com.google.code.gson:gson,2.8.9,2.13.2,com.google.gson.internal.PreJava9DateFormatProvider,getUSDateTimeFormat,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,com.google.code.gson:gson,,,MINOR,false
+com.google.code.gson:gson,2.8.9,2.13.2,com.google.gson.internal.PreJava9DateFormatProvider,PreJava9DateFormatProvider,CONSTRUCTOR_CHANGE,CONSTRUCTOR_LESS_ACCESSIBLE,false,false,false,1,com.google.code.gson:gson,,,MINOR,false
+com.google.code.gson:gson,2.8.9,2.13.2,com.google.gson.internal.reflect.ReflectionAccessor,com.google.gson.internal.reflect.ReflectionAccessor,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,com.google.code.gson:gson,,,MINOR,false
+com.google.code.gson:gson,2.8.9,2.13.2,com.google.gson.internal.reflect.ReflectionAccessor,getInstance,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,com.google.code.gson:gson,,,MINOR,false
+com.google.code.gson:gson,2.8.9,2.13.2,com.google.gson.internal.reflect.ReflectionAccessor,makeAccessible,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,com.google.code.gson:gson,,,MINOR,false
+com.google.code.gson:gson,2.8.9,2.13.2,com.google.gson.internal.reflect.ReflectionAccessor,ReflectionAccessor,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,com.google.code.gson:gson,,,MINOR,false
+com.google.code.gson:gson,2.8.9,2.13.2,com.google.gson.internal.UnsafeAllocator,create,METHOD_CHANGE,METHOD_LESS_ACCESSIBLE,false,false,false,1,com.google.code.gson:gson,,,MINOR,false
+org.yaml:snakeyaml,1.29,1.30,org.yaml.snakeyaml.scanner.ScannerImpl,isEmitComments,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.springframework.boot:spring-boot-starter,2.6.13,2.7.18,MINOR,false
+org.yaml:snakeyaml,1.29,1.30,org.yaml.snakeyaml.scanner.ScannerImpl,setEmitComments,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.springframework.boot:spring-boot-starter,2.6.13,2.7.18,MINOR,false
+org.springframework:spring-jcl,5.3.23,5.3.31,org.apache.commons.logging.LogFactory,getAttribute,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS; ANNOTATION_DEPRECATED_ADDED,true,false,true,2,org.springframework.boot:spring-boot-starter,2.6.13,2.7.18,PATCH,false
+org.springframework:spring-jcl,5.3.23,5.3.31,org.apache.commons.logging.LogFactory,getAttributeNames,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS; ANNOTATION_DEPRECATED_ADDED,true,false,true,2,org.springframework.boot:spring-boot-starter,2.6.13,2.7.18,PATCH,false
+org.springframework:spring-jcl,5.3.23,5.3.31,org.apache.commons.logging.LogFactory,release,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS; ANNOTATION_DEPRECATED_ADDED,true,false,true,2,org.springframework.boot:spring-boot-starter,2.6.13,2.7.18,PATCH,false
+org.springframework:spring-jcl,5.3.23,5.3.31,org.apache.commons.logging.LogFactory,removeAttribute,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS; ANNOTATION_DEPRECATED_ADDED,true,false,true,2,org.springframework.boot:spring-boot-starter,2.6.13,2.7.18,PATCH,false
+org.springframework:spring-jcl,5.3.23,5.3.31,org.apache.commons.logging.LogFactory,setAttribute,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS; ANNOTATION_DEPRECATED_ADDED,true,false,true,2,org.springframework.boot:spring-boot-starter,2.6.13,2.7.18,PATCH,false
+org.yaml:snakeyaml,1.29,1.30,org.yaml.snakeyaml.scanner.ScannerImpl,isEmitComments,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.springframework.boot:spring-boot-starter-test,2.6.13,2.7.18,MINOR,false
+org.yaml:snakeyaml,1.29,1.30,org.yaml.snakeyaml.scanner.ScannerImpl,setEmitComments,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.springframework.boot:spring-boot-starter-test,2.6.13,2.7.18,MINOR,false
+com.jayway.jsonpath:json-path,2.6.0,2.7.0,com.jayway.jsonpath.ParseContext,parseUtf8,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.springframework.boot:spring-boot-starter-test,2.6.13,2.7.18,MINOR,false
+org.xmlunit:xmlunit-core,2.8.4,2.9.1,org.xmlunit.builder.JaxbBuilder,org.xmlunit.builder.JaxbBuilder,CLASS_CHANGE,CLASS_NOW_ABSTRACT,false,false,true,2,org.springframework.boot:spring-boot-starter-test,2.6.13,2.7.18,MINOR,false
+org.xmlunit:xmlunit-core,2.8.4,2.9.1,org.xmlunit.builder.JaxbBuilder,withMarshaller,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.springframework.boot:spring-boot-starter-test,2.6.13,2.7.18,MINOR,false
+org.springframework:spring-jcl,5.3.23,5.3.31,org.apache.commons.logging.LogFactory,getAttribute,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS; ANNOTATION_DEPRECATED_ADDED,true,false,true,2,org.springframework.boot:spring-boot-starter-test,2.6.13,2.7.18,PATCH,false
+org.springframework:spring-jcl,5.3.23,5.3.31,org.apache.commons.logging.LogFactory,getAttributeNames,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS; ANNOTATION_DEPRECATED_ADDED,true,false,true,2,org.springframework.boot:spring-boot-starter-test,2.6.13,2.7.18,PATCH,false
+org.springframework:spring-jcl,5.3.23,5.3.31,org.apache.commons.logging.LogFactory,release,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS; ANNOTATION_DEPRECATED_ADDED,true,false,true,2,org.springframework.boot:spring-boot-starter-test,2.6.13,2.7.18,PATCH,false
+org.springframework:spring-jcl,5.3.23,5.3.31,org.apache.commons.logging.LogFactory,removeAttribute,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS; ANNOTATION_DEPRECATED_ADDED,true,false,true,2,org.springframework.boot:spring-boot-starter-test,2.6.13,2.7.18,PATCH,false
+org.springframework:spring-jcl,5.3.23,5.3.31,org.apache.commons.logging.LogFactory,setAttribute,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS; ANNOTATION_DEPRECATED_ADDED,true,false,true,2,org.springframework.boot:spring-boot-starter-test,2.6.13,2.7.18,PATCH,false
+org.apache.tomcat.embed:tomcat-embed-websocket,9.0.68,9.0.83,org.apache.tomcat.websocket.server.WsRemoteEndpointImplServer,WsRemoteEndpointImplServer,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.springframework.boot:spring-boot-starter-web,2.6.13,2.7.18,PATCH,false
+org.apache.tomcat.embed:tomcat-embed-websocket,9.0.68,9.0.83,org.apache.tomcat.websocket.WsRemoteEndpointImplBase,getLock,METHOD_CHANGE,METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,true,2,org.springframework.boot:spring-boot-starter-web,2.6.13,2.7.18,PATCH,false
+org.apache.tomcat.embed:tomcat-embed-el,9.0.68,9.0.83,org.apache.el.parser.SimpleNode,parent,FIELD_CHANGE,FIELD_TYPE_CHANGED,false,false,true,2,org.springframework.boot:spring-boot-starter-web,2.6.13,2.7.18,PATCH,false
+org.apache.tomcat.embed:tomcat-embed-el,9.0.68,9.0.83,org.apache.el.parser.SimpleNode,children,FIELD_CHANGE,FIELD_TYPE_CHANGED,false,false,true,2,org.springframework.boot:spring-boot-starter-web,2.6.13,2.7.18,PATCH,false
+org.yaml:snakeyaml,1.29,1.30,org.yaml.snakeyaml.scanner.ScannerImpl,isEmitComments,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.springframework.boot:spring-boot-starter-web,2.6.13,2.7.18,MINOR,false
+org.yaml:snakeyaml,1.29,1.30,org.yaml.snakeyaml.scanner.ScannerImpl,setEmitComments,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.springframework.boot:spring-boot-starter-web,2.6.13,2.7.18,MINOR,false
+org.springframework:spring-jcl,5.3.23,5.3.31,org.apache.commons.logging.LogFactory,getAttribute,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS; ANNOTATION_DEPRECATED_ADDED,true,false,true,2,org.springframework.boot:spring-boot-starter-web,2.6.13,2.7.18,PATCH,false
+org.springframework:spring-jcl,5.3.23,5.3.31,org.apache.commons.logging.LogFactory,getAttributeNames,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS; ANNOTATION_DEPRECATED_ADDED,true,false,true,2,org.springframework.boot:spring-boot-starter-web,2.6.13,2.7.18,PATCH,false
+org.springframework:spring-jcl,5.3.23,5.3.31,org.apache.commons.logging.LogFactory,release,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS; ANNOTATION_DEPRECATED_ADDED,true,false,true,2,org.springframework.boot:spring-boot-starter-web,2.6.13,2.7.18,PATCH,false
+org.springframework:spring-jcl,5.3.23,5.3.31,org.apache.commons.logging.LogFactory,removeAttribute,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS; ANNOTATION_DEPRECATED_ADDED,true,false,true,2,org.springframework.boot:spring-boot-starter-web,2.6.13,2.7.18,PATCH,false
+org.springframework:spring-jcl,5.3.23,5.3.31,org.apache.commons.logging.LogFactory,setAttribute,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS; ANNOTATION_DEPRECATED_ADDED,true,false,true,2,org.springframework.boot:spring-boot-starter-web,2.6.13,2.7.18,PATCH,false
+org.yaml:snakeyaml,1.29,1.30,org.yaml.snakeyaml.scanner.ScannerImpl,isEmitComments,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.springframework.boot:spring-boot-starter-thymeleaf,2.6.13,2.7.18,MINOR,false
+org.yaml:snakeyaml,1.29,1.30,org.yaml.snakeyaml.scanner.ScannerImpl,setEmitComments,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.springframework.boot:spring-boot-starter-thymeleaf,2.6.13,2.7.18,MINOR,false
+org.springframework:spring-jcl,5.3.23,5.3.31,org.apache.commons.logging.LogFactory,getAttribute,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS; ANNOTATION_DEPRECATED_ADDED,true,false,true,2,org.springframework.boot:spring-boot-starter-thymeleaf,2.6.13,2.7.18,PATCH,false
+org.springframework:spring-jcl,5.3.23,5.3.31,org.apache.commons.logging.LogFactory,getAttributeNames,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS; ANNOTATION_DEPRECATED_ADDED,true,false,true,2,org.springframework.boot:spring-boot-starter-thymeleaf,2.6.13,2.7.18,PATCH,false
+org.springframework:spring-jcl,5.3.23,5.3.31,org.apache.commons.logging.LogFactory,release,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS; ANNOTATION_DEPRECATED_ADDED,true,false,true,2,org.springframework.boot:spring-boot-starter-thymeleaf,2.6.13,2.7.18,PATCH,false
+org.springframework:spring-jcl,5.3.23,5.3.31,org.apache.commons.logging.LogFactory,removeAttribute,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS; ANNOTATION_DEPRECATED_ADDED,true,false,true,2,org.springframework.boot:spring-boot-starter-thymeleaf,2.6.13,2.7.18,PATCH,false
+org.springframework:spring-jcl,5.3.23,5.3.31,org.apache.commons.logging.LogFactory,setAttribute,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS; ANNOTATION_DEPRECATED_ADDED,true,false,true,2,org.springframework.boot:spring-boot-starter-thymeleaf,2.6.13,2.7.18,PATCH,false

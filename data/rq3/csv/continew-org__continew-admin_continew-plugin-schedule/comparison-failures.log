@@ -1,0 +1,10 @@
+=== Comparison Failure Log ===
+[2025-09-22 17:19:25] com.aizuda:snail-job-client-starter:1.5.0 -> com.aizuda:snail-job-client-starter:1.8.0 : Failed to compare JAR files: JAPICMP comparison failed for com.aizuda:snail-job-client-starter
+[2025-09-22 17:19:29] com.aizuda:snail-job-client-retry-core:1.5.0 -> com.aizuda:snail-job-client-retry-core:1.8.0 : Failed to compare JAR files: JAPICMP comparison failed for com.aizuda:snail-job-client-retry-core
+[2025-09-22 17:20:25] cn.hutool:hutool-all:5.8.38 -> cn.hutool:hutool-all:5.8.40 : Failed to compare JAR files: JAPICMP comparison failed for cn.hutool:hutool-all
+[2025-09-22 17:20:25] org.projectlombok:lombok:1.18.38 -> org.projectlombok:lombok:1.18.42 : Failed to compare JAR files: JAPICMP comparison failed for org.projectlombok:lombok
+
+=== Summary ===
+Total comparisons: 44
+Failures: 4
+Success rate: 90.91%

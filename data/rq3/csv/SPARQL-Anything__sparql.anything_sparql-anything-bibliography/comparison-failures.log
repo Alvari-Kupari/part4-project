@@ -1,0 +1,7 @@
+=== Comparison Failure Log ===
+[2025-09-23 08:49:29] org.jbibtex:jbibtex:1.0.19 -> org.jbibtex:jbibtex:1.0.20 : Failed to compare JAR files: JAPICMP comparison failed for org.jbibtex:jbibtex
+
+=== Summary ===
+Total comparisons: 5
+Failures: 1
+Success rate: 80.00%

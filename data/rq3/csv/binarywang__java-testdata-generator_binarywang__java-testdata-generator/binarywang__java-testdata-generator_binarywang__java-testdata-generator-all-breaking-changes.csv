@@ -1,0 +1,611 @@
+Library_Name,Old_Version,New_Version,Class_Name,Member_Name,Change_Type,Description,Binary_Compatible,Source_Compatible,Is_Transitive,Depth,Direct_Parent_Dependency,Direct_Dependency_Old_Version,Direct_Dependency_New_Version,Release_Type,Is_Used_In_Client
+org.testng:testng,7.5.1,7.11.0,org.testng.annotations.BeforeClass,ignoreFailure,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.annotations.BeforeMethod,ignoreFailure,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.annotations.BeforeTest,ignoreFailure,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.annotations.DataProvider,cacheDataForTestRetries,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.annotations.DataProvider,propagateFailureAsTestFailure,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.annotations.DataProvider,retryUsing,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.annotations.IConfigurationAnnotation,isIgnoreFailure,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.annotations.IDataProviderAnnotation,cacheDataForTestRetries,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.annotations.IDataProviderAnnotation,isCacheDataForTestRetries,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.annotations.IDataProviderAnnotation,isPropagateFailureAsTestFailure,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.annotations.IDataProviderAnnotation,propagateFailureAsTestFailure,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.annotations.IDataProviderAnnotation,retryUsing,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.annotations.IDataProviderAnnotation,setRetryUsing,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.annotations.ITestAnnotation,getDataProviderDynamicClass,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.annotations.ITestAnnotation,setDataProviderDynamicClass,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.annotations.Test,dataProviderDynamicClass,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.collections.Lists,newReversedArrayList,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.CommandLineArgs,HOST,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.CommandLineArgs,host,FIELD_CHANGE,FIELD_REMOVED; ANNOTATION_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.CommandLineArgs,PORT,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.CommandLineArgs,port,FIELD_CHANGE,FIELD_REMOVED; ANNOTATION_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.CommandLineArgs,junit,FIELD_CHANGE,FIELD_REMOVED; ANNOTATION_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.CommandLineArgs,debug,FIELD_CHANGE,FIELD_REMOVED; ANNOTATION_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.CommandLineArgs,DEBUG,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.CommandLineArgs,JUNIT,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.DataProviderHolder,DataProviderHolder,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.DataProviderInvocationException,org.testng.DataProviderInvocationException,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.DataProviderInvocationException,DataProviderInvocationException,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.IInjectorFactory,getInjector,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.annotations.IDataProvidable,getDataProviderDynamicClass,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.annotations.IDataProvidable,setDataProviderDynamicClass,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.ant.AntReporterConfig,org.testng.internal.ant.AntReporterConfig,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.ant.AntReporterConfig,addProperty,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.ant.AntReporterConfig,serialize,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.ant.AntReporterConfig,setClassName,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.ant.AntReporterConfig,className,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.ant.AntReporterConfig,AntReporterConfig,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.ant.AntReporterConfig$Property,org.testng.internal.ant.AntReporterConfig$Property,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.ant.AntReporterConfig$Property,setName,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.ant.AntReporterConfig$Property,setValue,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.ant.AntReporterConfig$Property,AntReporterConfig$Property,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.BaseClassFinder,findOrCreateIClass,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.BaseTestMethod,getIClass,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.BaseTestMethod,BaseTestMethod,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.ClassImpl,ClassImpl,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.ConfigurationGroupMethods,getAfterGroupMethodsForGroup,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.ConfigurationGroupMethods,getBeforeGroupMethodsForGroup,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.ConfigurationGroupMethods,isLastMethodForGroup,METHOD_CHANGE,METHOD_LESS_ACCESSIBLE,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.ConfigurationMethod,org.testng.internal.ConfigurationMethod,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; METHOD_DEFAULT_ADDED_IN_IMPLEMENTED_INTERFACE,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.ConfigurationMethod,createAfterConfigurationMethods,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.ConfigurationMethod,createBeforeConfigurationMethods,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.ConfigurationMethod,createClassConfigurationMethods,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.ConfigurationMethod,createSuiteConfigurationMethods,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.ConfigurationMethod,createTestConfigurationMethods,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.ConfigurationMethod,createTestMethodConfigurationMethods,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.ConfigurationMethod,ConfigurationMethod,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.FactoryMethod,org.testng.internal.FactoryMethod,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; METHOD_DEFAULT_ADDED_IN_IMPLEMENTED_INTERFACE,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.Graph$Node,addNeighbor,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.IConfiguration,getExecutorFactory,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.IConfiguration,getExecutorServiceFactory,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.IConfiguration,getListenerComparator,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.IConfiguration,getListenerFactory,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.IConfiguration,isPropagateDataProviderFailureAsTestFailure,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.IConfiguration,isShareThreadPoolForDataProviders,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.IConfiguration,propagateDataProviderFailureAsTestFailure,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.IConfiguration,setExecutorFactory,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.IConfiguration,setExecutorServiceFactory,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.IConfiguration,setListenerComparator,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.IConfiguration,setListenerFactory,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.IConfiguration,shareThreadPoolForDataProviders,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.IConfiguration,shouldUseGlobalThreadPool,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.IConfiguration,useGlobalThreadPool,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.invokers.IConfigInvoker,getConfiguration,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.invokers.IConfigInvoker,hasConfigurationFailureFor,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.invokers.InvokeMethodRunnable,call,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.invokers.InvokeMethodRunnable,run,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.invokers.Invoker,getConfigInvoker,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.invokers.Invoker,getTestInvoker,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.invokers.Invoker,Invoker,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.invokers.MethodInvocationHelper,invokeConfigurable,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.invokers.MethodInvocationHelper,invokeHookable,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.invokers.MethodInvocationHelper,invokeMethodConsideringTimeout,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.invokers.MethodInvocationHelper,invokeWithTimeout,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.invokers.MethodInvocationHelper,invokeWithTimeout,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.ITestClassConfigInfo,getAllAfterClassMethods,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.ITestClassConfigInfo,getAllBeforeClassMethods,METHOD_CHANGE,METHOD_NOW_ABSTRACT,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.ITestClassConfigInfo,getInstanceAfterClassMethods,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.ITestClassConfigInfo,getInstanceBeforeClassMethods,METHOD_CHANGE,METHOD_NOW_ABSTRACT,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.ITestResultNotifier,getExitCodeListener,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.NoOpTestClass,m_afterGroupsMethods,FIELD_CHANGE,FIELD_TYPE_CHANGED; FIELD_GENERICS_CHANGED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.NoOpTestClass,m_afterTestConfMethods,FIELD_CHANGE,FIELD_TYPE_CHANGED; FIELD_GENERICS_CHANGED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.NoOpTestClass,m_afterTestMethods,FIELD_CHANGE,FIELD_TYPE_CHANGED; FIELD_GENERICS_CHANGED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.NoOpTestClass,m_afterClassMethods,FIELD_CHANGE,FIELD_TYPE_CHANGED; FIELD_GENERICS_CHANGED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.NoOpTestClass,m_beforeTestMethods,FIELD_CHANGE,FIELD_TYPE_CHANGED; FIELD_GENERICS_CHANGED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.NoOpTestClass,m_beforeSuiteMethods,FIELD_CHANGE,FIELD_TYPE_CHANGED; FIELD_GENERICS_CHANGED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.NoOpTestClass,m_afterSuiteMethods,FIELD_CHANGE,FIELD_TYPE_CHANGED; FIELD_GENERICS_CHANGED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.NoOpTestClass,m_beforeClassMethods,FIELD_CHANGE,FIELD_TYPE_CHANGED; FIELD_GENERICS_CHANGED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.NoOpTestClass,m_beforeTestConfMethods,FIELD_CHANGE,FIELD_TYPE_CHANGED; FIELD_GENERICS_CHANGED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.PackageUtils,addClassLoader,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.Parameters,getParametersFromIndex,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.Parameters,NULL_VALUE,FIELD_CHANGE,FIELD_REMOVED; ANNOTATION_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.PoolService,org.testng.internal.PoolService,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.PoolService,submitTasksAndWait,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.PoolService,PoolService,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.reflect.AbstractNodeMethodMatcher,getConformingParameters,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.reflect.AbstractNodeMethodMatcher,match,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.reflect.AbstractNodeMethodMatcher,match,METHOD_CHANGE,METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.reflect.AbstractNodeMethodMatcher,matchingArguments,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.reflect.AbstractNodeMethodMatcher,matchingArguments,METHOD_CHANGE,METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.reflect.ArrayEndingMethodMatcher,org.testng.internal.reflect.ArrayEndingMethodMatcher,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.reflect.DirectMethodMatcher,org.testng.internal.reflect.DirectMethodMatcher,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.reflect.MethodMatcherContext,getMethodParameter,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.reflect.Parameter,org.testng.internal.reflect.Parameter,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.reflect.Parameter,getAnnotation,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.reflect.Parameter,getAnnotations,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.reflect.Parameter,getDeclaredAnnotations,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.reflect.Parameter,getType,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.reflect.Parameter,isAnnotationPresent,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.reflect.Parameter,toString,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.reflect.Parameter,Parameter,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.reflect.ReflectionRecipes,classesFromParameters,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.reflect.ReflectionRecipes,exactMatch,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.reflect.ReflectionRecipes,filter,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.reflect.ReflectionRecipes,getConstructorParameters,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.reflect.ReflectionRecipes,getMethodParameters,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.reflect.ReflectionRecipes,inject,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.reflect.ReflectionRecipes,inject,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.reflect.ReflectionRecipes,lenientMatch,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.reflect.ReflectionRecipes,matchArrayEnding,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.RuntimeBehavior,useOldTestNGEmailableReporter,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.Systematiser,org.testng.internal.Systematiser,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.Systematiser,getComparator,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.TestListenerHelper,runPostConfigurationListeners,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.TestListenerHelper,runPreConfigurationListeners,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.TestNGClassFinder,org.testng.internal.TestNGClassFinder,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.TestNGMethod,org.testng.internal.TestNGMethod,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; METHOD_DEFAULT_ADDED_IN_IMPLEMENTED_INTERFACE,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.TestNGMethod,TestNGMethod,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.thread.DefaultThreadPoolExecutorFactory,org.testng.internal.thread.DefaultThreadPoolExecutorFactory,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.thread.DefaultThreadPoolExecutorFactory,DefaultThreadPoolExecutorFactory,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.thread.graph.GraphThreadPoolExecutor,org.testng.internal.thread.graph.GraphThreadPoolExecutor,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.thread.graph.GraphThreadPoolExecutor,afterExecute,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.thread.graph.GraphThreadPoolExecutor,GraphThreadPoolExecutor,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.thread.ThreadTimeoutException,ThreadTimeoutException,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.thread.ThreadUtil,createExecutor,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.internal.thread.ThreadUtil,execute,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.IObjectFactory,org.testng.IObjectFactory,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.IObjectFactory2,org.testng.IObjectFactory2,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.IObjectFactory2,newInstance,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.ISuite,getObjectFactory2,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.junit.IJUnitTestRunner,org.testng.junit.IJUnitTestRunner,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.junit.IJUnitTestRunner,createTestRunner,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.junit.IJUnitTestRunner,getTestMethods,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.junit.IJUnitTestRunner,run,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.junit.IJUnitTestRunner,setInvokedMethodListeners,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.junit.IJUnitTestRunner,setTestResultNotifier,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.junit.JUnit3TestClass,org.testng.junit.JUnit3TestClass,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.junit.JUnit3TestClass,JUnit3TestClass,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.junit.JUnit3TestMethod,org.testng.junit.JUnit3TestMethod,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.junit.JUnit3TestMethod,JUnit3TestMethod,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.junit.JUnit3TestRecognizer,org.testng.junit.JUnit3TestRecognizer,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.junit.JUnit3TestRecognizer,isTest,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.junit.JUnit3TestRecognizer,JUnit3TestRecognizer,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.junit.JUnit4ConfigurationMethod,org.testng.junit.JUnit4ConfigurationMethod,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.junit.JUnit4ConfigurationMethod,getDeclaringClass,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.junit.JUnit4ConfigurationMethod,getName,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.junit.JUnit4ConfigurationMethod,toString,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.junit.JUnit4ConfigurationMethod,JUnit4ConfigurationMethod,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.junit.JUnit4SpockMethod,org.testng.junit.JUnit4SpockMethod,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.junit.JUnit4SpockMethod,getDeclaringClass,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.junit.JUnit4SpockMethod,getName,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.junit.JUnit4SpockMethod,isSpockClass,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.junit.JUnit4SpockMethod,toString,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.junit.JUnit4SpockMethod,JUnit4SpockMethod,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.junit.JUnit4TestClass,org.testng.junit.JUnit4TestClass,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.junit.JUnit4TestClass,JUnit4TestClass,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.junit.JUnit4TestMethod,org.testng.junit.JUnit4TestMethod,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.junit.JUnit4TestMethod,toString,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.junit.JUnit4TestMethod,JUnit4TestMethod,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.junit.JUnit4TestRecognizer,org.testng.junit.JUnit4TestRecognizer,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.junit.JUnit4TestRecognizer,isTest,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.junit.JUnit4TestRecognizer,JUnit4TestRecognizer,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.junit.JUnit4TestRunner,org.testng.junit.JUnit4TestRunner,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.junit.JUnit4TestRunner,start,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.junit.JUnit4TestRunner,JUnit4TestRunner,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.junit.JUnitMethodFinder,org.testng.junit.JUnitMethodFinder,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.junit.JUnitMethodFinder,JUnitMethodFinder,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.junit.JUnitTestClass,org.testng.junit.JUnitTestClass,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.junit.JUnitTestClass,JUnitTestClass,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.junit.JUnitTestFinder,org.testng.junit.JUnitTestFinder,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.junit.JUnitTestFinder,isJUnitTest,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.junit.JUnitTestFinder,JUnitTestFinder,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.junit.JUnitTestMethod,org.testng.junit.JUnitTestMethod,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.junit.JUnitTestMethod,clone,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.junit.JUnitTestMethod,JUnitTestMethod,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.junit.JUnitTestMethod,JUnitTestMethod,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.junit.JUnitTestRunner,org.testng.junit.JUnitTestRunner,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.junit.JUnitTestRunner,addError,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.junit.JUnitTestRunner,addFailure,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.junit.JUnitTestRunner,createTestResult,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.junit.JUnitTestRunner,doRun,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.junit.JUnitTestRunner,endTest,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.junit.JUnitTestRunner,getTest,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.junit.JUnitTestRunner,runFailed,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.junit.JUnitTestRunner,start,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.junit.JUnitTestRunner,startTest,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.junit.JUnitTestRunner,SUITE_METHODNAME,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.junit.JUnitTestRunner,JUnitTestRunner,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.reporters.EmailableReporter,org.testng.reporters.EmailableReporter,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.reporters.EmailableReporter,createWriter,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.reporters.EmailableReporter,endHtml,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.reporters.EmailableReporter,generateExceptionReport,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.reporters.EmailableReporter,generateMethodDetailReport,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.reporters.EmailableReporter,generateMethodSummaryReport,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.reporters.EmailableReporter,generateSuiteSummaryReport,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.reporters.EmailableReporter,getFileName,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.reporters.EmailableReporter,setFileName,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.reporters.EmailableReporter,startHtml,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.reporters.EmailableReporter,EmailableReporter,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.reporters.ExitCodeListener,ExitCodeListener,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.reporters.Files,org.testng.reporters.Files,CLASS_CHANGE,CLASS_NOW_FINAL,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.reporters.Files,copyFile,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.reporters.Files,readFile,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.reporters.Files,streamToString,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.reporters.Files,writeFile,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.reporters.Files,Files,CONSTRUCTOR_CHANGE,CONSTRUCTOR_LESS_ACCESSIBLE,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.reporters.util.StackTraceTools,getTestNGInstrastructure,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.reporters.XMLReporter,addDurationAttributes,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.SuiteRunner,SuiteRunner,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.TestNG,getExecutorFactory,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.TestNG,setExecutorFactory,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.TestNG,setExecutorFactoryClass,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.TestNG,setJUnit,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.TestNG,setMixed,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.TestNGAntTask,org.testng.TestNGAntTask,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.TestNGAntTask,actOnResult,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.TestNGAntTask,addClassfileset,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.TestNGAntTask,addConfiguredPropertySet,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.TestNGAntTask,addConfiguredReporter,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.TestNGAntTask,addEnv,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.TestNGAntTask,addSysproperty,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.TestNGAntTask,addXmlfileset,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.TestNGAntTask,createArguments,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.TestNGAntTask,createBootclasspath,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.TestNGAntTask,createClasspath,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.TestNGAntTask,createJvmarg,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.TestNGAntTask,createWatchdog,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.TestNGAntTask,execute,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.TestNGAntTask,executeAsForked,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.TestNGAntTask,getJavaCommand,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.TestNGAntTask,getSuiteFileNames,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.TestNGAntTask,handleOutput,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.TestNGAntTask,setClassfilesetRef,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.TestNGAntTask,setClasspath,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.TestNGAntTask,setClasspathRef,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.TestNGAntTask,setConfigFailurePolicy,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.TestNGAntTask,setDataProviderThreadCount,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.TestNGAntTask,setDelegateCommandSystemProperties,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.TestNGAntTask,setDumpCommand,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.TestNGAntTask,setDumpEnv,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.TestNGAntTask,setDumpSys,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.TestNGAntTask,setEnableAssert,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.TestNGAntTask,setExcludedGroups,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.TestNGAntTask,setFailureProperty,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.TestNGAntTask,setForkJvm,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.TestNGAntTask,setFSPProperty,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.TestNGAntTask,setGroups,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.TestNGAntTask,setHaltonfailure,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.TestNGAntTask,setHaltonFSP,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.TestNGAntTask,setHaltonskipped,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.TestNGAntTask,setJUnit,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.TestNGAntTask,setJvm,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.TestNGAntTask,setListeners,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.TestNGAntTask,setMethods,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.TestNGAntTask,setMethodSelectors,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.TestNGAntTask,setMode,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.TestNGAntTask,setObjectFactory,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.TestNGAntTask,setOnHaltTarget,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.TestNGAntTask,setOutputDir,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.TestNGAntTask,setParallel,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.TestNGAntTask,setRandomizeSuites,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.TestNGAntTask,setReporter,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.TestNGAntTask,setSkipFailedInvocationCounts,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.TestNGAntTask,setSkippedProperty,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.TestNGAntTask,setSuiteName,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.TestNGAntTask,setSuiteRunnerClass,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.TestNGAntTask,setSuiteThreadPoolSize,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.TestNGAntTask,setTestJar,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.TestNGAntTask,setTestName,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.TestNGAntTask,setTestNames,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.TestNGAntTask,setTestRunnerFactory,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.TestNGAntTask,setThreadCount,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.TestNGAntTask,setTimeout,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.TestNGAntTask,setUseDefaultListeners,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.TestNGAntTask,setVerbose,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.TestNGAntTask,setWorkingDir,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.TestNGAntTask,setXmlfilesetRef,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.TestNGAntTask,setXmlPathInJar,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.TestNGAntTask,validateOptions,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.TestNGAntTask,m_javaCommand,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.TestNGAntTask,m_haltOnFailure,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.TestNGAntTask,m_excludedGroups,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.TestNGAntTask,m_fspPropertyName,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.TestNGAntTask,m_haltOnFSP,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.TestNGAntTask,m_threadCount,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.TestNGAntTask,m_workingDir,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.TestNGAntTask,m_failurePropertyName,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.TestNGAntTask,m_environment,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.TestNGAntTask,m_classFilesets,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.TestNGAntTask,m_testjar,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.TestNGAntTask,m_testRunnerFactory,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.TestNGAntTask,m_haltOnSkipped,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.TestNGAntTask,m_skippedPropertyName,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.TestNGAntTask,m_configFailurePolicy,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.TestNGAntTask,m_assertEnabled,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.TestNGAntTask,m_onHaltTarget,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.TestNGAntTask,m_dataproviderthreadCount,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.TestNGAntTask,m_xmlFilesets,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.TestNGAntTask,m_dump,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.TestNGAntTask,m_includedGroups,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.TestNGAntTask,m_mainClass,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.TestNGAntTask,m_outputDir,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.TestNGAntTask,m_randomizeSuites,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.TestNGAntTask,m_parallelMode,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.TestNGAntTask,m_useDefaultListeners,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.TestNGAntTask,TestNGAntTask,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.TestNGAntTask$Mode,org.testng.TestNGAntTask$Mode,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.TestNGAntTask$Mode,valueOf,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.TestNGAntTask$Mode,values,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.TestNGAntTask$Mode,junit,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.TestNGAntTask$Mode,mixed,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.TestNGAntTask$Mode,testng,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.TestNGAntTask$TestNGLogSH,org.testng.TestNGAntTask$TestNGLogSH,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.TestNGAntTask$TestNGLogSH,TestNGAntTask$TestNGLogSH,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.TestRunner,TestRunner,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.TestRunner,TestRunner,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.TestRunner,TestRunner,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.thread.IExecutorFactory,org.testng.thread.IExecutorFactory,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.thread.IExecutorFactory,newSuiteExecutor,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.thread.IExecutorFactory,newTestMethodExecutor,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.util.Strings,getValueOrEmpty,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.util.Strings,repeat,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.xml.internal.TestNamesMatcher,getMissMatchedTestNames,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.xml.LaunchSuite,org.testng.xml.LaunchSuite,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.xml.LaunchSuite,getSuiteBuffer,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.xml.LaunchSuite,isTemporary,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.xml.LaunchSuite,save,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.xml.LaunchSuite,m_temporary,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.xml.LaunchSuite,LaunchSuite,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.xml.LaunchSuite$ExistingSuite,org.testng.xml.LaunchSuite$ExistingSuite,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.xml.LaunchSuite$ExistingSuite,getSuiteBuffer,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.xml.LaunchSuite$ExistingSuite,save,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.xml.LaunchSuite$ExistingSuite,LaunchSuite$ExistingSuite,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.xml.Parser,org.testng.xml.Parser,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.xml.Parser,Parser,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.xml.Parser,Parser,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.xml.SuiteGenerator,org.testng.xml.SuiteGenerator,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.xml.SuiteGenerator,createProxiedXmlSuite,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.xml.SuiteGenerator,createSuite,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.xml.SuiteGenerator,SuiteGenerator,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.xml.XmlSuite,getObjectFactory,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.xml.XmlSuite,isJUnit,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.xml.XmlSuite,setJunit,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.xml.XmlSuite,setJUnit,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.xml.XmlSuite,setObjectFactory,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.xml.XmlSuite,DEFAULT_JUNIT,FIELD_CHANGE,FIELD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.xml.XmlTest,isGroupBasedExecution,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.xml.XmlTest,isJUnit,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.xml.XmlTest,setJunit,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+org.testng:testng,7.5.1,7.11.0,org.testng.xml.XmlTest,setJUnit,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.testng:testng,,,MINOR,false
+com.google.inject:guice,4.1.0,4.2.3,com.google.inject.Injector,getAllMembersInjectorInjectionPoints,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,com.google.inject:guice,,,MINOR,false
+com.google.inject:guice,4.1.0,4.2.3,com.google.inject.Injector,getElements,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,com.google.inject:guice,,,MINOR,false
+com.google.inject:guice,4.1.0,4.2.3,com.google.inject.internal.asm.$Type,com.google.inject.internal.asm.$Type,CLASS_CHANGE,CLASS_NOW_FINAL,false,false,false,1,com.google.inject:guice,,,MINOR,false
+com.google.inject:guice,4.1.0,4.2.3,com.google.inject.internal.asm.$TypePath,com.google.inject.internal.asm.$TypePath,CLASS_CHANGE,CLASS_NOW_FINAL,false,false,false,1,com.google.inject:guice,,,MINOR,false
+com.google.inject:guice,4.1.0,4.2.3,com.google.inject.internal.cglib.core.$AbstractClassGenerator,com.google.inject.internal.cglib.core.$AbstractClassGenerator,CLASS_CHANGE,CLASS_GENERIC_TEMPLATE_CHANGED,true,false,false,1,com.google.inject:guice,,,MINOR,false
+com.google.inject:guice,4.1.0,4.2.3,com.google.inject.internal.cglib.proxy.$CallbackGenerator$Context,emitInvoke,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,com.google.inject:guice,,,MINOR,false
+com.google.inject:guice,4.1.0,4.2.3,com.google.inject.internal.cglib.proxy.$CallbackGenerator$Context,emitLoadArgsAndInvoke,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,com.google.inject:guice,,,MINOR,false
+com.google.inject:guice,4.1.0,4.2.3,com.google.inject.internal.cglib.proxy.$Enhancer$EnhancerKey,newInstance,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,com.google.inject:guice,,,MINOR,false
+com.google.inject:guice,4.1.0,4.2.3,com.google.inject.internal.cglib.proxy.$Enhancer$EnhancerKey,newInstance,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,com.google.inject:guice,,,MINOR,false
+com.google.inject:guice,4.1.0,4.2.3,com.google.inject.internal.Errors,cannotProxyClass,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,com.google.inject:guice,,,MINOR,false
+com.google.inject:guice,4.1.0,4.2.3,com.google.inject.internal.Errors,checkForNull,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,com.google.inject:guice,,,MINOR,false
+com.google.inject:guice,4.1.0,4.2.3,com.google.inject.internal.Errors,circularDependenciesDisabled,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,com.google.inject:guice,,,MINOR,false
+com.google.inject:guice,4.1.0,4.2.3,com.google.inject.internal.Errors,errorInjectingConstructor,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,com.google.inject:guice,,,MINOR,false
+com.google.inject:guice,4.1.0,4.2.3,com.google.inject.internal.Errors,errorInjectingMethod,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,com.google.inject:guice,,,MINOR,false
+com.google.inject:guice,4.1.0,4.2.3,com.google.inject.internal.Errors,errorInProvider,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,com.google.inject:guice,,,MINOR,false
+com.google.inject:guice,4.1.0,4.2.3,com.google.inject.internal.Errors,errorInUserInjector,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,com.google.inject:guice,,,MINOR,false
+com.google.inject:guice,4.1.0,4.2.3,com.google.inject.internal.Errors,errorNotifyingInjectionListener,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,com.google.inject:guice,,,MINOR,false
+com.google.inject:guice,4.1.0,4.2.3,com.google.inject.internal.Errors,format,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,com.google.inject:guice,,,MINOR,false
+com.google.inject:guice,4.1.0,4.2.3,com.google.inject.internal.Errors,formatInjectionPoint,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,com.google.inject:guice,,,MINOR,false
+com.google.inject:guice,4.1.0,4.2.3,com.google.inject.internal.Errors,formatSource,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,com.google.inject:guice,,,MINOR,false
+com.google.inject:guice,4.1.0,4.2.3,com.google.inject.internal.Errors,getOnlyCause,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,com.google.inject:guice,,,MINOR,false
+com.google.inject:guice,4.1.0,4.2.3,com.google.inject.internal.Errors,getSources,METHOD_CHANGE,METHOD_LESS_ACCESSIBLE,false,false,false,1,com.google.inject:guice,,,MINOR,false
+com.google.inject:guice,4.1.0,4.2.3,com.google.inject.internal.Errors,missingConstructor,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,com.google.inject:guice,,,MINOR,false
+com.google.inject:guice,4.1.0,4.2.3,com.google.inject.internal.Errors,subtypeNotProvided,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,com.google.inject:guice,,,MINOR,false
+com.google.inject:guice,4.1.0,4.2.3,com.google.inject.internal.ProviderMethod,get,METHOD_CHANGE,METHOD_NOW_FINAL; METHOD_MOVED_TO_SUPERCLASS,false,false,false,1,com.google.inject:guice,,,MINOR,false
+com.google.inject:guice,4.1.0,4.2.3,com.google.inject.internal.ProviderMethodsModule,getDelegateModule,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,com.google.inject:guice,,,MINOR,false
+com.google.inject:guice,4.1.0,4.2.3,com.google.inject.internal.ProvisionListenerStackCallback$ProvisionCallback,call,METHOD_CHANGE,METHOD_NO_LONGER_THROWS_CHECKED_EXCEPTION; METHOD_NOW_THROWS_CHECKED_EXCEPTION,true,false,false,1,com.google.inject:guice,,,MINOR,false
+com.google.inject:guice,4.1.0,4.2.3,com.google.inject.util.Modules$OverriddenModuleBuilder,with,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE; ANNOTATION_DEPRECATED_ADDED,true,false,false,1,com.google.inject:guice,,,MINOR,false
+org.yaml:snakeyaml,1.21,2.2,org.yaml.snakeyaml.composer.Composer,composeScalarNode,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.testng:testng,7.5.1,7.11.0,PATCH,false
+org.yaml:snakeyaml,1.21,2.2,org.yaml.snakeyaml.composer.Composer,Composer,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.testng:testng,7.5.1,7.11.0,PATCH,false
+org.yaml:snakeyaml,1.21,2.2,org.yaml.snakeyaml.constructor.BaseConstructor,newInstance,METHOD_CHANGE,METHOD_NO_LONGER_THROWS_CHECKED_EXCEPTION,true,false,true,2,org.testng:testng,7.5.1,7.11.0,PATCH,false
+org.yaml:snakeyaml,1.21,2.2,org.yaml.snakeyaml.constructor.BaseConstructor,newInstance,METHOD_CHANGE,METHOD_NO_LONGER_THROWS_CHECKED_EXCEPTION,true,false,true,2,org.testng:testng,7.5.1,7.11.0,PATCH,false
+org.yaml:snakeyaml,1.21,2.2,org.yaml.snakeyaml.constructor.BaseConstructor,BaseConstructor,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.testng:testng,7.5.1,7.11.0,PATCH,false
+org.yaml:snakeyaml,1.21,2.2,org.yaml.snakeyaml.constructor.Constructor,Constructor,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.testng:testng,7.5.1,7.11.0,PATCH,false
+org.yaml:snakeyaml,1.21,2.2,org.yaml.snakeyaml.constructor.Constructor,Constructor,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.testng:testng,7.5.1,7.11.0,PATCH,false
+org.yaml:snakeyaml,1.21,2.2,org.yaml.snakeyaml.constructor.Constructor,Constructor,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.testng:testng,7.5.1,7.11.0,PATCH,false
+org.yaml:snakeyaml,1.21,2.2,org.yaml.snakeyaml.constructor.Constructor,Constructor,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.testng:testng,7.5.1,7.11.0,PATCH,false
+org.yaml:snakeyaml,1.21,2.2,org.yaml.snakeyaml.constructor.Constructor,Constructor,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.testng:testng,7.5.1,7.11.0,PATCH,false
+org.yaml:snakeyaml,1.21,2.2,org.yaml.snakeyaml.constructor.CustomClassLoaderConstructor,CustomClassLoaderConstructor,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.testng:testng,7.5.1,7.11.0,PATCH,false
+org.yaml:snakeyaml,1.21,2.2,org.yaml.snakeyaml.constructor.CustomClassLoaderConstructor,CustomClassLoaderConstructor,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.testng:testng,7.5.1,7.11.0,PATCH,false
+org.yaml:snakeyaml,1.21,2.2,org.yaml.snakeyaml.constructor.SafeConstructor,SafeConstructor,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.testng:testng,7.5.1,7.11.0,PATCH,false
+org.yaml:snakeyaml,1.21,2.2,org.yaml.snakeyaml.DumperOptions$FlowStyle,getStyleBoolean,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.testng:testng,7.5.1,7.11.0,PATCH,false
+org.yaml:snakeyaml,1.21,2.2,org.yaml.snakeyaml.emitter.ScalarAnalysis,allowFlowPlain,FIELD_CHANGE,FIELD_LESS_ACCESSIBLE; FIELD_NOW_FINAL,false,false,true,2,org.testng:testng,7.5.1,7.11.0,PATCH,false
+org.yaml:snakeyaml,1.21,2.2,org.yaml.snakeyaml.emitter.ScalarAnalysis,allowSingleQuoted,FIELD_CHANGE,FIELD_LESS_ACCESSIBLE; FIELD_NOW_FINAL,false,false,true,2,org.testng:testng,7.5.1,7.11.0,PATCH,false
+org.yaml:snakeyaml,1.21,2.2,org.yaml.snakeyaml.emitter.ScalarAnalysis,scalar,FIELD_CHANGE,FIELD_LESS_ACCESSIBLE; FIELD_NOW_FINAL,false,false,true,2,org.testng:testng,7.5.1,7.11.0,PATCH,false
+org.yaml:snakeyaml,1.21,2.2,org.yaml.snakeyaml.emitter.ScalarAnalysis,multiline,FIELD_CHANGE,FIELD_LESS_ACCESSIBLE; FIELD_NOW_FINAL,false,false,true,2,org.testng:testng,7.5.1,7.11.0,PATCH,false
+org.yaml:snakeyaml,1.21,2.2,org.yaml.snakeyaml.emitter.ScalarAnalysis,allowBlockPlain,FIELD_CHANGE,FIELD_LESS_ACCESSIBLE; FIELD_NOW_FINAL,false,false,true,2,org.testng:testng,7.5.1,7.11.0,PATCH,false
+org.yaml:snakeyaml,1.21,2.2,org.yaml.snakeyaml.emitter.ScalarAnalysis,allowBlock,FIELD_CHANGE,FIELD_LESS_ACCESSIBLE; FIELD_NOW_FINAL,false,false,true,2,org.testng:testng,7.5.1,7.11.0,PATCH,false
+org.yaml:snakeyaml,1.21,2.2,org.yaml.snakeyaml.emitter.ScalarAnalysis,empty,FIELD_CHANGE,FIELD_LESS_ACCESSIBLE; FIELD_NOW_FINAL,false,false,true,2,org.testng:testng,7.5.1,7.11.0,PATCH,false
+org.yaml:snakeyaml,1.21,2.2,org.yaml.snakeyaml.events.CollectionEndEvent,org.yaml.snakeyaml.events.CollectionEndEvent,CLASS_CHANGE,METHOD_ABSTRACT_ADDED_IN_SUPERCLASS,true,false,true,2,org.testng:testng,7.5.1,7.11.0,PATCH,false
+org.yaml:snakeyaml,1.21,2.2,org.yaml.snakeyaml.events.CollectionStartEvent,org.yaml.snakeyaml.events.CollectionStartEvent,CLASS_CHANGE,METHOD_ABSTRACT_ADDED_IN_SUPERCLASS,true,false,true,2,org.testng:testng,7.5.1,7.11.0,PATCH,false
+org.yaml:snakeyaml,1.21,2.2,org.yaml.snakeyaml.events.Event,getEventId,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,true,2,org.testng:testng,7.5.1,7.11.0,PATCH,false
+org.yaml:snakeyaml,1.21,2.2,org.yaml.snakeyaml.events.NodeEvent,org.yaml.snakeyaml.events.NodeEvent,CLASS_CHANGE,METHOD_ABSTRACT_ADDED_IN_SUPERCLASS,true,false,true,2,org.testng:testng,7.5.1,7.11.0,PATCH,false
+org.yaml:snakeyaml,1.21,2.2,org.yaml.snakeyaml.events.ScalarEvent,getStyle,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.testng:testng,7.5.1,7.11.0,PATCH,false
+org.yaml:snakeyaml,1.21,2.2,org.yaml.snakeyaml.LoaderOptions,isAllowDuplicateKeys,METHOD_CHANGE,METHOD_NOW_FINAL,false,false,true,2,org.testng:testng,7.5.1,7.11.0,PATCH,false
+org.yaml:snakeyaml,1.21,2.2,org.yaml.snakeyaml.nodes.ScalarNode,getStyle,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.testng:testng,7.5.1,7.11.0,PATCH,false
+org.yaml:snakeyaml,1.21,2.2,org.yaml.snakeyaml.nodes.Tag,COMPATIBILITY_MAP,FIELD_CHANGE,FIELD_LESS_ACCESSIBLE,false,false,true,2,org.testng:testng,7.5.1,7.11.0,PATCH,false
+org.yaml:snakeyaml,1.21,2.2,org.yaml.snakeyaml.nodes.Tag,Tag,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.testng:testng,7.5.1,7.11.0,PATCH,false
+org.yaml:snakeyaml,1.21,2.2,org.yaml.snakeyaml.parser.ParserImpl,ParserImpl,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.testng:testng,7.5.1,7.11.0,PATCH,false
+org.yaml:snakeyaml,1.21,2.2,org.yaml.snakeyaml.representer.Representer,Representer,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.testng:testng,7.5.1,7.11.0,PATCH,false
+org.yaml:snakeyaml,1.21,2.2,org.yaml.snakeyaml.scanner.Constant,FULL_LINEBR,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,org.testng:testng,7.5.1,7.11.0,PATCH,false
+org.yaml:snakeyaml,1.21,2.2,org.yaml.snakeyaml.scanner.Scanner,resetDocumentIndex,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.testng:testng,7.5.1,7.11.0,PATCH,false
+org.yaml:snakeyaml,1.21,2.2,org.yaml.snakeyaml.scanner.ScannerImpl,ScannerImpl,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.testng:testng,7.5.1,7.11.0,PATCH,false
+org.yaml:snakeyaml,1.21,2.2,org.yaml.snakeyaml.tokens.CommentToken,org.yaml.snakeyaml.tokens.CommentToken,CLASS_CHANGE,CLASS_NOW_FINAL,false,false,true,2,org.testng:testng,7.5.1,7.11.0,PATCH,false
+org.yaml:snakeyaml,1.21,2.2,org.yaml.snakeyaml.tokens.CommentToken,CommentToken,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.testng:testng,7.5.1,7.11.0,PATCH,false
+org.yaml:snakeyaml,1.21,2.2,org.yaml.snakeyaml.tokens.WhitespaceToken,org.yaml.snakeyaml.tokens.WhitespaceToken,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.testng:testng,7.5.1,7.11.0,PATCH,false
+org.yaml:snakeyaml,1.21,2.2,org.yaml.snakeyaml.tokens.WhitespaceToken,getTokenId,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.testng:testng,7.5.1,7.11.0,PATCH,false
+org.yaml:snakeyaml,1.21,2.2,org.yaml.snakeyaml.tokens.WhitespaceToken,WhitespaceToken,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.testng:testng,7.5.1,7.11.0,PATCH,false
+org.yaml:snakeyaml,1.21,2.2,org.yaml.snakeyaml.TypeDescription,getListPropertyType,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.testng:testng,7.5.1,7.11.0,PATCH,false
+org.yaml:snakeyaml,1.21,2.2,org.yaml.snakeyaml.TypeDescription,getMapKeyType,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.testng:testng,7.5.1,7.11.0,PATCH,false
+org.yaml:snakeyaml,1.21,2.2,org.yaml.snakeyaml.TypeDescription,getMapValueType,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.testng:testng,7.5.1,7.11.0,PATCH,false
+org.yaml:snakeyaml,1.21,2.2,org.yaml.snakeyaml.TypeDescription,setTag,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.testng:testng,7.5.1,7.11.0,PATCH,false
+org.yaml:snakeyaml,1.21,2.2,org.yaml.snakeyaml.TypeDescription,setTag,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.testng:testng,7.5.1,7.11.0,PATCH,false
+com.google.inject:guice,5.0.1,5.1.0,com.google.inject.internal.aop.ClassDefining,isAnonymousHost,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.testng:testng,7.5.1,7.11.0,MINOR,false
+com.google.inject:guice,5.0.1,5.1.0,com.google.inject.internal.InternalFlags$IncludeStackTraceOption,COMPLETE,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,org.testng:testng,7.5.1,7.11.0,MINOR,false
+com.google.inject:guice,5.0.1,5.1.0,com.google.inject.internal.KotlinSupportInterface,isLocalClass,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.testng:testng,7.5.1,7.11.0,MINOR,false
+com.google.inject:guice,5.0.1,5.1.0,com.google.inject.spi.ElementSource,getModuleConfigurePositionsInStackTrace,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.testng:testng,7.5.1,7.11.0,MINOR,false
+com.google.inject:guice,5.0.1,5.1.0,com.google.inject.spi.ElementSource,getStackTrace,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.testng:testng,7.5.1,7.11.0,MINOR,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.base.CharMatcher,JAVA_DIGIT,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.base.CharMatcher,BREAKING_WHITESPACE,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.base.CharMatcher,JAVA_LETTER_OR_DIGIT,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.base.CharMatcher,JAVA_LOWER_CASE,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.base.CharMatcher,ASCII,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.base.CharMatcher,JAVA_ISO_CONTROL,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.base.CharMatcher,ANY,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.base.CharMatcher,DIGIT,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.base.CharMatcher,INVISIBLE,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.base.CharMatcher,SINGLE_WIDTH,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.base.CharMatcher,WHITESPACE,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.base.CharMatcher,JAVA_UPPER_CASE,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.base.CharMatcher,JAVA_LETTER,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.base.CharMatcher,NONE,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.base.internal.Finalizer,getInheritableThreadLocalsField,METHOD_CHANGE,METHOD_LESS_ACCESSIBLE,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.base.Objects,firstNonNull,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.base.Objects,toStringHelper,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.base.Objects,toStringHelper,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.base.Objects,toStringHelper,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.base.Objects$ToStringHelper,com.google.common.base.Objects$ToStringHelper,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.base.Objects$ToStringHelper,add,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.base.Objects$ToStringHelper,add,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.base.Objects$ToStringHelper,add,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.base.Objects$ToStringHelper,add,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.base.Objects$ToStringHelper,add,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.base.Objects$ToStringHelper,add,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.base.Objects$ToStringHelper,add,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.base.Objects$ToStringHelper,addValue,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.base.Objects$ToStringHelper,addValue,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.base.Objects$ToStringHelper,addValue,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.base.Objects$ToStringHelper,addValue,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.base.Objects$ToStringHelper,addValue,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.base.Objects$ToStringHelper,addValue,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.base.Objects$ToStringHelper,addValue,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.base.Objects$ToStringHelper,omitNullValues,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.base.Objects$ToStringHelper,toString,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.base.Predicates,assignableFrom,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.collect.BinaryTreeTraverser,com.google.common.collect.BinaryTreeTraverser,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.collect.BinaryTreeTraverser,children,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.collect.BinaryTreeTraverser,inOrderTraversal,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.collect.BinaryTreeTraverser,leftChild,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.collect.BinaryTreeTraverser,rightChild,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.collect.BinaryTreeTraverser,BinaryTreeTraverser,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.collect.BoundType,com.google.common.collect.BoundType,CLASS_CHANGE,CLASS_NOW_FINAL,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.collect.ConcurrentHashMultiset,add,METHOD_CHANGE,METHOD_NOW_FINAL; METHOD_MOVED_TO_SUPERCLASS,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.collect.ConcurrentHashMultiset,addAll,METHOD_CHANGE,METHOD_NOW_FINAL; METHOD_MOVED_TO_SUPERCLASS,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.collect.ConcurrentHashMultiset,create,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.collect.ConcurrentHashMultiset,equals,METHOD_CHANGE,METHOD_NOW_FINAL; METHOD_MOVED_TO_SUPERCLASS,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.collect.ConcurrentHashMultiset,hashCode,METHOD_CHANGE,METHOD_NOW_FINAL; METHOD_MOVED_TO_SUPERCLASS,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.collect.ConcurrentHashMultiset,remove,METHOD_CHANGE,METHOD_NOW_FINAL; METHOD_MOVED_TO_SUPERCLASS,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.collect.ConcurrentHashMultiset,removeAll,METHOD_CHANGE,METHOD_NOW_FINAL; METHOD_MOVED_TO_SUPERCLASS,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.collect.ConcurrentHashMultiset,retainAll,METHOD_CHANGE,METHOD_NOW_FINAL; METHOD_MOVED_TO_SUPERCLASS,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.collect.ConcurrentHashMultiset,toString,METHOD_CHANGE,METHOD_NOW_FINAL; METHOD_MOVED_TO_SUPERCLASS,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.collect.EnumMultiset,addAll,METHOD_CHANGE,METHOD_NOW_FINAL; METHOD_MOVED_TO_SUPERCLASS,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.collect.EnumMultiset,equals,METHOD_CHANGE,METHOD_NOW_FINAL; METHOD_MOVED_TO_SUPERCLASS,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.collect.EnumMultiset,hashCode,METHOD_CHANGE,METHOD_NOW_FINAL; METHOD_MOVED_TO_SUPERCLASS,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.collect.EnumMultiset,remove,METHOD_CHANGE,METHOD_NOW_FINAL; METHOD_MOVED_TO_SUPERCLASS,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.collect.EnumMultiset,removeAll,METHOD_CHANGE,METHOD_NOW_FINAL; METHOD_MOVED_TO_SUPERCLASS,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.collect.EnumMultiset,retainAll,METHOD_CHANGE,METHOD_NOW_FINAL; METHOD_MOVED_TO_SUPERCLASS,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.collect.EnumMultiset,toString,METHOD_CHANGE,METHOD_NOW_FINAL; METHOD_MOVED_TO_SUPERCLASS,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.collect.FluentIterable,of,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.collect.HashMultiset,add,METHOD_CHANGE,METHOD_NOW_FINAL; METHOD_MOVED_TO_SUPERCLASS,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.collect.HashMultiset,addAll,METHOD_CHANGE,METHOD_NOW_FINAL; METHOD_MOVED_TO_SUPERCLASS,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.collect.HashMultiset,equals,METHOD_CHANGE,METHOD_NOW_FINAL; METHOD_MOVED_TO_SUPERCLASS,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.collect.HashMultiset,hashCode,METHOD_CHANGE,METHOD_NOW_FINAL; METHOD_MOVED_TO_SUPERCLASS,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.collect.HashMultiset,remove,METHOD_CHANGE,METHOD_NOW_FINAL; METHOD_MOVED_TO_SUPERCLASS,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.collect.HashMultiset,removeAll,METHOD_CHANGE,METHOD_NOW_FINAL; METHOD_MOVED_TO_SUPERCLASS,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.collect.HashMultiset,retainAll,METHOD_CHANGE,METHOD_NOW_FINAL; METHOD_MOVED_TO_SUPERCLASS,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.collect.HashMultiset,toString,METHOD_CHANGE,METHOD_NOW_FINAL; METHOD_MOVED_TO_SUPERCLASS,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.collect.ImmutableList$Builder,add,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.collect.ImmutableMultiset,com.google.common.collect.ImmutableMultiset,CLASS_CHANGE,METHOD_ABSTRACT_ADDED_IN_IMPLEMENTED_INTERFACE; METHOD_DEFAULT_ADDED_IN_IMPLEMENTED_INTERFACE,true,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.collect.ImmutableMultiset,elementSet,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.collect.ImmutableSet$Builder,add,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.collect.ImmutableSortedMultiset,com.google.common.collect.ImmutableSortedMultiset,CLASS_CHANGE,METHOD_ABSTRACT_ADDED_IN_SUPERCLASS; METHOD_ABSTRACT_ADDED_IN_IMPLEMENTED_INTERFACE; METHOD_DEFAULT_ADDED_IN_IMPLEMENTED_INTERFACE,true,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.collect.ImmutableSortedSet$Builder,add,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.collect.Iterators,emptyIterator,METHOD_CHANGE,METHOD_LESS_ACCESSIBLE; ANNOTATION_REMOVED,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.collect.LinkedHashMultiset,add,METHOD_CHANGE,METHOD_NOW_FINAL; METHOD_MOVED_TO_SUPERCLASS,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.collect.LinkedHashMultiset,addAll,METHOD_CHANGE,METHOD_NOW_FINAL; METHOD_MOVED_TO_SUPERCLASS,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.collect.LinkedHashMultiset,equals,METHOD_CHANGE,METHOD_NOW_FINAL; METHOD_MOVED_TO_SUPERCLASS,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.collect.LinkedHashMultiset,hashCode,METHOD_CHANGE,METHOD_NOW_FINAL; METHOD_MOVED_TO_SUPERCLASS,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.collect.LinkedHashMultiset,remove,METHOD_CHANGE,METHOD_NOW_FINAL; METHOD_MOVED_TO_SUPERCLASS,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.collect.LinkedHashMultiset,removeAll,METHOD_CHANGE,METHOD_NOW_FINAL; METHOD_MOVED_TO_SUPERCLASS,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.collect.LinkedHashMultiset,retainAll,METHOD_CHANGE,METHOD_NOW_FINAL; METHOD_MOVED_TO_SUPERCLASS,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.collect.LinkedHashMultiset,toString,METHOD_CHANGE,METHOD_NOW_FINAL; METHOD_MOVED_TO_SUPERCLASS,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.collect.MapConstraint,com.google.common.collect.MapConstraint,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.collect.MapConstraint,checkKeyValue,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.collect.MapConstraint,toString,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.collect.MapConstraints,com.google.common.collect.MapConstraints,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.collect.MapConstraints,constrainedBiMap,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.collect.MapConstraints,constrainedListMultimap,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.collect.MapConstraints,constrainedMap,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.collect.MapConstraints,constrainedMultimap,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.collect.MapConstraints,constrainedSetMultimap,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.collect.MapConstraints,constrainedSortedSetMultimap,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.collect.MapConstraints,notNull,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.collect.MapMaker,concurrencyLevel,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.collect.MapMaker,initialCapacity,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.collect.MapMaker,weakKeys,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.collect.MapMaker,weakValues,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.collect.Multiset,size,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.collect.RangeMap,putCoalescing,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.collect.RangeSet,intersects,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.collect.Sets$SetView,iterator,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.collect.SortedLists$KeyAbsentBehavior,com.google.common.collect.SortedLists$KeyAbsentBehavior,CLASS_CHANGE,CLASS_NO_LONGER_PUBLIC; CLASS_LESS_ACCESSIBLE,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.collect.SortedLists$KeyPresentBehavior,com.google.common.collect.SortedLists$KeyPresentBehavior,CLASS_CHANGE,CLASS_NO_LONGER_PUBLIC; CLASS_LESS_ACCESSIBLE,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.collect.TreeMultiset,add,METHOD_CHANGE,METHOD_NOW_FINAL; METHOD_MOVED_TO_SUPERCLASS,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.collect.TreeMultiset,addAll,METHOD_CHANGE,METHOD_NOW_FINAL; METHOD_MOVED_TO_SUPERCLASS,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.collect.TreeMultiset,equals,METHOD_CHANGE,METHOD_NOW_FINAL; METHOD_MOVED_TO_SUPERCLASS,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.collect.TreeMultiset,hashCode,METHOD_CHANGE,METHOD_NOW_FINAL; METHOD_MOVED_TO_SUPERCLASS,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.collect.TreeMultiset,remove,METHOD_CHANGE,METHOD_NOW_FINAL; METHOD_MOVED_TO_SUPERCLASS,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.collect.TreeMultiset,removeAll,METHOD_CHANGE,METHOD_NOW_FINAL; METHOD_MOVED_TO_SUPERCLASS,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.collect.TreeMultiset,retainAll,METHOD_CHANGE,METHOD_NOW_FINAL; METHOD_MOVED_TO_SUPERCLASS,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.collect.TreeMultiset,toString,METHOD_CHANGE,METHOD_NOW_FINAL; METHOD_MOVED_TO_SUPERCLASS,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.hash.AbstractStreamingHashFunction$AbstractStreamingHasher,com.google.common.hash.AbstractStreamingHashFunction$AbstractStreamingHasher,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.hash.AbstractStreamingHashFunction$AbstractStreamingHasher,process,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.hash.AbstractStreamingHashFunction$AbstractStreamingHasher,processRemaining,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.hash.AbstractStreamingHashFunction$AbstractStreamingHasher,AbstractStreamingHashFunction$AbstractStreamingHasher,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.hash.AbstractStreamingHashFunction$AbstractStreamingHasher,AbstractStreamingHashFunction$AbstractStreamingHasher,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.hash.Hasher,putBytes,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.hash.HashFunction,hashBytes,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.hash.PrimitiveSink,putBytes,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.io.BaseEncoding,canDecode,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.io.Files,fileTreeTraverser,METHOD_CHANGE,METHOD_LESS_ACCESSIBLE; ANNOTATION_DEPRECATED_ADDED,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.io.Files,map,METHOD_CHANGE,METHOD_NO_LONGER_THROWS_CHECKED_EXCEPTION,true,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.io.InputSupplier,com.google.common.io.InputSupplier,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.io.InputSupplier,getInput,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.io.LittleEndianDataOutputStream,com.google.common.io.LittleEndianDataOutputStream,CLASS_CHANGE,CLASS_NOW_FINAL,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.io.OutputSupplier,com.google.common.io.OutputSupplier,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.io.OutputSupplier,getOutput,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.net.HostAndPort,getHostText,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.reflect.Invokable,getAnnotatedReturnType,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.reflect.TypeToken,isAssignableFrom,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.reflect.TypeToken,isAssignableFrom,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.util.concurrent.FutureFallback,com.google.common.util.concurrent.FutureFallback,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.util.concurrent.FutureFallback,create,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.util.concurrent.Futures,addCallback,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.util.concurrent.Futures,catching,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.util.concurrent.Futures,catchingAsync,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.util.concurrent.Futures,dereference,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.util.concurrent.Futures,get,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.util.concurrent.Futures,get,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.util.concurrent.Futures,transform,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.util.concurrent.Futures,transform,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.util.concurrent.Futures,transform,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.util.concurrent.Futures,transformAsync,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.util.concurrent.Futures,withFallback,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.util.concurrent.Futures,withFallback,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.util.concurrent.MoreExecutors,sameThreadExecutor,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.util.concurrent.SimpleTimeLimiter,callWithTimeout,METHOD_CHANGE,METHOD_LESS_ACCESSIBLE,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.util.concurrent.SimpleTimeLimiter,SimpleTimeLimiter,CONSTRUCTOR_CHANGE,CONSTRUCTOR_LESS_ACCESSIBLE,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.util.concurrent.SimpleTimeLimiter,SimpleTimeLimiter,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.util.concurrent.TimeLimiter,callUninterruptiblyWithTimeout,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.util.concurrent.TimeLimiter,callWithTimeout,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.util.concurrent.TimeLimiter,callWithTimeout,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.util.concurrent.TimeLimiter,runUninterruptiblyWithTimeout,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+com.google.guava:guava,19.0,27.1-jre,com.google.common.util.concurrent.TimeLimiter,runWithTimeout,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,com.google.inject:guice,4.1.0,4.2.3,UNKNOWN,false
+org.ow2.asm:asm,5.0.3,7.2,org.objectweb.asm.Type,org.objectweb.asm.Type,CLASS_CHANGE,CLASS_NOW_FINAL,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,MINOR,false
+org.ow2.asm:asm,5.0.3,7.2,org.objectweb.asm.TypePath,org.objectweb.asm.TypePath,CLASS_CHANGE,CLASS_NOW_FINAL,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,MINOR,false
+cglib:cglib,3.2.0,3.3.0,net.sf.cglib.core.AbstractClassGenerator,net.sf.cglib.core.AbstractClassGenerator,CLASS_CHANGE,CLASS_GENERIC_TEMPLATE_CHANGED,true,false,true,2,com.google.inject:guice,4.1.0,4.2.3,MINOR,false
+cglib:cglib,3.2.0,3.3.0,net.sf.cglib.proxy.CallbackGenerator$Context,emitInvoke,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,MINOR,false
+cglib:cglib,3.2.0,3.3.0,net.sf.cglib.proxy.CallbackGenerator$Context,emitLoadArgsAndInvoke,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,com.google.inject:guice,4.1.0,4.2.3,MINOR,false
+cglib:cglib,3.2.0,3.3.0,net.sf.cglib.proxy.Enhancer$EnhancerKey,newInstance,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.google.inject:guice,4.1.0,4.2.3,MINOR,false
+cglib:cglib,3.2.0,3.3.0,net.sf.cglib.proxy.Enhancer$EnhancerKey,newInstance,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,com.google.inject:guice,4.1.0,4.2.3,MINOR,false

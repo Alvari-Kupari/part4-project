@@ -1,0 +1,9 @@
+=== Comparison Failure Log ===
+[2025-09-22 20:45:21] mysql:mysql-connector-java:8.0.28 -> mysql:mysql-connector-java:8.0.33 : Failed to compare JAR files: JAPICMP comparison failed for mysql:mysql-connector-java
+[2025-09-22 20:45:21] com.h2database:h2:2.1.214 -> com.h2database:h2:2.3.232 : Failed to compare JAR files: JAPICMP comparison failed for com.h2database:h2
+[2025-09-22 20:45:21] org.projectlombok:lombok:1.18.30 -> org.projectlombok:lombok:1.18.42 : Failed to compare JAR files: JAPICMP comparison failed for org.projectlombok:lombok
+
+=== Summary ===
+Total comparisons: 3
+Failures: 3
+Success rate: 0.00%

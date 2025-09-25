@@ -1,0 +1,27 @@
+=== Comparison Failure Log ===
+[2025-09-23 00:58:45] ch.qos.logback:logback-classic:1.2.13 -> ch.qos.logback:logback-classic:1.5.18 : Failed to compare JAR files: JAPICMP comparison failed for ch.qos.logback:logback-classic
+[2025-09-23 00:58:50] org.junit.jupiter:junit-jupiter-api:5.12.2 -> org.junit.jupiter:junit-jupiter-api:5.13.4 : Failed to compare JAR files: JAPICMP comparison failed for org.junit.jupiter:junit-jupiter-api
+[2025-09-23 00:58:50] org.junit.jupiter:junit-jupiter-params:5.12.2 -> org.junit.jupiter:junit-jupiter-params:5.13.4 : Failed to compare JAR files: JAPICMP comparison failed for org.junit.jupiter:junit-jupiter-params
+[2025-09-23 00:58:55] org.postgresql:postgresql:42.7.5 -> org.postgresql:postgresql:42.7.8 : Failed to compare JAR files: JAPICMP comparison failed for org.postgresql:postgresql
+[2025-09-23 00:59:05] io.zonky.test:embedded-postgres:2.1.0 -> io.zonky.test:embedded-postgres:2.1.1 : Failed to compare JAR files: JAPICMP comparison failed for io.zonky.test:embedded-postgres
+[2025-09-23 00:59:06] com.zaxxer:HikariCP:6.2.1 -> com.zaxxer:HikariCP:6.3.3 : Failed to compare JAR files: JAPICMP comparison failed for com.zaxxer:HikariCP
+[2025-09-23 00:59:11] net.ttddyy:datasource-proxy:1.10.1 -> net.ttddyy:datasource-proxy:1.11.0 : Failed to compare JAR files: JAPICMP comparison failed for net.ttddyy:datasource-proxy
+[2025-09-23 00:59:18] org.testcontainers:testcontainers:1.20.6 -> org.testcontainers:testcontainers:1.21.3 : Failed to compare JAR files: JAPICMP comparison failed for org.testcontainers:testcontainers
+[2025-09-23 00:59:20] org.testcontainers:postgresql:1.20.6 -> org.testcontainers:postgresql:1.21.3 : Failed to compare JAR files: JAPICMP comparison failed for org.testcontainers:postgresql
+[2025-09-23 00:59:21] org.testcontainers:mysql:1.20.6 -> org.testcontainers:mysql:1.21.3 : Failed to compare JAR files: JAPICMP comparison failed for org.testcontainers:mysql
+[2025-09-23 00:59:22] org.testcontainers:mariadb:1.20.6 -> org.testcontainers:mariadb:1.21.3 : Failed to compare JAR files: JAPICMP comparison failed for org.testcontainers:mariadb
+[2025-09-23 00:59:23] org.testcontainers:mssqlserver:1.20.6 -> org.testcontainers:mssqlserver:1.21.3 : Failed to compare JAR files: JAPICMP comparison failed for org.testcontainers:mssqlserver
+[2025-09-23 00:59:24] org.testcontainers:oracle-xe:1.20.6 -> org.testcontainers:oracle-xe:1.21.3 : Failed to compare JAR files: JAPICMP comparison failed for org.testcontainers:oracle-xe
+[2025-09-23 00:59:24] org.testcontainers:junit-jupiter:1.20.6 -> org.testcontainers:junit-jupiter:1.21.3 : Failed to compare JAR files: JAPICMP comparison failed for org.testcontainers:junit-jupiter
+[2025-09-23 00:59:29] com.mysql:mysql-connector-j:9.2.0 -> com.mysql:mysql-connector-j:9.4.0 : Failed to compare JAR files: JAPICMP comparison failed for com.mysql:mysql-connector-j
+[2025-09-23 00:59:42] com.microsoft.sqlserver:mssql-jdbc:12.9.0.jre8-preview -> com.microsoft.sqlserver:mssql-jdbc:12.10.1.jre11 : Failed to compare JAR files: JAPICMP comparison failed for com.microsoft.sqlserver:mssql-jdbc
+[2025-09-23 00:59:43] com.oracle.database.jdbc:ojdbc8:23.8.0.25.04 -> com.oracle.database.jdbc:ojdbc8:23.9.0.25.07 : Failed to compare JAR files: JAPICMP comparison failed for com.oracle.database.jdbc:ojdbc8
+[2025-09-23 00:59:51] org.mariadb.jdbc:mariadb-java-client:3.5.3 -> org.mariadb.jdbc:mariadb-java-client:3.5.6 : Failed to compare JAR files: JAPICMP comparison failed for org.mariadb.jdbc:mariadb-java-client
+[2025-09-23 00:59:51] org.mockito:mockito-core:5.17.0 -> org.mockito:mockito-core:5.20.0 : Failed to compare JAR files: JAPICMP comparison failed for org.mockito:mockito-core
+[2025-09-23 00:59:56] net.bytebuddy:byte-buddy:1.17.5 -> net.bytebuddy:byte-buddy:1.17.7 : Failed to compare JAR files: JAPICMP comparison failed for net.bytebuddy:byte-buddy
+[2025-09-23 00:59:57] net.bytebuddy:byte-buddy-agent:1.17.5 -> net.bytebuddy:byte-buddy-agent:1.17.7 : Failed to compare JAR files: JAPICMP comparison failed for net.bytebuddy:byte-buddy-agent
+
+=== Summary ===
+Total comparisons: 86
+Failures: 21
+Success rate: 75.58%

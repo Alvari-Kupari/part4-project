@@ -1,0 +1,10 @@
+=== Comparison Failure Log ===
+[2025-09-22 23:44:18] org.springframework:spring-webmvc:6.2.9 -> org.springframework:spring-webmvc:6.2.11 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-webmvc
+[2025-09-22 23:44:18] org.springframework:spring-webflux:6.2.9 -> org.springframework:spring-webflux:6.2.11 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-webflux
+[2025-09-22 23:44:41] org.springframework:spring-aspects:6.2.9 -> org.springframework:spring-aspects:6.2.11 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-aspects
+[2025-09-22 23:44:51] org.projectlombok:lombok:1.18.30 -> org.projectlombok:lombok:1.18.42 : Failed to compare JAR files: JAPICMP comparison failed for org.projectlombok:lombok
+
+=== Summary ===
+Total comparisons: 125
+Failures: 4
+Success rate: 96.80%

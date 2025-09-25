@@ -1,0 +1,12 @@
+=== Comparison Failure Log ===
+[2025-09-23 00:17:48] org.springframework:spring-context:6.1.16 -> org.springframework:spring-context:6.2.11 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-context
+[2025-09-23 00:18:14] org.springframework:spring-webmvc:6.1.16 -> org.springframework:spring-webmvc:6.2.11 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-webmvc
+[2025-09-23 00:19:47] org.springframework.security:spring-security-core:6.3.6 -> org.springframework.security:spring-security-core:6.5.5 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.security:spring-security-core
+[2025-09-23 00:19:47] com.alibaba:fastjson:1.2.83 -> com.alibaba:fastjson:1.2.83_noneautotype : Failed to compare JAR files: JAPICMP comparison failed for com.alibaba:fastjson
+[2025-09-23 00:19:51] org.projectlombok:lombok:1.18.36 -> org.projectlombok:lombok:1.18.42 : Failed to compare JAR files: JAPICMP comparison failed for org.projectlombok:lombok
+[2025-09-23 00:19:51] cn.hutool:hutool-all:5.8.26 -> cn.hutool:hutool-all:5.8.40 : Failed to compare JAR files: JAPICMP comparison failed for cn.hutool:hutool-all
+
+=== Summary ===
+Total comparisons: 90
+Failures: 6
+Success rate: 93.33%

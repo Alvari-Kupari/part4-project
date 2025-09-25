@@ -1,0 +1,15 @@
+=== Comparison Failure Log ===
+[2025-09-22 17:44:18] org.projectlombok:lombok:1.18.38 -> org.projectlombok:lombok:1.18.42 : Failed to compare JAR files: JAPICMP comparison failed for org.projectlombok:lombok
+[2025-09-22 17:44:21] org.springframework.data:spring-data-jpa:3.5.1 -> org.springframework.data:spring-data-jpa:3.5.4 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.data:spring-data-jpa
+[2025-09-22 17:44:27] org.hibernate.orm:hibernate-core:6.6.18.Final -> org.hibernate.orm:hibernate-core:7.0.0.CR2 : Failed to compare JAR files: JAPICMP comparison failed for org.hibernate.orm:hibernate-core
+[2025-09-22 17:44:33] com.querydsl:querydsl-jpa:5.0.0 -> com.querydsl:querydsl-jpa:5.1.0 : Failed to compare JAR files: JAPICMP comparison failed for com.querydsl:querydsl-jpa
+[2025-09-22 17:44:34] org.assertj:assertj-core:3.27.3 -> org.assertj:assertj-core:3.27.5 : Failed to compare JAR files: JAPICMP comparison failed for org.assertj:assertj-core
+[2025-09-22 17:44:57] org.springframework:spring-test:6.2.8 -> org.springframework:spring-test:6.2.11 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework:spring-test
+[2025-09-22 17:44:58] com.mysql:mysql-connector-j:9.2.0 -> com.mysql:mysql-connector-j:9.4.0 : Failed to compare JAR files: JAPICMP comparison failed for com.mysql:mysql-connector-j
+[2025-09-22 17:45:02] org.postgresql:postgresql:42.7.7 -> org.postgresql:postgresql:42.7.8 : Failed to compare JAR files: JAPICMP comparison failed for org.postgresql:postgresql
+[2025-09-22 17:45:08] com.microsoft.sqlserver:mssql-jdbc:12.10.0.jre11 -> com.microsoft.sqlserver:mssql-jdbc:12.10.1.jre11 : Failed to compare JAR files: JAPICMP comparison failed for com.microsoft.sqlserver:mssql-jdbc
+
+=== Summary ===
+Total comparisons: 81
+Failures: 9
+Success rate: 88.89%

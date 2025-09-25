@@ -1,0 +1,6 @@
+Library_Name,Symbol_Type,Class_Name,Symbol_Name,Usage_Location,Line_Number
+JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.lang.String,String,C:\Users\tyin363\Documents\repos\apache__flink-kubernetes-operator\examples\kubernetes-client-examples\src\main\java\org\apache\flink\examples\Basic.java,40
+JDK:java.base:N/A:N/A,MethodCallExpr,java.util.Map,ofEntries,C:\Users\tyin363\Documents\repos\apache__flink-kubernetes-operator\examples\kubernetes-client-examples\src\main\java\org\apache\flink\examples\Basic.java,51
+JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.util.Map,Map,C:\Users\tyin363\Documents\repos\apache__flink-kubernetes-operator\examples\kubernetes-client-examples\src\main\java\org\apache\flink\examples\Basic.java,50
+JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.lang.String,String,C:\Users\tyin363\Documents\repos\apache__flink-kubernetes-operator\examples\kubernetes-client-examples\src\main\java\org\apache\flink\examples\Basic.java,50
+JDK:java.base:N/A:N/A,MethodCallExpr,java.util.Map,entry,C:\Users\tyin363\Documents\repos\apache__flink-kubernetes-operator\examples\kubernetes-client-examples\src\main\java\org\apache\flink\examples\Basic.java,51

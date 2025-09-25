@@ -1,0 +1,9 @@
+=== Comparison Failure Log ===
+[2025-09-22 20:43:14] com.mysql:mysql-connector-j:9.2.0 -> com.mysql:mysql-connector-j:9.4.0 : Failed to compare JAR files: JAPICMP comparison failed for com.mysql:mysql-connector-j
+[2025-09-22 20:43:20] org.projectlombok:lombok:1.18.30 -> org.projectlombok:lombok:1.18.42 : Failed to compare JAR files: JAPICMP comparison failed for org.projectlombok:lombok
+[2025-09-22 20:43:34] com.alibaba.fastjson2:fastjson2-extension-spring5:2.0.54 -> com.alibaba.fastjson2:fastjson2-extension-spring5:2.0.59 : Failed to compare JAR files: JAPICMP comparison failed for com.alibaba.fastjson2:fastjson2-extension-spring5
+
+=== Summary ===
+Total comparisons: 86
+Failures: 3
+Success rate: 96.51%

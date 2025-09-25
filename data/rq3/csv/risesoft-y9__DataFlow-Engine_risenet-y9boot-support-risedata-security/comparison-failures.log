@@ -1,0 +1,8 @@
+=== Comparison Failure Log ===
+[2025-09-23 08:27:44] commons-fileupload:commons-fileupload:1.5 -> commons-fileupload:commons-fileupload:1.6.0 : Failed to compare JAR files: JAPICMP comparison failed for commons-fileupload:commons-fileupload
+[2025-09-23 08:27:45] org.projectlombok:lombok:1.18.30 -> org.projectlombok:lombok:1.18.42 : Failed to compare JAR files: JAPICMP comparison failed for org.projectlombok:lombok
+
+=== Summary ===
+Total comparisons: 6
+Failures: 2
+Success rate: 66.67%

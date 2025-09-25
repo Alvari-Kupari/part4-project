@@ -1,0 +1,7 @@
+=== Comparison Failure Log ===
+[2025-09-22 14:06:03] org.testng:testng:6.0.1 -> org.testng:testng:6.14.3 : Failed to compare JAR files: JAPICMP comparison failed for org.testng:testng
+
+=== Summary ===
+Total comparisons: 8
+Failures: 1
+Success rate: 87.50%

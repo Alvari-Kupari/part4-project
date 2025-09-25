@@ -1,0 +1,9 @@
+=== Comparison Failure Log ===
+[2025-09-22 22:09:49] com.google.api-client:google-api-client-appengine:1.26.1 -> com.google.api-client:google-api-client-appengine:1.35.2 : Failed to compare JAR files: JAPICMP comparison failed for com.google.api-client:google-api-client-appengine
+[2025-09-22 22:09:50] com.sun.xml.ws:jaxws-ri:2.3.2 -> com.sun.xml.ws:jaxws-ri:2.3.7 : Failed to compare JAR files: JAPICMP comparison failed for com.sun.xml.ws:jaxws-ri
+[2025-09-22 22:09:51] org.mockito:mockito-core:3.2.0 -> org.mockito:mockito-core:3.12.4 : Failed to compare JAR files: JAPICMP comparison failed for org.mockito:mockito-core
+
+=== Summary ===
+Total comparisons: 4
+Failures: 3
+Success rate: 25.00%

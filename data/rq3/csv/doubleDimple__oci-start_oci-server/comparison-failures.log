@@ -1,0 +1,8 @@
+=== Comparison Failure Log ===
+[2025-09-22 19:00:54] com.oracle.oci.sdk:oci-java-sdk-common-httpclient-jersey:3.49.0 -> com.oracle.oci.sdk:oci-java-sdk-common-httpclient-jersey:3.73.1 : Failed to compare JAR files: JAPICMP comparison failed for com.oracle.oci.sdk:oci-java-sdk-common-httpclient-jersey
+[2025-09-22 19:00:55] org.projectlombok:lombok:1.18.24 -> org.projectlombok:lombok:1.18.42 : Failed to compare JAR files: JAPICMP comparison failed for org.projectlombok:lombok
+
+=== Summary ===
+Total comparisons: 47
+Failures: 2
+Success rate: 95.74%

@@ -1,0 +1,9 @@
+=== Comparison Failure Log ===
+[2025-09-22 20:33:56] org.codehaus.groovy:groovy-all:2.4.21 -> org.codehaus.groovy:groovy-all:2.5.23 : Failed to resolve any JAR files for new dependency: org.codehaus.groovy:groovy-all:2.5.23 (old version resolved 20 JARs)
+[2025-09-22 20:33:58] net.bytebuddy:byte-buddy-agent:1.17.0 -> net.bytebuddy:byte-buddy-agent:1.17.7 : Failed to compare JAR files: JAPICMP comparison failed for net.bytebuddy:byte-buddy-agent
+[2025-09-22 20:33:59] net.bytebuddy:byte-buddy:1.17.0 -> net.bytebuddy:byte-buddy:1.17.7 : Failed to compare JAR files: JAPICMP comparison failed for net.bytebuddy:byte-buddy
+
+=== Summary ===
+Total comparisons: 4
+Failures: 3
+Success rate: 25.00%

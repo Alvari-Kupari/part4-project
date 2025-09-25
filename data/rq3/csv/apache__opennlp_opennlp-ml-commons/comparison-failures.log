@@ -1,0 +1,16 @@
+=== Comparison Failure Log ===
+[2025-09-22 14:48:40] org.junit.jupiter:junit-jupiter-api:5.13.3 -> org.junit.jupiter:junit-jupiter-api:5.13.4 : Failed to compare JAR files: JAPICMP comparison failed for org.junit.jupiter:junit-jupiter-api
+[2025-09-22 14:48:41] org.junit.jupiter:junit-jupiter-params:5.13.3 -> org.junit.jupiter:junit-jupiter-params:5.13.4 : Failed to compare JAR files: JAPICMP comparison failed for org.junit.jupiter:junit-jupiter-params
+
+=== Summary ===
+Total comparisons: 7
+Failures: 2
+Success rate: 71.43%
+=== Comparison Failure Log ===
+[2025-09-22 14:49:10] org.junit.jupiter:junit-jupiter-api:5.13.3 -> org.junit.jupiter:junit-jupiter-api:5.13.4 : Failed to compare JAR files: JAPICMP comparison failed for org.junit.jupiter:junit-jupiter-api
+[2025-09-22 14:49:11] org.junit.jupiter:junit-jupiter-params:5.13.3 -> org.junit.jupiter:junit-jupiter-params:5.13.4 : Failed to compare JAR files: JAPICMP comparison failed for org.junit.jupiter:junit-jupiter-params
+
+=== Summary ===
+Total comparisons: 7
+Failures: 2
+Success rate: 71.43%

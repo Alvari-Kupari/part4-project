@@ -1,0 +1,7 @@
+=== Comparison Failure Log ===
+[2025-09-22 21:41:41] ch.qos.logback:logback-classic:1.2.13 -> ch.qos.logback:logback-classic:1.5.18 : Failed to compare JAR files: JAPICMP comparison failed for ch.qos.logback:logback-classic
+
+=== Summary ===
+Total comparisons: 5
+Failures: 1
+Success rate: 80.00%

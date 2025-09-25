@@ -1,0 +1,11 @@
+=== Comparison Failure Log ===
+[2025-09-22 22:14:19] org.apache.hadoop:hadoop-client-api:3.3.6 -> org.apache.hadoop:hadoop-client-api:3.4.2 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.hadoop:hadoop-client-api
+[2025-09-22 22:14:36] org.apache.hadoop:hadoop-common:3.3.6 -> org.apache.hadoop:hadoop-common:3.4.2 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.hadoop:hadoop-common
+[2025-09-22 22:14:50] org.apache.hadoop:hadoop-client-runtime:3.3.6 -> org.apache.hadoop:hadoop-client-runtime:3.4.2 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.hadoop:hadoop-client-runtime
+[2025-09-22 22:14:52] org.assertj:assertj-core:3.14.0 -> org.assertj:assertj-core:3.27.5 : Failed to compare JAR files: JAPICMP comparison failed for org.assertj:assertj-core
+[2025-09-22 22:14:53] org.mockito:mockito-core:4.10.0 -> org.mockito:mockito-core:4.11.0 : Failed to compare JAR files: JAPICMP comparison failed for org.mockito:mockito-core
+
+=== Summary ===
+Total comparisons: 53
+Failures: 5
+Success rate: 90.57%

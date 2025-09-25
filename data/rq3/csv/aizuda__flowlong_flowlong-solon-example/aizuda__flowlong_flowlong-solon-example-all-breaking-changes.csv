@@ -1,0 +1,756 @@
+Library_Name,Old_Version,New_Version,Class_Name,Member_Name,Change_Type,Description,Binary_Compatible,Source_Compatible,Is_Transitive,Depth,Direct_Parent_Dependency,Direct_Dependency_Old_Version,Direct_Dependency_New_Version,Release_Type,Is_Used_In_Client
+org.noear:solon-scheduling-simple,3.0.1,3.5.2,org.noear.solon.scheduling.simple.integration.XPluginImpl,org.noear.solon.scheduling.simple.integration.XPluginImpl,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,org.noear:solon-scheduling-simple,,,MINOR,false
+org.noear:solon-scheduling-simple,3.0.1,3.5.2,org.noear.solon.scheduling.simple.integration.XPluginImpl,start,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.noear:solon-scheduling-simple,,,MINOR,false
+org.noear:solon-scheduling-simple,3.0.1,3.5.2,org.noear.solon.scheduling.simple.integration.XPluginImpl,stop,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.noear:solon-scheduling-simple,,,MINOR,false
+org.noear:solon-scheduling-simple,3.0.1,3.5.2,org.noear.solon.scheduling.simple.integration.XPluginImpl,XPluginImpl,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.noear:solon-scheduling-simple,,,MINOR,false
+org.noear:solon-logging-logback,3.0.1,3.5.2,ch.qos.logback.solon.integration.XPluginImp,ch.qos.logback.solon.integration.XPluginImp,CLASS_CHANGE,CLASS_REMOVED,false,false,false,1,org.noear:solon-logging-logback,,,MINOR,false
+org.noear:solon-logging-logback,3.0.1,3.5.2,ch.qos.logback.solon.integration.XPluginImp,start,METHOD_CHANGE,METHOD_REMOVED,false,false,false,1,org.noear:solon-logging-logback,,,MINOR,false
+org.noear:solon-logging-logback,3.0.1,3.5.2,ch.qos.logback.solon.integration.XPluginImp,XPluginImp,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,org.noear:solon-logging-logback,,,MINOR,false
+com.fasterxml.jackson.core:jackson-annotations,2.17.2,2.20,com.fasterxml.jackson.annotation.JacksonInject,optional,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,false,1,com.fasterxml.jackson.core:jackson-annotations,,,MINOR,false
+com.fasterxml.jackson.core:jackson-annotations,2.17.2,2.20,com.fasterxml.jackson.annotation.JacksonInject$Value,JacksonInject$Value,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,false,1,com.fasterxml.jackson.core:jackson-annotations,,,MINOR,false
+com.fasterxml.jackson.core:jackson-annotations,2.17.2,2.20,com.fasterxml.jackson.annotation.JsonAutoDetect,scalarConstructorVisibility,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,false,1,com.fasterxml.jackson.core:jackson-annotations,,,MINOR,false
+com.fasterxml.jackson.core:jackson-annotations,2.17.2,2.20,com.fasterxml.jackson.annotation.JsonFormat$Value,JsonFormat$Value,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED; ANNOTATION_REMOVED,false,false,false,1,com.fasterxml.jackson.core:jackson-annotations,,,MINOR,false
+com.fasterxml.jackson.core:jackson-annotations,2.17.2,2.20,com.fasterxml.jackson.annotation.JsonFormat$Value,JsonFormat$Value,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED; ANNOTATION_REMOVED,false,false,false,1,com.fasterxml.jackson.core:jackson-annotations,,,MINOR,false
+com.fasterxml.jackson.core:jackson-annotations,2.17.2,2.20,com.fasterxml.jackson.annotation.JsonFormat$Value,JsonFormat$Value,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED; ANNOTATION_REMOVED,false,false,false,1,com.fasterxml.jackson.core:jackson-annotations,,,MINOR,false
+com.fasterxml.jackson.core:jackson-annotations,2.17.2,2.20,com.fasterxml.jackson.annotation.JsonProperty,isRequired,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,false,1,com.fasterxml.jackson.core:jackson-annotations,,,MINOR,false
+com.aizuda:flowlong-core,1.1.16,1.1.17,com.aizuda.bpm.engine.impl.TaskServiceImpl,updateCurrentNode,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.aizuda:flowlong-solon-plugin,1.1.16,1.1.17,PATCH,false
+com.aizuda:flowlong-core,1.1.16,1.1.17,com.aizuda.bpm.engine.TaskService,reclaimTask,METHOD_CHANGE,METHOD_ABSTRACT_NOW_DEFAULT,false,false,true,2,com.aizuda:flowlong-solon-plugin,1.1.16,1.1.17,PATCH,false
+com.aizuda:flowlong-core,1.1.16,1.1.17,com.aizuda.bpm.engine.TaskService,reclaimTask,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,com.aizuda:flowlong-solon-plugin,1.1.16,1.1.17,PATCH,false
+com.baomidou:mybatis-plus-extension,3.5.9,3.5.12,com.baomidou.mybatisplus.extension.plugins.inner.OptimisticLockerInnerInterceptor,beforeUpdate,METHOD_CHANGE,METHOD_NO_LONGER_THROWS_CHECKED_EXCEPTION,true,false,true,2,com.baomidou:mybatis-plus-solon-plugin,3.5.9,3.5.12,PATCH,false
+com.baomidou:mybatis-plus-extension,3.5.9,3.5.12,com.baomidou.mybatisplus.extension.spi.CompatibleSet,closeSqlSession,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.baomidou:mybatis-plus-solon-plugin,3.5.9,3.5.12,PATCH,false
+com.baomidou:mybatis-plus-extension,3.5.9,3.5.12,com.baomidou.mybatisplus.extension.spi.CompatibleSet,executeBatch,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.baomidou:mybatis-plus-solon-plugin,3.5.9,3.5.12,PATCH,false
+com.baomidou:mybatis-plus-extension,3.5.9,3.5.12,com.baomidou.mybatisplus.extension.spi.CompatibleSet,getInputStream,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.baomidou:mybatis-plus-solon-plugin,3.5.9,3.5.12,PATCH,false
+com.baomidou:mybatis-plus-extension,3.5.9,3.5.12,com.baomidou.mybatisplus.extension.spi.CompatibleSet,getSqlSession,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.baomidou:mybatis-plus-solon-plugin,3.5.9,3.5.12,PATCH,false
+com.baomidou:mybatis-plus-annotation,3.5.9,3.5.12,com.baomidou.mybatisplus.annotation.FieldStrategy,IGNORED,FIELD_CHANGE,FIELD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.baomidou:mybatis-plus-solon-plugin,3.5.9,3.5.12,PATCH,false
+com.baomidou:mybatis-plus-annotation,3.5.9,3.5.12,com.baomidou.mybatisplus.annotation.TableName,properties,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,true,2,com.baomidou:mybatis-plus-solon-plugin,3.5.9,3.5.12,PATCH,false
+org.noear:solon,3.0.1,3.0.2,org.noear.solon.core.BeanContainer,BeanContainer,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,com.baomidou:mybatis-plus-solon-plugin,3.5.9,3.5.12,PATCH,false
+org.noear:solon,3.0.1,3.0.2,org.noear.solon.core.ChainManager,ChainManager,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,com.baomidou:mybatis-plus-solon-plugin,3.5.9,3.5.12,PATCH,false
+org.noear:solon,3.0.1,3.0.2,org.noear.solon.core.handle.Context,asyncListener,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,true,2,com.baomidou:mybatis-plus-solon-plugin,3.5.9,3.5.12,PATCH,false
+org.noear:solon,3.0.1,3.0.2,org.noear.solon.core.handle.Context,asyncStart,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.baomidou:mybatis-plus-solon-plugin,3.5.9,3.5.12,PATCH,false
+org.noear:solon,3.0.1,3.0.2,org.noear.solon.core.handle.Context,asyncStart,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,true,2,com.baomidou:mybatis-plus-solon-plugin,3.5.9,3.5.12,PATCH,false
+org.noear:solon,3.0.1,3.0.2,org.noear.solon.core.handle.Context,asyncStarted,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,true,2,com.baomidou:mybatis-plus-solon-plugin,3.5.9,3.5.12,PATCH,false
+org.noear:solon,3.0.1,3.0.2,org.noear.solon.core.handle.ContextEmpty,org.noear.solon.core.handle.ContextEmpty,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,true,2,com.baomidou:mybatis-plus-solon-plugin,3.5.9,3.5.12,PATCH,false
+org.noear:solon,3.0.1,3.0.2,org.noear.solon.core.handle.Render,getName,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.baomidou:mybatis-plus-solon-plugin,3.5.9,3.5.12,PATCH,false
+org.noear:solon,3.0.1,3.0.2,org.noear.solon.core.mvc.ActionDefault,org.noear.solon.core.mvc.ActionDefault,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,com.baomidou:mybatis-plus-solon-plugin,3.5.9,3.5.12,PATCH,false
+org.noear:solon,3.0.1,3.0.2,org.noear.solon.core.mvc.ActionDefault,executeDo,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.baomidou:mybatis-plus-solon-plugin,3.5.9,3.5.12,PATCH,false
+org.noear:solon,3.0.1,3.0.2,org.noear.solon.core.mvc.ActionDefault,invokeFilterDo,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.baomidou:mybatis-plus-solon-plugin,3.5.9,3.5.12,PATCH,false
+org.noear:solon,3.0.1,3.0.2,org.noear.solon.core.mvc.ActionDefault,invokeHandleDo,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.baomidou:mybatis-plus-solon-plugin,3.5.9,3.5.12,PATCH,false
+org.noear:solon,3.0.1,3.0.2,org.noear.solon.core.mvc.ActionDefault,invokeMethodDo,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.baomidou:mybatis-plus-solon-plugin,3.5.9,3.5.12,PATCH,false
+org.noear:solon,3.0.1,3.0.2,org.noear.solon.core.mvc.ActionDefault,renderDo,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.baomidou:mybatis-plus-solon-plugin,3.5.9,3.5.12,PATCH,false
+org.noear:solon,3.0.1,3.0.2,org.noear.solon.core.mvc.ActionDefault,renderDo,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.baomidou:mybatis-plus-solon-plugin,3.5.9,3.5.12,PATCH,false
+org.noear:solon,3.0.1,3.0.2,org.noear.solon.core.mvc.ActionDefault,toString,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.baomidou:mybatis-plus-solon-plugin,3.5.9,3.5.12,PATCH,false
+org.noear:solon,3.0.1,3.0.2,org.noear.solon.core.mvc.ActionDefault,ActionDefault,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,com.baomidou:mybatis-plus-solon-plugin,3.5.9,3.5.12,PATCH,false
+org.noear:solon,3.0.1,3.0.2,org.noear.solon.core.mvc.ActionDefault,ActionDefault,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,com.baomidou:mybatis-plus-solon-plugin,3.5.9,3.5.12,PATCH,false
+org.noear:solon,3.0.1,3.0.2,org.noear.solon.core.mvc.ActionExecuteHandlerDefault,org.noear.solon.core.mvc.ActionExecuteHandlerDefault,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,com.baomidou:mybatis-plus-solon-plugin,3.5.9,3.5.12,PATCH,false
+org.noear:solon,3.0.1,3.0.2,org.noear.solon.core.mvc.ActionExecuteHandlerDefault,buildArgs,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.baomidou:mybatis-plus-solon-plugin,3.5.9,3.5.12,PATCH,false
+org.noear:solon,3.0.1,3.0.2,org.noear.solon.core.mvc.ActionExecuteHandlerDefault,changeBody,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.baomidou:mybatis-plus-solon-plugin,3.5.9,3.5.12,PATCH,false
+org.noear:solon,3.0.1,3.0.2,org.noear.solon.core.mvc.ActionExecuteHandlerDefault,changeEntityDo,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.baomidou:mybatis-plus-solon-plugin,3.5.9,3.5.12,PATCH,false
+org.noear:solon,3.0.1,3.0.2,org.noear.solon.core.mvc.ActionExecuteHandlerDefault,changeValue,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.baomidou:mybatis-plus-solon-plugin,3.5.9,3.5.12,PATCH,false
+org.noear:solon,3.0.1,3.0.2,org.noear.solon.core.mvc.ActionExecuteHandlerDefault,changeValueDo,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.baomidou:mybatis-plus-solon-plugin,3.5.9,3.5.12,PATCH,false
+org.noear:solon,3.0.1,3.0.2,org.noear.solon.core.mvc.ActionExecuteHandlerDefault,ActionExecuteHandlerDefault,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,com.baomidou:mybatis-plus-solon-plugin,3.5.9,3.5.12,PATCH,false
+org.noear:solon,3.0.1,3.0.2,org.noear.solon.core.mvc.ActionLoaderDefault,org.noear.solon.core.mvc.ActionLoaderDefault,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,com.baomidou:mybatis-plus-solon-plugin,3.5.9,3.5.12,PATCH,false
+org.noear:solon,3.0.1,3.0.2,org.noear.solon.core.mvc.ActionLoaderDefault,addDo,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.baomidou:mybatis-plus-solon-plugin,3.5.9,3.5.12,PATCH,false
+org.noear:solon,3.0.1,3.0.2,org.noear.solon.core.mvc.ActionLoaderDefault,createAction,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.baomidou:mybatis-plus-solon-plugin,3.5.9,3.5.12,PATCH,false
+org.noear:solon,3.0.1,3.0.2,org.noear.solon.core.mvc.ActionLoaderDefault,load,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.baomidou:mybatis-plus-solon-plugin,3.5.9,3.5.12,PATCH,false
+org.noear:solon,3.0.1,3.0.2,org.noear.solon.core.mvc.ActionLoaderDefault,loadActionAide,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.baomidou:mybatis-plus-solon-plugin,3.5.9,3.5.12,PATCH,false
+org.noear:solon,3.0.1,3.0.2,org.noear.solon.core.mvc.ActionLoaderDefault,loadActionAideAdd,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.baomidou:mybatis-plus-solon-plugin,3.5.9,3.5.12,PATCH,false
+org.noear:solon,3.0.1,3.0.2,org.noear.solon.core.mvc.ActionLoaderDefault,loadActionItem,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.baomidou:mybatis-plus-solon-plugin,3.5.9,3.5.12,PATCH,false
+org.noear:solon,3.0.1,3.0.2,org.noear.solon.core.mvc.ActionLoaderDefault,loadActions,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.baomidou:mybatis-plus-solon-plugin,3.5.9,3.5.12,PATCH,false
+org.noear:solon,3.0.1,3.0.2,org.noear.solon.core.mvc.ActionLoaderDefault,loadControllerAide,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.baomidou:mybatis-plus-solon-plugin,3.5.9,3.5.12,PATCH,false
+org.noear:solon,3.0.1,3.0.2,org.noear.solon.core.mvc.ActionLoaderDefault,loadControllerAideAdd,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.baomidou:mybatis-plus-solon-plugin,3.5.9,3.5.12,PATCH,false
+org.noear:solon,3.0.1,3.0.2,org.noear.solon.core.mvc.ActionLoaderDefault,loadHandlerDo,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.baomidou:mybatis-plus-solon-plugin,3.5.9,3.5.12,PATCH,false
+org.noear:solon,3.0.1,3.0.2,org.noear.solon.core.mvc.ActionLoaderDefault,postActionPath,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.baomidou:mybatis-plus-solon-plugin,3.5.9,3.5.12,PATCH,false
+org.noear:solon,3.0.1,3.0.2,org.noear.solon.core.mvc.ActionLoaderDefault,bw,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,com.baomidou:mybatis-plus-solon-plugin,3.5.9,3.5.12,PATCH,false
+org.noear:solon,3.0.1,3.0.2,org.noear.solon.core.mvc.ActionLoaderDefault,allowMapping,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,com.baomidou:mybatis-plus-solon-plugin,3.5.9,3.5.12,PATCH,false
+org.noear:solon,3.0.1,3.0.2,org.noear.solon.core.mvc.ActionLoaderDefault,bRender,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,com.baomidou:mybatis-plus-solon-plugin,3.5.9,3.5.12,PATCH,false
+org.noear:solon,3.0.1,3.0.2,org.noear.solon.core.mvc.ActionLoaderDefault,bMapping,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,com.baomidou:mybatis-plus-solon-plugin,3.5.9,3.5.12,PATCH,false
+org.noear:solon,3.0.1,3.0.2,org.noear.solon.core.mvc.ActionLoaderDefault,bPath,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,com.baomidou:mybatis-plus-solon-plugin,3.5.9,3.5.12,PATCH,false
+org.noear:solon,3.0.1,3.0.2,org.noear.solon.core.mvc.ActionLoaderDefault,bRemoting,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,com.baomidou:mybatis-plus-solon-plugin,3.5.9,3.5.12,PATCH,false
+org.noear:solon,3.0.1,3.0.2,org.noear.solon.core.mvc.ActionLoaderDefault,ActionLoaderDefault,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,com.baomidou:mybatis-plus-solon-plugin,3.5.9,3.5.12,PATCH,false
+org.noear:solon,3.0.1,3.0.2,org.noear.solon.core.mvc.ActionLoaderDefault,ActionLoaderDefault,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,com.baomidou:mybatis-plus-solon-plugin,3.5.9,3.5.12,PATCH,false
+org.noear:solon,3.0.1,3.0.2,org.noear.solon.core.mvc.ActionParamResolver,org.noear.solon.core.mvc.ActionParamResolver,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,com.baomidou:mybatis-plus-solon-plugin,3.5.9,3.5.12,PATCH,false
+org.noear:solon,3.0.1,3.0.2,org.noear.solon.core.mvc.ActionParamResolver,resolve,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.baomidou:mybatis-plus-solon-plugin,3.5.9,3.5.12,PATCH,false
+org.noear:solon,3.0.1,3.0.2,org.noear.solon.core.mvc.ActionParamResolver,ActionParamResolver,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,com.baomidou:mybatis-plus-solon-plugin,3.5.9,3.5.12,PATCH,false
+org.noear:solon,3.0.1,3.0.2,org.noear.solon.core.mvc.MethodTypeResolver,org.noear.solon.core.mvc.MethodTypeResolver,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,com.baomidou:mybatis-plus-solon-plugin,3.5.9,3.5.12,PATCH,false
+org.noear:solon,3.0.1,3.0.2,org.noear.solon.core.mvc.MethodTypeResolver,findAndFill,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.baomidou:mybatis-plus-solon-plugin,3.5.9,3.5.12,PATCH,false
+org.noear:solon,3.0.1,3.0.2,org.noear.solon.core.mvc.MethodTypeResolver,MethodTypeResolver,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,com.baomidou:mybatis-plus-solon-plugin,3.5.9,3.5.12,PATCH,false
+org.noear:solon,3.0.1,3.0.2,org.noear.solon.core.mvc.MvcFactoryDefault,org.noear.solon.core.mvc.MvcFactoryDefault,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,com.baomidou:mybatis-plus-solon-plugin,3.5.9,3.5.12,PATCH,false
+org.noear:solon,3.0.1,3.0.2,org.noear.solon.core.mvc.MvcFactoryDefault,MvcFactoryDefault,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,com.baomidou:mybatis-plus-solon-plugin,3.5.9,3.5.12,PATCH,false
+org.noear:solon,3.0.1,3.0.2,org.noear.solon.core.route.RouterWrapper,initRouter,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,com.baomidou:mybatis-plus-solon-plugin,3.5.9,3.5.12,PATCH,false
+org.noear:solon,3.0.1,3.0.2,org.noear.solon.core.serialize.Serializer,name,METHOD_CHANGE,METHOD_ABSTRACT_NOW_DEFAULT,false,false,true,2,com.baomidou:mybatis-plus-solon-plugin,3.5.9,3.5.12,PATCH,false
+org.noear:solon,3.0.1,3.0.2,org.noear.solon.SolonApp,org.noear.solon.SolonApp,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,true,2,com.baomidou:mybatis-plus-solon-plugin,3.5.9,3.5.12,PATCH,false
+com.baomidou:mybatis-plus-core,3.5.9,3.5.12,com.baomidou.mybatisplus.core.config.GlobalConfig$DbConfig,getSelectStrategy,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.baomidou:mybatis-plus-solon-plugin,3.5.9,3.5.12,PATCH,false
+com.baomidou:mybatis-plus-core,3.5.9,3.5.12,com.baomidou.mybatisplus.core.config.GlobalConfig$DbConfig,setSelectStrategy,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,com.baomidou:mybatis-plus-solon-plugin,3.5.9,3.5.12,PATCH,false
+org.noear:snack3,3.2.113,3.2.119,org.noear.snack.annotation.ONodeAttr,flat,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,true,2,com.baomidou:mybatis-plus-solon-plugin,3.5.9,3.5.12,PATCH,false
+org.noear:solon-config-yaml,3.0.1,3.5.2,org.noear.solon.config.yaml.PropertiesJson,org.noear.solon.config.yaml.PropertiesJson,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-config-yaml,3.0.1,3.5.2,org.noear.solon.config.yaml.PropertiesJson,loadJson,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-config-yaml,3.0.1,3.5.2,org.noear.solon.config.yaml.PropertiesJson,PropertiesJson,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-proxy,3.0.1,3.5.2,org.noear.solon.proxy.BeanInvocationHandler,BeanInvocationHandler,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-proxy,3.0.1,3.5.2,org.noear.solon.proxy.BeanInvocationHandler,BeanInvocationHandler,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-proxy,3.0.1,3.5.2,org.noear.solon.proxy.BeanProxy,getProxy,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-proxy,3.0.1,3.5.2,org.noear.solon.proxy.ProxyUtil,attach,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-proxy,3.0.1,3.5.2,org.noear.solon.proxy.ProxyUtil,attach,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-proxy,3.0.1,3.5.2,org.noear.solon.proxy.ProxyUtil,attachByScan,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-proxy,3.0.1,3.5.2,org.noear.solon.proxy.ProxyUtil,attachByScan,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-proxy,3.0.1,3.5.2,org.noear.solon.proxy.ProxyUtil,binding,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-proxy,3.0.1,3.5.2,org.noear.solon.proxy.ProxyUtil,binding,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-security-vault,3.0.1,3.5.2,org.noear.solon.vault.integration.XPluginImp,org.noear.solon.vault.integration.XPluginImp,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-security-vault,3.0.1,3.5.2,org.noear.solon.vault.integration.XPluginImp,start,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-security-vault,3.0.1,3.5.2,org.noear.solon.vault.integration.XPluginImp,XPluginImp,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.yaml:snakeyaml,2.2,2.4,org.yaml.snakeyaml.external.biz.base64Coder.Base64Coder,org.yaml.snakeyaml.external.biz.base64Coder.Base64Coder,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.yaml:snakeyaml,2.2,2.4,org.yaml.snakeyaml.external.biz.base64Coder.Base64Coder,decode,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.yaml:snakeyaml,2.2,2.4,org.yaml.snakeyaml.external.biz.base64Coder.Base64Coder,decode,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.yaml:snakeyaml,2.2,2.4,org.yaml.snakeyaml.external.biz.base64Coder.Base64Coder,decode,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.yaml:snakeyaml,2.2,2.4,org.yaml.snakeyaml.external.biz.base64Coder.Base64Coder,decodeLines,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.yaml:snakeyaml,2.2,2.4,org.yaml.snakeyaml.external.biz.base64Coder.Base64Coder,decodeString,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.yaml:snakeyaml,2.2,2.4,org.yaml.snakeyaml.external.biz.base64Coder.Base64Coder,encode,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.yaml:snakeyaml,2.2,2.4,org.yaml.snakeyaml.external.biz.base64Coder.Base64Coder,encode,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.yaml:snakeyaml,2.2,2.4,org.yaml.snakeyaml.external.biz.base64Coder.Base64Coder,encode,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.yaml:snakeyaml,2.2,2.4,org.yaml.snakeyaml.external.biz.base64Coder.Base64Coder,encodeLines,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.yaml:snakeyaml,2.2,2.4,org.yaml.snakeyaml.external.biz.base64Coder.Base64Coder,encodeLines,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.yaml:snakeyaml,2.2,2.4,org.yaml.snakeyaml.external.biz.base64Coder.Base64Coder,encodeString,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-serialization,3.0.1,3.5.2,org.noear.solon.serialization.BytesSerializerRender,getName,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-serialization,3.0.1,3.5.2,org.noear.solon.serialization.ContextSerializer,deserializeFromBody,METHOD_CHANGE,METHOD_ABSTRACT_NOW_DEFAULT,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-serialization,3.0.1,3.5.2,org.noear.solon.serialization.ContextSerializer,deserializeFromBody,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-serialization,3.0.1,3.5.2,org.noear.solon.serialization.ContextSerializer,getContentType,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-serialization,3.0.1,3.5.2,org.noear.solon.serialization.ContextSerializer,mimeType,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-serialization,3.0.1,3.5.2,org.noear.solon.serialization.StringSerializerRender,getName,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:snack3,3.2.113,3.2.139,org.noear.snack.annotation.ONodeAttr,flat,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,true,2,org.noear:solon-web,3.0.1,3.5.2,PATCH,false
+org.noear:snack3,3.2.113,3.2.139,org.noear.snack.core.exts.ClassWrap,clz,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,PATCH,false
+org.noear:snack3,3.2.113,3.2.139,org.noear.snack.core.exts.ClassWrap,ClassWrap,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,PATCH,false
+org.noear:snack3,3.2.113,3.2.139,org.noear.snack.core.exts.FieldWrap,type,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,PATCH,false
+org.noear:snack3,3.2.113,3.2.139,org.noear.snack.core.exts.FieldWrap,field,FIELD_CHANGE,FIELD_LESS_ACCESSIBLE,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,PATCH,false
+org.noear:snack3,3.2.113,3.2.139,org.noear.snack.core.exts.FieldWrap,genericType,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,PATCH,false
+org.noear:snack3,3.2.113,3.2.139,org.noear.snack.core.exts.FieldWrap,FieldWrap,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,PATCH,false
+org.noear:snack3,3.2.113,3.2.139,org.noear.snack.core.Feature,WriteSlashAsSpecial,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,PATCH,false
+org.noear:snack3,3.2.113,3.2.139,org.noear.snack.core.NodeTranslateFactory,org.noear.snack.core.NodeTranslateFactory,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,PATCH,false
+org.noear:snack3,3.2.113,3.2.139,org.noear.snack.core.NodeTranslateFactory,translate,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,PATCH,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.annotation.Body,description,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.annotation.Condition,priority,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.annotation.Cookie,description,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.annotation.Header,description,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.annotation.Mapping,description,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.annotation.Mapping,headers,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.annotation.Mapping,name,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.annotation.Mapping,version,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.annotation.Param,description,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.annotation.Path,defaultValue,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.annotation.Path,description,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.annotation.Path,required,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.AppContext,org.noear.solon.core.AppContext,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.AppContext,tryBuildBeanOfMethod,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.AppContext,tryBuildBeanOfMethod2,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.AppContext,tryMethodParamsGather,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.aspect.Invocation,Invocation,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.BeanContainer,beanInjectProperties,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.BeanContainer,beanNotice,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.BeanContainer,beanRegisterSup0,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.BeanContainer,beanSubscribe,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.BeanContainer,getBeansMapOfType,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.BeanContainer,getBeansOfType,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.BeanContainer,wrapExternalSubscribe,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.BeanContainer,BeanContainer,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.BeanWrap$Proxy,getProxy,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.BeanWrap$Proxy,getProxy,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.BeanWrap$Supplier,org.noear.solon.core.BeanWrap$Supplier,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.BeanWrap$Supplier,get,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.ChainManager,addReturnHandler,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.ChainManager,getReturnHandler,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.ChainManager,refreshSessionState,METHOD_CHANGE,METHOD_NOW_THROWS_CHECKED_EXCEPTION,true,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.handle.ActionReturnHandler,org.noear.solon.core.handle.ActionReturnHandler,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.handle.ActionReturnHandler,matched,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.handle.ActionReturnHandler,returnHandle,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.handle.Context,asyncListener,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.handle.Context,asyncStart,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.handle.Context,asyncStart,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.handle.Context,asyncStarted,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.handle.Context,isHeadersSent,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.handle.ContextEmpty,org.noear.solon.core.handle.ContextEmpty,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.handle.DownloadedFile,getContent,METHOD_CHANGE,METHOD_NO_LONGER_THROWS_CHECKED_EXCEPTION,true,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.handle.FileBase,content,FIELD_CHANGE,FIELD_LESS_ACCESSIBLE,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.handle.FileBase,FileBase,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.handle.Gateway,addDo,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.handle.HandlerSlots,add,METHOD_CHANGE,METHOD_ABSTRACT_NOW_DEFAULT,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.handle.HandlerSlots,add,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.handle.HandlerSlots,add,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.handle.Render,getName,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.handle.SessionState,creationTime,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.handle.SessionState,lastAccessTime,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.handle.SessionState,sessionPublish,METHOD_CHANGE,METHOD_NOW_THROWS_CHECKED_EXCEPTION,true,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.handle.SessionState,sessionRefresh,METHOD_CHANGE,METHOD_NOW_THROWS_CHECKED_EXCEPTION,true,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionDefault,org.noear.solon.core.mvc.ActionDefault,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionDefault,executeDo,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionDefault,invokeFilterDo,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionDefault,invokeHandleDo,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionDefault,invokeMethodDo,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionDefault,renderDo,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionDefault,renderDo,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionDefault,toString,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionDefault,ActionDefault,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionDefault,ActionDefault,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionExecuteHandlerDefault,org.noear.solon.core.mvc.ActionExecuteHandlerDefault,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionExecuteHandlerDefault,buildArgs,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionExecuteHandlerDefault,changeBody,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionExecuteHandlerDefault,changeEntityDo,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionExecuteHandlerDefault,changeValue,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionExecuteHandlerDefault,changeValueDo,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionExecuteHandlerDefault,ActionExecuteHandlerDefault,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionLoaderDefault,org.noear.solon.core.mvc.ActionLoaderDefault,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionLoaderDefault,addDo,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionLoaderDefault,createAction,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionLoaderDefault,load,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionLoaderDefault,loadActionAide,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionLoaderDefault,loadActionAideAdd,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionLoaderDefault,loadActionItem,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionLoaderDefault,loadActions,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionLoaderDefault,loadControllerAide,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionLoaderDefault,loadControllerAideAdd,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionLoaderDefault,loadHandlerDo,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionLoaderDefault,postActionPath,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionLoaderDefault,bw,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionLoaderDefault,allowMapping,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionLoaderDefault,bRender,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionLoaderDefault,bMapping,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionLoaderDefault,bPath,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionLoaderDefault,bRemoting,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionLoaderDefault,ActionLoaderDefault,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionLoaderDefault,ActionLoaderDefault,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionParamResolver,org.noear.solon.core.mvc.ActionParamResolver,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionParamResolver,resolve,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionParamResolver,ActionParamResolver,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.MethodTypeResolver,org.noear.solon.core.mvc.MethodTypeResolver,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.MethodTypeResolver,findAndFill,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.MethodTypeResolver,MethodTypeResolver,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.MvcFactoryDefault,org.noear.solon.core.mvc.MvcFactoryDefault,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.MvcFactoryDefault,MvcFactoryDefault,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.Props,loadAddDo,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.Props,reviseDo,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.ResourceScanner,doScanByFile,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.ResourceScanner,scan,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.ResourceScanner,scanDo,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.route.Router,matchMainAndStatus,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.route.RouterWrapper,initRouter,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.route.Routing,degrees,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.route.Routing,degrees,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.route.Routing,matches,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.route.Routing,matches,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.route.Routing,test,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.route.Routing,test,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.route.Routing,version,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.route.RoutingDefault,RoutingDefault,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.route.RoutingDefault,RoutingDefault,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.route.RoutingTable,add,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.route.RoutingTable,matchMore,METHOD_CHANGE,METHOD_ABSTRACT_NOW_DEFAULT; ANNOTATION_DEPRECATED_ADDED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.route.RoutingTable,matchMore,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.route.RoutingTable,matchOne,METHOD_CHANGE,METHOD_ABSTRACT_NOW_DEFAULT; ANNOTATION_DEPRECATED_ADDED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.route.RoutingTable,matchOne,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.route.RoutingTable,matchOneAndStatus,METHOD_CHANGE,METHOD_ABSTRACT_NOW_DEFAULT; ANNOTATION_DEPRECATED_ADDED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.route.RoutingTable,matchOneAndStatus,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.serialize.Serializer,name,METHOD_CHANGE,METHOD_ABSTRACT_NOW_DEFAULT,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.util.MultiMap,innerMap,FIELD_CHANGE,FIELD_TYPE_CHANGED; FIELD_GENERICS_CHANGED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.VarHolder,commit,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.VarHolder,setValueDefault,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.VarHolder,setValueOnly,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.wrap.MethodHolder,getGenericReturnType,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.wrap.TypeWrap,TypeWrap,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.SolonApp,org.noear.solon.SolonApp,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; METHOD_DEFAULT_ADDED_IN_IMPLEMENTED_INTERFACE,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.SolonApp,classLoader,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.SolonApp,start,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.SolonApp,stopped,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.SolonProps,org.noear.solon.SolonProps,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.SolonProps,plugsScan,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.SolonProps,scanning,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-serialization-snack3,3.0.1,3.5.2,org.noear.solon.serialization.snack3.SnackStringSerializer,deserializeFromBody,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-serialization-snack3,3.0.1,3.5.2,org.noear.solon.serialization.snack3.SnackStringSerializer,getContentType,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-serialization-snack3,3.0.1,3.5.2,org.noear.solon.serialization.snack3.XPluginImp,org.noear.solon.serialization.snack3.XPluginImp,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-serialization-snack3,3.0.1,3.5.2,org.noear.solon.serialization.snack3.XPluginImp,start,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-serialization-snack3,3.0.1,3.5.2,org.noear.solon.serialization.snack3.XPluginImp,XPluginImp,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-sessionstate-local,3.0.1,3.5.2,org.noear.solon.sessionstate.local.XPluginImp,org.noear.solon.sessionstate.local.XPluginImp,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-sessionstate-local,3.0.1,3.5.2,org.noear.solon.sessionstate.local.XPluginImp,start,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-sessionstate-local,3.0.1,3.5.2,org.noear.solon.sessionstate.local.XPluginImp,XPluginImp,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+io.github.smartboot.socket:aio-pro,1.5.52,1.5.55,org.smartboot.socket.util.BufferUtils,org.smartboot.socket.util.BufferUtils,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,PATCH,false
+io.github.smartboot.socket:aio-pro,1.5.52,1.5.55,org.smartboot.socket.util.BufferUtils,readUnsignedByte,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,PATCH,false
+io.github.smartboot.socket:aio-pro,1.5.52,1.5.55,org.smartboot.socket.util.BufferUtils,trim,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,PATCH,false
+io.github.smartboot.socket:aio-pro,1.5.52,1.5.55,org.smartboot.socket.util.BufferUtils,BufferUtils,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,PATCH,false
+io.github.smartboot.socket:aio-pro,1.5.52,1.5.55,org.smartboot.socket.util.QuickTimerTask,org.smartboot.socket.util.QuickTimerTask,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,PATCH,false
+io.github.smartboot.socket:aio-pro,1.5.52,1.5.55,org.smartboot.socket.util.QuickTimerTask,cancelQuickTask,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,PATCH,false
+io.github.smartboot.socket:aio-pro,1.5.52,1.5.55,org.smartboot.socket.util.QuickTimerTask,getDelay,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,PATCH,false
+io.github.smartboot.socket:aio-pro,1.5.52,1.5.55,org.smartboot.socket.util.QuickTimerTask,getPeriod,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,PATCH,false
+io.github.smartboot.socket:aio-pro,1.5.52,1.5.55,org.smartboot.socket.util.QuickTimerTask,scheduleAtFixedRate,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,PATCH,false
+io.github.smartboot.socket:aio-pro,1.5.52,1.5.55,org.smartboot.socket.util.QuickTimerTask,SCHEDULED_EXECUTOR_SERVICE,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,PATCH,false
+io.github.smartboot.socket:aio-pro,1.5.52,1.5.55,org.smartboot.socket.util.QuickTimerTask,QuickTimerTask,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,PATCH,false
+org.noear:solon-security-validation,3.0.1,3.5.2,org.noear.solon.validation.XPluginImp,org.noear.solon.validation.XPluginImp,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-security-validation,3.0.1,3.5.2,org.noear.solon.validation.XPluginImp,start,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-security-validation,3.0.1,3.5.2,org.noear.solon.validation.XPluginImp,XPluginImp,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-web-staticfiles,3.0.1,3.5.2,org.noear.solon.web.staticfiles.integration.XPluginImp,org.noear.solon.web.staticfiles.integration.XPluginImp,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-web-staticfiles,3.0.1,3.5.2,org.noear.solon.web.staticfiles.integration.XPluginImp,start,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-web-staticfiles,3.0.1,3.5.2,org.noear.solon.web.staticfiles.integration.XPluginImp,XPluginImp,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.annotation.Cache,org.noear.solon.data.annotation.Cache,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.annotation.Cache,key,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.annotation.Cache,seconds,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.annotation.Cache,service,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.annotation.Cache,tags,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.annotation.CachePut,org.noear.solon.data.annotation.CachePut,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.annotation.CachePut,key,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.annotation.CachePut,seconds,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.annotation.CachePut,service,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.annotation.CachePut,tags,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.annotation.CacheRemove,org.noear.solon.data.annotation.CacheRemove,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.annotation.CacheRemove,keys,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.annotation.CacheRemove,service,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.annotation.CacheRemove,tags,METHOD_CHANGE,METHOD_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.cache.CacheExecutorImp,org.noear.solon.data.cache.CacheExecutorImp,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.cache.CacheExecutorImp,cache,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.cache.CacheExecutorImp,cachePut,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.cache.CacheExecutorImp,cacheRemove,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.cache.CacheExecutorImp,global,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.cache.CacheExecutorImp,CacheExecutorImp,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.cache.CacheFactory,org.noear.solon.data.cache.CacheFactory,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.cache.CacheFactory,create,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.cache.CacheLib,org.noear.solon.data.cache.CacheLib,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.cache.CacheLib,cacheFactoryAdd,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.cache.CacheLib,cacheFactoryGet,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.cache.CacheLib,cacheServiceAdd,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.cache.CacheLib,cacheServiceAddIfAbsent,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.cache.CacheLib,cacheServiceGet,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.cache.CacheLib,cacheServiceMap,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.cache.CacheLib,CacheLib,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.cache.CacheService,org.noear.solon.data.cache.CacheService,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.cache.CacheService,get,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.cache.CacheService,get,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.cache.CacheService,getOrStore,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.cache.CacheService,remove,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.cache.CacheService,store,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.cache.CacheServiceSupplier,org.noear.solon.data.cache.CacheServiceSupplier,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.cache.CacheServiceSupplier,get,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.cache.CacheServiceSupplier,get,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.cache.CacheServiceSupplier,CacheServiceSupplier,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.cache.CacheServiceWrapConsumer,org.noear.solon.data.cache.CacheServiceWrapConsumer,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.cache.CacheServiceWrapConsumer,accept,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.cache.CacheServiceWrapConsumer,accept,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.cache.CacheServiceWrapConsumer,CacheServiceWrapConsumer,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.cache.CacheTags,org.noear.solon.data.cache.CacheTags,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.cache.CacheTags,_get,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.cache.CacheTags,_set,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.cache.CacheTags,_tagKey,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.cache.CacheTags,add,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.cache.CacheTags,remove,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.cache.CacheTags,update,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.cache.CacheTags,CacheTags,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.cache.CacheTagsService,org.noear.solon.data.cache.CacheTagsService,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.cache.CacheTagsService,getOrStoreTag,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.cache.CacheTagsService,getOrStoreTag,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.cache.CacheTagsService,removeTag,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.cache.CacheTagsService,storeTag,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.cache.CacheTagsServiceImpl,org.noear.solon.data.cache.CacheTagsServiceImpl,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.cache.CacheTagsServiceImpl,_get,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.cache.CacheTagsServiceImpl,_set,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.cache.CacheTagsServiceImpl,_tagKey,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.cache.CacheTagsServiceImpl,update,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.cache.CacheTagsServiceImpl,CacheTagsServiceImpl,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.cache.EmptyCacheService,org.noear.solon.data.cache.EmptyCacheService,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.cache.EmptyCacheService,EmptyCacheService,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.cache.impl.JavabinSerializer,org.noear.solon.data.cache.impl.JavabinSerializer,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.cache.impl.JavabinSerializer,deserialize,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.cache.impl.JavabinSerializer,deserialize,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.cache.impl.JavabinSerializer,deserializeDo,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.cache.impl.JavabinSerializer,name,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.cache.impl.JavabinSerializer,serialize,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.cache.impl.JavabinSerializer,serialize,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.cache.impl.JavabinSerializer,serializeDo,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.cache.impl.JavabinSerializer,instance,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.cache.impl.JavabinSerializer,JavabinSerializer,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.cache.impl.JsonSerializer,org.noear.solon.data.cache.impl.JsonSerializer,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.cache.impl.JsonSerializer,deserialize,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.cache.impl.JsonSerializer,deserialize,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.cache.impl.JsonSerializer,name,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.cache.impl.JsonSerializer,serialize,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.cache.impl.JsonSerializer,serialize,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.cache.impl.JsonSerializer,instance,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.cache.impl.JsonSerializer,typedInstance,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.cache.impl.JsonSerializer,JsonSerializer,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.cache.impl.JsonSerializer,JsonSerializer,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.cache.impl.ObjectInputStreamEx,org.noear.solon.data.cache.impl.ObjectInputStreamEx,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.cache.impl.ObjectInputStreamEx,resolveClass,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.cache.impl.ObjectInputStreamEx,ObjectInputStreamEx,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.cache.interceptor.CacheInterceptor,org.noear.solon.data.cache.interceptor.CacheInterceptor,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.cache.interceptor.CacheInterceptor,doIntercept,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.cache.interceptor.CacheInterceptor,CacheInterceptor,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.cache.interceptor.CachePutInterceptor,org.noear.solon.data.cache.interceptor.CachePutInterceptor,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.cache.interceptor.CachePutInterceptor,doIntercept,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.cache.interceptor.CachePutInterceptor,CachePutInterceptor,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.cache.interceptor.CacheRemoveInterceptor,org.noear.solon.data.cache.interceptor.CacheRemoveInterceptor,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.cache.interceptor.CacheRemoveInterceptor,doIntercept,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.cache.interceptor.CacheRemoveInterceptor,CacheRemoveInterceptor,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.cache.LocalCacheFactoryImpl,org.noear.solon.data.cache.LocalCacheFactoryImpl,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.cache.LocalCacheFactoryImpl,LocalCacheFactoryImpl,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.cache.LocalCacheService,org.noear.solon.data.cache.LocalCacheService,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.cache.LocalCacheService,clear,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.cache.LocalCacheService,getDefalutSeconds,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.cache.LocalCacheService,instance,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.cache.LocalCacheService,LocalCacheService,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.cache.LocalCacheService,LocalCacheService,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.cache.LocalCacheService,LocalCacheService,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.cache.SecondCacheService,org.noear.solon.data.cache.SecondCacheService,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.cache.SecondCacheService,SecondCacheService,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.cache.SecondCacheService,SecondCacheService,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.integration.XPluginImpl,org.noear.solon.data.integration.XPluginImpl,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.integration.XPluginImpl,start,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.integration.XPluginImpl,XPluginImpl,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.tran.impl.DbTran,getMeta,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.tran.impl.DbTran,DbTran,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.tran.impl.TranDbImpl,TranDbImpl,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.tran.impl.TranDbNewImpl,TranDbNewImpl,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.tran.TranExecutor,execute,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.tran.TranExecutorDefault,applyDo,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.tran.TranExecutorDefault,create,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.tran.TranExecutorDefault,forNotRoot,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.tran.TranExecutorDefault,forRoot,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.util.InvKeys,org.noear.solon.data.util.InvKeys,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.util.InvKeys,buildByInv,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.util.InvKeys,buildByTmlAndInv,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.util.InvKeys,buildByTmlAndInv,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.util.InvKeys,InvKeys,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.util.StringMutexLock,org.noear.solon.data.util.StringMutexLock,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.util.StringMutexLock,lock,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.util.StringMutexLock,unlock,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.util.StringMutexLock,StringMutexLock,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.util.UnpooledDataSource,org.noear.solon.data.util.UnpooledDataSource,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.util.UnpooledDataSource,equals,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.util.UnpooledDataSource,getConnection,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.util.UnpooledDataSource,getConnection,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.util.UnpooledDataSource,getLoginTimeout,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.util.UnpooledDataSource,getLogWriter,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.util.UnpooledDataSource,getParentLogger,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.util.UnpooledDataSource,hashCode,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.util.UnpooledDataSource,isWrapperFor,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.util.UnpooledDataSource,setDriverClassName,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.util.UnpooledDataSource,setLoginTimeout,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.util.UnpooledDataSource,setLogWriter,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.util.UnpooledDataSource,setPassword,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.util.UnpooledDataSource,setUrl,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.util.UnpooledDataSource,setUsername,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.util.UnpooledDataSource,unwrap,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.util.UnpooledDataSource,UnpooledDataSource,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+org.noear:solon-data,3.0.1,3.5.2,org.noear.solon.data.util.UnpooledDataSource,UnpooledDataSource,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,MINOR,false
+io.github.smartboot.socket:aio-core,1.5.52,1.5.55,org.smartboot.socket.buffer.BufferPage,org.smartboot.socket.buffer.BufferPage,CLASS_CHANGE,CLASS_NOW_ABSTRACT; CLASS_TYPE_CHANGED,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,PATCH,false
+io.github.smartboot.socket:aio-core,1.5.52,1.5.55,org.smartboot.socket.buffer.BufferPage,allocate,METHOD_CHANGE,METHOD_NOW_ABSTRACT,false,false,true,2,org.noear:solon-web,3.0.1,3.5.2,PATCH,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.annotation.Body,description,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.annotation.Condition,priority,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.annotation.Cookie,description,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.annotation.Header,description,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.annotation.Mapping,description,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.annotation.Mapping,headers,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.annotation.Mapping,name,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.annotation.Mapping,version,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.annotation.Param,description,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.annotation.Path,defaultValue,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.annotation.Path,description,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.annotation.Path,required,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.AppContext,org.noear.solon.core.AppContext,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.AppContext,tryBuildBeanOfMethod,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.AppContext,tryBuildBeanOfMethod2,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.AppContext,tryMethodParamsGather,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.aspect.Invocation,Invocation,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.BeanContainer,beanInjectProperties,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.BeanContainer,beanNotice,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.BeanContainer,beanRegisterSup0,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.BeanContainer,beanSubscribe,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.BeanContainer,getBeansMapOfType,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.BeanContainer,getBeansOfType,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.BeanContainer,wrapExternalSubscribe,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.BeanContainer,BeanContainer,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.BeanWrap$Proxy,getProxy,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.BeanWrap$Proxy,getProxy,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.BeanWrap$Supplier,org.noear.solon.core.BeanWrap$Supplier,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.BeanWrap$Supplier,get,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.ChainManager,addReturnHandler,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.ChainManager,getReturnHandler,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.ChainManager,refreshSessionState,METHOD_CHANGE,METHOD_NOW_THROWS_CHECKED_EXCEPTION,true,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.handle.ActionReturnHandler,org.noear.solon.core.handle.ActionReturnHandler,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.handle.ActionReturnHandler,matched,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.handle.ActionReturnHandler,returnHandle,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.handle.Context,asyncListener,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.handle.Context,asyncStart,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.handle.Context,asyncStart,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.handle.Context,asyncStarted,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.handle.Context,isHeadersSent,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.handle.ContextEmpty,org.noear.solon.core.handle.ContextEmpty,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.handle.DownloadedFile,getContent,METHOD_CHANGE,METHOD_NO_LONGER_THROWS_CHECKED_EXCEPTION,true,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.handle.FileBase,content,FIELD_CHANGE,FIELD_LESS_ACCESSIBLE,false,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.handle.FileBase,FileBase,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.handle.Gateway,addDo,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.handle.HandlerSlots,add,METHOD_CHANGE,METHOD_ABSTRACT_NOW_DEFAULT,false,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.handle.HandlerSlots,add,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.handle.HandlerSlots,add,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.handle.Render,getName,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.handle.SessionState,creationTime,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.handle.SessionState,lastAccessTime,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.handle.SessionState,sessionPublish,METHOD_CHANGE,METHOD_NOW_THROWS_CHECKED_EXCEPTION,true,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.handle.SessionState,sessionRefresh,METHOD_CHANGE,METHOD_NOW_THROWS_CHECKED_EXCEPTION,true,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionDefault,org.noear.solon.core.mvc.ActionDefault,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionDefault,executeDo,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionDefault,invokeFilterDo,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionDefault,invokeHandleDo,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionDefault,invokeMethodDo,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionDefault,renderDo,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionDefault,renderDo,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionDefault,toString,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionDefault,ActionDefault,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionDefault,ActionDefault,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionExecuteHandlerDefault,org.noear.solon.core.mvc.ActionExecuteHandlerDefault,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionExecuteHandlerDefault,buildArgs,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionExecuteHandlerDefault,changeBody,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionExecuteHandlerDefault,changeEntityDo,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionExecuteHandlerDefault,changeValue,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionExecuteHandlerDefault,changeValueDo,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionExecuteHandlerDefault,ActionExecuteHandlerDefault,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionLoaderDefault,org.noear.solon.core.mvc.ActionLoaderDefault,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionLoaderDefault,addDo,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionLoaderDefault,createAction,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionLoaderDefault,load,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionLoaderDefault,loadActionAide,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionLoaderDefault,loadActionAideAdd,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionLoaderDefault,loadActionItem,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionLoaderDefault,loadActions,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionLoaderDefault,loadControllerAide,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionLoaderDefault,loadControllerAideAdd,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionLoaderDefault,loadHandlerDo,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionLoaderDefault,postActionPath,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionLoaderDefault,bw,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionLoaderDefault,allowMapping,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionLoaderDefault,bRender,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionLoaderDefault,bMapping,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionLoaderDefault,bPath,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionLoaderDefault,bRemoting,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionLoaderDefault,ActionLoaderDefault,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionLoaderDefault,ActionLoaderDefault,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionParamResolver,org.noear.solon.core.mvc.ActionParamResolver,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionParamResolver,resolve,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionParamResolver,ActionParamResolver,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.MethodTypeResolver,org.noear.solon.core.mvc.MethodTypeResolver,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.MethodTypeResolver,findAndFill,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.MethodTypeResolver,MethodTypeResolver,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.MvcFactoryDefault,org.noear.solon.core.mvc.MvcFactoryDefault,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.MvcFactoryDefault,MvcFactoryDefault,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.Props,loadAddDo,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.Props,reviseDo,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.ResourceScanner,doScanByFile,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.ResourceScanner,scan,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.ResourceScanner,scanDo,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.route.Router,matchMainAndStatus,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.route.RouterWrapper,initRouter,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.route.Routing,degrees,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.route.Routing,degrees,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.route.Routing,matches,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.route.Routing,matches,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.route.Routing,test,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.route.Routing,test,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.route.Routing,version,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.route.RoutingDefault,RoutingDefault,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.route.RoutingDefault,RoutingDefault,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.route.RoutingTable,add,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.route.RoutingTable,matchMore,METHOD_CHANGE,METHOD_ABSTRACT_NOW_DEFAULT; ANNOTATION_DEPRECATED_ADDED,false,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.route.RoutingTable,matchMore,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.route.RoutingTable,matchOne,METHOD_CHANGE,METHOD_ABSTRACT_NOW_DEFAULT; ANNOTATION_DEPRECATED_ADDED,false,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.route.RoutingTable,matchOne,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.route.RoutingTable,matchOneAndStatus,METHOD_CHANGE,METHOD_ABSTRACT_NOW_DEFAULT; ANNOTATION_DEPRECATED_ADDED,false,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.route.RoutingTable,matchOneAndStatus,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.serialize.Serializer,name,METHOD_CHANGE,METHOD_ABSTRACT_NOW_DEFAULT,false,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.util.MultiMap,innerMap,FIELD_CHANGE,FIELD_TYPE_CHANGED; FIELD_GENERICS_CHANGED,false,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.VarHolder,commit,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.VarHolder,setValueDefault,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.VarHolder,setValueOnly,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.wrap.MethodHolder,getGenericReturnType,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.wrap.TypeWrap,TypeWrap,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.SolonApp,org.noear.solon.SolonApp,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; METHOD_DEFAULT_ADDED_IN_IMPLEMENTED_INTERFACE,false,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.SolonApp,classLoader,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.SolonApp,start,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.SolonApp,stopped,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.SolonProps,org.noear.solon.SolonProps,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.SolonProps,plugsScan,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.SolonProps,scanning,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon-scheduling,3.0.1,3.5.2,org.noear.solon.scheduling.async.AsyncInterceptor,AsyncInterceptor,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon-scheduling,3.0.1,3.5.2,org.noear.solon.scheduling.integration.XPluginImp,org.noear.solon.scheduling.integration.XPluginImp,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon-scheduling,3.0.1,3.5.2,org.noear.solon.scheduling.integration.XPluginImp,start,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon-scheduling,3.0.1,3.5.2,org.noear.solon.scheduling.integration.XPluginImp,XPluginImp,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon-scheduling,3.0.1,3.5.2,org.noear.solon.scheduling.retry.RetryInterceptor,RetryInterceptor,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-scheduling-simple,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.annotation.Body,description,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.annotation.Condition,priority,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.annotation.Cookie,description,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.annotation.Header,description,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.annotation.Mapping,description,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.annotation.Mapping,headers,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.annotation.Mapping,name,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.annotation.Mapping,version,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.annotation.Param,description,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.annotation.Path,defaultValue,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.annotation.Path,description,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.annotation.Path,required,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.AppContext,org.noear.solon.core.AppContext,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.AppContext,tryBuildBeanOfMethod,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.AppContext,tryBuildBeanOfMethod2,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.AppContext,tryMethodParamsGather,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.aspect.Invocation,Invocation,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.BeanContainer,beanInjectProperties,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.BeanContainer,beanNotice,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.BeanContainer,beanRegisterSup0,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.BeanContainer,beanSubscribe,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.BeanContainer,getBeansMapOfType,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.BeanContainer,getBeansOfType,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.BeanContainer,wrapExternalSubscribe,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.BeanContainer,BeanContainer,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.BeanWrap$Proxy,getProxy,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.BeanWrap$Proxy,getProxy,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.BeanWrap$Supplier,org.noear.solon.core.BeanWrap$Supplier,CLASS_CHANGE,CLASS_REMOVED; ANNOTATION_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.BeanWrap$Supplier,get,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.ChainManager,addReturnHandler,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.ChainManager,getReturnHandler,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.ChainManager,refreshSessionState,METHOD_CHANGE,METHOD_NOW_THROWS_CHECKED_EXCEPTION,true,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.handle.ActionReturnHandler,org.noear.solon.core.handle.ActionReturnHandler,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.handle.ActionReturnHandler,matched,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.handle.ActionReturnHandler,returnHandle,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.handle.Context,asyncListener,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.handle.Context,asyncStart,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.handle.Context,asyncStart,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.handle.Context,asyncStarted,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.handle.Context,isHeadersSent,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.handle.ContextEmpty,org.noear.solon.core.handle.ContextEmpty,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.handle.DownloadedFile,getContent,METHOD_CHANGE,METHOD_NO_LONGER_THROWS_CHECKED_EXCEPTION,true,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.handle.FileBase,content,FIELD_CHANGE,FIELD_LESS_ACCESSIBLE,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.handle.FileBase,FileBase,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.handle.Gateway,addDo,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.handle.HandlerSlots,add,METHOD_CHANGE,METHOD_ABSTRACT_NOW_DEFAULT,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.handle.HandlerSlots,add,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.handle.HandlerSlots,add,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.handle.Render,getName,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.handle.SessionState,creationTime,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.handle.SessionState,lastAccessTime,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.handle.SessionState,sessionPublish,METHOD_CHANGE,METHOD_NOW_THROWS_CHECKED_EXCEPTION,true,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.handle.SessionState,sessionRefresh,METHOD_CHANGE,METHOD_NOW_THROWS_CHECKED_EXCEPTION,true,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionDefault,org.noear.solon.core.mvc.ActionDefault,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionDefault,executeDo,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionDefault,invokeFilterDo,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionDefault,invokeHandleDo,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionDefault,invokeMethodDo,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionDefault,renderDo,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionDefault,renderDo,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionDefault,toString,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionDefault,ActionDefault,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionDefault,ActionDefault,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionExecuteHandlerDefault,org.noear.solon.core.mvc.ActionExecuteHandlerDefault,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionExecuteHandlerDefault,buildArgs,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionExecuteHandlerDefault,changeBody,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionExecuteHandlerDefault,changeEntityDo,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionExecuteHandlerDefault,changeValue,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionExecuteHandlerDefault,changeValueDo,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionExecuteHandlerDefault,ActionExecuteHandlerDefault,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionLoaderDefault,org.noear.solon.core.mvc.ActionLoaderDefault,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionLoaderDefault,addDo,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionLoaderDefault,createAction,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionLoaderDefault,load,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionLoaderDefault,loadActionAide,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionLoaderDefault,loadActionAideAdd,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionLoaderDefault,loadActionItem,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionLoaderDefault,loadActions,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionLoaderDefault,loadControllerAide,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionLoaderDefault,loadControllerAideAdd,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionLoaderDefault,loadHandlerDo,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionLoaderDefault,postActionPath,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionLoaderDefault,bw,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionLoaderDefault,allowMapping,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionLoaderDefault,bRender,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionLoaderDefault,bMapping,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionLoaderDefault,bPath,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionLoaderDefault,bRemoting,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionLoaderDefault,ActionLoaderDefault,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionLoaderDefault,ActionLoaderDefault,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionParamResolver,org.noear.solon.core.mvc.ActionParamResolver,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionParamResolver,resolve,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.ActionParamResolver,ActionParamResolver,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.MethodTypeResolver,org.noear.solon.core.mvc.MethodTypeResolver,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.MethodTypeResolver,findAndFill,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.MethodTypeResolver,MethodTypeResolver,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.MvcFactoryDefault,org.noear.solon.core.mvc.MvcFactoryDefault,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.mvc.MvcFactoryDefault,MvcFactoryDefault,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.Props,loadAddDo,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.Props,reviseDo,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.ResourceScanner,doScanByFile,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.ResourceScanner,scan,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.ResourceScanner,scanDo,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.route.Router,matchMainAndStatus,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.route.RouterWrapper,initRouter,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.route.Routing,degrees,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.route.Routing,degrees,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.route.Routing,matches,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.route.Routing,matches,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.route.Routing,test,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.route.Routing,test,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.route.Routing,version,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.route.RoutingDefault,RoutingDefault,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.route.RoutingDefault,RoutingDefault,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.route.RoutingTable,add,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.route.RoutingTable,matchMore,METHOD_CHANGE,METHOD_ABSTRACT_NOW_DEFAULT; ANNOTATION_DEPRECATED_ADDED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.route.RoutingTable,matchMore,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.route.RoutingTable,matchOne,METHOD_CHANGE,METHOD_ABSTRACT_NOW_DEFAULT; ANNOTATION_DEPRECATED_ADDED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.route.RoutingTable,matchOne,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.route.RoutingTable,matchOneAndStatus,METHOD_CHANGE,METHOD_ABSTRACT_NOW_DEFAULT; ANNOTATION_DEPRECATED_ADDED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.route.RoutingTable,matchOneAndStatus,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.serialize.Serializer,name,METHOD_CHANGE,METHOD_ABSTRACT_NOW_DEFAULT,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.util.MultiMap,innerMap,FIELD_CHANGE,FIELD_TYPE_CHANGED; FIELD_GENERICS_CHANGED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.VarHolder,commit,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.VarHolder,setValueDefault,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.VarHolder,setValueOnly,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.wrap.MethodHolder,getGenericReturnType,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.core.wrap.TypeWrap,TypeWrap,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.SolonApp,org.noear.solon.SolonApp,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS; METHOD_DEFAULT_ADDED_IN_IMPLEMENTED_INTERFACE,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.SolonApp,classLoader,METHOD_CHANGE,METHOD_RETURN_TYPE_CHANGED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.SolonApp,start,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.SolonApp,stopped,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.SolonProps,org.noear.solon.SolonProps,CLASS_CHANGE,METHOD_REMOVED_IN_SUPERCLASS,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.SolonProps,plugsScan,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon,3.0.1,3.5.2,org.noear.solon.SolonProps,scanning,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+ch.qos.logback:logback-core,1.3.14,1.3.15,ch.qos.logback.core.boolex.JaninoEventEvaluatorBase,ch.qos.logback.core.boolex.JaninoEventEvaluatorBase,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,PATCH,false
+ch.qos.logback:logback-core,1.3.14,1.3.15,ch.qos.logback.core.boolex.JaninoEventEvaluatorBase,addMatcher,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,PATCH,false
+ch.qos.logback:logback-core,1.3.14,1.3.15,ch.qos.logback.core.boolex.JaninoEventEvaluatorBase,getDecoratedExpression,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,PATCH,false
+ch.qos.logback:logback-core,1.3.14,1.3.15,ch.qos.logback.core.boolex.JaninoEventEvaluatorBase,getExpression,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,PATCH,false
+ch.qos.logback:logback-core,1.3.14,1.3.15,ch.qos.logback.core.boolex.JaninoEventEvaluatorBase,getMatcherList,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,PATCH,false
+ch.qos.logback:logback-core,1.3.14,1.3.15,ch.qos.logback.core.boolex.JaninoEventEvaluatorBase,getParameterNames,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,PATCH,false
+ch.qos.logback:logback-core,1.3.14,1.3.15,ch.qos.logback.core.boolex.JaninoEventEvaluatorBase,getParameterTypes,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,PATCH,false
+ch.qos.logback:logback-core,1.3.14,1.3.15,ch.qos.logback.core.boolex.JaninoEventEvaluatorBase,getParameterValues,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,PATCH,false
+ch.qos.logback:logback-core,1.3.14,1.3.15,ch.qos.logback.core.boolex.JaninoEventEvaluatorBase,setExpression,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,PATCH,false
+ch.qos.logback:logback-core,1.3.14,1.3.15,ch.qos.logback.core.boolex.JaninoEventEvaluatorBase,ERROR_THRESHOLD,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,PATCH,false
+ch.qos.logback:logback-core,1.3.14,1.3.15,ch.qos.logback.core.boolex.JaninoEventEvaluatorBase,matcherList,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,PATCH,false
+ch.qos.logback:logback-core,1.3.14,1.3.15,ch.qos.logback.core.boolex.JaninoEventEvaluatorBase,JaninoEventEvaluatorBase,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,PATCH,false
+ch.qos.logback:logback-core,1.3.14,1.3.15,ch.qos.logback.core.joran.event.stax.BodyEvent,ch.qos.logback.core.joran.event.stax.BodyEvent,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,PATCH,false
+ch.qos.logback:logback-core,1.3.14,1.3.15,ch.qos.logback.core.joran.event.stax.BodyEvent,getText,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,PATCH,false
+ch.qos.logback:logback-core,1.3.14,1.3.15,ch.qos.logback.core.joran.event.stax.BodyEvent,toString,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,PATCH,false
+ch.qos.logback:logback-core,1.3.14,1.3.15,ch.qos.logback.core.joran.event.stax.EndEvent,ch.qos.logback.core.joran.event.stax.EndEvent,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,PATCH,false
+ch.qos.logback:logback-core,1.3.14,1.3.15,ch.qos.logback.core.joran.event.stax.EndEvent,toString,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,PATCH,false
+ch.qos.logback:logback-core,1.3.14,1.3.15,ch.qos.logback.core.joran.event.stax.EndEvent,EndEvent,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,PATCH,false
+ch.qos.logback:logback-core,1.3.14,1.3.15,ch.qos.logback.core.joran.event.stax.StartEvent,ch.qos.logback.core.joran.event.stax.StartEvent,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,PATCH,false
+ch.qos.logback:logback-core,1.3.14,1.3.15,ch.qos.logback.core.joran.event.stax.StartEvent,getAttributeList,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,PATCH,false
+ch.qos.logback:logback-core,1.3.14,1.3.15,ch.qos.logback.core.joran.event.stax.StartEvent,getElementPath,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,PATCH,false
+ch.qos.logback:logback-core,1.3.14,1.3.15,ch.qos.logback.core.joran.event.stax.StartEvent,toString,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,PATCH,false
+ch.qos.logback:logback-core,1.3.14,1.3.15,ch.qos.logback.core.joran.event.stax.StartEvent,elementPath,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,PATCH,false
+ch.qos.logback:logback-core,1.3.14,1.3.15,ch.qos.logback.core.joran.event.stax.StaxEvent,ch.qos.logback.core.joran.event.stax.StaxEvent,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,PATCH,false
+ch.qos.logback:logback-core,1.3.14,1.3.15,ch.qos.logback.core.joran.event.stax.StaxEvent,getLocation,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,PATCH,false
+ch.qos.logback:logback-core,1.3.14,1.3.15,ch.qos.logback.core.joran.event.stax.StaxEvent,getName,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,PATCH,false
+ch.qos.logback:logback-core,1.3.14,1.3.15,ch.qos.logback.core.joran.event.stax.StaxEventRecorder,ch.qos.logback.core.joran.event.stax.StaxEventRecorder,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,PATCH,false
+ch.qos.logback:logback-core,1.3.14,1.3.15,ch.qos.logback.core.joran.event.stax.StaxEventRecorder,getEventList,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,PATCH,false
+ch.qos.logback:logback-core,1.3.14,1.3.15,ch.qos.logback.core.joran.event.stax.StaxEventRecorder,recordEvents,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,PATCH,false
+ch.qos.logback:logback-core,1.3.14,1.3.15,ch.qos.logback.core.joran.event.stax.StaxEventRecorder,StaxEventRecorder,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,PATCH,false
+org.noear:snack3,3.2.113,3.2.139,org.noear.snack.annotation.ONodeAttr,flat,METHOD_CHANGE,METHOD_ADDED_TO_PUBLIC_CLASS; METHOD_ABSTRACT_ADDED_TO_CLASS,true,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,PATCH,false
+org.noear:snack3,3.2.113,3.2.139,org.noear.snack.core.exts.ClassWrap,clz,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,PATCH,false
+org.noear:snack3,3.2.113,3.2.139,org.noear.snack.core.exts.ClassWrap,ClassWrap,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,PATCH,false
+org.noear:snack3,3.2.113,3.2.139,org.noear.snack.core.exts.FieldWrap,type,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,PATCH,false
+org.noear:snack3,3.2.113,3.2.139,org.noear.snack.core.exts.FieldWrap,field,FIELD_CHANGE,FIELD_LESS_ACCESSIBLE,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,PATCH,false
+org.noear:snack3,3.2.113,3.2.139,org.noear.snack.core.exts.FieldWrap,genericType,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,PATCH,false
+org.noear:snack3,3.2.113,3.2.139,org.noear.snack.core.exts.FieldWrap,FieldWrap,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,PATCH,false
+org.noear:snack3,3.2.113,3.2.139,org.noear.snack.core.Feature,WriteSlashAsSpecial,FIELD_CHANGE,FIELD_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,PATCH,false
+org.noear:snack3,3.2.113,3.2.139,org.noear.snack.core.NodeTranslateFactory,org.noear.snack.core.NodeTranslateFactory,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,PATCH,false
+org.noear:snack3,3.2.113,3.2.139,org.noear.snack.core.NodeTranslateFactory,translate,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,PATCH,false
+org.noear:solon-logging,3.0.1,3.5.2,org.noear.solon.logging.integration.XPluginImp,org.noear.solon.logging.integration.XPluginImp,CLASS_CHANGE,CLASS_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon-logging,3.0.1,3.5.2,org.noear.solon.logging.integration.XPluginImp,start,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon-logging,3.0.1,3.5.2,org.noear.solon.logging.integration.XPluginImp,stop,METHOD_CHANGE,METHOD_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false
+org.noear:solon-logging,3.0.1,3.5.2,org.noear.solon.logging.integration.XPluginImp,XPluginImp,CONSTRUCTOR_CHANGE,CONSTRUCTOR_REMOVED,false,false,true,2,org.noear:solon-logging-logback,3.0.1,3.5.2,MINOR,false

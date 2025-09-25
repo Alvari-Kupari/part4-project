@@ -1,0 +1,4 @@
+Library_Name,Old_Version,New_Version,Class_Name,Member_Name,Change_Type,Description,Binary_Compatible,Source_Compatible,Is_Transitive,Depth,Direct_Parent_Dependency,Direct_Dependency_Old_Version,Direct_Dependency_New_Version,Release_Type,Is_Used_In_Client
+org.apache.jackrabbit:oak-jackrabbit-api,1.22.22,1.84.0,org.apache.jackrabbit.api.JackrabbitSession,getExpandedName,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.apache.jackrabbit:oak-jackrabbit-api,,,MINOR,false
+org.apache.jackrabbit:oak-jackrabbit-api,1.22.22,1.84.0,org.apache.jackrabbit.api.JackrabbitSession,getExpandedPath,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.apache.jackrabbit:oak-jackrabbit-api,,,MINOR,false
+org.apache.jackrabbit:oak-jackrabbit-api,1.22.22,1.84.0,org.apache.jackrabbit.api.security.JackrabbitAccessControlEntry,getPrivilegeCollection,METHOD_CHANGE,METHOD_ADDED_TO_INTERFACE,true,false,false,1,org.apache.jackrabbit:oak-jackrabbit-api,,,MINOR,false

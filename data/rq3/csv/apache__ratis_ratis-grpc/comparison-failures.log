@@ -1,0 +1,8 @@
+=== Comparison Failure Log ===
+[2025-09-22 14:51:30] org.apache.ratis:ratis-thirdparty-misc:1.0.9 -> org.apache.ratis:ratis-thirdparty-misc:1.0.10 : Failed to compare JAR files: JAPICMP comparison failed for org.apache.ratis:ratis-thirdparty-misc
+[2025-09-22 14:51:56] org.junit.jupiter:junit-jupiter-api:5.12.2 -> org.junit.jupiter:junit-jupiter-api:5.13.4 : Failed to compare JAR files: JAPICMP comparison failed for org.junit.jupiter:junit-jupiter-api
+
+=== Summary ===
+Total comparisons: 27
+Failures: 2
+Success rate: 92.59%

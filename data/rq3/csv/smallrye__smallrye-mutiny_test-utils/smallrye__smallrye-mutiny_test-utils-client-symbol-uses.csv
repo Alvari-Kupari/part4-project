@@ -1,0 +1,15 @@
+Library_Name,Symbol_Type,Class_Name,Symbol_Name,Usage_Location,Line_Number
+JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.util.concurrent.Flow.Subscription,Subscription,C:\Users\tyin363\Documents\repos\smallrye__smallrye-mutiny\test-utils\src\main\java\io\smallrye\mutiny\test\Mocks.java,33
+JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.util.concurrent.Flow.Subscription,Subscription,C:\Users\tyin363\Documents\repos\smallrye__smallrye-mutiny\test-utils\src\main\java\io\smallrye\mutiny\test\Mocks.java,38
+CLIENT:client-code:N/A:N/A,MethodCallExpr,io.smallrye.mutiny.test.Mocks,subscriber,C:\Users\tyin363\Documents\repos\smallrye__smallrye-mutiny\test-utils\src\main\java\io\smallrye\mutiny\test\Mocks.java,20
+org.mockito:mockito-core:jar:5.18.0,MethodCallExpr,org.mockito.ArgumentMatchers,any,C:\Users\tyin363\Documents\repos\smallrye__smallrye-mutiny\test-utils\src\main\java\io\smallrye\mutiny\test\Mocks.java,38
+JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.util.concurrent.Flow.Subscriber,Subscriber,C:\Users\tyin363\Documents\repos\smallrye__smallrye-mutiny\test-utils\src\main\java\io\smallrye\mutiny\test\Mocks.java,30
+JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.util.concurrent.Flow.Subscriber,Subscriber,C:\Users\tyin363\Documents\repos\smallrye__smallrye-mutiny\test-utils\src\main\java\io\smallrye\mutiny\test\Mocks.java,31
+org.mockito:mockito-core:jar:5.18.0,MethodCallExpr,org.mockito.Mockito,mock,C:\Users\tyin363\Documents\repos\smallrye__smallrye-mutiny\test-utils\src\main\java\io\smallrye\mutiny\test\Mocks.java,31
+org.mockito:mockito-core:jar:5.18.0,MethodCallExpr,org.mockito.invocation.InvocationOnMock,getArgument,C:\Users\tyin363\Documents\repos\smallrye__smallrye-mutiny\test-utils\src\main\java\io\smallrye\mutiny\test\Mocks.java,33
+org.mockito:mockito-core:jar:5.18.0,MethodCallExpr,org.mockito.Mockito,doAnswer,C:\Users\tyin363\Documents\repos\smallrye__smallrye-mutiny\test-utils\src\main\java\io\smallrye\mutiny\test\Mocks.java,32
+JDK:java.base:N/A:N/A,FieldAccessExpr,java.lang.Long,MAX_VALUE,C:\Users\tyin363\Documents\repos\smallrye__smallrye-mutiny\test-utils\src\main\java\io\smallrye\mutiny\test\Mocks.java,20
+JDK:java.base:N/A:N/A,MethodCallExpr,java.util.concurrent.Flow.Subscription,request,C:\Users\tyin363\Documents\repos\smallrye__smallrye-mutiny\test-utils\src\main\java\io\smallrye\mutiny\test\Mocks.java,35
+JDK:java.base:N/A:N/A,MethodCallExpr,java.util.concurrent.Flow.Subscriber,onSubscribe,C:\Users\tyin363\Documents\repos\smallrye__smallrye-mutiny\test-utils\src\main\java\io\smallrye\mutiny\test\Mocks.java,32
+org.mockito:mockito-core:jar:5.18.0,MethodCallExpr,org.mockito.stubbing.Stubber,when,C:\Users\tyin363\Documents\repos\smallrye__smallrye-mutiny\test-utils\src\main\java\io\smallrye\mutiny\test\Mocks.java,32
+JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.util.concurrent.Flow.Subscriber,Subscriber,C:\Users\tyin363\Documents\repos\smallrye__smallrye-mutiny\test-utils\src\main\java\io\smallrye\mutiny\test\Mocks.java,19

@@ -1,0 +1,11 @@
+=== Comparison Failure Log ===
+[2025-09-23 15:03:25] org.glassfish.jersey.core:jersey-server:3.1.5 -> org.glassfish.jersey.core:jersey-server:3.1.11 : Failed to compare JAR files: JAPICMP comparison failed for org.glassfish.jersey.core:jersey-server
+[2025-09-23 15:03:26] org.glassfish.jersey.containers:jersey-container-servlet-core:3.1.5 -> org.glassfish.jersey.containers:jersey-container-servlet-core:3.1.11 : Failed to compare JAR files: JAPICMP comparison failed for org.glassfish.jersey.containers:jersey-container-servlet-core
+[2025-09-23 15:04:31] org.mockito:mockito-core:5.12.0 -> org.mockito:mockito-core:5.20.0 : Failed to compare JAR files: JAPICMP comparison failed for org.mockito:mockito-core
+[2025-09-23 15:04:31] org.assertj:assertj-core:3.21.0 -> org.assertj:assertj-core:3.27.6 : Failed to compare JAR files: JAPICMP comparison failed for org.assertj:assertj-core
+[2025-09-23 15:04:32] org.easymock:easymock:5.2.0 -> org.easymock:easymock:5.6.0 : Failed to compare JAR files: JAPICMP comparison failed for org.easymock:easymock
+
+=== Summary ===
+Total comparisons: 80
+Failures: 5
+Success rate: 93.75%

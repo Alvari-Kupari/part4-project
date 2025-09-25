@@ -1,0 +1,3 @@
+Library_Name,Symbol_Type,Class_Name,Symbol_Name,Usage_Location,Line_Number
+CLIENT:client-code:N/A:N/A,MethodCallExpr,tech.tablesaw.beakerx.TablesawDisplayer,registerTable,C:\Users\tyin363\Documents\repos\jtablesaw__tablesaw\beakerx\src\main\java\tech\tablesaw\beakerx\TablesawDisplayer.java,36
+CLIENT:client-code:N/A:N/A,MethodCallExpr,tech.tablesaw.beakerx.TablesawDisplayer,registerColumns,C:\Users\tyin363\Documents\repos\jtablesaw__tablesaw\beakerx\src\main\java\tech\tablesaw\beakerx\TablesawDisplayer.java,37

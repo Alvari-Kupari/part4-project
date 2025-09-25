@@ -1,0 +1,7 @@
+=== Comparison Failure Log ===
+[2025-09-22 16:13:07] org.hibernate:hibernate-core:5.4.3.Final -> org.hibernate:hibernate-core:6.0.0.CR2 : Failed to compare JAR files: JAPICMP comparison failed for org.hibernate:hibernate-core
+
+=== Summary ===
+Total comparisons: 12
+Failures: 1
+Success rate: 91.67%

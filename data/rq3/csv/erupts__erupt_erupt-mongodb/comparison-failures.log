@@ -1,0 +1,8 @@
+=== Comparison Failure Log ===
+[2025-09-22 20:47:05] org.mongodb:mongodb-driver-core:4.6.1 -> org.mongodb:mongodb-driver-core:4.11.5 : Failed to compare JAR files: JAPICMP comparison failed for org.mongodb:mongodb-driver-core
+[2025-09-22 20:47:05] org.projectlombok:lombok:1.18.30 -> org.projectlombok:lombok:1.18.42 : Failed to compare JAR files: JAPICMP comparison failed for org.projectlombok:lombok
+
+=== Summary ===
+Total comparisons: 2
+Failures: 2
+Success rate: 0.00%

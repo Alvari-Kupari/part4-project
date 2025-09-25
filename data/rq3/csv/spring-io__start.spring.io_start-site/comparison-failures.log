@@ -1,0 +1,8 @@
+=== Comparison Failure Log ===
+[2025-09-23 09:28:39] org.ehcache:ehcache:3.10.8 -> org.ehcache:ehcache:3.11.1 : Failed to compare JAR files: JAPICMP comparison failed for org.ehcache:ehcache
+[2025-09-23 09:28:40] org.springframework.boot:spring-boot-devtools:3.5.4 -> org.springframework.boot:spring-boot-devtools:3.5.6 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.boot:spring-boot-devtools
+
+=== Summary ===
+Total comparisons: 57
+Failures: 2
+Success rate: 96.49%

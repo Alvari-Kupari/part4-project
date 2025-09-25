@@ -1,0 +1,7 @@
+=== Comparison Failure Log ===
+[2025-09-22 13:18:45] org.xerial:sqlite-jdbc:3.34.0 -> org.xerial:sqlite-jdbc:3.50.3.0 : Failed to compare JAR files: JAPICMP comparison failed for org.xerial:sqlite-jdbc
+
+=== Summary ===
+Total comparisons: 2
+Failures: 1
+Success rate: 50.00%

@@ -1,0 +1,17 @@
+=== Comparison Failure Log ===
+[2025-09-23 01:18:05] org.modelmapper:modelmapper:3.1.1 -> org.modelmapper:modelmapper:3.2.4 : Failed to compare JAR files: JAPICMP comparison failed for org.modelmapper:modelmapper
+[2025-09-23 01:18:11] org.springframework.ldap:spring-ldap-core:3.2.8 -> org.springframework.ldap:spring-ldap-core:3.3.3 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.ldap:spring-ldap-core
+[2025-09-23 01:18:26] org.postgresql:postgresql:42.7.5 -> org.postgresql:postgresql:42.7.8 : Failed to compare JAR files: JAPICMP comparison failed for org.postgresql:postgresql
+[2025-09-23 01:18:29] org.hibernate.validator:hibernate-validator:8.0.2.Final -> org.hibernate.validator:hibernate-validator:9.0.0.CR1 : Failed to compare JAR files: JAPICMP comparison failed for org.hibernate.validator:hibernate-validator
+[2025-09-23 01:18:30] org.liquibase:liquibase-core:4.29.2 -> org.liquibase:liquibase-core:4.33.0 : Failed to compare JAR files: JAPICMP comparison failed for org.liquibase:liquibase-core
+[2025-09-23 01:19:39] org.testcontainers:postgresql:1.20.1 -> org.testcontainers:postgresql:1.21.3 : Failed to compare JAR files: JAPICMP comparison failed for org.testcontainers:postgresql
+[2025-09-23 01:20:22] org.testcontainers:testcontainers:1.20.1 -> org.testcontainers:testcontainers:1.21.3 : Failed to compare JAR files: JAPICMP comparison failed for org.testcontainers:testcontainers
+[2025-09-23 01:20:23] org.thymeleaf:thymeleaf:3.1.2.RELEASE -> org.thymeleaf:thymeleaf:3.1.3.RELEASE : Failed to compare JAR files: JAPICMP comparison failed for org.thymeleaf:thymeleaf
+[2025-09-23 01:20:26] org.thymeleaf:thymeleaf-spring4:3.0.12.RELEASE -> org.thymeleaf:thymeleaf-spring4:3.0.15.RELEASE : Failed to compare JAR files: JAPICMP comparison failed for org.thymeleaf:thymeleaf-spring4
+[2025-09-23 01:21:03] org.springframework.security:spring-security-test:6.4.5 -> org.springframework.security:spring-security-test:6.5.5 : Failed to compare JAR files: JAPICMP comparison failed for org.springframework.security:spring-security-test
+[2025-09-23 01:21:03] org.projectlombok:lombok:1.18.38 -> org.projectlombok:lombok:1.18.42 : Failed to compare JAR files: JAPICMP comparison failed for org.projectlombok:lombok
+
+=== Summary ===
+Total comparisons: 501
+Failures: 11
+Success rate: 97.80%
