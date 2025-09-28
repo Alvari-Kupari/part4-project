@@ -21,7 +21,7 @@ public class SymbolVisitor extends VoidVisitorAdapter<SymbolDatabase> {
 
   @Override
   public void visit(MethodCallExpr n, SymbolDatabase symbolDatabase) {
-    super.visit(n, symbolDatabase);
+
     try {
       ResolvedMethodDeclaration r = n.resolve();
       String fqn = r.getQualifiedSignature(); // fully qualified with params
@@ -29,11 +29,12 @@ public class SymbolVisitor extends VoidVisitorAdapter<SymbolDatabase> {
           symbolDatabase, "MethodCallExpr", r.declaringType().getQualifiedName(), r.getName(), n);
     } catch (Exception ignored) {
     }
+    super.visit(n, symbolDatabase);
   }
 
   @Override
   public void visit(ObjectCreationExpr n, SymbolDatabase symbolDatabase) {
-    super.visit(n, symbolDatabase);
+
     try {
       ResolvedConstructorDeclaration r = n.resolve();
       addSymbol(
@@ -44,11 +45,11 @@ public class SymbolVisitor extends VoidVisitorAdapter<SymbolDatabase> {
           n);
     } catch (Exception ignored) {
     }
+    super.visit(n, symbolDatabase);
   }
 
   @Override
   public void visit(FieldAccessExpr n, SymbolDatabase symbolDatabase) {
-    super.visit(n, symbolDatabase);
     try {
       ResolvedValueDeclaration v = n.resolve();
       if (v.isField()) {
@@ -62,25 +63,12 @@ public class SymbolVisitor extends VoidVisitorAdapter<SymbolDatabase> {
       }
     } catch (Exception ignored) {
     }
-  }
-
-  @Override
-  public void visit(NameExpr n, SymbolDatabase symbolDatabase) {
     super.visit(n, symbolDatabase);
-    try {
-      ResolvedValueDeclaration v = n.resolve();
-      if (v.isField()) {
-        ResolvedFieldDeclaration fld = v.asField();
-        addSymbol(
-            symbolDatabase, "NameExpr", fld.declaringType().getQualifiedName(), fld.getName(), n);
-      }
-    } catch (Exception ignored) {
-    }
   }
 
   @Override
   public void visit(MethodReferenceExpr n, SymbolDatabase db) {
-    super.visit(n, db);
+
     try {
       ResolvedMethodLikeDeclaration r = n.resolve();
       if (r instanceof ResolvedMethodDeclaration) {
@@ -92,11 +80,12 @@ public class SymbolVisitor extends VoidVisitorAdapter<SymbolDatabase> {
       }
     } catch (Exception ignored) {
     }
+    super.visit(n, db);
   }
 
   @Override
   public void visit(ClassOrInterfaceType n, SymbolDatabase symbolDatabase) {
-    super.visit(n, symbolDatabase);
+
     try {
       ResolvedReferenceType rt = n.resolve().asReferenceType();
       addSymbol(
@@ -108,6 +97,7 @@ public class SymbolVisitor extends VoidVisitorAdapter<SymbolDatabase> {
 
     } catch (Exception ignored) {
     }
+    super.visit(n, symbolDatabase);
   }
 
   private void addSymbol(
@@ -118,7 +108,10 @@ public class SymbolVisitor extends VoidVisitorAdapter<SymbolDatabase> {
       com.github.javaparser.ast.Node n) {
 
     // Inner-class-safe lookup in DependencyDatabase
-    Artifact artifact = dependencyDatabase.getArtifact(className);
+    ArtifactWrapper wrapper = dependencyDatabase.getArtifact(className);
+
+    boolean isTransitive = wrapper.isTransitive();
+    Artifact artifact = wrapper.getArtifact();
 
     Symbol symbol =
         new Symbol.Builder()
@@ -128,7 +121,10 @@ public class SymbolVisitor extends VoidVisitorAdapter<SymbolDatabase> {
             .usageLocation(currentFile == null ? "unknown" : currentFile)
             .lineNumber(n.getBegin().map(p -> p.line).orElse(-1))
             .library(artifact) // attach artifact here
+            .isTransitive(isTransitive)
             .build();
+
+    System.out.println("ADDING SYMBOL: " + symbol.toString());
 
     symbolDatabase.add(symbol);
   }

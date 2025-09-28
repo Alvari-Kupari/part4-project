@@ -7,6 +7,7 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.Collection;
+import org.eclipse.aether.artifact.Artifact;
 
 /**
  * CSV writer specifically for outputting all symbol uses, along with their metadata in the client
@@ -41,7 +42,8 @@ public class ClientSymbolCsvWriter {
   }
 
   private void writeHeader() throws IOException {
-    writer.append("Library_Name,Symbol_Type,Class_Name,Symbol_Name,Usage_Location,Line_Number\n");
+    writer.append(
+        "Library_Name,Version,Is_Transitive,Symbol_Type,Class_Name,Symbol_Name,Usage_Location,Line_Number\n");
     writer.flush();
   }
 
@@ -55,8 +57,10 @@ public class ClientSymbolCsvWriter {
   private void writeSymbol(Symbol symbol) throws IOException {
     writer.append(
         String.format(
-            "%s,%s,%s,%s,%s,%d\n",
-            escapeCSV(symbol.getLibrary() == null ? null : symbol.getLibrary().toString()),
+            "%s,%s,%s,%s,%s,%s,%s,%d\n",
+            escapeCSV(getArtifacString(symbol.getLibrary())),
+            escapeCSV(getArtifacVersion(symbol.getLibrary())),
+            symbol.isTransitive(),
             escapeCSV(symbol.getSymbolType()),
             escapeCSV(symbol.getClassName()),
             escapeCSV(symbol.getSymbolName()),
@@ -74,5 +78,17 @@ public class ClientSymbolCsvWriter {
 
   public void close() throws IOException {
     writer.close();
+  }
+
+  private String getArtifacString(Artifact artifact) {
+    if (artifact == null) return "";
+
+    return artifact.getGroupId() + ":" + artifact.getArtifactId();
+  }
+
+  private String getArtifacVersion(Artifact artifact) {
+    if (artifact == null) return "";
+
+    return artifact.getVersion();
   }
 }

@@ -24,19 +24,24 @@ import org.eclipse.aether.graph.Dependency;
 
 public class Script {
   public static final Path csvFolder =
-      Paths.get("C:\\Users\\tyin363\\Documents\\part4-project\\data\\rq3\\csv");
+      Paths.get("C:\\Users\\Alvari\\Documents\\UNI\\softeng_700\\test-results");
 
   private static final Path reposFolder =
-      Paths.get("C:\\Users\\tyin363\\Documents\\repos");
+      Paths.get("C:\\Users\\Alvari\\Documents\\UNI\\softeng_700\\test-repos");
 
-  private static final Path progressFile =
-      csvFolder.resolve("progress.txt");
+  private static final Path progressFile = csvFolder.resolve("progress.txt");
 
   private static final Logger LOGGER = Logger.getLogger(Script.class.getName());
 
   // private static final String startRepo = "4ra1n__class-obfk";
 
   public static void main(String[] args) throws IOException {
+
+    boolean a = false;
+    if (a) {
+      com.example.normalisation.Script.main(args);
+      return;
+    }
 
     if (!Files.isDirectory(reposFolder)) {
       throw new IOException("Repos folder not found at: " + reposFolder);
@@ -49,7 +54,7 @@ public class Script {
     // Determine where to start based on progress file
     String lastProcessedRepo = getLastProcessedRepo();
     boolean seen = (lastProcessedRepo == null); // If no progress file, start from beginning
-    
+
     if (lastProcessedRepo != null) {
       LOGGER.info("Resuming from after repository: " + lastProcessedRepo);
     } else {
@@ -123,7 +128,7 @@ public class Script {
 
     // Clear progress file when completely done
     clearProgressFile();
-    
+
     LOGGER.info("\n\n========== ALL ANALYSIS COMPLETE ==========");
     LOGGER.info("Check output folders in: " + csvFolder.toAbsolutePath());
     LOGGER.info("============================================\n");

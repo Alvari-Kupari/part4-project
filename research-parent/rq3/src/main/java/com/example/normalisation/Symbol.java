@@ -10,6 +10,7 @@ public class Symbol {
   private final String usageLocation; // File path where it's used
   private final int lineNumber; // Line number where it's used
   private final Artifact library;
+  private final boolean isTransitive;
 
   private Symbol(Builder builder) {
     this.symbolType = builder.symbolType;
@@ -18,6 +19,7 @@ public class Symbol {
     this.usageLocation = builder.usageLocation;
     this.lineNumber = builder.lineNumber;
     this.library = builder.library;
+    this.isTransitive = builder.isTransitive;
   }
 
   public String getSymbolType() {
@@ -44,6 +46,10 @@ public class Symbol {
     return library;
   }
 
+  public boolean isTransitive() {
+    return isTransitive;
+  }
+
   public static class Builder {
     private String symbolType;
     private String className;
@@ -51,6 +57,7 @@ public class Symbol {
     private String usageLocation;
     private int lineNumber;
     private Artifact library;
+    private boolean isTransitive;
 
     public Builder symbolType(String symbolType) {
       this.symbolType = symbolType;
@@ -82,6 +89,11 @@ public class Symbol {
       return this;
     }
 
+    public Builder isTransitive(boolean isTransitive) {
+      this.isTransitive = isTransitive;
+      return this;
+    }
+
     public Symbol build() {
       if (symbolType == null || className == null || symbolName == null || usageLocation == null) {
         throw new IllegalStateException("All fields must be initialised before building Symbol");
@@ -106,5 +118,29 @@ public class Symbol {
   @Override
   public int hashCode() {
     return Objects.hash(symbolType, className, symbolName, usageLocation, lineNumber, library);
+  }
+
+  @Override
+  public String toString() {
+    return "Symbol{"
+        + "symbolType='"
+        + symbolType
+        + '\''
+        + ", className='"
+        + className
+        + '\''
+        + ", symbolName='"
+        + symbolName
+        + '\''
+        + ", usageLocation='"
+        + usageLocation
+        + '\''
+        + ", lineNumber="
+        + lineNumber
+        + ", library="
+        + (library != null ? library.toString() : "null")
+        + ", isTransitive="
+        + isTransitive
+        + '}';
   }
 }
