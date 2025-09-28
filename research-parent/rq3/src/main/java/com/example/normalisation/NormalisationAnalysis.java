@@ -49,7 +49,7 @@ public class NormalisationAnalysis {
 
     String rootPackage = subModule.getClientRootPackage();
 
-    DependencyDatabase dependencyDatabase = new DependencyDatabase(rootPackage, artifacts);
+    DependencyDatabase dependencyDatabase = new DependencyDatabase(rootPackage, deps);
     LanguageLevel javaVersion = pom.getJavaVersion();
 
     Parser parser = new Parser(subModule.getDir(), artifacts, javaVersion);
