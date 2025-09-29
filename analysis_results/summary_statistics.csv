@@ -1,0 +1,13 @@
+Metric,Value
+total_projects_analyzed,1808.0
+total_breaking_changes,2053431.0
+total_used_breaking_changes,4201.0
+usage_rate,0.204584424799275
+total_unique_libraries,1329.0
+binary_compatibility_rate,8.284963069126745
+source_compatibility_rate,0.0
+direct_breaking_changes,545045.0
+transitive_breaking_changes,1508386.0
+avg_breaking_changes_per_project,1135.7472345132744
+avg_used_changes_per_project,1.5353982300884956
+projects_with_used_changes,316.0
