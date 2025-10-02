@@ -1,9 +1,4 @@
-Library_Name,Symbol_Type,Class_Name,Symbol_Name,Usage_Location,Line_Number
-JDK:java.base:N/A:N/A,FieldAccessExpr,java.lang.System,out,C:\Users\tyin363\Documents\repos\spotbugs__sonar-findbugs\src\test\resources\projects\multi-module\multi-module-fx\src\main\java\multimodule\fx\SampleFx.java,12
-JDK:java.base:N/A:N/A,MethodCallExpr,java.io.PrintStream,println,C:\Users\tyin363\Documents\repos\spotbugs__sonar-findbugs\src\test\resources\projects\multi-module\multi-module-fx\src\main\java\multimodule\fx\SampleFx.java,12
-JDK:java.base:N/A:N/A,MethodCallExpr,java.lang.String,toString,C:\Users\tyin363\Documents\repos\spotbugs__sonar-findbugs\src\test\resources\projects\multi-module\multi-module-fx\src\main\java\multimodule\fx\SampleFx.java,12
-CLIENT:client-code:N/A:N/A,NameExpr,multimodule.fx.SampleFx,field,C:\Users\tyin363\Documents\repos\spotbugs__sonar-findbugs\src\test\resources\projects\multi-module\multi-module-fx\src\main\java\multimodule\fx\SampleFx.java,13
-JDK:java.base:N/A:N/A,MethodCallExpr,java.io.PrintStream,println,C:\Users\tyin363\Documents\repos\spotbugs__sonar-findbugs\target\test-classes\projects\multi-module\multi-module-fx\src\main\java\multimodule\fx\SampleFx.java,12
-CLIENT:client-code:N/A:N/A,NameExpr,multimodule.fx.SampleFx,field,C:\Users\tyin363\Documents\repos\spotbugs__sonar-findbugs\target\test-classes\projects\multi-module\multi-module-fx\src\main\java\multimodule\fx\SampleFx.java,13
-JDK:java.base:N/A:N/A,FieldAccessExpr,java.lang.System,out,C:\Users\tyin363\Documents\repos\spotbugs__sonar-findbugs\target\test-classes\projects\multi-module\multi-module-fx\src\main\java\multimodule\fx\SampleFx.java,12
-JDK:java.base:N/A:N/A,MethodCallExpr,java.lang.String,toString,C:\Users\tyin363\Documents\repos\spotbugs__sonar-findbugs\target\test-classes\projects\multi-module\multi-module-fx\src\main\java\multimodule\fx\SampleFx.java,12
+Library_Name,Version,Is_Transitive,Symbol_Type,Class_Name,Symbol_Name,Usage_Location,Line_Number
+JDK:java.base,N/A,false,MethodCallExpr,java.io.PrintStream,println,C:\Users\tyin363\Documents\repos\spotbugs__sonar-findbugs\target\test-classes\projects\multi-module\multi-module-fx\src\main\java\multimodule\fx\SampleFx.java,12
+JDK:java.base,N/A,false,FieldAccessExpr,java.lang.System,out,C:\Users\tyin363\Documents\repos\spotbugs__sonar-findbugs\target\test-classes\projects\multi-module\multi-module-fx\src\main\java\multimodule\fx\SampleFx.java,12
+JDK:java.base,N/A,false,MethodCallExpr,java.lang.String,toString,C:\Users\tyin363\Documents\repos\spotbugs__sonar-findbugs\target\test-classes\projects\multi-module\multi-module-fx\src\main\java\multimodule\fx\SampleFx.java,12

@@ -1,4 +1,4 @@
-Library_Name,Symbol_Type,Class_Name,Symbol_Name,Usage_Location,Line_Number
-CLIENT:client-code:N/A:N/A,ClassOrInterfaceType,com.plumelog.springboot.admin.AppStart,AppStart,C:\Users\tyin363\Documents\repos\fayechenlong__plumelog\plumelog-example\spring-boot-admin\src\main\java\com\plumelog\springboot\admin\AppStart.java,11
-JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.lang.String,String,C:\Users\tyin363\Documents\repos\fayechenlong__plumelog\plumelog-example\spring-boot-admin\src\main\java\com\plumelog\springboot\admin\AppStart.java,10
-org.springframework.boot:spring-boot:jar:2.1.6.RELEASE,MethodCallExpr,org.springframework.boot.SpringApplication,run,C:\Users\tyin363\Documents\repos\fayechenlong__plumelog\plumelog-example\spring-boot-admin\src\main\java\com\plumelog\springboot\admin\AppStart.java,11
+Library_Name,Version,Is_Transitive,Symbol_Type,Class_Name,Symbol_Name,Usage_Location,Line_Number
+CLIENT:client-code,N/A,false,ClassOrInterfaceType,com.plumelog.springboot.admin.AppStart,AppStart,C:\Users\tyin363\Documents\repos\fayechenlong__plumelog\plumelog-example\spring-boot-admin\src\main\java\com\plumelog\springboot\admin\AppStart.java,11
+JDK:java.base,N/A,false,ClassOrInterfaceType,java.lang.String,String,C:\Users\tyin363\Documents\repos\fayechenlong__plumelog\plumelog-example\spring-boot-admin\src\main\java\com\plumelog\springboot\admin\AppStart.java,10
+org.springframework.boot:spring-boot,2.1.6.RELEASE,true,MethodCallExpr,org.springframework.boot.SpringApplication,run,C:\Users\tyin363\Documents\repos\fayechenlong__plumelog\plumelog-example\spring-boot-admin\src\main\java\com\plumelog\springboot\admin\AppStart.java,11

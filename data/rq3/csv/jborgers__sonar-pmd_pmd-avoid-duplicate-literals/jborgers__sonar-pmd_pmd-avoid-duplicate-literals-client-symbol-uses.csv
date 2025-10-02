@@ -1,6 +1,6 @@
-Library_Name,Symbol_Type,Class_Name,Symbol_Name,Usage_Location,Line_Number
-JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.lang.String,String,C:\Users\tyin363\Documents\repos\jborgers__sonar-pmd\integration-test\projects\pmd-avoid-duplicate-literals\src\main\java\AvoidDuplicateLiterals.java,4
-JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.lang.String,String,C:\Users\tyin363\Documents\repos\jborgers__sonar-pmd\integration-test\projects\pmd-avoid-duplicate-literals\src\main\java\AvoidDuplicateLiterals.java,5
-JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.lang.String,String,C:\Users\tyin363\Documents\repos\jborgers__sonar-pmd\integration-test\projects\pmd-avoid-duplicate-literals\src\main\java\AvoidDuplicateLiterals.java,2
-JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.lang.String,String,C:\Users\tyin363\Documents\repos\jborgers__sonar-pmd\integration-test\projects\pmd-avoid-duplicate-literals\src\main\java\AvoidDuplicateLiterals.java,3
-JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.lang.String,String,C:\Users\tyin363\Documents\repos\jborgers__sonar-pmd\integration-test\projects\pmd-avoid-duplicate-literals\src\main\java\AvoidDuplicateLiterals.java,6
+Library_Name,Version,Is_Transitive,Symbol_Type,Class_Name,Symbol_Name,Usage_Location,Line_Number
+JDK:java.base,N/A,false,ClassOrInterfaceType,java.lang.String,String,C:\Users\tyin363\Documents\repos\jborgers__sonar-pmd\integration-test\projects\pmd-avoid-duplicate-literals\src\main\java\AvoidDuplicateLiterals.java,4
+JDK:java.base,N/A,false,ClassOrInterfaceType,java.lang.String,String,C:\Users\tyin363\Documents\repos\jborgers__sonar-pmd\integration-test\projects\pmd-avoid-duplicate-literals\src\main\java\AvoidDuplicateLiterals.java,5
+JDK:java.base,N/A,false,ClassOrInterfaceType,java.lang.String,String,C:\Users\tyin363\Documents\repos\jborgers__sonar-pmd\integration-test\projects\pmd-avoid-duplicate-literals\src\main\java\AvoidDuplicateLiterals.java,2
+JDK:java.base,N/A,false,ClassOrInterfaceType,java.lang.String,String,C:\Users\tyin363\Documents\repos\jborgers__sonar-pmd\integration-test\projects\pmd-avoid-duplicate-literals\src\main\java\AvoidDuplicateLiterals.java,3
+JDK:java.base,N/A,false,ClassOrInterfaceType,java.lang.String,String,C:\Users\tyin363\Documents\repos\jborgers__sonar-pmd\integration-test\projects\pmd-avoid-duplicate-literals\src\main\java\AvoidDuplicateLiterals.java,6

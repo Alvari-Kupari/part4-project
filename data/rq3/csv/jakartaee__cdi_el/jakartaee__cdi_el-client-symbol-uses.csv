@@ -1,3 +1,3 @@
-Library_Name,Symbol_Type,Class_Name,Symbol_Name,Usage_Location,Line_Number
-jakarta.el:jakarta.el-api:jar:6.0.1,ClassOrInterfaceType,jakarta.el.ExpressionFactory,ExpressionFactory,C:\Users\tyin363\Documents\repos\jakartaee__cdi\el\src\main\java\jakarta\enterprise\inject\spi\el\ELAwareBeanManager.java,44
-jakarta.el:jakarta.el-api:jar:6.0.1,ClassOrInterfaceType,jakarta.el.ELResolver,ELResolver,C:\Users\tyin363\Documents\repos\jakartaee__cdi\el\src\main\java\jakarta\enterprise\inject\spi\el\ELAwareBeanManager.java,33
+Library_Name,Version,Is_Transitive,Symbol_Type,Class_Name,Symbol_Name,Usage_Location,Line_Number
+jakarta.el:jakarta.el-api,6.0.1,false,ClassOrInterfaceType,jakarta.el.ExpressionFactory,ExpressionFactory,C:\Users\tyin363\Documents\repos\jakartaee__cdi\el\src\main\java\jakarta\enterprise\inject\spi\el\ELAwareBeanManager.java,44
+jakarta.el:jakarta.el-api,6.0.1,false,ClassOrInterfaceType,jakarta.el.ELResolver,ELResolver,C:\Users\tyin363\Documents\repos\jakartaee__cdi\el\src\main\java\jakarta\enterprise\inject\spi\el\ELAwareBeanManager.java,33

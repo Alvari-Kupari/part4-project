@@ -1,2 +1,2 @@
-Library_Name,Symbol_Type,Class_Name,Symbol_Name,Usage_Location,Line_Number
-org.springframework.boot:spring-boot-autoconfigure:jar:3.2.7,ClassOrInterfaceType,org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration,DataSourceAutoConfiguration,C:\Users\tyin363\Documents\repos\chillzhuang__blade-tool\blade-starter-transaction\src\main\java\org\springblade\core\transaction\annotation\SeataCloudApplication.java,34
+Library_Name,Version,Is_Transitive,Symbol_Type,Class_Name,Symbol_Name,Usage_Location,Line_Number
+org.springframework.boot:spring-boot-autoconfigure,3.5.3,true,ClassOrInterfaceType,org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration,DataSourceAutoConfiguration,C:\Users\tyin363\Documents\repos\chillzhuang__blade-tool\blade-starter-transaction\src\main\java\org\springblade\core\transaction\annotation\SeataCloudApplication.java,34

@@ -1,2 +1,2 @@
-Library_Name,Symbol_Type,Class_Name,Symbol_Name,Usage_Location,Line_Number
-CLIENT:client-code:N/A:N/A,ClassOrInterfaceType,org.dspace.example.Example,Example,C:\Users\tyin363\Documents\repos\DSpace__DSpace\dspace\modules\additions\src\main\java\org\dspace\example\impl\ExampleImpl.java,15
+Library_Name,Version,Is_Transitive,Symbol_Type,Class_Name,Symbol_Name,Usage_Location,Line_Number
+CLIENT:client-code,N/A,false,ClassOrInterfaceType,org.dspace.example.Example,Example,C:\Users\tyin363\Documents\repos\DSpace__DSpace\dspace\modules\additions\src\main\java\org\dspace\example\impl\ExampleImpl.java,15

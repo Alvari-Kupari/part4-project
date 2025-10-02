@@ -1,4 +1,4 @@
-Library_Name,Symbol_Type,Class_Name,Symbol_Name,Usage_Location,Line_Number
-JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.lang.String,String,C:\Users\tyin363\Documents\repos\erupts__erupt\deploy\erupt-cloud-server-docker\src\main\java\xyz\erupt\cloud_server\docker\Application.java,21
-org.springframework.boot:spring-boot:jar:2.7.18,MethodCallExpr,org.springframework.boot.SpringApplication,run,C:\Users\tyin363\Documents\repos\erupts__erupt\deploy\erupt-cloud-server-docker\src\main\java\xyz\erupt\cloud_server\docker\Application.java,22
-CLIENT:client-code:N/A:N/A,ClassOrInterfaceType,xyz.erupt.cloud_server.docker.Application,Application,C:\Users\tyin363\Documents\repos\erupts__erupt\deploy\erupt-cloud-server-docker\src\main\java\xyz\erupt\cloud_server\docker\Application.java,22
+Library_Name,Version,Is_Transitive,Symbol_Type,Class_Name,Symbol_Name,Usage_Location,Line_Number
+JDK:java.base,N/A,false,ClassOrInterfaceType,java.lang.String,String,C:\Users\tyin363\Documents\repos\erupts__erupt\deploy\erupt-cloud-server-docker\src\main\java\xyz\erupt\cloud_server\docker\Application.java,21
+org.springframework.boot:spring-boot,2.7.18,true,MethodCallExpr,org.springframework.boot.SpringApplication,run,C:\Users\tyin363\Documents\repos\erupts__erupt\deploy\erupt-cloud-server-docker\src\main\java\xyz\erupt\cloud_server\docker\Application.java,22
+CLIENT:client-code,N/A,false,ClassOrInterfaceType,xyz.erupt.cloud_server.docker.Application,Application,C:\Users\tyin363\Documents\repos\erupts__erupt\deploy\erupt-cloud-server-docker\src\main\java\xyz\erupt\cloud_server\docker\Application.java,22

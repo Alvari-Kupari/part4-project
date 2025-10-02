@@ -1,7 +1,7 @@
-Library_Name,Symbol_Type,Class_Name,Symbol_Name,Usage_Location,Line_Number
-JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.lang.String,String,C:\Users\tyin363\Documents\repos\spring-cloud__spring-cloud-config\spring-cloud-config-sample\src\main\java\sample\Application.java,39
-org.springframework:spring-core:jar:6.0.23,ClassOrInterfaceType,org.springframework.core.env.Environment,Environment,C:\Users\tyin363\Documents\repos\spring-cloud__spring-cloud-config\spring-cloud-config-sample\src\main\java\sample\Application.java,32
-CLIENT:client-code:N/A:N/A,ClassOrInterfaceType,sample.Application,Application,C:\Users\tyin363\Documents\repos\spring-cloud__spring-cloud-config\spring-cloud-config-sample\src\main\java\sample\Application.java,35
-JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.lang.String,String,C:\Users\tyin363\Documents\repos\spring-cloud__spring-cloud-config\spring-cloud-config-sample\src\main\java\sample\Application.java,34
-CLIENT:client-code:N/A:N/A,FieldAccessExpr,sample.Application,environment,C:\Users\tyin363\Documents\repos\spring-cloud__spring-cloud-config\spring-cloud-config-sample\src\main\java\sample\Application.java,40
-org.springframework:spring-core:jar:6.0.23,MethodCallExpr,org.springframework.core.env.PropertyResolver,getProperty,C:\Users\tyin363\Documents\repos\spring-cloud__spring-cloud-config\spring-cloud-config-sample\src\main\java\sample\Application.java,40
+Library_Name,Version,Is_Transitive,Symbol_Type,Class_Name,Symbol_Name,Usage_Location,Line_Number
+JDK:java.base,N/A,false,ClassOrInterfaceType,java.lang.String,String,C:\Users\tyin363\Documents\repos\spring-cloud__spring-cloud-config\spring-cloud-config-sample\src\main\java\sample\Application.java,39
+org.springframework:spring-core,6.0.23,true,ClassOrInterfaceType,org.springframework.core.env.Environment,Environment,C:\Users\tyin363\Documents\repos\spring-cloud__spring-cloud-config\spring-cloud-config-sample\src\main\java\sample\Application.java,32
+CLIENT:client-code,N/A,false,ClassOrInterfaceType,sample.Application,Application,C:\Users\tyin363\Documents\repos\spring-cloud__spring-cloud-config\spring-cloud-config-sample\src\main\java\sample\Application.java,35
+JDK:java.base,N/A,false,ClassOrInterfaceType,java.lang.String,String,C:\Users\tyin363\Documents\repos\spring-cloud__spring-cloud-config\spring-cloud-config-sample\src\main\java\sample\Application.java,34
+CLIENT:client-code,N/A,false,FieldAccessExpr,sample.Application,environment,C:\Users\tyin363\Documents\repos\spring-cloud__spring-cloud-config\spring-cloud-config-sample\src\main\java\sample\Application.java,40
+org.springframework:spring-core,6.0.23,true,MethodCallExpr,org.springframework.core.env.PropertyResolver,getProperty,C:\Users\tyin363\Documents\repos\spring-cloud__spring-cloud-config\spring-cloud-config-sample\src\main\java\sample\Application.java,40

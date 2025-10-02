@@ -1,5 +1,5 @@
-Library_Name,Symbol_Type,Class_Name,Symbol_Name,Usage_Location,Line_Number
-CLIENT:client-code:N/A:N/A,ClassOrInterfaceType,io.hawt.example.spring.boot.SampleSpringBootService,SampleSpringBootService,C:\Users\tyin363\Documents\repos\hawtio__hawtio\examples\springboot-plugin\src\main\java\io\hawt\example\spring\boot\SampleSpringBootService.java,12
-org.springframework.boot:spring-boot:jar:3.4.5,MethodCallExpr,org.springframework.boot.SpringApplication,run,C:\Users\tyin363\Documents\repos\hawtio__hawtio\examples\springboot-plugin\src\main\java\io\hawt\example\spring\boot\SampleSpringBootService.java,12
-JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.lang.String,String,C:\Users\tyin363\Documents\repos\hawtio__hawtio\examples\springboot-plugin\src\main\java\io\hawt\example\spring\boot\SampleSpringBootService.java,11
-JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.lang.String,String,C:\Users\tyin363\Documents\repos\hawtio__hawtio\examples\springboot-plugin\src\main\java\io\hawt\example\spring\boot\HelloController.java,12
+Library_Name,Version,Is_Transitive,Symbol_Type,Class_Name,Symbol_Name,Usage_Location,Line_Number
+CLIENT:client-code,N/A,false,ClassOrInterfaceType,io.hawt.example.spring.boot.SampleSpringBootService,SampleSpringBootService,C:\Users\tyin363\Documents\repos\hawtio__hawtio\examples\springboot-plugin\src\main\java\io\hawt\example\spring\boot\SampleSpringBootService.java,12
+org.springframework.boot:spring-boot,3.4.5,true,MethodCallExpr,org.springframework.boot.SpringApplication,run,C:\Users\tyin363\Documents\repos\hawtio__hawtio\examples\springboot-plugin\src\main\java\io\hawt\example\spring\boot\SampleSpringBootService.java,12
+JDK:java.base,N/A,false,ClassOrInterfaceType,java.lang.String,String,C:\Users\tyin363\Documents\repos\hawtio__hawtio\examples\springboot-plugin\src\main\java\io\hawt\example\spring\boot\SampleSpringBootService.java,11
+JDK:java.base,N/A,false,ClassOrInterfaceType,java.lang.String,String,C:\Users\tyin363\Documents\repos\hawtio__hawtio\examples\springboot-plugin\src\main\java\io\hawt\example\spring\boot\HelloController.java,12

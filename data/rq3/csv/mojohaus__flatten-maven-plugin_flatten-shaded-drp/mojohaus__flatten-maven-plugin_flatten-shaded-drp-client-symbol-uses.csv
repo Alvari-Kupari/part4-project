@@ -1,7 +1,7 @@
-Library_Name,Symbol_Type,Class_Name,Symbol_Name,Usage_Location,Line_Number
-org.apache.maven:maven-archiver:jar:3.6.0,ObjectCreationExpr,org.apache.maven.archiver.MavenArchiver,MavenArchiver,C:\Users\tyin363\Documents\repos\mojohaus__flatten-maven-plugin\src\it\projects\flatten-shaded-drp\src\main\java\com\example\Main.java,10
-JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.lang.Object,Object,C:\Users\tyin363\Documents\repos\mojohaus__flatten-maven-plugin\src\it\projects\flatten-shaded-drp\src\main\java\com\example\Main.java,9
-org.apache.maven:maven-archiver:jar:3.6.0,ClassOrInterfaceType,org.apache.maven.archiver.MavenArchiver,MavenArchiver,C:\Users\tyin363\Documents\repos\mojohaus__flatten-maven-plugin\src\it\projects\flatten-shaded-drp\src\main\java\com\example\Main.java,10
-com.google.guava:guava:jar:32.0.0-jre,MethodCallExpr,com.google.common.collect.ImmutableList,of,C:\Users\tyin363\Documents\repos\mojohaus__flatten-maven-plugin\src\it\projects\flatten-shaded-drp\src\main\java\com\example\Main.java,9
-JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.util.List,List,C:\Users\tyin363\Documents\repos\mojohaus__flatten-maven-plugin\src\it\projects\flatten-shaded-drp\src\main\java\com\example\Main.java,9
-JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.lang.String,String,C:\Users\tyin363\Documents\repos\mojohaus__flatten-maven-plugin\src\it\projects\flatten-shaded-drp\src\main\java\com\example\Main.java,8
+Library_Name,Version,Is_Transitive,Symbol_Type,Class_Name,Symbol_Name,Usage_Location,Line_Number
+org.apache.maven:maven-archiver,3.6.0,false,ObjectCreationExpr,org.apache.maven.archiver.MavenArchiver,MavenArchiver,C:\Users\tyin363\Documents\repos\mojohaus__flatten-maven-plugin\src\it\projects\flatten-shaded-drp\src\main\java\com\example\Main.java,10
+JDK:java.base,N/A,false,ClassOrInterfaceType,java.lang.Object,Object,C:\Users\tyin363\Documents\repos\mojohaus__flatten-maven-plugin\src\it\projects\flatten-shaded-drp\src\main\java\com\example\Main.java,9
+org.apache.maven:maven-archiver,3.6.0,false,ClassOrInterfaceType,org.apache.maven.archiver.MavenArchiver,MavenArchiver,C:\Users\tyin363\Documents\repos\mojohaus__flatten-maven-plugin\src\it\projects\flatten-shaded-drp\src\main\java\com\example\Main.java,10
+com.google.guava:guava,32.0.0-jre,false,MethodCallExpr,com.google.common.collect.ImmutableList,of,C:\Users\tyin363\Documents\repos\mojohaus__flatten-maven-plugin\src\it\projects\flatten-shaded-drp\src\main\java\com\example\Main.java,9
+JDK:java.base,N/A,false,ClassOrInterfaceType,java.util.List,List,C:\Users\tyin363\Documents\repos\mojohaus__flatten-maven-plugin\src\it\projects\flatten-shaded-drp\src\main\java\com\example\Main.java,9
+JDK:java.base,N/A,false,ClassOrInterfaceType,java.lang.String,String,C:\Users\tyin363\Documents\repos\mojohaus__flatten-maven-plugin\src\it\projects\flatten-shaded-drp\src\main\java\com\example\Main.java,8

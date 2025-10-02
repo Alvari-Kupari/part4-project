@@ -1,4 +1,4 @@
-Library_Name,Symbol_Type,Class_Name,Symbol_Name,Usage_Location,Line_Number
-JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.lang.Object,Object,C:\Users\tyin363\Documents\repos\kingston-csj__jforgame\jforgame-codec-parent\jforgame-codec-api\src\main\java\jforgame\codec\MessageCodec.java,23
-JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.lang.Object,Object,C:\Users\tyin363\Documents\repos\kingston-csj__jforgame\jforgame-codec-parent\jforgame-codec-api\src\main\java\jforgame\codec\MessageCodec.java,16
-JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.lang.Class,Class,C:\Users\tyin363\Documents\repos\kingston-csj__jforgame\jforgame-codec-parent\jforgame-codec-api\src\main\java\jforgame\codec\MessageCodec.java,16
+Library_Name,Version,Is_Transitive,Symbol_Type,Class_Name,Symbol_Name,Usage_Location,Line_Number
+JDK:java.base,N/A,false,ClassOrInterfaceType,java.lang.Object,Object,C:\Users\tyin363\Documents\repos\kingston-csj__jforgame\jforgame-codec-parent\jforgame-codec-api\src\main\java\jforgame\codec\MessageCodec.java,23
+JDK:java.base,N/A,false,ClassOrInterfaceType,java.lang.Object,Object,C:\Users\tyin363\Documents\repos\kingston-csj__jforgame\jforgame-codec-parent\jforgame-codec-api\src\main\java\jforgame\codec\MessageCodec.java,16
+JDK:java.base,N/A,false,ClassOrInterfaceType,java.lang.Class,Class,C:\Users\tyin363\Documents\repos\kingston-csj__jforgame\jforgame-codec-parent\jforgame-codec-api\src\main\java\jforgame\codec\MessageCodec.java,16

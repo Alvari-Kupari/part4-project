@@ -1,4 +1,4 @@
-Library_Name,Symbol_Type,Class_Name,Symbol_Name,Usage_Location,Line_Number
-JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.lang.String,String,C:\Users\tyin363\Documents\repos\moyangzhan__langchain4j-aideepin\adi-bootstrap\src\main\java\com\moyz\adi\BootstrapApplication.java,15
-CLIENT:client-code:N/A:N/A,ClassOrInterfaceType,com.moyz.adi.BootstrapApplication,BootstrapApplication,C:\Users\tyin363\Documents\repos\moyangzhan__langchain4j-aideepin\adi-bootstrap\src\main\java\com\moyz\adi\BootstrapApplication.java,16
-org.springframework.boot:spring-boot:jar:3.4.1,MethodCallExpr,org.springframework.boot.SpringApplication,run,C:\Users\tyin363\Documents\repos\moyangzhan__langchain4j-aideepin\adi-bootstrap\src\main\java\com\moyz\adi\BootstrapApplication.java,16
+Library_Name,Version,Is_Transitive,Symbol_Type,Class_Name,Symbol_Name,Usage_Location,Line_Number
+org.springframework.boot:spring-boot,3.4.2,true,MethodCallExpr,org.springframework.boot.SpringApplication,run,C:\Users\tyin363\Documents\repos\moyangzhan__langchain4j-aideepin\adi-bootstrap\src\main\java\com\moyz\adi\BootstrapApplication.java,16
+JDK:java.base,N/A,false,ClassOrInterfaceType,java.lang.String,String,C:\Users\tyin363\Documents\repos\moyangzhan__langchain4j-aideepin\adi-bootstrap\src\main\java\com\moyz\adi\BootstrapApplication.java,15
+CLIENT:client-code,N/A,false,ClassOrInterfaceType,com.moyz.adi.BootstrapApplication,BootstrapApplication,C:\Users\tyin363\Documents\repos\moyangzhan__langchain4j-aideepin\adi-bootstrap\src\main\java\com\moyz\adi\BootstrapApplication.java,16

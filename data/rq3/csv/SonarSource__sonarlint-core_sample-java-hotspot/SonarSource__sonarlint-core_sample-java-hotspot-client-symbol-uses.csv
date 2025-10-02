@@ -1,4 +1,4 @@
-Library_Name,Symbol_Type,Class_Name,Symbol_Name,Usage_Location,Line_Number
-JDK:java.base:N/A:N/A,MethodCallExpr,java.util.logging.Logger,getGlobal,C:\Users\tyin363\Documents\repos\SonarSource__sonarlint-core\its\tests\projects\sample-java-hotspot\src\main\java\foo\Foo.java,9
-JDK:java.base:N/A:N/A,MethodCallExpr,java.util.logging.Logger,setLevel,C:\Users\tyin363\Documents\repos\SonarSource__sonarlint-core\its\tests\projects\sample-java-hotspot\src\main\java\foo\Foo.java,9
-JDK:java.base:N/A:N/A,FieldAccessExpr,java.util.logging.Level,FINEST,C:\Users\tyin363\Documents\repos\SonarSource__sonarlint-core\its\tests\projects\sample-java-hotspot\src\main\java\foo\Foo.java,9
+Library_Name,Version,Is_Transitive,Symbol_Type,Class_Name,Symbol_Name,Usage_Location,Line_Number
+JDK:java.base,N/A,false,MethodCallExpr,java.util.logging.Logger,setLevel,C:\Users\tyin363\Documents\repos\SonarSource__sonarlint-core\its\tests\projects\sample-java-hotspot\src\main\java\foo\Foo.java,9
+JDK:java.base,N/A,false,MethodCallExpr,java.util.logging.Logger,getGlobal,C:\Users\tyin363\Documents\repos\SonarSource__sonarlint-core\its\tests\projects\sample-java-hotspot\src\main\java\foo\Foo.java,9
+JDK:java.base,N/A,false,FieldAccessExpr,java.util.logging.Level,FINEST,C:\Users\tyin363\Documents\repos\SonarSource__sonarlint-core\its\tests\projects\sample-java-hotspot\src\main\java\foo\Foo.java,9

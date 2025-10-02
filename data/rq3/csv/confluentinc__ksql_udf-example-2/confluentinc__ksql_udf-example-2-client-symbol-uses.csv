@@ -1,3 +1,2 @@
-Library_Name,Symbol_Type,Class_Name,Symbol_Name,Usage_Location,Line_Number
-JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.lang.String,String,C:\Users\tyin363\Documents\repos\confluentinc__ksql\ksqldb-engine\src\test\resources\udf-example-2\src\main\java\io\confluent\example2\ksql\udf\BackwardConcat.java,28
-JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.lang.String,String,C:\Users\tyin363\Documents\repos\confluentinc__ksql\ksqldb-engine\target\test-classes\udf-example-2\src\main\java\io\confluent\example2\ksql\udf\BackwardConcat.java,28
+Library_Name,Version,Is_Transitive,Symbol_Type,Class_Name,Symbol_Name,Usage_Location,Line_Number
+JDK:java.base,N/A,false,ClassOrInterfaceType,java.lang.String,String,C:\Users\tyin363\Documents\repos\confluentinc__ksql\ksqldb-engine\target\test-classes\udf-example-2\src\main\java\io\confluent\example2\ksql\udf\BackwardConcat.java,28

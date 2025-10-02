@@ -1,5 +1,5 @@
-Library_Name,Symbol_Type,Class_Name,Symbol_Name,Usage_Location,Line_Number
-JDK:java.base:N/A:N/A,MethodCallExpr,java.io.PrintStream,println,C:\Users\tyin363\Documents\repos\SonarSource__sonarlint-core\its\tests\projects\sample-language-mix\src\main\java\foo\Foo.java,14
-CLIENT:client-code:N/A:N/A,MethodCallExpr,foo.Foo,should_be_static,C:\Users\tyin363\Documents\repos\SonarSource__sonarlint-core\its\tests\projects\sample-language-mix\src\main\java\foo\Foo.java,9
-CLIENT:client-code:N/A:N/A,MethodCallExpr,foo.Foo,echo,C:\Users\tyin363\Documents\repos\SonarSource__sonarlint-core\its\tests\projects\sample-language-mix\src\main\java\foo\Foo.java,5
-JDK:java.base:N/A:N/A,FieldAccessExpr,java.lang.System,out,C:\Users\tyin363\Documents\repos\SonarSource__sonarlint-core\its\tests\projects\sample-language-mix\src\main\java\foo\Foo.java,14
+Library_Name,Version,Is_Transitive,Symbol_Type,Class_Name,Symbol_Name,Usage_Location,Line_Number
+JDK:java.base,N/A,false,MethodCallExpr,java.io.PrintStream,println,C:\Users\tyin363\Documents\repos\SonarSource__sonarlint-core\its\tests\projects\sample-language-mix\src\main\java\foo\Foo.java,14
+CLIENT:client-code,N/A,false,MethodCallExpr,foo.Foo,should_be_static,C:\Users\tyin363\Documents\repos\SonarSource__sonarlint-core\its\tests\projects\sample-language-mix\src\main\java\foo\Foo.java,9
+CLIENT:client-code,N/A,false,MethodCallExpr,foo.Foo,echo,C:\Users\tyin363\Documents\repos\SonarSource__sonarlint-core\its\tests\projects\sample-language-mix\src\main\java\foo\Foo.java,5
+JDK:java.base,N/A,false,FieldAccessExpr,java.lang.System,out,C:\Users\tyin363\Documents\repos\SonarSource__sonarlint-core\its\tests\projects\sample-language-mix\src\main\java\foo\Foo.java,14

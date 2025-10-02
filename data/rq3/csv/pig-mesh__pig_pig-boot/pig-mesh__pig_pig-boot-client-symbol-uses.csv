@@ -1,4 +1,4 @@
-Library_Name,Symbol_Type,Class_Name,Symbol_Name,Usage_Location,Line_Number
-org.springframework.boot:spring-boot:jar:3.4.5,MethodCallExpr,org.springframework.boot.SpringApplication,run,C:\Users\tyin363\Documents\repos\pig-mesh__pig\pig-boot\src\main\java\com\pig4cloud\pig\PigBootApplication.java,36
-JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.lang.String,String,C:\Users\tyin363\Documents\repos\pig-mesh__pig\pig-boot\src\main\java\com\pig4cloud\pig\PigBootApplication.java,35
-CLIENT:client-code:N/A:N/A,ClassOrInterfaceType,com.pig4cloud.pig.PigBootApplication,PigBootApplication,C:\Users\tyin363\Documents\repos\pig-mesh__pig\pig-boot\src\main\java\com\pig4cloud\pig\PigBootApplication.java,36
+Library_Name,Version,Is_Transitive,Symbol_Type,Class_Name,Symbol_Name,Usage_Location,Line_Number
+JDK:java.base,N/A,false,ClassOrInterfaceType,java.lang.String,String,C:\Users\tyin363\Documents\repos\pig-mesh__pig\pig-boot\src\main\java\com\pig4cloud\pig\PigBootApplication.java,35
+org.springframework.boot:spring-boot,3.5.4,true,MethodCallExpr,org.springframework.boot.SpringApplication,run,C:\Users\tyin363\Documents\repos\pig-mesh__pig\pig-boot\src\main\java\com\pig4cloud\pig\PigBootApplication.java,36
+CLIENT:client-code,N/A,false,ClassOrInterfaceType,com.pig4cloud.pig.PigBootApplication,PigBootApplication,C:\Users\tyin363\Documents\repos\pig-mesh__pig\pig-boot\src\main\java\com\pig4cloud\pig\PigBootApplication.java,36

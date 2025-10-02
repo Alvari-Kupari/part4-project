@@ -1,4 +1,4 @@
-Library_Name,Symbol_Type,Class_Name,Symbol_Name,Usage_Location,Line_Number
-JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.lang.Class,Class,C:\Users\tyin363\Documents\repos\apache__hertzbeat\hertzbeat-plugin\src\main\java\org\apache\hertzbeat\plugin\runner\PluginRunner.java,44
-JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.util.function.Consumer,Consumer,C:\Users\tyin363\Documents\repos\apache__hertzbeat\hertzbeat-plugin\src\main\java\org\apache\hertzbeat\plugin\runner\PluginRunner.java,36
-JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.lang.Class,Class,C:\Users\tyin363\Documents\repos\apache__hertzbeat\hertzbeat-plugin\src\main\java\org\apache\hertzbeat\plugin\runner\PluginRunner.java,36
+Library_Name,Version,Is_Transitive,Symbol_Type,Class_Name,Symbol_Name,Usage_Location,Line_Number
+JDK:java.base,N/A,false,ClassOrInterfaceType,java.lang.Class,Class,C:\Users\tyin363\Documents\repos\apache__hertzbeat\hertzbeat-plugin\src\main\java\org\apache\hertzbeat\plugin\runner\PluginRunner.java,44
+JDK:java.base,N/A,false,ClassOrInterfaceType,java.util.function.Consumer,Consumer,C:\Users\tyin363\Documents\repos\apache__hertzbeat\hertzbeat-plugin\src\main\java\org\apache\hertzbeat\plugin\runner\PluginRunner.java,36
+JDK:java.base,N/A,false,ClassOrInterfaceType,java.lang.Class,Class,C:\Users\tyin363\Documents\repos\apache__hertzbeat\hertzbeat-plugin\src\main\java\org\apache\hertzbeat\plugin\runner\PluginRunner.java,36

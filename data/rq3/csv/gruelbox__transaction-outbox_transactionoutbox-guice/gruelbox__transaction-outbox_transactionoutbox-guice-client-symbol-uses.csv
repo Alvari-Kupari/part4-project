@@ -1,6 +1,5 @@
-Library_Name,Symbol_Type,Class_Name,Symbol_Name,Usage_Location,Line_Number
-com.google.inject:guice:jar:7.0.0,ClassOrInterfaceType,com.google.inject.Injector,Injector,C:\Users\tyin363\Documents\repos\gruelbox__transaction-outbox\transactionoutbox-guice\src\main\java\com\gruelbox\transactionoutbox\guice\GuiceInstantiator.java,11
-JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.lang.Class,Class,C:\Users\tyin363\Documents\repos\gruelbox__transaction-outbox\transactionoutbox-guice\src\main\java\com\gruelbox\transactionoutbox\guice\GuiceInstantiator.java,14
-com.google.inject:guice:jar:7.0.0,MethodCallExpr,com.google.inject.Injector,getInstance,C:\Users\tyin363\Documents\repos\gruelbox__transaction-outbox\transactionoutbox-guice\src\main\java\com\gruelbox\transactionoutbox\guice\GuiceInstantiator.java,15
-JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.lang.Object,Object,C:\Users\tyin363\Documents\repos\gruelbox__transaction-outbox\transactionoutbox-guice\src\main\java\com\gruelbox\transactionoutbox\guice\GuiceInstantiator.java,14
-CLIENT:client-code:N/A:N/A,NameExpr,com.gruelbox.transactionoutbox.guice.GuiceInstantiator,injector,C:\Users\tyin363\Documents\repos\gruelbox__transaction-outbox\transactionoutbox-guice\src\main\java\com\gruelbox\transactionoutbox\guice\GuiceInstantiator.java,15
+Library_Name,Version,Is_Transitive,Symbol_Type,Class_Name,Symbol_Name,Usage_Location,Line_Number
+com.google.inject:guice,7.0.0,false,ClassOrInterfaceType,com.google.inject.Injector,Injector,C:\Users\tyin363\Documents\repos\gruelbox__transaction-outbox\transactionoutbox-guice\src\main\java\com\gruelbox\transactionoutbox\guice\GuiceInstantiator.java,11
+JDK:java.base,N/A,false,ClassOrInterfaceType,java.lang.Class,Class,C:\Users\tyin363\Documents\repos\gruelbox__transaction-outbox\transactionoutbox-guice\src\main\java\com\gruelbox\transactionoutbox\guice\GuiceInstantiator.java,14
+com.google.inject:guice,7.0.0,false,MethodCallExpr,com.google.inject.Injector,getInstance,C:\Users\tyin363\Documents\repos\gruelbox__transaction-outbox\transactionoutbox-guice\src\main\java\com\gruelbox\transactionoutbox\guice\GuiceInstantiator.java,15
+JDK:java.base,N/A,false,ClassOrInterfaceType,java.lang.Object,Object,C:\Users\tyin363\Documents\repos\gruelbox__transaction-outbox\transactionoutbox-guice\src\main\java\com\gruelbox\transactionoutbox\guice\GuiceInstantiator.java,14

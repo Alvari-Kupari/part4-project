@@ -1,2 +1,2 @@
-Library_Name,Symbol_Type,Class_Name,Symbol_Name,Usage_Location,Line_Number
-org.springframework:spring-beans:jar:5.1.9.RELEASE,FieldAccessExpr,org.springframework.beans.factory.config.BeanDefinition,ROLE_INFRASTRUCTURE,C:\Users\tyin363\Documents\repos\fayechenlong__plumelog\plumelog-lite-spring-boot-starter\src\main\java\com\plumelog\lite\autoconfigure\PlumelogLiteConfiguration.java,10
+Library_Name,Version,Is_Transitive,Symbol_Type,Class_Name,Symbol_Name,Usage_Location,Line_Number
+org.springframework:spring-beans,5.1.9.RELEASE,true,FieldAccessExpr,org.springframework.beans.factory.config.BeanDefinition,ROLE_INFRASTRUCTURE,C:\Users\tyin363\Documents\repos\fayechenlong__plumelog\plumelog-lite-spring-boot-starter\src\main\java\com\plumelog\lite\autoconfigure\PlumelogLiteConfiguration.java,10

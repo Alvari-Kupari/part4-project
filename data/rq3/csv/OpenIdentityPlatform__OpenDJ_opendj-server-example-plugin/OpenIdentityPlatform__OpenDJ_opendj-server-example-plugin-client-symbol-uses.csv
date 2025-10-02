@@ -1,7 +1,4 @@
-Library_Name,Symbol_Type,Class_Name,Symbol_Name,Usage_Location,Line_Number
-CLIENT:client-code:N/A:N/A,FieldAccessExpr,com.example.opendj.ExamplePlugin,config,C:\Users\tyin363\Documents\repos\OpenIdentityPlatform__OpenDJ\opendj-server-example-plugin\src\main\java\com\example\opendj\ExamplePlugin.java,92
-CLIENT:client-code:N/A:N/A,NameExpr,com.example.opendj.ExamplePlugin,logger,C:\Users\tyin363\Documents\repos\OpenIdentityPlatform__OpenDJ\opendj-server-example-plugin\src\main\java\com\example\opendj\ExamplePlugin.java,89
-CLIENT:client-code:N/A:N/A,FieldAccessExpr,com.example.opendj.ExamplePlugin,config,C:\Users\tyin363\Documents\repos\OpenIdentityPlatform__OpenDJ\opendj-server-example-plugin\src\main\java\com\example\opendj\ExamplePlugin.java,72
-CLIENT:client-code:N/A:N/A,FieldAccessExpr,com.example.opendj.ExamplePlugin,config,C:\Users\tyin363\Documents\repos\OpenIdentityPlatform__OpenDJ\opendj-server-example-plugin\src\main\java\com\example\opendj\ExamplePlugin.java,89
-CLIENT:client-code:N/A:N/A,NameExpr,com.example.opendj.ExamplePlugin,config,C:\Users\tyin363\Documents\repos\OpenIdentityPlatform__OpenDJ\opendj-server-example-plugin\src\main\java\com\example\opendj\ExamplePlugin.java,78
-CLIENT:client-code:N/A:N/A,NameExpr,com.example.opendj.ExamplePlugin,logger,C:\Users\tyin363\Documents\repos\OpenIdentityPlatform__OpenDJ\opendj-server-example-plugin\src\main\java\com\example\opendj\ExamplePlugin.java,78
+Library_Name,Version,Is_Transitive,Symbol_Type,Class_Name,Symbol_Name,Usage_Location,Line_Number
+CLIENT:client-code,N/A,false,FieldAccessExpr,com.example.opendj.ExamplePlugin,config,C:\Users\tyin363\Documents\repos\OpenIdentityPlatform__OpenDJ\opendj-server-example-plugin\src\main\java\com\example\opendj\ExamplePlugin.java,92
+CLIENT:client-code,N/A,false,FieldAccessExpr,com.example.opendj.ExamplePlugin,config,C:\Users\tyin363\Documents\repos\OpenIdentityPlatform__OpenDJ\opendj-server-example-plugin\src\main\java\com\example\opendj\ExamplePlugin.java,72
+CLIENT:client-code,N/A,false,FieldAccessExpr,com.example.opendj.ExamplePlugin,config,C:\Users\tyin363\Documents\repos\OpenIdentityPlatform__OpenDJ\opendj-server-example-plugin\src\main\java\com\example\opendj\ExamplePlugin.java,89

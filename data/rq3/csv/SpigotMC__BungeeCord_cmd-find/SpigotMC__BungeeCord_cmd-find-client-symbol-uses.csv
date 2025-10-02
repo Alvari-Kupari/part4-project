@@ -1,7 +1,7 @@
-Library_Name,Symbol_Type,Class_Name,Symbol_Name,Usage_Location,Line_Number
-JDK:java.base:N/A:N/A,MethodCallExpr,java.util.Collections,emptyList,C:\Users\tyin363\Documents\repos\SpigotMC__BungeeCord\module\cmd-find\src\main\java\net\md_5\bungee\module\cmd\find\CommandFind.java,56
-JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.lang.String,String,C:\Users\tyin363\Documents\repos\SpigotMC__BungeeCord\module\cmd-find\src\main\java\net\md_5\bungee\module\cmd\find\CommandFind.java,22
-JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.lang.String,String,C:\Users\tyin363\Documents\repos\SpigotMC__BungeeCord\module\cmd-find\src\main\java\net\md_5\bungee\module\cmd\find\CommandFind.java,54
-JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.lang.Iterable,Iterable,C:\Users\tyin363\Documents\repos\SpigotMC__BungeeCord\module\cmd-find\src\main\java\net\md_5\bungee\module\cmd\find\CommandFind.java,54
-CLIENT:client-code:N/A:N/A,ClassOrInterfaceType,net.md_5.bungee.module.cmd.find.CommandFind,CommandFind,C:\Users\tyin363\Documents\repos\SpigotMC__BungeeCord\module\cmd-find\src\main\java\net\md_5\bungee\module\cmd\find\PluginFind.java,11
-CLIENT:client-code:N/A:N/A,ObjectCreationExpr,net.md_5.bungee.module.cmd.find.CommandFind,CommandFind,C:\Users\tyin363\Documents\repos\SpigotMC__BungeeCord\module\cmd-find\src\main\java\net\md_5\bungee\module\cmd\find\PluginFind.java,11
+Library_Name,Version,Is_Transitive,Symbol_Type,Class_Name,Symbol_Name,Usage_Location,Line_Number
+JDK:java.base,N/A,false,MethodCallExpr,java.util.Collections,emptyList,C:\Users\tyin363\Documents\repos\SpigotMC__BungeeCord\module\cmd-find\src\main\java\net\md_5\bungee\module\cmd\find\CommandFind.java,56
+JDK:java.base,N/A,false,ClassOrInterfaceType,java.lang.String,String,C:\Users\tyin363\Documents\repos\SpigotMC__BungeeCord\module\cmd-find\src\main\java\net\md_5\bungee\module\cmd\find\CommandFind.java,22
+JDK:java.base,N/A,false,ClassOrInterfaceType,java.lang.String,String,C:\Users\tyin363\Documents\repos\SpigotMC__BungeeCord\module\cmd-find\src\main\java\net\md_5\bungee\module\cmd\find\CommandFind.java,54
+JDK:java.base,N/A,false,ClassOrInterfaceType,java.lang.Iterable,Iterable,C:\Users\tyin363\Documents\repos\SpigotMC__BungeeCord\module\cmd-find\src\main\java\net\md_5\bungee\module\cmd\find\CommandFind.java,54
+CLIENT:client-code,N/A,false,ClassOrInterfaceType,net.md_5.bungee.module.cmd.find.CommandFind,CommandFind,C:\Users\tyin363\Documents\repos\SpigotMC__BungeeCord\module\cmd-find\src\main\java\net\md_5\bungee\module\cmd\find\PluginFind.java,11
+CLIENT:client-code,N/A,false,ObjectCreationExpr,net.md_5.bungee.module.cmd.find.CommandFind,CommandFind,C:\Users\tyin363\Documents\repos\SpigotMC__BungeeCord\module\cmd-find\src\main\java\net\md_5\bungee\module\cmd\find\PluginFind.java,11
