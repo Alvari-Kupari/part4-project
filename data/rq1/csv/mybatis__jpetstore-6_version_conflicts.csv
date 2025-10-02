@@ -1,0 +1,16 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+mybatis__jpetstore-6,mybatis__jpetstore-6,org.springframework:spring-beans,6.2.10,5.3.39,2,2,compile,compile,omitted_conflict
+mybatis__jpetstore-6,mybatis__jpetstore-6,org.springframework:spring-core,6.2.10,5.3.39,2,2,compile,compile,omitted_conflict
+mybatis__jpetstore-6,mybatis__jpetstore-6,net.bytebuddy:byte-buddy,1.17.7,1.17.6,1,2,test,test,omitted_conflict
+mybatis__jpetstore-6,mybatis__jpetstore-6,net.bytebuddy:byte-buddy-agent,1.17.7,1.17.6,1,2,test,test,omitted_conflict
+mybatis__jpetstore-6,mybatis__jpetstore-6,net.bytebuddy:byte-buddy,1.17.7,1.15.11,1,2,test,test,omitted_conflict
+mybatis__jpetstore-6,mybatis__jpetstore-6,net.bytebuddy:byte-buddy,1.17.7,1.17.6,1,2,test,test,omitted_conflict
+mybatis__jpetstore-6,mybatis__jpetstore-6,org.slf4j:slf4j-api,2.0.17,1.7.36,1,4,compile,test,omitted_conflict
+mybatis__jpetstore-6,mybatis__jpetstore-6,com.google.errorprone:error_prone_annotations,2.39.0,2.36.0,2,3,test,test,omitted_conflict
+mybatis__jpetstore-6,mybatis__jpetstore-6,net.bytebuddy:byte-buddy,1.17.7,1.17.6,1,2,test,test,omitted_conflict
+mybatis__jpetstore-6,mybatis__jpetstore-6,org.apache.commons:commons-lang3,3.17.0,3.18.0,2,3,test,test,omitted_conflict
+mybatis__jpetstore-6,mybatis__jpetstore-6,commons-io:commons-io,2.19.0,2.20.0,2,3,test,test,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+mybatis__jpetstore-6,91,,,,,,,,

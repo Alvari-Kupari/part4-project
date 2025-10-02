@@ -1,0 +1,20 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+xuxueli__xxl-rpc,xxl-rpc-sample-springboot-client,io.micrometer:micrometer-observation,1.15.2,1.14.9,3,3,compile,compile,version_managed
+xuxueli__xxl-rpc,xxl-rpc-sample-springboot-client,org.slf4j:slf4j-api,2.0.17,2.0.11,3,3,compile,compile,version_managed
+xuxueli__xxl-rpc,xxl-rpc-sample-springboot-client,net.bytebuddy:byte-buddy,1.17.6,1.15.11,3,3,test,test,version_managed
+xuxueli__xxl-rpc,xxl-rpc-sample-springboot-client,net.bytebuddy:byte-buddy-agent,1.17.6,1.15.11,3,3,test,test,version_managed
+xuxueli__xxl-rpc,xxl-rpc-sample-springboot-server,io.micrometer:micrometer-observation,1.15.2,1.14.9,3,3,compile,compile,version_managed
+xuxueli__xxl-rpc,xxl-rpc-sample-springboot-server,org.slf4j:slf4j-api,2.0.17,2.0.11,3,3,compile,compile,version_managed
+xuxueli__xxl-rpc,xxl-rpc-sample-springboot-server,net.bytebuddy:byte-buddy,1.17.6,1.15.11,3,3,test,test,version_managed
+xuxueli__xxl-rpc,xxl-rpc-sample-springboot-server,net.bytebuddy:byte-buddy-agent,1.17.6,1.15.11,3,3,test,test,version_managed
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+xxl-rpc-core,19,,,,,,,,
+xxl-rpc-netty-shade,10,,,,,,,,
+xxl-rpc-sample-frameless-api,0,,,,,,,,
+xxl-rpc-sample-frameless-client,6,,,,,,,,
+xxl-rpc-sample-frameless-server,6,,,,,,,,
+xxl-rpc-sample-springboot-api,0,,,,,,,,
+xxl-rpc-sample-springboot-client,66,,,,,,,,
+xxl-rpc-sample-springboot-server,66,,,,,,,,

@@ -1,0 +1,12 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+OpenHFT__Chronicle-Wire,microbenchmarks,org.ow2.asm:asm,9.3,9.2,3,4,compile,compile,omitted_conflict
+OpenHFT__Chronicle-Wire,microbenchmarks,com.fasterxml.jackson.core:jackson-core,2.4.2,2.5.3,2,2,compile,compile,omitted_conflict
+OpenHFT__Chronicle-Wire,microbenchmarks,com.fasterxml.jackson.core:jackson-annotations,2.5.3,2.5.0,2,3,compile,compile,omitted_conflict
+OpenHFT__Chronicle-Wire,microbenchmarks,com.fasterxml.jackson.core:jackson-core,2.4.2,2.5.3,2,2,compile,compile,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+OpenHFT__Chronicle-Wire,36,,,,,,,,
+demo,19,,,,,,,,
+marshallingperf,23,,,,,,,,
+microbenchmarks,41,,,,,,,,

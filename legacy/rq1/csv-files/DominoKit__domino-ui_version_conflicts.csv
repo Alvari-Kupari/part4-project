@@ -1,0 +1,10 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+DominoKit__domino-ui,domino-ui,com.google.auto.service:auto-service,1.1.1,1.0-rc7,3,3,provided,provided,version_managed
+DominoKit__domino-ui,domino-ui,com.google.guava:guava,33.0.0-jre,32.0.1-jre,4,4,provided,provided,version_managed
+DominoKit__domino-ui,mdi-icons-processor,com.google.guava:guava,33.0.0-jre,32.0.1-jre,2,2,provided,provided,version_managed
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+domino-ui,45,,,,,,,,
+domino-ui-shared,7,,,,,,,,
+mdi-icons-processor,28,,,,,,,,

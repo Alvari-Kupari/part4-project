@@ -1,0 +1,18 @@
+digraph shibing624__similarity {
+	"com.github.shibing624:similarity:jar:1.1.6" -> "ch.qos.logback:logback-classic:jar:1.3.12:compile" ; 
+	"com.github.shibing624:similarity:jar:1.1.6" -> "ch.qos.logback:logback-core:jar:1.3.12:compile" ; 
+	"com.github.shibing624:similarity:jar:1.1.6" -> "ch.qos.logback:logback-access:jar:1.3.12:compile" ; 
+	"com.github.shibing624:similarity:jar:1.1.6" -> "org.slf4j:slf4j-api:jar:1.7.7:compile" ; 
+	"com.github.shibing624:similarity:jar:1.1.6" -> "com.hankcs:hanlp:jar:portable-1.3.4:compile" ; 
+	"com.github.shibing624:similarity:jar:1.1.6" -> "org.mockito:mockito-all:jar:1.9.5:compile" ; 
+	"com.github.shibing624:similarity:jar:1.1.6" -> "org.hamcrest:hamcrest-all:jar:1.3:compile" ; 
+	"com.github.shibing624:similarity:jar:1.1.6" -> "args4j:args4j:jar:2.0.16:compile" ; 
+	"com.github.shibing624:similarity:jar:1.1.6" -> "com.google.guava:guava:jar:13.0.1:compile" ; 
+	"com.github.shibing624:similarity:jar:1.1.6" -> "org.apache.commons:commons-lang3:jar:3.18.0:compile" ; 
+	"com.github.shibing624:similarity:jar:1.1.6" -> "com.google.collections:google-collections:jar:1.0:compile" ; 
+	"com.github.shibing624:similarity:jar:1.1.6" -> "junit:junit:jar:4.13.1:test" ; 
+	"ch.qos.logback:logback-classic:jar:1.3.12:compile" -> "(ch.qos.logback:logback-core:jar:1.3.12:compile - omitted for duplicate)" ; 
+	"ch.qos.logback:logback-classic:jar:1.3.12:compile" -> "(org.slf4j:slf4j-api:jar:2.0.7:compile - omitted for conflict with 1.7.7)" ; 
+	"ch.qos.logback:logback-access:jar:1.3.12:compile" -> "(ch.qos.logback:logback-core:jar:1.3.12:compile - omitted for duplicate)" ; 
+	"junit:junit:jar:4.13.1:test" -> "org.hamcrest:hamcrest-core:jar:1.3:test" ; 
+}

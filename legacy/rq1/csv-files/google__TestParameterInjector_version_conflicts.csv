@@ -1,0 +1,13 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+google__TestParameterInjector,junit4,com.google.guava:guava,32.0.0-jre,30.1-android,1,2,compile,test,omitted_conflict
+google__TestParameterInjector,junit4,org.checkerframework:checker-qual,3.33.0,3.9.1,2,2,compile,test,omitted_conflict
+google__TestParameterInjector,junit4,junit:junit,4.13.2,4.13.1,1,2,compile,test,omitted_conflict
+google__TestParameterInjector,junit4,com.google.errorprone:error_prone_annotations,2.18.0,2.5.1,2,2,compile,test,omitted_conflict
+google__TestParameterInjector,junit5,com.google.guava:guava,32.0.0-jre,30.1-android,1,2,compile,test,omitted_conflict
+google__TestParameterInjector,junit5,org.checkerframework:checker-qual,3.33.0,3.9.1,2,2,compile,test,omitted_conflict
+google__TestParameterInjector,junit5,com.google.errorprone:error_prone_annotations,2.18.0,2.5.1,2,2,compile,test,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+junit4,15,,,,,,,,
+junit5,24,,,,,,,,

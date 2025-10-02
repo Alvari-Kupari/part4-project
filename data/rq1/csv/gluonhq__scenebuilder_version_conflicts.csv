@@ -1,0 +1,12 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+gluonhq__scenebuilder,kit,org.apache.maven.resolver:maven-resolver-api,2.0.0-alpha-8,2.0.0-alpha-6,2,3,compile,compile,omitted_conflict
+gluonhq__scenebuilder,kit,org.apache.maven.resolver:maven-resolver-spi,2.0.0-alpha-8,2.0.0-alpha-6,2,3,compile,compile,omitted_conflict
+gluonhq__scenebuilder,kit,org.apache.maven.resolver:maven-resolver-util,2.0.0-alpha-8,2.0.0-alpha-6,2,3,compile,compile,omitted_conflict
+gluonhq__scenebuilder,kit,org.apache.maven.resolver:maven-resolver-impl,2.0.0-alpha-8,2.0.0-alpha-6,2,3,compile,compile,omitted_conflict
+gluonhq__scenebuilder,kit,org.apache.maven:maven-xml-impl,4.0.0-alpha-12,4.0.0-alpha-5,3,5,compile,compile,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+app,12,,,,,,,,
+gluon-plugin,16,,,,,,,,
+kit,49,,,,,,,,

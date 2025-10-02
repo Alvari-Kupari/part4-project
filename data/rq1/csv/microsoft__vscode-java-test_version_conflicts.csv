@@ -1,0 +1,21 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+microsoft__vscode-java-test,junit,org.apiguardian:apiguardian-api,1.1.0,1.1.2,2,3,test,test,omitted_conflict
+microsoft__vscode-java-test,junit,org.apiguardian:apiguardian-api,1.1.0,1.1.2,2,3,test,test,omitted_conflict
+microsoft__vscode-java-test,junit,org.apiguardian:apiguardian-api,1.1.0,1.1.2,2,3,test,test,omitted_conflict
+microsoft__vscode-java-test,junit,org.apiguardian:apiguardian-api,1.1.0,1.1.2,2,3,test,test,omitted_conflict
+microsoft__vscode-java-test,junit,org.apiguardian:apiguardian-api,1.1.0,1.1.2,2,3,test,test,omitted_conflict
+microsoft__vscode-java-test,junit,org.junit.jupiter:junit-jupiter-api,5.8.2,5.6.0,2,2,test,test,omitted_conflict
+microsoft__vscode-java-test,junit,org.junit.jupiter:junit-jupiter-params,5.8.2,5.6.0,2,2,test,test,omitted_conflict
+microsoft__vscode-java-test,junit,org.junit.jupiter:junit-jupiter-engine,5.8.2,5.6.0,2,2,test,test,omitted_conflict
+microsoft__vscode-java-test,junit,org.junit.platform:junit-platform-commons,1.8.2,1.6.2,3,3,test,test,omitted_conflict
+microsoft__vscode-java-test,junit,org.junit.platform:junit-platform-commons,1.8.2,1.6.2,3,3,test,test,omitted_conflict
+microsoft__vscode-java-test,junit,org.junit.platform:junit-platform-engine,1.8.2,1.6.2,3,3,test,test,omitted_conflict
+microsoft__vscode-java-test,junit,junit:junit,4.13.1,4.13,1,2,test,test,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+com.microsoft.java.test.plugin,0,,,,,,,,
+coverage-test,9,,,,,,,,
+com.microsoft.java.test.runner,6,,,,,,,,
+junit,44,,,,,,,,
+old-testng,13,,,,,,,,

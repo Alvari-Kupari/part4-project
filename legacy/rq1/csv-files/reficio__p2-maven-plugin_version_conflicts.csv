@@ -1,0 +1,18 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+reficio__p2-maven-plugin,reficio__p2-maven-plugin,org.codehaus.plexus:plexus-interpolation,1.26,1.25,2,3,compile,provided,omitted_conflict
+reficio__p2-maven-plugin,reficio__p2-maven-plugin,org.codehaus.plexus:plexus-utils,3.2.1,1.5.5,2,4,compile,provided,omitted_conflict
+reficio__p2-maven-plugin,reficio__p2-maven-plugin,org.codehaus.plexus:plexus-interpolation,1.26,1.25,2,3,compile,provided,omitted_conflict
+reficio__p2-maven-plugin,reficio__p2-maven-plugin,org.slf4j:slf4j-api,1.7.25,1.7.29,2,3,compile,provided,omitted_conflict
+reficio__p2-maven-plugin,reficio__p2-maven-plugin,commons-io:commons-io,2.6,2.5,1,3,compile,provided,omitted_conflict
+reficio__p2-maven-plugin,reficio__p2-maven-plugin,org.codehaus.plexus:plexus-classworlds,2.6.0,2.5.2,2,3,compile,compile,omitted_conflict
+reficio__p2-maven-plugin,reficio__p2-maven-plugin,org.codehaus.plexus:plexus-utils,3.2.1,3.0.17,2,3,compile,compile,omitted_conflict
+reficio__p2-maven-plugin,reficio__p2-maven-plugin,org.codehaus.plexus:plexus-utils,3.2.1,3.4.1,2,3,compile,compile,omitted_conflict
+reficio__p2-maven-plugin,reficio__p2-maven-plugin,org.codehaus.plexus:plexus-utils,3.2.1,3.3.0,2,4,compile,compile,omitted_conflict
+reficio__p2-maven-plugin,reficio__p2-maven-plugin,org.eclipse.platform:org.eclipse.osgi,3.17.100,3.17.200,3,3,compile,compile,version_managed
+reficio__p2-maven-plugin,reficio__p2-maven-plugin,org.codehaus.plexus:plexus-utils,3.2.1,3.4.1,2,3,compile,compile,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+reficio__p2-maven-plugin,85,,,,,,,,
+test.bundle1,0,,,,,,,,
+test.bundle2,0,,,,,,,,

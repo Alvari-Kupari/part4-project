@@ -1,0 +1,21 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+dependency-check__dependency-check-sonar-plugin,module1,commons-logging:commons-logging,1.0.4,1.0.3,2,3,compile,compile,omitted_conflict
+dependency-check__dependency-check-sonar-plugin,module1,commons-beanutils:commons-beanutils,1.7.0,1.6,2,3,compile,compile,omitted_conflict
+dependency-check__dependency-check-sonar-plugin,module1,commons-logging:commons-logging,1.0.4,1.0,2,3,compile,compile,omitted_conflict
+dependency-check__dependency-check-sonar-plugin,single-module-maven,commons-logging:commons-logging,1.0.4,1.0.3,2,3,compile,compile,omitted_conflict
+dependency-check__dependency-check-sonar-plugin,single-module-maven,commons-beanutils:commons-beanutils,1.7.0,1.6,2,3,compile,compile,omitted_conflict
+dependency-check__dependency-check-sonar-plugin,single-module-maven,commons-logging:commons-logging,1.0.4,1.0,2,3,compile,compile,omitted_conflict
+dependency-check__dependency-check-sonar-plugin,single-module-maven,commons-logging:commons-logging,1.0.4,1.1,2,2,compile,compile,omitted_conflict
+dependency-check__dependency-check-sonar-plugin,sonar-dependency-check-plugin,org.apache.commons:commons-lang3,3.18.0,3.17.0,1,2,compile,test,omitted_conflict
+dependency-check__dependency-check-sonar-plugin,sonar-dependency-check-plugin,org.sonarsource.api.plugin:sonar-plugin-api,11.1.0.2693,11.0.0.2664,1,2,provided,test,omitted_conflict
+dependency-check__dependency-check-sonar-plugin,sonar-dependency-check-plugin,com.github.spotbugs:spotbugs-annotations,4.9.3,4.8.6,1,2,compile,test,omitted_conflict
+dependency-check__dependency-check-sonar-plugin,sonar-dependency-check-plugin,commons-io:commons-io,2.18.0,2.17.0,2,3,test,test,omitted_conflict
+dependency-check__dependency-check-sonar-plugin,sonar-dependency-check-plugin,org.slf4j:slf4j-api,1.7.30,1.7.36,2,2,provided,test,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+module1,14,,,,,,,,
+module2,7,,,,,,,,
+module3,2,,,,,,,,
+single-module-maven,16,,,,,,,,
+sonar-dependency-check-plugin,32,,,,,,,,

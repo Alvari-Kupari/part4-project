@@ -1,0 +1,13 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+forcedotcom__dataloader,xlstocsv,org.apache.logging.log4j:log4j-api,2.20.0,2.18.0,2,2,compile,compile,omitted_conflict
+forcedotcom__dataloader,xlstocsv,org.apache.poi:poi,5.2.3,5.4.0,1,2,compile,compile,omitted_conflict
+forcedotcom__dataloader,xlstocsv,commons-io:commons-io,2.11.0,2.18.0,2,2,compile,compile,omitted_conflict
+forcedotcom__dataloader,xlstocsv,org.apache.logging.log4j:log4j-api,2.20.0,2.24.3,2,2,compile,compile,omitted_conflict
+forcedotcom__dataloader,xlstocsv,org.apache.logging.log4j:log4j-api,2.20.0,2.24.2,2,3,compile,compile,omitted_conflict
+forcedotcom__dataloader,xlstocsv,commons-codec:commons-codec,1.15,1.17.1,2,3,compile,compile,omitted_conflict
+forcedotcom__dataloader,xlstocsv,commons-io:commons-io,2.11.0,2.16.1,2,3,compile,compile,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+forcedotcom__dataloader,56,,,,,,,,
+xlstocsv,16,,,,,,,,

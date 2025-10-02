@@ -1,0 +1,4 @@
+digraph VerbalExpressions__JavaVerbalExpressions {
+	"ru.lanwen.verbalregex:java-verbal-expressions:jar:1.5-SNAPSHOT" -> "junit:junit:jar:4.13.2:test" ; 
+	"junit:junit:jar:4.13.2:test" -> "org.hamcrest:hamcrest-core:jar:1.3:test" ; 
+}

@@ -1,0 +1,148 @@
+digraph jmg-all {
+	"jmg:jmg-all:jar:1.0.9" -> "jmg:jmg-woodpecker:jar:1.0.9:compile" ; 
+	"jmg:jmg-all:jar:1.0.9" -> "jmg:jmg-sdk:jar:1.0.9:compile" ; 
+	"jmg:jmg-all:jar:1.0.9" -> "jmg:jmg-cli:jar:1.0.9:compile" ; 
+	"jmg:jmg-all:jar:1.0.9" -> "jmg:jmg-gui:jar:1.0.9:compile" ; 
+	"jmg:jmg-all:jar:1.0.9" -> "me.gv7.woodpecker:woodpecker-bcel:jar:0.1.0:compile" ; 
+	"jmg:jmg-all:jar:1.0.9" -> "me.gv7.woodpecker:woodpecker-tools:jar:0.1.1:compile" ; 
+	"jmg:jmg-all:jar:1.0.9" -> "me.gv7.woodpecker:woodpecker-sdk:jar:0.3.0:compile" ; 
+	"jmg:jmg-all:jar:1.0.9" -> "javax.servlet:javax.servlet-api:jar:4.0.1:compile" ; 
+	"jmg:jmg-all:jar:1.0.9" -> "org.javassist:javassist:jar:3.20.0-GA:compile" ; 
+}
+digraph jmg-antsword {
+	"jmg:jmg-antsword:jar:1.0.9" -> "jmg:jmg-core:jar:1.0.9:compile" ; 
+	"jmg:jmg-antsword:jar:1.0.9" -> "me.gv7.woodpecker:woodpecker-bcel:jar:0.1.0:compile" ; 
+	"jmg:jmg-antsword:jar:1.0.9" -> "me.gv7.woodpecker:woodpecker-tools:jar:0.1.1:compile" ; 
+	"jmg:jmg-antsword:jar:1.0.9" -> "me.gv7.woodpecker:woodpecker-sdk:jar:0.3.0:compile" ; 
+	"jmg:jmg-antsword:jar:1.0.9" -> "javax.servlet:javax.servlet-api:jar:4.0.1:compile" ; 
+	"jmg:jmg-antsword:jar:1.0.9" -> "org.javassist:javassist:jar:3.20.0-GA:compile" ; 
+}
+digraph jmg-behinder {
+	"jmg:jmg-behinder:jar:1.0.9" -> "jmg:jmg-core:jar:1.0.9:compile" ; 
+	"jmg:jmg-behinder:jar:1.0.9" -> "me.gv7.woodpecker:woodpecker-bcel:jar:0.1.0:compile" ; 
+	"jmg:jmg-behinder:jar:1.0.9" -> "me.gv7.woodpecker:woodpecker-tools:jar:0.1.1:compile" ; 
+	"jmg:jmg-behinder:jar:1.0.9" -> "me.gv7.woodpecker:woodpecker-sdk:jar:0.3.0:compile" ; 
+	"jmg:jmg-behinder:jar:1.0.9" -> "javax.servlet:javax.servlet-api:jar:4.0.1:compile" ; 
+	"jmg:jmg-behinder:jar:1.0.9" -> "org.javassist:javassist:jar:3.20.0-GA:compile" ; 
+}
+digraph jmg-cli {
+	"jmg:jmg-cli:jar:1.0.9" -> "org.jline:jline:jar:3.21.0:compile" ; 
+	"jmg:jmg-cli:jar:1.0.9" -> "jmg:jmg-sdk:jar:1.0.9:compile" ; 
+	"jmg:jmg-cli:jar:1.0.9" -> "me.gv7.woodpecker:woodpecker-bcel:jar:0.1.0:compile" ; 
+	"jmg:jmg-cli:jar:1.0.9" -> "me.gv7.woodpecker:woodpecker-tools:jar:0.1.1:compile" ; 
+	"jmg:jmg-cli:jar:1.0.9" -> "me.gv7.woodpecker:woodpecker-sdk:jar:0.3.0:compile" ; 
+	"jmg:jmg-cli:jar:1.0.9" -> "javax.servlet:javax.servlet-api:jar:4.0.1:compile" ; 
+	"jmg:jmg-cli:jar:1.0.9" -> "org.javassist:javassist:jar:3.20.0-GA:compile" ; 
+}
+digraph jmg-core {
+	"jmg:jmg-core:jar:1.0.9" -> "org.springframework:spring-web:jar:5.3.29:compile" ; 
+	"jmg:jmg-core:jar:1.0.9" -> "org.springframework:spring-webflux:jar:5.3.29:compile" ; 
+	"jmg:jmg-core:jar:1.0.9" -> "jakarta.servlet:jakarta.servlet-api:jar:5.0.0:compile" ; 
+	"jmg:jmg-core:jar:1.0.9" -> "org.apache.tomcat:tomcat-catalina:jar:8.5.58:compile" ; 
+	"jmg:jmg-core:jar:1.0.9" -> "me.gv7.woodpecker:woodpecker-bcel:jar:0.1.0:compile" ; 
+	"jmg:jmg-core:jar:1.0.9" -> "me.gv7.woodpecker:woodpecker-tools:jar:0.1.1:compile" ; 
+	"jmg:jmg-core:jar:1.0.9" -> "me.gv7.woodpecker:woodpecker-sdk:jar:0.3.0:compile" ; 
+	"jmg:jmg-core:jar:1.0.9" -> "javax.servlet:javax.servlet-api:jar:4.0.1:compile" ; 
+	"jmg:jmg-core:jar:1.0.9" -> "org.javassist:javassist:jar:3.20.0-GA:compile" ; 
+	"org.springframework:spring-web:jar:5.3.29:compile" -> "org.springframework:spring-beans:jar:5.3.29:compile" ; 
+	"org.springframework:spring-web:jar:5.3.29:compile" -> "org.springframework:spring-core:jar:5.3.29:compile" ; 
+	"org.springframework:spring-beans:jar:5.3.29:compile" -> "(org.springframework:spring-core:jar:5.3.29:compile - omitted for duplicate)" ; 
+	"org.springframework:spring-core:jar:5.3.29:compile" -> "org.springframework:spring-jcl:jar:5.3.29:compile" ; 
+	"org.springframework:spring-webflux:jar:5.3.29:compile" -> "(org.springframework:spring-beans:jar:5.3.29:compile - omitted for duplicate)" ; 
+	"org.springframework:spring-webflux:jar:5.3.29:compile" -> "(org.springframework:spring-core:jar:5.3.29:compile - omitted for duplicate)" ; 
+	"org.springframework:spring-webflux:jar:5.3.29:compile" -> "(org.springframework:spring-web:jar:5.3.29:compile - omitted for duplicate)" ; 
+	"org.springframework:spring-webflux:jar:5.3.29:compile" -> "io.projectreactor:reactor-core:jar:3.4.31:compile" ; 
+	"io.projectreactor:reactor-core:jar:3.4.31:compile" -> "org.reactivestreams:reactive-streams:jar:1.0.4:compile" ; 
+}
+digraph jmg-custom {
+	"jmg:jmg-custom:jar:1.0.9" -> "jmg:jmg-core:jar:1.0.9:compile" ; 
+	"jmg:jmg-custom:jar:1.0.9" -> "me.gv7.woodpecker:woodpecker-bcel:jar:0.1.0:compile" ; 
+	"jmg:jmg-custom:jar:1.0.9" -> "me.gv7.woodpecker:woodpecker-tools:jar:0.1.1:compile" ; 
+	"jmg:jmg-custom:jar:1.0.9" -> "me.gv7.woodpecker:woodpecker-sdk:jar:0.3.0:compile" ; 
+	"jmg:jmg-custom:jar:1.0.9" -> "javax.servlet:javax.servlet-api:jar:4.0.1:compile" ; 
+	"jmg:jmg-custom:jar:1.0.9" -> "org.javassist:javassist:jar:3.20.0-GA:compile" ; 
+}
+digraph jmg-extender {
+	"jmg:jmg-extender:jar:1.0.9" -> "jmg:jmg-core:jar:1.0.9:compile" ; 
+	"jmg:jmg-extender:jar:1.0.9" -> "me.gv7.woodpecker:woodpecker-bcel:jar:0.1.0:compile" ; 
+	"jmg:jmg-extender:jar:1.0.9" -> "me.gv7.woodpecker:woodpecker-tools:jar:0.1.1:compile" ; 
+	"jmg:jmg-extender:jar:1.0.9" -> "me.gv7.woodpecker:woodpecker-sdk:jar:0.3.0:compile" ; 
+	"jmg:jmg-extender:jar:1.0.9" -> "javax.servlet:javax.servlet-api:jar:4.0.1:compile" ; 
+	"jmg:jmg-extender:jar:1.0.9" -> "org.javassist:javassist:jar:3.20.0-GA:compile" ; 
+}
+digraph jmg-godzilla {
+	"jmg:jmg-godzilla:jar:1.0.9" -> "jmg:jmg-core:jar:1.0.9:compile" ; 
+	"jmg:jmg-godzilla:jar:1.0.9" -> "me.gv7.woodpecker:woodpecker-bcel:jar:0.1.0:compile" ; 
+	"jmg:jmg-godzilla:jar:1.0.9" -> "me.gv7.woodpecker:woodpecker-tools:jar:0.1.1:compile" ; 
+	"jmg:jmg-godzilla:jar:1.0.9" -> "me.gv7.woodpecker:woodpecker-sdk:jar:0.3.0:compile" ; 
+	"jmg:jmg-godzilla:jar:1.0.9" -> "javax.servlet:javax.servlet-api:jar:4.0.1:compile" ; 
+	"jmg:jmg-godzilla:jar:1.0.9" -> "org.javassist:javassist:jar:3.20.0-GA:compile" ; 
+}
+digraph jmg-gui {
+	"jmg:jmg-gui:jar:1.0.9" -> "jmg:jmg-core:jar:1.0.9:compile" ; 
+	"jmg:jmg-gui:jar:1.0.9" -> "me.gv7.woodpecker:jexpr-encoder-utils:jar:0.2.2:compile" ; 
+	"jmg:jmg-gui:jar:1.0.9" -> "com.intellij:forms_rt:jar:7.0.3:compile" ; 
+	"jmg:jmg-gui:jar:1.0.9" -> "com.formdev:flatlaf:jar:3.1:compile" ; 
+	"jmg:jmg-gui:jar:1.0.9" -> "jmg:jmg-behinder:jar:1.0.9:compile" ; 
+	"jmg:jmg-gui:jar:1.0.9" -> "jmg:jmg-antsword:jar:1.0.9:compile" ; 
+	"jmg:jmg-gui:jar:1.0.9" -> "jmg:jmg-godzilla:jar:1.0.9:compile" ; 
+	"jmg:jmg-gui:jar:1.0.9" -> "jmg:jmg-suo5:jar:1.0.9:compile" ; 
+	"jmg:jmg-gui:jar:1.0.9" -> "jmg:jmg-neoregeorg:jar:1.0.9:compile" ; 
+	"jmg:jmg-gui:jar:1.0.9" -> "jmg:jmg-custom:jar:1.0.9:compile" ; 
+	"jmg:jmg-gui:jar:1.0.9" -> "me.gv7.woodpecker:woodpecker-bcel:jar:0.1.0:compile" ; 
+	"jmg:jmg-gui:jar:1.0.9" -> "me.gv7.woodpecker:woodpecker-tools:jar:0.1.1:compile" ; 
+	"jmg:jmg-gui:jar:1.0.9" -> "me.gv7.woodpecker:woodpecker-sdk:jar:0.3.0:compile" ; 
+	"jmg:jmg-gui:jar:1.0.9" -> "javax.servlet:javax.servlet-api:jar:4.0.1:compile" ; 
+	"jmg:jmg-gui:jar:1.0.9" -> "org.javassist:javassist:jar:3.20.0-GA:compile" ; 
+	"com.intellij:forms_rt:jar:7.0.3:compile" -> "asm:asm-commons:jar:3.0:compile" ; 
+	"com.intellij:forms_rt:jar:7.0.3:compile" -> "com.jgoodies:forms:jar:1.1-preview:compile" ; 
+	"com.intellij:forms_rt:jar:7.0.3:compile" -> "jdom:jdom:jar:1.0:compile" ; 
+	"asm:asm-commons:jar:3.0:compile" -> "asm:asm-tree:jar:3.0:compile" ; 
+	"asm:asm-tree:jar:3.0:compile" -> "asm:asm:jar:3.0:compile" ; 
+}
+digraph jmg-neoregeorg {
+	"jmg:jmg-neoregeorg:jar:1.0.9" -> "jmg:jmg-core:jar:1.0.9:compile" ; 
+	"jmg:jmg-neoregeorg:jar:1.0.9" -> "me.gv7.woodpecker:woodpecker-bcel:jar:0.1.0:compile" ; 
+	"jmg:jmg-neoregeorg:jar:1.0.9" -> "me.gv7.woodpecker:woodpecker-tools:jar:0.1.1:compile" ; 
+	"jmg:jmg-neoregeorg:jar:1.0.9" -> "me.gv7.woodpecker:woodpecker-sdk:jar:0.3.0:compile" ; 
+	"jmg:jmg-neoregeorg:jar:1.0.9" -> "javax.servlet:javax.servlet-api:jar:4.0.1:compile" ; 
+	"jmg:jmg-neoregeorg:jar:1.0.9" -> "org.javassist:javassist:jar:3.20.0-GA:compile" ; 
+}
+digraph jmg-sdk {
+	"jmg:jmg-sdk:jar:1.0.9" -> "jmg:jmg-core:jar:1.0.9:compile" ; 
+	"jmg:jmg-sdk:jar:1.0.9" -> "jmg:jmg-antsword:jar:1.0.9:compile" ; 
+	"jmg:jmg-sdk:jar:1.0.9" -> "jmg:jmg-behinder:jar:1.0.9:compile" ; 
+	"jmg:jmg-sdk:jar:1.0.9" -> "jmg:jmg-custom:jar:1.0.9:compile" ; 
+	"jmg:jmg-sdk:jar:1.0.9" -> "jmg:jmg-godzilla:jar:1.0.9:compile" ; 
+	"jmg:jmg-sdk:jar:1.0.9" -> "jmg:jmg-extender:jar:1.0.9:compile" ; 
+	"jmg:jmg-sdk:jar:1.0.9" -> "jmg:jmg-neoregeorg:jar:1.0.9:compile" ; 
+	"jmg:jmg-sdk:jar:1.0.9" -> "jmg:jmg-suo5:jar:1.0.9:compile" ; 
+	"jmg:jmg-sdk:jar:1.0.9" -> "me.gv7.woodpecker:woodpecker-bcel:jar:0.1.0:compile" ; 
+	"jmg:jmg-sdk:jar:1.0.9" -> "me.gv7.woodpecker:woodpecker-tools:jar:0.1.1:compile" ; 
+	"jmg:jmg-sdk:jar:1.0.9" -> "me.gv7.woodpecker:woodpecker-sdk:jar:0.3.0:compile" ; 
+	"jmg:jmg-sdk:jar:1.0.9" -> "javax.servlet:javax.servlet-api:jar:4.0.1:compile" ; 
+	"jmg:jmg-sdk:jar:1.0.9" -> "org.javassist:javassist:jar:3.20.0-GA:compile" ; 
+}
+digraph jmg-suo5 {
+	"jmg:jmg-suo5:jar:1.0.9" -> "jmg:jmg-core:jar:1.0.9:compile" ; 
+	"jmg:jmg-suo5:jar:1.0.9" -> "me.gv7.woodpecker:woodpecker-bcel:jar:0.1.0:compile" ; 
+	"jmg:jmg-suo5:jar:1.0.9" -> "me.gv7.woodpecker:woodpecker-tools:jar:0.1.1:compile" ; 
+	"jmg:jmg-suo5:jar:1.0.9" -> "me.gv7.woodpecker:woodpecker-sdk:jar:0.3.0:compile" ; 
+	"jmg:jmg-suo5:jar:1.0.9" -> "javax.servlet:javax.servlet-api:jar:4.0.1:compile" ; 
+	"jmg:jmg-suo5:jar:1.0.9" -> "org.javassist:javassist:jar:3.20.0-GA:compile" ; 
+}
+digraph jmg-woodpecker {
+	"jmg:jmg-woodpecker:jar:1.0.9" -> "jmg:jmg-core:jar:1.0.9:compile" ; 
+	"jmg:jmg-woodpecker:jar:1.0.9" -> "jmg:jmg-antsword:jar:1.0.9:compile" ; 
+	"jmg:jmg-woodpecker:jar:1.0.9" -> "jmg:jmg-behinder:jar:1.0.9:compile" ; 
+	"jmg:jmg-woodpecker:jar:1.0.9" -> "jmg:jmg-custom:jar:1.0.9:compile" ; 
+	"jmg:jmg-woodpecker:jar:1.0.9" -> "jmg:jmg-godzilla:jar:1.0.9:compile" ; 
+	"jmg:jmg-woodpecker:jar:1.0.9" -> "jmg:jmg-extender:jar:1.0.9:compile" ; 
+	"jmg:jmg-woodpecker:jar:1.0.9" -> "jmg:jmg-neoregeorg:jar:1.0.9:compile" ; 
+	"jmg:jmg-woodpecker:jar:1.0.9" -> "jmg:jmg-suo5:jar:1.0.9:compile" ; 
+	"jmg:jmg-woodpecker:jar:1.0.9" -> "me.gv7.woodpecker:woodpecker-bcel:jar:0.1.0:compile" ; 
+	"jmg:jmg-woodpecker:jar:1.0.9" -> "me.gv7.woodpecker:woodpecker-tools:jar:0.1.1:compile" ; 
+	"jmg:jmg-woodpecker:jar:1.0.9" -> "me.gv7.woodpecker:woodpecker-sdk:jar:0.3.0:compile" ; 
+	"jmg:jmg-woodpecker:jar:1.0.9" -> "javax.servlet:javax.servlet-api:jar:4.0.1:compile" ; 
+	"jmg:jmg-woodpecker:jar:1.0.9" -> "org.javassist:javassist:jar:3.20.0-GA:compile" ; 
+}

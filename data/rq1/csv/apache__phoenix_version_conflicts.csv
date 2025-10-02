@@ -1,0 +1,11 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+phoenix-core-client,185,,,,,,,,
+phoenix-core-server,213,,,,,,,,
+phoenix-hbase-compat-2.5.0,167,,,,,,,,
+phoenix-hbase-compat-2.5.4,167,,,,,,,,
+phoenix-hbase-compat-2.6.0,166,,,,,,,,
+phoenix-pherf,303,,,,,,,,
+phoenix-tracing-webapp,218,,,,,,,,

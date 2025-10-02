@@ -1,0 +1,23 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+SeleniumHQ__htmlunit-driver,SeleniumHQ__htmlunit-driver,org.apache.maven:maven-core,3.9.0,3.0,2,3,test,test,omitted_conflict
+SeleniumHQ__htmlunit-driver,SeleniumHQ__htmlunit-driver,org.apache.maven:maven-model,3.9.0,3.0,3,4,test,test,omitted_conflict
+SeleniumHQ__htmlunit-driver,SeleniumHQ__htmlunit-driver,org.apache.maven:maven-core,3.9.0,3.0,2,3,test,test,omitted_conflict
+SeleniumHQ__htmlunit-driver,SeleniumHQ__htmlunit-driver,org.apache.maven.shared:maven-shared-utils,3.3.4,3.1.0,3,4,test,test,omitted_conflict
+SeleniumHQ__htmlunit-driver,SeleniumHQ__htmlunit-driver,com.google.guava:failureaccess,1.0.3,1.0.1,3,3,compile,test,omitted_conflict
+SeleniumHQ__htmlunit-driver,SeleniumHQ__htmlunit-driver,org.slf4j:slf4j-api,1.7.5,1.7.36,3,3,test,test,omitted_conflict
+SeleniumHQ__htmlunit-driver,SeleniumHQ__htmlunit-driver,org.slf4j:slf4j-api,1.7.5,1.7.36,3,3,test,test,omitted_conflict
+SeleniumHQ__htmlunit-driver,SeleniumHQ__htmlunit-driver,org.slf4j:slf4j-api,1.7.5,1.7.36,3,3,test,test,omitted_conflict
+SeleniumHQ__htmlunit-driver,SeleniumHQ__htmlunit-driver,javax.annotation:javax.annotation-api,1.3.2,1.2,3,4,test,test,omitted_conflict
+SeleniumHQ__htmlunit-driver,SeleniumHQ__htmlunit-driver,org.apache.maven:maven-core,3.9.0,3.2.5,2,3,test,test,omitted_conflict
+SeleniumHQ__htmlunit-driver,SeleniumHQ__htmlunit-driver,org.apache.maven:maven-model,3.9.0,3.2.5,3,3,test,test,omitted_conflict
+SeleniumHQ__htmlunit-driver,SeleniumHQ__htmlunit-driver,org.slf4j:slf4j-api,1.7.5,1.7.36,3,3,test,test,omitted_conflict
+SeleniumHQ__htmlunit-driver,SeleniumHQ__htmlunit-driver,org.codehaus.plexus:plexus-xml,4.0.4,3.0.0,2,3,test,test,omitted_conflict
+SeleniumHQ__htmlunit-driver,SeleniumHQ__htmlunit-driver,org.ow2.asm:asm,9.7.1,9.6,3,4,test,test,omitted_conflict
+SeleniumHQ__htmlunit-driver,SeleniumHQ__htmlunit-driver,org.slf4j:slf4j-api,1.7.5,1.7.36,3,3,test,test,omitted_conflict
+SeleniumHQ__htmlunit-driver,SeleniumHQ__htmlunit-driver,org.slf4j:slf4j-api,1.7.5,1.7.36,3,3,test,test,omitted_conflict
+SeleniumHQ__htmlunit-driver,SeleniumHQ__htmlunit-driver,org.slf4j:slf4j-api,1.7.5,1.7.36,3,3,test,test,omitted_conflict
+SeleniumHQ__htmlunit-driver,SeleniumHQ__htmlunit-driver,org.slf4j:slf4j-api,1.7.5,2.0.17,3,3,test,test,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+SeleniumHQ__htmlunit-driver,139,,,,,,,,

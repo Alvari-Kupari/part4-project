@@ -1,0 +1,13 @@
+digraph annotation {
+}
+digraph processor {
+	"com.hannesdorfmann.annotationprocessing101.factorypattern:processor:jar:1.0" -> "com.hannesdorfmann.annotationprocessing101.factorypattern:annotation:jar:1.0:compile" ; 
+	"com.hannesdorfmann.annotationprocessing101.factorypattern:processor:jar:1.0" -> "com.squareup:javapoet:jar:1.1.0:compile" ; 
+	"com.hannesdorfmann.annotationprocessing101.factorypattern:processor:jar:1.0" -> "com.google.auto.service:auto-service:jar:1.0-rc1:compile" ; 
+	"com.hannesdorfmann.annotationprocessing101.factorypattern:processor:jar:1.0" -> "org.apache.commons:commons-lang3:jar:3.0:compile" ; 
+	"com.google.auto.service:auto-service:jar:1.0-rc1:compile" -> "com.google.guava:guava:jar:16.0:compile" ; 
+}
+digraph pizzastore {
+	"com.hannesdorfmann.annotationprocessing101.factory:pizzastore:jar:1.0" -> "com.hannesdorfmann.annotationprocessing101.factorypattern:annotation:jar:1.0:compile" ; 
+	"com.hannesdorfmann.annotationprocessing101.factory:pizzastore:jar:1.0" -> "com.hannesdorfmann.annotationprocessing101.factorypattern:processor:jar:1.0:compile" ; 
+}

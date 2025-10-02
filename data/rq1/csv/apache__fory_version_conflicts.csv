@@ -1,0 +1,24 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+apache__fory,benchmark,com.esotericsoftware:reflectasm,1.11.3,1.11.9,1,2,compile,compile,omitted_conflict
+apache__fory,benchmark,org.objenesis:objenesis,2.5.1,3.3,1,2,compile,compile,omitted_conflict
+apache__fory,benchmark,com.esotericsoftware:kryo,5.5.0,4.0.0,1,2,compile,compile,omitted_conflict
+apache__fory,benchmark,commons-codec:commons-codec,1.13,1.17.0,3,3,compile,compile,version_managed
+apache__fory,fory-format,com.fasterxml.jackson.core:jackson-core,2.16.0,2.18.3,2,2,compile,compile,version_managed
+apache__fory,fory-format,com.fasterxml.jackson.core:jackson-annotations,2.16.0,2.18.3,2,2,compile,compile,version_managed
+apache__fory,fory-format,com.fasterxml.jackson.datatype:jackson-datatype-jsr310,2.16.0,2.18.3,2,2,compile,compile,version_managed
+apache__fory,fory-format,commons-codec:commons-codec,1.13,1.18.0,2,2,compile,compile,version_managed
+apache__fory,fory-format,org.slf4j:slf4j-api,2.0.12,2.0.17,2,2,provided,provided,version_managed
+apache__fory,fory-test-core,com.esotericsoftware:reflectasm,1.11.3,1.11.9,1,2,compile,compile,omitted_conflict
+apache__fory,fory-test-core,org.objenesis:objenesis,3.3,2.5.1,2,2,compile,compile,omitted_conflict
+apache__fory,fory-test-core,org.slf4j:slf4j-api,2.0.12,2.0.6,2,2,provided,provided,version_managed
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+graalvm_tests,2,,,,,,,,
+jpms_tests,6,,,,,,,,
+benchmark,40,,,,,,,,
+fory-core,12,,,,,,,,
+fory-extensions,5,,,,,,,,
+fory-format,14,,,,,,,,
+fory-test-core,23,,,,,,,,
+kotlin,11,,,,,,,,

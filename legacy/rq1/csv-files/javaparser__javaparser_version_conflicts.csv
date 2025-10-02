@@ -1,0 +1,9 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+javaparser-core,0,,,,,,,,
+javaparser-core-generators,8,,,,,,,,
+javaparser-core-metamodel-generator,2,,,,,,,,
+javaparser-core-serialization,10,,,,,,,,
+javaparser-symbol-solver-core,10,,,,,,,,

@@ -1,0 +1,8 @@
+digraph url-detector {
+	"com.linkedin.urls:url-detector:jar:0.2.3-alpha" -> "org.testng:testng:jar:6.1.1:test" ; 
+	"com.linkedin.urls:url-detector:jar:0.2.3-alpha" -> "org.apache.commons:commons-lang3:jar:3.3.1:compile" ; 
+	"org.testng:testng:jar:6.1.1:test" -> "junit:junit:jar:3.8.1:test" ; 
+	"org.testng:testng:jar:6.1.1:test" -> "org.beanshell:bsh:jar:2.0b4:test" ; 
+	"org.testng:testng:jar:6.1.1:test" -> "com.beust:jcommander:jar:1.12:test" ; 
+	"org.testng:testng:jar:6.1.1:test" -> "org.yaml:snakeyaml:jar:1.6:test" ; 
+}

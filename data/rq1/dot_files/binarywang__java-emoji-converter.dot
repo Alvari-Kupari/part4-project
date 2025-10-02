@@ -1,0 +1,26 @@
+digraph binarywang__java-emoji-converter {
+	"com.github.binarywang:java-emoji-converter:jar:1.0.2" -> "com.vdurmont:emoji-java:jar:5.1.1:compile" ; 
+	"com.github.binarywang:java-emoji-converter:jar:1.0.2" -> "com.thoughtworks.xstream:xstream:jar:1.4.21:compile" ; 
+	"com.github.binarywang:java-emoji-converter:jar:1.0.2" -> "org.slf4j:slf4j-api:jar:1.7.36:compile" ; 
+	"com.github.binarywang:java-emoji-converter:jar:1.0.2" -> "org.jodd:jodd-http:jar:6.2.1:compile" ; 
+	"com.github.binarywang:java-emoji-converter:jar:1.0.2" -> "org.apache.commons:commons-lang3:jar:3.18.0:compile" ; 
+	"com.github.binarywang:java-emoji-converter:jar:1.0.2" -> "com.google.guava:guava:jar:32.0.0-jre:compile" ; 
+	"com.github.binarywang:java-emoji-converter:jar:1.0.2" -> "joda-time:joda-time:jar:2.10.14:compile" ; 
+	"com.github.binarywang:java-emoji-converter:jar:1.0.2" -> "org.slf4j:slf4j-reload4j:jar:1.7.36:test" ; 
+	"com.github.binarywang:java-emoji-converter:jar:1.0.2" -> "org.testng:testng:jar:7.7.0:test" ; 
+	"com.vdurmont:emoji-java:jar:5.1.1:compile" -> "org.json:json:jar:20170516:compile" ; 
+	"com.thoughtworks.xstream:xstream:jar:1.4.21:compile" -> "io.github.x-stream:mxparser:jar:1.2.2:compile" ; 
+	"io.github.x-stream:mxparser:jar:1.2.2:compile" -> "xmlpull:xmlpull:jar:1.1.3.1:compile" ; 
+	"org.jodd:jodd-http:jar:6.2.1:compile" -> "org.jodd:jodd-util:jar:6.1.0:compile" ; 
+	"com.google.guava:guava:jar:32.0.0-jre:compile" -> "com.google.guava:failureaccess:jar:1.0.1:compile" ; 
+	"com.google.guava:guava:jar:32.0.0-jre:compile" -> "com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:compile" ; 
+	"com.google.guava:guava:jar:32.0.0-jre:compile" -> "com.google.code.findbugs:jsr305:jar:3.0.2:compile" ; 
+	"com.google.guava:guava:jar:32.0.0-jre:compile" -> "org.checkerframework:checker-qual:jar:3.33.0:compile" ; 
+	"com.google.guava:guava:jar:32.0.0-jre:compile" -> "com.google.errorprone:error_prone_annotations:jar:2.18.0:compile" ; 
+	"com.google.guava:guava:jar:32.0.0-jre:compile" -> "com.google.j2objc:j2objc-annotations:jar:2.8:compile" ; 
+	"org.slf4j:slf4j-reload4j:jar:1.7.36:test" -> "(org.slf4j:slf4j-api:jar:1.7.36:test - omitted for duplicate)" ; 
+	"org.slf4j:slf4j-reload4j:jar:1.7.36:test" -> "ch.qos.reload4j:reload4j:jar:1.2.19:test" ; 
+	"org.testng:testng:jar:7.7.0:test" -> "(org.slf4j:slf4j-api:jar:1.7.36:test - omitted for duplicate)" ; 
+	"org.testng:testng:jar:7.7.0:test" -> "com.beust:jcommander:jar:1.82:test" ; 
+	"org.testng:testng:jar:7.7.0:test" -> "org.webjars:jquery:jar:3.6.1:test" ; 
+}

@@ -1,0 +1,14 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+tr7zw__Item-NBT-API,item-nbt-api,org.codehaus.plexus:plexus-utils,2.0.4,2.0.5,4,4,provided,provided,omitted_conflict
+tr7zw__Item-NBT-API,item-nbt-plugin,org.codehaus.plexus:plexus-utils,2.0.4,2.0.5,4,4,provided,provided,omitted_conflict
+tr7zw__Item-NBT-API,mappings-parser,org.codehaus.plexus:plexus-utils,2.0.4,2.0.5,4,4,provided,provided,omitted_conflict
+tr7zw__Item-NBT-API,nbt-data-api,org.codehaus.plexus:plexus-utils,2.0.4,2.0.5,4,4,provided,provided,omitted_conflict
+tr7zw__Item-NBT-API,nbt-injector,org.codehaus.plexus:plexus-utils,2.0.4,2.0.5,4,4,provided,provided,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+item-nbt-api,28,,,,,,,,
+item-nbt-plugin,29,,,,,,,,
+mappings-parser,25,,,,,,,,
+nbt-data-api,25,,,,,,,,
+nbt-injector,26,,,,,,,,

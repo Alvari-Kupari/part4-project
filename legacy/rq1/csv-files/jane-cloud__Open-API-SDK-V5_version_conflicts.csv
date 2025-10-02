@@ -1,0 +1,25 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+jane-cloud__Open-API-SDK-V5,okex-java-sdk-api-v5,commons-logging:commons-logging,1.1.1,1.2,1,2,compile,compile,omitted_conflict
+jane-cloud__Open-API-SDK-V5,okex-java-sdk-api-v5,commons-codec:commons-codec,1.12,1.9,1,3,compile,compile,omitted_conflict
+jane-cloud__Open-API-SDK-V5,okex-java-sdk-api-v5,org.apache.commons:commons-compress,1.20,1.15,1,2,compile,compile,omitted_conflict
+jane-cloud__Open-API-SDK-V5,okex-java-sdk-api-v5,org.apache.commons:commons-lang3,3.7,3.9,1,2,compile,compile,omitted_conflict
+jane-cloud__Open-API-SDK-V5,okex-java-sdk-api-v5,com.fasterxml.jackson.core:jackson-databind,2.9.5,2.10.2,1,2,compile,compile,omitted_conflict
+jane-cloud__Open-API-SDK-V5,okex-java-sdk-api-v5,com.squareup.okhttp3:okhttp,3.10.0,3.8.0,1,2,compile,compile,omitted_conflict
+jane-cloud__Open-API-SDK-V5,okex-java-sdk-api-v5,org.slf4j:slf4j-api,1.7.2,1.8.0-beta2,2,2,compile,compile,omitted_conflict
+jane-cloud__Open-API-SDK-V5,okex-java-sdk-api-v5,org.slf4j:slf4j-api,1.7.2,1.7.25,2,2,compile,compile,omitted_conflict
+jane-cloud__Open-API-SDK-V5,okex-java-sdk-api-v5,commons-logging:commons-logging,1.1.1,1.2,1,2,compile,compile,omitted_conflict
+jane-cloud__Open-API-SDK-V5,okex-java-sdk-api-v5,commons-collections:commons-collections,3.2.1,3.2.2,1,2,compile,compile,omitted_conflict
+jane-cloud__Open-API-SDK-V5,okex-java-sdk-api-v5,commons-lang:commons-lang,2.6,2.3,1,2,compile,compile,omitted_conflict
+jane-cloud__Open-API-SDK-V5,okex-java-sdk-api-v5,commons-beanutils:commons-beanutils,1.9.3,1.7.0,1,2,compile,compile,omitted_conflict
+jane-cloud__Open-API-SDK-V5,okex-java-sdk-api-v5,commons-collections:commons-collections,3.2.1,3.2,1,2,compile,compile,omitted_conflict
+jane-cloud__Open-API-SDK-V5,okex-java-sdk-api-v5,commons-lang:commons-lang,2.6,2.4,1,2,compile,compile,omitted_conflict
+jane-cloud__Open-API-SDK-V5,okex-java-sdk-api-v5,org.springframework:spring-beans,5.1.5.RELEASE,5.0.9.RELEASE,2,2,compile,test,omitted_conflict
+jane-cloud__Open-API-SDK-V5,okex-java-sdk-api-v5,org.springframework:spring-core,5.1.5.RELEASE,5.0.9.RELEASE,2,2,compile,test,omitted_conflict
+jane-cloud__Open-API-SDK-V5,okex-java-sdk-api-v5,commons-logging:commons-logging,1.1.1,1.2,1,2,compile,compile,omitted_conflict
+jane-cloud__Open-API-SDK-V5,okex-java-sdk-api-v5,commons-collections:commons-collections,3.2.1,3.2.2,1,2,compile,compile,omitted_conflict
+jane-cloud__Open-API-SDK-V5,okex-java-sdk-api-v5,javax.activation:activation,1.1.1,1.1,1,2,compile,compile,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+okex-java-sdk-api-v5,75,,,,,,,,
+v5-push-client,28,,,,,,,,

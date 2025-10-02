@@ -1,0 +1,5 @@
+digraph samskivert__jmustache {
+	"com.samskivert:jmustache:bundle:1.17-SNAPSHOT" -> "junit:junit:jar:4.13.2:test" ; 
+	"com.samskivert:jmustache:bundle:1.17-SNAPSHOT" -> "org.yaml:snakeyaml:jar:2.4:test" ; 
+	"junit:junit:jar:4.13.2:test" -> "org.hamcrest:hamcrest-core:jar:1.3:test" ; 
+}

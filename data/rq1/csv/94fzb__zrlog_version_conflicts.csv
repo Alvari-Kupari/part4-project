@@ -1,0 +1,22 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+94fzb__zrlog,package-web,com.hibegin:simplewebserver,4.0.107,4.0.100,1,4,compile,compile,omitted_conflict
+94fzb__zrlog,package-web,com.hibegin:simplewebserver,4.0.107,4.0.100,1,4,compile,compile,omitted_conflict
+94fzb__zrlog,package-web,com.hibegin:simplewebserver,4.0.107,4.0.100,1,4,compile,compile,omitted_conflict
+94fzb__zrlog,package-web,com.hibegin:simplewebserver,4.0.107,4.0.100,1,4,compile,compile,omitted_conflict
+94fzb__zrlog,package-web,com.hibegin:common-dao,1.1.6,1.1.5,3,3,compile,compile,version_managed
+94fzb__zrlog,package-web,com.hibegin:simplewebserver,4.0.107,4.0.105,1,3,compile,compile,omitted_conflict
+94fzb__zrlog,package-web,com.hibegin:simplewebserver,4.0.107,4.0.73,1,4,compile,compile,omitted_conflict
+94fzb__zrlog,package-web,org.slf4j:slf4j-api,2.0.13,1.7.36,4,5,compile,compile,omitted_conflict
+94fzb__zrlog,web,com.hibegin:simplewebserver,4.0.107,4.0.100,1,3,compile,compile,omitted_conflict
+94fzb__zrlog,web,com.hibegin:simplewebserver,4.0.107,4.0.100,1,3,compile,compile,omitted_conflict
+94fzb__zrlog,web,com.hibegin:simplewebserver,4.0.107,4.0.100,1,3,compile,compile,omitted_conflict
+94fzb__zrlog,web,com.hibegin:simplewebserver,4.0.107,4.0.100,1,3,compile,compile,omitted_conflict
+94fzb__zrlog,web,com.hibegin:common-dao,1.1.6,1.1.5,2,2,compile,compile,version_managed
+94fzb__zrlog,web,com.hibegin:simplewebserver,4.0.107,4.0.105,1,2,compile,compile,omitted_conflict
+94fzb__zrlog,web,com.hibegin:simplewebserver,4.0.107,4.0.73,1,3,compile,compile,omitted_conflict
+94fzb__zrlog,web,org.slf4j:slf4j-api,2.0.13,1.7.36,3,4,compile,compile,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+package-web,29,,,,,,,,
+web,24,,,,,,,,

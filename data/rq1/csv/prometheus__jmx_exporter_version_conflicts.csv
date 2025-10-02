@@ -1,0 +1,18 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+prometheus__jmx_exporter,integration_tests,org.slf4j:slf4j-api,2.1.0-alpha1,1.7.36,1,2,compile,compile,omitted_conflict
+prometheus__jmx_exporter,integration_tests,org.apache.commons:commons-compress,1.28.0,1.26.2,1,3,compile,compile,omitted_conflict
+prometheus__jmx_exporter,integration_tests,commons-io:commons-io,2.20.0,2.16.1,2,3,compile,compile,omitted_conflict
+prometheus__jmx_exporter,integration_tests,org.slf4j:slf4j-api,2.1.0-alpha1,2.0.17,1,2,compile,compile,omitted_conflict
+prometheus__jmx_exporter,integration_tests,org.slf4j:slf4j-api,2.1.0-alpha1,1.7.36,1,2,compile,compile,omitted_conflict
+prometheus__jmx_exporter,integration_tests,org.slf4j:slf4j-api,2.1.0-alpha1,1.7.30,1,3,compile,compile,omitted_conflict
+prometheus__jmx_exporter,integration_tests,org.slf4j:slf4j-api,2.1.0-alpha1,1.7.25,1,3,compile,compile,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+collector,19,,,,,,,,
+integration_tests,52,,,,,,,,
+jmx_example_application,0,,,,,,,,
+jmx_prometheus_common,34,,,,,,,,
+jmx_prometheus_isolator_javaagent,13,,,,,,,,
+jmx_prometheus_javaagent,40,,,,,,,,
+jmx_prometheus_standalone,30,,,,,,,,

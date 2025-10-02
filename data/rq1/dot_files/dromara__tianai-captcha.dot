@@ -1,0 +1,4 @@
+digraph dromara__tianai-captcha {
+	"cloud.tianai.captcha:tianai-captcha:jar:1.5.3" -> "org.projectlombok:lombok:jar:1.18.12:compile" ; 
+	"cloud.tianai.captcha:tianai-captcha:jar:1.5.3" -> "org.slf4j:slf4j-api:jar:1.7.30:compile" ; 
+}

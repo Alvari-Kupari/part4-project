@@ -1,0 +1,12 @@
+digraph DerekYRC__mini-spring {
+	"org.springframework:mini-spring:jar:1.0-SNAPSHOT" -> "cglib:cglib-nodep:jar:3.3.0:compile" ; 
+	"org.springframework:mini-spring:jar:1.0-SNAPSHOT" -> "aopalliance:aopalliance:jar:1.0:compile" ; 
+	"org.springframework:mini-spring:jar:1.0-SNAPSHOT" -> "org.aspectj:aspectjweaver:jar:1.8.0:compile" ; 
+	"org.springframework:mini-spring:jar:1.0-SNAPSHOT" -> "org.dom4j:dom4j:jar:2.1.3:compile" ; 
+	"org.springframework:mini-spring:jar:1.0-SNAPSHOT" -> "cn.hutool:hutool-all:jar:5.5.0:compile" ; 
+	"org.springframework:mini-spring:jar:1.0-SNAPSHOT" -> "junit:junit:jar:4.11:test" ; 
+	"org.springframework:mini-spring:jar:1.0-SNAPSHOT" -> "org.assertj:assertj-core:jar:3.11.1:test" ; 
+	"org.springframework:mini-spring:jar:1.0-SNAPSHOT" -> "cglib:cglib:jar:3.3.0:compile" ; 
+	"junit:junit:jar:4.11:test" -> "org.hamcrest:hamcrest-core:jar:1.3:test" ; 
+	"cglib:cglib:jar:3.3.0:compile" -> "org.ow2.asm:asm:jar:7.1:compile" ; 
+}

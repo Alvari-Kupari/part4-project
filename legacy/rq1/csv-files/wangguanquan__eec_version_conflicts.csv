@@ -1,0 +1,6 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+wangguanquan__eec,wangguanquan__eec,org.slf4j:slf4j-api,2.0.12,2.0.7,1,2,compile,test,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+wangguanquan__eec,10,,,,,,,,

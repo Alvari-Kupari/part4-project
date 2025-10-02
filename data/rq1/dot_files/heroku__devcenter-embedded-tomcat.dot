@@ -1,0 +1,27 @@
+digraph heroku__devcenter-embedded-tomcat {
+	"com.heroku.sample:embeddedTomcatSample:jar:1.0-SNAPSHOT" -> "org.apache.tomcat.embed:tomcat-embed-core:jar:8.5.38:compile" ; 
+	"com.heroku.sample:embeddedTomcatSample:jar:1.0-SNAPSHOT" -> "org.apache.tomcat.embed:tomcat-embed-jasper:jar:8.5.38:compile" ; 
+	"com.heroku.sample:embeddedTomcatSample:jar:1.0-SNAPSHOT" -> "org.apache.tomcat:tomcat-jasper:jar:8.5.38:compile" ; 
+	"com.heroku.sample:embeddedTomcatSample:jar:1.0-SNAPSHOT" -> "org.apache.tomcat:tomcat-jasper-el:jar:8.5.38:compile" ; 
+	"com.heroku.sample:embeddedTomcatSample:jar:1.0-SNAPSHOT" -> "org.apache.tomcat:tomcat-jsp-api:jar:8.5.38:compile" ; 
+	"org.apache.tomcat.embed:tomcat-embed-core:jar:8.5.38:compile" -> "org.apache.tomcat:tomcat-annotations-api:jar:8.5.38:compile" ; 
+	"org.apache.tomcat.embed:tomcat-embed-jasper:jar:8.5.38:compile" -> "(org.apache.tomcat.embed:tomcat-embed-core:jar:8.5.38:compile - omitted for duplicate)" ; 
+	"org.apache.tomcat.embed:tomcat-embed-jasper:jar:8.5.38:compile" -> "org.apache.tomcat.embed:tomcat-embed-el:jar:8.5.38:compile" ; 
+	"org.apache.tomcat.embed:tomcat-embed-jasper:jar:8.5.38:compile" -> "org.eclipse.jdt:ecj:jar:3.12.3:compile" ; 
+	"org.apache.tomcat:tomcat-jasper:jar:8.5.38:compile" -> "org.apache.tomcat:tomcat-servlet-api:jar:8.5.38:compile" ; 
+	"org.apache.tomcat:tomcat-jasper:jar:8.5.38:compile" -> "org.apache.tomcat:tomcat-juli:jar:8.5.38:compile" ; 
+	"org.apache.tomcat:tomcat-jasper:jar:8.5.38:compile" -> "(org.apache.tomcat:tomcat-jsp-api:jar:8.5.38:compile - omitted for duplicate)" ; 
+	"org.apache.tomcat:tomcat-jasper:jar:8.5.38:compile" -> "org.apache.tomcat:tomcat-el-api:jar:8.5.38:compile" ; 
+	"org.apache.tomcat:tomcat-jasper:jar:8.5.38:compile" -> "(org.eclipse.jdt:ecj:jar:3.12.3:compile - omitted for duplicate)" ; 
+	"org.apache.tomcat:tomcat-jasper:jar:8.5.38:compile" -> "(org.apache.tomcat:tomcat-jasper-el:jar:8.5.38:compile - omitted for duplicate)" ; 
+	"org.apache.tomcat:tomcat-jasper:jar:8.5.38:compile" -> "org.apache.tomcat:tomcat-api:jar:8.5.38:compile" ; 
+	"org.apache.tomcat:tomcat-jasper:jar:8.5.38:compile" -> "org.apache.tomcat:tomcat-util-scan:jar:8.5.38:compile" ; 
+	"org.apache.tomcat:tomcat-api:jar:8.5.38:compile" -> "(org.apache.tomcat:tomcat-servlet-api:jar:8.5.38:compile - omitted for duplicate)" ; 
+	"org.apache.tomcat:tomcat-util-scan:jar:8.5.38:compile" -> "org.apache.tomcat:tomcat-util:jar:8.5.38:compile" ; 
+	"org.apache.tomcat:tomcat-util-scan:jar:8.5.38:compile" -> "(org.apache.tomcat:tomcat-juli:jar:8.5.38:compile - omitted for duplicate)" ; 
+	"org.apache.tomcat:tomcat-util-scan:jar:8.5.38:compile" -> "(org.apache.tomcat:tomcat-api:jar:8.5.38:compile - omitted for duplicate)" ; 
+	"org.apache.tomcat:tomcat-util:jar:8.5.38:compile" -> "(org.apache.tomcat:tomcat-juli:jar:8.5.38:compile - omitted for duplicate)" ; 
+	"org.apache.tomcat:tomcat-jasper-el:jar:8.5.38:compile" -> "(org.apache.tomcat:tomcat-el-api:jar:8.5.38:compile - omitted for duplicate)" ; 
+	"org.apache.tomcat:tomcat-jsp-api:jar:8.5.38:compile" -> "(org.apache.tomcat:tomcat-el-api:jar:8.5.38:compile - omitted for duplicate)" ; 
+	"org.apache.tomcat:tomcat-jsp-api:jar:8.5.38:compile" -> "(org.apache.tomcat:tomcat-servlet-api:jar:8.5.38:compile - omitted for duplicate)" ; 
+}

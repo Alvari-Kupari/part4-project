@@ -1,0 +1,27 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+mark-watson__Java-AI-Book-Code,langchain4j-ollama,com.squareup.okhttp3:okhttp,4.12.0,3.14.9,2,3,compile,compile,omitted_conflict
+mark-watson__Java-AI-Book-Code,langchain4j-ollama,org.jetbrains.kotlin:kotlin-stdlib-jdk8,1.8.21,1.9.10,3,5,compile,compile,omitted_conflict
+mark-watson__Java-AI-Book-Code,langchain4j-ollama,org.jetbrains.kotlin:kotlin-stdlib-common,1.9.10,1.8.21,5,5,compile,compile,omitted_conflict
+mark-watson__Java-AI-Book-Code,langchain4j-ollama,com.google.code.gson:gson,2.10.1,2.8.9,3,3,compile,compile,omitted_conflict
+mark-watson__Java-AI-Book-Code,semantic_web_apache_jena,commons-io:commons-io,2.14.0,2.8.0,1,5,compile,compile,omitted_conflict
+mark-watson__Java-AI-Book-Code,semantic_web_apache_jena,commons-io:commons-io,2.14.0,2.8.0,1,5,compile,compile,omitted_conflict
+mark-watson__Java-AI-Book-Code,semantic_web_apache_jena,org.slf4j:slf4j-api,1.7.30,1.7.25,1,5,compile,compile,omitted_conflict
+mark-watson__Java-AI-Book-Code,semantic_web_apache_jena,org.apache.httpcomponents:httpclient,4.5.13,4.5.6,4,5,compile,compile,omitted_conflict
+mark-watson__Java-AI-Book-Code,semantic_web_apache_jena,org.apache.derby:derbyshared,10.17.1.0,10.15.2.0,2,2,compile,compile,omitted_conflict
+mark-watson__Java-AI-Book-Code,semantic_web_apache_jena,org.apache.derby:derbyshared,10.17.1.0,10.15.2.0,2,2,compile,compile,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+anomaly_detection,5,,,,,,,,
+gemini-llm-client,3,,,,,,,,
+genetic-algorithms,0,,,,,,,,
+info_gathering,10,,,,,,,,
+kgc,6,,,,,,,,
+langchain4j-ollama,23,,,,,,,,
+ner_dbpedia,3,,,,,,,,
+neuralnetworks,3,,,,,,,,
+nlp,3,,,,,,,,
+ollama-llm-client,3,,,,,,,,
+openai-llm-client,3,,,,,,,,
+search,5,,,,,,,,
+semantic_web_apache_jena,42,,,,,,,,

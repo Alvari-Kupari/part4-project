@@ -1,0 +1,13 @@
+digraph stefanbirkner__system-lambda {
+	"com.github.stefanbirkner:system-lambda:jar:1.2.1" -> "com.github.stefanbirkner:fishbowl:jar:1.4.1:test" ; 
+	"com.github.stefanbirkner:system-lambda:jar:1.2.1" -> "org.apache.commons:commons-lang3:jar:3.10:test" ; 
+	"com.github.stefanbirkner:system-lambda:jar:1.2.1" -> "org.assertj:assertj-core:jar:3.16.1:test" ; 
+	"com.github.stefanbirkner:system-lambda:jar:1.2.1" -> "org.junit.jupiter:junit-jupiter:jar:5.6.2:test" ; 
+	"org.junit.jupiter:junit-jupiter:jar:5.6.2:test" -> "org.junit.jupiter:junit-jupiter-api:jar:5.6.2:test" ; 
+	"org.junit.jupiter:junit-jupiter:jar:5.6.2:test" -> "org.junit.jupiter:junit-jupiter-params:jar:5.6.2:test" ; 
+	"org.junit.jupiter:junit-jupiter:jar:5.6.2:test" -> "org.junit.jupiter:junit-jupiter-engine:jar:5.6.2:test" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.6.2:test" -> "org.apiguardian:apiguardian-api:jar:1.1.0:test" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.6.2:test" -> "org.opentest4j:opentest4j:jar:1.2.0:test" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.6.2:test" -> "org.junit.platform:junit-platform-commons:jar:1.6.2:test" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.6.2:test" -> "org.junit.platform:junit-platform-engine:jar:1.6.2:test" ; 
+}

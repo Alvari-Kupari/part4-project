@@ -1,0 +1,14 @@
+digraph yint-tech__sekiro-open {
+	"cn.iinti.sekiro.business:sekiro-open-demo:jar:0.0.1" -> "cn.iinti.sekiro3.business:sekiro-business-api:jar:1.0:compile" ; 
+	"cn.iinti.sekiro.business:sekiro-open-demo:jar:0.0.1" -> "cn.iinti.sekiro3.business:sekiro-netty-codec-http:jar:1.0:compile" ; 
+	"cn.iinti.sekiro.business:sekiro-open-demo:jar:0.0.1" -> "org.apache.commons:commons-lang3:jar:3.12.0:compile" ; 
+	"cn.iinti.sekiro.business:sekiro-open-demo:jar:0.0.1" -> "org.slf4j:slf4j-api:jar:1.7.30:compile" ; 
+	"cn.iinti.sekiro.business:sekiro-open-demo:jar:0.0.1" -> "ch.qos.logback:logback-core:jar:1.2.13:compile" ; 
+	"cn.iinti.sekiro.business:sekiro-open-demo:jar:0.0.1" -> "ch.qos.logback:logback-classic:jar:1.2.13:compile" ; 
+	"cn.iinti.sekiro.business:sekiro-open-demo:jar:0.0.1" -> "org.projectlombok:lombok:jar:1.18.20:compile" ; 
+	"cn.iinti.sekiro3.business:sekiro-business-api:jar:1.0:compile" -> "cn.iinti.sekiro3.business:sekiro-netty:jar:1.0:compile" ; 
+	"cn.iinti.sekiro3.business:sekiro-netty:jar:1.0:compile" -> "org.jctools:jctools-core:jar:1.2.1:compile" ; 
+	"cn.iinti.sekiro3.business:sekiro-netty-codec-http:jar:1.0:compile" -> "(cn.iinti.sekiro3.business:sekiro-netty:jar:1.0:compile - omitted for duplicate)" ; 
+	"ch.qos.logback:logback-classic:jar:1.2.13:compile" -> "(ch.qos.logback:logback-core:jar:1.2.13:compile - omitted for duplicate)" ; 
+	"ch.qos.logback:logback-classic:jar:1.2.13:compile" -> "(org.slf4j:slf4j-api:jar:1.7.32:compile - omitted for conflict with 1.7.30)" ; 
+}

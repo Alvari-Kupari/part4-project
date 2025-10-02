@@ -1,0 +1,18 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+spring-cloud__spring-cloud-openfeign,spring-cloud-openfeign-core,org.apache.commons:commons-lang3,3.18.0,3.17.0,3,3,compile,compile,version_managed
+spring-cloud__spring-cloud-openfeign,spring-cloud-openfeign-core,io.micrometer:micrometer-core,1.16.0-M3,1.14.5,2,2,compile,compile,version_managed
+spring-cloud__spring-cloud-openfeign,spring-cloud-openfeign-core,org.apache.httpcomponents.client5:httpclient5,5.5,5.4.3,2,2,compile,compile,version_managed
+spring-cloud__spring-cloud-openfeign,spring-cloud-openfeign-core,org.apache.httpcomponents.core5:httpcore5,5.3.5,5.3.4,3,3,compile,compile,version_managed
+spring-cloud__spring-cloud-openfeign,spring-cloud-openfeign-core,org.apache.httpcomponents.core5:httpcore5-h2,5.3.5,5.3.4,3,3,compile,compile,version_managed
+spring-cloud__spring-cloud-openfeign,spring-cloud-openfeign-core,org.jetbrains.kotlin:kotlin-stdlib-jdk8,2.2.10,1.8.21,2,2,compile,compile,version_managed
+spring-cloud__spring-cloud-openfeign,spring-cloud-openfeign-core,jakarta.activation:jakarta.activation-api,2.1.4,2.1.3,3,3,test,test,version_managed
+spring-cloud__spring-cloud-openfeign,spring-cloud-openfeign-core,net.bytebuddy:byte-buddy,1.17.7,1.15.11,3,3,test,test,version_managed
+spring-cloud__spring-cloud-openfeign,spring-cloud-openfeign-core,net.bytebuddy:byte-buddy-agent,1.17.7,1.17.6,3,3,test,test,version_managed
+spring-cloud__spring-cloud-openfeign,spring-cloud-openfeign-core,org.ow2.asm:asm,9.7.1,9.8,4,4,compile,test,omitted_conflict
+spring-cloud__spring-cloud-openfeign,spring-cloud-openfeign-core,org.ow2.asm:asm,9.7.1,9.8,4,4,compile,test,omitted_conflict
+spring-cloud__spring-cloud-openfeign,spring-cloud-openfeign-core,com.google.code.gson:gson,2.13.2,2.13.1,3,3,test,test,version_managed
+spring-cloud__spring-cloud-openfeign,spring-cloud-openfeign-core,commons-codec:commons-codec,1.19.0,1.18.0,3,3,test,test,version_managed
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+spring-cloud-openfeign-core,204,,,,,,,,

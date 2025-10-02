@@ -1,0 +1,20 @@
+digraph yinwang0__pysonar2 {
+	"org.yinwang:pysonar:jar:2.1.3" -> "junit:junit:jar:4.13.1:test" ; 
+	"org.yinwang:pysonar:jar:2.1.3" -> "com.google.code.gson:gson:jar:2.8.9:compile" ; 
+	"org.yinwang:pysonar:jar:2.1.3" -> "org.jetbrains:annotations:jar:16.0.2:compile" ; 
+	"org.yinwang:pysonar:jar:2.1.3" -> "com.google.guava:guava:jar:32.1.3-jre:compile" ; 
+	"org.yinwang:pysonar:jar:2.1.3" -> "com.fasterxml.jackson.core:jackson-core:jar:2.19.1:compile" ; 
+	"org.yinwang:pysonar:jar:2.1.3" -> "com.fasterxml.jackson.core:jackson-annotations:jar:2.19.1:compile" ; 
+	"org.yinwang:pysonar:jar:2.1.3" -> "com.fasterxml.jackson.core:jackson-databind:jar:2.19.1:compile" ; 
+	"org.yinwang:pysonar:jar:2.1.3" -> "commons-io:commons-io:jar:2.15.1:compile" ; 
+	"org.yinwang:pysonar:jar:2.1.3" -> "org.apache.commons:commons-lang3:jar:3.14.0:compile" ; 
+	"junit:junit:jar:4.13.1:test" -> "org.hamcrest:hamcrest-core:jar:1.3:test" ; 
+	"com.google.guava:guava:jar:32.1.3-jre:compile" -> "com.google.guava:failureaccess:jar:1.0.1:compile" ; 
+	"com.google.guava:guava:jar:32.1.3-jre:compile" -> "com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:compile" ; 
+	"com.google.guava:guava:jar:32.1.3-jre:compile" -> "com.google.code.findbugs:jsr305:jar:3.0.2:compile" ; 
+	"com.google.guava:guava:jar:32.1.3-jre:compile" -> "org.checkerframework:checker-qual:jar:3.37.0:compile" ; 
+	"com.google.guava:guava:jar:32.1.3-jre:compile" -> "com.google.errorprone:error_prone_annotations:jar:2.21.1:compile" ; 
+	"com.google.guava:guava:jar:32.1.3-jre:compile" -> "com.google.j2objc:j2objc-annotations:jar:2.8:compile" ; 
+	"com.fasterxml.jackson.core:jackson-databind:jar:2.19.1:compile" -> "(com.fasterxml.jackson.core:jackson-annotations:jar:2.19.1:compile - omitted for duplicate)" ; 
+	"com.fasterxml.jackson.core:jackson-databind:jar:2.19.1:compile" -> "(com.fasterxml.jackson.core:jackson-core:jar:2.19.1:compile - omitted for duplicate)" ; 
+}

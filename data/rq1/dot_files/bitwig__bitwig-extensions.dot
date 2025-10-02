@@ -1,0 +1,3 @@
+digraph bitwig__bitwig-extensions {
+	"com.bitwig.extensions:bitwig-extensions:jar:1-SNAPSHOT" -> "com.bitwig:extension-api:jar:25:compile" ; 
+}

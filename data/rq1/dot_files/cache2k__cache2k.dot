@@ -1,0 +1,117 @@
+digraph cache2k-addon {
+	"org.cache2k:cache2k-addon:jar:2.8-SNAPSHOT" -> "org.cache2k:cache2k-api:jar:2.8-SNAPSHOT:compile" ; 
+	"org.cache2k:cache2k-addon:jar:2.8-SNAPSHOT" -> "org.cache2k:cache2k-core:jar:2.8-SNAPSHOT:test" ; 
+	"org.cache2k:cache2k-addon:jar:2.8-SNAPSHOT" -> "org.cache2k:cache2k-testing:jar:2.8-SNAPSHOT:test" ; 
+	"org.cache2k:cache2k-addon:jar:2.8-SNAPSHOT" -> "org.assertj:assertj-core:jar:3.17.2:test" ; 
+}
+digraph cache2k-api {
+	"org.cache2k:cache2k-api:jar:2.8-SNAPSHOT" -> "com.google.code.findbugs:jsr305:jar:3.0.2:provided" ; 
+	"org.cache2k:cache2k-api:jar:2.8-SNAPSHOT" -> "org.jetbrains.kotlin:kotlin-annotations-jvm:jar:1.6.0:provided" ; 
+}
+digraph cache2k-config {
+	"org.cache2k:cache2k-config:jar:2.8-SNAPSHOT" -> "org.cache2k:cache2k-api:jar:2.8-SNAPSHOT:compile" ; 
+	"org.cache2k:cache2k-config:jar:2.8-SNAPSHOT" -> "org.cache2k:cache2k-core:jar:2.8-SNAPSHOT:compile" ; 
+	"org.cache2k:cache2k-config:jar:2.8-SNAPSHOT" -> "org.cache2k:cache2k-testing:jar:2.8-SNAPSHOT:test" ; 
+	"org.cache2k:cache2k-config:jar:2.8-SNAPSHOT" -> "org.cache2k:cache2k-schema:jar:2.8-SNAPSHOT:test" ; 
+	"org.cache2k:cache2k-config:jar:2.8-SNAPSHOT" -> "org.hamcrest:hamcrest-all:jar:1.3:test" ; 
+	"org.cache2k:cache2k-config:jar:2.8-SNAPSHOT" -> "org.assertj:assertj-core:jar:3.17.2:test" ; 
+}
+digraph cache2k-core {
+	"org.cache2k:cache2k-core:jar:2.8-SNAPSHOT" -> "org.cache2k:cache2k-api:jar:2.8-SNAPSHOT:compile" ; 
+	"org.cache2k:cache2k-core:jar:2.8-SNAPSHOT" -> "org.slf4j:slf4j-api:jar:1.7.32:compile" ; 
+	"org.cache2k:cache2k-core:jar:2.8-SNAPSHOT" -> "org.slf4j:slf4j-simple:jar:1.7.32:test" ; 
+	"org.cache2k:cache2k-core:jar:2.8-SNAPSHOT" -> "org.cache2k:cache2k-testing:jar:2.8-SNAPSHOT:test" ; 
+	"org.cache2k:cache2k-core:jar:2.8-SNAPSHOT" -> "junit:junit:jar:4.13.2:test" ; 
+	"org.cache2k:cache2k-core:jar:2.8-SNAPSHOT" -> "net.jcip:jcip-annotations:jar:1.0:test" ; 
+	"org.cache2k:cache2k-core:jar:2.8-SNAPSHOT" -> "org.cache2k:cache2k-schema:jar:2.8-SNAPSHOT:test" ; 
+	"org.slf4j:slf4j-simple:jar:1.7.32:test" -> "(org.slf4j:slf4j-api:jar:1.7.32:test - omitted for duplicate)" ; 
+	"junit:junit:jar:4.13.2:test" -> "org.hamcrest:hamcrest-core:jar:1.3:test" ; 
+}
+digraph cache2k-jcache {
+	"org.cache2k:cache2k-jcache:jar:2.8-SNAPSHOT" -> "org.cache2k:cache2k-api:jar:2.8-SNAPSHOT:compile" ; 
+	"org.cache2k:cache2k-jcache:jar:2.8-SNAPSHOT" -> "org.cache2k:cache2k-core:jar:2.8-SNAPSHOT:compile" ; 
+	"org.cache2k:cache2k-jcache:jar:2.8-SNAPSHOT" -> "org.cache2k:cache2k-config:jar:2.8-SNAPSHOT:runtime" ; 
+	"org.cache2k:cache2k-jcache:jar:2.8-SNAPSHOT" -> "javax.cache:cache-api:jar:1.1.0:compile" ; 
+	"org.cache2k:cache2k-jcache:jar:2.8-SNAPSHOT" -> "org.cache2k:cache2k-testing:jar:2.8-SNAPSHOT:test" ; 
+	"org.cache2k:cache2k-jcache:jar:2.8-SNAPSHOT" -> "org.cache2k:cache2k-schema:jar:2.8-SNAPSHOT:test" ; 
+	"org.cache2k:cache2k-jcache:jar:2.8-SNAPSHOT" -> "org.cache2k:cache2k-addon:jar:2.8-SNAPSHOT:test" ; 
+}
+digraph cache2k-jmx {
+	"org.cache2k:cache2k-jmx:jar:2.8-SNAPSHOT" -> "org.cache2k:cache2k-api:jar:2.8-SNAPSHOT:compile" ; 
+	"org.cache2k:cache2k-jmx:jar:2.8-SNAPSHOT" -> "org.cache2k:cache2k-core:jar:2.8-SNAPSHOT:compile" ; 
+	"org.cache2k:cache2k-jmx:jar:2.8-SNAPSHOT" -> "org.cache2k:cache2k-testing:jar:2.8-SNAPSHOT:test" ; 
+}
+digraph cache2k-micrometer {
+	"org.cache2k:cache2k-micrometer:jar:2.8-SNAPSHOT" -> "org.cache2k:cache2k-api:jar:2.8-SNAPSHOT:compile" ; 
+	"org.cache2k:cache2k-micrometer:jar:2.8-SNAPSHOT" -> "org.cache2k:cache2k-core:jar:2.8-SNAPSHOT:compile" ; 
+	"org.cache2k:cache2k-micrometer:jar:2.8-SNAPSHOT" -> "io.micrometer:micrometer-core:jar:1.5.3:compile" ; 
+	"org.cache2k:cache2k-micrometer:jar:2.8-SNAPSHOT" -> "org.cache2k:cache2k-testing:jar:2.8-SNAPSHOT:test" ; 
+	"io.micrometer:micrometer-core:jar:1.5.3:compile" -> "org.hdrhistogram:HdrHistogram:jar:2.1.12:compile" ; 
+	"io.micrometer:micrometer-core:jar:1.5.3:compile" -> "org.latencyutils:LatencyUtils:jar:2.0.3:runtime" ; 
+}
+digraph cache2k-pinpoint {
+	"org.cache2k:cache2k-pinpoint:jar:2.8-SNAPSHOT" -> "org.assertj:assertj-core:jar:3.21.0:test" ; 
+	"org.cache2k:cache2k-pinpoint:jar:2.8-SNAPSHOT" -> "org.junit.jupiter:junit-jupiter-api:jar:5.8.2:test" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.8.2:test" -> "org.opentest4j:opentest4j:jar:1.2.0:test" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.8.2:test" -> "org.junit.platform:junit-platform-commons:jar:1.8.2:test" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.8.2:test" -> "org.apiguardian:apiguardian-api:jar:1.1.2:test" ; 
+	"org.junit.platform:junit-platform-commons:jar:1.8.2:test" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:test - omitted for duplicate)" ; 
+}
+digraph cache2k-schema {
+	"org.cache2k:cache2k-schema:jar:2.8-SNAPSHOT" -> "org.cache2k:cache2k-testing:jar:2.8-SNAPSHOT:test" ; 
+}
+digraph cache2k-spring {
+	"org.cache2k:cache2k-spring:jar:2.8-SNAPSHOT" -> "org.cache2k:cache2k-api:jar:2.8-SNAPSHOT:compile" ; 
+	"org.cache2k:cache2k-spring:jar:2.8-SNAPSHOT" -> "org.cache2k:cache2k-core:jar:2.8-SNAPSHOT:runtime" ; 
+	"org.cache2k:cache2k-spring:jar:2.8-SNAPSHOT" -> "org.springframework:spring-context:jar:5.3.18:provided" ; 
+	"org.cache2k:cache2k-spring:jar:2.8-SNAPSHOT" -> "org.springframework:spring-core:jar:5.3.18:provided (scope not updated to provided)" ; 
+	"org.cache2k:cache2k-spring:jar:2.8-SNAPSHOT" -> "org.cache2k:cache2k-testing:jar:2.8-SNAPSHOT:test" ; 
+	"org.springframework:spring-context:jar:5.3.18:provided" -> "org.springframework:spring-aop:jar:5.3.18:provided" ; 
+	"org.springframework:spring-context:jar:5.3.18:provided" -> "org.springframework:spring-beans:jar:5.3.18:provided" ; 
+	"org.springframework:spring-context:jar:5.3.18:provided" -> "(org.springframework:spring-core:jar:5.3.18:provided - omitted for duplicate)" ; 
+	"org.springframework:spring-context:jar:5.3.18:provided" -> "org.springframework:spring-expression:jar:5.3.18:provided" ; 
+	"org.springframework:spring-aop:jar:5.3.18:provided" -> "(org.springframework:spring-beans:jar:5.3.18:provided - omitted for duplicate)" ; 
+	"org.springframework:spring-aop:jar:5.3.18:provided" -> "(org.springframework:spring-core:jar:5.3.18:provided - omitted for duplicate)" ; 
+	"org.springframework:spring-beans:jar:5.3.18:provided" -> "(org.springframework:spring-core:jar:5.3.18:provided - omitted for duplicate)" ; 
+	"org.springframework:spring-expression:jar:5.3.18:provided" -> "(org.springframework:spring-core:jar:5.3.18:provided - omitted for duplicate)" ; 
+	"org.springframework:spring-core:jar:5.3.18:provided (scope not updated to provided)" -> "org.springframework:spring-jcl:jar:5.3.18:provided" ; 
+}
+digraph cache2k-testing {
+	"org.cache2k:cache2k-testing:jar:2.8-SNAPSHOT" -> "org.cache2k:cache2k-pinpoint:jar:2.8-SNAPSHOT:compile" ; 
+	"org.cache2k:cache2k-testing:jar:2.8-SNAPSHOT" -> "org.cache2k:cache2k-api:jar:2.8-SNAPSHOT:compile" ; 
+	"org.cache2k:cache2k-testing:jar:2.8-SNAPSHOT" -> "org.assertj:assertj-core:jar:3.21.0:compile" ; 
+	"org.cache2k:cache2k-testing:jar:2.8-SNAPSHOT" -> "org.junit.jupiter:junit-jupiter-api:jar:5.8.2:compile" ; 
+	"org.cache2k:cache2k-testing:jar:2.8-SNAPSHOT" -> "org.junit.jupiter:junit-jupiter-params:jar:5.8.2:compile" ; 
+	"org.cache2k:cache2k-testing:jar:2.8-SNAPSHOT" -> "org.mockito:mockito-core:jar:4.2.0:compile" ; 
+	"org.cache2k:cache2k-testing:jar:2.8-SNAPSHOT" -> "org.mockito:mockito-junit-jupiter:jar:4.2.0:compile" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.8.2:compile" -> "org.opentest4j:opentest4j:jar:1.2.0:compile" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.8.2:compile" -> "org.junit.platform:junit-platform-commons:jar:1.8.2:compile" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.8.2:compile" -> "org.apiguardian:apiguardian-api:jar:1.1.2:compile" ; 
+	"org.junit.platform:junit-platform-commons:jar:1.8.2:compile" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:compile - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-params:jar:5.8.2:compile" -> "(org.junit.jupiter:junit-jupiter-api:jar:5.8.2:compile - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-params:jar:5.8.2:compile" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:compile - omitted for duplicate)" ; 
+	"org.mockito:mockito-core:jar:4.2.0:compile" -> "net.bytebuddy:byte-buddy:jar:1.12.4:compile" ; 
+	"org.mockito:mockito-core:jar:4.2.0:compile" -> "net.bytebuddy:byte-buddy-agent:jar:1.12.4:compile" ; 
+	"org.mockito:mockito-core:jar:4.2.0:compile" -> "org.objenesis:objenesis:jar:3.2:runtime" ; 
+	"org.mockito:mockito-junit-jupiter:jar:4.2.0:compile" -> "(org.mockito:mockito-core:jar:4.2.0:compile - omitted for duplicate)" ; 
+	"org.mockito:mockito-junit-jupiter:jar:4.2.0:compile" -> "(org.junit.jupiter:junit-jupiter-api:jar:5.8.2:runtime - omitted for duplicate)" ; 
+}
+digraph cache2k-testsuite {
+	"org.cache2k:cache2k-testsuite:jar:2.8-SNAPSHOT" -> "org.cache2k:cache2k-api:jar:2.8-SNAPSHOT:compile" ; 
+	"org.cache2k:cache2k-testsuite:jar:2.8-SNAPSHOT" -> "org.cache2k:cache2k-core:jar:2.8-SNAPSHOT:runtime" ; 
+	"org.cache2k:cache2k-testsuite:jar:2.8-SNAPSHOT" -> "org.cache2k:cache2k-testing:jar:2.8-SNAPSHOT:compile" ; 
+	"org.cache2k:cache2k-testsuite:jar:2.8-SNAPSHOT" -> "com.google.guava:guava-testlib:jar:30.1.1-jre:compile" ; 
+	"com.google.guava:guava-testlib:jar:30.1.1-jre:compile" -> "com.google.code.findbugs:jsr305:jar:3.0.2:compile" ; 
+	"com.google.guava:guava-testlib:jar:30.1.1-jre:compile" -> "org.checkerframework:checker-qual:jar:3.8.0:compile" ; 
+	"com.google.guava:guava-testlib:jar:30.1.1-jre:compile" -> "com.google.errorprone:error_prone_annotations:jar:2.5.1:compile" ; 
+	"com.google.guava:guava-testlib:jar:30.1.1-jre:compile" -> "com.google.j2objc:j2objc-annotations:jar:1.3:compile" ; 
+	"com.google.guava:guava-testlib:jar:30.1.1-jre:compile" -> "com.google.guava:guava:jar:30.1.1-jre:compile" ; 
+	"com.google.guava:guava-testlib:jar:30.1.1-jre:compile" -> "junit:junit:jar:4.13.2:compile" ; 
+	"com.google.guava:guava:jar:30.1.1-jre:compile" -> "com.google.guava:failureaccess:jar:1.0.1:compile" ; 
+	"com.google.guava:guava:jar:30.1.1-jre:compile" -> "com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:compile" ; 
+	"com.google.guava:guava:jar:30.1.1-jre:compile" -> "(com.google.code.findbugs:jsr305:jar:3.0.2:compile - omitted for duplicate)" ; 
+	"com.google.guava:guava:jar:30.1.1-jre:compile" -> "(org.checkerframework:checker-qual:jar:3.8.0:compile - omitted for duplicate)" ; 
+	"com.google.guava:guava:jar:30.1.1-jre:compile" -> "(com.google.errorprone:error_prone_annotations:jar:2.5.1:compile - omitted for duplicate)" ; 
+	"com.google.guava:guava:jar:30.1.1-jre:compile" -> "(com.google.j2objc:j2objc-annotations:jar:1.3:compile - omitted for duplicate)" ; 
+	"junit:junit:jar:4.13.2:compile" -> "org.hamcrest:hamcrest-core:jar:1.3:compile" ; 
+}

@@ -1,0 +1,84 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+cucumber__cucumber-jvm,cucumber-cdi2,io.cucumber:query,13.6.0,"[13.5.0,14.0.0",3,3,compile ),compile ),version_managed
+cucumber__cucumber-jvm,cucumber-core,io.cucumber:query,13.6.0,"[13.5.0,14.0.0",2,2,compile ),compile ),version_managed
+cucumber__cucumber-jvm,cucumber-deltaspike,io.cucumber:query,13.6.0,"[13.5.0,14.0.0",3,3,compile ),compile ),version_managed
+cucumber__cucumber-jvm,cucumber-gherkin-messages,io.cucumber:messages,28.1.0,"[19.1.4,29.0.0",2,2,compile ),compile ),version_managed
+cucumber__cucumber-jvm,cucumber-guice,io.cucumber:query,13.6.0,"[13.5.0,14.0.0",3,3,compile ),compile ),version_managed
+cucumber__cucumber-jvm,cucumber-jakarta-cdi,io.cucumber:query,13.6.0,"[13.5.0,14.0.0",3,3,compile ),compile ),version_managed
+cucumber__cucumber-jvm,cucumber-jakarta-cdi,jakarta.enterprise:jakarta.enterprise.cdi-api,4.1.0,4.0.1,1,2,provided,test,omitted_conflict
+cucumber__cucumber-jvm,cucumber-jakarta-cdi,jakarta.annotation:jakarta.annotation-api,3.0.0,2.1.1,2,4,provided,test,omitted_conflict
+cucumber__cucumber-jvm,cucumber-jakarta-cdi,jakarta.el:jakarta.el-api,6.0.0,5.0.1,2,4,provided,test,omitted_conflict
+cucumber__cucumber-jvm,cucumber-jakarta-cdi,jakarta.interceptor:jakarta.interceptor-api,2.2.0,2.1.0,2,3,provided,test,omitted_conflict
+cucumber__cucumber-jvm,cucumber-jakarta-cdi,jakarta.enterprise:jakarta.enterprise.cdi-api,4.1.0,4.0.1,1,2,provided,test,omitted_conflict
+cucumber__cucumber-jvm,cucumber-jakarta-cdi,jakarta.enterprise:jakarta.enterprise.cdi-api,4.1.0,4.0.1,1,2,provided,test,omitted_conflict
+cucumber__cucumber-jvm,cucumber-jakarta-cdi,jakarta.interceptor:jakarta.interceptor-api,2.2.0,2.1.0,2,3,provided,test,omitted_conflict
+cucumber__cucumber-jvm,cucumber-jakarta-openejb,io.cucumber:query,13.6.0,"[13.5.0,14.0.0",3,3,compile ),compile ),version_managed
+cucumber__cucumber-jvm,cucumber-jakarta-openejb,com.sun.activation:jakarta.activation,1.2.1,2.0.1,2,3,provided,provided,omitted_conflict
+cucumber__cucumber-jvm,cucumber-jakarta-openejb,com.sun.activation:jakarta.activation,1.2.1,2.0.1,2,3,provided,provided,omitted_conflict
+cucumber__cucumber-jvm,cucumber-jakarta-openejb,com.sun.activation:jakarta.activation,1.2.1,2.0.1,2,3,provided,provided,omitted_conflict
+cucumber__cucumber-jvm,cucumber-jakarta-openejb,com.sun.activation:jakarta.activation,1.2.1,2.0.1,2,3,provided,provided,omitted_conflict
+cucumber__cucumber-jvm,cucumber-jakarta-openejb,org.apache.xbean:xbean-asm9-shaded,4.23,4.21,2,3,provided,provided,omitted_conflict
+cucumber__cucumber-jvm,cucumber-jakarta-openejb,org.apache.commons:commons-pool2,2.12.0,2.9.0,2,3,provided,provided,omitted_conflict
+cucumber__cucumber-jvm,cucumber-jakarta-openejb,org.apache.xbean:xbean-asm9-shaded,4.23,4.20,2,3,provided,provided,omitted_conflict
+cucumber__cucumber-jvm,cucumber-java,io.cucumber:query,13.6.0,"[13.5.0,14.0.0",3,3,compile ),compile ),version_managed
+cucumber__cucumber-jvm,cucumber-java8,io.cucumber:query,13.6.0,"[13.5.0,14.0.0",3,3,compile ),compile ),version_managed
+cucumber__cucumber-jvm,cucumber-junit,io.cucumber:query,13.6.0,"[13.5.0,14.0.0",3,3,compile ),compile ),version_managed
+cucumber__cucumber-jvm,cucumber-junit-platform-engine,io.cucumber:query,13.6.0,"[13.5.0,14.0.0",3,3,compile ),compile ),version_managed
+cucumber__cucumber-jvm,cucumber-openejb,io.cucumber:query,13.6.0,"[13.5.0,14.0.0",3,3,compile ),compile ),version_managed
+cucumber__cucumber-jvm,cucumber-openejb,com.sun.activation:jakarta.activation,1.2.1,1.2.2,2,4,provided,provided,omitted_conflict
+cucumber__cucumber-jvm,cucumber-openejb,com.sun.activation:jakarta.activation,1.2.1,1.2.2,2,4,provided,provided,omitted_conflict
+cucumber__cucumber-jvm,cucumber-openejb,org.apache.xbean:xbean-asm9-shaded,4.23,4.21,2,3,provided,provided,omitted_conflict
+cucumber__cucumber-jvm,cucumber-openejb,org.apache.commons:commons-pool2,2.11.1,2.9.0,2,3,provided,provided,omitted_conflict
+cucumber__cucumber-jvm,cucumber-openejb,org.apache.xbean:xbean-asm9-shaded,4.23,4.20,2,3,provided,provided,omitted_conflict
+cucumber__cucumber-jvm,cucumber-picocontainer,io.cucumber:query,13.6.0,"[13.5.0,14.0.0",3,3,compile ),compile ),version_managed
+cucumber__cucumber-jvm,cucumber-spring,io.cucumber:query,13.6.0,"[13.5.0,14.0.0",3,3,compile ),compile ),version_managed
+cucumber__cucumber-jvm,cucumber-testng,io.cucumber:query,13.6.0,"[13.5.0,14.0.0",3,3,compile ),compile ),version_managed
+cucumber__cucumber-jvm,calculator-java-cli,io.cucumber:query,13.6.0,"[13.5.0,14.0.0",4,4,test ),test ),version_managed
+cucumber__cucumber-jvm,calculator-java-junit4,io.cucumber:query,13.6.0,"[13.5.0,14.0.0",4,4,test ),test ),version_managed
+cucumber__cucumber-jvm,calculator-java-junit5,io.cucumber:query,13.6.0,"[13.5.0,14.0.0",4,4,test ),test ),version_managed
+cucumber__cucumber-jvm,calculator-java-junit5,org.junit.platform:junit-platform-engine,1.13.1,1.13.4,2,2,test,test,version_managed
+cucumber__cucumber-jvm,calculator-java-testng,io.cucumber:query,13.6.0,"[13.5.0,14.0.0",4,4,test ),test ),version_managed
+cucumber__cucumber-jvm,calculator-java8-cli,io.cucumber:query,13.6.0,"[13.5.0,14.0.0",4,4,test ),test ),version_managed
+cucumber__cucumber-jvm,spring-java-junit5,io.micrometer:micrometer-observation,1.15.0,1.14.7,3,3,compile,compile,version_managed
+cucumber__cucumber-jvm,spring-java-junit5,org.slf4j:slf4j-api,2.0.17,2.0.16,3,3,compile,compile,version_managed
+cucumber__cucumber-jvm,spring-java-junit5,org.jboss.logging:jboss-logging,3.6.1.Final,3.5.0.Final,3,3,runtime,runtime,version_managed
+cucumber__cucumber-jvm,spring-java-junit5,com.fasterxml:classmate,1.7.0,1.5.1,3,3,runtime,runtime,version_managed
+cucumber__cucumber-jvm,spring-java-junit5,net.bytebuddy:byte-buddy,1.17.5,1.15.11,3,3,runtime,runtime,version_managed
+cucumber__cucumber-jvm,spring-java-junit5,org.glassfish.jaxb:jaxb-runtime,4.0.5,4.0.2,3,3,runtime,runtime,version_managed
+cucumber__cucumber-jvm,spring-java-junit5,org.aspectj:aspectjweaver,1.9.24,1.9.22.1,3,3,compile,compile,version_managed
+cucumber__cucumber-jvm,spring-java-junit5,org.junit.jupiter:junit-jupiter,5.13.1,5.12.2,2,2,test,test,version_managed
+cucumber__cucumber-jvm,spring-java-junit5,net.bytebuddy:byte-buddy-agent,1.17.5,1.15.11,3,3,test,test,version_managed
+cucumber__cucumber-jvm,spring-java-junit5,io.cucumber:query,13.6.0,"[13.5.0,14.0.0",4,4,test ),test ),version_managed
+cucumber__cucumber-jvm,spring-java-junit5,org.junit.platform:junit-platform-engine,1.13.1,1.13.4,2,2,test,test,version_managed
+cucumber__cucumber-jvm,wicket-main,org.slf4j:slf4j-api,1.7.25,2.0.5,2,2,compile,compile,omitted_conflict
+cucumber__cucumber-jvm,wicket-main,org.slf4j:slf4j-api,1.7.25,2.0.4,2,2,compile,compile,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+cucumber-cdi2,51,,,,,,,,
+cucumber-core,61,,,,,,,,
+cucumber-deltaspike,51,,,,,,,,
+cucumber-gherkin,10,,,,,,,,
+cucumber-gherkin-messages,13,,,,,,,,
+cucumber-guice,48,,,,,,,,
+cucumber-jakarta-cdi,51,,,,,,,,
+cucumber-jakarta-openejb,84,,,,,,,,
+cucumber-java,41,,,,,,,,
+cucumber-java8,39,,,,,,,,
+cucumber-junit,34,,,,,,,,
+cucumber-junit-platform-engine,33,,,,,,,,
+cucumber-openejb,83,,,,,,,,
+cucumber-picocontainer,31,,,,,,,,
+cucumber-plugin,9,,,,,,,,
+cucumber-spring,48,,,,,,,,
+cucumber-testng,27,,,,,,,,
+datatable,25,,,,,,,,
+datatable-matchers,17,,,,,,,,
+docstring,13,,,,,,,,
+calculator-java-cli,23,,,,,,,,
+calculator-java-junit4,25,,,,,,,,
+calculator-java-junit5,36,,,,,,,,
+calculator-java-testng,24,,,,,,,,
+calculator-java8-cli,21,,,,,,,,
+spring-java-junit5,119,,,,,,,,
+wicket-main,32,,,,,,,,

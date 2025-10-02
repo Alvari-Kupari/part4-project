@@ -1,0 +1,16 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+kronotop__kronotop,kronotop,io.netty:netty-common,4.1.119.Final,4.1.118.Final,1,2,compile,compile,omitted_conflict
+kronotop__kronotop,kronotop,io.netty:netty-transport,4.1.119.Final,4.1.118.Final,1,2,compile,compile,omitted_conflict
+kronotop__kronotop,kronotop,io.netty:netty-common,4.1.119.Final,4.1.118.Final,1,2,compile,compile,omitted_conflict
+kronotop__kronotop,kronotop,io.netty:netty-resolver,4.1.119.Final,4.1.118.Final,2,3,compile,compile,omitted_conflict
+kronotop__kronotop,kronotop,io.netty:netty-buffer,4.1.119.Final,4.1.118.Final,2,3,compile,compile,omitted_conflict
+kronotop__kronotop,kronotop,io.netty:netty-transport,4.1.119.Final,4.1.118.Final,1,2,compile,compile,omitted_conflict
+kronotop__kronotop,kronotop,io.netty:netty-transport-native-unix-common,4.1.119.Final,4.1.118.Final,2,3,compile,compile,omitted_conflict
+kronotop__kronotop,kronotop,io.netty:netty-common,4.1.119.Final,4.1.118.Final,1,2,compile,compile,omitted_conflict
+kronotop__kronotop,kronotop,io.netty:netty-buffer,4.1.119.Final,4.1.118.Final,2,3,compile,compile,omitted_conflict
+kronotop__kronotop,kronotop,io.netty:netty-transport,4.1.119.Final,4.1.118.Final,1,2,compile,compile,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+kronotop,43,,,,,,,,
+kronotop-client,22,,,,,,,,

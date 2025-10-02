@@ -1,0 +1,15 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+xuxueli__xxl-mq,xxl-mq-admin,net.bytebuddy:byte-buddy,1.17.6,1.15.11,3,3,test,test,version_managed
+xuxueli__xxl-mq,xxl-mq-admin,net.bytebuddy:byte-buddy-agent,1.17.6,1.15.11,3,3,test,test,version_managed
+xuxueli__xxl-mq,xxl-mq-admin,org.springframework.boot:spring-boot-starter-jdbc,3.5.4,3.5.0,2,2,compile,compile,version_managed
+xuxueli__xxl-mq,xxl-mq-samples-springboot,io.micrometer:micrometer-observation,1.15.2,1.14.9,3,3,compile,compile,version_managed
+xuxueli__xxl-mq,xxl-mq-samples-springboot,org.slf4j:slf4j-api,2.0.17,2.0.11,3,3,compile,compile,version_managed
+xuxueli__xxl-mq,xxl-mq-samples-springboot,net.bytebuddy:byte-buddy,1.17.6,1.15.11,3,3,test,test,version_managed
+xuxueli__xxl-mq,xxl-mq-samples-springboot,net.bytebuddy:byte-buddy-agent,1.17.6,1.15.11,3,3,test,test,version_managed
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+xxl-mq-admin,93,,,,,,,,
+xxl-mq-core,21,,,,,,,,
+xxl-mq-samples-frameless,11,,,,,,,,
+xxl-mq-samples-springboot,68,,,,,,,,

@@ -1,0 +1,19 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+itwanger__paicoding,paicoding-api,org.springframework.boot:spring-boot-autoconfigure,2.7.1,2.5.3,2,2,provided,provided,version_managed
+itwanger__paicoding,paicoding-api,org.springframework.boot:spring-boot-starter-jdbc,2.7.1,2.5.3,2,2,provided,provided,version_managed
+itwanger__paicoding,paicoding-api,com.microsoft.sqlserver:mssql-jdbc,10.2.1.jre8,11.1.1.jre8-preview,6,6,provided,provided,version_managed
+itwanger__paicoding,paicoding-api,org.mybatis:mybatis,3.5.10,3.5.9,5,5,provided,provided,omitted_conflict
+itwanger__paicoding,paicoding-api,org.springframework.batch:spring-batch-infrastructure,4.3.6,4.3.4,5,5,provided,provided,version_managed
+itwanger__paicoding,paicoding-api,org.osgi:org.osgi.core,6.0.0,4.3.1,7,7,provided,provided,omitted_conflict
+itwanger__paicoding,paicoding-api,org.springframework:spring-webmvc,5.3.21,5.3.20,2,2,provided,provided,version_managed
+itwanger__paicoding,paicoding-api,javax.servlet:javax.servlet-api,4.0.1,3.1.0,2,2,provided,provided,version_managed
+itwanger__paicoding,paicoding-api,org.slf4j:slf4j-api,1.7.36,1.7.28,2,2,provided,provided,version_managed
+itwanger__paicoding,paicoding-api,jakarta.servlet:jakarta.servlet-api,4.0.4,6.0.0,3,3,provided,provided,version_managed
+itwanger__paicoding,paicoding-api,com.fasterxml:classmate,1.5.1,1.4.0,3,3,provided,provided,version_managed
+itwanger__paicoding,paicoding-api,org.mapstruct:mapstruct,1.4.2.Final,1.3.1.Final,3,3,provided,provided,version_managed
+itwanger__paicoding,paicoding-api,org.springframework:spring-webflux,5.3.21,5.2.2.RELEASE,3,3,provided,provided,version_managed
+itwanger__paicoding,paicoding-api,net.bytebuddy:byte-buddy,1.12.11,1.9.10,5,5,provided,provided,version_managed
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+paicoding-api,83,,,,,,,,

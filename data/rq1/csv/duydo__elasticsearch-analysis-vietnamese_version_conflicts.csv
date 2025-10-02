@@ -1,0 +1,7 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+duydo__elasticsearch-analysis-vietnamese,duydo__elasticsearch-analysis-vietnamese,org.apache.logging.log4j:log4j-api,2.17.2,2.19.0,1,2,test,provided,omitted_conflict
+duydo__elasticsearch-analysis-vietnamese,duydo__elasticsearch-analysis-vietnamese,org.apache.logging.log4j:log4j-core,2.17.2,2.19.0,1,2,test,provided,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+duydo__elasticsearch-analysis-vietnamese,68,,,,,,,,

@@ -1,0 +1,23 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+dschadow__Java-Web-Security,Ch05_AccessReferenceMaps,org.jboss.logging:jboss-logging,3.4.3.Final,3.3.2.Final,2,3,compile,compile,omitted_conflict
+dschadow__Java-Web-Security,Ch05_AccessReferenceMaps,org.slf4j:slf4j-api,2.0.16,2.0.17,2,2,compile,compile,omitted_conflict
+dschadow__Java-Web-Security,Ch06_SQLInjection,org.jboss.logging:jboss-logging,3.4.3.Final,3.3.2.Final,2,3,compile,compile,omitted_conflict
+dschadow__Java-Web-Security,Ch06_SQLInjection,org.slf4j:slf4j-api,2.0.16,2.0.17,2,2,compile,compile,omitted_conflict
+dschadow__Java-Web-Security,Ch06_XPathInjection,org.slf4j:slf4j-api,2.0.16,2.0.17,2,2,compile,compile,omitted_conflict
+dschadow__Java-Web-Security,Ch07_XSS,org.jboss.logging:jboss-logging,3.4.3.Final,3.3.2.Final,2,3,compile,compile,omitted_conflict
+dschadow__Java-Web-Security,Ch08_CSRF,org.slf4j:slf4j-api,2.0.16,2.0.17,2,2,compile,compile,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+Ch04_OutputEscapingJSF,3,,,,,,,,
+Ch04_OutputEscapingJSP,25,,,,,,,,
+Ch05_AccessReferenceMaps,34,,,,,,,,
+Ch05_HSTS,5,,,,,,,,
+Ch05_SessionFixation,5,,,,,,,,
+Ch06_SQLInjection,33,,,,,,,,
+Ch06_XPathInjection,16,,,,,,,,
+Ch07_CSP,5,,,,,,,,
+Ch07_XSS,24,,,,,,,,
+Ch07_XSSFilter,16,,,,,,,,
+Ch07_XSSJSF,3,,,,,,,,
+Ch08_CSRF,16,,,,,,,,

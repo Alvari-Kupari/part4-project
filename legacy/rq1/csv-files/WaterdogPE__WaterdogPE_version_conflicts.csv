@@ -1,0 +1,8 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+WaterdogPE__WaterdogPE,WaterdogPE__WaterdogPE,com.fasterxml.jackson.core:jackson-annotations,2.18.0,2.14.1,2,3,compile,compile,omitted_conflict
+WaterdogPE__WaterdogPE,WaterdogPE__WaterdogPE,org.yaml:snakeyaml,1.31,1.13,1,2,compile,compile,omitted_conflict
+WaterdogPE__WaterdogPE,WaterdogPE__WaterdogPE,org.slf4j:slf4j-api,1.7.25,1.7.36,2,3,compile,compile,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+WaterdogPE__WaterdogPE,55,,,,,,,,

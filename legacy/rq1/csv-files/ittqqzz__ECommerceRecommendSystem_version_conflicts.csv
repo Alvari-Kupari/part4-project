@@ -1,0 +1,15 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+ittqqzz__ECommerceRecommendSystem,businessServer,com.fasterxml.jackson.core:jackson-databind,2.8.6,2.9.6,1,2,compile,compile,omitted_conflict
+ittqqzz__ECommerceRecommendSystem,businessServer,org.slf4j:slf4j-api,1.7.22,1.7.25,1,2,compile,compile,omitted_conflict
+ittqqzz__ECommerceRecommendSystem,businessServer,org.slf4j:slf4j-api,1.7.22,1.7.25,1,2,compile,compile,omitted_conflict
+ittqqzz__ECommerceRecommendSystem,businessServer,org.slf4j:slf4j-api,1.7.22,1.7.2,1,3,compile,compile,omitted_conflict
+ittqqzz__ECommerceRecommendSystem,businessServer,org.slf4j:slf4j-api,1.7.22,1.7.25,1,2,compile,compile,omitted_conflict
+ittqqzz__ECommerceRecommendSystem,businessServer,org.slf4j:slf4j-api,1.7.22,1.6.1,1,3,compile,compile,omitted_conflict
+ittqqzz__ECommerceRecommendSystem,businessServer,org.slf4j:slf4j-api,1.7.22,1.6.1,1,3,compile,compile,omitted_conflict
+ittqqzz__ECommerceRecommendSystem,businessServer,net.sf.jopt-simple:jopt-simple,5.0.4,5.0.2,2,3,compile,compile,omitted_conflict
+ittqqzz__ECommerceRecommendSystem,businessServer,commons-logging:commons-logging,1.2,1.1.3,3,4,compile,compile,omitted_conflict
+ittqqzz__ECommerceRecommendSystem,businessServer,com.fasterxml.jackson.core:jackson-annotations,2.8.6,2.8.0,1,2,compile,compile,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+businessServer,84,,,,,,,,

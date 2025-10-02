@@ -1,0 +1,5 @@
+digraph niumoo__bing-wallpaper {
+	"com.wdbyte:bing-wallpaper:jar:1.0-SNAPSHOT" -> "com.alibaba:fastjson:jar:2.0.47:compile" ; 
+	"com.alibaba:fastjson:jar:2.0.47:compile" -> "com.alibaba.fastjson2:fastjson2-extension:jar:2.0.47:compile" ; 
+	"com.alibaba.fastjson2:fastjson2-extension:jar:2.0.47:compile" -> "com.alibaba.fastjson2:fastjson2:jar:2.0.47:compile" ; 
+}

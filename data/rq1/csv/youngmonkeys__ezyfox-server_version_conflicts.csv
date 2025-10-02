@@ -1,0 +1,10 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+ezyfox-server-boot,28,,,,,,,,
+ezyfox-server-core,28,,,,,,,,
+ezyfox-server-embedded,51,,,,,,,,
+ezyfox-server-nio,41,,,,,,,,
+ezyfox-server-niorunner,42,,,,,,,,
+ezyfox-server-support,31,,,,,,,,

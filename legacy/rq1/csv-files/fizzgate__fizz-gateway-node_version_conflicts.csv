@@ -1,0 +1,8 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+fizz-bootstrap,244,,,,,,,,
+fizz-common,111,,,,,,,,
+fizz-core,266,,,,,,,,
+fizz-plugin,264,,,,,,,,

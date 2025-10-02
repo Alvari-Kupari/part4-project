@@ -1,0 +1,17 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+Wikidata-Toolkit__Wikidata-Toolkit,wdtk-rdf,commons-io:commons-io,2.20.0,2.14.0,2,2,test,test,version_managed
+Wikidata-Toolkit__Wikidata-Toolkit,wdtk-rdf,com.fasterxml.jackson.core:jackson-annotations,2.19.2,2.13.5,3,3,compile,compile,version_managed
+Wikidata-Toolkit__Wikidata-Toolkit,wdtk-rdf,com.fasterxml.jackson.core:jackson-core,2.19.2,2.13.5,3,3,compile,compile,version_managed
+Wikidata-Toolkit__Wikidata-Toolkit,wdtk-rdf,com.fasterxml.jackson.core:jackson-databind,2.19.2,2.13.5,3,3,compile,compile,version_managed
+Wikidata-Toolkit__Wikidata-Toolkit,wdtk-wikibaseapi,org.jetbrains.kotlin:kotlin-stdlib,2.2.0,2.1.21,2,4,compile,compile,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+wdtk-datamodel,18,,,,,,,,
+wdtk-dumpfiles,14,,,,,,,,
+wdtk-examples,21,,,,,,,,
+wdtk-rdf,39,,,,,,,,
+wdtk-storage,10,,,,,,,,
+wdtk-testing,11,,,,,,,,
+wdtk-util,13,,,,,,,,
+wdtk-wikibaseapi,26,,,,,,,,

@@ -1,0 +1,8 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+SonarSource__sonar-scanner-cli,SonarSource__sonar-scanner-cli,org.jetbrains.kotlin:kotlin-stdlib,2.2.0,2.1.21,3,4,compile,compile,omitted_conflict
+SonarSource__sonar-scanner-cli,SonarSource__sonar-scanner-cli,org.apache.commons:commons-lang3,3.18.0,3.16.0,2,3,compile,compile,omitted_conflict
+SonarSource__sonar-scanner-cli,SonarSource__sonar-scanner-cli,net.bytebuddy:byte-buddy,1.15.11,1.17.5,2,2,test,test,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+SonarSource__sonar-scanner-cli,36,,,,,,,,

@@ -1,0 +1,12 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+neo4j__neo4j-java-driver,examples,org.apache.commons:commons-compress,1.28.0,1.21,2,2,test,test,version_managed
+neo4j__neo4j-java-driver,examples,org.slf4j:slf4j-api,2.1.0-alpha1,2.0.17,2,2,test,test,version_managed
+neo4j__neo4j-java-driver,examples,org.bouncycastle:bcprov-jdk18on,1.81,"[1.81,1.82",3,3,test ; scope managed from compile),test ; scope managed from compile),version_managed
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+benchkit-backend,24,,,,,,,,
+examples,40,,,,,,,,
+metrics,11,,,,,,,,
+micrometer,16,,,,,,,,
+testkit-backend,23,,,,,,,,

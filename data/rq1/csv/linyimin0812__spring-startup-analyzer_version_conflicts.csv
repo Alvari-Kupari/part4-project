@@ -1,0 +1,24 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+linyimin0812__spring-startup-analyzer,spring-async-bean-core,org.springframework:spring-core,5.2.21.RELEASE,5.3.31,2,2,provided,provided,omitted_conflict
+linyimin0812__spring-startup-analyzer,spring-async-bean-core,org.springframework:spring-context,5.2.21.RELEASE,5.3.31,1,2,provided,provided,omitted_conflict
+linyimin0812__spring-startup-analyzer,spring-async-bean-core,org.springframework:spring-core,5.2.21.RELEASE,4.3.19.RELEASE,2,2,provided,test,omitted_conflict
+linyimin0812__spring-startup-analyzer,spring-async-bean-starter,org.springframework.boot:spring-boot,2.5.15,2.3.5.RELEASE,2,2,provided,test,omitted_conflict
+linyimin0812__spring-startup-analyzer,spring-profiler-core,org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.5.31,2,4,compile,compile,omitted_conflict
+linyimin0812__spring-startup-analyzer,spring-profiler-core,org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.5.31,2,4,compile,compile,omitted_conflict
+linyimin0812__spring-startup-analyzer,spring-profiler-core,org.jetbrains.kotlin:kotlin-stdlib-common,1.5.31,1.6.20,3,3,compile,compile,omitted_conflict
+linyimin0812__spring-startup-analyzer,spring-profiler-core,com.squareup.okio:okio-jvm,3.0.0,3.4.0,2,2,compile,compile,omitted_conflict
+linyimin0812__spring-startup-analyzer,spring-profiler-extension,org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.5.31,2,4,compile,compile,omitted_conflict
+linyimin0812__spring-startup-analyzer,spring-profiler-extension,org.jetbrains.kotlin:kotlin-stdlib,1.6.20,1.5.31,2,4,compile,compile,omitted_conflict
+linyimin0812__spring-startup-analyzer,spring-profiler-extension,org.jetbrains.kotlin:kotlin-stdlib-common,1.5.31,1.6.20,3,3,compile,compile,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+spring-async-bean-core,22,,,,,,,,
+spring-async-bean-starter,22,,,,,,,,
+spring-profiler-agent,8,,,,,,,,
+spring-profiler-api,9,,,,,,,,
+spring-profiler-bridge,8,,,,,,,,
+spring-profiler-common,10,,,,,,,,
+spring-profiler-core,29,,,,,,,,
+spring-profiler-extension,31,,,,,,,,
+spring-startup-cli,16,,,,,,,,

@@ -1,0 +1,15 @@
+digraph git-moss__ConvertWithMoss {
+	"de.mossgrabers:convertwithmoss:jar:14.1.0" -> "org.openjfx:javafx-controls:jar:24.0.1:compile" ; 
+	"de.mossgrabers:convertwithmoss:jar:14.1.0" -> "com.github.trilarion:java-vorbis-support:jar:1.2.1:compile" ; 
+	"de.mossgrabers:convertwithmoss:jar:14.1.0" -> "com.tianscar.javasound:javasound-flac:jar:1.4.1:compile" ; 
+	"de.mossgrabers:convertwithmoss:jar:14.1.0" -> "info.picocli:picocli:jar:4.7.7:compile" ; 
+	"de.mossgrabers:convertwithmoss:jar:14.1.0" -> "de.mossgrabers:uitools:jar:1.6.3:compile" ; 
+	"org.openjfx:javafx-controls:jar:24.0.1:compile" -> "org.openjfx:javafx-controls:jar:win:24.0.1:compile" ; 
+	"org.openjfx:javafx-controls:jar:24.0.1:compile" -> "org.openjfx:javafx-graphics:jar:24.0.1:compile" ; 
+	"org.openjfx:javafx-controls:jar:win:24.0.1:compile" -> "(org.openjfx:javafx-graphics:jar:24.0.1:compile - omitted for duplicate)" ; 
+	"org.openjfx:javafx-graphics:jar:24.0.1:compile" -> "org.openjfx:javafx-graphics:jar:win:24.0.1:compile" ; 
+	"org.openjfx:javafx-graphics:jar:24.0.1:compile" -> "org.openjfx:javafx-base:jar:24.0.1:compile" ; 
+	"org.openjfx:javafx-graphics:jar:win:24.0.1:compile" -> "(org.openjfx:javafx-base:jar:24.0.1:compile - omitted for duplicate)" ; 
+	"org.openjfx:javafx-base:jar:24.0.1:compile" -> "org.openjfx:javafx-base:jar:win:24.0.1:compile" ; 
+	"de.mossgrabers:uitools:jar:1.6.3:compile" -> "(org.openjfx:javafx-controls:jar:24.0.1:compile - omitted for duplicate)" ; 
+}

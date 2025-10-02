@@ -1,0 +1,14 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+spring-guides__gs-rest-service,complete,io.micrometer:micrometer-observation,1.15.1,1.14.8,3,3,compile,compile,version_managed
+spring-guides__gs-rest-service,complete,org.slf4j:slf4j-api,2.0.17,2.0.11,3,3,compile,compile,version_managed
+spring-guides__gs-rest-service,complete,net.bytebuddy:byte-buddy,1.17.6,1.15.11,3,3,test,test,version_managed
+spring-guides__gs-rest-service,complete,net.bytebuddy:byte-buddy-agent,1.17.6,1.15.11,3,3,test,test,version_managed
+spring-guides__gs-rest-service,initial,io.micrometer:micrometer-observation,1.15.1,1.14.8,3,3,compile,compile,version_managed
+spring-guides__gs-rest-service,initial,org.slf4j:slf4j-api,2.0.17,2.0.11,3,3,compile,compile,version_managed
+spring-guides__gs-rest-service,initial,net.bytebuddy:byte-buddy,1.17.6,1.15.11,3,3,test,test,version_managed
+spring-guides__gs-rest-service,initial,net.bytebuddy:byte-buddy-agent,1.17.6,1.15.11,3,3,test,test,version_managed
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+complete,64,,,,,,,,
+initial,64,,,,,,,,

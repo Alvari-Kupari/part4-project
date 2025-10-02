@@ -1,0 +1,10 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+Widdit__now-playing-service,Widdit__now-playing-service,net.minidev:json-smart,2.4.8,2.4.7,3,3,test,test,version_managed
+Widdit__now-playing-service,Widdit__now-playing-service,net.bytebuddy:byte-buddy,1.11.22,1.11.19,3,3,test,test,version_managed
+Widdit__now-playing-service,Widdit__now-playing-service,net.bytebuddy:byte-buddy-agent,1.11.22,1.11.19,3,3,test,test,version_managed
+Widdit__now-playing-service,Widdit__now-playing-service,org.apache.httpcomponents:httpcore,4.4.15,4.4.13,2,2,compile,compile,version_managed
+Widdit__now-playing-service,Widdit__now-playing-service,org.slf4j:slf4j-api,1.7.36,1.7.32,2,2,compile,compile,version_managed
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+Widdit__now-playing-service,78,,,,,,,,

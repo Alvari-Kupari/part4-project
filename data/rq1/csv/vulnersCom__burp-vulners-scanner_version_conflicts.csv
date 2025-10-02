@@ -1,0 +1,6 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+vulnersCom__burp-vulners-scanner,vulnersCom__burp-vulners-scanner,org.apache.commons:commons-lang3,3.6,3.1,2,3,compile,compile,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+vulnersCom__burp-vulners-scanner,22,,,,,,,,

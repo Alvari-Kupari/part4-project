@@ -1,0 +1,9 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+tulskiy__jkeymaster,dbus,org.slf4j:slf4j-api,1.7.13,1.7.25,1,2,compile,compile,omitted_conflict
+tulskiy__jkeymaster,dbus,org.slf4j:slf4j-api,1.7.13,1.7.25,1,2,compile,compile,omitted_conflict
+tulskiy__jkeymaster,dbus,org.slf4j:slf4j-api,1.7.13,1.7.25,1,2,compile,compile,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+core,7,,,,,,,,
+dbus,11,,,,,,,,

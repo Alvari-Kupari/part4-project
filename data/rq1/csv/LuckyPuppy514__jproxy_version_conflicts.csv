@@ -1,0 +1,27 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+LuckyPuppy514__jproxy,LuckyPuppy514__jproxy,net.minidev:json-smart,2.4.10,2.4.7,3,3,test,test,version_managed
+LuckyPuppy514__jproxy,LuckyPuppy514__jproxy,org.slf4j:slf4j-api,2.0.7,1.7.33,3,3,compile,compile,version_managed
+LuckyPuppy514__jproxy,LuckyPuppy514__jproxy,jakarta.activation:jakarta.activation-api,2.1.1,2.1.0,3,3,compile,compile,version_managed
+LuckyPuppy514__jproxy,LuckyPuppy514__jproxy,net.bytebuddy:byte-buddy,1.12.23,1.12.10,3,3,test,test,version_managed
+LuckyPuppy514__jproxy,LuckyPuppy514__jproxy,net.bytebuddy:byte-buddy-agent,1.12.23,1.12.16,3,3,test,test,version_managed
+LuckyPuppy514__jproxy,LuckyPuppy514__jproxy,io.micrometer:micrometer-observation,1.10.5,1.10.4,3,3,compile,compile,version_managed
+LuckyPuppy514__jproxy,LuckyPuppy514__jproxy,org.jboss.logging:jboss-logging,3.5.0.Final,3.4.1.Final,3,3,compile,compile,version_managed
+LuckyPuppy514__jproxy,LuckyPuppy514__jproxy,org.jboss.logging:jboss-logging-annotations,2.2.1.Final,2.2.0.Final,3,6,provided,provided,omitted_conflict
+LuckyPuppy514__jproxy,LuckyPuppy514__jproxy,org.jboss.logging:jboss-logging-processor,2.2.1.Final,2.2.0.Final,3,6,provided,provided,omitted_conflict
+LuckyPuppy514__jproxy,LuckyPuppy514__jproxy,com.fasterxml.jackson.core:jackson-databind,2.14.2,2.13.4.2,2,2,compile,compile,version_managed
+LuckyPuppy514__jproxy,LuckyPuppy514__jproxy,org.projectlombok:lombok,1.18.26,1.18.24,3,3,compile,compile,version_managed
+LuckyPuppy514__jproxy,LuckyPuppy514__jproxy,org.jetbrains.kotlin:kotlin-stdlib-jdk8,1.7.22,1.7.21,3,3,provided,provided,version_managed
+LuckyPuppy514__jproxy,LuckyPuppy514__jproxy,ch.qos.logback:logback-classic,1.4.6,1.4.4,4,4,provided,provided,version_managed
+LuckyPuppy514__jproxy,LuckyPuppy514__jproxy,ch.qos.logback:logback-core,1.4.6,1.4.4,4,4,provided,provided,version_managed
+LuckyPuppy514__jproxy,LuckyPuppy514__jproxy,com.fasterxml.jackson.dataformat:jackson-dataformat-yaml,2.14.2,2.14.0,4,4,compile,compile,version_managed
+LuckyPuppy514__jproxy,LuckyPuppy514__jproxy,io.projectreactor:reactor-core,3.5.4,3.4.1,4,4,compile,compile,version_managed
+LuckyPuppy514__jproxy,LuckyPuppy514__jproxy,org.springframework:spring-webflux,6.0.7,6.0.2,4,4,compile,compile,version_managed
+LuckyPuppy514__jproxy,LuckyPuppy514__jproxy,org.springframework.boot:spring-boot-starter-jdbc,3.0.5,2.5.3,2,2,compile,compile,version_managed
+LuckyPuppy514__jproxy,LuckyPuppy514__jproxy,com.microsoft.sqlserver:mssql-jdbc,11.2.3.jre17,11.1.1.jre8-preview,6,6,provided,provided,version_managed
+LuckyPuppy514__jproxy,LuckyPuppy514__jproxy,org.mybatis:mybatis,3.5.10,3.5.9,5,5,compile,provided,omitted_conflict
+LuckyPuppy514__jproxy,LuckyPuppy514__jproxy,org.springframework.batch:spring-batch-infrastructure,5.0.1,4.3.4,5,5,provided,provided,version_managed
+LuckyPuppy514__jproxy,LuckyPuppy514__jproxy,org.springframework.retry:spring-retry,2.0.1,2.0.0,6,6,provided,provided,version_managed
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+LuckyPuppy514__jproxy,149,,,,,,,,

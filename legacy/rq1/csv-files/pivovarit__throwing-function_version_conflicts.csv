@@ -1,0 +1,9 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+pivovarit__throwing-function,pivovarit__throwing-function,org.slf4j:slf4j-api,2.0.16,2.0.12,2,3,test,test,omitted_conflict
+pivovarit__throwing-function,pivovarit__throwing-function,com.tngtech.archunit:archunit,1.3.0,1.0.0,2,2,test,test,omitted_conflict
+pivovarit__throwing-function,pivovarit__throwing-function,com.tngtech.archunit:archunit-junit5-api,1.3.0,1.0.0,1,2,test,test,omitted_conflict
+pivovarit__throwing-function,pivovarit__throwing-function,org.junit.platform:junit-platform-engine,1.11.0,1.9.1,2,3,test,test,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+pivovarit__throwing-function,16,,,,,,,,

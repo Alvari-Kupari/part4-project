@@ -1,0 +1,13 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+spring-cloud-zuul-ratelimit-core,196,,,,,,,,
+bucket4j-hazelcast,134,,,,,,,,
+bucket4j-ignite,136,,,,,,,,
+bucket4j-infinispan,144,,,,,,,,
+bucket4j-jcache,136,,,,,,,,
+consul,158,,,,,,,,
+redis,145,,,,,,,,
+security-context,149,,,,,,,,
+springdata,153,,,,,,,,

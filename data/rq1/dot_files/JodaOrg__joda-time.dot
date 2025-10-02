@@ -1,0 +1,4 @@
+digraph JodaOrg__joda-time {
+	"joda-time:joda-time:jar:2.14.0" -> "org.joda:joda-convert:jar:1.9.2:compile" ; 
+	"joda-time:joda-time:jar:2.14.0" -> "junit:junit:jar:3.8.2:test" ; 
+}

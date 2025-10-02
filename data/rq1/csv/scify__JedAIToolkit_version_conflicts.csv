@@ -1,0 +1,15 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+scify__JedAIToolkit,scify__JedAIToolkit,org.apache.commons:commons-lang3,3.18.0,3.11,1,2,compile,compile,omitted_conflict
+scify__JedAIToolkit,scify__JedAIToolkit,org.slf4j:slf4j-api,1.7.20,1.7.30,2,3,compile,compile,omitted_conflict
+scify__JedAIToolkit,scify__JedAIToolkit,org.apache.commons:commons-lang3,3.18.0,3.11,1,2,compile,compile,omitted_conflict
+scify__JedAIToolkit,scify__JedAIToolkit,org.apache.commons:commons-compress,1.6,1.20,2,4,compile,compile,omitted_conflict
+scify__JedAIToolkit,scify__JedAIToolkit,org.slf4j:slf4j-api,1.7.20,1.7.25,2,3,compile,compile,omitted_conflict
+scify__JedAIToolkit,scify__JedAIToolkit,org.apache.httpcomponents:httpclient,4.5.13,4.5.6,2,3,compile,compile,omitted_conflict
+scify__JedAIToolkit,scify__JedAIToolkit,org.slf4j:slf4j-api,1.7.20,1.7.30,2,3,compile,compile,omitted_conflict
+scify__JedAIToolkit,scify__JedAIToolkit,org.apache.jena:jena-arq,3.17.0,3.1.0,1,4,compile,compile,omitted_conflict
+scify__JedAIToolkit,scify__JedAIToolkit,org.apache.commons:commons-lang3,3.18.0,3.3.2,1,2,compile,compile,omitted_conflict
+scify__JedAIToolkit,scify__JedAIToolkit,org.apache.jena:jena-arq,3.17.0,2.11.0,1,2,compile,compile,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+scify__JedAIToolkit,63,,,,,,,,

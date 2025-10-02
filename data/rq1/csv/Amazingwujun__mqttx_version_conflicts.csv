@@ -1,0 +1,15 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+Amazingwujun__mqttx,Amazingwujun__mqttx,javax.xml.bind:jaxb-api,2.3.1,2.2.11,4,4,provided,provided,version_managed
+Amazingwujun__mqttx,Amazingwujun__mqttx,io.projectreactor:reactor-core,3.4.31,3.3.22.RELEASE,4,4,compile,compile,version_managed
+Amazingwujun__mqttx,Amazingwujun__mqttx,org.springframework:spring-context,5.3.29,5.3.24,2,2,compile,compile,version_managed
+Amazingwujun__mqttx,Amazingwujun__mqttx,org.springframework:spring-messaging,5.3.29,5.3.24,2,2,compile,compile,version_managed
+Amazingwujun__mqttx,Amazingwujun__mqttx,org.springframework:spring-tx,5.3.29,5.3.24,2,2,compile,compile,version_managed
+Amazingwujun__mqttx,Amazingwujun__mqttx,org.apache.kafka:kafka-clients,3.1.2,3.0.2,2,2,compile,compile,version_managed
+Amazingwujun__mqttx,Amazingwujun__mqttx,org.osgi:org.osgi.core,4.3.0,4.3.1,4,6,runtime,provided,omitted_conflict
+Amazingwujun__mqttx,Amazingwujun__mqttx,net.minidev:json-smart,2.4.11,2.4.7,3,3,test,test,version_managed
+Amazingwujun__mqttx,Amazingwujun__mqttx,net.bytebuddy:byte-buddy,1.12.23,1.12.9,3,3,test,test,version_managed
+Amazingwujun__mqttx,Amazingwujun__mqttx,net.bytebuddy:byte-buddy-agent,1.12.23,1.12.9,3,3,test,test,version_managed
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+Amazingwujun__mqttx,116,,,,,,,,

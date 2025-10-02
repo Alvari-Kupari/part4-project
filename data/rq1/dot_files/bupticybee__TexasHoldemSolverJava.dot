@@ -1,0 +1,16 @@
+digraph bupticybee__TexasHoldemSolverJava {
+	"icybee.riversolver:riversolver:jar:1.0-SNAPSHOT" -> "junit:junit:jar:4.11:test (scope not updated to compile)" ; 
+	"icybee.riversolver:riversolver:jar:1.0-SNAPSHOT" -> "org.yaml:snakeyaml:jar:1.17:compile" ; 
+	"icybee.riversolver:riversolver:jar:1.0-SNAPSHOT" -> "com.googlecode.json-simple:json-simple:jar:1.1.1:compile" ; 
+	"icybee.riversolver:riversolver:jar:1.0-SNAPSHOT" -> "me.tongfei:progressbar:jar:0.5.5:compile" ; 
+	"icybee.riversolver:riversolver:jar:1.0-SNAPSHOT" -> "com.github.dpaukov:combinatoricslib3:jar:3.3.0:compile" ; 
+	"icybee.riversolver:riversolver:jar:1.0-SNAPSHOT" -> "com.fasterxml.jackson.core:jackson-databind:jar:2.9.8:compile" ; 
+	"icybee.riversolver:riversolver:jar:1.0-SNAPSHOT" -> "org.apache.commons:commons-lang3:jar:3.9:compile" ; 
+	"icybee.riversolver:riversolver:jar:1.0-SNAPSHOT" -> "com.alibaba:fastjson:jar:1.2.47:compile" ; 
+	"icybee.riversolver:riversolver:jar:1.0-SNAPSHOT" -> "net.sourceforge.argparse4j:argparse4j:jar:0.8.1:compile" ; 
+	"junit:junit:jar:4.11:test (scope not updated to compile)" -> "org.hamcrest:hamcrest-core:jar:1.3:test" ; 
+	"com.googlecode.json-simple:json-simple:jar:1.1.1:compile" -> "(junit:junit:jar:4.10:compile - omitted for conflict with 4.11)" ; 
+	"me.tongfei:progressbar:jar:0.5.5:compile" -> "jline:jline:jar:2.12:compile" ; 
+	"com.fasterxml.jackson.core:jackson-databind:jar:2.9.8:compile" -> "com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile" ; 
+	"com.fasterxml.jackson.core:jackson-databind:jar:2.9.8:compile" -> "com.fasterxml.jackson.core:jackson-core:jar:2.9.8:compile" ; 
+}

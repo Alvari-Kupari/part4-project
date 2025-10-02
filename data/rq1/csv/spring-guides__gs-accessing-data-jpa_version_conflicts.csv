@@ -1,0 +1,19 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+spring-guides__gs-accessing-data-jpa,complete,org.jboss.logging:jboss-logging,3.6.1.Final,3.5.0.Final,3,3,runtime,runtime,version_managed
+spring-guides__gs-accessing-data-jpa,complete,com.fasterxml:classmate,1.7.0,1.5.1,3,3,runtime,runtime,version_managed
+spring-guides__gs-accessing-data-jpa,complete,org.glassfish.jaxb:jaxb-runtime,4.0.5,4.0.2,3,3,runtime,runtime,version_managed
+spring-guides__gs-accessing-data-jpa,complete,org.slf4j:slf4j-api,2.0.16,2.0.2,3,3,compile,compile,version_managed
+spring-guides__gs-accessing-data-jpa,complete,net.bytebuddy:byte-buddy-agent,1.15.11,1.15.4,3,3,test,test,version_managed
+spring-guides__gs-accessing-data-jpa,initial,org.jboss.logging:jboss-logging,3.6.1.Final,3.5.0.Final,3,3,runtime,runtime,version_managed
+spring-guides__gs-accessing-data-jpa,initial,com.fasterxml:classmate,1.7.0,1.5.1,3,3,runtime,runtime,version_managed
+spring-guides__gs-accessing-data-jpa,initial,net.bytebuddy:byte-buddy,1.17.6,1.15.11,3,3,runtime,runtime,version_managed
+spring-guides__gs-accessing-data-jpa,initial,org.glassfish.jaxb:jaxb-runtime,4.0.5,4.0.2,3,3,runtime,runtime,version_managed
+spring-guides__gs-accessing-data-jpa,initial,org.slf4j:slf4j-api,2.0.17,2.0.2,3,3,compile,compile,version_managed
+spring-guides__gs-accessing-data-jpa,initial,io.micrometer:micrometer-observation,1.15.1,1.14.8,4,4,compile,compile,version_managed
+spring-guides__gs-accessing-data-jpa,initial,org.aspectj:aspectjweaver,1.9.24,1.9.22.1,3,3,compile,compile,version_managed
+spring-guides__gs-accessing-data-jpa,initial,net.bytebuddy:byte-buddy-agent,1.17.6,1.15.11,3,3,test,test,version_managed
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+complete,75,,,,,,,,
+initial,75,,,,,,,,

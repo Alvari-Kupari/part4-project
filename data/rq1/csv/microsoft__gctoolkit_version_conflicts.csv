@@ -1,0 +1,9 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+api,7,,,,,,,,
+IT,25,,,,,,,,
+parser,8,,,,,,,,
+sample,25,,,,,,,,
+vertx,23,,,,,,,,

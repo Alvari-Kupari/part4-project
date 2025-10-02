@@ -1,0 +1,12 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+jmh-core,5,,,,,,,,
+jmh-core-benchmarks,5,,,,,,,,
+jmh-core-it,5,,,,,,,,
+jmh-generator-annprocess,2,,,,,,,,
+jmh-generator-asm,4,,,,,,,,
+jmh-generator-bytecode,4,,,,,,,,
+jmh-generator-reflection,2,,,,,,,,
+jmh-samples,3,,,,,,,,

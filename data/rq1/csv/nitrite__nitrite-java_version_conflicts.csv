@@ -1,0 +1,13 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+nitrite__nitrite-java,nitrite,org.apache.commons:commons-lang3,3.14.0,3.5,2,2,test,test,omitted_conflict
+nitrite__nitrite-java,nitrite-mvstore-adapter,org.apache.commons:commons-lang3,3.14.0,3.5,2,2,test,test,omitted_conflict
+nitrite__nitrite-java,nitrite-rocksdb-adapter,org.apache.commons:commons-lang3,3.14.0,3.5,2,2,test,test,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+nitrite,36,,,,,,,,
+nitrite-jackson-mapper,25,,,,,,,,
+nitrite-mvstore-adapter,44,,,,,,,,
+nitrite-rocksdb-adapter,45,,,,,,,,
+nitrite-spatial,17,,,,,,,,
+nitrite-support,24,,,,,,,,

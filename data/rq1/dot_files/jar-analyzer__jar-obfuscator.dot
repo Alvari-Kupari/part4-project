@@ -1,0 +1,9 @@
+digraph jar-analyzer__jar-obfuscator {
+	"me.n1ar4.jar.obfuscator:jar-obfuscator:jar:2.0.0-RC3" -> "org.ow2.asm:asm:jar:9.8:compile" ; 
+	"me.n1ar4.jar.obfuscator:jar-obfuscator:jar:2.0.0-RC3" -> "org.ow2.asm:asm-commons:jar:9.8:compile" ; 
+	"me.n1ar4.jar.obfuscator:jar-obfuscator:jar:2.0.0-RC3" -> "com.beust:jcommander:jar:1.82:compile" ; 
+	"me.n1ar4.jar.obfuscator:jar-obfuscator:jar:2.0.0-RC3" -> "org.yaml:snakeyaml:jar:2.4:compile" ; 
+	"org.ow2.asm:asm-commons:jar:9.8:compile" -> "(org.ow2.asm:asm:jar:9.8:compile - omitted for duplicate)" ; 
+	"org.ow2.asm:asm-commons:jar:9.8:compile" -> "org.ow2.asm:asm-tree:jar:9.8:compile" ; 
+	"org.ow2.asm:asm-tree:jar:9.8:compile" -> "(org.ow2.asm:asm:jar:9.8:compile - omitted for duplicate)" ; 
+}

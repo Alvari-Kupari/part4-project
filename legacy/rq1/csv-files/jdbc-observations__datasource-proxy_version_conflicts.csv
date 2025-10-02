@@ -1,0 +1,6 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+jdbc-observations__datasource-proxy,jdbc-observations__datasource-proxy,org.slf4j:slf4j-api,1.7.12,1.7.22,1,2,compile,test,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+jdbc-observations__datasource-proxy,27,,,,,,,,

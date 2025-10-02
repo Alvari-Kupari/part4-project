@@ -1,0 +1,8 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+vlife-admin,149,,,,,,,,
+vlife-base,103,,,,,,,,
+vlife-boot-starter-web,92,,,,,,,,
+vlife-core,83,,,,,,,,

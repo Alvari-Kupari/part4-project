@@ -1,0 +1,14 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+OPCFoundation__UA-Java-Legacy,OPCFoundation__UA-Java-Legacy,org.apache.httpcomponents:httpcore,4.4.13,4.4.10,2,2,compile,compile,omitted_conflict
+OPCFoundation__UA-Java-Legacy,basic,org.apache.httpcomponents:httpcore,4.4.13,4.4.4,2,2,compile,compile,omitted_conflict
+OPCFoundation__UA-Java-Legacy,publisher,org.apache.httpcomponents:httpcore,4.4.13,4.4.4,2,2,compile,compile,omitted_conflict
+OPCFoundation__UA-Java-Legacy,publisher,commons-codec:commons-codec,1.11,1.10,2,2,compile,compile,omitted_conflict
+OPCFoundation__UA-Java-Legacy,graveyard,org.apache.httpcomponents:httpcore,4.4.13,4.4.4,2,2,compile,compile,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+OPCFoundation__UA-Java-Legacy,20,,,,,,,,
+codegen,10,,,,,,,,
+basic,13,,,,,,,,
+publisher,17,,,,,,,,
+graveyard,9,,,,,,,,

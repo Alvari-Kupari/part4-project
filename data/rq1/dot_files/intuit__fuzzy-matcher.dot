@@ -1,0 +1,22 @@
+digraph intuit__fuzzy-matcher {
+	"com.intuit.fuzzymatcher:fuzzy-matcher:jar:1.0.0-SNAPSHOT" -> "org.apache.commons:commons-lang3:jar:3.11:compile" ; 
+	"com.intuit.fuzzymatcher:fuzzy-matcher:jar:1.0.0-SNAPSHOT" -> "org.apache.commons:commons-text:jar:1.10.0:compile" ; 
+	"com.intuit.fuzzymatcher:fuzzy-matcher:jar:1.0.0-SNAPSHOT" -> "org.apache.commons:commons-collections4:jar:4.4:compile" ; 
+	"com.intuit.fuzzymatcher:fuzzy-matcher:jar:1.0.0-SNAPSHOT" -> "org.apache.commons:commons-math3:jar:3.6.1:test" ; 
+	"com.intuit.fuzzymatcher:fuzzy-matcher:jar:1.0.0-SNAPSHOT" -> "org.slf4j:slf4j-api:jar:1.7.32:compile" ; 
+	"com.intuit.fuzzymatcher:fuzzy-matcher:jar:1.0.0-SNAPSHOT" -> "org.slf4j:slf4j-simple:jar:1.7.32:compile" ; 
+	"com.intuit.fuzzymatcher:fuzzy-matcher:jar:1.0.0-SNAPSHOT" -> "commons-codec:commons-codec:jar:1.15:compile" ; 
+	"com.intuit.fuzzymatcher:fuzzy-matcher:jar:1.0.0-SNAPSHOT" -> "org.apache.lucene:lucene-core:jar:8.10.0:compile" ; 
+	"com.intuit.fuzzymatcher:fuzzy-matcher:jar:1.0.0-SNAPSHOT" -> "org.apache.lucene:lucene-analyzers-common:jar:8.10.0:compile" ; 
+	"com.intuit.fuzzymatcher:fuzzy-matcher:jar:1.0.0-SNAPSHOT" -> "junit:junit:jar:4.13.2:test" ; 
+	"com.intuit.fuzzymatcher:fuzzy-matcher:jar:1.0.0-SNAPSHOT" -> "org.mockito:mockito-all:jar:1.10.19:test" ; 
+	"com.intuit.fuzzymatcher:fuzzy-matcher:jar:1.0.0-SNAPSHOT" -> "com.opencsv:opencsv:jar:3.8:test" ; 
+	"org.apache.commons:commons-text:jar:1.10.0:compile" -> "(org.apache.commons:commons-lang3:jar:3.12.0:compile - omitted for conflict with 3.11)" ; 
+	"org.slf4j:slf4j-simple:jar:1.7.32:compile" -> "(org.slf4j:slf4j-api:jar:1.7.32:compile - omitted for duplicate)" ; 
+	"org.apache.lucene:lucene-analyzers-common:jar:8.10.0:compile" -> "(org.apache.lucene:lucene-core:jar:8.10.0:compile - omitted for duplicate)" ; 
+	"junit:junit:jar:4.13.2:test" -> "org.hamcrest:hamcrest-core:jar:1.3:test" ; 
+	"com.opencsv:opencsv:jar:3.8:test" -> "(org.apache.commons:commons-lang3:jar:3.4:test - omitted for conflict with 3.11)" ; 
+	"com.opencsv:opencsv:jar:3.8:test" -> "commons-beanutils:commons-beanutils:jar:1.9.2:test" ; 
+	"commons-beanutils:commons-beanutils:jar:1.9.2:test" -> "commons-logging:commons-logging:jar:1.1.1:test" ; 
+	"commons-beanutils:commons-beanutils:jar:1.9.2:test" -> "commons-collections:commons-collections:jar:3.2.1:test" ; 
+}

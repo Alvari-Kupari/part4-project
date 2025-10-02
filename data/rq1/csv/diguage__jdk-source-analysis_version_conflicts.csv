@@ -1,0 +1,9 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+diguage__jdk-source-analysis,diguage__jdk-source-analysis,org.jetbrains.kotlin:kotlin-stdlib-jdk8,1.8.21,1.9.10,2,4,compile,compile,omitted_conflict
+diguage__jdk-source-analysis,diguage__jdk-source-analysis,org.jetbrains.kotlin:kotlin-stdlib-common,1.9.10,1.8.21,4,4,compile,compile,omitted_conflict
+diguage__jdk-source-analysis,diguage__jdk-source-analysis,com.google.errorprone:error_prone_annotations,2.27.0,2.26.1,2,2,compile,compile,omitted_conflict
+diguage__jdk-source-analysis,diguage__jdk-source-analysis,org.openjdk.jmh:jmh-core,1.37,1.25.2,1,2,compile,compile,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+diguage__jdk-source-analysis,72,,,,,,,,

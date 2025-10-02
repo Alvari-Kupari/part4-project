@@ -1,0 +1,153 @@
+digraph anomaly_detection {
+	"com.markwatson:anomaly_detection:jar:1.0-SNAPSHOT" -> "junit:junit:jar:4.13.1:test" ; 
+	"com.markwatson:anomaly_detection:jar:1.0-SNAPSHOT" -> "org.slf4j:slf4j-api:jar:1.7.12:compile" ; 
+	"com.markwatson:anomaly_detection:jar:1.0-SNAPSHOT" -> "commons-io:commons-io:jar:1.3.2:compile" ; 
+	"junit:junit:jar:4.13.1:test" -> "org.hamcrest:hamcrest-core:jar:1.3:test" ; 
+}
+digraph gemini-llm-client {
+	"com.markwatson.gemini:gemini-client-example:jar:1.0-SNAPSHOT" -> "junit:junit:jar:3.8.1:test" ; 
+	"com.markwatson.gemini:gemini-client-example:jar:1.0-SNAPSHOT" -> "org.json:json:jar:20240303:compile" ; 
+}
+digraph genetic-algorithms {
+}
+digraph info_gathering {
+	"com.markwatson:web_scraper:jar:1.0-SNAPSHOT" -> "junit:junit:jar:4.13.1:test" ; 
+	"com.markwatson:web_scraper:jar:1.0-SNAPSHOT" -> "org.jsoup:jsoup:jar:1.15.3:compile" ; 
+	"com.markwatson:web_scraper:jar:1.0-SNAPSHOT" -> "org.apache.httpcomponents:httpclient:jar:4.5.13:compile" ; 
+	"com.markwatson:web_scraper:jar:1.0-SNAPSHOT" -> "net.htmlparser.jericho:jericho-html:jar:3.4:compile" ; 
+	"com.markwatson:web_scraper:jar:1.0-SNAPSHOT" -> "org.jdom:jdom:jar:1.1.3:compile" ; 
+	"junit:junit:jar:4.13.1:test" -> "org.hamcrest:hamcrest-core:jar:1.3:test" ; 
+	"org.apache.httpcomponents:httpclient:jar:4.5.13:compile" -> "org.apache.httpcomponents:httpcore:jar:4.4.13:compile" ; 
+	"org.apache.httpcomponents:httpclient:jar:4.5.13:compile" -> "commons-logging:commons-logging:jar:1.2:compile" ; 
+	"org.apache.httpcomponents:httpclient:jar:4.5.13:compile" -> "commons-codec:commons-codec:jar:1.11:compile" ; 
+}
+digraph kgc {
+	"com.knowledgegraphcreator:kgcreator:jar:1.0-SNAPSHOT" -> "org.apache.opennlp:opennlp-tools:jar:2.3.2:compile" ; 
+	"com.knowledgegraphcreator:kgcreator:jar:1.0-SNAPSHOT" -> "com.markwatson:nerdbpedia:jar:1.2-SNAPSHOT:compile" ; 
+	"com.knowledgegraphcreator:kgcreator:jar:1.0-SNAPSHOT" -> "junit:junit:jar:4.13.1:test" ; 
+	"org.apache.opennlp:opennlp-tools:jar:2.3.2:compile" -> "org.slf4j:slf4j-api:jar:1.7.36:compile" ; 
+	"junit:junit:jar:4.13.1:test" -> "org.hamcrest:hamcrest-core:jar:1.3:test" ; 
+}
+digraph langchain4j-ollama {
+	"com.markwatson.langchain4j:langchain4j-llm-client:jar:1.0-SNAPSHOT" -> "dev.langchain4j:langchain4j:jar:0.30.0:compile" ; 
+	"com.markwatson.langchain4j:langchain4j-llm-client:jar:1.0-SNAPSHOT" -> "dev.langchain4j:langchain4j-open-ai:jar:0.30.0:compile" ; 
+	"com.markwatson.langchain4j:langchain4j-llm-client:jar:1.0-SNAPSHOT" -> "junit:junit:jar:3.8.1:test" ; 
+	"com.markwatson.langchain4j:langchain4j-llm-client:jar:1.0-SNAPSHOT" -> "org.json:json:jar:20240303:compile" ; 
+	"dev.langchain4j:langchain4j:jar:0.30.0:compile" -> "dev.langchain4j:langchain4j-core:jar:0.30.0:compile" ; 
+	"dev.langchain4j:langchain4j:jar:0.30.0:compile" -> "com.squareup.retrofit2:retrofit:jar:2.9.0:compile" ; 
+	"dev.langchain4j:langchain4j:jar:0.30.0:compile" -> "com.squareup.okhttp3:okhttp:jar:4.12.0:compile" ; 
+	"dev.langchain4j:langchain4j:jar:0.30.0:compile" -> "org.apache.opennlp:opennlp-tools:jar:1.9.4:compile" ; 
+	"dev.langchain4j:langchain4j:jar:0.30.0:compile" -> "org.jsoup:jsoup:jar:1.16.1:compile" ; 
+	"dev.langchain4j:langchain4j:jar:0.30.0:compile" -> "org.slf4j:slf4j-api:jar:2.0.7:compile" ; 
+	"dev.langchain4j:langchain4j-core:jar:0.30.0:compile" -> "com.google.code.gson:gson:jar:2.10.1:compile" ; 
+	"dev.langchain4j:langchain4j-core:jar:0.30.0:compile" -> "(org.slf4j:slf4j-api:jar:2.0.7:compile - omitted for duplicate)" ; 
+	"com.squareup.retrofit2:retrofit:jar:2.9.0:compile" -> "(com.squareup.okhttp3:okhttp:jar:3.14.9:compile - omitted for conflict with 4.12.0)" ; 
+	"com.squareup.okhttp3:okhttp:jar:4.12.0:compile" -> "com.squareup.okio:okio:jar:3.6.0:compile" ; 
+	"com.squareup.okhttp3:okhttp:jar:4.12.0:compile" -> "org.jetbrains.kotlin:kotlin-stdlib-jdk8:jar:1.8.21:compile" ; 
+	"com.squareup.okio:okio:jar:3.6.0:compile" -> "com.squareup.okio:okio-jvm:jar:3.6.0:compile" ; 
+	"com.squareup.okio:okio-jvm:jar:3.6.0:compile" -> "(org.jetbrains.kotlin:kotlin-stdlib-jdk8:jar:1.9.10:compile - omitted for conflict with 1.8.21)" ; 
+	"com.squareup.okio:okio-jvm:jar:3.6.0:compile" -> "org.jetbrains.kotlin:kotlin-stdlib-common:jar:1.9.10:compile" ; 
+	"org.jetbrains.kotlin:kotlin-stdlib-jdk8:jar:1.8.21:compile" -> "org.jetbrains.kotlin:kotlin-stdlib:jar:1.8.21:compile" ; 
+	"org.jetbrains.kotlin:kotlin-stdlib-jdk8:jar:1.8.21:compile" -> "org.jetbrains.kotlin:kotlin-stdlib-jdk7:jar:1.8.21:compile" ; 
+	"org.jetbrains.kotlin:kotlin-stdlib:jar:1.8.21:compile" -> "(org.jetbrains.kotlin:kotlin-stdlib-common:jar:1.8.21:compile - omitted for conflict with 1.9.10)" ; 
+	"org.jetbrains.kotlin:kotlin-stdlib:jar:1.8.21:compile" -> "org.jetbrains:annotations:jar:13.0:compile" ; 
+	"org.jetbrains.kotlin:kotlin-stdlib-jdk7:jar:1.8.21:compile" -> "(org.jetbrains.kotlin:kotlin-stdlib:jar:1.8.21:compile - omitted for duplicate)" ; 
+	"dev.langchain4j:langchain4j-open-ai:jar:0.30.0:compile" -> "(dev.langchain4j:langchain4j-core:jar:0.30.0:compile - omitted for duplicate)" ; 
+	"dev.langchain4j:langchain4j-open-ai:jar:0.30.0:compile" -> "dev.ai4j:openai4j:jar:0.17.0:compile" ; 
+	"dev.langchain4j:langchain4j-open-ai:jar:0.30.0:compile" -> "com.knuddels:jtokkit:jar:1.0.0:compile" ; 
+	"dev.ai4j:openai4j:jar:0.17.0:compile" -> "(com.squareup.retrofit2:retrofit:jar:2.9.0:compile - omitted for duplicate)" ; 
+	"dev.ai4j:openai4j:jar:0.17.0:compile" -> "com.squareup.retrofit2:converter-gson:jar:2.9.0:compile" ; 
+	"dev.ai4j:openai4j:jar:0.17.0:compile" -> "(com.google.code.gson:gson:jar:2.8.9:compile - omitted for conflict with 2.10.1)" ; 
+	"dev.ai4j:openai4j:jar:0.17.0:compile" -> "(com.squareup.okhttp3:okhttp:jar:4.12.0:compile - omitted for duplicate)" ; 
+	"dev.ai4j:openai4j:jar:0.17.0:compile" -> "com.squareup.okhttp3:okhttp-sse:jar:4.12.0:compile" ; 
+	"dev.ai4j:openai4j:jar:0.17.0:compile" -> "(org.slf4j:slf4j-api:jar:2.0.7:compile - omitted for duplicate)" ; 
+	"com.squareup.retrofit2:converter-gson:jar:2.9.0:compile" -> "(com.squareup.retrofit2:retrofit:jar:2.9.0:compile - omitted for duplicate)" ; 
+	"com.squareup.okhttp3:okhttp-sse:jar:4.12.0:compile" -> "(com.squareup.okhttp3:okhttp:jar:4.12.0:compile - omitted for duplicate)" ; 
+	"com.squareup.okhttp3:okhttp-sse:jar:4.12.0:compile" -> "(org.jetbrains.kotlin:kotlin-stdlib-jdk8:jar:1.8.21:compile - omitted for duplicate)" ; 
+}
+digraph ner_dbpedia {
+	"com.markwatson:nerdbpedia:jar:1.2-SNAPSHOT" -> "junit:junit:jar:4.13.1:test" ; 
+	"junit:junit:jar:4.13.1:test" -> "org.hamcrest:hamcrest-core:jar:1.3:test" ; 
+}
+digraph neuralnetworks {
+	"NeuralNetworksFromScratch:neuralnetworks:jar:1.0-SNAPSHOT" -> "junit:junit:jar:4.13.1:test" ; 
+	"junit:junit:jar:4.13.1:test" -> "org.hamcrest:hamcrest-core:jar:1.3:test" ; 
+}
+digraph nlp {
+	"MarkWatsonNlpLib:nlplib:jar:1.0-SNAPSHOT" -> "junit:junit:jar:4.13.1:test" ; 
+	"junit:junit:jar:4.13.1:test" -> "org.hamcrest:hamcrest-core:jar:1.3:test" ; 
+}
+digraph ollama-llm-client {
+	"com.markwatson.openai:ollama-llm-client:jar:1.0-SNAPSHOT" -> "junit:junit:jar:3.8.1:test" ; 
+	"com.markwatson.openai:ollama-llm-client:jar:1.0-SNAPSHOT" -> "org.json:json:jar:20240303:compile" ; 
+}
+digraph openai-llm-client {
+	"com.markwatson.openai:openai-client-example:jar:1.0-SNAPSHOT" -> "junit:junit:jar:3.8.1:test" ; 
+	"com.markwatson.openai:openai-client-example:jar:1.0-SNAPSHOT" -> "org.json:json:jar:20240303:compile" ; 
+}
+digraph search {
+	"com.markwatson:search_examples:jar:1.0-SNAPSHOT" -> "junit:junit:jar:4.13.1:test" ; 
+	"com.markwatson:search_examples:jar:1.0-SNAPSHOT" -> "org.slf4j:slf4j-api:jar:1.7.12:compile" ; 
+	"com.markwatson:search_examples:jar:1.0-SNAPSHOT" -> "commons-io:commons-io:jar:1.3.2:compile" ; 
+	"junit:junit:jar:4.13.1:test" -> "org.hamcrest:hamcrest-core:jar:1.3:test" ; 
+}
+digraph semantic_web_apache_jena {
+	"com.markwatson:semanticweb:jar:1.0.3-SNAPSHOT" -> "org.apache.jena:apache-jena-libs:pom:3.17.0:compile" ; 
+	"com.markwatson:semanticweb:jar:1.0.3-SNAPSHOT" -> "org.apache.derby:derby:jar:10.17.1.0:compile" ; 
+	"com.markwatson:semanticweb:jar:1.0.3-SNAPSHOT" -> "org.apache.derby:derbytools:jar:10.15.2.0:compile" ; 
+	"com.markwatson:semanticweb:jar:1.0.3-SNAPSHOT" -> "org.apache.derby:derbyclient:jar:10.15.2.0:compile" ; 
+	"com.markwatson:semanticweb:jar:1.0.3-SNAPSHOT" -> "commons-io:commons-io:jar:2.14.0:compile" ; 
+	"com.markwatson:semanticweb:jar:1.0.3-SNAPSHOT" -> "junit:junit:jar:4.13.1:test" ; 
+	"com.markwatson:semanticweb:jar:1.0.3-SNAPSHOT" -> "org.slf4j:slf4j-api:jar:1.7.30:compile" ; 
+	"com.markwatson:semanticweb:jar:1.0.3-SNAPSHOT" -> "org.slf4j:slf4j-log4j12:jar:1.7.30:test" ; 
+	"org.apache.jena:apache-jena-libs:pom:3.17.0:compile" -> "org.apache.jena:jena-shacl:jar:3.17.0:compile" ; 
+	"org.apache.jena:apache-jena-libs:pom:3.17.0:compile" -> "org.apache.jena:jena-tdb:jar:3.17.0:compile" ; 
+	"org.apache.jena:apache-jena-libs:pom:3.17.0:compile" -> "org.apache.jena:jena-tdb2:jar:3.17.0:compile" ; 
+	"org.apache.jena:apache-jena-libs:pom:3.17.0:compile" -> "org.apache.jena:jena-rdfconnection:jar:3.17.0:compile" ; 
+	"org.apache.jena:jena-shacl:jar:3.17.0:compile" -> "org.apache.jena:jena-arq:jar:3.17.0:compile" ; 
+	"org.apache.jena:jena-arq:jar:3.17.0:compile" -> "org.apache.jena:jena-core:jar:3.17.0:compile" ; 
+	"org.apache.jena:jena-arq:jar:3.17.0:compile" -> "org.apache.httpcomponents:httpclient:jar:4.5.13:compile" ; 
+	"org.apache.jena:jena-arq:jar:3.17.0:compile" -> "com.github.jsonld-java:jsonld-java:jar:0.13.2:compile" ; 
+	"org.apache.jena:jena-arq:jar:3.17.0:compile" -> "com.fasterxml.jackson.core:jackson-core:jar:2.11.3:compile" ; 
+	"org.apache.jena:jena-arq:jar:3.17.0:compile" -> "com.fasterxml.jackson.core:jackson-databind:jar:2.11.3:compile" ; 
+	"org.apache.jena:jena-arq:jar:3.17.0:compile" -> "org.apache.httpcomponents:httpclient-cache:jar:4.5.13:compile" ; 
+	"org.apache.jena:jena-arq:jar:3.17.0:compile" -> "org.apache.thrift:libthrift:jar:0.13.0:compile" ; 
+	"org.apache.jena:jena-arq:jar:3.17.0:compile" -> "org.slf4j:jcl-over-slf4j:jar:1.7.30:compile" ; 
+	"org.apache.jena:jena-arq:jar:3.17.0:compile" -> "org.apache.commons:commons-lang3:jar:3.11:compile" ; 
+	"org.apache.jena:jena-core:jar:3.17.0:compile" -> "org.apache.jena:jena-base:jar:3.17.0:compile" ; 
+	"org.apache.jena:jena-core:jar:3.17.0:compile" -> "org.apache.jena:jena-iri:jar:3.17.0:compile" ; 
+	"org.apache.jena:jena-core:jar:3.17.0:compile" -> "commons-cli:commons-cli:jar:1.4:compile" ; 
+	"org.apache.jena:jena-base:jar:3.17.0:compile" -> "(org.slf4j:slf4j-api:jar:1.7.30:compile - omitted for duplicate)" ; 
+	"org.apache.jena:jena-base:jar:3.17.0:compile" -> "org.apache.jena:jena-shaded-guava:jar:3.17.0:compile" ; 
+	"org.apache.jena:jena-base:jar:3.17.0:compile" -> "org.apache.commons:commons-csv:jar:1.8:compile" ; 
+	"org.apache.jena:jena-base:jar:3.17.0:compile" -> "(commons-io:commons-io:jar:2.8.0:compile - omitted for conflict with 2.14.0)" ; 
+	"org.apache.jena:jena-base:jar:3.17.0:compile" -> "(org.apache.commons:commons-lang3:jar:3.11:compile - omitted for duplicate)" ; 
+	"org.apache.jena:jena-base:jar:3.17.0:compile" -> "commons-codec:commons-codec:jar:1.15:compile" ; 
+	"org.apache.jena:jena-base:jar:3.17.0:compile" -> "org.apache.commons:commons-compress:jar:1.20:compile" ; 
+	"org.apache.jena:jena-base:jar:3.17.0:compile" -> "com.github.andrewoma.dexx:collection:jar:0.7:compile" ; 
+	"org.apache.httpcomponents:httpclient:jar:4.5.13:compile" -> "org.apache.httpcomponents:httpcore:jar:4.4.13:compile" ; 
+	"com.github.jsonld-java:jsonld-java:jar:0.13.2:compile" -> "(org.slf4j:jcl-over-slf4j:jar:1.7.30:runtime - omitted for duplicate)" ; 
+	"com.github.jsonld-java:jsonld-java:jar:0.13.2:compile" -> "(commons-io:commons-io:jar:2.8.0:compile - omitted for conflict with 2.14.0)" ; 
+	"com.fasterxml.jackson.core:jackson-databind:jar:2.11.3:compile" -> "com.fasterxml.jackson.core:jackson-annotations:jar:2.11.3:compile" ; 
+	"com.fasterxml.jackson.core:jackson-databind:jar:2.11.3:compile" -> "(com.fasterxml.jackson.core:jackson-core:jar:2.11.3:compile - omitted for duplicate)" ; 
+	"org.apache.httpcomponents:httpclient-cache:jar:4.5.13:compile" -> "(org.apache.httpcomponents:httpclient:jar:4.5.13:compile - omitted for duplicate)" ; 
+	"org.apache.thrift:libthrift:jar:0.13.0:compile" -> "(org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for conflict with 1.7.30)" ; 
+	"org.apache.thrift:libthrift:jar:0.13.0:compile" -> "(org.apache.httpcomponents:httpclient:jar:4.5.6:compile - omitted for conflict with 4.5.13)" ; 
+	"org.apache.thrift:libthrift:jar:0.13.0:compile" -> "javax.annotation:javax.annotation-api:jar:1.3.2:compile" ; 
+	"org.slf4j:jcl-over-slf4j:jar:1.7.30:compile" -> "(org.slf4j:slf4j-api:jar:1.7.30:compile - omitted for duplicate)" ; 
+	"org.apache.jena:jena-tdb:jar:3.17.0:compile" -> "(org.apache.jena:jena-arq:jar:3.17.0:compile - omitted for duplicate)" ; 
+	"org.apache.jena:jena-tdb2:jar:3.17.0:compile" -> "org.apache.jena:jena-dboe-storage:jar:3.17.0:compile" ; 
+	"org.apache.jena:jena-dboe-storage:jar:3.17.0:compile" -> "org.apache.jena:jena-dboe-trans-data:jar:3.17.0:compile" ; 
+	"org.apache.jena:jena-dboe-trans-data:jar:3.17.0:compile" -> "org.apache.jena:jena-dboe-transaction:jar:3.17.0:compile" ; 
+	"org.apache.jena:jena-dboe-trans-data:jar:3.17.0:compile" -> "org.apache.jena:jena-dboe-index:jar:3.17.0:compile" ; 
+	"org.apache.jena:jena-dboe-transaction:jar:3.17.0:compile" -> "org.apache.jena:jena-dboe-base:jar:3.17.0:compile" ; 
+	"org.apache.jena:jena-dboe-base:jar:3.17.0:compile" -> "(org.apache.jena:jena-arq:jar:3.17.0:compile - omitted for duplicate)" ; 
+	"org.apache.jena:jena-dboe-index:jar:3.17.0:compile" -> "(org.apache.jena:jena-dboe-base:jar:3.17.0:compile - omitted for duplicate)" ; 
+	"org.apache.jena:jena-rdfconnection:jar:3.17.0:compile" -> "(org.apache.jena:jena-arq:jar:3.17.0:compile - omitted for duplicate)" ; 
+	"org.apache.derby:derby:jar:10.17.1.0:compile" -> "org.apache.derby:derbyshared:jar:10.17.1.0:compile" ; 
+	"org.apache.derby:derbytools:jar:10.15.2.0:compile" -> "(org.apache.derby:derbyshared:jar:10.15.2.0:compile - omitted for conflict with 10.17.1.0)" ; 
+	"org.apache.derby:derbyclient:jar:10.15.2.0:compile" -> "(org.apache.derby:derbyshared:jar:10.15.2.0:compile - omitted for conflict with 10.17.1.0)" ; 
+	"junit:junit:jar:4.13.1:test" -> "org.hamcrest:hamcrest-core:jar:1.3:test" ; 
+	"org.slf4j:slf4j-log4j12:jar:1.7.30:test" -> "(org.slf4j:slf4j-api:jar:1.7.30:test - omitted for duplicate)" ; 
+	"org.slf4j:slf4j-log4j12:jar:1.7.30:test" -> "log4j:log4j:jar:1.2.17:test" ; 
+}

@@ -1,0 +1,13 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+chocoteam__choco-solver,examples,org.glassfish:javax.json,1.1.2,1.0.4,3,3,compile,compile,omitted_conflict
+chocoteam__choco-solver,examples,org.slf4j:slf4j-api,1.7.36,2.0.5,3,2,compile,test,omitted_conflict
+chocoteam__choco-solver,parsers,org.glassfish:javax.json,1.1.2,1.0.4,2,2,compile,compile,omitted_conflict
+chocoteam__choco-solver,parsers,org.slf4j:slf4j-api,1.7.36,2.0.5,3,2,compile,test,omitted_conflict
+chocoteam__choco-solver,solver,org.slf4j:slf4j-api,1.7.36,2.0.5,2,2,compile,test,omitted_conflict
+chocoteam__choco-solver,solver,org.slf4j:slf4j-api,1.7.36,2.0.5,2,2,compile,test,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+examples,26,,,,,,,,
+parsers,25,,,,,,,,
+solver,13,,,,,,,,

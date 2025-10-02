@@ -1,0 +1,5 @@
+digraph amaembo__streamex {
+	"one.util:streamex:jar:0.9.0-SNAPSHOT" -> "org.jspecify:jspecify:jar:1.0.0:compile" ; 
+	"one.util:streamex:jar:0.9.0-SNAPSHOT" -> "junit:junit:jar:4.13.2:test" ; 
+	"junit:junit:jar:4.13.2:test" -> "org.hamcrest:hamcrest-core:jar:1.3:test" ; 
+}

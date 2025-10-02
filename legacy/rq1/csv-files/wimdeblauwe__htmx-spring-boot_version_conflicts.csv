@@ -1,0 +1,20 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+wimdeblauwe__htmx-spring-boot,htmx-spring-boot,io.micrometer:micrometer-observation,1.14.1,1.14.0,3,3,compile,compile,version_managed
+wimdeblauwe__htmx-spring-boot,htmx-spring-boot,org.slf4j:slf4j-api,2.0.16,2.0.11,3,3,compile,compile,version_managed
+wimdeblauwe__htmx-spring-boot,htmx-spring-boot,net.bytebuddy:byte-buddy,1.15.10,1.14.18,3,3,test,test,version_managed
+wimdeblauwe__htmx-spring-boot,htmx-spring-boot,net.bytebuddy:byte-buddy-agent,1.15.10,1.15.4,3,3,test,test,version_managed
+wimdeblauwe__htmx-spring-boot,htmx-spring-boot,org.apache.groovy:groovy,4.0.24,4.0.22,2,2,test,test,version_managed
+wimdeblauwe__htmx-spring-boot,htmx-spring-boot,org.apache.groovy:groovy-xml,4.0.24,4.0.22,2,2,test,test,version_managed
+wimdeblauwe__htmx-spring-boot,htmx-spring-boot,org.apache.httpcomponents:httpcore,4.4.16,4.4.13,3,3,test,test,version_managed
+wimdeblauwe__htmx-spring-boot,htmx-spring-boot,commons-codec:commons-codec,1.17.1,1.11,3,3,test,test,version_managed
+wimdeblauwe__htmx-spring-boot,htmx-spring-boot,org.apache.groovy:groovy-json,4.0.24,4.0.22,3,3,test,test,version_managed
+wimdeblauwe__htmx-spring-boot,htmx-spring-boot,org.apache.commons:commons-lang3,3.17.0,3.11,3,3,test,test,version_managed
+wimdeblauwe__htmx-spring-boot,htmx-spring-boot-thymeleaf,io.micrometer:micrometer-observation,1.14.1,1.14.0,3,3,compile,compile,version_managed
+wimdeblauwe__htmx-spring-boot,htmx-spring-boot-thymeleaf,org.slf4j:slf4j-api,2.0.16,2.0.7,3,3,compile,compile,version_managed
+wimdeblauwe__htmx-spring-boot,htmx-spring-boot-thymeleaf,net.bytebuddy:byte-buddy,1.15.10,1.14.18,3,3,test,test,version_managed
+wimdeblauwe__htmx-spring-boot,htmx-spring-boot-thymeleaf,net.bytebuddy:byte-buddy-agent,1.15.10,1.15.4,3,3,test,test,version_managed
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+htmx-spring-boot,91,,,,,,,,
+htmx-spring-boot-thymeleaf,77,,,,,,,,

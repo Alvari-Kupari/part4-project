@@ -1,0 +1,25 @@
+digraph installcert {
+	"com.github.kwart.jsign:installcert:jar:2.4.0-SNAPSHOT" -> "junit:junit:jar:4.13.2:test" ; 
+	"junit:junit:jar:4.13.2:test" -> "org.hamcrest:hamcrest-core:jar:1.3:test" ; 
+}
+digraph jsignpdf {
+	"com.github.kwart.jsign:jsignpdf:jar:2.4.0-SNAPSHOT" -> "com.github.librepdf:openpdf:jar:1.3.30:compile" ; 
+	"com.github.kwart.jsign:jsignpdf:jar:2.4.0-SNAPSHOT" -> "org.bouncycastle:bcprov-jdk15on:jar:1.70:compile" ; 
+	"com.github.kwart.jsign:jsignpdf:jar:2.4.0-SNAPSHOT" -> "org.bouncycastle:bcpkix-jdk15on:jar:1.70:compile" ; 
+	"com.github.kwart.jsign:jsignpdf:jar:2.4.0-SNAPSHOT" -> "org.apache.commons:commons-lang3:jar:3.12.0:compile" ; 
+	"com.github.kwart.jsign:jsignpdf:jar:2.4.0-SNAPSHOT" -> "commons-cli:commons-cli:jar:1.5.0:compile" ; 
+	"com.github.kwart.jsign:jsignpdf:jar:2.4.0-SNAPSHOT" -> "commons-io:commons-io:jar:2.18.0:compile" ; 
+	"com.github.kwart.jsign:jsignpdf:jar:2.4.0-SNAPSHOT" -> "com.github.rjolly:pdf-renderer:jar:140:compile" ; 
+	"com.github.kwart.jsign:jsignpdf:jar:2.4.0-SNAPSHOT" -> "org.apache.pdfbox:pdfbox:jar:2.0.27:compile" ; 
+	"com.github.kwart.jsign:jsignpdf:jar:2.4.0-SNAPSHOT" -> "com.github.kwart.jsign:jsign-jpedal:jar:4.92.13:compile" ; 
+	"com.github.kwart.jsign:jsignpdf:jar:2.4.0-SNAPSHOT" -> "com.github.kwart.jsign:jsign-pkcs11:jar:1.1.0:compile" ; 
+	"com.github.kwart.jsign:jsignpdf:jar:2.4.0-SNAPSHOT" -> "junit:junit:jar:4.13.2:test" ; 
+	"com.github.librepdf:openpdf:jar:1.3.30:compile" -> "com.google.code.findbugs:jsr305:jar:3.0.2:compile" ; 
+	"org.bouncycastle:bcpkix-jdk15on:jar:1.70:compile" -> "(org.bouncycastle:bcprov-jdk15on:jar:1.70:compile - version managed from 1.70; omitted for duplicate)" ; 
+	"org.bouncycastle:bcpkix-jdk15on:jar:1.70:compile" -> "org.bouncycastle:bcutil-jdk15on:jar:1.70:compile" ; 
+	"org.bouncycastle:bcutil-jdk15on:jar:1.70:compile" -> "(org.bouncycastle:bcprov-jdk15on:jar:1.70:compile - version managed from 1.70; omitted for duplicate)" ; 
+	"org.apache.pdfbox:pdfbox:jar:2.0.27:compile" -> "org.apache.pdfbox:fontbox:jar:2.0.27:compile" ; 
+	"org.apache.pdfbox:pdfbox:jar:2.0.27:compile" -> "commons-logging:commons-logging:jar:1.2:compile" ; 
+	"org.apache.pdfbox:fontbox:jar:2.0.27:compile" -> "(commons-logging:commons-logging:jar:1.2:compile - omitted for duplicate)" ; 
+	"junit:junit:jar:4.13.2:test" -> "org.hamcrest:hamcrest-core:jar:1.3:test" ; 
+}

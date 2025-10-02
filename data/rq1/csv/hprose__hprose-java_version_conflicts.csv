@@ -1,0 +1,11 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+hprose__hprose-java,5,,,,,,,,
+Benchmark,2,,,,,,,,
+client,2,,,,,,,,
+Example,3,,,,,,,,
+tcphelloexam,2,,,,,,,,
+tcpsessionexam,2,,,,,,,,
+spring-hprose,4,,,,,,,,

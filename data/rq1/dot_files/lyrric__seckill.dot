@@ -1,0 +1,11 @@
+digraph lyrric__seckill {
+	"com.github.lyrric:seckill:jar:1.0-RELEASE" -> "org.apache.httpcomponents:httpclient:jar:4.5.13:compile" ; 
+	"com.github.lyrric:seckill:jar:1.0-RELEASE" -> "com.alibaba:fastjson:jar:1.2.72:compile" ; 
+	"com.github.lyrric:seckill:jar:1.0-RELEASE" -> "org.apache.commons:commons-lang3:jar:3.11:compile" ; 
+	"com.github.lyrric:seckill:jar:1.0-RELEASE" -> "org.apache.logging.log4j:log4j-core:jar:2.13.3:compile" ; 
+	"com.github.lyrric:seckill:jar:1.0-RELEASE" -> "commons-codec:commons-codec:jar:1.15:compile (scope not updated to compile)" ; 
+	"org.apache.httpcomponents:httpclient:jar:4.5.13:compile" -> "org.apache.httpcomponents:httpcore:jar:4.4.13:compile" ; 
+	"org.apache.httpcomponents:httpclient:jar:4.5.13:compile" -> "commons-logging:commons-logging:jar:1.2:compile" ; 
+	"org.apache.httpcomponents:httpclient:jar:4.5.13:compile" -> "(commons-codec:commons-codec:jar:1.11:compile - omitted for conflict with 1.15)" ; 
+	"org.apache.logging.log4j:log4j-core:jar:2.13.3:compile" -> "org.apache.logging.log4j:log4j-api:jar:2.13.3:compile" ; 
+}

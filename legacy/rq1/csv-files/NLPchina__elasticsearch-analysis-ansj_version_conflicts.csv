@@ -1,0 +1,7 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+NLPchina__elasticsearch-analysis-ansj,NLPchina__elasticsearch-analysis-ansj,org.nlpcn:nlp-lang,1.7.9,1.7.7,1,2,compile,compile,omitted_conflict
+NLPchina__elasticsearch-analysis-ansj,NLPchina__elasticsearch-analysis-ansj,org.apache.logging.log4j:log4j-api,2.17.1,2.19.0,1,2,provided,provided,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+NLPchina__elasticsearch-analysis-ansj,44,,,,,,,,

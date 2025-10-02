@@ -1,0 +1,8 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+davidmoten__rxjava2-jdbc,rxjava2-pool,org.reactivestreams:reactive-streams,1.0.3,1.0.4,2,4,compile,test,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+rxjava2-jdbc,30,,,,,,,,
+rxjava2-jdbc-stored-procedure,4,,,,,,,,
+rxjava2-pool,18,,,,,,,,

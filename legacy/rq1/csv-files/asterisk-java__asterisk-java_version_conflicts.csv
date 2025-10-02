@@ -1,0 +1,7 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+asterisk-java__asterisk-java,asterisk-java__asterisk-java,org.slf4j:slf4j-api,2.0.17,1.7.32,1,2,compile,compile,omitted_conflict
+asterisk-java__asterisk-java,asterisk-java__asterisk-java,net.bytebuddy:byte-buddy,1.15.11,1.12.19,2,2,test,test,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+asterisk-java__asterisk-java,27,,,,,,,,

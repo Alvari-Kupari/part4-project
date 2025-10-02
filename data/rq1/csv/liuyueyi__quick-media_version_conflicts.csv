@@ -1,0 +1,50 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+liuyueyi__quick-media,audio-plugin,org.apache.commons:commons-lang3,3.19.0,"[3.11,10.0",2,2,compile ),compile ),version_managed
+liuyueyi__quick-media,audio-plugin,org.slf4j:slf4j-api,1.7.36,"[1.7.30,1.7.40",2,2,compile ),compile ),version_managed
+liuyueyi__quick-media,image-plugin,org.apache.commons:commons-lang3,3.19.0,"[3.11,10.0",2,2,compile ),compile ),version_managed
+liuyueyi__quick-media,image-plugin,org.slf4j:slf4j-api,1.7.36,"[1.7.30,1.7.40",2,2,compile ),compile ),version_managed
+liuyueyi__quick-media,image-plugin,com.google.errorprone:error_prone_annotations,2.36.0,2.41.0,2,3,compile,compile,omitted_conflict
+liuyueyi__quick-media,markdown-plugin,org.apache.commons:commons-lang3,3.19.0,"[3.11,10.0",2,2,compile ),compile ),version_managed
+liuyueyi__quick-media,markdown-plugin,org.slf4j:slf4j-api,1.7.36,"[1.7.30,1.7.40",2,2,compile ),compile ),version_managed
+liuyueyi__quick-media,phantom-plugin,com.google.guava:guava,31.1-jre,31.0.1-jre,3,4,compile,compile,omitted_conflict
+liuyueyi__quick-media,phantom-plugin,com.google.guava:guava,31.1-jre,31.0.1-jre,3,4,compile,compile,omitted_conflict
+liuyueyi__quick-media,phantom-plugin,io.netty:netty-codec-http,4.1.78.Final,4.1.60.Final,3,4,compile,compile,omitted_conflict
+liuyueyi__quick-media,phantom-plugin,io.netty:netty-handler,4.1.78.Final,4.1.60.Final,4,4,compile,compile,omitted_conflict
+liuyueyi__quick-media,phantom-plugin,io.netty:netty-buffer,4.1.78.Final,4.1.60.Final,3,5,compile,compile,omitted_conflict
+liuyueyi__quick-media,phantom-plugin,io.netty:netty-common,4.1.78.Final,4.1.60.Final,3,5,compile,compile,omitted_conflict
+liuyueyi__quick-media,phantom-plugin,io.netty:netty-buffer,4.1.78.Final,4.1.60.Final,3,5,compile,compile,omitted_conflict
+liuyueyi__quick-media,phantom-plugin,io.netty:netty-transport,4.1.78.Final,4.1.60.Final,3,5,compile,compile,omitted_conflict
+liuyueyi__quick-media,phantom-plugin,io.netty:netty-codec,4.1.78.Final,4.1.60.Final,4,5,compile,compile,omitted_conflict
+liuyueyi__quick-media,phantom-plugin,io.netty:netty-common,4.1.78.Final,4.1.60.Final,3,5,compile,compile,omitted_conflict
+liuyueyi__quick-media,phantom-plugin,io.netty:netty-buffer,4.1.78.Final,4.1.60.Final,3,5,compile,compile,omitted_conflict
+liuyueyi__quick-media,phantom-plugin,io.netty:netty-transport,4.1.78.Final,4.1.60.Final,3,5,compile,compile,omitted_conflict
+liuyueyi__quick-media,phantom-plugin,io.netty:netty-codec,4.1.78.Final,4.1.60.Final,4,5,compile,compile,omitted_conflict
+liuyueyi__quick-media,phantom-plugin,io.netty:netty-codec-http,4.1.78.Final,4.1.60.Final,3,4,compile,compile,omitted_conflict
+liuyueyi__quick-media,phantom-plugin,io.netty:netty-common,4.1.78.Final,4.1.60.Final,3,5,compile,compile,omitted_conflict
+liuyueyi__quick-media,phantom-plugin,io.netty:netty-buffer,4.1.78.Final,4.1.60.Final,3,5,compile,compile,omitted_conflict
+liuyueyi__quick-media,phantom-plugin,io.netty:netty-transport,4.1.78.Final,4.1.60.Final,3,5,compile,compile,omitted_conflict
+liuyueyi__quick-media,phantom-plugin,io.netty:netty-transport-native-unix-common,4.1.78.Final,4.1.60.Final,3,5,compile,compile,omitted_conflict
+liuyueyi__quick-media,phantom-plugin,io.netty:netty-common,4.1.78.Final,4.1.60.Final,3,5,compile,compile,omitted_conflict
+liuyueyi__quick-media,phantom-plugin,io.netty:netty-buffer,4.1.78.Final,4.1.60.Final,3,5,compile,compile,omitted_conflict
+liuyueyi__quick-media,phantom-plugin,io.netty:netty-transport,4.1.78.Final,4.1.60.Final,3,5,compile,compile,omitted_conflict
+liuyueyi__quick-media,phantom-plugin,io.netty:netty-transport-native-unix-common,4.1.78.Final,4.1.60.Final,3,5,compile,compile,omitted_conflict
+liuyueyi__quick-media,phantom-plugin,io.netty:netty-handler,4.1.78.Final,4.1.43.Final,4,5,compile,compile,omitted_conflict
+liuyueyi__quick-media,photo-plugin,org.apache.commons:commons-lang3,3.19.0,"[3.11,10.0",2,2,compile ),compile ),version_managed
+liuyueyi__quick-media,photo-plugin,org.slf4j:slf4j-api,1.7.36,"[1.7.30,1.7.40",2,2,compile ),compile ),version_managed
+liuyueyi__quick-media,qrcode-plugin,org.apache.commons:commons-lang3,3.19.0,"[3.11,10.0",2,2,compile ),compile ),version_managed
+liuyueyi__quick-media,tts-plugin,org.apache.commons:commons-lang3,3.19.0,"[3.11,10.0",2,2,compile ),compile ),version_managed
+liuyueyi__quick-media,tts-plugin,junit:junit,4.13.1,3.8.2,1,3,test,compile,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+audio-plugin,17,,,,,,,,
+base-plugin,16,,,,,,,,
+date-plugin,5,,,,,,,,
+image-plugin,19,,,,,,,,
+imagic-plugin,19,,,,,,,,
+markdown-plugin,39,,,,,,,,
+phantom-plugin,71,,,,,,,,
+photo-plugin,18,,,,,,,,
+qrcode-plugin,28,,,,,,,,
+batik-codec-fix,25,,,,,,,,
+tts-plugin,32,,,,,,,,

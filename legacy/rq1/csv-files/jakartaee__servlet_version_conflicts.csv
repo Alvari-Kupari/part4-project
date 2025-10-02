@@ -1,0 +1,13 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+jakartaee__servlet,tck-runtime,org.apache.maven:maven-plugin-api,3.9.9,3.9.6,2,2,compile,compile,version_managed
+jakartaee__servlet,tck-runtime,org.apache.maven.plugin-tools:maven-plugin-annotations,3.13.1,3.11.0,2,2,compile,compile,version_managed
+jakartaee__servlet,tck-runtime,org.apache.maven:maven-core,3.9.9,3.9.6,2,2,compile,compile,version_managed
+jakartaee__servlet,tck-runtime,org.apache.maven:maven-compat,3.9.9,3.9.6,2,2,compile,compile,version_managed
+jakartaee__servlet,tck-runtime,com.google.inject:guice,5.1.0,6.0.0,2,2,compile,compile,version_managed
+jakartaee__servlet,tck-runtime,org.codehaus.plexus:plexus-xml,3.0.1,3.0.0,3,3,compile,compile,version_managed
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+api,7,,,,,,,,
+tck-runtime,88,,,,,,,,
+tck-util,2,,,,,,,,

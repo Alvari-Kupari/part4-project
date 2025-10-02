@@ -1,0 +1,7 @@
+digraph api {
+	"jakarta.mail:jakarta.mail-api:jar:2.1.4-SNAPSHOT" -> "jakarta.activation:jakarta.activation-api:jar:2.1.3:compile" ; 
+	"jakarta.mail:jakarta.mail-api:jar:2.1.4-SNAPSHOT" -> "junit:junit:jar:4.13.2:test" ; 
+	"jakarta.mail:jakarta.mail-api:jar:2.1.4-SNAPSHOT" -> "org.eclipse.angus:angus-activation:jar:2.0.2:test" ; 
+	"junit:junit:jar:4.13.2:test" -> "org.hamcrest:hamcrest-core:jar:1.3:test" ; 
+	"org.eclipse.angus:angus-activation:jar:2.0.2:test" -> "(jakarta.activation:jakarta.activation-api:jar:2.1.3:test - version managed from 2.1.3; omitted for duplicate)" ; 
+}

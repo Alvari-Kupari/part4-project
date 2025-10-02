@@ -1,0 +1,9 @@
+digraph 4ra1n__class-obf {
+	"io.github.4ra1n:class-obf:jar:1.6.1" -> "org.ow2.asm:asm:jar:9.7.1:compile" ; 
+	"io.github.4ra1n:class-obf:jar:1.6.1" -> "org.ow2.asm:asm-commons:jar:9.7.1:compile" ; 
+	"io.github.4ra1n:class-obf:jar:1.6.1" -> "com.beust:jcommander:jar:1.82:compile" ; 
+	"io.github.4ra1n:class-obf:jar:1.6.1" -> "org.yaml:snakeyaml:jar:2.4:compile" ; 
+	"org.ow2.asm:asm-commons:jar:9.7.1:compile" -> "(org.ow2.asm:asm:jar:9.7.1:compile - omitted for duplicate)" ; 
+	"org.ow2.asm:asm-commons:jar:9.7.1:compile" -> "org.ow2.asm:asm-tree:jar:9.7.1:compile" ; 
+	"org.ow2.asm:asm-tree:jar:9.7.1:compile" -> "(org.ow2.asm:asm:jar:9.7.1:compile - omitted for duplicate)" ; 
+}

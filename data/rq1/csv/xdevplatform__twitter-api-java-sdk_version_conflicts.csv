@@ -1,0 +1,18 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+xdevplatform__twitter-api-java-sdk,xdevplatform__twitter-api-java-sdk,org.jetbrains.kotlin:kotlin-stdlib,1.4.10,1.4.0,2,3,compile,compile,omitted_conflict
+xdevplatform__twitter-api-java-sdk,xdevplatform__twitter-api-java-sdk,org.jetbrains.kotlin:kotlin-stdlib-common,1.4.0,1.4.10,3,3,compile,compile,omitted_conflict
+xdevplatform__twitter-api-java-sdk,xdevplatform__twitter-api-java-sdk,com.google.code.gson:gson,2.9.0,2.8.6,1,2,compile,compile,omitted_conflict
+xdevplatform__twitter-api-java-sdk,xdevplatform__twitter-api-java-sdk,com.fasterxml.jackson.core:jackson-databind,2.12.2,2.12.3,2,2,compile,compile,omitted_conflict
+xdevplatform__twitter-api-java-sdk,xdevplatform__twitter-api-java-sdk,com.fasterxml.jackson.core:jackson-databind,2.12.2,2.12.3,2,2,compile,compile,omitted_conflict
+xdevplatform__twitter-api-java-sdk,xdevplatform__twitter-api-java-sdk,com.fasterxml.jackson.core:jackson-databind,2.12.2,2.12.3,2,2,compile,compile,omitted_conflict
+xdevplatform__twitter-api-java-sdk,examples,org.jetbrains.kotlin:kotlin-stdlib,1.4.10,1.4.0,3,4,compile,compile,omitted_conflict
+xdevplatform__twitter-api-java-sdk,examples,org.jetbrains.kotlin:kotlin-stdlib-common,1.4.0,1.4.10,4,4,compile,compile,omitted_conflict
+xdevplatform__twitter-api-java-sdk,examples,com.google.code.gson:gson,2.9.0,2.8.6,2,3,compile,compile,omitted_conflict
+xdevplatform__twitter-api-java-sdk,examples,com.fasterxml.jackson.core:jackson-databind,2.12.2,2.12.3,3,3,compile,compile,omitted_conflict
+xdevplatform__twitter-api-java-sdk,examples,com.fasterxml.jackson.core:jackson-databind,2.12.2,2.12.3,3,3,compile,compile,omitted_conflict
+xdevplatform__twitter-api-java-sdk,examples,com.fasterxml.jackson.core:jackson-databind,2.12.2,2.12.3,3,3,compile,compile,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+xdevplatform__twitter-api-java-sdk,39,,,,,,,,
+examples,31,,,,,,,,

@@ -1,0 +1,8 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+DraqueT__PolyGlot,DraqueT__PolyGlot,org.apache.logging.log4j:log4j-api,2.24.3,2.24.2,2,3,compile,compile,omitted_conflict
+DraqueT__PolyGlot,DraqueT__PolyGlot,commons-io:commons-io,2.18.0,2.16.1,2,3,compile,compile,omitted_conflict
+DraqueT__PolyGlot,DraqueT__PolyGlot,org.apache.commons:commons-lang3,3.14.0,3.16.0,1,3,compile,compile,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+DraqueT__PolyGlot,80,,,,,,,,

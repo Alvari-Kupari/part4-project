@@ -1,0 +1,11 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+pagehelper__pagehelper-spring-boot,pagehelper-spring-boot-sample-annotation,org.mybatis:mybatis,3.5.19,3.5.14,2,2,compile,compile,version_managed
+pagehelper__pagehelper-spring-boot,pagehelper-spring-boot-sample-annotation,org.slf4j:slf4j-api,1.7.36,2.0.0-alpha1,4,4,compile,compile,version_managed
+pagehelper__pagehelper-spring-boot,pagehelper-spring-boot-sample-xml,org.mybatis:mybatis,3.5.19,3.5.14,2,2,compile,compile,version_managed
+pagehelper__pagehelper-spring-boot,pagehelper-spring-boot-sample-xml,org.slf4j:slf4j-api,1.7.36,2.0.0-alpha1,4,4,compile,compile,version_managed
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+pagehelper-spring-boot-autoconfigure,14,,,,,,,,
+pagehelper-spring-boot-sample-annotation,32,,,,,,,,
+pagehelper-spring-boot-sample-xml,32,,,,,,,,

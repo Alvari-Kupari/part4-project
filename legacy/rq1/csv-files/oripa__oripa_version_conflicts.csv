@@ -1,0 +1,8 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+oripa__oripa,oripa__oripa,org.mockito:mockito-core,3.0.0,3.7.7,1,2,test,test,omitted_conflict
+oripa__oripa,oripa__oripa,org.junit.jupiter:junit-jupiter-api,5.8.2,5.7.0,2,2,test,test,omitted_conflict
+oripa__oripa,oripa__oripa,org.slf4j:slf4j-api,2.0.13,2.0.9,1,2,compile,compile,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+oripa__oripa,38,,,,,,,,

@@ -1,0 +1,13 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+egzosn__pay-spring-boot-starter-parent,pay-spring-boot,org.apache.httpcomponents:httpclient,4.5.13,4.5.4,3,3,compile,compile,version_managed
+egzosn__pay-spring-boot-starter-parent,pay-spring-boot,commons-codec:commons-codec,1.15,1.11,4,4,compile,compile,version_managed
+egzosn__pay-spring-boot-starter-parent,pay-spring-boot-autoconfigue,org.apache.httpcomponents:httpclient,4.5.13,4.5.4,3,3,compile,compile,version_managed
+egzosn__pay-spring-boot-starter-parent,pay-spring-boot-autoconfigue,commons-codec:commons-codec,1.15,1.11,4,4,compile,compile,version_managed
+egzosn__pay-spring-boot-starter-parent,pay-spring-boot-starter-demo,org.apache.httpcomponents:httpclient,4.5.13,4.5.4,3,3,compile,compile,version_managed
+egzosn__pay-spring-boot-starter-parent,pay-spring-boot-starter-demo,commons-codec:commons-codec,1.15,1.11,4,4,compile,compile,version_managed
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+pay-spring-boot,27,,,,,,,,
+pay-spring-boot-autoconfigue,28,,,,,,,,
+pay-spring-boot-starter-demo,58,,,,,,,,

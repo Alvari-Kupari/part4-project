@@ -1,0 +1,13 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+dnsjava__dnsjava,dnsjava__dnsjava,net.bytebuddy:byte-buddy,1.15.11,1.17.5,2,2,test,test,omitted_conflict
+dnsjava__dnsjava,dnsjava__dnsjava,net.bytebuddy:byte-buddy-agent,1.17.6,1.17.5,1,2,test,test,omitted_conflict
+dnsjava__dnsjava,dnsjava__dnsjava,org.junit.jupiter:junit-jupiter-api,5.13.1,5.11.4,1,2,test,test,omitted_conflict
+dnsjava__dnsjava,dnsjava__dnsjava,org.junit.jupiter:junit-jupiter-api,5.13.1,5.8.2,1,2,test,test,omitted_conflict
+dnsjava__dnsjava,dnsjava__dnsjava,org.junit.jupiter:junit-jupiter-params,5.13.1,5.8.2,1,2,test,test,omitted_conflict
+dnsjava__dnsjava,dnsjava__dnsjava,org.junit.jupiter:junit-jupiter-engine,5.13.1,5.8.2,1,2,test,test,omitted_conflict
+dnsjava__dnsjava,dnsjava__dnsjava,net.java.dev.jna:jna,5.17.0,5.8.0,1,2,compile,test,omitted_conflict
+dnsjava__dnsjava,dnsjava__dnsjava,net.java.dev.jna:jna-platform,5.17.0,5.8.0,1,2,compile,test,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+dnsjava__dnsjava,41,,,,,,,,

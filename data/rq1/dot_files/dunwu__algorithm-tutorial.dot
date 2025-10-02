@@ -1,0 +1,25 @@
+digraph algorithm {
+	"io.github.dunwu.algorithm:algorithm:jar:1.0.0" -> "cn.hutool:hutool-all:jar:5.8.29:compile" ; 
+	"io.github.dunwu.algorithm:algorithm:jar:1.0.0" -> "org.projectlombok:lombok:jar:1.18.36:provided" ; 
+	"io.github.dunwu.algorithm:algorithm:jar:1.0.0" -> "ch.qos.logback:logback-classic:jar:1.2.9:compile" ; 
+	"io.github.dunwu.algorithm:algorithm:jar:1.0.0" -> "org.junit.jupiter:junit-jupiter:jar:5.8.2:compile" ; 
+	"io.github.dunwu.algorithm:algorithm:jar:1.0.0" -> "org.assertj:assertj-core:jar:3.26.3:compile" ; 
+	"ch.qos.logback:logback-classic:jar:1.2.9:compile" -> "ch.qos.logback:logback-core:jar:1.2.9:compile" ; 
+	"ch.qos.logback:logback-classic:jar:1.2.9:compile" -> "org.slf4j:slf4j-api:jar:1.7.32:compile" ; 
+	"org.junit.jupiter:junit-jupiter:jar:5.8.2:compile" -> "org.junit.jupiter:junit-jupiter-api:jar:5.8.2:compile (scope not updated to compile)" ; 
+	"org.junit.jupiter:junit-jupiter:jar:5.8.2:compile" -> "org.junit.jupiter:junit-jupiter-params:jar:5.8.2:compile" ; 
+	"org.junit.jupiter:junit-jupiter:jar:5.8.2:compile" -> "org.junit.jupiter:junit-jupiter-engine:jar:5.8.2:runtime" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.8.2:compile (scope not updated to compile)" -> "org.opentest4j:opentest4j:jar:1.2.0:compile (scope not updated to compile)" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.8.2:compile (scope not updated to compile)" -> "org.junit.platform:junit-platform-commons:jar:1.8.2:compile (scope not updated to compile)" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.8.2:compile (scope not updated to compile)" -> "org.apiguardian:apiguardian-api:jar:1.1.2:compile (scope not updated to compile)" ; 
+	"org.junit.platform:junit-platform-commons:jar:1.8.2:compile (scope not updated to compile)" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:compile - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-params:jar:5.8.2:compile" -> "(org.junit.jupiter:junit-jupiter-api:jar:5.8.2:compile - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-params:jar:5.8.2:compile" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:compile - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.8.2:runtime" -> "org.junit.platform:junit-platform-engine:jar:1.8.2:runtime" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.8.2:runtime" -> "(org.junit.jupiter:junit-jupiter-api:jar:5.8.2:runtime - omitted for duplicate)" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.8.2:runtime" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:runtime - omitted for duplicate)" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.8.2:runtime" -> "(org.opentest4j:opentest4j:jar:1.2.0:runtime - omitted for duplicate)" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.8.2:runtime" -> "(org.junit.platform:junit-platform-commons:jar:1.8.2:runtime - omitted for duplicate)" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.8.2:runtime" -> "(org.apiguardian:apiguardian-api:jar:1.1.2:runtime - omitted for duplicate)" ; 
+	"org.assertj:assertj-core:jar:3.26.3:compile" -> "net.bytebuddy:byte-buddy:jar:1.14.18:compile" ; 
+}

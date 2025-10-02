@@ -1,0 +1,14 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+t-oster__VisiCut,t-oster__VisiCut,org.apache.httpcomponents:httpcore,4.4.11,4.4.13,1,2,compile,compile,omitted_conflict
+t-oster__VisiCut,t-oster__VisiCut,org.slf4j:slf4j-api,1.7.2,1.6.6,2,2,compile,compile,omitted_conflict
+t-oster__VisiCut,t-oster__VisiCut,org.apache.httpcomponents:httpclient,4.5.13,4.5.1,1,2,compile,compile,omitted_conflict
+t-oster__VisiCut,t-oster__VisiCut,junit:junit,4.10,4.7,2,3,compile,compile,omitted_conflict
+t-oster__VisiCut,t-oster__VisiCut,junit:junit,4.10,3.8.2,2,3,compile,compile,omitted_conflict
+t-oster__VisiCut,t-oster__VisiCut,org.freehep:freehep-io,2.1,2.0.5,2,4,compile,compile,omitted_conflict
+t-oster__VisiCut,t-oster__VisiCut,junit:junit,4.10,3.8.2,2,3,compile,compile,omitted_conflict
+t-oster__VisiCut,t-oster__VisiCut,commons-io:commons-io,2.7,2.11.0,1,4,compile,compile,omitted_conflict
+t-oster__VisiCut,t-oster__VisiCut,commons-logging:commons-logging,1.2,1.0.4,2,4,compile,compile,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+t-oster__VisiCut,53,,,,,,,,

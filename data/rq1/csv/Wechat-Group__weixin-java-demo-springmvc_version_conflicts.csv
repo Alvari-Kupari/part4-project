@@ -1,0 +1,15 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+Wechat-Group__weixin-java-demo-springmvc,Wechat-Group__weixin-java-demo-springmvc,org.slf4j:slf4j-api,1.7.21,1.7.30,1,3,compile,compile,omitted_conflict
+Wechat-Group__weixin-java-demo-springmvc,Wechat-Group__weixin-java-demo-springmvc,commons-codec:commons-codec,1.9,1.13,1,3,compile,compile,omitted_conflict
+Wechat-Group__weixin-java-demo-springmvc,Wechat-Group__weixin-java-demo-springmvc,commons-io:commons-io,2.19.0,2.14.0,2,3,compile,compile,omitted_conflict
+Wechat-Group__weixin-java-demo-springmvc,Wechat-Group__weixin-java-demo-springmvc,org.slf4j:slf4j-api,1.7.21,1.7.36,1,4,compile,compile,omitted_conflict
+Wechat-Group__weixin-java-demo-springmvc,Wechat-Group__weixin-java-demo-springmvc,commons-io:commons-io,2.19.0,2.11.0,2,3,compile,compile,omitted_conflict
+Wechat-Group__weixin-java-demo-springmvc,Wechat-Group__weixin-java-demo-springmvc,com.google.guava:guava,32.1.2-jre,31.1-jre,3,3,compile,compile,omitted_conflict
+Wechat-Group__weixin-java-demo-springmvc,Wechat-Group__weixin-java-demo-springmvc,org.slf4j:slf4j-api,1.7.21,1.7.22,1,3,compile,compile,omitted_conflict
+Wechat-Group__weixin-java-demo-springmvc,Wechat-Group__weixin-java-demo-springmvc,org.apache.httpcomponents:httpcore,4.4.5,4.4.13,1,2,compile,compile,omitted_conflict
+Wechat-Group__weixin-java-demo-springmvc,Wechat-Group__weixin-java-demo-springmvc,commons-logging:commons-logging,1.1.3,1.2,1,2,compile,compile,omitted_conflict
+Wechat-Group__weixin-java-demo-springmvc,Wechat-Group__weixin-java-demo-springmvc,commons-codec:commons-codec,1.9,1.11,1,2,compile,compile,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+Wechat-Group__weixin-java-demo-springmvc,61,,,,,,,,

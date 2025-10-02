@@ -1,0 +1,9 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+cmu-phil__tetrad,tetrad-lib,com.google.code.gson:gson,2.10.1,2.11.0,1,2,compile,compile,omitted_conflict
+cmu-phil__tetrad,tetrad-lib,org.slf4j:slf4j-api,2.0.16,1.7.32,2,2,compile,compile,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+data-reader,10,,,,,,,,
+tetrad-gui,11,,,,,,,,
+tetrad-lib,37,,,,,,,,

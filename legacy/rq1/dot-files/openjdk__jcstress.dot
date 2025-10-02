@@ -1,0 +1,116 @@
+digraph jcstress-benchmarks {
+	"org.openjdk.jcstress:jcstress-benchmarks:jar:0.17-SNAPSHOT" -> "org.openjdk.jmh:jmh-core:jar:1.37:compile" ; 
+	"org.openjdk.jcstress:jcstress-benchmarks:jar:0.17-SNAPSHOT" -> "org.openjdk.jmh:jmh-generator-annprocess:jar:1.37:provided" ; 
+	"org.openjdk.jcstress:jcstress-benchmarks:jar:0.17-SNAPSHOT" -> "org.openjdk.jcstress:jcstress-core:jar:0.17-SNAPSHOT:compile" ; 
+	"org.openjdk.jcstress:jcstress-benchmarks:jar:0.17-SNAPSHOT" -> "org.openjdk.jcstress:jcstress-samples:jar:0.17-SNAPSHOT:compile" ; 
+	"org.openjdk.jmh:jmh-core:jar:1.37:compile" -> "net.sf.jopt-simple:jopt-simple:jar:4.6:compile (version managed from 5.0.4)" ; 
+	"org.openjdk.jmh:jmh-core:jar:1.37:compile" -> "org.apache.commons:commons-math3:jar:3.6.1:compile" ; 
+	"org.openjdk.jmh:jmh-generator-annprocess:jar:1.37:provided" -> "(org.openjdk.jmh:jmh-core:jar:1.37:provided - omitted for duplicate)" ; 
+}
+digraph jcstress-contended-autoinjector {
+	"org.openjdk.jcstress:jcstress-contended-autoinjector:jar:0.17-SNAPSHOT" -> "org.ow2.asm:asm:jar:9.0:compile" ; 
+	"org.openjdk.jcstress:jcstress-contended-autoinjector:jar:0.17-SNAPSHOT" -> "junit:junit:jar:4.13.2:test" ; 
+	"junit:junit:jar:4.13.2:test" -> "org.hamcrest:hamcrest-core:jar:1.3:test" ; 
+}
+digraph jcstress-core {
+	"org.openjdk.jcstress:jcstress-core:jar:0.17-SNAPSHOT" -> "net.sf.jopt-simple:jopt-simple:jar:4.6:compile" ; 
+	"org.openjdk.jcstress:jcstress-core:jar:0.17-SNAPSHOT" -> "org.openjdk.jcstress:jcstress-result-gen:jar:0.17-SNAPSHOT:provided" ; 
+	"org.openjdk.jcstress:jcstress-core:jar:0.17-SNAPSHOT" -> "net.java.dev.jna:jna:jar:5.8.0:compile" ; 
+	"org.openjdk.jcstress:jcstress-core:jar:0.17-SNAPSHOT" -> "net.java.dev.jna:jna-platform:jar:5.8.0:compile" ; 
+	"org.openjdk.jcstress:jcstress-core:jar:0.17-SNAPSHOT" -> "junit:junit:jar:4.13.2:test" ; 
+	"org.openjdk.jcstress:jcstress-core:jar:0.17-SNAPSHOT" -> "com.google.jimfs:jimfs:jar:1.2:test" ; 
+	"net.java.dev.jna:jna-platform:jar:5.8.0:compile" -> "(net.java.dev.jna:jna:jar:5.8.0:compile - version managed from 5.8.0; omitted for duplicate)" ; 
+	"junit:junit:jar:4.13.2:test" -> "org.hamcrest:hamcrest-core:jar:1.3:test" ; 
+	"com.google.jimfs:jimfs:jar:1.2:test" -> "com.google.guava:guava:jar:30.1-android:test" ; 
+	"com.google.guava:guava:jar:30.1-android:test" -> "com.google.guava:failureaccess:jar:1.0.1:test" ; 
+	"com.google.guava:guava:jar:30.1-android:test" -> "com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:test" ; 
+	"com.google.guava:guava:jar:30.1-android:test" -> "com.google.code.findbugs:jsr305:jar:3.0.2:test" ; 
+	"com.google.guava:guava:jar:30.1-android:test" -> "org.checkerframework:checker-compat-qual:jar:2.5.5:test" ; 
+	"com.google.guava:guava:jar:30.1-android:test" -> "com.google.errorprone:error_prone_annotations:jar:2.3.4:test" ; 
+	"com.google.guava:guava:jar:30.1-android:test" -> "com.google.j2objc:j2objc-annotations:jar:1.3:test" ; 
+}
+digraph jcstress-result-gen {
+}
+digraph jcstress-samples {
+	"org.openjdk.jcstress:jcstress-samples:jar:0.17-SNAPSHOT" -> "org.openjdk.jcstress:jcstress-core:jar:0.17-SNAPSHOT:compile" ; 
+	"org.openjdk.jcstress:jcstress-samples:jar:0.17-SNAPSHOT" -> "org.openjdk.jcstress:jcstress-test-gen:jar:0.17-SNAPSHOT:provided" ; 
+	"org.openjdk.jcstress:jcstress-samples:jar:0.17-SNAPSHOT" -> "org.openjdk.jcstress:jcstress-contended-autoinjector:jar:0.17-SNAPSHOT:provided" ; 
+}
+digraph jcstress-test-gen {
+	"org.openjdk.jcstress:jcstress-test-gen:jar:0.17-SNAPSHOT" -> "org.openjdk.jcstress:jcstress-core:jar:0.17-SNAPSHOT:compile" ; 
+}
+digraph tests-all {
+	"org.openjdk.jcstress:jcstress-tests-all:jar:0.17-SNAPSHOT" -> "org.openjdk.jcstress:jcstress-samples:jar:0.17-SNAPSHOT:compile" ; 
+	"org.openjdk.jcstress:jcstress-tests-all:jar:0.17-SNAPSHOT" -> "org.openjdk.jcstress:jcstress-tests-custom:jar:0.17-SNAPSHOT:compile" ; 
+	"org.openjdk.jcstress:jcstress-tests-all:jar:0.17-SNAPSHOT" -> "org.openjdk.jcstress:jcstress-tests-chapter-0a:jar:0.17-SNAPSHOT:compile" ; 
+	"org.openjdk.jcstress:jcstress-tests-all:jar:0.17-SNAPSHOT" -> "org.openjdk.jcstress:jcstress-tests-chapter-0b:jar:0.17-SNAPSHOT:compile" ; 
+	"org.openjdk.jcstress:jcstress-tests-all:jar:0.17-SNAPSHOT" -> "org.openjdk.jcstress:jcstress-tests-chapter-0c:jar:0.17-SNAPSHOT:compile" ; 
+	"org.openjdk.jcstress:jcstress-tests-all:jar:0.17-SNAPSHOT" -> "org.openjdk.jcstress:jcstress-tests-chapter-0d:jar:0.17-SNAPSHOT:compile" ; 
+	"org.openjdk.jcstress:jcstress-tests-all:jar:0.17-SNAPSHOT" -> "org.openjdk.jcstress:jcstress-tests-chapter-0e:jar:0.17-SNAPSHOT:compile" ; 
+	"org.openjdk.jcstress:jcstress-tests-all:jar:0.17-SNAPSHOT" -> "org.openjdk.jcstress:jcstress-tests-chapter-1a:jar:0.17-SNAPSHOT:compile" ; 
+	"org.openjdk.jcstress:jcstress-tests-all:jar:0.17-SNAPSHOT" -> "org.openjdk.jcstress:jcstress-tests-chapter-1b:jar:0.17-SNAPSHOT:compile" ; 
+	"org.openjdk.jcstress:jcstress-tests-all:jar:0.17-SNAPSHOT" -> "org.openjdk.jcstress:jcstress-tests-chapter-1c:jar:0.17-SNAPSHOT:compile" ; 
+	"org.openjdk.jcstress:jcstress-tests-all:jar:0.17-SNAPSHOT" -> "org.openjdk.jcstress:jcstress-tests-chapter-1d:jar:0.17-SNAPSHOT:compile" ; 
+	"org.openjdk.jcstress:jcstress-tests-all:jar:0.17-SNAPSHOT" -> "org.openjdk.jcstress:jcstress-tests-chapter-2a:jar:0.17-SNAPSHOT:compile" ; 
+	"org.openjdk.jcstress:jcstress-tests-all:jar:0.17-SNAPSHOT" -> "org.openjdk.jcstress:jcstress-tests-chapter-2b:jar:0.17-SNAPSHOT:compile" ; 
+}
+digraph tests-chapter-0a {
+	"org.openjdk.jcstress:jcstress-tests-chapter-0a:jar:0.17-SNAPSHOT" -> "org.openjdk.jcstress:jcstress-core:jar:0.17-SNAPSHOT:compile" ; 
+	"org.openjdk.jcstress:jcstress-tests-chapter-0a:jar:0.17-SNAPSHOT" -> "org.openjdk.jcstress:jcstress-test-gen:jar:0.17-SNAPSHOT:provided" ; 
+	"org.openjdk.jcstress:jcstress-tests-chapter-0a:jar:0.17-SNAPSHOT" -> "org.openjdk.jcstress:jcstress-contended-autoinjector:jar:0.17-SNAPSHOT:provided" ; 
+}
+digraph tests-chapter-0b {
+	"org.openjdk.jcstress:jcstress-tests-chapter-0b:jar:0.17-SNAPSHOT" -> "org.openjdk.jcstress:jcstress-core:jar:0.17-SNAPSHOT:compile" ; 
+	"org.openjdk.jcstress:jcstress-tests-chapter-0b:jar:0.17-SNAPSHOT" -> "org.openjdk.jcstress:jcstress-test-gen:jar:0.17-SNAPSHOT:provided" ; 
+	"org.openjdk.jcstress:jcstress-tests-chapter-0b:jar:0.17-SNAPSHOT" -> "org.openjdk.jcstress:jcstress-contended-autoinjector:jar:0.17-SNAPSHOT:provided" ; 
+}
+digraph tests-chapter-0c {
+	"org.openjdk.jcstress:jcstress-tests-chapter-0c:jar:0.17-SNAPSHOT" -> "org.openjdk.jcstress:jcstress-core:jar:0.17-SNAPSHOT:compile" ; 
+	"org.openjdk.jcstress:jcstress-tests-chapter-0c:jar:0.17-SNAPSHOT" -> "org.openjdk.jcstress:jcstress-test-gen:jar:0.17-SNAPSHOT:provided" ; 
+	"org.openjdk.jcstress:jcstress-tests-chapter-0c:jar:0.17-SNAPSHOT" -> "org.openjdk.jcstress:jcstress-contended-autoinjector:jar:0.17-SNAPSHOT:provided" ; 
+}
+digraph tests-chapter-0d {
+	"org.openjdk.jcstress:jcstress-tests-chapter-0d:jar:0.17-SNAPSHOT" -> "org.openjdk.jcstress:jcstress-core:jar:0.17-SNAPSHOT:compile" ; 
+	"org.openjdk.jcstress:jcstress-tests-chapter-0d:jar:0.17-SNAPSHOT" -> "org.openjdk.jcstress:jcstress-test-gen:jar:0.17-SNAPSHOT:provided" ; 
+	"org.openjdk.jcstress:jcstress-tests-chapter-0d:jar:0.17-SNAPSHOT" -> "org.openjdk.jcstress:jcstress-contended-autoinjector:jar:0.17-SNAPSHOT:provided" ; 
+}
+digraph tests-chapter-0e {
+	"org.openjdk.jcstress:jcstress-tests-chapter-0e:jar:0.17-SNAPSHOT" -> "org.openjdk.jcstress:jcstress-core:jar:0.17-SNAPSHOT:compile" ; 
+	"org.openjdk.jcstress:jcstress-tests-chapter-0e:jar:0.17-SNAPSHOT" -> "org.openjdk.jcstress:jcstress-test-gen:jar:0.17-SNAPSHOT:provided" ; 
+	"org.openjdk.jcstress:jcstress-tests-chapter-0e:jar:0.17-SNAPSHOT" -> "org.openjdk.jcstress:jcstress-contended-autoinjector:jar:0.17-SNAPSHOT:provided" ; 
+}
+digraph tests-chapter-1a {
+	"org.openjdk.jcstress:jcstress-tests-chapter-1a:jar:0.17-SNAPSHOT" -> "org.openjdk.jcstress:jcstress-core:jar:0.17-SNAPSHOT:compile" ; 
+	"org.openjdk.jcstress:jcstress-tests-chapter-1a:jar:0.17-SNAPSHOT" -> "org.openjdk.jcstress:jcstress-test-gen:jar:0.17-SNAPSHOT:provided" ; 
+	"org.openjdk.jcstress:jcstress-tests-chapter-1a:jar:0.17-SNAPSHOT" -> "org.openjdk.jcstress:jcstress-contended-autoinjector:jar:0.17-SNAPSHOT:provided" ; 
+}
+digraph tests-chapter-1b {
+	"org.openjdk.jcstress:jcstress-tests-chapter-1b:jar:0.17-SNAPSHOT" -> "org.openjdk.jcstress:jcstress-core:jar:0.17-SNAPSHOT:compile" ; 
+	"org.openjdk.jcstress:jcstress-tests-chapter-1b:jar:0.17-SNAPSHOT" -> "org.openjdk.jcstress:jcstress-test-gen:jar:0.17-SNAPSHOT:provided" ; 
+	"org.openjdk.jcstress:jcstress-tests-chapter-1b:jar:0.17-SNAPSHOT" -> "org.openjdk.jcstress:jcstress-contended-autoinjector:jar:0.17-SNAPSHOT:provided" ; 
+}
+digraph tests-chapter-1c {
+	"org.openjdk.jcstress:jcstress-tests-chapter-1c:jar:0.17-SNAPSHOT" -> "org.openjdk.jcstress:jcstress-core:jar:0.17-SNAPSHOT:compile" ; 
+	"org.openjdk.jcstress:jcstress-tests-chapter-1c:jar:0.17-SNAPSHOT" -> "org.openjdk.jcstress:jcstress-test-gen:jar:0.17-SNAPSHOT:provided" ; 
+	"org.openjdk.jcstress:jcstress-tests-chapter-1c:jar:0.17-SNAPSHOT" -> "org.openjdk.jcstress:jcstress-contended-autoinjector:jar:0.17-SNAPSHOT:provided" ; 
+}
+digraph tests-chapter-1d {
+	"org.openjdk.jcstress:jcstress-tests-chapter-1d:jar:0.17-SNAPSHOT" -> "org.openjdk.jcstress:jcstress-core:jar:0.17-SNAPSHOT:compile" ; 
+	"org.openjdk.jcstress:jcstress-tests-chapter-1d:jar:0.17-SNAPSHOT" -> "org.openjdk.jcstress:jcstress-test-gen:jar:0.17-SNAPSHOT:provided" ; 
+	"org.openjdk.jcstress:jcstress-tests-chapter-1d:jar:0.17-SNAPSHOT" -> "org.openjdk.jcstress:jcstress-contended-autoinjector:jar:0.17-SNAPSHOT:provided" ; 
+}
+digraph tests-chapter-2a {
+	"org.openjdk.jcstress:jcstress-tests-chapter-2a:jar:0.17-SNAPSHOT" -> "org.openjdk.jcstress:jcstress-core:jar:0.17-SNAPSHOT:compile" ; 
+	"org.openjdk.jcstress:jcstress-tests-chapter-2a:jar:0.17-SNAPSHOT" -> "org.openjdk.jcstress:jcstress-test-gen:jar:0.17-SNAPSHOT:provided" ; 
+	"org.openjdk.jcstress:jcstress-tests-chapter-2a:jar:0.17-SNAPSHOT" -> "org.openjdk.jcstress:jcstress-contended-autoinjector:jar:0.17-SNAPSHOT:provided" ; 
+}
+digraph tests-chapter-2b {
+	"org.openjdk.jcstress:jcstress-tests-chapter-2b:jar:0.17-SNAPSHOT" -> "org.openjdk.jcstress:jcstress-core:jar:0.17-SNAPSHOT:compile" ; 
+	"org.openjdk.jcstress:jcstress-tests-chapter-2b:jar:0.17-SNAPSHOT" -> "org.openjdk.jcstress:jcstress-test-gen:jar:0.17-SNAPSHOT:provided" ; 
+	"org.openjdk.jcstress:jcstress-tests-chapter-2b:jar:0.17-SNAPSHOT" -> "org.openjdk.jcstress:jcstress-contended-autoinjector:jar:0.17-SNAPSHOT:provided" ; 
+}
+digraph tests-custom {
+	"org.openjdk.jcstress:jcstress-tests-custom:jar:0.17-SNAPSHOT" -> "org.openjdk.jcstress:jcstress-core:jar:0.17-SNAPSHOT:compile" ; 
+	"org.openjdk.jcstress:jcstress-tests-custom:jar:0.17-SNAPSHOT" -> "org.openjdk.jcstress:jcstress-test-gen:jar:0.17-SNAPSHOT:provided" ; 
+	"org.openjdk.jcstress:jcstress-tests-custom:jar:0.17-SNAPSHOT" -> "org.openjdk.jcstress:jcstress-contended-autoinjector:jar:0.17-SNAPSHOT:provided" ; 
+}

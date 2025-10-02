@@ -1,0 +1,14 @@
+digraph capfile {
+	"com.github.martinpaljak:capfile:jar:25.08.05-SNAPSHOT" -> "org.testng:testng:jar:7.11.0:test" ; 
+	"com.github.martinpaljak:capfile:jar:25.08.05-SNAPSHOT" -> "org.slf4j:slf4j-api:jar:2.0.17:test (scope not updated to test)" ; 
+	"com.github.martinpaljak:capfile:jar:25.08.05-SNAPSHOT" -> "org.slf4j:slf4j-simple:jar:2.0.17:test" ; 
+	"org.testng:testng:jar:7.11.0:test" -> "(org.slf4j:slf4j-api:jar:2.0.16:test - omitted for conflict with 2.0.17)" ; 
+	"org.testng:testng:jar:7.11.0:test" -> "org.jcommander:jcommander:jar:1.83:test" ; 
+	"org.testng:testng:jar:7.11.0:test" -> "org.webjars:jquery:jar:3.7.1:test" ; 
+	"org.slf4j:slf4j-simple:jar:2.0.17:test" -> "(org.slf4j:slf4j-api:jar:2.0.17:test - omitted for duplicate)" ; 
+}
+digraph task {
+	"com.github.martinpaljak:ant-javacard:jar:25.08.05-SNAPSHOT" -> "org.apache.ant:ant:jar:1.10.15:provided" ; 
+	"com.github.martinpaljak:ant-javacard:jar:25.08.05-SNAPSHOT" -> "com.github.martinpaljak:capfile:jar:25.08.05-SNAPSHOT:compile" ; 
+	"org.apache.ant:ant:jar:1.10.15:provided" -> "org.apache.ant:ant-launcher:jar:1.10.15:provided" ; 
+}

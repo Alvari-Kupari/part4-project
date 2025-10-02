@@ -1,0 +1,9 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+TuxGuitar-compat,9,,,,,,,,
+TuxGuitar-editor-utils,8,,,,,,,,
+TuxGuitar-lib,10,,,,,,,,
+gervill,0,,,,,,,,
+TuxGuitar-synth-lv2,6,,,,,,,,

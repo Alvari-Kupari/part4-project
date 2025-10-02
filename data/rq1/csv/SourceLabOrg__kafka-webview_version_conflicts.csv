@@ -1,0 +1,7 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+dev-cluster,46,,,,,,,,
+kafka-webview-plugin,0,,,,,,,,
+kafka-webview-ui,183,,,,,,,,

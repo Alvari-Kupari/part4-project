@@ -1,0 +1,96 @@
+digraph rocker-compiler {
+	"com.fizzed:rocker-compiler:jar:2.2.2-SNAPSHOT" -> "com.fizzed:rocker-runtime:jar:2.2.2-SNAPSHOT:compile" ; 
+	"com.fizzed:rocker-compiler:jar:2.2.2-SNAPSHOT" -> "org.slf4j:slf4j-api:jar:1.7.36:compile" ; 
+	"com.fizzed:rocker-compiler:jar:2.2.2-SNAPSHOT" -> "org.apache.commons:commons-lang3:jar:3.17.0:compile" ; 
+	"com.fizzed:rocker-compiler:jar:2.2.2-SNAPSHOT" -> "org.antlr:antlr4-runtime:jar:4.5.3:compile" ; 
+	"com.fizzed:rocker-compiler:jar:2.2.2-SNAPSHOT" -> "junit:junit:jar:4.13.1:test" ; 
+	"com.fizzed:rocker-compiler:jar:2.2.2-SNAPSHOT" -> "commons-io:commons-io:jar:2.16.1:test" ; 
+	"com.fizzed:rocker-compiler:jar:2.2.2-SNAPSHOT" -> "ch.qos.logback:logback-classic:jar:1.2.13:test" ; 
+	"junit:junit:jar:4.13.1:test" -> "org.hamcrest:hamcrest-core:jar:1.3:test" ; 
+	"ch.qos.logback:logback-classic:jar:1.2.13:test" -> "ch.qos.logback:logback-core:jar:1.2.13:test" ; 
+	"ch.qos.logback:logback-classic:jar:1.2.13:test" -> "(org.slf4j:slf4j-api:jar:1.7.36:test - version managed from 1.7.32; omitted for duplicate)" ; 
+}
+digraph rocker-gradle-plugin {
+	"com.fizzed:rocker-gradle-plugin:jar:2.2.2-SNAPSHOT" -> "com.fizzed:rocker-compiler:jar:2.2.2-SNAPSHOT:compile" ; 
+}
+digraph rocker-maven-plugin {
+	"com.fizzed:rocker-maven-plugin:maven-plugin:2.2.2-SNAPSHOT" -> "com.fizzed:rocker-compiler:jar:2.2.2-SNAPSHOT:compile" ; 
+	"com.fizzed:rocker-maven-plugin:maven-plugin:2.2.2-SNAPSHOT" -> "org.apache.maven:maven-plugin-api:jar:3.1.0:compile" ; 
+	"com.fizzed:rocker-maven-plugin:maven-plugin:2.2.2-SNAPSHOT" -> "org.apache.maven:maven-model:jar:3.1.0:compile" ; 
+	"com.fizzed:rocker-maven-plugin:maven-plugin:2.2.2-SNAPSHOT" -> "org.apache.maven:maven-core:jar:3.1.0:compile" ; 
+	"com.fizzed:rocker-maven-plugin:maven-plugin:2.2.2-SNAPSHOT" -> "org.apache.maven:maven-artifact:jar:3.1.0:compile" ; 
+	"com.fizzed:rocker-maven-plugin:maven-plugin:2.2.2-SNAPSHOT" -> "org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.7.0:provided" ; 
+	"com.fizzed:rocker-maven-plugin:maven-plugin:2.2.2-SNAPSHOT" -> "junit:junit:jar:4.13.1:test" ; 
+	"org.apache.maven:maven-plugin-api:jar:3.1.0:compile" -> "(org.apache.maven:maven-model:jar:3.1.0:compile - omitted for duplicate)" ; 
+	"org.apache.maven:maven-plugin-api:jar:3.1.0:compile" -> "(org.apache.maven:maven-artifact:jar:3.1.0:compile - omitted for duplicate)" ; 
+	"org.apache.maven:maven-plugin-api:jar:3.1.0:compile" -> "org.eclipse.sisu:org.eclipse.sisu.plexus:jar:0.0.0.M2a:compile" ; 
+	"org.eclipse.sisu:org.eclipse.sisu.plexus:jar:0.0.0.M2a:compile" -> "javax.enterprise:cdi-api:jar:1.0:compile" ; 
+	"org.eclipse.sisu:org.eclipse.sisu.plexus:jar:0.0.0.M2a:compile" -> "com.google.guava:guava:jar:19.0:compile (version managed from 10.0.1)" ; 
+	"org.eclipse.sisu:org.eclipse.sisu.plexus:jar:0.0.0.M2a:compile" -> "org.sonatype.sisu:sisu-guice:jar:no_aop:3.1.0:compile" ; 
+	"org.eclipse.sisu:org.eclipse.sisu.plexus:jar:0.0.0.M2a:compile" -> "org.eclipse.sisu:org.eclipse.sisu.inject:jar:0.0.0.M2a:compile" ; 
+	"org.eclipse.sisu:org.eclipse.sisu.plexus:jar:0.0.0.M2a:compile" -> "(org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile - omitted for duplicate)" ; 
+	"org.eclipse.sisu:org.eclipse.sisu.plexus:jar:0.0.0.M2a:compile" -> "(org.codehaus.plexus:plexus-classworlds:jar:2.4:compile - omitted for conflict with 2.4.2)" ; 
+	"org.eclipse.sisu:org.eclipse.sisu.plexus:jar:0.0.0.M2a:compile" -> "(org.codehaus.plexus:plexus-utils:jar:2.1:compile - omitted for conflict with 3.0.10)" ; 
+	"javax.enterprise:cdi-api:jar:1.0:compile" -> "javax.annotation:jsr250-api:jar:1.0:compile" ; 
+	"javax.enterprise:cdi-api:jar:1.0:compile" -> "javax.inject:javax.inject:jar:1:compile" ; 
+	"org.sonatype.sisu:sisu-guice:jar:no_aop:3.1.0:compile" -> "(javax.inject:javax.inject:jar:1:compile - omitted for duplicate)" ; 
+	"org.sonatype.sisu:sisu-guice:jar:no_aop:3.1.0:compile" -> "aopalliance:aopalliance:jar:1.0:compile" ; 
+	"org.eclipse.sisu:org.eclipse.sisu.inject:jar:0.0.0.M2a:compile" -> "asm:asm:jar:3.3.1:compile" ; 
+	"org.apache.maven:maven-model:jar:3.1.0:compile" -> "org.codehaus.plexus:plexus-utils:jar:3.0.10:compile" ; 
+	"org.apache.maven:maven-core:jar:3.1.0:compile" -> "(org.apache.maven:maven-model:jar:3.1.0:compile - omitted for duplicate)" ; 
+	"org.apache.maven:maven-core:jar:3.1.0:compile" -> "org.apache.maven:maven-settings:jar:3.1.0:compile" ; 
+	"org.apache.maven:maven-core:jar:3.1.0:compile" -> "org.apache.maven:maven-settings-builder:jar:3.1.0:compile" ; 
+	"org.apache.maven:maven-core:jar:3.1.0:compile" -> "org.apache.maven:maven-repository-metadata:jar:3.1.0:compile" ; 
+	"org.apache.maven:maven-core:jar:3.1.0:compile" -> "(org.apache.maven:maven-artifact:jar:3.1.0:compile - omitted for duplicate)" ; 
+	"org.apache.maven:maven-core:jar:3.1.0:compile" -> "(org.apache.maven:maven-plugin-api:jar:3.1.0:compile - omitted for duplicate)" ; 
+	"org.apache.maven:maven-core:jar:3.1.0:compile" -> "org.apache.maven:maven-model-builder:jar:3.1.0:compile" ; 
+	"org.apache.maven:maven-core:jar:3.1.0:compile" -> "org.apache.maven:maven-aether-provider:jar:3.1.0:compile" ; 
+	"org.apache.maven:maven-core:jar:3.1.0:compile" -> "org.eclipse.aether:aether-impl:jar:0.9.0.M2:compile" ; 
+	"org.apache.maven:maven-core:jar:3.1.0:compile" -> "org.eclipse.aether:aether-api:jar:0.9.0.M2:compile" ; 
+	"org.apache.maven:maven-core:jar:3.1.0:compile" -> "org.eclipse.aether:aether-util:jar:0.9.0.M2:compile" ; 
+	"org.apache.maven:maven-core:jar:3.1.0:compile" -> "(org.eclipse.sisu:org.eclipse.sisu.plexus:jar:0.0.0.M2a:compile - omitted for duplicate)" ; 
+	"org.apache.maven:maven-core:jar:3.1.0:compile" -> "org.codehaus.plexus:plexus-interpolation:jar:1.16:compile" ; 
+	"org.apache.maven:maven-core:jar:3.1.0:compile" -> "(org.codehaus.plexus:plexus-utils:jar:3.0.10:compile - omitted for duplicate)" ; 
+	"org.apache.maven:maven-core:jar:3.1.0:compile" -> "org.codehaus.plexus:plexus-classworlds:jar:2.4.2:compile" ; 
+	"org.apache.maven:maven-core:jar:3.1.0:compile" -> "org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile" ; 
+	"org.apache.maven:maven-core:jar:3.1.0:compile" -> "org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile" ; 
+	"org.apache.maven:maven-settings:jar:3.1.0:compile" -> "(org.codehaus.plexus:plexus-utils:jar:3.0.10:compile - omitted for duplicate)" ; 
+	"org.apache.maven:maven-settings-builder:jar:3.1.0:compile" -> "(org.codehaus.plexus:plexus-utils:jar:3.0.10:compile - omitted for duplicate)" ; 
+	"org.apache.maven:maven-settings-builder:jar:3.1.0:compile" -> "(org.codehaus.plexus:plexus-interpolation:jar:1.16:compile - omitted for duplicate)" ; 
+	"org.apache.maven:maven-settings-builder:jar:3.1.0:compile" -> "(org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile - omitted for duplicate)" ; 
+	"org.apache.maven:maven-settings-builder:jar:3.1.0:compile" -> "(org.apache.maven:maven-settings:jar:3.1.0:compile - omitted for duplicate)" ; 
+	"org.apache.maven:maven-settings-builder:jar:3.1.0:compile" -> "(org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile - omitted for duplicate)" ; 
+	"org.apache.maven:maven-repository-metadata:jar:3.1.0:compile" -> "(org.codehaus.plexus:plexus-utils:jar:3.0.10:compile - omitted for duplicate)" ; 
+	"org.apache.maven:maven-model-builder:jar:3.1.0:compile" -> "(org.codehaus.plexus:plexus-utils:jar:3.0.10:compile - omitted for duplicate)" ; 
+	"org.apache.maven:maven-model-builder:jar:3.1.0:compile" -> "(org.codehaus.plexus:plexus-interpolation:jar:1.16:compile - omitted for duplicate)" ; 
+	"org.apache.maven:maven-model-builder:jar:3.1.0:compile" -> "(org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile - omitted for duplicate)" ; 
+	"org.apache.maven:maven-model-builder:jar:3.1.0:compile" -> "(org.apache.maven:maven-model:jar:3.1.0:compile - omitted for duplicate)" ; 
+	"org.apache.maven:maven-aether-provider:jar:3.1.0:compile" -> "(org.apache.maven:maven-model:jar:3.1.0:compile - omitted for duplicate)" ; 
+	"org.apache.maven:maven-aether-provider:jar:3.1.0:compile" -> "(org.apache.maven:maven-model-builder:jar:3.1.0:compile - omitted for duplicate)" ; 
+	"org.apache.maven:maven-aether-provider:jar:3.1.0:compile" -> "(org.apache.maven:maven-repository-metadata:jar:3.1.0:compile - omitted for duplicate)" ; 
+	"org.apache.maven:maven-aether-provider:jar:3.1.0:compile" -> "(org.eclipse.aether:aether-api:jar:0.9.0.M2:compile - omitted for duplicate)" ; 
+	"org.apache.maven:maven-aether-provider:jar:3.1.0:compile" -> "org.eclipse.aether:aether-spi:jar:0.9.0.M2:compile" ; 
+	"org.apache.maven:maven-aether-provider:jar:3.1.0:compile" -> "(org.eclipse.aether:aether-util:jar:0.9.0.M2:compile - omitted for duplicate)" ; 
+	"org.apache.maven:maven-aether-provider:jar:3.1.0:compile" -> "(org.eclipse.aether:aether-impl:jar:0.9.0.M2:compile - omitted for duplicate)" ; 
+	"org.apache.maven:maven-aether-provider:jar:3.1.0:compile" -> "(org.eclipse.sisu:org.eclipse.sisu.plexus:jar:0.0.0.M2a:compile - omitted for duplicate)" ; 
+	"org.apache.maven:maven-aether-provider:jar:3.1.0:compile" -> "(org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile - omitted for duplicate)" ; 
+	"org.apache.maven:maven-aether-provider:jar:3.1.0:compile" -> "(org.codehaus.plexus:plexus-utils:jar:3.0.10:compile - omitted for duplicate)" ; 
+	"org.eclipse.aether:aether-spi:jar:0.9.0.M2:compile" -> "(org.eclipse.aether:aether-api:jar:0.9.0.M2:compile - omitted for duplicate)" ; 
+	"org.eclipse.aether:aether-impl:jar:0.9.0.M2:compile" -> "(org.eclipse.aether:aether-api:jar:0.9.0.M2:compile - omitted for duplicate)" ; 
+	"org.eclipse.aether:aether-impl:jar:0.9.0.M2:compile" -> "(org.eclipse.aether:aether-spi:jar:0.9.0.M2:compile - omitted for duplicate)" ; 
+	"org.eclipse.aether:aether-impl:jar:0.9.0.M2:compile" -> "(org.eclipse.aether:aether-util:jar:0.9.0.M2:compile - omitted for duplicate)" ; 
+	"org.eclipse.aether:aether-util:jar:0.9.0.M2:compile" -> "(org.eclipse.aether:aether-api:jar:0.9.0.M2:compile - omitted for duplicate)" ; 
+	"org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile" -> "(org.codehaus.plexus:plexus-utils:jar:1.5.5:compile - omitted for conflict with 3.0.10)" ; 
+	"org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile" -> "org.sonatype.plexus:plexus-cipher:jar:1.4:compile" ; 
+	"org.apache.maven:maven-artifact:jar:3.1.0:compile" -> "(org.codehaus.plexus:plexus-utils:jar:3.0.10:compile - omitted for duplicate)" ; 
+	"junit:junit:jar:4.13.1:test" -> "org.hamcrest:hamcrest-core:jar:1.3:test" ; 
+}
+digraph rocker-runtime {
+	"com.fizzed:rocker-runtime:jar:2.2.2-SNAPSHOT" -> "org.slf4j:slf4j-api:jar:1.7.36:compile" ; 
+	"com.fizzed:rocker-runtime:jar:2.2.2-SNAPSHOT" -> "com.google.guava:guava:jar:19.0:compile" ; 
+	"com.fizzed:rocker-runtime:jar:2.2.2-SNAPSHOT" -> "junit:junit:jar:4.13.1:test" ; 
+	"com.fizzed:rocker-runtime:jar:2.2.2-SNAPSHOT" -> "ch.qos.logback:logback-classic:jar:1.2.13:test" ; 
+	"junit:junit:jar:4.13.1:test" -> "org.hamcrest:hamcrest-core:jar:1.3:test" ; 
+	"ch.qos.logback:logback-classic:jar:1.2.13:test" -> "ch.qos.logback:logback-core:jar:1.2.13:test" ; 
+	"ch.qos.logback:logback-classic:jar:1.2.13:test" -> "(org.slf4j:slf4j-api:jar:1.7.36:test - version managed from 1.7.32; omitted for duplicate)" ; 
+}

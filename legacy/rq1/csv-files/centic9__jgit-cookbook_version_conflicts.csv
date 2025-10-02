@@ -1,0 +1,9 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+centic9__jgit-cookbook,centic9__jgit-cookbook,org.tukaani:xz,1.8,1.10,1,2,compile,compile,omitted_conflict
+centic9__jgit-cookbook,centic9__jgit-cookbook,commons-codec:commons-codec,1.18.0,1.17.1,2,3,compile,compile,omitted_conflict
+centic9__jgit-cookbook,centic9__jgit-cookbook,commons-io:commons-io,2.19.0,2.16.1,1,3,compile,compile,omitted_conflict
+centic9__jgit-cookbook,centic9__jgit-cookbook,org.slf4j:slf4j-api,1.7.36,2.0.17,2,2,compile,compile,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+centic9__jgit-cookbook,26,,,,,,,,

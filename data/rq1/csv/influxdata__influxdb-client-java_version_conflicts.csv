@@ -1,0 +1,26 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+influxdata__influxdb-client-java,client,org.jetbrains.kotlin:kotlin-stdlib,2.1.10,1.9.21,4,4,compile,compile,version_managed
+influxdata__influxdb-client-java,client-core,org.jetbrains.kotlin:kotlin-stdlib,2.1.10,1.9.21,3,3,compile,compile,version_managed
+influxdata__influxdb-client-java,client-legacy,org.jetbrains.kotlin:kotlin-stdlib,2.1.10,1.9.21,4,4,compile,compile,version_managed
+influxdata__influxdb-client-java,client-osgi,org.jetbrains.kotlin:kotlin-stdlib,2.1.10,1.9.21,4,4,compile,compile,version_managed
+influxdata__influxdb-client-java,client-osgi,org.osgi:osgi.annotation,8.1.0,8.0.1,2,2,provided,provided,omitted_conflict
+influxdata__influxdb-client-java,client-reactive,org.jetbrains.kotlin:kotlin-stdlib,2.1.10,1.9.21,5,5,compile,compile,version_managed
+influxdata__influxdb-client-java,client-test,com.squareup.okio:okio,3.9.0,3.6.0,2,2,compile,compile,version_managed
+influxdata__influxdb-client-java,client-test,org.jetbrains.kotlin:kotlin-stdlib,2.1.10,1.9.21,4,4,compile,compile,version_managed
+influxdata__influxdb-client-java,flux-dsl,com.squareup.okio:okio,3.9.0,3.6.0,3,3,test,test,version_managed
+influxdata__influxdb-client-java,flux-dsl,org.jetbrains.kotlin:kotlin-stdlib,2.1.10,1.9.21,5,5,test,test,version_managed
+influxdata__influxdb-client-java,spring,org.jetbrains.kotlin:kotlin-stdlib,2.1.10,1.9.21,5,5,compile,compile,version_managed
+influxdata__influxdb-client-java,spring,io.micrometer:micrometer-observation,1.13.4,1.12.11,3,4,compile,compile,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+client,41,,,,,,,,
+client-core,34,,,,,,,,
+client-legacy,35,,,,,,,,
+client-osgi,55,,,,,,,,
+client-reactive,39,,,,,,,,
+client-test,23,,,,,,,,
+client-utils,10,,,,,,,,
+examples,42,,,,,,,,
+flux-dsl,25,,,,,,,,
+spring,59,,,,,,,,

@@ -1,0 +1,14 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+hs-web__hsweb-easy-orm,hsweb-easy-orm-rdb,io.projectreactor.netty:reactor-netty,1.0.31,1.1.9,2,2,compile,compile,version_managed
+hs-web__hsweb-easy-orm,hsweb-easy-orm-rdb,io.netty:netty-common,4.1.91.Final,4.1.90.Final,5,6,compile,runtime,omitted_conflict
+hs-web__hsweb-easy-orm,hsweb-easy-orm-rdb,io.netty:netty-buffer,4.1.91.Final,4.1.90.Final,5,6,compile,runtime,omitted_conflict
+hs-web__hsweb-easy-orm,hsweb-easy-orm-rdb,io.netty:netty-codec,4.1.91.Final,4.1.90.Final,5,6,compile,runtime,omitted_conflict
+hs-web__hsweb-easy-orm,hsweb-easy-orm-rdb,io.netty:netty-handler,4.1.91.Final,4.1.90.Final,4,6,compile,runtime,omitted_conflict
+hs-web__hsweb-easy-orm,hsweb-easy-orm-rdb,io.netty:netty-transport,4.1.91.Final,4.1.90.Final,5,6,compile,runtime,omitted_conflict
+hs-web__hsweb-easy-orm,hsweb-easy-orm-rdb,com.fasterxml.jackson.core:jackson-annotations,2.14.2,2.10.3,2,3,compile,test,omitted_conflict
+hs-web__hsweb-easy-orm,hsweb-easy-orm-rdb,org.checkerframework:checker-qual,3.5.0,3.33.0,2,2,compile,compile,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+hsweb-easy-orm-core,21,,,,,,,,
+hsweb-easy-orm-rdb,85,,,,,,,,

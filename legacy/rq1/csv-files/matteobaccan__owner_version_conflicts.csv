@@ -1,0 +1,11 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+matteobaccan__owner,owner-extras,org.slf4j:slf4j-api,2.0.17,1.7.25,2,3,compile,compile,omitted_conflict
+matteobaccan__owner,owner-extras,org.slf4j:slf4j-api,2.0.17,1.7.25,2,3,compile,compile,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+owner,9,,,,,,,,
+owner-examples-hotreload,2,,,,,,,,
+owner-extras,29,,,,,,,,
+owner-java8,4,,,,,,,,
+owner-java8-extras,4,,,,,,,,

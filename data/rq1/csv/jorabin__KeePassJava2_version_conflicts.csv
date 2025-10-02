@@ -1,0 +1,20 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+jorabin__KeePassJava2,all,commons-codec:commons-codec,1.15,1.17.0,3,3,compile,compile,version_managed
+jorabin__KeePassJava2,dom,commons-codec:commons-codec,1.15,1.17.0,2,2,compile,compile,version_managed
+jorabin__KeePassJava2,example,commons-codec:commons-codec,1.15,1.17.0,4,4,compile,compile,version_managed
+jorabin__KeePassJava2,jackson,commons-codec:commons-codec,1.15,1.17.0,2,2,compile,compile,version_managed
+jorabin__KeePassJava2,jaxb,commons-codec:commons-codec,1.15,1.17.0,2,2,compile,compile,version_managed
+jorabin__KeePassJava2,simple,commons-codec:commons-codec,1.15,1.17.0,2,2,compile,compile,version_managed
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+all,40,,,,,,,,
+database,18,,,,,,,,
+dom,22,,,,,,,,
+example,43,,,,,,,,
+jackson,28,,,,,,,,
+jaxb,27,,,,,,,,
+kdb,20,,,,,,,,
+kdbx,21,,,,,,,,
+simple,26,,,,,,,,
+util,7,,,,,,,,

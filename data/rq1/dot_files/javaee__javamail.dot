@@ -1,0 +1,63 @@
+digraph activation {
+	"com.sun.mail:android-activation:jar:1.6.2" -> "junit:junit:jar:4.12:test" ; 
+	"junit:junit:jar:4.12:test" -> "org.hamcrest:hamcrest-core:jar:1.3:test" ; 
+}
+digraph mail {
+	"com.sun.mail:android-mail:jar:1.6.2" -> "com.sun.mail:android-activation:jar:1.6.2:compile" ; 
+	"com.sun.mail:android-mail:jar:1.6.2" -> "junit:junit:jar:4.12:test" ; 
+	"junit:junit:jar:4.12:test" -> "org.hamcrest:hamcrest-core:jar:1.3:test" ; 
+}
+digraph client {
+	"com.sun.mail:client:jar:1.6.2" -> "com.sun.mail:javax.mail:jar:1.6.2:compile" ; 
+	"com.sun.mail:javax.mail:jar:1.6.2:compile" -> "javax.activation:activation:jar:1.1:compile (version managed from 1.1)" ; 
+}
+digraph demo {
+	"com.sun.mail:demo:jar:1.6.2" -> "com.sun.mail:javax.mail:jar:1.6.2:compile" ; 
+	"com.sun.mail:javax.mail:jar:1.6.2:compile" -> "javax.activation:activation:jar:1.1:compile (version managed from 1.1)" ; 
+}
+digraph dsn {
+	"com.sun.mail:dsn:jar:1.6.2" -> "com.sun.mail:javax.mail:jar:1.6.2:compile" ; 
+	"com.sun.mail:dsn:jar:1.6.2" -> "junit:junit:jar:4.12:test" ; 
+	"com.sun.mail:javax.mail:jar:1.6.2:compile" -> "javax.activation:activation:jar:1.1:compile (version managed from 1.1)" ; 
+	"junit:junit:jar:4.12:test" -> "org.hamcrest:hamcrest-core:jar:1.3:test" ; 
+}
+digraph gimap {
+	"com.sun.mail:gimap:jar:1.6.2" -> "com.sun.mail:javax.mail:jar:1.6.2:compile" ; 
+	"com.sun.mail:javax.mail:jar:1.6.2:compile" -> "javax.activation:activation:jar:1.1:compile (version managed from 1.1)" ; 
+}
+digraph logging {
+	"com.sun.mail:logging:jar:1.6.2" -> "com.sun.mail:javax.mail:jar:1.6.2:compile" ; 
+	"com.sun.mail:javax.mail:jar:1.6.2:compile" -> "javax.activation:activation:jar:1.1:compile (version managed from 1.1)" ; 
+}
+digraph mail {
+	"com.sun.mail:javax.mail:jar:1.6.2" -> "javax.activation:activation:jar:1.1:compile" ; 
+	"com.sun.mail:javax.mail:jar:1.6.2" -> "junit:junit:jar:4.12:test" ; 
+	"junit:junit:jar:4.12:test" -> "org.hamcrest:hamcrest-core:jar:1.3:test" ; 
+}
+digraph mbox {
+	"com.sun.mail:mbox:jar:1.6.2" -> "com.sun.mail:javax.mail:jar:1.6.2:compile" ; 
+	"com.sun.mail:mbox:jar:1.6.2" -> "junit:junit:jar:4.12:test" ; 
+	"com.sun.mail:javax.mail:jar:1.6.2:compile" -> "javax.activation:activation:jar:1.1:compile (version managed from 1.1)" ; 
+	"junit:junit:jar:4.12:test" -> "org.hamcrest:hamcrest-core:jar:1.3:test" ; 
+}
+digraph outlook {
+	"com.sun.mail:outlook:jar:1.6.2" -> "com.sun.mail:javax.mail:jar:1.6.2:compile" ; 
+	"com.sun.mail:javax.mail:jar:1.6.2:compile" -> "javax.activation:activation:jar:1.1:compile (version managed from 1.1)" ; 
+}
+digraph servlet {
+	"com.sun.mail:servlet:jar:1.6.2" -> "javax.servlet:servlet-api:jar:2.5:compile" ; 
+	"com.sun.mail:servlet:jar:1.6.2" -> "com.sun.mail:javax.mail:jar:1.6.2:compile" ; 
+	"com.sun.mail:javax.mail:jar:1.6.2:compile" -> "javax.activation:activation:jar:1.1:compile (version managed from 1.1)" ; 
+}
+digraph taglib {
+	"com.sun.mail:taglib:jar:1.6.2" -> "javax.servlet.jsp:jsp-api:jar:2.1:compile" ; 
+	"com.sun.mail:taglib:jar:1.6.2" -> "javax.servlet:servlet-api:jar:2.5:compile" ; 
+	"com.sun.mail:taglib:jar:1.6.2" -> "com.sun.mail:javax.mail:jar:1.6.2:compile" ; 
+	"com.sun.mail:javax.mail:jar:1.6.2:compile" -> "javax.activation:activation:jar:1.1:compile (version managed from 1.1)" ; 
+}
+digraph webapp {
+	"com.sun.mail:webapp:war:1.6.2" -> "com.sun.mail:taglib:jar:1.6.2:compile" ; 
+	"com.sun.mail:webapp:war:1.6.2" -> "javax.servlet:servlet-api:jar:2.5:compile" ; 
+	"com.sun.mail:webapp:war:1.6.2" -> "com.sun.mail:javax.mail:jar:1.6.2:compile" ; 
+	"com.sun.mail:javax.mail:jar:1.6.2:compile" -> "javax.activation:activation:jar:1.1:compile (version managed from 1.1)" ; 
+}

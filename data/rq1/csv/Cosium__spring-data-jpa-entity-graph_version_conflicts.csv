@@ -1,0 +1,16 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+Cosium__spring-data-jpa-entity-graph,core,org.antlr:antlr4-runtime,4.13.0,4.10.1,2,2,provided,provided,omitted_conflict
+Cosium__spring-data-jpa-entity-graph,core,jakarta.activation:jakarta.activation-api,2.1.0,2.1.1,3,4,provided,provided,omitted_conflict
+Cosium__spring-data-jpa-entity-graph,core,jakarta.activation:jakarta.activation-api,2.1.0,2.1.1,3,4,provided,provided,omitted_conflict
+Cosium__spring-data-jpa-entity-graph,core,org.antlr:antlr4-runtime,4.13.0,4.10.1,2,2,provided,test,omitted_conflict
+Cosium__spring-data-jpa-entity-graph,core,org.springframework:spring-core,6.2.7,6.2.9,2,2,provided,test,omitted_conflict
+Cosium__spring-data-jpa-entity-graph,core,org.slf4j:slf4j-api,2.0.2,1.7.25,2,2,provided,test,omitted_conflict
+Cosium__spring-data-jpa-entity-graph,core,org.junit.platform:junit-platform-suite-engine,1.13.4,1.10.1,2,2,test,test,version_managed
+Cosium__spring-data-jpa-entity-graph,core,net.bytebuddy:byte-buddy,1.14.7,1.15.11,2,2,provided,test,omitted_conflict
+Cosium__spring-data-jpa-entity-graph,core,org.slf4j:slf4j-api,2.0.2,2.0.17,2,2,provided,test,omitted_conflict
+Cosium__spring-data-jpa-entity-graph,generator,com.google.guava:guava,32.0.1-jre,31.0.1-jre,2,3,compile,compile,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+core,68,,,,,,,,
+generator,13,,,,,,,,

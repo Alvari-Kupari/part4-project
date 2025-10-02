@@ -1,0 +1,7 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+MountCloud__BehinderClientSource,MountCloud__BehinderClientSource,com.squareup.okio:okio,3.9.0,2.8.0,1,2,compile,compile,omitted_conflict
+MountCloud__BehinderClientSource,MountCloud__BehinderClientSource,org.jetbrains.kotlin:kotlin-stdlib,1.4.10,1.9.21,2,3,compile,compile,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+MountCloud__BehinderClientSource,20,,,,,,,,

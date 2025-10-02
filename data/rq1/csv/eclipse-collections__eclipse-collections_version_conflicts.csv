@@ -1,0 +1,15 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+eclipse-collections__eclipse-collections,eclipse-collections-code-generator-maven-plugin,org.codehaus.plexus:plexus-classworlds,2.8.0,2.6.0,2,3,provided,provided,omitted_conflict
+eclipse-collections__eclipse-collections,eclipse-collections-code-generator-maven-plugin,org.slf4j:slf4j-api,2.0.16,1.7.36,2,2,provided,provided,version_managed
+eclipse-collections__eclipse-collections,eclipse-collections-code-generator-maven-plugin,org.codehaus.plexus:plexus-utils,3.5.1,3.4.1,2,4,provided,provided,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+eclipse-collections,5,,,,,,,,
+eclipse-collections-api,4,,,,,,,,
+eclipse-collections-code-generator,3,,,,,,,,
+eclipse-collections-code-generator-maven-plugin,36,,,,,,,,
+eclipse-collections-forkjoin,10,,,,,,,,
+eclipse-collections-testutils,9,,,,,,,,
+jcstress-tests,7,,,,,,,,
+jmh-tests,25,,,,,,,,

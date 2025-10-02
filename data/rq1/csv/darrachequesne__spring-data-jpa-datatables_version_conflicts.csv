@@ -1,0 +1,15 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+darrachequesne__spring-data-jpa-datatables,darrachequesne__spring-data-jpa-datatables,org.slf4j:slf4j-api,2.0.17,2.0.2,2,2,compile,compile,version_managed
+darrachequesne__spring-data-jpa-datatables,darrachequesne__spring-data-jpa-datatables,io.micrometer:micrometer-observation,1.15.1,1.14.8,3,3,compile,compile,version_managed
+darrachequesne__spring-data-jpa-datatables,darrachequesne__spring-data-jpa-datatables,org.jboss.logging:jboss-logging,3.6.1.Final,3.5.0.Final,2,2,runtime,runtime,version_managed
+darrachequesne__spring-data-jpa-datatables,darrachequesne__spring-data-jpa-datatables,com.fasterxml:classmate,1.7.0,1.5.1,2,2,runtime,runtime,version_managed
+darrachequesne__spring-data-jpa-datatables,darrachequesne__spring-data-jpa-datatables,net.bytebuddy:byte-buddy,1.17.6,1.15.11,2,2,runtime,runtime,version_managed
+darrachequesne__spring-data-jpa-datatables,darrachequesne__spring-data-jpa-datatables,jakarta.xml.bind:jakarta.xml.bind-api,4.0.2,4.0.0,2,2,runtime,runtime,version_managed
+darrachequesne__spring-data-jpa-datatables,darrachequesne__spring-data-jpa-datatables,org.glassfish.jaxb:jaxb-runtime,4.0.5,4.0.2,2,2,runtime,runtime,version_managed
+darrachequesne__spring-data-jpa-datatables,darrachequesne__spring-data-jpa-datatables,com.querydsl:querydsl-codegen,5.1.0,5.0.0,2,2,compile,compile,version_managed
+darrachequesne__spring-data-jpa-datatables,darrachequesne__spring-data-jpa-datatables,com.querydsl:querydsl-core,5.1.0,5.0.0,2,2,compile,compile,version_managed
+darrachequesne__spring-data-jpa-datatables,darrachequesne__spring-data-jpa-datatables,net.bytebuddy:byte-buddy-agent,1.17.6,1.15.11,3,3,test,test,version_managed
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+darrachequesne__spring-data-jpa-datatables,103,,,,,,,,

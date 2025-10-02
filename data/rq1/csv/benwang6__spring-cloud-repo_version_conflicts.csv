@@ -1,0 +1,9 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+sp01-commons,13,,,,,,,,
+sp05-eureka,156,,,,,,,,
+sp08-hystrix-dashboard,147,,,,,,,,
+sp10-turbine,146,,,,,,,,
+sp12-config,173,,,,,,,,

@@ -1,0 +1,7 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+networknt__json-schema-validator,networknt__json-schema-validator,org.slf4j:slf4j-api,2.0.17,2.0.7,1,2,compile,test,omitted_conflict
+networknt__json-schema-validator,networknt__json-schema-validator,org.jboss.logging:jboss-logging,3.4.1.Final,3.3.1.Final,2,4,test,test,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+networknt__json-schema-validator,32,,,,,,,,

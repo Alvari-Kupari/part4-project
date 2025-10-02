@@ -1,0 +1,17 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+OpenHFT__Chronicle-Map,OpenHFT__Chronicle-Map,org.objenesis:objenesis,3.3,3.0.1,2,4,test,test,omitted_conflict
+OpenHFT__Chronicle-Map,OpenHFT__Chronicle-Map,net.bytebuddy:byte-buddy,1.12.19,1.10.14,2,4,test,test,omitted_conflict
+OpenHFT__Chronicle-Map,OpenHFT__Chronicle-Map,net.bytebuddy:byte-buddy-agent,1.12.19,1.10.14,2,4,test,test,omitted_conflict
+OpenHFT__Chronicle-Map,OpenHFT__Chronicle-Map,net.bytebuddy:byte-buddy,1.12.19,1.10.14,2,4,test,test,omitted_conflict
+OpenHFT__Chronicle-Map,OpenHFT__Chronicle-Map,net.bytebuddy:byte-buddy-agent,1.12.19,1.10.14,2,4,test,test,omitted_conflict
+OpenHFT__Chronicle-Map,OpenHFT__Chronicle-Map,org.powermock:powermock-reflect,2.0.9,1.7.4,3,4,test,test,omitted_conflict
+OpenHFT__Chronicle-Map,OpenHFT__Chronicle-Map,org.powermock:powermock-core,2.0.9,1.7.4,3,4,test,test,omitted_conflict
+OpenHFT__Chronicle-Map,benchmark,net.openhft:chronicle-core,2.27ea7,2.27ea6,2,2,compile,compile,version_managed
+OpenHFT__Chronicle-Map,benchmark,net.openhft:chronicle-bytes,2.27ea7,2.27ea5,2,2,compile,compile,version_managed
+OpenHFT__Chronicle-Map,benchmark,net.openhft:chronicle-threads,2.27ea3,2.27ea2,2,2,compile,compile,version_managed
+OpenHFT__Chronicle-Map,benchmark,net.openhft:chronicle-wire,2.27ea12,2.27ea7,2,2,compile,compile,version_managed
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+OpenHFT__Chronicle-Map,75,,,,,,,,
+benchmark,24,,,,,,,,

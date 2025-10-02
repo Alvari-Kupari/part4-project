@@ -1,0 +1,8 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+zalando__jackson-datatype-money,zalando__jackson-datatype-money,net.bytebuddy:byte-buddy,1.12.21,1.12.9,2,2,test,test,omitted_conflict
+zalando__jackson-datatype-money,zalando__jackson-datatype-money,javax.validation:validation-api,2.0.1.Final,1.1.0.Final,1,2,test,test,omitted_conflict
+zalando__jackson-datatype-money,zalando__jackson-datatype-money,org.slf4j:slf4j-api,2.0.6,1.7.26,1,2,compile,test,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+zalando__jackson-datatype-money,38,,,,,,,,

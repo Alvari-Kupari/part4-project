@@ -1,0 +1,20 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+sladkoff__minecraft-prometheus-exporter,sladkoff__minecraft-prometheus-exporter,com.google.code.gson:gson,2.10.1,2.8.8,2,3,provided,provided,omitted_conflict
+sladkoff__minecraft-prometheus-exporter,sladkoff__minecraft-prometheus-exporter,org.apache.commons:commons-lang3,3.16.0,3.12.0,3,5,provided,provided,omitted_conflict
+sladkoff__minecraft-prometheus-exporter,sladkoff__minecraft-prometheus-exporter,org.slf4j:slf4j-api,2.0.9,1.7.36,2,3,compile,provided,omitted_conflict
+sladkoff__minecraft-prometheus-exporter,sladkoff__minecraft-prometheus-exporter,org.slf4j:slf4j-api,2.0.9,1.7.36,2,3,compile,provided,omitted_conflict
+sladkoff__minecraft-prometheus-exporter,sladkoff__minecraft-prometheus-exporter,org.jetbrains:annotations,24.1.0,22.0.0,3,4,compile,provided,omitted_conflict
+sladkoff__minecraft-prometheus-exporter,sladkoff__minecraft-prometheus-exporter,com.google.code.gson:gson,2.10.1,2.8.0,2,3,provided,provided,omitted_conflict
+sladkoff__minecraft-prometheus-exporter,sladkoff__minecraft-prometheus-exporter,org.slf4j:slf4j-api,2.0.9,1.7.36,2,3,compile,provided,omitted_conflict
+sladkoff__minecraft-prometheus-exporter,sladkoff__minecraft-prometheus-exporter,org.slf4j:slf4j-api,2.0.9,2.0.16,2,2,compile,compile,omitted_conflict
+sladkoff__minecraft-prometheus-exporter,sladkoff__minecraft-prometheus-exporter,org.slf4j:slf4j-api,2.0.9,2.0.16,2,2,compile,compile,omitted_conflict
+sladkoff__minecraft-prometheus-exporter,sladkoff__minecraft-prometheus-exporter,org.slf4j:slf4j-api,2.0.9,2.0.16,2,2,compile,compile,omitted_conflict
+sladkoff__minecraft-prometheus-exporter,sladkoff__minecraft-prometheus-exporter,org.slf4j:slf4j-api,2.0.9,2.0.16,2,2,compile,compile,omitted_conflict
+sladkoff__minecraft-prometheus-exporter,sladkoff__minecraft-prometheus-exporter,org.slf4j:slf4j-api,2.0.9,2.0.11,2,2,compile,runtime,omitted_conflict
+sladkoff__minecraft-prometheus-exporter,sladkoff__minecraft-prometheus-exporter,org.ow2.asm:asm,9.7,9.3,2,4,runtime,runtime,omitted_conflict
+sladkoff__minecraft-prometheus-exporter,sladkoff__minecraft-prometheus-exporter,org.junit.jupiter:junit-jupiter-api,5.12.0,5.11.4,2,2,test,test,omitted_conflict
+sladkoff__minecraft-prometheus-exporter,sladkoff__minecraft-prometheus-exporter,org.jetbrains:annotations,24.1.0,13.0,3,3,compile,compile,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+sladkoff__minecraft-prometheus-exporter,93,,,,,,,,

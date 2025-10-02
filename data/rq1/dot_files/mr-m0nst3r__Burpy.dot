@@ -1,0 +1,9 @@
+digraph mr-m0nst3r__Burpy {
+	"me.m0nst3r:burpy:jar:4.0-SNAPSHOT" -> "net.portswigger.burp.extender:burp-extender-api:jar:1.7.22:compile" ; 
+	"me.m0nst3r:burpy:jar:4.0-SNAPSHOT" -> "org.apache.commons:commons-lang3:jar:3.7:compile" ; 
+	"me.m0nst3r:burpy:jar:4.0-SNAPSHOT" -> "org.json:json:jar:20171018:compile" ; 
+	"me.m0nst3r:burpy:jar:4.0-SNAPSHOT" -> "junit:junit:jar:3.8.1:test" ; 
+	"me.m0nst3r:burpy:jar:4.0-SNAPSHOT" -> "net.razorvine:pyrolite:jar:5.1:compile" ; 
+	"me.m0nst3r:burpy:jar:4.0-SNAPSHOT" -> "net.razorvine:serpent:jar:1.40:compile" ; 
+	"net.razorvine:pyrolite:jar:5.1:compile" -> "(net.razorvine:serpent:jar:1.40:compile - omitted for duplicate)" ; 
+}

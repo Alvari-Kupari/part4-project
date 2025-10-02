@@ -1,0 +1,18 @@
+project,submodule,library_name,version_selected,conflicting_version,depth_selected,depth_conflicting,scope_selected,scope_conflicting,conflict_type
+subchen__jetbrick-template-2x,jetbrick-template-shiro,org.slf4j:slf4j-api,1.6.4,1.7.7,2,2,compile,compile,omitted_conflict
+subchen__jetbrick-template-2x,jetbrick-template-shiro,org.slf4j:slf4j-api,1.6.4,1.7.7,2,2,compile,compile,omitted_conflict
+subchen__jetbrick-template-2x,jetbrick-template-springmvc,org.slf4j:slf4j-api,1.7.7,1.7.13,2,5,compile,provided,omitted_conflict
+subchen__jetbrick-template-2x,jetbrick-template-springmvc,org.slf4j:slf4j-api,1.7.7,1.7.13,2,5,compile,provided,omitted_conflict
+subchen__jetbrick-template-2x,jetbrick-template-springmvc,org.slf4j:slf4j-api,1.7.7,1.7.13,2,5,compile,provided,omitted_conflict
+,,,,,,,,,
+,,,,,,,,,
+SUBMODULE SUMMARY,Total Unique Dependencies,,,,,,,,
+jetbrick-template,8,,,,,,,,
+jetbrick-template-jetbrickmvc,11,,,,,,,,
+jetbrick-template-jfinal,9,,,,,,,,
+jetbrick-template-jodd,16,,,,,,,,
+jetbrick-template-nutz,9,,,,,,,,
+jetbrick-template-shiro,9,,,,,,,,
+jetbrick-template-springmvc,43,,,,,,,,
+jetbrick-template-struts,19,,,,,,,,
+jetbrick-template-web,10,,,,,,,,

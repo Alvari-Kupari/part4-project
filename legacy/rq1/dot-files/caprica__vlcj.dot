@@ -1,0 +1,6 @@
+digraph caprica__vlcj {
+	"uk.co.caprica:vlcj:jar:5.0.0-SNAPSHOT" -> "uk.co.caprica:vlcj-natives:jar:5.0.0-SNAPSHOT:compile" ; 
+	"uk.co.caprica:vlcj-natives:jar:5.0.0-SNAPSHOT:compile" -> "net.java.dev.jna:jna-jpms:jar:5.14.0:compile" ; 
+	"uk.co.caprica:vlcj-natives:jar:5.0.0-SNAPSHOT:compile" -> "net.java.dev.jna:jna-platform-jpms:jar:5.14.0:compile" ; 
+	"net.java.dev.jna:jna-platform-jpms:jar:5.14.0:compile" -> "(net.java.dev.jna:jna-jpms:jar:5.14.0:compile - omitted for duplicate)" ; 
+}

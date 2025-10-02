@@ -1,0 +1,19 @@
+digraph guava-shaded {
+	"org.apache.cassandra:java-driver-guava-shaded:jar:4.19.1-SNAPSHOT" -> "com.google.guava:guava:jar:33.3.1-jre:compile (optional) " ; 
+	"org.apache.cassandra:java-driver-guava-shaded:jar:4.19.1-SNAPSHOT" -> "org.graalvm.nativeimage:svm:jar:20.0.0:provided" ; 
+	"com.google.guava:guava:jar:33.3.1-jre:compile (optional) " -> "com.google.guava:failureaccess:jar:1.0.2:compile (optional) " ; 
+	"com.google.guava:guava:jar:33.3.1-jre:compile (optional) " -> "com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:compile (optional) " ; 
+	"com.google.guava:guava:jar:33.3.1-jre:compile (optional) " -> "com.google.j2objc:j2objc-annotations:jar:3.0.0:compile (optional) " ; 
+	"org.graalvm.nativeimage:svm:jar:20.0.0:provided" -> "org.graalvm.nativeimage:svm-hosted-native-linux-amd64:tar.gz:20.0.0:provided" ; 
+	"org.graalvm.nativeimage:svm:jar:20.0.0:provided" -> "org.graalvm.nativeimage:svm-hosted-native-darwin-amd64:tar.gz:20.0.0:provided" ; 
+	"org.graalvm.nativeimage:svm:jar:20.0.0:provided" -> "org.graalvm.nativeimage:svm-hosted-native-windows-amd64:tar.gz:20.0.0:provided" ; 
+	"org.graalvm.nativeimage:svm:jar:20.0.0:provided" -> "org.graalvm.sdk:graal-sdk:jar:22.0.0.2:provided" ; 
+	"org.graalvm.nativeimage:svm:jar:20.0.0:provided" -> "org.graalvm.nativeimage:objectfile:jar:20.0.0:provided" ; 
+	"org.graalvm.nativeimage:svm:jar:20.0.0:provided" -> "org.graalvm.nativeimage:pointsto:jar:20.0.0:provided" ; 
+	"org.graalvm.nativeimage:svm:jar:20.0.0:provided" -> "org.graalvm.truffle:truffle-nfi:jar:20.0.0:provided" ; 
+	"org.graalvm.nativeimage:svm:jar:20.0.0:provided" -> "org.graalvm.compiler:compiler:jar:20.0.0:provided" ; 
+	"org.graalvm.truffle:truffle-nfi:jar:20.0.0:provided" -> "org.graalvm.truffle:truffle-api:jar:20.0.0:provided" ; 
+	"org.graalvm.truffle:truffle-nfi:jar:20.0.0:provided" -> "org.graalvm.truffle:truffle-nfi-native-linux-amd64:tar.gz:20.0.0:provided" ; 
+	"org.graalvm.truffle:truffle-nfi:jar:20.0.0:provided" -> "org.graalvm.truffle:truffle-nfi-native-linux-aarch64:tar.gz:20.0.0:provided" ; 
+	"org.graalvm.truffle:truffle-nfi:jar:20.0.0:provided" -> "org.graalvm.truffle:truffle-nfi-native-darwin-amd64:tar.gz:20.0.0:provided" ; 
+}
