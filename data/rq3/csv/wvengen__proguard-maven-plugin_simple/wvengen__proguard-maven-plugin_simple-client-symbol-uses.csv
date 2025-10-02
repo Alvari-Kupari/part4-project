@@ -1,8 +1,8 @@
-Library_Name,Symbol_Type,Class_Name,Symbol_Name,Usage_Location,Line_Number
-CLIENT:client-code:N/A:N/A,MethodCallExpr,com.example.Example1,aMethod,C:\Users\tyin363\Documents\repos\wvengen__proguard-maven-plugin\src\it\simple\src\main\java\com\example\Main.java,5
-JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.lang.String,String,C:\Users\tyin363\Documents\repos\wvengen__proguard-maven-plugin\src\it\simple\src\main\java\com\example\Example1.java,4
-CLIENT:client-code:N/A:N/A,ClassOrInterfaceType,com.example.Example1,Example1,C:\Users\tyin363\Documents\repos\wvengen__proguard-maven-plugin\src\it\simple\src\main\java\com\example\Main.java,5
-JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.lang.String,String,C:\Users\tyin363\Documents\repos\wvengen__proguard-maven-plugin\src\it\simple\src\main\java\com\example\Main.java,4
-CLIENT:client-code:N/A:N/A,ObjectCreationExpr,com.example.Example1,Example1,C:\Users\tyin363\Documents\repos\wvengen__proguard-maven-plugin\src\it\simple\src\main\java\com\example\Main.java,5
-JDK:java.base:N/A:N/A,FieldAccessExpr,java.lang.System,out,C:\Users\tyin363\Documents\repos\wvengen__proguard-maven-plugin\src\it\simple\src\main\java\com\example\Main.java,5
-JDK:java.base:N/A:N/A,MethodCallExpr,java.io.PrintStream,printf,C:\Users\tyin363\Documents\repos\wvengen__proguard-maven-plugin\src\it\simple\src\main\java\com\example\Main.java,5
+Library_Name,Version,Is_Transitive,Symbol_Type,Class_Name,Symbol_Name,Usage_Location,Line_Number
+CLIENT:client-code,N/A,false,MethodCallExpr,com.example.Example1,aMethod,C:\Users\tyin363\Documents\repos\wvengen__proguard-maven-plugin\src\it\simple\src\main\java\com\example\Main.java,5
+JDK:java.base,N/A,false,ClassOrInterfaceType,java.lang.String,String,C:\Users\tyin363\Documents\repos\wvengen__proguard-maven-plugin\src\it\simple\src\main\java\com\example\Example1.java,4
+CLIENT:client-code,N/A,false,ClassOrInterfaceType,com.example.Example1,Example1,C:\Users\tyin363\Documents\repos\wvengen__proguard-maven-plugin\src\it\simple\src\main\java\com\example\Main.java,5
+JDK:java.base,N/A,false,ClassOrInterfaceType,java.lang.String,String,C:\Users\tyin363\Documents\repos\wvengen__proguard-maven-plugin\src\it\simple\src\main\java\com\example\Main.java,4
+CLIENT:client-code,N/A,false,ObjectCreationExpr,com.example.Example1,Example1,C:\Users\tyin363\Documents\repos\wvengen__proguard-maven-plugin\src\it\simple\src\main\java\com\example\Main.java,5
+JDK:java.base,N/A,false,FieldAccessExpr,java.lang.System,out,C:\Users\tyin363\Documents\repos\wvengen__proguard-maven-plugin\src\it\simple\src\main\java\com\example\Main.java,5
+JDK:java.base,N/A,false,MethodCallExpr,java.io.PrintStream,printf,C:\Users\tyin363\Documents\repos\wvengen__proguard-maven-plugin\src\it\simple\src\main\java\com\example\Main.java,5

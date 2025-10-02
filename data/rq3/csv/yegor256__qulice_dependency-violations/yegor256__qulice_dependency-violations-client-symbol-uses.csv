@@ -1,7 +1,4 @@
-Library_Name,Symbol_Type,Class_Name,Symbol_Name,Usage_Location,Line_Number
-JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.io.InputStream,InputStream,C:\Users\tyin363\Documents\repos\yegor256__qulice\qulice-maven-plugin\src\it\dependency-violations\src\main\java\com\qulice\foo\Sample.java,22
-commons-io:commons-io:jar:2.14.0,MethodCallExpr,org.apache.commons.io.IOUtils,toInputStream,C:\Users\tyin363\Documents\repos\yegor256__qulice\qulice-maven-plugin\src\it\dependency-violations\src\main\java\com\qulice\foo\Sample.java,23
-JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.io.IOException,IOException,C:\Users\tyin363\Documents\repos\yegor256__qulice\qulice-maven-plugin\src\it\dependency-violations\src\main\java\com\qulice\foo\Sample.java,22
-JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.io.InputStream,InputStream,C:\Users\tyin363\Documents\repos\yegor256__qulice\qulice-maven-plugin\target\it\dependency-violations\src\main\java\com\qulice\foo\Sample.java,22
-commons-io:commons-io:jar:2.14.0,MethodCallExpr,org.apache.commons.io.IOUtils,toInputStream,C:\Users\tyin363\Documents\repos\yegor256__qulice\qulice-maven-plugin\target\it\dependency-violations\src\main\java\com\qulice\foo\Sample.java,23
-JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.io.IOException,IOException,C:\Users\tyin363\Documents\repos\yegor256__qulice\qulice-maven-plugin\target\it\dependency-violations\src\main\java\com\qulice\foo\Sample.java,22
+Library_Name,Version,Is_Transitive,Symbol_Type,Class_Name,Symbol_Name,Usage_Location,Line_Number
+JDK:java.base,N/A,false,ClassOrInterfaceType,java.io.InputStream,InputStream,C:\Users\tyin363\Documents\repos\yegor256__qulice\qulice-maven-plugin\target\it\dependency-violations\src\main\java\com\qulice\foo\Sample.java,22
+commons-io:commons-io,2.14.0,false,MethodCallExpr,org.apache.commons.io.IOUtils,toInputStream,C:\Users\tyin363\Documents\repos\yegor256__qulice\qulice-maven-plugin\target\it\dependency-violations\src\main\java\com\qulice\foo\Sample.java,23
+JDK:java.base,N/A,false,ClassOrInterfaceType,java.io.IOException,IOException,C:\Users\tyin363\Documents\repos\yegor256__qulice\qulice-maven-plugin\target\it\dependency-violations\src\main\java\com\qulice\foo\Sample.java,22

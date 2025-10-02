@@ -1,8 +1,8 @@
-Library_Name,Symbol_Type,Class_Name,Symbol_Name,Usage_Location,Line_Number
-JDK:java.base:N/A:N/A,MethodCallExpr,java.lang.Class,getSimpleName,C:\Users\tyin363\Documents\repos\xuhuisheng__sonar-l10n-zh\src\main\java\org\sonar\plugins\l10n\ChinesePackPlugin.java,30
-org.sonarsource.api.plugin:sonar-plugin-api:jar:9.8.0.203,ClassOrInterfaceType,org.sonar.api.Plugin,Plugin,C:\Users\tyin363\Documents\repos\xuhuisheng__sonar-l10n-zh\src\main\java\org\sonar\plugins\l10n\ChinesePackPlugin.java,26
-JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.lang.String,String,C:\Users\tyin363\Documents\repos\xuhuisheng__sonar-l10n-zh\src\main\java\org\sonar\plugins\l10n\ChinesePackPlugin.java,29
-JDK:java.base:N/A:N/A,MethodCallExpr,java.lang.Object,getClass,C:\Users\tyin363\Documents\repos\xuhuisheng__sonar-l10n-zh\src\main\java\org\sonar\plugins\l10n\ChinesePackPlugin.java,30
-JDK:java.base:N/A:N/A,MethodCallExpr,java.util.Collections,emptyList,C:\Users\tyin363\Documents\repos\xuhuisheng__sonar-l10n-zh\src\main\java\org\sonar\plugins\l10n\ChinesePackPlugin.java,34
-,MethodCallExpr,org.sonar.api.Plugin.Context,addExtensions,C:\Users\tyin363\Documents\repos\xuhuisheng__sonar-l10n-zh\src\main\java\org\sonar\plugins\l10n\ChinesePackPlugin.java,34
-,ClassOrInterfaceType,org.sonar.api.Plugin.Context,Context,C:\Users\tyin363\Documents\repos\xuhuisheng__sonar-l10n-zh\src\main\java\org\sonar\plugins\l10n\ChinesePackPlugin.java,33
+Library_Name,Version,Is_Transitive,Symbol_Type,Class_Name,Symbol_Name,Usage_Location,Line_Number
+JDK:java.base,N/A,false,MethodCallExpr,java.lang.Class,getSimpleName,C:\Users\tyin363\Documents\repos\xuhuisheng__sonar-l10n-zh\src\main\java\org\sonar\plugins\l10n\ChinesePackPlugin.java,30
+org.sonarsource.api.plugin:sonar-plugin-api,9.8.0.203,false,ClassOrInterfaceType,org.sonar.api.Plugin,Plugin,C:\Users\tyin363\Documents\repos\xuhuisheng__sonar-l10n-zh\src\main\java\org\sonar\plugins\l10n\ChinesePackPlugin.java,26
+JDK:java.base,N/A,false,ClassOrInterfaceType,java.lang.String,String,C:\Users\tyin363\Documents\repos\xuhuisheng__sonar-l10n-zh\src\main\java\org\sonar\plugins\l10n\ChinesePackPlugin.java,29
+JDK:java.base,N/A,false,MethodCallExpr,java.lang.Object,getClass,C:\Users\tyin363\Documents\repos\xuhuisheng__sonar-l10n-zh\src\main\java\org\sonar\plugins\l10n\ChinesePackPlugin.java,30
+JDK:java.base,N/A,false,MethodCallExpr,java.util.Collections,emptyList,C:\Users\tyin363\Documents\repos\xuhuisheng__sonar-l10n-zh\src\main\java\org\sonar\plugins\l10n\ChinesePackPlugin.java,34
+,,false,MethodCallExpr,org.sonar.api.Plugin.Context,addExtensions,C:\Users\tyin363\Documents\repos\xuhuisheng__sonar-l10n-zh\src\main\java\org\sonar\plugins\l10n\ChinesePackPlugin.java,34
+,,false,ClassOrInterfaceType,org.sonar.api.Plugin.Context,Context,C:\Users\tyin363\Documents\repos\xuhuisheng__sonar-l10n-zh\src\main\java\org\sonar\plugins\l10n\ChinesePackPlugin.java,33

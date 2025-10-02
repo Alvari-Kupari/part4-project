@@ -1,5 +1,5 @@
-Library_Name,Symbol_Type,Class_Name,Symbol_Name,Usage_Location,Line_Number
-JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.util.List,List,C:\Users\tyin363\Documents\repos\xiaonuobase__Snowy\snowy-plugin-api\snowy-plugin-mobile-api\src\main\java\vip\xiaonuo\mobile\api\MobileMenuApi.java,50
-JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.lang.String,String,C:\Users\tyin363\Documents\repos\xiaonuobase__Snowy\snowy-plugin-api\snowy-plugin-mobile-api\src\main\java\vip\xiaonuo\mobile\api\MobileMenuApi.java,50
-JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.lang.String,String,C:\Users\tyin363\Documents\repos\xiaonuobase__Snowy\snowy-plugin-api\snowy-plugin-mobile-api\src\main\java\vip\xiaonuo\mobile\api\MobileButtonApi.java,31
-JDK:java.base:N/A:N/A,ClassOrInterfaceType,java.util.List,List,C:\Users\tyin363\Documents\repos\xiaonuobase__Snowy\snowy-plugin-api\snowy-plugin-mobile-api\src\main\java\vip\xiaonuo\mobile\api\MobileButtonApi.java,31
+Library_Name,Version,Is_Transitive,Symbol_Type,Class_Name,Symbol_Name,Usage_Location,Line_Number
+JDK:java.base,N/A,false,ClassOrInterfaceType,java.util.List,List,C:\Users\tyin363\Documents\repos\xiaonuobase__Snowy\snowy-plugin-api\snowy-plugin-mobile-api\src\main\java\vip\xiaonuo\mobile\api\MobileMenuApi.java,50
+JDK:java.base,N/A,false,ClassOrInterfaceType,java.lang.String,String,C:\Users\tyin363\Documents\repos\xiaonuobase__Snowy\snowy-plugin-api\snowy-plugin-mobile-api\src\main\java\vip\xiaonuo\mobile\api\MobileMenuApi.java,50
+JDK:java.base,N/A,false,ClassOrInterfaceType,java.lang.String,String,C:\Users\tyin363\Documents\repos\xiaonuobase__Snowy\snowy-plugin-api\snowy-plugin-mobile-api\src\main\java\vip\xiaonuo\mobile\api\MobileButtonApi.java,31
+JDK:java.base,N/A,false,ClassOrInterfaceType,java.util.List,List,C:\Users\tyin363\Documents\repos\xiaonuobase__Snowy\snowy-plugin-api\snowy-plugin-mobile-api\src\main\java\vip\xiaonuo\mobile\api\MobileButtonApi.java,31
