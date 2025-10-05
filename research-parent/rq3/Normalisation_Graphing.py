@@ -54,6 +54,43 @@ plt.ylabel('Normalised Transitive')
 plt.savefig(os.path.join(figures_folder, 'scatter_normalised_clipped.png'))
 plt.close()
 
+# --- only-direct (remove direct=0, keep all transitive) ---
+df_only_direct = df_clipped[df_clipped['normalised_direct_deps'] > offset]
+
+# --- only-transitive (remove transitive=0, keep all direct) ---
+df_only_transitive = df_clipped[df_clipped['normalised_transitive_deps'] > offset]
+
+# --- prepare combined dataframe for boxplot ---
+df_only_direct_box = df_only_direct[['normalised_direct_deps']].copy()
+df_only_direct_box.rename(columns={'normalised_direct_deps': 'Value'}, inplace=True)
+df_only_direct_box['Type'] = 'Direct (non-zero)'
+
+df_only_transitive_box = df_only_transitive[['normalised_transitive_deps']].copy()
+df_only_transitive_box.rename(columns={'normalised_transitive_deps': 'Value'}, inplace=True)
+df_only_transitive_box['Type'] = 'Transitive (non-zero)'
+
+df_only_combined = pd.concat([df_only_direct_box, df_only_transitive_box], axis=0)
+
+# --- combined boxplot ---
+plt.figure(figsize=(8,6))
+sns.boxplot(x='Type', y='Value', data=df_only_combined)
+plt.title('Comparison of Direct vs Transitive Dependencies (zeros removed per dimension)')
+plt.ylabel('Normalised Value')
+plt.savefig(os.path.join(figures_folder, 'boxplot_only_combined.png'))
+plt.close()
+
+
+
+# --- optional: summary prints for these datasets ---
+print("=== Only-transitive dataset summary ===")
+print(f"Total submodules with direct=0 and transitive>0: {len(df_only_transitive)}")
+print(df_only_transitive['normalised_transitive_deps'].describe(), "\n")
+
+print("=== Only-direct dataset summary ===")
+print(f"Total submodules with transitive=0 and direct>0: {len(df_only_direct)}")
+print(df_only_direct['normalised_direct_deps'].describe(), "\n")
+
+
 # --- create zero-removed dataset ---
 df_zero_removed = df_clipped[(df_clipped['normalised_direct_deps'] > offset) | 
                              (df_clipped['normalised_transitive_deps'] > offset)]
