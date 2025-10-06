@@ -1,0 +1,5 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.esotericsoftware:kryo,True,0.0,0.0,9
+com.google.guava:guava,True,0.0,0.0,5
+de.javakaffee:kryo-serializers,False,0.0,0.0,6
+org.jpmml:pmml-model-kryo,False,0.0,0.0,2

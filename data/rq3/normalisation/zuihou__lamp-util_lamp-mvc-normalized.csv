@@ -1,0 +1,4 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+cn.hutool:hutool-all,False,0.0,0.0,13
+cn.idev.excel:fastexcel-core,True,0.0,0.0,9
+com.google.guava:guava,False,0.0,0.0,6

@@ -1,0 +1,16 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.fasterxml.jackson.core:jackson-databind,True,0.0,0.0,1
+com.naturalprogrammer.spring-lemon:spring-lemon-commons,False,0.0,0.0,14
+com.naturalprogrammer.spring-lemon:spring-lemon-exceptions,True,0.0,0.0,12
+com.nimbusds:nimbus-jose-jwt,True,0.0,0.0,1
+org.apache.tomcat.embed:tomcat-embed-core,True,0.0,0.0,11
+org.springframework.boot:spring-boot,True,0.0,0.0,6
+org.springframework.boot:spring-boot-autoconfigure,True,0.0,0.0,11
+org.springframework.data:spring-data-commons,True,0.0,0.0,1
+org.springframework.security:spring-security-config,True,0.0,0.0,12
+org.springframework.security:spring-security-core,True,0.0,0.0,7
+org.springframework.security:spring-security-web,True,0.0,0.0,4
+org.springframework:spring-context,True,0.0,0.0,1
+org.springframework:spring-core,True,0.0,0.0,1
+org.springframework:spring-jcl,True,0.0,0.0,4
+org.springframework:spring-web,True,0.0,0.0,25

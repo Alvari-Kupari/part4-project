@@ -1,0 +1,8 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.fasterxml.jackson.core:jackson-databind,True,0.0,0.0,1
+org.redisson:redisson,True,0.0,0.0,89
+org.redisson:redisson-spring-boot-starter,False,0.0,0.0,1
+org.springframework.boot:spring-boot,True,0.0,0.0,1
+org.springframework:spring-context,True,0.0,0.0,8
+org.springframework:spring-context-support,True,0.0,0.0,2
+org.springframework:spring-core,True,0.0,0.0,1

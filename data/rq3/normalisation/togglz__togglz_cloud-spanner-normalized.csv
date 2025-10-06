@@ -1,0 +1,3 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.google.cloud:google-cloud-spanner,False,0.0,0.0,18
+org.togglz:togglz-core,False,0.0,0.0,12

@@ -1,0 +1,14 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.google.auth:google-auth-library-oauth2-http,False,0.0,0.0,3
+commons-logging:commons-logging,True,0.0,0.0,6
+io.micrometer:micrometer-observation,True,0.0,0.0,2
+io.projectreactor.netty:reactor-netty-http,True,0.0,0.0,1
+io.projectreactor:reactor-core,False,0.0,0.0,7
+org.springframework.vault:spring-vault-core,False,0.0,0.0,194
+org.springframework:spring-beans,True,0.0,0.0,21
+org.springframework:spring-context,True,0.0,0.0,14
+org.springframework:spring-core,True,0.0,0.0,46
+org.springframework:spring-web,False,0.0,0.0,12
+org.springframework:spring-webflux,False,0.0,0.0,3
+software.amazon.awssdk:auth,False,0.0,0.0,5
+software.amazon.awssdk:regions,True,0.0,0.0,1

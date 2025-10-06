@@ -1,0 +1,14 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+org.apache.httpcomponents:httpcore,True,0.0,0.0,2
+org.apache.solr:solr-solrj,False,0.0,0.0,2
+org.mongodb:mongodb-driver-sync,False,0.0,0.0,1
+org.slf4j:slf4j-api,True,0.0,0.0,3
+org.springframework.boot:spring-boot,True,0.0,0.0,9
+org.springframework.boot:spring-boot-autoconfigure,False,0.0,0.0,5
+org.springframework.data:spring-data-rest-webmvc,False,0.0,0.0,1
+org.springframework:spring-beans,True,0.0,0.0,2
+org.springframework:spring-context,True,0.0,0.0,3
+org.springframework:spring-core,True,0.0,0.0,7
+org.springframework:spring-jdbc,True,0.0,0.0,3
+org.springframework:spring-web,True,0.0,0.0,2
+software.amazon.awssdk:auth,True,0.0,0.0,3

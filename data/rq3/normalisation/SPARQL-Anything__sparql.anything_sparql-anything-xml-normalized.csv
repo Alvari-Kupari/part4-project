@@ -1,0 +1,3 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.ximpleware:vtd-xml,False,0.0,0.0,26
+org.slf4j:slf4j-api,False,0.0,0.0,6

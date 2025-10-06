@@ -1,0 +1,9 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+io.springfox:springfox-core,True,0.0,0.0,22
+io.springfox:springfox-spi,True,0.0,0.0,7
+io.springfox:springfox-spring-web,True,0.0,0.0,12
+io.springfox:springfox-spring-webflux,True,0.0,0.0,1
+io.springfox:springfox-spring-webmvc,True,0.0,0.0,1
+org.springframework:spring-beans,True,0.0,0.0,2
+org.springframework:spring-core,True,0.0,0.0,1
+org.springframework:spring-webmvc,True,0.0,0.0,5

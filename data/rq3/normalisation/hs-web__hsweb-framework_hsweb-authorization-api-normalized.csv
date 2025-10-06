@@ -1,0 +1,9 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.alibaba:fastjson,False,0.0,0.0,15
+io.micrometer:context-propagation,False,0.0,0.0,1
+io.netty:netty-common,True,0.0,0.0,5
+io.projectreactor:reactor-core,True,0.0,0.0,48
+org.springframework.data:spring-data-redis,False,0.0,0.0,26
+org.springframework:spring-beans,True,0.0,0.0,1
+org.springframework:spring-context,True,0.0,0.0,2
+org.springframework:spring-core,True,0.0,0.0,3

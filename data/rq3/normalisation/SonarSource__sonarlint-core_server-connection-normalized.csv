@@ -1,0 +1,9 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.google.protobuf:protobuf-java,False,0.0,0.0,4
+commons-codec:commons-codec,False,0.0,0.0,2
+commons-io:commons-io,False,0.0,0.0,6
+org.apache.commons:commons-compress,False,0.0,0.0,9
+org.jetbrains.xodus:xodus-compress,True,0.0,0.0,1
+org.jetbrains.xodus:xodus-entity-store,False,0.0,0.0,2
+org.jetbrains.xodus:xodus-environment,False,0.0,0.0,1
+org.jetbrains.xodus:xodus-openAPI,True,0.0,0.0,45

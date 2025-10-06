@@ -1,0 +1,5 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.fasterxml.jackson.core:jackson-core,False,0.0,0.0,24
+com.fasterxml.jackson.core:jackson-databind,False,0.023255813953488372,1.0,43
+com.graphhopper.external:jackson-datatype-jts,False,0.0,0.0,2
+org.locationtech.jts:jts-core,True,0.0,0.0,22

@@ -1,0 +1,5 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+cn.hutool:hutool-core,True,0.0,0.0,1
+com.alibaba.fastjson2:fastjson2,True,0.0,0.0,2
+com.dtflys.forest:forest-core,True,0.0,0.0,12
+org.springframework.boot:spring-boot,True,0.0,0.0,2

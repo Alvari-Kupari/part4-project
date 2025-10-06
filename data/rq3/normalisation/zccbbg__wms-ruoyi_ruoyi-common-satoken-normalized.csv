@@ -1,0 +1,6 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+cn.dev33:sa-token-core,True,0.3684210526315789,7.0,19
+cn.dev33:sa-token-jwt,False,0.0,0.0,2
+cn.hutool:hutool-core,True,0.0,0.0,2
+com.github.ben-manes.caffeine:caffeine,False,0.0,0.0,8
+jakarta.servlet:jakarta.servlet-api,True,0.0,0.0,2

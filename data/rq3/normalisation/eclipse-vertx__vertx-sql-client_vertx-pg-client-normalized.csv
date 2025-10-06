@@ -1,0 +1,5 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.ongres.scram:scram-common,True,0.0,0.0,7
+io.netty:netty-buffer,True,0.0,0.0,46
+io.netty:netty-common,True,0.0,0.0,10
+io.netty:netty-transport,True,0.0,0.0,23

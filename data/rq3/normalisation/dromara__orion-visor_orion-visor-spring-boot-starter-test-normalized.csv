@@ -1,0 +1,7 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.github.fppt:jedis-mock,False,0.0,0.0,3
+javax.validation:validation-api,True,0.0,0.0,4
+org.junit.jupiter:junit-jupiter-api,True,0.0,0.0,1
+org.springframework.boot:spring-boot,True,0.0,0.0,11
+org.springframework.boot:spring-boot-autoconfigure,True,0.0,0.0,12
+uk.co.jemos.podam:podam,False,0.0,0.0,8

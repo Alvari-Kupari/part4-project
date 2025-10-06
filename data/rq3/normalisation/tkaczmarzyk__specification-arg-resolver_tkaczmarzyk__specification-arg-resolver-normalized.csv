@@ -1,0 +1,13 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.google.code.gson:gson,False,0.0,0.0,14
+io.github.classgraph:classgraph,False,0.0,0.0,9
+jakarta.persistence:jakarta.persistence-api,False,0.07894736842105263,3.0,38
+jakarta.servlet:jakarta.servlet-api,False,0.0,0.0,5
+org.apache.commons:commons-lang3,False,0.0,0.0,5
+org.springframework.data:spring-data-jpa,False,0.0,0.0,4
+org.springframework:spring-beans,True,0.0,0.0,4
+org.springframework:spring-context,True,0.0,0.0,2
+org.springframework:spring-core,True,0.0,0.0,19
+org.springframework:spring-expression,True,0.0,0.0,1
+org.springframework:spring-web,False,0.0,0.0,17
+org.springframework:spring-webmvc,False,0.0,0.0,1

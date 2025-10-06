@@ -1,0 +1,5 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+io.agroal:agroal-api,True,0.0,0.0,1
+io.agroal:agroal-narayana,False,0.0,0.0,2
+org.jboss.narayana.jta:narayana-jta,False,0.0,0.0,8
+org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec,True,0.0,0.0,3

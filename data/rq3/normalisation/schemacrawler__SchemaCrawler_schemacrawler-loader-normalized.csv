@@ -1,0 +1,6 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.fasterxml.jackson.core:jackson-databind,False,0.0,0.0,3
+com.fasterxml.jackson.dataformat:jackson-dataformat-yaml,False,0.0,0.0,2
+us.fatehi:schemacrawler-api,True,0.01694915254237288,1.0,59
+us.fatehi:schemacrawler-tools,False,0.0,0.0,12
+us.fatehi:schemacrawler-utility,True,0.0,0.0,23

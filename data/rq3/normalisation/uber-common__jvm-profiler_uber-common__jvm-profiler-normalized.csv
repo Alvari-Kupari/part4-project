@@ -1,0 +1,6 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.fasterxml.jackson.core:jackson-core,False,0.0,0.0,2
+com.fasterxml.jackson.core:jackson-databind,False,0.6,3.0,5
+org.apache.commons:commons-lang3,False,0.0,0.0,5
+org.apache.httpcomponents:httpcore,True,0.0,0.0,4
+org.yaml:snakeyaml,False,0.6666666666666666,2.0,3

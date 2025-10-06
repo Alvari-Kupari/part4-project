@@ -1,0 +1,8 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+commons-beanutils:commons-beanutils,False,0.0,0.0,2
+commons-io:commons-io,False,0.0,0.0,4
+net.coobird:thumbnailator,False,0.0,0.0,1
+org.apache.commons:commons-lang3,False,0.0,0.0,5
+org.apache.commons:commons-pool2,False,0.0,0.0,39
+org.slf4j:slf4j-api,False,0.0,0.0,6
+org.springframework:spring-core,False,0.0,0.0,1

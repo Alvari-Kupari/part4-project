@@ -1,0 +1,4 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+org.apache.httpcomponents:httpcore,True,0.0,0.0,13
+org.apache.jackrabbit:jackrabbit-webdav,False,0.0,0.0,73
+xml-apis:xml-apis,True,0.0,0.0,3

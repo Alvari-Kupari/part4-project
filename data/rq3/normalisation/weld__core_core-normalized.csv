@@ -1,0 +1,13 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+io.smallrye:jandex,False,0.0,0.0,5
+io.undertow:undertow-servlet,False,0.0,0.0,18
+jakarta.el:jakarta.el-api,False,0.0,0.0,8
+jakarta.enterprise:jakarta.enterprise.cdi-api,True,0.0,0.0,11
+jakarta.enterprise:jakarta.enterprise.cdi-el-api,True,0.0,0.0,3
+jakarta.faces:jakarta.faces-api,False,0.0,0.0,12
+jakarta.servlet.jsp:jakarta.servlet.jsp-api,False,0.0,0.0,5
+jakarta.servlet:jakarta.servlet-api,False,0.0,0.0,19
+org.apache.tomcat:tomcat-api,True,0.0,0.0,3
+org.apache.tomcat:tomcat-catalina,False,0.0,0.0,3
+org.jboss.logging:jboss-logging,False,0.0,0.0,1
+org.jboss.weld:weld-spi,False,0.0,0.0,48

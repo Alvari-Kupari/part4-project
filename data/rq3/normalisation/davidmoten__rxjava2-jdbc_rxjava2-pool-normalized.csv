@@ -1,0 +1,5 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.github.davidmoten:guava-mini,False,0.0,0.0,2
+io.reactivex.rxjava2:rxjava,False,0.0,0.0,32
+org.reactivestreams:reactive-streams,True,0.0,0.0,6
+org.slf4j:slf4j-api,False,0.0,0.0,3

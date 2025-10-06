@@ -1,0 +1,14 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+commons-chain:commons-chain,False,0.0,0.0,12
+commons-cli:commons-cli,False,0.0,0.0,18
+commons-digester:commons-digester,False,0.0,0.0,4
+commons-io:commons-io,True,0.0,0.0,1
+commons-logging:commons-logging,True,0.0,0.0,7
+javax.jcr:jcr,False,0.0,0.0,122
+jline:jline,False,0.0,0.0,13
+org.apache.commons:commons-collections4,False,0.0,0.0,6
+org.eclipse.jetty:jetty-server,False,0.0,0.0,18
+org.eclipse.jetty:jetty-servlet,True,0.0,0.0,4
+org.eclipse.jetty:jetty-util,False,0.0,0.0,2
+org.eclipse.jetty:jetty-webapp,False,0.0,0.0,6
+xml-apis:xml-apis,True,0.0,0.0,1

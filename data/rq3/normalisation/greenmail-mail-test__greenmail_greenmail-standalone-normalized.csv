@@ -1,0 +1,9 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.fasterxml.jackson.core:jackson-core,True,0.0,0.0,3
+com.fasterxml.jackson.core:jackson-databind,True,0.0,0.0,7
+jakarta.ws.rs:jakarta.ws.rs-api,True,0.0,0.0,7
+org.apache.logging.log4j:log4j-core,False,0.0,0.0,1
+org.glassfish.jersey.core:jersey-server,True,0.0,0.0,4
+org.glassfish.jersey.media:jersey-media-json-jackson,False,0.0,0.0,1
+org.slf4j:jul-to-slf4j,False,0.0,0.0,2
+org.slf4j:slf4j-api,False,0.0,0.0,4

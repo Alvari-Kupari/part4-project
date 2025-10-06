@@ -1,0 +1,7 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+info.picocli:picocli,False,0.0,0.0,3
+org.eclipse.jetty.ee10:jetty-ee10-servlet,True,0.0,0.0,2
+org.eclipse.jetty.ee10:jetty-ee10-webapp,False,0.2,2.0,10
+org.eclipse.jetty:jetty-server,False,0.0,0.0,16
+org.eclipse.jetty:jetty-util,True,0.0,0.0,4
+org.slf4j:slf4j-api,False,0.0,0.0,3

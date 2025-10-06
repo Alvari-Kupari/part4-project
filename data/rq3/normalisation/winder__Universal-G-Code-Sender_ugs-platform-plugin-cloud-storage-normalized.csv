@@ -1,0 +1,4 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+io.minio:minio,False,0.2,3.0,15
+org.netbeans.api:org-openide-util,False,0.0,0.0,2
+org.netbeans.api:org-openide-util-lookup,False,0.0,0.0,1

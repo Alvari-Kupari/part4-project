@@ -1,0 +1,9 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+org.netbeans.api:org-netbeans-modules-options-api,False,0.0,0.0,3
+org.netbeans.api:org-openide-filesystems,False,0.0,0.0,23
+org.netbeans.api:org-openide-loaders,False,0.0,0.0,11
+org.netbeans.api:org-openide-nodes,False,0.0,0.0,3
+org.netbeans.api:org-openide-util,False,0.0,0.0,1
+org.netbeans.api:org-openide-util-lookup,False,0.0,0.0,8
+org.netbeans.api:org-openide-util-ui,False,0.0,0.0,1
+org.netbeans.api:org-openide-windows,False,0.0,0.0,5

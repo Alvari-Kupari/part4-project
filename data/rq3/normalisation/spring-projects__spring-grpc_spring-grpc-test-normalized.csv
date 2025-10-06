@@ -1,0 +1,6 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+io.grpc:grpc-api,True,0.0,0.0,2
+io.grpc:grpc-inprocess,False,0.0,0.0,4
+org.springframework.boot:spring-boot,True,0.0,0.0,4
+org.springframework:spring-context,True,0.0,0.0,7
+org.springframework:spring-core,True,0.0,0.0,12

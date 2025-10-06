@@ -1,0 +1,14 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.google.code.gson:gson,True,0.0,0.0,18
+com.google.guava:guava,True,0.0,0.0,7
+com.google.inject:guice,True,0.0,0.0,2
+commons-logging:commons-logging,True,0.0,0.0,5
+javax.servlet:javax.servlet-api,True,0.0,0.0,1
+org.apache.commons:commons-lang3,True,0.0,0.0,2
+org.apache.hadoop:hadoop-common,False,0.0,0.0,70
+org.apache.hadoop:hadoop-yarn-api,True,0.0,0.0,17
+org.apache.hadoop:hadoop-yarn-common,False,0.0,0.0,39
+org.eclipse.jetty:jetty-server,True,0.0,0.0,2
+org.eclipse.jetty:jetty-servlet,True,0.0,0.0,6
+org.eclipse.jetty:jetty-webapp,True,0.0,0.0,2
+org.slf4j:slf4j-api,True,0.0,0.0,1

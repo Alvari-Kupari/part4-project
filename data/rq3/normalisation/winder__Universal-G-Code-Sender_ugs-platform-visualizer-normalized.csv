@@ -1,0 +1,10 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.breiler.jcsg:jcsg-core,False,0.0,0.0,36
+commons-io:commons-io,True,0.0,0.0,1
+javax.vecmath:vecmath,True,0.0,0.0,3
+org.netbeans.api:org-netbeans-modules-options-api,False,0.0,0.0,2
+org.netbeans.api:org-openide-awt,False,0.0,0.0,2
+org.netbeans.api:org-openide-util,False,0.0,0.0,1
+org.netbeans.api:org-openide-util-lookup,False,0.0,0.0,2
+org.netbeans.api:org-openide-util-ui,False,0.0,0.0,1
+org.netbeans.api:org-openide-windows,False,0.0,0.0,10

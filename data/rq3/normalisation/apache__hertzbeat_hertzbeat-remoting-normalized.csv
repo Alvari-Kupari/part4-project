@@ -1,0 +1,6 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+io.netty:netty-codec,True,2.4444444444444446,22.0,9
+io.netty:netty-common,True,0.0,0.0,1
+io.netty:netty-handler,True,0.0,0.0,5
+io.netty:netty-transport,True,0.47058823529411764,16.0,34
+io.netty:netty-transport-classes-epoll,True,0.5,2.0,4

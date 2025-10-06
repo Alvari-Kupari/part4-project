@@ -1,0 +1,4 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.google.guava:guava,True,0.0,0.0,2
+org.apache.calcite:calcite-core,False,0.08695652173913043,12.0,138
+org.apache.calcite:calcite-linq4j,True,0.0,0.0,2

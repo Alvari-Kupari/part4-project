@@ -1,0 +1,4 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+io.dropwizard.metrics:metrics-core,False,0.0,0.0,22
+org.mpierce.metrics.reservoir:hdrhistogram-metrics-reservoir,False,0.0,0.0,2
+org.openidentityplatform.commons.i18n-framework:core,False,0.0,0.0,8

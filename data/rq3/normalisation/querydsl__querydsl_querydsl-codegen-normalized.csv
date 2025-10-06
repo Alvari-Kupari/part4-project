@@ -1,0 +1,5 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.querydsl:codegen-utils,False,0.0,0.0,95
+com.querydsl:querydsl-core,False,0.0,0.0,62
+io.github.classgraph:classgraph,False,0.0,0.0,8
+javax.inject:javax.inject,False,0.0,0.0,3

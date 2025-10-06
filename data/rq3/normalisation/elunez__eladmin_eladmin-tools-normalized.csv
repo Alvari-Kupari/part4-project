@@ -1,0 +1,13 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.alipay.sdk:alipay-sdk-java,False,0.0,0.0,9
+commons-io:commons-io,True,0.0,0.0,1
+org.apache.tomcat.embed:tomcat-embed-core,True,0.0,0.0,4
+org.springframework.data:spring-data-commons,True,0.0,0.0,7
+org.springframework.data:spring-data-jpa,True,0.0,0.0,3
+org.springframework:spring-web,True,0.0,0.0,7
+software.amazon.awssdk:auth,True,0.0,0.0,2
+software.amazon.awssdk:aws-core,True,0.0,0.0,4
+software.amazon.awssdk:regions,True,0.0,0.0,1
+software.amazon.awssdk:s3,False,0.0,0.0,24
+software.amazon.awssdk:sdk-core,True,0.0,0.0,8
+software.amazon.awssdk:utils,True,0.0,0.0,1

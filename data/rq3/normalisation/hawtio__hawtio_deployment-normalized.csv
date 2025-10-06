@@ -1,0 +1,10 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+io.quarkus:quarkus-arc-deployment,True,0.0,0.0,1
+io.quarkus:quarkus-core-deployment,True,0.0,0.0,14
+io.quarkus:quarkus-undertow-spi,True,0.0,0.0,7
+io.quarkus:quarkus-vertx-http-deployment,True,0.0,0.0,4
+io.quarkus:quarkus-vertx-http-dev-ui-spi,True,0.0,0.0,7
+io.smallrye.config:smallrye-config-core,True,0.0,0.0,5
+jakarta.servlet:jakarta.servlet-api,True,0.0,0.0,1
+org.jboss.metadata:jboss-metadata-common,True,0.0,0.0,5
+org.jboss.metadata:jboss-metadata-web,True,0.0,0.0,25

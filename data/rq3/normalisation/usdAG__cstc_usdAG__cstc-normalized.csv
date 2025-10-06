@@ -1,0 +1,7 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.auth0:java-jwt,False,0.0,0.0,11
+com.fasterxml.jackson.core:jackson-core,False,0.0,0.0,3
+com.fasterxml.jackson.core:jackson-databind,False,0.0,0.0,27
+com.jayway.jsonpath:json-path,False,0.0,0.0,11
+net.portswigger.burp.extensions:montoya-api,False,0.09580838323353294,16.0,167
+org.apache.commons:commons-lang3,True,0.0,0.0,2

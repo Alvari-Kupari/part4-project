@@ -1,0 +1,4 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+cn.hutool:hutool-all,False,0.0,0.0,1
+com.aliyun.oss:aliyun-sdk-oss,False,0.3333333333333333,2.0,6
+org.springframework:spring-web,True,0.0,0.0,5

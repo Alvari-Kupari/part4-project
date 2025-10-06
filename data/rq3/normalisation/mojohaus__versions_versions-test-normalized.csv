@@ -1,0 +1,11 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+org.apache.commons:commons-lang3,True,0.0,0.0,2
+org.apache.commons:commons-text,False,0.0,0.0,1
+org.apache.maven.doxia:doxia-integration-tools,False,0.0,0.0,2
+org.apache.maven.resolver:maven-resolver-api,False,0.0,0.0,26
+org.apache.maven.resolver:maven-resolver-util,False,0.0,0.0,3
+org.apache.maven:maven-artifact,False,0.0,0.0,2
+org.apache.maven:maven-core,False,0.0,0.0,13
+org.apache.maven:maven-plugin-api,True,0.0,0.0,1
+org.codehaus.plexus:plexus-i18n,True,0.0,0.0,1
+org.mockito:mockito-core,False,0.0,0.0,8

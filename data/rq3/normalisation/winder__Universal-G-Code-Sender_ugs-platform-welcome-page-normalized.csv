@@ -1,0 +1,4 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+org.netbeans.api:org-openide-util,False,0.0,0.0,1
+org.netbeans.api:org-openide-util-ui,False,0.0,0.0,1
+org.netbeans.api:org-openide-windows,False,0.0,0.0,5

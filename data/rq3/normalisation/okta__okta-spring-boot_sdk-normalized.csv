@@ -1,0 +1,10 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.okta.commons:okta-commons-lang,False,0.0,0.0,2
+com.okta.commons:okta-config-check,True,0.0,0.0,5
+com.okta.commons:okta-http-api,True,0.0,0.0,2
+com.okta.sdk:okta-sdk-api,False,0.0,0.0,15
+org.springframework.boot:spring-boot,False,0.0,0.0,5
+org.springframework.boot:spring-boot-autoconfigure,False,0.0,0.0,4
+org.springframework:spring-beans,True,0.0,0.0,1
+org.springframework:spring-context,True,0.0,0.0,8
+org.springframework:spring-core,True,0.0,0.0,15

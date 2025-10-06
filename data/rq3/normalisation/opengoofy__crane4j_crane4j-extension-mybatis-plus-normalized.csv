@@ -1,0 +1,5 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+cn.crane4j:crane4j-annotation,True,0.0,0.0,1
+cn.crane4j:crane4j-core,False,0.0,0.0,18
+com.baomidou:mybatis-plus-core,False,0.0625,1.0,16
+org.springframework:spring-core,False,0.0,0.0,3

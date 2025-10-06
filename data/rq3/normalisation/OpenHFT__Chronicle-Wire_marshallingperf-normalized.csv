@@ -1,0 +1,6 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+net.openhft:affinity,True,0.0,0.0,2
+net.openhft:chronicle-bytes,False,0.0,0.0,27
+net.openhft:chronicle-core,False,0.0,0.0,7
+net.openhft:chronicle-test-framework,False,0.0,0.0,1
+net.openhft:jlbh,False,0.0,0.0,1

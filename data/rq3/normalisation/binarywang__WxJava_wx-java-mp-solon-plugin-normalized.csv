@@ -1,0 +1,5 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.github.binarywang:weixin-java-common,True,0.0,0.0,3
+com.github.binarywang:weixin-java-mp,False,0.0,0.0,17
+org.apache.commons:commons-pool2,True,0.0,0.0,2
+org.noear:solon,False,0.0,0.0,4

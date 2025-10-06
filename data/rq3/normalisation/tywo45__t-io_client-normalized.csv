@@ -1,0 +1,7 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+io.reactivex.rxjava2:rxjava,False,0.0,0.0,15
+org.slf4j:slf4j-api,True,0.0,0.0,5
+org.t-io:tio-core,True,0.0,0.0,35
+org.t-io:tio-http-common,True,0.0,0.0,34
+org.t-io:tio-utils,True,0.0,0.0,12
+org.t-io:tio-websocket-common,False,0.0,0.0,34

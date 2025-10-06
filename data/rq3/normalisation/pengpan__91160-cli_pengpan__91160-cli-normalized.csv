@@ -1,0 +1,14 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+cn.hutool:hutool-all,False,0.0,0.0,60
+com.ejlchina:data-core,True,0.0,0.0,3
+com.ejlchina:data-jackson,True,0.0,0.0,2
+com.ejlchina:jsonkit-core,True,0.0,0.0,5
+com.fasterxml.jackson.core:jackson-databind,True,0.0,0.0,3
+com.jayway.jsonpath:json-path,False,0.0,0.0,1
+com.squareup.okhttp3:logging-interceptor,False,0.0,0.0,4
+com.squareup.okhttp3:okhttp,False,0.0,0.0,29
+com.squareup.retrofit2:converter-jackson,False,0.0,0.0,1
+com.squareup.retrofit2:retrofit,False,0.0,0.0,17
+io.airlift:airline,False,0.0,0.0,4
+org.jsoup:jsoup,False,0.5384615384615384,7.0,13
+org.springframework:spring-context,False,0.0,0.0,16

@@ -1,0 +1,4 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+io.github.bes2008.solution.sqlhelper:sqlhelper-dialect,False,0.11538461538461539,3.0,26
+org.hibernate:hibernate-core,False,0.0,0.0,15
+org.slf4j:slf4j-api,False,0.0,0.0,3

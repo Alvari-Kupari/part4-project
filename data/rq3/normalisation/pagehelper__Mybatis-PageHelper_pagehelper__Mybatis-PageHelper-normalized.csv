@@ -1,0 +1,9 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.alibaba:druid,False,0.0,0.0,2
+com.github.jsqlparser:jsqlparser,False,0.042105263157894736,4.0,95
+com.google.guava:guava,False,0.0,0.0,10
+com.mchange:c3p0,False,1.0,2.0,2
+com.zaxxer:HikariCP-java6,False,0.0,0.0,2
+org.apache.commons:commons-dbcp2,False,0.0,0.0,2
+org.apache.tomcat:tomcat-jdbc,False,0.0,0.0,2
+org.mybatis:mybatis,False,0.0,0.0,93

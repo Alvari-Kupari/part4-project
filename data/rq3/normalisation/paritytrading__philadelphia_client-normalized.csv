@@ -1,0 +1,3 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.typesafe:config,False,0.0,0.0,5
+org.jline:jline-reader,False,0.0,0.0,12

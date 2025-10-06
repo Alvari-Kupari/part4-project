@@ -1,0 +1,11 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+jakarta.persistence:jakarta.persistence-api,True,0.0,0.0,2
+org.apache.commons:commons-lang3,True,0.0,0.0,1
+org.apache.tomcat.embed:tomcat-embed-core,True,0.0,0.0,22
+org.springframework.boot:spring-boot,True,0.0,0.0,6
+org.springframework:spring-core,True,0.0,0.0,1
+org.springframework:spring-web,True,0.0,0.0,5
+org.springframework:spring-webmvc,True,0.0,0.0,5
+xyz.erupt:erupt-annotation,True,0.0,0.0,1
+xyz.erupt:erupt-core,True,0.0,0.0,29
+xyz.erupt:erupt-upms,False,0.0,0.0,37

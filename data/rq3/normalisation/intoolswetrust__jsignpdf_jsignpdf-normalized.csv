@@ -1,0 +1,8 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.github.kwart.jsign:jsign-jpedal,False,0.0,0.0,6
+com.github.librepdf:openpdf,False,0.041666666666666664,5.0,120
+com.github.rjolly:pdf-renderer,False,0.0,0.0,9
+commons-cli:commons-cli,False,0.4090909090909091,9.0,22
+commons-io:commons-io,False,0.0,0.0,12
+org.apache.commons:commons-lang3,False,0.0,0.0,14
+org.apache.pdfbox:pdfbox,False,0.0,0.0,6

@@ -1,0 +1,8 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+org.apache.ratis:ratis-common,False,0.0,0.0,35
+org.apache.ratis:ratis-grpc,False,0.0,0.0,3
+org.apache.ratis:ratis-server,False,0.0,0.0,18
+org.apache.ratis:ratis-server-api,True,0.0,0.0,22
+org.apache.ratis:ratis-thirdparty-misc,False,0.0,0.0,7
+org.apache.ratis:ratis-tools,False,0.0,0.0,2
+org.slf4j:slf4j-api,False,0.0,0.0,6

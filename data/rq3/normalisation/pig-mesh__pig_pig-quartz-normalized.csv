@@ -1,0 +1,12 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.baomidou:mybatis-plus-core,True,0.0,0.0,8
+com.baomidou:mybatis-plus-extension,True,0.0,0.0,7
+com.baomidou:mybatis-plus-spring,True,0.0,0.0,3
+org.quartz-scheduler:quartz,True,0.0,0.0,48
+org.springframework.boot:spring-boot,True,0.0,0.0,1
+org.springframework.boot:spring-boot-autoconfigure,True,0.0,0.0,4
+org.springframework:spring-beans,True,0.0,0.0,6
+org.springframework:spring-context,True,0.0,0.0,4
+org.springframework:spring-context-support,True,0.0,0.0,11
+org.springframework:spring-core,True,0.0,0.0,2
+org.springframework:spring-web,True,0.0,0.0,1

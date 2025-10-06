@@ -1,0 +1,7 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.google.guava:guava,False,0.0,0.0,3
+javax.servlet:javax.servlet-api,False,0.0,0.0,15
+org.springframework.boot:spring-boot,False,0.0,0.0,2
+org.springframework:spring-context,True,0.0,0.0,6
+org.springframework:spring-web,True,0.0,0.0,1
+org.springframework:spring-webmvc,False,0.0,0.0,1

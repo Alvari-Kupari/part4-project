@@ -1,0 +1,3 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+jakarta.platform:jakarta.jakartaee-api,False,0.0,0.0,35
+jakarta.xml.bind:jakarta.xml.bind-api,False,0.0,0.0,4

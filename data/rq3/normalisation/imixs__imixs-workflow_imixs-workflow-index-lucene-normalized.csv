@@ -1,0 +1,6 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+jakarta.platform:jakarta.jakartaee-api,False,0.0,0.0,1
+org.apache.lucene:lucene-analyzers-common,False,0.0,0.0,4
+org.apache.lucene:lucene-core,False,0.0,0.0,52
+org.apache.lucene:lucene-facet,False,0.0,0.0,25
+org.apache.lucene:lucene-queryparser,False,0.0,0.0,7

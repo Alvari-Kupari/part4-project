@@ -1,0 +1,5 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+antlr:antlr,False,0.0,0.0,93
+com.fasterxml.jackson.core:jackson-core,False,0.0,0.0,2
+com.fasterxml.jackson.core:jackson-databind,False,0.0,0.0,44
+commons-logging:commons-logging,False,0.0,0.0,6

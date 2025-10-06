@@ -1,0 +1,14 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.fasterxml.jackson.core:jackson-core,True,0.0,0.0,5.0
+com.fasterxml.jackson.core:jackson-databind,False,0.125,4.0,32.0
+com.fasterxml.jackson.core:jackson-databind,True,0.0,19.0,0.0
+com.google.guava:guava,True,0.0,0.0,5.0
+commons-cli:commons-cli,False,0.047619047619047616,1.0,21.0
+io.dropwizard.metrics:metrics-jmx,False,0.0,0.0,1.0
+jakarta.ws.rs:jakarta.ws.rs-api,True,0.0,0.0,16.0
+javax.servlet:javax.servlet-api,True,0.0,0.0,7.0
+javax.ws.rs:jsr311-api,True,0.0,0.0,13.0
+org.apache.commons:commons-lang3,False,0.0,0.0,1.0
+org.eclipse.jetty:jetty-util,True,0.0,0.0,1.0
+org.slf4j:slf4j-api,False,0.0,0.0,6.0
+org.yaml:snakeyaml,False,0.0,0.0,3.0

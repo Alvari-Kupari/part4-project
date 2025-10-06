@@ -1,0 +1,11 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.alibaba:easyexcel-core,True,0.0,0.0,14
+com.auth0:java-jwt,False,0.0,0.0,12
+com.fasterxml.jackson.core:jackson-databind,True,0.0,0.0,8
+commons-io:commons-io,True,0.0,0.0,3
+org.apache.commons:commons-lang3,False,0.0,0.0,17
+org.slf4j:slf4j-api,True,0.0,0.0,9
+org.springframework.security:spring-security-core,True,0.0,0.0,4
+org.springframework:spring-beans,True,0.0,0.0,10
+org.springframework:spring-context,True,0.0,0.0,3
+org.springframework:spring-web,True,0.0,0.0,10

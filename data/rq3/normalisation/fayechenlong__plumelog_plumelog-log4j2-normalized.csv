@@ -1,0 +1,5 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.alibaba:transmittable-thread-local,True,0.0,0.0,2
+com.plumelog:plumelog-core,False,0.0,0.0,39
+org.apache.logging.log4j:log4j-api,False,0.0,0.0,11
+org.apache.logging.log4j:log4j-core,False,0.0,0.0,12

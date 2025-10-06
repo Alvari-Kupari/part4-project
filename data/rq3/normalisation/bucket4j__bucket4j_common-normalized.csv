@@ -1,0 +1,4 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.zaxxer:HikariCP-java6,False,0.0,0.0,9
+org.testcontainers:postgresql,False,0.0,0.0,6
+org.testcontainers:testcontainers,True,0.0,0.0,1

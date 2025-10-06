@@ -1,0 +1,16 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.google.guava:guava,True,0.0,0.0,12
+jakarta.xml.bind:jakarta.xml.bind-api,True,0.0,0.0,1
+log4j:log4j,True,0.0,0.0,4
+org.apache.spark:spark-catalyst_2.13,True,0.0,0.0,101
+org.apache.spark:spark-core_2.13,False,0.0,0.0,3
+org.apache.spark:spark-mllib-local_2.13,True,0.0,0.0,12
+org.apache.spark:spark-mllib_2.13,False,0.0,0.0,204
+org.apache.spark:spark-sql-api_2.13,True,0.0,0.0,56
+org.apache.spark:spark-sql_2.13,True,0.0,0.0,2
+org.jpmml:pmml-converter,False,0.0,0.0,146
+org.jpmml:pmml-converter-testing,False,0.0,0.0,5
+org.jpmml:pmml-evaluator,True,0.0,0.0,1
+org.jpmml:pmml-evaluator-testing,False,0.0,0.0,9
+org.jpmml:pmml-model,True,0.0,0.0,253
+org.scala-lang:scala-library,True,0.0,0.0,9

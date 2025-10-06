@@ -1,0 +1,5 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+ai.h2o:h2o-genmodel,True,0.0,0.0,4
+org.jpmml:pmml-converter,True,0.0,0.0,21
+org.jpmml:pmml-h2o,False,0.0,0.0,11
+org.jpmml:pmml-model,True,0.0,0.0,6

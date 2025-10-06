@@ -1,0 +1,5 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.cedarsoftware:json-io,False,1.6666666666666667,5.0,3
+commons-io:commons-io,False,0.0,0.0,2
+org.bouncycastle:bcpkix-lts8on,False,0.0,0.0,34
+org.bouncycastle:bcprov-lts8on,False,0.0,0.0,27

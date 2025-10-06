@@ -1,0 +1,16 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+cn.hutool:hutool-all,False,0.0,0.0,67.0
+com.baomidou:mybatis-plus-annotation,True,0.0,0.0,2.0
+com.baomidou:mybatis-plus-core,True,0.0,0.0,21.0
+com.baomidou:mybatis-plus-extension,False,0.0,0.0,4.0
+com.fasterxml.jackson.core:jackson-annotations,True,0.0,0.0,1.0
+com.fasterxml.jackson.core:jackson-core,True,0.0,0.0,24.0
+com.fasterxml.jackson.core:jackson-databind,False,0.05319148936170213,5.0,94.0
+com.fasterxml.jackson.core:jackson-databind,True,0.0,2.0,0.0
+com.fasterxml.jackson.datatype:jackson-datatype-jsr310,False,0.0,0.0,16.0
+com.google.guava:guava,False,0.0,0.0,11.0
+org.mybatis:mybatis,True,0.0,0.0,1.0
+org.slf4j:slf4j-api,False,0.0,0.0,1.0
+org.springframework:spring-beans,True,0.0,0.0,2.0
+org.springframework:spring-context,False,0.0,0.0,4.0
+org.springframework:spring-core,True,0.0,0.0,18.0

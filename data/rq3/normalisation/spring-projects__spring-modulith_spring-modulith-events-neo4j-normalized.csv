@@ -1,0 +1,7 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+org.neo4j.driver:neo4j-java-driver,True,0.0,0.0,8
+org.neo4j:neo4j-cypher-dsl,True,0.0,0.0,30
+org.springframework.data:spring-data-commons,True,0.0,0.0,3
+org.springframework.data:spring-data-neo4j,False,0.0,0.0,2
+org.springframework:spring-beans,True,0.0,0.0,1
+org.springframework:spring-core,True,0.0,0.0,3

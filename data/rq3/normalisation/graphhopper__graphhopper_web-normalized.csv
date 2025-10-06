@@ -1,0 +1,7 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+io.dropwizard:dropwizard-assets,False,0.0,0.0,2
+io.dropwizard:dropwizard-core,False,0.0,0.0,9
+io.dropwizard:dropwizard-jersey,True,0.0,0.0,1
+jakarta.servlet:jakarta.servlet-api,True,0.0,0.0,1
+jakarta.ws.rs:jakarta.ws.rs-api,True,0.0,0.0,4
+net.sourceforge.argparse4j:argparse4j,True,0.0,0.0,14

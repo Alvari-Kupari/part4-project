@@ -1,0 +1,10 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.fasterxml.jackson.core:jackson-core,True,0.0,0.0,1
+com.fasterxml.jackson.core:jackson-databind,True,0.0,0.0,4
+jakarta.ws.rs:jakarta.ws.rs-api,True,0.0,0.0,6
+org.apache.httpcomponents:httpcore,True,0.0,0.0,7
+org.keycloak:keycloak-core,True,0.0,0.0,70
+org.keycloak:keycloak-server-spi,True,0.0,0.0,3
+org.keycloak:keycloak-server-spi-private,True,0.0,0.0,1
+org.keycloak:keycloak-services,False,0.0,0.0,3
+org.seleniumhq.selenium:selenium-api,True,0.0,0.0,5

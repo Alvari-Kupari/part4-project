@@ -1,0 +1,11 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.fasterxml.jackson.core:jackson-databind,False,0.0,0.0,5
+com.fasterxml.jackson.datatype:jackson-datatype-jsr310,False,0.0,0.0,2
+io.nats:jnats,False,0.09302325581395349,4.0,43
+io.nats:nats-spring,False,0.0,0.0,1
+org.apache.commons:commons-lang3,True,0.0,0.0,4
+org.springframework.boot:spring-boot-actuator,True,0.0,0.0,2
+org.springframework:spring-beans,True,0.0,0.0,3
+org.springframework:spring-context,False,0.0,0.0,1
+org.springframework:spring-core,True,0.0,0.0,2
+org.springframework:spring-web,True,0.0,0.0,1

@@ -1,0 +1,11 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.baomidou:mybatis-plus-core,True,0.034482758620689655,1.0,29
+com.baomidou:mybatis-plus-extension,True,0.6,12.0,20
+com.github.jsqlparser:jsqlparser,True,0.0,0.0,20
+org.apache.tomcat.embed:tomcat-embed-core,True,0.0,0.0,2
+org.mybatis:mybatis,True,0.0,0.0,14
+org.mybatis:mybatis-spring,True,0.0,0.0,1
+org.springframework:spring-context,True,0.0,0.0,2
+org.springframework:spring-core,True,0.0,0.0,12
+org.springframework:spring-expression,True,0.0,0.0,11
+org.springframework:spring-tx,True,0.0,0.0,1

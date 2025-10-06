@@ -1,0 +1,9 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+commons-io:commons-io,False,0.0,0.0,1
+org.apache.commons:commons-csv,False,0.0,0.0,6
+org.apache.commons:commons-lang3,False,0.0,0.0,11
+org.codehaus.sonar:sonar-classloader,False,0.0,0.0,14
+org.sonarsource.api.plugin:sonar-plugin-api,False,0.0,0.0,34
+org.springframework:spring-beans,True,0.0,0.0,22
+org.springframework:spring-context,False,0.0,0.0,11
+org.springframework:spring-core,True,0.0,0.0,1

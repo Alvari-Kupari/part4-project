@@ -1,0 +1,3 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+org.springframework:spring-web,True,0.0,0.0,2
+org.springframework:spring-websocket,True,0.0,0.0,15

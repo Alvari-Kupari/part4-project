@@ -1,0 +1,5 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.fasterxml.jackson.core:jackson-databind,True,0.0,0.0,4
+io.netty:netty-codec-http,True,0.0,0.0,1
+io.vertx:vertx-core,True,0.6235294117647059,53.0,85
+org.apache.logging.log4j:log4j-api,False,0.0,0.0,3

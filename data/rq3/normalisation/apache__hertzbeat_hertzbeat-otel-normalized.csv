@@ -1,0 +1,9 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+io.opentelemetry.instrumentation:opentelemetry-logback-appender-1.0,False,0.0,0.0,1
+io.opentelemetry:opentelemetry-api,True,0.0,0.0,1
+io.opentelemetry:opentelemetry-exporter-otlp,True,0.0,0.0,7
+io.opentelemetry:opentelemetry-sdk,True,0.0,0.0,1
+io.opentelemetry:opentelemetry-sdk-common,True,0.0,0.0,4
+io.opentelemetry:opentelemetry-sdk-extension-autoconfigure-spi,True,0.0,0.0,5
+io.opentelemetry:opentelemetry-sdk-logs,True,0.0,0.0,6
+org.springframework:spring-beans,True,0.0,0.0,1

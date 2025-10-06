@@ -1,0 +1,7 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.google.guava:guava,False,0.0,0.0,7
+io.netty:netty-buffer,True,0.0,0.0,42
+io.netty:netty-codec-base,True,0.0,0.0,5
+io.netty:netty-common,True,0.0,0.0,1
+io.netty:netty-transport,True,0.0,0.0,10
+it.unimi.dsi:fastutil-core,False,0.0,0.0,12

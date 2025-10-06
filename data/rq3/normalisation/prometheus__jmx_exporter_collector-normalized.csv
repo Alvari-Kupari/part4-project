@@ -1,0 +1,4 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+io.prometheus:prometheus-metrics-core,False,0.0,0.0,9
+io.prometheus:prometheus-metrics-model,False,0.0,0.0,18
+org.yaml:snakeyaml,False,0.0,0.0,3

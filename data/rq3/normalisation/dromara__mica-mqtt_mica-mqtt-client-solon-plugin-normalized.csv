@@ -1,0 +1,6 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+net.dreamlu:mica-net-core,True,0.0,0.0,9
+net.dreamlu:mica-net-utils,True,0.0,0.0,3
+org.dromara.mica-mqtt:mica-mqtt-codec,True,0.0,0.0,6
+org.dromara.mica-mqtt:mica-mqtt-common,True,0.0,0.0,5
+org.noear:solon,False,0.06666666666666667,1.0,15

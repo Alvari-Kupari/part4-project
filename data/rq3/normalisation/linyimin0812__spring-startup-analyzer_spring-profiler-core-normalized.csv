@@ -1,0 +1,10 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.alibaba:bytekit-core,False,0.0,0.0,10
+com.alibaba:repackage-asm,True,0.0,0.0,15
+com.squareup.okhttp3:okhttp,False,0.0,0.0,8
+io.github.linyimin0812:spring-profiler-api,False,0.0,0.0,17
+io.github.linyimin0812:spring-profiler-bridge,False,0.0,0.0,5
+io.github.linyimin0812:spring-profiler-common,False,0.0,0.0,28
+org.apache.commons:commons-csv,False,0.0,0.0,6
+org.apache.commons:commons-lang3,False,0.0,0.0,3
+org.picocontainer:picocontainer,False,0.0,0.0,12

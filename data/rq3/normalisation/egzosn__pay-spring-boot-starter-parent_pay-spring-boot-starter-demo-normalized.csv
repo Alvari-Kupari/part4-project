@@ -1,0 +1,9 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.egzosn:pay-java-ali,False,0.0,0.0,17
+com.egzosn:pay-java-common,False,0.0,0.0,47
+com.egzosn:pay-java-web-support,False,0.0,0.0,2
+com.egzosn:pay-java-wx,False,0.0,0.0,1
+com.egzosn:pay-spring-boot,True,0.0,0.0,49
+org.apache.tomcat.embed:tomcat-embed-core,True,0.0,0.0,3
+org.springframework.boot:spring-boot,True,0.0,0.0,1
+org.springframework:spring-beans,True,0.0,0.0,2

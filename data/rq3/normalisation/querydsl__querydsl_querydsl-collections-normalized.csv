@@ -1,0 +1,5 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.mysema.commons:mysema-commons-lang,True,0.0,0.0,4
+com.querydsl:codegen-utils,True,0.0,0.0,17
+com.querydsl:querydsl-core,True,0.0,0.0,112
+org.hamcrest:hamcrest,False,0.0,0.0,9

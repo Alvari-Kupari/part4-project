@@ -1,0 +1,4 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+jakarta.websocket:jakarta.websocket-api,False,0.0,0.0,10
+org.jboss.logging:jboss-logging,True,0.0,0.0,4
+org.jboss.xnio:xnio-api,True,0.0,0.0,19

@@ -1,0 +1,11 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+ch.qos.logback:logback-classic,False,0.0,0.0,9
+ch.qos.logback:logback-core,True,0.0,0.0,7
+com.fasterxml.jackson.core:jackson-core,True,0.0,0.0,3
+com.fasterxml.jackson.core:jackson-databind,False,0.0,0.0,4
+commons-cli:commons-cli,False,0.07142857142857142,1.0,14
+io.gatling:gatling-core-java,True,0.05,1.0,20
+io.gatling:gatling-http-java,True,0.0,0.0,13
+me.tongfei:progressbar,False,0.0,0.0,14
+org.apache.httpcomponents.core5:httpcore5,True,0.0,0.0,15
+org.slf4j:slf4j-api,False,0.0,0.0,11

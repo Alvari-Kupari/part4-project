@@ -1,0 +1,5 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+org.springframework.data:spring-data-commons,False,0.0,0.0,1
+org.springframework.security:spring-security-core,False,0.0,0.0,3
+org.springframework:spring-aop,True,0.0,0.0,1
+org.springframework:spring-core,True,0.0,0.0,1

@@ -1,0 +1,6 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+org.apache.flink:flink-connector-datagen,False,0.0,0.0,3
+org.apache.flink:flink-core,True,0.0,0.0,12
+org.apache.flink:flink-java,True,0.0,0.0,4
+org.apache.flink:flink-streaming-java,False,0.0,0.0,15
+org.slf4j:slf4j-api,False,0.0,0.0,3

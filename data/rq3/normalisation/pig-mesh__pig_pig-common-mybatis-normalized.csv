@@ -1,0 +1,12 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+cn.hutool:hutool-core,False,0.0,0.0,6
+com.baomidou:mybatis-plus-annotation,True,0.0,0.0,1
+com.baomidou:mybatis-plus-core,True,0.0,0.0,6
+com.baomidou:mybatis-plus-extension,True,0.0,0.0,9
+com.baomidou:mybatis-plus-jsqlparser,False,0.0,0.0,2
+jakarta.servlet:jakarta.servlet-api,False,0.0,0.0,3
+org.mybatis:mybatis,True,0.0,0.0,12
+org.springframework.security:spring-security-core,False,0.0,0.0,4
+org.springframework:spring-core,True,0.0,0.0,3
+org.springframework:spring-web,True,0.0,0.0,5
+org.springframework:spring-webmvc,False,0.0,0.0,1

@@ -1,0 +1,4 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+bsf:bsf,False,0.0,0.0,11
+commons-io:commons-io,False,0.0,0.0,4
+org.apache.ant:ant,False,0.0,0.0,57

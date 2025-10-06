@@ -1,0 +1,5 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.google.guava:guava,False,0.0,0.0,1
+io.github.hakky54:sslcontext-kickstart,False,0.0,0.0,3
+org.apache.commons:commons-lang3,False,0.0,0.0,1
+org.apache.httpcomponents.core5:httpcore5,True,0.0,0.0,30

@@ -1,0 +1,5 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+jakarta.xml.bind:jakarta.xml.bind-api,False,0.0,0.0,11
+jakarta.xml.soap:jakarta.xml.soap-api,True,0.0,0.0,22
+javax.servlet:javax.servlet-api,False,0.0,0.0,14
+org.openidentityplatform.commons.i18n-framework:core,False,0.0,0.0,4

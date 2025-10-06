@@ -1,0 +1,11 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.alipay.sofa:bolt,True,0.0,0.0,1
+com.alipay.sofa:jraft-core,False,0.0,0.0,45
+com.google.protobuf:protobuf-java,True,0.0,0.0,5
+io.grpc:grpc-api,True,0.0,0.0,43
+io.grpc:grpc-core,True,0.0,0.0,2
+io.grpc:grpc-netty-shaded,False,0.0,0.0,16
+io.grpc:grpc-protobuf,False,0.0,0.0,1
+io.grpc:grpc-stub,False,0.0,0.0,5
+io.grpc:grpc-util,False,0.0,0.0,3
+org.slf4j:slf4j-api,True,0.0,0.0,5

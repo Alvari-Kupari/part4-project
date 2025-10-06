@@ -1,0 +1,8 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+commons-io:commons-io,False,0.0,0.0,4
+org.apache.commons:commons-compress,False,0.0,0.0,7
+org.apache.pdfbox:jbig2-imageio,False,0.0,0.0,9
+org.dom4j:dom4j,True,0.0,0.0,11
+org.ofdrw:ofdrw-core,False,0.0,0.0,184
+org.ofdrw:ofdrw-gm,False,0.0,0.0,22
+org.ofdrw:ofdrw-pkg,False,0.0,0.0,19

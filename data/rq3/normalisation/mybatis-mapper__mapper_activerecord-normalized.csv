@@ -1,0 +1,7 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+io.mybatis:mybatis-common,True,0.0,0.0,1
+io.mybatis:mybatis-mapper,False,0.0,0.0,20
+io.mybatis:mybatis-provider,True,0.0,0.0,10
+org.mybatis:mybatis-spring,False,0.0,0.0,2
+org.springframework:spring-beans,True,0.0,0.0,3
+org.springframework:spring-context,False,0.0,0.0,4

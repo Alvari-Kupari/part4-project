@@ -1,0 +1,9 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+commons-cli:commons-cli,False,0.058823529411764705,1.0,17
+commons-io:commons-io,True,0.0,0.0,4
+io.github.basilapi:sparql,False,0.0,0.0,11
+org.apache.commons:commons-lang3,True,0.0,0.0,4
+org.apache.jena:jena-arq,True,0.0,0.0,74
+org.apache.jena:jena-base,True,0.0,0.0,2
+org.apache.jena:jena-core,True,0.0,0.0,12
+org.slf4j:slf4j-api,False,0.0,0.0,9

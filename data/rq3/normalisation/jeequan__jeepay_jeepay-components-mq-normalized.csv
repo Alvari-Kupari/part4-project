@@ -1,0 +1,12 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+cn.hutool:hutool-all,False,0.0,0.0,3
+com.alibaba:fastjson,True,0.0,0.0,2
+jakarta.jms:jakarta.jms-api,True,0.0,0.0,5
+org.apache.commons:commons-lang3,True,0.0,0.0,1
+org.apache.rocketmq:rocketmq-spring-boot,True,0.0,0.0,3
+org.springframework.amqp:spring-amqp,True,0.1111111111111111,1.0,9
+org.springframework.amqp:spring-rabbit,True,0.0,0.0,2
+org.springframework:spring-beans,True,0.0,0.0,10
+org.springframework:spring-context,True,0.0,0.0,9
+org.springframework:spring-jms,True,0.0,0.0,8
+org.springframework:spring-messaging,True,0.0,0.0,3

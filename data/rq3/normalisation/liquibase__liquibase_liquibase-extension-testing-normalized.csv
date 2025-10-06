@@ -1,0 +1,17 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.github.docker-java:docker-java-api,True,0.0,0.0,18
+junit:junit,True,0.0,0.0,7
+org.firebirdsql:firebird-testcontainers-java,False,0.0,0.0,1
+org.junit.jupiter:junit-jupiter-api,False,0.0,0.0,1
+org.spockframework:spock-core,False,0.0,0.0,22
+org.springframework:spring-test,False,0.0,0.0,1
+org.testcontainers:cockroachdb,False,0.0,0.0,1
+org.testcontainers:db2,False,0.0,0.0,1
+org.testcontainers:jdbc,True,0.0,0.0,4
+org.testcontainers:mariadb,False,0.0,0.0,1
+org.testcontainers:mssqlserver,False,0.0,0.0,3
+org.testcontainers:mysql,False,0.0,0.0,1
+org.testcontainers:oracle-xe,False,0.0,0.0,1
+org.testcontainers:postgresql,False,0.0,0.0,1
+org.testcontainers:testcontainers,True,0.0,0.0,10
+org.yaml:snakeyaml,True,0.0,0.0,4

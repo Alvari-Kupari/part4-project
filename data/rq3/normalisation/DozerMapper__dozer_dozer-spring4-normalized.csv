@@ -1,0 +1,5 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+org.springframework:spring-beans,True,0.0,0.0,11
+org.springframework:spring-context,False,0.0,0.0,2
+org.springframework:spring-core,False,0.0,0.0,3
+xml-apis:xml-apis,True,0.0,0.0,2

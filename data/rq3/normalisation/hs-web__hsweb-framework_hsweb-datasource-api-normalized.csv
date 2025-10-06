@@ -1,0 +1,8 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+io.projectreactor:reactor-core,False,0.0,0.0,13
+io.r2dbc:r2dbc-spi,False,0.0,0.0,1
+org.reactivestreams:reactive-streams,True,0.0,0.0,1
+org.slf4j:slf4j-api,False,0.0,0.0,4
+org.springframework:spring-aop,True,0.0,0.0,6
+org.springframework:spring-beans,True,0.0,0.0,1
+org.springframework:spring-core,True,0.0,0.0,4

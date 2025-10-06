@@ -1,0 +1,11 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.google.guava:guava,False,0.0,0.0,3
+eu.optique-project:r2rml-api-core,False,0.0,0.0,42
+eu.optique-project:r2rml-api-rdf4j-binding,False,0.0,0.0,3
+org.apache.commons:commons-rdf-api,False,0.0,0.0,10
+org.apache.commons:commons-rdf-rdf4j,False,0.0,0.0,6
+org.eclipse.rdf4j:rdf4j-common-io,True,0.0,0.0,2
+org.eclipse.rdf4j:rdf4j-model,False,0.0,0.0,4
+org.eclipse.rdf4j:rdf4j-model-api,True,0.0,0.0,3
+org.eclipse.rdf4j:rdf4j-rio-api,False,0.0,0.0,15
+org.slf4j:slf4j-api,False,0.0,0.0,3

@@ -1,0 +1,8 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.google.guava:guava,False,0.0,0.0,3
+org.apache.commons:commons-configuration2,True,0.0,0.0,9
+org.apache.commons:commons-lang3,True,0.0,0.0,2
+org.apache.groovy:groovy,True,0.0,0.0,2
+org.apache.tinkerpop:gremlin-core,False,0.0,0.0,124
+org.apache.tinkerpop:gremlin-groovy,False,0.0,0.0,4
+org.apache.tinkerpop:gremlin-shaded,True,0.0,0.0,23

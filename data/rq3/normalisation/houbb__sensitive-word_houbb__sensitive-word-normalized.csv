@@ -1,0 +1,3 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.github.houbb:heaven,False,0.0,0.0,33
+com.github.houbb:opencc4j,False,0.0,0.0,1

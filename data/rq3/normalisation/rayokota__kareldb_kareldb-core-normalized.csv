@@ -1,0 +1,13 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.fasterxml.jackson.core:jackson-databind,False,0.0,0.0,4.0
+com.google.guava:guava,False,0.0,0.0,36.0
+com.google.guava:guava,True,0.0,5.0,0.0
+io.kcache:kcache,False,0.0,0.0,36.0
+org.apache.avro:avro,False,0.08196721311475409,5.0,61.0
+org.apache.calcite.avatica:avatica-core,False,0.0,0.0,16.0
+org.apache.calcite:calcite-core,False,0.0091324200913242,2.0,219.0
+org.apache.calcite:calcite-linq4j,False,0.0,0.0,37.0
+org.apache.omid:omid-commit-table,False,0.0,0.0,5.0
+org.apache.omid:omid-metrics,False,0.0,0.0,6.0
+org.apache.phoenix.thirdparty:phoenix-shaded-guava,True,0.0,0.0,11.0
+org.slf4j:slf4j-api,False,0.0,0.0,5.0

@@ -1,0 +1,9 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.plumelog:plumelog-core,False,0.0,0.0,19
+commons-io:commons-io,False,0.0,0.0,1
+net.sf.json-lib:json-lib,False,0.0,0.0,12
+org.apache.lucene:lucene-analyzers-smartcn,False,0.0,0.0,2
+org.apache.lucene:lucene-core,True,0.0,0.0,68
+org.apache.lucene:lucene-grouping,False,0.0,0.0,13
+org.apache.lucene:lucene-highlighter,False,0.0,0.0,11
+org.apache.lucene:lucene-queryparser,False,0.0,0.0,4

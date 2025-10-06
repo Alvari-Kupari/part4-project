@@ -1,0 +1,5 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.sun.activation:jakarta.activation,True,0.0,0.0,1
+com.sun.mail:jakarta.mail,False,0.0,0.0,28
+commons-logging:commons-logging,False,0.0,0.0,4
+jcifs:jcifs,False,0.0,0.0,53

@@ -1,0 +1,10 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.fasterxml.jackson.core:jackson-databind,True,0.0,0.0,1
+com.google.guava:guava,False,0.0,0.0,8
+org.springframework.boot:spring-boot,True,0.0,0.0,2
+org.springframework.boot:spring-boot-autoconfigure,True,0.0,0.0,1
+org.springframework.data:spring-data-commons,True,0.0,0.0,1
+org.springframework.data:spring-data-redis,True,0.0,0.0,26
+org.springframework:spring-beans,True,0.0,0.0,2
+org.springframework:spring-context,True,0.0,0.0,4
+org.springframework:spring-core,True,0.0,0.0,2

@@ -1,0 +1,6 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+aopalliance:aopalliance,False,0.0,0.0,8
+cglib:cglib,False,0.0,0.0,10
+cn.hutool:hutool-all,False,0.0,0.0,11
+org.aspectj:aspectjweaver,False,0.0,0.0,9
+org.dom4j:dom4j,False,0.0,0.0,10

@@ -1,0 +1,7 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.amazonaws.serverless:aws-serverless-java-container-core,True,0.0,0.0,4
+jakarta.servlet:jakarta.servlet-api,True,0.0,0.0,9
+org.slf4j:slf4j-api,True,0.0,0.0,3
+org.springframework.boot:spring-boot,True,0.0,0.0,1
+org.springframework:spring-web,True,0.0,0.0,1
+org.springframework:spring-webmvc,True,0.0,0.0,6

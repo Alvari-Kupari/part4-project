@@ -1,0 +1,9 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.google.guava:guava,True,0.0,0.0,1
+commons-io:commons-io,False,0.0,0.0,7
+org.apache.commons:commons-exec,False,0.0,0.0,1
+org.apache.commons:commons-lang3,False,0.0,0.0,5
+org.apache.maven:maven-core,False,0.0,0.0,8
+org.apache.maven:maven-model,True,0.0,0.0,1
+org.apache.maven:maven-plugin-api,False,0.0,0.0,12
+org.eclipse.jgit:org.eclipse.jgit,False,0.0,0.0,95

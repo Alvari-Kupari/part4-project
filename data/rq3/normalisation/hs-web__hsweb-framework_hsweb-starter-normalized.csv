@@ -1,0 +1,13 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.fasterxml.jackson.core:jackson-core,True,0.0,0.0,32
+com.fasterxml.jackson.core:jackson-databind,False,0.0,0.0,63
+io.projectreactor:reactor-core,True,0.0,0.0,17
+org.reactivestreams:reactive-streams,True,0.0,0.0,1
+org.springframework.boot:spring-boot,True,0.0,0.0,2
+org.springframework.boot:spring-boot-autoconfigure,False,0.0,0.0,1
+org.springframework:spring-beans,True,0.0,0.0,2
+org.springframework:spring-context,True,0.0,0.0,11
+org.springframework:spring-core,True,0.0,0.0,47
+org.springframework:spring-jcl,True,0.0,0.0,1
+org.springframework:spring-web,False,0.0,0.0,43
+org.springframework:spring-webflux,False,0.0,0.0,2

@@ -1,0 +1,14 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.alibaba:druid,True,0.0,0.0,1
+com.alibaba:druid-spring-boot-3-starter,True,0.0,0.0,2
+com.fasterxml.jackson.core:jackson-core,True,0.0,0.0,14
+com.fasterxml.jackson.core:jackson-databind,True,0.0,0.0,6
+org.apache.tomcat.embed:tomcat-embed-core,True,0.0,0.0,11
+org.aspectj:aspectjweaver,True,0.0,0.0,6
+org.springframework.boot:spring-boot,True,0.0,0.0,12
+org.springframework.boot:spring-boot-autoconfigure,True,0.0,0.0,7
+org.springframework:spring-context,True,0.0,0.0,8
+org.springframework:spring-core,True,0.0,0.0,3
+org.springframework:spring-jdbc,True,0.0,0.0,1
+org.springframework:spring-web,True,0.0,0.0,22
+org.springframework:spring-webmvc,True,0.0,0.0,9

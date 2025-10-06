@@ -1,0 +1,9 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+org.slf4j:slf4j-api,False,0.0,0.0,3
+org.springframework.boot:spring-boot,False,0.0,0.0,14
+org.springframework.cloud:spring-cloud-function-serverless-web,False,0.0,0.0,6
+org.springframework:spring-beans,True,0.0,0.0,5
+org.springframework:spring-context,False,0.0,0.0,7
+org.springframework:spring-core,False,0.0,0.0,12
+org.springframework:spring-jcl,True,0.0,0.0,8
+org.springframework:spring-web,True,0.0,0.0,20

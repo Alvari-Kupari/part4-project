@@ -1,0 +1,17 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.fasterxml.jackson.core:jackson-databind,True,0.0,0.0,17
+com.google.guava:guava,False,0.0,0.0,5
+io.dropwizard.metrics:metrics-healthchecks,True,0.0,0.0,4
+io.dropwizard:dropwizard-core,False,0.0,0.0,8
+io.dropwizard:dropwizard-jackson,True,0.0,0.0,1
+io.dropwizard:dropwizard-jersey,True,0.0,0.0,8
+io.dropwizard:dropwizard-lifecycle,True,0.0,0.0,2
+jakarta.inject:jakarta.inject-api,True,0.0,0.0,1
+jakarta.servlet:jakarta.servlet-api,True,0.0,0.0,13
+jakarta.validation:jakarta.validation-api,True,0.0,0.0,2
+jakarta.ws.rs:jakarta.ws.rs-api,True,0.0,0.0,27
+org.apache.httpcomponents.core5:httpcore5,True,0.0,0.0,2
+org.glassfish.hk2:hk2-api,True,0.0,0.0,9
+org.glassfish.jersey.core:jersey-server,True,0.0,0.0,1
+org.locationtech.jts:jts-core,False,0.0,0.0,83
+org.slf4j:slf4j-api,True,0.0,0.0,4

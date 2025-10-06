@@ -1,0 +1,3 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+org.apache.ratis:ratis-metrics-api,False,0.0,0.0,3
+org.apache.ratis:ratis-thirdparty-misc,True,0.0,0.0,3

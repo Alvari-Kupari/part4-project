@@ -1,0 +1,7 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.fasterxml.jackson.core:jackson-databind,True,0.0,0.0,8
+io.fabric8:kubernetes-model-admissionregistration,True,0.0,0.0,8
+io.fabric8:kubernetes-model-core,True,0.0,0.0,3
+io.fabric8:zjsonpatch,True,0.0,0.0,1
+io.javaoperatorsdk:kubernetes-webhooks-framework-core,False,0.0,0.0,17
+org.slf4j:slf4j-api,True,0.0,0.0,5

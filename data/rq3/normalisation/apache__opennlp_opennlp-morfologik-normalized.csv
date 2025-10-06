@@ -1,0 +1,4 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+org.carrot2:morfologik-stemming,False,0.0,0.0,13
+org.carrot2:morfologik-tools,False,0.0,0.0,3
+org.slf4j:slf4j-api,False,0.0,0.0,4

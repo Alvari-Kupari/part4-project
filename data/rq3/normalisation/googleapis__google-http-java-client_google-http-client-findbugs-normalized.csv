@@ -1,0 +1,3 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.google.code.findbugs:bcel-findbugs,False,0.0,0.0,16
+com.google.code.findbugs:findbugs,False,0.0,0.0,19

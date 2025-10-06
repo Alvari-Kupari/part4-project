@@ -1,0 +1,9 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.fasterxml.jackson.core:jackson-databind,False,0.0,0.0,2
+org.slf4j:slf4j-api,True,0.0,0.0,3
+org.springframework.boot:spring-boot-kafka,False,0.0,0.0,1
+org.springframework.kafka:spring-kafka,False,0.0,0.0,7
+org.springframework:spring-beans,True,0.0,0.0,3
+org.springframework:spring-context,True,0.0,0.0,2
+org.springframework:spring-expression,True,0.0,0.0,3
+org.springframework:spring-messaging,True,0.0,0.0,2

@@ -1,0 +1,12 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+cn.hutool:hutool-all,False,0.0,0.0,21
+com.baomidou:mybatis-plus-core,True,0.0,0.0,1
+com.baomidou:mybatis-plus-extension,True,0.0,0.0,2
+com.fasterxml.jackson.core:jackson-core,True,0.0,0.0,1
+com.fasterxml.jackson.core:jackson-databind,True,0.0,0.0,3
+io.projectreactor:reactor-core,True,0.0,0.0,5
+org.springframework.boot:spring-boot,True,0.0,0.0,2
+org.springframework.cloud:spring-cloud-gateway-server,True,0.0,0.0,6
+org.springframework.data:spring-data-redis,True,0.0,0.0,5
+org.springframework:spring-core,True,0.0,0.0,7
+org.springframework:spring-web,True,0.0,0.0,28

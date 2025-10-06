@@ -1,0 +1,4 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.fasterxml.jackson.core:jackson-databind,True,0.0,0.0,6
+io.jsonwebtoken:jjwt,False,1.0833333333333333,13.0,12
+org.springframework.security:spring-security-crypto,False,0.0,0.0,4

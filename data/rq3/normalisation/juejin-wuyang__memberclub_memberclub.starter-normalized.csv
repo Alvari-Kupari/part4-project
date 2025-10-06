@@ -1,0 +1,17 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.baomidou:dynamic-datasource-spring-boot-starter,False,1.0,20.0,20
+com.fasterxml.jackson.core:jackson-databind,True,0.0,0.0,7
+com.google.guava:guava,True,0.0,0.0,2
+org.apache.commons:commons-lang3,True,0.0,0.0,3
+org.apache.shardingsphere:shardingsphere-jdbc-core,True,0.0,0.0,1
+org.apache.shardingsphere:shardingsphere-sharding-api,True,0.0,0.0,3
+org.apache.tomcat.embed:tomcat-embed-core,True,0.0,0.0,2
+org.redisson:redisson,False,0.0,0.0,13
+org.slf4j:slf4j-api,False,0.0,0.0,4
+org.springframework.boot:spring-boot,True,0.0,0.0,4
+org.springframework.data:spring-data-redis,True,0.0,0.0,24
+org.springframework:spring-beans,True,0.0,0.0,2
+org.springframework:spring-context,True,0.0,0.0,5
+org.springframework:spring-core,True,0.0,0.0,2
+org.springframework:spring-web,True,0.0,0.0,2
+org.springframework:spring-webmvc,True,0.0,0.0,13

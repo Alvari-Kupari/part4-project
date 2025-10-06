@@ -1,0 +1,12 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+ch.qos.logback:logback-classic,True,0.0,0.0,17
+ch.qos.logback:logback-core,True,0.0,0.0,21
+com.github.loki4j:loki-logback-appender,False,0.0,0.0,26
+com.squareup.okhttp3:okhttp,False,0.0,0.0,20
+net.logstash.logback:logstash-logback-encoder,False,0.0,0.0,55
+org.slf4j:slf4j-api,False,0.0,0.0,2
+org.springframework.boot:spring-boot,True,0.0,0.0,5
+org.springframework.boot:spring-boot-autoconfigure,False,0.0,0.0,4
+org.springframework:spring-beans,True,0.0,0.0,2
+org.springframework:spring-context,True,0.0,0.0,3
+org.springframework:spring-core,True,0.0,0.0,16

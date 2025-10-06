@@ -1,0 +1,3 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.alibaba:easyexcel-core,True,0.0,0.0,47
+org.apache.poi:poi,True,0.0,0.0,6

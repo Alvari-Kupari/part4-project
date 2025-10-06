@@ -1,0 +1,17 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+cn.hutool:hutool-core,True,0.0,0.0,23
+cn.hutool:hutool-json,False,0.0,0.0,3
+com.baomidou:mybatis-plus-core,True,0.0,0.0,14
+com.baomidou:mybatis-plus-extension,True,0.0,0.0,12
+com.baomidou:mybatis-plus-spring,True,0.0,0.0,7
+group.springframework.plugin:screw-core,True,0.0,0.0,1
+group.springframework.plugin:screw-spring-boot-starter,False,0.0,0.0,3
+jakarta.servlet:jakarta.servlet-api,True,0.0,0.0,6
+org.anyline:anyline-core,True,0.0,0.0,14
+org.anyline:anyline-data,True,0.0,0.0,6
+org.apache.velocity.tools:velocity-tools-generic,False,0.0,0.0,4
+org.apache.velocity:velocity-engine-core,False,0.0,0.0,7
+org.jasypt:jasypt,True,0.0,0.0,1
+org.springframework.boot:spring-boot,True,0.0,0.0,2
+org.springframework:spring-beans,True,0.0,0.0,1
+org.springframework:spring-web,True,0.0,0.0,3

@@ -1,0 +1,4 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+org.assertj:assertj-core,False,0.0,0.0,3
+org.junit.jupiter:junit-jupiter-api,False,0.0,0.0,3
+org.opentest4j:opentest4j,True,0.0,0.0,1

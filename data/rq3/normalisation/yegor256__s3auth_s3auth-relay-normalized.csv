@@ -1,0 +1,13 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.google.guava:guava,False,0.0,0.0,2
+com.jcabi:jcabi-aspects,False,0.0,0.0,2
+com.jcabi:jcabi-log,False,0.0,0.0,7
+com.jcabi:jcabi-manifests,False,0.0,0.0,1
+commons-codec:commons-codec,False,0.0,0.0,1
+commons-io:commons-io,False,0.0,0.0,1
+commons-net:commons-net,False,0.0,0.0,1
+javax.ws.rs:jsr311-api,False,0.0,0.0,10
+net.sf.jopt-simple:jopt-simple,False,0.0,0.0,6
+org.apache.commons:commons-collections4,False,0.0,0.0,2
+org.apache.commons:commons-lang3,False,0.0,0.0,3
+org.apache.httpcomponents:httpcore,True,0.0,0.0,1

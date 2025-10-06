@@ -1,0 +1,13 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.fasterxml.jackson.core:jackson-annotations,True,0.0,0.0,1
+com.fasterxml.jackson.core:jackson-core,False,0.0,0.0,2
+com.fasterxml.jackson.core:jackson-databind,False,0.0,0.0,27
+com.fasterxml.jackson.dataformat:jackson-dataformat-yaml,False,0.0,0.0,2
+com.fasterxml.jackson.datatype:jackson-datatype-jsr310,False,0.0,0.0,2
+com.github.spullara.mustache.java:compiler,False,0.0,0.0,6
+org.apache.velocity:velocity-engine-core,True,0.0,0.0,13
+org.freemarker:freemarker,False,0.0,0.0,18
+org.graalvm.js:js-scriptengine,False,0.0,0.0,2
+org.graalvm.sdk:graal-sdk,True,0.0,0.0,2
+org.thymeleaf:thymeleaf,False,0.0,0.0,18
+us.fatehi:schemacrawler,False,0.022727272727272728,2.0,88

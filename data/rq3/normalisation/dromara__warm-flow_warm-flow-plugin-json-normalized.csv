@@ -1,0 +1,8 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.alibaba.fastjson2:fastjson2,False,1.5,6.0,4
+com.fasterxml.jackson.core:jackson-core,True,0.0,0.0,2
+com.fasterxml.jackson.core:jackson-databind,False,0.0,0.0,10
+com.google.code.gson:gson,False,0.0,0.0,10
+org.dromara.warm:warm-flow-core,False,0.0,0.0,6
+org.noear:snack3,False,0.16666666666666666,1.0,6
+org.slf4j:slf4j-api,True,0.0,0.0,3

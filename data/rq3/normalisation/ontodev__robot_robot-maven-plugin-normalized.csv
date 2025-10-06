@@ -1,0 +1,3 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+commons-io:commons-io,True,0.0,0.0,2
+org.apache.maven:maven-plugin-api,False,0.0,0.0,4

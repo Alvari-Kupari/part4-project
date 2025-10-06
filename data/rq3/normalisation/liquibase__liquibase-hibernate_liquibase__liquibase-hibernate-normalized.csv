@@ -1,0 +1,8 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+jakarta.persistence:jakarta.persistence-api,True,0.125,1.0,8
+org.hibernate.orm:hibernate-core,False,0.0,0.0,139
+org.hibernate.orm:hibernate-envers,False,0.0,0.0,4
+org.liquibase:liquibase-core,False,0.0,0.0,180
+org.springframework:spring-beans,False,0.0,0.0,16
+org.springframework:spring-core,True,0.0,0.0,13
+org.springframework:spring-orm,False,0.0,0.0,14

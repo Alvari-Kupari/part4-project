@@ -1,0 +1,8 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.github.oshi:oshi-core,False,0.0,0.0,29
+org.apache.commons:commons-lang3,True,0.0,0.0,2
+org.springframework.data:spring-data-redis,True,0.0,0.0,9
+org.springframework:spring-context,True,0.0,0.0,1
+xyz.erupt:erupt-annotation,True,0.0,0.0,2
+xyz.erupt:erupt-core,True,0.0,0.0,16
+xyz.erupt:erupt-tpl,False,0.0,0.0,1

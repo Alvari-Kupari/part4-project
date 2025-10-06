@@ -1,0 +1,8 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+commons-io:commons-io,True,0.0,0.0,2
+org.dom4j:dom4j,True,0.0,0.0,1
+org.ofdrw:ofdrw-core,True,0.0,0.0,82
+org.ofdrw:ofdrw-gm,False,0.0,0.0,58
+org.ofdrw:ofdrw-gv,False,0.0,0.0,1
+org.ofdrw:ofdrw-pkg,True,0.0,0.0,22
+org.ofdrw:ofdrw-reader,False,0.0,0.0,20

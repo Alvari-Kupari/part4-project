@@ -1,0 +1,5 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+io.github.bes2008.solution.easyjson:easyjson-core,False,0.0,0.0,6
+io.github.bes2008.solution.langx:langx-java,False,0.0,0.0,164
+javax.persistence:persistence-api,False,0.0,0.0,2
+org.slf4j:slf4j-api,False,0.0,0.0,8

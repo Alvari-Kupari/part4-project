@@ -1,0 +1,10 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.naturalprogrammer.spring-lemon:spring-lemon-commons,True,0.0,0.0,5
+com.naturalprogrammer.spring-lemon:spring-lemon-commons-jpa,True,0.0,0.0,1
+com.naturalprogrammer.spring-lemon:spring-lemon-commons-web,True,0.0,0.0,1
+com.naturalprogrammer.spring-lemon:spring-lemon-jpa,False,0.0,0.0,8
+org.springframework.boot:spring-boot,True,0.0,0.0,1
+org.springframework.data:spring-data-jpa,True,0.0,0.0,1
+org.springframework.security:spring-security-config,True,0.0,0.0,2
+org.springframework.security:spring-security-oauth2-core,True,0.0,0.0,1
+org.springframework:spring-jcl,True,0.0,0.0,3

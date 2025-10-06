@@ -1,0 +1,6 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+commons-io:commons-io,False,0.0,0.0,15
+org.apache.commons:commons-text,False,0.0,0.0,1
+org.apache.poi:poi,False,0.0,0.0,30
+org.bouncycastle:bcprov-lts8on,True,0.0,0.0,62
+org.bouncycastle:bcutil-lts8on,True,0.0,0.0,31

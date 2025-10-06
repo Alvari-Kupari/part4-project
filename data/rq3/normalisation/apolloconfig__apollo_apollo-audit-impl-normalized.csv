@@ -1,0 +1,10 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+jakarta.persistence:jakarta.persistence-api,True,0.0,0.0,1
+org.apache.tomcat.embed:tomcat-embed-core,True,0.0,0.0,2
+org.aspectj:aspectjweaver,True,0.0,0.0,9
+org.springframework.boot:spring-boot-autoconfigure,True,0.0,0.0,1
+org.springframework.data:spring-data-commons,True,0.0,0.0,7
+org.springframework:spring-beans,True,0.0,0.0,1
+org.springframework:spring-context,True,0.0,0.0,1
+org.springframework:spring-core,True,0.0,0.0,2
+org.springframework:spring-web,True,0.0,0.0,15

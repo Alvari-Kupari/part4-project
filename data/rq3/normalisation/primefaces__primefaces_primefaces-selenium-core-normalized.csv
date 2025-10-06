@@ -1,0 +1,14 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.google.guava:guava,False,0.0,0.0,1
+commons-io:commons-io,True,0.0,0.0,1
+io.github.bonigarcia:webdrivermanager,False,0.0,0.0,6
+net.bytebuddy:byte-buddy,False,0.0,0.0,10
+org.apache.commons:commons-lang3,True,0.0,0.0,2
+org.junit.jupiter:junit-jupiter-api,True,0.0,0.0,18
+org.seleniumhq.selenium:selenium-api,True,0.0,0.0,51
+org.seleniumhq.selenium:selenium-chrome-driver,True,0.0,0.0,5
+org.seleniumhq.selenium:selenium-chromium-driver,True,0.0,0.0,2
+org.seleniumhq.selenium:selenium-firefox-driver,True,0.0,0.0,9
+org.seleniumhq.selenium:selenium-remote-driver,True,0.0,0.0,5
+org.seleniumhq.selenium:selenium-safari-driver,True,0.0,0.0,4
+org.seleniumhq.selenium:selenium-support,True,0.0,0.0,21

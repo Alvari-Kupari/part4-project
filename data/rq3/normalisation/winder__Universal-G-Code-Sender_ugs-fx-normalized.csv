@@ -1,0 +1,12 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.formdev:flatlaf,False,0.0,0.0,3
+com.github.weisj:jsvg,False,0.0,0.0,9
+com.neuronrobotics:JavaCad,False,0.0,0.0,18
+io.github.classgraph:classgraph,False,0.0,0.0,8
+org.fxmisc.flowless:flowless,True,0.0,0.0,2
+org.fxmisc.richtext:richtextfx,False,0.0,0.0,9
+org.fxyz3d:fxyz3d,False,0.0,0.0,11
+org.openjfx:javafx-base,True,0.0,0.0,62
+org.openjfx:javafx-controls,True,0.0,0.0,118
+org.openjfx:javafx-graphics,True,0.0,0.0,346
+org.openjfx:javafx-swing,True,0.0,0.0,3

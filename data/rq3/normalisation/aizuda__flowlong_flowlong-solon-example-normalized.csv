@@ -1,0 +1,3 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.aizuda:flowlong-core,True,0.0,0.0,21
+org.noear:solon,True,0.0,0.0,1

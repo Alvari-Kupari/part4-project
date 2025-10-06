@@ -1,0 +1,11 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.fasterxml.jackson.core:jackson-databind,True,0.0,0.0,3
+com.google.guava:guava,False,0.0,0.0,1
+io.grpc:grpc-api,True,0.0,0.0,4
+javax.servlet:javax.servlet-api,True,0.0,0.0,4
+org.apache.logging.log4j:log4j-api,False,0.0,0.0,3
+org.springframework.boot:spring-boot,True,0.0,0.0,1
+org.springframework.security:spring-security-config,True,0.0,0.0,19
+org.springframework.security:spring-security-core,True,0.0,0.0,2
+org.springframework.security:spring-security-web,True,0.0,0.0,3
+org.springframework:spring-web,True,0.0,0.0,2

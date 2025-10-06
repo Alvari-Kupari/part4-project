@@ -1,0 +1,12 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.anji-plus:captcha,True,0.0,0.0,6
+com.fasterxml.jackson.core:jackson-databind,True,0.0,0.0,5
+com.fasterxml.jackson.datatype:jackson-datatype-jsr310,True,0.0,0.0,6
+commons-io:commons-io,False,1.5,3.0,2
+jakarta.annotation:jakarta.annotation-api,True,0.0,0.0,1
+org.apache.tomcat.embed:tomcat-embed-core,True,0.0,0.0,38
+org.springframework.boot:spring-boot,True,0.0,0.0,15
+org.springframework.boot:spring-boot-autoconfigure,True,0.0,0.0,1
+org.springframework:spring-core,True,0.0,0.0,7
+org.springframework:spring-web,True,0.0,0.0,37
+org.springframework:spring-webmvc,True,0.0,0.0,11

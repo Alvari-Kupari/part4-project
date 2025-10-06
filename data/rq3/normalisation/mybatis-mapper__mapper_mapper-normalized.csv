@@ -1,0 +1,5 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+io.mybatis:mybatis-common,False,0.0,0.0,3
+io.mybatis:mybatis-config,True,0.0,0.0,1
+io.mybatis:mybatis-provider,False,0.0,0.0,55
+org.mybatis:mybatis,True,0.0,0.0,6

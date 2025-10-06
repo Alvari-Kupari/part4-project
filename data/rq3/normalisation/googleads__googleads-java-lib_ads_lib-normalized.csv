@@ -1,0 +1,14 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.beust:jcommander,False,0.25,1.0,4
+com.google.guava:guava,False,0.0,0.0,49
+com.google.inject.extensions:guice-assistedinject,False,0.0,0.0,4
+com.google.inject:guice,False,0.0,0.0,19
+com.opencsv:opencsv,False,0.0,0.0,8
+commons-beanutils:commons-beanutils,False,0.0,0.0,2
+commons-configuration:commons-configuration,False,0.0,0.0,28
+commons-lang:commons-lang,False,0.0,0.0,2
+jakarta.xml.bind:jakarta.xml.bind-api,True,0.0,0.0,14
+jakarta.xml.soap:jakarta.xml.soap-api,True,0.0,0.0,8
+joda-time:joda-time,False,0.0,0.0,22
+org.slf4j:slf4j-api,False,0.0,0.0,8
+xml-apis:xml-apis,True,0.0,0.0,50

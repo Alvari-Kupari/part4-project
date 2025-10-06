@@ -1,0 +1,11 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.amazonaws:aws-java-sdk-core,True,0.0,0.0,10
+com.amazonaws:aws-java-sdk-s3,False,0.0,0.0,23
+com.fasterxml.jackson.core:jackson-core,True,0.0,0.0,1
+com.fasterxml.jackson.core:jackson-databind,True,0.0,0.0,8
+com.jcraft:jsch,False,0.0,0.0,21
+com.opencsv:opencsv,False,0.0,0.0,4
+io.dropwizard.metrics:metrics-core,False,0.0,0.0,52
+io.dropwizard.metrics:metrics-jmx,False,0.0,0.0,3
+io.dropwizard.metrics:metrics-json,False,0.0,0.0,2
+io.dropwizard.metrics:metrics-jvm,False,0.0,0.0,6

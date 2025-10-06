@@ -1,0 +1,4 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.squareup.okhttp3:logging-interceptor,True,0.0,0.0,2
+com.squareup.okhttp3:okhttp,True,0.0,0.0,1
+io.github.lnyo-cly:ai4j,False,0.0,0.0,52

@@ -1,0 +1,7 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.alipay.sofa:bolt,True,0.0,0.0,5
+com.alipay.sofa:jraft-core,False,0.0,0.0,90
+commons-io:commons-io,True,0.0,0.0,3
+commons-lang:commons-lang,True,0.0,0.0,1
+io.dropwizard.metrics:metrics-core,True,0.0,0.0,3
+org.slf4j:slf4j-api,False,0.0,0.0,5

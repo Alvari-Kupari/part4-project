@@ -1,0 +1,6 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+io.github.linyimin0812:spring-profiler-common,False,0.0,0.0,5
+org.springframework:spring-aop,True,0.0,0.0,10
+org.springframework:spring-beans,True,0.0,0.0,20
+org.springframework:spring-context,False,0.0,0.0,8
+org.springframework:spring-core,True,0.0,0.0,16

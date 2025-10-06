@@ -1,0 +1,6 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+org.springframework:spring-aop,True,0.0,0.0,20
+org.springframework:spring-beans,True,0.0,0.0,8
+org.springframework:spring-context,True,0.0,0.0,9
+org.springframework:spring-core,True,0.0,0.0,25
+org.springframework:spring-expression,True,0.0,0.0,11

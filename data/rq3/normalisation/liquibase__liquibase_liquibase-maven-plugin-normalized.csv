@@ -1,0 +1,9 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+javax.xml.bind:jaxb-api,False,0.0,0.0,2
+org.apache.maven.wagon:wagon-provider-api,True,0.0,0.0,3
+org.apache.maven:maven-artifact,False,0.0,0.0,4
+org.apache.maven:maven-compat,False,0.0,0.0,2
+org.apache.maven:maven-core,False,0.0,0.0,11
+org.apache.maven:maven-model,True,0.0,0.0,2
+org.apache.maven:maven-plugin-api,False,0.0,0.0,22
+org.codehaus.plexus:plexus-container-default,True,0.0,0.0,9

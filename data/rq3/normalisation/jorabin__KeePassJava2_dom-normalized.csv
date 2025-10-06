@@ -1,0 +1,5 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.google.guava:guava,True,0.0,0.0,1
+commons-codec:commons-codec,True,0.0,0.0,2
+org.linguafranca.pwdb:KeePassJava2-kdbx,False,0.0,0.0,27
+org.linguafranca.pwdb:database,True,0.0,0.0,15

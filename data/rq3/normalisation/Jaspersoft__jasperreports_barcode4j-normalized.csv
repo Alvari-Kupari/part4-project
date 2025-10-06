@@ -1,0 +1,4 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.google.zxing:core,False,0.0,0.0,17
+commons-logging:commons-logging,False,0.0,0.0,4
+net.sf.barcode4j:barcode4j,False,0.0,0.0,60

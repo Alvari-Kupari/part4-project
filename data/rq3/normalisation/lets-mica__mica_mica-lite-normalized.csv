@@ -1,0 +1,14 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.fasterxml.jackson.core:jackson-annotations,True,0.0,0.0,1
+com.fasterxml.jackson.core:jackson-databind,True,0.0,0.0,5
+com.fasterxml.jackson.datatype:jackson-datatype-jsr310,True,0.0,0.0,6
+jakarta.servlet:jakarta.servlet-api,False,0.0,0.0,10
+jakarta.validation:jakarta.validation-api,True,0.0,0.0,5
+org.hibernate.validator:hibernate-validator,True,0.0,0.0,3
+org.springframework.boot:spring-boot,True,0.0,0.0,11
+org.springframework.boot:spring-boot-autoconfigure,False,0.0,0.0,8
+org.springframework:spring-context,True,0.0,0.0,12
+org.springframework:spring-core,True,0.0,0.0,14
+org.springframework:spring-web,True,0.0,0.0,37
+org.springframework:spring-webflux,True,0.0,0.0,2
+org.springframework:spring-webmvc,True,0.0,0.0,12

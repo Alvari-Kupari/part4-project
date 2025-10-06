@@ -1,0 +1,15 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+cn.hutool:hutool-core,True,0.0,0.0,1
+cn.hutool:hutool-http,False,0.0,0.0,9
+com.google.code.gson:gson,True,0.0,0.0,3
+org.apache.commons:commons-lang3,True,0.0,0.0,1
+org.apache.tomcat.embed:tomcat-embed-core,True,0.0,0.0,5
+org.fusesource.jansi:jansi,True,0.0,0.0,2
+org.springframework.boot:spring-boot,True,0.0,0.0,2
+org.springframework.boot:spring-boot-autoconfigure,True,0.0,0.0,3
+org.springframework:spring-beans,True,0.0,0.0,1
+org.springframework:spring-web,True,0.0,0.0,1
+org.springframework:spring-webmvc,True,0.0,0.0,5
+xyz.erupt:erupt-annotation,True,0.0,0.0,15
+xyz.erupt:erupt-cloud-common,False,0.0,0.0,15
+xyz.erupt:erupt-core,False,0.0,0.0,26

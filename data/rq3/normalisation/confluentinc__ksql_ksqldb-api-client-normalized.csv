@@ -1,0 +1,7 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.google.guava:guava,False,0.0,0.0,7
+io.netty:netty-codec-http,True,0.0,0.0,1
+io.netty:netty-common,True,0.0,0.0,1
+io.vertx:vertx-core,False,0.30708661417322836,39.0,127
+org.apache.logging.log4j:log4j-api,False,0.0,0.0,5
+org.reactivestreams:reactive-streams,False,0.0,0.0,7

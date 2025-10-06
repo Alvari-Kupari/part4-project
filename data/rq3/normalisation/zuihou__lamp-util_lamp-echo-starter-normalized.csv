@@ -1,0 +1,6 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+cn.hutool:hutool-all,False,0.0,0.0,12
+com.google.guava:guava,False,0.0,0.0,10
+org.aspectj:aspectjweaver,True,0.0,0.0,2
+org.springframework:spring-beans,True,0.0,0.0,1
+org.springframework:spring-core,True,0.0,0.0,19

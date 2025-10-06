@@ -1,0 +1,4 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+net.sourceforge.owlapi:owlapi-api,False,0.0,0.0,12.0
+net.sourceforge.owlapi:owlapi-api,True,0.0,2.0,0.0
+net.sourceforge.owlapi:owlapi-distribution,True,0.0,2.0,0.0

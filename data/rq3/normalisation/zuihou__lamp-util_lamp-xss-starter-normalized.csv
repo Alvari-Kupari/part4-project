@@ -1,0 +1,10 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+cn.hutool:hutool-all,False,0.0,0.0,6
+com.fasterxml.jackson.core:jackson-core,True,0.0,0.0,5
+com.fasterxml.jackson.core:jackson-databind,False,0.0,0.0,4
+jakarta.servlet:jakarta.servlet-api,False,0.0,0.0,16
+org.owasp.antisamy:antisamy,False,0.0,0.0,10
+org.springframework.boot:spring-boot,True,0.0,0.0,4
+org.springframework.boot:spring-boot-autoconfigure,False,0.0,0.0,1
+org.springframework:spring-core,True,0.0,0.0,3
+org.springframework:spring-web,False,0.0,0.0,1

@@ -1,0 +1,5 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+commons-net:commons-net,False,0.0,0.0,12
+javax.servlet:javax.servlet-api,False,0.0,0.0,19
+org.jetbrains.xodus:xodus-environment,False,0.0,0.0,1
+org.jetbrains.xodus:xodus-openAPI,True,0.0,0.0,25

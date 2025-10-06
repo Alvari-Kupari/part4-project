@@ -1,0 +1,3 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.aizuda:snail-job-common-core,False,0.0,0.0,2
+com.aizuda:snail-job-common-log,True,0.0,0.0,1

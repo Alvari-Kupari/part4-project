@@ -1,0 +1,6 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.fasterxml.jackson.core:jackson-annotations,True,1.0,1.0,1
+com.fasterxml.jackson.core:jackson-databind,True,0.0,0.0,4
+com.fasterxml.jackson.dataformat:jackson-dataformat-yaml,False,0.0,0.0,2
+info.picocli:picocli,False,0.0,0.0,3
+org.slf4j:jul-to-slf4j,False,0.0,0.0,2

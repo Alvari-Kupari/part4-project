@@ -1,0 +1,8 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.google.guava:guava,True,0.0,0.0,1
+com.microsoft.azure:synapseml-lightgbm_2.12,False,0.0,0.0,7
+org.apache.spark:spark-mllib_2.13,False,0.0,0.0,2
+org.jpmml:pmml-converter,True,0.0,0.0,2
+org.jpmml:pmml-lightgbm,False,0.0,0.0,6
+org.jpmml:pmml-model,True,0.0,0.0,3
+org.scala-lang:scala-library,False,0.3333333333333333,1.0,3

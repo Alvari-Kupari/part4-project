@@ -1,0 +1,8 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.baomidou:mybatis-plus-core,True,0.15625,10.0,64
+com.baomidou:mybatis-plus-extension,True,0.1111111111111111,1.0,9
+com.baomidou:mybatis-plus-generator,False,0.061224489795918366,3.0,49
+com.github.yulichang:mybatis-plus-join-core,True,0.0,0.0,3
+org.apache.velocity:velocity-engine-core,False,0.0,0.0,10
+org.mybatis:mybatis,True,0.0,0.0,6
+org.slf4j:slf4j-api,True,0.0,0.0,2

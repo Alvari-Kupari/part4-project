@@ -1,0 +1,9 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+io.github.bes2008.solution.langx:langx-java,False,0.0,0.0,32
+io.github.bes2008.solution.sqlhelper:sqlhelper-common,True,0.0,0.0,19
+io.github.bes2008.solution.sqlhelper:sqlhelper-dialect,False,0.0,0.0,65
+org.slf4j:jcl-over-slf4j,False,0.0,0.0,2
+org.slf4j:slf4j-api,False,0.0,0.0,5
+org.springframework:spring-core,True,0.0,0.0,1
+org.springframework:spring-jdbc,False,0.0,0.0,51
+org.springframework:spring-tx,True,0.0,0.0,3

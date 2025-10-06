@@ -1,0 +1,10 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.github.ben-manes.caffeine:caffeine,False,0.0,0.0,10
+com.nimbusds:nimbus-jose-jwt,False,0.0,0.0,30
+commons-codec:commons-codec,False,0.0,0.0,7
+jakarta.servlet:jakarta.servlet-api,False,0.0,0.0,94
+org.apache.httpcomponents:httpcore,True,0.0,0.0,65
+org.jolokia:jolokia-json,False,0.0,0.0,10
+org.jolokia:jolokia-server-core,False,0.0,0.0,25
+org.jolokia:jolokia-service-serializer,False,0.0,0.0,3
+org.slf4j:slf4j-api,False,0.0,0.0,9

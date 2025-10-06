@@ -1,0 +1,9 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+net.sf.trove4j:trove4j,True,0.0,0.0,49
+org.apache.commons:commons-collections4,True,0.0,0.0,6
+org.apache.commons:commons-lang3,True,0.0,0.0,1
+org.apache.hadoop:hadoop-common,True,0.0,0.0,5
+org.slf4j:slf4j-api,True,0.0,0.0,6
+org.terrier:terrier-core,False,0.0,0.0,80
+org.terrier:terrier-index-api,True,0.0,0.0,80
+org.terrier:terrier-retrieval-api,True,0.0,0.0,3

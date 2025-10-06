@@ -1,0 +1,7 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.baomidou:mybatis-plus-core,True,0.0,0.0,24
+com.baomidou:mybatis-plus-extension,True,0.0,0.0,3
+org.dromara.warm:warm-flow-core,True,0.008333333333333333,1.0,120
+org.dromara.warm:warm-flow-mybatis-plus-core,True,0.0,0.0,73
+org.dromara.warm:warm-flow-plugin-ui-core,True,0.0,0.0,17
+org.springframework:spring-web,True,0.0,0.0,2

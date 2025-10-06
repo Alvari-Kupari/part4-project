@@ -1,0 +1,4 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.google.guava:guava,False,0.0,0.0,8
+com.puppycrawl.tools:checkstyle,False,0.0,0.0,112
+org.cactoos:cactoos,False,0.0,0.0,8

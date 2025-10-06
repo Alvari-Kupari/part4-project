@@ -1,0 +1,4 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+net.sourceforge.plantuml:plantuml,False,0.0,0.0,63
+org.eclipse.jetty.toolchain:jetty-jakarta-servlet-api,True,0.0,0.0,31
+xml-apis:xml-apis,True,0.0,0.0,32

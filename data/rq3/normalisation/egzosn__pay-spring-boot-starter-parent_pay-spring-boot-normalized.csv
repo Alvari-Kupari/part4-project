@@ -1,0 +1,13 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.egzosn:pay-java-ali,False,0.0,0.0,14
+com.egzosn:pay-java-common,False,0.0,0.0,89
+com.egzosn:pay-java-fuiou,False,0.0,0.0,6
+com.egzosn:pay-java-payoneer,False,0.0,0.0,8
+com.egzosn:pay-java-paypal,False,0.0,0.0,10
+com.egzosn:pay-java-union,False,0.0,0.0,12
+com.egzosn:pay-java-wx,False,0.0,0.0,30
+com.egzosn:pay-java-wx-youdian,False,0.0,0.0,6
+org.springframework:spring-core,True,0.0,0.0,1
+org.springframework:spring-jcl,True,0.0,0.0,3
+org.springframework:spring-jdbc,False,0.0,0.0,5
+org.springframework:spring-tx,True,0.0,0.0,2

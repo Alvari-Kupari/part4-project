@@ -1,0 +1,6 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+io.ebean:ebean,False,0.0,0.0,21
+io.ebean:ebean-datasource-api,True,0.0,0.0,3
+io.github.bes2008.solution.langx:langx-java,False,0.0,0.0,1
+io.github.bes2008.solution.sqlhelper:sqlhelper-dialect,False,0.12,3.0,25
+org.slf4j:slf4j-api,False,0.0,0.0,3

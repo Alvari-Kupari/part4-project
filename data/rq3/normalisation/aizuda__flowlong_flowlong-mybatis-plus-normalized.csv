@@ -1,0 +1,3 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.aizuda:flowlong-core,False,0.0,0.0,33
+com.baomidou:mybatis-plus-core,False,0.0,0.0,14

@@ -1,0 +1,3 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.baomidou:mybatis-plus-core,True,0.0,0.0,1
+org.springframework.boot:spring-boot,True,0.0,0.0,1

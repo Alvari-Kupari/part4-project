@@ -1,0 +1,3 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+javax.cache:cache-api,False,0.0,0.0,4
+org.apache.ignite:ignite-core,False,0.0,0.0,34

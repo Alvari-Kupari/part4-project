@@ -1,0 +1,8 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+org.slf4j:slf4j-api,True,0.0,0.0,3
+org.springframework.ai:spring-ai-mcp,True,0.0,0.0,1
+org.springframework.ai:spring-ai-model,True,0.0,0.0,1
+org.springframework.boot:spring-boot,True,0.0,0.0,2
+org.springframework:spring-context,True,0.0,0.0,1
+org.springframework:spring-core,True,0.0,0.0,2
+org.springframework:spring-web,True,0.0,0.0,2

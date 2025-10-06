@@ -1,0 +1,6 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.github.subchen:jetbrick-template,True,0.0,0.0,6
+com.github.subchen:jetbrick-template-web,False,0.0,0.0,4
+javax.servlet:javax.servlet-api,False,0.0,0.0,7
+org.apache.struts.xwork:xwork-core,True,0.0,0.0,4
+org.apache.struts:struts2-core,False,0.0,0.0,4

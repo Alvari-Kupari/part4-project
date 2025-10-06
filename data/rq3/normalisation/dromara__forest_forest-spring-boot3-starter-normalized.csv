@@ -1,0 +1,7 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.dtflys.forest:forest-core,False,0.0,0.0,30
+com.dtflys.forest:forest-spring,False,0.0,0.0,13
+org.springframework.boot:spring-boot-autoconfigure,True,0.0,0.0,1
+org.springframework:spring-beans,True,0.0,0.0,21
+org.springframework:spring-context,True,0.0,0.0,5
+org.springframework:spring-core,True,0.0,0.0,12

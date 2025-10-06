@@ -1,0 +1,5 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.fasterxml.jackson.core:jackson-databind,True,0.0,0.0,5
+io.github.classgraph:classgraph,False,0.0,0.0,10
+io.swagger.core.v3:swagger-annotations,False,2.0,2.0,1
+jakarta.validation:jakarta.validation-api,False,0.0,0.0,6

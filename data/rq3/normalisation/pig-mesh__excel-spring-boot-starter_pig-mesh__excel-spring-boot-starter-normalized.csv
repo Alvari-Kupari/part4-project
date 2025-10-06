@@ -1,0 +1,13 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+cn.idev.excel:fastexcel-core,True,0.0,0.0,49
+jakarta.validation:jakarta.validation-api,True,0.0,0.0,7
+org.apache.commons:commons-collections4,True,0.0,0.0,2
+org.apache.poi:poi,True,0.0,0.0,1
+org.apache.tomcat.embed:tomcat-embed-core,True,0.0,0.0,7
+org.aspectj:aspectjweaver,True,0.0,0.0,5
+org.springframework:spring-beans,True,0.0,0.0,10
+org.springframework:spring-context,True,0.0,0.0,12
+org.springframework:spring-core,True,0.0,0.0,23
+org.springframework:spring-expression,True,0.0,0.0,6
+org.springframework:spring-web,True,0.0,0.0,23
+org.springframework:spring-webmvc,True,0.0,0.0,5

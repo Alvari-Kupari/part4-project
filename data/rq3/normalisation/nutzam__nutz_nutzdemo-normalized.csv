@@ -1,0 +1,3 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+javax.servlet:servlet-api,True,0.0,0.0,5
+org.nutz:nutz,False,0.3333333333333333,9.0,27

@@ -27,14 +27,6 @@ def normalize(bcs_csv, symbols_csv, submodule):
     direct_bcs = bcs[~bcs["Is_Transitive"]].shape[0]
     trans_bcs = bcs[bcs["Is_Transitive"]].shape[0]
 
-    # # --- compute denominators ---
-    # if not all(col in syms.columns for col in ["Class_Name", "Symbol_Name", "Symbol_Type"]):
-    #     print(f"⚠️ Missing columns in {submodule}, returning 0")
-    #     return pd.DataFrame([{
-    #         "submodule": submodule,
-    #         "normalised_direct_deps": 0,
-    #         "normalised_transitive_deps": 0,
-    #     }])
 
     direct_symbols = (
         syms[~syms["Is_Transitive"]][["Class_Name", "Symbol_Name", "Symbol_Type"]]

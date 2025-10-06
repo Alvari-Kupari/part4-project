@@ -1,0 +1,3 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.squareup.okhttp3:okhttp,False,0.0,0.0,6
+com.squareup.retrofit2:retrofit,False,0.0,0.0,2

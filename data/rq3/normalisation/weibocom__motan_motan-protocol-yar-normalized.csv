@@ -1,0 +1,4 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.weibo:yar-java,False,0.0,0.0,19
+io.netty:netty-all,True,0.0,0.0,25
+org.apache.commons:commons-lang3,False,0.0,0.0,1

@@ -1,0 +1,9 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.cronutils:cron-utils,False,0.0,0.0,9.0
+com.fasterxml.jackson.core:jackson-annotations,False,0.0,1.0,0.0
+com.fasterxml.jackson.core:jackson-core,False,0.0,0.0,5.0
+com.fasterxml.jackson.core:jackson-databind,False,0.0,0.0,16.0
+com.fasterxml.jackson.datatype:jackson-datatype-jsr310,False,0.0,0.0,2.0
+com.google.code.gson:gson,False,0.0,0.0,40.0
+io.micrometer:micrometer-core,False,0.25,2.0,8.0
+org.slf4j:slf4j-api,False,0.0,0.0,9.0

@@ -1,0 +1,8 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.fasterxml.jackson.core:jackson-core,True,0.037037037037037035,2.0,54
+com.fasterxml.jackson.core:jackson-databind,False,0.01020408163265306,1.0,98
+com.fasterxml.jackson.datatype:jackson-datatype-jsr310,False,0.0,0.0,7
+org.mongodb:bson,True,0.0,0.0,163
+org.mongodb:mongodb-driver-core,True,0.0,0.0,81
+org.mongodb:mongodb-driver-sync,False,0.009708737864077669,1.0,103
+org.slf4j:slf4j-api,False,0.0,0.0,3

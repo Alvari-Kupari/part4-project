@@ -1,0 +1,4 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.github.subchen:jetbrick-template,False,0.0,0.0,4
+commons-beanutils:commons-beanutils,True,0.0,0.0,1
+org.apache.shiro:shiro-core,False,0.0,0.0,7

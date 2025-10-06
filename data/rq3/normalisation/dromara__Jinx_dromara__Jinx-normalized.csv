@@ -1,0 +1,11 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.google.guava:guava,False,0.0,0.0,5
+commons-logging:commons-logging,True,0.0,0.0,5
+io.netty:netty-all,False,0.0,0.0,85
+javax.servlet:javax.servlet-api,False,0.0,0.0,35
+org.apache.commons:commons-lang3,False,0.0,0.0,1
+org.slf4j:slf4j-api,True,0.0,0.0,3
+org.springframework.boot:spring-boot,True,0.0,0.0,8
+org.springframework:spring-context,True,0.0,0.0,1
+org.springframework:spring-core,True,0.0,0.0,3
+org.springframework:spring-webmvc,True,0.0,0.0,1

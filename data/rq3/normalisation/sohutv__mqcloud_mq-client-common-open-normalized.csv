@@ -1,0 +1,8 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.fasterxml.jackson.core:jackson-databind,False,0.0,0.0,11
+commons-codec:commons-codec,True,0.0,0.0,1
+io.micrometer:micrometer-core,False,0.0,0.0,2
+io.protostuff:protostuff-api,True,0.0,0.0,5
+io.protostuff:protostuff-core,False,0.0,0.0,2
+io.protostuff:protostuff-runtime,False,0.0,0.0,1
+org.slf4j:slf4j-api,False,0.0,0.0,5

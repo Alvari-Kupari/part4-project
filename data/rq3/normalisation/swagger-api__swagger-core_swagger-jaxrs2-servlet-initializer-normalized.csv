@@ -1,0 +1,3 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+jakarta.servlet:jakarta.servlet-api,False,0.0,0.0,3
+jakarta.ws.rs:jakarta.ws.rs-api,False,0.0,0.0,2

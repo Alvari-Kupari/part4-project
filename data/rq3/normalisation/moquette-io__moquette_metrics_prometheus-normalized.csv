@@ -1,0 +1,5 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+io.prometheus:prometheus-metrics-core,False,0.0,0.0,11
+io.prometheus:prometheus-metrics-exporter-httpserver,False,0.0,0.0,3
+io.prometheus:prometheus-metrics-instrumentation-jvm,False,0.0,0.0,1
+org.slf4j:slf4j-api,False,0.0,0.0,4

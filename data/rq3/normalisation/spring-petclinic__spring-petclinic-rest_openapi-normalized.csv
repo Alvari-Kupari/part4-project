@@ -1,0 +1,4 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+io.swagger.core.v3:swagger-annotations-jakarta,True,0.0,51.0,0.0
+org.apache.tomcat.embed:tomcat-embed-core,True,0.0,0.0,4.0
+org.springframework:spring-web,True,0.0,0.0,9.0

@@ -1,0 +1,14 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.google.guava:guava,True,0.0,0.0,5
+commons-cli:commons-cli,False,0.0,0.0,10
+commons-io:commons-io,False,0.0,0.0,5
+jakarta.servlet:jakarta.servlet-api,False,0.0,0.0,17
+org.apache.commons:commons-lang3,False,0.0,0.0,3
+org.apache.logging.log4j:log4j-api,False,0.0,0.0,5
+org.dspace:xoai,False,0.0,0.0,112
+org.springframework:spring-beans,True,0.0,0.0,1
+org.springframework:spring-context,True,0.0,0.0,6
+org.springframework:spring-web,True,0.0,0.0,6
+org.springframework:spring-webmvc,False,0.0,0.0,6
+org.thymeleaf:thymeleaf,True,0.0,0.0,5
+org.thymeleaf:thymeleaf-spring6,True,0.0,0.0,9

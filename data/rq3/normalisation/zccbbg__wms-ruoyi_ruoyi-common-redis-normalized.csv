@@ -1,0 +1,12 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.baomidou:lock4j-core,True,0.0,0.0,1.0
+com.fasterxml.jackson.core:jackson-annotations,True,0.0,1.0,0.0
+com.fasterxml.jackson.core:jackson-databind,True,0.0,0.0,9.0
+com.fasterxml.jackson.datatype:jackson-datatype-jsr310,False,0.0,0.0,6.0
+com.github.ben-manes.caffeine:caffeine,False,0.0,0.0,8.0
+org.redisson:redisson,True,0.0,0.0,100.0
+org.redisson:redisson-spring-boot-starter,False,0.0,0.0,1.0
+org.springframework.boot:spring-boot,True,0.0,0.0,1.0
+org.springframework:spring-context,True,0.0,0.0,12.0
+org.springframework:spring-context-support,True,0.0,0.0,2.0
+org.springframework:spring-core,True,0.0,0.0,3.0

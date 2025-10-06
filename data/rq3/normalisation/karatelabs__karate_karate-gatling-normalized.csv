@@ -1,0 +1,4 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+io.gatling:gatling-core,True,0.0,0.0,1
+io.gatling:gatling-core-java,True,0.0,0.0,4
+io.karatelabs:karate-core,False,0.0,0.0,3

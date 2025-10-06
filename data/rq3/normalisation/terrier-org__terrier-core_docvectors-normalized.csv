@@ -1,0 +1,5 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+net.sf.trove4j:trove4j,False,0.0,0.0,19
+org.terrier:terrier-core,False,0.0,0.0,41
+org.terrier:terrier-index-api,True,0.0,0.0,47
+org.terrier:terrier-retrieval-api,True,0.0,0.0,1

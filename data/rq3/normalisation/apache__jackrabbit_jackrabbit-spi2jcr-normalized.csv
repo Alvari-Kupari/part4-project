@@ -1,0 +1,4 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+javax.jcr:jcr,False,0.0,0.0,199
+org.apache.jackrabbit:oak-jackrabbit-api,False,0.0,0.0,3
+org.slf4j:slf4j-api,False,0.0,0.0,3

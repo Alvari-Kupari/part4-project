@@ -1,0 +1,8 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+de.codecentric:spring-boot-admin-server,True,0.14285714285714285,2.0,14
+io.projectreactor:reactor-core,True,0.0,0.0,2
+org.springframework.boot:spring-boot,True,0.0,0.0,3
+org.springframework.boot:spring-boot-autoconfigure,True,0.0,0.0,1
+org.springframework.security:spring-security-config,True,0.0,0.0,18
+org.springframework.security:spring-security-web,True,0.0,0.0,7
+org.springframework:spring-context,True,0.0,0.0,1

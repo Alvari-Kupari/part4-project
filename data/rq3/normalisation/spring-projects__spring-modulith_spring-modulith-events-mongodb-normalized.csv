@@ -1,0 +1,7 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+org.mongodb:bson,True,0.0,0.0,2
+org.springframework.boot:spring-boot-tx,False,0.0,0.0,1
+org.springframework.data:spring-data-commons,True,0.0,0.0,4
+org.springframework.data:spring-data-mongodb,False,0.0,0.0,27
+org.springframework:spring-core,True,0.0,0.0,2
+org.springframework:spring-tx,True,0.0,0.0,3

@@ -1,0 +1,3 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+org.apache.commons:commons-csv,False,0.0,0.0,7
+org.slf4j:slf4j-api,False,0.0,0.0,4

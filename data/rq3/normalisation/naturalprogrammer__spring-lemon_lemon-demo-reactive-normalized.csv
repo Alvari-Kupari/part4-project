@@ -1,0 +1,8 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.naturalprogrammer.spring-lemon:spring-lemon-commons,True,0.0,0.0,3
+com.naturalprogrammer.spring-lemon:spring-lemon-reactive,False,0.0,0.0,6
+io.projectreactor:reactor-core,True,0.0,0.0,1
+org.mongodb:bson,True,0.0,0.0,2
+org.springframework.boot:spring-boot,True,0.0,0.0,1
+org.springframework.security:spring-security-oauth2-core,True,0.0,0.0,1
+org.springframework:spring-web,True,0.0,0.0,1

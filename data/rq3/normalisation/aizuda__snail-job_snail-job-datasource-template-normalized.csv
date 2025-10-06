@@ -1,0 +1,15 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+cn.hutool:hutool-core,True,0.0,0.0,2
+cn.hutool:hutool-http,True,0.0,0.0,1
+com.aizuda:snail-job-common-core,False,0.0,0.0,8
+com.aizuda:snail-job-common-model,False,0.0,0.0,5
+com.baomidou:mybatis-plus-annotation,True,6.0,6.0,1
+com.baomidou:mybatis-plus-core,True,0.0,0.0,25
+com.baomidou:mybatis-plus-extension,True,0.0,0.0,9
+com.baomidou:mybatis-plus-jsqlparser,False,0.0,0.0,2
+com.baomidou:mybatis-plus-spring,True,0.1111111111111111,1.0,9
+com.baomidou:mybatis-plus-spring-boot-autoconfigure,True,0.0,0.0,3
+org.mapstruct:mapstruct,False,0.0,0.0,1
+org.mybatis:mybatis,True,0.0,0.0,5
+org.mybatis:mybatis-spring,True,0.0,0.0,2
+org.springframework:spring-core,True,0.0,0.0,6

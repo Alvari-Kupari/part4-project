@@ -1,0 +1,8 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.querydsl:querydsl-codegen,False,0.0,0.0,4
+com.querydsl:querydsl-core,True,0.0,0.0,12
+com.querydsl:querydsl-spatial,False,0.0,0.0,19
+com.querydsl:querydsl-sql,False,0.0,0.0,24
+com.querydsl:querydsl-sql-codegen,False,0.0,0.0,1
+org.geolatte:geolatte-geom,True,0.0,0.0,32
+org.postgis:postgis-jdbc,False,0.0,0.0,3

@@ -1,0 +1,5 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.amazonaws:aws-java-sdk-core,True,0.0,0.0,13
+com.amazonaws:aws-java-sdk-s3,False,0.46875,15.0,32
+org.apache.maven.wagon:wagon-provider-api,False,0.0,0.0,12
+org.springframework.build:aws-maven,False,0.0,0.0,16

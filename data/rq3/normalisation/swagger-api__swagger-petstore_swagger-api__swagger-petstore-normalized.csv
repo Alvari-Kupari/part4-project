@@ -1,0 +1,7 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.bugsnag:bugsnag,False,0.0,0.0,4
+io.swagger.core.v3:swagger-models,True,0.0,0.0,6
+io.swagger:swagger-inflector,False,0.0,0.0,10
+jakarta.ws.rs:jakarta.ws.rs-api,True,0.0,0.0,6
+joda-time:joda-time,True,0.0,0.0,1
+org.apache.commons:commons-lang3,True,0.0,0.0,2

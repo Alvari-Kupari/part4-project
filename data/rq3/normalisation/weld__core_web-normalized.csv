@@ -1,0 +1,6 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+jakarta.el:jakarta.el-api,False,0.0,0.0,31
+jakarta.enterprise:jakarta.enterprise.cdi-api,False,0.0,0.0,24
+jakarta.servlet:jakarta.servlet-api,False,0.0,0.0,40
+org.jboss.weld:weld-api,False,0.0,0.0,24
+org.jboss.weld:weld-spi,False,0.0,0.0,15

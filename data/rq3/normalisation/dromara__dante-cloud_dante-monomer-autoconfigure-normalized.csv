@@ -1,0 +1,9 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+cn.herodotus.engine:assistant-core,True,0.0,0.0,3
+cn.herodotus.engine:assistant-definition,True,0.0,0.0,1
+com.google.guava:guava,True,0.0,0.0,8
+jakarta.servlet:jakarta.servlet-api,True,0.0,0.0,15
+org.apache.commons:commons-lang3,True,0.0,0.0,1
+org.slf4j:slf4j-api,True,0.0,0.0,3
+org.springframework:spring-core,True,0.0,0.0,1
+org.springframework:spring-web,True,0.0,0.0,6

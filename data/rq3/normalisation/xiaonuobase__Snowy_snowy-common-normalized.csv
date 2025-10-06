@@ -1,0 +1,17 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+ch.qos.logback:logback-classic,True,0.0,0.0,3
+cn.hutool:hutool-all,False,0.0,0.0,63
+com.alibaba:easyexcel-core,True,0.0,0.0,2
+com.antherd:sm-crypto,False,0.6363636363636364,7.0,11
+com.baomidou:mybatis-plus-core,True,0.0,0.0,4
+com.baomidou:mybatis-plus-extension,True,0.3333333333333333,1.0,3
+com.fhs-opensource:easy-trans-anno,True,0.0,0.0,2
+org.apache.commons:commons-lang3,True,0.0,0.0,1
+org.apache.poi:poi,True,0.0,0.0,7
+org.apache.tomcat.embed:tomcat-embed-core,True,0.0,0.0,19
+org.aspectj:aspectjweaver,True,0.0,0.0,6
+org.lionsoul:ip2region,False,0.0,0.0,4
+org.mybatis:mybatis,True,0.0,0.0,2
+org.springframework.data:spring-data-redis,True,0.0,0.0,8
+org.springframework:spring-web,True,0.0,0.0,5
+org.springframework:spring-webmvc,True,0.0,0.0,2
