@@ -1,0 +1,12 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+io.github.resilience4j:resilience4j-bulkhead,False,0.0,0.0,14
+io.github.resilience4j:resilience4j-circuitbreaker,False,0.0,0.0,9
+io.github.resilience4j:resilience4j-core,True,0.0,0.0,3
+io.github.resilience4j:resilience4j-micrometer,False,0.0,0.0,8
+io.github.resilience4j:resilience4j-reactor,False,0.0,0.0,2
+io.github.resilience4j:resilience4j-spring-boot3,False,0.0,0.0,1
+io.github.resilience4j:resilience4j-timelimiter,False,0.0,0.0,9
+io.micrometer:micrometer-core,True,0.0,0.0,4
+io.micrometer:micrometer-observation,False,0.0,0.0,3
+io.projectreactor:reactor-core,False,0.0,0.0,16
+org.slf4j:slf4j-api,True,0.0,0.0,2

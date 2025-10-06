@@ -1,0 +1,5 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.google.auto:auto-common,False,0.0,0.0,1
+com.google.guava:guava,False,0.0,0.0,73
+com.google.truth:truth,False,0.0,0.0,16
+junit:junit,False,0.0,0.0,5

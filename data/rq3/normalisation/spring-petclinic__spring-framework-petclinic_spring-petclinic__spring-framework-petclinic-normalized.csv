@@ -1,0 +1,14 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+jakarta.persistence:jakarta.persistence-api,False,1.3333333333333333,12.0,9.0
+jakarta.persistence:jakarta.persistence-api,True,0.0,6.0,0.0
+jakarta.servlet:jakarta.servlet-api,False,0.0,0.0,1.0
+org.aspectj:aspectjweaver,False,0.0,0.0,3.0
+org.springframework.data:spring-data-commons,True,0.0,0.0,1.0
+org.springframework:spring-beans,True,0.0,0.0,3.0
+org.springframework:spring-context,True,0.0,0.0,14.0
+org.springframework:spring-core,True,0.0,0.0,12.0
+org.springframework:spring-jdbc,False,0.0,0.0,18.0
+org.springframework:spring-orm,False,0.0,0.0,2.0
+org.springframework:spring-tx,True,0.0,0.0,3.0
+org.springframework:spring-web,True,0.0,0.0,8.0
+org.springframework:spring-webmvc,False,0.0,0.0,4.0

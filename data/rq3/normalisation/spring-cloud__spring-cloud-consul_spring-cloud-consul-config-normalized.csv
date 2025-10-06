@@ -1,0 +1,6 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+commons-logging:commons-logging,True,0.0,0.0,9
+org.springframework.retry:spring-retry,False,0.0,0.0,3
+org.springframework:spring-beans,True,0.0,0.0,6
+org.springframework:spring-context,True,0.0,0.0,11
+org.springframework:spring-core,True,0.0,0.0,22

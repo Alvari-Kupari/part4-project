@@ -1,0 +1,9 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.github.jsqlparser:jsqlparser,False,0.3939393939393939,91.0,231
+com.google.guava:guava,False,0.0,0.0,6
+commons-beanutils:commons-beanutils,False,0.0,0.0,1
+commons-collections:commons-collections,True,0.0,0.0,2
+io.projectreactor.addons:reactor-extra,False,0.0,0.0,3
+io.projectreactor:reactor-core,False,0.0,0.0,68
+org.hswebframework:hsweb-utils,False,0.0,0.0,2
+org.reactivestreams:reactive-streams,True,0.0,0.0,1

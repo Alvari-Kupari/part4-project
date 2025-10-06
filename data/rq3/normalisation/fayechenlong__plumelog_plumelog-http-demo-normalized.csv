@@ -1,0 +1,7 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.alibaba:transmittable-thread-local,True,0.0,0.0,1
+com.plumelog:plumelog-core,True,0.0,0.0,1
+com.plumelog:plumelog-http,False,0.0,0.0,4
+com.squareup.okhttp3:okhttp,False,0.0,0.0,4
+org.springframework.boot:spring-boot,True,0.0,0.0,1
+org.springframework:spring-web,True,0.0,0.0,5

@@ -1,0 +1,12 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.auth0:java-jwt,False,0.0,0.0,10
+com.google.cloud:google-cloud-core,True,0.0,0.0,3
+com.google.guava:guava,False,0.0,0.0,7
+io.micrometer:micrometer-core,True,0.0,0.0,1
+io.micrometer:micrometer-registry-stackdriver,False,0.0,0.0,3
+org.apache.logging.log4j:log4j-api,False,0.0,0.0,12
+org.springframework.boot:spring-boot,True,0.0,0.0,1
+org.springframework.boot:spring-boot-actuator-autoconfigure,True,0.0,0.0,1
+org.springframework.data:spring-data-commons,True,0.0,0.0,2
+org.springframework:spring-tx,True,0.0,0.0,1
+org.springframework:spring-web,True,0.0,0.0,14

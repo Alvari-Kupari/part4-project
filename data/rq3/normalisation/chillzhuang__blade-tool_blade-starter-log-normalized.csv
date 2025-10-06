@@ -1,0 +1,15 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.fasterxml.jackson.core:jackson-databind,True,0.0,0.0,1
+jakarta.servlet:jakarta.servlet-api,True,0.0,0.0,7
+jakarta.validation:jakarta.validation-api,True,0.0,0.0,5
+org.aspectj:aspectjweaver,True,0.0,0.0,5
+org.hibernate.validator:hibernate-validator,False,0.0,0.0,3
+org.springblade:blade-core-launch,True,0.0,0.0,8
+org.springblade:blade-core-secure,False,0.0,0.0,3
+org.springblade:blade-core-tool,False,0.0,0.0,21
+org.springframework.boot:spring-boot,True,0.0,0.0,7
+org.springframework.boot:spring-boot-autoconfigure,True,0.0,0.0,8
+org.springframework:spring-beans,True,0.0,0.0,1
+org.springframework:spring-context,True,0.0,0.0,9
+org.springframework:spring-web,True,0.0,0.0,18
+org.springframework:spring-webmvc,True,0.0,0.0,8

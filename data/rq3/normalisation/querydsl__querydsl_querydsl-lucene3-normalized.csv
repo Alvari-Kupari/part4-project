@@ -1,0 +1,5 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.mysema.commons:mysema-commons-lang,True,0.0,0.0,6
+com.querydsl:querydsl-core,False,0.0,0.0,56
+org.apache.lucene:lucene-core,False,0.0,0.0,64
+org.apache.lucene:lucene-queries,False,0.0,0.0,4

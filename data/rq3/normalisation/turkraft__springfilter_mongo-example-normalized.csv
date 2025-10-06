@@ -1,0 +1,9 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.github.javafaker:javafaker,False,0.0,0.0,20
+org.apache.tomcat.embed:tomcat-embed-core,True,0.0,0.0,2
+org.mongodb:bson,True,0.0,0.0,1
+org.springframework.boot:spring-boot,True,0.0,0.0,2
+org.springframework.data:spring-data-mongodb,True,0.0,0.0,5
+org.springframework:spring-context,True,0.0,0.0,1
+org.springframework:spring-core,True,0.0,0.0,3
+org.springframework:spring-webmvc,True,0.0,0.0,1

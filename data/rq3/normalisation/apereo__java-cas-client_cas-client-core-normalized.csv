@@ -1,0 +1,7 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.fasterxml.jackson.core:jackson-core,True,0.0,0.0,1
+com.fasterxml.jackson.core:jackson-databind,False,0.0,0.0,4
+com.nimbusds:nimbus-jose-jwt,False,0.0,0.0,67
+commons-codec:commons-codec,False,0.0,0.0,3
+jakarta.servlet:jakarta.servlet-api,False,0.0,0.0,49
+org.slf4j:slf4j-api,False,0.0,0.0,8

@@ -1,0 +1,5 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+args4j:args4j,False,0.0,0.0,7
+com.github.mwiede:jsch,False,0.0,0.0,16
+org.slf4j:slf4j-api,False,0.0,0.0,3
+org.testcontainers:testcontainers,False,0.0,0.0,7

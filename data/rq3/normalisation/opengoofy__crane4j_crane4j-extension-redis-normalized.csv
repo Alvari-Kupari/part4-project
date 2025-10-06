@@ -1,0 +1,4 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+cn.crane4j:crane4j-core,False,0.0,0.0,2
+org.springframework.data:spring-data-redis,False,0.0,0.0,12
+org.springframework:spring-tx,True,0.0,0.0,1

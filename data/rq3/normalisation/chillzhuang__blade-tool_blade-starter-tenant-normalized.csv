@@ -1,0 +1,8 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.baomidou:mybatis-plus-jsqlparser,True,0.0,0.0,3
+com.github.jsqlparser:jsqlparser,True,0.0,0.0,2
+org.aspectj:aspectjweaver,True,0.0,0.0,2
+org.springblade:blade-core-secure,True,0.0,0.0,1
+org.springblade:blade-core-tool,False,0.0,0.0,2
+org.springblade:blade-starter-mybatis,False,0.0,0.0,1
+org.springframework:spring-core,True,0.0,0.0,3

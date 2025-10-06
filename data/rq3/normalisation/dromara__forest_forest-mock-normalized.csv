@@ -1,0 +1,8 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.squareup.okhttp3:mockwebserver,False,0.0,0.0,10
+com.squareup.okhttp3:okhttp,False,0.0,0.0,9
+com.squareup.okio:okio,True,0.0,0.0,3
+commons-fileupload:commons-fileupload,False,0.0,0.0,12
+commons-io:commons-io,False,0.0,0.0,1
+javax.servlet:javax.servlet-api,True,0.0,0.0,15
+org.mock-server:mockserver-junit-rule-no-dependencies,False,0.0,0.0,3

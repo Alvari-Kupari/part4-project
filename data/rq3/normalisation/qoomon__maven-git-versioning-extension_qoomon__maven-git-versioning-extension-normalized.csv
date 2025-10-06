@@ -1,0 +1,16 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.fasterxml.jackson.core:jackson-core,True,0.0,0.0,2
+com.fasterxml.jackson.core:jackson-databind,True,0.0,0.0,5
+com.fasterxml.jackson.dataformat:jackson-dataformat-xml,False,0.0,0.0,2
+com.google.inject:guice,True,0.0,0.0,3
+de.pdark:decentxml,False,0.0,0.0,14
+org.apache.maven.shared:maven-shared-utils,True,0.0,0.0,9
+org.apache.maven:maven-artifact,True,0.0,0.0,3
+org.apache.maven:maven-builder-support,True,0.0,0.0,2
+org.apache.maven:maven-core,False,0.0,0.0,10
+org.apache.maven:maven-model,True,0.0,0.0,72
+org.apache.maven:maven-model-builder,True,0.0,0.0,4
+org.apache.maven:maven-plugin-api,False,0.0,0.0,3
+org.codehaus.plexus:plexus-utils,True,0.0,0.0,7
+org.eclipse.jgit:org.eclipse.jgit,False,0.0,0.0,43
+org.slf4j:slf4j-api,True,0.0,0.0,9

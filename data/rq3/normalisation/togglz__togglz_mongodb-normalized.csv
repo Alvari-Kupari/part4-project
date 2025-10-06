@@ -1,0 +1,5 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+org.mongodb:bson,True,0.0,0.0,7
+org.mongodb:mongodb-driver-core,False,0.0,0.0,5
+org.mongodb:mongodb-driver-sync,False,0.0,0.0,9
+org.togglz:togglz-core,False,0.0,0.0,13

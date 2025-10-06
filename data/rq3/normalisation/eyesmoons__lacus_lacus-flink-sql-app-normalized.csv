@@ -1,0 +1,10 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+commons-collections:commons-collections,True,0.0,0.0,1
+org.apache.commons:commons-lang3,True,0.0,0.0,2
+org.apache.flink:flink-core,True,0.0,0.0,3
+org.apache.flink:flink-java,True,0.0,0.0,4
+org.apache.flink:flink-runtime,False,1.3333333333333333,4.0,3
+org.apache.flink:flink-statebackend-rocksdb,False,0.0,0.0,2
+org.apache.flink:flink-streaming-java,True,0.0,0.0,8
+org.apache.flink:flink-table-api-java,False,0.05,1.0,20
+org.apache.flink:flink-table-api-java-bridge,False,0.0,0.0,1

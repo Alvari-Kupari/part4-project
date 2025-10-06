@@ -1,0 +1,6 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+commons-io:commons-io,False,0.0,0.0,2
+io.sentry:sentry,False,0.0,0.0,24
+org.apache.commons:commons-lang3,False,0.0,0.0,6
+org.eclipse.jgit:org.eclipse.jgit,False,0.0,0.0,46
+org.sonarsource.git.blame:git-files-blame,False,0.0,0.0,7

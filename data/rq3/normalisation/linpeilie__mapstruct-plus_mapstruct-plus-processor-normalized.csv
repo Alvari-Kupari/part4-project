@@ -1,0 +1,5 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+cn.easii:tutelary-repackage-javapoet,False,0.0,0.0,34
+io.github.linpeilie:mapstruct-plus,False,0.0,0.0,19
+org.mapstruct:mapstruct,True,0.0,0.0,3
+org.mapstruct:mapstruct-processor,False,0.0,0.0,13

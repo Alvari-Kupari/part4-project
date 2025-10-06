@@ -1,0 +1,8 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.google.protobuf:protobuf-java,True,0.0,0.0,2
+dev.langchain4j:langchain4j-core,True,0.0,0.0,7
+dev.langchain4j:langchain4j-ollama,False,0.0,0.0,1
+dev.langchain4j:langchain4j-open-ai,False,0.0,0.0,1
+dev.langchain4j:langchain4j-weaviate,False,0.0,0.0,1
+org.apache.pdfbox:pdfbox,False,0.0,0.0,4
+org.apache.poi:poi-ooxml,True,0.0,0.0,5

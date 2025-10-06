@@ -1,0 +1,6 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+org.apache.maven:maven-artifact,False,0.0,0.0,6
+org.apache.maven:maven-core,False,0.0,0.0,5
+org.apache.maven:maven-plugin-api,False,0.0,0.0,3
+org.eclipse.transformer:org.eclipse.transformer,True,2.8333333333333335,17.0,6
+org.eclipse.transformer:org.eclipse.transformer.cli,False,1.0,1.0,1

@@ -1,0 +1,8 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.baomidou:mybatis-plus-core,True,0.0,0.0,3
+org.mybatis:mybatis,True,0.0,0.0,9
+org.springblade:blade-core-secure,True,0.0,0.0,6
+org.springblade:blade-core-tool,True,0.0,0.0,14
+org.springblade:blade-starter-mybatis,False,0.0,0.0,1
+org.springframework:spring-core,True,0.0,0.0,2
+org.springframework:spring-jdbc,True,0.0,0.0,5

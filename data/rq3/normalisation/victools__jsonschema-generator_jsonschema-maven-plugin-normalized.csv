@@ -1,0 +1,6 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.fasterxml.jackson.core:jackson-databind,True,0.0,0.0,3
+io.github.classgraph:classgraph,False,0.0,0.0,13
+org.apache.maven:maven-core,False,0.0,0.0,6
+org.apache.maven:maven-model,True,0.0,0.0,1
+org.apache.maven:maven-plugin-api,False,0.0,0.0,7

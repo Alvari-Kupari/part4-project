@@ -1,0 +1,4 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+org.antlr:antlr4-runtime,False,0.02702702702702703,1.0,37
+org.apache.commons:commons-lang3,False,0.0,0.0,10
+org.slf4j:slf4j-api,False,0.0,0.0,7

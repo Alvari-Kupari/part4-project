@@ -1,0 +1,15 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.baomidou:dynamic-datasource-spring,True,0.0,0.0,3
+com.baomidou:mybatis-plus-core,True,0.0,0.0,41
+com.baomidou:mybatis-plus-extension,True,0.0,0.0,12
+com.baomidou:mybatis-plus-jsqlparser,False,0.0,0.0,9
+com.github.jsqlparser:jsqlparser,True,0.1,2.0,20
+org.apache.tomcat.embed:tomcat-embed-core,True,0.0,0.0,2
+org.aspectj:aspectjweaver,True,0.0,0.0,1
+org.mybatis:mybatis,True,0.0,0.0,15
+org.mybatis:mybatis-spring,True,0.0,0.0,1
+org.springframework:spring-beans,True,0.0,0.0,1
+org.springframework:spring-context,True,0.0,0.0,2
+org.springframework:spring-core,True,0.0,0.0,12
+org.springframework:spring-expression,True,0.0,0.0,24
+org.springframework:spring-tx,True,0.0,0.0,1

@@ -1,0 +1,5 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+org.igniterealtime.smack:smack-core,True,0.0,0.0,10
+org.igniterealtime.smack:smack-extensions,True,0.0,0.0,8
+org.igniterealtime.smack:smack-jingle-old,False,0.0,0.0,31
+org.jxmpp:jxmpp-core,True,0.0,0.0,1

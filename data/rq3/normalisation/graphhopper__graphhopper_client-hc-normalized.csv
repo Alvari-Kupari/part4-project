@@ -1,0 +1,6 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.fasterxml.jackson.core:jackson-core,True,0.0,0.0,1
+com.fasterxml.jackson.core:jackson-databind,True,0.0,0.0,27
+com.squareup.okhttp3:okhttp,False,0.0,0.0,27
+com.squareup.okio:okio-jvm,True,0.0,0.0,10
+org.slf4j:slf4j-api,False,0.0,0.0,3

@@ -1,0 +1,3 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+info.picocli:picocli,False,0.0,0.0,5
+io.github.hakky54:sslcontext-kickstart,False,0.0,0.0,16

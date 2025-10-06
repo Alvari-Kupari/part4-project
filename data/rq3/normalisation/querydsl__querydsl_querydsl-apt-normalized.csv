@@ -1,0 +1,8 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.querydsl:codegen-utils,True,0.0,0.0,48
+com.querydsl:querydsl-codegen,False,0.0,0.0,56
+com.querydsl:querydsl-core,True,0.0,0.0,22
+jakarta.persistence:jakarta.persistence-api,False,0.0,0.0,22
+org.datanucleus:javax.jdo,False,0.0,0.0,21
+org.mongodb.morphia:morphia,False,0.0,0.0,3
+org.springframework.roo:org.springframework.roo.annotations,False,0.0,0.0,2

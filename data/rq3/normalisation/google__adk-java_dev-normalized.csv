@@ -1,0 +1,15 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.fasterxml.jackson.core:jackson-core,True,0.0,0.0,2
+com.fasterxml.jackson.core:jackson-databind,True,0.0,0.0,7
+guru.nidi:graphviz-java,False,0.0,0.0,33
+io.opentelemetry:opentelemetry-api,False,0.0,0.0,9
+io.opentelemetry:opentelemetry-sdk,False,0.0,0.0,5
+io.opentelemetry:opentelemetry-sdk-common,False,0.0,0.0,6
+io.opentelemetry:opentelemetry-sdk-trace,False,0.0,0.0,14
+org.eclipse.jdt:ecj,False,0.0,0.0,1
+org.slf4j:slf4j-api,True,0.0,0.0,7
+org.springframework.boot:spring-boot,True,0.0,0.0,1
+org.springframework:spring-core,True,0.0,0.0,2
+org.springframework:spring-web,True,0.0,0.0,20
+org.springframework:spring-webmvc,True,0.0,0.0,17
+org.springframework:spring-websocket,True,0.0,0.0,23

@@ -1,0 +1,3 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+org.apache.spark:spark-sql_2.12,False,0.0,0.0,3
+org.slf4j:slf4j-api,True,0.0,0.0,4

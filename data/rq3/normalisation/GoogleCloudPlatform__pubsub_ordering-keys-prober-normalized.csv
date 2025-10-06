@@ -1,0 +1,9 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.beust:jcommander,False,0.0,0.0,2
+com.google.api.grpc:proto-google-cloud-pubsub-v1,True,0.0,0.0,27
+com.google.api:api-common,True,0.0,0.0,5
+com.google.api:gax,True,0.0,0.0,4
+com.google.cloud:google-cloud-pubsub,False,0.0,0.0,31
+com.google.guava:guava,True,0.0,0.0,9
+com.google.protobuf:protobuf-java,True,0.0,0.0,1
+joda-time:joda-time,False,0.0,0.0,5

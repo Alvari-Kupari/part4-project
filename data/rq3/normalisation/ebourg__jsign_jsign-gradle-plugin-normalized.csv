@@ -1,0 +1,3 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+org.codehaus.groovy:groovy-all,False,0.0,0.0,1
+org.jetbrains.kotlin:kotlin-stdlib,False,0.0,0.0,3

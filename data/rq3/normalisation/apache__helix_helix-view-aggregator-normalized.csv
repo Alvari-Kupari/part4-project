@@ -1,0 +1,4 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+commons-cli:commons-cli,False,0.047619047619047616,1.0,21
+io.dropwizard.metrics:metrics-core,False,0.0,0.0,3
+org.slf4j:slf4j-api,False,0.0,0.0,5

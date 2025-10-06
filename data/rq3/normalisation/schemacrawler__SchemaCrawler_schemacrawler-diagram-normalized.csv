@@ -1,0 +1,7 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+guru.nidi:graphviz-java,False,0.0,0.0,10
+us.fatehi:schemacrawler-api,True,0.0,0.0,64
+us.fatehi:schemacrawler-loader,True,0.0,0.0,2
+us.fatehi:schemacrawler-text,False,0.0,0.0,42
+us.fatehi:schemacrawler-tools,True,0.0,0.0,41
+us.fatehi:schemacrawler-utility,True,0.0,0.0,39

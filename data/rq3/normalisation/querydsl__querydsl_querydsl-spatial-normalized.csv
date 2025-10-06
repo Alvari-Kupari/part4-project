@@ -1,0 +1,7 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.querydsl:codegen-utils,True,0.0,0.0,2
+com.querydsl:querydsl-codegen,False,0.0,0.0,7
+com.querydsl:querydsl-core,False,0.0,0.0,33
+com.vividsolutions:jts,False,0.0,0.0,9
+org.geolatte:geolatte-geom,False,0.0,0.0,10
+org.locationtech.jts:jts-core,True,0.0,0.0,9

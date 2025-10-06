@@ -1,0 +1,5 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.google.code.gson:gson,False,0.0,0.0,2
+io.github.linyimin0812:spring-profiler-api,False,0.0,0.0,14
+io.github.linyimin0812:spring-profiler-common,False,0.0,0.0,35
+org.apache.commons:commons-lang3,False,0.0,0.0,7

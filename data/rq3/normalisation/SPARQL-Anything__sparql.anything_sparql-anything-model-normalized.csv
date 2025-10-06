@@ -1,0 +1,11 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.google.guava:guava,False,0.0,0.0,4
+commons-codec:commons-codec,True,0.0,0.0,1
+commons-io:commons-io,False,0.0,0.0,5
+org.apache.commons:commons-compress,True,0.0,0.0,10
+org.apache.httpcomponents:httpcore,True,0.0,0.0,26
+org.apache.jena:jena-arq,True,0.008264462809917356,1.0,121
+org.apache.jena:jena-core,True,0.05555555555555555,2.0,36
+org.apache.jena:jena-tdb1,True,0.0,0.0,1
+org.apache.jena:jena-tdb2,True,0.0,0.0,2
+org.slf4j:slf4j-api,False,0.0,0.0,8

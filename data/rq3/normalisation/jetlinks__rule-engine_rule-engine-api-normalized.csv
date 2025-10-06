@@ -1,0 +1,10 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.alibaba:fastjson,True,0.0,0.0,1
+com.google.guava:guava,True,0.0,0.0,1
+commons-collections:commons-collections,True,0.0,0.0,3
+io.projectreactor:reactor-core,False,0.0,0.0,40
+org.hswebframework.web:hsweb-core,False,0.0,0.0,4
+org.hswebframework:hsweb-utils,True,0.0,0.0,1
+org.reactivestreams:reactive-streams,True,0.0,0.0,1
+org.slf4j:slf4j-api,False,0.0,0.0,3
+org.springframework:spring-core,True,0.0,0.0,1

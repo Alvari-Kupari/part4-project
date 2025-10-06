@@ -1,0 +1,6 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.alibaba:transmittable-thread-local,True,0.0,0.0,2.0
+com.plumelog:plumelog-core,False,0.0,0.0,4.0
+org.apache.dubbo:dubbo,False,0.0,0.0,8.0
+org.apache.dubbo:dubbo-rpc-api,True,0.0,1.0,0.0
+org.springframework:spring-core,True,0.0,0.0,1.0

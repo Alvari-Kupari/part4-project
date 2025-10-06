@@ -1,0 +1,5 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.microsoft.playwright:driver,True,0.0,0.0,1
+com.microsoft.playwright:playwright,False,0.0,0.0,126
+io.karatelabs:karate-core,False,0.0,0.0,61
+org.graalvm.polyglot:polyglot,True,0.0,0.0,1

@@ -1,0 +1,14 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.zaxxer:HikariCP,True,0.0,0.0,25
+jakarta.persistence:jakarta.persistence-api,True,0.0,0.0,37
+org.apache.commons:commons-lang3,True,0.0,0.0,4
+org.hibernate:hibernate-core,True,0.0,0.0,24
+org.springframework.boot:spring-boot-autoconfigure,True,0.0,0.0,7
+org.springframework:spring-beans,True,0.0,0.0,1
+org.springframework:spring-core,True,0.0,0.0,1
+org.springframework:spring-jdbc,True,0.0,0.0,2
+org.springframework:spring-orm,True,0.0,0.0,13
+org.springframework:spring-web,True,0.0,0.0,2
+xyz.erupt:erupt-annotation,True,0.0,0.0,10
+xyz.erupt:erupt-core,False,0.0,0.0,45
+xyz.erupt:linq.j,True,0.0,0.0,6

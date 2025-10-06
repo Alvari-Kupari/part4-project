@@ -1,0 +1,4 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+cn.crane4j:crane4j-annotation,True,0.0,0.0,1
+cn.crane4j:crane4j-core,False,0.0,0.0,20
+cn.hutool:hutool-core,True,0.0,0.0,1

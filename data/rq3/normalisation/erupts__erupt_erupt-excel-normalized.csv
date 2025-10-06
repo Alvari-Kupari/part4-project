@@ -1,0 +1,10 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.google.code.gson:gson,True,0.0,0.0,3.0
+org.apache.commons:commons-lang3,True,0.0,0.0,1.0
+org.apache.poi:poi,False,0.0,0.0,80.0
+org.apache.poi:poi,True,0.0,2.0,0.0
+org.apache.poi:poi-ooxml,False,0.0,0.0,2.0
+org.apache.tomcat.embed:tomcat-embed-core,True,0.0,0.0,7.0
+org.springframework:spring-web,True,0.0,0.0,4.0
+xyz.erupt:erupt-annotation,True,0.0,0.0,16.0
+xyz.erupt:erupt-core,False,0.0,0.0,46.0

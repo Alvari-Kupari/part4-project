@@ -1,0 +1,6 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+jakarta.enterprise:jakarta.enterprise.cdi-api,True,0.0,0.0,1
+jakarta.inject:jakarta.inject-api,True,0.0,0.0,1
+org.jboss.arquillian.container:arquillian-weld-embedded,False,0.0,0.0,13
+org.jboss.weld:weld-api,False,0.0,0.0,5
+org.jboss.weld:weld-spi,False,0.0,0.0,7

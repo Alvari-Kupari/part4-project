@@ -1,0 +1,5 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.fasterxml.jackson.core:jackson-core,True,0.0,0.0,1
+com.fasterxml.jackson.core:jackson-databind,True,0.0,0.0,6
+io.github.fanyong920:jvppeteer,False,0.0,0.0,412
+org.java-websocket:Java-WebSocket,True,0.0,0.0,5

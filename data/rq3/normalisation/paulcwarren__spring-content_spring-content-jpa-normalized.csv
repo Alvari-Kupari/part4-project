@@ -1,0 +1,11 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.microsoft.sqlserver:mssql-jdbc,False,0.0,0.0,2
+commons-io:commons-io,False,0.0,0.0,2
+commons-logging:commons-logging,False,0.0,0.0,3
+org.glassfish.hk2.external:aopalliance-repackaged,True,0.0,0.0,1
+org.postgresql:postgresql,False,0.0,0.0,13
+org.springframework:spring-aop,True,0.0,0.0,2
+org.springframework:spring-beans,True,0.0,0.0,5
+org.springframework:spring-core,True,0.0,0.0,16
+org.springframework:spring-jdbc,True,0.0,0.0,7
+org.springframework:spring-tx,True,0.0,0.0,14

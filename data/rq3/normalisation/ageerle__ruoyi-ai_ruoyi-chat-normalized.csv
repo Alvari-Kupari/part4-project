@@ -1,0 +1,12 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+cn.hutool:hutool-all,True,0.0,0.0,3
+com.fasterxml.jackson.core:jackson-databind,True,0.0,0.0,2
+com.squareup.okhttp3:logging-interceptor,True,0.0,0.0,2
+com.squareup.okhttp3:okhttp,True,0.0,0.0,13
+com.squareup.okhttp3:okhttp-sse,True,0.0,0.0,3
+jakarta.servlet:jakarta.servlet-api,False,0.0,0.0,4
+org.slf4j:slf4j-api,True,0.0,0.0,3
+org.springframework:spring-beans,True,0.0,0.0,2
+org.springframework:spring-context,True,0.0,0.0,2
+org.springframework:spring-core,True,0.0,0.0,4
+org.springframework:spring-web,True,0.0,0.0,9

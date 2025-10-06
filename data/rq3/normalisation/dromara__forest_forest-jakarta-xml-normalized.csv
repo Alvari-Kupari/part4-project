@@ -1,0 +1,3 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.dtflys.forest:forest-core,False,0.0,0.0,17
+jakarta.xml.bind:jakarta.xml.bind-api,False,0.0,0.0,12

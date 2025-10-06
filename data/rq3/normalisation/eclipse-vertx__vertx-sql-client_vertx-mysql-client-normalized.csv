@@ -1,0 +1,4 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+io.netty:netty-buffer,True,0.0,0.0,47
+io.netty:netty-common,True,0.0,0.0,12
+io.netty:netty-transport,True,0.0,0.0,14

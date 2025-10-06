@@ -1,0 +1,8 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.fasterxml.jackson.core:jackson-databind,True,0.0,0.0,3
+com.github.rvesse:airline,False,0.0,0.0,7
+com.google.guava:guava,True,0.0,0.0,7
+org.apache.commons:commons-lang3,True,0.0,0.0,4
+org.apache.logging.log4j:log4j-api,False,0.0,0.0,5
+org.apache.logging.log4j:log4j-core,False,0.0,0.0,9
+org.jline:jline,False,0.5094339622641509,27.0,53

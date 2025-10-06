@@ -1,0 +1,16 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.github.docker-java:docker-java-api,True,0.0,0.0,1
+info.picocli:picocli,False,0.0,0.0,3
+org.hsqldb:hsqldb,False,0.0,0.0,16
+org.testcontainers:cassandra,False,0.0,0.0,3
+org.testcontainers:database-commons,True,0.0,0.0,1
+org.testcontainers:db2,False,0.0,0.0,6
+org.testcontainers:jdbc,False,0.0,0.0,2
+org.testcontainers:mariadb,False,0.0,0.0,6
+org.testcontainers:mssqlserver,False,0.0,0.0,4
+org.testcontainers:mysql,False,0.0,0.0,3
+org.testcontainers:oracle-xe,False,0.0,0.0,1
+org.testcontainers:postgresql,False,0.0,0.0,3
+org.testcontainers:testcontainers,True,0.0,0.0,26
+org.testcontainers:trino,False,0.0,0.0,2
+us.fatehi:schemacrawler-utility,False,0.0,0.0,10

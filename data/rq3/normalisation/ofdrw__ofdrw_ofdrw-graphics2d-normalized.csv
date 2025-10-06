@@ -1,0 +1,5 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+org.dom4j:dom4j,True,0.0,0.0,1
+org.ofdrw:ofdrw-core,False,0.0,0.0,170
+org.ofdrw:ofdrw-gv,False,0.0,0.0,1
+org.ofdrw:ofdrw-pkg,False,0.0,0.0,27

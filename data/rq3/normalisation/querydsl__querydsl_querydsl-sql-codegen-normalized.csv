@@ -1,0 +1,6 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.querydsl:codegen-utils,True,0.0,0.0,40
+com.querydsl:querydsl-codegen,False,0.0,0.0,53
+com.querydsl:querydsl-sql,False,0.0,0.0,40
+javax.validation:validation-api,False,0.0,0.0,3
+org.apache.ant:ant,False,0.0,0.0,3

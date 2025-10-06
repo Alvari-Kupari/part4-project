@@ -1,0 +1,15 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.google.guava:guava,False,0.0,0.0,5
+com.jcabi:jcabi-log,False,0.0,0.0,4
+com.jcabi:jcabi-maven-slf4j,False,0.0,0.0,2
+com.jcabi:jcabi-xml,False,0.0,0.0,5
+commons-io:commons-io,False,0.0,0.0,5
+org.apache.maven.reporting:maven-reporting-exec,False,0.0,0.0,5
+org.apache.maven.shared:maven-dependency-analyzer,False,0.5,3.0,6
+org.apache.maven:maven-artifact,False,0.0,0.0,4
+org.apache.maven:maven-core,False,0.0,0.0,21
+org.apache.maven:maven-model,False,0.0,0.0,11
+org.apache.maven:maven-plugin-api,False,0.0,0.0,11
+org.cactoos:cactoos,False,0.0,0.0,10
+org.codehaus.plexus:plexus-container-default,False,0.0,0.0,15
+org.codehaus.plexus:plexus-utils,False,0.0,0.0,7

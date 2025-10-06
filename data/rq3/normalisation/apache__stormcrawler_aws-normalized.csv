@@ -1,0 +1,7 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.amazonaws:aws-java-sdk-cloudsearch,False,0.0,0.0,36
+com.amazonaws:aws-java-sdk-core,True,0.0,0.0,10
+com.amazonaws:aws-java-sdk-s3,False,0.0,0.0,15
+com.fasterxml.jackson.core:jackson-databind,True,0.0,0.0,11
+commons-codec:commons-codec,True,0.0,0.0,1
+org.slf4j:slf4j-api,True,0.0,0.0,5

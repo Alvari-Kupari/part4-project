@@ -1,0 +1,14 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+org.apache.commons:commons-collections4,False,0.0,0.0,2
+org.apache.commons:commons-lang3,False,0.0,0.0,31
+org.apache.maven.resolver:maven-resolver-api,False,0.0392156862745098,2.0,51
+org.apache.maven.shared:maven-shared-utils,True,0.0,0.0,2
+org.apache.maven.wagon:wagon-provider-api,False,0.0,0.0,28
+org.apache.maven:maven-artifact,False,0.0,0.0,47
+org.apache.maven:maven-core,False,0.0,0.0,52
+org.apache.maven:maven-model,False,0.0,0.0,82
+org.apache.maven:maven-model-builder,False,0.0,0.0,2
+org.apache.maven:maven-plugin-api,False,0.0,0.0,11
+org.codehaus.plexus:plexus-xml,False,0.0,0.0,1
+org.codehaus.woodstox:stax2-api,True,0.0,0.0,8
+org.eclipse.sisu:org.eclipse.sisu.plexus,False,0.0,0.0,3

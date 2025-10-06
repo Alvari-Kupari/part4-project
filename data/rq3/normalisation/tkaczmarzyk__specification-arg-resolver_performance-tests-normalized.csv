@@ -1,0 +1,11 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+jakarta.persistence:jakarta.persistence-api,True,0.0,0.0,7
+net.kaczmarzyk:specification-arg-resolver,False,0.037037037037037035,1.0,27
+org.springframework.data:spring-data-commons,True,0.0,0.0,4
+org.springframework.data:spring-data-jpa,True,0.0,0.0,4
+org.springframework:spring-beans,True,0.0,0.0,1
+org.springframework:spring-context,True,0.0,0.0,4
+org.springframework:spring-core,True,0.0,0.0,2
+org.springframework:spring-test,True,0.0,0.0,4
+org.springframework:spring-web,True,0.0,0.0,2
+org.springframework:spring-webmvc,True,0.0,0.0,1

@@ -1,0 +1,7 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+io.github.pig-mesh.nacos:nacos-console,False,0.0,0.0,1
+io.github.pig-mesh.nacos:nacos-core,True,0.0,0.0,4
+io.github.pig-mesh.nacos:nacos-server,False,0.0,0.0,2
+io.github.pig-mesh.nacos:nacos-sys,True,0.0,0.0,5
+org.springframework.boot:spring-boot,True,0.0,0.0,5
+org.springframework:spring-context,True,0.0,0.0,1

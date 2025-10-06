@@ -1,0 +1,7 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+org.springframework.ai:spring-ai-model,True,0.0,0.0,3
+org.springframework.boot:spring-boot,True,0.0,0.0,1
+org.springframework.security:spring-security-config,True,0.0,0.0,12
+org.springframework.security:spring-security-oauth2-authorization-server,True,0.0,0.0,1
+org.springframework.security:spring-security-web,True,0.0,0.0,1
+org.springframework:spring-web,True,0.0,0.0,3

@@ -1,0 +1,4 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.baomidou:mybatis-plus-core,True,0.0,0.0,1
+com.google.guava:guava,False,0.0,0.0,2
+org.springframework:spring-core,True,0.0,0.0,1

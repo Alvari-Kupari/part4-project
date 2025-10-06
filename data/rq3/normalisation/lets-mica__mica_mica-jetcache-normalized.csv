@@ -1,0 +1,8 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.alicp.jetcache:jetcache-anno,True,0.0,0.0,4
+com.alicp.jetcache:jetcache-autoconfigure,False,0.0,0.0,1
+com.alicp.jetcache:jetcache-core,True,0.0,0.0,19
+com.fasterxml.jackson.core:jackson-core,True,0.0,0.0,1
+com.fasterxml.jackson.core:jackson-databind,True,0.0,0.0,6
+io.micrometer:micrometer-core,False,0.0,0.0,3
+org.springframework:spring-beans,True,0.0,0.0,2

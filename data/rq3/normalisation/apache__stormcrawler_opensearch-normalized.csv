@@ -1,0 +1,10 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+commons-codec:commons-codec,True,0.0,0.0,1
+joda-time:joda-time,True,0.0,0.0,2
+org.apache.httpcomponents:httpcore,True,0.0,0.0,6
+org.apache.storm:storm-shaded-deps,True,0.0,0.0,1
+org.opensearch:opensearch,True,0.0,0.0,101
+org.opensearch:opensearch-common,True,0.0,0.0,5
+org.opensearch:opensearch-core,True,0.0,0.0,12
+org.opensearch:opensearch-x-content,True,0.0,0.0,1
+org.slf4j:slf4j-api,True,0.0,0.0,8

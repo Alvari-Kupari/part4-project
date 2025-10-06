@@ -1,0 +1,6 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+javax.servlet:servlet-api,False,0.0,0.0,6
+org.apache.poi:poi,True,0.0,0.0,3
+org.apache.poi:poi-ooxml,True,0.0,0.0,2
+org.jeecgframework:autopoi,False,0.0,0.0,10
+org.springframework:spring-webmvc,True,0.0,0.0,2

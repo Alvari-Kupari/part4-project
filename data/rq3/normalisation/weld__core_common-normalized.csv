@@ -1,0 +1,3 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+io.smallrye:jandex,False,0.0,0.0,45
+org.jboss.logging:jboss-logging,True,0.0,0.0,9

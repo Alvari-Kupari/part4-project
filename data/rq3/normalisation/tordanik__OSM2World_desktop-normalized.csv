@@ -1,0 +1,4 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.google.guava:guava,True,0.0,0.0,2
+com.lexicalscope.jewelcli:jewelcli,False,0.0,0.0,4
+info.picocli:picocli,False,0.0,0.0,4

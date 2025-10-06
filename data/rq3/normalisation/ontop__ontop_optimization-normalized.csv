@@ -1,0 +1,4 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.google.guava:guava,False,0.0,0.0,11
+com.google.inject:guice,False,0.0,0.0,2
+org.slf4j:slf4j-api,False,0.0,0.0,2

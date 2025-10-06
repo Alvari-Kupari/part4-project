@@ -1,0 +1,3 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.squareup:javapoet,False,0.0,0.0,19
+jakarta.persistence:jakarta.persistence-api,False,0.0,0.0,5

@@ -1,0 +1,5 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+us.fatehi:schemacrawler-api,True,0.0064516129032258064,1.0,155
+us.fatehi:schemacrawler-loader,False,0.0,0.0,2
+us.fatehi:schemacrawler-tools,True,0.0,0.0,30
+us.fatehi:schemacrawler-utility,False,0.0,0.0,48

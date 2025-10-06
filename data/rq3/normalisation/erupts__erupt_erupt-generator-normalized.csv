@@ -1,0 +1,6 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+jakarta.persistence:jakarta.persistence-api,True,0.0,0.0,2
+org.freemarker:freemarker,False,0.0,0.0,4
+xyz.erupt:erupt-annotation,True,0.0,0.0,6
+xyz.erupt:erupt-core,True,0.0,0.0,9
+xyz.erupt:erupt-jpa,False,0.0,0.0,2

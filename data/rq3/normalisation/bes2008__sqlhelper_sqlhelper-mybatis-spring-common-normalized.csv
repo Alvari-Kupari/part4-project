@@ -1,0 +1,10 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+io.github.bes2008.solution.langx:langx-java,False,0.0,0.0,15
+io.github.bes2008.solution.sqlhelper:sqlhelper-common,True,0.0,0.0,5
+io.github.bes2008.solution.sqlhelper:sqlhelper-datasource,False,0.0,0.0,12
+io.github.bes2008.solution.sqlhelper:sqlhelper-dialect,True,0.0,0.0,2
+io.github.bes2008.solution.sqlhelper:sqlhelper-mybatis,False,0.0,0.0,16
+org.mybatis:mybatis,False,0.03125,1.0,32
+org.mybatis:mybatis-spring,False,0.0,0.0,4
+org.slf4j:slf4j-api,False,0.0,0.0,6
+org.springframework:spring-beans,True,0.0,0.0,2

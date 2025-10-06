@@ -1,0 +1,7 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.floreysoft:jmte,False,0.0,0.0,6
+com.googlecode.owasp-java-html-sanitizer:owasp-java-html-sanitizer,False,0.0,0.0,9
+jakarta.servlet:jakarta.servlet-api,False,0.10714285714285714,3.0,28
+org.apache.commons:commons-collections4,False,0.0,0.0,4
+org.togglz:togglz-core,True,0.0,0.0,43
+org.togglz:togglz-servlet,False,0.0,0.0,7

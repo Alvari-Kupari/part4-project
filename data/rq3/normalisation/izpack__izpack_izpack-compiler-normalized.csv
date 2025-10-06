@@ -1,0 +1,7 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+commons-cli:commons-cli,False,0.0,0.0,15
+commons-io:commons-io,False,0.0,0.0,18
+org.apache.commons:commons-compress,False,0.0,0.0,15
+org.apache.commons:commons-lang3,False,0.0,0.0,2
+org.apache.tika:tika-core,False,0.0,0.0,3
+org.picocontainer:picocontainer,False,0.0,0.0,7

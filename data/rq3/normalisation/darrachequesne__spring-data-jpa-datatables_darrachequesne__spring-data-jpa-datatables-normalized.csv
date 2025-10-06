@@ -1,0 +1,7 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.querydsl:querydsl-core,True,0.0,0.0,23
+com.querydsl:querydsl-jpa,False,0.0,0.0,1
+jakarta.persistence:jakarta.persistence-api,True,0.0,0.0,36
+org.hibernate.orm:hibernate-core,False,0.0,0.0,2
+org.springframework.data:spring-data-commons,True,0.0,0.0,17
+org.springframework.data:spring-data-jpa,False,0.0,0.0,18

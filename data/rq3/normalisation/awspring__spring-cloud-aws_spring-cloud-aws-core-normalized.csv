@@ -1,0 +1,5 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+org.springframework:spring-core,False,0.0,0.0,9
+software.amazon.awssdk:regions,False,0.0,0.0,3
+software.amazon.awssdk:sdk-core,True,0.0,0.0,3
+software.amazon.awssdk:utils,True,0.0,0.0,1

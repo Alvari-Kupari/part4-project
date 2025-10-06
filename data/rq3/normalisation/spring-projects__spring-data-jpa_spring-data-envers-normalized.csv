@@ -1,0 +1,5 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+jakarta.persistence:jakarta.persistence-api,True,0.0,0.0,1
+org.hibernate.orm:hibernate-core,True,0.0,0.0,1
+org.hibernate.orm:hibernate-envers,False,0.0,0.0,29
+org.springframework:spring-core,True,0.0,0.0,3

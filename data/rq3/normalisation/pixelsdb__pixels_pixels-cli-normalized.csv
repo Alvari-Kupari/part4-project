@@ -1,0 +1,6 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.facebook.presto:presto-jdbc,False,0.0,0.0,2
+com.google.guava:guava,False,0.0,0.0,3
+com.google.protobuf:protobuf-java-util,False,0.0,0.0,1
+io.trino:trino-jdbc,False,0.0,0.0,2
+net.sourceforge.argparse4j:argparse4j,False,0.5833333333333334,7.0,12

@@ -1,0 +1,4 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.github.mwiede:jsch,False,0.0,0.0,36
+com.jcabi:jcabi-log,False,0.0,0.0,5
+org.cactoos:cactoos,False,0.0,0.0,17

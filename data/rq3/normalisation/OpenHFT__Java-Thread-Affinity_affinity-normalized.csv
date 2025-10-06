@@ -1,0 +1,4 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+net.java.dev.jna:jna,False,0.0,0.0,36
+net.java.dev.jna:jna-platform,False,0.4,2.0,5
+org.slf4j:slf4j-api,False,0.0,0.0,8

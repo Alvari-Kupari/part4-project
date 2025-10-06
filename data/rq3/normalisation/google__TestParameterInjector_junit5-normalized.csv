@@ -1,0 +1,4 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.google.guava:guava,False,0.0,0.0,92
+org.junit.jupiter:junit-jupiter-api,True,0.0,0.0,11
+org.yaml:snakeyaml,False,0.0,0.0,7

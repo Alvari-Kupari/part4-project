@@ -1,0 +1,13 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.google.guava:guava,False,0.0,0.0,37
+io.netty:netty-buffer,True,0.0,0.0,29
+io.netty:netty-codec-base,True,0.0,0.0,5
+io.netty:netty-codec-haproxy,False,0.0,0.0,6
+io.netty:netty-codec-http,False,0.0,0.0,18
+io.netty:netty-common,True,0.0,0.0,11
+io.netty:netty-handler,False,0.0,0.0,10
+io.netty:netty-transport,True,0.0,0.0,64
+io.netty:netty-transport-classes-epoll,True,0.0,0.0,8
+io.netty:netty-transport-classes-io_uring,True,0.0,0.0,6
+io.netty:netty-transport-native-unix-common,True,0.0,0.0,2
+net.sf.jopt-simple:jopt-simple,False,0.0,0.0,8

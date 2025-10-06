@@ -1,0 +1,4 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+javax.jcr:jcr,False,0.0,0.0,73
+org.apache.geronimo.specs:geronimo-j2ee-connector_1.5_spec,False,0.0,0.0,35
+xml-apis:xml-apis,True,0.0,0.0,2

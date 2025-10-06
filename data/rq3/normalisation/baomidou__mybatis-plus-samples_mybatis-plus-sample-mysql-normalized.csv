@@ -1,0 +1,8 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.baomidou:mybatis-plus-annotation,True,0.0,0.0,1
+com.baomidou:mybatis-plus-core,True,0.0,0.0,26
+com.baomidou:mybatis-plus-extension,True,0.0,0.0,12
+com.baomidou:mybatis-plus-jsqlparser,False,0.0,0.0,2
+com.baomidou:mybatis-plus-spring,True,0.0,0.0,1
+org.mybatis:mybatis,True,0.0,0.0,6
+org.springframework.boot:spring-boot,True,0.0,0.0,1

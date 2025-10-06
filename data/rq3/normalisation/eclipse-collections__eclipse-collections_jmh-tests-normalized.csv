@@ -1,0 +1,7 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.carrotsearch:hppc,False,0.0,0.0,6
+com.google.guava:guava,False,0.0,0.0,8
+junit:junit,False,0.0,0.0,7
+net.sf.trove4j:core,False,0.0,0.0,4
+org.apache.commons:commons-lang3,False,0.0,0.0,3
+org.scala-lang:scala-library,False,0.0,0.0,10

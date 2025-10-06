@@ -1,0 +1,12 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.fasterxml.jackson.core:jackson-core,True,0.0,0.0,8
+com.fasterxml.jackson.core:jackson-databind,False,0.0,0.0,24
+com.fasterxml.jackson.datatype:jackson-datatype-jsr310,False,0.0,0.0,2
+com.googlecode.owasp-java-html-sanitizer:owasp-java-html-sanitizer,False,0.0,0.0,10
+commons-io:commons-io,False,0.0,0.0,2
+joda-time:joda-time,False,0.0,0.0,15
+org.apache.commons:commons-configuration2,False,0.0,0.0,14
+org.apache.commons:commons-lang3,False,0.0,0.0,19
+org.apache.commons:commons-text,False,0.0,0.0,1
+org.apache.velocity:velocity-engine-core,False,0.0,0.0,16
+org.slf4j:slf4j-api,False,0.0,0.0,5

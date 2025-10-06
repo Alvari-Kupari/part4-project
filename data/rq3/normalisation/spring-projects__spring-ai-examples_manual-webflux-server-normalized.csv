@@ -1,0 +1,9 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.fasterxml.jackson.core:jackson-databind,True,0.0,0.0,2
+io.modelcontextprotocol.sdk:mcp,True,0.0,0.0,5
+io.modelcontextprotocol.sdk:mcp-spring-webflux,False,1.0,3.0,3
+org.springframework.ai:spring-ai-mcp,False,0.0,0.0,1
+org.springframework.ai:spring-ai-model,False,0.0,0.0,1
+org.springframework.boot:spring-boot,True,0.0,0.0,1
+org.springframework:spring-web,True,0.0,0.0,3
+org.springframework:spring-webflux,True,0.0,0.0,1

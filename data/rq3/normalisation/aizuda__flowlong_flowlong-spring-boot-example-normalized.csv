@@ -1,0 +1,5 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.aizuda:flowlong-core,True,0.0,0.0,26
+com.aizuda:flowlong-spring-boot-starter,False,0.0,0.0,5
+org.springframework.boot:spring-boot,True,0.0,0.0,1
+org.springframework:spring-context,True,0.0,0.0,6

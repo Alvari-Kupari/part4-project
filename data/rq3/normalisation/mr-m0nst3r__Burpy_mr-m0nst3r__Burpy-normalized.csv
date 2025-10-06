@@ -1,0 +1,3 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+net.portswigger.burp.extender:burp-extender-api,False,0.0,0.0,54
+net.razorvine:pyrolite,False,0.0,0.0,5

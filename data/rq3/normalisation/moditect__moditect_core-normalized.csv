@@ -1,0 +1,5 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.github.javaparser:javaparser-core,False,0.0,0.0,42.0
+org.jcommander:jcommander,False,0.0,0.0,3.0
+org.ow2.asm:asm,False,0.0,0.0,21.0
+org.ow2.asm:asm,True,0.0,6.0,0.0

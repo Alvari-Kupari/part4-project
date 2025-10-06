@@ -1,0 +1,10 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.dtflys.forest:forest-core,False,0.0,0.0,52
+commons-io:commons-io,True,0.0,0.0,1
+org.mock-server:mockserver-junit-rule-no-dependencies,False,0.0,0.0,3
+org.slf4j:jcl-over-slf4j,False,0.0,0.0,1
+org.springframework:spring-beans,False,0.0,0.0,49
+org.springframework:spring-context,False,0.0,0.0,11
+org.springframework:spring-core,False,0.0,0.0,28
+org.springframework:spring-web,True,0.0,0.0,5
+xml-apis:xml-apis,True,0.0,0.0,8

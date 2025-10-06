@@ -1,0 +1,10 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.alibaba:fastjson,False,0.0,0.0,1
+com.baomidou:mybatis-plus-core,True,0.0,0.0,1
+com.baomidou:mybatis-plus-extension,True,0.0,0.0,8
+com.baomidou:mybatis-plus-jsqlparser,False,0.0,0.0,2
+com.fasterxml.jackson.core:jackson-core,True,0.0,0.0,2
+com.fasterxml.jackson.core:jackson-databind,False,0.0,0.0,3
+com.google.code.gson:gson,False,0.0,0.0,2
+org.mybatis:mybatis,True,0.0,0.0,2
+org.springframework.boot:spring-boot,True,0.0,0.0,2

@@ -1,0 +1,6 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+jakarta.el:jakarta.el-api,True,0.0,0.0,10
+jakarta.enterprise:jakarta.enterprise.cdi-api,False,0.0,0.0,24
+junit:junit,False,0.0,0.0,3
+org.jboss.shrinkwrap:shrinkwrap-api,True,0.0,0.0,9
+org.jboss.shrinkwrap:shrinkwrap-impl-base,False,0.0,0.0,6

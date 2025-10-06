@@ -1,0 +1,4 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+jakarta.enterprise:jakarta.enterprise.cdi-api,False,0.0,0.0,6
+jakarta.servlet:jakarta.servlet-api,False,0.0,0.0,2
+org.togglz:togglz-core,False,0.0,0.0,1

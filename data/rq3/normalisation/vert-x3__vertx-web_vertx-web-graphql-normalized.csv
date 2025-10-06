@@ -1,0 +1,4 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.graphql-java:graphql-java,False,0.0,0.0,43
+com.graphql-java:java-dataloader,True,0.0,0.0,7
+org.reactivestreams:reactive-streams,False,0.0,0.0,6

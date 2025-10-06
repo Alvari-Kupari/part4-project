@@ -1,0 +1,11 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.alibaba:fastjson,False,0.0,0.0,3
+com.jayway.jsonpath:json-path,False,0.0,0.0,3
+commons-codec:commons-codec,True,0.0,0.0,1
+commons-io:commons-io,False,0.0,0.0,1
+org.apache.commons:commons-collections4,False,0.0,0.0,2
+org.apache.commons:commons-lang3,False,0.0,0.0,9
+org.apache.httpcomponents:httpcore,True,0.0,0.0,37
+org.jsoup:jsoup,True,0.0,0.0,19
+org.slf4j:slf4j-api,False,0.0,0.0,7
+us.codecraft:xsoup,False,0.0,0.0,12

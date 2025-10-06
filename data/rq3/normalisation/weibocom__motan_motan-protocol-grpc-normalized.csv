@@ -1,0 +1,16 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.google.code.gson:gson,True,0.0,0.0,8
+com.google.protobuf:protobuf-java,True,0.0,0.0,4
+com.google.protobuf:protobuf-java-util,True,0.0,0.0,3
+io.grpc:grpc-core,True,2.262295081967213,138.0,61
+io.grpc:grpc-netty,False,1.0,3.0,3
+io.grpc:grpc-protobuf,False,2.0,2.0,1
+io.grpc:grpc-stub,False,0.0,0.0,8
+io.netty:netty-buffer,True,0.0,0.0,7
+io.netty:netty-codec,True,0.0,0.0,1
+io.netty:netty-codec-http,True,0.0,0.0,28
+io.netty:netty-codec-http2,True,1.0,1.0,1
+io.netty:netty-common,True,0.0,0.0,4
+io.netty:netty-handler,True,0.0,0.0,2
+io.netty:netty-transport,True,0.0,0.0,12
+org.apache.commons:commons-lang3,False,0.0,0.0,1

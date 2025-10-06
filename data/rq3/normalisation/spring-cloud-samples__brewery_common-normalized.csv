@@ -1,0 +1,11 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+io.micrometer:micrometer-tracing,True,0.0,0.0,3
+io.micrometer:micrometer-tracing-bridge-otel,False,0.0,0.0,5
+io.opentelemetry:opentelemetry-api,True,0.0,0.0,2
+io.opentelemetry:opentelemetry-context,True,0.0,0.0,4
+org.slf4j:slf4j-api,True,0.0,0.0,3
+org.springframework.boot:spring-boot-actuator-autoconfigure,False,0.0,0.0,2
+org.springframework.cloud:spring-cloud-stream,True,0.0,0.0,2
+org.springframework:spring-beans,True,0.0,0.0,2
+org.springframework:spring-messaging,True,0.0,0.0,2
+org.springframework:spring-web,True,0.0,0.0,6

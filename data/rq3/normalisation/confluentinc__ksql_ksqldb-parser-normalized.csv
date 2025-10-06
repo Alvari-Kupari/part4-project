@@ -1,0 +1,7 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.fasterxml.jackson.core:jackson-core,True,0.0,0.0,5
+com.fasterxml.jackson.core:jackson-databind,True,0.0,0.0,11
+com.google.guava:guava,True,0.0,0.0,20
+org.antlr:antlr4-runtime,False,0.016666666666666666,1.0,60
+org.apache.commons:commons-lang3,False,0.0,0.0,6
+org.apache.commons:commons-text,False,0.0,0.0,9

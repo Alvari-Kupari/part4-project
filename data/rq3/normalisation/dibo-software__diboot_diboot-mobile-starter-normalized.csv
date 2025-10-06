@@ -1,0 +1,13 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.baomidou:mybatis-plus-core,True,0.0,0.0,5
+com.diboot:diboot-core,True,0.0,0.0,24
+com.diboot:diboot-iam-spring-boot-starter,False,0.0,0.0,39
+com.github.binarywang:weixin-java-common,True,0.0,0.0,10
+com.github.binarywang:weixin-java-miniapp,False,0.0,0.0,12
+com.github.binarywang:weixin-java-mp,False,0.0,0.0,7
+jakarta.servlet:jakarta.servlet-api,True,0.0,0.0,10
+org.springframework.boot:spring-boot,True,0.0,0.0,6
+org.springframework:spring-beans,True,0.0,0.0,2
+org.springframework:spring-context,True,0.0,0.0,3
+org.springframework:spring-core,True,0.0,0.0,1
+org.springframework:spring-webmvc,True,0.0,0.0,1

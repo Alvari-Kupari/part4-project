@@ -1,0 +1,8 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.fasterxml.jackson.core:jackson-core,True,0.0,0.0,2
+com.fasterxml.jackson.core:jackson-databind,True,0.0,0.0,12
+de.digitalcollections.iiif:iiif-apis,False,0.0,0.0,71
+org.apache.logging.log4j:log4j-api,False,0.0,0.0,3
+org.springframework.data:spring-data-rest-webmvc,True,0.0,0.0,2
+org.springframework:spring-beans,True,0.0,0.0,1
+org.springframework:spring-context,True,0.0,0.0,1

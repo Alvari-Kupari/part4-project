@@ -1,0 +1,5 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.jfinal:jfinal,False,0.0,0.0,28
+io.github.bes2008.solution.langx:langx-java,False,0.0,0.0,5
+io.github.bes2008.solution.sqlhelper:sqlhelper-common,True,0.0,0.0,2
+io.github.bes2008.solution.sqlhelper:sqlhelper-dialect,False,0.2608695652173913,6.0,23

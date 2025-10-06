@@ -1,0 +1,3 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+org.dom4j:dom4j,False,0.0,0.0,74
+xml-apis:xml-apis,True,0.0,0.0,1

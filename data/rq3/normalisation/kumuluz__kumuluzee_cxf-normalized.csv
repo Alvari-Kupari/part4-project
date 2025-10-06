@@ -1,0 +1,8 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+jakarta.annotation:jakarta.annotation-api,True,0.0,0.0,1
+jakarta.jws:jakarta.jws-api,True,0.0,0.0,1
+jakarta.xml.ws:jakarta.xml.ws-api,True,0.0,0.0,6
+org.apache.cxf:cxf-core,True,0.0,0.0,19
+org.apache.cxf:cxf-rt-frontend-jaxws,False,0.0,0.0,14
+org.apache.cxf:cxf-rt-frontend-simple,True,0.0,0.0,4
+org.apache.cxf:cxf-rt-transports-http,False,0.0,0.0,1

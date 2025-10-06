@@ -1,0 +1,6 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+commons-io:commons-io,False,0.0,0.0,8
+javax.jcr:jcr,False,0.0,0.0,65
+org.apache.commons:commons-math,False,0.0,0.0,7
+org.apache.jackrabbit:jackrabbit-api,True,0.0,0.0,12
+org.apache.jackrabbit:jackrabbit-core,False,0.0,0.0,6

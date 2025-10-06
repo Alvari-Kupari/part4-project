@@ -1,0 +1,13 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+cn.hutool:hutool-captcha,False,0.0,0.0,11
+cn.hutool:hutool-core,True,0.0,0.0,9
+com.alibaba:transmittable-thread-local,False,0.0,0.0,2
+io.undertow:undertow-core,True,0.0,0.0,2
+io.undertow:undertow-servlet,True,0.0,0.0,1
+io.undertow:undertow-websockets-jsr,True,0.0,0.0,3
+jakarta.servlet:jakarta.servlet-api,True,0.0,0.0,26
+org.springframework.boot:spring-boot,True,0.0,0.0,11
+org.springframework.boot:spring-boot-autoconfigure,True,0.0,0.0,1
+org.springframework:spring-core,True,0.0,0.0,2
+org.springframework:spring-web,True,0.0,0.0,17
+org.springframework:spring-webmvc,True,0.0,0.0,9

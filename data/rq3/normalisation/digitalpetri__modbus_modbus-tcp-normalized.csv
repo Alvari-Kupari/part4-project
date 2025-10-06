@@ -1,0 +1,8 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.digitalpetri.fsm:strict-machine,True,0.0,0.0,1
+com.digitalpetri.netty:netty-channel-fsm,False,0.0,0.0,13
+io.netty:netty-buffer,False,0.0,0.0,6
+io.netty:netty-common,True,0.0,0.0,17
+io.netty:netty-handler,False,0.0,0.0,9
+io.netty:netty-transport,True,0.7027027027027027,26.0,37
+org.slf4j:slf4j-api,False,0.0,0.0,5

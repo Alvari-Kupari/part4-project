@@ -1,0 +1,11 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.fasterxml.jackson.core:jackson-core,True,0.0,0.0,1
+com.fasterxml.jackson.core:jackson-databind,True,0.0,0.0,1
+io.projectreactor:reactor-core,True,0.0,0.0,4
+org.springdoc:springdoc-openapi-starter-common,True,0.0,0.0,3
+org.springframework.boot:spring-boot,True,0.0,0.0,2
+org.springframework.cloud:spring-cloud-commons,True,0.0,0.0,5
+org.springframework.cloud:spring-cloud-gateway-server,True,0.0,0.0,5
+org.springframework:spring-beans,True,0.0,0.0,1
+org.springframework:spring-core,True,0.0,0.0,4
+org.springframework:spring-web,True,0.0,0.0,19

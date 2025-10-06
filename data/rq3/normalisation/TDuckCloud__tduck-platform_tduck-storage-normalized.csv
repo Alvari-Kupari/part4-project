@@ -1,0 +1,9 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.aliyun.oss:aliyun-sdk-oss,False,0.0,0.0,3
+com.amazonaws:aws-java-sdk-core,True,0.0,0.0,14
+com.amazonaws:aws-java-sdk-s3,False,0.07142857142857142,1.0,14
+com.qiniu:qiniu-java-sdk,False,0.08333333333333333,1.0,12
+com.squareup.okhttp3:okhttp,True,0.0,0.0,1
+com.upyun:java-sdk,False,0.0,0.0,6
+org.springframework.boot:spring-boot,True,0.0,0.0,3
+org.springframework:spring-web,True,0.0,0.0,3

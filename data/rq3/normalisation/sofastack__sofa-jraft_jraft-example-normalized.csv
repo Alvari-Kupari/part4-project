@@ -1,0 +1,11 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.alipay.sofa:bolt,True,0.0,0.0,5
+com.alipay.sofa:jraft-core,False,0.0,0.0,95
+com.alipay.sofa:jraft-rheakv-core,False,0.0,0.0,90
+com.fasterxml.jackson.core:jackson-databind,False,0.3333333333333333,1.0,3
+com.fasterxml.jackson.dataformat:jackson-dataformat-yaml,False,0.5,1.0,2
+com.google.protobuf:protobuf-java,True,0.0,0.0,47
+commons-io:commons-io,True,0.0,0.0,3
+commons-lang:commons-lang,True,0.0,0.0,2
+io.dropwizard.metrics:metrics-core,True,0.0,0.0,4
+org.slf4j:slf4j-api,True,0.0,0.0,6

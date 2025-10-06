@@ -1,0 +1,7 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.baomidou:mybatis-plus-annotation,True,0.0,0.0,2
+com.baomidou:mybatis-plus-core,False,0.0,0.0,24
+io.github.bes2008.solution.langx:langx-java,False,0.0,0.0,11
+io.github.bes2008.solution.sqlhelper:sqlhelper-mybatis,False,0.0,0.0,4
+org.mybatis:mybatis,False,0.36363636363636365,4.0,11
+org.slf4j:slf4j-api,False,0.0,0.0,3

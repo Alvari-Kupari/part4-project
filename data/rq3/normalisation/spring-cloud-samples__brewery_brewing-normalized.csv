@@ -1,0 +1,15 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+io.github.resilience4j:resilience4j-circuitbreaker,True,0.0,0.0,1
+io.github.resilience4j:resilience4j-timelimiter,True,0.0,0.0,1
+io.micrometer:context-propagation,True,0.0,0.0,5
+io.micrometer:micrometer-observation,True,0.0,0.0,6
+io.micrometer:micrometer-tracing,False,0.0,0.0,1
+org.slf4j:slf4j-api,True,0.0,0.0,5
+org.springframework.boot:spring-boot,True,0.0,0.0,5
+org.springframework.cloud:spring-cloud-circuitbreaker-resilience4j,True,0.0,0.0,3
+org.springframework.cloud:spring-cloud-commons,True,0.0,0.0,3
+org.springframework:spring-beans,True,0.0,0.0,1
+org.springframework:spring-context,True,0.0,0.0,5
+org.springframework:spring-core,True,0.0,0.0,2
+org.springframework:spring-web,True,0.0,0.0,6
+org.springframework:spring-webmvc,True,0.0,0.0,3

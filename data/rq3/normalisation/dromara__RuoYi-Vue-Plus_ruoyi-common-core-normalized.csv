@@ -1,0 +1,16 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+cn.hutool:hutool-core,False,0.0,0.0,56
+cn.hutool:hutool-extra,False,0.0,0.0,6
+cn.hutool:hutool-http,False,0.0,0.0,3
+io.github.linpeilie:mapstruct-plus,True,0.0,0.0,2
+jakarta.servlet:jakarta.servlet-api,False,0.0,0.0,16
+jakarta.validation:jakarta.validation-api,True,0.0,0.0,9
+org.apache.commons:commons-lang3,False,0.0,0.0,14
+org.hibernate.validator:hibernate-validator,True,0.0,0.0,1
+org.lionsoul:ip2region,False,0.0,0.0,3
+org.springframework.boot:spring-boot-autoconfigure,True,0.0,0.0,2
+org.springframework:spring-aop,True,0.0,0.0,1
+org.springframework:spring-beans,True,0.0,0.0,10
+org.springframework:spring-context,True,0.0,0.0,15
+org.springframework:spring-core,True,0.0,0.0,17
+org.springframework:spring-web,False,0.0,0.0,6

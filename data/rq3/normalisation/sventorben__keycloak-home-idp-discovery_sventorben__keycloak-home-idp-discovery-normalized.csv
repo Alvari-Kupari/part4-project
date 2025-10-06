@@ -1,0 +1,7 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+jakarta.ws.rs:jakarta.ws.rs-api,True,0.0,0.0,9
+org.jboss.logging:jboss-logging,True,0.0,0.0,7
+org.keycloak:keycloak-core,False,0.0,0.0,2
+org.keycloak:keycloak-server-spi,False,0.0,0.0,69
+org.keycloak:keycloak-server-spi-private,False,0.0,0.0,43
+org.keycloak:keycloak-services,False,0.0,0.0,25

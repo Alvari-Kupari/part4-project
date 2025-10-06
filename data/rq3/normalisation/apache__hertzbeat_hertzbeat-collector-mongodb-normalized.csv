@@ -1,0 +1,5 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+org.mongodb:bson,True,0.0,0.0,3
+org.mongodb:mongodb-driver-core,True,0.0,0.0,6
+org.mongodb:mongodb-driver-sync,False,0.0,0.0,5
+org.springframework:spring-core,True,0.0,0.0,1

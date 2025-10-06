@@ -1,0 +1,8 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+io.gdcc:sword2-server,False,0.0,0.0,94
+jakarta.servlet:jakarta.servlet-api,False,0.0,0.0,1
+org.apache.abdera:abdera-core,True,0.0,0.0,23
+org.apache.abdera:abdera-i18n,True,0.0,0.0,3
+org.apache.commons:commons-lang3,True,0.0,0.0,4
+org.apache.logging.log4j:log4j-api,False,0.0,0.0,6
+org.springframework.boot:spring-boot,True,0.0,0.0,4

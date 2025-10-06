@@ -1,0 +1,7 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+org.apache.commons:commons-lang3,True,0.0,0.0,1
+org.apache.tomcat.embed:tomcat-embed-core,True,0.0,0.0,1
+org.ssssssss:magic-api,True,0.0,0.0,26
+xyz.erupt:erupt-core,True,0.0,0.0,16
+xyz.erupt:erupt-tpl,False,0.0,0.0,1
+xyz.erupt:erupt-upms,False,0.0,0.0,7

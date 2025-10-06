@@ -1,0 +1,4 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.giffing.bucket4j.spring.boot.starter:bucket4j-spring-boot-starter-context,True,0.0,0.0,5
+org.springframework.boot:spring-boot,True,0.0,0.0,1
+org.springframework:spring-web,True,0.0,0.0,2

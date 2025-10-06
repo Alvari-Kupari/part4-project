@@ -1,0 +1,6 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+javax.servlet:javax.servlet-api,False,0.0,0.0,5
+org.apache.commons:commons-lang3,False,0.0,0.0,1
+org.jboss.resteasy:resteasy-jaxrs,False,0.0,0.0,43
+org.jboss.resteasy:resteasy-netty,False,0.0,0.0,5
+org.jboss.spec.javax.ws.rs:jboss-jaxrs-api_2.1_spec,True,0.0,0.0,12

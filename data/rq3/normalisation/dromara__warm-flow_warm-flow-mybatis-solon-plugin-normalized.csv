@@ -1,0 +1,5 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+org.dromara.warm:warm-flow-core,True,0.0,0.0,1
+org.dromara.warm:warm-flow-mybatis-core,False,0.0,0.0,1
+org.mybatis:mybatis,True,0.0,0.0,4
+org.noear:solon,False,0.25,1.0,4

@@ -1,0 +1,10 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+cn.hutool:hutool-core,True,0.0,0.0,1
+com.aizuda:snail-job-common-core,True,0.0,0.0,1
+com.aizuda:snail-job-common-model,True,0.0,0.0,11
+com.aizuda:snail-job-datasource-template,True,0.0,0.0,1
+com.aizuda:snail-job-server-common,True,0.0,0.0,3
+com.aizuda:snail-job-server-service,False,0.0,0.0,24
+org.apache.tomcat.embed:tomcat-embed-core,True,0.0,0.0,4
+org.springframework:spring-web,True,0.0,0.0,3
+org.springframework:spring-webmvc,True,0.0,0.0,1

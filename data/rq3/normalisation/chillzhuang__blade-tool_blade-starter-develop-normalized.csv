@@ -1,0 +1,6 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.baomidou:mybatis-plus-core,True,0.0,0.0,4
+com.baomidou:mybatis-plus-generator,False,0.0,0.0,10
+org.mybatis:mybatis,True,0.0,0.0,1
+org.springblade:blade-core-tool,False,0.0,0.0,6
+org.springframework:spring-core,True,0.0,0.0,4

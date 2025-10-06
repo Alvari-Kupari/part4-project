@@ -1,0 +1,9 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+cn.hutool:hutool-core,False,0.0,0.0,7
+org.springframework:spring-beans,True,0.0,0.0,1
+org.springframework:spring-web,True,0.0,0.0,5
+software.amazon.awssdk:auth,True,0.0,0.0,2
+software.amazon.awssdk:aws-core,True,0.0,0.0,1
+software.amazon.awssdk:s3,False,0.0,0.0,43
+software.amazon.awssdk:sdk-core,True,0.0,0.0,1
+software.amazon.awssdk:utils,True,0.0,0.0,1

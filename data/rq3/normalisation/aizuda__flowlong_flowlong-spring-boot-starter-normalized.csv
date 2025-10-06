@@ -1,0 +1,8 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.aizuda:flowlong-core,True,0.0,0.0,76
+com.aizuda:flowlong-mybatis-plus,False,0.0,0.0,24
+com.fasterxml.jackson.core:jackson-core,True,0.0,0.0,1
+com.fasterxml.jackson.core:jackson-databind,True,0.0,0.0,7
+com.fasterxml.jackson.datatype:jackson-datatype-jsr310,True,0.0,0.0,2
+org.springframework:spring-context,True,0.0,0.0,2
+org.springframework:spring-expression,True,0.0,0.0,8

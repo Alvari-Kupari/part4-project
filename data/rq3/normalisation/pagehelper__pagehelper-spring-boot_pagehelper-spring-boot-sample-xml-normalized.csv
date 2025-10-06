@@ -1,0 +1,4 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.github.pagehelper:pagehelper,True,0.0,0.0,3
+org.mybatis:mybatis,True,0.0,0.0,2
+org.springframework.boot:spring-boot,True,0.0,0.0,2

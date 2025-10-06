@@ -1,0 +1,17 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+cn.hutool:hutool-core,True,0.0,0.0,12
+com.aizuda:snail-job-common-core,False,0.0,0.0,55
+com.aizuda:snail-job-common-log,True,0.0,0.0,9
+com.aizuda:snail-job-common-model,False,0.0,0.0,76
+com.fasterxml.jackson.core:jackson-databind,True,0.0,0.0,6
+com.github.rholder:guava-retrying,True,0.0,0.0,23
+com.google.guava:guava,False,0.0,0.0,14
+commons-lang:commons-lang,True,0.0,0.0,1
+io.netty:netty-common,True,0.0,0.0,5
+org.apache.tomcat.embed:tomcat-embed-core,True,0.0,0.0,3
+org.aspectj:aspectjweaver,True,0.0,0.0,2
+org.springframework:spring-aop,True,0.0,0.0,23
+org.springframework:spring-beans,True,0.0,0.0,8
+org.springframework:spring-context,True,0.0,0.0,4
+org.springframework:spring-core,True,0.0,0.0,11
+org.springframework:spring-web,True,0.0,0.0,4

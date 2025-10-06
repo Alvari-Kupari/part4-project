@@ -1,0 +1,4 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.hibegin:simplewebserver,False,0.0,0.0,4
+com.hibegin:simplewebserver-lambda-function-impl,False,0.0,0.0,4
+org.apache.tomcat.embed:tomcat-embed-core,False,0.0,0.0,9

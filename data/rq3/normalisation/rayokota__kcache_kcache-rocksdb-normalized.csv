@@ -1,0 +1,3 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+org.rocksdb:rocksdbjni,False,0.010344827586206896,3.0,290
+org.slf4j:slf4j-api,False,0.0,0.0,3

@@ -1,0 +1,11 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.amazonaws:aws-lambda-java-core,False,0.0,0.0,1
+com.fasterxml.jackson.core:jackson-core,True,0.0,0.0,9
+com.fasterxml.jackson.core:jackson-databind,False,0.0,0.0,25
+com.fasterxml.jackson.module:jackson-module-afterburner,False,0.0,0.0,2
+commons-io:commons-io,True,0.0,0.0,5
+jakarta.servlet:jakarta.servlet-api,False,0.0,0.0,136
+jakarta.ws.rs:jakarta.ws.rs-api,False,0.0,0.0,20
+org.apache.commons:commons-fileupload2-core,True,0.0,0.0,13
+org.apache.commons:commons-fileupload2-jakarta-servlet6,False,0.0,0.0,4
+org.slf4j:slf4j-api,False,0.0,0.0,6

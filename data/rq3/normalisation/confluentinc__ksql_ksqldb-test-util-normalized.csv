@@ -1,0 +1,7 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.google.errorprone:error_prone_annotations,True,0.0,0.0,1
+com.google.guava:guava,False,0.0,0.0,19
+junit:junit,False,0.0,0.0,11
+org.apache.logging.log4j:log4j-api,False,0.0,0.0,4
+org.hamcrest:hamcrest-all,False,0.0,0.0,15
+org.mockito:mockito-core,False,0.0,0.0,1

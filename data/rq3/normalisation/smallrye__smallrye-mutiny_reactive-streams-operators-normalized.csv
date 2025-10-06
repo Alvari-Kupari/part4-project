@@ -1,0 +1,4 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+io.smallrye.reactive:mutiny-zero-flow-adapters,False,0.0,0.0,3
+org.eclipse.microprofile.reactive-streams-operators:microprofile-reactive-streams-operators-api,False,0.0,0.0,11
+org.reactivestreams:reactive-streams,True,0.0,0.0,13

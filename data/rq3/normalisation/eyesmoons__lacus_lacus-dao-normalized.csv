@@ -1,0 +1,4 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+cn.hutool:hutool-all,False,0.0,0.0,4
+com.baomidou:mybatis-plus-core,True,0.4,2.0,5
+com.baomidou:mybatis-plus-extension,True,0.3333333333333333,1.0,3

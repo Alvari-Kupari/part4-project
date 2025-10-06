@@ -1,0 +1,8 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.google.guava:guava,False,0.0,0.0,20
+com.google.protobuf:protobuf-java,True,0.0,0.0,1
+commons-io:commons-io,False,0.0,0.0,2
+net.sourceforge.javacsv:javacsv,False,0.0,0.0,10
+org.mapdb:mapdb,False,0.0,0.0,26
+org.mobilitydata:gtfs-realtime-bindings,False,0.0,0.0,1
+org.slf4j:slf4j-api,False,0.0,0.0,7

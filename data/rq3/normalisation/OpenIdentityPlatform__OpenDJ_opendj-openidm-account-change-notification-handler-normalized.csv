@@ -1,0 +1,7 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.fasterxml.jackson.core:jackson-databind,True,0.0,0.0,4
+org.openidentityplatform.commons.http-framework:core,False,0.0,0.0,36
+org.openidentityplatform.commons.i18n-framework:core,True,0.0,0.0,1
+org.openidentityplatform.commons.i18n-framework:slf4j,False,0.0,0.0,5
+org.openidentityplatform.commons.json-crypto:core,False,0.0,0.0,8
+org.openidentityplatform.commons:util,True,0.0,0.0,13

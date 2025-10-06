@@ -1,0 +1,3 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+org.codehaus.mojo.natives:maven-native-api,True,0.0,0.0,3
+org.codehaus.mojo.natives:maven-native-msvc,True,0.0,0.0,5

@@ -1,0 +1,9 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.aizuda:flowlong-core,True,0.0,0.0,71
+com.aizuda:flowlong-mybatis-plus,False,0.0,0.0,24
+com.baomidou:mybatis-plus-core,False,0.0,0.0,2
+com.googlecode.aviator:aviator,False,0.0,0.0,1
+org.mybatis:mybatis,True,0.0,0.0,2
+org.noear:snack3,True,0.0,0.0,2
+org.noear:solon,True,0.25,1.0,4
+org.noear:solon-scheduling,False,0.0,0.0,3

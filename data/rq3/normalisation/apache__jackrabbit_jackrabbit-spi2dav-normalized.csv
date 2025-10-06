@@ -1,0 +1,5 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+javax.jcr:jcr,False,0.0,0.0,44
+org.apache.httpcomponents:httpcore,True,0.0,0.0,37
+org.apache.httpcomponents:httpmime,False,0.0,0.0,17
+org.slf4j:slf4j-api,False,0.0,0.0,5

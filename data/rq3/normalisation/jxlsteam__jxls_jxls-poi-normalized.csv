@@ -1,0 +1,5 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+org.apache.poi:poi,False,0.00904977375565611,2.0,221.0
+org.apache.poi:poi,True,0.0,12.0,0.0
+org.apache.poi:poi-ooxml,False,0.0,0.0,31.0
+org.apache.poi:poi-ooxml-lite,True,0.0,0.0,4.0

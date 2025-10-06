@@ -1,0 +1,5 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+org.apache.maven:maven-core,True,0.0,0.0,9
+org.apache.maven:maven-model,True,0.0,0.0,3
+org.apache.maven:maven-plugin-api,False,0.0,0.0,6
+org.twdata.maven:mojo-executor,False,0.0,0.0,10

@@ -1,0 +1,3 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.github.oshi:oshi-core,False,0.01020408163265306,1.0,98
+org.projectlombok:lombok,False,0.0,0.0,1

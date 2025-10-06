@@ -1,0 +1,4 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+org.hibernate.orm:hibernate-core,True,0.0,0.0,1
+org.springframework.data:spring-data-commons,True,0.0,0.0,2
+org.springframework.data:spring-data-jpa,True,0.0,0.0,1

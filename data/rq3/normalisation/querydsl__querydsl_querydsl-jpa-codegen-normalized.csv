@@ -1,0 +1,6 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.querydsl:codegen-utils,True,0.0,0.0,12
+com.querydsl:querydsl-codegen,False,0.0,0.0,40
+com.querydsl:querydsl-core,True,0.0,0.0,9
+jakarta.persistence:jakarta.persistence-api,False,0.0,0.0,24
+org.hibernate:hibernate-core,False,0.0,0.0,1

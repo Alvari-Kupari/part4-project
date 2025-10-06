@@ -1,0 +1,12 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.google.guava:guava,True,0.0,0.0,2
+io.github.novacrypto:SecureString,False,0.0,0.0,4
+org.linguafranca.pwdb:KeePassJava2-dom,True,0.0,0.0,3
+org.linguafranca.pwdb:KeePassJava2-jackson,True,0.0,0.0,1
+org.linguafranca.pwdb:KeePassJava2-jaxb,True,0.0,0.0,2
+org.linguafranca.pwdb:KeePassJava2-kdb,True,0.0,0.0,4
+org.linguafranca.pwdb:KeePassJava2-kdbx,True,0.0,0.0,16
+org.linguafranca.pwdb:KeePassJava2-simple,True,0.0,0.0,2
+org.linguafranca.pwdb:database,True,0.0,0.0,25
+org.linguafranca.pwdb:util,True,0.0,0.0,1
+org.slf4j:slf4j-api,False,0.0,0.0,3

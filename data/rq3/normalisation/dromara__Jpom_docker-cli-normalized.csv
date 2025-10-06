@@ -1,0 +1,8 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.fasterxml.jackson.core:jackson-annotations,True,0.0,0.0,1
+com.github.docker-java:docker-java-api,True,0.0,0.0,316
+com.github.docker-java:docker-java-core,False,0.0,0.0,16
+com.github.docker-java:docker-java-transport,True,0.0,0.0,1
+org.apache.commons:commons-compress,True,0.0,0.0,7
+org.apache.httpcomponents.core5:httpcore5,True,0.0,0.0,67
+org.projectlombok:lombok,False,0.0,0.0,1

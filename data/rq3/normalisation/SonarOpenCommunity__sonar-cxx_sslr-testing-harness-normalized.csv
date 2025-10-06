@@ -1,0 +1,4 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+commons-io:commons-io,False,0.0,0.0,1
+org.assertj:assertj-core,False,0.0,0.0,2
+org.codehaus.sonar:sonar-colorizer,False,0.0,0.0,7

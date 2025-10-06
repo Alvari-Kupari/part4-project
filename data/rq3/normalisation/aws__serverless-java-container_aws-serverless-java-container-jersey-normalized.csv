@@ -1,0 +1,5 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+jakarta.ws.rs:jakarta.ws.rs-api,False,0.0,0.0,8
+org.glassfish.jersey.core:jersey-common,True,0.0,0.0,8
+org.glassfish.jersey.core:jersey-server,False,0.0,0.0,17
+org.slf4j:slf4j-api,False,0.0,0.0,5

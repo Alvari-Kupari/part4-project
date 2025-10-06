@@ -1,0 +1,6 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.typesafe:config,False,0.0,0.0,16
+info.picocli:picocli,False,0.0,0.0,20
+info.picocli:picocli-shell-jline3,False,0.0,0.0,2
+org.jline:jline,True,0.0,0.0,35
+us.fatehi:schemacrawler,False,0.004830917874396135,1.0,207

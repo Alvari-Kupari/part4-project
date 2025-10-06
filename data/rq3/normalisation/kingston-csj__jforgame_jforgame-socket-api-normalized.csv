@@ -1,0 +1,4 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+io.github.jforgame:jforgame-codec-api,False,0.0,0.0,1
+io.github.jforgame:jforgame-commons,False,0.0,0.0,6
+org.slf4j:slf4j-api,False,0.0,0.0,3

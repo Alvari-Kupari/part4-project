@@ -1,0 +1,7 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.jcraft:jsch,True,0.0,0.0,3
+commons-io:commons-io,False,0.0,0.0,6
+org.eclipse.jgit:org.eclipse.jgit,False,0.0,0.0,338
+org.eclipse.jgit:org.eclipse.jgit.archive,False,0.0,0.0,2
+org.eclipse.jgit:org.eclipse.jgit.ssh.apache,False,0.0,0.0,9
+org.eclipse.jgit:org.eclipse.jgit.ssh.jsch,False,0.0,0.0,3

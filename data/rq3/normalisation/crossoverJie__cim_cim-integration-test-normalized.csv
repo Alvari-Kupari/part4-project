@@ -1,0 +1,8 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.clever-cloud:testcontainers-zookeeper,False,0.0,0.0,3
+com.redis:testcontainers-redis,False,0.0,0.0,2
+org.springframework.boot:spring-boot,True,0.0,0.0,3
+org.springframework.boot:spring-boot-autoconfigure,True,0.0,0.0,1
+org.springframework:spring-context,True,0.0,0.0,2
+org.testcontainers:mysql,False,0.0,0.0,8
+org.testcontainers:testcontainers,False,0.0,0.0,11

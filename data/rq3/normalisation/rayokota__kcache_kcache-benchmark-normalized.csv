@@ -1,0 +1,4 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.github.jnr:jnr-posix,False,0.0,0.0,5
+org.agrona:agrona,False,0.0,0.0,11
+org.apache.commons:commons-math3,True,0.0,0.0,5

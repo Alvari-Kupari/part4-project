@@ -1,0 +1,5 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+io.swagger.core.v3:swagger-models,False,0.0,0.0,178
+io.swagger:swagger-models,True,0.0,0.0,185
+io.swagger:swagger-parser,False,0.0,0.0,8
+org.apache.commons:commons-lang3,False,0.0,0.0,4

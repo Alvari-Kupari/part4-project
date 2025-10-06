@@ -1,0 +1,10 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.baomidou:mybatis-plus-core,True,0.0,0.0,4
+com.diboot:diboot-core,True,0.0,0.0,31
+com.diboot:diboot-iam-spring-boot-starter,False,0.0,0.0,1
+org.aspectj:aspectjweaver,False,0.0,0.0,3
+org.quartz-scheduler:quartz,True,0.0,0.0,49
+org.springframework.boot:spring-boot,True,0.0,0.0,2
+org.springframework:spring-beans,True,0.0,0.0,2
+org.springframework:spring-context,True,0.0,0.0,5
+org.springframework:spring-context-support,True,0.0,0.0,1

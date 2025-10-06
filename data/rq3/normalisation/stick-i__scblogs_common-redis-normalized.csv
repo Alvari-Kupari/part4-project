@@ -1,0 +1,4 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+cn.hutool:hutool-core,False,0.0,0.0,3
+cn.hutool:hutool-json,False,0.0,0.0,3
+org.springframework.data:spring-data-redis,True,0.0,0.0,22

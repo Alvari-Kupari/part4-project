@@ -1,0 +1,9 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.auth0:java-jwt,False,0.0,0.0,10
+com.google.guava:guava,False,0.0,0.0,14
+org.apache.logging.log4j:log4j-api,False,0.0,0.0,13
+org.springframework.boot:spring-boot,True,0.0,0.0,1
+org.springframework.boot:spring-boot-actuator-autoconfigure,True,0.0,0.0,1
+org.springframework.data:spring-data-commons,True,0.0,0.0,4
+org.springframework:spring-tx,True,0.0,0.0,2
+org.springframework:spring-web,True,0.0,0.0,6

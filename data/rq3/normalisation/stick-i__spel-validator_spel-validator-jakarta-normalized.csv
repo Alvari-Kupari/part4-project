@@ -1,0 +1,4 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+cn.sticki:spel-validator-core,True,0.0,0.0,8
+jakarta.validation:jakarta.validation-api,True,0.0,0.0,4
+org.springframework:spring-context,True,0.0,0.0,1

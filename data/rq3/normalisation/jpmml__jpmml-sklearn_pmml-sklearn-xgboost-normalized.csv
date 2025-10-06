@@ -1,0 +1,4 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+org.jpmml:pmml-converter,True,0.0,0.0,7
+org.jpmml:pmml-model,True,0.0,0.0,5
+org.jpmml:pmml-xgboost,False,0.0,0.0,30

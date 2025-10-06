@@ -1,0 +1,7 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+args4j:args4j,True,0.0,0.0,4
+org.apache.sshd:sshd-common,True,0.0,0.0,21
+org.apache.sshd:sshd-core,True,0.0,0.0,46
+org.eclipse.jgit:org.eclipse.jgit,False,0.0,0.0,32
+org.eclipse.jgit:org.eclipse.jgit.pgm,False,0.0,0.0,15
+org.slf4j:slf4j-api,False,0.0,0.0,7

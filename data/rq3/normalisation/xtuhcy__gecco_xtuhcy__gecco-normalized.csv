@@ -1,0 +1,13 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+cglib:cglib,False,0.0,0.0,12
+com.alibaba:fastjson,False,0.0,0.0,8
+com.google.guava:guava,False,0.0,0.0,13
+commons-logging:commons-logging,True,0.0,0.0,9
+log4j:log4j,False,0.0,0.0,4
+org.apache.commons:commons-lang3,False,0.0,0.0,14
+org.apache.httpcomponents:httpcore,True,0.0,0.0,34
+org.javassist:javassist,True,0.0,0.0,58
+org.jsoup:jsoup,False,1.4,21.0,15
+org.mozilla:rhino,False,0.2,2.0,10
+org.reflections:reflections,False,1.8571428571428572,26.0,14
+org.weakref:jmxutils,False,0.0,0.0,4

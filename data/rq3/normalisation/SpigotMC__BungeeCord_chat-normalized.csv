@@ -1,0 +1,3 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.google.code.gson:gson,False,0.0,0.0,14
+com.google.guava:guava,False,0.0,0.0,2

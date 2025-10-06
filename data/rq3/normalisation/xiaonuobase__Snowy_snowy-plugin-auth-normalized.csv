@@ -1,0 +1,7 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+cn.dev33:sa-token-core,True,0.8048780487804879,33.0,41
+cn.dev33:sa-token-spring-boot3-starter,False,0.0,0.0,2
+com.xkcoding.http:simple-http,True,0.0,0.0,3
+me.zhyd.oauth:JustAuth,False,0.14285714285714285,3.0,21
+org.springframework:spring-core,True,0.0,0.0,1
+org.springframework:spring-webmvc,True,0.0,0.0,4

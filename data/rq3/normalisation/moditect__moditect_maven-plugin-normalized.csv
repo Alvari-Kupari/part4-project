@@ -1,0 +1,9 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+org.apache.maven.resolver:maven-resolver-api,True,0.0,0.0,40
+org.apache.maven:maven-archiver,False,0.0,0.0,1
+org.apache.maven:maven-artifact,True,0.0,0.0,9
+org.apache.maven:maven-core,False,0.0,0.0,20
+org.apache.maven:maven-model,True,0.0,0.0,12
+org.apache.maven:maven-plugin-api,False,0.0,0.0,11
+org.apache.maven:maven-resolver-provider,True,0.0,0.0,1
+org.eclipse.aether:aether-util,False,0.0,0.0,12

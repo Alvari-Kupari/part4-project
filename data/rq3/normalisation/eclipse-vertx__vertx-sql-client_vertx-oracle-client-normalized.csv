@@ -1,0 +1,3 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.oracle.database.jdbc:ojdbc11,False,0.0,0.0,26
+io.netty:netty-common,True,0.0,0.0,4

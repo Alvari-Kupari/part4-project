@@ -1,0 +1,9 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.querydsl:querydsl-core,True,0.0,0.0,5
+com.querydsl:querydsl-sql,False,0.0,0.0,15
+com.querydsl:querydsl-sql-spring,False,0.0,0.0,4
+com.zaxxer:HikariCP,False,0.0,0.0,6
+joda-time:joda-time,False,0.0,0.0,1
+org.springframework:spring-core,True,0.0,0.0,2
+org.springframework:spring-jdbc,False,0.0,0.0,2
+org.springframework:spring-tx,True,0.0,0.0,1

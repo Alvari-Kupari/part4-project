@@ -1,0 +1,4 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.adobe.xmp:xmpcore,False,0.0,0.0,20
+com.github.librepdf:openpdf,False,0.20677966101694914,61.0,295
+commons-logging:commons-logging,False,0.0,0.0,9

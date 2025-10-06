@@ -1,0 +1,5 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.alibaba:transmittable-thread-local,True,0.0,0.0,2
+com.plumelog:plumelog-core,False,0.0,0.0,11
+org.aspectj:aspectjweaver,True,0.0,0.0,5
+org.slf4j:slf4j-api,True,0.0,0.0,3

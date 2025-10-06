@@ -1,0 +1,12 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.alibaba:fastjson,False,0.0,0.0,2
+com.google.guava:guava,False,0.0,0.0,5
+com.google.protobuf:protobuf-java,True,0.0,0.0,3
+io.etcd:jetcd-core,False,0.4375,7.0,16
+io.grpc:grpc-api,True,0.0,0.0,9
+org.apache.logging.log4j:log4j-api,False,0.0,0.0,6
+software.amazon.awssdk:auth,True,0.0,0.0,3
+software.amazon.awssdk:aws-core,True,0.0,0.0,4
+software.amazon.awssdk:ec2,False,0.0,0.0,49
+software.amazon.awssdk:regions,True,0.0,0.0,1
+software.amazon.awssdk:utils,True,0.0,0.0,2

@@ -1,0 +1,4 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+io.mybatis:mybatis-provider,False,0.0,0.0,23
+javax.persistence:javax.persistence-api,False,0.0,0.0,7
+org.mybatis:mybatis,True,0.0,0.0,1

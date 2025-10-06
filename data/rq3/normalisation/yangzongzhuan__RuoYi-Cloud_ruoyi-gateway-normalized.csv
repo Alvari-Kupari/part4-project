@@ -1,0 +1,17 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.alibaba.csp:sentinel-core,True,0.0,0.0,1
+com.alibaba.csp:sentinel-spring-cloud-gateway-adapter,True,0.0,0.0,2
+com.alibaba.nacos:nacos-common,True,0.0,0.0,3
+io.netty:netty-buffer,True,0.0,0.0,1
+io.projectreactor:reactor-core,True,0.0,0.0,7
+org.slf4j:slf4j-api,True,0.0,0.0,3
+org.springdoc:springdoc-openapi-common,True,0.0,0.0,3
+org.springframework.boot:spring-boot,True,0.0,0.0,2
+org.springframework.boot:spring-boot-autoconfigure,True,0.0,0.0,1
+org.springframework.cloud:spring-cloud-commons,True,0.25,1.0,4
+org.springframework.cloud:spring-cloud-gateway-server,True,0.0,0.0,6
+org.springframework:spring-beans,True,0.0,0.0,1
+org.springframework:spring-core,True,0.0,0.0,18
+org.springframework:spring-web,True,0.0,0.0,32
+org.springframework:spring-webflux,True,0.0,0.0,9
+pro.fessional:kaptcha,False,0.0,0.0,9

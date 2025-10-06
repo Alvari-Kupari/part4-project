@@ -1,0 +1,4 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.google.googlejavaformat:google-java-format,False,0.0,0.0,8
+com.google.guava:guava,True,0.0,0.0,2
+commons-io:commons-io,False,0.0,0.0,2

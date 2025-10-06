@@ -1,0 +1,6 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+org.infinispan.protostream:protostream,True,0.0,0.0,7
+org.infinispan:infinispan-commons,True,0.0,0.0,3
+org.infinispan:infinispan-core,False,0.0,0.0,10
+org.infinispan:infinispan-server-runtime,False,0.0,0.0,3
+org.infinispan:infinispan-tasks-api,True,0.0,0.0,1

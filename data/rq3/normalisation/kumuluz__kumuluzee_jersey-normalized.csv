@@ -1,0 +1,7 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+jakarta.ws.rs:jakarta.ws.rs-api,True,0.0,0.0,11
+org.eclipse.jetty:jetty-http,True,0.0,0.0,4
+org.eclipse.jetty:jetty-io,True,0.0,0.0,3
+org.eclipse.jetty:jetty-util,True,0.0,0.0,10
+org.glassfish.jersey.connectors:jersey-jetty-connector,False,0.14285714285714285,1.0,7
+org.glassfish.jersey.core:jersey-common,True,0.0,0.0,14

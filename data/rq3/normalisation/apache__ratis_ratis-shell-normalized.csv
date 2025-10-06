@@ -1,0 +1,5 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+commons-cli:commons-cli,False,0.0,0.0,6
+org.apache.ratis:ratis-common,False,0.0,0.0,20
+org.apache.ratis:ratis-proto,True,0.0,0.0,1
+org.apache.ratis:ratis-thirdparty-misc,True,0.0,0.0,3

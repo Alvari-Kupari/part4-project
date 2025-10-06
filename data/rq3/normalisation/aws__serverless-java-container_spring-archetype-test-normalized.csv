@@ -1,0 +1,3 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.amazonaws:aws-lambda-java-core,True,0.0,0.0,2
+org.springframework:spring-webmvc,False,0.0,0.0,8

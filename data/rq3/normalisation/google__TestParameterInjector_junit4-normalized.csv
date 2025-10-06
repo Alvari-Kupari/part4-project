@@ -1,0 +1,4 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.google.guava:guava,False,0.0,0.0,102
+junit:junit,False,0.0,0.0,46
+org.yaml:snakeyaml,False,0.0,0.0,7

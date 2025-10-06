@@ -1,0 +1,10 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+cn.hutool:hutool-all,False,0.0,0.0,15
+com.baomidou:mybatis-plus-core,True,0.07142857142857142,1.0,14
+com.baomidou:mybatis-plus-extension,True,0.9090909090909091,10.0,11
+org.apache.tomcat.embed:tomcat-embed-core,True,0.0,0.0,5
+org.springframework.boot:spring-boot,True,0.0,0.0,1
+org.springframework.data:spring-data-redis,True,0.0,0.0,7
+org.springframework.security:spring-security-crypto,False,0.0,0.0,4
+org.springframework:spring-beans,True,0.0,0.0,1
+org.springframework:spring-web,True,0.0,0.0,3

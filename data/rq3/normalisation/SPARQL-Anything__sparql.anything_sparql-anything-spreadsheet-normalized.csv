@@ -1,0 +1,4 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+jakarta.xml.bind:jakarta.xml.bind-api,False,0.0,0.0,1
+org.apache.poi:poi,True,0.0,0.0,35
+org.slf4j:slf4j-api,False,0.0,0.0,4

@@ -1,0 +1,6 @@
+Library_Name,Is_Transitive,normalised_score,num_bcs,num_unique_symbols
+com.codemagi:burp-suite-utils,False,0.0,0.0,27
+com.google.guava:guava,True,0.0,0.0,5
+com.intellij:forms_rt,False,0.0,0.0,17
+net.portswigger.burp.extender:burp-extender-api,True,0.0,0.0,23
+org.json:json,False,0.0,0.0,19
