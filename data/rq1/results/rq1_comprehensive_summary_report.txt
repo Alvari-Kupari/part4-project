@@ -1,0 +1,73 @@
+RQ1: Dependency Conflict Analysis - Comprehensive Summary Report
+======================================================================
+
+BASIC STATISTICS
+--------------------
+Total Records (Submodules): 5,827
+Unique Projects: 1,030
+Unique Submodule Names: 5,362
+Projects with Conflicts: 4,035
+Projects without Conflicts: 1,792
+
+DEPENDENCY STATISTICS
+--------------------
+Total Dependencies Analyzed: 452,763
+Average Dependencies per Submodule: 77.7
+Median Dependencies per Submodule: 49.0
+Max Dependencies in a Submodule: 1,464
+Min Dependencies in a Submodule: 0
+
+CONFLICT STATISTICS
+--------------------
+Total Omitted Conflicts: 17,401
+Total Version Managed Conflicts: 32,339
+Total All Conflicts: 49,740
+Average Omitted Conflict Percentage: 3.04%
+Average Version Managed Percentage: 4.54%
+Average Total Conflict Percentage: 7.58%
+
+PROJECT-LEVEL ANALYSIS
+-------------------------
+Projects with Multiple Submodules: 563
+Single Submodule Projects: 467
+Max Submodules in a Project: 31
+Project with Most Submodules: 818000__bus
+Project with Most Conflicts: confluentinc__ksql
+Project with Highest Conflict Rate: FusionAuth__java-http
+
+CONFLICT DISTRIBUTION
+--------------------
+Submodules with No Conflicts: 1,792
+Submodules with Conflicts: 4,035
+Submodules with Only Omitted Conflicts: 1,275
+Submodules with Only Version Managed: 1,364
+Submodules with Both Conflict Types: 1,396
+
+CONFLICT SEVERITY (by percentage)
+------------------------------
+High Conflict Submodules (>20%): 301
+Medium Conflict Submodules (10-20%): 1,677
+Low Conflict Submodules (0-10%): 2,057
+
+TOP PROJECTS BY METRICS
+-------------------------
+Top 5 Projects by Total Conflicts:
+  confluentinc__ksql: 2028.0 conflicts
+  metersphere__metersphere: 1078.0 conflicts
+  jeecgboot__JeecgBoot: 829.0 conflicts
+  ageerle__ruoyi-ai: 823.0 conflicts
+  201206030__novel-cloud: 748.0 conflicts
+
+Top 5 Projects by Conflict Percentage:
+  FusionAuth__java-http: 36.4% conflict rate
+  BentoBoxWorld__BentoBox: 31.5% conflict rate
+  zendesk__maxwell: 31.1% conflict rate
+  adyliu__jafka: 28.6% conflict rate
+  GoogleCloudPlatform__getting-started-java: 28.1% conflict rate
+
+Top 5 Projects by Number of Submodules:
+  818000__bus: 31.0 submodules
+  binarywang__WxJava: 31.0 submodules
+  dromara__RuoYi-Vue-Plus: 31.0 submodules
+  pixelsdb__pixels: 31.0 submodules
+  stefvanschie__IF: 31.0 submodules
