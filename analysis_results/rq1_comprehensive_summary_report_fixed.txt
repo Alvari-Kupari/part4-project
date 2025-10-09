@@ -1,0 +1,90 @@
+RQ1: Dependency Conflict Analysis - Comprehensive Summary Report (FIXED)
+===========================================================================
+NOTE: Only omitted conflicts are counted as actual conflicts.
+Version managed conflicts are resolved issues, not active conflicts.
+===========================================================================
+
+BASIC STATISTICS
+--------------------
+Total Records (Submodules): 5,827
+Unique Projects: 1,030
+Unique Submodule Names: 5,362
+Submodules with Conflicts: 2,671
+Submodules without Conflicts: 3,156
+
+PROJECT-LEVEL STATISTICS
+-------------------------
+Unique Projects with Conflicts: 737
+Unique Projects without Conflicts: 293
+Percentage of Projects with Conflicts: 71.6%
+Percentage of Projects without Conflicts: 28.4%
+
+DEPENDENCY STATISTICS
+--------------------
+Total Dependencies Analyzed: 452,763
+Average Dependencies per Submodule: 77.7
+Median Dependencies per Submodule: 49.0
+Max Dependencies in a Submodule: 1,464
+Min Dependencies in a Submodule: 0
+
+CONFLICT STATISTICS (FIXED)
+-------------------------
+Total Omitted Conflicts (Actual Conflicts): 17,401
+Total Version Managed (Resolved Issues): 32,339
+Total All Issues (Omitted + Version Managed): 49,740
+Average Conflict Percentage (Omitted Only): 3.04%
+Average Version Managed Percentage: 4.54%
+
+PIE CHART VERIFICATION
+--------------------
+Submodules with conflicts (omitted_conflict_percentage > 0): 2,671
+Submodules without conflicts (omitted_conflict_percentage = 0): 3,156
+Total submodules: 5,827
+Percentage with conflicts: 45.8%
+Percentage without conflicts: 54.2%
+
+PROJECT-LEVEL ANALYSIS
+-------------------------
+Projects with Multiple Submodules: 563
+Single Submodule Projects: 467
+Max Submodules in a Project: 31
+Project with Most Submodules: 818000__bus
+Project with Most Conflicts: confluentinc__ksql
+Project with Highest Conflict Rate: FusionAuth__java-http
+
+CONFLICT DISTRIBUTION
+--------------------
+Submodules with No Conflicts: 3,156
+Submodules with Conflicts: 2,671
+Submodules with Only Omitted Conflicts: 1,275
+Submodules with Only Version Managed: 1,364
+Submodules with Both Types: 1,396
+
+CONFLICT SEVERITY (by omitted conflict percentage only)
+--------------------------------------------------
+High Conflict Submodules (>20%): 67
+Medium Conflict Submodules (10-20%): 502
+Low Conflict Submodules (0-10%): 2,102
+
+TOP PROJECTS BY METRICS
+-------------------------
+Top 5 Projects by Total Conflicts (Omitted Only):
+  confluentinc__ksql: 1097.0 conflicts
+  apache__amoro: 636.0 conflicts
+  abstracta__jmeter-java-dsl: 491.0 conflicts
+  artipie__artipie: 333.0 conflicts
+  metersphere__metersphere: 327.0 conflicts
+
+Top 5 Projects by Conflict Percentage (Omitted Only):
+  FusionAuth__java-http: 36.4% conflict rate
+  BentoBoxWorld__BentoBox: 31.5% conflict rate
+  zendesk__maxwell: 31.1% conflict rate
+  adyliu__jafka: 28.6% conflict rate
+  GoogleCloudPlatform__getting-started-java: 28.1% conflict rate
+
+Top 5 Projects by Number of Submodules:
+  818000__bus: 31.0 submodules
+  binarywang__WxJava: 31.0 submodules
+  dromara__RuoYi-Vue-Plus: 31.0 submodules
+  pixelsdb__pixels: 31.0 submodules
+  stefvanschie__IF: 31.0 submodules
