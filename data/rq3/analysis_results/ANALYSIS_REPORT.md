@@ -1,19 +1,19 @@
 # Breaking Changes Analysis Report
 
-**Generated on:** 2025-09-29 15:56:52
+**Generated on:** 2025-10-09 17:32:04
 
 ## Executive Summary
 
-This report analyzes breaking changes across **1,808** Java projects, examining dependency updates and their impact on client code. The analysis identified **2,053,431** total breaking changes, of which only **4,201** (0.20%) were actually used in client code.
+This report analyzes breaking changes across **1,806** Java projects, examining dependency updates and their impact on client code. The analysis identified **2,052,819** total breaking changes, of which only **4,189** (0.20%) were actually used in client code.
 
 ### Key Findings
 
-- 📊 **1,808** projects analyzed
-- 🚨 **2,053,431** total breaking changes detected  
-- ✅ **4,201** breaking changes actually used in client code
+- 📊 **1,806** projects analyzed
+- 🚨 **2,052,819** total breaking changes detected  
+- ✅ **4,189** breaking changes actually used in client code
 - 📈 **0.20%** overall usage rate
-- 📚 **1,329** unique libraries with breaking changes
-- 🎯 **316** projects (17.5%) have used breaking changes
+- 📚 **1,328** unique libraries with breaking changes
+- 🎯 **315** projects (17.4%) have used breaking changes
 
 ## Detailed Analysis
 
@@ -21,47 +21,47 @@ This report analyzes breaking changes across **1,808** Java projects, examining 
 
 | Metric | Value |
 |--------|-------|
-| **Total Projects Analyzed** | 1,808 |
-| **Total Breaking Changes** | 2,053,431 |
-| **Used Breaking Changes** | 4,201 |
+| **Total Projects Analyzed** | 1,806 |
+| **Total Breaking Changes** | 2,052,819 |
+| **Used Breaking Changes** | 4,189 |
 | **Usage Rate** | 0.20% |
-| **Unique Libraries with Changes** | 1,329 |
+| **Unique Libraries with Changes** | 1,328 |
 
 ### 2. Change Distribution
 
 | Type | Count | Percentage |
 |------|-------|------------|
-| **Direct Changes** | 545,045 | 26.5% |
-| **Transitive Changes** | 1,508,386 | 73.5% |
+| **Direct Changes** | 544,969 | 26.5% |
+| **Transitive Changes** | 1,507,850 | 73.5% |
 
 ### 3. Top Problematic Libraries
 
 | Rank | Library | Breaking Changes |
 |------|---------|------------------|
-| 1 | `com.fasterxml.jackson.core:jackson-databind` | 187,728 |
+| 1 | `com.fasterxml.jackson.core:jackson-databind` | 187,600 |
 | 2 | `io.grpc:grpc-xds` | 163,175 |
 | 3 | `io.prometheus:prometheus-metrics-exposition-formats` | 130,690 |
 | 4 | `io.etcd:jetcd-core` | 98,445 |
 | 5 | `org.bouncycastle:bcprov-jdk18on` | 72,912 |
-| 6 | `com.fasterxml.jackson.core:jackson-core` | 69,447 |
+| 6 | `com.fasterxml.jackson.core:jackson-core` | 69,412 |
 | 7 | `com.tencentcloudapi:tencentcloud-sdk-java` | 60,435 |
 | 8 | `com.alibaba.fastjson2:fastjson2` | 56,930 |
 | 9 | `io.quarkus:quarkus-bootstrap-gradle-resolver` | 46,812 |
-| 10 | `ch.qos.logback:logback-core` | 33,852 |
+| 10 | `ch.qos.logback:logback-core` | 33,847 |
 
 ### 4. Most Common Change Types
 
 | Rank | Change Type | Count | Percentage |
 |------|-------------|-------|------------|
-| 1 | `METHOD_CHANGE` | 1,412,755 | 68.8% |
-| 2 | `CLASS_CHANGE` | 253,832 | 12.4% |
-| 3 | `FIELD_CHANGE` | 209,166 | 10.2% |
-| 4 | `CONSTRUCTOR_CHANGE` | 177,678 | 8.7% |
+| 1 | `METHOD_CHANGE` | 1,412,424 | 68.8% |
+| 2 | `CLASS_CHANGE` | 253,660 | 12.4% |
+| 3 | `FIELD_CHANGE` | 209,101 | 10.2% |
+| 4 | `CONSTRUCTOR_CHANGE` | 177,634 | 8.7% |
 
 ## Key Insights
 
 ### 🎯 Low Overall Usage Rate
-Despite 2,053,431 breaking changes detected, only **0.20%** are actually used in client code.
+Despite 2,052,819 breaking changes detected, only **0.20%** are actually used in client code.
 
 ### 📚 Library Concentration  
 - **Jackson Databind** contributes 9.1% of all changes

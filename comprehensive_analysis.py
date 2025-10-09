@@ -119,6 +119,17 @@ class ComprehensiveBreakingChangesAnalyzer:
             transitive_changes = len(self.all_bc_df[self.all_bc_df['Is_Transitive'] == True])
             summary['direct_breaking_changes'] = direct_changes
             summary['transitive_breaking_changes'] = transitive_changes
+
+            # Used direct vs transitive
+            if not self.used_bc_df.empty:
+                direct_used = len(self.used_bc_df[self.used_bc_df['Is_Transitive'] == False])
+                transitive_used = len(self.used_bc_df[self.used_bc_df['Is_Transitive'] == True])
+                summary['direct_used_breaking_changes'] = direct_used
+                summary['transitive_used_breaking_changes'] = transitive_used
+            else:
+                summary['direct_used_breaking_changes'] = 0
+                summary['transitive_used_breaking_changes'] = 0
+
             
             # Release type analysis
             if 'Release_Type' in self.all_bc_df.columns:
@@ -149,6 +160,16 @@ class ComprehensiveBreakingChangesAnalyzer:
         
         summary_df = pd.DataFrame(summary_data)
         summary_df.to_csv(self.output_path / 'summary_statistics.csv', index=False)
+
+        # Append used direct/transitive rows
+        extra_rows = [
+            {'Metric': 'direct_used_breaking_changes', 'Value': summary.get('direct_used_breaking_changes', 0)},
+            {'Metric': 'transitive_used_breaking_changes', 'Value': summary.get('transitive_used_breaking_changes', 0)}
+        ]
+        extra_df = pd.DataFrame(extra_rows)
+        summary_df = pd.concat([summary_df, extra_df], ignore_index=True)
+        summary_df.to_csv(self.output_path / 'summary_statistics.csv', index=False)
+
         
         # Most problematic libraries
         if 'most_problematic_libraries' in summary:
@@ -385,6 +406,14 @@ This report analyzes breaking changes across **{int(summary['total_projects_anal
 |------|-------|------------|
 | **Direct Changes** | {int(summary['direct_breaking_changes']):,} | {summary['direct_breaking_changes']/(summary['direct_breaking_changes']+summary['transitive_breaking_changes'])*100:.1f}% |
 | **Transitive Changes** | {int(summary['transitive_breaking_changes']):,} | {summary['transitive_breaking_changes']/(summary['direct_breaking_changes']+summary['transitive_breaking_changes'])*100:.1f}% |
+
+### 2.1 Used Breaking Changes Distribution
+
+| Type | Count | Percentage |
+|------|-------|------------|
+| **Direct (Used)** | {int(summary['direct_used_breaking_changes']):,} | {summary['direct_used_breaking_changes']/(summary['direct_used_breaking_changes']+summary['transitive_used_breaking_changes'])*100 if (summary['direct_used_breaking_changes']+summary['transitive_used_breaking_changes'])>0 else 0:.1f}% |
+| **Transitive (Used)** | {int(summary['transitive_used_breaking_changes']):,} | {summary['transitive_used_breaking_changes']/(summary['direct_used_breaking_changes']+summary['transitive_used_breaking_changes'])*100 if (summary['direct_used_breaking_changes']+summary['transitive_used_breaking_changes'])>0 else 0:.1f}% |
+
 
 ### 3. Top Problematic Libraries
 
