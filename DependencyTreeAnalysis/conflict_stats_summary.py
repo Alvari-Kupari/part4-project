@@ -68,7 +68,7 @@ def analyze_conflict_csv(csv_path):
     return results
 
 def main():
-    output_dir = Path(r'C:\Users\akup390\Documents\tony-alvari-part4\part4-project\data\rq1\csv-files')
+    output_dir = Path('/Users/tonyyin/Desktop/Courses/SOFTENG700/part4-project/data/rq1/csv')
     summary_csv = output_dir / 'dependency_conflict_stats_summary.csv'
     all_results = []
 
