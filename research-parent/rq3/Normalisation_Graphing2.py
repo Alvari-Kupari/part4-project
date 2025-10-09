@@ -1,9 +1,10 @@
+from pathlib import Path
 import pandas as pd
 import os
 import matplotlib.pyplot as plt
 
 # --- paths ---
-base_folder = r"C:\Users\tyin363\Documents\part4-project\data\rq3"
+base_folder = Path(__file__).parent.parent.parent / "data" / "rq3"
 norm_folder = os.path.join(base_folder, "normalisation")
 figures_folder = os.path.join(base_folder, "figures")
 
@@ -54,49 +55,33 @@ describe("Transitive (no zeros)", trans_nozero)
 direct_clipped = direct_nozero[direct_nozero <= 3]
 trans_clipped = trans_nozero[trans_nozero <= 3]
 
-# --- plot boxplots ---
-fig, axes = plt.subplots(3, 1, figsize=(8, 14), sharex=True)
+# --- function for consistent boxplot styling ---
+def make_boxplot(data_list, labels, output_name):
+    plt.figure(figsize=(8, 6))
+    plt.boxplot(
+        data_list,
+        labels=labels,
+        patch_artist=True,
+        boxprops=dict(facecolor="lightblue", alpha=0.9),
+        medianprops=dict(color="red", linewidth=2),
+        flierprops=dict(marker='o', markersize=4, alpha=0.9),
+        widths=0.4
+    )
+    plt.xlabel("Type", fontsize=14)
+    plt.ylabel("Normalised Score", fontsize=14)
+    plt.xticks(fontsize=12)
+    plt.yticks(fontsize=12)
+    plt.grid(True, alpha=0.6)
+    plt.tight_layout()
 
-# Plot 1: all data
-axes[0].boxplot(
-    [direct_all.dropna(), trans_all.dropna()],
-    labels=["Direct", "Transitive"],
-    patch_artist=True,
-    boxprops=dict(facecolor="lightblue"),
-    medianprops=dict(color="red")
-)
-axes[0].set_title("Including Zero Values")
-axes[0].set_ylabel("Normalised Score")
-axes[0].grid(axis="y", linestyle="--", alpha=0.7)
+    output_path = os.path.join(figures_folder, f"{output_name}.pdf")
+    plt.savefig(output_path, dpi=300, bbox_inches="tight")
+    plt.close()
+    print(f"Saved: {output_path}")
 
-# Plot 2: filtered (no zeros)
-axes[1].boxplot(
-    [direct_nozero.dropna(), trans_nozero.dropna()],
-    labels=["Direct", "Transitive"],
-    patch_artist=True,
-    boxprops=dict(facecolor="lightgreen"),
-    medianprops=dict(color="red")
-)
-axes[1].set_title("Excluding Zero Values")
-axes[1].set_ylabel("Normalised Score")
-axes[1].grid(axis="y", linestyle="--", alpha=0.7)
+# --- generate individual plots ---
+make_boxplot([direct_all.dropna(), trans_all.dropna()], ["Direct", "Transitive"], "boxplot_all_including_zeros")
+make_boxplot([direct_nozero.dropna(), trans_nozero.dropna()], ["Direct", "Transitive"], "boxplot_no_zeros")
+make_boxplot([direct_clipped.dropna(), trans_clipped.dropna()], ["Direct", "Transitive"], "boxplot_no_zeros_clipped")
 
-# ✅ Plot 3: clipped (no zeros, no outliers >3)
-axes[2].boxplot(
-    [direct_clipped.dropna(), trans_clipped.dropna()],
-    labels=["Direct", "Transitive"],
-    patch_artist=True,
-    boxprops=dict(facecolor="lightcoral"),
-    medianprops=dict(color="red")
-)
-axes[2].set_title("Excluding Zero Values & Outliers (Normalised Score ≤ 3)")
-axes[2].set_ylabel("Normalised Score")
-axes[2].grid(axis="y", linestyle="--", alpha=0.7)
-
-fig.suptitle("Distribution of Normalised Scores: Direct vs Transitive", fontsize=14)
-fig.tight_layout(rect=[0, 0, 1, 0.96])
-
-# --- save figure ---
-fig_path = os.path.join(figures_folder, "normalised_boxplots_with_clipped.png")
-plt.savefig(fig_path, dpi=300, bbox_inches="tight")
-print(f"\nSaved figure to: {fig_path}")
+print("\nAll boxplots generated successfully.")
