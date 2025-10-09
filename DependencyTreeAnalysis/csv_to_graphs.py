@@ -1,3 +1,4 @@
+from pathlib import Path
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -5,7 +6,7 @@ import time
 import numpy as np
 
 # Load the CSV
-csv_path = "/Users/tonyyin/Desktop/Courses/SOFTENG700/part4-project/data/rq1/results/dependency_conflict_stats_summary.csv"
+csv_path = Path(__file__).parent.parent / "data" / "rq1" / "results" / "dependency_conflict_stats_summary.csv"
 df = pd.read_csv(csv_path)
 
 # Ensure the column is numeric
@@ -24,9 +25,8 @@ plt.pie(
     colors=['#8fd9b6', '#ffb347'],
     startangle=90
 )
-plt.title('Modules: No Version Conflict vs. Has Version Conflict')
 plt.tight_layout()
-plt.savefig('pie_conflict.png')
+plt.savefig('pie_conflict.pdf')
 # plt.show()
 
 # --- BOX AND WHISKER PLOT ---
@@ -62,22 +62,43 @@ print("Main statistics saved to boxplot_main_statistics.csv")
 
 # Create horizontal box plot
 plt.figure(figsize=(10, 6))
-plt.boxplot(data, 
-           vert=False,  # This makes it horizontal
-           patch_artist=True,
-           boxprops=dict(facecolor='lightblue', alpha=0.7),
-           medianprops=dict(color='red', linewidth=2),
-           flierprops=dict(marker='o', markersize=4, alpha=0.5))
+plt.xlim(data.min() - 1, data.max() + 1)
+plt.boxplot(
+    data,
+    vert=False,
+    patch_artist=True,
+    boxprops=dict(facecolor='lightblue', alpha=0.9),
+    medianprops=dict(color='red', linewidth=2),
+    flierprops=dict(marker='o', markersize=4, alpha=0.9),
+    widths=0.4
+)
 
-plt.xlabel('Conflict Percentage (%)')
-plt.title('Distribution of Conflict Percentage Across Modules (Horizontal)')
-plt.grid(True, alpha=0.3)
+
+plt.yticks([])  # hides the "1" label
+plt.xlabel('Conflict Percentage (%)', fontsize=14)
+plt.xticks(fontsize=12)
+plt.yticks(fontsize=12)
+plt.grid(True, alpha=0.6)
 plt.tight_layout()
 
 print(f"Plot created in {time.time() - start_time:.2f} seconds")
 
-plt.savefig('boxplot_conflict_percentage_horizontal.png', dpi=150, bbox_inches='tight')
+plt.savefig('boxplot_conflict_percentage.pdf', dpi=150, bbox_inches='tight')
 print("Horizontal box plot saved successfully")
+
+# New Plot
+plt.figure(figsize=(10, 6))
+plt.hist(data, bins=30, color='lightblue', edgecolor='black', alpha=0.7)
+plt.xlabel('Conflict Percentage (%)', fontsize=14)
+plt.ylabel('Number of Submodules', fontsize=14)
+plt.xticks(fontsize=12)
+plt.yticks(fontsize=12)
+plt.grid(True, alpha=0.6)
+plt.tight_layout()
+plt.xlim(left=0)
+plt.savefig('histogram_conflict_percentage.pdf', dpi=150, bbox_inches='tight')
+print("Histogram saved successfully")
+
 
 # Comment out plt.show() to avoid display issues
 # plt.show()
