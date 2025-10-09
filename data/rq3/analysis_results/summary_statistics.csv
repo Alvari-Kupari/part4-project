@@ -8,6 +8,10 @@ binary_compatibility_rate,8.284997362163931
 source_compatibility_rate,0.0
 direct_breaking_changes,544969.0
 transitive_breaking_changes,1507850.0
+direct_used_breaking_changes,2203.0
+transitive_used_breaking_changes,1986.0
 avg_breaking_changes_per_project,1136.6661129568106
 avg_used_changes_per_project,1.535437430786268
 projects_with_used_changes,315.0
+direct_used_breaking_changes,2203.0
+transitive_used_breaking_changes,1986.0

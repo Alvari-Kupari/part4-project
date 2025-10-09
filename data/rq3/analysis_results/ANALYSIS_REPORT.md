@@ -1,6 +1,6 @@
 # Breaking Changes Analysis Report
 
-**Generated on:** 2025-10-09 17:32:04
+**Generated on:** 2025-10-09 17:49:14
 
 ## Executive Summary
 
@@ -33,6 +33,14 @@ This report analyzes breaking changes across **1,806** Java projects, examining 
 |------|-------|------------|
 | **Direct Changes** | 544,969 | 26.5% |
 | **Transitive Changes** | 1,507,850 | 73.5% |
+
+### 2.1 Used Breaking Changes Distribution
+
+| Type | Count | Percentage |
+|------|-------|------------|
+| **Direct (Used)** | 2,203 | 52.6% |
+| **Transitive (Used)** | 1,986 | 47.4% |
+
 
 ### 3. Top Problematic Libraries
 
