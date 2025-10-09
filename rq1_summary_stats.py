@@ -62,11 +62,19 @@ class RQ1SummaryAnalyzer:
             'unique_projects': self.df['project'].nunique(),
             'total_submodules': len(self.df),  # Each row is a submodule
             'unique_submodule_names': self.df['submodule'].nunique(),
-            'projects_with_conflicts': len(self.df[(self.df['omitted_conflict_count'] > 0) | 
-                                                  (self.df['version_managed_count'] > 0)]),
-            'projects_without_conflicts': len(self.df[(self.df['omitted_conflict_count'] == 0) & 
-                                                     (self.df['version_managed_count'] == 0)])
+            'submodules_with_conflicts': len(self.df[(self.df['omitted_conflict_count'] > 0) | 
+                                                    (self.df['version_managed_count'] > 0)]),
+            'submodules_without_conflicts': len(self.df[(self.df['omitted_conflict_count'] == 0) & 
+                                                       (self.df['version_managed_count'] == 0)])
         }
+        
+        # Calculate project-level conflict statistics
+        project_has_conflicts = self.df.groupby('project').apply(
+            lambda x: ((x['omitted_conflict_count'] > 0) | (x['version_managed_count'] > 0)).any()
+        )
+        
+        stats['unique_projects_with_conflicts'] = project_has_conflicts.sum()
+        stats['unique_projects_without_conflicts'] = (~project_has_conflicts).sum()
         
         # Dependency statistics
         stats['total_dependencies'] = self.df['total_unique_dependencies'].sum()
@@ -252,8 +260,16 @@ class RQ1SummaryAnalyzer:
             f.write(f"Total Records (Submodules): {basic_stats['total_records']:,}\n")
             f.write(f"Unique Projects: {basic_stats['unique_projects']:,}\n")
             f.write(f"Unique Submodule Names: {basic_stats['unique_submodule_names']:,}\n")
-            f.write(f"Projects with Conflicts: {basic_stats['projects_with_conflicts']:,}\n")
-            f.write(f"Projects without Conflicts: {basic_stats['projects_without_conflicts']:,}\n\n")
+            f.write(f"Submodules with Conflicts: {basic_stats['submodules_with_conflicts']:,}\n")
+            f.write(f"Submodules without Conflicts: {basic_stats['submodules_without_conflicts']:,}\n\n")
+            
+            # Project-Level Statistics
+            f.write("PROJECT-LEVEL STATISTICS\n")
+            f.write("-" * 25 + "\n")
+            f.write(f"Unique Projects with Conflicts: {basic_stats['unique_projects_with_conflicts']:,}\n")
+            f.write(f"Unique Projects without Conflicts: {basic_stats['unique_projects_without_conflicts']:,}\n")
+            f.write(f"Percentage of Projects with Conflicts: {(basic_stats['unique_projects_with_conflicts'] / basic_stats['unique_projects'] * 100):.1f}%\n")
+            f.write(f"Percentage of Projects without Conflicts: {(basic_stats['unique_projects_without_conflicts'] / basic_stats['unique_projects'] * 100):.1f}%\n\n")
             
             # Dependency Statistics
             f.write("DEPENDENCY STATISTICS\n")
@@ -349,6 +365,8 @@ class RQ1SummaryAnalyzer:
         print("=" * 50)
         print(f"Key Findings:")
         print(f"- Analyzed {basic_stats['unique_projects']:,} projects with {basic_stats['total_records']:,} submodules")
+        print(f"- Projects with conflicts: {basic_stats['unique_projects_with_conflicts']:,} ({(basic_stats['unique_projects_with_conflicts'] / basic_stats['unique_projects'] * 100):.1f}%)")
+        print(f"- Projects without conflicts: {basic_stats['unique_projects_without_conflicts']:,} ({(basic_stats['unique_projects_without_conflicts'] / basic_stats['unique_projects'] * 100):.1f}%)")
         print(f"- Total dependencies: {basic_stats['total_dependencies']:,}")
         print(f"- Total conflicts: {basic_stats['total_all_conflicts']:,}")
         print(f"- Average conflict rate: {basic_stats['avg_total_conflict_percentage']:.2f}%")
