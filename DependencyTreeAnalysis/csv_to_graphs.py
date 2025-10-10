@@ -95,7 +95,7 @@ plt.xticks(fontsize=12)
 plt.yticks(fontsize=12)
 plt.grid(True, alpha=0.6)
 plt.tight_layout()
-plt.xlim(left=0)
+plt.xlim(left=0, right=40)
 plt.savefig('histogram_conflict_percentage.pdf', dpi=150, bbox_inches='tight')
 print("Histogram saved successfully")
 
