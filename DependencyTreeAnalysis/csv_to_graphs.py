@@ -39,13 +39,18 @@ print(f"Data shape after cleaning: {df_clean.shape}")
 
 # Calculate main box plot statistics
 data = df_clean['omitted_conflict_percentage']
+
+cutoff = 25
 stats = {
     'minimum': data.min(),
     'lower_quartile_q1': data.quantile(0.25),
     'median_q2': data.median(),
     'upper_quartile_q3': data.quantile(0.75),
-    'maximum': data.max()
+    'maximum': data.max(),
+    'percent_below_cutoff': (data <= cutoff).mean() * 100,
+    'num_below_cutoff': (data <= cutoff).sum()
 }
+
 
 # Print main statistics
 print("\n=== BOX PLOT STATISTICS ===")
@@ -54,6 +59,8 @@ print(f"Lower Quartile (Q1): {stats['lower_quartile_q1']:.2f}%")
 print(f"Median (Q2): {stats['median_q2']:.2f}%")
 print(f"Upper Quartile (Q3): {stats['upper_quartile_q3']:.2f}%")
 print(f"Maximum: {stats['maximum']:.2f}%")
+print(f"% below {cutoff}: {stats['percent_below_cutoff']:.2f}%")
+print(f"num below {cutoff}: {stats['num_below_cutoff']:.2f}")
 
 # Save main statistics to CSV
 stats_df = pd.DataFrame([stats])
