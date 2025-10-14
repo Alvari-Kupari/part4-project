@@ -36,6 +36,7 @@ class ComprehensiveBreakingChangesAnalyzer:
         # Data containers
         self.all_breaking_changes = []
         self.used_breaking_changes = []
+        self.client_symbol_uses = []   # NEW: store client-symbol-uses csvs
         self.projects_analyzed = set()
         
     def load_data(self):
@@ -45,9 +46,11 @@ class ComprehensiveBreakingChangesAnalyzer:
         # Find all CSV files
         all_bc_files = glob.glob(str(self.csv_path / "**" / "*-all-breaking-changes.csv"), recursive=True)
         used_bc_files = glob.glob(str(self.csv_path / "**" / "*-used-breaking-changes.csv"), recursive=True)
+        client_symbol_files = glob.glob(str(self.csv_path / "**" / "*-client-symbol-uses.csv"), recursive=True)  # NEW
         
         print(f"   Found {len(all_bc_files)} all-breaking-changes files")
         print(f"   Found {len(used_bc_files)} used-breaking-changes files")
+        print(f"   Found {len(client_symbol_files)} client-symbol-uses files")
         
         # Load all breaking changes
         for file_path in all_bc_files:
@@ -71,6 +74,17 @@ class ComprehensiveBreakingChangesAnalyzer:
                     self.used_breaking_changes.append(df)
             except Exception as e:
                 print(f"   Warning: Could not load {file_path}: {e}")
+
+        # Load client symbol uses (NEW)
+        for file_path in client_symbol_files:
+            try:
+                df = pd.read_csv(file_path)
+                if not df.empty:
+                    project_name = Path(file_path).parent.name
+                    df['Project'] = project_name
+                    self.client_symbol_uses.append(df)
+            except Exception as e:
+                print(f"   Warning: Could not load {file_path}: {e}")
         
         # Combine all data
         if self.all_breaking_changes:
@@ -82,10 +96,16 @@ class ComprehensiveBreakingChangesAnalyzer:
             self.used_bc_df = pd.concat(self.used_breaking_changes, ignore_index=True)
         else:
             self.used_bc_df = pd.DataFrame()
+
+        if self.client_symbol_uses:   # NEW: combine client symbol uses
+            self.client_uses_df = pd.concat(self.client_symbol_uses, ignore_index=True)
+        else:
+            self.client_uses_df = pd.DataFrame()
             
         print(f"   ✅ Loaded data for {len(self.projects_analyzed)} projects")
         print(f"   📊 Total breaking changes: {len(self.all_bc_df):,}")
         print(f"   🎯 Total used breaking changes: {len(self.used_bc_df):,}")
+        print(f"   🔎 Total client symbol uses rows: {len(self.client_uses_df):,}")
         
     def generate_summary_stats(self):
         """Generate comprehensive summary statistics"""
@@ -114,13 +134,13 @@ class ComprehensiveBreakingChangesAnalyzer:
             summary['binary_compatibility_rate'] = binary_compat_rate
             summary['source_compatibility_rate'] = source_compat_rate
             
-            # Direct vs Transitive
+            # Direct vs Transitive counts (all breaking changes)
             direct_changes = len(self.all_bc_df[self.all_bc_df['Is_Transitive'] == False])
             transitive_changes = len(self.all_bc_df[self.all_bc_df['Is_Transitive'] == True])
             summary['direct_breaking_changes'] = direct_changes
             summary['transitive_breaking_changes'] = transitive_changes
 
-            # Used direct vs transitive
+            # Used direct vs transitive (counts of used breaking change rows)
             if not self.used_bc_df.empty:
                 direct_used = len(self.used_bc_df[self.used_bc_df['Is_Transitive'] == False])
                 transitive_used = len(self.used_bc_df[self.used_bc_df['Is_Transitive'] == True])
@@ -130,6 +150,30 @@ class ComprehensiveBreakingChangesAnalyzer:
                 summary['direct_used_breaking_changes'] = 0
                 summary['transitive_used_breaking_changes'] = 0
 
+            # NEW: number of projects (submodules) that USED a breaking change, split by dependency type
+            if not self.used_bc_df.empty:
+                projects_used_direct = self.used_bc_df[self.used_bc_df['Is_Transitive'] == False]['Project'].unique()
+                projects_used_transitive = self.used_bc_df[self.used_bc_df['Is_Transitive'] == True]['Project'].unique()
+                summary['projects_with_used_breaking_changes_direct'] = int(len(projects_used_direct))
+                summary['projects_with_used_breaking_changes_transitive'] = int(len(projects_used_transitive))
+            else:
+                summary['projects_with_used_breaking_changes_direct'] = 0
+                summary['projects_with_used_breaking_changes_transitive'] = 0
+
+            # NEW: projects that used any functionality (client-symbol-uses), split by dependency type
+            # Exclude client and JDK rows (as user instructed)
+            if not self.client_uses_df.empty:
+                # Normalize library name NaNs to empty string
+                self.client_uses_df['Library_Name'] = self.client_uses_df['Library_Name'].fillna('')
+                mask_valid_lib = ~self.client_uses_df['Library_Name'].isin(['CLIENT:client-code', 'JDK:java.base', ''])
+                client_valid = self.client_uses_df[mask_valid_lib]
+                projects_func_direct = client_valid[client_valid['Is_Transitive'] == False]['Project'].unique()
+                projects_func_transitive = client_valid[client_valid['Is_Transitive'] == True]['Project'].unique()
+                summary['projects_with_any_symbol_use_direct'] = int(len(projects_func_direct))
+                summary['projects_with_any_symbol_use_transitive'] = int(len(projects_func_transitive))
+            else:
+                summary['projects_with_any_symbol_use_direct'] = 0
+                summary['projects_with_any_symbol_use_transitive'] = 0
             
             # Release type analysis
             if 'Release_Type' in self.all_bc_df.columns:
@@ -159,17 +203,21 @@ class ComprehensiveBreakingChangesAnalyzer:
                 summary_data.append({'Metric': key, 'Value': value})
         
         summary_df = pd.DataFrame(summary_data)
+        # Write base summary
         summary_df.to_csv(self.output_path / 'summary_statistics.csv', index=False)
 
-        # Append used direct/transitive rows
+        # Append used direct/transitive rows (keeps original behavior plus newly requested project rows)
         extra_rows = [
             {'Metric': 'direct_used_breaking_changes', 'Value': summary.get('direct_used_breaking_changes', 0)},
-            {'Metric': 'transitive_used_breaking_changes', 'Value': summary.get('transitive_used_breaking_changes', 0)}
+            {'Metric': 'transitive_used_breaking_changes', 'Value': summary.get('transitive_used_breaking_changes', 0)},
+            {'Metric': 'projects_with_used_breaking_changes_direct', 'Value': summary.get('projects_with_used_breaking_changes_direct', 0)},
+            {'Metric': 'projects_with_used_breaking_changes_transitive', 'Value': summary.get('projects_with_used_breaking_changes_transitive', 0)},
+            {'Metric': 'projects_with_any_symbol_use_direct', 'Value': summary.get('projects_with_any_symbol_use_direct', 0)},
+            {'Metric': 'projects_with_any_symbol_use_transitive', 'Value': summary.get('projects_with_any_symbol_use_transitive', 0)},
         ]
         extra_df = pd.DataFrame(extra_rows)
         summary_df = pd.concat([summary_df, extra_df], ignore_index=True)
         summary_df.to_csv(self.output_path / 'summary_statistics.csv', index=False)
-
         
         # Most problematic libraries
         if 'most_problematic_libraries' in summary:
@@ -285,49 +333,20 @@ class ComprehensiveBreakingChangesAnalyzer:
             plt.savefig(self.output_path / 'top_problematic_libraries.png', dpi=300, bbox_inches='tight')
             plt.close()
         
-        # 3. Change Types Distribution
+        # 3. Change Types Distribution -> now a pie chart (PDF)
         if 'most_common_change_types' in summary and summary['most_common_change_types']:
-            fig, ax = plt.subplots(figsize=(14, 10))
-            
             change_types = list(summary['most_common_change_types'].keys())[:10]
             counts = list(summary['most_common_change_types'].values())[:10]
-            
-            # Better label processing - keep more meaningful parts
-            short_types = []
-            for ct in change_types:
-                if 'METHOD_' in ct:
-                    short_types.append(ct.replace('METHOD_', 'Method\n'))
-                elif 'CLASS_' in ct:
-                    short_types.append(ct.replace('CLASS_', 'Class\n'))
-                elif 'FIELD_' in ct:
-                    short_types.append(ct.replace('FIELD_', 'Field\n'))
-                elif 'CONSTRUCTOR_' in ct:
-                    short_types.append(ct.replace('CONSTRUCTOR_', 'Constructor\n'))
-                else:
-                    # For other types, just use first word and add line break
-                    parts = ct.split('_')
-                    if len(parts) > 1:
-                        short_types.append(f"{parts[0]}\n{parts[1]}" if len(parts[1]) > 0 else parts[0])
-                    else:
-                        short_types.append(ct)
-            
-            bars = ax.bar(range(len(short_types)), counts, 
-                         color=plt.cm.Set3(np.linspace(0, 1, len(short_types))))
-            ax.set_xticks(range(len(short_types)))
-            ax.set_xticklabels(short_types, rotation=0, ha='center', fontsize=10)
-            ax.set_ylabel('Number of Changes', fontsize=12)
-            ax.set_title('Top 10 Most Common Change Types', fontsize=14, fontweight='bold', pad=20)
-            
-            # Add value labels on top of bars
-            for bar, count in zip(bars, counts):
-                height = bar.get_height()
-                ax.text(bar.get_x() + bar.get_width()/2., height + height*0.01,
-                       f'{int(count):,}', ha='center', va='bottom', fontweight='bold', fontsize=9)
-            
-            # Adjust layout to prevent label cutoff
-            plt.subplots_adjust(bottom=0.15, top=0.9)
-            plt.savefig(self.output_path / 'change_types_distribution.png', dpi=300, bbox_inches='tight')
+
+            fig, ax = plt.subplots(figsize=(10, 10))
+            ax.pie(counts, labels=change_types, autopct='%1.1f%%', startangle=90)
+            ax.axis('equal')  # keep circle
+            # save as PDF per request
+            pie_path = self.output_path / 'change_types_distribution.pdf'
+            plt.tight_layout()
+            plt.savefig(pie_path, dpi=300, bbox_inches='tight', format='pdf')
             plt.close()
+            print(f"Saved change types pie chart to: {pie_path}")
         
         # 4. Project-level Analysis
         if not self.all_bc_df.empty:
@@ -369,8 +388,16 @@ class ComprehensiveBreakingChangesAnalyzer:
             change_types_df = pd.read_csv(self.output_path / "change_types_summary.csv")
             project_df = pd.read_csv(self.output_path / "project_level_summary.csv")
         except:
-            return
+            libraries_df = pd.DataFrame()
+            change_types_df = pd.DataFrame()
+            project_df = pd.DataFrame()
         
+        # Add new project-level counts for inclusion in the report
+        proj_used_direct = summary.get('projects_with_used_breaking_changes_direct', 0)
+        proj_used_trans = summary.get('projects_with_used_breaking_changes_transitive', 0)
+        proj_func_direct = summary.get('projects_with_any_symbol_use_direct', 0)
+        proj_func_trans = summary.get('projects_with_any_symbol_use_transitive', 0)
+
         markdown_content = f"""# Breaking Changes Analysis Report
 
 **Generated on:** {datetime.now().strftime("%Y-%m-%d %H:%M:%S")}
@@ -399,6 +426,20 @@ This report analyzes breaking changes across **{int(summary['total_projects_anal
 | **Used Breaking Changes** | {int(summary['total_used_breaking_changes']):,} |
 | **Usage Rate** | {summary['usage_rate']:.2f}% |
 | **Unique Libraries with Changes** | {int(summary['total_unique_libraries']):,} |
+
+### 1.1 Projects using breaking changes by dependency type
+
+| Dependency type | Projects using breaking changes |
+|-----------------|-------------------------------:|
+| Direct | {int(proj_used_direct):,} |
+| Transitive | {int(proj_used_trans):,} |
+
+### 1.2 Projects using any library functionality by dependency type (from client symbol uses)
+
+| Dependency type | Projects using functionality |
+|-----------------|-----------------------------:|
+| Direct | {int(proj_func_direct):,} |
+| Transitive | {int(proj_func_trans):,} |
 
 ### 2. Change Distribution
 
@@ -430,9 +471,9 @@ This report analyzes breaking changes across **{int(summary['total_projects_anal
 | Rank | Change Type | Count | Percentage |
 |------|-------------|-------|------------|"""
 
-        total_changes = change_types_df['Count'].sum()
+        total_changes = change_types_df['Count'].sum() if not change_types_df.empty else 0
         for i, (_, row) in enumerate(change_types_df.head(5).iterrows(), 1):
-            percentage = (row['Count'] / total_changes) * 100
+            percentage = (row['Count'] / total_changes) * 100 if total_changes > 0 else 0
             markdown_content += f"\n| {i} | `{row['Change_Type']}` | {int(row['Count']):,} | {percentage:.1f}% |"
 
         markdown_content += f"""
@@ -473,6 +514,12 @@ Despite {int(summary['total_breaking_changes']):,} breaking changes detected, on
             libraries_df = pd.DataFrame()
             change_types_df = pd.DataFrame()
         
+        # New project-level counts
+        proj_used_direct = summary.get('projects_with_used_breaking_changes_direct', 0)
+        proj_used_trans = summary.get('projects_with_used_breaking_changes_transitive', 0)
+        proj_func_direct = summary.get('projects_with_any_symbol_use_direct', 0)
+        proj_func_trans = summary.get('projects_with_any_symbol_use_transitive', 0)
+
         print("\n" + "="*80)
         print("🚨 BREAKING CHANGES ANALYSIS - FINAL SUMMARY")
         print("="*80)
@@ -484,7 +531,16 @@ Despite {int(summary['total_breaking_changes']):,} breaking changes detected, on
         
         print(f"\n🎯 KEY FINDING: Only {summary['usage_rate']:.2f}% of breaking changes are actually used!")
         print(f"   • {int(summary['total_used_breaking_changes']):,} out of {int(summary['total_breaking_changes']):,} changes affect client code")
-        print(f"   • {int(summary['projects_with_used_changes']):,} projects ({summary['projects_with_used_changes']/summary['total_projects_analyzed']*100:.1f}%) have any used breaking changes")
+        print(f"   • {int(summary['projects_with_used_changes']):,} projects ({summary['projects_with_used_changes']/summary['total_projects_analyzed']*100:.1f}%) have used breaking changes")
+
+        # Print the new project-level splits
+        print("\n📌 Projects with used breaking changes by dependency type:")
+        print(f"   • Direct: {int(proj_used_direct):,}")
+        print(f"   • Transitive: {int(proj_used_trans):,}")
+
+        print("\n📌 Projects with any library functionality used (from client-symbol-uses) by dependency type:")
+        print(f"   • Direct: {int(proj_func_direct):,}")
+        print(f"   • Transitive: {int(proj_func_trans):,}")
         
         if not libraries_df.empty:
             print(f"\n🏆 TOP 3 MOST PROBLEMATIC LIBRARIES:")
@@ -512,7 +568,7 @@ Despite {int(summary['total_breaking_changes']):,} breaking changes detected, on
         
         print(f"\n📁 All results saved to: {self.output_path}")
         print("   • CSV files with detailed data")
-        print("   • PNG visualizations")  
+        print("   • PNG and PDF visualizations")  
         print("   • Comprehensive markdown report")
         print("="*80)
     

@@ -1,6 +1,6 @@
 # Breaking Changes Analysis Report
 
-**Generated on:** 2025-10-09 17:49:14
+**Generated on:** 2025-10-14 19:19:25
 
 ## Executive Summary
 
@@ -26,6 +26,20 @@ This report analyzes breaking changes across **1,806** Java projects, examining 
 | **Used Breaking Changes** | 4,189 |
 | **Usage Rate** | 0.20% |
 | **Unique Libraries with Changes** | 1,328 |
+
+### 1.1 Projects using breaking changes by dependency type
+
+| Dependency type | Projects using breaking changes |
+|-----------------|-------------------------------:|
+| Direct | 228 |
+| Transitive | 138 |
+
+### 1.2 Projects using any library functionality by dependency type (from client symbol uses)
+
+| Dependency type | Projects using functionality |
+|-----------------|-----------------------------:|
+| Direct | 1,817 |
+| Transitive | 1,493 |
 
 ### 2. Change Distribution
 
