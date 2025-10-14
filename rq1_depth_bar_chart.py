@@ -81,10 +81,10 @@ def create_depth_bar_chart(depth_counts, total_conflicts, output_file="rq1_confl
     
     # Customize the plot
     # No title, larger labels and tick sizes
-    plt.xlabel('Dependency Depth', fontsize=16)
-    plt.ylabel('Number of Conflicts', fontsize=16)
-    plt.xticks(fontsize=14)
-    plt.yticks(fontsize=14)
+    plt.xlabel('Dependency Depth', fontsize=18)
+    plt.ylabel('Number of Conflicts', fontsize=18)
+    plt.xticks(fontsize=16)
+    plt.yticks(fontsize=16)
 
     
     # Add value labels on top of bars 
@@ -115,7 +115,8 @@ def create_depth_bar_chart(depth_counts, total_conflicts, output_file="rq1_confl
 
     
     # Set x-axis to show all depths clearly
-    plt.xticks(depths)
+    plt.xticks(depths, [int(d + 1) for d in depths])
+
     
     # If there are many depths, rotate labels for better readability
     if len(depths) > 15:
