@@ -1423,7 +1423,6 @@ skjolber__3d-bin-container-packing_jmh,83,0,0.1686746987951807,0.0,22,0.0
 skjolber__3d-bin-container-packing_packaging,233,0,0.0815450643776824,0.0,64,0.0
 skjolber__3d-bin-container-packing_test,251,0,0.08366533864541832,0.0,82,0.0
 sladkoff__minecraft-prometheus-exporter_sladkoff__minecraft-prometheus-exporter,406,0,0.06157635467980296,0.0,280,0.0
-snehasishroy__leetcode-companywise-interview-questions,197,3,0.14720812182741116,0.0,123,1.5228426395939088
 sofastack__sofa-jraft_jraft-example,945,23,0.2857142857142857,0.0,533,2.433862433862434
 sofastack__sofa-jraft_jraft-test,6,0,0.0,0.0,0,0.0
 sofastack__sofa-jraft_rheakv-pd,1075,45,0.3655813953488372,0.0,669,4.186046511627907
@@ -1699,7 +1698,6 @@ weld__core_tests-arquillian,127,0,0.09448818897637795,0.0,126,0.0
 wgzhao__dbeaver-agent_wgzhao__dbeaver-agent,110,0,0.19090909090909092,0.0,21,0.0
 wildfirechat__app-server_wildfirechat__app-server,4594,91,0.20940356987374836,0.0,3616,1.9808445798868086
 wildfirechat__im-server_sdk,125,0,0.208,0.0,3,0.0
-wimdeblauwe__error-handling-spring-boot-starter,415,0,0.05060240963855422,0.0,413,0.0
 wimdeblauwe__htmx-spring-boot_htmx-spring-boot,483,0,0.08281573498964803,0.0,418,0.0
 wimdeblauwe__htmx-spring-boot_htmx-spring-boot-thymeleaf,382,0,0.07329842931937172,0.0,382,0.0
 winder__Universal-G-Code-Sender_ugs-cli,2,0,1.0,0.0,0,0.0

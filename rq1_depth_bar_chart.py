@@ -55,7 +55,7 @@ def load_and_analyze_conflicts(csv_folder_path):
     
     return depth_counts, total_conflicts
 
-def create_depth_bar_chart(depth_counts, total_conflicts, output_file="rq1_conflicts_by_depth.png"):
+def create_depth_bar_chart(depth_counts, total_conflicts, output_file="rq1_conflicts_by_depth.pdf"):
     """
     Create a bar chart showing conflicts by depth.
     
@@ -80,9 +80,12 @@ def create_depth_bar_chart(depth_counts, total_conflicts, output_file="rq1_confl
     bars = plt.bar(depths, counts, color='steelblue', alpha=0.7, edgecolor='black', linewidth=0.5)
     
     # Customize the plot
-    plt.title('RQ1: Number of Conflicts by Dependency Depth', fontsize=16, fontweight='bold', pad=20)
-    plt.xlabel('Dependency Depth', fontsize=12)
-    plt.ylabel('Number of Conflicts', fontsize=12)
+    # No title, larger labels and tick sizes
+    plt.xlabel('Dependency Depth', fontsize=18)
+    plt.ylabel('Number of Conflicts', fontsize=18)
+    plt.xticks(fontsize=16)
+    plt.yticks(fontsize=16)
+
     
     # Add value labels on top of bars 
     max_count = max(counts)
@@ -95,7 +98,7 @@ def create_depth_bar_chart(depth_counts, total_conflicts, output_file="rq1_confl
                     f'{count}', ha='center', va='bottom', fontsize=font_size)
     
     # Add grid for easier reading
-    plt.grid(True, alpha=0.3, axis='y')
+    plt.grid(True, alpha=0.6, axis='y', color='gray')
     
     # Add statistics text box
     peak_depth = depths[counts.index(max(counts))]
@@ -104,12 +107,16 @@ def create_depth_bar_chart(depth_counts, total_conflicts, output_file="rq1_confl
     stats_text += f'Most Conflicts at Depth: {peak_depth}\n'
     stats_text += f'Peak Conflicts: {max(counts):,}'
     
-    plt.text(0.02, 0.98, stats_text, transform=plt.gca().transAxes, 
-             fontsize=10, verticalalignment='top',
-             bbox=dict(boxstyle='round', facecolor='wheat', alpha=0.8))
+    # plt.text(0.02, 0.98, stats_text, transform=plt.gca().transAxes, 
+    #          fontsize=10, verticalalignment='top',
+    #          bbox=dict(boxstyle='round', facecolor='wheat', alpha=0.8))
+    # Print stats instead of showing on chart
+    print("\n" + stats_text)
+
     
     # Set x-axis to show all depths clearly
-    plt.xticks(depths)
+    plt.xticks(depths, [int(d + 1) for d in depths])
+
     
     # If there are many depths, rotate labels for better readability
     if len(depths) > 15:
@@ -141,7 +148,7 @@ def main():
     Main execution function.
     """
     # Set up path to CSV folder
-    csv_folder = "/Users/tonyyin/Desktop/Courses/SOFTENG700/part4-project/data/rq1/csv"
+    csv_folder = Path(__file__).parent / "data" / "rq1" / "csv"
     
     print("RQ1: Analyzing Conflict Depth Patterns")
     print("=" * 40)

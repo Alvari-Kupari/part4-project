@@ -421,9 +421,57 @@ class MavenDependencyAnalyzer:
             for library, count in sorted(library_counts.items(), key=lambda x: x[1], reverse=True)[:10]:
                 print(f"  {library}: {count} conflicts")
 
+
+    def count_empty_trees(self):
+        """
+        Count how many dependency trees (digraphs) are empty across all .dot files.
+        A tree is considered empty if it has no edges and no dependencies.
+        """
+        total_trees = 0
+        empty_trees = 0
+
+        dot_files = list(self.dot_files_dir.glob('*.dot'))
+        if not dot_files:
+            print("No .dot files found in the directory.")
+            return
+
+        for dot_file in dot_files:
+            with open(dot_file, 'r', encoding='utf-8') as f:
+                content = f.read()
+
+            # Find all digraph sections
+            digraph_sections = re.findall(r'digraph\s+([^{]+)\s*{([^}]+)}', content, re.DOTALL)
+            if not digraph_sections:
+                # If no digraph sections found, treat the entire file as one "tree"
+                total_trees += 1
+                if not content.strip():
+                    empty_trees += 1
+                continue
+
+            # Check each digraph section
+            for name, section in digraph_sections:
+                total_trees += 1
+
+                # Look for at least one edge
+                has_edge = bool(re.search(r'"[^"]+"\s*->\s*"[^"]+"', section))
+                # Look for at least one node (quoted label)
+                has_node = bool(re.search(r'"[^"]+"', section))
+
+                if not has_edge and not has_node:
+                    empty_trees += 1
+
+        print(f"\n=== EMPTY TREE SUMMARY ===")
+        print(f"Total digraphs (trees): {total_trees}")
+        print(f"Empty trees: {empty_trees}")
+        print(f"Non-empty trees: {total_trees - empty_trees}")
+        print(f"Percentage empty: {round((empty_trees / total_trees * 100), 2) if total_trees > 0 else 0}%")
+
+        return empty_trees, total_trees
+    
+
 def main():
-    # dot_files_dir = "../data/dot_files"
-    dot_files_dir = r"C:\Users\akup390\Documents\tony-alvari-part4\part4-project\data\rq1\dot-files"
+    dot_files_dir = "data/rq1/dot_files"
+    # dot_files_dir = r"C:\Users\akup390\Documents\tony-alvari-part4\part4-project\data\rq1\dot-files"
     output_dir = "output"
     
     if not os.path.exists(dot_files_dir):
@@ -431,6 +479,8 @@ def main():
         return
     
     analyzer = MavenDependencyAnalyzer(dot_files_dir, output_dir)
+
+    analyzer.count_empty_trees()
     
     print("Starting Maven dependency version conflict analysis...")
     analyzer.analyze_all_projects()
