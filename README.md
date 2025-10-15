@@ -1,7 +1,8 @@
 # Research Compendium: Transitive Dependency Conflict Analysis in Java Projects
 
 **Project Number:** 106  
-**Team Members:** Tony Yin (tyin363), Alvari Kupari (akup485)  
+**Team Members:** Tony Yin (tyin363), Alvari Kupari (akup390)  
+**Supervisors:** Kelly Blincoe, Valerio Terragni,  Dhanushka Jayasuriya
 **Course:** SOFTENG 700 - Research Project Part 4  
 **Date:** October 2025
 
@@ -552,7 +553,7 @@ A small number of popular libraries (e.g., Jackson, gRPC) account for a dispropo
 - Data processing and CSV generation
 - Documentation and reporting
 
-### Alvari Kupari (akup485)
+### Alvari Kupari (akup390)
 
 - Java-based analysis tool development (depanalyzer)
 - Breaking change detection implementation (RQ3)
@@ -605,8 +606,7 @@ A small number of popular libraries (e.g., Jackson, gRPC) account for a dispropo
 For questions or clarifications about this research:
 
 - **Tony Yin:** tyin363@aucklanduni.ac.nz
-- **Alvari Kupari:** akup485@aucklanduni.ac.nz
-- **Supervisor:** [Supervisor name and contact]
+- **Alvari Kupari:** akup390@aucklanduni.ac.nz
 
 ---
 
