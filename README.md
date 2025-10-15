@@ -1,4 +1,4 @@
-# Research Compendium: Transitive Dependency Conflict Analysis in Java Projects
+# Research Compendium: Understanding and Resolving Transitive Dependency Conflicts
 
 **Project Number:** 106  
 **Team Members:** Tony Yin (tyin363), Alvari Kupari (akup390)  
