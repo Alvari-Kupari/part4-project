@@ -1,7 +1,7 @@
 # Research Compendium: Understanding and Resolving Transitive Dependency Conflicts
 
 **Project Number:** 106  
-**Team Members:** Tony Yin (tyin363), Alvari Kupari (akup485)  
+**Team Members:** Tony Yin (tyin363), Alvari Kupari (akup390)  
 **Supervisors:** Dr. Kelly Blincoe, Dr. Valerio Terragni, Dhanushka Jayasuriya  
 **Course:** SOFTENG 700 - Research Project Part 4  
 **Date:** October 2025
@@ -714,7 +714,7 @@ A small number of popular libraries account for disproportionate breaking change
 - **Tool Development:** Contributed to data pipeline and analysis workflow
 - **Report Writing:** Co-author of final report, responsible for RQ1 sections
 
-### Alvari Kupari (akup485)
+### Alvari Kupari (akup390)
 
 - **Tool Architecture:** Designed and implemented `depanalyzer` Maven plugin
 - **RQ2 Implementation:** Breaking change detection using Japicmp and JavaParser
